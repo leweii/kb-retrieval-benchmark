@@ -1,57 +1,69 @@
 {
- "summary": "A fiction excerpt (Book 10, part 150) in which Ria explains to Leon how a powerful figure named Viktor spent about eight billion rupiah to engineer quieter jetpacks and fake consumer-protection lawsuits forcing recalls, stressing that power rather than money is what matters and that the Viktor group does not use assassination. The scene then moves to a rooftop co-op bar with a conservatory of limes and mint, where Ria, a member who worked off her membership by planting trees, admits she earns a lot of money. The note is cut off mid-scene.",
- "one_line": "Ria explains to Leon how Viktor engineered quieter jetpacks through staged lawsuits, then they drink daiquiris at a rooftop co-op bar.",
+ "summary": "An excerpt from a fiction work (Book 10, part 150) in which Ria explains to Leon how a large sum was spent on quieting the skies: fake consumer-protection lawsuits forced recalls of loud jetpacks, which were rebuilt with engineered quiet pipes. She insists the scheme avoided bribery and assassination and frames the money as a means of directing power. The scene then shifts to a rooftop co-op bar where Ria, a member who worked off her membership by planting trees and a mint garden, discusses her wealth with Leon.",
+ "one_line": "Ria explains to Leon how a billion-scale project quieted city jetpacks through staged lawsuits, then they drink daiquiris on a rooftop co-op.",
  "key_facts": [
-  "Ria says Viktor's group spent about eight billion in the end on a project to make the skies quieter.",
-  "The group staged consumer-protection lawsuits to 'force' a recall of the loud jetpacks.",
-  "The recalled jetpacks were rebuilt with pipes engineered and tuned so they could be used for the woodwinds section.",
-  "Ria says the project let everyone get what they wanted: fast rides, quiet skies, safe and cheap vehicles, which she calls 'Win win win.'",
-  "Ria says buying laws or buying out competitors would have been possible but were 'very, you know, blunt.'",
-  "Ria says 'The sums are just a convenient way of directing power. Power is what matters.'",
-  "Ria tells Leon, 'We don't use assassination,' when he jokes about Viktor ninjas.",
-  "An old school flyer with a loud jetpack roars past, and Ria says he will be machining his own replacement parts because no one makes them anymore.",
-  "The rooftop conservatory's limes are juiced by the barman over his blender to make daiquiris.",
-  "Ria says you cannot buy your way into the rooftop bar; you have to work it off because it is a co-op.",
-  "Ria says she planted the row of trees and the mint garden on the rooftop.",
-  "Ria admits, unembarrassed, that she earns a lot of money when Leon asks about it."
+  "Ria says the company dummied-up consumer-protection lawsuits that 'forced' the recall of loud jetpacks.",
+  "The recalled jetpacks were rebuilt with pipes engineered and tuned for quieter flight.",
+  "Ria says Viktor spent about eight billion in the end on the quieting project.",
+  "Ria says the sums are 'meaningless' and that 'Power is what matters.'",
+  "Ria says the group does not use assassination, and Leon's joke about Viktor ninjas offing a jetpack rider falls flat.",
+  "Ria describes the approach as 'sweet' and says everyone got what they wanted: fast rides, quiet skies, safe, cheap vehicles.",
+  "An old school jetpack flyer is described as loud as the inside of an ice-blender and is said to be machining his own replacement parts because no one makes them anymore.",
+  "The rooftop conservatory bar serves daiquiris made with limes picked from trees on the roof.",
+  "The barman inspects several limes before twisting off a basket's worth and juicing them over his blender.",
+  "Membership at the rooftop bar is not for sale; members must work it off because it is a co-op.",
+  "Ria says she planted the whole row of trees on the roof.",
+  "Ria says she also planted the mint garden, which has a small stream winding through rocks.",
+  "Leon guesses that Ria must earn a lot of money, and she responds unembarrassed, waggling her eyebrows."
  ],
  "entities": [
   {
-   "name": "Ria",
-   "type": "person",
-   "role": "woman who explains Viktor's jetpack project to Leon and takes him to the rooftop co-op bar; planted the trees and mint garden"
-  },
-  {
    "name": "Leon",
    "type": "person",
-   "role": "protagonist who listens to Ria's explanations and asks questions"
+   "role": "protagonist who listens to Ria's explanation and tries a joke that falls flat"
+  },
+  {
+   "name": "Ria",
+   "type": "person",
+   "role": "woman who explains the quieting scheme and takes Leon to the rooftop co-op bar"
   },
   {
    "name": "Viktor",
    "type": "person",
-   "role": "figure whose group spent about eight billion on making jetpacks quieter through staged lawsuits and recalls"
+   "role": "figure who dropped about eight billion on the project to quiet the skies"
+  },
+  {
+   "name": "Viktor ninjas",
+   "type": "other",
+   "role": "joking reference by Leon to assassins who might be sent after the jetpack flyer"
   },
   {
    "name": "Union Square",
    "type": "place",
-   "role": "destination the loud jetpack flyer is heading toward"
+   "role": "destination of the loud jetpack flyer"
   },
   {
-   "name": "rooftop conservatory co-op bar",
+   "name": "rooftop conservatory",
    "type": "place",
-   "role": "rooftop bar where members work off membership, with lime trees and a mint garden, where Ria and Leon drink daiquiris"
+   "role": "co-op bar where the daiquiris are served, with trees and a mint garden"
+  },
+  {
+   "name": "old school flyer",
+   "type": "other",
+   "role": "loud jetpack rider who roars past leaving scowling onlookers"
   }
  ],
  "tags": [
   "fiction",
   "jetpacks",
+  "noise abatement",
   "power and money",
-  "noise regulation",
-  "rooftop bar"
+  "rooftop bar",
+  "co-op"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1948,
-  "output_tokens": 1009
+  "output_tokens": 1074
  }
 }

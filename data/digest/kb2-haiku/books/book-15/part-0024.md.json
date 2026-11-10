@@ -1,32 +1,32 @@
 {
- "summary": "An excerpt from a science-fiction novel set aboard the station Paraclete, where Ray and a companion choose Thai food at Bangkok House, run by Ng Uk-Thong. The passage describes the rats' favored status with the Thai franchisee, their late-night routine of queuing for broadcast array time, and the chaotic service of Uk-Thong's Brazilian wife, Maria Concita, who berates the kitchen staff in a hostile management style.",
- "one_line": "Ray and a companion pick Thai food at Bangkok House on Paraclete, where the rats' late-night broadcast routine and Maria Concita's abusive counter service are described.",
+ "summary": "Ray and a companion agree on Thai food and go to Bangkok House on Paraclete, run by Ng Uk-Thong. The note describes the rats' habits: they sleep late, trade during the afternoon, and queue for the broadcast array that Commander Sorensen allows only in the evening. At the nearly empty restaurant, Uk-Thong's wife Maria Concita runs the counter alone and shouts abuse at the kitchen staff. The passage mixes comic description with commentary on the rats' lives and the Thai approach to recycling.",
+ "one_line": "Ray and a companion visit Bangkok House on Paraclete, where the rats' late-night schedule and Maria Concita's loud management style set the scene.",
  "key_facts": [
-  "Ray and his companion agree after a heated discussion that they are both in the mood for Thai food.",
-  "Thai trash is always a rat favorite, for reasons Ray has never been able to fathom.",
-  "Ng Uk-Thong, the Thai franchisee on Paraclete, steadfastly refuses to strike a food-for-labor deal with the system vets.",
-  "The text suggests Uk-Thong is aware of his favored-nation status among the rat leadership.",
-  "Commander Sorensen does not let the rats use the broadcast array to multiply their fortunes until late in the evening.",
-  "The rats now rise late and assemble in a queue outside the Network Control hub just off the auxiliary communications bridge.",
-  "Bangkok House is nearly deserted when the rats arrive.",
-  "Ng Uk-Thong's Brazilian wife, Maria Concita, mans the service counter alone from a stool behind the cash register.",
-  "Maria Concita wears a floral print sarong and has a considerable bulk, described with comic exaggeration.",
-  "The chefs at Bangkok House generated very little raw waste because a good food processor covers a multitude of culinary sins.",
-  "Maria Concita's management style is described as legendary, hostile and howling toward the kitchen staff.",
-  "Maria Concita threatens the kitchen that Gucho will cut their throat with his box knife.",
-  "The rats' daytime habits include sending wives to theatres, shoving kids out onto the main concourse, and drinking themselves into stupors at their desks.",
-  "The narrator observes that a man's body should not become a personal metaphor system for a catalog of bad memories."
+  "Ray has never been able to fathom why Thai trash is always a rat favorite.",
+  "Ng Uk-Thong is the Thai franchisee on Paraclete.",
+  "Ng Uk-Thong steadfastly refuses to strike a food-for-labor deal with the system vets.",
+  "The note says Uk-Thong sees no reason to make compromises with mere carbon-form emissaries.",
+  "The chefs at Uk-Thong's Bangkok House used a good food processor, so they generated very little raw waste.",
+  "Commander Sorensen does not let the rats use the broadcast array until late in the evening.",
+  "The rats now rise late and plot their fiscal strategies in the hours between noon and six.",
+  "The rats queue outside the Network Control hub just off the auxiliary communications bridge.",
+  "Bangkok House is nearly deserted when Ray and his companion arrive.",
+  "Maria Concita, Ng Uk-Thong's dowdy Brazilian wife, mans the service counter alone from a stool behind the cash register.",
+  "Maria Concita wears a floral print sarong and displays a length of cleavage the note says could be detected by satellite reconnaissance.",
+  "Maria Concita is known for a hostile and howling management style aimed at the kitchen's chaos.",
+  "Maria Concita threatens that Gucho will cut throats with a box knife if the kitchen keeps dropping dishes.",
+  "Maria Concita tells a customer the chicken is fresh from the flash freeze unit this morning."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "character who narrates and chooses Thai food with a companion"
+   "role": "character who has never understood why Thai trash is a rat favorite; he and a companion go to Bangkok House for Thai food"
   },
   {
    "name": "Ng Uk-Thong",
    "type": "person",
-   "role": "Thai franchisee on Paraclete who refuses a food-for-labor deal with the system vets"
+   "role": "Thai franchisee on Paraclete who refuses a food-for-labor deal with the system vets and owns Bangkok House"
   },
   {
    "name": "Maria Concita",
@@ -36,50 +36,50 @@
   {
    "name": "Commander Sorensen",
    "type": "person",
-   "role": "controls access to the broadcast array, allowing use only late in the evening"
+   "role": "official who controls rat access to the broadcast array, allowing it only late in the evening"
   },
   {
    "name": "Gucho",
    "type": "person",
-   "role": "kitchen worker threatened with a box knife by Maria Concita"
-  },
-  {
-   "name": "Paraclete",
-   "type": "place",
-   "role": "setting station where Bangkok House and the Thai franchise are located"
+   "role": "kitchen worker threatened by Maria Concita with a box knife"
   },
   {
    "name": "Bangkok House",
    "type": "organization",
-   "role": "Thai restaurant run by Ng Uk-Thong and Maria Concita"
+   "role": "Thai restaurant on Paraclete run by Ng Uk-Thong, nearly deserted when the characters arrive"
+  },
+  {
+   "name": "Paraclete",
+   "type": "place",
+   "role": "location of Ng Uk-Thong's Thai franchise and Bangkok House"
   },
   {
    "name": "Network Control hub",
    "type": "place",
-   "role": "site outside which the rats queue, located just off the auxiliary communications bridge"
+   "role": "site just off the auxiliary communications bridge where the rats queue in the evening"
   },
   {
-   "name": "rat leadership",
-   "type": "organization",
-   "role": "leadership group among the rats that holds favored-nation status with Uk-Thong"
+   "name": "rats",
+   "type": "other",
+   "role": "group that favors Thai trash, sleeps late, plans fiscal strategies, and queues for the broadcast array"
   },
   {
    "name": "system vets",
-   "type": "organization",
-   "role": "group of carbon-form emissaries that Uk-Thong refuses to make compromises with"
+   "type": "other",
+   "role": "group that Ng Uk-Thong refuses to make a food-for-labor deal with"
   }
  ],
  "tags": [
+  "fiction",
   "science fiction",
-  "fiction excerpt",
-  "space station",
-  "thai food",
-  "satire",
-  "characters"
+  "restaurant scene",
+  "paraclete",
+  "rats",
+  "thai food"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1984,
-  "output_tokens": 1869
+  "output_tokens": 2041
  }
 }

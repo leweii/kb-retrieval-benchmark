@@ -1,86 +1,81 @@
 {
- "summary": "An excerpt from a science-fiction novel (Book 15, part 152) in which Ray explains to Becker how he isolated the signature of a suspect, Freddy, and used the surveillance net to track his movements. The footage shows a gap around the time of death, while days of tracking place Freddy at a high-class, exclusive franchise near the main lift. Ray says the pattern is a start toward a circumstantial case, but Becker says it is not enough to bring in a powerful Whiston for questioning.",
- "one_line": "In a shipboard science-fiction excerpt, Ray uses surveillance footage to show suspect Freddy's whereabouts, but Becker wants stronger proof before questioning a powerful Whiston.",
+ "summary": "A fiction excerpt in which Ray explains how he isolated a suspect's chemical signature from a rat sample near the Whiston suite and used the ship's surveillance net to track the suspect, Freddy, over four days. The footage shows a gap during the critical hours before and after the estimated time of death, while the suspect is otherwise often found at a high-class franchise near the main lift. Becker notes that the evidence is only circumstantial and not enough to bring in a powerful Whiston for questioning.",
+ "one_line": "Ray tracks a suspect named Freddy through shipboard surveillance, finding a gap around the time of death, but Becker says the circumstantial case is not enough.",
  "key_facts": [
-  "Ray says he used roundabout methods to get a rat near the Whiston suite so he could isolate Freddy's signature.",
-  "Ray says he spent time in the presence of Miss Whiston while gathering evidence, which he describes as the official record.",
+  "Ray isolated Freddy's signature by obtaining a rat in the vicinity of the Whiston suite and analyzing it.",
+  "Ray used roundabout methods to get a rat near the Whiston suite in full analysis mode, since he did not want to ask for a sample directly.",
   "Ray coded a search of the surveillance net into the regular drone routine after isolating Freddy's signature.",
   "Ray redirected the surveillance net to track Freddy's movements for the last four days.",
-  "The footage shows conclusive movements before the estimated time of death and activities a few hours after, with a big gaping hole in the middle.",
-  "Becker reacts to the gap in the footage with the words \"Aw, hell.\"",
-  "Freddy is found at a franchise described as high class, high price, with exclusive tastes, where lap dances in the back room are cheaper than the drinks.",
-  "The franchise is right off the main lift, giving customers easy access to just about anywhere on the ship.",
-  "Freddy lines up in the nightly batch transmission queue like other businessmen, the only time he is not at the franchise.",
-  "Ray cut footage of Freddy's less liquid adventures because it was not family friendly and the stream might be played at various venues.",
-  "Freddy's passenger pre-screen shows no psychological issues, no legal history, and no profile as a potential incident perpetrator.",
-  "Ray says Freddy has no reputation for violence, though he is said to be violent where his sister is concerned.",
+  "The footage shows fairly conclusive movements of Freddy before the estimated time of death and activities a few hours after.",
+  "The footage contains a big gaping hole in the middle, covering the critical hours.",
+  "Freddy is usually found at the franchise during almost any time of day, except during the nightly batch transmission.",
+  "The franchise is high class, high price, and exclusive, and it is located right off the main lift.",
+  "Ray cut footage of Freddy's less liquid adventures because it was not family friendly viewing.",
+  "Freddy has a reputation for being a man who pays handsomely for satisfaction and confidentiality.",
+  "Freddy's passenger pre-screen shows no psychological issues, no legal history, and no profile as an incident perpetrator.",
   "Becker says there is no definitive proof, only evidence of absence during the critical hours.",
   "Ray responds that he has pattern, which is the start of a decent circumstantial case.",
-  "Becker feels it is not enough to bring in a Whiston for questioning, since the family is powerful in this corner of human space."
+  "Becker considers the circumstantial case insufficient to bring in a suspect as powerful as a Whiston for questioning.",
+  "Freddy's sister is a Whiston, and Becker grimaces when thinking about her."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "speaker who analyzed the surveillance data and tracked Freddy's movements"
+   "role": "narrator-adjacent technician who analyzed the rat sample and tracked Freddy via surveillance footage"
   },
   {
    "name": "Becker",
    "type": "person",
-   "role": "listener who doubts the evidence is enough to question a powerful suspect"
+   "role": "listener who rumbles dismay and doubts the evidence is enough to question a Whiston"
   },
   {
    "name": "Freddy",
    "type": "person",
-   "role": "suspect whose signature was isolated and whose movements were tracked; brother of Miss Whiston's family"
+   "role": "suspect whose signature was isolated and whose movements were tracked; a wealthy passenger with a taste for exclusive venues"
   },
   {
    "name": "Miss Whiston",
    "type": "person",
-   "role": "member of the Whiston family whom Ray spent time with while gathering evidence"
-  },
-  {
-   "name": "Whiston",
-   "type": "organization",
-   "role": "powerful family in this corner of human space; Freddy's sister is connected to them"
+   "role": "woman Ray has spent much time with recently; Freddy's sister"
   },
   {
    "name": "Whiston suite",
    "type": "place",
-   "role": "location near which Ray obtained a sample"
+   "role": "accommodation area near which the rat sample was obtained"
   },
   {
-   "name": "franchise",
+   "name": "The franchise",
    "type": "place",
-   "role": "high-class, high-price exclusive establishment where Freddy is usually found, near the main lift"
+   "role": "high-class, high-price, exclusive venue near the main lift where Freddy is often found"
   },
   {
-   "name": "main lift",
+   "name": "Main lift",
    "type": "place",
-   "role": "ship transit point giving franchise customers access to anywhere on the ship"
+   "role": "ship transit point giving customers easy access to anywhere on the ship"
   },
   {
-   "name": "surveillance net",
+   "name": "Surveillance net",
    "type": "program",
-   "role": "tracking system Ray searched and redirected to follow Freddy"
+   "role": "shipboard tracking system with drones used to follow Freddy's movements"
   },
   {
-   "name": "data repository",
+   "name": "Data repository",
    "type": "program",
-   "role": "database into which the evidence chain was plugged to search for hits"
+   "role": "database into which the isolated evidence chain could be plugged to search for hits"
   }
  ],
  "tags": [
+  "fiction",
   "science fiction",
+  "investigation",
   "surveillance",
   "circumstantial evidence",
-  "investigation",
-  "shipboard setting",
-  "fiction excerpt"
+  "suspects"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1902,
-  "output_tokens": 1288
+  "output_tokens": 1219
  }
 }

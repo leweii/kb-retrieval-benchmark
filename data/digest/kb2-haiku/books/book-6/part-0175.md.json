@@ -1,52 +1,41 @@
 {
- "summary": "In this excerpt from Book 6, the narrator pleads with Checker to drop an investigation into the narrator's memory loss, saying it is their own life and they want the past kept locked away. Checker refuses, citing possible danger and enemies, and the narrator leaves the Hole without looking back. After a night of nightmares, the narrator goes out into the darkened streets seeking strong chemical remedies.",
- "one_line": "The narrator begs Checker to abandon an investigation into their damaged memory, is refused, storms out, and turns to drugs.",
+ "summary": "In this excerpt from Book 6 of a fiction series, the narrator pleads with Checker to drop an investigation into the narrator's memory, saying it is her own life and her own choice. Checker refuses, arguing that the narrator's memory may be altered by whatever happened to her and that she could be in danger from other enemies. The narrator leaves the Hole without looking back, dreams of monsters, and wakes to seek strong drugs in the streets.",
+ "one_line": "The narrator begs Checker to abandon an investigation into her memory, he refuses, and she leaves the Hole and turns to drugs.",
  "key_facts": [
-  "The narrator tells Checker, \"I don't need a reason,\" and asks him to \"Leave it alone. Please.\"",
-  "Checker says \"I can't\" when asked to let the matter go, insisting the narrator might be in danger.",
-  "Checker argues that whatever happened to the narrator might be influencing them to ask him to stop investigating.",
-  "The narrator says, \"If you're in trouble, I'll come,\" and says Checker should call when he changes his mind.",
-  "The narrator pushes open the door and leaves the Hole without looking back.",
-  "Checker calls after the narrator, imploring and frantic, but the narrator does not acknowledge him.",
-  "The narrator dreams of \"half-real monsters\" who smother them in false memory and distorted realities.",
-  "The narrator wakes a few hours later and stumbles toward the darkened streets.",
-  "The narrator seeks \"the strongest chemical remedies money and back alleyways could offer.\"",
-  "The narrator describes their brain as \"broken, already-damaged\" and wants to keep it all locked away.",
-  "Checker speaks slowly and quietly, his voice cracking, and holds the narrator's eyes pleadingly.",
-  "The narrator says, \"Cas, don't make me—\" in the exchange, indicating Cas is the narrator's name as used by Checker."
+  "The narrator tells Checker, \"I don't need a reason,\" and says the memory is her own life.",
+  "The narrator asks Checker to \"Leave it alone. Please.\"",
+  "Checker says he cannot let it go because whatever happened to the narrator might be influencing her to say that.",
+  "Checker says \"We've seen it before\" regarding memory influence.",
+  "Checker says the narrator \"could be in danger\" and \"could have other enemies out there.\"",
+  "Checker states, \"I'm not going to sit by and let you ignore this, even if you ask me to.\"",
+  "When the narrator tells Checker to say he will let it go, he squeezes his eyes shut and replies, \"I can't.\"",
+  "The narrator says, \"If you're in trouble, I'll come,\" and says he should call her when he changes his mind.",
+  "The narrator leaves the Hole without looking back while Checker calls after her.",
+  "The narrator dreams of \"half-real monsters\" that smother her in false memory and distorted realities.",
+  "When the narrator wakes a few hours later, she goes out into the darkened streets seeking \"the strongest chemical remedies money and back alleyways could offer.\""
  ],
  "entities": [
   {
    "name": "Checker",
    "type": "person",
-   "role": "Character who refuses to drop the investigation into the narrator's memory and pleads with the narrator as they leave"
+   "role": "the narrator's friend who refuses to drop the investigation into her memory and calls after her as she leaves"
   },
   {
-   "name": "Cas",
-   "type": "person",
-   "role": "Name Checker uses to address the narrator (the first-person speaker)"
-  },
-  {
-   "name": "the Hole",
+   "name": "The Hole",
    "type": "place",
-   "role": "Location the narrator leaves after the confrontation with Checker"
-  },
-  {
-   "name": "Book 6",
-   "type": "program",
-   "role": "Source book containing this part (part 175)"
+   "role": "the location the narrator leaves after the argument with Checker"
   }
  ],
  "tags": [
   "fiction",
-  "memory loss",
+  "memory",
   "confrontation",
-  "addiction",
-  "investigation"
+  "book 6",
+  "dystopian fiction"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1634,
-  "output_tokens": 823
+  "output_tokens": 718
  }
 }

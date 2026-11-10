@@ -1,70 +1,66 @@
 {
- "summary": "An excerpt from 'Book 10 — part 69', a fiction passage about a couple, Damian and Trish. Damian comforts a distressed Trish, putting her to bed, arranging a personal day and a visit to Jory and his family, and a walk in the hills. The passage then shifts to their last date, where Trish reveals she is returning to Washington, and Damian helps her pack her office over takeout-style Mexican food and banter about being 'Hill Rats'. The note also includes an unrelated-seeming aside about the 1880s-era 'Impression, Sunrise' painting being seen up close by Katie in 2013.",
- "one_line": "Excerpt from a novel in which Damian comforts Trish, then helps her pack her office when she decides to return to Washington.",
+ "summary": "An excerpt from a fiction work, 'Book 10 — part 69', in which Damian looks after Trish, who is distraught, putting her to bed in pajamas, wiping away her makeup and tears, and planning a day of visiting Jory's family, a walk in the hills and rest. Later, at their thirty-fifth and final date, Trish reveals she is leaving her job to return to Washington and the Hill, and Damian helps her pack her office over takeout Mexican food while they tease each other about their relationship and his feelings about her departure.",
+ "one_line": "Damian comforts Trish and later helps her pack her office as she leaves academia to return to Washington, ending their romance.",
  "key_facts": [
-  "Damian puts Trish in fluffy jammies, wipes away her makeup with a cool face-cloth, and squeezes each of her fingernails the way she likes.",
-  "Damian says he will call the department secretary to tell him Trish is taking a personal day and will be in tomorrow.",
-  "Damian plans for Trish to see Jory and his family so she can see the boy whose life she saved.",
-  "The note states that in 2013, the original 'Impression, Sunrise' painting was seen up close by Katie, finally, after waiting in line for hours.",
-  "Trish tells Damian, 'Damian, you're a wonder,' and Damian replies, 'You inspire me, darling.'",
+  "Damian puts Trish in fluffy jammies, wipes away her makeup and hot tears with a cool face-cloth, and runs his fingers over her fingernails, squeezing each one a little.",
+  "Damian tells Trish she is taking a personal day and that he will call the department secretary to say she will be in tomorrow.",
+  "Damian plans for Trish to see Jory and his family, so that she can see the boy whose life she saved.",
+  "Damian tells Trish that when she gets up in the morning she can make an appointment to see a grief counsellor or not.",
+  "Trish says 'Damian, you're a wonder,' and Damian replies, 'You inspire me, darling.'",
   "Their thirty-fifth date was their last.",
-  "When Damian sees boxes in her office, he says, 'You're going back to Washington.' Trish answers, 'Yes.'",
-  "Trish realizes that everyone in the law department likely knew she had decided to go back to the Hill, while Damian had only suspected it until that instant.",
-  "Damian responds to the news with a brave face belied by the Fret wrinkles in his forehead.",
-  "Trish says she did not want to tell Damian over the phone once she had decided.",
-  "Damian asks whether she wants to come out for dinner with him, and she says the movers are coming in the morning.",
-  "Damian offers to get burger king or taco bell, and Trish chooses Mexican, saying 'taco bell'.",
-  "Damian lets Trish pay for dinner, saying, 'You're making the big bucks now.'",
-  "Damian packs carefully, padding her framed pictures and wrapping knick-knacks in individual sheets of spun fiber.",
-  "Damian reminds Trish that she always said 'Hill Rats were Hill Rats for life.'"
+  "Damian notices boxes in Trish's office and she confirms, 'Yes,' that she is going back to Washington.",
+  "Trish realizes that everyone in the law department likely knew she had decided to return to the Hill, while Damian had only suspected it until that moment.",
+  "Their romance was no secret; the law department knew about Damian and the network engineers knew about Trish, and they took ribbing about 'mixed marriages' and 'interfaith dating.'",
+  "Damian says, 'Well, good for you,' putting on a brave face belied by the Fret wrinkles in his forehead.",
+  "Trish says she should have told him once she decided but did not want to do it over the phone.",
+  "Damian says he is glad she did not tell him over the phone and offers to take her to dinner anyway.",
+  "The movers are coming in the morning, and Damian offers to help Trish pack with burger king or taco bell food.",
+  "Trish chooses Mexican food, saying 'taco bell,' and Damian lets her pay, saying 'You're making the big bucks now.'",
+  "Damian is a conscientious packer, padding framed pictures and wrapping knick-knacks in individual sheets of spun fiber.",
+  "Damian reminds Trish that she always told him 'Hill Rats were Hill Rats for life.'"
  ],
  "entities": [
   {
    "name": "Damian",
    "type": "person",
-   "role": "Male character who comforts Trish, dates her, and helps her pack her office"
+   "role": "Trish's partner, a member of the law department who comforts her, takes her to dinner, and helps her pack"
   },
   {
    "name": "Trish",
    "type": "person",
-   "role": "Female character who decides to go back to Washington and the Hill"
+   "role": "Protagonist, a network engineer at the university who is leaving to return to Washington and the Hill"
   },
   {
    "name": "Jory",
    "type": "person",
-   "role": "Boy whose life Trish saved, whose family Damian plans to visit"
-  },
-  {
-   "name": "Katie",
-   "type": "person",
-   "role": "Person who saw the original 'Impression, Sunrise' painting up close in 2013"
-  },
-  {
-   "name": "Impression, Sunrise",
-   "type": "product",
-   "role": "Painting whose original was seen up close by Katie in 2013 after waiting in line for hours"
+   "role": "Boy whose life Trish saved, whose family Damian plans to visit with her"
   },
   {
    "name": "Washington",
    "type": "place",
-   "role": "City Trish is returning to"
+   "role": "City Trish is returning to, where the Hill is located"
   },
   {
-   "name": "Hill",
+   "name": "the Hill",
    "type": "place",
-   "role": "Capitol Hill, where Trish is returning; referenced via 'Hill Rats'"
+   "role": "Congressional area in Washington that Trish returns to; 'Hill Rats' are people who work there"
+  },
+  {
+   "name": "law department",
+   "type": "organization",
+   "role": "University department where Damian works and where colleagues know of the couple's romance"
   }
  ],
  "tags": [
   "fiction",
   "romance",
-  "novel excerpt",
   "relationships",
-  "washington dc"
+  "washington",
+  "grief"
  ],
  "category": "literature & arts",
  "usage": {
-  "input_tokens": 1910,
-  "output_tokens": 1164
+  "input_tokens": 1866,
+  "output_tokens": 1179
  }
 }

@@ -1,84 +1,85 @@
 {
- "summary": "In this excerpt from Book 14, a narrator leaves a party in freezing rain and snow with Ian, Geoff, and the sleeping Zeke, who has been teasing the narrator about the name Zenobia. Ian drives the narrator home in his rental car, and the conversation turns to Zeke's background: a brilliant young man who dropped out of Ian's class, rejects rules and money, travels constantly, and has friends everywhere. The passage closes with Ian noting that being accepted to MIT at fourteen can distort one's social awareness.",
- "one_line": "A narrator leaves a snowy party with Ian and Geoff and learns about the brilliant, rule-averse Zeke from Ian.",
+ "summary": "In this excerpt from Book 14, the narrator rides home after a gathering with Ian, Geoff, and Zeke, a brilliant, unconventional young man who sleeps in the back seat of Ian's rental car. Zeke apologizes for teasing the narrator's name and admits he had pictured a different person named Shad, then laughs at the name Zenobia. Ian explains Zeke's background: he knew him since age twelve, Zeke dropped out of one of Ian's classes, avoids rules and money, and travels freely while earning freelance income. The passage closes with Ian beginning to describe how being accepted to MIT at fourteen can affect social skills.",
+ "one_line": "A snowy night ride home from a party in Book 14, where Ian describes the unconventional, brilliant friend Zeke.",
  "key_facts": [
-  "Zeke apologized to the narrator for making fun of the narrator's name and admitted he had pictured a different person named Shad, not a girl named Zenobia.",
-  "Zeke said he went by 'Zeke the Freak' within the first two minutes at preschool and hated school.",
-  "Outside the party, the freezing rain had turned into snow.",
-  "Ian said the narrator could not ride a bike in such awful weather, and the narrator took off the front wheel and stowed the bike in Ian's trunk.",
-  "Geoff put the empty pizza boxes and case of empties into his rental car.",
-  "Zeke, who had no car, climbed into the back seat of Ian's rental and fell asleep snoring.",
+  "Zeke apologized to the narrator for making fun of the narrator's name, and the narrator said they were used to it.",
+  "Zeke said he was still trying to match the narrator up with Shad and had a different picture in his head, 'Not a girl.'",
+  "Zeke was called 'Zeke the Freak' during his first two minutes at preschool.",
+  "Zeke said that the narrator was named Zenobia, which set him howling with laughter again.",
+  "Jason and Tyler stayed behind to take apart the traveling Faraday cage and erase all signs of the party's presence.",
+  "Outside, the freezing rain had turned into snow, and Ian said the narrator could not ride a bike in such weather.",
+  "The narrator took the front wheel off their bike and stowed it and the bike in Ian's trunk.",
+  "Zeke did not have a car, and he stretched out across the back seat of Ian's rental car and began to snore.",
   "Zeke hitched a ride up from Chicago with a truck driver and had no place to stay.",
-  "Ian said he had known Zeke since Zeke was twelve.",
-  "Zeke took a class from Ian once, when he was younger than the narrator, but dropped out before the semester ended.",
-  "Ian described Zeke as brilliant but uninterested in following rules or filling out forms, and as someone who thinks money is stupid.",
-  "Ian said Zeke picks up freelance work to make a living and travels constantly with friends everywhere.",
-  "Jason and Tyler stayed behind to take apart the traveling Faraday cage and erase all signs of the group's presence.",
-  "Ian told the narrator that being accepted to MIT at fourteen can mess up one's grasp of social norms.",
-  "The narrator said they were used to riding in snow and not used to letting people tell them what to do."
+  "Ian has known Zeke since Zeke was twelve years old.",
+  "Zeke took a class from Ian when he was younger than the narrator, but dropped out before the semester ended.",
+  "Ian describes Zeke as brilliant but uninterested in following rules or filling out forms, and as someone who thinks money is stupid.",
+  "Zeke learns whatever he finds interesting and picks up freelance work to make a living, traveling constantly and having friends everywhere.",
+  "Ian says Zeke can be kind of a jerk sometimes, and the narrator replies, 'I noticed.'",
+  "Ian says being accepted to MIT at fourteen can mess up one's grasp of social skills."
  ],
  "entities": [
   {
-   "name": "Zeke",
-   "type": "person",
-   "role": "young man who teased the narrator about the name Zenobia, hitched up from Chicago, dropped out of Ian's class, and sleeps in Ian's rental car"
-  },
-  {
    "name": "Ian",
    "type": "person",
-   "role": "driver of the rental car who has known Zeke since Zeke was twelve and once taught him a class"
+   "role": "Friend who drives a rental car, gives the narrator a ride home, and knows Zeke from teaching him in a class."
+  },
+  {
+   "name": "Zeke",
+   "type": "person",
+   "role": "Brilliant, unconventional young man who hitched a ride from Chicago, sleeps in Ian's rental car, and dropped out of Ian's class."
   },
   {
    "name": "Geoff",
    "type": "person",
-   "role": "person who loaded pizza boxes and empties into his rental car at the party"
+   "role": "Party attendee who loads pizza boxes and empties into his rental car."
   },
   {
    "name": "Shad",
    "type": "person",
-   "role": "person Zeke had been trying to match the narrator up with"
-  },
-  {
-   "name": "Zenobia",
-   "type": "person",
-   "role": "name Zeke mocked, which the narrator is used to hearing"
+   "role": "Person the narrator is being matched up with, according to Zeke's mistaken picture."
   },
   {
    "name": "Jason",
    "type": "person",
-   "role": "party attendee who stayed behind to take apart the Faraday cage"
+   "role": "Party attendee who stayed behind to take apart the Faraday cage."
   },
   {
    "name": "Tyler",
    "type": "person",
-   "role": "party attendee who stayed behind to take apart the Faraday cage"
+   "role": "Party attendee who stayed behind to take apart the Faraday cage."
+  },
+  {
+   "name": "Zenobia",
+   "type": "person",
+   "role": "Name Zeke mockingly associates with the narrator."
   },
   {
    "name": "MIT",
    "type": "organization",
-   "role": "institution where Zeke was accepted at age fourteen, as referenced by Ian"
+   "role": "University where Ian says Zeke or a student was accepted at age fourteen, affecting social grasp."
   },
   {
    "name": "Chicago",
    "type": "place",
-   "role": "city Zeke hitched a ride from with a truck driver"
+   "role": "City from which Zeke hitched a ride with a truck driver."
   },
   {
    "name": "Faraday cage",
    "type": "product",
-   "role": "apparatus taken apart by Jason and Tyler before the group left"
+   "role": "Traveling apparatus taken apart by Jason and Tyler at the party's end."
   }
  ],
  "tags": [
   "fiction",
   "coming-of-age",
-  "zeke",
-  "ian",
-  "book-14"
+  "friendship",
+  "book-14",
+  "characters"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1879,
-  "output_tokens": 1233
+  "output_tokens": 1327
  }
 }

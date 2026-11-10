@@ -1,69 +1,69 @@
 {
- "summary": "An excerpt from a novel (labeled 'Book 12 — part 71') describing a spring afternoon when Lexy and Houseman walk by a stream, skipping stones and talking casually. Houseman reveals he is a twenty-six-year-old from Baltimore working on a cargo steamer, and the two feel a growing bond. At sunset Mrs. Royce, watching from the kitchen, concludes Houseman is the one for Lexy, while George Grey, in the sitting room, is privately suffering. The passage ends with Lexy introducing Houseman to George as Caroline Enderby's fiancé.",
- "one_line": "A spring-afternoon excerpt from a novel in which Lexy and Houseman bond by a stream while George Grey silently suffers.",
+ "summary": "An excerpt from a novel (labelled 'Book 12 — part 71') describing Lexy and Houseman spending a quiet spring afternoon by a stream, where Houseman skips stones and reveals basic facts about himself: he is from Baltimore, is twenty-six, works on a cargo steamer, and turned down a family navy tradition. As they return home at sunset, Mrs. Royce sees them and concludes Houseman is the one for Lexy. Meanwhile George Grey, suffering inwardly, listens from the sitting room as Lexy introduces Houseman as Caroline Enderby's fiancé.",
+ "one_line": "Lexy and Houseman share a spring afternoon by a stream, while Mrs. Royce and George Grey react to their growing bond.",
  "key_facts": [
-  "Houseman skipped stones with skill and earnest attention beside the stream while Lexy watched minnows in the limpid water.",
-  "Houseman said he was from Baltimore and that his people wanted him to go into the navy.",
-  "Houseman's father and grandfather were both in the navy, but Houseman said 'Too cut and dried!' and is on a cargo steamer now.",
-  "Houseman was twenty-six, had two brothers in the navy and three married sisters, and both parents were living.",
-  "Lexy regarded Houseman as 'a comrade and an ally without an equal.'",
-  "At sunset Houseman found nothing better to say than that he was hungry, and Lexy replied 'So am I!'",
-  "Mrs. Royce saw Lexy and Houseman strolling side by side from the kitchen window.",
-  "Mrs. Royce concluded, 'He's the one!' after hearing Lexy mention clam chowder and Houseman's knowledge of oysters.",
-  "Mrs. Royce began making a superb chocolate cake and hummed a song about a young man on Springfield Mountain who killed a 'pesky sarpent.'",
-  "George Grey sat in the sitting room smoking and pretending to read, never turning a page.",
-  "George Grey looked fastidiously neat, self-possessed, and a little haughty, but was suffering horribly in spirit.",
+  "Houseman skipped stones with skill and earnest attention by the stream while Lexy watched minnows in the limpid water.",
+  "Houseman was twenty-six years old and came from Baltimore.",
+  "Houseman's father and grandfather were both in the navy, but his people wanted him to join and he refused, calling it 'Too cut and dried!'",
+  "Houseman was working on a cargo steamer and said he liked it.",
+  "Houseman had two brothers in the navy and three married sisters, and both of his parents were living.",
+  "Lexy, as a New Englander, had something to say about clam chowder, while Houseman was an authority on oysters.",
+  "The sun was setting as Lexy and Houseman turned homeward, and Houseman found nothing better to say than that he was hungry.",
+  "Lexy replied 'So am I!' and they looked at each other as if they had discovered another bond between them.",
+  "Mrs. Royce saw them from the kitchen window and concluded, 'He's the one!'",
+  "Mandy, a vegan guest, was so glad that she began making a superb chocolate cake and hummed a song about a young man on Springfield Mountain who killed a 'pesky sarpent.'",
+  "George Grey sat in the sitting room smoking and pretending to read, but never turned a page.",
+  "George Grey looked fastidiously neat, self-possessed, and a little haughty, but in spirit he was suffering horribly.",
   "Lexy held out her hand to George Grey and searched his face with an anxious and friendly glance.",
-  "Lexy introduced Houseman as 'Caroline Enderby's fiancé.'",
-  "The excerpt also includes an unrelated sentence about 2013, when Caleb saw the original 'Girl with a Pearl Earring' painting up close after waiting in line for hours."
+  "Lexy introduced Houseman as 'Caroline Enderby's fiancé.'"
  ],
  "entities": [
   {
-   "name": "Lexy",
-   "type": "person",
-   "role": "young woman who walks with Houseman and feels a bond with him; watches George Grey with concern"
-  },
-  {
    "name": "Houseman",
    "type": "person",
-   "role": "twenty-six-year-old from Baltimore on a cargo steamer; Lexy's companion who is later introduced as Caroline Enderby's fiancé"
+   "role": "young navy-family man from Baltimore who works on a cargo steamer; Lexy's companion on the walk"
+  },
+  {
+   "name": "Lexy",
+   "type": "person",
+   "role": "New Englander who spends the afternoon with Houseman and watches him with growing affection"
   },
   {
    "name": "Mrs. Royce",
    "type": "person",
-   "role": "household figure who watches from the kitchen window, concludes Houseman is 'the one,' and bakes a chocolate cake"
+   "role": "observer at the kitchen window who concludes Houseman is the one for Lexy"
+  },
+  {
+   "name": "Mandy",
+   "type": "person",
+   "role": "vegan guest who bakes a chocolate cake and hums a song about Springfield Mountain"
   },
   {
    "name": "George Grey",
    "type": "person",
-   "role": "man in the sitting room who is suffering in spirit while pretending to read"
+   "role": "man in the sitting room who is suffering inwardly as he listens to the others"
   },
   {
    "name": "Caroline Enderby",
    "type": "person",
-   "role": "woman to whom Houseman is engaged"
+   "role": "woman who is Houseman's fiancée, as Lexy introduces him"
   },
   {
-   "name": "Caleb",
-   "type": "person",
-   "role": "person who saw the original 'Girl with a Pearl Earring' painting in 2013 after waiting in line for hours"
-  },
-  {
-   "name": "Girl with a Pearl Earring",
-   "type": "product",
-   "role": "painting whose original was seen up close by Caleb in 2013"
+   "name": "Baltimore",
+   "type": "place",
+   "role": "Houseman's hometown"
   }
  ],
  "tags": [
   "fiction",
   "novel excerpt",
   "romance",
-  "spring",
+  "spring afternoon",
   "character relationships"
  ],
  "category": "literature & arts",
  "usage": {
-  "input_tokens": 2012,
-  "output_tokens": 1227
+  "input_tokens": 1979,
+  "output_tokens": 1142
  }
 }

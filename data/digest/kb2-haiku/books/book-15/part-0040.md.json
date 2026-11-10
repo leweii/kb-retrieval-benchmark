@@ -1,30 +1,30 @@
 {
- "summary": "In this excerpt from a fiction novel (Book 15, part 40), investigator Ray is confronted by Chief Becker about a murdered child aboard a starship. Becker dismisses the suspicion that the Lilaikens, a group of political terrorists, committed the crime, arguing the mutilation serves no purpose. Ray protests that the case is outside his assignment and that he lacks the training, but Becker says Captain Sorensen has already arranged for Ray to take the lead through CIU, pulling strings across deep space. The scene centers on Ray's frustration at being pulled off his mission and his career being jeopardized.",
- "one_line": "Investigator Ray is ordered by Chief Becker to lead a murder inquiry aboard a starship, despite his objections and mission duties.",
+ "summary": "In this excerpt from a fiction book, Ray is confronted by Chief Becker about a child's murder aboard a ship. Becker insists the Lilaikens, a political terrorist group, are not responsible, since the killing lacks a rational purpose and the body was mutilated. Ray protests that the case is outside his assignment and that he lacks the training, but Becker says Captain Sorensen has already arranged the reassignment through CIU, pulling in favors so Ray will lead the investigation.",
+ "one_line": "Ray Becker-style standoff: Chief Becker orders Ray to take over a child's murder investigation aboard a ship, despite Ray's objections.",
  "key_facts": [
-  "Becker argues the Lilaikens are political terrorists, not monsters, and that the child's body was mutilated in a way that gains them nothing.",
-  "Becker says the Lilaikens would have found a better way to dispose of the corpse if the kid had some kind of target value.",
-  "Ray says flatly that the investigation 'is not part of my assignment' and refuses to take it on.",
-  "Becker tells Ray that 'It's being made part of your assignment as of now.'",
-  "Ray states that he does not have the authority of the investigation's mission and that he has no time to do both.",
-  "Ray says he does not have the training for the job and that with New Holyoke two weeks out, the chances of suitable progress are close to nil.",
-  "Becker says the decision was made by Sorensen, the captain of the ship.",
-  "Becker states that Ray's superiors have already consented and that the captain called in a whole raft of favors to get Ray involved with CIU.",
-  "Becker tells Ray he has the freedom to poke around anonymously without freaking out the passengers.",
-  "Ray says he has all but confirmed the ship is clean of terrorists.",
-  "Ray notes that his career is being sucked down the cosmic drain as he is forced into the case.",
-  "Ray describes Becker as a man on the verge of strangling someone to satisfy his urge for vengeance."
+  "Becker argues the Lilaikens would not have mutilated the body or disposed of it so carelessly if the kid had some kind of target value.",
+  "Becker describes the Lilaikens as political terrorists, not monsters.",
+  "Becker asks rhetorically what message the Lilaikens would send by hacking up kids, calling the idea untenable.",
+  "Ray says the investigation is not part of his assignment and refuses it flatly.",
+  "Becker tells Ray that the lead on the investigation is being made part of his assignment as of now.",
+  "Ray says he does not have the training for the job and that two weeks out from New Holyoke the chances of making suitable progress are close to nil.",
+  "Becker says the decision was made by Sorensen, the captain.",
+  "Ray says his superiors will not tolerate interference with his primary objectives.",
+  "Becker says the captain has already consented with superiors and called in a raft of favors with CIU.",
+  "Ray had earlier said he had all but confirmed the ship is clean.",
+  "Becker notes Ray has the freedom to investigate anonymously so passengers are not frightened by security officers banging on their doors.",
+  "Ray notes that the incident is less rational than blowing up starships, a remark Becker answers with a rebuke about the Lilaikens."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "investigator whose assignment is being changed to lead the murder inquiry; protagonist of the scene"
+   "role": "protagonist, an investigator whose current mission is interrupted by the new assignment"
   },
   {
    "name": "Becker",
    "type": "person",
-   "role": "Chief who pressures Ray to take the lead on the investigation"
+   "role": "Chief who orders Ray to take over the investigation and argues the Lilaikens are not responsible"
   },
   {
    "name": "Sorensen",
@@ -34,29 +34,29 @@
   {
    "name": "Lilaikens",
    "type": "organization",
-   "role": "political terrorists suspected by Ray, whom Becker says did not commit the crime"
+   "role": "political terrorist group that Ray and Becker discuss as a possible suspect"
   },
   {
    "name": "CIU",
    "type": "organization",
-   "role": "agency through which the captain pulled strings to have Ray involved"
+   "role": "agency whose favors the captain called in to get Ray involved"
   },
   {
    "name": "New Holyoke",
    "type": "place",
-   "role": "destination two weeks away from the ship"
+   "role": "destination the ship is two weeks away from"
   }
  ],
  "tags": [
   "science fiction",
   "murder investigation",
+  "politics",
   "terrorism",
-  "starship",
-  "fiction excerpt"
+  "space travel"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1901,
-  "output_tokens": 983
+  "output_tokens": 925
  }
 }

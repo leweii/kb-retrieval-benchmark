@@ -1,38 +1,38 @@
 {
- "summary": "The narrator confronts Marcelina, who evades his question and speaks of Baalum as a special place of miracles, which he sees as a sign the community is brainwashed. He insists on taking Sarah home because her father is hospitalized and worried. Marcelina leads him to a stone bath building, once a royal bath fed by heated rocks and sacred cenote water, where incense fills a vaulted, latticed room with painted glyphs and a large stone platform.",
- "one_line": "In Baalum, the narrator urges Marcelina to take Sarah home to her hospitalized father, then is led to an ancient royal bath.",
+ "summary": "The narrator, visiting the community of Baalum, is pressed by Marcelina, who avoids his direct question and praises Baalum as a place of miracles where its leader has great medical powers. Suspecting the detour was a stall, the narrator insists on taking Sarah home because her father is hospitalized and worried, though Dr. Goddard is treating her. Marcelina then leads him to a stone building that was once a royal bath, which she calls the most sacred place in Baalum apart from the pyramid, and they enter a smoky, glyph-covered chamber with a decorated stone platform.",
+ "one_line": "A narrator urges Marcelina to take Sarah home from Baalum, then is led to a sacred former royal bath filled with incense and carved glyphs.",
  "key_facts": [
-  "Marcelina says Baalum has become a special place of miracles, and that a woman from outside can be part of it.",
-  "Marcelina says that when Sara was here before, she started teaching her to speak the community's language.",
-  "Marcelina says of the leader's medical powers: \"Sometimes we don't understand how they happen, but he has great medical powers.\"",
-  "The narrator thinks the whole place has been brainwashed and that Marcelina has gone on mental autopilot.",
-  "The narrator says Sarah's father has been in the hospital and is not well, and that he spoke with him yesterday and found him very worried about her.",
-  "The narrator knows Dr. Goddard is treating Sarah but believes it is better to take her home immediately.",
-  "The narrator suspects the detour for the two women was a diversion or stall set up by Marcelina, who may have wanted to tell him something.",
-  "Marcelina calls families very important and says \"We'll go now.\"",
-  "At the end of the long street, Marcelina stops in front of a stone building unlike the others and says it is where Sarah likes to be.",
-  "Marcelina says the building is the most sacred place in Baalum apart from the pyramid.",
-  "The building's doorway is a stone arch about five feet high, pointed at the top like a tiny Gothic cathedral.",
+  "Marcelina says Baalum has become a special place, a place of miracles, where a woman from outside can be part of that.",
+  "Marcelina says when Sara was here before, she started teaching her to speak the community's language.",
+  "Marcelina says the leader of Baalum has great medical powers.",
+  "The narrator thinks the whole place of Baalum has been brainwashed, including Marcelina.",
+  "The narrator says Sarah's father has been in the hospital, is not well, and is very worried about her.",
+  "The narrator says Dr. Goddard is treating Sarah.",
+  "The narrator suspects the detour for the two women was a diversion or attempt to stall, set up by Marcelina.",
+  "Marcelina says 'Families are very important' and says 'We'll go now.'",
+  "At the end of the long street stands an odd stone building that Marcelina says is where Sarah likes to be.",
+  "Marcelina says the stone building is, except for the pyramid, the most sacred place in Baalum.",
+  "The doorway is a stone arch about five feet high, pointed at the top like a tiny Gothic cathedral.",
   "Marcelina explains the building was once the royal bath, where heated rocks were brought in with spring water from a sacred cenote.",
-  "The roof is stone latticework that lets gray daylight filter through.",
-  "Incense rises from pots along the floor, and the room has carved and colored glyphs on its walls.",
-  "At the far end is a large stone platform embossed with carved and painted classical scenes and glyphs."
+  "The roof of the room is stone latticework that lets gray daylight filter through.",
+  "Incense rises from pots along the floor, and the narrator says the room feels like a smoky pagan church.",
+  "At the far end is a large stone platform embossed with carved and painted classical scenes, glyphs, and small painted faces and figures."
  ],
  "entities": [
   {
    "name": "Marcelina",
    "type": "person",
-   "role": "woman in Baalum who guides the narrator, avoids his question, and leads him to the royal bath"
+   "role": "woman who avoids the narrator's question, praises Baalum's miracles, and leads him to the royal bath"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "woman the narrator wants to take home; her father is in the hospital"
+   "role": "woman whose father is hospitalized and whom the narrator wants to take home"
   },
   {
    "name": "Sara",
    "type": "person",
-   "role": "woman who was previously in Baalum, where Marcelina taught her the local language"
+   "role": "woman who previously stayed in Baalum and was taught its language, wanting to be part of its miracles"
   },
   {
    "name": "Dr. Goddard",
@@ -42,35 +42,30 @@
   {
    "name": "Baalum",
    "type": "place",
-   "role": "special community described as a place of miracles, where the narrator suspects brainwashing"
+   "role": "special community described as a place of miracles, with a pyramid and a sacred royal bath"
   },
   {
    "name": "royal bath",
    "type": "place",
-   "role": "stone building at the end of the street, once a bath fed by heated rocks and sacred cenote water"
+   "role": "stone building with an arched doorway, once a royal bath, described as the most sacred place in Baalum apart from the pyramid"
   },
   {
    "name": "cenote",
    "type": "place",
-   "role": "sacred water source that supplied the royal bath"
-  },
-  {
-   "name": "pyramid",
-   "type": "place",
-   "role": "structure in Baalum described as the most sacred place apart from the royal bath"
+   "role": "sacred source of spring water used to heat the royal bath"
   }
  ],
  "tags": [
   "baalum",
   "fiction",
-  "manuscript excerpt",
-  "sarah",
   "mystery",
-  "ancient ritual"
+  "cult suspicion",
+  "sacred site",
+  "narrative"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1849,
-  "output_tokens": 1139
+  "output_tokens": 1116
  }
 }

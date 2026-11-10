@@ -1,52 +1,51 @@
 {
- "summary": "In this excerpt from a fiction book (Book 14, part 84), the narrator arranges to stay overnight at a friend's lake cottage in Sibley County, deliberately dropping hints to Monica that the trip may be risky while assuring her it will be safe. Monica reluctantly agrees and they say I love you. Nikko, unable to reach his parents, proposes borrowing a car from Bree, a purple-haired girl who was active in the protest over arrests, and the two argue about whether Bree should be involved and whether the Solidarity Committee is sincere.",
- "one_line": "The narrator plans a risky trip to Sibley County and argues with Nikko over borrowing Bree's car after a protest over arrests.",
+ "summary": "In this fiction excerpt from Book 14, the narrator arranges to stay overnight at a lake cottage in Sibley County with a school friend, deliberately planting a clue about Henry Hastings Sibley so that Monica will understand the narrator is doing something risky while being told it is safe. Nikko, whose parents are unreachable, proposes borrowing a car from Bree, a purple-haired girl who tabled for the Solidarity Committee at a protest over unfair arrests. The narrator objects that Bree would be put at risk, and Nikko's accusation that the narrator is irrational leads to a tense exchange before he backpedals.",
+ "one_line": "A narrator arranges a risky overnight trip to Sibley County and Nikko proposes borrowing Bree's car, sparking tension over her safety.",
  "key_facts": [
-  "The narrator is set to stay overnight with a friend from school whose family has a lake cottage in Sibley County.",
-  "The friend says there is a wood stove, that she and the narrator will not party, and that the friend's dog is a good watchdog.",
-  "The narrator chose Sibley County deliberately because both characters thought there were too many monuments and places named after Henry Hastings Sibley.",
+  "The narrator is arranging an overnight stay with a school friend whose family has a lake cottage in Sibley County.",
+  "The friend's family cottage has a wood stove and a dog described as a good watchdog.",
+  "The narrator chose Sibley County deliberately because both people thought there were too many monuments and places named after Henry Hastings Sibley.",
   "The narrator worries that someone from the Joint Terrorism Task Force could be listening in on the phone call.",
-  "Monica says \"Take care of yourself\" and \"I love you\" before the call ends, and the narrator replies \"Love you, too.\"",
-  "Nikko tries to reach his parents twice and hangs up both times without leaving messages.",
-  "Nikko's dad is in court that day, and his mom is out of town on a business trip.",
-  "Nikko proposes borrowing a car from a friend he describes as someone he would trust with his life.",
-  "The narrator identifies the friend with the car as the purple-haired girl, whose name is Bree.",
-  "The narrator says Bree would be putting herself at risk and asks whether Nikko is sure he wants that.",
-  "Bree was at the protest tabling for the Solidarity Committee, according to Nikko.",
-  "The narrator dismisses the Solidarity Committee as people who want to get on television.",
-  "Nikko says the narrator is not being very rational, which the narrator resents.",
-  "Nikko quickly apologizes and backpedals after the narrator's reaction."
+  "Monica says \"I love you\" to the narrator, and the narrator replies \"Love you, too\" while wondering if they had ever said it out loud before.",
+  "Nikko's father is in court today and his mother is out of town on a business trip.",
+  "Nikko proposes borrowing a car from a girl named Bree, who has purple hair.",
+  "Nikko says Bree would be willing to share the driving on what he calls a long trip.",
+  "The narrator says Bree was at the protest, where she was tabling for the Solidarity Committee.",
+  "The narrator dismisses the Solidarity Committee as people who decided to own the cause and just want to get on television.",
+  "Nikko tells the narrator that the narrator is not being very rational.",
+  "The narrator says that being told they are not rational makes them see red and that their fists were already clenched.",
+  "Nikko apologizes and backpedals after the narrator's reaction, saying he should not have said that."
  ],
  "entities": [
   {
    "name": "Monica",
    "type": "person",
-   "role": "the narrator's girlfriend or close companion, whom the narrator says \"I love you\" to on the phone"
+   "role": "the narrator's family member or close contact, who is told about the overnight trip and says \"I love you\""
   },
   {
    "name": "Nikko",
    "type": "person",
-   "role": "a companion of the narrator who tries to reach his parents and proposes using Bree's car"
+   "role": "companion of the narrator who tries to reach his parents and proposes borrowing Bree's car"
   },
   {
    "name": "Novak",
    "type": "person",
-   "role": "someone the friend asks the narrator to greet on her behalf"
+   "role": "person the narrator asks Monica to greet on the friend's behalf"
   },
   {
    "name": "Bree",
    "type": "person",
-   "role": "purple-haired girl who was at the protest tabling for the Solidarity Committee and may lend her car"
+   "role": "purple-haired girl whose car Nikko wants to borrow; tabled for the Solidarity Committee at the protest"
   },
   {
    "name": "Henry Hastings Sibley",
    "type": "person",
-   "role": "namesake of many monuments and places in Sibley County"
+   "role": "historical figure with many monuments and places named after him, used as a clue for Sibley County"
   },
   {
    "name": "Sibley County",
    "type": "place",
-   "role": "county where the friend's family has a lake cottage and the overnight stay is planned"
+   "role": "location of the friend's family lake cottage where the narrator will stay overnight"
   },
   {
    "name": "Joint Terrorism Task Force",
@@ -56,7 +55,7 @@
   {
    "name": "Solidarity Committee",
    "type": "organization",
-   "role": "group Bree was tabling for at the protest, which the narrator dismisses"
+   "role": "group Bree was tabling for at the protest over arrests"
   }
  ],
  "tags": [
@@ -70,6 +69,6 @@
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1919,
-  "output_tokens": 1133
+  "output_tokens": 1136
  }
 }

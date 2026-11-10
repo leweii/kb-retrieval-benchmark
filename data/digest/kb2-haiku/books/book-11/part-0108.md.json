@@ -1,62 +1,62 @@
 {
- "summary": "In this excerpt from Book 11 (part 108) of a novel, Miranda reports privately to Jane on Hannah's selfish, unreliable character, and says the farm mortgage will be cleared by Rebecca or herself rather than Hannah. Rebecca then arrives to tell Emma Jane that her essay Wareham Wildflowers has been accepted by The Pilot, to appear in the next issue. Emma Jane is overwhelmed, and the two girls dream of living together, but Rebecca notes that their hopes depend on paying off the mortgage, which has grown more burdensome since the interest went unpaid this year.",
- "one_line": "Rebecca tells Emma Jane her essay is accepted by The Pilot, and the two dream of a home while the family mortgage weighs on them.",
+ "summary": "In this excerpt from Book 11 (part 108), Miranda reports on Hannah's visit to the brick house: she finds Hannah selfish and unwilling to help the younger children or burden Will with poor relations, and Miranda declares Hannah is 'Susan Randall through and through.' Miranda expects the farm mortgage to be cleared by Rebecca or herself rather than Hannah. Rebecca then tells Emma Jane that her piece 'Wareham Wildflowers' has been accepted by The Pilot, to appear in the next issue, while Emma Jane dreams of a shared writing household. The passage closes with Rebecca lamenting the unpaid mortgage and its growing burden.",
+ "one_line": "Rebecca announces her accepted Pilot piece to Emma Jane, while Miranda judges Hannah selfish and the family mortgage weighs on them.",
  "key_facts": [
-  "Miranda considers Hannah close as the bark of a tree and considerably selfish.",
-  "Miranda says Hannah would kick the ladder out from under her once she had climbed as far as she could in the world.",
-  "Miranda says that if the farm mortgage is ever cleared, it will be Rebecca or herself who clears it, not Hannah.",
-  "Rebecca tells Emma Jane that her contribution entitled Wareham Wildflowers has been accepted for The Pilot.",
-  "Rebecca says the senior editor read Wareham Wildflowers and thought it highly instructive.",
-  "Wareham Wildflowers appears in the next issue of The Pilot.",
-  "Emma Jane asks whether the piece appears in the same number as her poem about the golden gates that close behind us when we leave school.",
-  "Emma Jane says that if anything happens to her, she asks Rebecca solemnly to bury that number of The Pilot with her.",
-  "Rebecca says that whenever she takes out the Pilot back numbers to read her contributions, she almost bursts with pleasure.",
-  "Rebecca says her contributions look worse to her every time she reads them.",
-  "Emma Jane proposes that she and Rebecca live together in a little house, with Emma Jane doing the housework and cooking and copying the poems and stories.",
-  "Rebecca says she would like nothing better, but she has promised to keep house for John.",
-  "Rebecca says John will not have a house for a good many years unless they can pay off the detestable mortgage.",
-  "Rebecca says the mortgage day grows farther off now that the interest was not paid this year."
+  "Miranda's impression, conveyed to Jane, was that Hannah was 'close as the bark of a tree' and considerably selfish.",
+  "Hannah said she guessed she had done her share already and would not burden Will with her poor relations.",
+  "Miranda exclaimed, \"She's Susan Randall through and through!\"",
+  "Miranda said that if the mortgage is ever cleared from the farm, it will be Rebecca or Miranda, not Hannah, who clears it.",
+  "Rebecca tells Emma Jane that her contribution entitled 'Wareham Wildflowers' has been accepted for The Pilot.",
+  "The senior editor read 'Wareham Wildflowers' and thought it highly instructive; it appears in the next issue of The Pilot.",
+  "Emma Jane's poem about the golden gates that close behind us when we leave school was previously published in The Pilot.",
+  "Emma Jane says she may not be able to bear the news and asks Rebecca to bury that number of The Pilot with her if anything happens to her.",
+  "Rebecca says that whenever she is alone and reads the Pilot back numbers, she almost bursts with pleasure, though her pieces look worse to her each time she reads them.",
+  "Emma Jane proposes that when they are older they live together in a little house, where she would do the housework and copying while Rebecca only writes.",
+  "Rebecca replies she would like nothing better, but she has promised to keep house for John.",
+  "John will not have a house for a good many years, and Rebecca sighs that the mortgage must be paid off first.",
+  "The family has not paid the mortgage interest this year, so the day of paying it off grows farther off.",
+  "The passage ends with the mortgage itself asking, \"Will you pay a little faster?\""
  ],
  "entities": [
   {
    "name": "Miranda",
    "type": "person",
-   "role": "speaker who gives her private impression of Hannah to Jane"
+   "role": "speaker who judges Hannah and expects to help clear the farm mortgage"
   },
   {
    "name": "Hannah",
    "type": "person",
-   "role": "relative described as selfish and unwilling to burden Will with her poor relations"
+   "role": "relative described as selfish and unwilling to help the younger children or burden Will"
   },
   {
-   "name": "Jane",
+   "name": "Susan Randall",
    "type": "person",
-   "role": "listener to Miranda's private impression"
-  },
-  {
-   "name": "Will",
-   "type": "person",
-   "role": "person Hannah says she will not burden with her poor relations"
+   "role": "figure to whom Miranda compares Hannah"
   },
   {
    "name": "Temperance",
    "type": "person",
-   "role": "person Miranda says Hannah's face was turned towards"
+   "role": "person whom Hannah's face was turned towards"
+  },
+  {
+   "name": "Will",
+   "type": "person",
+   "role": "family member Hannah would not burden with her poor relations"
   },
   {
    "name": "Rebecca",
    "type": "person",
-   "role": "young woman who reports the acceptance of Wareham Wildflowers and plans to keep house for John"
+   "role": "writer whose contribution was accepted by The Pilot; plans to keep house for John"
   },
   {
-   "name": "Emma Jane",
+   "name": "Emma Jane Perkins",
    "type": "person",
-   "role": "Miss Perkins, who darns the firm's stockings and hopes to live with Rebecca"
+   "role": "friend who darns the firm's stockings and dreams of living with Rebecca as a writing household"
   },
   {
    "name": "John",
    "type": "person",
-   "role": "person Rebecca has promised to keep house for"
+   "role": "person for whom Rebecca promised to keep house"
   },
   {
    "name": "Miss Maxwell",
@@ -66,30 +66,29 @@
   {
    "name": "The Pilot",
    "type": "organization",
-   "role": "periodical that accepted Wareham Wildflowers for publication"
+   "role": "periodical that accepted Rebecca's 'Wareham Wildflowers' and previously published Emma Jane's poem"
   },
   {
    "name": "Wareham Wildflowers",
    "type": "product",
-   "role": "essay by Rebecca accepted by The Pilot"
+   "role": "Rebecca's contribution accepted for The Pilot"
   },
   {
-   "name": "The mortgage",
-   "type": "other",
-   "role": "debt on the farm that the family has not cleared and whose interest was not paid this year"
+   "name": "the brick house",
+   "type": "place",
+   "role": "house where Hannah spent a week and Miranda formed her impression"
   }
  ],
  "tags": [
   "fiction",
-  "family",
-  "mortgage",
-  "writing and publication",
-  "friendship",
-  "rural life"
+  "literary-narrative",
+  "writing-ambition",
+  "family-mortgage",
+  "sisterhood"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1920,
-  "output_tokens": 1313
+  "output_tokens": 1419
  }
 }

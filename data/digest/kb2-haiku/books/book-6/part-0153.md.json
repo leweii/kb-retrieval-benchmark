@@ -1,50 +1,50 @@
 {
- "summary": "The narrator, facing the threat of the Lancer (a vicious murderer also hunting Martinez and Halliday), weighs letting himself be captured again so the DHS can take the Lancer down. The plan would require calling on Arthur for real help, which the narrator doubts Arthur would give, since the narrator has defied Arthur's requests and caused the mess. The passage is interior monologue ending with the narrator considering framing a deal for Arthur in terms of business, tied to protecting Halliday.",
- "one_line": "Fiction excerpt in which the narrator considers surrendering to the Lancer so the DHS can take him down, and doubts Arthur will help.",
+ "summary": "The narrator, a fugitive pursuing Martinez and dreading the Lancer, weighs letting herself be captured so that the DHS can take down the Lancer, which would require asking Arthur for real help. She worries that Martinez might bury her outside U.S. jurisdiction, and that Arthur, having been ignored, has no reason to rescue her. She concludes her predicament is cause and effect of her own reckless choices and considers framing a deal to Arthur as business. The passage is an interior monologue from a fiction novel (Book 6, part 153).",
+ "one_line": "Narrator weighs letting herself be captured to bring down the Lancer, dreading both the cost of asking Arthur for help and the risk of being buried beyond reach.",
  "key_facts": [
-  "The narrator's worst-case scenario is that the Lancer nabs them and then still goes after Martinez and Halliday without anyone being able to stop him.",
-  "The NSA had not been able to find the Lancer.",
-  "The narrator considers that they could make sure the DHS caught up with the Lancer, taking him by surprise.",
-  "Doing so would mean calling Arthur and asking him for help, not just for backup.",
-  "The narrator must let themselves get caught again instead of leading the Lancer on a chase.",
-  "The narrator fears the Lancer might take them out of the country and bury them somewhere outside U.S. jurisdiction.",
-  "If the Feds keep their protective detail on Halliday and Martinez drops off the map again, Arthur and the government task force would have no urgency in hunting the Lancer.",
-  "Halliday's voice in the narrator's head says: You don't trust him.",
-  "The narrator went after Martinez against Arthur's request, intending to lock her up until she gave over her proof.",
-  "The narrator used a man already known to be a vicious murderer to pursue Martinez.",
-  "The narrator reflects that their situation is cause and effect: play with matches and you'll get burned.",
-  "The narrator considers presenting a deal to Arthur as business that would make sense for him regarding Halliday."
+  "The narrator reasons that if she is caught, Martinez would likely be long gone and the Lancer could still go after Martinez and Halliday.",
+  "The narrator notes that the NSA had not been able to find the Lancer either.",
+  "The narrator considers that she could make sure the DHS caught the Lancer by surprise, even at her own expense.",
+  "The narrator would have to call Arthur and ask him for help, not just for backup.",
+  "The narrator fears the Lancer might take her out of the country and bury her somewhere outside U.S. jurisdiction.",
+  "If the Feds kept their protective detail on Halliday and Martinez dropped off the map again, Arthur and the government task force would have no urgency in hunting Martinez.",
+  "Halliday's voice in the narrator's head says: \"You don't trust him.\"",
+  "The narrator admits she went after Martinez anyway, intending to lock her up until she gave over her proof, and used a man already known as a vicious murderer to do it.",
+  "The narrator reasons that Arthur has no reason to clean up after her if nobody else is in jeopardy.",
+  "The narrator describes her situation as cause and effect rather than karma: \"Play with matches and you'll get burned.\"",
+  "The narrator expects no one to rush in with a fire extinguisher and save her in the final act.",
+  "The narrator considers presenting the arrangement to Arthur as a business deal that would make sense for him regarding Halliday."
  ],
  "entities": [
   {
    "name": "Martinez",
    "type": "person",
-   "role": "target the narrator went after, who has dropped off the map; the Lancer is also hunting her and Halliday"
+   "role": "woman the narrator pursues, who has proof and has dropped off the map"
   },
   {
    "name": "Halliday",
    "type": "person",
-   "role": "person under Feds' protective detail, whose safety is at stake; voice in narrator's head warns about trusting Arthur"
-  },
-  {
-   "name": "Lancer",
-   "type": "person",
-   "role": "vicious murderer and hunter who has pursued the narrator, Martinez and Halliday"
+   "role": "person under Feds' protective detail, whom Martinez and the Lancer threaten"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "figure the narrator would have to call for help, leading the government task force and linked to the Feds"
+   "role": "figure the narrator must call for help; works with the Feds and the government task force"
+  },
+  {
+   "name": "the Lancer",
+   "type": "person",
+   "role": "man the narrator wants brought down; a vicious murderer who hunts her"
   },
   {
    "name": "NSA",
    "type": "organization",
-   "role": "agency that failed to locate the Lancer"
+   "role": "agency that had also failed to find the Lancer"
   },
   {
    "name": "DHS",
    "type": "organization",
-   "role": "agency the narrator wants to catch and take down the Lancer"
+   "role": "agency the narrator wants to catch the Lancer"
   },
   {
    "name": "Feds",
@@ -54,19 +54,19 @@
   {
    "name": "government task force",
    "type": "organization",
-   "role": "group Arthur leads or works with that would hunt Martinez and the Lancer"
+   "role": "group led with Arthur that would hunt Martinez"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
-  "first-person narrative",
-  "federal agencies",
-  "revenge plot"
+  "fugitive narrative",
+  "interior monologue",
+  "law enforcement"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1850,
-  "output_tokens": 1044
+  "output_tokens": 1073
  }
 }

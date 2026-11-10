@@ -1,52 +1,47 @@
 {
- "summary": "In this excerpt from Book 2, the narrator and Tresting survey a ruined office after an attack in which four Korean gang members, all teenagers, lie dead. Tresting, a black private investigator, thanks the narrator for saving his life, and the two wonder whether the attack was carried out by Pithica, an apparent adversary. The narrator is shaken by the children's deaths and the realization that Pithica may be behind the violence and wants it left uninvestigated.",
- "one_line": "After an attack leaves four teenage gang members dead in a ruined office, Tresting and the narrator suspect Pithica is behind it.",
+ "summary": "In this excerpt from a fiction novel, the narrator and a PI named Tresting survive an attack in a ruined office, where four Korean gang members, all teenagers, lie dead. The narrator, who has a few shallow cuts from the glass, reflects on the youth of the dead and the violence, and Tresting thanks him for saving his life. They conclude the attack may have been carried out by Pithica, a group that does not want the incident investigated.",
+ "one_line": "In a fiction excerpt, two investigators survive an attack in a wrecked office that leaves four young Korean gang members dead, and suspect Pithica is behind it.",
  "key_facts": [
-  "The narrator knows they sustained five shallow cuts on their face, neck, and hands, and considers none of them worth worrying about.",
-  "Four dead teenagers, a girl and three boys, are described as probably around fifteen or sixteen years old.",
-  "The narrator says, \"I hate it when bad things happen to kids. Especially when I'm the bad thing.\"",
-  "Tresting says the dead are Korean and gang members, pointing to a blood-smeared tattoo on one boy's hand.",
+  "The narrator knows he has sustained five shallow cuts on his face, neck, and hands.",
+  "Tresting keeps his left hand pressed against a graze while crossing the glass-strewn floor.",
+  "Four dead teenagers, a girl and three boys, are probably around fifteen or sixteen years old.",
+  "The narrator says the dead are all Asian, and Tresting corrects him that they are Korean.",
+  "Tresting identifies the dead as gang members, pointing to a blood-smeared tattoo on one boy's hand.",
   "The narrator recalls something about race riots and makes a mental note to ask the Internet about it.",
-  "Tresting looks out through the shattered window and then at the narrator with disbelief, and the narrator feels smug.",
-  "Tresting checks the girl's wrist for a pulse that the narrator knows will not be there.",
-  "Tresting says, \"They would've killed me,\" and adds, \"This neighborhood, cops would've been too slow.\"",
-  "Tresting says it is the first time Pithica has targeted him.",
-  "Tresting recites that a black PI attacked by Korean gang members in a bad neighborhood would be written off by cops as a hate crime.",
-  "Tresting reminds the narrator, \"You saw the data, Russell. Hell, you've been attacked.\"",
-  "Tresting concludes that Pithica does not want the attack investigated, and says, \"They're killing people\"."
+  "Tresting says the attackers would have killed him, and that in this neighborhood the cops would have been too slow.",
+  "The narrator says 'They're kids' in a whisper, feeling like a monster.",
+  "Tresting says 'Something's different. First time Pithica's targeted me.'",
+  "Tresting recites that Korean gang members trying to hit a black PI in a bad neighborhood would be written off by cops as a hate crime.",
+  "Tresting reminds the narrator, 'You saw the data, Russell. Hell, you've been attacked.'",
+  "The narrator concludes that the attackers do not want the attack investigated."
  ],
  "entities": [
   {
    "name": "Tresting",
    "type": "person",
-   "role": "black private investigator who was nearly killed in the attack and thanks the narrator for saving him"
+   "role": "PI (private investigator) who is a black man, thanks the narrator for saving him, and suspects Pithica"
   },
   {
    "name": "Russell",
    "type": "person",
-   "role": "narrator, addressed by name by Tresting, who was attacked and was cut in the fight"
+   "role": "narrator, who is addressed by name by Tresting and fought off the attackers"
   },
   {
    "name": "Pithica",
    "type": "organization",
-   "role": "suspected organization behind the attacks, which has targeted Tresting for the first time"
-  },
-  {
-   "name": "Korean gang members",
-   "type": "organization",
-   "role": "four teenage attackers who are dead in the ruined office"
+   "role": "suspected group that has targeted Tresting and may be behind the attack"
   }
  ],
  "tags": [
   "fiction",
+  "crime thriller",
   "gang violence",
-  "private investigator",
-  "pithica",
-  "urban crime"
+  "private investigation",
+  "hate crime"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2001,
-  "output_tokens": 879
+  "output_tokens": 795
  }
 }

@@ -1,62 +1,64 @@
 {
- "summary": "An excerpt from a fiction novel (labeled Book 10, part 166) in which Ria speaks with Leon, explaining that she and her colleagues had kept a close watch on him since he was hired by Ate. She says his work differed from typical Ate employees, that they shielded him from being shaped or ruined by the Viktor Culture, and that they could have acquired Ate outright. The scene ends with Ria proposing a walk and the two being given a bunny-suit to enter the heart of Viktor.",
- "one_line": "Ria explains to Leon why she and her colleagues watched over him after he joined Ate, and they set off into Viktor.",
+ "summary": "An excerpt from a fiction novel (Book 10, part 166) in which Ria and Leon talk on a walkway in a utopian setting. Leon asks why Ria and her people have been so secretive and oblique, and Ria explains that they had Leon's graduate work profiled, hoped he would bring something different to the company Ate, and deliberately arranged for a 'good fairy' to counterbalance the corrupting influences of the company. Ria admits they could have hired Leon at any time, and the excerpt ends with them heading toward Viktor, where Leon is given a bunny-suit to wear.",
+ "one_line": "Ria explains to Leon the hidden reasons behind her secrecy, revealing she had profiled him and shielded him inside the company Ate before they walk into Viktor.",
  "key_facts": [
-  "Ria asks Leon why there is so much secrecy, obliqueness and funny gaps, and says she wants to know why.",
-  "Leon's pulse thudded and his armpits slicked as he realized he may have popped the bubble of consensual illusion between them.",
+  "Leon asks Ria why there is all the secrecy and obliqueness and funny gaps in her talk.",
+  "Ria waits while a pack of grad students scampers by overhead, discussing teleomeres.",
+  "Ria says there are things that can't be readily said in utopia and that people get in the habit of speaking out of the back of their heads.",
   "Ria says the average employee at a place like Ate is a bottomless well of desires, trying to figure out what others might desire.",
-  "As soon as Leon was hired by Ate, the group generated a dossier on him, which included his grad work.",
-  "Leon's resume emphasized his grades, not his final projects, and he did not speak of the projects at all.",
-  "Ria says they feared that at Ate Leon would be bent, shaped, made over or ruined, and that the Viktor Culture was one he was totally unsuited to.",
-  "Ria says they made sure Leon had a good fairy on his right shoulder to counterbalance the devil on his left shoulder.",
-  "Ria admits they figured Leon would not last long as a button-polisher and would want out.",
-  "Ria says they could have hired Leon any time and could have bought Ate.",
+  "As soon as Leon was hired by Ate, Ria's side generated a dossier on him that included his grad work.",
+  "Leon's resume emphasized his grades, not his final projects, and he never spoke of the projects at all.",
+  "Ria says they feared Leon would be bent, shaped, made over or ruined if left to his own devices at Ate.",
+  "Ria describes the 'dreaded Viktor Culture' as a culture Leon was totally unsuited to, where a new hire either runs screaming or fits in.",
+  "Ria says they arranged for a good fairy on Leon's right shoulder to counterbalance the devil on his left shoulder.",
+  "Ria says they figured Leon would not last long as a button-polisher and would want out.",
+  "Ria says they could have hired Leon any time and could have bought Ate, which would have given him to them.",
   "Ria references the business about making Brautigan into a pair of boots, saying it applies all around.",
-  "Ria says Leon is now talking in euphemisms and proposes they walk.",
-  "Leon and Ria are given a bunny-suit to wear into the heart of Viktor."
+  "Leon asks whether she wanted him to walk in the wilderness first, and Ria replies that he is now talking in euphemisms.",
+  "The excerpt ends with Leon being given a bunny-suit to wear into the heart of Viktor."
  ],
  "entities": [
   {
-   "name": "Ria",
-   "type": "person",
-   "role": "speaker who explains the group's past monitoring of Leon and proposes the walk"
-  },
-  {
    "name": "Leon",
    "type": "person",
-   "role": "young employee hired by Ate whose grad work caught the group's attention"
+   "role": "protagonist, a new employee at Ate who was profiled and steered by Ria's group"
+  },
+  {
+   "name": "Ria",
+   "type": "person",
+   "role": "speaker who explains the secrecy and reveals the dossier and plan to shield Leon"
   },
   {
    "name": "Ate",
    "type": "organization",
-   "role": "workplace where Leon was hired and where employees have desires the group monitors"
+   "role": "company where Leon was hired and where the average employee is a bottomless well of desires"
   },
   {
    "name": "Viktor",
    "type": "place",
-   "role": "culture or site Leon must enter, described as the Viktor Culture, wearing a bunny-suit"
+   "role": "the Viktor Culture and the heart of Viktor, which Leon is dressed to enter"
   },
   {
    "name": "Viktor Culture",
    "type": "other",
-   "role": "demanding workplace culture to which Leon is described as unsuited"
+   "role": "culture described as dreaded and unsuited to Leon, into which new hires either run screaming or fit in"
   },
   {
    "name": "Brautigan",
    "type": "person",
-   "role": "figure referenced in a business anecdote about being made into a pair of boots"
+   "role": "referenced in the business about making Brautigan into a pair of boots"
   }
  ],
  "tags": [
   "fiction",
   "novel excerpt",
-  "workplace intrigue",
-  "corporate culture",
+  "corporate intrigue",
+  "utopia",
   "dialogue"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1894,
-  "output_tokens": 961
+  "output_tokens": 1116
  }
 }

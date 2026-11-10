@@ -1,74 +1,70 @@
 {
- "summary": "Sean, hungover after a night at a motel, drives Adele to the airport to pick up his father, who is coming to visit. Along the way Adele makes wry, pointed remarks about the trip and about her husband Ethan, who is in a care facility. Sean apologizes for his behavior at the pool the day before, and Adele responds with a story about Ethan's father, who held grudges and died of a heart attack. The excerpt is a fragment from a longer novel, Book 10, part 131.",
- "one_line": "Hungover Sean drives Adele to the airport to collect his father, trading barbed remarks about Ethan and the pool incident.",
+ "summary": "Sean, hungover after a night alone at a motel, drives Adele to the airport to pick up his father, who is arriving from Canada. Their banter is wry and tense, touching on Sean's sour mood, Adele's dark jokes about the men in her life, and a remark about a pool incident the previous day. Adele recalls Ethan's father, who held grudges and died of a heart attack, and Sean offers an insincere comfort about Ethan. The passage is a fragment of a longer novel, so its wider stakes are not yet clear.",
+ "one_line": "Hungover Sean drives Adele to the airport to collect his father, and their tense, witty small talk reveals strained family ties.",
  "key_facts": [
-  "Sean tried to record field notes while flipping through the motel's cable channels, which included Japanese game-shows and Hindu religious epics.",
-  "Sean smoked half a cigarette, drank half a beer, and then slept.",
-  "Adele rang Sean's room-phone at eight and said, \"Rise and shine, sunshine!\"",
+  "Sean spent the night in a motel room, flipping through the cable system's Japanese game shows and Hindu religious epics before falling asleep.",
+  "Adele rang Sean's room phone at eight and said, \"Rise and shine, sunshine!\"",
   "Adele told Sean that his father would be at the airport in an hour.",
-  "Adele wore slacks and a light blouse, hung sunglasses around her neck on a gold chain, and carried an enormous sisal handbag.",
-  "Sean drove onto the Bee Line Expressway toward the airport and pulled up to the Air Canada arrivals loading zone.",
-  "Adele joked that the five of them might go to Universal for an afternoon, and Sean replied that they could not take them off the ward.",
-  "Sean apologized to Adele for his behavior yesterday by the pool, saying he was a little wound up.",
-  "Adele said that Ethan's father held grudges, and that the grudges killed him through a heart attack; he never forgave the doctors.",
+  "Sean did not shave or brush his teeth before driving to the airport.",
+  "Adele wore slacks and a light blouse, a pair of sunglasses on a gold chain, and carried an enormous sisal handbag.",
+  "Sean drove onto the Bee Line Expressway toward the airport.",
+  "Adele suggested the five of them could go to Universal for an afternoon.",
+  "Sean pulled up to the Air Canada arrivals loading zone and switched off the engine.",
+  "Sean apologized to Adele for his behavior the previous day, saying he was a little wound up.",
+  "Adele said that Ethan's father held grudges, and that it killed him by heart attack.",
   "Adele said she was happy to have a chauffeur and that Ethan is what she has left.",
-  "Sean said he was sure Ethan knows Adele is visiting him and that Ethan is in there.",
-  "Adele offered to wait with the car so Sean could go in and look for his father, but Sean declined, saying his father would come out for a cab.",
-  "Adele said she liked a decisive man and that Sean had jumped into the pool because he wanted a swim.",
-  "Sean described swimming in the pool as \"like swimming in a urine sample.\""
+  "Sean said that Ethan knows Adele is visiting him and loves him, though Adele replied, \"Maybe he is, maybe he isn't.\"",
+  "Adele offered to wait with the car while Sean went in to look for his father, but Sean said his father would take a cab.",
+  "Adele said she liked a decisive man and described how Sean had jumped into the pool by the pool-side talk.",
+  "Sean described the pool as \"like swimming in a urine sample.\""
  ],
  "entities": [
   {
    "name": "Sean",
    "type": "person",
-   "role": "protagonist who drives Adele to the airport to pick up his father"
+   "role": "narrator's protagonist who drives Adele to the airport, hungover and gruff"
   },
   {
    "name": "Adele",
    "type": "person",
-   "role": "older woman, Ethan's wife, who accompanies Sean to the airport"
+   "role": "older woman who rides with Sean, teasing and blunt, visiting Ethan"
   },
   {
    "name": "Ethan",
    "type": "person",
-   "role": "Adele's husband, who is in a care facility and is visited by Adele"
+   "role": "relative of Adele who is in a care facility and may not recognize visitors"
   },
   {
    "name": "Ethan's father",
    "type": "person",
-   "role": "man who held grudges and died of a heart attack, never forgiving the doctors"
+   "role": "man who held grudges against doctors and died of a heart attack"
   },
   {
-   "name": "Sean's father",
-   "type": "person",
-   "role": "man arriving by air to visit, to be picked up by Sean at the airport"
+   "name": "Air Canada",
+   "type": "organization",
+   "role": "airline whose arrivals loading zone Sean pulls up to"
   },
   {
    "name": "Bee Line Expressway",
    "type": "place",
-   "role": "highway Sean takes toward the airport"
-  },
-  {
-   "name": "Air Canada arrivals",
-   "type": "organization",
-   "role": "airport loading zone where Sean stops the car"
+   "role": "road Sean drives on toward the airport"
   },
   {
    "name": "Universal",
    "type": "place",
-   "role": "theme park Adele suggests visiting in the afternoon"
+   "role": "theme park Adele suggests visiting with the group"
   }
  ],
  "tags": [
   "fiction",
-  "novel excerpt",
   "family",
   "airport",
-  "aging"
+  "aging",
+  "dark humor"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1948,
-  "output_tokens": 1098
+  "output_tokens": 1047
  }
 }

@@ -1,80 +1,85 @@
 {
- "summary": "This excerpt from Book 3, part 9, is a scene in which a filmmaker interviews Carly Grove, a single woman who paid about sixty thousand dollars through the agency Children of Light to adopt a baby named Kevin, obtained through a doctor named Goddard. The narrator, who is filming the interview for a documentary-style picture, wraps up the shoot, notes the crew's enthusiasm, and then asks Carly whether she knows other single women who adopted through Children of Light, saying she may want to check them out herself. Carly hesitates and begins to mention another woman she was referred to by her lawyer.",
- "one_line": "A filmmaker interviews single adoptive mother Carly Grove about her costly adoption through Children of Light and asks for other referrals.",
+ "summary": "An excerpt from a novel's interview scene in which Carly Grove, a single woman who adopted a baby named Kevin through Children of Light, describes paying about sixty thousand dollars for the adoption, with the baby arriving within three months and little knowledge of his origin. The narrator, a filmmaker shooting a documentary, sees the interview as powerful footage, then privately asks Carly whether she knows other single women who adopted through the agency, saying she may want to check them out herself. Carly, uneasy, begins to mention another woman who adopted from the agency.",
+ "one_line": "A filmmaker interviews Carly Grove about her costly, rushed adoption through Children of Light and quietly asks for other referrals.",
  "key_facts": [
-  "Carly Grove says the money the adoption required was 'stagger­ing' at sixty thousand dollars.",
-  "Carly says it took her almost half a year to scrounge the money together, and many credit lines got maxed.",
+  "Carly Grove says the money the adoption required was 'stagger­ing', totaling sixty thousand dollars.",
+  "Carly says it took her almost half a year to gather the money, with several credit lines maxed out.",
   "Carly says she had Kevin in less than three months after paying the money.",
-  "Carly says she believes Kevin came from out of the country, based on the blank INS forms she signed.",
-  "Carly says the adoption was arranged by a doctor named Goddard.",
-  "The narrator thinks the interview sounds like an 'infomercial' for the adoption miracle wrought by Goddard.",
-  "The narrator wants to get the film to the lab and look at the rushes, and has a doctor's appointment that afternoon.",
-  "The narrator expects the interview, with Carly's honest intensity, will give the picture spine and guts.",
-  "Roger Drexel is the cameraman, who wears a Panaflex camera and has a scraggly beard.",
-  "Scott strikes the lights and Cafiero rips up the power lines taped to the floor, as the crew enters wrap mode.",
-  "Marcy is in the kitchen feeding Kevin Gerber applesauce while Carly is nearby.",
-  "The narrator asks Carly whether she knows other single women who have adopted through Children of Light.",
-  "The narrator says she may want to check other adoptive women out for herself, and she realizes she is babbling.",
-  "Carly starts twisting at her hair and says she might have another name, a woman her lawyer referred her to who had adopted from Children of Light."
+  "Carly says she does not know where Kevin came from, though she believes he was probably from out of the country because of blank INS forms she signed.",
+  "Carly says 'With a deal this good, you don't press for details, right?'",
+  "The adoption miracle in the interview is attributed to a doctor named Goddard.",
+  "The narrator wants to get the film to the lab and see the rushes, and has a doctor's appointment that afternoon.",
+  "The time is pushing two o'clock when the narrator suggests ending the interview.",
+  "The narrator plans a meeting with David to update him on the project.",
+  "Roger Drexel uses a Panaflex camera and hides his thoughts in his scraggly beard.",
+  "Marcy is feeding Kevin Gerber applesauce in the kitchen.",
+  "The narrator asks Carly whether she knows other single women who adopted through Children of Light.",
+  "The narrator tells Carly she may want to check out other adoptive women for herself.",
+  "Carly mentions that her lawyer first told her about Children of Light and gave her the name of another adoptive woman.",
+  "Carly starts twisting her hair when she becomes worried about the narrator's questions."
  ],
  "entities": [
   {
    "name": "Carly Grove",
    "type": "person",
-   "role": "single woman interviewed on camera who adopted a baby named Kevin through Children of Light for about sixty thousand dollars"
+   "role": "interviewee who adopted a baby named Kevin through Children of Light for sixty thousand dollars"
   },
   {
    "name": "Kevin",
    "type": "person",
-   "role": "baby Carly adopted, whose origin was probably out of the country"
+   "role": "baby Carly adopted through Children of Light"
   },
   {
    "name": "Children of Light",
    "type": "organization",
-   "role": "adoption agency through which Carly adopted and which the narrator asks about"
+   "role": "adoption agency through which Carly adopted Kevin"
   },
   {
    "name": "Goddard",
    "type": "person",
-   "role": "doctor credited with the adoption arrangement Carly describes as a miracle"
+   "role": "doctor credited with the adoption miracle in the interview"
   },
   {
    "name": "David",
    "type": "person",
-   "role": "person the narrator has a meeting with to bring him up to speed on the project"
+   "role": "person the narrator plans to brief on the project"
   },
   {
    "name": "Roger Drexel",
    "type": "person",
-   "role": "crew member with a scraggly beard who operates the Panaflex camera"
+   "role": "crew member with a scraggly beard and Panaflex camera"
   },
   {
    "name": "Scott",
    "type": "person",
-   "role": "crew member who strikes the lights"
+   "role": "crew member who struck the lights"
   },
   {
    "name": "Cafiero",
    "type": "person",
-   "role": "crew member who rips up the power lines"
+   "role": "crew member who ripped up power lines"
   },
   {
    "name": "Marcy",
    "type": "person",
-   "role": "woman in the kitchen feeding Kevin applesauce"
+   "role": "woman feeding Kevin applesauce in the kitchen"
+  },
+  {
+   "name": "INS",
+   "type": "organization",
+   "role": "agency whose blank forms Carly signed"
   }
  ],
  "tags": [
   "adoption",
-  "documentary filmmaking",
   "fiction",
-  "interview",
+  "documentary filmmaking",
   "children of light",
-  "single parenthood"
+  "interview scene"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1889,
-  "output_tokens": 1172
+  "output_tokens": 1112
  }
 }

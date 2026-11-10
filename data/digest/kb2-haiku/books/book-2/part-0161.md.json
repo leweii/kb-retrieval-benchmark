@@ -1,54 +1,55 @@
 {
- "summary": "In this excerpt from Book 2, the narrator, Checker and Rio discuss how to disrupt Pithica's far-flung network of revenue streams. The narrator proposed mass tip-offs warning victims their money was being stolen, but Checker argued that no one would take such messages seriously because the sources are diverse and the messages would be dismissed or filtered as spam. Checker suggested a Trojan to alter the accounts, but the narrator noted people would not check them quickly enough. The narrator then decides to seek help from a shadowy multinational organization that can pull every string, despite its earlier threat to kill them, and asks Rio for a disposable phone.",
- "one_line": "The narrator and Checker debate how to expose Pithica's revenue streams, and the narrator resolves to contact a dangerous shadowy organization for help.",
+ "summary": "In this excerpt from Book 2, the narrator, Checker, and Rio discuss how to disrupt Pithica's many revenue streams. The narrator's plan of mass warnings to victims is dismissed by Checker as lacking legitimacy, since the sources are spread across many banks and organizations worldwide. Checker proposes a Trojan that would alter the accounts, but the narrator argues people must move their money simultaneously, and the group needs an authority that only a shadowy multinational organization can provide. The narrator chooses to contact that group despite Checker's objections and asks Rio for a disposable phone.",
+ "one_line": "The characters debate how to expose Pithica's revenue streams and decide to contact a dangerous shadowy organization for authority.",
  "key_facts": [
-  "The narrator had planned to send massive tip-offs warning people that their money was being stolen or not going where they believed.",
-  "Checker argued that the tip-offs would not be taken seriously because Pithica's network comes from all over the world.",
-  "The narrator said a mass communication would be dismissed in less than zero time and probably would not get past most people's spam filters.",
-  "Checker said, \"We lack legitimacy.\"",
-  "Checker proposed sending a Trojan that would alter all of the accounts so that people would see something happening when they were checked.",
-  "The narrator replied that nobody would check the accounts even if told to, and that people needed to move their money simultaneously.",
-  "The narrator said Pithica knows the group is out there and has the information, so it is only a matter of time before Pithica tracks them down or changes its revenue structure.",
-  "The narrator proposed asking a shadowy multinational organization that can pull every string in the book for the authority they need.",
-  "Checker said that the shadowy organization had already said it would kill them.",
-  "The narrator responded, \"Then they can't do much worse, can they?\"",
-  "Checker said the narrator was going to get her own way on this despite his objections.",
-  "Rio opened a kitchen drawer containing a jumble of disposable cell phones still in their packaging.",
-  "Rio handed the narrator a disposable phone, which she intended to burn after use.",
-  "Rio asked whether the narrator thought the plan was viable, and she replied, \"It's what we've got.\""
+  "The team expects to have a huge list of the exact paths of all Pithica's revenue streams, involving thousands of sources.",
+  "The narrator's original idea was to send massive tip-offs warning people they are being stolen from or that their money isn't going where they think.",
+  "Checker says the tip-offs would not be taken seriously because Pithica's network comes from all over the world.",
+  "The narrator notes the revenue sources span different banks, businesses and organizations, so a mass communication would be dismissed in less than zero time.",
+  "Checker proposes sending a Trojan that would alter the accounts so that people checking them see something happening.",
+  "The narrator argues nobody will check the accounts all at once, and everyone must move their money simultaneously so Pithica cannot respond.",
+  "The narrator says the group needs virtual psychic paper that grants authority to verify the message.",
+  "The narrator proposes contacting a shadowy multinational organization that can pull every string in the book.",
+  "Checker warns that the shadowy organization already said they would kill the narrator.",
+  "The narrator replies that the organization cannot do much worse than killing them.",
+  "Checker says the narrator will get their own way no matter how much he objects.",
+  "Rio opens a kitchen drawer containing disposable cell phones still in their packaging and hands one to the narrator.",
+  "Rio asks whether the plan is viable, and the narrator answers that it is what they have and that these are dangerous people.",
+  "Pithica knows the group is out there and has the information, so it is only a matter of time before Pithica tracks them down or changes its revenue structure."
  ],
  "entities": [
   {
    "name": "Pithica",
    "type": "organization",
-   "role": "entity whose thousands of revenue streams the group is trying to expose and disrupt"
+   "role": "target organization whose revenue streams the group wants to expose; its network spans the world"
   },
   {
    "name": "Checker",
    "type": "person",
-   "role": "companion who works with computers and objects to the plan to contact the shadowy organization"
+   "role": "companion who works at computers, objects to the plan, and proposes a Trojan"
   },
   {
    "name": "Rio",
    "type": "person",
-   "role": "companion in the kitchen who supplies the disposable cell phone"
+   "role": "companion in the narrow kitchen who supplies a disposable cell phone"
   },
   {
    "name": "shadowy multinational organization",
    "type": "organization",
-   "role": "organization that can pull every string in the book and had previously threatened to kill the group"
+   "role": "group that can provide the authority needed and has previously threatened to kill the narrator"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
-  "conspiracy",
-  "planning",
-  "pithica"
+  "book 2",
+  "pithica",
+  "revenue streams",
+  "plot excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1927,
-  "output_tokens": 966
+  "output_tokens": 980
  }
 }

@@ -1,55 +1,61 @@
 {
- "summary": "This excerpt from Book 1 (part 170) follows Marcus and Masha as they change their appearance to evade gait recognition and face databases after a mob incident in San Francisco. Masha warns that both are now wanted criminals and hurries Marcus uphill through the Tenderloin toward a rendezvous. In an alley called Sabin Place, they are cornered by Charles, a classmate in a half-hearted VampMob costume, who has recorded Marcus leading the mob and threatens to call the police.",
- "one_line": "Marcus and Masha flee San Francisco after a mob incident, only to be cornered in an alley by Charles, who recorded Marcus leading it.",
+ "summary": "In this excerpt from Book 1 (part 170), the narrator Marcus and his companion Masha swap their appearance and flee San Francisco after a mob incident, climbing uphill through the Tenderloin toward a rendezvous. Their escape is cut off in Sabin Place by Charles, a former schoolmate in a half-hearted VampMob costume, who has recorded Marcus leading the mob on his phone and threatens to call the police. The passage is a tense chase-and-confrontation scene with the story's Xnet, VampMob and surveillance themes in the background.",
+ "one_line": "Marcus and Masha flee San Francisco's Tenderloin after a mob incident, only to be cornered in Sabin Place by Charles, who recorded Marcus leading the mob.",
  "key_facts": [
-  "Masha tells Marcus to put pebbles in his shoes and says a sprained foot means no gait recognition program will spot him.",
-  "The changeover of their appearance took less than a minute, and they looked and walked like two different people.",
-  "Masha says the footage from the mob will be analyzed for days and then every face in it will go into a database.",
-  "Masha tells Marcus that they are both wanted criminals and that his choices are her or jail.",
-  "Masha gets them off Market Street on the next block, swinging back into the Tenderloin.",
-  "Marcus recalls that the Tenderloin is where they hunted for an open WiFi access-point on the day they played Harajuku Fun Madness.",
-  "Marcus's foot hurts badly as they climb uphill toward Nob Hill, moving through narrow alleys.",
-  "They step into an alley called Sabin Place when someone says, \"Freeze right there.\"",
+  "Masha tells Marcus that after the mob footage is analyzed, every face in it will go into a database, and that they are both wanted criminals now.",
+  "Masha says, \"You've got two choices now. Me, or jail.\"",
+  "Marcus says he sprained his foot and that \"No gait recognition program will spot me now.\"",
+  "The total time for the changeover of their appearance was less than a minute.",
+  "Masha leads Marcus off Market Street into the Tenderloin, a neighborhood where they had hunted for an open WiFi access-point on the day of Harajuku Fun Madness.",
+  "The route climbs uphill toward the zone where the Tenderloin gives way to the Nob Hill real-estate district.",
+  "The pair moves through narrow alleys and uses big streets only to reach the next alley.",
+  "They are stopped in Sabin Place when a person says, \"Freeze right there.\"",
   "Charles stands at the mouth of the alley wearing a halfhearted VampMob outfit of black t-shirt, jeans and white face-paint.",
-  "Charles says he has been hanging out on the Xnet since he saw Marcus giving out DVDs at school.",
-  "Charles says he recorded Marcus leading the VampMob and plans to call the cops and wait for them.",
+  "Charles says he has been on the Xnet since he saw Marcus giving out DVDs at school.",
+  "Charles says he recorded Marcus leading the VampMob and intends to call the cops and wait for them.",
+  "Charles threatens that Marcus will go to \"pound-you-in-the-ass prison, for a long, long\" term.",
   "Masha had gone still as a board beside Marcus during the confrontation."
  ],
  "entities": [
   {
    "name": "Marcus",
    "type": "person",
-   "role": "narrator and protagonist, a wanted fugitive fleeing with Masha"
+   "role": "narrator and protagonist who leads the VampMob and is now a wanted criminal"
   },
   {
    "name": "Masha",
    "type": "person",
-   "role": "companion who leads the escape and arranges a rendezvous and ride"
+   "role": "companion who organizes the escape and rendezvous and swaps appearances with Marcus"
   },
   {
    "name": "Charles",
    "type": "person",
-   "role": "classmate in a halfhearted VampMob costume who records Marcus leading the mob and threatens to call the police"
+   "role": "antagonist who records Marcus leading the mob and blocks the escape in Sabin Place"
   },
   {
    "name": "VampMob",
-   "type": "organization",
-   "role": "mob whose footage will be analyzed and whose leader Marcus is accused of being"
+   "type": "event",
+   "role": "mob that Marcus led, which is being analyzed in footage by authorities"
+  },
+  {
+   "name": "Xnet",
+   "type": "other",
+   "role": "network Charles has been hanging out on after learning of the VampMob"
   },
   {
    "name": "Market Street",
    "type": "place",
-   "role": "San Francisco street they leave shortly after the changeover"
+   "role": "San Francisco street the pair leaves on the next block"
   },
   {
    "name": "Tenderloin",
    "type": "place",
-   "role": "San Francisco neighborhood they move through, between Market Street and Nob Hill"
+   "role": "San Francisco neighborhood the pair moves through, which Marcus knows from earlier hunting for WiFi"
   },
   {
    "name": "Nob Hill",
    "type": "place",
-   "role": "upscale San Francisco neighborhood they are climbing toward"
+   "role": "upscale San Francisco neighborhood the pair climbs toward"
   },
   {
    "name": "Sabin Place",
@@ -58,25 +64,21 @@
   },
   {
    "name": "Harajuku Fun Madness",
-   "type": "event",
-   "role": "game Marcus and Masha played on the day they hunted for a WiFi access-point in the Tenderloin"
-  },
-  {
-   "name": "Xnet",
    "type": "program",
-   "role": "network Charles has been hanging out on, which he calls traitorous"
+   "role": "game Marcus and Masha were playing on the day they hunted for an open WiFi access-point"
   }
  ],
  "tags": [
   "fiction",
   "science fiction",
-  "cyberpunk",
-  "pursuit",
+  "chase scene",
+  "surveillance",
+  "vampmob",
   "san francisco"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1906,
-  "output_tokens": 1161
+  "output_tokens": 1236
  }
 }

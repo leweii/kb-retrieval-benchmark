@@ -1,53 +1,60 @@
 {
- "summary": "This excerpt from Book 4 (part 114) follows Valentine in a famine-stricken, war-scarred city. Her mother returns from three weeks in hospital with mended bones, and the family shares a meagre dinner and a painkiller. Valentine cannot sleep, takes a glowing light from her galosh on a secret night walk, and reflects on the worsening bread rations and the hunger that pride cannot cure. The passage ends mid-scene as a man snatches her bread in the queue.",
- "one_line": "Valentine's mother returns from hospital to a starving, war-torn city, and Valentine's hunger and pride are tested in the bread queue.",
+ "summary": "This excerpt from Book 4 (part 114) follows Valentine in a starving, war-stricken city. Her mother Mata returns after three weeks in hospital with her broken bones mended, and the family reunites with the silent younger boy Trover, who has grown tall enough to hug Valentine at the waist. Valentine cannot sleep, so she takes a glowing light from her galosh on a secret night walk, and the passage closes with the bread ration cut to 120 grams and her growing hunger.",
+ "one_line": "Valentine's mother returns from hospital to a famine-stricken city, and Valentine's hunger and quiet secret walks deepen.",
  "key_facts": [
   "Valentine's mother came home after three weeks in hospital, where she had her broken bones mended.",
-  "Valentine's mother walked into the flat like an old woman and hobbled across the room to hug Valentine.",
-  "Valentine's brother Trover, who had been silent, got up from the table and hugged both of them.",
-  "Trover was now tall enough to hug Valentine at the waist instead of the knees.",
-  "Her mother ate some of the dinner and took a painkiller in pill form, which were now everywhere.",
-  "Under Valentine's bed was the remains of her grip sheet parcel, including one winter galosh; the other had been stolen the winter before.",
-  "A pea-sized glowing light was kept in the toe of the galosh, which Valentine had never considered selling for bread.",
-  "Valentine took the glowing light outside on a secret walk through the old streets of the city during the hot night.",
+  "Mata entered the flat moving like an old woman, and Valentine cried while hugging her.",
+  "Silent Trover had grown tall enough to hug Valentine at the waist instead of the knees.",
+  "Mata took a painkiller in pill form, which were now everywhere in the city.",
+  "Valentine kept a pea-sized glowing light in the toe of her single winter galosh, kept inside a grip sheet parcel under her bed.",
+  "The other galosh had been stolen the winter before while Valentine had both off to warm her toes before returning to digging.",
+  "Valentine took the glowing light outside into the hot night to light a secret walk through the old streets.",
   "Nine months after her father died, winter had sent autumn as a threatening envoy.",
-  "The bread ration had been cut to 120 grams, and pebbles were sometimes found in the bread to increase its weight.",
+  "The bread ration was cut to 120 grams, and there were sometimes pebbles in the bread to increase its weight.",
   "Valentine and the other diggers cursed the enemy, not the city, when the bread was bad.",
-  "Valentine was so hungry all the time, and the narrator notes that you couldn't eat pride.",
-  "In the bread queue, a man old enough to be her father snatched her ration from her trembling hands."
+  "The narrator notes that no one had it any better and that everyone fought and suffered together.",
+  "Valentine is so hungry all the time that she observes you cannot eat pride.",
+  "In a queue for bread, a man old enough to be an elder snatched Valentine's ration and fled, as the passage ends mid-scene.",
+  "The passage opens with a list of rations including 40 grams of butter and 100 grams of ground beef that Valentine doubts exists locally.",
+  "Even cats, dogs and rats were gone from the city."
  ],
  "entities": [
   {
    "name": "Valentine",
    "type": "person",
-   "role": "protagonist, a young digger who lives with her mother and brother in the city"
+   "role": "young protagonist, a digger in the besieged city who keeps the glowing light and feeds Trover"
   },
   {
    "name": "Mata",
    "type": "person",
-   "role": "Valentine's mother, who returns home after three weeks in hospital"
+   "role": "Valentine's mother, who returns from hospital after three weeks with her broken bones mended"
   },
   {
    "name": "Trover",
    "type": "person",
-   "role": "Valentine's silent younger brother, who has grown tall"
+   "role": "silent younger boy in Valentine's household, now tall enough to hug her at the waist"
   },
   {
-   "name": "Valentine's father",
+   "name": "the woman downstairs",
    "type": "person",
-   "role": "deceased; died nine months before the scene"
+   "role": "neighbor whom Valentine wonders about regarding ground beef"
+  },
+  {
+   "name": "the diggers",
+   "type": "organization",
+   "role": "workers, including Valentine, who dig in the city and curse the enemy when bread is bad"
   }
  ],
  "tags": [
   "fiction",
-  "wartime famine",
-  "rationing",
+  "wartime hardship",
+  "famine",
   "family",
-  "survival"
+  "resilience"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1820,
-  "output_tokens": 857
+  "output_tokens": 997
  }
 }

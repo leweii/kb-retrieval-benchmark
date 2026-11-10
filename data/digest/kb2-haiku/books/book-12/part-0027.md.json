@@ -1,41 +1,41 @@
 {
- "summary": "An excerpt from a fiction work, 'Book 12 — part 27', in which Lexy Moran and Captain Grey talk by the fire. Captain Grey voices a sense of uneasiness he feels, which Lexy urges him to treat as a warning, and then he begins to explain his worries about his younger sister Muriel, whom he has not seen since he was six. The passage ends mid-conversation as he recounts their family history and the failed plan for her to join him in England.",
- "one_line": "Lexy Moran and Captain Grey discuss his feelings of uneasiness and his long-estranged sister Muriel by the fire.",
+ "summary": "An excerpt from a novel in which Lexy Moran and Captain Grey talk by the fire about his feelings of uneasiness and a sense of warning, which he finally explains concerns his sister. Lexy encourages him to trust such feelings, and he recounts that his mother died in India when his sister Muriel was born, that Muriel was raised in the States by an aunt, and that the two have not met since he was six and she was a baby. The passage ends with the siblings' long separation of twenty-one years and Lexy's growing interest.",
+ "one_line": "Lexy Moran listens as Captain Grey confides a troubling premonition about his long-estranged sister Muriel.",
  "key_facts": [
-  "Lexy Moran and Captain Grey talk by the firelight, and Lexy finds his face sensitive and fine rather than haughty.",
-  "Captain Grey says he has a feeling that something is wrong and asks whether one should laugh at it or take it as a warning.",
-  "Lexy replies that feelings like that are a warning and that it is foolish and wrong to disregard them.",
-  "Captain Grey says he has been trying to tell himself he is an utter ass, but he knows there is something wrong.",
-  "Lexy feels an unreasoning dread when he hints at something serious and briefly does not want to hear more.",
-  "Captain Grey says the matter concerns his sister, Muriel.",
-  "Captain Grey last saw Muriel when he was six years old and she was a baby.",
-  "Muriel's mother died when Muriel was born, out in India.",
-  "An aunt took Muriel to the States, and Captain Grey stayed out there with his father.",
-  "Muriel is twenty-one years old, and Captain Grey's last picture of her shows her at about fourteen.",
-  "Captain Grey describes Muriel as a pretty kid, a bit more than pretty, and lovely.",
-  "While Captain Grey was at school in England, it was arranged for Muriel to come over, but she did not, and they have never met again.",
-  "Captain Grey says twenty-one years is a long time since they last met."
+  "Lexy Moran and Captain Grey talk together by the firelight, and Lexy studies his face, finding it sensitive and fine rather than haughty.",
+  "Captain Grey describes a feeling of uneasiness that something is wrong and asks whether one ought to laugh at it or take it as a warning.",
+  "Lexy replies that such feelings are a warning and that it is foolish and wrong to disregard them, even if one's own mind says it is nonsense.",
+  "Captain Grey says he has been trying to tell himself he is an utter ass but knew all along that there was something wrong.",
+  "Lexy feels an unreasoning dread and for a moment does not want to hear more before agreeing to listen.",
+  "Captain Grey's sister is named Muriel.",
+  "Captain Grey last saw his sister when he was six years old and she was a baby; they have never met since.",
+  "Captain Grey's mother died when Muriel was born, out in India.",
+  "An aunt took Muriel to the States, while Captain Grey stayed out there with his father.",
+  "The last picture Captain Grey had of Muriel showed her at about fourteen, which he described as lovely.",
+  "It was arranged that Muriel would come to England while Captain Grey was at school there, but she did not come.",
+  "Captain Grey notes that twenty-one years have passed since they last met, and Muriel is now twenty-one years old.",
+  "Lexy's dread disappears once Captain Grey begins talking about his sister, and she feels lively interest in hearing about her."
  ],
  "entities": [
   {
    "name": "Lexy Moran",
    "type": "person",
-   "role": "female character who listens to Captain Grey and offers advice about his feelings of uneasiness"
+   "role": "female character who listens to Captain Grey and offers advice about his uneasiness"
   },
   {
    "name": "Captain Grey",
    "type": "person",
-   "role": "male character who voices uneasiness and tells Lexy about his sister Muriel"
+   "role": "male character who confides a feeling of warning about his sister"
   },
   {
    "name": "Muriel",
    "type": "person",
-   "role": "Captain Grey's younger sister, born in India, who was taken to the States by an aunt and whom he has not seen since childhood"
+   "role": "Captain Grey's younger sister, twenty-one years old, whom he has not seen since she was a baby"
   },
   {
    "name": "India",
    "type": "place",
-   "role": "place where Muriel was born and where their mother died"
+   "role": "place where Captain Grey and Muriel's mother died after Muriel's birth"
   },
   {
    "name": "States",
@@ -45,19 +45,19 @@
   {
    "name": "England",
    "type": "place",
-   "role": "location of Captain Grey's school, where Muriel's planned visit did not happen"
+   "role": "place where Captain Grey was at school when Muriel was to come over"
   }
  ],
  "tags": [
   "fiction",
+  "novel excerpt",
   "family estrangement",
-  "premonition",
-  "sibling relationships",
-  "narrative excerpt"
+  "intuition",
+  "sibling relationship"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1947,
-  "output_tokens": 960
+  "output_tokens": 1000
  }
 }

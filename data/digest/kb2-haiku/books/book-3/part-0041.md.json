@@ -1,22 +1,22 @@
 {
- "summary": "In a fiction excerpt from Book 3, a narrator and a man standing on bluffs overlooking the Hudson River discuss the ancient Greek god Asklepios and his daughter Hygeia, goddess of health. The man contrasts the Asklepian reliance on outside drugs with the Hygeian belief in healing from within, and presents Hygeian herbal and Eastern practices as the basis of his work treating infertility. The narrator, who has had no success with Western medicine, is drawn to his methods but senses he may be too smooth, and the conversation ends with the narrator asking about a woman he met the previous week.",
- "one_line": "On the Hudson bluffs, a smooth stranger explains the Hygeian healing tradition and his herbal approach to infertility to a narrator seeking help.",
+ "summary": "A fictional first-person narrator walks with a mysterious, persuasive man along bluffs overlooking the Hudson River. He explains the ancient Greek healing schools of Asklepios (drugs from outside the body) and Hygeia (healing from within by governing one's own body). He then links the Hygeian approach to infertility, claiming a childless woman's body is out of harmony and that he restores it with Eastern practices and herbal therapies. The narrator, whose Western medicine has failed, grows interested but remains wary of him.",
+ "one_line": "A narrator on Hudson River bluffs hears a smooth healer contrast Asklepios's drug-based medicine with Hygeia's self-healing school and claim it can treat infertility.",
  "key_facts": [
-  "The narrator and the man stand on a line of bluffs overlooking the Hudson, where a lone sailboat is caught in the breeze.",
-  "The early spring wind is cutting into the narrator's face, causing the nostrils to feel on fire.",
-  "The man asks the narrator whether he is familiar with the name Asklepios, and the narrator shakes his head no.",
-  "Asklepios is described as the ancient Greek god of medicine.",
-  "Physicians who revered Asklepios held that sickness could be cured using drugs and potions that came from outside the body.",
-  "Hygeia is described as the daughter of Asklepios and the goddess of health.",
-  "The Hygeians believed that wellness originated from properly governing your own body.",
+  "The narrator and a man walk along a cobblestone path leading west to a line of bluffs overlooking the Hudson.",
+  "The early spring wind was cutting into the narrator's face, causing the nostrils to feel on fire.",
+  "The man describes Asklepios as the ancient Greek god of medicine.",
+  "The physicians who revered Asklepios held that sickness could be cured using drugs and potions that came from outside the body.",
+  "The man says billion-dollar industries thrive by enhancing the arsenal of antibiotics.",
+  "Hygeia is named as the daughter of Asklepios and the goddess of health.",
+  "The Hygeians believed wellness originated from properly governing one's own body.",
   "The Hygeian ideal was healing from within rather than intervention from without.",
   "The man says the Hygeian school more or less died out in the West but lives on in other places.",
-  "The man says primitive peoples have no manufactured, synthetic drugs and use natural herbs to enhance their immune system.",
-  "The man states that if a woman is childless, the reason more often than not is that her body is out of harmony with itself.",
-  "The man says he seeks out each woman's unique energy flows and attempts to restore them, using Eastern practices and Hygeian herbal therapies.",
-  "The narrator says Western medicine had completely struck out for him.",
-  "The man says that when a woman's body is naturally unresponsive, he tries to provide her a child by other means, and the narrator suggests adoption.",
-  "The narrator says that last week he met a woman who had, and the excerpt ends mid-sentence."
+  "He claims primitive peoples use natural herbs to enhance their own immune system rather than manufactured, synthetic drugs.",
+  "The man states that if a woman is childless, the reason is more often than not that her body is out of harmony with itself.",
+  "He says he seeks out each woman's unique energy flows and attempts to restore them using Eastern practices and Hygeian herbal therapies.",
+  "He admits that some women's bodies are naturally unresponsive, and in those cases he tries to provide a child by other means.",
+  "When asked, he replies 'By whatever means seems appropriate,' cryptically, and the narrator suggests adoption.",
+  "The narrator says Western medicine had completely struck out for them and that the man was a little too smooth."
  ],
  "entities": [
   {
@@ -27,30 +27,40 @@
   {
    "name": "Hygeia",
    "type": "other",
-   "role": "daughter of Asklepios and goddess of health, whose school of healing held that wellness comes from governing one's own body"
+   "role": "daughter of Asklepios and goddess of health, whose school held that wellness comes from properly governing one's own body"
   },
   {
    "name": "Hudson River",
    "type": "place",
-   "role": "river below the bluffs where the narrator and the man stand and where a lone sailboat is seen"
+   "role": "river below the bluffs where the narrator and the man stand, with a lone sailboat on it"
   },
   {
    "name": "Hygeian school",
    "type": "organization",
-   "role": "ancient school of healing honoring Hygeia, which more or less died out in the West but lives on in other places"
+   "role": "ancient school of healing that honored Hygeia and favored healing from within; said to have died out in the West"
+  },
+  {
+   "name": "Eastern practices and Hygeian herbal therapies",
+   "type": "program",
+   "role": "methods the man uses to restore women's energy flows and treat childlessness"
+  },
+  {
+   "name": "Last week I met a woman",
+   "type": "other",
+   "role": "unnamed woman the narrator mentions at the end of the excerpt, apparently connected to the infertility question"
   }
  ],
  "tags": [
   "fiction",
-  "medicine history",
-  "hygeia",
+  "healing traditions",
   "infertility",
-  "alternative healing",
-  "herbal therapy"
+  "asklepios",
+  "hygeia",
+  "alternative medicine"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1909,
-  "output_tokens": 1044
+  "output_tokens": 1135
  }
 }

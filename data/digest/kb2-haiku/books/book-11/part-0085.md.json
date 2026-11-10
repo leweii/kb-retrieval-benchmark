@@ -1,37 +1,36 @@
 {
- "summary": "In this excerpt from Kate Douglas Wiggin's Rebecca of Sunnybrook Farm (labeled 'Book 11 — part 85'), Miranda and Jane are resting while Rebecca prepares the brick house for expected company, which includes returned missionaries from Syria. Rebecca works quickly to make the two south chambers neat and warm, and then the aunts come down to change clothes. Miranda is pleased by the results, and Rebecca also opens the parlor, arranging the room for the visitors, including Brother Milliken, who is coming to see Mr. Burch about business.",
- "one_line": "Rebecca readies the brick house's rooms and parlor for returned missionaries and guests while her aunts rest.",
+ "summary": "In this excerpt from Kate Douglas Wiggin's Rebecca of Sunnybrook Farm (labelled 'Book 11 — part 85'), Miranda and Jane rest while Rebecca prepares the brick house for expected company, which includes returned missionaries from Syria. Rebecca works quickly to tidy the two south chambers, lays fires and supplies, and the sisters approve. Miranda also decides to bake pork and beans, and Rebecca transforms the parlor with her rose-shaded lamp and rearranges the ornaments before guests such as Brother Milliken arrive.",
+ "one_line": "Rebecca readies the brick house, parlor and bedrooms for returned missionaries from Syria while her aunts rest.",
  "key_facts": [
-  "Miranda tells Rebecca to fix up the two south chambers for the company.",
-  "Miranda says she will lie down beside Jane in their bedroom and must not be allowed to rest past five o'clock.",
-  "Miranda had baked a pot of beans in the middle of the week, which she says will come in handy.",
-  "Miranda says her father used to say nothing went right to the spot with returned missionaries like pork 'n' beans 'n' brown bread.",
-  "Rebecca dusts, pulls up shades, and sweeps floors with a whisk broom to prepare the brick house rooms.",
-  "When Rebecca calls her aunts at five o'clock, the beds are smooth, pitchers are filled, and soap and matches are laid out.",
-  "A large stick burns slowly in each air-tight stove in the upstairs rooms.",
-  "Rebecca says the company is right from Syria and that she must look it up in the geography.",
-  "The front parlor has a cheerful blaze in the open stove, and a fire is laid on the hearth in the back room.",
-  "Rebecca's rose-colored lamp, her second Christmas present from Mr. Aladdin, stands on a marble-topped table in the corner.",
+  "Miranda tells Rebecca that Jane and she will lie down until five o'clock and that she should not let her get up 'a minute past five.'",
+  "Miranda says it is half past three when she decides to rest and cook supper.",
+  "Miranda bakes a pot of beans in the middle of the week, saying they will come in handy.",
+  "Miranda recalls that her father used to say nothing 'went right to the spot with returned missionaries like pork 'n' beans 'n' brown bread.'",
+  "Rebecca is given a free hand to prepare the house, the only time in her life she has been allowed to do so.",
+  "Rebecca fills pitchers, lays out soap and matches, and sets newspaper, kindling and wood in the boxes in the bedrooms.",
+  "Rebecca lights a large stick of wood in each air-tight stove to take the chill off the rooms, as the guests are 'right from Syria.'",
+  "Rebecca's own lamp, her second Christmas present from Mr. Aladdin, stands on a marble-topped table in the corner of the parlor.",
+  "The lamp's rose-colored shade transforms the stiff and gloomy parlor into a place 'where one could sit and love one's neighbor.'",
+  "There is a cheerful blaze in the open stove in the front parlor and a fire laid on the hearth in the back room.",
   "Miranda asks Rebecca whether they should open the parlor, and Rebecca says they did so on Thanksgiving and Christmas.",
-  "Rebecca moved the wax flowers off the mantelpiece so they would not melt.",
-  "Rebecca put the shells, the coral, and the green stuffed bird on top of the what-not so the children would not play with them.",
+  "Rebecca moves the wax flowers off the mantelpiece so they won't melt, and puts the shells, coral and green stuffed bird on top of the what-not.",
   "Brother Milliken is coming over to see Mr. Burch about business."
  ],
  "entities": [
   {
    "name": "Miranda",
    "type": "person",
-   "role": "aunt who asks Rebecca to prepare for the company and plans to rest before cooking supper"
+   "role": "aunt who rests with Jane and oversees the supper and the household"
   },
   {
    "name": "Jane",
    "type": "person",
-   "role": "aunt who is half sick and rests in the bedroom with Miranda"
+   "role": "sister of Miranda who lies down in the bedroom before the company arrives"
   },
   {
    "name": "Rebecca",
    "type": "person",
-   "role": "niece who prepares the brick house rooms and parlor for the company"
+   "role": "niece who prepares the bedrooms and parlor for the company"
   },
   {
    "name": "Mr. Aladdin",
@@ -41,7 +40,7 @@
   {
    "name": "Brother Milliken",
    "type": "person",
-   "role": "visitor coming to see Mr. Burch about business"
+   "role": "visitor coming over to see Mr. Burch about business"
   },
   {
    "name": "Mr. Burch",
@@ -54,9 +53,9 @@
    "role": "place the returned missionaries are arriving from"
   },
   {
-   "name": "Father",
-   "type": "person",
-   "role": "deceased father of Miranda whose saying about pork 'n' beans and brown bread is recalled"
+   "name": "brick house",
+   "type": "place",
+   "role": "the house where the sisters and Rebecca live and where the company will be received"
   }
  ],
  "tags": [
@@ -64,11 +63,11 @@
   "rebecca of sunnybrook farm",
   "domestic life",
   "preparation for guests",
-  "new england household"
+  "missionaries"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1903,
-  "output_tokens": 1157
+  "output_tokens": 1178
  }
 }

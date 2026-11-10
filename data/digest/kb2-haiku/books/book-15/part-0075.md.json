@@ -1,48 +1,59 @@
 {
- "summary": "A fictional excerpt (Book 15, part 75) in which Ray questions Emma Whiston after the murder of a young child, Frederick's younger sibling-level household member, in a frontier setting. Emma says she tucked the boy into bed the night before after returning from the theatre, that he had been reading a picture book, and that Amah, their domestic who taught him to read, has told her only that he is dead and refused to give details. Ray tries to comfort her, avoids pressing too hard, and she guesses he is a soldier because he talks like a Marine.",
- "one_line": "In a fiction excerpt, Ray questions grieving Emma Whiston about a child's murder, learns of the household's domestic Amah, and is pegged as a Marine.",
+ "summary": "In a fictional setting, Emma Whiston is told by Ray that her younger brother has been murdered. Emma recounts tucking him into bed the night before after she came home from the theatre, and that he had sneaked into the sitting room to read a picture book. She says their domestic, Amah, who raised her and her brother Frederick, has refused to give details of the death. Emma insists she needs to know the truth, while Ray questions whether it is better not to know. Emma then suspects Ray is a soldier because he talks like a Marine, and the excerpt ends with her mentioning a Terran cousin.",
+ "one_line": "In a sci-fi-style fiction excerpt, Ray breaks news of a boy's murder to Emma Whiston, who presses for the truth as her suspicions about Ray grow.",
  "key_facts": [
-  "Emma Whiston says she tucked the murdered boy into bed the night before, after coming home from the theatre.",
+  "Ray tells Emma Whiston that her younger brother has been murdered and that the murder reflects poorly on security's reputation.",
+  "Emma says she tucked her brother into bed the night before, after coming home from the theatre.",
   "The boy had sneaked into the sitting room to read a picture book after the other children had fallen asleep.",
-  "Amah had made it a special task to teach the boy to read before the family reached New Holyoke.",
-  "Amah told Emma that the boy was dead but gave no details of how he died.",
-  "Emma says Amah sent her to her room like a little girl when she asked for more about the killing.",
-  "Emma says she has not really spoken with Frederick since the murder and has only spoken with Amah.",
-  "Amah has been with the Whiston family for years and raised Frederick and Emma from the moment Emma was born, after their mother first became ill.",
-  "Ray tells Emma that Becker will catch whoever did this.",
-  "Emma tells Ray he talks like a Marine, and she suspects he has been a soldier.",
-  "Emma mentions a Terran cousin, and Ray winks when she asks whether he has known many Marines."
+  "Amah had made it her special task to teach the boy to read before the family reached New Holyoke.",
+  "Amah said that even frontiersmen should have an education, because the development of human culture depends on it.",
+  "Emma says she has not really spoken with Frederick since the night before and has only spoken with Amah, who told her of the death.",
+  "Amah is the family's domestic, has served the family for years, and raised Frederick and Emma from almost the moment Emma was born, after their mother became ill the first time.",
+  "Amah refused to give Emma any details of the death beyond saying the boy was dead, and sent Emma to her room like a little girl when she pressed.",
+  "Emma says the murder was not accidental or gentle, reasoning that Amah would have said otherwise.",
+  "Ray reaches out and squeezes one of Emma's hands and asks if she is all right.",
+  "Emma tells Ray that she is not all right and that she needs to know, not be protected.",
+  "Ray promises that Becker will catch whoever did this.",
+  "Emma tells Ray that he is just like Amah.",
+  "Ray argues that imagining the truth can be worse than reality, and that only people who have never seen anything truly horrible say so.",
+  "Emma says Ray talks like a Marine, and Ray winks without thinking.",
+  "Emma says she has a Terran cousin."
  ],
  "entities": [
   {
-   "name": "Emma Whiston",
-   "type": "person",
-   "role": "grieving woman who tucked the murdered boy into bed and speaks with Ray"
-  },
-  {
    "name": "Ray",
    "type": "person",
-   "role": "investigator questioning Emma about the murder"
+   "role": "investigator who breaks the news of the murder to Emma and comforts her; implied to be a former soldier"
   },
   {
-   "name": "Amah",
+   "name": "Emma Whiston",
    "type": "person",
-   "role": "family domestic who raised Frederick and Emma and withheld details of the killing"
+   "role": "young woman whose younger brother Frederick has been murdered; she insists on learning the truth"
   },
   {
    "name": "Frederick",
    "type": "person",
-   "role": "Emma's brother"
+   "role": "Emma's younger brother, a boy who was murdered after reading a picture book in the sitting room"
+  },
+  {
+   "name": "Amah",
+   "type": "person",
+   "role": "family domestic who raised Emma and Frederick, taught Frederick to read, and withholds details of the death"
   },
   {
    "name": "Becker",
    "type": "person",
-   "role": "figure who Ray says will catch the killer"
+   "role": "person Ray says will catch whoever committed the murder"
   },
   {
    "name": "New Holyoke",
    "type": "place",
-   "role": "destination the family was approaching when Amah began teaching the boy to read"
+   "role": "destination the family was travelling to, before which Amah taught Frederick to read"
+  },
+  {
+   "name": "Terran cousin",
+   "type": "person",
+   "role": "relative of Emma whom she mentions when asked whether she knows Marines"
   }
  ],
  "tags": [
@@ -50,11 +61,11 @@
   "murder mystery",
   "grief",
   "science fiction",
-  "household staff"
+  "dialogue"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1875,
-  "output_tokens": 842
+  "output_tokens": 1161
  }
 }

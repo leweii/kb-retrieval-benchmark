@@ -1,59 +1,64 @@
 {
- "summary": "Leon is guided by Ria through a vast, dim complex housing Viktor, a giant being whose body is inside the facility. Ria explains the suits are symbolic, that this is the Mark I system after Viktor's accident, and that a Mark II is being built half a mile underground. When Leon asks whether Viktor hunts humans or needs organs, Ria dismisses both as unlikely, and the passage ends as they pass through more rooms toward an airlock guarded by security.",
- "one_line": "Ria leads Leon through a vast facility housing Viktor, a giant being whose body sits inside the complex, while explaining its systems and his accident.",
+ "summary": "Leon walks through a vast, dim facility with Ria, who explains that Viktor, a giant entity controlled through tendrils, is weak inside this body and that a Mark II system is being built half a mile underground. Ria says the Mark I was jury-rigged after Viktor's accident, which she declines to describe, and she dismisses Leon's fears of assassination, harvesting or hunting. The passage ends as they pass through rooms, including one where Viktor's breath and circulation systems are housed, toward an airlock guarded by security.",
+ "one_line": "Leon is guided by Ria through a secretive facility housing Viktor, a giant entity whose accident and new Mark II system remain mysterious.",
  "key_facts": [
-  "Ria tells Leon that when Viktor is outside, speaking through his many tendrils or on the phone, he has all the power in the world.",
-  "Ria says that inside the facility, Viktor's body is very, very weak, and the suits are there to level out the playing field.",
-  "The suits are described as 'all head-games and symbolism' and the current system is called Mark I, jury-rigged after Viktor's accident.",
+  "Ria tells Leon that Viktor has all the power in the world when contacted outside through his many tendrils or by phone, but is very, very weak inside his body.",
+  "Ria says the suits in the facility are there to level out the playing field and are described as all head-games and symbolism.",
+  "The system Leon is inside is called Mark I, which was jury-rigged after Viktor's accident.",
   "The Mark II system is being built about five miles from the facility and half a mile underground.",
-  "When the Mark II is ready, workers will blast a tunnel and take Viktor down into it without compromising the skin of his extended body.",
-  "Leon asks what the accident was and whether it was a stroke; Ria answers 'Nothing like that.'",
-  "The great room was left over from the original floor-plan when the place was biotech R&D, used for all-hands meetings and small symposiums.",
-  "Security protocol dictates no more than ten people in any one space.",
-  "Leon asks whether the event was an assassination, and Ria answers 'No.'",
-  "Ria says that if Viktor needed an organ, they would make one right there and print it out in about forty hours.",
-  "Ria describes the chance that Leon will be harvested or hunted as 'a very low probability outcome.'",
-  "A rhythmic whoosh vibration comes up through the floor, which Ria says is Viktor's breath from the filtration systems below.",
-  "Overhead, the circulatory system is visible through a grate, with troughs filled with neatly bundled tubes.",
-  "The passage ends at an airlock door guarded by a plainclothes security woman, beside a side-room with a glass door full of people watching screens."
+  "When the Mark II is ready, a tunnel will be blasted and Viktor taken all the way down into it without compromising the skin of his extended body.",
+  "Leon says he assumed Viktor's condition was a stroke, and Ria replies, \"Nothing like that.\"",
+  "The great room was left over from the original floor-plan, when the place was biotech R&D used for all-hands meetings and small symposiums.",
+  "Ria says security protocol dictates no more than ten people in any one space.",
+  "When Leon asks whether it was assassination, Ria answers simply, \"No.\"",
+  "Ria says that if Viktor needed an organ, they would print one right there in about forty hours.",
+  "Ria calls the chance that Leon will be harvested or hunted \"a very low probability outcome.\"",
+  "The rhythmic whoosh whoosh vibration coming through the floor is Viktor's breath, produced by filtration systems located below a service hatch.",
+  "Circulatory system tubes are bundled in troughs behind a grate in the ceiling of one room.",
+  "The passage ends at an airlock door guarded by a plainclothes security woman in front of a side-room full of people watching screens."
  ],
  "entities": [
   {
    "name": "Leon",
    "type": "person",
-   "role": "narrator-protagonist, a university student who is being guided through the facility"
+   "role": "narrator and visitor who is being guided through the facility and questions Ria"
   },
   {
    "name": "Ria",
    "type": "person",
-   "role": "guide who explains Viktor's condition, the suits, and the facility's systems"
+   "role": "guide who explains the facility, Viktor's condition and the Mark I and Mark II systems"
   },
   {
    "name": "Viktor",
    "type": "person",
-   "role": "giant being whose extended body fills the facility, injured in an accident"
+   "role": "giant entity controlled through tendrils whose body houses the facility and who suffered an accident"
   },
   {
    "name": "Mark I",
-   "type": "program",
-   "role": "current jury-rigged system housing Viktor, built after his accident"
+   "type": "product",
+   "role": "jury-rigged system Leon is currently inside, created after Viktor's accident"
   },
   {
    "name": "Mark II",
-   "type": "program",
-   "role": "system under construction about five miles away and half a mile underground, to which Viktor will be moved"
+   "type": "product",
+   "role": "system being built about five miles away and half a mile underground to move Viktor"
+  },
+  {
+   "name": "university's basketball court",
+   "type": "place",
+   "role": "comparison for the size of the hall Leon is in"
   }
  ],
  "tags": [
   "science fiction",
-  "giant being",
-  "biotech",
-  "narrative",
-  "fiction"
+  "viktor",
+  "secret facility",
+  "fiction excerpt",
+  "biotech"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1883,
-  "output_tokens": 993
+  "output_tokens": 1062
  }
 }

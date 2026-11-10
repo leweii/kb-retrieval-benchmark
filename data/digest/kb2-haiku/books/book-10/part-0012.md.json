@@ -1,47 +1,47 @@
 {
- "summary": "An excerpt from a novel (Book 10, part 12) following Zbigkrot, a productive monk in the Order whose work includes screening Securitat data streams for unusual purchase patterns, and his past connection to a sister, Anja Krotoski, who once lived on 23d Street in New York. Lawrence, watching the city from outside Anja's old building, reflects on the faces city-dwellers wear in public versus the relaxed selves they become once they cross their own threshold. The passage blends workplace detail, Zbigkrot's hobbies, and Lawrence's memories of Belgrade and his earlier life.",
- "one_line": "In a novel excerpt, monk Zbigkrot's Order work and lost sister Anja are observed by Lawrence outside her decaying New York building.",
+ "summary": "An excerpt from a fiction work (Book 10, part 12) following Zbigkrot, a productive member of a monastic Order, and Lawrence, who observes him. It covers Zbigkrot's 20 percent time projects, his performance ranking, and his gardening, then turns to a Securitat data stream he tagged with 68 bytes, which Lawrence suspects is purchase data screened for bomb-ingredient patterns. Lawrence searches for Zbigkrot's sister Anja Krotoski, whose New York apartment on 23d Street is now run down, and watches residents shift from hard city faces to relaxed selves once they enter their building.",
+ "one_line": "Excerpt from a fiction book where monk Zbigkrot's routine data work and a missing sister in New York are observed by Lawrence.",
  "key_facts": [
   "Zbigkrot spent his 20 percent time building aerial photography rigs out of box-kites and tiny cameras.",
-  "The aerial rigs were meant to help monks monitor their body mechanics and ergonomic posture.",
+  "The tiny cameras were installed on the Monks' systems to help them monitor their body mechanics and ergonomic posture.",
   "Zbigkrot performed in the eighty-fifth percentile of the Order.",
-  "Lawrence's own performance had ranged from as low as 70 to as high as 88 percentile.",
-  "Zbigkrot worked in the gardens, including a little allotment garden for baroque cross-breeding experiments.",
-  "Lawrence believed the Securitat stream Zbigkrot altered was probably purchase data from hardware and grocery stores, inspected for bomb-ingredient buying patterns.",
-  "Zbigkrot had added sixty-eight bytes to the Securitat stream and then left.",
-  "Zbigkrot had worked on this kind of data thousands of times, six times just that day.",
-  "Zbigkrot's sister Anja Krotoski had lived on 23d Street in a co-op near Lexington in New York.",
-  "Anja had lived there four years earlier, when Zbigkrot joined the Order, and her phone numbers all rang dead.",
-  "Anja's old building once had a red awning and a niche for a doorman, but the doorman was gone and a lobby pane was replaced with cardboard.",
-  "Lawrence compared the neglected buildings to ones he saw in Belgrade while briefing a gang of outsource programmers.",
-  "Lawrence watched residents enter the building at dinner hour with hard city-dweller masks that changed once the door closed behind them.",
-  "Lawrence remembered from his earlier life the feeling of having two faces."
+  "Lawrence had performed between 70 and 88 percentile over time, depending on how he was doing in the rest of his life.",
+  "Zbigkrot maintained big gardens for produce and a small allotment garden for baroque cross-breeding experiments.",
+  "Lawrence thought the Securitat stream was probably purchase data from hardware and grocery stores, inspected for patterns that might indicate bomb ingredient buying.",
+  "Zbigkrot had worked on this kind of data thousands of times before, six times that day.",
+  "Zbigkrot added sixty-eight bytes to the Securitat stream and then left.",
+  "Zbigkrot once had a sister in New York named Anja Krotoski.",
+  "Anja Krotoski had lived on 23d Street in a co-op near Lexington, but her numbers all rang dead.",
+  "The apartment building once had a red awning and a doorman's niche, but the doorman was long gone and one lobby pane was replaced with cardboard.",
+  "Lawrence compared the neglected City buildings to buildings he had seen in Belgrade, where he briefed a gang of outsource programmers his boss had hired.",
+  "Residents' faces changed from hard city-dweller masks to relaxed people once the building door closed behind them.",
+  "Lawrence remembered a feeling from his earlier life of having two faces."
  ],
  "entities": [
   {
    "name": "Zbigkrot",
    "type": "person",
-   "role": "monk in the Order who adds bytes to Securitat data streams and whose sister once lived in New York"
+   "role": "Monk of the Order who performed in the eighty-fifth percentile, worked on Securitat data, and ran gardens"
   },
   {
    "name": "Lawrence",
    "type": "person",
-   "role": "observer and point of view character who reflects on Zbigkrot and the city"
+   "role": "Observer and narrator figure who once ranked between 70 and 88 percentile in the Order and speculates on the data stream"
   },
   {
    "name": "Anja Krotoski",
    "type": "person",
-   "role": "Zbigkrot's sister, who lived on 23d Street in a co-op near Lexington and is no longer there"
-  },
-  {
-   "name": "the Order",
-   "type": "organization",
-   "role": "monastic organization that employs Zbigkrot and handles routine Securitat data work"
+   "role": "Zbigkrot's sister, formerly living on 23d Street in New York, now unreachable"
   },
   {
    "name": "Securitat",
    "type": "organization",
-   "role": "source of the data stream to which Zbigkrot added sixty-eight bytes"
+   "role": "Source of the data stream Zbigkrot added sixty-eight bytes to"
+  },
+  {
+   "name": "Order",
+   "type": "organization",
+   "role": "Monastic body whose members (Monks) perform ranked work and pursue 20 percent time projects"
   },
   {
    "name": "23d Street",
@@ -51,25 +51,20 @@
   {
    "name": "Belgrade",
    "type": "place",
-   "role": "city whose neglected buildings Lawrence recalls when briefing outsource programmers"
-  },
-  {
-   "name": "the City",
-   "type": "place",
-   "role": "New York, where many buildings have fallen into disrepair"
+   "role": "City where Lawrence once briefed a gang of outsource programmers"
   }
  ],
  "tags": [
   "fiction",
-  "novel excerpt",
-  "monks",
+  "monastic order",
   "surveillance",
-  "new york",
-  "identity"
+  "new york city",
+  "sibling search",
+  "urban life"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1901,
-  "output_tokens": 1223
+  "output_tokens": 1210
  }
 }

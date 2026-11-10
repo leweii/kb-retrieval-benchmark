@@ -1,25 +1,26 @@
 {
- "summary": "A fiction excerpt (Book 10, part 55) in which a couple, Trish and her date, drive from San Luis Obispo toward a cemetery for a tombstone unveiling that his mother is holding. His mother phoned with directions, which Trish garbled, so they stop to buy a map and worry they will be late. Their playful banter over his Fretting, the coastal scenery, and a flirtatious hand-on-thigh moment fills out the scene.",
- "one_line": "A couple drives along the California coast from San Luis Obispo to a cemetery tombstone unveiling, delayed by garbled directions and playful flirtation.",
+ "summary": "A wiki note excerpt from a fiction book (Book 10, part 55) following a couple, Trish and her date, driving from San Luis Obispo toward a cemetery for a tombstone unveiling that his mother is organizing. They phone his mother for directions, get lost, and buy a map, while the man frets about being late. The conversation turns playful and flirtatious as Trish teases him about bringing a date to an unveiling and his nervousness, and the excerpt ends mid-sentence.",
+ "one_line": "Trish and her date drive from San Luis Obispo to a cemetery tombstone unveiling, getting lost on bad directions from his mother and bantering flirtatiously.",
  "key_facts": [
   "The couple needs directions from San Luis Obispo to the cemetery for a tombstone unveiling.",
-  "The man's mother gives the directions by phone and Trish repeats them as left, then right, then left, then a slight left, then up the hill.",
-  "Trish says the mother gives terrible directions and they stop at the next exit to buy a map.",
-  "The man says they are going to be late, and Trish replies that they now have an excuse because the mother knows they are late.",
-  "The man is described as someone who tends to Fret, and Trish calls it his job to Fret.",
-  "Once on secondary roads, the highway full of stopped cars and crane-necked drivers gives way to waves, beach and palms.",
-  "Trish rolls down the window and watches surfers wiping out in the curl as the car heads toward the boneyard.",
-  "Trish asks whether a date is the right kind of outing for a cemetery, and the man says it is just an unveiling, not a burial.",
-  "The man jokes that he pictures his mother cutting a ribbon with giant gold scissors.",
-  "The man slips a hand through the vent in Trish's apron-trousers and over her thigh, and she responds with Achtung!",
-  "Trish comments that the couple has only had eight dates, 20-some phone calls and about 100 emails.",
-  "Trish squeezes the man's hand tight enough to make his knuckles grind together while he is distracted by surfers on the roadside."
+  "The man's mother gives the directions over the phone, including left, then right, then left, then a slight left, then up the hill.",
+  "The woman says she has no clue where they are going and they pull off at the next exit to buy a map.",
+  "The man says they are going to be late, and the woman says they now have an excuse because his mother knows they are late.",
+  "Once on the secondary roads, the highway full of stopped cars gives way to waves, beach and palms.",
+  "The woman asks whether a cemetery is the kind of place one brings a date to.",
+  "The man says, \"We're not burying anyone,\" and that it is \"just an unveiling.\"",
+  "The woman jokes that she keeps picturing his mom cutting a ribbon with giant gold scissors.",
+  "The man admits he is a pedantic nature and says appealing to it to distract him is a cheap trick.",
+  "The man puts his hand up the vent of the woman's apron-trousers and over her thigh, and she responds \"Achtung!\"",
+  "The couple has had only eight dates, 20-some phone calls and about 100 emails before this outing.",
+  "The woman squeezes the man's hand tight enough to make his knuckles grind together to get him back on topic.",
+  "The woman asks him to finish explaining tombstone-unveiling, and she pretends not to have seen the surfers."
  ],
  "entities": [
   {
    "name": "Trish",
    "type": "person",
-   "role": "female protagonist riding in the car with her date, who gives directions and teases him"
+   "role": "female protagonist riding with her date to the cemetery unveiling, teasing him and navigating flirtatiously"
   },
   {
    "name": "San Luis Obispo",
@@ -27,27 +28,26 @@
    "role": "starting point for the directions to the cemetery"
   },
   {
-   "name": "the cemetery",
-   "type": "place",
-   "role": "destination of the drive, site of the tombstone unveiling"
+   "name": "Duracell",
+   "type": "product",
+   "role": "battery brand the woman's phone call is cut off by (\"That's the duracell!\")"
   },
   {
-   "name": "the man's mother",
-   "type": "person",
-   "role": "hosts the unveiling and gives the couple directions by phone"
+   "name": "Achtung!",
+   "type": "other",
+   "role": "German exclamation Trish uses to tell him to watch the road"
   }
  ],
  "tags": [
   "fiction",
   "romance",
-  "tombstone unveiling",
-  "california coast",
   "road trip",
-  "dating"
+  "cemetery unveiling",
+  "banter"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1968,
-  "output_tokens": 869
+  "output_tokens": 903
  }
 }

@@ -1,43 +1,47 @@
 {
- "summary": "The narrator, a documentary director working on a picture about single women adopting children, arranges to shoot a second interview with Paula Marks, a 43-year-old children's book writer in her prewar West Side apartment. Crew members handle the cramped space, makeup is negotiated with Paula, and her toddler adopted daughter Rachel interrupts the shoot. Paula's account of the adoption process closely mirrors Carly Grove's, including the difficulties described by NYSAC, New York Singles Adopting Children. The narrator is under budget and time pressure to produce a rough cut and sell the film to cable in six weeks.",
- "one_line": "A director shoots a second single-mother adoption interview with children's author Paula Marks, whose account echoes Carly Grove's.",
+ "summary": "The narrator, a documentary filmmaker working on a picture about single women adopting children, arranges to shoot a second interview with Paula Marks, a 43-year-old children's book writer in her prewar West Side apartment. Paula is an unmarried adoptive mother of an 18-month-old daughter, Rachel, and her story closely parallels that of Carly Grove. The filmmaker must produce a rough cut and sell the picture to cable within six weeks because money is running short, and the executive producer David's usual control over the cut has effectively lapsed.",
+ "one_line": "A filmmaker shoots a second interview with Paula Marks, a single adoptive mother, in her cramped West Side apartment.",
  "key_facts": [
-  "The director needed to produce a rough cut and sell the picture to cable in six weeks because money was going fast.",
-  "The executive producer, David, normally would have had access to the director's picture under the standard director's contract, but the narrator believed that prerogative was now out the window.",
-  "The narrator deeply needed at least one more interview because Carly Grove's interview was too much of a happy one-note.",
-  "Paula Marks was forty-three, tall and willowy, had let her hair start going to gray, and had pale brown eyes.",
+  "The narrator needed at least one more interview because Carly Grove's interview was too much of a happy one-note.",
+  "The interview with Paula Marks was set for Thursday and the appointment took all weekend, including a Sunday brunch, to arrange.",
+  "Paula Marks was forty-three, a tall, willowy woman who had let her hair start going to gray, with pale brown eyes.",
   "Paula Marks wrote children's books, had never married, and decided to adopt a child because she had a lot of extra love she felt was going to waste.",
-  "The shoot with Paula Marks took place on Thursday and the appointment had taken all weekend, including a Sunday brunch, to set up.",
-  "Paula's apartment was in a sprawling prewar West Side building with thick plaster walls and a rabbit's warren of halls and foyers.",
-  "Paula initially insisted she did not want makeup because she never wore it and did not want to appear on camera looking like Barbie.",
+  "The crew arrived around ten A.M. at Paula's apartment, one of the sprawling prewar West Side monoliths with thick plaster walls.",
+  "Paula initially insisted she didn't want makeup, believing it was deceitful and that she didn't want to look like Barbie on camera.",
   "Arlene persuaded Paula that cameras lie and the only way to look like yourself is to enhance the qualities that make you you.",
-  "Paula's adopted daughter Rachel was a year and a half old and dragged a doll she named Angie, which came out as 'Ann-gee'.",
-  "Erica, the production manager, taught Rachel how to play patty-cake.",
+  "Paula's adopted daughter Rachel was a year and a half old and had named her doll Angie, which came out as \"Ann-gee.\"",
   "Rachel covered herself head to toe in Ragu tomato sauce within five minutes of eating spaghetti.",
-  "Paula's account of the adoption process was almost identical to Carly Grove's story.",
-  "Paula had consulted legal services recommended by NYSAC, New York Singles Adopting Children, which described a scenario of delays, paperwork and heartache.",
-  "According to NYSAC's legal services, adoption could be done but could take years."
+  "Erica, the production manager, taught Rachel how to play patty-cake.",
+  "Paula said she had spent hours with legal services recommended by NYSAC, New York Singles Adopting Children, which described delays, paperwork and heartache.",
+  "According to the NYSAC services, adoption could be done but could take years.",
+  "The narrator had to produce a rough cut and get the picture sold to cable in six weeks, period, because the money was going fast.",
+  "The executive producer David normally had the prerogative to see the director's picture first under the standard director's contract."
  ],
  "entities": [
   {
    "name": "Paula Marks",
    "type": "person",
-   "role": "forty-three-year-old children's book writer, unmarried single woman adopting a child, interviewed by the narrator"
+   "role": "forty-three-year-old children's book writer, unmarried adoptive mother, interviewee in the narrator's picture"
+  },
+  {
+   "name": "Rachel",
+   "type": "person",
+   "role": "Paula Marks's adopted daughter, about one and a half years old"
   },
   {
    "name": "Carly Grove",
    "type": "person",
-   "role": "earlier interviewee whose story and happy one-note interview the narrator compares to Paula's"
+   "role": "earlier interviewee whose story Paula's closely resembles"
   },
   {
    "name": "David",
    "type": "person",
-   "role": "executive producer who would normally have access to the director's picture"
+   "role": "executive producer who would normally review the director's picture"
   },
   {
    "name": "Arlene",
    "type": "person",
-   "role": "member of the production team who persuaded Paula to wear makeup, from a family of apparel proprietors"
+   "role": "member of the production team who persuaded Paula to wear makeup"
   },
   {
    "name": "Erica",
@@ -45,31 +49,21 @@
    "role": "production manager who taught Rachel patty-cake"
   },
   {
-   "name": "Rachel",
-   "type": "person",
-   "role": "Paula's adopted daughter, a year and a half old"
-  },
-  {
    "name": "NYSAC, New York Singles Adopting Children",
    "type": "organization",
-   "role": "organization whose recommended legal services Paula consulted, describing delays and paperwork"
-  },
-  {
-   "name": "Angie",
-   "type": "product",
-   "role": "doll Rachel dragged around the apartment"
+   "role": "organization whose recommended legal services Paula consulted about adoption"
   }
  ],
  "tags": [
   "documentary filmmaking",
   "single parent adoption",
-  "production diary",
   "interviews",
-  "New York"
+  "book three",
+  "fiction"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1909,
-  "output_tokens": 1266
+  "output_tokens": 1146
  }
 }

@@ -1,67 +1,68 @@
 {
- "summary": "In this excerpt from a fiction novel (Book 6, part 170), Russell recalls that Arthur has said his earlier help was a matter of convenience, and Arthur reports that Sonya Halliday secured a deal with the Feds, under which Agent Jones agreed to make the matter go away. Arthur then tells Russell that Dr. Martinez, who is seriously ill, may have been hallucinating, which raises the possibility that the proof she wrote was nonsense. Russell is shaken, feels that nothing is real, and is offered a chance to visit Martinez before he refuses to see the point.",
- "one_line": "Russell learns from Arthur that Halliday secured a deal with the Feds and that Martinez, gravely ill, may have imagined the proof she wrote.",
+ "summary": "In this excerpt from a fiction novel (Book 6, part 170), Russell recalls Arthur's remark that Russell asked for help only out of convenience, and Arthur reports that Sonya Halliday secured a deal with the Feds, with Agent Jones agreeing to make the matter go away. Arthur tells Russell that Dr. Martinez is hospitalized with symptoms including hallucinations and personality changes, raising doubt over whether the proof she supposedly wrote was real. Russell is shaken, feeling his life damaged, and considers whether to visit Martinez.",
+ "one_line": "Russell learns from Arthur that Halliday secured a deal with the Feds, and that Martinez may have been hallucinating when she claimed her proof.",
  "key_facts": [
-  "Arthur tells Russell that the arrangement with the Feds was Sonya's doing, since she kept her cool and held her ground.",
-  "Arthur says Sonya told the Feds they had to leave Russell be, and Agent Jones agreed to make it all go away.",
-  "Russell wonders whether Halliday knows what he did in going after her friend, and whether she defended him out of forgiveness or to keep him working with her.",
-  "Russell thinks Halliday does not know he is damaged, forever now.",
-  "When Russell asks whether Martinez will recover, Martinez answers that they are not hopeful.",
-  "Martinez tells Russell that one symptom of her illness is hallucinations, and that she might have been thinking things that are not real.",
-  "Arthur suggests Martinez may have burned her own scribbles in a fit of madness and then stolen her friend's legitimate work because her illness imagined demons.",
-  "Russell says the proof might have been nothing but nonsense, and he feels that nothing is real.",
-  "Russell asks Martinez's whereabouts: \"You don't think she ever had the proof,\" he murmurs, and Arthur answers, \"Don't know. Likely we'll never know.\"",
-  "Arthur says that Dr. Martinez can be visited because the staff are letting them see her.",
-  "Russell asks what the point of a visit would be, and says he did not know Martinez that well.",
-  "Russell says that Martinez had destroyed him."
+  "Arthur tells Russell that Russell's past requests for help were out of convenience, not because Russell needed help.",
+  "Arthur says \"We'll make a real person out of you yet.\"",
+  "Arthur credits Sonya for getting things squared with the Feds, saying she kept her cool and held her ground.",
+  "Sonya told the Feds they had to leave Russell be, and Agent Jones said she would make it all go away.",
+  "Russell wonders whether Halliday defended him because she still wanted him to work with her on advancements to her field.",
+  "Martinez's condition is described as not hopeful, with symptoms including hallucinations and personality changes.",
+  "Martinez's associates say she might have been thinking things that are not real.",
+  "Russell considers that the proof Martinez wrote might have been nothing but nonsense.",
+  "Russell says, \"You don't think she ever had the proof,\" and Arthur replies, \"Don't know. Likely we'll never know.\"",
+  "Russell feels the room become too close and pushes himself up, his equilibrium wobbling before he finds his balance.",
+  "Arthur tells Russell that Dr. Martinez can be visited because they are letting them.",
+  "Russell asks, \"What's the point?\" and suggests the visit might be to say goodbye.",
+  "Russell tells Arthur, \"I didn't know her that well,\" and thinks Martinez destroyed him."
  ],
  "entities": [
   {
    "name": "Russell",
    "type": "person",
-   "role": "narrator and protagonist, who is shaken by news about Martinez and the proof"
+   "role": "narrator who has been damaged and is reeling from news about Martinez's condition"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "older companion who tells Russell about the Feds arrangement and Martinez's condition"
-  },
-  {
-   "name": "Sonya",
-   "type": "person",
-   "role": "Sonya Halliday, who kept her cool with the Feds and secured Russell's protection"
+   "role": "older figure who reports on dealings with the Feds and suggests visiting Martinez"
   },
   {
    "name": "Martinez",
    "type": "person",
-   "role": "Dr. Martinez, Russell's former colleague who is ill with hallucinations and personality changes"
+   "role": "Dr. Martinez, hospitalized with an illness that may have caused hallucinations; reportedly wrote a proof"
+  },
+  {
+   "name": "Sonya",
+   "type": "person",
+   "role": "Halliday, who kept her cool with the Feds and is credited with smoothing things over"
   },
   {
    "name": "Agent Jones",
    "type": "person",
-   "role": "Halliday's friend in the Feds who agreed to make the matter go away"
+   "role": "Halliday's friend and federal agent who agreed to make the matter go away"
   },
   {
    "name": "Checker",
    "type": "person",
-   "role": "person who may have told Arthur what the proof meant to Russell"
+   "role": "person who may have told Martinez's associates what the proof meant to Russell"
   },
   {
    "name": "the Feds",
    "type": "organization",
-   "role": "federal agency with which the matter was settled"
+   "role": "federal authorities who were squared with regarding Russell's actions"
   }
  ],
  "tags": [
   "fiction",
   "novel excerpt",
+  "mystery",
   "mental illness",
-  "hallucinations",
   "federal agents"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1976,
-  "output_tokens": 1079
+  "output_tokens": 1066
  }
 }

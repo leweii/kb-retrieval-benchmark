@@ -1,33 +1,30 @@
 {
- "summary": "A narrator hides under bushes beside a porch, eavesdropping on Danny and Simon, who are discussing a plan involving security theatre and a meeting with local activists. Simon, a young man who sells weed to friends to pay rent, seems to have been coached by occupants of a black SUV that picked him up earlier. The narrator is wearing Jason's expensive spy-shirt, and cigarette ash and snow complicate the eavesdropping as Danny and Simon nearly notice the narrator. The excerpt is part 126 of a longer fiction work labeled Book 14.",
- "one_line": "A narrator eavesdrops under a porch on Danny and Simon as they plot a security-theatre scheme with local activists.",
+ "summary": "The note is an excerpt from a novel (Book 14, part 126) in which the narrator eavesdrops from beneath the bushes on the front porch of a house during a gathering. Simon, a local activist who sells weed to friends to pay rent, is pressured by Danny into a 'security theatre' scheme after being picked up earlier by a black SUV. The narrator, wearing Jason's spy shirt, nearly gets caught when cigarette ash lands on the sleeve and Danny hears a noise, and Danny and Simon discuss needing to get 'something real going' and making connections.",
+ "one_line": "The narrator eavesdrops under a porch as Danny and Simon, a cash-strapped activist, discuss a staged security scheme.",
  "key_facts": [
-  "Simon is described as old enough for the job and easily jammed up because he paid his rent by selling weed to his friends.",
-  "The narrator thinks Simon would choose helping stage security theatre over going to jail.",
-  "Someone in a black SUV picked Simon up in the afternoon and might have been coaching him for the meeting.",
+  "Simon is described as a local activist old enough for the job who pays his rent by selling weed to his friends.",
+  "The narrator reasons that Simon would choose helping stage security theatre over jail.",
+  "Simon was picked up in the afternoon by a black SUV, and the narrator suspects its occupant coached him for the meeting.",
   "Danny gives Simon a slight nod, as if they had just made a private agreement.",
-  "Danny leaves through the front door saying he is going out for a smoke, and Simon follows shortly after holding a pack of cigarettes.",
-  "The narrator slips out the back door, circles the side of the house, and crawls under bushes along the foundation.",
-  "The narrator crawls between two clumps of spiky evergreen shrubs and straightens up beside the porch.",
-  "Cigarette ash lands on the sleeve of Jason's expensive spy-shirt, which the narrator brushes off hoping it left no hole.",
-  "Danny asks whether the others can be trusted, and he is told, \"They're solid.\"",
-  "Someone leans over the wooden banister and asks, \"You hear that?\" and the narrator freezes.",
-  "Danny says it must have been a squirrel after a few seconds of silence.",
-  "Simon wheedles Danny by offering to set up what Danny needs.",
-  "Danny says, \"Seriously, we need to get something real going.\"",
-  "Simon says, \"They have the stuff, you have the skills. Boom,\" and then makes a joke about a pun.",
+  "Danny leaves the house through the front door to go out for a smoke, and Simon follows a moment later holding a pack of cigarettes.",
+  "The narrator circles the side of the house and crawls under bushes along the foundation to reach the front porch.",
+  "Cigarette ash lands on the sleeve of Jason's expensive spy-shirt, and the narrator brushes it off hoping it has not left a hole.",
+  "Danny asks someone whether they heard something, and after a pause says it must have been a squirrel.",
+  "Simon tells Danny he will set things up and asks what Danny needs.",
+  "Danny says they need to get something real going.",
+  "Simon says of the others, 'They have the stuff, you have the skills. Boom.' and jokes 'No pun intended.'",
   "Danny says he is happy if he can make connections."
  ],
  "entities": [
   {
    "name": "Simon",
    "type": "person",
-   "role": "young local activist who sells weed to friends and is being pressured into helping stage security theatre"
+   "role": "local activist, old enough for the job, who sells weed to friends to pay rent and is pressured into the security scheme"
   },
   {
    "name": "Danny",
    "type": "person",
-   "role": "man on the porch who makes a private agreement with Simon and discusses getting something real going"
+   "role": "figure who gives Simon a nod, leaves for a smoke, and talks with Simon on the porch about getting something real going"
   },
   {
    "name": "Jason",
@@ -37,19 +34,19 @@
   {
    "name": "Tweak",
    "type": "person",
-   "role": "person Danny addresses when asking about remaining weed"
+   "role": "nickname of the person Danny asks whether he has any weed left"
   }
  ],
  "tags": [
-  "fiction",
+  "novel excerpt",
   "eavesdropping",
   "activism",
   "security theatre",
-  "suspense"
+  "fiction"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1902,
-  "output_tokens": 945
+  "output_tokens": 877
  }
 }

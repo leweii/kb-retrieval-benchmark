@@ -1,61 +1,62 @@
 {
- "summary": "An excerpt from a novel's Book 1, part 4, narrated by a high-school student who describes the school's surveillance technology and his circumvention of it. The narrator recounts that gait-recognition cameras replaced banned face-recognition cameras, that the school-issued SchoolBook laptops log keystrokes and network traffic, and that he cracked his machine to hide programs from the Board of Ed's integrity checks. He then uses a secret messenger, IMParanoid, to recruit friend Darryl to skip class and chase a clue in the alternate reality game Harajuku Fun Madness.",
- "one_line": "A teen narrator defeats his school's surveillance laptops and skips class to chase a clue in the alternate reality game Harajuku Fun Madness.",
+ "summary": "An excerpt from a near-future novel (Book 1, part 4) in which a student narrator describes surveillance in his school: gait-recognition cameras that replaced banned face-recognition cameras, and the SchoolBook laptops that log keystrokes and traffic. He describes how he cracked his SchoolBook to hide programs from the Board of Ed's integrity checks, and how he uses the secret messenger IMParanoid to plan with his friend Darryl skipping class to chase clues in the alternate reality game Harajuku Fun Madness.",
+ "one_line": "A student narrator resists school surveillance by cracking his SchoolBook laptop and planning to skip class for the game Harajuku Fun Madness.",
  "key_facts": [
-  "Gait-recognition cameras were installed in the school about a year before the narrator's story, after a court ruled face-recognition cameras unconstitutional.",
-  "The narrator describes the gait-recognition cameras as having 'sheer idiocy' and believes they cannot reliably tell one person's walk from another.",
-  "The school's SchoolBook laptops log every keystroke, watch network traffic for suspicious keywords, and count every click.",
-  "The SchoolBooks were issued in the narrator's junior year, and their novelty wore off within a couple of months.",
-  "The narrator cracked his SchoolBook by downloading a DVD image, burning it, and booting the laptop while holding several keys down.",
-  "The crack installs hidden programs that survive the Board of Ed's daily remote integrity checks, and the narrator must occasionally download updates to evade new tests.",
-  "IMParanoid is the secret instant messenger the narrator uses for off-the-record discussions during class.",
-  "Darryl is already logged in to IMParanoid when the narrator messages him about the game.",
-  "Darryl says he will not skip class because if he is caught ditching a third time he will be expelled.",
-  "The narrator proposes skipping after school or during lunch and study-hall, which total two hours.",
-  "Harajuku Fun Madness is an alternate reality game (ARG) that the narrator considers the best game ever made.",
-  "In the game's story, a gang of Japanese fashion-teens discovered a miraculous healing gem at the temple in Harajuku.",
-  "In the game's story, the teens are hunted by evil monks and the Yakuza."
+  "The school installed gait-recognition cameras about a year before the excerpt, after a court ruled face-recognition cameras unconstitutional.",
+  "The narrator loves the gait-recognition cameras for their sheer idiocy and believes they cannot reliably tell one person's walk from another.",
+  "The SchoolBooks were school-issued laptops that logged every keystroke, watched network traffic for suspicious keywords, and counted every click.",
+  "The SchoolBooks were given out in the narrator's junior year, and the novelty wore off within a couple of months.",
+  "The SchoolBooks showed a never-ending parade of obnoxious ads.",
+  "The narrator cracked his SchoolBook within a month of its arrival by downloading a DVD image, burning it, and booting the machine while holding several keys.",
+  "The crack installed hidden programs that survived the Board of Ed's daily remote integrity checks.",
+  "The narrator must download software updates to get around the Board's latest tests.",
+  "IMParanoid is a secret instant messenger the narrator uses for off-the-record discussion during class.",
+  "Darryl proposes skipping school to follow a clue for Harajuku Fun Madness, and the narrator says he will be expelled if he ditches a third time.",
+  "Harajuku Fun Madness is an alternate reality game (ARG) about a gang of Japanese fashion-teens who discovered a healing gem at the temple in Harajuku.",
+  "In the game's story, the teens are hunted by evil monks and the Yakuza.",
+  "Ms Galvez is the teacher who welcomes the narrator back to class.",
+  "The narrator plans to get the whole team out after school, with lunch and study hall giving two hours before anyone misses them."
  ],
  "entities": [
+  {
+   "name": "Benson",
+   "type": "person",
+   "role": "school administrator who spent textbook dollars on the gait-recognition cameras"
+  },
   {
    "name": "Ms Galvez",
    "type": "person",
    "role": "teacher who warmly welcomes the narrator back to class"
   },
   {
-   "name": "Benson",
-   "type": "person",
-   "role": "school administrator who spent textbook money on the gait-recognition cameras"
-  },
-  {
    "name": "Darryl",
    "type": "person",
-   "role": "friend who is already logged in to IMParanoid and is invited to skip class"
+   "role": "friend who is already logged into IMParanoid and invites the narrator to chase a clue"
   },
   {
    "name": "SchoolBook",
    "type": "product",
-   "role": "school-issued laptop that logs keystrokes and network traffic"
+   "role": "school-issued laptop that logs keystrokes and network traffic and shows ads"
   },
   {
    "name": "IMParanoid",
    "type": "product",
-   "role": "secret instant messenger the narrator uses during class"
+   "role": "secret instant messenger the narrator uses for off-the-record discussion in class"
   },
   {
    "name": "Board of Ed",
    "type": "organization",
-   "role": "authority that runs daily remote integrity checks on the SchoolBooks"
+   "role": "school authority that runs daily remote integrity checks on the SchoolBooks"
   },
   {
    "name": "Harajuku Fun Madness",
    "type": "program",
-   "role": "alternate reality game the narrator is excited about and wants to pursue"
+   "role": "alternate reality game about a healing gem, which the narrator calls the best game ever made"
   },
   {
    "name": "Harajuku",
    "type": "place",
-   "role": "location of the temple where the healing gem was supposedly discovered"
+   "role": "temple location where the teens discovered the healing gem and a hub of Japanese youth subculture"
   },
   {
    "name": "Yakuza",
@@ -64,15 +65,16 @@
   }
  ],
  "tags": [
+  "fiction",
   "surveillance",
-  "school technology",
-  "alternate reality game",
+  "school",
+  "video games",
   "hacking",
-  "young adult fiction"
+  "dystopia"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1906,
-  "output_tokens": 1195
+  "output_tokens": 1248
  }
 }

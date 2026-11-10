@@ -1,66 +1,66 @@
 {
- "summary": "A first-person narrator (Marcus) walks with a girl named Ange after school, sharing a passage from a book that praises 'mad' people who burn with life, and feels happy. Their walk is interrupted when Van, a former close friend, appears. Van seems shaken, and Marcus is embarrassed to be seen with Ange. Marcus explains to Ange that he and Van were once best friends in an ARG with Jose-Luis and Darryl, and that they were all arrested together, but Van stopped being friends after disliking the Xnet, fearing Marcus would get others in trouble.",
- "one_line": "Marcus meets his former friend Van after school while walking with Ange, and explains their falling out over the Xnet and an earlier arrest.",
+ "summary": "An excerpt from a novel (labeled 'Book 1 — part 124') in which the narrator, Marcus, walks with Ange after school, quoting a passage from a book about 'mad' people that she finds delightful. Their walk is interrupted by Van (Vanessa), Marcus's former close friend, who seems shaken to see them together. Marcus explains that Van and he used to be best friends with Jose-Luis and Darryl through ARG play, and that they drifted apart after Van objected to the Xnet and worried about getting into trouble.",
+ "one_line": "Marcus walks home with Ange, quoting a 'mad ones' passage, when former best friend Van appears and their past falling-out over the Xnet surfaces.",
  "key_facts": [
-  "The narrator shares a passage from a book with Ange describing 'dingledodies' and people who are 'mad to live, mad to talk, mad to be saved'.",
-  "The passage describes mad people who 'burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars'.",
-  "Ange puts her arm around the narrator's waist as they walk down the street toward the bus-stop.",
-  "The narrator suppresses the urge to take his arm off Ange's shoulders when Van appears.",
-  "Van is described as seeming surprised, not angry, and 'more ashen, shaken' when she sees the narrator with Ange.",
-  "The narrator says he hadn't spoken to Van in weeks, and that those weeks felt like months.",
-  "Van, Jose-Luis and Darryl were with the narrator when they were arrested.",
-  "The narrator, Van, Jose-Luis and Darryl used to play an ARG together and were kind of best friends.",
-  "The narrator says Van 'didn't like the Xnet' and thought they would get into trouble.",
-  "The narrator says Van thought he would get other people into trouble.",
-  "The narrator notices many girls from the school behind them but no Van when he looks over his shoulder."
+  "The narrator Marcus quotes a passage describing 'the mad ones' who burn 'like fabulous yellow roman candles' and reads the word 'dingledodies' aloud to Ange.",
+  "Ange asks 'Wow, dingledodies! I love it! Is it all like this?' after reading the passage herself.",
+  "Marcus and Ange walk toward the bus-stop with their arms around each other's waists and shoulders.",
+  "Marcus says the walk made him 'forget my troubles for a little while.'",
+  "Van (Vanessa) calls out 'Marcus?' as they walk, and Marcus notes he had subconsciously expected her to appear.",
+  "Marcus had not spoken to Van in weeks, and those weeks 'felt like months'; they used to talk every day.",
+  "Marcus says he was suddenly embarrassed to be seen with another girl and tells Van he came out to get Ange.",
+  "Ange asks Marcus whether Van was his girlfriend; Marcus replies 'No! No way! We were just friends.'",
+  "Marcus says he, Van, Jose-Luis and Darryl were arrested together and used to play ARG together as best friends.",
+  "Marcus says Van 'didn't like the Xnet' and thought they would get into trouble and that he would get other people into trouble.",
+  "Marcus says he felt Van was walking behind them listening, and when he finally looked over his shoulder, Van was not there."
  ],
  "entities": [
   {
    "name": "Marcus",
    "type": "person",
-   "role": "first-person narrator who walks with Ange and talks with Van"
+   "role": "narrator who walks with Ange and reflects on his friendship with Van"
   },
   {
    "name": "Ange",
    "type": "person",
-   "role": "girl walking with Marcus; called Angela by Van"
+   "role": "girl Marcus walks with after school, short for Angela, who reads and admires the book passage"
   },
   {
    "name": "Van",
    "type": "person",
-   "role": "Vanessa, former close friend of Marcus who appears after school"
+   "role": "Vanessa, former close friend of Marcus who was surprised and shaken to see him with Ange"
   },
   {
    "name": "Jose-Luis",
    "type": "person",
-   "role": "friend of Marcus who was arrested with him and Van and used to play the ARG"
+   "role": "friend who was arrested with Marcus and Van and played ARG with them"
   },
   {
    "name": "Darryl",
    "type": "person",
-   "role": "friend of Marcus who was arrested with him and Van and used to play the ARG"
+   "role": "friend who was arrested with Marcus and Van and played ARG with them"
+  },
+  {
+   "name": "Xnet",
+   "type": "program",
+   "role": "network or activity Van disliked, believing it would get the group into trouble"
   },
   {
    "name": "ARG",
    "type": "event",
    "role": "alternate reality game the four friends played together"
-  },
-  {
-   "name": "Xnet",
-   "type": "program",
-   "role": "network Van disliked, which she thought would get the group into trouble"
   }
  ],
  "tags": [
-  "fiction",
-  "young adult",
+  "young adult fiction",
   "friendship",
-  "alternate reality game",
-  "xnet"
+  "xnet",
+  "surveillance",
+  "coming of age"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1943,
-  "output_tokens": 962
+  "output_tokens": 1048
  }
 }

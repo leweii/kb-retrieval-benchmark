@@ -1,33 +1,34 @@
 {
- "summary": "An excerpt from a fiction book (Book 1, part 133) in which a teenage hacker known as M1k3y, a character in a story about a movement called Xnet, answers questions from journalists after a San Francisco attack. M1k3y argues that the DHS is failing to keep people safe, that its surveillance and suspicion tactics terrify citizens the way terrorism does, and that the teen's own hacking skills show terrorists could easily do the same things. The passage ends with M1k3y handing the keyboard to Ange and with Marcus's personal troubles introduced.",
- "one_line": "Fiction excerpt where teen hacker M1k3y answers journalists' questions about DHS failures, surveillance, and terrorism after a San Francisco bridge attack.",
+ "summary": "An excerpt from a fiction book (Book 1, part 133) in which a teenage hacker known as M1k3y answers questions from journalists after a terrorist attack on San Francisco. M1k3y criticizes the Department of Homeland Security as failing to protect people and terrifying them, and describes technical tricks, such as building an Internet the government cannot wiretap and jamming person-tracking technology, that M1k3y figured out alone. The passage ends with M1k3y handing the keyboard to Ange and with Marcus's personal troubles, suspension from school and fights with his dad, sketched briefly.",
+ "one_line": "A teenage hacker called M1k3y fields journalists' questions after a San Francisco attack, criticizing the DHS as failing and terrifying citizens.",
  "key_facts": [
-  "M1k3y is a 17-year-old who says they figured out how to make an Internet that the government cannot wiretap.",
+  "M1k3y is a 17-year-old who says they are not a straight-A student but figured out how to make an Internet that the government cannot wiretap.",
   "M1k3y says they figured out how to jam the DHS's person-tracking technology.",
-  "M1k3y claims they could turn innocent people into suspects and guilty people into innocents in the government's eyes.",
+  "M1k3y claims they can turn innocent people into suspects and guilty people into innocents in the eyes of the government.",
   "M1k3y says they could get metal onto an airplane or beat a no-fly list.",
-  "Doug Christensen is identified as a reporter from the Washington Internet Daily.",
-  "M1k3y states that the DHS would not stop the bridge from being blown up again, and that its tracing, loss of freedom, and turning citizens against each other fail to make the city safer.",
-  "M1k3y says: \"The point of terrorism is to terrify us. The DHS terrifies me.\"",
+  "Doug Christensen identifies himself as being from the Washington Internet Daily and asks what the DHS should do to prevent another attack on San Francisco.",
+  "M1k3y says that if the DHS's job is to keep people safe, the DHS is failing, because none of its actions would stop the bridge from being blown up again.",
+  "M1k3y states: \"The point of terrorism is to terrify us. The DHS terrifies me.\"",
   "M1k3y says: \"if this is a free country then I should be able to at least say what my own cops do to me.\"",
-  "A journalist from the Sydney Morning Herald questions M1k3y during the press exchange.",
-  "Some people in the discussion say terrorists and the government are either literally the same or equally bad.",
-  "Some people say the government knows how to catch terrorists but prefers not to because \"war presidents\" get re-elected.",
+  "A journalist from the Sydney Morning Herald asks M1k3y questions during the press exchange.",
   "M1k3y says \"If I can do it, terrorists can do it.\"",
-  "M1k3y hands the keyboard to Ange so she can be M1k3y for a while.",
-  "M1k3y reflects that M1k3y was the kind of kid who talked to international journalists and inspired a movement.",
-  "Marcus got suspended from school, fought with his dad, and wondered about his own situation at the end of the excerpt."
+  "M1k3y asks \"Do you feel safe?\" after explaining that the government said it took away freedoms to make people safe.",
+  "Some people in the exchange say that terrorists and the government are the same, either literally or in being equally bad.",
+  "Some people say the government knows how to catch terrorists but prefers not to because \"war presidents\" get re-elected.",
+  "The movement's names listed include Xnet, Little Brothers, Little Sisters, and the United States of America.",
+  "When M1k3y got tired, M1k3y handed the keyboard to Ange, who spoke as M1k3y for a while.",
+  "Marcus was suspended from school, fought with his dad, and wondered about his situation."
  ],
  "entities": [
   {
    "name": "M1k3y",
    "type": "person",
-   "role": "teenage hacker and fictional protagonist who speaks to journalists about the DHS and the Xnet movement"
+   "role": "17-year-old hacker who answers journalists' questions and is seen as having inspired a movement"
   },
   {
    "name": "Doug Christensen",
    "type": "person",
-   "role": "journalist from the Washington Internet Daily who asks M1k3y about the DHS"
+   "role": "reporter from the Washington Internet Daily who asks M1k3y about DHS response to attacks"
   },
   {
    "name": "Ange",
@@ -37,12 +38,12 @@
   {
    "name": "Marcus",
    "type": "person",
-   "role": "character who gets suspended from school and fights with his dad"
+   "role": "character who was suspended from school and fought with his dad"
   },
   {
    "name": "DHS",
    "type": "organization",
-   "role": "Department of Homeland Security, criticized by M1k3y for failing to keep people safe and for terrorizing citizens"
+   "role": "Department of Homeland Security, criticized by M1k3y as failing to keep people safe and as terrifying citizens"
   },
   {
    "name": "Washington Internet Daily",
@@ -55,26 +56,32 @@
    "role": "newspaper whose journalist questions M1k3y"
   },
   {
-   "name": "Xnet",
-   "type": "program",
-   "role": "name of the movement or network, among others, that the characters discuss"
-  },
-  {
    "name": "San Francisco",
    "type": "place",
-   "role": "city that suffered a recent attack and a bridge bombing"
+   "role": "city targeted by a terrorist attack, with a bridge blown up"
+  },
+  {
+   "name": "Xnet",
+   "type": "program",
+   "role": "name given to a movement or network mentioned in the exchange"
+  },
+  {
+   "name": "Little Brothers, Little Sisters",
+   "type": "program",
+   "role": "name given to a movement mentioned in the exchange"
   }
  ],
  "tags": [
   "fiction",
   "hacking",
+  "homeland security",
   "surveillance",
   "terrorism",
-  "government critique"
+  "journalism"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1849,
-  "output_tokens": 1226
+  "output_tokens": 1350
  }
 }

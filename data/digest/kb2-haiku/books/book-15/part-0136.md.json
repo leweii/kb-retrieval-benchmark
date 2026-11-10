@@ -1,58 +1,57 @@
 {
- "summary": "Ray and Emma return from an early dinner and a stroll to the observation deck, where Ray kissed her under a meteor she claimed was good luck. Emma invites him into her family's quarters, saying it would make Amah more comfortable with him after an awkward previous meeting. Ray privately has little interest in Amah or Frederick, and asks to meet the children Emma tutors, whom Emma says Amah's selected tutors manage while she only offers moral support.",
- "one_line": "Ray accompanies Emma to her family's quarters, where she plans to introduce him to Amah and the children in her care.",
+ "summary": "Ray and Emma return from an early dinner and an evening stroll to the observation deck, where they kissed beneath a meteor, which she claimed was good luck. Ray, who has grown sentimental about her, accepts her invitation into her quarters to meet her children's household. Emma explains that Amah designs the children's education schedule and tutors carry it out, and that she is only there for moral support. Ray is reluctant to face Amah again after an awkward prior meeting, but agrees to meet the children, who are finishing evening studies.",
+ "one_line": "Ray accepts Emma's invitation into her household, where he expects to meet her children and the awkward matriarch Amah.",
  "key_facts": [
-  "Ray and Emma had gone for an early dinner before strolling up to the obs deck.",
-  "Ray told Emma about his supposed job, and Ziggy was riding his ass over his screw-ups.",
-  "Ray kissed Emma beneath the tail of a passing meteor on the obs deck because she said it was good luck.",
-  "Ray suspects Emma made up the good-luck claim on the spot so she could stick her tongue in his mouth.",
+  "Ray had an early dinner with Emma, during which he told her about his supposed job and Ziggy riding his ass for his screw-ups.",
+  "Ray suspects Emma was only pretending to be interested in his job talk, though she seemed genuinely to care.",
+  "After dinner, Emma and Ray strolled up to the obs deck to count stars and galactic clusters.",
+  "Emma said kissing beneath the tail of a passing meteor was good luck, which Ray suspects she made up on the spot.",
   "Emma invites Ray in for a while, saying it would make Amah feel more comfortable with him.",
-  "Emma says Ray's previous meeting with Amah was a little awkward.",
   "Ray says his schedule has become a bit more flexible lately.",
-  "Ray has no interest in talking to Amah again and does not care about her or Frederick.",
-  "Ray says he would like to meet the children who occupy so much of Emma's time.",
-  "Emma says Amah designs the schedule for the children's education.",
-  "The tutors Amah selected to travel with them implement the children's education schedule.",
-  "Emma says she is not very good with children and is there for moral support.",
+  "Emma says Ray's previous meeting with Amah was a little awkward.",
+  "Ray has no interest in talking to Amah again and does not care much about her or Frederick.",
+  "Ray says he would like to meet the kids who occupy so much of Emma's time, to assure himself they actually exist.",
+  "Emma says Amah designs the schedule for the children's education and the tutors she selected to travel with them implement it.",
+  "Emma says she is just there for moral support and is not very good with children.",
   "Emma keys in her entry code at the door, stopping the kako-daemon's warble.",
-  "Ray had been wondering how to let go of Emma's hand without seeming to avoid holding it in front of Amah and Whiston domestics.",
-  "Ray says the romantic dilemma has not changed since Julie Gentry, twenty years earlier."
+  "Ray had been wondering how to let go of Emma's hand without seeming to avoid holding it in front of Amah and the Whiston domestics.",
+  "Ray compares this romantic dilemma to one unchanged since Julie Gentry, twenty years earlier."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "narrator and protagonist who has become romantically involved with Emma"
+   "role": "protagonist who is romantically involved with Emma and has a supposed job that Ziggy criticizes"
   },
   {
    "name": "Emma",
    "type": "person",
-   "role": "Ray's companion who invites him into her family's quarters and tutors children"
+   "role": "Ray's romantic interest who invites him into her home and cares for children whose education Amah designs"
   },
   {
    "name": "Amah",
    "type": "person",
-   "role": "Emma's family member who designs the children's education schedule and previously had an awkward meeting with Ray"
+   "role": "Emma's family matriarch who designs the children's education schedule and had an awkward previous meeting with Ray"
   },
   {
    "name": "Frederick",
    "type": "person",
-   "role": "family member Ray does not care about"
+   "role": "member of Emma's family whom Ray does not care about"
   },
   {
    "name": "Ziggy",
    "type": "person",
-   "role": "person who rides Ray about his screw-ups at work"
+   "role": "figure who rides Ray about his assorted screw-ups at his supposed job"
   },
   {
    "name": "Julie Gentry",
    "type": "person",
-   "role": "former romantic interest of Ray from about twenty years earlier"
+   "role": "figure from Ray's past whose romantic dilemma resembles the current one"
   },
   {
    "name": "Whiston",
    "type": "organization",
-   "role": "family whose domestics may be present in the corridor"
+   "role": "household whose domestics might see Ray holding Emma's hand"
   },
   {
    "name": "obs deck",
@@ -62,19 +61,19 @@
   {
    "name": "kako-daemon",
    "type": "product",
-   "role": "household device at Emma's door that warbles and complains"
+   "role": "household device at Emma's door that warbles and is stopped by her entry code"
   }
  ],
  "tags": [
-  "fiction",
   "science fiction",
   "romance",
-  "book 15",
-  "dialogue"
+  "family dynamics",
+  "relationships",
+  "novel excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1896,
-  "output_tokens": 1047
+  "output_tokens": 1153
  }
 }

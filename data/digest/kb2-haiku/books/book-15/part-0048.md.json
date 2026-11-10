@@ -1,83 +1,85 @@
 {
- "summary": "This excerpt from 'Book 15 — part 48' is a fiction passage narrated around Ray, a sergeant (addressed as Gunny), and Lieutenant Holcomb, whose unit flies at night over the desert toward Karbala during a military operation involving Russoturk forces and allied bombing. The narrator contrasts the sergeant's role as the unit's entertainment and child-rearing overseer with the dismissive attitude of METOC staff toward the young lieutenant's mission. The scene is set in a low-flying helicopter with Ray, Holcomb, comm specialist Kev Whitfield and gunners, while a Predator follows by infrared, and the text ends mid-sentence as the pilot plans a flyover to clear the drop zone.",
- "one_line": "Fiction excerpt: a night helicopter run over the desert toward Karbala with Sergeant Ray and Lieutenant Holcomb ahead of a drop.",
+ "summary": "An excerpt from a military fiction chapter (\"Book 15 — part 48\") in which Ray, a gunnery sergeant, rides with Lieutenant Holcomb, comm specialist Kev Whitfield and others in a helicopter at night over the desert near Karbala, with a Predator drone following. The narrative mixes wry commentary on officers, METOC staff and the army's \"Disneyland of Officer Training\" with sensory detail of the flight, distant bombing of industrial sites, and Ray's struggle to stay awake. The passage ends as the pilot prepares a flyover of the drop zone before hovering three klicks east to wait.",
+ "one_line": "Gunny Ray and Lieutenant Holcomb fly a night helicopter run over the desert near Karbala during a fictional war against Russoturk forces.",
  "key_facts": [
-  "Sergeants are described as the backbone of the military and also the entertainment directors of their units.",
-  "METOC personnel regarded the lieutenant's mission as a lark granted to a highly connected young officer with too much classical education and too much imagination.",
-  "Ray was ordered to help toughen up the lieutenant and show him what New Mes and the real world look like without getting killed.",
-  "The scene takes place around 2300 hours New Mes local time.",
-  "The helicopters fly at a height of ten meters, kicking up sand that stings the eyes and sticks in the teeth.",
-  "Ray, Lieutenant Holcomb, comm specialist Kev Whitfield and gunners manning the mini-guns ride in the lead chopper.",
-  "The rest of the team follows in a Predator, tracking the route by infrared imaging more than visual.",
-  "Kev Whitfield carries an M202 subby across his knees and is not happy about sitting on the bench with the LT.",
-  "East of the flight path are the scant, twinkling lights of Karbala.",
+  "The narrator says sergeants are \"the entertainment directors\" of the military, a joking claim in the passage.",
+  "METOC staff regarded the mission as \"a lark being granted to a highly connected young officer with too much classical education and too much imagination.\"",
+  "Ray was ordered to help toughen up the LT and show him \"what New Mes and the real world look like without him getting killed.\"",
+  "The mission is set at about 2300 hours New Mes local time.",
+  "The helicopters fly at a height of ten meters while kicking up sand.",
+  "Ray, Lieutenant Holcomb, comm specialist Kev Whitfield and others ride in the lead chopper.",
+  "The rest of the team rides in a Predator following behind, tracking the route mainly by infrared imaging.",
+  "Kev Whitfield carries an M202 (subby) across his knees.",
+  "East of the route lie the scant, twinkling lights of Karbala.",
   "The 8th Tactical Wing bombers are heard shouting toward industrial complexes on the city's fringes.",
   "The Russoturk armored divisions are hunkered down to escape allied smart bombs.",
-  "Ray blames his parents for his tendency to fall asleep in helicopters, since they celebrated the American love of the open road during his colic-prone first two years.",
-  "The pilot tells Gunny that the helicopter is about a minute from the drop point and will flyover the zone, then hover three klicks east."
+  "Ray blames his parents for his tendency to fall asleep in helicopters, since they spent hours of his first two years celebrating the American love of the open road while he had colic.",
+  "The pilot tells Ray they are about a minute from the drop point and will flyover the zone to check it is clear.",
+  "The helicopter will hover three klicks east and wait for Ray's signal."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "sergeant (called Gunny) who is ordered to help toughen up Lieutenant Holcomb and rides in the lead chopper"
+   "role": "gunnery sergeant (\"Gunny\") ordered to toughen up Lieutenant Holcomb; narrator's focal character on the flight"
   },
   {
    "name": "Lieutenant Holcomb",
    "type": "person",
-   "role": "highly connected young officer on the mission, riding in the lead chopper"
+   "role": "highly connected young officer with a classical education, on the mission; referred to as \"the LT\""
   },
   {
    "name": "Kev Whitfield",
    "type": "person",
-   "role": "Ray's comm specialist who sits on the bench with the LT carrying an M202 subby"
+   "role": "Ray's comm specialist, sitting on the bench with the LT and carrying an M202"
   },
   {
    "name": "METOC",
    "type": "organization",
-   "role": "staff who either do not understand or do not believe in the mission"
-  },
-  {
-   "name": "Russoturk",
-   "type": "organization",
-   "role": "enemy armored divisions and mechanized infantry, hunkered down to escape allied smart bombs"
-  },
-  {
-   "name": "8th Tactical Wing",
-   "type": "organization",
-   "role": "bomber unit whose bombers strike industrial complexes on Karbala's fringes"
+   "role": "meteorological/oceanographic staff who regard the LT's mission as a lark and do not understand or believe it"
   },
   {
    "name": "Karbala",
    "type": "place",
-   "role": "city to the east whose lights are visible from the flight path"
+   "role": "city whose lights are visible to the east, with industrial fringes being bombed"
   },
   {
    "name": "New Mes",
    "type": "place",
-   "role": "location where the training and the mission take place; local time is used for the scene"
+   "role": "the setting of the mission and the training ground for the LT"
+  },
+  {
+   "name": "8th Tactical Wing",
+   "type": "organization",
+   "role": "bomber unit heard striking industrial complexes near Karbala"
+  },
+  {
+   "name": "Russoturk armored divisions",
+   "type": "organization",
+   "role": "enemy forces hunkered down to avoid allied smart bombs"
   },
   {
    "name": "Predator",
    "type": "product",
-   "role": "aircraft trailing the lead helicopter and tracking its route by infrared imaging"
+   "role": "drone carrying the rest of the team, tracking the route by infrared"
   },
   {
    "name": "M202",
    "type": "product",
-   "role": "subby (weapon) carried by Kev Whitfield"
+   "role": "subby (multi-shot rocket launcher) carried by Kev Whitfield"
   }
  ],
  "tags": [
-  "fiction",
   "military fiction",
-  "helicopter operation",
-  "desert night flight",
-  "sergeant and lieutenant"
+  "night helicopter flight",
+  "desert warfare",
+  "iraq war setting",
+  "characters",
+  "narrative excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1902,
-  "output_tokens": 1329
+  "output_tokens": 1304
  }
 }

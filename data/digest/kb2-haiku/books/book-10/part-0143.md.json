@@ -1,36 +1,35 @@
 {
- "summary": "An excerpt from a novel (labeled 'Book 10 — part 143') following Leon, who meticulously avoids the childhood habits he once had, such as being the messy 'Hansel and Gretel' kid, and who plans to sell something new to a wealthy man in a vat aiming for life eternal among machines. The passage also describes the shifting character of the Lower East Side over the years and the changing stock of its corner shops, which Leon reads as a sign of coming change. It ends with a backstory of his parents, who emigrated from Romania to Anguilla and ended up in a vertical slum, and it breaks off mid-sentence.",
- "one_line": "Excerpt from a near-future novel following Leon, a meticulous man haunted by his childhood, as he plans a sale to a wealthy man in a vat.",
+ "summary": "An excerpt from a novel's Book 10 (part 143) following Leon, a meticulous man who consciously suppresses a childhood self nicknamed the \"Hansel and Gretel\" kid who left messes everywhere. His parents, who emigrated from Romania to Anguilla, teased his organization; he resists impulses toward indulgence and plans to sell something new to a wealthy man in a vat. The passage also describes the shifting Lower East Side neighborhood, where shops and buildings change with the economy, and recalls Leon's family's hardship after arriving in Anguilla during an economic collapse.",
+ "one_line": "Leon, a rigidly disciplined man haunted by his messy childhood, reflects on his habits and the changing Lower East Side and his family's hardships.",
  "key_facts": [
-  "Leon stops at the grocer's every night to buy anything that ran out the previous day.",
-  "His parents came to visit from Anguilla and teased him about how organized he was.",
+  "Leon routinely stops at the grocer's every night to buy anything that ran out the previous day.",
+  "His parents visited from Anguilla and teased him about how organized he was.",
   "Leon's sixth grade teacher awarded him the \"Hansel and Gretelprize\" for leaving a trail behind him everywhere he went.",
-  "Leon's organized habits are the product of an iron determination not to be the fat little boy he once was.",
-  "Leon plans to figure out how to sell something new to the man in the vat.",
-  "The man in the vat hopes to go down to life eternal in an ever-expanding kingdom of machines.",
-  "The Lower East Side has ebbed and flowed over the years between poor, rich, middle-class, super-rich, and poor.",
-  "Walking around his neighborhood, Leon sniffed change in the wind.",
-  "The shopkeepers seemed to have more discount, high-calorie wino-drink and less designer low-carb energy food.",
-  "Leon's parents emigrated from Romania to Anguilla, chasing the tax-haven set.",
-  "Leon's parents arrived in the middle of an econopocalyptic collapse and ended up living in a vertical slum that had once been a luxury hotel.",
-  "The Romanian parents were the sole Romanians among smuggled Mexicans who were de-facto slaves.",
-  "Leon didn't mind the neighborhood changes because he had lived rough himself."
+  "Leon denies his inner voice that calls for pizzas, sleeping in, and taking cabs, shouting it into submission and locking it up.",
+  "Leon plans to sell something new to the man in the vat, reasoning that a man who amassed a great fortune would have spent his life denying himself.",
+  "The Lower East Side has cycled through poor, rich, middle-class, super-rich, and poor phases over the years.",
+  "Leon sniffs change in the wind in his neighborhood: more discount high-calorie wino-drink, fewer designer low-carb energy foods, and more FOR RENT signs.",
+  "A construction site has had no one working on it for a week, and its padlocked foreman's shed is growing a mossy coat of graffiti.",
+  "Leon's parents emigrated from Romania to Anguilla, chasing the tax-haven set and dreaming of making a killing as bookkeepers or security guards.",
+  "Leon's parents arrived in Anguilla in the middle of an \"econopocalyptic collapse\" and ended up living in a vertical slum that had once been a luxury hotel.",
+  "The Romanians were the sole non-Mexican people among smuggled Mexicans who were de-facto slaves.",
+  "The passage notes that the advantage of de-facto slaves over de-jure slaves was that the text is cut off before finishing this thought."
  ],
  "entities": [
   {
    "name": "Leon",
    "type": "person",
-   "role": "protagonist who avoids his childhood habits and plans to sell something new to the man in the vat"
+   "role": "meticulous protagonist who suppresses his messy childhood self and plans to sell something to the man in the vat"
   },
   {
    "name": "Leon's parents",
    "type": "person",
-   "role": "Romanian emigrants who went to Anguilla, chasing the tax-haven set, and ended up in a vertical slum"
+   "role": "Romanian emigrants who went to Anguilla, teased Leon about his organization, and later lived in a vertical slum"
   },
   {
    "name": "Anguilla",
    "type": "place",
-   "role": "island where Leon's parents visited from and where they emigrated to chase the tax-haven set"
+   "role": "island where Leon's parents visited from and where they emigrated and struggled during an economic collapse"
   },
   {
    "name": "Romania",
@@ -40,30 +39,30 @@
   {
    "name": "Lower East Side",
    "type": "place",
-   "role": "New York neighborhood whose buildings and shops have changed over the years"
+   "role": "New York neighborhood whose buildings and shops change with economic cycles"
   },
   {
    "name": "Hansel and Gretel prize",
    "type": "event",
-   "role": "mock award given by Leon's sixth grade teacher for leaving a trail behind him"
+   "role": "mocking award from Leon's sixth grade teacher for leaving a trail behind him"
   },
   {
    "name": "the man in the vat",
    "type": "person",
-   "role": "wealthy figure seeking life eternal in an ever-expanding kingdom of machines, the target of Leon's planned sale"
+   "role": "wealthy figure who amassed a fortune and will go down to life eternal in a kingdom of machines, the target of Leon's planned sale"
   }
  ],
  "tags": [
   "fiction",
   "novel excerpt",
-  "near future",
+  "self-discipline",
   "lower east side",
-  "identity",
-  "economic collapse"
+  "economic collapse",
+  "childhood"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1975,
-  "output_tokens": 1118
+  "output_tokens": 1213
  }
 }

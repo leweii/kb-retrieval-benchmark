@@ -1,63 +1,59 @@
 {
- "summary": "The narrator, a fugitive wanted for mass murder, is confronted by two mall security guards after being caught with an alcoholic drink she appears to be underage to have. Her resemblance to a notorious killer, the 'psycho from the paper,' spreads through the crowd, the guards back away, and sirens approach. She escapes by climbing potted-plant shelves onto the roof and running off the building. The passage is an excerpt from Book 2, part 96.",
- "one_line": "A fugitive mistaken for a mass murderer escapes mall security and sirens by leaping onto a rooftop.",
+ "summary": "The narrator, a fugitive who has been drinking to steady herself, is confronted in a parking lot by two security guards after they catch her with a half-drunk bottle and suspect underage drinking. A bystander recognizes her as the 'psycho from the paper' accused of killing many people, the crowd grows, sirens sound, and the guards back away. The narrator flees by leaping up a display of potted plants onto the roof and running off the back of the building.",
+ "one_line": "A fugitive narrator, mistaken for a mass murderer, escapes security guards and a gathering crowd by leaping onto a building roof.",
  "key_facts": [
   "The narrator had self-medicated enough to stabilize her world for the moment.",
-  "The narrator had left an ID in her stash in the drywall of the Chinatown apartment and thought she probably still had it.",
-  "Two security guards confronted the narrator over a half-drunk bottle on the ground and suspected underage drinking.",
+  "The narrator considered going back to the Chinatown apartment to check for an ID hidden in her stash in the drywall.",
+  "The two security guards detained the narrator on suspicion of underage drinking after seeing her half-drunk bottle on the ground.",
   "The narrator said, \"I swear I'm over twenty-one,\" and offered to leave.",
-  "The female security guard radioed for help with a walkie and told the narrator to stay where she was.",
-  "The narrator was carrying an illegal Ruger tucked in the back of her belt and grenades in her pockets.",
+  "The female security guard pulled out a walkie and told the narrator to stay where she was.",
+  "The narrator carried an illegal Ruger tucked in the back of her belt and grenades in her pockets.",
   "A dark-skinned, curly-haired woman shrieked, \"The psycho from the paper! You caught her!\"",
-  "The male guard said, \"She does look like it,\" after comparing the narrator's features to the suspect.",
-  "The guards began backing away, deciding their rent-a-cop duties were not worth risking their lives against a homicidal maniac.",
-  "Sirens began sounding from not too far away.",
-  "A crowd of onlookers gathered around the narrator at a healthy radius, and at least two people pulled out mobile phones.",
-  "The narrator ran up a display of potted plants against the wall as if they were stairs.",
-  "The narrator cleared the eaves in a dive, rolled onto the flat rooftop, and ran off the back of the building."
+  "The male guard said, \"She does look like it,\" after taking in the narrator's features.",
+  "The guards began backing away, deeming their rent-a-cop duties not worth risking their lives against a homicidal maniac.",
+  "The narrator heard sirens starting up from not too far away.",
+  "Some onlookers pulled their children away, and at least two people pulled out mobile phones.",
+  "The narrator spun and leapt, running up a display of potted plants against the wall like stairs.",
+  "The narrator cleared the eaves in a dive and rolled back to her feet on the flat rooftop.",
+  "Shouts erupted behind the narrator as she ran across the roof and launched herself off its back."
  ],
  "entities": [
   {
    "name": "Chinatown apartment",
    "type": "place",
-   "role": "apartment where the narrator may have left an ID hidden in the drywall"
+   "role": "the narrator's residence where she may have kept an ID hidden in the drywall"
   },
   {
    "name": "Ruger",
    "type": "product",
-   "role": "illegal handgun tucked in the narrator's belt"
+   "role": "illegal firearm tucked in the back of the narrator's belt"
   },
   {
    "name": "female security guard",
    "type": "person",
-   "role": "guard who radioed for help and ordered the narrator to stay"
+   "role": "security guard who radioed for help and ordered the narrator to stay put"
   },
   {
    "name": "male security guard",
    "type": "person",
-   "role": "guard who recognized the narrator as resembling the suspect and began backing away"
+   "role": "security guard, the colleague who recognized the narrator and went pale"
   },
   {
-   "name": "dark-skinned, curly-haired woman",
+   "name": "curly-haired woman",
    "type": "person",
-   "role": "bystander who identified the narrator as 'the psycho from the paper'"
-  },
-  {
-   "name": "the psycho from the paper",
-   "type": "other",
-   "role": "nickname for the mass murder suspect whom the narrator was mistaken for"
+   "role": "bystander who identified the narrator as the psycho from the paper"
   }
  ],
  "tags": [
   "fiction",
-  "thriller",
+  "fugitive",
   "escape",
-  "pursuit",
-  "mistaken identity"
+  "urban action",
+  "narrative excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1911,
-  "output_tokens": 951
+  "output_tokens": 915
  }
 }

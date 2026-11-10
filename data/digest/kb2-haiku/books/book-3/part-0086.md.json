@@ -1,54 +1,54 @@
 {
- "summary": "In a fiction excerpt from a longer work titled 'Book 3', a narrator with a Betacam camera visits a room of infants in bassinets with Tara, who is dreamy and uncurious about where the babies come from. Tara says they are orphans or abandoned children brought from overseas, and she wants to take one out into the snow. The narrator refuses, and when she asks a changing attendant where a child came from, the woman stares in alarm and turns away. The narrator wonders whether Paula and Carly got their babies the same way.",
- "one_line": "A narrator filming a nursery of bassinet infants questions Tara about where the babies come from and gets evasive answers.",
+ "summary": "A first-person narrator and a companion named Tara tour a nursery room full of infants in identical wicker bassinets, while the narrator films with a Betacam in poor light. Tara, dreamy and uninterested in how the babies arrived, explains only that people bring them there and that girls take them to new mothers. Tara wants to take the babies out into the snow, and the narrator refuses, then questions a woman changing a baby, who stares in alarm and says nothing. The passage is a fragment from the middle of Book 3, part 86.",
+ "one_line": "In a nursery of identical bassinets, a narrator filming with a Betacam questions Tara and a silent attendant about where the infants come from.",
  "key_facts": [
-  "The narrator films a room holding at least twenty bassinets, all alike, made of wicker with a white lace hood.",
+  "Tara says the children are orphans or abandoned, from overseas or wherever, according to Ramala.",
+  "Tara says the infants are brought to the nursery by people, and the girls there take them to their new mothers.",
+  "The narrator is filming with a Betacam, though the light is not enough for broadcast quality.",
+  "The room holds at least twenty bassinets, all alike, made of wicker with a white lace hood.",
   "The room smells like baby powder.",
-  "Tara says the babies are orphans or abandoned children who come from overseas or elsewhere.",
-  "Tara says 'People bring them here' when asked how the children arrive.",
-  "Tara says 'The girls here take them to their new mothers' and that 'It's so sad to see them leave.'",
-  "Tara picks up an infant and says 'Isn't this one cute? I'd so love to have him.'",
-  "The narrator notes the light is not enough for broadcast-quality Betacam footage.",
-  "Ramala says the children are orphans or abandoned.",
-  "Tara says the nurses are made to try to speak English around the children, but they do not know much English.",
-  "Tara wants to take some babies outside into the snow to show them how beautiful it is.",
-  "The narrator refuses to take the babies out into the snow that night and suggests the morning instead.",
-  "The narrator notes that the baby being changed is a boy.",
-  "When the narrator asks the woman changing the baby where the child came from, she stares in alarm and turns away.",
-  "The narrator wonders whether Paula and Carly got their babies the same way."
+  "Tara picks up one infant and says, \"Isn't this one cute? I'd so love to have him.\"",
+  "The baby Tara holds begins crying outright, much to her annoyance.",
+  "Tara wants to take some babies out into the snow so they can see how beautiful it is.",
+  "Ramala makes the nurses try to speak English around the children, but they don't really know much.",
+  "The narrator refuses to take the babies out into the snow tonight and suggests the morning instead.",
+  "The narrator says she does not speak the language the staff use and is not sure she could explain the idea in English.",
+  "The narrator confirms that the baby being changed is a boy.",
+  "When the narrator asks the woman changing the baby where the child came from, the woman stares in alarm and turns away.",
+  "The narrator wonders whether Paula and Carly got their babies the same way, and realizes she neglected to ask."
  ],
  "entities": [
   {
    "name": "Tara",
    "type": "person",
-   "role": "companion of the narrator who admires the babies, wants to take them into the snow, and gives vague answers about where they come from"
+   "role": "companion who is dreamy, uninterested in the infants' origins, and wants to take the babies out into the snow"
   },
   {
    "name": "Ramala",
    "type": "person",
-   "role": "person who told Tara the children are orphans or abandoned, from overseas or elsewhere"
+   "role": "source of Tara's explanation that the children are orphans or abandoned"
   },
   {
    "name": "Paula",
    "type": "person",
-   "role": "person the narrator wonders about, whose baby may have been obtained the same way"
+   "role": "mentioned as a woman who may have received a baby the same way as Carly"
   },
   {
    "name": "Carly",
    "type": "person",
-   "role": "person the narrator wonders about, whose baby may have been obtained the same way"
+   "role": "mentioned alongside Paula as a possible recipient of a baby"
   }
  ],
  "tags": [
   "fiction",
   "novel excerpt",
+  "nursery",
   "infants",
-  "orphans",
-  "narrative"
+  "mystery"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1901,
-  "output_tokens": 842
+  "output_tokens": 865
  }
 }

@@ -1,42 +1,54 @@
 {
- "summary": "An excerpt from a science-fiction novel (Book 15, part 3) in which a character named Ray lies at the lip of a vertical shaft above overheated reactor tanks, delaying the descent he dreads. The narration shifts into an essay-like digression on scavengers as nature's recyclers, arguing that nature and starships are both closed environmental systems. It then describes why an engineer chose machines over biological organisms and scavenging animals for starship waste recycling, since biology could overproduce, turn hostile, and animals like hyenas and rats posed hazards to the crew.",
- "one_line": "Excerpt from a science-fiction novel where Ray stalls at a reactor shaft and digresses on scavengers and starship waste recycling.",
+ "summary": "An excerpt from a science-fiction novel (Book 15, part 3) in which a character named Ray lies at the lip of a vertical shaft above a core, delaying his descent into the heat and fumes below. The narration then pivots into an extended digression on scavengers as nature's recyclers and on the parallel that starships are closed environmental systems. It explains why early engineers rejected biological recycling organisms like molds and slimes in favor of animals such as rats and hyenas, only to find those animals posed their own hazards.",
+ "one_line": "Excerpt from a science-fiction novel in which Ray hesitates at a shaft above a core, then digresses on scavengers and closed ecological systems in starships.",
  "key_facts": [
-  "Ray has lain at the top of a vertical shaft for several minutes contemplating his assault on it, a delaying tactic.",
-  "The shaft's molten heat streams up from the core in waves described as thick and suffocating as a winter stack of grandma's old feather comforters.",
+  "Ray has wiped perspiration from his brow with condensate, dust-bunny grit that inevitably gathers inside HVAC tubes.",
+  "Ray has lain for a number of minutes contemplating his assault of the vertical shaft, a shameless procrastination tactic.",
+  "The molten heat from superheated reacting agents streams up past his face in waves described as thick and suffocating as a winter stack of grandma's old feather comforters.",
   "Ray imagines he can see the lava glow of the cooling tanks four hundred meters directly below his position.",
-  "The narration says the lava-glow hallucination is unpleasant and completely fabricated, and Ray knows it.",
-  "The text states that nature is a closed environmental system.",
-  "Scavengers such as hyenas, rats and barnacles are described as recycling the detritus of other creatures.",
-  "The text states that starships are also closed environmental systems.",
-  "Laboratory biogenerate mosses, molds and single-celled organisms were once used to recycle starship waste and made travelers sick and tired.",
-  "Biological organisms had a distressing tendency to overproduce themselves and to evolve into flesh or structure devouring slimes.",
-  "An engineering geek realized that packing a starship with rats and hyenas would pose its own discomforting circumstances.",
-  "Hyenas tend to eat indiscriminately if allowed to run loose, posing a danger to the edible-looking human crew.",
-  "Live rats were described as having promiscuous reputations that would create serious population control problems."
+  "The narration calls the lava-glow hallucination unpleasant and completely fabricated, which Ray knows it is.",
+  "The passage describes scavengers as the bottom feeders (quite literally) of the animal kingdom, such as hyenas, rats and barnacles.",
+  "Scavengers make sure waste products disappear, carcasses are broken into smaller bits, and no biological resources go to waste in a closed ecological system.",
+  "The text states that nature is a closed environmental system and that starships are also closed environmental systems.",
+  "An engineering geek concluded that starship travelers were sick of being made ill by laboratory biogenerate mosses, molds and single-celled organisms used to recycle waste.",
+  "Biological organisms tended to overproduce themselves, evolve into flesh or structure devouring slimes, or generate lethal spores.",
+  "The engineer realized that packing a starship with rats and hyenas would create discomforting circumstances.",
+  "Hyenas tend to eat indiscriminately if allowed to run loose, posing a danger to the edible-looking human crew of starships.",
+  "Live rats are described as having promiscuous reputations that would have created serious population control problems."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "character who lies at the top of the vertical shaft contemplating his assault on it and wiping sweat from his brow"
+   "role": "character who lies at the edge of a vertical shaft, delaying his descent toward the core"
   },
   {
    "name": "grandma",
    "type": "person",
-   "role": "figure referenced in a simile about the heat of feather comforters"
+   "role": "figure referenced in a simile about the suffocating heat, owner of old feather comforters"
+  },
+  {
+   "name": "the cooling tanks",
+   "type": "other",
+   "role": "lava-glowing structures Ray imagines four hundred meters below him"
+  },
+  {
+   "name": "starships",
+   "type": "product",
+   "role": "closed environmental systems whose waste recycling is discussed"
   }
  ],
  "tags": [
   "science fiction",
   "starships",
-  "closed ecosystems",
-  "waste recycling",
-  "excerpt"
+  "ecology",
+  "scavengers",
+  "closed systems",
+  "fiction excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1950,
-  "output_tokens": 819
+  "output_tokens": 1010
  }
 }

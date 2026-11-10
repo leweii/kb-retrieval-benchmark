@@ -1,74 +1,69 @@
 {
- "summary": "The narrator, shaken by the deaths of Anton and Penny, the two people who looked things up for him, considers whether an old grudge or his own job caused the attack. He presses Courtney, his client, about what the men at her home were searching for, but she insists she does not know. He drives her to a bolt hole while she cries, and their argument ends with her shocked realization that the danger began only that morning.",
- "one_line": "A fiction excerpt in which a hard-bitten investigator, grieving two dead information workers, pressures his frightened client Courtney while fleeing pursuers.",
+ "summary": "The narrator, reeling from the deaths of Anton and Penny, the information broker whose search was apparently traced, questions whether an old grudge or his own involvement caused the attack. He pressures his client Courtney, a frightened young woman on the run from a drug cartel, authorities, and a dirty cop, but she insists she doesn't know what the men at her place were looking for. The narrator is angry at her tears, and she responds with shock and guilt before he drives them into an alley toward a hideout called a bolt hole.",
+ "one_line": "A fugitive-rescue narrator, shaken by the deaths of his broker and an associate, confronts his tearful client Courtney during a tense drive to a hideout.",
  "key_facts": [
-  "The narrator's job was supposed to be easy: rescue the kid, get her out of the country, and be home in time for dinner.",
-  "Whoever targeted Anton had overcompensated to take all of his data and information with them.",
-  "The narrator considers that a case from months or years ago, such as an old client with a grudge, might have provoked the attack.",
-  "The narrator's client is on the run from the authorities, a drug cartel that wants her dead, government men in dark suits, a dirty cop, and an unknown player willing to commit arson and murder.",
-  "The narrator has lost his information broker, Penny, a twelve-year-old kick-ass hacker who was taught to pay her taxes on time.",
+  "The narrator reasons that whoever targeted Anton had enough time to set up the attack once they caught onto Anton's search.",
+  "The narrator suspects that an old client with a grudge might have provoked the attack, though he doubts the attack was caused by what he had brought Anton.",
+  "The narrator says the job was supposed to be easy: rescue the kid, get her out of the country, and be home in time for dinner.",
+  "Two people sitting at a computer looking things up for the narrator died during the operation.",
+  "The narrator's client Courtney is hugging her knees, crying, with her ponytail hiding her face.",
+  "Courtney insists, \"I don't—I don't know. I swear I don't\" when asked what the men at her place were looking for.",
+  "The narrator lists Courtney's pursuers as a drug cartel that wants her dead, government men in dark suits, a dirty cop, and an unknown player willing to commit arson and murder.",
+  "The narrator has lost his information broker, and he thinks of Penny, a twelve-year-old hacker who was taught to pay her taxes on time.",
   "Courtney cries softly in the passenger seat the whole way to the bolt hole the narrator drives them to.",
-  "The narrator asks Courtney, \"What aren't you telling me?\" and \"Those men at your place were looking for something. What was it?\"",
-  "Courtney answers, \"I don't—I don't know. I swear I don't.\"",
-  "A message arrives from Yuki saying, \"I'm lactose intolerant,\" and nothing more.",
-  "The narrator swings the car into a grimy alleyway and tells Courtney, \"You didn't even know them.\"",
-  "Courtney asks, \"How can you be so cold?\" and the narrator asks whether she is feeling guilty.",
-  "Courtney reacts in horror: \"This was about us? Oh, God—that was only this morning!\"",
-  "The narrator admits he is not any good with people."
+  "The narrator tells Courtney, \"For Christ's sake, you didn't even know them.\"",
+  "Courtney responds, \"How can you be so cold?\"",
+  "Courtney's horrified reaction to the narrator's question about guilt leads her to say, \"This was about us? Oh, God—that was only this morning!\"",
+  "The narrator slams the car into park in a grimy alleyway.",
+  "The narrator admits he isn't any good with people."
  ],
  "entities": [
   {
    "name": "Anton",
    "type": "person",
-   "role": "Person whose search for information was noticed by the attackers; his work and data were taken by whoever targeted him, and he died."
-  },
-  {
-   "name": "Courtney",
-   "type": "person",
-   "role": "The narrator's client, the kid he is rescuing, who is on the run and hiding information about the men at her place."
-  },
-  {
-   "name": "Yuki",
-   "type": "person",
-   "role": "Sender of a message saying \"I'm lactose intolerant\" during the flight."
+   "role": "information broker-type worker whose search was noticed; his work had encompassed many projects and he was killed"
   },
   {
    "name": "Penny",
    "type": "person",
-   "role": "Twelve-year-old kick-ass hacker and the narrator's information broker, who is lost and presumed dead."
+   "role": "twelve-year-old kick-ass hacker and the narrator's information broker, who died"
   },
   {
-   "name": "Drug cartel",
-   "type": "organization",
-   "role": "Criminal group that wants Courtney dead."
-  },
-  {
-   "name": "Government men in dark suits",
-   "type": "organization",
-   "role": "Officials pursuing Courtney."
-  },
-  {
-   "name": "Dirty cop",
+   "name": "Courtney",
    "type": "person",
-   "role": "Corrupt police officer pursuing Courtney."
+   "role": "the narrator's client, a frightened young girl on the run who is crying and is involved in the events somehow"
   },
   {
-   "name": "Bolt hole",
+   "name": "the narrator",
+   "type": "person",
+   "role": "first-person protagonist who rescues the kid and drives Courtney to a bolt hole"
+  },
+  {
+   "name": "drug cartel",
+   "type": "organization",
+   "role": "group that wants Courtney dead"
+  },
+  {
+   "name": "dirty cop",
+   "type": "person",
+   "role": "corrupt police officer pursuing Courtney"
+  },
+  {
+   "name": "bolt hole",
    "type": "place",
-   "role": "Hiding place the narrator drives Courtney to."
+   "role": "hideout the narrator drives Courtney to"
   }
  ],
  "tags": [
+  "fiction",
   "thriller",
-  "noir fiction",
-  "private investigator",
-  "fugitive",
-  "grief",
-  "mystery"
+  "crime",
+  "pursuit",
+  "hacking"
  ],
  "category": "literature & arts",
  "usage": {
-  "input_tokens": 1926,
-  "output_tokens": 1826
+  "input_tokens": 1896,
+  "output_tokens": 1095
  }
 }

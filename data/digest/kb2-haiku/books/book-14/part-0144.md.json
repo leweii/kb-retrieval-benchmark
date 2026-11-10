@@ -1,72 +1,70 @@
 {
- "summary": "This excerpt from Book 14 (part 144) is a fiction scene in which a narrator, working with Danny, Jack, Marsh and Sarah, pretends to help two men plan an attack. Jack and Marsh bring a backpack of explosive-looking material and ask Danny to plan bombing targets such as a bridge, Union Station, a precinct house, or tank cars carrying combustible fuel through Minneapolis. The narrator steers the conversation and then reveals that Danny is a sting participant, and Jack and Marsh are exposed as the scene ends with Sarah confronting them with her camera.",
- "one_line": "In a fiction excerpt, a narrator and Danny pretend to help Jack and Marsh plan bombings, then expose them as Sarah confronts the pair on camera.",
+ "summary": "This excerpt from a fiction manuscript (Book 14, part 144) shows a sting-style scene in which two men, Jack and Marsh, try to recruit Danny to plan a bombing, while the narrator, Simon, and Sarah, who has a camera, are apparently working against them. Marsh and Jack press Danny about targets such as a bridge, Union Station, a police precinct on Lake Street, and tank cars carrying combustible material through Minneapolis. The narrator interrupts, praises Danny's acting in a way that exposes the setup, and Jack and Marsh react angrily as Sarah confronts them on camera.",
+ "one_line": "In a fiction excerpt, Jack and Marsh try to get Danny to plan bombings, but the narrator's interruption exposes their sting and Sarah confronts them on camera.",
  "key_facts": [
-  "Jack and Marsh lift a backpack and set it on the table as a sample for Danny to examine.",
-  "The narrator says putting explosives under cop cars 'came up last night' and proposes bombing the precinct house on Lake Street.",
-  "Marsh asks Danny whether a bridge or Union Station would be doable.",
-  "Marsh refers to the I-35 bridge and says it is too strategic with too many cameras.",
-  "Danny suggests tank cars coming in from North Dakota as targets because their contents are highly combustible.",
-  "Danny claims the old tankers travel right through Minneapolis and are basically rolling bombs.",
-  "Danny says that with what is in the backpack one could reduce a whole neighborhood to smoking ruin.",
-  "The narrator grabs an object resembling a white sausage from the backpack and Danny stops them from handling it further.",
-  "Marsh says the amount of material needed depends on the target and he must do the calculations.",
-  "Jack tells Marsh that Simon was right and Danny knows his stuff.",
-  "The narrator announces loudly that Danny is a far better actor than Jack and Marsh and that they know what is really going on.",
-  "Jack congratulates Danny, saying he did brilliantly.",
+  "Jack and Marsh come to Danny because they have been told he is the expert on bringing down buildings.",
+  "Jack says Danny's uncle taught him how to make giant buildings fall down all at once.",
+  "Marsh lifts a backpack and sets it on the table as a sample, and the narrator pulls out an object that looks like a white sausage.",
+  "Danny says the bombing targets could include a bridge, Union Station, or the precinct house on Lake Street, and he is asked about the I-35 bridge.",
+  "Danny says tank cars coming in from North Dakota are basically rolling bombs that travel right through Minneapolis.",
+  "Danny claims that with what is in the backpack, one could reduce a whole neighborhood to smoking ruin.",
+  "Danny asks Marsh how much explosive material he has, and Marsh replies that it depends on the target and the calculations.",
+  "Jack tells Marsh that Simon was right and that Danny knows his stuff.",
+  "The narrator interrupts to say that Danny is far better at acting than Jack and Marsh and that the men are not who they claim to be.",
+  "Jack mutters 'Congratulations, Danny, you did brilliantly' into his collar.",
   "Marsh jumps out of his chair swearing.",
-  "Sarah pulls the curtain aside, strides out, and points her camera at Jack and Marsh while firing questions."
+  "Sarah sweeps the curtain aside, strides out, and points her camera at Jack and Marsh while firing questions."
  ],
  "entities": [
   {
    "name": "Danny",
    "type": "person",
-   "role": "expert whom Jack and Marsh seek out to plan an attack; actually playing along in a sting"
+   "role": "the man whom Jack and Marsh try to recruit as a bomb-making expert; he acts reluctant and is praised by the narrator as a skilled actor"
   },
   {
    "name": "Jack",
    "type": "person",
-   "role": "man who brings the backpack and asks Danny for step-by-step plans"
+   "role": "one of the two men who approach Danny seeking bombing expertise; he later mutters congratulations to Danny"
   },
   {
    "name": "Marsh",
    "type": "person",
-   "role": "man who asks about bridge and Union Station targets and says he must do calculations"
-  },
-  {
-   "name": "Sarah",
-   "type": "person",
-   "role": "camera operator who confronts Jack and Marsh at the end of the scene"
+   "role": "the second man who approaches Danny, asks about bridge and Union Station targets, and jumps out of his chair swearing"
   },
   {
    "name": "Simon",
    "type": "person",
-   "role": "person Jack cites as having said Danny knows his stuff"
+   "role": "the narrator, who says Danny knows his stuff and interrupts to expose the sting"
   },
   {
-   "name": "I-35 bridge",
-   "type": "place",
-   "role": "bridge Marsh proposes as a possible target"
+   "name": "Sarah",
+   "type": "person",
+   "role": "a woman with a camera who sweeps the curtain aside and confronts Jack and Marsh with questions"
   },
   {
    "name": "Union Station",
    "type": "place",
-   "role": "station Marsh asks about as a possible target"
+   "role": "a possible bombing target raised by Marsh"
+  },
+  {
+   "name": "I-35 bridge",
+   "type": "place",
+   "role": "a bridge Marsh asks Danny about as a possible target"
   },
   {
    "name": "Lake Street precinct house",
    "type": "place",
-   "role": "police precinct the narrator proposes bombing"
-  },
-  {
-   "name": "North Dakota tank cars",
-   "type": "product",
-   "role": "old tankers carrying highly combustible fuel that Danny suggests as targets"
+   "role": "a police precinct the narrator proposes bombing"
   },
   {
    "name": "Minneapolis",
    "type": "place",
-   "role": "city through which the tank cars travel"
+   "role": "the city through which the tank cars travel"
+  },
+  {
+   "name": "North Dakota",
+   "type": "place",
+   "role": "the origin of the tank cars carrying combustible material"
   }
  ],
  "tags": [
@@ -79,6 +77,6 @@
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2022,
-  "output_tokens": 1167
+  "output_tokens": 1230
  }
 }

@@ -1,77 +1,63 @@
 {
- "summary": "A first-person excerpt from a novel in which the narrator's brother has been arrested, and the narrator is committed to getting him freed. Ian gives a talk, speaking in his jeans and tweed jacket, linking a bust at Wilson's house to a vast surveillance-industrial complex. Afterward the narrator returns home, where Monica, who has been on local TV news, tells the narrator that the parents want them to move back home, which the narrator refuses.",
- "one_line": "A young narrator, whose brother was arrested, hears Ian link a raid on Wilson's house to mass surveillance, then returns home to a dispute over moving back to their parents.",
+ "summary": "In this excerpt from Book 14, the narrator watches Ian give a talk at a public event. Ian ties the arrest at Wilson's house to a large surveillance-industrial complex, and the narrator feels their cause matters more than a personal mission to free the narrator's arrested brother. Back at the apartment, the narrator changes out of stage clothes and slips away from Sarah's crew. Monica, who is grading papers, shows the narrator a local TV news story about the protest and arrest, and reports that the narrator's parents want the narrator to move back home.",
+ "one_line": "The narrator hears Ian link Wilson's arrest to mass surveillance, then returns home to find Monica upset over local TV coverage and parental pressure to move back.",
  "key_facts": [
-  "The narrator's brother was arrested, and Wheeze texted the narrator about it.",
-  "The narrator was committed to getting the brother freed, which the narrator describes as a personal mission.",
   "Ian spoke at a podium still dressed in his jeans and tweed jacket, with his glasses a little crooked and his hair uncombed.",
-  "Ian tied the bust at Wilson's house to a vast surveillance-industrial complex that had flourished for decades.",
-  "The narrator says the surveillance was now operating on an almost unimaginably invasive scale.",
-  "Most of the audience seemed inclined to help after hearing Ian, except for the law enforcement types in the room.",
-  "Sarah was setting up her editing equipment in the hotel suite and demanding Ian's presentation slides.",
-  "The narrator left unnoticed with a backpack, hiked home, and reached the apartment before curfew without being stopped by cops.",
-  "Monica was grading papers when the narrator arrived home.",
-  "Monica had appeared on a local television news story recapping the arrest and the Sunday protest.",
-  "The TV story ran a two-second shot of Sunday's protest and about twenty seconds of Monica, and ended with the reporter saying \"reporting from South Minneapolis.\"",
-  "Monica said, \"I wish I hadn't worn that stupid hat.\"",
-  "Monica said the narrator's parents are worried the narrator will get in trouble like Wilson and want the narrator to move back home.",
-  "The narrator responded, \"This is my home. You told them no, right?\""
+  "Ian connected history, politics and passion, starting with the bust at Wilson’s house.",
+  "Ian tied the bust to a vast surveillance-industrial complex that had flourished for decades but was now operating on an almost unimaginably invasive scale.",
+  "The narrator felt that what they were doing was important in a different way after listening to Ian, and most of the audience wanted to help.",
+  "Wheeze texted the narrator to say the narrator's brother had been arrested.",
+  "After the talk, the narrator changed out of makeup and into their own clothes in the hotel suite.",
+  "Sarah was setting up her editing equipment and demanding Ian’s presentation slides while the narrator slipped out with a backpack.",
+  "The narrator hiked home without being stopped by any cops and reached the apartment well before the curfew.",
+  "Monica was deep into grading papers when the narrator came home.",
+  "Monica said, “I was on TV yesterday,” and her students had told her about it.",
+  "Monica said, “I wish I hadn’t worn that stupid hat.”",
+  "The local TV news story included a two-second shot of Sunday’s protest and about twenty seconds of Monica.",
+  "The reporter ended the story with the words “reporting from South Minneapolis,” as if he was in a war zone.",
+  "Monica said the narrator's parents were worried the narrator would get in trouble like Wilson and wanted the narrator to move back home.",
+  "The narrator answered, “This is my home.”"
  ],
  "entities": [
   {
    "name": "Ian",
    "type": "person",
-   "role": "speaker at the talk who connected history, politics and passion and tied the bust at Wilson's house to a surveillance-industrial complex"
+   "role": "speaker at the talk who connected history, politics and passion and linked Wilson's bust to surveillance"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "companion of Ian who set up editing equipment and demanded Ian's presentation slides"
+   "role": "co-presenter who set up editing equipment and demanded Ian's presentation slides after the talk"
   },
   {
    "name": "Wilson",
    "type": "person",
-   "role": "figure whose house was the site of a bust, and whose trouble the narrator's parents fear the narrator will repeat"
+   "role": "person whose house was the site of a bust; the narrator's parents compare the narrator's risk to Wilson's"
   },
   {
    "name": "Monica",
    "type": "person",
-   "role": "person at the apartment grading papers, who appeared on a local TV news story and wore a stupid hat"
+   "role": "teacher grading papers at the apartment shared with the narrator; appeared in a local TV news story"
   },
   {
    "name": "Wheeze",
    "type": "person",
-   "role": "person who texted the narrator that the brother had been arrested"
-  },
-  {
-   "name": "The narrator's brother",
-   "type": "person",
-   "role": "arrested brother whom the narrator is working to free"
-  },
-  {
-   "name": "Parents",
-   "type": "person",
-   "role": "narrator's parents, who are worried and want the narrator to move back home"
-  },
-  {
-   "name": "Local television news",
-   "type": "organization",
-   "role": "outlet whose news story recapped the arrest and protest and oversimplified events"
-  },
-  {
-   "name": "Sunday protest",
-   "type": "event",
-   "role": "protest shown in a two-second clip of the TV news story"
+   "role": "person who texted the narrator that the narrator's brother had been arrested"
   },
   {
    "name": "South Minneapolis",
    "type": "place",
-   "role": "location named by the TV reporter in the story's closing line"
+   "role": "location named by the TV reporter as the source of the broadcast report"
   },
   {
-   "name": "Surveillance-industrial complex",
-   "type": "other",
-   "role": "vast surveillance system that Ian describes as having flourished for decades and now operating on an invasive scale"
+   "name": "Sunday's protest",
+   "type": "event",
+   "role": "protest shown in the local TV news story"
+  },
+  {
+   "name": "local television news story",
+   "type": "product",
+   "role": "news segment recapping the arrest and protest, which Monica shows the narrator"
   }
  ],
  "tags": [
@@ -79,12 +65,12 @@
   "surveillance",
   "activism",
   "arrest",
-  "family",
+  "family pressure",
   "minneapolis"
  ],
- "category": "government & law",
+ "category": "literature & arts",
  "usage": {
   "input_tokens": 1881,
-  "output_tokens": 1882
+  "output_tokens": 1869
  }
 }

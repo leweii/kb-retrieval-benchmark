@@ -1,42 +1,43 @@
 {
- "summary": "In a fiction excerpt from Book 3, the narrator reviews country-specific adoption agencies (Cradle of Hope for Russian orphans, Children and Families, Inc. for Ecuadorian children, International Adoption Assistance, Inc. for Brazilian orphans) and finds them slow, asking about a fast track for a healthy newborn. She travels with Lou to Quetzal Manor, a former Carmelite convent on the Hudson, partly for his company after a threatening call to Paula and an encounter with a Hispanic thug outside Paula's building. The imposing, Gothic-looking manor unsettles her as she arrives, and Lou offers to accompany her inside.",
- "one_line": "A narrator visits the imposing former Carmelite convent Quetzal Manor on the Hudson to meet someone who already knows more about her than she knows about them.",
+ "summary": "The narrator, visiting an adoption-related appointment, reviews country-specific adoption organizations that handle orphans from Russia, Ecuador and Brazil, noting their slow processes and asking about a fast track for a healthy baby. Accompanied by Lou, who is on a better-than-usual morning, the narrator drives up the Hudson to Quetzal Manor, a former Carmelite convent that looks like a Gothic, imposing building. The narrator is still recovering from a cold, and the passage sets up a meeting with someone who seems to know more about the narrator than vice versa.",
+ "one_line": "The narrator and Lou drive to the imposing former convent Quetzal Manor for an unusual appointment while seeking a fast-track baby adoption.",
  "key_facts": [
-  "The narrator found that country-specific adoption organizations for emerging-world babies still worked the same way and were slow.",
-  "Cradle of Hope specialized in orphaned Russian children.",
+  "Cradle of Hope specialized in orphaned Russian kids.",
   "Children and Families, Inc., provided adoptions for Equadorian children.",
   "International Adoption Assistance, Inc., handled Brazilian orphans.",
-  "The narrator asked whether there was a new fast track for a brand-new healthy baby in just a few months, and the question was always taken as a joke.",
-  "The narrator drove to Quetzal Manor in her old Toyota with Lou along, after convincing him to come.",
-  "The narrator wanted Lou with her for security after a threatening phone call to Paula and a Hispanic thug who accosted the narrator outside Paula's apartment building.",
-  "The drive went up Riverside Drive, then the Henry Hudson Parkway, and the Hudson was described as an ardent highway into the heart of America.",
-  "Lou had less of a hangover than usual that morning, still elevated by Sarah's momentary brush with consciousness.",
-  "Carly had told the narrator that Quetzal Manor was once a Carmelite convent dating from the middle of the last century.",
-  "Quetzal Manor featured endless arches of cut stone, turrets and gargoyles, and was described as a monument to Church authority.",
-  "The narrator compared the manor's appearance to a Gothic movie set and a brooding homage to medieval torture.",
-  "The narrator's cold still lingered, so her mind did not feel fully working as they parked under a huge oak tree in front.",
-  "Lou asked, 'Want me to go in with you?'"
+  "The narrator asked whether there was some kind of new fast track for a brand-new healthy baby in just a few months, and the question was always taken as a joke.",
+  "The narrator convinced Lou to come along partly for the security of having him present after a threatening phone call to Paula and a Hispanic thug who accosted the narrator outside her apartment building.",
+  "The narrator wished Steve could materialize and be with them, but Steve was absent.",
+  "The drive went up Riverside Drive, then the Henry Hudson Parkway, with a flawless blue sky and the wide Hudson river.",
+  "Lou had noticeably less of a hangover than usual, and was in elevated spirits over Sarah's momentary brush with consciousness.",
+  "After crossing the Henry Hudson Bridge, the group left the highway and followed a service road toward the river.",
+  "Quetzal Manor had an imposing open gate and a tree-shrouded driveway.",
+  "Carly had told the narrator that Quetzal Manor had once been a Carmelite convent dating from the middle of the last century.",
+  "The building featured endless arches of cut stone, turrets, and gargoyles, and was described as a monument to Church authority.",
+  "The narrator described the house as truly magisterial yet more than a little creepy, like a brooding homage to medieval torture.",
+  "The car parked under a huge oak tree in front of the building.",
+  "The narrator had a cold that still lingered and made their mind feel less than fully working."
  ],
  "entities": [
   {
    "name": "Cradle of Hope",
    "type": "organization",
-   "role": "country-specific adoption organization that specialized in orphaned Russian kids"
+   "role": "country-specific adoption organization specializing in orphaned Russian children"
   },
   {
    "name": "Children and Families, Inc.",
    "type": "organization",
-   "role": "country-specific adoption organization that provided adoptions for Equadorian children"
+   "role": "country-specific adoption organization providing adoptions for Ecuadorian children (spelled Equadorian in the note)"
   },
   {
    "name": "International Adoption Assistance, Inc.",
    "type": "organization",
-   "role": "country-specific adoption organization that handled Brazilian orphans"
+   "role": "country-specific adoption organization handling Brazilian orphans"
   },
   {
    "name": "Quetzal Manor",
    "type": "place",
-   "role": "imposing former Carmelite convent on the Hudson that the narrator visits"
+   "role": "former Carmelite convent, now the imposing destination of the visit"
   },
   {
    "name": "Lou",
@@ -46,49 +47,49 @@
   {
    "name": "Steve",
    "type": "person",
-   "role": "absent person the narrator wishes could be with her"
+   "role": "absent person the narrator wishes could join them"
   },
   {
    "name": "Paula",
    "type": "person",
-   "role": "person who received a threatening phone call"
+   "role": "recipient of a threatening phone call; associated with the narrator's apartment-building encounter"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "person who had a momentary brush with consciousness"
+   "role": "person who had a momentary brush with consciousness, lifting Lou's spirits"
   },
   {
    "name": "Carly",
    "type": "person",
-   "role": "person who told the narrator about the history of Quetzal Manor"
-  },
-  {
-   "name": "Carmelite convent",
-   "type": "organization",
-   "role": "religious order's former use of Quetzal Manor"
-  },
-  {
-   "name": "Henry Hudson Parkway",
-   "type": "place",
-   "role": "highway the group drove along toward the manor"
+   "role": "source who told the narrator about the history of Quetzal Manor"
   },
   {
    "name": "Riverside Drive",
    "type": "place",
-   "role": "street the group trekked up at the start of the drive"
+   "role": "road traveled on the way to Quetzal Manor"
+  },
+  {
+   "name": "Henry Hudson Parkway",
+   "type": "place",
+   "role": "highway traveled on the way to Quetzal Manor"
+  },
+  {
+   "name": "Henry Hudson Bridge",
+   "type": "place",
+   "role": "bridge crossed before leaving the highway"
   }
  ],
  "tags": [
   "fiction",
   "adoption",
   "gothic setting",
-  "mystery",
-  "narrative excerpt"
+  "quetzal manor",
+  "narrative"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1903,
-  "output_tokens": 1346
+  "output_tokens": 1367
  }
 }

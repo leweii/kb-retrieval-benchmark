@@ -1,57 +1,56 @@
 {
- "summary": "An excerpt from a novel (Book 1, part 86) in which a narrator and his friend Jolu debug code for a program that auto-updates for hundreds of thousands of users, and the narrator proposes a secret invite rule for some game-like social challenge. The passage then shifts to a description of the Sutro Baths ruins at Ocean Beach in San Francisco, covering their 1896 opening as the largest indoor bathing house, their decline and 1966 fire, and the rough, cold, dangerous shoreline around them.",
- "one_line": "A novel excerpt blending a programming scene with Jolu and a description of the ruined Sutro Baths in San Francisco.",
+ "summary": "An excerpt from a novel (Book 1, part 86) mixing two scenes. In the first, a narrator and his colleague Jolu debug code for a program that auto-updates for hundreds of thousands of users, and they decide to keep a new feature secret by limiting invitations to one person each who has been known for at least five years. In the second, the narrator describes the ruins of the Sutro Baths in San Francisco: once the largest indoor bathing house in the world, opened in 1896, burned for insurance in 1966, and now left as a stone labyrinth at Ocean Beach beside dangerous sea caves, with Seal Rock nearby.",
+ "one_line": "Excerpt from a novel where programmers plan a secret invite rule, followed by a description of the ruined Sutro Baths in San Francisco.",
  "key_facts": [
-  "The narrator and Jolu debug together, with Jolu debugging while the narrator watches over his shoulder.",
-  "The narrator says pair programming used to be called \"extreme programming,\" which was a little embarrassing.",
-  "The passage quotes the cliche \"With enough eyeballs, all bugs are shallow.\"",
-  "The code is auto-updated in the background, and users wake up about once a week to a better program.",
-  "The narrator notes the code would be used by hundreds of thousands of people, tomorrow.",
-  "The narrator proposes that invitees can bring a maximum of one person, who must have been known personally for a minimum of five years.",
-  "The narrator recalls the Harajuku Fun Madness days, which involved social challenges with large groups of people.",
-  "Sutro Baths opened in 1896 and was, when it opened, the largest indoor bathing house in the world.",
+  "The narrator and Jolu debug code together, with Jolu at the keyboard while the narrator watches over his shoulder.",
+  "The narrator says the code will be used by hundreds of thousands of people and that users receive updates automatically, usually once a week or so.",
+  "The narrator quotes the saying \"With enough eyeballs, all bugs are shallow.\"",
+  "The narrator proposes that invitees bring a maximum of one person, who must have been known personally for a minimum of five years.",
+  "Jolu says the rule \"sounds like some awesome 007 stuff.\"",
+  "The narrator recalls their Harajuku Fun Madness days, a game with social challenges involving large groups of people.",
+  "The Sutro Baths opened in 1896 and were then the largest indoor bathing house in the world.",
   "The Sutro Baths were a huge Victorian glass solarium with pools, tubs and an early water slide.",
-  "The owners torched the Sutro Baths for the insurance in 1966, after it went downhill by the fifties.",
-  "All that remains of the Sutro Baths is a labyrinth of weathered stone set into the cliff-face at Ocean Beach.",
-  "Waves rush through caves near the Sutro ruins in rough tides and have been known to drown the occasional tourist.",
-  "Ocean Beach lies past Golden Gate park beneath a stark cliff lined with expensive houses.",
+  "The owners torched the Sutro Baths for the insurance in 1966, after the site declined by the fifties.",
+  "Today the Sutro Baths remain as a labyrinth of weathered stone set into the cliff-face at Ocean Beach.",
+  "Sea caves beside the Sutro ruins let waves rush through and over the ruins in rough tides, and have drowned the occasional tourist.",
+  "Ocean Beach lies past Golden Gate Park beside a stark cliff lined with expensive houses.",
   "Seal Rock is a giant white rock off the shore that once hosted sea lions until they were relocated."
  ],
  "entities": [
   {
    "name": "Jolu",
    "type": "person",
-   "role": "friend of the narrator who debugs code alongside him"
+   "role": "Colleague of the narrator who debugs code with him and is persuaded by the one-person invitation rule"
   },
   {
    "name": "Harajuku Fun Madness",
    "type": "event",
-   "role": "past game the narrator recalls, featuring social challenges involving large groups"
+   "role": "A past game the narrator recalls, which included social challenges involving large groups of people"
   },
   {
    "name": "Clockwork Plunder",
    "type": "product",
-   "role": "game the narrator plays after finding a bug"
+   "role": "A game the narrator plays while trying not to think about key-winders with nosy questions"
   },
   {
    "name": "Sutro Baths",
    "type": "place",
-   "role": "Victorian bathing house in San Francisco, opened 1896, burned for insurance in 1966, now ruins"
+   "role": "Former Victorian bathing house in San Francisco, now ruins at Ocean Beach"
   },
   {
    "name": "Ocean Beach",
    "type": "place",
-   "role": "San Francisco beach beyond Golden Gate park where the Sutro ruins sit"
+   "role": "Beach past Golden Gate Park where the Sutro Baths ruins and sea caves are located"
+  },
+  {
+   "name": "Golden Gate Park",
+   "type": "place",
+   "role": "Park that Ocean Beach lies beyond"
   },
   {
    "name": "Seal Rock",
    "type": "place",
-   "role": "giant white rock off the shore of Ocean Beach, formerly home to sea lions"
-  },
-  {
-   "name": "Golden Gate park",
-   "type": "place",
-   "role": "park in San Francisco that Ocean Beach lies beyond"
+   "role": "Giant white rock off the shore that used to be where sea lions congregated"
   }
  ],
  "tags": [
@@ -59,11 +58,12 @@
   "programming",
   "san francisco",
   "sutro baths",
-  "narrative"
+  "ocean beach",
+  "novel excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1864,
-  "output_tokens": 1098
+  "output_tokens": 1152
  }
 }

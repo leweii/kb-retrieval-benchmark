@@ -1,32 +1,29 @@
 {
- "summary": "An unnamed first-person narrator, injured from earlier events involving napalm, gunfire and a staged car crash, leaps a roughly thirteen-foot gap from one rooftop to a neighboring building that has been destroyed by a demolition blast. After landing, the narrator picks through the rubble of the third floor, finds a ladder-like staircase into the second floor, and cautiously descends, wary of rigged explosives. The second floor turns out to be a gang's barracks with stacked bunks, a rusted kitchen and boxed MREs. The passage is a fiction excerpt from 'Book 6 — part 48'.",
- "one_line": "A wounded narrator leaps across a gap to a blast-ruined building and cautiously explores a gang's barracks on its second floor.",
+ "summary": "An unnamed first-person narrator, injured from earlier violence, leaps across a roughly thirteen-foot gap from one rooftop to a neighboring building, landing in rubble. They then pick their way across the wrecked third floor, descend a ladder-like staircase into a skylight opening, and survey a second floor that had been set up as a gang barracks with bunks and a kitchen stocked with MREs. The passage is a fiction excerpt from Book 6, part 48, emphasizing tension, caution about booby traps, and physical pain.",
+ "one_line": "A wounded narrator leaps a thirteen-foot gap between rooftops, then cautiously explores a rubble-strewn building that served as a gang's barracks.",
  "key_facts": [
   "The vertical distance between the two roofs was barely over thirteen feet.",
-  "The narrator had fallen farther plenty of times before making the leap.",
-  "The narrator tossed bits of roof over the landing area to check whether anything was still live.",
-  "The narrator ran at the roof edge with only purple-blue sky visible ahead.",
-  "The narrator's jump is described as a perfect parabola with an instant of weightlessness at the top.",
-  "The narrator lands exactly where aimed and rolls out, then sits for a minute.",
-  "The narrator's ribs twinge and a cough follows, linked to earlier napalm, being shot, and an intentional car crash.",
-  "The third floor of the other building is a rubble-strewn forest of debris and wall nubs.",
-  "Debris includes loose papers under concrete blocks, a broken computer monitor, and a dismembered office chair.",
-  "The narrator fears explosives that did not go off in the original blast and wonders whether the second floor was rigged beyond the perimeter.",
-  "The narrator reaches the bottom of a ladder-like staircase, now a skylight, without triggering an explosion.",
-  "The second floor was set up like a barracks with bunks stacked in rooms with no privacy.",
-  "A rusted-out kitchen on the second floor holds boxed MREs.",
-  "The narrator doubts the kitchen plumbing is working."
+  "The narrator tosses bits of roof over the landing area to check whether anything is still live before jumping.",
+  "The narrator runs at the roof edge, cannot see the landing spot, and sees only purple-blue sky.",
+  "The narrator lands exactly where aimed on the third floor of the other building and rolls out.",
+  "The narrator recalls prior injuries: napalm, street-sized bonfires, being shot, and an intentional car crash.",
+  "The narrator coughs and their ribs twinge after the landing.",
+  "The third floor is described as a broad forest of rubble and nubs of walls, with a broken computer monitor and a dismembered office chair among the debris.",
+  "The narrator stays wary of explosives that were not part of the original blast.",
+  "The narrator finds a staircase that is more like a ladder into a skylight and descends carefully, worried about rigged walls or floors.",
+  "The second floor was set up like a barracks with bunks stacked in many rooms with no privacy.",
+  "A rusted-out kitchen on the second floor contains boxed MREs, and the narrator doubts its plumbing works."
  ],
  "entities": [
   {
-   "name": "Book 6 — part 48",
-   "type": "product",
-   "role": "the fiction excerpt that is the source note"
+   "name": "Book 6",
+   "type": "program",
+   "role": "the source book from which this fiction part 48 is taken"
   },
   {
    "name": "the gang",
    "type": "organization",
-   "role": "the group whose base was in the destroyed building, with a barracks on the second floor"
+   "role": "the group whose base the narrator is exploring, now destroyed in the building"
   }
  ],
  "tags": [
@@ -34,11 +31,11 @@
   "action",
   "rooftop escape",
   "post-apocalyptic",
-  "narrative excerpt"
+  "survival"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1903,
-  "output_tokens": 829
+  "output_tokens": 742
  }
 }

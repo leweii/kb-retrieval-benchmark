@@ -1,42 +1,44 @@
 {
- "summary": "A first-person action passage from Book 6, part 36, in which the narrator, caught in an attack, swats a thrown firebomb-style bottle back at its attackers, which explodes against the van and sets men aflame. The narrator's sleeve catches fire, and the narrator rolls under the van and shoots the surviving attackers in the legs, aiming for arteries. The narrator counts the dead, ten so far, and wonders whether more attackers remain.",
- "one_line": "In Book 6, part 36, the narrator deflects a bottle of napalm back at attackers, then shoots survivors in the legs amid the fire.",
+ "summary": "A first-person action passage from Book 6, part 36, in which the narrator throws a flaming bottle back at attackers, triggering an explosion that sets the van and several men on fire. The narrator is wounded by the blast, shoots the surviving attackers in the legs to hit their arteries, and tallies the dead while wondering whether more enemies remain. The text is a fragment that ends mid-scene as the narrator considers whether gunmen are still aiming at the van.",
+ "one_line": "A first-person combat fragment from Book 6 where the narrator returns a firebomb, sets attackers ablaze, and shoots the survivors.",
  "key_facts": [
-  "The narrator swings an arm down and around and strikes a flaming bottle with the heel of the hand, sending it back the way it came.",
-  "The flame from the bottle blisters the narrator's hand, and the narrator's sleeve catches fire.",
-  "The narrator smothers the burning sleeve by smashing it against the body while ducking.",
-  "The narrator calculates the bottle's fall using the math of free fall, solving for time when the height is zero.",
-  "The bottle's explosion is too loud for the narrator to hear it shatter.",
-  "The napalm splatters against the van's metal, and the flames lick up above the van's roof.",
+  "The narrator swings the bottle around in a circle and smacks it with the heel of the hand before letting it fly back the other way.",
+  "The flame from the bottle blisters the narrator's hand.",
+  "The narrator's sleeve catches fire and the narrator smothers it against their body while ducking.",
+  "The narrator calculates the bottle's landing time using the math of free fall: height of zero, solve for time.",
+  "The explosion is too loud for the narrator to hear the bottle shatter.",
+  "The napalm splatters against the van's metal, and the flames lick above the van's roof.",
+  "The narrator's hearing rings out into complete silence for an instant before returning.",
   "The narrator rolls under the van and retrieves a Colt pistol.",
-  "The narrator shoots the surviving attackers in the legs, aiming for the arteries rather than to wound.",
+  "The narrator shoots the surviving attackers in the legs and aims for the arteries rather than shooting to wound.",
   "The narrator has counted six burning bodies on the ground and shot three more.",
-  "The narrator's count of the dead totals ten, including one killed earlier in the SUV.",
-  "The narrator wonders whether the attackers would really have sent more than twelve men.",
-  "The narrator suspects the remaining attackers may be trying to stop their friends from bleeding out or burning, or have their sights set on the van."
+  "The narrator's running tally is ten dead, counting the one killed in the SUV.",
+  "The narrator questions whether the attackers would really have sent more than twelve men.",
+  "The passage ends with the narrator speculating that remaining attackers have their sights set on the van, ready to shoot the narrator."
  ],
  "entities": [
   {
    "name": "Colt",
    "type": "product",
-   "role": "handgun the narrator retrieves from the ground and uses to shoot the attackers"
+   "role": "handgun the narrator pawns around for after dropping to the ground and then uses to shoot the attackers"
   },
   {
-   "name": "SUV",
-   "type": "product",
-   "role": "vehicle in which the narrator previously killed one attacker, counted in the total of ten"
+   "name": "Book 6",
+   "type": "other",
+   "role": "the source book from which this part 36 excerpt is taken"
   }
  ],
  "tags": [
   "fiction",
   "action",
+  "combat",
   "first-person narrative",
   "napalm",
-  "violence"
+  "book 6"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1845,
-  "output_tokens": 725
+  "output_tokens": 733
  }
 }

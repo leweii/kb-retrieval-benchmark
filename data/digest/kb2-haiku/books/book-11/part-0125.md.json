@@ -1,37 +1,37 @@
 {
- "summary": "This excerpt from Book 11 (part 125) describes the morning of a graduation day in a small town. Girls curl their hair with leads, rags, and palm-leaf fans, and wear simple white dresses. Rebecca and Emma Jane prepare in their room; Rebecca has made a cheesecloth dress with the help of several townswomen, and Emma Jane is tearful, sensing the end of their close friendship. Rebecca has been offered two teaching positions, and as the first bell rings she stands motionless as the class prepares to walk to the church.",
- "one_line": "On graduation morning, Rebecca and Emma Jane prepare their cheesecloth dresses while Rebecca weighs two teaching job offers.",
+ "summary": "This excerpt from a novel (Book 11, part 125) describes the morning of a graduation day in a small town. Girls curl their hair with leads or rags and mothers fan their daughters while they wait for the ten o'clock signal, and the dresses are described in Swiss muslin, cashmere, alpaca and cheesecloth. Rebecca makes her graduating dress from cheesecloth from the Perkins attic, aided by Emma Jane, Hannah, Mrs. Cobb and aunt Jane, and the girls' final day together brings tears and mixed feelings. Rebecca has been offered two positions by Mr. Morrison, and the first bell calls the class to the church for the exercises.",
+ "one_line": "On graduation morning, Rebecca and Emma Jane prepare their cheesecloth dresses and face the end of their close friendship before the class heads to church.",
  "key_facts": [
-  "Girls of the period rolled their hair on leads or papers to achieve curls, and some substituted rags for leads.",
-  "Anxious mothers waved palm-leaf fans over their daughters while the hair was set.",
-  "The town clock striking ten was chosen as the moment to release the girls from their curling tortures.",
-  "Dotted or plain Swiss muslin was the favorite garb for the occasion.",
-  "Rebecca had not seen a clear way to a graduating dress until a month before.",
-  "Rebecca and Emma Jane visited the Perkins attic and found white butter-muslin or cheesecloth, which they decided would do.",
-  "The blacksmith's daughter chose cheesecloth to follow Rebecca's lead rather than dotted Swiss.",
-  "Rebecca's dress was finished in sections: the sash by Hannah, waist and sleeves by Mrs. Cobb, and skirt by aunt Jane.",
-  "The cheesecloth cost only three or four pennies a yard.",
-  "Emma Jane was in a tearful state, feeling that this was the last day of their close intimacy.",
-  "Mr. Morrison offered Rebecca two positions the day before.",
-  "One position was playing for singing and calisthenics and supervising piano practice of younger girls in a boarding-school, which included educational advantages Miss Maxwell thought valuable.",
-  "The other position was an assistant's place in the Edgewood High School, both modest in salary.",
-  "When the first bell rang announcing five minutes until the class walked to the church, Rebecca stood motionless and speechless."
+  "Rebecca's graduating dress was made from white butter-muslin or cheesecloth found in the Perkins attic, which she decided would do.",
+  "Rebecca and Emma Jane visited the Perkins attic together about a month before graduation.",
+  "The blacksmith's daughter abandoned the idea of dotted Swiss and followed Rebecca in cheesecloth.",
+  "Rebecca's dress was finished in sections: the sash went to Hannah, the waist and sleeves to Mrs. Cobb, and the skirt to aunt Jane.",
+  "The cheesecloth material cost only three or four pennies a yard.",
+  "Mothers waved palm-leaf fans over their daughters while the girls' hair was in leads or papers, until the town clock struck ten.",
+  "Some girls substituted rags for leads, claiming a more natural and less woolly curl.",
+  "Dotted or plain Swiss muslin was the favorite garb, while some wore white cashmere or alpaca.",
+  "Mr. Morrison offered Rebecca two positions the day before graduation.",
+  "One offered position was playing for singing and calisthenics and superintending piano practice of younger girls in a boarding-school.",
+  "The other offered position was an assistant's place in the Edgewood High School.",
+  "Miss Maxwell thought the boarding-school position's educational advantages might be valuable.",
+  "Emma Jane was in a tearful state because the girls' close intimacy was ending.",
+  "The first bell announced that in five minutes the class would proceed in a body to the church for the exercises."
  ],
  "entities": [
   {
    "name": "Rebecca",
    "type": "person",
-   "role": "graduating student who made a cheesecloth dress and was offered two teaching positions"
+   "role": "graduating student whose cheesecloth dress is made with help from friends and family"
   },
   {
    "name": "Emma Jane",
    "type": "person",
-   "role": "Rebecca's close friend, tearful about the end of their time together, also wearing cheesecloth"
+   "role": "Rebecca's close friend, who visited the Perkins attic with her and is tearful about the ending of their intimacy"
   },
   {
    "name": "Mr. Morrison",
    "type": "person",
-   "role": "offered Rebecca two teaching positions the day before"
+   "role": "offered Rebecca two positions the day before graduation"
   },
   {
    "name": "Miss Maxwell",
@@ -41,40 +41,44 @@
   {
    "name": "Hannah",
    "type": "person",
-   "role": "made the sash of Rebecca's dress"
+   "role": "made the sash of Rebecca's graduating dress"
   },
   {
    "name": "Mrs. Cobb",
    "type": "person",
-   "role": "made the waist and sleeves of Rebecca's dress"
+   "role": "made the waist and sleeves of Rebecca's graduating dress"
   },
   {
    "name": "aunt Jane",
    "type": "person",
-   "role": "made the skirt of Rebecca's dress"
+   "role": "made the skirt of Rebecca's graduating dress"
   },
   {
    "name": "Perkins attic",
    "type": "place",
-   "role": "where Rebecca and Emma Jane found the white butter-muslin or cheesecloth"
+   "role": "source of the white butter-muslin and cheesecloth used for the dresses"
   },
   {
    "name": "Edgewood High School",
    "type": "organization",
-   "role": "school offering an assistant's teaching position to Rebecca"
+   "role": "school offering an assistant's place to Rebecca"
+  },
+  {
+   "name": "Edgewood High School assistant position",
+   "type": "program",
+   "role": "one of two positions offered to Rebecca"
   }
  ],
  "tags": [
+  "fiction",
   "graduation",
   "coming-of-age",
-  "fiction",
   "friendship",
-  "early twentieth century",
-  "sewing"
+  "sewing and fashion"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1921,
-  "output_tokens": 1183
+  "output_tokens": 1268
  }
 }

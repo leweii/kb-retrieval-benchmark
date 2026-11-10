@@ -1,20 +1,22 @@
 {
- "summary": "Lexy Moran and Captain Grey, after a telephone-less delay and a failed attempt to get a carriage, decide to walk three miles through the dark to the doctor's house to check on a woman who is seriously ill. Lexy insists on accompanying him, and the walk is filled with dread, the sound of the sea, and the single light of the house. The excerpt ends as they reach the veranda and Captain Grey rings the bell. The passage is a fiction excerpt from Book 12, part 74.",
- "one_line": "Lexy Moran and Captain Grey walk three dark miles to the doctor's house, fearing the worst for a sick woman.",
+ "summary": "Captain Grey and Lexy Moran, unable to get a taxi or horse, decide to walk three miles through the dark to the doctor's house to check on a woman there, since the house has no telephone. Lexy insists on accompanying him, and the two walk in tense, foreboding silence, guided by a single light in the house. The excerpt ends as they reach the front veranda and Captain Grey rings the bell.",
+ "one_line": "Captain Grey and Lexy Moran walk through the dark to the doctor's house, dreading what they will find, and ring the bell.",
  "key_facts": [
-  "Mr. Binz suggests that it might be a waste of time to come all the way out after she is no longer there.",
-  "Lexy Moran points out that the doctor's house has no telephone.",
-  "Captain Grey proposes going to the doctor's house first to see how she is, and says he will return if there is no change.",
-  "Lexy insists on going with Captain Grey and refuses to let him leave her at Mrs. Royce's.",
-  "Joe and his taxi have already gone out from the garage, so no taxi is available.",
-  "An interested bystander says a \"rig\" can be obtained from the livery stable with no trouble.",
-  "Captain Grey says he cannot wait and will walk, and Lexy replies that it is only three miles.",
+  "Lexy Moran wanted to go to the doctor's house herself, but Captain Grey insisted on going first to see how the woman there was.",
+  "Mr. Binz suggested that someone should come all the way out to the house, but Lexy cried 'Oh, all right!' impatiently.",
+  "The doctor's house has no telephone, which is why Captain Grey proposed going there in person.",
+  "Captain Grey said, 'If there's no change, I'll come back.'",
+  "Lexy insisted on going with Captain Grey, saying 'If you will go, I'm going with you!'",
+  "Joe's taxi was not available at the garage because Joe and his taxi had gone out.",
+  "An interested bystander said a 'rig' could be obtained from the livery stable with no trouble.",
+  "Captain Grey declined the rig, saying 'I can't wait' and that he would walk.",
+  "The walk to the doctor's house is described as three miles.",
   "Lexy had already walked that three miles once earlier that day and had walked farther with Houseman in the afternoon.",
-  "The pair turn down the lane, leaving the lights of the highway behind, and walk in thick darkness under the trees.",
-  "Lexy describes the sound of the sea as \"the loneliest sound in all the world.\"",
-  "Lexy notices a single light shining through the glass of the front door of the house.",
-  "Their footsteps sound \"as sharp as pistol shots\" when they mount the veranda.",
-  "Captain Grey rings the bell at the end of the excerpt."
+  "The pair walked down a lane, leaving the highway lights behind, in thick darkness under the trees.",
+  "The sound of the sea was described as 'the loneliest sound in all the world.'",
+  "Lexy said 'There's a light in the house, anyhow!' and Captain Grey answered 'Naturally!' with a trace of impatience.",
+  "Their footsteps on the gravel drive sounded as sharp as pistol shots when they mounted the veranda.",
+  "Captain Grey rang the bell at the front door of the house."
  ],
  "entities": [
   {
@@ -25,17 +27,12 @@
   {
    "name": "Captain Grey",
    "type": "person",
-   "role": "captain who decides to walk to the doctor's house to check on the sick woman"
+   "role": "captain who decides to walk to the doctor's house to check on the woman there"
   },
   {
    "name": "Mr. Binz",
    "type": "person",
-   "role": "man who offers advice about not making the trip after she is gone"
-  },
-  {
-   "name": "Mrs. Royce",
-   "type": "person",
-   "role": "woman at whose house Captain Grey offers to leave Lexy"
+   "role": "man who offers helpful advice about sending someone out to the house"
   },
   {
    "name": "Joe",
@@ -45,34 +42,34 @@
   {
    "name": "Houseman",
    "type": "person",
-   "role": "man Lexy walked with farther in the afternoon"
+   "role": "man Lexy walked with earlier in the afternoon"
   },
   {
-   "name": "Joe's taxi",
-   "type": "product",
-   "role": "taxi sought at the garage but unavailable"
-  },
-  {
-   "name": "livery stable",
-   "type": "organization",
-   "role": "place where a horse and rig could be obtained"
+   "name": "Mrs. Royce's",
+   "type": "place",
+   "role": "house where Captain Grey said he would leave Lexy"
   },
   {
    "name": "doctor's house",
    "type": "place",
-   "role": "destination three miles away where the sick woman is"
+   "role": "destination three miles away where a woman is being cared for and which has no telephone"
+  },
+  {
+   "name": "livery stable",
+   "type": "organization",
+   "role": "source of a horse and rig that the bystander suggested"
   }
  ],
  "tags": [
   "fiction",
-  "suspense",
+  "narrative excerpt",
   "night walk",
-  "serial novel",
+  "suspense",
   "book 12"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1933,
-  "output_tokens": 1025
+  "output_tokens": 1054
  }
 }

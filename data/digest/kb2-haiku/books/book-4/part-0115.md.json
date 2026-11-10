@@ -1,53 +1,51 @@
 {
- "summary": "An excerpt from Book 4, part 115, a fiction passage in a post-collapse setting. A hungry girl loses her bread to her father, who runs off with it, and while chasing him she meets a zombie, a former soldier whose zombiism has returned after being eliminated long before. She retreats silently, but the zombie spots her, charges, and she fends it off by smashing its wrist with a piece of steel bar.",
- "one_line": "A starving girl chasing her father over stolen bread meets a returning zombie in a ruined, post-revolution city and fights it off with a steel bar.",
+ "summary": "An excerpt from Book 4, part 115, a post-apocalyptic fiction passage. A hungry girl's father snatches her bread and runs off, and while chasing him she encounters a zombie, a former soldier in a tattered uniform. She backs away silently, but the zombie spots her, charges, and catches her; she fights it off by smashing its wrist with a steel bar and it roars at her.",
+ "one_line": "A starving girl chasing her father, who stole her bread, meets a zombie in a ruined city and fights it off with a steel bar.",
  "key_facts": [
-  "The girl's father snatched bread out of her hands and ran away with it, and she chased him through rubble-piles.",
-  "The girl was so tired and starved that she sat down and wept after the chase.",
-  "The girl saw her first zombie after sitting down to weep, and the zombie had been a soldier.",
+  "The girl's father snatched the bread out of her hands and ran away with it.",
+  "The girl was tired and starved, and she sat down and wept after chasing her father through the rubble-piles.",
   "Zombiism had been eliminated when the girl was practically a baby, just after the revolution, years and years ago.",
-  "The narrator says zombiism may be returning through the gas attacks that wafted over the trenches.",
-  "Zombies walk in a funky, disco-dancer shuffle, with open drooling mouths and staring, not-seeing eyes.",
-  "Once zombies see prey, they turn into race horses and screech incoherencies with enough words to show they are angry.",
-  "The old-time cure was to get away from zombies and then tell someone from the city so they could administer the cure.",
-  "The girl backed away silently, kept perfectly silent, and hardly breathed, but the zombie saw her anyway.",
-  "The zombie roared and charged, its mouth almost toothless but with a few gleaming teeth remaining.",
-  "The zombie wore good boots that crunched broken glass and rubble as it pursued her.",
-  "The girl snatched up a piece of steel bar, possibly a locking post for a hover-car in the golden days, and smashed the zombie's wrist.",
-  "The zombie roared again after the blow, and its cry sounded like \"Bread fight asshole kill hungry!\""
+  "The girl's first zombie was a former soldier whose uniform hung in rags from his loose limbs.",
+  "Zombies walk in a funky, disco-dancer shuffle and have an open drooling mouth and staring, not-seeing eyes.",
+  "Once zombies see prey, they turn into racehorses that tear over anything in their quest to rip, bite, rend and tear.",
+  "The girl was perfectly stealthy and hardly breathed, yet the zombie saw her anyway.",
+  "The zombie was almost toothless, but the teeth that remained gleamed.",
+  "The zombie wore good boots that crunched the broken glass and rubble as it charged.",
+  "The girl picked up a piece of steel bar, maybe a locking post for a hover-car in the golden days, and smashed the zombie's wrist.",
+  "The zombie roared again and its words sounded like \"Bread fight asshole kill hungry!\""
  ],
  "entities": [
   {
-   "name": "Book 4",
+   "name": "Book 4 — part 115",
    "type": "other",
-   "role": "the book this passage, part 115, belongs to"
+   "role": "the source note, a fiction excerpt from the book's fourth book"
   },
   {
    "name": "zombie",
    "type": "other",
-   "role": "former soldier whose zombiism has returned and who attacks the girl"
+   "role": "former soldier who charges at the girl and whose wrist she smashes with a steel bar"
   },
   {
    "name": "the girl",
    "type": "person",
-   "role": "narrator-protagonist, starving and chasing her father for stolen bread before meeting the zombie"
+   "role": "protagonist who is starving, loses her bread to her father, and fights off the zombie"
   },
   {
-   "name": "the girl's father",
+   "name": "her father",
    "type": "person",
-   "role": "took the girl's bread and ran away with it"
+   "role": "snatched the girl's bread and ran away with it"
   }
  ],
  "tags": [
   "fiction",
   "post-apocalyptic",
   "zombies",
-  "hunger",
-  "survival"
+  "survival",
+  "hunger"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1864,
-  "output_tokens": 870
+  "output_tokens": 788
  }
 }

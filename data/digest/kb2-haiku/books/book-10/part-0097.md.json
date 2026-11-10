@@ -1,75 +1,79 @@
 {
- "summary": "An excerpt from a fiction novel (Book 10, part 97) set around CogRad, a company building networked repeater arrays on Native American reservations. MacDiarmid confronts Lee-Daniel, who is angry at being pushed aside; MacDiarmid praises his work but says the company is moving abroad and needs a different touch. The passage then describes resistance from Paiute elders at the Moapa River reservation, who refuse survey access to a burial ground, and a briefing by a self-described Akwesasne Warrior named Meatloaf about restricted zones marked on a topo map.",
- "one_line": "In a fiction excerpt, CogRad founder MacDiarmid pushes out Lee-Daniel, while surveyors face Paiute and Warrior resistance to reservation repeater sites.",
+ "summary": "An excerpt from a novel's Book 10, part 97. Lee-Daniel confronts MacDiarmid, co-owner of CogRad, who insists on a face-to-face talk and tells Lee-Daniel that his hands-on field work has run its course, since the company is moving abroad, possibly to Guatemala. The narrative then turns to CogRad's efforts to site repeater arrays on Indian reservations, where the Paiute elders refuse permission at Moapa River and an Akwesasne Warriors leader named Meatloaf briefs the crew on restricted zones.",
+ "one_line": "In a fiction excerpt, CogRad co-owner MacDiarmid pushes Lee-Daniel out of field operations while Meatloaf briefs surveyors on restricted zones of a reservation.",
  "key_facts": [
-  "MacDiarmid tells Lee-Daniel he owns fifteen percent of CogRad, the same stake as Lee-Daniel.",
-  "Lee-Daniel apologizes to MacDiarmid and asks him to sit down and explain, saying 'Please.'",
-  "MacDiarmid says Lee-Daniel has done excellent work and that the company is moving into a new phase that needs a delicate touch.",
-  "MacDiarmid says that if Canada ends up in a firefight, 'what'll it be like in Guatemala?'",
-  "The Paiute elders at the Moapa River Indian Reservation refuse CogRad's surveyor crew access to a burial ground that would have made a good repeater-array site.",
-  "The Paiute elders were tempted by a share of every casino's action from offering secure connectivity for phones and data.",
-  "A man called 'Meatloaf,' wearing camou fatigues with pow-wow badges, gives a two-hour briefing in the school auditorium.",
-  "Meatloaf says areas marked with post-its are strategic and that no one except a Warrior may go within 20 meters, which Lee-Daniel translates as sixty feet.",
-  "The briefing takes place in the fading light of the sun streaming through steel-reinforced windows.",
-  "Lee-Daniel's surveyors and antennamen are described as products of the American educational system, impedance-mismatched with the metric-speaking world."
+  "MacDiarmid tells Lee-Daniel that he owns fifteen percent of CogRad, the same as Lee-Daniel.",
+  "Lee-Daniel apologizes to MacDiarmid, saying he is sorry if he flew off the handle.",
+  "MacDiarmid says Lee-Daniel has been needed for six years as someone at the helm who could handle the dirty work.",
+  "MacDiarmid says the company is going abroad and that the next phase needs a delicate touch.",
+  "MacDiarmid asks, 'If Canada ends up in a firefight, what'll it be like in Guatemala?'",
+  "MacDiarmid says that if Lee-Daniel would take orders from someone else he could be kept on as COO or VP of Research and Development, but no one would ever be able to tell Lee-Daniel what to do.",
+  "CogRad's team had to work around surveying constraints at the Moapa River Indian Reservation.",
+  "The Moapa site had a burial ground that was ideal for a repeater-array with a commanding view of the Rez.",
+  "The Paiute elders at Moapa River refused to let CogRad's surveyor crew hammer in stakes for the repeaters, despite the offer of a share in casino connectivity.",
+  "The Akwesasne Warriors gave CogRad a two-hour briefing led by a man in camou fatigues who called himself 'Meatloaf'.",
+  "Meatloaf's topo map of the Rez was displayed on the wall of the school auditorium.",
+  "Meatloaf said areas marked with post-its are strategic and that no one except a Warrior may go within 20 meters, which Lee-Daniel translated as sixty feet.",
+  "The briefing took place in the fading light streaming through steel-reinforced windows."
  ],
  "entities": [
   {
    "name": "CogRad",
    "type": "organization",
-   "role": "company building network terminals and repeater arrays on Rez lands, now expanding abroad"
-  },
-  {
-   "name": "MacDiarmid",
-   "type": "person",
-   "role": "senior figure at CogRad who holds a fifteen percent stake and dismisses Lee-Daniel from operations"
+   "role": "company that builds connectivity networks and repeater arrays on reservations, co-owned by Lee-Daniel and MacDiarmid"
   },
   {
    "name": "Lee-Daniel",
    "type": "person",
-   "role": "CogRad executive who handles the dirty work of getting crews onto Rezes and installing terminals"
+   "role": "CogRad figure who runs crews and field operations, called LD by MacDiarmid"
+  },
+  {
+   "name": "MacDiarmid",
+   "type": "person",
+   "role": "CogRad co-owner with fifteen percent of the company who tells Lee-Daniel the company is going abroad"
   },
   {
    "name": "Moapa River Indian Reservation",
    "type": "place",
-   "role": "reservation whose burial ground was ideal for a repeater-array but was refused by the Paiute elders"
+   "role": "reservation whose Paiute elders refused CogRad's surveyor crew permission to set up a repeater-array on a burial ground"
   },
   {
    "name": "Paiute elders",
    "type": "organization",
-   "role": "tribal leaders who refuse CogRad's surveyor crew permission to set stakes for repeaters"
+   "role": "tribal leaders at Moapa River who declined to permit CogRad's surveying"
   },
   {
    "name": "Akwesahsne Warriors",
    "type": "organization",
-   "role": "armed group whose member Meatloaf briefs the surveyors on restricted areas"
+   "role": "group that gave CogRad a briefing on strategic restricted areas of the Rez"
   },
   {
    "name": "Meatloaf",
    "type": "person",
-   "role": "self-described Warrior in camou fatigues who gives the two-hour briefing and sets the 20-meter exclusion rule"
+   "role": "fat, middle-aged Warrior in camou fatigues who briefed the surveyors using a topo map"
   },
   {
    "name": "Guatemala",
    "type": "place",
-   "role": "country mentioned by MacDiarmid as the next foreign target for CogRad's expansion"
+   "role": "country MacDiarmid mentions as a destination for CogRad's expansion abroad"
   },
   {
    "name": "Canada",
    "type": "place",
-   "role": "country MacDiarmid mentions as a possible site of a firefight"
+   "role": "country MacDiarmid mentions in the context of a possible firefight"
   }
  ],
  "tags": [
   "fiction",
-  "cyberpunk",
+  "novel excerpt",
+  "cograd",
   "reservations",
-  "corporate conflict",
-  "repeater networks"
+  "business dispute",
+  "connectivity"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1953,
-  "output_tokens": 1261
+  "output_tokens": 1378
  }
 }

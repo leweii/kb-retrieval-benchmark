@@ -1,61 +1,66 @@
 {
- "summary": "A fiction excerpt (Book 6, part 62) in which the narrator, after a building implosion nearly killed him, calls his associate Checker while jacking a car. Checker reveals that NSA agents are in his house questioning him about Professor Sonya's case, and he is shaken. The narrator is bitter toward Arthur, who was caught under a collapsing building, and plans to beat the authorities by setting up a meeting with the Lancer, with Checker planting evidence and texting the location.",
- "one_line": "The narrator calls Checker after an explosion, learns NSA agents are in Checker's home, and sets a trap for the Lancer to recover Professor Sonya.",
+ "summary": "Cas, the narrator, calls his hacker associate Checker after an explosion that collapsed a building on Arthur, who is now apparently cooperating with authorities. Checker reports NSA agents in his house questioning him about Professor Sonya's case. Cas is bitter about Arthur, dismisses Checker's concern, and directs him to set up a meeting trap for the Lancer, with the goal of rescuing the professor. The excerpt is an unfinished installment of the novel's Book 6.",
+ "one_line": "Cas phones Checker after an explosion, learns NSA agents are in Checker's house, and orders a trap to lure the Lancer.",
  "key_facts": [
-  "The narrator was nearly blown up by explosives during the implosion of a building and says he got out in time.",
-  "The narrator is jacking another car when he calls Checker.",
-  "Checker says there are NSA agents in his house and that his worst nightmare has come to pass.",
-  "Checker says the agents are interested in what he knows about Professor Sonya's case, not what he does.",
-  "Checker believes it is a joint operation because the NSA doesn't have field agents.",
-  "The narrator tells Checker that Arthur had a building fall on him and is fine.",
-  "The narrator says Arthur is running to the authorities, including the NSA or Homeland Security.",
-  "Checker has planted evidence for the Lancer, mostly, at the time of the call.",
-  "The narrator asks Checker to set up a meeting so the Lancer thinks he can track the narrator to a location with no bystanders.",
-  "The narrator says he wants to kick the case in the balls and get Professor Sonya back.",
-  "Checker sounds dispirited and does not answer whether Arthur is okay after the building incident."
+  "Cas called Checker while jacking another car, once his hearing had mostly returned after an explosion.",
+  "Checker said NSA agents were in his house and that he was whispering because his worst nightmare had come to pass.",
+  "Checker said the agents were interested only in what he knew about Professor Sonya's case.",
+  "Cas told Checker that Arthur had a building fall on him and was fine.",
+  "Cas said Arthur was running to the authorities, naming the NSA, Homeland Security, or whoever was running the operation.",
+  "Checker said he thought it was a joint operation, and that the NSA doesn't have field agents.",
+  "Cas said someone in the mess really likes playing with explosives and that they almost blew him up too.",
+  "Cas asked Checker whether he had planted the evidence for the Lancer yet, and Checker said yes, mostly.",
+  "Cas instructed Checker to set up a meeting so the Lancer thinks Cas is taking a meeting and can track him down at a location with no bystanders.",
+  "Cas asked Checker to text him the location.",
+  "Cas said they would kick the case in the balls and get Professor Sonya back."
  ],
  "entities": [
   {
+   "name": "Cas",
+   "type": "person",
+   "role": "narrator who calls Checker, is bitter toward Arthur, and plans to lure the Lancer"
+  },
+  {
    "name": "Checker",
    "type": "person",
-   "role": "associate of the narrator who is speaking with him by phone and has NSA agents in his house"
+   "role": "associate of Cas who planted evidence for the Lancer and reports NSA agents in his house"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "person the narrator is angry with, who had a building fall on him and is running to the authorities"
+   "role": "figure caught in the building collapse who is described as running to the authorities"
   },
   {
    "name": "Professor Sonya",
    "type": "person",
-   "role": "missing or captive figure whose case the narrator and Checker are working to resolve"
+   "role": "professor whose case is central to the plan and who Cas aims to get back"
   },
   {
    "name": "Lancer",
    "type": "person",
-   "role": "target the narrator plans to lure to a meeting and who has evidence planted against him"
+   "role": "target of the planted evidence and the trap set by Cas and Checker"
   },
   {
    "name": "NSA",
    "type": "organization",
-   "role": "agency whose agents are in Checker's house and are involved in the case"
+   "role": "agency whose agents are in Checker's house and who are part of a joint operation"
   },
   {
    "name": "Homeland Security",
    "type": "organization",
-   "role": "authority the narrator suspects is running the operation along with the NSA"
+   "role": "agency Cas mentions as possibly part of the joint operation with the NSA"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
-  "explosions",
-  "law enforcement",
+  "hacking",
+  "surveillance",
   "investigation"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2041,
-  "output_tokens": 873
+  "output_tokens": 939
  }
 }

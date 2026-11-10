@@ -1,56 +1,58 @@
 {
- "summary": "Marcus and Ange discuss the aftermath of a mass arrest of about 800 protesters, whose side the press is not covering. Marcus shows Ange saved blogs, videos and photostreams from people who were gassed and beaten, and Ange proposes compiling everything into one press-facing page linked to Xnet HOWTOs. Marcus then walks off in panic, convinced the DHS knows he is M1k3y and that he is doomed, and Ange chases him down on Market Street as he considers throwing himself in front of a Muni trolley.",
- "one_line": "Marcus and Ange argue over why the press ignores the protesters' side after a mass arrest, and Marcus panics that the DHS has identified him as M1k3y.",
+ "summary": "In this excerpt from Cory Doctorow's Little Brother (Book 1, part 112), Marcus and Ange discuss the press ignoring the protesters' side of the story after hundreds were arrested. Marcus shows Ange saved blogs, videos and photostreams documenting gassing, beatings, and peaceful protest, and Ange proposes compiling everything into one linked place for reporters. Marcus, known online as M1k3y, becomes convinced the DHS has identified him, walks off in panic, and Ange chases him onto Market Street, where he contemplates throwing himself in front of a Muni trolley.",
+ "one_line": "Marcus and Ange discuss the press ignoring protest accounts and plan a compiled resource, until Marcus panics that the DHS has identified him as M1k3y.",
  "key_facts": [
-  "Eight hundred people were arrested as \"rioters\" and their processing was underway, with no one telling the protesters' side.",
-  "Marcus had saved blogs, videos and photostreams to his phone, including first-hand accounts from people who had been gassed and beaten.",
-  "The video showed protesters dancing, giving peaceful political speeches, and chanting \"Take It Back.\"",
-  "Trudy Doo is shown in the video talking about the protesters being the only generation that could believe in fighting for their freedoms.",
-  "Ange argues that the press would benefit from covering the controversy because it would sell more papers and commercials than a simple crime story.",
-  "Ange proposes writing everything up in one place with all the links, intended for the press to find, and linking it to the HOWTOs for Xnet.",
-  "Ange says Internet users can reach the Xnet, provided they don't care about the DHS finding out what they have been surfing.",
-  "When Ange asks why anyone would listen, she answers \"Who wouldn't listen to M1k3y?\"",
-  "Marcus believes that if Ange figured out he is M1k3y, the DHS had too, and he considers himself doomed.",
-  "Marcus says the DHS let him go from its truck and that he had expected they would someday arrest him and send him away forever, as they had Darryl.",
-  "Ange nearly tackles Marcus on Market Street, is out of breath and furious, and asks what his problem is.",
-  "Marcus tells himself that dying under a Muni trolley would be better than going back.",
-  "Ange calls Marcus by name and says she is scared, prompting him to stop and look at her."
+  "Eight hundred people were arrested as \"rioters\" and no one was telling the protesters' side.",
+  "Marcus had saved blogs, videos and photostreams to his phone and showed them to Ange.",
+  "The first-hand accounts described people who had been gassed and beaten up.",
+  "The video showed dancing, peaceful political speeches, and the chant of \"Take It Back.\"",
+  "Trudy Doo said the protesters were the only generation that could believe in fighting for their freedoms.",
+  "Ange asked why the press doesn't publish the protesters' side, and Marcus answered that reporters are whores.",
+  "Ange argued that the press could sell more papers and commercials with a controversy, since controversy is bigger than a crime.",
+  "Marcus said reporters can barely search regular blogs, let alone keep track of the Xnet.",
+  "Ange proposed writing everything up in one place with all the links, intended for the press to find, and linking it to the HOWTOs for Xnet.",
+  "Ange said Internet users can reach the Xnet provided they don't care about the DHS finding out what they've been surfing.",
+  "Ange asked, \"Who wouldn't listen to M1k3y?\"",
+  "Marcus believed the DHS knew who M1k3y was, and that he had been doomed since the DHS let him go from its truck.",
+  "Marcus feared the DHS would arrest him and send him away forever, to wherever Darryl had gone.",
+  "Ange nearly tackled Marcus as he reached Market Street and asked what his problem was.",
+  "Marcus felt he had a mad desire to jump in front of a Muni trolley, reasoning it was better to die than go back."
  ],
  "entities": [
   {
    "name": "Marcus",
    "type": "person",
-   "role": "narrator, a young activist known online as M1k3y who fears DHS arrest"
+   "role": "narrator, known online as M1k3y, who believes the DHS is about to arrest him"
   },
   {
    "name": "Ange",
    "type": "person",
-   "role": "companion who proposes compiling the protest accounts for the press"
-  },
-  {
-   "name": "M1k3y",
-   "type": "person",
-   "role": "online alias of Marcus on the Xnet"
+   "role": "companion who shows concern for Marcus and proposes compiling the protest accounts"
   },
   {
    "name": "Trudy Doo",
    "type": "person",
-   "role": "speaker in the protest video who says the generation can believe in fighting for freedoms"
+   "role": "speaker in the video talking about the generation fighting for freedoms"
   },
   {
    "name": "Darryl",
    "type": "person",
-   "role": "someone previously sent to wherever the DHS takes people, as Marcus fears for himself"
+   "role": "someone previously sent to wherever the DHS takes people"
+  },
+  {
+   "name": "M1k3y",
+   "type": "other",
+   "role": "Marcus's online alias on the Xnet"
   },
   {
    "name": "DHS",
    "type": "organization",
-   "role": "agency that arrested the protesters and that Marcus believes has identified him"
+   "role": "Department of Homeland Security, which arrested protesters and which Marcus fears has identified him"
   },
   {
    "name": "Xnet",
    "type": "program",
-   "role": "online network where the protest accounts and HOWTOs are posted"
+   "role": "online network where the protesters' accounts and HOWTOs were posted"
   },
   {
    "name": "Market Street",
@@ -64,16 +66,16 @@
   }
  ],
  "tags": [
-  "fiction",
-  "dystopian",
-  "activism",
-  "surveillance",
+  "little brother",
+  "dhs surveillance",
+  "xnet",
+  "protest",
   "press coverage",
-  "xnet"
+  "fiction"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1887,
-  "output_tokens": 1178
+  "output_tokens": 1220
  }
 }

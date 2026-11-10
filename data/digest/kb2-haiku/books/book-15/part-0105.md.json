@@ -1,75 +1,77 @@
 {
- "summary": "In a fiction excerpt from Book 15, Ray hands out mysterious rings to Rodriguez and Kilgore, saying they are for protection. Kilgore jokes about them and Rodriguez fixates on the inscription 'For the terror that comes by night.' Ray, burdened by unanswered questions and his memories of men lost in Ba'dai, refuses to explain and tells Rodriguez to ask him tomorrow. He worries about Ziggy and Nina, who likely know he has gone missing, and about Emma, and he reflects on the unfairness of withholding knowledge from his men. The passage ends abruptly in a tense scuffle in the kitchen.",
- "one_line": "Ray hands out mysterious protective rings to Rodriguez and Kilgore, withholding explanations while burdened by losses and loose ends.",
+ "summary": "In this excerpt from Book 15, Ray gives Rodriguez and Kilgore silver rings for protection but refuses to explain their purpose, saying only 'Ask me tomorrow.' The rings bear the inscription 'For the terror that comes by night,' which Rodriguez reads aloud, and Kilgore finds it weird. Ray reflects on the consequences of the Ba'dai episode, in which Whitfield and others collapsed into puddles, and on his unresolved worries about Emma, Ziggy, and Nina, plus his guilt at withholding knowledge from his men.",
+ "one_line": "Ray hands out protective rings to Rodriguez and Kilgore, withholding their meaning while he grapples with loose ends from the Ba'dai disaster.",
  "key_facts": [
-  "Ray tells Rodriguez and Kilgore to each pick a ring and put it on, saying the rings are for protection.",
-  "Kilgore says the rings are more interesting than a unit patch.",
-  "Rodriguez traces the inscription on his ring and reads aloud, 'For the terror that comes by night.'",
-  "Kilgore responds that the inscription is 'a little weird.'",
-  "Ray flashes back to Ba'dai, where Whitfield and the others collapsed like discarded garments, puddles of vacated flesh.",
-  "Ray considers that Holcomb may have learned a lesson or two in the desert, but still wants to punch him in the skull.",
-  "Ray tells Rodriguez, 'Ask me tomorrow, Rodriguez,' which he recognizes as a surrender of sorts.",
-  "Ray worries that Ziggy thinks he has gone AWOL and that Nina, who has heard rumors of murders in the sub-decks, is probably out of her mind with worry.",
-  "Ray wonders whether being an officer all the time is what it is like and whether it is too late to turn down his commission.",
-  "Rodriguez creates a thundershower of crockery in the kitchen after springing away from Kilgore."
+  "Ray tells Rodriguez and Kilgore to pick a ring from a pile and put it on, saying 'For protection.'",
+  "Kilgore says the rings are 'more interesting than a unit patch.'",
+  "Ray pockets the remaining rings after handing them out.",
+  "Rodriguez reads the inscription on his ring as 'For the terror that comes by night.'",
+  "Kilgore responds that the inscription 'That's a little weird.'",
+  "Rodriguez asks Ray 'Protection from what?' and Ray does not answer directly.",
+  "Ray recalls Whitfield and the others collapsing like discarded garments, puddles of vacated flesh, at Ba'dai.",
+  "Ray says 'Ask me tomorrow, Rodriguez,' which he views as a surrender that is unfair to his men.",
+  "Ray worries about Emma, and about Ziggy, who likely believes Ray has gone AWOL.",
+  "Ray thinks Nina knows about his absence through the ship's grapevine of rumor, and is probably worried.",
+  "Ray has lost men because they were not given the knowledge and tools to defend themselves from the unknown.",
+  "Ray wonders whether it is too late to turn down his commission, since he feels like an officer all the time."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "protagonist who distributes the rings and withholds explanations from his men"
+   "role": "protagonist who hands out the rings and withholds their meaning from his men"
   },
   {
    "name": "Rodriguez",
    "type": "person",
-   "role": "soldier who examines his ring and asks Ray what the protection is from"
+   "role": "soldier who examines his ring, reads its inscription aloud, and asks what protection is needed"
   },
   {
    "name": "Kilgore",
    "type": "person",
-   "role": "soldier who jokes about the rings and the sand jockey mumbo-jumbo"
+   "role": "soldier who tries on a ring, mocks the sand jockey mumbo-jumbo, and calls the inscription weird"
   },
   {
    "name": "Emma",
    "type": "person",
-   "role": "person Ray still does not know how to deal with"
+   "role": "person Ray still doesn't know how to deal with"
   },
   {
    "name": "Ziggy",
    "type": "person",
-   "role": "figure who is likely upset because Ray appears to have gone AWOL"
+   "role": "person who is probably upset because he thinks Ray has gone AWOL"
   },
   {
    "name": "Nina",
    "type": "person",
-   "role": "person who likely knows Ray has gone missing and is worried"
+   "role": "person who likely knows of Ray's absence and is worried"
   },
   {
    "name": "Holcomb",
    "type": "person",
-   "role": "man Ray recalls from the desert and wants to punch in the skull"
+   "role": "officer Ray recalls, who may have learned a lesson in the desert"
   },
   {
    "name": "Whitfield",
    "type": "person",
-   "role": "man who collapsed like a discarded garment at Ba'dai"
+   "role": "man who collapsed into a puddle of flesh at Ba'dai"
   },
   {
    "name": "Ba'dai",
    "type": "place",
-   "role": "desert location where Ray witnessed men collapse into puddles of vacated flesh"
+   "role": "desert location where Ray witnessed men collapse, a memory that informs his decision"
   }
  ],
  "tags": [
   "fiction",
   "military",
   "mystery",
-  "book 15",
-  "protection rings"
+  "protection rings",
+  "book 15"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2007,
-  "output_tokens": 1091
+  "output_tokens": 1105
  }
 }

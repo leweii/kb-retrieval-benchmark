@@ -1,72 +1,67 @@
 {
- "summary": "An excerpt from a fiction novel (Book 4, part 36) following Anda and her leader Lucy, who run paid in-game missions in a game world centered on Fahrenheit Island. Anda has suddenly gained real cash from the work, which makes her popular at school, and the two take on a mission near home, clearing sniper lookouts with BFG weapons supplied by non-player-character armorers. Anda questions why anyone would pay so much for these missions, and Lucy jokes it may be rich gamers pranking each other, then reasons about money by comparing a frappuccino's worth to a world of people living on a dollar a day.",
- "one_line": "Anda and Lucy take a lucrative paid in-game mission in a fantasy game, and Anda questions who is paying them.",
+ "summary": "An excerpt from a fiction work (\"Book 4 — part 36\") following Anda and her leader Lucy, who run paid in-game missions in a online game on Fahrenheit Island. Anda now has real cash income, and the pair take a close-to-home mission, ambushing sniper lookouts with BFGs and scrying spells. Anda questions why anyone pays so much for these jobs, and Lucy dismisses the worry with a money-as-relative-value argument involving frappuccinos and child support.",
+ "one_line": "Anda and Lucy take a paid in-game mission on Fahrenheit Island and debate why the money is so good.",
  "key_facts": [
-  "Anda now has pocket-money for the first time in her life, and the cash she earns lets her buy snacks outside the 500 meter sugar-free zone around her school.",
-  "Anda is described as the richest kid she knows, and she distributes handsful of Curly snacks to her schoolmates.",
-  "Lucy's voice in Anda's ear through the voicelink is a constant companion when Anda is not on Fahrenheit Island.",
-  "The Fahrenheit armorers, non-player-characters, have learned to recognise Anda and keep the Clan's BFGs oiled and ready for her.",
-  "Lucy says that money talks and bullshit walks, and the narrator notes cash always beats gold and experience beats experience points.",
-  "Anda uses a scrying spell to spot the first round of sniper/lookouts, and Lucy fires BFG rounds at the hilltops before they get into bow range.",
-  "Anda asks Lucy, who she addresses as Sarge, why anyone would pay them cash for these missions.",
-  "Lucy suspects that two rich gamers who pay their butlers to craft for them all day may be paying them as a prank.",
-  "Lucy says that most of the world lives on like a dollar a day, and she spends five dollars every day on a frappuccino.",
-  "Lucy says her dad sends her mom three thousand a month in child-support, which is a hundred bucks a day.",
-  "Lucy claims that if a day's money in the game is a hundred, her frappuccino is worth like five hundred dollars.",
-  "Lucy's dad loved an old TV show and makes the same joke about her name every visitation day."
+  "Anda now has pocket-money for the first time in her life, which she can spend outside the 500 meter sugar-free zone around her school.",
+  "Anda is described as the richest kid she knows and is suddenly everybody's best pal, with handfuls of Curly that she can selectively distribute to schoolmates.",
+  "Lucy's voice in Anda's ear is described as a constant companion, and the two run missions into the wee hours of the night.",
+  "The Fahrenheit armorers are non-player-characters who have learned to recognise Anda and keep the Clan's BFGs oiled and ready for her.",
+  "Lucy says \"Money talks and bullshit walks\" and prefers cash to gold and experience to experience points.",
+  "Anda uses a scrying spell to spot the first round of sniper/lookouts, and Lucy fires at the hilltops flanking the roadway before they reach bow range.",
+  "Anda asks Lucy, whom she calls Sarge, why anyone would pay cash for these missions, and Lucy asks whether anyone is asking Anda to cyber some old pervert.",
+  "Lucy suggests the paying clients may be two rich gamers who pay their butlers to craft for them all day, one fucking with the other.",
+  "Lucy states that most of the world lives on about a dollar a day and that she spends five dollars every day on a frappuccino, sometimes two.",
+  "Lucy says her dad sends her mom three thousand a month in child-support, which is about a hundred bucks a day.",
+  "Lucy calculates that if a day's money in the game is worth a hundred, her frappuccino is worth about five hundred dollars and she buys two or three every day.",
+  "Lucy's dad loved an old TV show and makes the \"Hey, Lucy!\" joke every visitation day."
  ],
  "entities": [
   {
    "name": "Anda",
    "type": "person",
-   "role": "narrator-character and player who runs paid missions with Lucy and is newly flush with cash"
+   "role": "narrator-player, a young gamer who receives pocket-money and runs missions with Lucy"
   },
   {
    "name": "Lucy",
    "type": "person",
-   "role": "Anda's partner on missions, called Sarge, who fires the BFGs and reasons about the money"
+   "role": "Anda's leader (\"Sarge\"), who runs the missions, speaks over voicelink and argues the money is fair"
   },
   {
    "name": "Fahrenheit Island",
    "type": "place",
-   "role": "in-game location where Anda spends time"
+   "role": "in-game location where Anda spends time and where the armorers are"
   },
   {
    "name": "Fahrenheit armorers",
    "type": "organization",
-   "role": "non-player-character armorers who oil and ready the Clan's BFGs"
+   "role": "non-player-characters who oil and ready the Clan's BFGs for Anda"
   },
   {
-   "name": "BFG",
-   "type": "product",
-   "role": "big weapons Lucy fires at the hilltops during missions"
+   "name": "Clan",
+   "type": "organization",
+   "role": "the group whose BFGs are kept ready for Anda"
   },
   {
    "name": "Curly",
    "type": "product",
-   "role": "snack Anda distributes to schoolmates"
+   "role": "sweets Anda has in handfuls to distribute to schoolmates"
   },
   {
-   "name": "Lucy's dad",
-   "type": "person",
-   "role": "pays child-support of three thousand a month to Lucy's mom"
-  },
-  {
-   "name": "Lucy's mom",
-   "type": "person",
-   "role": "receives three thousand a month in child-support from Lucy's dad"
+   "name": "BFG",
+   "type": "product",
+   "role": "big weapons used on missions by Anda and Lucy"
   }
  ],
  "tags": [
   "fiction",
-  "gaming",
-  "friendship",
+  "online gaming",
+  "coming of age",
   "money",
-  "fantasy novel"
+  "friendship"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1976,
-  "output_tokens": 1156
+  "output_tokens": 1146
  }
 }

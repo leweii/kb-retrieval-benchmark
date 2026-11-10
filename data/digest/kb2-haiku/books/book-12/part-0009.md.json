@@ -1,52 +1,58 @@
 {
- "summary": "An excerpt from a novel (\"Book 12 — part 9\") in which Mrs. Enderby tells the young Lexy Moran that Caroline has eloped and married, and shows her a letter from Caroline begging her parents' forgiveness. Mrs. Enderby reflects bitterly that love and money are the only things that matter, and Lexy, chastened, admits she was wrong to think Mrs. Enderby was being dramatic. Mrs. Enderby asks Lexy to keep the matter secret and to return in half an hour, when she will explain what can be done; Lexy goes out for a walk, still baffled and upset.",
- "one_line": "In this novel excerpt, Mrs. Enderby reveals to Lexy Moran that Caroline has secretly married, and asks her to keep the news quiet.",
+ "summary": "In this excerpt from Book 12, part 9, Mrs. Enderby reassures the young Lexy Moran that dramatic events are common in life, then shows her a letter from Caroline announcing a secret marriage and asking her parents' forgiveness. Lexy is moved and admits she was foolish, then asks to go for a walk. Mrs. Enderby asks her to return in half an hour and to keep the matter secret, and Lexy leaves puzzled, unable to believe Caroline could have acted without her knowing.",
+ "one_line": "Mrs. Enderby shows Lexy Moran a letter from Caroline announcing a secret marriage, and Lexy, chastened, goes out for a walk.",
  "key_facts": [
   "Mrs. Enderby tells Lexy that at twenty one breaks the heart for a man and at forty one breaks the heart for one's child.",
-  "Mrs. Enderby says that in life there is only love and money, in her words \"Love and money—nothing else!\"",
-  "Caroline's letter asks her mother and father to forgive her for what she has done.",
-  "Caroline's letter says she knew that if she told her parents, they would not have let her go.",
-  "Caroline's letter says that when the letter arrived she would be married.",
-  "Caroline's letter promises to write again the next day to say where she is and to ask to bring her husband to her parents.",
+  "Mrs. Enderby says that in life there is only that and money, and that love and money are nothing else.",
+  "Caroline's letter asks her father and mother to forgive her for what she has done.",
+  "Caroline writes that she knew her parents would not have let her go if she had told them.",
+  "Caroline's letter states that when her parents receive it she will be married.",
+  "Caroline promises to write again the next day to tell her parents where she is and to beg them to let her bring her husband to them.",
   "The letter's postmark reads \"Wyngate, Connecticut.\"",
-  "Lexy Moran admits that Mrs. Enderby was wise and calls herself a little fool.",
+  "Lexy admits to herself that she was a little fool and that Mrs. Enderby was wise.",
+  "Lexy's instinct in any sort of trouble is to get out into the fresh air and walk.",
+  "Mrs. Enderby asks Lexy to return in half an hour because there is much to be done.",
   "Mrs. Enderby asks Lexy to say nothing of the matter to any person whatever.",
-  "Mrs. Enderby asks Lexy to return in half an hour, saying there is much to be done.",
-  "Lexy goes out for a walk, which is her instinct in any sort of trouble.",
-  "Lexy finds it hard to believe that Caroline ran off, since she never dreamed Caroline was interested in any man."
+  "Lexy cannot understand why Mrs. Enderby makes a mystery of the matter, since everyone will know sooner or later.",
+  "Lexy finds it hard to believe Caroline ran off because she never dreamed Caroline was interested in any man."
  ],
  "entities": [
   {
    "name": "Mrs. Enderby",
    "type": "person",
-   "role": "Caroline's mother, who shows Lexy the letter and tells her the news"
+   "role": "Woman who shows Lexy Caroline's letter and speaks of love and money, apparently Caroline's mother"
   },
   {
    "name": "Lexy",
    "type": "person",
-   "role": "Young protagonist, referred to as Miss Moran, who hears the news and goes for a walk"
+   "role": "Young narrator-protagonist, referred to as Miss Moran, who is shocked by the letter"
   },
   {
    "name": "Caroline",
    "type": "person",
-   "role": "Daughter of Mrs. Enderby who has secretly married and written a letter of apology to her parents"
+   "role": "Daughter who writes the letter announcing her secret marriage"
   },
   {
    "name": "Wyngate, Connecticut",
    "type": "place",
    "role": "Postmark location on Caroline's letter"
+  },
+  {
+   "name": "Miss Moran",
+   "type": "person",
+   "role": "Form of address used for Lexy in this excerpt"
   }
  ],
  "tags": [
   "fiction",
   "novel excerpt",
   "family drama",
-  "elopement",
-  "marriage"
+  "secret marriage",
+  "elopement"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1953,
-  "output_tokens": 906
+  "output_tokens": 945
  }
 }

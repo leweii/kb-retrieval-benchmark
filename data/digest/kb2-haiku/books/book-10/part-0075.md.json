@@ -1,62 +1,66 @@
 {
- "summary": "An excerpt from a fiction manuscript (labeled Book 10, part 75) in which a character named Trish gives an younger colleague, Damian, advice about Washington DC's unwritten rules for office meetings. Trish explains that in DC any office-hours meeting carries a hidden purpose, read into its timing, attendees, and length, and that a meeting like Damian's invitation would be read as an attempt to parley or strike a deal before her bill goes to committee. The scene is set in a Capitol Hill office, where Trish watches a young staffer with a Naval Academy background on the phone.",
- "one_line": "In a Capitol Hill office, Trish advises Damian that every DC office-hours meeting is read as having a hidden purpose and deal-making intent.",
+ "summary": "An excerpt from a novel (Book 10, part 75) in which Trish and Damian talk in a Washington, DC office setting. Trish, an experienced Hill staffer, watches a young man from the Naval Academy on the phone and then advises Damian, who is new to the job, on how DC meetings carry hidden meanings. She explains that in DC a meeting during office hours always has a purpose, and that a meeting like the one Damian called would be read as an attempt to parley or strike a deal before her bill goes to committee.",
+ "one_line": "Trish gives newcomer Damian a lesson on the hidden protocol of Washington meetings, where any scheduled meeting is read as having a purpose.",
  "key_facts": [
-  "Trish watches a young man who looked like he had gone top in his class at the Naval Academy put his ankles up on the desk and tilt his chair while laughing on the phone.",
-  "Trish privately thinks the man on the phone is a key Congressman's aide, an old frat buddy of 'Mr Navy 2048'.",
-  "Damian says he is just learning as he goes and is trying not to make too many mistakes.",
-  "Trish's first lesson on the Hill was, 'If you're explaining -- you're losing.'",
-  "Trish says DC is a busy place where colleagues in academic and tech circles meet to feel out opponents, make acquaintances, or see old friends.",
-  "Trish says that in DC, people socialize after working hours, strictly on evenings and weekends.",
-  "Trish says a meeting scheduled during office hours always has a purpose, even if it appears to have none.",
-  "Trish says the unwritten protocol of meetings reveals purpose through the time, who attends, who is invited, who knows about it, the scheduled length, and whether food is catered.",
-  "Trish says that in any other city, looking someone up after arriving would make sense, but in DC a meeting like Damian's means he is looking to parley.",
+  "Trish tells Damian that DC is a busy place where meetings have a purpose even when they appear to have none.",
+  "Trish says social get-togethers in DC happen strictly in evenings and weekends, after working hours.",
+  "Trish describes a secret meeting protocol known to every Hill Rat and written nowhere.",
+  "Trish says the time of a meeting, who attends, who is invited, how long it is scheduled, and whether it is catered all signal its purpose.",
+  "Trish states that even if a person has no reason to call a meeting, one will be read into it.",
+  "Trish says that calling her over for a meeting at this time of day in DC means Damian is looking to parley.",
   "Trish says Damian wants to strike a deal before her bill goes to the committee.",
-  "Trish says she does not know how well Damian knows the Hill, so she does not want to impute motives to him.",
-  "Trish says she and Damian are still friends and that she thinks about him from time to time."
+  "Trish says that in any other city it would make perfect sense for Damian to look her up once he got to DC.",
+  "Trish says she and Damian are still friends and that she still thinks about him from time to time.",
+  "Trish says she does not want to impute motives to Damian because she does not know how well he knows the Hill.",
+  "Trish recalls the first lesson she learned on the Hill: 'If you're explaining -- you're losing.'",
+  "Damian says he is just learning as he goes and trying not to make too many mistakes.",
+  "Trish describes a young man who looked like he had gone top in his class at the Naval Academy, tilting his chair and laughing on the phone.",
+  "Trish guesses the person on the phone's other end is a key Congressman's aide, an old frat buddy of 'Mr Navy 2048'.",
+  "Damian's forehead crinkles at the end of the excerpt as he begins to respond."
  ],
  "entities": [
   {
    "name": "Trish",
    "type": "person",
-   "role": "experienced Hill staffer whose bill is headed to committee, who gives Damian advice on DC meetings"
+   "role": "experienced Hill staffer and friend of Damian who gives him advice on DC meetings; her bill is headed to committee"
   },
   {
    "name": "Damian",
    "type": "person",
-   "role": "newer arrival in DC who is learning Hill protocol and is invited to a meeting with Trish"
-  },
-  {
-   "name": "Mr Navy 2048",
-   "type": "person",
-   "role": "nickname for a Naval Academy graduate, the old frat buddy of a Congressman's aide, as imagined by Trish"
+   "role": "newer arrival in DC who receives Trish's advice and is suspected of wanting to parley over her bill"
   },
   {
    "name": "Naval Academy",
    "type": "organization",
-   "role": "institution where the young man on the phone appears to have topped his class"
+   "role": "institution the young man on the phone appears to have graduated from at the top of his class"
   },
   {
-   "name": "Hill",
-   "type": "place",
-   "role": "Capitol Hill, the congressional district where the characters work"
+   "name": "Hill Rat",
+   "type": "other",
+   "role": "term for a Capitol Hill insider who knows the unwritten meeting protocol"
   },
   {
-   "name": "DC",
+   "name": "Mr Navy 2048",
+   "type": "person",
+   "role": "nickname for an old frat buddy of a key Congressman's aide, as Trish imagines it"
+  },
+  {
+   "name": "Washington, DC",
    "type": "place",
-   "role": "Washington DC, where the unwritten meeting protocols apply"
+   "role": "city where the meeting protocol and the Hill culture described in the excerpt apply"
   }
  ],
  "tags": [
   "fiction",
+  "novel excerpt",
   "washington dc",
   "capitol hill",
-  "political fiction",
-  "workplace protocol"
+  "office politics",
+  "meeting protocol"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1843,
-  "output_tokens": 1061
+  "output_tokens": 1113
  }
 }

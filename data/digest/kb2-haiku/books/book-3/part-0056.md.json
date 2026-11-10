@@ -1,38 +1,36 @@
 {
- "summary": "A first-person narrator, apparently a documentary maker with medical test records, visits a man in white in India who claims to be a miracle worker. In a sterile blue room with a bronze Dancing Shiva statue, he reviews her records without finding anything useful, deflects her question about children, and plays a hypnotic drone. He places his hands on her heart and tells her she is not breathing normally and that he feels no harmony, which she finds unsettling and recalls from a Zen meditation attempt in Kyoto.",
- "one_line": "A documentary-minded narrator visits a white-clad healer in India, who examines her records, plays a hypnotic drone, and diagnoses her breathing.",
+ "summary": "A first-person narrator, apparently a documentary maker, visits a man in white who claims to be a miracle worker in India. She presents her medical test records, which show nothing wrong, and he examines them without much interest. He refuses to say whether he has children, claiming all who come to him are his children, and he reads her as physically unharmonious after placing his hands on her chest. The passage focuses on the setting, his mannerisms, and her growing relaxation and unease.",
+ "one_line": "A documentary-minded narrator visits a white-robed healer in India, who studies her clean medical records and diagnoses her breathing as disharmonious.",
  "key_facts": [
-  "The narrator visits a man dressed in white in India who claims to be a miracle worker.",
-  "The man's deep eyes snap open the moment the narrator enters, while he appears to be meditating in his chair.",
-  "He asks, \"Did you bring your records?\" without getting up.",
+  "The narrator pushes open the door of a room where a man dressed in white sits, apparently meditating.",
+  "The man's deep eyes snap open when the narrator enters, and he asks, \"Did you bring your records?\"",
   "Ramala discreetly disappears while the narrator produces her records from her briefcase.",
-  "The examination room is a sterile baby blue with no diplomas or photos.",
-  "A smaller bronze statue of the Dancing Shiva sits on a silver-inlaid table in the room.",
-  "The narrator thinks the man believes he is the Dancing Shiva, based on his flowing hair matching the bronze figure.",
-  "The narrator regrets not bringing a Betacam to video the encounter for a documentary.",
-  "The narrator states she has had every test known to science and none found anything wrong.",
+  "The room is a sterile baby blue with no diplomas or photos, except a smaller bronze statue of the Dancing Shiva on a silver-inlaid table.",
+  "The narrator thinks the man's flowing hair matches that of the bronze figure and concludes that he believes he is Shiva.",
+  "The narrator regrets not bringing a Betacam to record video of the man.",
+  "The narrator says she has had every test known to science and none found anything wrong.",
   "When asked whether he has children, the man replies, \"All those who come here are my children.\"",
-  "The man says, \"I haven't examined you yet,\" and states that he looks for different things than most physicians.",
-  "He activates a hypnotic drone that makes the narrator feel relaxed and full of hope.",
-  "He places his hands on the narrator's heart and listens to her chest, and his touch feels warm, then cold, then warm.",
-  "He tells her, \"You're not breathing normally\" and \"I feel no harmony.\"",
+  "The man says, \"I haven't examined you yet,\" and adds that he looks for different things than most physicians.",
+  "The man operates a device under his desk that fills the room with a hypnotic drone, which leaves the narrator feeling relaxed and hopeful.",
+  "The man places his hands on the narrator's heart, then listens to her chest, and his touch feels warm, then cold, then warm.",
+  "The man says, \"You're not breathing normally,\" and \"I feel no harmony.\"",
   "The narrator compares the feeling to her first attempt at Zen meditation in Kyoto."
  ],
  "entities": [
   {
    "name": "Ramala",
    "type": "person",
-   "role": "assistant who discreetly leaves the room while the narrator hands over her records"
+   "role": "assistant who discreetly leaves the room when the narrator arrives"
   },
   {
    "name": "Dancing Shiva",
    "type": "other",
-   "role": "bronze statue in the room that the narrator believes the man identifies with"
+   "role": "bronze statue in the room that resembles the man's hair"
   },
   {
    "name": "Betacam",
    "type": "product",
-   "role": "video camera the narrator wishes she had brought to record the encounter"
+   "role": "video camera the narrator wishes she had brought"
   },
   {
    "name": "Kyoto",
@@ -44,12 +42,13 @@
   "memoir",
   "india",
   "healing",
-  "meditation",
-  "narrative fiction"
+  "fiction",
+  "documentary",
+  "meditation"
  ],
- "category": "religion & culture",
+ "category": "literature & arts",
  "usage": {
   "input_tokens": 1896,
-  "output_tokens": 901
+  "output_tokens": 860
  }
 }

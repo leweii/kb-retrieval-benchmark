@@ -1,18 +1,17 @@
 {
- "summary": "In this excerpt from a novel's part 110, the narrator and Ange are at a park gathering where police in trucks and helicopters order the crowd to disperse, then deploy pepper spray that makes the narrator choke and nearly blinds him. Screaming and chaos follow as police arrest people and flood the park with light. The narrator decides they must calmly walk away, pretending they were just passing by, and the plan works as they leave toward 16th Street and Mission Street.",
- "one_line": "Narrator and Ange escape a police pepper-spray crackdown at Dolores Park by calmly walking away at night.",
+ "summary": "In this excerpt from a fiction book (Book 1, part 110), the narrator and a companion named Ange are caught at a park where police in trucks and helicopters order a crowd to disperse, then release pepper spray that gasses the crowd and brings a sudden, chaotic crackdown. The narrator decides they should calmly walk away rather than run, and the two slip out of the park, turning toward 16th Street and then Mission Street while trying to look uninvolved.",
+ "one_line": "Narrator and Ange escape a police gassing and mass arrest at Dolores Park by calmly walking away.",
  "key_facts": [
-  "Police trucks parked around the park issued the command \"DISPERSE IMMEDIATELY\" to the crowd.",
-  "Police helicopters released a mist that the narrator says was pepper spray, which he estimates at a million and a half Scovilles.",
-  "The narrator states the pepper spray was \"Not 200 thousand Scovilles. A million and a half.\"",
-  "The pepper spray made the narrator's sinuses feel like they were being punctured with ice-picks and made his throat close.",
-  "The guitar, drums and bass stopped abruptly after the crowd was gassed, followed by choking, coughing and long screaming.",
-  "Helicopters flooded Dolores Park with light so bright it looked like daylight, making the crowd visible.",
-  "Police dragged adults by the armpits, cuffed their wrists with plastic cuffs and tossed them into trucks.",
-  "The narrator tells Ange, whose voice was tight and scared, that they should walk away rather than run because running would make them chase.",
-  "The narrator and Ange walk holding hands, down toward Dolores and then turn left toward 16th Street.",
-  "The narrator says they walked in silence for two blocks before he let out a long-held breath.",
-  "They turned down 16th Street toward Mission Street, which is normally a scary neighborhood at 2AM on a Saturday night."
+  "Police trucks parked around the park issued the order \"DISPERSE IMMEDIATELY\" from a loudspeaker.",
+  "The mist that fell came out of the choppers, and the narrator says it was pepper spray, \"Not 200 thousand Scovilles. A million and a half.\"",
+  "The gas made the narrator's eyes swell and water, throat close, and sinuses feel punctured with ice-picks.",
+  "The guitar, drums and bass crashed to a halt as the crowd began choking, retching, coughing and screaming.",
+  "Police helicopters flooded Dolores Park with so much light that it looked like daylight.",
+  "Police dragged gassed people by the armpits, lashed their wrists with plastic cuffs, and tossed them into the trucks like rag-dolls.",
+  "The narrator told Ange, \"We walk away,\" reasoning that running would make them chase, while walking might make police think they had done nothing.",
+  "Narrator and Ange walked holding hands, quickly and business-like, down to Dolores and turning left toward 16th Street.",
+  "Neither of them spoke for two blocks after leaving the park.",
+  "They turned down 16th Street toward Mission Street, a neighborhood that is normally scary at 2AM on a Saturday night."
  ],
  "entities": [
   {
@@ -23,29 +22,34 @@
   {
    "name": "Ange",
    "type": "person",
-   "role": "companion of the narrator who holds his hand and is scared during the crackdown"
+   "role": "narrator's companion who holds hands with him and walks away from the park with him"
   },
   {
    "name": "16th Street",
    "type": "place",
-   "role": "street the narrator and Ange turn onto while walking away"
+   "role": "street the narrator and Ange turn onto after leaving the park"
   },
   {
    "name": "Mission Street",
    "type": "place",
-   "role": "street the narrator and Ange turn down toward, described as a scary neighborhood at night"
+   "role": "street the pair turn down toward, normally a scary neighborhood at 2AM on Saturday night"
+  },
+  {
+   "name": "Scovilles",
+   "type": "other",
+   "role": "unit of measure for pepper spray heat, used by the narrator to compare the gas strength"
   }
  ],
  "tags": [
   "fiction",
+  "novel excerpt",
   "police crackdown",
-  "pepper spray",
-  "night escape",
+  "protest",
   "san francisco"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1884,
-  "output_tokens": 849
+  "output_tokens": 879
  }
 }

@@ -1,38 +1,37 @@
 {
- "summary": "A first-person narrator recounts the aftermath of a traumatic trip to Baalum in the Peten. Sarah has largely forgotten the events, Lou is clinging to her, and the narrator is editing a documentary with David while Steve finishes a photo essay in Belize. The story then turns to the final confrontation with Alex Goddard, who believes he is Shiva, two months after the group returned to the city, which begins as the narrator works late at Applecore.",
- "one_line": "Narrator recounts the lingering trauma from Baalum, the fallout for Sarah and Lou, and the final encounter with Alex Goddard.",
+ "summary": "A first-person excerpt from a novel's Book 3 describes the narrator's lingering trauma after returning from Baalum in the Peten, with Sarah drifting and then recovering, Lou hovering over her, and David submitting a rough cut of Baby Love to Sundance. The narrator, working late at Applecore on re-cut interviews to replace those of Carly and Paula, is set to face the final act of the story involving Alex Goddard, who believes he is Shiva. The passage ends mid-sentence as the narrator decides to stop working.",
+ "one_line": "Narrator's aftermath of the Baalum ordeal, Sarah's recovery, and the Baby Love project, leading to Alex Goddard's final confrontation.",
  "key_facts": [
-  "The narrator suffered flashbacks and late-night reveries of forests and children after the Peten trip.",
-  "Sarah began sending for re-registration materials from Columbia after she snapped back into her old self.",
+  "The narrator says that for weeks after returning from Baalum they had trouble remembering meetings, returning phone calls, and giving David an honest day's editing.",
+  "Sarah began sending for re-registration materials from Columbia once she snapped back into her old self.",
   "Sarah seemed to have erased all memories of Baalum, except for occasional mumbles in Kekchi Maya.",
   "Lou had not returned to work and mainly stayed at his Soho place to be near Sarah.",
-  "David submitted a very rough cut of Baby Love to the selection committee at Sundance.",
-  "The distribution deal with Orion was in temporary turnaround pending another management shuffle.",
-  "An advance from Lifetime lowered the heat with Nicky Russo.",
   "Steve returned to Belize to wrap up his photo essay.",
-  "Alex Goddard believed he was Shiva, creator and destroyer.",
-  "The final confrontation with Alex Goddard occurred two months after the group got back to the city.",
-  "The narrator was working late on a Thursday evening in the editing room at Applecore, around seven o'clock.",
+  "David submitted a very rough cut of Baby Love to the selection committee at Sundance.",
+  "The hoped-for distribution deal with Orion was in temporary turnaround pending another management shuffle.",
+  "An advance from Lifetime lowered the heat with Nicky Russo.",
+  "The narrator's final dark dance with Alex Goddard, the man who thought he was Shiva, happened two months after they got back to the city.",
+  "The narrator was working late on a Thursday evening around seven o'clock in the editing room at Applecore.",
+  "The narrator had a headache and stomach pains from leftover pizza that had been microwaved.",
   "The narrator was re-cutting new real-life interviews to replace those of Carly and Paula.",
-  "Children of Light had gone defunct, and the phone at Quetzal Manor was disconnected.",
-  "The replacement interviews were less bubbly than the originals but truer to the realities of adoption.",
-  "The narrator had a headache and stomach pains from leftover microwaved pizza."
+  "Children of Light had gone defunct and the phone at Quetzal Manor was disconnected.",
+  "The replacement interviews were less bubbly than the originals but truer to the realities of adoption."
  ],
  "entities": [
   {
    "name": "Baalum",
    "type": "place",
-   "role": "faraway place in the Peten where the group's traumatic events occurred"
+   "role": "faraway place in the Peten where the group experienced a traumatic ordeal"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "companion of the narrator who drifted, then snapped back into her old self and sought re-registration materials from Columbia"
+   "role": "character who drifts after the ordeal, then snaps back and seeks re-registration materials from Columbia"
   },
   {
    "name": "Lou",
    "type": "person",
-   "role": "man who stayed at his Soho place near Sarah after she was returned to his loft"
+   "role": "character whose Soho loft Sarah was staying at; he stayed near her and did not return to work"
   },
   {
    "name": "David",
@@ -47,17 +46,17 @@
   {
    "name": "Alex Goddard",
    "type": "person",
-   "role": "man who thought he was Shiva, creator and destroyer, whose final encounter with the narrator ends the story"
+   "role": "man who believed he was Shiva, creator and destroyer, and the source of the narrator's final confrontation"
   },
   {
    "name": "Baby Love",
    "type": "product",
-   "role": "documentary whose very rough cut was submitted to Sundance"
+   "role": "film project submitted in very rough cut to the Sundance selection committee"
   },
   {
    "name": "Sundance",
    "type": "event",
-   "role": "film festival whose selection committee received the Baby Love rough cut"
+   "role": "festival whose selection committee received the rough cut of Baby Love"
   },
   {
    "name": "Orion",
@@ -72,55 +71,49 @@
   {
    "name": "Nicky Russo",
    "type": "person",
-   "role": "person whose heat was lowered by the Lifetime advance"
+   "role": "figure whose heat was lowered by the Lifetime advance"
   },
   {
    "name": "Applecore",
    "type": "organization",
-   "role": "editing room where the narrator worked late on the Thursday evening"
+   "role": "editing facility where the narrator worked late on re-cutting interviews"
   },
   {
    "name": "Children of Light",
    "type": "organization",
-   "role": "group that had gone defunct, with Carly and Paula's interviews replaced"
+   "role": "group that had gone defunct, source of the Carly and Paula interviews"
   },
   {
    "name": "Quetzal Manor",
    "type": "place",
-   "role": "location whose phone was disconnected"
+   "role": "location whose phone was disconnected after Children of Light went defunct"
   },
   {
    "name": "Carly",
    "type": "person",
-   "role": "interviewee whose footage was replaced in the documentary"
+   "role": "interviewee whose interviews were replaced in the edit"
   },
   {
    "name": "Paula",
    "type": "person",
-   "role": "interviewee whose footage was replaced in the documentary"
+   "role": "interviewee whose interviews were replaced in the edit"
   },
   {
-   "name": "Columbia",
-   "type": "organization",
-   "role": "institution from which Sarah sought re-registration materials"
-  },
-  {
-   "name": "Colonel Ramos",
-   "type": "person",
-   "role": "figure referenced as a source of excitement in the narrator's life"
+   "name": "Kekchi Maya",
+   "type": "other",
+   "role": "language Sarah occasionally mumbled in"
   }
  ],
  "tags": [
-  "memoir",
+  "fiction",
+  "memoir-style narrative",
   "documentary filmmaking",
-  "trauma",
-  "adoption",
-  "baalum",
-  "alex goddard"
+  "aftermath of trauma",
+  "Baalum"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1932,
-  "output_tokens": 1474
+  "output_tokens": 1501
  }
 }

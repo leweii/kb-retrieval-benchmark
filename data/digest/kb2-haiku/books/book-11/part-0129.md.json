@@ -1,82 +1,92 @@
 {
- "summary": "An excerpt from Kate Douglas Wiggin's novel (Book 11, part 129) set after a graduation ceremony. Rebecca, feeling unreal about her honors and the burden ahead, is comforted by news that Miranda's speech has returned and that Miss Sawyer, her aunt, is improving, though she remains paralyzed. Emma Jane offers to pack Rebecca's trunk, and Uncle Jerry Cobb talks with Adam Ladd about Rebecca's voice and appearance, while Jerry frets over her parents and visitors who compared poorly with her.",
- "one_line": "Rebecca, after graduation, receives mixed news about her aunt while Uncle Jerry Cobb and Adam Ladd discuss her singing and looks.",
+ "summary": "An excerpt from a novel (labeled Book 11, part 129) set at a graduation day in Riverboro. Rebecca is overwhelmed by the emotional aftermath of her success and receives sad news that Miss Sawyer, an invalid, is paralyzed though her speech is returning. Emma Jane offers to pack for her, while Adam Ladd and uncle Jerry Cobb talk about Rebecca's remarkable performance and voice.",
+ "one_line": "At a Riverboro graduation, Rebecca feels the strain behind her triumph as news of Miss Sawyer's paralysis arrives and Adam Ladd and Mr. Cobb discuss her.",
  "key_facts": [
-  "Miranda has got her speech back, because Rebecca's aunt has sent a letter saying she is better.",
-  "Uncle Jerry says he will sit up tonight so Rebecca can stay at the brick house and have a good sleep.",
+  "Rebecca is told she can stay at the brick house and sleep, since Miss Sawyer's letter says she is better and Miranda has her speech back.",
   "Emma Jane offers to pack Rebecca's trunk and attend to all their room things.",
-  "Rebecca feels that the honors and happy excitement of the last two days are a transient condition, and that the burden and anxiety will soon loom again.",
-  "Rebecca longs to steal away into the woods with John, who has grown manly and handsome.",
-  "Adam Ladd asks uncle Jerry whether girls in Boston are as thick as blackberries like Rebecca.",
-  "Adam says Rebecca's voice made the others sound poor and thin.",
+  "Rebecca sits in a quiet side pew with Hannah, Hannah's husband, and John.",
+  "Rebecca feels the day's honors have an air of unreality and that her condition is only transient.",
+  "Rebecca longs to steal away into the woods with John, who has grown so manly and handsome.",
+  "Uncle Jerry Cobb asks Adam Ladd whether girls like Rebecca are as thick as blackberries up in Boston.",
+  "Adam Ladd says Rebecca's voice made the others sound poor and thin.",
   "Uncle Jerry says his mother scolds him for spoiling Rebecca, though his mother is not far behind in spoiling her.",
-  "Uncle Jerry says it made him sick to think of parents travelling miles to see their children graduate and then having to compare them with Rebecca.",
-  "Adam says he will drive Rebecca home, perhaps the next day, and will visit Riverboro.",
-  "Miss Sawyer is paralyzed and will never walk far again, according to the doctor's uncertain diagnosis, but she has not lost her speech.",
-  "Class members remind Rebecca not to be late for the picnic luncheon and to come early to the class party in the evening."
+  "Uncle Jerry says it made him sick to think of parents traveling miles to see their children graduate and then having to compare them with Rebecca.",
+  "Adam Ladd says he will drive Rebecca home the next day and offers to do so.",
+  "Uncle Jerry reports that the doctor does not know how serious Miss Sawyer's condition is.",
+  "Uncle Jerry says Miss Sawyer is paralyzed and will never walk again, but she has not lost her speech."
  ],
  "entities": [
   {
    "name": "Rebecca",
    "type": "person",
-   "role": "young woman graduating from school, the central character, who feels unreal about her honors and worries about her aunt"
+   "role": "graduating student at the center of the scene, feeling the strain behind her honors"
   },
   {
    "name": "Emma Jane",
    "type": "person",
-   "role": "friend who offers to pack Rebecca's trunk and attend to their room things"
-  },
-  {
-   "name": "Miranda",
-   "type": "person",
-   "role": "character whose speech has returned"
-  },
-  {
-   "name": "Miss Sawyer",
-   "type": "person",
-   "role": "aunt who has sent a letter saying she is better and is paralyzed"
-  },
-  {
-   "name": "Hannah",
-   "type": "person",
-   "role": "woman who joins the group in the side pew with her husband and John"
-  },
-  {
-   "name": "John",
-   "type": "person",
-   "role": "old friend of Rebecca, grown manly and handsome"
+   "role": "friend who offers to pack Rebecca's trunk and attend to room things"
   },
   {
    "name": "Adam Ladd",
    "type": "person",
-   "role": "man who talks with Mr. Cobb, admires Rebecca's voice, and offers to drive her home"
+   "role": "man from Boston who talks with Mr. Cobb and offers to drive Rebecca home"
   },
   {
    "name": "Mr. Cobb",
    "type": "person",
-   "role": "uncle Jerry, old man who speaks with Adam Ladd about Rebecca and is protective of her"
+   "role": "uncle Jerry, an old man who praises Rebecca and speaks of his mother spoiling her"
+  },
+  {
+   "name": "Miss Sawyer",
+   "type": "person",
+   "role": "invalid whose letter says she is better; now paralyzed and unable to walk"
+  },
+  {
+   "name": "Miranda",
+   "type": "person",
+   "role": "person who has got her speech back"
+  },
+  {
+   "name": "Hannah",
+   "type": "person",
+   "role": "woman who joins Rebecca in the side pew with her husband and John"
+  },
+  {
+   "name": "John",
+   "type": "person",
+   "role": "young man Rebecca longs to walk with in the woods, described as grown manly and handsome"
+  },
+  {
+   "name": "Jane",
+   "type": "person",
+   "role": "referenced as the one who wanted Rebecca to be gay"
   },
   {
    "name": "Riverboro",
    "type": "place",
-   "role": "town where Adam Ladd is invited to visit"
+   "role": "town where Adam Ladd is invited to drop in and where the graduation takes place"
   },
   {
    "name": "Boston",
    "type": "place",
-   "role": "city where Adam Ladd lives, mentioned as where girls like Rebecca are common"
+   "role": "city where Adam Ladd lives, mentioned as a place with many girls like Rebecca"
+  },
+  {
+   "name": "brick house",
+   "type": "place",
+   "role": "house where the sorrowful news about Miss Sawyer arrives from"
   }
  ],
  "tags": [
   "fiction",
   "coming-of-age",
-  "graduation",
   "rebecca of sunnybrook farm",
-  "family"
+  "graduation",
+  "riverboro"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1960,
-  "output_tokens": 1222
+  "output_tokens": 1269
  }
 }

@@ -1,82 +1,83 @@
 {
- "summary": "In this excerpt from a novel (\"Book 3 — part 20\"), the narrator discusses a baby's adoption with Dr. Hannah Klein, who doubts the adoption was as easy as claimed and is skeptical of the Children of Light organization and of Dr. Alex Goddard, an alternative-medicine doctor who now provides children for adoption. Klein warns the narrator to stay away and gives her a list of adoption agencies. The narrator's pager then shows a page from Lou Crenshaw, a security guard, who may have news from Lenox Hill about Sarah, interrupting the conversation.",
- "one_line": "In a fiction excerpt, the narrator questions a doctor about the Children of Light adoption and Dr. Alex Goddard, then rushes off after a page about Sarah.",
+ "summary": "In this excerpt from Book 3, the narrator Morgan speaks with Dr. Hannah Klein about a baby obtained for adoption through an organization called Children of Light, which Hannah views skeptically. Hannah doubts the adoption was as easy as claimed, criticizes Dr. Alex Goddard, a doctor who is apparently now providing children for adoption, and calls his alternative medicine unproven. Morgan's pager then displays a number belonging to Lou Crenshaw, a security guard, who may be reporting news from Lenox Hill about Sarah, so Morgan leaves abruptly. Hannah gives Morgan a list of adoption agencies before the excerpt ends with Morgan aching for Steve.",
+ "one_line": "Morgan questions Dr. Hannah Klein about the Children of Light adoption organization and Dr. Alex Goddard, then rushes off after a page about Sarah.",
  "key_facts": [
-  "Dr. Hannah Klein says the adoption process as described sounds 'most exceptional' and 'actually more like impossible.'",
-  "Klein suspects the child may have been kidnapped or something, given how easily the adoption supposedly went.",
-  "The narrator says the organization that obtained the baby is called Children of Light, believed to be up the Hudson somewhere, past the Cloisters.",
-  "Klein describes the Children of Light as 'All that so-called New Age.'",
-  "Klein says Alex Goddard's supporters offer only hearsay and that his success is anecdotal, which she attributes to the 'placebo effect.'",
-  "Klein says she is not even sure Alex Goddard is board-certified.",
-  "Klein warns that people like Goddard, 'Oftentimes, ... do more harm than good.'",
-  "Klein asks when Alex Goddard started providing children for adoption, calling it 'peculiar.'",
-  "The narrator's pager shows a number belonging to Lou Crenshaw, the security guard, who had been off duty that day.",
-  "The narrator believes Crenshaw would only page her about news from Lenox Hill, possibly about Sarah.",
-  "Klein gives the narrator a list of adoption agencies, saying she has dealt with some of them through letters of reference for patients.",
-  "Klein squeezes the narrator's hand, the closest the two women had come to intimacy."
+  "Morgan says the adoption organization that got the baby is called Children of Light, which Morgan believes is up the Hudson somewhere, past the Cloisters.",
+  "Hannah Klein says the adoption story sounds impossible and suggests the child may have been kidnapped.",
+  "Morgan does not know how old the child was when the woman got him, only that he was a few weeks old, she thinks.",
+  "Hannah Klein describes Dr. Alex Goddard as one of those alternative-medicine types and says nobody knows the first thing about him.",
+  "Hannah Klein says Goddard's reported successes are anecdotal and likely the placebo effect.",
+  "Hannah Klein says she is not sure Goddard is board-certified.",
+  "Hannah Klein asks when Goddard started providing children for adoption, calling it peculiar.",
+  "Morgan's pager shows a number she knows well, which belongs to Lou Crenshaw, a security guard who had been off that day.",
+  "Morgan believes Lou Crenshaw would only page her with news from Lenox Hill, possibly about Sarah.",
+  "Morgan tells Hannah Klein it could be a medical emergency and leaves immediately.",
+  "Hannah Klein hands Morgan a list of adoption agencies, saying she has dealt with some of them through letters of reference for patients.",
+  "Hannah Klein squeezes Morgan's hand, the closest the two women have come to intimacy.",
+  "Morgan grasps the list and aches for Steve again."
  ],
  "entities": [
   {
    "name": "Morgan",
    "type": "person",
-   "role": "narrator, a patient-side woman seeking an adoption and anxious about Sarah"
+   "role": "narrator who is seeking an adoption and receives the page about Sarah"
   },
   {
    "name": "Hannah Klein",
    "type": "person",
-   "role": "Dr. Klein, a physician who doubts the adoption story and warns against Alex Goddard"
+   "role": "doctor (Dr. Klein) who skeptically discusses adoption and Goddard and gives Morgan a list of agencies"
   },
   {
    "name": "Carly",
    "type": "person",
-   "role": "person who earlier mentioned an infertility clinic to the narrator"
+   "role": "person who mentioned an infertility clinic and the doctor to Morgan"
   },
   {
    "name": "Alex Goddard",
    "type": "person",
-   "role": "doctor described as an alternative-medicine practitioner who is now providing children for adoption"
+   "role": "alternative-medicine doctor who is reportedly now providing children for adoption"
   },
   {
    "name": "Children of Light",
    "type": "organization",
-   "role": "organization that got the baby for the adoptive woman, said to be up the Hudson past the Cloisters"
+   "role": "organization that obtained the baby for the adoptive woman, believed to be up the Hudson past the Cloisters"
   },
   {
    "name": "Lou Crenshaw",
    "type": "person",
-   "role": "security guard, referred to as the narrator's aforementioned security guard, who paged her"
+   "role": "security guard who paged Morgan, having been off work that day"
   },
   {
    "name": "Lenox Hill",
    "type": "place",
-   "role": "hospital where Sarah is apparently being treated, source of possible news"
+   "role": "hospital where the news about Sarah may have come from"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "person whose condition at Lenox Hill the narrator hopes has improved"
+   "role": "person whose news from Lenox Hill Morgan hopes is good"
   },
   {
    "name": "Steve",
    "type": "person",
-   "role": "person the narrator aches for, apparently deceased or lost"
+   "role": "person Morgan aches for at the end of the excerpt"
   },
   {
    "name": "the Cloisters",
    "type": "place",
-   "role": "landmark used to locate the Children of Light, up the Hudson past it"
+   "role": "landmark used to locate Children of Light up the Hudson"
   }
  ],
  "tags": [
-  "fiction",
   "adoption",
-  "medical ethics",
   "alternative medicine",
-  "novel excerpt"
+  "medical ethics",
+  "fiction excerpt",
+  "hospital"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1939,
-  "output_tokens": 1231
+  "output_tokens": 1290
  }
 }

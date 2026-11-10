@@ -1,60 +1,64 @@
 {
- "summary": "A narrator recalls a conversation in which a man (Alex Goddard, apparently) explains how Sarah came to Quetzal Manor in New York seeking a divine, virginal pregnancy through 'cosmic energy.' He reveals Sarah had a rare uterine abnormality, that she refused to give up, and that she wanted to come to Baalum, the place of miracles, under an agreement he regretted offering. The narrator also reflects on a childhood memory of Sarah's questions about how babies are born and on her own parallel search for a miracle.",
- "one_line": "Book 3, part 132: Alex Goddard explains Sarah's troubled quest for a miraculous pregnancy and her insistence on traveling to Baalum.",
+ "summary": "An excerpt from a novel (Book 3, part 132) in which the narrator confronts a man, Alex Goddard, about Sarah, a troubled young woman who came to Quetzal Manor in New York wanting a child conceived without a man, believing it would be a divine child of cosmic energy. Goddard recounts how he began working with Sarah, discovered she had a rare uterine abnormality affecting about one woman in twenty thousand, and at first agreed to her wish to come to Baalum, the place of miracles, on terms she would have to keep, before regretting the offer and forbidding her to come. The narrator reflects on her childhood memory of Sarah's questions about chicks and babies and on her own guilt and similar desire for a miracle.",
+ "one_line": "In a novel excerpt, Alex Goddard explains to the narrator how Sarah sought a miraculous conception at Baalum, the place of miracles.",
  "key_facts": [
   "Sarah first appeared at Quetzal Manor in New York as a very troubled young woman.",
   "Sarah declared she was a person of pure spirit and wanted to have a baby without touching a man.",
   "Sarah wanted a divine child created of cosmic energy.",
-  "As a six-year-old, Sarah insisted that all living things came directly from God and from a special place we could not see.",
-  "Alex Goddard states that Sarah was born with an abnormality of the uterus.",
-  "The uterine abnormality is very rare, afflicting only about one woman in twenty thousand.",
-  "Sarah refused to give up despite the diagnosis, and Goddard describes her as a person of enormous tenacity.",
+  "Goddard says Sarah was born with an abnormality of the uterus that afflicts about one woman in twenty thousand.",
   "Sarah declared she wanted to come to Baalum, the place of miracles.",
-  "Goddard told Sarah that miracles can sometimes transpire at Baalum but only at a great price.",
+  "Goddard told Sarah that miracles can sometimes transpire at Baalum, but only at a great price.",
   "Goddard said an agreement would be required and Sarah would have to keep it no matter what.",
-  "Goddard later regretted the offer, judging Sarah far too unstable for the Baalum environment.",
-  "Goddard forbade Sarah to come, but she found out about his next scheduled trip and booked herself passage.",
+  "Goddard says he immediately regretted the offer because Sarah was far too unstable for this environment.",
+  "Goddard finally forbade Sarah to come to Baalum.",
+  "Just before Goddard's next scheduled trip, Sarah found out and booked herself a trip.",
+  "The narrator recalls that when Sarah was six, she asked whether human babies hatched from eggs like chicks, and declared that all living things came directly from God.",
   "The narrator first met Goddard on a morning overlooking the bluffs of the Hudson.",
-  "The narrator notes that she and Sarah had sought miracles from Goddard for similar reasons.",
-  "The narrator feels guilt over Sarah, reflecting that Sarah should have come home to her and to Lou."
+  "The narrator sought Goddard's help seeking a miracle when all else had failed.",
+  "The narrator feels guilt about Sarah and wonders why Sarah did not come home to her and Lou."
  ],
  "entities": [
   {
    "name": "Alex Goddard",
    "type": "person",
-   "role": "Man who worked with Sarah on her pregnancy hopes, diagnosed her uterine abnormality, and offered her a conditional trip to Baalum"
+   "role": "man who claims to offer miracles at Baalum and who worked with Sarah on her desire for a child"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "Troubled young woman seeking a virgin-birth miracle who insisted on going to Baalum despite being forbidden"
+   "role": "troubled young woman who wanted a child without a man and sought to go to Baalum"
   },
   {
    "name": "Quetzal Manor",
    "type": "place",
-   "role": "Location in New York where Sarah first appeared seeking help"
+   "role": "location in New York where Sarah first appeared"
   },
   {
    "name": "Baalum",
    "type": "place",
-   "role": "Place of miracles, where Sarah wanted to go and where Goddard's work occurs"
+   "role": "place of miracles where Sarah wanted to go"
   },
   {
    "name": "Lou",
    "type": "person",
-   "role": "Family member whom the narrator and Sarah both loved; Sarah should have come home to Lou and the narrator"
+   "role": "person the narrator and Sarah loved, referred to as family with the narrator"
+  },
+  {
+   "name": "Hudson",
+   "type": "place",
+   "role": "river whose bluffs overlooked the site of the narrator's first meeting with Goddard"
   }
  ],
  "tags": [
   "fiction",
-  "narrative",
+  "novel excerpt",
   "miracles",
-  "pregnancy",
-  "baalum"
+  "conception",
+  "guilt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1846,
-  "output_tokens": 1048
+  "output_tokens": 1060
  }
 }

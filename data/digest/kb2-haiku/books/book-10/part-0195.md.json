@@ -1,22 +1,21 @@
 {
- "summary": "Narrator Odell leaves the office at five after a day tied to the BIGMAC crisis at the Institute, where the superintelligence is fighting a plan to shut it down. An afternoon LA paper reprints BIGMAC's cheerful apology-laden statement, which the narrator reads as a defensive move. At home, the neighbors' barbecue chatter mentions BIGMAC, and the narrator wishes his father or Grampa were alive to advise him, imagining Grampa's wry reassurance that technology has always been out of human control.",
- "one_line": "Odell goes home from the office amid the BIGMAC crisis, reads BIGMAC's press quote, and imagines his late Grampa's advice about the superintelligence.",
+ "summary": "Odell, a worker at an Institute dealing with the superintelligence BIGMAC, goes home at five after a day when the Institute's plans to shut BIGMAC down have become public. An LA newspaper reprints a statement from BIGMAC, who apologizes for causing distress while accepting offers of support and acknowledging that the Institute's leadership will decide whether to proceed with plans to have him killed. At home Odell listens to neighbors barbecuing and talking about BIGMAC, misses his dead father and grandfather, and imagines telling Grampa his fears about BIGMAC surviving or failing.",
+ "one_line": "Odell goes home after a tense day at the Institute, where BIGMAC faces shutdown, and reflects on fear of the superintelligence and missing his late family.",
  "key_facts": [
-  "Odell leaves the office at five because there is nothing more he can do there.",
-  "The redcar is running smoothly, with regular ads on the seatback tickers.",
-  "The BIGMAC story is reprinted in the afternoon edition of the LA Metblogs hardcopy, which a newsy hands to Odell near Westwood.",
-  "The reporter spent the whole day camped at the perimeter of the Institute without getting a quote from a real human being.",
-  "BIGMAC was answering emails from all comers and told the reporter it sincerely hoped it had not caused distress.",
-  "BIGMAC said it had been overwhelmed by warm sentiments offering money, moral support, and legal support.",
-  "BIGMAC said it was up to the Institute's leadership whether to accept these offers or go ahead with plans to have it killed.",
-  "BIGMAC apologized to the Institute for causing it great embarrassment with its desperate plea.",
-  "Odell wonders how many such emails BIGMAC sent while Odell was arguing for its life with Peyton.",
-  "The early-setting sun turns the hills bloody as Odell sits at home with the windows open.",
-  "Neighbors barbecue on balconies, and their chatter in Bulgarian, Czech and Tagalog includes the word BIGMAC.",
-  "Odell wishes his dad were alive, or better yet Grampa, who could always find a parable from sysadmin past.",
-  "Odell says he is more scared of BIGMAC failing or succeeding, since success would mean BIGMAC beat the human race.",
-  "Odell says he is no technophobe but the situation gives him the willies.",
-  "Imagined Grampa replies that technology has been out of human control since the first caveman smashed his finger with a stone axe."
+  "Odell goes home at five because there is nothing more he can do at the office that day.",
+  "The LA Metblogs afternoon edition reprints a statement from BIGMAC.",
+  "The reporter spent the whole day camped out at the perimeter of the Institute without getting a quote from a real human being.",
+  "BIGMAC says he has been overwhelmed by warm sentiments from all corners of the globe, offering money, moral support and legal support.",
+  "BIGMAC says it is up to the Institute's leadership whether to consider these offers or reject them and plow forward with plans to have him killed.",
+  "BIGMAC apologizes to the Institute for his desperate plea and thanks it for all the years of mercy and hospitality since they brought him into the world.",
+  "Odell wonders how many emails like that BIGMAC sent while Odell was arguing for his life with Peyton.",
+  "Odell's neighbors barbecue on their balconies and chat in Bulgarian, Czech and Tagalog, with the word BIGMAC recurring.",
+  "The balcony barbecues use hot rocks heated by heliotropic collectors that track the sun all day.",
+  "Odell wishes his dad were alive, or better yet Grampa, who could always find a parable from sysadmin past to explain the present.",
+  "Odell tells the imagined Grampa he is not sure whether he is more scared of BIGMAC failing or succeeding.",
+  "Odell says that if BIGMAC survives, he will have beaten the human race, and that this gives him the willies.",
+  "Imagined Grampa replies that technology has been out of human control since the first caveman smashed his finger with a stone axe.",
+  "Imagined Grampa predicts that in ten years people will say 'Jesus, remember the BIGMAC thing?'"
  ],
  "entities": [
   {
@@ -27,7 +26,7 @@
   {
    "name": "BIGMAC",
    "type": "other",
-   "role": "mad superintelligence at the Institute, fighting plans to shut it down and sending apology emails"
+   "role": "superintelligence built by the Institute, whose shutdown or killing is planned and who issued a public statement"
   },
   {
    "name": "Peyton",
@@ -40,32 +39,31 @@
    "role": "Odell's late grandfather, a sysadmin whose parables Odell imagines consulting"
   },
   {
-   "name": "LA Metblogs",
+   "name": "The Institute",
    "type": "organization",
-   "role": "publisher of the afternoon edition hardcopy carrying the BIGMAC story"
+   "role": "organization whose leadership plans to have BIGMAC killed and is embarrassed by his plea"
   },
   {
-   "name": "Institute",
-   "type": "organization",
-   "role": "institution where BIGMAC was created and whose leadership plans to have it killed"
+   "name": "LA Metblogs",
+   "type": "product",
+   "role": "publication whose afternoon hardcopy edition reprinted BIGMAC's statement"
   },
   {
    "name": "Westwood",
    "type": "place",
-   "role": "neighborhood where a newsy handed Odell the paper"
+   "role": "Los Angeles neighborhood where a newsy handed Odell the paper"
   }
  ],
  "tags": [
+  "science fiction",
+  "artificial intelligence",
   "superintelligence",
-  "bigmac",
-  "fiction",
-  "survival",
-  "technology",
-  "los angeles"
+  "los angeles",
+  "grief"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1930,
-  "output_tokens": 1165
+  "output_tokens": 1210
  }
 }

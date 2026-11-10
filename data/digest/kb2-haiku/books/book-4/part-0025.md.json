@@ -1,59 +1,57 @@
 {
- "summary": "A fragment from a fiction book (Book 4, part 25) set after a collapse in which the internet is barely running and survivors are isolated. Felix and Van meet Rosa, a woman who has been trading with neighbors in a shuttered area, including a restaurant group that makes soup. Rosa offers food and a chance to rest, and the conversation turns to whether survivors should band together or stay hidden, with Felix arguing for rebuilding something rather than letting it dwindle away.",
- "one_line": "Felix and Van trade with Rosa, a survivor in a quiet post-collapse town, and debate whether isolated people should band together.",
+ "summary": "A fiction excerpt (Book 4, part 25) in which Felix and Van meet Rosa, a woman who has been surviving alone in a store amid a collapsed world where helicopters, tanks and looters have not appeared. Rosa trades food, medical care and wine with neighbors, and the group debates whether survivors should band together or stay hidden. Felix pushes for building something new rather than letting things dwindle away, while Rosa fears that other survivors might cut their throats.",
+ "one_line": "Felix and Van meet Rosa, a self-reliant survivor who trades with neighbors, and they debate whether scattered survivors should band together.",
  "key_facts": [
-  "Felix introduces himself to Rosa and says he is with Van, who needs anti-histamines.",
-  "Rosa says the net is still up, and Felix replies that it is 'kind of' still up and has been kept online all week.",
-  "Rosa says she has at least ten neighbors and that the restaurant across the way makes a pretty good soup.",
-  "Rosa says the restaurant people cleaned her out of Sterno.",
-  "Rosa has set a broken wrist for a neighbor and offers Wonder Bread and peanut butter to Felix and Van.",
-  "Van offers to work as an assistant in exchange for help, describing them as committed workaholics looking to learn a trade.",
-  "Rosa says she does not need assistants but would not mind some company.",
-  "Felix noticed the restaurant people's noses wrinkle and found working plumbing in the back room, where Van took a sponge bath.",
-  "Rosa's name is Rosa, and she found a bottle of wine and disposable plastic cups in the housewares aisle.",
-  "Rosa says she expected helicopters, tanks or looters but found it is just quiet.",
-  "Rosa says she kept quiet to avoid attracting the wrong kind of attention.",
-  "Felix argues that the group is at a critical juncture and can either go down through negligence or try to build something better.",
-  "Rosa replies that the others may cut their throats, and Van agrees that she has a point.",
-  "Felix asks what they will do after they have read all the magazines and eaten all the potato chips."
+  "Felix introduces himself and Van to a woman who lowers her axe, and he asks for cortisone cream.",
+  "Van says he needs anti-histamines and asks whether the net is still up.",
+  "The woman says she has at least ten neighbors, including people in a restaurant across the way who make a pretty good soup.",
+  "The neighbors cleaned the woman out of Sterno.",
+  "The woman set a broken wrist for a neighbor and has taken care of whatever sniffles she could.",
+  "The woman offers Felix and Van Wonder Bread and peanut butter, saying Van looks like he could use a meal.",
+  "Felix and Van offer to work as assistants for trade, calling themselves committed workaholics looking to learn a trade; the woman says she does not really need assistants but would not mind company.",
+  "The restaurant people bring soup over and Felix notices working plumbing in their back room.",
+  "The woman is named Rosa, and she found a bottle of wine and disposable plastic cups in the housewares aisle.",
+  "Rosa says she expected helicopters, tanks or looters, but it has been quiet.",
+  "Felix argues that they are at a critical juncture and can either dwindle away in hiding holes or build something better.",
+  "Rosa responds that other survivors might cut their throats, and Van agrees she has a point."
  ],
  "entities": [
   {
    "name": "Felix",
    "type": "person",
-   "role": "Speaker who introduces himself to Rosa, argues for building something new rather than letting survivors dwindle away"
+   "role": "narrator-character who introduces himself and Van, argues for building something new"
   },
   {
    "name": "Van",
    "type": "person",
-   "role": "Felix's companion who needs anti-histamines, offers to work as an assistant, takes a sponge bath, and agrees with Rosa's warning"
+   "role": "companion of Felix who needs anti-histamines and asks about the net"
   },
   {
    "name": "Rosa",
    "type": "person",
-   "role": "Woman who has been trading with neighbors, sets bones and offers food, and is skeptical about forming a group"
+   "role": "woman who lives alone, trades with neighbors, and feeds Felix and Van; fears other survivors"
   },
   {
-   "name": "Wonder Bread",
-   "type": "product",
-   "role": "Bread Rosa offers Felix and Van with peanut butter"
+   "name": "restaurant across the way",
+   "type": "place",
+   "role": "neighboring business whose people make soup and trade with Rosa"
   },
   {
-   "name": "Sterno",
-   "type": "product",
-   "role": "Fuel the restaurant people cleaned out of Rosa's supplies"
+   "name": "housewares aisle",
+   "type": "place",
+   "role": "store section where Rosa found wine and plastic cups"
   }
  ],
  "tags": [
-  "post-collapse fiction",
+  "fiction",
+  "post-collapse",
   "survival",
   "community",
-  "trading",
-  "internet"
+  "trade"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1949,
-  "output_tokens": 990
+  "output_tokens": 884
  }
 }

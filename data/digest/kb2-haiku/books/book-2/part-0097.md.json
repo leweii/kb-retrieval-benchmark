@@ -1,63 +1,58 @@
 {
- "summary": "The narrator, fleeing through Los Angeles after leaving a half-drunk bottle with fingerprints and DNA at a grocery store, weighs the risk of being identified and linked to earlier killings, including the deaths of Korean kids at Tresting's office and Rio's massacre of office workers. He decides to go back for the bottles, but finds the area swarming with police cars and a helicopter overhead. Trapped between dumpsters with his escape routes cut off, he considers grenades and violence as Plan B while searching for a better Plan A, reflecting that he rarely targets law enforcement.",
- "one_line": "A fugitive narrator, trapped in a Los Angeles alley by police cars and a helicopter, weighs going back for forensic evidence he left at a grocery store.",
+ "summary": "The narrator, a fugitive, flees across rooftops and alleys after leaving a half-drunk bottle with his fingerprints and DNA at a grocery store, worrying it could link him to the deaths of Korean kids at Tresting's office and to Rio's massacre of office workers. He decides to go back for the bottles, but finds the area swarming with police, with three police cars cutting off the alley and a helicopter overhead. He weighs grenades and shooting his way out against finding a better plan, reluctant to harm law enforcement who are just doing their jobs.",
+ "one_line": "A fugitive narrator, trapped in a Los Angeles alley by police cars and a helicopter, weighs the risk of leaving forensic evidence at a grocery store.",
  "key_facts": [
   "The narrator left a half-drunk bottle of alcohol at a grocery store that carried his fingerprints and DNA.",
-  "The narrator worries that the forensic evidence could put him in the system and link him to the deaths of the Korean kids at Tresting's office.",
-  "The narrator also fears the evidence could link him to Rio's massacre of the office workers.",
-  "The narrator's information may already be in the system from the incident at Arthur's office.",
-  "The narrator decides to go back to the grocery store to grab the bottles because the consequences could be serious.",
+  "The narrator worries the bottle could put him in the system and link him to the deaths of the Korean kids at Tresting's office.",
+  "The narrator also fears a link to Rio's massacre of the office workers.",
+  "The narrator's information was probably already in the system from the incident at Arthur's office.",
+  "The narrator decides to go back to the grocery store to grab the bottles.",
+  "When the narrator returns, the place is already swarming with cops.",
   "Three police cars screech into the alley behind the narrator, cutting off his escape route along the ground.",
-  "A helicopter's low thrum builds steadily, indicating a police air presence overhead.",
+  "A helicopter's low thrum builds steadily over the narrator's position.",
   "The narrator slips between two dumpsters to hide from the police cars.",
-  "The narrator considers his grenades as a way to create enough chaos to escape.",
-  "The narrator labels blasting and shooting his way out as Plan B and says he needs a Plan A.",
-  "The narrator notes that law enforcement has never seemed like fair game as targets to him.",
-  "The narrator says most of his violent encounters did not occur on busy downtown streets with innocent bystanders.",
-  "The narrator has previously done no more than kick the odd uniform in the head while escaping police."
+  "The narrator considers using grenades to create chaos as an escape option, which he calls Plan B.",
+  "The narrator says he has never done more than kick the odd uniform in the head while escaping from police.",
+  "The narrator notes that law enforcement have never seemed like fair game as targets to him, unless they were dicks.",
+  "The narrator is thinking of Tresting when he says he does not always go around killing people."
  ],
  "entities": [
   {
    "name": "Tresting",
    "type": "person",
-   "role": "figure whose office is where the Korean kids were killed, as the narrator recalls being linked to those deaths"
-  },
-  {
-   "name": "Rio",
-   "type": "person",
-   "role": "person associated with a massacre of office workers that the narrator fears being linked to"
+   "role": "figure whose office is linked to the deaths of Korean kids, referenced by the narrator"
   },
   {
    "name": "Arthur's office",
    "type": "place",
-   "role": "location of an earlier incident where the narrator's information may already be in the system"
+   "role": "location of an earlier incident that may already have placed the narrator's information in the system"
   },
   {
    "name": "Tresting's office",
    "type": "place",
-   "role": "office where the Korean kids died, linked in the narrator's mind to the forensic evidence"
+   "role": "office where Korean kids died, which the narrator fears could be linked to his evidence"
   },
   {
-   "name": "Los Angeles",
-   "type": "place",
-   "role": "city where the chase and police response take place"
+   "name": "Rio's massacre",
+   "type": "event",
+   "role": "massacre of office workers that the narrator fears might be linked to him"
   },
   {
-   "name": "grocery store",
-   "type": "place",
-   "role": "supermarket where the narrator left the half-drunk bottle with his fingerprints and DNA"
+   "name": "Los Angeles police",
+   "type": "organization",
+   "role": "uniformed officers who arrive in multiple cars and a helicopter to surround the narrator"
   }
  ],
  "tags": [
-  "thriller",
   "fiction",
-  "crime",
+  "thriller",
   "police chase",
-  "forensic evidence"
+  "forensic evidence",
+  "los angeles"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1858,
-  "output_tokens": 988
+  "output_tokens": 918
  }
 }

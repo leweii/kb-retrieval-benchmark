@@ -1,60 +1,66 @@
 {
- "summary": "In a mall scene, a police officer named Arturo confronts a security guard after robots have been destroyed and electronics fried. Arturo flashes his badge, takes the guard's pepper spray, and sees his phone, sidearm and the guard's devices all disabled by what appears to be infowar equipment. The R Peed unit Ada had led there was fried, and the guard threatens to report Arturo. The passage is a fragment from a larger fiction novel, Book 4, part 56.",
- "one_line": "Arturo, a police officer, clashes with a security guard amid a mall full of fried robots and dead electronics.",
+ "summary": "In a mall, police officer Arturo confronts a security guard after a cluster of robots lies dead and disabled, including two R Peed units, mall-sweepers, a flying cambot and a maintenance robot. A sweeper bot is dragged off by a maintenance bot, then is itself fried, and Arturo's phone battery burns his fingertip. Electronics across the mall, including his UNATS Robotics sidearm, have failed, and Arturo takes the guard's pepper spray and then demands his truncheon. The scene is an excerpt from a larger fiction narrative set in a near-future world run by UNATS.",
+ "one_line": "Arturo, a police officer, confronts a security guard amid a mall full of fried robots and failed electronics in a near-future UNATS-era novel excerpt.",
  "key_facts": [
-  "Arturo flips his badge and shows it to a security guard, speaking in what the note calls his cop-voice.",
-  "The guard has an Oceanic twang, a accent Arturo has been hearing more as crowded South Pacific islands boil over UNATS.",
-  "A pile of dead robots lies before them: both R Peed units, a pair of mall-sweepers, a flying cambot, and a squat octopus-armed maintenance robot.",
-  "A sweeper bot grabs the maintenance bot by a fine manipulator, and the guard tells it to stop, and the robot second-lawed to a halt.",
-  "Arturo thumbs the backup number into his phone, wanting more real cops on the scene fast.",
-  "A crack-bang sound and dimming lights disable the sweeper bot, which lies on the ground.",
-  "Arturo's phone screen has gone charred black and its idiot lights are out; its battery is hot enough to raise a blister on his fingertip.",
-  "The security guard says his own gear is dead too: cash registers, bots, and credit-cards.",
-  "Arturo's UNATS Robotics sidearm, which has a snitch-brain recording when, where and how it is drawn, is frozen in place and dead.",
-  "Arturo demands the guard's pepper spray and truncheon, and takes the pepper spray from the guard's hand.",
-  "The guard refuses at first, saying losing them would cost his job, then says he has Arturo's bloody badge number and witnesses.",
-  "Ada had led the first R Peed unit to the mall, and it was fried by very ugly infowar equipment."
+  "Arturo flipped his badge up and showed it to the security guard, saying \"Police\" in the cop-voice.",
+  "The security guard had an Oceanic twang, a sign of crowded South Pacific islands boiling over UNATS.",
+  "Dead robots in the pile included both R Peed units, a pair of mall-sweepers, a flying cambot, and a squat octopus-armed maintenance robot.",
+  "A sweeper bot grabbed the maintenance bot by a fine manipulator, and the security guard said \"Oi, stoppit,\" causing the robot to second-law halt.",
+  "Arturo told the guard \"No, that's fine, go back to work\" and watched the sweeper bot drag the maintenance unit away.",
+  "When the lights dimmed and a crack-bang sound filled the air, the sweeper bot was lying on the ground.",
+  "Arturo's phone screen had gone charred black and its idiot lights were out, and its battery was hot enough to raise a blister on his fingertip.",
+  "The security guard said \"Mine's dead, too, mate,\" adding that cash registers, bots and credit-cards were all dead.",
+  "Arturo's sidearm was a UNATS Robotics model with a snitch-brain that recorded when, where and how it was drawn, and it was frozen in place.",
+  "Arturo told the guard he would have him deported if he gave him one more second's worth of bullshit.",
+  "Ada had led the first R Peed unit to the scene, and it had been fried by ugly infowar equipment.",
+  "Arturo took the pepper spray from the guard's hand and demanded the truncheon.",
+  "The guard said \"I've got your bloody badge number\" and \"And I've got witnesses.\""
  ],
  "entities": [
   {
    "name": "Arturo",
    "type": "person",
-   "role": "police officer who flashes his badge, confiscates pepper spray and threatens the guard with deportation"
+   "role": "police officer who shows his badge, whose phone and sidearm fail, and who confronts the security guard"
   },
   {
    "name": "Ada",
    "type": "person",
-   "role": "led the first R Peed unit to the mall, which was fried by infowar equipment"
+   "role": "led the first R Peed unit to the scene, which was fried by infowar equipment"
   },
   {
    "name": "UNATS",
    "type": "organization",
-   "role": "entity whose influence the crowded South Pacific islands are boiling over, and whose Robotics division made Arturo's sidearm"
+   "role": "the organization whose Robotics division made Arturo's sidearm and whose rule the crowded South Pacific islands are boiling over"
   },
   {
-   "name": "R Peed",
+   "name": "R Peed units",
    "type": "product",
-   "role": "robot units, two of which are destroyed in the pile of dead robots"
+   "role": "robots, both destroyed, found in the pile of dead robots"
   },
   {
    "name": "mall-sweepers",
    "type": "product",
-   "role": "robots, a pair of which lie dead in the pile"
-  },
-  {
-   "name": "flying cambot",
-   "type": "product",
-   "role": "robot lying dead in the pile"
+   "role": "robots, a pair of which are found dead in the pile"
   },
   {
    "name": "maintenance robot",
    "type": "product",
-   "role": "squat, octopus-armed robot that a sweeper bot drags away"
+   "role": "squat, octopus-armed robot that a sweeper bot tries to drag away and is later lying dead"
   },
   {
-   "name": "security guard",
-   "type": "person",
-   "role": "rent-a-cop with an Oceanic twang who refuses to hand over his truncheon and threatens to report Arturo"
+   "name": "flying cambot",
+   "type": "product",
+   "role": "robot found dead in the pile"
+  },
+  {
+   "name": "sweeper bot",
+   "type": "product",
+   "role": "robot that grabs and drags the maintenance bot and is then fried"
+  },
+  {
+   "name": "South Pacific islands",
+   "type": "place",
+   "role": "crowded islands whose people's Oceanic accent Arturo has been hearing more often"
   }
  ],
  "tags": [
@@ -62,11 +68,12 @@
   "science fiction",
   "robots",
   "police",
-  "infowar"
+  "infowar",
+  "near-future"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1981,
-  "output_tokens": 1124
+  "output_tokens": 1277
  }
 }

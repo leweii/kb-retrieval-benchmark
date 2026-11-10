@@ -1,59 +1,58 @@
 {
- "summary": "The narrator, while working on a film shoot in New York in the rain, is confronted by a menacing man with a shoulder holster and a snub-nosed pistol who objects to what he is doing. The narrator, scared and shaking, calls 911 and threatens to report the man to the police, after which the man walks away and seems to vanish, possibly into a long black car heading toward Broadway. The narrator tells his assistant Arlene to watch for strangers but does not mention the gun, and is left puzzled about why anyone would be so worried about the shoot.",
- "one_line": "A film-shoot crew in rainy New York is confronted by a gun-carrying man who objects to the production, prompting the narrator to call 911.",
+ "summary": "The narrator, a filmmaker shooting on a New York street in the rain, is confronted by a Hispanic man who reveals a shoulder holster and a snub-nosed pistol and angrily tells him he is making a big mistake. Frightened, the narrator calls 911 and threatens to report the man to police over his problem with the New York film industry. The man walks off, possibly into a long black car that speeds toward Broadway. The narrator hides his fear from his crew member Arlene and reflects that the man must be connected to a phone call, though he cannot think of a serious reason anyone would be so worried about the shoot.",
+ "one_line": "A filmmaker on a rainy New York shoot is confronted by an armed, menacing man who warns him off and then disappears.",
  "key_facts": [
-  "The narrator's new Hispanic friend abruptly drew up when he saw the cordial tete-a-tete being about to be disrupted.",
-  "The man wore a shoulder holster under his jacket containing a snub-nosed pistol.",
-  "The narrator thought the man's gun was not a prop.",
-  "The man's eyes were described as dead and merciless as he bored in on the narrator.",
-  "The man said to the narrator: \"I think you are lying.\"",
-  "The man said: \"That is a big mistake.\"",
-  "The narrator was scared, with hand shaking, and dialed 911 on his cell phone.",
-  "The narrator told the man: \"Listen, if you're threatening me with a gun, I'm calling the cops.\"",
-  "The man abruptly turned and strode away as the New York police emergency number was still ringing.",
-  "The man seemed to disappear into the rain, though someone who could have been him got into a long black car down the block and sped toward Broadway.",
-  "The narrator thought Nicky Russo operated by an age-old set of Sicilian rules, unlike this man, whom he judged not to be the rule-book type.",
-  "Arlene said the man looked like a heavy in one of David's old action pictures and that all he needed was a Mack-10.",
-  "The narrator did not mention the gun to Arlene so as not to spook her.",
-  "The narrator could not think of any serious reason why anyone would be so worried about what he was doing."
+  "The narrator sees a shoulder holster under the jacket of his new Hispanic friend, containing a snub-nosed pistol.",
+  "The man bores in relentlessly on the narrator with eyes described as dead and merciless, saying \"That is a big mistake.\"",
+  "The narrator says it is the first time in his life he has stood next to a man who had a gun and was deeply ticked at him.",
+  "The narrator says the man was not threatening him per se but letting him know how strongly he cared about what the narrator was doing.",
+  "The narrator compares the man to Nicky Russo, a figure who operated by an age-old set of Sicilian rules, and says this thug did not seem like the rule-book type.",
+  "With a shaking hand the narrator flicks open his cell phone and punches in 911.",
+  "The narrator tells the man that if he is threatening him with a gun, he is calling the cops, and that the man can explain his problem with the New York film industry to them.",
+  "New York's police emergency number was still ringing when the man abruptly turned and strode away.",
+  "The man seems to vanish into the rain, though someone who could have been him gets into a long black car down the block and speeds off toward Broadway.",
+  "Arlene asks what the creep wanted and comments that he looked like a heavy in one of David's old action pictures, needing only a Mack-10.",
+  "The narrator does not mention the gun to Arlene because he does not want to spook her.",
+  "The narrator plans to warn everybody to keep an eye out for strangers.",
+  "The narrator concludes the man was undoubtedly connected to the phone call but cannot think of any serious reason for anyone to be so worried about the shoot."
  ],
  "entities": [
   {
-   "name": "Arlene",
-   "type": "person",
-   "role": "the narrator's companion who returns with the keys and comments on the man"
-  },
-  {
    "name": "Nicky Russo",
    "type": "person",
-   "role": "a man the narrator believes he might have bluffed, who operated by Sicilian rules"
+   "role": "a figure the narrator compares the man to, who operated by an age-old set of Sicilian rules"
+  },
+  {
+   "name": "Arlene",
+   "type": "person",
+   "role": "crew member who returns with the keys and asks what the creep wanted"
   },
   {
    "name": "David",
    "type": "person",
-   "role": "person whose old action pictures the man resembled a heavy from"
+   "role": "director whose old action pictures the man resembles, according to Arlene"
   },
   {
    "name": "Broadway",
    "type": "place",
-   "role": "street the long black car sped toward"
+   "role": "street toward which the long black car speeds off"
   },
   {
    "name": "New York",
    "type": "place",
-   "role": "city where the film shoot takes place and whose police emergency number the narrator calls"
+   "role": "city where the street shoot takes place and whose film industry the man has a problem with"
   }
  ],
  "tags": [
-  "thriller",
-  "film production",
-  "confrontation",
+  "filmmaking",
   "new york",
-  "fiction excerpt"
+  "confrontation",
+  "fiction",
+  "thriller"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1882,
-  "output_tokens": 925
+  "output_tokens": 1022
  }
 }

@@ -1,68 +1,73 @@
 {
- "summary": "Greg and his friend Maya discuss how automated suspicion and government scrutiny affect people, and Maya offers to 'googleclean' him, a fix she built. Greg, who has been surfing at home after returning from Mexico, notices that his Google text ads and search results differ depending on whether he is logged in. Comparing logged-in and logged-out searches, he finds the results strikingly different, such as a 'democratic primary' search showing anti-Hillary rants when logged in versus DNC volunteering pages when logged out.",
- "one_line": "Greg notices his personalized Google search results diverge sharply when logged in, after his friend Maya offers to 'googlecleaner' him.",
+ "summary": "Greg, after a stint in Mexico, discusses surveillance and automated suspicion with Maya, a DHS-scrutinized former Google engineer who built a 'googlecleaner' tool. Greg accepts her offer to scrub his online footprint. Afterward he notices his personalized search results and ads are strange: ads for ID-themed and religious-right products, and search results for 'democratic primary' that differ sharply depending on whether he is logged into Google. The excerpt is from Book 10, part 46 of a novel.",
+ "one_line": "Greg accepts Maya's offer to 'googleclean' his online profile, then notices his logged-in and logged-out search results diverge sharply.",
  "key_facts": [
-  "Maya tells Greg that once DHS agents fired all non-native-born Americans, the DHS got fatter and stupider.",
-  "Maya says she can 'googleclean' Greg and admits she built the googlecleaner.",
-  "Maya describes her googlecleaner as making her life borrowed time, awaiting discovery by the DHS.",
-  "Greg recalls questioning at the airport, a search, and a bootprint on his shirt.",
-  "Greg says 'Do it' when Maya offers to googleclean him.",
-  "Google text ads that Greg's blocker missed include Intelligent Design Facts, Online Seminary Degree, Terror Free Tomorrow, Porn Blocker Software, and Homosexuality and Satan.",
-  "Greg earlier noticed an Ann Coulter ringtone ad that made it past his eyes into his brain.",
-  "After returning from Mexico, Greg spent two weeks at home surfing and his pre-Mexico belly was reemerging.",
-  "Greg searched for a holistic restaurant and the search engine asked if he meant 'Hungarian Restaurants'.",
-  "Greg printed out pages from his search history and then logged out of his Google account to rerun the same searches.",
-  "A search for 'democratic primary' pointed to anti-Hillary rants on angry blogs when Greg was logged in.",
-  "When logged out, the 'democratic primary' search pointed to information on volunteering for the DNC.",
-  "Maya warns that automated suspicion of anyone matching a statistical picture of a bad guy is a dangerous trend."
+  "Maya offers to 'googleclean' Greg, and Greg agrees to let her do it.",
+  "Maya says she built the googlecleaner and that her expertise and history could bring the DHS to her attention.",
+  "Maya says that once DHS agents fired all non-native-born Americans, the DHS 'got a lot fatter and stupider'.",
+  "Maya describes automated suspicion of anyone who matches a statistical picture of a bad guy.",
+  "Greg recalls questioning at the airport, including a search and a bootprint on his shirt.",
+  "Greg's ads include Intelligent Design Facts, Online Seminary Degree, Terror Free Tomorrow, Porn Blocker Software, and Homosexuality and Satan.",
+  "Greg earlier saw an Ann Coulter ringtone ad that got through his ad blocker.",
+  "After two weeks at home surfing, Greg decides to skip burritos and go to a holistic restaurant Maya recommended.",
+  "A search engine asked Greg 'Did you mean Hungarian Restaurants?' when he searched for holistic restaurants.",
+  "Greg printed search pages, logged out of his Google account, and repeated the same searches to compare results.",
+  "A search for 'democratic primary' led to anti-Hillary rants on angry blogs when Greg was logged in.",
+  "When logged out, the 'democratic primary' search led to information on volunteering for the DNC.",
+  "Maya has a girlfriend and two dogs, and the dogs interrupt their conversation."
  ],
  "entities": [
   {
    "name": "Greg",
    "type": "person",
-   "role": "protagonist who notices personalized search differences and accepts Maya's googleclean offer"
+   "role": "protagonist who worries about government surveillance and notices biased search results"
   },
   {
    "name": "Maya",
    "type": "person",
-   "role": "friend who built the googlecleaner and offers to clean Greg's search results"
+   "role": "former Google engineer who built the googlecleaner and offers to clean Greg's online profile"
   },
   {
    "name": "DHS",
    "type": "organization",
-   "role": "government agency whose agents scrutinize Maya"
+   "role": "government agency whose agents scrutinize Maya and interrogated Greg at the airport"
   },
   {
    "name": "Google",
    "type": "organization",
-   "role": "search engine and ad provider whose results and ads differ for Greg when logged in"
-  },
-  {
-   "name": "DNC",
-   "type": "organization",
-   "role": "Democratic National Committee, whose volunteering information appears in logged-out search results"
-  },
-  {
-   "name": "Ann Coulter",
-   "type": "person",
-   "role": "public figure whose ringtone ad Greg noticed"
+   "role": "search engine and ad platform whose personalized results and ads Greg examines"
   },
   {
    "name": "googlecleaner",
    "type": "product",
-   "role": "tool Maya built to clean up Greg's Google profile"
+   "role": "tool Maya built to scrub a person's online footprint"
+  },
+  {
+   "name": "Ann Coulter",
+   "type": "person",
+   "role": "subject of a ringtone ad that got past Greg's ad blocker"
+  },
+  {
+   "name": "DNC",
+   "type": "organization",
+   "role": "Democratic National Committee, whose volunteer information appeared in logged-out search results"
+  },
+  {
+   "name": "Hillary",
+   "type": "person",
+   "role": "target of anti-Hillary rants that appeared in logged-in search results"
   }
  ],
  "tags": [
-  "fiction",
-  "personalization",
   "surveillance",
-  "search engines",
-  "filter bubble"
+  "search personalization",
+  "fiction",
+  "privacy",
+  "politics"
  ],
- "category": "science & technology",
+ "category": "literature & arts",
  "usage": {
   "input_tokens": 1951,
-  "output_tokens": 1066
+  "output_tokens": 1108
  }
 }

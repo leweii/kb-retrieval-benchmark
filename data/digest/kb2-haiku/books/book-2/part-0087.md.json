@@ -1,66 +1,67 @@
 {
- "summary": "In this excerpt from a fiction novel (Book 2, part 87), narrator Cas Russell parts ways with Tresting in a rundown neighborhood after a tense exchange in which Tresting urges him to change his ways. Alone, Russell reflects that he has begun to care about Arthur despite himself, and resolves to stop. He walks, rides the LA metro to Union Station, and disguises himself with a tourist T-shirt, cap, sunglasses and tote bag to hide his bruises.",
- "one_line": "Cas Russell parts ways with Tresting, admits he has started to care about Arthur, and disguises himself at Union Station in LA.",
+ "summary": "In this excerpt from Book 2, the narrator Cas Russell parts ways with Tresting in a rundown neighborhood after they escape pursuers, including Pithica and the police. Russell feels awkward about the goodbye and reflects with some irritation that he has started to care about Arthur, whom he compares unfavorably to Dawna Polk's social skill. Afterward Russell walks, takes the metro to Union Station, and buys a disguise of an \"I ♥ LA\" shirt, cap, sunglasses and tote bag.",
+ "one_line": "Cas Russell parts ways with Tresting, reflects on caring about Arthur, and disguises himself at Union Station in Los Angeles.",
  "key_facts": [
-  "Tresting tells Russell that Pithica is after him, along with the police and the unnamed guys who want something from Russell.",
-  "Russell pulls off the freeway and parks the van in the seediest-looking neighborhood he can find.",
-  "Tresting wipes his door handle and seatbelt with a napkin as he gets out of the van.",
-  "Tresting thanks Russell for saving his life back at his office, and Russell replies, \"We're even.\"",
-  "Tresting tells Russell, \"You're a good kid. You ain't gotta be like this.\"",
-  "Russell tells Tresting, \"I like how I am just fine.\"",
-  "Russell reflects that Dawna Polk would have known how to say exactly the right thing so that Arthur understood her.",
-  "Russell admits to himself that he had started to care about Arthur, and resolves to stop caring.",
-  "Russell takes the Los Angeles metro line up to Union Station, choosing to travel legally for once.",
-  "At a tourist stand in Union Station, Russell buys an \"I ♥ LA\" T-shirt, a baseball cap, sunglasses, and a tote bag.",
-  "Russell changes clothes in a restroom, and the sunglasses cover most of the bruising on his face."
+  "Tresting tells the narrator he will be fine after the narrator reminds him that Pithica is after him, along with the police and other men.",
+  "The narrator parks the van in the seediest-looking neighborhood he can find and both get out.",
+  "Tresting thanks the narrator for saving his life back at his office, and the narrator replies \"We're even.\"",
+  "Tresting tells the narrator, \"You ain't gotta be like this,\" urging him to change.",
+  "The narrator replies \"I like how I am just fine\" before Tresting walks away.",
+  "The narrator reflects that Dawna Polk has a superpowered human relations ability that would have helped her connect with Arthur.",
+  "The narrator admits that he has started to care about Arthur, whether he lives or dies and what he thinks.",
+  "The narrator decides the solution is to stop caring about Arthur and to never make that mistake again.",
+  "The narrator walks for a while and then takes the metro, which he had tended to forget Los Angeles had.",
+  "The narrator rides the metro line up to Union Station.",
+  "At a tourist stand in Union Station, the narrator buys a large \"I ♥ LA\" T-shirt, a baseball cap, sunglasses, and a tote bag.",
+  "The sunglasses cover half the narrator's face, including most of the bruising."
  ],
  "entities": [
   {
-   "name": "Cas Russell",
-   "type": "person",
-   "role": "narrator and protagonist, who parts ways with Tresting and reflects on caring about Arthur"
-  },
-  {
    "name": "Tresting",
    "type": "person",
-   "role": "character who tells Russell to change his ways and walks away after they part"
+   "role": "companion of the narrator who parts ways with him after they escape, and whose life the narrator saved at his office"
   },
   {
-   "name": "Arthur",
+   "name": "Cas Russell",
    "type": "person",
-   "role": "character Russell cares about and whose attitude had caused issues with Russell"
-  },
-  {
-   "name": "Dawna Polk",
-   "type": "person",
-   "role": "character with a superpowered human relations ability that Russell envies"
+   "role": "narrator who parks the van, reflects on Arthur, and buys a disguise at Union Station"
   },
   {
    "name": "Pithica",
    "type": "organization",
-   "role": "party pursuing Russell, according to Tresting"
+   "role": "party pursuing Tresting and the narrator"
+  },
+  {
+   "name": "Arthur",
+   "type": "person",
+   "role": "figure the narrator has started to care about and whose attitude toward the narrator is an issue"
+  },
+  {
+   "name": "Dawna Polk",
+   "type": "person",
+   "role": "character with a superpowered human relations ability that the narrator envies"
   },
   {
    "name": "Union Station",
    "type": "place",
-   "role": "train station in LA where Russell buys a disguise at a tourist stand"
+   "role": "Los Angeles station where the narrator stops at a tourist stand to buy a disguise"
   },
   {
-   "name": "LA metro system",
-   "type": "program",
-   "role": "transit system Russell rides to Union Station"
+   "name": "I ♥ LA",
+   "type": "product",
+   "role": "large, obnoxious T-shirt the narrator buys as a disguise"
   }
  ],
  "tags": [
   "fiction",
-  "novel excerpt",
-  "crime thriller",
+  "book 2",
+  "los angeles",
   "character development",
-  "los angeles"
+  "escape"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1918,
-  "output_tokens": 955
+  "output_tokens": 1020
  }
 }

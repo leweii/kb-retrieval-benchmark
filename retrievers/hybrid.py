@@ -55,9 +55,9 @@ def rrf(lists: list[tuple[list[Chunk], float]], bonus: bool = False) -> list[tup
 class Hybrid:
     """R3: BM25 + dense, plain RRF."""
 
-    def __init__(self, corpus: str):
-        self.bm25 = BM25Index(corpus)
-        self.dense = DenseIndex(corpus)
+    def __init__(self, corpus: str, bm25: BM25Index | None = None, dense: DenseIndex | None = None):
+        self.bm25 = bm25 or BM25Index(corpus)  # pass shared, already-loaded indexes to avoid reloading
+        self.dense = dense or DenseIndex(corpus)
 
     def search(self, query: str, k: int = 20) -> SearchResult:
         t = time.time()
@@ -93,8 +93,9 @@ EXPANSION_SCHEMA = {
 class EnhancedHybrid(Hybrid):
     """R4: QMD-style expansion + RRF + rerank + position-aware blend. Flags allow P1 ablations."""
 
-    def __init__(self, corpus: str, expand: bool = True, rerank: bool = True):
-        super().__init__(corpus)
+    def __init__(self, corpus: str, expand: bool = True, rerank: bool = True,
+                 bm25: BM25Index | None = None, dense: DenseIndex | None = None):
+        super().__init__(corpus, bm25, dense)
         self.expand, self.rerank_on = expand, rerank
         self.claude = anthropic.Anthropic(max_retries=5)
         self.http = httpx.Client(timeout=60)

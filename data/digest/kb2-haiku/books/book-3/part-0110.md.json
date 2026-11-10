@@ -1,43 +1,40 @@
 {
- "summary": "The narrator recounts to her companion, who is pondering in a thoughtful mood, her findings about Alex Goddard and Quetzal Manor, Colonel Ramos's threats against her and Carly over her film, and her belief that Ramos and his men roughed up Lou and took Sarah. The companion calls it a case of selling kids and suggests the Ninos del Mundo clinic is where Ramos took Sarah. He describes press reports of Americans attacked in Guatemala on suspicion of kidnapping Maya children for adoption, while the narrator insists the babies she saw at Quetzal Manor are not kidnapped Indian children. He warns about Guatemala's army and its 'disappeared' victims, and the passage ends with him referring to his pictures.",
- "one_line": "In Guatemala, the narrator tells her companion about Alex Goddard, Quetzal Manor, Colonel Ramos, and the suspicion that Sarah was taken for child selling.",
+ "summary": "In this excerpt from Book 3, the narrator and her companion sit under a tropical starry sky and she recounts her investigation into Alex Goddard, Quetzal Manor, and Colonel Ramos, whom she suspects roughed up Lou and took Sarah. She believes the babies at Quetzal Manor are tied to Goddard's clinic, Ninos del Mundo, where Ramos may have taken Sarah. The companion calls it a case of selling kids, notes press stories about Americans accused of kidnapping Maya children for adoption, and warns about Guatemala's history of people being 'disappeared' by the Army in the late 1980s.",
+ "one_line": "The narrator details her suspicions about Alex Goddard, Quetzal Manor, and Colonel Ramos in Guatemala, linking them to missing children and Sarah's disappearance.",
  "key_facts": [
-  "The narrator looked up at the canopy of stars, where the hunter and his sword dominated the sky like a stalwart centurion.",
-  "The narrator said, \"I always know I'm in the tropics when it's right overhead.\"",
-  "The narrator told her companion about her findings on Alex Goddard and Quetzal Manor.",
-  "The narrator described how Colonel Ramos had threatened Carly and her about her film.",
-  "The narrator believed Colonel Ramos and a couple of his goons roughed up Lou and took Sarah.",
-  "The companion said the situation sounded like a classic case of selling kids, which he ranked with murder and grand larceny.",
-  "The narrator believed Alex Goddard's clinic was tied in with the situation, the place Sarah called Ninos del Mundo on her landing card.",
-  "The companion said there had been press stories over the last few years about Americans attacked in Guatemala on suspicion of trying to kidnap Maya children for adoption.",
-  "The companion said he had never seen proof of the kidnapping accusations and thought dumb gringos who misread the culture might be responsible.",
-  "The narrator said the babies she saw at Quetzal Manor were \"Caucasian as vanilla snow cones\" and not kidnapped Indian children.",
-  "The companion said that when a Guatemalan colonel is behind something, one should think twice about how many rocks to turn over.",
-  "The narrator said a man at the embassy named Barry Morton had said something similar to her.",
-  "The companion said Guatemala turned the word 'disappear' into a new kind of verb, with people 'disappeared.'",
-  "The companion said he knew some of the disappeared people back in the late eighties.",
-  "The companion described an Army truck rolling into a village at night, after which a few Maya were never heard from again."
+  "The narrator says she recounted her findings about Alex Goddard and Quetzal Manor to her companion.",
+  "The narrator says Colonel Ramos threatened her and Carly about her film.",
+  "The narrator believes Colonel Ramos and a couple of his goons roughed up Lou and took Sarah.",
+  "Sarah called the place Ninos del Mundo on her landing card.",
+  "The narrator believes Alex Goddard's clinic is tied to the scheme and that Ramos has taken Sarah there.",
+  "The companion says the situation sounds like a classic case of selling kids, a crime he puts up there with murder and grand larceny.",
+  "The companion notes press stories over the last few years about Americans attacked in Guatemala on suspicion of trying to kidnap Maya children for adoption.",
+  "The narrator says the babies she saw at Quetzal Manor are not kidnapped Indian children and are 'Caucasian as vanilla snow cones.'",
+  "A man at the embassy named Barry Morton told the narrator to be careful about turning over rocks in Guatemala.",
+  "The companion says Guatemala turned the word 'disappear' into a new kind of verb.",
+  "The companion says he knew some people who were 'disappeared' in the late eighties after an Army truck rolled into a village.",
+  "The companion says he has never seen proof of the kidnapping-for-adoption accusations against Americans."
  ],
  "entities": [
   {
    "name": "Alex Goddard",
    "type": "person",
-   "role": "figure whose findings the narrator reports, linked to Quetzal Manor and a clinic"
+   "role": "figure whose clinic and Quetzal Manor the narrator investigated"
   },
   {
    "name": "Quetzal Manor",
    "type": "place",
-   "role": "location where the narrator saw babies and which is tied to Alex Goddard"
+   "role": "location where the narrator saw babies she believes are tied to the scheme"
   },
   {
    "name": "Colonel Ramos",
    "type": "person",
-   "role": "Guatemalan colonel who threatened the narrator and Carly over her film and is suspected of roughing up Lou and taking Sarah"
+   "role": "Guatemalan colonel who threatened the narrator and Carly and is suspected of roughing up Lou and taking Sarah"
   },
   {
-   "name": "Carly",
+   "name": "Sarah",
    "type": "person",
-   "role": "companion of the narrator who was threatened by Colonel Ramos"
+   "role": "missing person taken by Ramos's men, per the narrator's belief"
   },
   {
    "name": "Lou",
@@ -45,9 +42,9 @@
    "role": "person roughed up by Colonel Ramos and his goons"
   },
   {
-   "name": "Sarah",
+   "name": "Carly",
    "type": "person",
-   "role": "person taken by Colonel Ramos and his goons; called Ninos del Mundo on her landing card"
+   "role": "companion of the narrator who was threatened by Colonel Ramos about the narrator's film"
   },
   {
    "name": "Ninos del Mundo",
@@ -57,19 +54,30 @@
   {
    "name": "Barry Morton",
    "type": "person",
-   "role": "man at the embassy who said something similar to the narrator"
+   "role": "person at the embassy who warned the narrator about turning over rocks"
+  },
+  {
+   "name": "Maya",
+   "type": "other",
+   "role": "Indigenous children allegedly targeted for adoption, and villagers who were disappeared"
+  },
+  {
+   "name": "Army",
+   "type": "organization",
+   "role": "Guatemalan Army whose truck rolled into a village in the late eighties during disappearances"
   }
  ],
  "tags": [
   "guatemala",
-  "child trafficking",
+  "kidnapping",
   "adoption",
-  "political violence",
-  "mystery fiction"
+  "investigation",
+  "human trafficking",
+  "fiction"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1930,
-  "output_tokens": 1333
+  "output_tokens": 1263
  }
 }

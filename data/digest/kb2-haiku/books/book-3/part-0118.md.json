@@ -1,40 +1,41 @@
 {
- "summary": "In this fiction excerpt from a book's third part, the narrator Morgan receives a phone call from Alan announcing that their trip must leave today despite the storm. Morgan suspects a setup, reasoning that someone wants him out of town and that the change confirms he is on Sarah's trail. Alan's explanations seem evasive, and Morgan pushes him for the real reason. Alan refuses to let Morgan make a phone call to Steve or settle the hotel bill, and insists he be out front in nineteen minutes.",
- "one_line": "Morgan, suspecting a setup, is pressed by Alan to leave town immediately in a storm while pursuing the trail of Sarah.",
+ "summary": "Morgan, a narrator who suspects a setup, takes a phone call from Alan saying their trip must leave today despite the storm. Morgan believes Alan is lying and is being used to get Morgan out of town, which confirms the narrator is on Sarah's trail. Alan refuses to explain, rushes Morgan, and forbids a phone call to Steve, demanding Morgan be out front in nineteen minutes. The excerpt is part 118 of Book 3 of a fiction work.",
+ "one_line": "Morgan suspects a setup when Alan suddenly insists they leave for the mountains today despite the storm, and is rushed out without making a call.",
  "key_facts": [
-  "Morgan is drying her hair in a large beige towel when the phone rings again.",
-  "Alan says there has been a small change of plans and that they must go up today, storm or no.",
-  "Morgan believes she is being set up because the weather still looks threatening through the curtain.",
-  "Morgan concludes that the sudden trip confirms she is on the trail of Sarah.",
-  "Morgan plans to call New York and check out the local Ninos del Mundo that Barry Morton wanted her to see.",
+  "Morgan is drying hair in a large beige towel when the phone rings again.",
+  "Alan calls and says there has been a small change of plans and they must go up today, storm or no.",
+  "Morgan believes the sudden change is a setup, because someone wanted Morgan out of town.",
+  "Morgan concludes the setup confirms being on the trail of Sarah.",
+  "Morgan plans to call New York and check the local Ninos del Mundo that Barry Morton wanted Morgan to see.",
+  "Morgan tests Alan by pointing out that Alan had earlier declared there was no way they would go today.",
   "Alan claims something heavy has come up for tomorrow, so it must be now or forget it for at least a week.",
-  "Morgan says Alan had declared there was no way they would go today.",
-  "Alan says he wants to check the address of the Ninos del Mundo in town and possibly cruise by if there is time.",
-  "Morgan asks Alan for the real story, and he replies that everything has changed.",
-  "Morgan wants Steve to know where she is and plans to tell the desk she is not skipping the bill.",
-  "Alan refuses the phone call and tells Morgan to be out front in exactly nineteen minutes.",
-  "Alan tells Morgan that this is not a dry run."
+  "Morgan asks to first see a place in town also called Ninos del Mundo.",
+  "Alan says to get the address and maybe they can cruise by if there is time.",
+  "Morgan asks Alan for the real story, and Alan insists everything has changed.",
+  "Morgan wants to phone Steve so Steve knows where Morgan is.",
+  "Alan forbids the phone call, saying there is no time and it can be done after they get back.",
+  "Alan orders Morgan to be out front in exactly nineteen minutes and says this is not a dry run."
  ],
  "entities": [
   {
    "name": "Morgan",
    "type": "person",
-   "role": "narrator who suspects she is being set up and is pursuing Sarah"
+   "role": "narrator who suspects a setup and is being taken out of town"
   },
   {
    "name": "Alan",
    "type": "person",
-   "role": "caller who announces the change of plans to travel today"
+   "role": "caller who insists they must leave for the trip today"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "person Morgan believes she is trailing"
+   "role": "person Morgan is trying to find, whose trail Morgan believes is being followed"
   },
   {
    "name": "Steve",
    "type": "person",
-   "role": "person Morgan wants to inform of her whereabouts"
+   "role": "person Morgan wants to call to let know where Morgan is"
   },
   {
    "name": "Barry Morton",
@@ -54,14 +55,14 @@
  ],
  "tags": [
   "fiction",
+  "mystery",
   "suspense",
   "setup",
-  "storm travel",
-  "mystery"
+  "thriller"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1851,
-  "output_tokens": 892
+  "output_tokens": 921
  }
 }

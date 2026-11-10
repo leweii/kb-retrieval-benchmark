@@ -1,54 +1,56 @@
 {
- "summary": "A first-person narrator from Cory Doctorow's Little Brother (Book 1, part 95) recounts a night at the beach after a mishap with smashed electronics. He and Ange walk to the sea in the dark, where he soaks the ruined device bag in salt water; she steadies him on slippery rocks, and they share a wordless, almost spiritual moment without kissing. The passage closes with the group riding Muni home, where Xnetters clone Muni passes to avoid being tracked.",
- "one_line": "A narrator and Ange soak smashed electronics in seawater at night, share a charged silent moment, then ride Muni home on cloned passes.",
+ "summary": "A first-person narrator from Cory Doctorow's Little Brother-style fiction (labeled Book 1, part 95) recounts a night after a setback where he and Ange march a bag of smashed electronics to the sea to soak it in salt water. On the dark, slippery rocks Ange catches him, and they share a wordless, spiritual moment without kissing. The narrator then plans to sign and publish his keys to start a web of trust, and the passage ends with the group riding Muni, where Xnetters clone transit passes to ride anonymously.",
+ "one_line": "The narrator and Ange soak smashed electronics in the sea at night, share a charged silent moment, then ride Muni on cloned passes.",
  "key_facts": [
-  "The narrator marches a bag of smashed electronics down to the sea and soaks it in salt water for ten minutes.",
-  "The bag holds about six pounds of smashed electronics.",
-  "Ange takes the narrator's arm in her warm hand and says, \"That was beautiful,\" in his ear before they walk to the sea together.",
-  "It is perfectly dark by the sea, and the rocks are slippery and sharp, even with keychain lights.",
-  "Ange catches the narrator with a surprisingly strong grip when he slips and nearly cuts himself on the rocks.",
-  "The narrator smells Ange's perfume, which smells like new cars, and he says he loves that smell.",
-  "Ange wears mannish, black-rimmed glasses that magnify her big eyes, and has dark hair and an olive complexion.",
-  "At that point the narrator has kissed a total of three girls in his life.",
-  "The narrator does not kiss Ange or take her hand; they instead share a moment he describes as spiritual.",
-  "The narrator has a lot of typing to do that night, putting keys onto his keychain, signing them and publishing the signed keys to start the web of trust.",
-  "Jolu waits for his brother's friend to pick up his coolers after the group returns.",
-  "The narrator walks with everyone up the road to the nearest Muni stop and boards.",
-  "None of the group is using an issued Muni pass.",
-  "Xnetters habitually clone someone else's Muni pass three or four times a day, assuming a new identity for every ride."
+  "The narrator marches a bag of smashed electronics down to the sea to soak it in salt water for ten minutes.",
+  "Ange takes the narrator's arm and says \"That was beautiful\" in his ear before they walk to the sea together.",
+  "It was perfectly dark by the sea, and the rocks were slippery and sharp, with the group using keychain lights.",
+  "The bag of smashed electronics weighed about six pounds.",
+  "Ange catches the narrator with a surprisingly strong grip when he slips and keeps him upright.",
+  "The narrator says he could smell Ange's perfume, which smelled like new cars.",
+  "Ange wears mannish, black-rimmed glasses that magnify her big eyes.",
+  "The narrator had kissed a total of three girls in his life before this night.",
+  "The narrator did not kiss Ange or take her hand; they shared a moment he describes as spiritual.",
+  "The narrator has a lot of typing to do that night, putting keys onto his keychain, signing them and publishing the signed keys.",
+  "The narrator's plan of signing and publishing keys is described as starting the web of trust.",
+  "Jolu waited for his brother's friend to come pick up his coolers.",
+  "The group walked up the road to the nearest Muni stop and boarded a train or bus.",
+  "None of the group used an issued Muni pass.",
+  "Xnetters habitually cloned someone else's Muni pass three or four times a day, assuming a new identity for every ride."
  ],
  "entities": [
   {
    "name": "Ange",
    "type": "person",
-   "role": "girl who takes the narrator's arm, walks with him to the sea, and steadies him on the rocks"
+   "role": "girl who takes the narrator's arm, catches him on the rocks, and walks with him to the sea; wears black-rimmed glasses"
   },
   {
    "name": "Jolu",
    "type": "person",
-   "role": "person who waits for his brother's friend to pick up coolers after the beach trip"
+   "role": "character who waits for his brother's friend to pick up coolers"
   },
   {
    "name": "Muni",
    "type": "organization",
-   "role": "transit system whose stop the group walks to and whose passes Xnetters clone"
+   "role": "transit system whose stop the group walks to and whose passes are cloned by Xnetters"
   },
   {
    "name": "Xnetters",
    "type": "organization",
-   "role": "group that habitually clones other people's Muni passes to assume new identities for each ride"
+   "role": "group that habitually clones Muni passes to assume new identities for each ride"
   }
  ],
  "tags": [
-  "little brother",
   "fiction",
-  "coming of age",
-  "surveillance",
-  "xnetters"
+  "young adult novel",
+  "cryptography",
+  "web of trust",
+  "san francisco",
+  "transit"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1853,
-  "output_tokens": 929
+  "output_tokens": 938
  }
 }

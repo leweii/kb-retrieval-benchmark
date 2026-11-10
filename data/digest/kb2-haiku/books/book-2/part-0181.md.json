@@ -1,37 +1,37 @@
 {
- "summary": "An excerpt from a fiction novel (labeled Book 2, part 181) in which the antagonist Dawna tells Rio that she and her colleagues have decided to kill him because he proved a liability rather than an asset to their research. Dawna says she will only incapacitate him with a Taser and have a troop finish the job, and she describes him as a fascinating research subject. When she fires the Taser, Rio collapses, and the narrator, after Arthur's gun hand twitches, knocks Arthur unconscious with an elbow strike and keeps Dawna in view.",
- "one_line": "In a fiction excerpt, Dawna has decided to kill Rio as a failed research subject, but the narrator intervenes by knocking out the armed Arthur.",
+ "summary": "An excerpt from a fiction novel (labeled Book 2, part 181) in which Dawna, a cold, scientifically curious antagonist, informs Rio that his colleagues have decided he is a liability and that he will be killed. She tells him she will only incapacitate him with a Taser and have a troop finish the job later, while Rio mocks her failed recruitment efforts. Dawna fires the Taser, Rio collapses, and the narrator, who has been held at gunpoint by Arthur, seizes the moment when Arthur's gun hand twitches to strike him in the temple and disarm the threat.",
+ "one_line": "In a tense scene from Book 2, Dawna tasers the captive Rio after declaring him a liability, and the narrator knocks out Arthur to stop the gunfire.",
  "key_facts": [
-  "Dawna tells Rio that her colleagues deemed his lack of success in harnessing his power indicative, and that he is a liability with too little potential for turning to an asset.",
+  "Dawna tells Rio that her colleagues deemed his lack of success in recruitment indicative and that he is a liability with too little potential to become an asset.",
   "Rio says, \"In simpler language, you are going to kill me.\"",
   "Dawna says she will not kill Rio herself because she does not have the stomach for such acts.",
-  "Dawna retrieves a Taser from one of the fallen troops in the doorway.",
-  "Dawna says Mr. Tresting is otherwise occupied and that convincing Ms. Russell to do it would take more time and energy than they have.",
-  "Dawna says, \"I will not be sorry for your death,\" and calls Rio's death far less than he deserves.",
-  "Dawna describes Rio as \"a most fascinating subject of research\" and says the recruitment efforts failed in his case.",
-  "Dawna tells Rio, \"I regard it as something of a personal failure that our recruitment efforts have failed in your case.\"",
-  "Rio agrees the recruitment efforts failed \"Quite spectacularly so.\"",
-  "Dawna fires the Taser at Rio, who jerks, stiffens, and collapses.",
-  "Arthur's gun hand twitches, and the narrator notes the movement is far enough for the narrator to act on.",
+  "Dawna says Mr. Tresting is otherwise occupied and that convincing Ms. Russell to do the killing would take more time and energy than they have.",
+  "Dawna says she will only incapacitate Rio and that a troop will finish the job as soon as one can be spared.",
+  "Dawna tells Rio, \"I will not be sorry for your death,\" adding that his death is far less than he deserves.",
+  "Dawna calls Rio a most fascinating subject of research and says it is a personal failure that recruitment efforts failed in his case.",
+  "Rio agrees that the recruitment efforts failed \"Quite spectacularly so.\"",
+  "Dawna says she regrets that this is their last conversation, calling it a victory in a moral sense but not a scientific one.",
+  "Dawna fires a Taser at Rio, who jerks, stiffens and collapses.",
+  "Arthur's gun hand twitches, moving only slightly but enough for the narrator to act.",
   "The narrator slips to the side and smashes an elbow into Arthur's temple, and Arthur crumples.",
   "The narrator's finger stops half a millimeter from firing the gun.",
-  "Dawna is gazing at the narrator, fearless and searching, while Rio lies prone and forgotten at her feet."
+  "Dawna is left gazing at the narrator, fearless and searching, with Rio prone and forgotten at her feet."
  ],
  "entities": [
   {
    "name": "Dawna",
    "type": "person",
-   "role": "antagonist who decides to kill Rio and fires the Taser at him"
+   "role": "antagonist who decides Rio must be killed and fires the Taser at him"
   },
   {
    "name": "Rio",
    "type": "person",
-   "role": "captive whose power Dawna's group tried to harness and who is Dawna's research subject"
+   "role": "captive who is told he will be killed and is tasered by Dawna"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "armed man holding the narrator at bay with a gun, knocked unconscious by the narrator"
+   "role": "armed man holding the narrator at gunpoint until the narrator strikes him"
   },
   {
    "name": "Mr. Tresting",
@@ -41,19 +41,19 @@
   {
    "name": "Ms. Russell",
    "type": "person",
-   "role": "person Dawna considers asking to kill Rio, which she deems too time-consuming"
+   "role": "person Dawna considers asking to carry out the killing"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
-  "captivity",
-  "taser",
-  "confrontation"
+  "confrontation",
+  "novel excerpt",
+  "hostage scene"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1925,
-  "output_tokens": 1028
+  "output_tokens": 1029
  }
 }

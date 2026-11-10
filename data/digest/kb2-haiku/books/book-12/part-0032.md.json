@@ -1,64 +1,59 @@
 {
- "summary": "Lexy, staying at Mrs. Royce's house, watches Captain Grey walk off through the rain and admires him, but her thoughts keep returning to Mr. Houseman, whom she barely knows and who wrote her a stiff, offended letter after a brief meeting about Caroline Enderby. Mrs. Royce, delighted by Lexy's friendliness, sets up the sewing room as a writing room, though Lexy had falsely claimed to be a writer the night before. Lexy then begins a letter to Mr. Houseman telling him what she knows about Caroline's disappearance.",
- "one_line": "Lexy, pretending to be a writer at Mrs. Royce's house, thinks of Mr. Houseman and starts a letter about Caroline's disappearance.",
+ "summary": "Lexy, staying at Mrs. Royce's house, watches Captain Grey walk off in the rain, comparing him unfavorably in her thoughts to Mr. Houseman, whom she has met only briefly and who wrote her a stiff, offended letter. Mrs. Royce, who believes Lexy is a writer, sets up the sewing room as a writing space and leaves her alone there. Lexy, who had falsely claimed to be a writer the night before, sits down to write a letter to Mr. Houseman telling him what she knows about Caroline's disappearance.",
+ "one_line": "Lexy, hosted by Mrs. Royce and pretending to be a writer, thinks fondly of Mr. Houseman and writes him about Caroline's disappearance.",
  "key_facts": [
-  "Captain Grey walks off up the muddy road in the rain, looking curiously elegant in his wet weather clothes.",
-  "Lexy admires Captain Grey with friendliness and appreciation but does not think of him as Mrs. Royce imagines.",
-  "Lexy thinks Captain Grey is awfully nice and handsome and absolutely trustworthy and honorable, but he cannot be compared to Mr. Houseman.",
-  "Lexy knows practically nothing about Mr. Houseman and talked with him for five or ten minutes in the park.",
-  "Mr. Houseman's conversation in the park was entirely about Caroline Enderby.",
-  "Mr. Houseman showed himself to be quick-tempered and sadly lacking in patience.",
+  "Captain Grey strides off up the muddy road in the rain, looking curiously elegant in his wet weather clothes.",
+  "Lexy thinks Captain Grey is awfully nice and awfully handsome and believes he is absolutely trustworthy and honorable.",
+  "Lexy had talked with Mr. Houseman for five or ten minutes in the park, and his conversation was entirely about Caroline Enderby.",
+  "Mr. Houseman is described as quick-tempered and sadly lacking in patience.",
   "Mr. Houseman wrote Lexy a stiff, offended, boyish letter and then disappeared.",
-  "Mrs. Royce has fixed up the sewing room for Lexy as a writing room with a nice strong table with drawers.",
-  "Lexy calls Mrs. Royce a dear, saying it because she thinks it and without calculation.",
-  "Mrs. Royce says her cousin's husband was writing for the movies and was very upset if disturbed.",
+  "Lexy hopes very much to see Mr. Houseman again, though she has no sensible reason to.",
+  "Mrs. Royce believes Lexy is a writer and says she has fixed up the sewing room for her writing.",
   "Lexy had told a shocking falsehood the night before by claiming to be a writer.",
-  "Lexy shuts herself in the small room and sits before the workmanlike table, grinning ruefully.",
-  "Lexy finds writing letters easy because she writes only when she has something to say, then says it briefly and lucidly.",
-  "Lexy begins a letter to Mr. Houseman telling him all she knows about Caroline's disappearance."
+  "Mrs. Royce has put a nice strong table with drawers in the sewing room for Lexy's papers.",
+  "Lexy calls Mrs. Royce a dear, saying so because she thinks it and liking people makes her tell them so.",
+  "Mrs. Royce says her cousin's husband was writing for the movies and became upset when disturbed.",
+  "Mrs. Royce shuts Lexy in the small upstairs room to work.",
+  "Lexy finds it easy to write letters because she writes only when she has something to say.",
+  "Lexy decides to use the time to write to Mr. Houseman and tell him all she knows about Caroline's disappearance."
  ],
  "entities": [
   {
    "name": "Lexy",
    "type": "person",
-   "role": "protagonist who admires Captain Grey, thinks of Mr. Houseman, and is given a writing room by Mrs. Royce"
-  },
-  {
-   "name": "Mrs. Royce",
-   "type": "person",
-   "role": "hostess who is charmed by Lexy and sets up the sewing room for her writing"
+   "role": "protagonist who is staying with Mrs. Royce and pretends to be a writer"
   },
   {
    "name": "Captain Grey",
    "type": "person",
-   "role": "man who walks off up the muddy road in the rain and is admired by Lexy as nice and handsome"
+   "role": "man Lexy watches walk off in the rain; Lexy thinks he is handsome and honorable"
+  },
+  {
+   "name": "Mrs. Royce",
+   "type": "person",
+   "role": "hostess who believes Lexy is a writer and fixes up the sewing room for her"
   },
   {
    "name": "Mr. Houseman",
    "type": "person",
-   "role": "quick-tempered man Lexy met briefly in the park, who wrote her a stiff letter and then disappeared; she writes to him about Caroline's disappearance"
+   "role": "quick-tempered man Lexy met briefly in the park, who wrote her a stiff letter and then disappeared; Lexy writes to him"
   },
   {
    "name": "Caroline Enderby",
    "type": "person",
-   "role": "woman who disappeared and was the subject of Mr. Houseman's conversation with Lexy"
-  },
-  {
-   "name": "Mrs. Royce's cousin's husband",
-   "type": "person",
-   "role": "former movie writer who was upset when disturbed while writing"
+   "role": "missing woman whose disappearance is the subject of Mr. Houseman's conversation and Lexy's letter"
   }
  ],
  "tags": [
   "fiction",
-  "romance",
+  "novel excerpt",
   "mystery",
   "character study",
-  "letter writing"
+  "caroline enderby"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1974,
-  "output_tokens": 1174
+  "output_tokens": 1088
  }
 }

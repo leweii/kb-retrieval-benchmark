@@ -1,57 +1,46 @@
 {
- "summary": "A first-person excerpt from a fiction novel (Book 14, part 133) in which the narrator, after disabling a sleeping man named Simon, searches his apartment. She has stowed herself in a room, grabbed a knife, copied his stored videos and photos to her computer via his iPhone, and is now trying passcodes on a second phone she found in his pocket. The tense, claustrophobic scene is built around fear, waiting, and quick decisions.",
- "one_line": "A tense fiction excerpt where the narrator, alone with a drugged or unconscious Simon, copies data from his phones.",
+ "summary": "An excerpt from a fiction manuscript (labeled Book 14, part 133) in which a first-person narrator, frightened, has gotten away from a sleeping or drugged man named Simon in his apartment. She sprays him with Axe, considers weapons, waits behind a locked bathroom door until a record stops, then retrieves a knife and checks on him. Back inside after stepping onto the porch, she copies his videos and photos from his iPhone to her computer, then searches his pockets for a second phone and tries passwords to unlock it.",
+ "one_line": "A frightened narrator secretly copies a sleeping man's phone data and tries passcodes to unlock his second phone.",
  "key_facts": [
-  "The narrator switched off her camera and looked for a weapon, considering a can of Axe spray and a shard from the spotty mirror over the sink.",
-  "The narrator found a knife beside the sink and held it along with the can of Axe spray as she went to the bedroom.",
-  "Simon was curled up on the bed and did not move when the narrator nudged him with the toe of her boot, which felt like poking a sandbag.",
-  "The narrator unbolted the door, grabbed her bag and coat, and stood outside on the porch still holding the knife.",
-  "Simon's iPhone was sticking out of his back pocket, and the narrator drew it out with her finger and thumb.",
-  "The narrator plugged Simon's iPhone into her computer using its USB cable and logged in with his passcode.",
-  "The narrator dragged all of Simon's stored videos and photos to her desktop but could not copy his message files or contacts.",
-  "The narrator remembered that Katie lives next to the Semper Opera House.",
-  "Simon had slid a second phone into his right pocket, the side he was lying on.",
-  "The narrator rolled Simon onto his back, and he groaned and then started to snore.",
-  "When the narrator powered on the second phone, it asked for a password.",
-  "The narrator tried the passcodes \"njme\" and \"simonisgr8\" without success."
+  "The narrator remembered to switch off the camera before looking for a weapon.",
+  "She considered spraying a can of Axe into the man's eyes as a weapon.",
+  "She was too scared to unlock the door to the kitchen where a knife could be found.",
+  "The man's blurry voice called out \"Baaaaybee . . . \" before fading.",
+  "She waited until the record finished playing and everything was quiet before opening the door.",
+  "When she nudged the man with the toe of her boot, it felt like poking a sandbag.",
+  "She stood on the porch holding the knife when the cold air cleared the fog in her head.",
+  "She remembered why she had come to his apartment in the first place.",
+  "His iPhone was sticking out of his back pocket, and she drew it out with her finger and thumb.",
+  "She plugged the iPhone's USB cable into her computer and logged in using his passcode.",
+  "She dragged all of his stored videos and photos to her desktop, since she could not figure out how to copy his message files or contacts.",
+  "Simon was out so cold he did not move as she searched his pockets for the other phone.",
+  "The second phone was in his right pocket, the side he had been lying on.",
+  "After she rolled him onto his back, he groaned, then snuffled and started to snore.",
+  "When she powered on the second phone, it asked for a password.",
+  "She tried the passwords \"njme\" and \"simonisgr8\" and then tried other lazy passwords."
  ],
  "entities": [
   {
    "name": "Simon",
    "type": "person",
-   "role": "the man in the apartment whom the narrator searches; curled up on the bed and unresponsive"
-  },
-  {
-   "name": "Katie",
-   "type": "person",
-   "role": "mentioned by the narrator as living next to the Semper Opera House"
-  },
-  {
-   "name": "Semper Opera House",
-   "type": "place",
-   "role": "landmark that Katie's home is next to"
+   "role": "the man in the apartment, curled up on the bed, who is drowsy or unconscious and whose iPhone and second phone the narrator handles"
   },
   {
    "name": "Axe",
    "type": "product",
-   "role": "can of spray the narrator considers using as a weapon against Simon"
-  },
-  {
-   "name": "iPhone",
-   "type": "product",
-   "role": "Simon's phone, which the narrator copies data from via her computer"
+   "role": "a can of body spray the narrator considers using as a weapon against Simon's eyes"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
   "suspense",
-  "novel excerpt",
-  "book 14"
+  "phone forensics",
+  "narrative excerpt"
  ],
  "category": "literature & arts",
  "usage": {
-  "input_tokens": 1817,
-  "output_tokens": 869
+  "input_tokens": 1797,
+  "output_tokens": 828
  }
 }

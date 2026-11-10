@@ -1,62 +1,55 @@
 {
- "summary": "An excerpt from a fiction book (Book 10, part 50) in which Greg, a Google employee, is confronted in his kitchen by a pudgy, pale man who claims to work for a DC firm employed by Google. Greg threatens to go to the press with a write-up, but the man dismisses this, suggests the paper would not find a confirming source, and offers Greg a job on a team to take over a flawed program called googlecleaner. The man pitches money, meaningful work, and a role in political life, which Greg rejects as an attempt to get him to smear political candidates.",
- "one_line": "Greg, a Google employee, refuses a kitchen-table job offer from a DC operative who wants him to smear political candidates.",
+ "summary": "An excerpt from a fiction book (Book 10, part 50) in which Greg, a Google employee, confronts a pudgy, pale, curly-haired man who claims to work for a DC firm employed by Google. Greg threatens to go to the press, but the man counters with offers of money, a team role, and political work, which Greg rejects as an attempt to smear candidates. The scene mixes tense confrontation with odd domestic details like rinsing coffee beans.",
+ "one_line": "Greg, a Google employee, refuses a mysterious DC operative's offer to join a team and smear political candidates, threatening to go to the press.",
  "key_facts": [
-  "Greg is confronted in a kitchen by a man who says \"I'm not a cop\" and says he works for a DC firm in Google's employ.",
-  "The man describes his DC firm as \"The inventors of swiftboating.\"",
-  "Greg says \"I'll go to the press\" and that he has \"written this all up.\"",
-  "The man says the Chronicle would \"try to find a confirming source\" and claims \"They won't find it.\"",
-  "The man tells Greg his profile \"looks just like it looked the day you landed at SFO.\"",
-  "The man says \"I'm in the win-win business\" and claims to be billing Google for the meeting.",
-  "The man advises rinsing the beans before grinding to \"take some of the bitterness out and brings up the oils.\"",
-  "The man takes off his jacket, rolls up his cuffs, and slips a cheap digital watch into his pocket before working at the sink.",
-  "The man says \"We're drafting a team for Building 49,\" and Greg replies \"There is no building 49.\"",
-  "The team is to have \"its own buginizer, to own googlecleaner.\"",
-  "The man says \"Maya's code wasn't very efficient\" and that every run of it \"clobbers the whole farm.\"",
-  "The man offers \"money,\" \"good work,\" \"smart colleagues,\" and \"A chance to participate in the political life of your country.\"",
-  "Greg responds \"You're on crack\" and refuses to help.",
-  "Greg concludes that if the man thinks he will \"smear political candidates in exchange for favors, you're even crazier than I thought.\""
+  "Greg is confronted by a man who says he works for a DC firm in Google's employ, described as the inventors of swiftboating.",
+  "The man tells Greg, \"You're a Googler. You're part of the family.\"",
+  "Greg says, \"I'll go to the press,\" and claims he has written everything up.",
+  "The man says the Chronicle would try to find a confirming source and \"They won't find it.\"",
+  "The man says his work is \"the win-win business\" and that he is \"very good at it.\"",
+  "The man tells Greg to rinse the beans first because it \"takes some of the bitterness out and brings up the oils.\"",
+  "The man hangs his jacket over a kitchen chair, rolls up his cuffs, and slips a cheap digital watch into his pocket.",
+  "The man is described as a little pudgy, very pale, and in need of a haircut with unruly curls at his neck.",
+  "The man says, \"We're drafting a team for Building 49,\" and Greg replies, \"There is no building 49.\"",
+  "The man says the team will own googlecleaner, noting that Maya's code \"clobbers the whole farm\" every time someone runs it.",
+  "The man offers Greg money, good work, smart colleagues, and \"A chance to participate in the political life of your country.\"",
+  "Greg responds with a bitter laugh and says, \"If you think I'm going to help you smear political candidates in exchange for favors, you're even crazier than I thought.\""
  ],
  "entities": [
   {
    "name": "Greg",
    "type": "person",
-   "role": "Google employee confronted in the kitchen and offered a job; refuses and threatens to go to the press"
+   "role": "Google employee who is confronted by the man and threatens to go to the press"
   },
   {
    "name": "Google",
    "type": "organization",
-   "role": "employer of Greg; the firm the man's DC firm works for"
-  },
-  {
-   "name": "DC firm",
-   "type": "organization",
-   "role": "firm employed by Google, described as the inventors of swiftboating; the man's employer"
+   "role": "employer of Greg and the firm the man works for through a DC firm"
   },
   {
    "name": "Chronicle",
    "type": "organization",
-   "role": "newspaper Greg threatens to take his write-up to"
-  },
-  {
-   "name": "Building 49",
-   "type": "place",
-   "role": "non-existent building named by the man as the location for a new team"
-  },
-  {
-   "name": "googlecleaner",
-   "type": "program",
-   "role": "flawed program the new team would take ownership of, with its own buginizer"
-  },
-  {
-   "name": "Maya",
-   "type": "person",
-   "role": "author of googlecleaner's code, described as inefficient and buggy"
+   "role": "newspaper Greg could walk into the office of to spill everything"
   },
   {
    "name": "SFO",
    "type": "place",
-   "role": "airport where Greg landed, referenced as the baseline for his profile"
+   "role": "airport where Greg landed, the day his profile looked the same as it does now"
+  },
+  {
+   "name": "Building 49",
+   "type": "place",
+   "role": "non-existent building that the team is supposedly being drafted for"
+  },
+  {
+   "name": "googlecleaner",
+   "type": "product",
+   "role": "code tool the team will own, which Maya wrote and which is inefficient and buggy"
+  },
+  {
+   "name": "Maya",
+   "type": "person",
+   "role": "author of the googlecleaner code, described as inefficient and buggy"
   }
  ],
  "tags": [
@@ -64,11 +57,11 @@
   "thriller",
   "google",
   "political intrigue",
-  "recruitment"
+  "confrontation"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1899,
-  "output_tokens": 1124
+  "output_tokens": 1002
  }
 }

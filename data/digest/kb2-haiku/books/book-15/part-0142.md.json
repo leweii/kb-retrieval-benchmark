@@ -1,0 +1,74 @@
+{
+ "summary": "Ray, an investigator (a hardware-minded techie rather than a forensic scientist), is stuck on DNA data from trace tissue samples tied to the murder of Micah. He has run the profiles through many databases without result, and cannot involve a forensic scientist without exposing that the EED is investigating the Whiston family, which would draw tabloid attention Becker has warned against. He is also reluctant to question Emma about her past, and is weighing whether to walk away from suspecting Frederick Whiston.",
+ "one_line": "Ray, stalled on DNA evidence in Micah's murder, wrestles with whether to pursue Frederick Whiston while avoiding media exposure and Emma's past.",
+ "key_facts": [
+  "Ray has been over the trace tissue sample data more than a hundred times without finding a match.",
+  "The trace samples contain non-Micah DNA and mitochondrial RNA force grown from loose clusters of sticky foreign cells.",
+  "Ray has run the profile results through every known DNA database, military, medical, and criminal, both separately and in combinations.",
+  "Ray describes himself as a hardware guy and techie, not a forensic scientist.",
+  "Ray cannot enlist a forensic scientist because a missed match could be found by the trained eye, and any hit tied to the Whiston household would expose the EED's investigation.",
+  "The tabloids care only that celebrities are mentioned in connection with an investigation, not that ruling suspects out is as vital as ruling them in.",
+  "Becker has told Ray to avoid this kind of attention.",
+  "Ray has always been happy to work for the CIU because his regular line of work does not allow time to gripe about mistaken identity cases.",
+  "Ray does not want to ask Emma whether Frederick Whiston killed Micah, because he has already treated her badly with lies.",
+  "Emma has said Frederick is capable of anything, especially if it is cruel.",
+  "Ray asks Emma to meet for dinner tomorrow, and says goodnight.",
+  "Ray describes Frederick Whiston as a prick and a sod who liked to manhandle his sister and frequently engaged in public displays of stupidity.",
+  "Ray concedes Frederick's shortcomings did not include a proclivity to murder little kids for pleasure.",
+  "Ray notes that Becker would be perfectly happy if Frederick had committed such a murder."
+ ],
+ "entities": [
+  {
+   "name": "Ray",
+   "type": "person",
+   "role": "investigator who is analyzing the DNA data and considering whether to question Emma and pursue Frederick Whiston"
+  },
+  {
+   "name": "Emma",
+   "type": "person",
+   "role": "Frederick Whiston's sister, whom Ray has lied to and is seeing socially; she describes Frederick as capable of cruelty"
+  },
+  {
+   "name": "Micah",
+   "type": "person",
+   "role": "murder victim, a little kid whose DNA evidence is under analysis"
+  },
+  {
+   "name": "Frederick Whiston",
+   "type": "person",
+   "role": "suspect in Micah's murder, described as a prick and a sod who manhandled his sister"
+  },
+  {
+   "name": "Becker",
+   "type": "person",
+   "role": "Ray's superior, who has told him to avoid media attention on the case"
+  },
+  {
+   "name": "CIU",
+   "type": "organization",
+   "role": "unit Ray works for, which he finds less complicated than his usual line of work"
+  },
+  {
+   "name": "EED",
+   "type": "organization",
+   "role": "agency investigating the Whistons, whose involvement would be exposed by a DNA match"
+  },
+  {
+   "name": "Whiston household",
+   "type": "organization",
+   "role": "family including Frederick and Emma whose DNA could match the trace samples"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "detective story",
+  "dna evidence",
+  "murder investigation",
+  "police procedure"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1901,
+  "output_tokens": 1191
+ }
+}

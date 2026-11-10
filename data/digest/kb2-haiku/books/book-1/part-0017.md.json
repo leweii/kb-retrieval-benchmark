@@ -1,50 +1,44 @@
 {
- "summary": "In this excerpt from the novel Little Brother (Book 1, part 17), the narrator, Marcus, and his friends Darryl, Van and Jolu are stranded after a terrorist attack on San Francisco disables phones and the internet. Darryl is badly wounded, and the group tries to flag down emergency vehicles on Market Street, but ambulances, cop cars and fire engines drive past. The narrator finally steps into the road and stops a car that turns out to be an unmarked military-looking Jeep, whose occupants wear coveralls, carry rifles and hooded gas masks.",
- "one_line": "Injured Darryl and his friends try to flag down help on Market Street after a terrorist attack, only to be confronted by armed, masked men in an unmarked Jeep.",
+ "summary": "An excerpt from the novel 'Book 1 — part 17' (a fiction source) in which the narrator, Darryl, Van and Jolu are in a chaotic urban emergency. Darryl is badly wounded and bleeding, phone lines are jammed, and the group tries to flag down emergency vehicles on Market Street. Their attempts fail until a military-looking Jeep with no insignia stops, and armed men in coveralls and gas masks emerge.",
+ "one_line": "Wounded Darryl and his friends try to flag down emergency vehicles on Market Street during a jammed-phone crisis, until an unmarked military Jeep appears.",
  "key_facts": [
-  "The narrator says he was no longer thinking of helping anyone and was focused on finding spaces to move into and holding onto Darryl and Van.",
-  "Jolu asked the narrator to call 911, and the call produced a whimper-like sound rather than a busy signal.",
-  "The narrator says the 911 failure is like what happens when three million people dial the same number at once.",
-  "Darryl pointed out the cop cars, ambulances and firetrucks passing on the street as possible sources of help.",
-  "Darryl dragged himself down toward Market Street, white-faced and panting, while Van's sweater was soaked in blood.",
-  "An ambulance, a cop car, a firetruck and the next three cop cars all drove past without slowing down.",
-  "The narrator stepped into the road waving his arms and shouting \"STOP\" at an approaching car.",
-  "The stopped vehicle was a military-looking Jeep, like an armored Hummer, with no military insignia.",
-  "The narrator jumped back, lost his balance and ended up on the road when the Jeep skidded to a stop in front of him.",
-  "The occupants wore coveralls, carried big bulky rifles and had hooded gas masks with tinted face-plates.",
-  "Darryl insisted he was fine and that they should let him up, while Van told him to shut up and lie still.",
-  "The narrator says that the terrorists could be blamed for the lack of phone and data service."
+  "The narrator punched 911 on his phone but got a sound like a whimper of pain from the phone system rather than a busy signal.",
+  "The narrator compares the jammed 911 line to the load from three million people dialing the same number at once.",
+  "Jolu suggested calling 911 and then Wikipedia, but the group had no phone or data service.",
+  "Darryl pointed out the cop cars, ambulances and firetrucks passing every five seconds on the street.",
+  "Darryl dragged himself down toward Market Street after the narrator argued briefly with Vanessa.",
+  "An ambulance, a cop car, a firetruck and the next three cop-cars all drove past without slowing down.",
+  "Darryl was white-faced and panting, and Van's sweater was soaked in blood.",
+  "The narrator stepped into the road waving his arms and shouting STOP when the next car appeared on Market Street.",
+  "The stopping vehicle was a military-looking Jeep, like an armored Hummer, with no military insignia.",
+  "The narrator jumped back, lost his balance and ended up on the road in front of the Jeep.",
+  "Armed men in coveralls with big, bulky rifles and hooded gas masks with tinted face-plates got out of the Jeep."
  ],
  "entities": [
   {
    "name": "Darryl",
    "type": "person",
-   "role": "injured friend who is bleeding from his side and was dragged toward Market Street to flag down help"
+   "role": "wounded friend who is bleeding and tries to get help by pointing out passing emergency vehicles"
   },
   {
    "name": "Van",
    "type": "person",
-   "role": "friend whose sweater is soaked in blood and who holds the narrator from behind"
+   "role": "Vanessa, a companion who holds the narrator's arm and whose sweater is soaked in blood"
+  },
+  {
+   "name": "Vanessa",
+   "type": "person",
+   "role": "full name of Van, who disagrees with flagging down a vehicle and keeps Darryl lying still"
   },
   {
    "name": "Jolu",
    "type": "person",
-   "role": "friend who suggests calling 911 and checking Wikipedia"
+   "role": "companion who suggests calling 911 and then Wikipedia"
   },
   {
    "name": "Market Street",
    "type": "place",
    "role": "street where the group tries to flag down emergency vehicles"
-  },
-  {
-   "name": "911",
-   "type": "program",
-   "role": "emergency phone number the narrator dials, which fails"
-  },
-  {
-   "name": "Wikipedia",
-   "type": "product",
-   "role": "online encyclopedia Jolu suggests checking, which is unavailable without data"
   },
   {
    "name": "military-looking Jeep",
@@ -54,15 +48,14 @@
  ],
  "tags": [
   "fiction",
-  "little brother",
-  "terrorism",
-  "san francisco",
-  "emergency response",
+  "novel excerpt",
+  "emergency",
+  "urban crisis",
   "military"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1877,
-  "output_tokens": 1055
+  "output_tokens": 941
  }
 }

@@ -1,58 +1,57 @@
 {
- "summary": "This is an excerpt from a fiction work titled \"Book 4 — part 47.\" Lucy reunites with Anda in an online game, where Anda has been promoted to Sergeant. The two miss the high-stakes campaigning they did before and talk with Raymond, who wants factory workers in Ciudad Juarez and Tijuana to walk out and organize. Anda proposes that they act as the girls' bodyguards in an in-game factory, where they plan to fight the bosses' mercenaries.",
- "one_line": "Lucy and Anda reunite in an online game and join Raymond's effort to organize factory workers in Ciudad Juarez and Tijuana.",
+ "summary": "Lucy reunites with Anda in an online game, where Anda has been promoted to Sergeant. The two miss the high-stakes campaigning they did before, and Lucy reveals she has been discussing factory working conditions with Raymond. Raymond wants factory girls in Ciudad Juarez and Tijuana to strike, but he has struggled to organize them, so Anda offers to join him as a bodyguard inside the game.",
+ "one_line": "Anda and Lucy return to an online game, miss its old thrills, and join labor organizer Raymond's plan to organize factory girls.",
  "key_facts": [
-  "Anda has been promoted to Sergeant during her absence from the game.",
-  "Lucy says Anda earned the promotion and that the two are now the same rank.",
-  "Lucy has been talking with Raymond a lot about working conditions in the factory.",
-  "Anda says she misses the earlier campaigning, which was big fights with big stakes, while the game's standard missions feel pale and flat.",
-  "The worthy adversaries they enjoyed beating were people gaming the game for money, and beating them involved no guilt.",
-  "Raymond wants the workers to go on strike, saying the only way to get results is to band together and withdraw labour.",
-  "Raymond wants the walkout to happen in Ciudad Juarez and Tijuana, not in-game, and plans to call the press in.",
-  "Raymond says the organizing problem is that the bosses lock the doors and keep organizers out of sewing shops and toy factories.",
-  "Raymond says the parents of the girls will not let organizers talk to them.",
-  "Raymond says he keeps getting killed in the game while trying to reach the girls.",
-  "Anda proposes that she and Lucy act as Raymond's new bodyguards in an in-game factory.",
-  "Anda notes that the bosses hire mean mercenaries, and she once was one of them.",
-  "Raymond's character plants a kiss on Anda's cheek, and Anda's character shoves him sprawling.",
-  "Anda asks Lucy to go get a couple of BFGs."
+  "Anda was promoted to Sergeant during her absence from the game.",
+  "Lucy has been talking to Raymond a lot about the working conditions in the factory.",
+  "Anda says she misses the old campaigning, which after the earlier missions makes the game's standard missions seem pale and flat.",
+  "Lucy says she thought she was the only one who missed the big fights and big stakes.",
+  "The part Anda loved was going up against people who were gaming the game for money rather than playing it.",
+  "Raymond says the only way to get results is for workers to band together and withdraw their labour.",
+  "Raymond wants the workers to walk out in Ciudad Juarez and Tijuana, not in the game, and plans to call the press in.",
+  "Raymond says the problem is getting the girls organized, as he has tried for years in the sewing shops and toy factories.",
+  "The bosses lock the doors and keep organizers out, and the girls' parents won't let organizers talk to them.",
+  "Raymond hoped the game would let him reach the girls, but he keeps getting killed while trying.",
+  "Anda offers to become Raymond's bodyguard and take them to an in-game factory, where the bosses hire mean mercenaries.",
+  "Raymond's English is very good, better than Lucy's, though his thick Mexican accent takes some getting used to.",
+  "Anda asks Lucy to go get a couple of BFGs, which are weapons in the game."
  ],
  "entities": [
   {
    "name": "Lucy",
    "type": "person",
-   "role": "Character who reunites with Anda in the game and talks with Raymond about factory working conditions"
+   "role": "Player friend of Anda in the game who has been talking with Raymond about factory working conditions and wants to reach the factory girls"
   },
   {
    "name": "Anda",
    "type": "person",
-   "role": "Character recently promoted to Sergeant who misses the earlier campaigning and proposes becoming Raymond's bodyguards"
+   "role": "Player who was promoted to Sergeant during her absence and who misses the old campaigning; offers to be Raymond's bodyguard"
   },
   {
    "name": "Raymond",
    "type": "person",
-   "role": "Organizer with a Mexican accent who wants factory workers to go on strike in Ciudad Juarez and Tijuana"
+   "role": "Organizer who wants factory workers to go on strike in Ciudad Juarez and Tijuana and struggles to organize the girls"
   },
   {
    "name": "Ciudad Juarez",
    "type": "place",
-   "role": "City where Raymond wants factory workers to walk out"
+   "role": "Mexican city where Raymond wants the workers to walk out"
   },
   {
    "name": "Tijuana",
    "type": "place",
-   "role": "City where Raymond wants factory workers to walk out"
+   "role": "Mexican city where Raymond wants the workers to walk out"
   },
   {
-   "name": "the bosses",
-   "type": "organization",
-   "role": "Factory management that locks out organizers and hires mercenaries"
+   "name": "the game",
+   "type": "product",
+   "role": "Online game where Anda, Lucy and Raymond meet, run missions, and try to reach factory workers"
   }
  ],
  "tags": [
   "fiction",
-  "online games",
-  "labour organizing",
+  "video games",
+  "labor organizing",
   "strike",
   "factory workers",
   "friendship"
@@ -60,6 +59,6 @@
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2016,
-  "output_tokens": 1450
+  "output_tokens": 2025
  }
 }

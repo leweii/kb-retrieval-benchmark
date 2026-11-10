@@ -1,60 +1,52 @@
 {
- "summary": "The narrator, Cas Russell, has just left custody and phones Checker, a forger who says he produced the paperwork that freed her. Checker brags about the speed of the job, waives his fee because he owes her for saving Arthur and is grateful she kept Arthur alive, and sounds pleased to be thanked. When Cas complains that Arthur gets hung up on small rules despite breaking many laws, Checker defends him sharply, and the call ends with his tone unreadable. The passage also shows Cas's unease with owing favors and with a internalized copy of Tresting who keeps judging her conscience.",
- "one_line": "A freed narrator phones forger Checker, who waives his fee and defends Arthur after a tense exchange about loyalty and debts.",
+ "summary": "Cas Russell, just released from a station, phones Checker, a hacker-type who forged paperwork and erased her fingerprints from the system so she could be freed. Checker waives payment, saying he owes her for saving Arthur and is grateful she kept Arthur alive. Cas feels uneasy about owing favors and about her conscience, which has taken on the persona of Tresting. When Cas criticizes Arthur as inconsistent, Checker sharply defends him, and the call ends on a tense note.",
+ "one_line": "Cas Russell, freed from custody with Checker's forged paperwork, phones him and clashes with him over Arthur.",
  "key_facts": [
-  "The narrator leaves the station at night, when an almost-full moon hangs above the city and traffic has thinned.",
-  "Checker texts or is contacted via the message \"U OUT?\" and the narrator dials back.",
-  "Checker says he had to forge a large amount of paperwork to free the narrator and calls the job \"record-breaking.\"",
-  "Checker says the narrator's fingerprints are \"disappearing as we speak\" from records.",
-  "Checker says having nothing in the system gave him a window to work with.",
-  "The narrator says being freed feels good because she no longer has to be trapped in the station.",
-  "Checker says he will not charge for the job because he owed the narrator for saving Arthur, and he is grateful she kept Arthur alive.",
-  "The narrator dislikes owing people favors and is uneasy about accepting the free work.",
-  "Checker asks the narrator not to tell Arthur about the favor, since Arthur does not like it when Checker does things like this.",
-  "The narrator says Arthur has broken more laws than she can count yet gets hung up on small matters, and calls him inconsistent.",
-  "Checker responds sharply that Arthur is \"good people\" and tells the narrator not to insult him.",
-  "The narrator says a copy of Tresting has taken up residence in her head and keeps track of her conscience.",
-  "Checker tells Cas Russell that she may impress him with her knowledge of Bayesian probability but should not insult Arthur.",
-  "The call ends with Checker silent and the narrator unable to read his tone."
+  "Cas Russell phones Checker shortly after she reaches the sidewalk at night, following her release.",
+  "Checker says he forged a large amount of paperwork and calls the job record-breaking.",
+  "Checker says Cas has nothing in the system, which gave him a window to work with.",
+  "Checker says Cas's fingerprints are disappearing from the system as they speak.",
+  "Checker waives his fee, saying he owed Cas for saving Arthur and is grateful she kept Arthur alive.",
+  "Cas says she does not like owing people favors.",
+  "Checker asks Cas not to tell Arthur about the free help because Arthur does not like it when he does such things.",
+  "A copy of Tresting has taken up residence in Cas's head and keeps track of her actions.",
+  "Cas describes Arthur as inconsistent, saying he breaks many laws yet gets hung up on small things.",
+  "Checker sharply responds, 'Hey, he's good people,' and asks Cas not to insult Arthur.",
+  "Checker's tone becomes unreadable and he goes silent, leaving Cas uncertain how the call stands.",
+  "The night scene describes a nearly full moon above a busy city and red tail lights of cars."
  ],
  "entities": [
   {
    "name": "Cas Russell",
    "type": "person",
-   "role": "narrator and protagonist who has just been freed from custody with Checker's forged paperwork"
+   "role": "narrator and protagonist who was just released and speaks with Checker on the phone"
   },
   {
    "name": "Checker",
    "type": "person",
-   "role": "forger who arranged the narrator's release, waives his fee, and defends Arthur"
+   "role": "contact who forged paperwork to free Cas, waives payment, and defends Arthur"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "person the narrator saved, whom Checker is grateful for and defends as good people"
+   "role": "figure Cas saved or kept alive, whom Checker defends and Cas calls inconsistent"
   },
   {
    "name": "Tresting",
    "type": "person",
-   "role": "self-righteous figure whose copy lives in the narrator's head and keeps track of her conscience"
-  },
-  {
-   "name": "the station",
-   "type": "place",
-   "role": "place where the narrator was held and which she was glad to leave"
+   "role": "figure whose copy resides in Cas's head as a self-righteous conscience; also a real-life person Checker mentions as Arthur's self-righteous side"
   }
  ],
  "tags": [
   "fiction",
-  "serial novel",
-  "forgery",
+  "book 2",
+  "hacking",
   "friendship",
-  "moral conflict",
-  "favors and debts"
+  "conscience"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2016,
-  "output_tokens": 1754
+  "output_tokens": 853
  }
 }

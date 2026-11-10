@@ -1,27 +1,24 @@
 {
- "summary": "An excerpt from the novel 'Book 15 — part 99' in which investigators question Bobby Diggs, a security guard on the ship, about a suspect who may have entered a cargo bay and come down a ladder. Ray and Rodriguez discuss how the suspect got past the lock, whether he had a stolen access card or was a crew member, and plan to check access card reports with equipment and accounting and the lock's access log via Becker. Ray asks Diggs to retell his whole shift from the start, including minor details, and Diggs recalls people, franchises, conversations, cigarettes, lights and maintenance closets with notable precision.",
- "one_line": "Investigators question guard Bobby Diggs about how a suspect reached a cargo bay, probing lock access, missing key cards, and crew involvement.",
+ "summary": "An excerpt from the novel 'Book 15, part 99' in which investigators question Bobby Diggs, a night-shift security worker, about how an intruder reached a storage bay on a ship. They discuss whether the suspect used a stolen access card or had crew knowledge, and Ray plans to check equipment and accounting for missing cards and to examine the lock's access log. Ray asks Diggs to retell his shift from the beginning, including details left out of his official report, and Diggs recalls people, conversations, and lighting and maintenance details.",
+ "one_line": "Investigators question security guard Bobby Diggs about how an intruder reached a ship's storage bay, probing access cards and lock logs.",
  "key_facts": [
-  "Diggs reasons that if the suspect had come down on the lift, he would have known, unless it happened on a different shift.",
-  "Ray suggests the suspect came down one of the ladders, calling it 'Gruesome work.'",
-  "Rodriguez asks how the suspect got into the bay, suggesting a card for the lock or a way to jimmy the lock undetected.",
-  "Diggs says the lock would not take a rocket scientist and that the area is not a secure zone, except port and starboard, where the dumps are.",
-  "Kilgore concludes the suspect either swiped a card or is a member of the crew.",
-  "Kilgore plans to talk to 'my ladies in equipment and accounting' in the morning about reports of missing access cards.",
-  "Ray asks Rodriguez to talk to Becker or one of his lieutenants to have the locks switched and the original handed over for analysis.",
-  "Ray says the lock's access log should show something anomalous if the suspect had no card.",
-  "Ray has seen Diggs's official report but believes things are sometimes left out of such reports.",
-  "Ray asks Diggs to tell everything from the point he came on shift last night, including unimportant details.",
-  "Diggs has a startling memory for details, recalling the franchises people represented and what they discussed.",
-  "Diggs remembers the gangways he traveled, which lights were out, and how many cigarettes he smoked.",
-  "Diggs recalls pulling bulbs from a particular maintenance closet at roughly a certain time.",
-  "Diggs says, 'Round about ten, I leave the' before the excerpt breaks off."
+  "Diggs says the suspect could not have come down the lift without him knowing, unless the event happened on a different shift.",
+  "Diggs says the bay is not a secure zone, except port and starboard, where the dumps are.",
+  "Ray reasons that if the suspect had a card, it was either swiped or the suspect is a member of the crew.",
+  "Kilgore says he will talk to his contacts in equipment and accounting in the morning about reports of missing access cards.",
+  "Ray wants the lock's access log checked for anomalies if the suspect did not have a card.",
+  "Ray asks Rodriguez to talk to Becker or one of his lieutenants to have the locks switched out and the original handed over for analysis.",
+  "Ray tells Diggs that official reports leave things out to economize words and get away from the terminal and clock out.",
+  "Ray asks Diggs for everything, even details that seem unimportant enough not to write down.",
+  "Diggs has a startling memory for details, recalling individuals, the franchises they represented, and conversations.",
+  "Diggs remembers the gangways he traveled, which lights were out, and which maintenance closet he took bulbs from.",
+  "Diggs says that round about ten he leaves the (text cuts off here)."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "investigator who questions Bobby Diggs and directs the lock and access-card inquiries"
+   "role": "investigator questioning Bobby Diggs and directing the inquiry"
   },
   {
    "name": "Rodriguez",
@@ -31,39 +28,29 @@
   {
    "name": "Bobby Diggs",
    "type": "person",
-   "role": "guard on shift who recounts his night and smokes cigarettes during questioning"
+   "role": "security worker on the night shift who recounts his shift and smokes during questioning"
   },
   {
    "name": "Kilgore",
    "type": "person",
-   "role": "speaker who concludes the suspect either swiped a card or is crew and offers to check with equipment and accounting"
+   "role": "investigator who suggests the suspect may be crew and will check equipment and accounting for missing access cards"
   },
   {
    "name": "Becker",
    "type": "person",
-   "role": "figure, presumably in charge of security, who can switch out the locks and hand over the original"
-  },
-  {
-   "name": "equipment and accounting",
-   "type": "organization",
-   "role": "departments where Kilgore's contacts may have reports of missing access cards"
-  },
-  {
-   "name": "port and starboard",
-   "type": "place",
-   "role": "areas of the ship where the dumps are, the only secure zones mentioned"
+   "role": "person in charge of security or locks, to be asked to switch out the locks"
   }
  ],
  "tags": [
-  "fiction",
   "mystery",
   "investigation",
-  "ship setting",
-  "interrogation"
+  "fiction",
+  "security",
+  "novel excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1844,
-  "output_tokens": 1152
+  "output_tokens": 894
  }
 }

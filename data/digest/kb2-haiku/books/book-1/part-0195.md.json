@@ -1,86 +1,85 @@
 {
- "summary": "An excerpt from a fiction novel (Book 1, part 195) in which the narrator visits Darryl in a hospital room after he woke crying and was given sedatives; the narrator notices his chewed nails, recalls his childhood, and holds his hand, nearly saying 'I love you'. The narrator also recounts a plea deal in which charges of electronic terrorism and inciting riots were dropped in exchange for a guilty plea to petty theft, resulting in three months in a day-release program at a Mission District halfway house. The excerpt closes with Marcus being told that Carrie Johnstone is being cleared by a closed military tribunal and returned to duty, and with the Feds disputing the Governor's shutdown of the Treasure Island facility.",
- "one_line": "Fiction excerpt where Marcus visits the sedated Darryl in hospital, then describes his plea deal and a day-release program, and news of Carrie Johnstone's tribunal and the Treasure Island shutdown.",
+ "summary": "An excerpt from a fiction narrative (Book 1, part 195) in which the narrator visits Darryl in a hospital semi-private room after he wakes crying and sedated, noting his chewed nails, his beard, and the narrator's unspoken urge to say 'I love you.' The narrator then recounts a court outcome: charges related to 'Electronic terrorism' and 'inciting riots' were dropped in exchange for a guilty plea to misdemeanor petty theft for stealing Masha's phone, resulting in three months in a day-release program at a Mission District halfway house. The excerpt ends with news that Carrie Johnstone is being cleared by a closed military tribunal, and with political friction between the Feds, the Governor and the Mayor over the Treasure Island facility.",
+ "one_line": "Narrator visits hospitalized Darryl, recounts a plea deal for petty theft and a halfway-house sentence, and learns Carrie Johnstone is cleared by a military tribunal.",
  "key_facts": [
-  "Darryl wakes up crying and cannot stop, and the staff gave him something to help him sleep.",
-  "Darryl had a semi-private hospital room, and an older Arab-looking man in his 40s occupied the other bed.",
-  "The narrator realizes the man in the other bed is the guy he was chained to on the way off Treasure Island.",
-  "Darryl had been a nail-biter as a kid but kicked the habit when the group reached high school.",
-  "The narrator believes Van talked Darryl out of nail-biting by pointing out how gross it was.",
-  "The narrator says 'Hey, D, you made it. You're going to be OK' to the sleeping Darryl.",
+  "Darryl wakes crying and cannot stop, and hospital staff give him something to help him sleep.",
+  "Darryl has his hair clean and combed, sleeps with his mouth open, and has white stuff at the corners of his mouth.",
+  "Darryl had been a nail-biter as a kid but kicked the habit in high school, with Van talking him out of it.",
+  "The narrator says 'Hey, D, you made it. You're going to be OK' to Darryl.",
   "Barbara called the narrator at the office on July 4th weekend.",
-  "The narrator was the only one whose excuse for working the holiday weekend was that his day-release program would not let him leave town.",
+  "The narrator was the only worker whose excuse for coming in on the holiday weekend was that a day-release program wouldn't let him leave town.",
+  "The prosecution dropped charges of 'Electronic terrorism' and 'inciting riots' in exchange for the narrator's guilty plea to misdemeanor petty theft.",
   "The narrator was convicted of stealing Masha's phone.",
-  "The prosecution dropped charges of 'Electronic terrorism' and 'inciting riots' in a deal with the narrator's lawyer.",
-  "In exchange, the narrator pleaded guilty to misdemeanor petty theft.",
   "The narrator received three months in a day-release program with a halfway house for juvenile offenders in the Mission.",
-  "Carrie Johnstone was cleared of wrongdoing by a closed military tribunal, and the file is sealed.",
-  "Carrie Johnstone is being returned to active duty; her name came out in preliminary hearings at the California Superior Court.",
-  "The Feds called the Governor's shut-down of the Treasure Island facility 'unilateral, illegal'."
+  "At the halfway house the narrator slept in a dorm with gang kids, druggie kids, and a couple of real nuts.",
+  "Marcus is told that Carrie Johnstone is being let go by a closed military tribunal that cleared her of wrongdoing.",
+  "The file on Carrie Johnstone is sealed and she is being returned to active duty.",
+  "Carrie Johnstone sat silent in the California Superior Court during preliminary hearings and would not say who she took orders from.",
+  "The Feds shouted about the Governor's 'unilateral, illegal' shut-down of the Treasure Island facility."
  ],
  "entities": [
   {
    "name": "Darryl",
    "type": "person",
-   "role": "Friend of the narrator, sleeping in a hospital room, a former nail-biter with a straggly patchy beard"
+   "role": "hospitalized friend of the narrator, sleeping and crying after waking, a former nail-biter"
   },
   {
    "name": "Van",
    "type": "person",
-   "role": "Mentioned as the person who talked Darryl out of nail-biting"
+   "role": "someone who talked Darryl out of nail-biting"
   },
   {
    "name": "Zeb",
    "type": "person",
-   "role": "Mentioned as someone whose beard Darryl's reminded the narrator of"
+   "role": "person whose straggly beard reminded the narrator of Darryl's beard"
   },
   {
    "name": "Barbara",
    "type": "person",
-   "role": "Caller who phoned the narrator at the office on July 4th weekend"
+   "role": "person who called the narrator at the office on July 4th weekend"
   },
   {
    "name": "Masha",
    "type": "person",
-   "role": "Owner of the phone the narrator was convicted of stealing"
+   "role": "owner of the phone the narrator was convicted of stealing"
   },
   {
    "name": "Carrie Johnstone",
    "type": "person",
-   "role": "Woman cleared by a closed military tribunal and returned to active duty; known as Severe Haircut Woman"
+   "role": "woman cleared by a closed military tribunal and returned to active duty; silent during court hearings"
+  },
+  {
+   "name": "Marcus",
+   "type": "person",
+   "role": "character addressed when news about Carrie Johnstone is delivered"
   },
   {
    "name": "Treasure Island facility",
    "type": "place",
-   "role": "Military facility whose shut-down by the Governor the Feds called illegal"
+   "role": "facility whose shut-down by the Governor the Feds called unilateral and illegal"
   },
   {
    "name": "California Superior Court",
    "type": "organization",
-   "role": "Court where preliminary hearings were held in which Johnstone's name came out"
+   "role": "court where preliminary hearings about Carrie Johnstone were held"
   },
   {
    "name": "Mission",
    "type": "place",
-   "role": "District of San Francisco where the halfway house for juvenile offenders is located"
-  },
-  {
-   "name": "Electronic terrorism and inciting riots charges",
-   "type": "event",
-   "role": "Charges dropped by the prosecution in the plea deal"
+   "role": "district where the juvenile halfway house is located"
   }
  ],
  "tags": [
   "fiction",
   "hospital scene",
-  "plea deal",
-  "treasure island",
+  "legal aftermath",
+  "halfway house",
   "military tribunal",
   "serialized novel"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1915,
-  "output_tokens": 1374
+  "output_tokens": 1337
  }
 }

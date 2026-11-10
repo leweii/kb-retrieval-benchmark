@@ -1,57 +1,58 @@
 {
- "summary": "An excerpt from a novel (labeled Book 11, part 99) set at a school. Rebecca and Huldah discuss Miss Maxwell, the Latin teacher, and Rebecca says she loves her. Huldah explains she lost her Latin grammar after a quarrel with Herbert Dunn, whom she had stopped speaking to and whose class pin she returned. Emma Jane interrupts to end the talk, and Huldah describes her flashy blue dress, white trim and souvenir pins, then mentions Mr. Morrison and a handsome stranger in the office.",
- "one_line": "Schoolgirls Rebecca and Huldah argue about Miss Maxwell and Huldah's lost Latin grammar in a fiction excerpt.",
+ "summary": "This excerpt from a novel, labeled 'Book 11 — part 99', shows schoolgirls at a school talking in a study hour. Huldah complains that she lost her Latin grammar after a quarrel with Herbert Dunn, whom she has stopped speaking to and whose class pin she returned. Rebecca defends Miss Maxwell, the teacher Huldah disparages, while Emma Jane tries to end the discussion. The passage also describes Huldah's flashy outfit and her pins, and mentions a handsome stranger in the principal's office.",
+ "one_line": "Schoolgirls in a study hour discuss Miss Maxwell, a lost Latin grammar, and Huldah's quarrel with Herbert Dunn.",
  "key_facts": [
-  "Huldah says it was Miss Maxwell's place to teach her Latin, not manners.",
-  "Rebecca tells Huldah she not only abides Miss Maxwell but loves her.",
+  "Huldah says she wanted to tell Miss Maxwell that it was her place to teach her Latin, not manners.",
+  "Rebecca tells Huldah she wishes she would not talk against Miss Maxwell, and says, \"I not only abide, I love her!\"",
   "Rebecca says she would like to put a marble platform in Miss Maxwell's class-room and have her sit in a velvet chair behind a golden table.",
-  "Emma Jane asks whether Huldah's study hour is now, to stop further discussion.",
-  "Huldah lost her Latin grammar after leaving it in the hall for half an hour.",
-  "Huldah had a quarrel with Herbert Dunn and gave him back his class pin.",
-  "Huldah had not spoken to Herbert Dunn for a week before the quarrel's aftermath.",
-  "Mr. Morrison thinks the grammar will be returned and has offered to lend Huldah another.",
-  "Huldah's woolen dress had once been gray but was dyed a brilliant blue.",
-  "Huldah added three rows of white braid and large white pearl buttons to her gray jacket to make it more dressy.",
-  "Huldah's gray felt hat has a white feather, and her white tissue veil has large black dots.",
-  "Her open jacket shows a small American flag, a button of the Wareham Rowing Club, and one or two society pins.",
-  "Rebecca notices the color of Huldah's front hair has been dulled by incessant frizzing with curling irons.",
-  "Huldah describes a handsome, elegant stranger in the principal's office who seemed too young to be a father and too old to be a brother."
+  "Emma Jane interrupts the argument by asking whether Huldah's study hour is now.",
+  "Huldah says she lost her Latin grammar yesterday after leaving it in the hall for half an hour.",
+  "Huldah had a regular scene with Herbert Dunn, had not spoken to him for a week, and gave him back his class pin.",
+  "Mr. Morrison thinks the grammar will be returned and has lent Huldah another copy.",
+  "Huldah wears a woolen dress that was once gray but was dyed a brilliant blue.",
+  "Huldah added three rows of white braid and large white pearl buttons to her gray jacket to make it more \"dressy.\"",
+  "Her gray felt hat has a white feather, and a white tissue veil with large black dots.",
+  "Rebecca notes that the front of Huldah's red hair has been dulled by incessant frizzing with curling irons.",
+  "Huldah's open jacket shows a small American flag, a button of the Wareham Rowing Club, and one or two society pins.",
+  "Huldah hoped the girls would ask whose ring she was wearing this week.",
+  "Huldah describes a perfectly elegant gentleman in the principal's office, a stranger to her, who was too young to be a father of the girls and too old to be a brother.",
+  "Huldah says that she wishes the stranger was a new teacher, but there is no such luck."
  ],
  "entities": [
   {
    "name": "Rebecca",
    "type": "person",
-   "role": "character who defends Miss Maxwell and admires Huldah's appearance"
+   "role": "schoolgirl who defends Miss Maxwell and says she loves her"
   },
   {
    "name": "Huldah",
    "type": "person",
-   "role": "character who lost her Latin grammar and wears a flashy blue outfit"
+   "role": "schoolgirl who lost her Latin grammar and disparages Miss Maxwell"
   },
   {
    "name": "Emma Jane",
    "type": "person",
-   "role": "character who interrupts to end the discussion"
+   "role": "schoolgirl who tries to stop the discussion"
   },
   {
    "name": "Miss Maxwell",
    "type": "person",
-   "role": "teacher of Latin whom Rebecca loves and Huldah criticizes"
+   "role": "teacher of Latin whom Huldah criticizes and Rebecca admires"
   },
   {
    "name": "Herbert Dunn",
    "type": "person",
-   "role": "young man Huldah quarreled with and returned a class pin to"
+   "role": "young man Huldah quarreled with and whose class pin she returned"
   },
   {
    "name": "Mr. Morrison",
    "type": "person",
-   "role": "school official who thinks the grammar will be returned and lends another"
+   "role": "official who thinks the grammar will be returned and lent Huldah another"
   },
   {
    "name": "Wareham Rowing Club",
    "type": "organization",
-   "role": "club whose button is pinned on Huldah's jacket"
+   "role": "club whose button Huldah wears pinned to her jacket"
   },
   {
    "name": "principal's office",
@@ -61,14 +62,14 @@
  ],
  "tags": [
   "fiction",
-  "school life",
-  "latin",
+  "school story",
   "friendship",
+  "rivalry",
   "clothing"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1870,
-  "output_tokens": 1124
+  "output_tokens": 1218
  }
 }

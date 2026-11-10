@@ -1,68 +1,68 @@
 {
- "summary": "The narrator wakes on Checker's couch after a narcotic-induced sleep and learns from Arthur that Martinez has a brain tumor with only days or weeks left and is unlikely to wake again. The narrator, still guilt-ridden, is torn between wanting proof that would save them and a conscience that makes them feel they deserve to stay broken. Earlier, Checker mentions that D.J., the pyro dude, may not have been caught. The passage is a fiction excerpt from Book 6, part 168.",
- "one_line": "Waking on Checker's couch, the narrator learns Martinez has a terminal brain tumor and wrestles with guilt and the lost proof.",
+ "summary": "The narrator wakes on Checker's couch after a drugged sleep, still groggy and aching, and is told by Arthur that Martinez has a brain tumor that has probably been growing for a while and that she has only days or weeks left and is unlikely to wake again. The narrator is shocked and feels guilt over having not worried about Martinez, and is torn between a conscience and a wish to escape the loss of the proof that could save him. Earlier, he privately resolved to pursue that proof carefully and wait to see the Feds' plan, and Checker has said D.J. may not have been caught.",
+ "one_line": "Groggy after painkillers, the narrator learns from Arthur that Martinez has a terminal brain tumor and is consumed by guilt and despair.",
  "key_facts": [
-  "The narrator wakes on Checker's couch after a drug-induced sleep in which they did not dream.",
-  "Checker and Pilar are absent when the narrator wakes, and Arthur is working on a laptop across the room.",
-  "The narrator says they were not worried about Martinez, not really, even after everything.",
+  "The narrator sleeps on Checker's couch under narcotic painkillers and, for once, does not dream.",
+  "The narrator tells Checker that the pyro dude, D.J., was probably not at the location and that they may not have gotten him.",
+  "Checker responds 'Okay. Thanks.' and says he may want to talk about it another time.",
+  "When the narrator wakes, Checker and Pilar are gone and Arthur is working on a laptop across the room.",
+  "The narrator waves off the painkillers offered by Arthur, saying he wants to be awake.",
   "Arthur tells the narrator that Martinez has a brain tumor.",
-  "Arthur says the docs think Martinez has had the tumor for a while and has only days, maybe weeks, left.",
-  "Arthur says Martinez is unlikely to wake up again.",
-  "The narrator whispers 'No' repeatedly when told about Martinez's tumor.",
-  "The narrator waves off the painkillers Arthur offers because they want to be awake.",
-  "The narrator says they need the proof regardless of what Martinez, the NSA, or the DHS have to say about it.",
-  "The narrator promises themselves to get the proof without going too far this time and to bide their time.",
-  "Earlier, the narrator asks Checker about the pyro dude, D.J., and says they don't think he was there and that they don't think the others got him.",
-  "Checker pauses for a long moment and then says 'Okay. Thanks.' and suggests talking another time.",
-  "The narrator describes feeling like a poor version of Pinocchio, with muscles stitched onto their bones."
+  "Arthur says the docs estimate Martinez has only days, maybe weeks, left and is unlikely to wake up again.",
+  "The narrator whispers 'No' in response to the news about Martinez.",
+  "The narrator admits he had not been worried about Martinez, even after everything that happened.",
+  "The narrator feels guilt and wishes he were a better person or had no conscience at all.",
+  "The narrator considers drinking himself into a stupor as a way to escape his despair.",
+  "The narrator had promised himself he would obtain proof without going too far this time and would wait to see what the Feds' play was.",
+  "The narrator names Martinez, the NSA and the DHS as parties whose positions he must consider regarding the proof he needs."
  ],
  "entities": [
   {
+   "name": "Martinez",
+   "type": "person",
+   "role": "woman who has a brain tumor and is unlikely to wake up again"
+  },
+  {
    "name": "Checker",
    "type": "person",
-   "role": "Character whose couch the narrator sleeps on; comforts the narrator and is absent when the narrator wakes"
+   "role": "friend whose couch the narrator sleeps on and who has spoken with Pilar"
   },
   {
    "name": "Pilar",
    "type": "person",
-   "role": "Character who is talking with Checker before the narrator falls asleep and is absent when the narrator wakes"
+   "role": "person who was talking with Checker and later absent"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "Character who is working on a laptop, offers the narrator painkillers, and tells the narrator about Martinez's tumor"
-  },
-  {
-   "name": "Martinez",
-   "type": "person",
-   "role": "Character who has a brain tumor, with days or weeks left to live and unlikely to wake again"
-  },
-  {
-   "name": "NSA",
-   "type": "organization",
-   "role": "Agency whose position on the proof the narrator disregards"
-  },
-  {
-   "name": "DHS",
-   "type": "organization",
-   "role": "Agency whose position on the proof the narrator disregards"
+   "role": "person who brings the narrator water and painkillers and tells him about Martinez's tumor"
   },
   {
    "name": "D.J.",
    "type": "person",
-   "role": "The pyro dude, whom the narrator believes was not present and may not have been captured"
+   "role": "pyro dude who the narrator thinks was not present and may not have been captured"
+  },
+  {
+   "name": "NSA",
+   "type": "organization",
+   "role": "agency whose position on the proof the narrator must consider"
+  },
+  {
+   "name": "DHS",
+   "type": "organization",
+   "role": "agency whose position on the proof the narrator must consider"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
   "guilt",
-  "illness",
-  "narrative excerpt"
+  "medical crisis",
+  "surveillance agencies"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1931,
-  "output_tokens": 1028
+  "output_tokens": 1009
  }
 }

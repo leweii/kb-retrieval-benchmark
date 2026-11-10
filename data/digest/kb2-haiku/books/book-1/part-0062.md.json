@@ -1,48 +1,47 @@
 {
- "summary": "In this excerpt from a fiction novel (Book 1, part 62), narrator Marcus, who goes by the handle M1k3y, feels responsible for the Xnet, a network that has begun monitoring people as statistically abnormal, and cannot stop it. He wishes he could consult Jolu, an ISP worker at Pigspleen Net, and the team meets at their favorite Mission cafe, officially for their Harajuku Fun Madness meeting, now canceled. The team is grieving Darryl's disappearance, and Vanessa (Van) argues with Marcus that his Xnet activity risks jail for himself and many others, while he insists he is acting for Darryl and for the country's rights.",
- "one_line": "Marcus and his friends argue at a Mission cafe about his risky Xnet activity after Darryl's disappearance and the canceled game.",
+ "summary": "In this excerpt from Book 1 (part 62), the narrator Marcus, also known by the handle M1k3y, is worried that the Xnet he set up now operates on its own and that he and his friends could be jailed for it. He wants to consult Jolu, a friend who works at an ISP called Pigspleen Net. He meets Vanessa (Van) and Jolu at a cafe in the Mission, ostensibly for their Harajuku Fun Madness team meeting, which has become a weekly gathering of grief since the game was canceled and Darryl disappeared. Van, arriving in her school uniform, argues he is putting himself at risk, and the two quarrel over whether resisting the government is worth it.",
+ "one_line": "Marcus argues with Van at a Mission cafe about his risky Xnet activity, after the game's cancellation and Darryl's disappearance.",
  "key_facts": [
+  "The narrator says the Xnet, once running, 'had a life of its own' and he could not stop it.",
   "Jolu worked at an Internet Service Provider called Pigspleen Net that had hired him when he was twelve.",
-  "The narrator believes the Xnet, once running, had a life of its own and that he could not stop it.",
-  "The team meets at their favorite place in the Mission after school, officially for the weekly Harajuku Fun Madness team meeting.",
-  "The Harajuku Fun Madness game has been canceled and Darryl is gone, leaving the meetings mostly weekly weep-fests.",
-  "The team receives about six phone calls and IMs a day asking, \"Are you OK? Did it really happen?\"",
-  "Vanessa arrived in her girl's school uniform, a Sailor Moon-style pleated skirt, tunic and knee-socks.",
-  "Vanessa was stuck going the long way home, down to the San Mateo bridge and back, on a shuttle-bus service her school operated.",
-  "The cafe was full of older, cooler emo art students who snickered into their lattes when Vanessa arrived.",
-  "Vanessa calls the narrator M1k3y in the meeting and says he is putting himself at risk.",
-  "The narrator's handle M1k3y is now associated with his Xnet use, which scared him to hear said aloud in public.",
-  "Vanessa tells the narrator he could go to jail, and so could lots of people, after what happened to Darryl.",
-  "The narrator says, \"I'm doing this for Darryl!\" and lowers his voice after art students look at them.",
-  "Vanessa says the narrator is out of his mind because the government is the one that would stop them.",
-  "The narrator replies, \"It's still our country,\" and says they still have the right to do this.",
-  "The narrator says the government puts people under the microscope just for being statistically abnormal."
+  "The narrator believes Jolu knows more about the net than he does and could help keep them out of jail.",
+  "The team meets weekly at their favorite place in the Mission after school, officially for the Harajuku Fun Madness team meeting.",
+  "With the game canceled and Darryl gone, the meetings have become a weekly weep-fest supplemented by about six calls and IMs a day.",
+  "Vanessa arrived in her girl's school uniform because a school shuttle-bus service forced her to take the long way home, down to the San Mateo bridge and back up into the city.",
+  "Vanessa's outfit is described as Sailor Moon style: a pleated skirt, a tunic and knee-socks.",
+  "The cafe was full of older emo art students who snickered into their lattes when Vanessa arrived.",
+  "Vanessa says the narrator is 'out of your mind' and asks if he is 'actually, totally, really, for-real crazy'.",
+  "Vanessa tells the narrator to stop putting himself at risk and says he could go to jail, and not just him, but lots of people.",
+  "The narrator's handle M1k3y is now associated with his Xnet use, which frightens him when said aloud in public.",
+  "The narrator says he is doing this for Darryl and because the alternative is to let the government get away with it all.",
+  "Vanessa says the government is 'They're the government' and doubts they can stop them.",
+  "The narrator responds, 'It's still our country... We still have the right to do this.'"
  ],
  "entities": [
   {
    "name": "Marcus",
    "type": "person",
-   "role": "narrator, a team member who goes by the handle M1k3y and runs the Xnet"
+   "role": "narrator who built the Xnet and is known by the handle M1k3y"
   },
   {
    "name": "M1k3y",
-   "type": "person",
-   "role": "Marcus's team handle, now also associated with his Xnet use"
-  },
-  {
-   "name": "Jolu",
-   "type": "person",
-   "role": "friend who worked at Pigspleen Net and knows a lot about the net"
+   "type": "other",
+   "role": "narrator's team handle, now also associated with his Xnet use"
   },
   {
    "name": "Vanessa",
    "type": "person",
-   "role": "called Van, a team member who argues with Marcus about the risks"
+   "role": "friend and teammate, called Van, who argues the narrator is putting himself at risk"
+  },
+  {
+   "name": "Jolu",
+   "type": "person",
+   "role": "friend who works at Pigspleen Net and knows a lot about the net"
   },
   {
    "name": "Darryl",
    "type": "person",
-   "role": "missing team member whose disappearance drives the group's grief and the narrator's actions"
+   "role": "missing teammate whose disappearance has affected the team"
   },
   {
    "name": "Pigspleen Net",
@@ -52,34 +51,34 @@
   {
    "name": "Xnet",
    "type": "program",
-   "role": "network the narrator set up, which is now running and monitoring people"
+   "role": "network the narrator set up that now runs independently and draws government scrutiny"
   },
   {
    "name": "Harajuku Fun Madness",
    "type": "program",
-   "role": "game whose weekly team meeting is the official reason for the gathering; now canceled"
-  },
-  {
-   "name": "Mission",
-   "type": "place",
-   "role": "neighborhood of San Francisco where the team's favorite cafe is located"
+   "role": "game whose team meets weekly; the game has been canceled"
   },
   {
    "name": "San Mateo bridge",
    "type": "place",
-   "role": "bridge on Vanessa's long route home"
+   "role": "route Vanessa's shuttle bus took on the long way home"
+  },
+  {
+   "name": "the Mission",
+   "type": "place",
+   "role": "neighborhood of the team's favorite cafe where they meet after school"
   }
  ],
  "tags": [
   "fiction",
-  "cyberpunk",
-  "friendship",
-  "surveillance",
-  "young adult"
+  "young adult",
+  "xnet",
+  "government surveillance",
+  "friendship"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1847,
-  "output_tokens": 1325
+  "output_tokens": 1294
  }
 }

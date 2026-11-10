@@ -1,73 +1,71 @@
 {
- "summary": "The narrator, recovering after the final confrontation with Pithica, has lost steady odd jobs as Los Angeles recovers and is drinking heavily while sleeping poorly. Checker reports that over seventy percent of Pithica's revenue sources have moved their money out of the organization's reach, weakening Dawna and her people. Vivid, unsettling dreams and a sense of déjà vu leave the narrator punching a wall, and the word \"Halberd\" lodges in his mind, recalling a memo Anton once gave him.",
- "one_line": "A drinking, sleepless narrator in post-disaster Los Angeles reflects on the defeat of Pithica and fixates on the word \"Halberd.\"",
+ "summary": "The narrator, recovering in LA after the confrontation with Pithica, has lost odd-job work and drinks heavily while alone with his thoughts about Dawna, Pithica, and Rio. A report from Checker says over seventy percent of Pithica's revenue sources moved their money out of the organization's reach. After a vivid, disturbing dream, the narrator punches a wall and then fixates on the word \"Halberd,\" which he associates with a memo Anton once gave him.",
+ "one_line": "A battered narrator drinks alone in post-disaster LA, haunted by Pithica, Dawna, and a nagging memory of the word \"Halberd.\"",
  "key_facts": [
-  "The narrator says Pithica might not go in for revenge, but he did.",
-  "By the second week after the disaster, the narrator's odd jobs in LA dried up because people no longer needed him for necessities.",
-  "Arthur had gone back to his own place, leaving the narrator alone with thoughts about Dawna, Pithica, and Rio.",
-  "A week and a half after the final confrontation with Pithica, Checker emailed that over seventy percent of Pithica's revenue sources had moved their money out of the organization's reach.",
-  "Checker's email said Dawna and her people would need a long time to rebuild those resources.",
+  "The narrator's odd jobs in LA dried up by the second week after the disaster because people were no longer desperate enough to hire him for necessities.",
+  "Arthur had gone back to his own place, leaving the narrator alone with his thoughts.",
+  "A week and a half after the final confrontation with Pithica, Checker emailed the narrator saying he had been keeping tabs.",
+  "According to Checker, over seventy percent of Pithica's revenue sources had moved their money out of the organization's reach.",
+  "Dawna and her people would need a long time to rebuild Pithica's resources.",
   "The narrator's nightmares had been worse in the past couple of weeks, since Dawna.",
-  "The narrator punched the drywall next to his mattress, cutting his knuckles and leaving blood and plaster dust on his hand.",
-  "Empty bottles filled the narrator's apartment, described as a glass forest across the table and floor.",
-  "A bottle label bore a stylized drawing of an axe, which prompted the narrator to think of the word \"Halberd.\"",
-  "The memo Anton gave the narrator long ago mentioned Halberd and Pithica.",
-  "The narrator feels a persistent sense of déjà vu, believing he has seen or dreamt the images before.",
-  "The narrator tasted bile at the back of his throat while trying to recall the dream."
+  "The narrator punched his fist through the drywall next to the mattress, bloodying his knuckles.",
+  "The narrator picked up a bottle with a stylized drawing of an axe on its label and kept thinking of the word \"Halberd.\"",
+  "The word \"Halberd\" reminded the narrator of a memo that Anton had given him a lifetime ago, which mentioned Halberd and Pithica.",
+  "The narrator experiences a strong sense of déjà vu and feels he has seen or dreamt the images from his dream before."
  ],
  "entities": [
   {
    "name": "Pithica",
    "type": "organization",
-   "role": "organization whose revenue sources were largely pushed out of reach; the narrator's antagonist in the final confrontation"
+   "role": "criminal organization whose revenue sources were heavily disrupted; the narrator and allies knocked its resources down"
   },
   {
    "name": "Dawna",
    "type": "person",
-   "role": "figure linked to Pithica whose people will need a long time to rebuild resources; the narrator's dreams and thoughts center on her"
+   "role": "leader of the people rebuilding Pithica's resources, and a figure who has deeply affected the narrator"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "companion who had been staying with the narrator and then went back to his own place"
+   "role": "companion who had returned to his own place, leaving the narrator alone"
   },
   {
    "name": "Rio",
    "type": "person",
-   "role": "person the narrator thinks about, who may have withheld something from him"
+   "role": "person whom the narrator suspects has not told him something"
   },
   {
    "name": "Checker",
    "type": "person",
-   "role": "contact who had been tracking Pithica's finances and emailed the narrator about the revenue losses"
+   "role": "contact who emailed the narrator reporting on Pithica's lost revenue sources"
   },
   {
    "name": "Anton",
    "type": "person",
-   "role": "person who gave the narrator a memo mentioning Halberd and Pithica, a lifetime ago"
+   "role": "person who gave the narrator a memo mentioning Halberd and Pithica"
   },
   {
    "name": "Halberd",
    "type": "other",
-   "role": "word that keeps surfacing in the narrator's mind, also named in the memo and on a bottle label showing an axe"
+   "role": "word and label on a bottle that the narrator cannot stop thinking about; also named in the memo"
   },
   {
-   "name": "Los Angeles",
+   "name": "LA",
    "type": "place",
-   "role": "city recovering from a disaster, where the narrator has been finding fewer odd jobs"
+   "role": "city where the narrator lives and where the disaster's aftermath is unfolding"
   }
  ],
  "tags": [
   "fiction",
-  "noir",
-  "recovery",
-  "pithica",
-  "dreams",
-  "alcoholism"
+  "noir thriller",
+  "aftermath",
+  "memory and dreams",
+  "alcoholism",
+  "Pithica"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1876,
-  "output_tokens": 1127
+  "output_tokens": 1026
  }
 }

@@ -1,29 +1,24 @@
 {
- "summary": "Ray arrives at a warehouse-like section of a ship where security is tense after the imminent detention of Lilaiken suspects. Armed security officers and then Marine guards posted outside Section 944 stop him; a Marine sergeant named Kilgore checks his card and says Chief Becker wants him to report first. Ray asks for the ground-level truth, and Kilgore's wary reaction and a joke about 'sir' show Ray's cover is strained. The passage ends with Kilgore asking whether Ray is with the FSA or the International Intelligence Agency.",
- "one_line": "Ray, posing as a hardware technician, is challenged by Marine guards outside Section 944 and asked whether he works for the FSA or the International Intelligence Agency.",
+ "summary": "Ray, a figure in a warehouse-like ship district, approaches Section 944 where two Marine guards stand with rifles, not the usual security officers. Sergeant Kilgore checks his ID card and the Marines reveal they are combat-trained and wary. Ray tries to get the unvarnished ground-level assessment rather than the security spin Chief Becker would give, and the Marine's suspicion shifts as he sizes Ray up. The passage ends with Kilgore asking whether Ray is Smith or Jones, from the FSA or the International Intelligence Agency.",
+ "one_line": "Ray reaches Section 944 on a ship, where Marine guards with rifles check his ID and probe whether he is a spy from an intelligence agency.",
  "key_facts": [
-  "Ray is walking through a warehouse district of a ship, a space populated by drone rats and occasional security sweepers.",
-  "The imminent detention, interrogation and voiding into space of Lilaiken suspects is the situation putting the speaker in a foul mood.",
-  "Security officers, called sec-os, are carrying firearms, which they normally do not do because passenger classes find armed crewmen disconcerting.",
-  "Two Marine guards with rifles are stationed outside the bulkhead door to Section 944.",
-  "The Marine sergeant at the door has a badge identifying him as Kilgore and sergeant's stripes on his arm.",
-  "Kilgore asks for Ray's ID; Ray shows his card and gives a stupid grin like the one in the photo on it.",
-  "Kilgore says Chief Becker said Ray should report to him before poking around.",
-  "Ray asks what is going on, wanting the bareboned, clinical report one Marine gives another rather than the security spin.",
-  "When Ray says 'sir' to Kilgore, Kilgore responds 'Don't call me sir, Marine,' an old basic training joke.",
-  "Ray is dressed in rat-related gear and hardware geek coveralls, which Kilgore looks him over in.",
-  "Kilgore finally asks whether Ray is 'Smith or Jones,' meaning FSA or International Intelligence Agency."
+  "Ray is heading through a warehouse-like district of a ship where only drone rats and security sweepers are present.",
+  "Ray's task involves the imminent detention, interrogation and voiding into space of Lilaiken suspects.",
+  "Security personnel (sec-os) are carrying firearms, which they normally do not do because passengers find armed crewmen disconcerting.",
+  "Two Marine guards, not sec-o guards, are stationed outside the bulkhead door to Section 944 and carry rifles.",
+  "The Marine sergeant is named Kilgore, identified by a badge, and has sergeant's stripes on his arm.",
+  "Kilgore demands Ray's ID, and Ray shows his card, which carries a photo of Ray grinning.",
+  "Kilgore tells Ray that Chief Becker said he should report to him before poking around.",
+  "Ray tells the Marine, 'Don't call me sir, Marine,' and the Marine's eyes narrow as he recalculates.",
+  "Marines are described as shooting people who don't know protocol, rather than demanding Ship Systems Identification as sec-os would.",
+  "Ray is described as wearing hardware geek coveralls.",
+  "The Marine asks whether Ray is 'Smith or Jones,' contrasting FSA with International Intelligence Agency."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "protagonist who arrives at Section 944 and is questioned by the Marine guards; wears hardware geek coveralls and carries an ID card"
-  },
-  {
-   "name": "Lilaiken",
-   "type": "organization",
-   "role": "group whose suspects face imminent detention, interrogation and voiding into space"
+   "role": "protagonist who approaches Section 944 and shows his ID to the Marine guards"
   },
   {
    "name": "Kilgore",
@@ -33,34 +28,39 @@
   {
    "name": "Chief Becker",
    "type": "person",
-   "role": "security chief who told Ray to report to him before poking around"
+   "role": "security chief who told the Marines that Ray should report to him before poking around"
   },
   {
    "name": "Section 944",
    "type": "place",
-   "role": "bulkhead-guarded section of the ship outside which the Marines are stationed"
+   "role": "bulkhead-guarded section of the ship that Ray approaches"
+  },
+  {
+   "name": "Lilaiken",
+   "type": "organization",
+   "role": "group whose suspects face imminent detention, interrogation and voiding into space"
   },
   {
    "name": "FSA",
    "type": "organization",
-   "role": "one of the two agencies Kilgore asks whether Ray belongs to"
+   "role": "agency named as one possibility for Ray's affiliation"
   },
   {
    "name": "International Intelligence Agency",
    "type": "organization",
-   "role": "the other agency Kilgore asks whether Ray belongs to"
+   "role": "agency named as the other possibility for Ray's affiliation"
   }
  ],
  "tags": [
   "science fiction",
   "military",
   "security",
-  "undercover",
-  "book 15"
+  "ship setting",
+  "fiction excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2000,
-  "output_tokens": 1072
+  "output_tokens": 1023
  }
 }

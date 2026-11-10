@@ -1,63 +1,63 @@
 {
- "summary": "An excerpt from a fiction novel (Book 6, part 2) in which a first-person narrator fights his way through the Grigoryan estate. He disarms and kills goons with a borrowed M16, jams Goon #2's AK-style weapon, leaves the Grigoryan brother stunned, and then switches to semiauto to pick off guards at long range while clearing an exit. The passage stresses his skill and his detachment from the violence.",
- "one_line": "A first-person action excerpt in which the narrator fights goons at the Grigoryan estate with a borrowed M16 and clears a path out.",
+ "summary": "An action passage from a fiction novel, narrated in first person, in which the narrator disarms and kills guards inside the Grigoryan estate using a borrowed M16. After the narrator jams one goon's weapon and drops another, Grigoryan is left in a standoff and the narrator leaves the room. The narrator then switches the rifle to semiauto and picks off guards at range while clearing a path out of the estate. The narrator presents themselves as highly skilled and unbothered by killing.",
+ "one_line": "First-person fiction action scene in which the narrator fights Grigoryan's guards with an M16 and clears a way out of the Grigoryan estate.",
  "key_facts": [
-  "The narrator wrenches an M16 away from a goon, and the momentum carries it toward Goons #1 and #2 stock first.",
-  "The narrator dives into a roll while Goon #2 is still turning, and Goon #1 fires a burst of automatic gunfire that sprays over the narrator's head.",
-  "The M16 had been set on full auto, and the narrator's burst makes Goon #1 fall backward through a glass bookcase.",
-  "Three goons are neutralized in about two and a half seconds.",
-  "The narrator tells Grigoryan that he jammed Goon #2's weapon, and says AKs are a lot sturdier than M16s.",
-  "Goon #2 pulls the trigger on his weapon and nothing happens.",
-  "The narrator says 'Bye now' to Grigoryan and leaves the room, keeping an eye on him the whole time.",
-  "Grigoryan's cigarette dangles forgotten from a corner of his mouth as the narrator leaves.",
-  "The narrator flicks the M16's selector lever to semiauto, reasoning that automatic fire is for people more concerned with looking impressive and chewing up furniture.",
-  "The narrator notes that an M16 can hit a target six hundred meters away with accuracy.",
-  "The narrator describes himself as 'a fucking computer program' when it comes to guns.",
-  "Grigoryan probably raised every alarm in the place before the narrator entered the room.",
-  "The narrator compares the sniping to 'a particularly artistic mathematical proof' in which each step follows from the last."
+  "The narrator wrenches an M16 away from a goon, and the momentum carries the rifle toward Goons #1 and #2 stock first.",
+  "The narrator's M16 had been set on full auto, and Goon #1 is killed when the narrator fires a burst into him.",
+  "Goon #1 falls back through a glass bookcase after being hit.",
+  "The narrator jams Goon #2's weapon by hitting it with the M16, so Goon #2's trigger pull produces nothing.",
+  "Grigoryan, the brother of the narrator's antagonists, says 'Impressive' with a voice shaking a little, and is left in a standoff.",
+  "The narrator says 'Bye now' to Grigoryan and slides out of the room while keeping an eye on him.",
+  "Grigoryan has a cigarette dangling from a corner of his mouth as the narrator leaves.",
+  "The narrator switches the M16's selector lever to semiauto, reasoning that automatic fire is for chewing up furniture rather than being deadly.",
+  "The narrator claims an M16 can hit a target six hundred meters away when the shooter is a good shot.",
+  "The narrator describes themselves as 'a fucking computer program' when it comes to guns.",
+  "The narrator states that three goons were neutralized in about two and a half seconds.",
+  "The narrator needs to get off the Grigoryan estate grounds, assuming Grigoryan raised every alarm before entering the room.",
+  "The narrator compares the sequence of shots to 'a particularly artistic mathematical proof'."
  ],
  "entities": [
   {
    "name": "Grigoryan",
    "type": "person",
-   "role": "the Grigoryan brother, who holds a cigarette and is threatened by the narrator with a standoff"
+   "role": "brother of the Grigoryan family who has a standoff with the narrator, holds a cigarette, and is referred to as 'the Grigoryan brother'"
   },
   {
    "name": "Goon #1",
-   "type": "person",
-   "role": "a armed henchman who fires a burst of automatic gunfire and is knocked out through a glass bookcase"
+   "type": "other",
+   "role": "armed guard killed by the narrator's M16 fire and falling through a glass bookcase"
   },
   {
    "name": "Goon #2",
-   "type": "person",
-   "role": "a henchman whose weapon the narrator jams and who fails to fire it"
-  },
-  {
-   "name": "Grigoryan estate",
-   "type": "place",
-   "role": "the grounds the narrator must exit after the fight"
+   "type": "other",
+   "role": "armed guard whose AK-style weapon is jammed by the narrator and who fails to fire"
   },
   {
    "name": "M16",
    "type": "product",
-   "role": "the assault rifle the narrator takes from a goon and uses throughout the fight"
+   "role": "assault rifle the narrator borrows and uses, set to full auto then switched to semiauto"
   },
   {
    "name": "AK",
    "type": "product",
-   "role": "the rifle type the narrator says is sturdier than the M16"
+   "role": "rifle type mentioned by the narrator as sturdier than the M16"
+  },
+  {
+   "name": "Grigoryan estate",
+   "type": "place",
+   "role": "grounds the narrator must exit after killing guards"
   }
  ],
  "tags": [
   "fiction",
-  "action",
-  "first-person narration",
+  "action scene",
   "firearms",
+  "first-person narrative",
   "thriller"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1939,
-  "output_tokens": 1010
+  "output_tokens": 1052
  }
 }

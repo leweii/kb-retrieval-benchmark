@@ -35,7 +35,7 @@ SHARE = {"wiki": 0.55, "bright": 0.35, "books": 0.10}
 PLAN = {  # category: (core, ext)
     "musique_ans": (60, 140), "musique_unans": (20, 30),
     "bright_ans": (40, 80), "bright_unans": (10, 20),
-    "nolima": (20, 38),
+    "nolima": (5, 5),  # templates (not questions): 1-2 questions each
 }
 BOOK_WORDS = 500
 
@@ -162,34 +162,36 @@ def select_bright(qs: list[dict]) -> tuple[list[dict], set[str]]:
 
 
 def select_nolima(books: dict) -> list[dict]:
-    needles = json.load(open(RAW / "nolima/needle_set.json"))
-    instances = []
-    for nd in needles:
-        for tid, t in nd["tests"].items():
-            for hop, qt in nd["questions"].items():
-                instances.append((nd, tid, t["input_args"], hop, qt))
-    instances.sort(key=lambda x: h("nolima", x[0]["id"], x[1], x[3]))
-    instances = instances[: sum(PLAN["nolima"])]
+    """One test per needle template. NoLiMa puts a single needle in each haystack; in a shared knowledge base,
+    several instances of one template conflict ("Which character cannot drink milk?" would match every
+    "I'm lactose intolerant" needle; "has been to Germany?" matches both the Frankfurt and the Dresden test).
+    The chosen test's needle goes into one book chunk; its one-hop and two-hop questions share that chunk.
+    The first PLAN['nolima'][0] templates (hash order) are core, the rest ext."""
+    needles = sorted(json.load(open(RAW / "nolima/needle_set.json")), key=lambda nd: h("nolima-template", nd["id"]))
     chunk_keys = sorted(books, key=lambda k: h("chunk", k))
     out = []
-    for i, (nd, tid, args, hop, qt) in enumerate(instances):
-        rng = random.Random(h("char", nd["id"], tid, hop))
+    for i, nd in enumerate(needles):
+        tid = sorted(nd["tests"], key=lambda t: h("nolima-test", nd["id"], t))[0]
+        args = nd["tests"][tid]["input_args"]
+        rng = random.Random(h("char", nd["id"], tid))
         char = rng.choice(nd["character_set"])
         needle = nd["needle"].replace("{CHAR}", char)
-        q = qt
         for j, a in enumerate(args, 1):
             needle = needle.replace("{" + str(j) + "}", a)
-            q = q.replace("{" + str(j) + "}", a)
         key = chunk_keys[i]
         body = books[key]["body"]
         # insert at a real sentence boundary: ". " + capital letter, not after an abbreviation like "Mr."
         cuts = [m.end() for m in re.finditer(r"(?<!\bMr)(?<!\bMrs)(?<!\bMs)(?<!\bDr)(?<!\bSt)[.!?][\"”’]? (?=[A-Z])", body)]
         cut = cuts[rng.randrange(len(cuts))] if cuts else len(body)
         books[key]["body"] = body[:cut] + needle.strip() + " " + body[cut:]
-        out.append({"src_id": f"{nd['id']}/{tid}/{hop}", "category": "nolima",
-                    "tier": "core" if i < PLAN["nolima"][0] else "ext", "question_en": q, "answer": char,
-                    "answer_aliases": [], "gold_keys": [key], "needle": needle, "reasoning_type": nd["reasoning_type"],
-                    "hop": hop})
+        for hop, qt in nd["questions"].items():
+            q = qt
+            for j, a in enumerate(args, 1):
+                q = q.replace("{" + str(j) + "}", a)
+            out.append({"src_id": f"{nd['id']}/{tid}/{hop}", "category": "nolima",
+                        "tier": "core" if i < PLAN["nolima"][0] else "ext", "question_en": q, "answer": char,
+                        "answer_aliases": [], "gold_keys": [key], "needle": needle,
+                        "reasoning_type": nd["reasoning_type"], "hop": hop})
     return out
 
 

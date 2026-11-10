@@ -1,42 +1,36 @@
 {
- "summary": "In this fiction excerpt from Book 6, an unnamed narrator drives Arthur's sedan westward through a city chase while an SUV with a grenade-launcher gunner pursues them. The narrator jumps the car off a high bank into the concrete-lined Los Angeles River channel, then drives north along the riverbed. The pursuing SUV plunges into the cement, and the narrator, seeing the grenade's blast coming, swerves the car into the channel wall, where it flips onto its left side. The excerpt ends mid-sentence as the grenade hits.",
- "one_line": "A chase excerpt in which a narrator escapes an armed SUV by driving a sedan off a bank into the concrete Los Angeles River channel.",
+ "summary": "An excerpt from the sixth book of a fiction series, told in first person. The narrator drives Arthur's sedan westward through the city, pursued by an SUV whose gunner has a grenade launcher. The narrator drives off a high bank into a concrete-lined Los Angeles River channel, and the pursuing SUV crashes headfirst while its gunner fires. The car then flips onto its side and skids down the riverbed as the grenade hits.",
+ "one_line": "A first-person chase in which the narrator drives Arthur's sedan into a dry concrete Los Angeles River channel to escape a grenade-firing SUV.",
  "key_facts": [
-  "The narrator drives a sedan that belongs to Arthur, and Arthur is in the car behind the narrator.",
-  "An SUV pursues the car, and its gunner tries to line up a shot with a grenade launcher.",
-  "The car hits a bank of railroad tracks and thumps over them, almost shaking loose from its frame.",
-  "The narrator describes the Los Angeles River in summer as a trickle of water through a wide, high-walled concrete ditch.",
-  "The narrator floors the gas pedal and the car sails off the high bank of the concrete trench.",
-  "The car lands belly-first on all four wheels on the bare cement at the bottom of the channel.",
-  "The narrator drives the sedan northward along the river and the car takes off like a shot.",
-  "The SUV flies out onto the edge, cannot stop in time, and its driver tries to brake.",
-  "The SUV flips into a nosedive and plunges headfirst into the cement.",
-  "The grenade launcher gunner aims and fires even while about to die in the crash.",
-  "The narrator sees the grenade's explosion, shock waves and concussion as concentric circles of force, and concludes that no possible move will be enough.",
-  "The narrator jerks the wheel and bounces the car into the wall of the concrete channel.",
-  "The car flips onto its left side and skids down the riverbed, with metal screaming and glass shattering.",
-  "The grenade hits, and the excerpt breaks off mid-sentence with the narrator saying 'I'd mooned it with'."
+  "The narrator is driving Arthur's sedan westward, with pursuers in an SUV still following.",
+  "The SUV's gunner is trying to line up a shot with a grenade launcher.",
+  "The narrator crosses a bank of railroad tracks, which shakes the sedan almost loose from its frame.",
+  "During summer, the Los Angeles River is described as a trickle of water through a wide, high-walled concrete ditch.",
+  "The narrator floors the gas pedal and sails off the high bank of the concrete trench.",
+  "The sedan lands belly-flop on all four wheels in the bare cement at the bottom of the channel.",
+  "The narrator drives northward along the river after landing, with Arthur half-pressed against them in the back.",
+  "The SUV flies off the edge, cannot stop in time, and nosedives headfirst into the cement after its driver tries to brake.",
+  "The gunner fires the grenade launcher even as the SUV plunges toward the cement.",
+  "The narrator sees the grenade's blast pattern as concentric circles of force and realizes no move will be enough.",
+  "The narrator jerks the wheel and bounces the car into the concrete channel wall, and the car flips onto its left side.",
+  "The car skids down the riverbed on its side, with metal screaming and glass shattering.",
+  "The grenade hits as the excerpt ends."
  ],
  "entities": [
   {
    "name": "Arthur",
    "type": "person",
-   "role": "Passenger and owner of the sedan, riding behind the narrator during the chase"
+   "role": "owner of the sedan, who rides behind the narrator and holds on during the chase"
   },
   {
    "name": "Los Angeles River",
    "type": "place",
-   "role": "Concrete-lined channel the car drives along, a trickle of water in summer"
+   "role": "concrete-lined river channel where the car chase takes place, a trickle in summer"
   },
   {
    "name": "SUV",
-   "type": "other",
-   "role": "Pursuing vehicle whose gunner fires a grenade launcher and which crashes into the river channel"
-  },
-  {
-   "name": "Railroad tracks",
-   "type": "place",
-   "role": "Bank of tracks the car crosses while fleeing westward"
+   "type": "product",
+   "role": "pursuing vehicle whose driver brakes, flips, and plunges into the channel, and whose gunner fires a grenade launcher"
   }
  ],
  "tags": [
@@ -44,11 +38,11 @@
   "chase scene",
   "action",
   "los angeles",
-  "thriller"
+  "serial novel"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1872,
-  "output_tokens": 1823
+  "output_tokens": 1378
  }
 }

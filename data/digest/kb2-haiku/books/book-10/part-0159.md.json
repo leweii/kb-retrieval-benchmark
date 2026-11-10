@@ -1,73 +1,73 @@
 {
- "summary": "A fictional scene from a novel's Book 10. Leon is offered a job in 'strategic research' by Brautigan, which is a polite reassignment away from the client work he has been doing. Realizing he holds the room's attention, he chooses to walk out instead of protesting or demanding more. He then meets a realtor who warns that he won't recover the roughly two million dollars he paid for his downtown loft near Broome and Grand Streets, since the market is falling.",
- "one_line": "Leon rejects a soft reassignment from Brautigan and walks out, then a realtor warns him his Lower East Side loft will sell for far less than he paid.",
+ "summary": "A scene from a fiction book (Book 10, part 159) in which Leon is offered a 'strategic research' role by Brautigan, with Ria and Carmela present, and turns it down after noticing the job avoids the clients. He walks out, then meets a realtor who is selling his Lower East Side apartment, which he bought for two million dollars less than a year earlier; she warns that he will not recoup what he paid because the market has turned.",
+ "one_line": "Leon rejects a comfortable but hollow job offer from Brautigan, then learns from a Lower East Side realtor that his two-million-dollar apartment is now worth less.",
  "key_facts": [
-  "Brautigan describes the new role as 'strategic research', involving figuring out what everyone is up to, putting people together, and proposing organizational structures.",
-  "Brautigan says the role uses Leon's talents, and when Leon raises the clients, Brautigan indicates Leon will no longer do client work.",
-  "Leon realizes he has the three people in the room in his power and could shout BOO! to make them fall off their chairs.",
-  "Leon chooses not to blow his top or ask for more; instead he says 'Nice working with ya' and walks out.",
-  "Leon says adios and buena suerte to Carmela on his way out.",
-  "The realtor is young, no-nonsense, black, and grew up on the Lower East Side, and advertises as 'A local realtor for a local neighborhood.'",
-  "Leon says he paid two million dollars for the place less than a year ago.",
-  "Leon's 80 percent mortgage was underwritten by Ate, who brought the interest rate down to less than two percent.",
+  "Brautigan describes the proposed 'strategic research' job as figuring out what everyone is up to, putting people together, and proposing organizational structures for design and deployment.",
+  "Leon notes that Brautigan's description of the job never mentions the clients.",
+  "Leon realizes he holds power over Brautigan, Ria and Carmela in that moment, but he chooses not to exploit it.",
+  "Leon says 'Nice working with ya' and turns his back on what the note calls the sweetest, softest job anyone could ask for.",
+  "Leon says goodbye to Carmela with 'adios' and 'buena suerte' on his way out.",
+  "The realtor is young, no-nonsense, black, and grew up on the Lower East Side, and her advertising describes her as 'A local realtor for a local neighborhood.'",
+  "Leon paid two million dollars for the apartment less than a year before the realtor meeting.",
+  "The purchase used an 80 percent mortgage, and Ate underwrote it, bringing the interest rate down to less than two percent.",
   "The apartment has a large corner picture window overlooking Broome Street and Grand Street.",
-  "The realtor says Leon will never get two million for the place in today's market and counts the FOR SALE signs in the neighborhood.",
-  "The realtor calls the buyers she does not want 'developers' and 'corporate apartment brokers' who rent by the week to VIPs.",
-  "The realtor says the slogans 'They're not making any more Manhattan' and 'Location location location' are lies.",
-  "The realtor says the market is designed to make buyers panic and spend more than they should."
+  "The realtor says she wants the apartment to go to a real neighborhood resident rather than a developer or a corporate apartment broker renting to VIPs.",
+  "The realtor tells Leon he will not get what he paid, calling the claims 'They're not making any more Manhattan' and 'Location location location' lies.",
+  "The realtor says the market is designed to make buyers panic and overspend."
  ],
  "entities": [
   {
    "name": "Leon",
    "type": "person",
-   "role": "protagonist who is offered a strategic research job and then walks out"
+   "role": "protagonist who is offered the strategic research job and later meets the realtor about selling his apartment"
   },
   {
    "name": "Brautigan",
    "type": "person",
-   "role": "superior who offers Leon the strategic research role and sidelines him from clients"
+   "role": "offers Leon the strategic research job and is grinning when Leon turns it down"
   },
   {
    "name": "Ria",
    "type": "person",
-   "role": "present at the meeting with no visible reaction on her face"
+   "role": "present at the job offer with a blank expression"
   },
   {
    "name": "Carmela",
    "type": "person",
-   "role": "person Leon says goodbye to on his way out"
+   "role": "receives Leon's goodbye on the way out"
   },
   {
    "name": "Ate",
    "type": "person",
-   "role": "underwrote Leon's 80 percent mortgage and lowered the interest rate to under two percent"
+   "role": "underwrote Leon's mortgage, lowering the interest rate to under two percent"
   },
   {
    "name": "Broome Street",
    "type": "place",
-   "role": "street overlooked by the apartment's corner window"
+   "role": "street overlooked by the apartment's corner picture window"
   },
   {
    "name": "Grand Street",
    "type": "place",
-   "role": "street overlooked by the apartment's corner window"
+   "role": "street overlooked by the apartment's corner picture window"
   },
   {
    "name": "Lower East Side",
    "type": "place",
-   "role": "neighborhood where the realtor grew up and works"
+   "role": "neighborhood where the realtor grew up and where Leon's apartment is located"
   }
  ],
  "tags": [
   "fiction",
-  "novel",
+  "novel excerpt",
   "real estate",
-  "corporate intrigue",
-  "new york city"
+  "manhattan",
+  "job offer",
+  "market downturn"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1878,
-  "output_tokens": 1060
+  "output_tokens": 1068
  }
 }

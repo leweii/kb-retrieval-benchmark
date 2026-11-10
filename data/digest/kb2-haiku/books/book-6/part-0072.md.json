@@ -1,54 +1,59 @@
 {
- "summary": "The narrator confronts a DHS agent who held her in a hospital, then leaves the room at gunpoint after she yields. Having lost her shirt, she slips out of the building, steals a car, and drives into the desert outside Los Angeles. There she stops, nursing a broken thumb and a burned left hand, and prepares to remove the tracker from her side with a pocket multitool blade.",
- "one_line": "A wounded narrator escapes a DHS hospital at gunpoint, steals a car, and flees into the Southern California desert to dig out a tracker.",
+ "summary": "The narrator confronts a DHS agent who held her in a hospital room after airlifting her there, and refuses to be controlled. Holding the agent's gun, she leaves the building in a borrowed hospital gown's place with her own clothes, steals a car, and drives into the Southern California desert. There she stops, aches from a wound in her side, a popped-back broken thumb, and a burned left hand, and pulls out a pocket multitool, preparing to remove the tracker implanted in her side.",
+ "one_line": "A wounded narrator escapes a DHS agent's hospital room, steals a car, and flees into the California desert with a multitool, intent on cutting out a tracker.",
  "key_facts": [
-  "The narrator tells the DHS agent that being airlifted to the nearest hospital and not taken somewhere secure afterward means she is being fooled into thinking she is getting the best of the deal.",
-  "The agent insists \"It's not a trick\" and says \"I've been straightforward with you.\"",
-  "The narrator says the agent's straightforwardness was so she would know she couldn't run off and sell the proof after finding Halliday, and so she would know the agent had a leash on her.",
-  "The narrator threatens the agent: \"Get out of my way. Or so help me, I will shoot you.\"",
-  "The narrator leaves the room keeping the agent's own gun trained on her and is not stopped.",
-  "The narrator's shirt is missing because a surgeon probably cut it off, so she zipped up her jacket instead.",
-  "The narrator changed clothes in a stairwell and walked out of the hospital with no other security present.",
-  "The narrator's DHS-returned pockets were untouched, and she stole the first car she came to.",
-  "She drove out past the outskirts of LA into the desert, where civilization drained down to gas stations and dust.",
-  "Her broken thumb was popped back into place on her way out of the hospital but still sends spasms up her right arm.",
-  "The burn on her left hand, under the hospital's bandage, has started to prickle again.",
-  "She dropped her main knife at the diner when they took her, but she has a pocket multitool with a blade.",
-  "Her side wound aches, and she feels the tracker is poisoning her and making her theirs.",
-  "She leans back and squeezes her eyes shut, telling herself she has to be able to do this."
+  "The narrator tells the DHS agent that she has been left unsecured after being airlifted to the nearest hospital.",
+  "The narrator suspects the agent did not move her to a secure location because she wanted to keep a leash on her.",
+  "The narrator threatens the agent: \"Get out of my way,\" I said. \"Or so help me, I will shoot you.\"",
+  "The agent straightens and moves aside, and the narrator edges out of the room while keeping the agent's own gun on her.",
+  "The narrator's broken thumb twinged when she scooped up her clothes with the hand not holding the gun.",
+  "The narrator changed clothes in a stairwell and walked out of the hospital into bright sunlight with no other security.",
+  "The DHS left the contents of the narrator's pockets untouched, but her shirt was missing, probably cut off by a surgeon.",
+  "The narrator zipped up her jacket to hide the missing shirt, despite the Southern California warmth.",
+  "The narrator steals the first car she comes to and drives out past the outskirts of LA into the desert.",
+  "The narrator pulls the car off the road into empty desert and stops, with the sun beating through the windshield.",
+  "She popped her broken thumb back into place on her way out of the hospital, but it still sends spasms up her right arm.",
+  "The burn on her left hand, under the dressing, has started to prickle again.",
+  "She had dropped her main knife in the diner when she was taken, but still had a pocket multitool with a blade.",
+  "The narrator describes the tracker in her side as releasing a toxic poison and taking her over, making her theirs."
  ],
  "entities": [
   {
    "name": "DHS",
    "type": "organization",
-   "role": "agency whose agent held the narrator in a hospital and whose tracker is in her side; it left her pocket contents untouched"
+   "role": "Government agency whose agent held the narrator at the hospital and whose tracker is in her side"
   },
   {
    "name": "Halliday",
    "type": "person",
-   "role": "person the narrator found, after which she could have sold the proof"
+   "role": "Person the narrator had found, mentioned as the reason the agent wanted to prevent her from selling proof"
   },
   {
    "name": "Los Angeles",
    "type": "place",
-   "role": "city whose outskirts the narrator drives past on her way into the desert"
+   "role": "City whose outskirts the narrator drives past before reaching the desert"
   },
   {
    "name": "Southern California",
    "type": "place",
-   "role": "region where the narrator walks out into the warm sunlight"
+   "role": "Region where the hospital is located and where the narrator feels the warmth"
+  },
+  {
+   "name": "diner",
+   "type": "place",
+   "role": "Location where the narrator dropped her main knife before being taken"
   }
  ],
  "tags": [
   "thriller",
   "escape",
+  "dhs",
   "tracker",
-  "desperation",
   "fiction"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1870,
-  "output_tokens": 921
+  "output_tokens": 993
  }
 }

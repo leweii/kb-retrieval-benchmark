@@ -1,59 +1,57 @@
 {
- "summary": "In this excerpt from Book 2, the narrator escapes a motel with Courtney Polk after a dirty police officer tries to take her. He hotwires a black GMC truck, zigzags through the desert outskirts, and switches cars to avoid pursuit. He asks Courtney about Pithica, which she has never heard of, then calls a contact named Rio, who warns him not to get involved.",
- "one_line": "The narrator flees a crooked cop with Courtney Polk, questions her about 'Pithica,' and is warned off by Rio.",
+ "summary": "In this excerpt from Book 2, the narrator and Courtney Polk flee a desert motel after a police officer who may be corrupt comes after Courtney. The narrator hotwires a black GMC truck, zigzags through the northern desert outskirts, and switches cars to avoid pursuit. Courtney denies knowing anything about 'Pithica,' a name the narrator asks about. From a disposable phone, the narrator calls Rio about Pithica, and Rio warns him not to get involved, which he already is.",
+ "one_line": "A narrator and Courtney Polk flee a dirty cop through the desert and question Rio about a mysterious organization called Pithica.",
  "key_facts": [
-  "The narrator hotwires a black GMC truck, caked with dust so it looked gray, and gets the engine running in fourteen seconds.",
-  "The narrator suspects the police officer was dirty and hoped to find his car, badge and ID for leverage, but no promising vehicle was visible.",
-  "Courtney Polk had been a drug mule and was locked in a basement by the cartel.",
-  "The narrator asks Courtney Polk whether she was after the cop's target, and she replies that she has never heard of Pithica.",
+  "The narrator hotwires a black GMC truck and gets its engine running in fourteen seconds.",
+  "The truck is so caked with dust and grime that it looks gray.",
+  "The narrator hopes the dirty cop has no partner nearby, since he appears to be acting alone.",
+  "Courtney Polk had been a drug mule for a cartel, which had locked her in a basement.",
+  "The narrator zigzags through the brown desert of the northern outskirts and switches cars twice in three hours.",
+  "The narrator buys a disposable cell phone at a cheap electronics store.",
+  "Courtney says she has never heard of Pithica and swears she has heard no whisper of it from her former employers.",
   "The narrator wonders why a peace officer was on the take after Courtney Polk.",
-  "The narrator avoids going straight into LA, zigzagging through the brown desert of the northern outskirts and switching cars twice in three hours.",
-  "Once the morning hit a decent hour, the narrator buys a disposable cell phone at a cheap electronics store.",
-  "The narrator calls Rio and says 'Pithica'; Rio responds, 'Don't get involved.'",
-  "The narrator replies, 'I'm already involved,' and Rio says he can't talk."
+  "The narrator calls Rio and says, 'Pithica,' as soon as Rio answers.",
+  "Rio responds, 'Don't get involved,' and then says he can't talk.",
+  "The narrator replies, 'I'm already involved,' with his stomach sinking.",
+  "The narrator considers the cop's possible resources, including an APB or roadblocks, and decides to be impossible to find."
  ],
  "entities": [
   {
    "name": "Courtney Polk",
    "type": "person",
-   "role": "Young woman who was a former drug mule for the cartel, now with the narrator and fleeing a dirty cop"
+   "role": "Former drug mule for a cartel who is being pursued by a dirty police officer; travels with the narrator."
   },
   {
    "name": "Rio",
    "type": "person",
-   "role": "Contact the narrator calls on a disposable cell phone; warns him not to get involved after hearing 'Pithica'"
+   "role": "Contact the narrator calls for information about Pithica; warns him not to get involved."
   },
   {
    "name": "Pithica",
-   "type": "other",
-   "role": "Unknown name or organization the narrator asks about; Courtney has never heard of it and Rio warns against involvement"
-  },
-  {
-   "name": "Los Angeles",
-   "type": "place",
-   "role": "Destination the narrator avoids going straight into"
-  },
-  {
-   "name": "black GMC truck",
-   "type": "product",
-   "role": "Vehicle the narrator hotwires and uses to escape the motel"
+   "type": "organization",
+   "role": "Unknown entity the narrator asks Courtney and Rio about; the reason a peace officer is after Courtney."
   },
   {
    "name": "cartel",
    "type": "organization",
-   "role": "Criminal group that employed Courtney Polk as a drug mule and locked her in a basement"
+   "role": "Criminal group that employed Courtney as a drug mule and locked her in a basement."
+  },
+  {
+   "name": "black GMC truck",
+   "type": "product",
+   "role": "Vehicle the narrator hotwires and uses to flee the motel."
   }
  ],
  "tags": [
   "fiction",
-  "crime thriller",
-  "hotwiring",
-  "evasion",
-  "pithica"
+  "thriller",
+  "pursuit",
+  "cartels",
+  "corruption"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1931,
-  "output_tokens": 875
+  "output_tokens": 883
  }
 }

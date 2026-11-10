@@ -1,59 +1,65 @@
 {
- "summary": "The narrator, held in a detention cell after being arrested, describes his anxiety about his friends and his longing for home, his workbench projects, and his confiscated USB keys. During afternoon exercise in the yard he meets a silent fellow prisoner, then is reunited briefly with Vanessa, who says authorities keep questioning her about him and Darryl. The passage ends with her urging him to answer their questions.",
- "one_line": "A detained narrator reflects on confinement, his confiscated passwords and USB keys, and a tense reunion in the yard with Vanessa.",
+ "summary": "The narrator, held in a detention cell after being arrested, describes his anxious isolation: worrying about friends Darryl and others, missing his workbench projects and his freedom, and surrendering his USB key passwords, which hold downloaded knowledge from online groups. In the yard he meets other detainees, including a silent black guy his age, and then unexpectedly sees Vanessa, who says she was also questioned about him and Darryl. The excerpt ends with a loudspeaker order to stop talking and a message from Mandy.",
+ "one_line": "A detained narrator's account of cell isolation, surrendered passwords, and an unexpected reunion with Vanessa in the detention yard.",
  "key_facts": [
-  "The narrator was given half a pepperoni pie from Goat Hill Pizza, a place he knew well up on Potrero Hill.",
-  "The narrator had been a free man only a day before he became a prisoner.",
-  "The narrator worried constantly about Darryl and fretted about his other friends.",
-  "The narrator fantasized about his workbench projects, including a ghetto surround-sound rig made from old cans, an aerial photography kite-cam, and a homebrew laptop.",
-  "Authorities took the narrator's passwords for his USB keys, which held downloaded messages and chat transcripts about knowledge he used.",
-  "The narrator said the USB contents were nothing you couldn't find with Google, but did not think that would count in his favor.",
-  "During afternoon exercise the narrator was in a yard with four other guys and two women.",
-  "The narrator tried to introduce himself to a black guy about his age with a short afro, who cut his eyes toward the cameras and kept walking.",
-  "Vanessa came out of a door into the yard and ran to the narrator, and both were shaking when they hugged.",
-  "Vanessa looked tired and grumpy but not hurt.",
-  "The narrator told Vanessa that authorities said they would let him go if he gave them his passwords.",
-  "Vanessa said authorities keep asking her questions about the narrator and Darryl.",
-  "A voice over the loudspeaker shouted at them to stop talking and walk, but they ignored it.",
-  "The narrator ends the passage with the line \"Answer them,\" spoken in the middle of the sentence."
+  "The narrator was given half a pepperoni pie from Goat Hill Pizza, a shop he knew well on Potrero Hill.",
+  "The narrator had been a free man only a day before he was taken into custody.",
+  "The narrator worried constantly about his friend Darryl and fretted about his other friends.",
+  "The narrator's projects on his workbench included a ghetto surround-sound rig made from old cans, an aerial photography kite-cam, and a homebrew laptop.",
+  "Authorities took the narrator's passwords for his USB keys, which held downloaded messages, chat transcripts, and knowledge from online discussion groups.",
+  "The narrator admitted that everything on his USB keys could be found with Google, but he didn't think that would count in his favor.",
+  "In the yard the narrator met four other men and two women of all ages and racial backgrounds, who were likely earning their privileges.",
+  "A black guy about the narrator's age with a short afro cut his eyes toward the yard cameras and kept walking without changing his expression when the narrator offered to shake hands.",
+  "Vanessa came out of a building door into the yard, looking tired and grumpy but not hurt.",
+  "The narrator and Vanessa hugged hard, and both realized they were shaking.",
+  "Vanessa told the narrator that she was questioned repeatedly about him and Darryl.",
+  "The narrator said that officers told him they would release him if he gave them his passwords.",
+  "A message from Mandy read \"I'm lactose intolerant.\"",
+  "A loudspeaker voice ordered the detainees to stop talking and walk, but the narrator and Vanessa ignored it.",
+  "The excerpt ends with the narrator telling Vanessa, \"Answer them.\""
  ],
  "entities": [
   {
    "name": "Goat Hill Pizza",
    "type": "organization",
-   "role": "pizza place on Potrero Hill whose pepperoni pie the narrator was given"
+   "role": "pizza shop on Potrero Hill whose pepperoni pie the narrator was given"
   },
   {
    "name": "Potrero Hill",
    "type": "place",
-   "role": "neighborhood where Goat Hill Pizza is located"
+   "role": "San Francisco neighborhood where Goat Hill Pizza is located"
   },
   {
    "name": "Darryl",
    "type": "person",
-   "role": "friend of the narrator whom he worries about and whom authorities ask Vanessa about"
+   "role": "friend of the narrator, worried about and questioned by authorities"
   },
   {
    "name": "Vanessa",
    "type": "person",
-   "role": "friend of the narrator who is also held and is reunited with him in the yard"
+   "role": "friend of the narrator, detained in the yard and reunited with him"
   },
   {
-   "name": "Veronica",
+   "name": "Mandy",
    "type": "person",
-   "role": "vegan guest mentioned in the cell passage"
+   "role": "sender of a message saying she is lactose intolerant"
+  },
+  {
+   "name": "Google",
+   "type": "product",
+   "role": "search engine the narrator says can find everything on his USB keys"
   }
  ],
  "tags": [
   "detention",
-  "fiction",
-  "hacking",
+  "narrative fiction",
+  "surveillance",
   "friendship",
-  "prison narrative"
+  "hacking"
  ],
  "category": "literature & arts",
  "usage": {
-  "input_tokens": 1861,
-  "output_tokens": 949
+  "input_tokens": 1871,
+  "output_tokens": 1074
  }
 }

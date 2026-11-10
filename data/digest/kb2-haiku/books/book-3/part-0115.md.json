@@ -1,84 +1,83 @@
 {
- "summary": "A first-person narrator says goodbye to Steve, who is leaving for a couple of days, and resolves to search for Sarah, who was taken by Ramos to the Peten, with Alan's reluctant help. Alan admits unease about the people who rule the place and agrees to take the narrator to look once the weather clears. The narrator then settles into a budget hotel room and decides to call St. Vincent's to check on Lou and tell him what is happening. The excerpt is part 115 of Book 3 of a fiction work.",
- "one_line": "The narrator sends Steve away, plans a dangerous search for Sarah in the Peten with Alan, and calls St. Vincent's to check on Lou.",
+ "summary": "This excerpt from a fiction novel (Book 3, part 115) follows a first-person narrator who parts from Steve, who drives off in his Jeep, as the narrator resolves to search for Sarah alone, keeping Steve out of danger. The narrator recalls a frightening past descent into the Red Fort's harem quarters in Agra and tries to persuade Alan, who is reluctant, to take them to a look at a place. Alan hesitates and mentions a concern about the rulers of the paradise-like location, then agrees to go after the weather clears. The narrator reasons that Sarah's last known location was the Peten, where Ramos likely took her, and identifies Baalum as the destination. The passage ends with the narrator in a budget hotel room planning to call St. Vincent's to check on Lou and to tell someone what is happening.",
+ "one_line": "A narrator parts from Steve, plans a dangerous search for Sarah in the Peten, and arranges to check on Lou from a budget hotel room.",
  "key_facts": [
-  "Steve tells the narrator that it is only for a couple of days and that they will both be okay if they stick together.",
-  "The narrator watches Steve's Jeep blend into the smoggy haze of the avenue after he leaves.",
-  "The narrator resolves to find Sarah before something else truly horrible happens to her.",
-  "The narrator intends to keep Steve as safely distant from the search as possible.",
-  "The narrator recalls going down into the four-hundred-year-old subterranean harem quarters of the Red Fort in Agra.",
-  "In the Red Fort harem quarters the narrator was surrounded by screaming bats and knee-deep in guano, with only a flashlight.",
+  "The narrator tells Steve, \"I don't have you. Don't worry. I'll be okay.\"",
+  "Steve says, \"It's only for a couple of days,\" and \"We'll both be okay if we just stick together.\"",
+  "The narrator watches Steve's Jeep blend into the smoggy haze of the avenue.",
+  "The narrator is determined to find Sarah before something else truly horrible happens to her.",
+  "The narrator recalls going down into the four-hundred-year-old subterranean harem quarters of the Red Fort in Agra, pitch black and knee-deep in guano.",
   "Alan says he will plead guilty to a deep-seated disquiet about the people who rule the placid paradise.",
-  "Alan agrees to take the narrator up for a quick look, but only after the weather clears.",
-  "The narrator says the Peten is where Sarah ended up the first time and is where Ramos has likely taken her now.",
-  "The narrator names Baalum as the place Alan says, and believes he means every word.",
-  "The hotel room has off-brand carpet the color of decaying vegetation and two double beds, one used only as a suitcase shelf.",
-  "The narrator plans to call St. Vincent's to check on Lou and tell him what is happening.",
-  "The narrator does not want a lecture from Lou about the recklessness of the plan and says they need support, not male advice.",
-  "The narrator asks the desk for the local AT&T contact number before making the call."
+  "Alan agrees to take the narrator up for a quick look after the weather clears.",
+  "The narrator notes that Alan is already thinking about his next loan.",
+  "The narrator says the Peten is where Sarah ended up the first time and where Ramos has likely taken her now.",
+  "The word Baalum is mentioned as the destination the narrator is sure of.",
+  "The narrator is in a hotel room with off-brand carpet, two double beds, and a TV bolted to the wall above the dresser.",
+  "The narrator plans to call St. Vincent's to check on Lou.",
+  "The narrator asks the desk for the local AT&T contact number before placing the call."
  ],
  "entities": [
   {
    "name": "Steve",
    "type": "person",
-   "role": "companion who leaves in his Jeep for a couple of days, whom the narrator wants kept out of the search"
+   "role": "narrator's companion who drives away in his Jeep and is kept safely distant from the search"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "person the narrator must find; previously ended up in the Peten and is believed taken there by Ramos"
+   "role": "person the narrator must find before something else horrible happens to her"
   },
   {
    "name": "Alan",
    "type": "person",
-   "role": "companion who admits unease about the rulers of the place and agrees to take the narrator to look after the weather clears"
+   "role": "reluctant companion who is afraid to go and who will take the narrator for a look after the weather clears"
   },
   {
    "name": "Ramos",
    "type": "person",
-   "role": "person believed to have taken Sarah to the Peten"
+   "role": "figure believed to have taken Sarah to the Peten"
   },
   {
    "name": "Lou",
    "type": "person",
-   "role": "person the narrator plans to check on by calling St. Vincent's"
+   "role": "person the narrator plans to check on at St. Vincent's"
   },
   {
    "name": "Red Fort",
    "type": "place",
-   "role": "site in Agra whose four-hundred-year-old subterranean harem quarters the narrator once explored"
+   "role": "four-hundred-year-old site in Agra whose subterranean harem quarters the narrator once explored"
   },
   {
    "name": "Peten",
    "type": "place",
-   "role": "region where Sarah ended up the first time and where Ramos is believed to have taken her"
+   "role": "region where Sarah ended up the first time and where Ramos has likely taken her"
   },
   {
    "name": "Baalum",
    "type": "place",
-   "role": "place Alan names, which the narrator believes he means"
+   "role": "destination the narrator is sure of"
   },
   {
    "name": "St. Vincent's",
    "type": "organization",
-   "role": "institution the narrator plans to call to check on Lou"
+   "role": "place the narrator will call to check on Lou"
   },
   {
    "name": "AT&T",
    "type": "organization",
-   "role": "telephone company whose local contact number the narrator obtains from the desk"
+   "role": "phone company whose local contact number the narrator requests from the desk"
   }
  ],
  "tags": [
   "fiction",
   "adventure",
-  "search for missing person",
-  "travel",
-  "friendship"
+  "thriller",
+  "novel excerpt",
+  "search for missing person"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1873,
-  "output_tokens": 1200
+  "output_tokens": 1221
  }
 }

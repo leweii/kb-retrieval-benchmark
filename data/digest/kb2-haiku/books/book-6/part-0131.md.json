@@ -1,55 +1,60 @@
 {
- "summary": "The narrator, frustrated with his friends and his own sense of helplessness after work with Halliday, drives aimlessly through the city and then breaks into Rita Martinez's condo to look for clues to where she fled. He finds her shelves dusty where items were removed, despite her denial that anything was missing. Outside, a stooped old neighbor asks whether he is Rita's friend or daughter, mentions government people who came asking about her after another woman was 'snatched,' and claims the government murdered Martinez's family, which the narrator finds unlikely.",
- "one_line": "A frustrated narrator breaks into Rita Martinez's condo searching for her, then meets a suspicious old neighbor who mentions government agents.",
+ "summary": "The narrator, distraught over his friends' self-interest and his own sense of being crippled since working with Halliday, drives aimlessly around the city and then breaks into Rita Martinez's condo searching for clues to where she has fled. He notices her shelves have dust-outlined gaps despite her denial that anything is missing. Outside, an elderly neighbor with a cane asks whether he is Rita's friend or daughter, mentions government people who had come asking about her after 'the other lady got snatched,' and claims the government murdered Martinez's family, which the narrator finds unlikely.",
+ "one_line": "A narrator searches for the missing Rita Martinez at her condo, where a suspicious elderly neighbor hints that government agents have been asking about her.",
  "key_facts": [
-  "The narrator drives around the city with aimless vengeance, going in circles as if on a mission to wear out the car.",
-  "The narrator runs out of gas, refills the tank, and keeps driving.",
-  "The narrator thinks finding Martinez is the only problem he has any shot at solving right now.",
-  "The narrator drives to Martinez's condo and breaks in to look for clues about where she ran.",
-  "Martinez's living room shelves have dust fronting empty spaces, suggesting items were removed.",
-  "Martinez denied anything was missing, but the narrator concludes she was clearly lying.",
-  "Arthur is described as far more observant than the narrator.",
-  "The building has a small paved back area with a high fence, lawn furniture, and a portable fire pit.",
-  "An old man with a cane, scraggly white hair, and half-missing yellow teeth approaches the narrator behind the building.",
-  "The old man asks, 'Are you a friend of Rita's?' and then whether she is in some sort of trouble.",
-  "The old man says government people were at the building asking about Rita when 'the other lady got snatched.'",
+  "The narrator feels his so-called friends only cared about him as suited their own needs.",
+  "The narrator says something in his head prevented him from noticing how crippled he was until the work with Halliday.",
+  "The narrator drove around the city with an aimless vengeance, running out of gas, refilling the tank, and continuing.",
+  "The narrator says Martinez is the only problem he seems to have any shot at solving right now.",
+  "The narrator drove to Martinez's condo and broke in, believing Arthur was more observant and would have found anything relevant.",
+  "The narrator ran his hand along the dust in front of the empty spaces on Martinez's living room shelves.",
+  "Martinez had denied that anything was missing, but the narrator concludes she had clearly been lying.",
+  "The condo building has a small paved area behind it with a high fence, lawn furniture, and a portable fire pit.",
+  "A little old man with a cane, scraggly white hair, and half his teeth missing asks whether the narrator is a friend of Rita's.",
+  "The old man says government people had been at the building asking about Rita when 'the other lady got snatched.'",
   "The old man says he did not tell the government people anything.",
-  "The old man claims 'I think the government murdered' Martinez's family, because 'they watch us.'",
-  "The narrator says he is not Martinez's daughter.",
-  "The narrator finds it highly unlikely the government randomly murdered Martinez's family."
+  "The old man claims Rita never talked about family and that it was painful for her.",
+  "The old man says he thinks the government murdered Martinez's family because he does not trust them and they watch people.",
+  "The narrator finds it highly unlikely the government randomly murdered Martinez's family.",
+  "The narrator tells the old man, 'I'm not her daughter.'"
  ],
  "entities": [
   {
    "name": "Rita Martinez",
    "type": "person",
-   "role": "woman the narrator is searching for; her condo was broken into and she is missing, apparently fled"
-  },
-  {
-   "name": "Halliday",
-   "type": "person",
-   "role": "person whose work with the narrator revealed how crippled he was"
+   "role": "woman whose condo the narrator breaks into searching for where she ran; her family is claimed murdered by the old man"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "observant person who likely already checked for clues about Martinez"
+   "role": "more observant person whom the narrator believes would have already found anything relevant in the condo"
   },
   {
-   "name": "government people",
+   "name": "Halliday",
+   "type": "person",
+   "role": "person with whom the narrator did work that revealed how crippled he was"
+  },
+  {
+   "name": "the government",
    "type": "organization",
-   "role": "agents who visited the building asking about Rita after another woman was snatched"
+   "role": "agents who came asking about Rita and whom the old man suspects of murdering her family and watching people"
+  },
+  {
+   "name": "Martinez's condo",
+   "type": "place",
+   "role": "condo the narrator breaks into to look for clues about her whereabouts"
   }
  ],
  "tags": [
   "fiction",
   "mystery",
-  "missing persons",
-  "surveillance",
-  "narrative excerpt"
+  "thriller",
+  "investigation",
+  "government surveillance"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1845,
-  "output_tokens": 896
+  "output_tokens": 1006
  }
 }

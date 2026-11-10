@@ -1,36 +1,37 @@
 {
- "summary": "The narrator, alone at night in the rain on a plaza at the ruined site of Baalum, mistakes a bleached jaguar skin with its head still on for a lurking person, then climbs a steep, newly restored pyramid to shelter in a stone hut at its top. Climbing, he reflects that the site may be a fake reconstruction, comparing it to Sir Arthur Evans's reconstruction of the Palace of Minos on Crete, and notes the new-looking wooden lintel above the hut's door. The passage is suspenseful, with the narrator still shaken by the earlier death of Sarah and the threat posed by Ramos.",
- "one_line": "Alone in a rainy night at the Mayan site of Baalum, the narrator mistakes a bleached jaguar skin for a threat and climbs a restored pyramid, doubting its authenticity.",
+ "summary": "The narrator, alone in the rain at the Mayan site of Baalum, sees a bleached jaguar skin hung beside a paved pathway and mistakes it for a lurking threat before realizing it is a dead cat. He heads across the plaza to climb a steep, newly restored pyramid, where he finds a stone hut with a roof at the top. Reflecting on the site, he compares its reconstruction to Sir Arthur Evans's reconstruction of the Palace of Minos on Crete, wondering whether the pyramid is a fake or the obsession of someone crazed. The passage is fearful and atmospheric, and it references the earlier death of Sarah and a suspected attacker named Ramos.",
+ "one_line": "Alone at the Mayan ruin of Baalum in a storm, the narrator meets a bleached jaguar skin, then climbs a restored pyramid and questions whether it is authentic.",
  "key_facts": [
-  "The narrator sights a white form at the south, forested edge of the plaza at night in the rain and ducks down, fearing someone is waiting to beat him to death as they had Sarah.",
-  "The white form turns out to be the skin of a jaguar, bleached white, with the head still on and fearsome teeth bared, hung beside the paved pathway.",
-  "The narrator's yellow plastic flashlight beam is swallowed up by the rain.",
-  "The narrator thinks his first encounter at Baalum is with a spooky, dead cat, which feels like a chilling omen.",
-  "The pyramid appears to have steeper steps than expected but looks like part of a meticulous restoration and brand-new, probably safe to climb.",
-  "A stone hut with what appears to be a roof stands at the top of the pyramid.",
-  "The narrator wonders whether the pyramid is 'fake'.",
-  "Sir Arthur Evans, described as an eccentric Brit archaeologist, 'reconstructed' the Palace of Minos on Crete with his own money about a hundred years earlier.",
-  "The Palace of Minos reconstruction is still a tourist highlight, according to the narrator.",
-  "The building crowning the pyramid is also a 'restoration', including a decorated wooden lintel above the door that looks newly carved.",
-  "The narrator feels the site has the feel of being somebody's crazed obsession.",
-  "The narrator fears Ramos may intend to murder him immediately.",
-  "The night songs of the birds feel ominous to the narrator, who describes the primeval forest as reasserting its will."
+  "The narrator sighted a white form at the south, forested edge of the plaza and ducked down, fearing it was someone lurking to beat him to death as they had Sarah.",
+  "The narrator wondered whether Ramos intended to murder him immediately.",
+  "The narrator's yellow plastic flashlight beam was swallowed up in the rain.",
+  "The white form was the skin of a jaguar, bleached white, with the head still on and fearsome teeth bared, hung beside the paved pathway.",
+  "The narrator described his first encounter at Baalum as being with a spooky, dead cat.",
+  "The narrator headed toward a pyramid that was barely visible in the rain.",
+  "The steps of the pyramid were steeper than the narrator had thought but appeared to be part of meticulous restoration and brand-new.",
+  "A stone hut with what appeared to be a roof stood at the top of the pyramid.",
+  "Sir Arthur Evans, an eccentric Brit archaeologist, reconstructed the Palace of Minos on Crete with his own money about a hundred years earlier.",
+  "The Palace of Minos on Crete is still a tourist highlight, according to the narrator.",
+  "The narrator asked why somebody could not do the same with a reclaimed Mayan pyramid in Central America.",
+  "The narrator felt the pyramid had the feel of being somebody's crazed obsession, unlike the Minos reconstruction.",
+  "The building crowning the pyramid was also a restoration, including a decorated wooden lintel above the door that looked newly made.",
+  "The narrator described the night songs of the birds as ominous, with the primeval forest reasserting its will."
  ],
  "entities": [
   {
    "name": "Baalum",
    "type": "place",
-   "role": "Mayan archaeological site where the narrator is at night, with a plaza and a restored pyramid"
+   "role": "Mayan site where the narrator is alone in the rain and climbs a restored pyramid"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "person the narrator believes was beaten to death by attackers"
+   "role": "person the narrator believes was beaten to death by an attacker"
   },
   {
    "name": "Ramos",
    "type": "person",
-   "role": "person the narrator fears may intend to murder him"
+   "role": "person the narrator suspects may intend to murder him"
   },
   {
    "name": "Sir Arthur Evans",
@@ -40,7 +41,7 @@
   {
    "name": "Palace of Minos",
    "type": "place",
-   "role": "Crete palace reconstructed by Sir Arthur Evans, now a tourist highlight"
+   "role": "Crete site reconstructed by Sir Arthur Evans, now a tourist highlight"
   },
   {
    "name": "Crete",
@@ -51,14 +52,14 @@
  "tags": [
   "fiction",
   "mayan ruins",
+  "pyramid",
   "suspense",
-  "pyramid restoration",
-  "jaguar",
-  "thriller"
+  "archaeology",
+  "restoration"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1889,
-  "output_tokens": 1108
+  "output_tokens": 1142
  }
 }

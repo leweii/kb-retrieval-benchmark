@@ -1,37 +1,37 @@
 {
- "summary": "An excerpt from a novel (Book 4, part 103) set in a futuristic city after a revolution that freed a nation from imperial European powers. The narrator, Valentine, a thirteen-year-old girl, spends the day at a newly built cinema across from her apartment building, describing a series of marvels the city has recently built, from flying cars to robot insect factories. She recalls the revolution from childhood, marked by hunger, grey dirt, and tension at home, and the excerpt ends with her finding the cinema's films dull because they dwell on the revolution.",
- "one_line": "Thirteen-year-old Valentine spends a day at a marvelous new cinema in a post-revolution city, remembering the hardship of the revolution.",
+ "summary": "This excerpt from Book 4 (part 103) is a fiction passage set in a futuristic city founded after a revolution. Valentine, a thirteen-year-old girl, is at a newly built cinema across from her apartment building, which children in the building flock to as the latest of many marvels, including flying cars, a candy forest, robot insect cleaners, and new housing, hospitals, and government offices. The narrator recalls the grey, hungry years of the revolution when Valentine was ten, and describes the cinema's balconies, the boys' spitball mischief, and Valentine's dismissive view of the revolution-themed films. The note also opens with a reflection that the descendants of the US revolutionaries now seek to stop other countries from industrializing the same way.",
+ "one_line": "Valentine, a thirteen-year-old in a post-revolution city, spends a day at a marvelous new cinema while recalling the hungry years of the revolution.",
  "key_facts": [
-  "The narrator's city was shaped by a revolution that liberated it from imperial European powers, and its revolutionaries kept their GDP at home to become an industrial powerhouse.",
   "The day the siege began, Valentine was at the cinema across the street from her building.",
-  "The cinema had grown the night before, with gossamer silver supports and candy-apple red curves.",
-  "Valentine begged her parents, Mata and Popa, to let her go to the cinema.",
+  "The cinema had grown the night before and had gossamer silver supports and candy-apple red curves.",
+  "Valentine begged Mata and Popa to let her go to the cinema.",
   "The week before the cinema, the city had clever little flying cars that swooped past each other with millimeters to spare.",
-  "Before the flying cars, the city had a candy forest where trees sprouted bon-bons and sticks of rock.",
-  "Robot insect swarms gathered litter and dust and turned it into brightly colored factories at the edge of town.",
-  "Valentine was ten years old during the revolution and is now thirteen.",
-  "Valentine remembers being always a little hungry, and her parents whispering angrily at each other during the revolution.",
-  "Her little brother Trover cried thin sickly cries all night during the revolution.",
-  "Valentine and the other little girls tinkered with a balcony's controls until it lifted free and sailed to a spot under the dome.",
-  "From the balcony, the screen was a little distorted, but the viewers could count the bald spots on the old war heroes' heads.",
-  "Airborne robots silently intercepted the spitballs the boys threw so they did not disturb other watchers.",
-  "Valentine thinks the films are not very good because the first one is all about the revolution, which is all the children talk about in school."
+  "Before the flying cars, a candy forest grew where the trees sprouted bon-bons and sticks of rock.",
+  "Swarms of robot insects gathered up litter and dust and turned it into brightly colored factories.",
+  "Valentine was ten years old during the revolution and is thirteen at the time of the story.",
+  "During the revolution Valentine was always a little hungry, and her little brother Trover cried thin sickly cries all night.",
+  "Valentine and the other little girls tinkered with the controls of a balcony until it lifted free and sailed under the high swoop of the dome.",
+  "From the balcony the girls could count the bald spots on the old war heroes' heads as they nodded in solemn congress.",
+  "Airborne robots silently intercepted the boys' spitballs before they disturbed other watchers.",
+  "Valentine thought the films were not very good, and the first one was all about the revolution.",
+  "The narrator notes that the US revolutionaries kept their GDP at home to bootstrap their nation into an industrial powerhouse.",
+  "The narrator states that the descendants of the US revolutionaries are now bent on ensuring no other country can pull the same trick off."
  ],
  "entities": [
   {
    "name": "Valentine",
    "type": "person",
-   "role": "thirteen-year-old narrator who spends the day at the cinema and remembers the revolution"
+   "role": "thirteen-year-old girl who visits the cinema and recalls the revolution when she was ten"
   },
   {
    "name": "Mata",
    "type": "person",
-   "role": "Valentine's mother, who whispered angrily with Popa during the revolution"
+   "role": "Valentine's mother, whom she begs to let her go to the cinema"
   },
   {
    "name": "Popa",
    "type": "person",
-   "role": "Valentine's father, who whispered angrily with Mata during the revolution"
+   "role": "Valentine's father, whom she begs to let her go to the cinema"
   },
   {
    "name": "Trover",
@@ -39,14 +39,14 @@
    "role": "Valentine's little brother who cried sickly cries during the revolution"
   },
   {
-   "name": "the revolution",
-   "type": "event",
-   "role": "uprising that liberated the nation from imperial European powers and shaped Valentine's childhood"
-  },
-  {
    "name": "the cinema",
    "type": "place",
-   "role": "newly grown cinema across the street from Valentine's building, with a dome and movable balconies"
+   "role": "newly grown cinema across the street from Valentine's building, with a dome and balconies"
+  },
+  {
+   "name": "the revolution",
+   "type": "event",
+   "role": "past uprising that Valentine barely remembers and that the films and school lessons focus on"
   },
   {
    "name": "the siege",
@@ -55,8 +55,8 @@
   }
  ],
  "tags": [
-  "fiction",
   "science fiction",
+  "fiction",
   "revolution",
   "childhood",
   "cinema",
@@ -65,6 +65,6 @@
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1843,
-  "output_tokens": 1093
+  "output_tokens": 1139
  }
 }

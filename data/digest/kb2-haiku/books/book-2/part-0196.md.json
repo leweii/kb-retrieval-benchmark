@@ -1,55 +1,49 @@
 {
- "summary": "A first-person fiction excerpt (Book 2, part 196) in which the narrator receives a text from Checker, newly back in LA, inviting them to a drink. The narrator feels surreal distance from the idea of a sociable life, reflects on a recent visit from Arthur, and softens toward the idea that people are not all bad. The narrator replies accepting, with a dry condition about their new Colt 1911, and signs off as Cas.",
- "one_line": "The narrator, Cas, accepts a drinking invitation from Checker after a text arrives, weighing solitude against the possibility of connection.",
+ "summary": "The narrator receives a text message from Checker, who has just returned to LA, inviting them to get together. The invitation feels surreal to the narrator, who sees themselves as someone unused to social life and more accustomed to work and threats. Reflecting on a visit from Arthur, the narrator begins to wonder whether people are not all bad and whether it might be fine not to drink alone that night. The narrator replies accepting, with a joking condition about a new Colt 1911 and signs off as Cas.",
+ "one_line": "Cas, a lonely and guarded narrator, reluctantly accepts a drinking invitation from Checker after a text arrives in LA.",
  "key_facts": [
-  "The narrator's phone beeped with a text message from Checker, who had newly arrived back in LA.",
-  "The narrator describes a strange, fizzy feeling in their chest when reading the messages.",
-  "The invitation feels surreal to the narrator, as if watching someone else's life.",
-  "The narrator contrasts themselves with someone who lives in society, makes friends, and goes out drinking with them.",
-  "The narrator's texts are usually about work or death threats.",
-  "The narrator recalls Arthur's visit while considering the invitation.",
-  "The narrator thinks maybe people weren't all bad, at least not all the time.",
-  "The narrator thinks it might not be such an awful thing not to drink alone tonight.",
-  "The narrator replies to Checker that the invitation works as long as their new Colt 1911 counts.",
-  "The narrator's reply ends with 'See you at 8' and is signed 'Cas'."
+  "The narrator receives a text message from Checker, who has newly arrived back in LA.",
+  "The narrator describes a strange, fizzy feeling in their chest when the message arrives.",
+  "The narrator sees the invitation as surreal, like watching someone else's life.",
+  "The narrator contrasts their usual texts, which are about work or death threats, with the friendly invitation.",
+  "The narrator thinks about Arthur's visit before deciding how to respond.",
+  "The narrator reflects that maybe people weren't all bad, at least not all the time.",
+  "The narrator considers that it might not be so awful not to drink alone tonight.",
+  "The narrator replies that the invitation works as long as their new Colt 1911 counts.",
+  "The narrator's reply ends with 'See you at 8.' and is signed Cas."
  ],
  "entities": [
   {
-   "name": "Cas",
-   "type": "person",
-   "role": "first-person narrator who receives Checker's invitation and replies, signing the reply as Cas"
-  },
-  {
    "name": "Checker",
    "type": "person",
-   "role": "sender of the text message inviting the narrator out, newly arrived back in LA"
+   "role": "friend who sent a text message from LA inviting the narrator out, newly arrived back in LA"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "visitor whose recent visit the narrator thinks about while considering the invitation"
+   "role": "person whose visit the narrator recalls while deciding how to respond"
+  },
+  {
+   "name": "Cas",
+   "type": "person",
+   "role": "narrator who signs the reply message"
   },
   {
    "name": "Colt 1911",
    "type": "product",
-   "role": "the narrator's new handgun, which the narrator says must count for the invitation to work"
-  },
-  {
-   "name": "LA",
-   "type": "place",
-   "role": "city where Checker has newly arrived back"
+   "role": "new firearm the narrator says must count for the invitation to work"
   }
  ],
  "tags": [
   "fiction",
-  "first-person narration",
-  "loneliness",
-  "social connection",
-  "book 2"
+  "novel excerpt",
+  "book 2",
+  "friendship",
+  "loneliness"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1252,
-  "output_tokens": 744
+  "output_tokens": 674
  }
 }

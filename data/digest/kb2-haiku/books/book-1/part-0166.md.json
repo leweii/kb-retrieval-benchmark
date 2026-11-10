@@ -1,41 +1,42 @@
 {
- "summary": "A fiction excerpt (Book 1, part 166) in which two young characters, Ange and the narrator, prepare to go fugitive. The narrator recalls advice on packing light, then watches Ange pack a courier bag with a minimal set of clothes and toiletries. Ange also plans to protect the data on her Xbox hard-drive by emailing an encrypted image of it to herself through a Pirate Party account before leaving. The narrator reflects on the impending separation, which may be long or permanent, and the excerpt ends mid-scene as Ange adds condoms to the bag.",
- "one_line": "Ange and the narrator prepare to go fugitive, packing light and emailing encrypted drive backups before leaving for LA.",
+ "summary": "This is an excerpt from a fiction work labeled 'Book 1 — part 166' in which two characters, Ange and the narrator, prepare to go on the run. The narrator receives a message from M1k3y and texts Masha about meeting tomorrow. Ange packs a ballistic nylon courier bag with minimal clothing, toiletries, and an encrypted hard-drive image she emails to herself via a neighbor's WiFi, while the narrator reflects on the weight of packs and the possibility of not returning home. The passage ends with the two of them about to continue their plans.",
+ "one_line": "Ange and the narrator pack light and prepare to go fugitive, emailing encrypted data and planning to meet Masha and M1k3y the next day.",
  "key_facts": [
-  "The narrator says every ounce added to a pack cuts into the shoulders, becoming a ton over a million steps.",
-  "Ange plans to pack three t-shirts, a pair of pants, a pair of shorts, three changes of underwear, three pairs of socks and a sweater.",
-  "Ange says never take more than three days' worth of clothes and that stains can be rinsed out in the sink.",
-  "Ange chooses a ballistic nylon courier bag that goes across her chest and slings diagonally across her back.",
-  "Ange's hard-drive data is encrypted, which the narrator says is standard with ParanoidXbox.",
-  "The narrator tells Ange to leave the Xbox behind because there will be plenty of them in LA.",
-  "Ange is told to create a Pirate Party account and email an image of her hard-drive to herself.",
-  "The emailed hard-drive image will take a couple of hours to upload through her neighbor's WiFi network and reach Sweden.",
-  "Ange plans to stick her toothbrush in the morning before heading down to Civic Center.",
-  "The narrator reflects that the next day they will go away, maybe for a long time or forever.",
-  "Ange takes condoms from her bedside table and stows them in the courier bag before giving the narrator a slap on the ass.",
-  "The narrator's message to Masha, signed M1k3y, says 'Tomorrow'.",
-  "The excerpt opens with a message promising 'the most fun you will have all year, guaranteed' and ends with 'Believe.'"
+  "M1k3y sends a message promising that what they are going to do is 'the most fun you will have all year, guaranteed.'",
+  "The narrator sends Masha a short message saying 'Tomorrow.'",
+  "Ange plans to carry three t-shirts, a pair of pants, a pair of shorts, three changes of underwear, three pairs of socks and a sweater.",
+  "Ange says you should never take more than three days' worth of clothes because you can rinse stuff out in the sink.",
+  "Ange packs her clothes into a ballistic nylon courier bag that goes across her chest and slings diagonally across her back.",
+  "Ange plans to stick her toothbrush in tomorrow morning before heading down to Civic Center.",
+  "The narrator says that every ounce carried adds crushing force over a million steps.",
+  "Ange asks whether to bring her Xbox, which holds notes, sketches and email on its hard-drive.",
+  "The narrator advises leaving the Xbox behind because there will be plenty of them in LA.",
+  "The narrator tells Ange to create a Pirate Party account and email an image of her hard-drive to herself.",
+  "The narrator says the hard-drive is encrypted, as is standard with ParanoidXbox.",
+  "The email transfer is expected to take a couple of hours through her neighbor's WiFi network and reach Sweden.",
+  "Ange tightens the compression straps and the bag is described as roughly the size of a soccer-ball.",
+  "Ange puts condoms inside the bag, taking them from her bedside table."
  ],
  "entities": [
   {
    "name": "Ange",
    "type": "person",
-   "role": "companion of the narrator who packs a courier bag and prepares to go fugitive"
-  },
-  {
-   "name": "M1k3y",
-   "type": "person",
-   "role": "narrator, who signs a short message to Masha with this name"
+   "role": "character who packs a courier bag and plans to go fugitive"
   },
   {
    "name": "Masha",
    "type": "person",
-   "role": "recipient of a short message from the narrator saying 'Tomorrow'"
+   "role": "person the narrator sends a short message to about tomorrow"
+  },
+  {
+   "name": "M1k3y",
+   "type": "person",
+   "role": "sender of the message promising fun and telling the narrator to believe"
   },
   {
    "name": "ParanoidXbox",
    "type": "product",
-   "role": "encryption standard the narrator says Ange's hard-drive data uses"
+   "role": "encryption system the narrator says the hard-drive uses as standard"
   },
   {
    "name": "Pirate Party",
@@ -45,29 +46,29 @@
   {
    "name": "Civic Center",
    "type": "place",
-   "role": "location Ange will head down to the morning after packing"
+   "role": "location Ange plans to head down to the next morning"
   },
   {
    "name": "LA",
    "type": "place",
-   "role": "destination where plenty of Xbox consoles can be found"
+   "role": "destination where there will be plenty of Xboxes available"
   },
   {
    "name": "Sweden",
    "type": "place",
-   "role": "destination the emailed hard-drive image is sent toward"
+   "role": "destination where the emailed hard-drive data travels"
   }
  ],
  "tags": [
   "fiction",
-  "novel excerpt",
   "fugitive plot",
-  "packing and preparation",
-  "digital privacy"
+  "packing",
+  "encryption",
+  "narrative excerpt"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1869,
-  "output_tokens": 1098
+  "output_tokens": 1088
  }
 }

@@ -1,48 +1,63 @@
 {
- "summary": "The narrator, after a biker ambush in the desert, accepts a ride from the PI Tresting, who offers to share intel. Their exchange covers Tresting's jammed Glock, his backup Beretta, and the narrator's earlier gift of a snub-nosed revolver to a girl named Penny. The two search the dead bikers, finding high-tech night vision gear and plastic explosives but no clue to why the gang wanted the narrator dead. The narrator takes grenades from a Harley saddlebag and climbs into Tresting's beat-up truck.",
- "one_line": "After a desert biker ambush, the narrator accepts a ride from PI Tresting, searches the gang's gear, and loads grenades into his truck.",
+ "summary": "In this excerpt from Book 2, the narrator, after a violent encounter with bikers in the desert, agrees to accept a ride from a private investigator named Tresting, who may be a useful lead. They trade barbs about their guns: Tresting's Glock jammed and was left unloaded, he carries a Beretta nine-millimeter backup, and the narrator says she gave her snub-nosed revolver to a little girl named Penny as a party favor. The narrator searches the bikers' gear, finding high-tech night vision equipment and plastic explosives but no clue to why they targeted her. She takes a saddlebag of weapons, including grenades, and loads it into Tresting's battered truck.",
+ "one_line": "After a desert biker fight, the narrator accepts a ride from PI Tresting, trading gun jibes while searching the bikers' gear and taking weapons.",
  "key_facts": [
-  "Tresting offers the narrator a lift into town and to share intel after the biker ambush.",
-  "The narrator slides a SIG back into their coat and considers that they could still kill Tresting if necessary.",
-  "Tresting says he will pretend he didn't see the extended magazine on the narrator's gun.",
-  "The narrator says the extended magazine is legal two hundred miles east of there.",
-  "The narrator's bike went down in the desert scrub, and Tresting reports it is a lost cause.",
-  "Tresting's Glock is banged up and jammed; he clears the chamber and tucks it into his belt without reloading.",
-  "Tresting carries a Beretta as a backup, which is nine-millimeter.",
-  "Tresting says someone stole his .45.",
-  "The narrator says the snub-nosed revolver was given to a little girl as a party favor, referring to Penny.",
-  "The narrator searches the bikers and finds high-tech night vision gear and plastic explosives.",
-  "The search turns up no clue indicating what brought the gang there, except that they wanted the narrator dead.",
-  "The narrator loads grenades and other weapons from a Harley saddlebag into a bag.",
-  "Tresting's truck is a beat-up old clunker, and the narrator stows the bag of weapons on its floor."
+  "Tresting, a private investigator, offers the narrator a lift into town and to share intel after the fight in the desert.",
+  "The narrator considers Tresting a lead and agrees to the ride, keeping her SIG pistol in her coat.",
+  "Tresting's Glock was banged up and jammed, so he dropped the magazine, racked the slide to clear the chamber, and put it in his belt unloaded.",
+  "Tresting carries a Beretta as a backup gun and calls it a nine-millimeter.",
+  "Tresting says his .45 was stolen and asks for the snubby revolver back.",
+  "The narrator says she gave the snubby to a little girl as a party favor, and remembers what happened to Penny and the gun.",
+  "Tresting says the extended magazine on the narrator's gun is legal two hundred miles east of their location.",
+  "The narrator's motorcycle was wrecked in the desert scrub, and Tresting says it is a lost cause.",
+  "The bikers had high-tech night vision gear and plastic explosives, which the narrator found unexpected for this kind of gang.",
+  "The narrator concludes the bikers wanted her dead but the search revealed no clue to what brought them there.",
+  "The narrator takes a saddlebag from one of the Harley motorcycles, loaded with weapons including grenades.",
+  "Tresting gives the narrator a severe look about the loaded saddlebag but says nothing.",
+  "Tresting's truck is a beat-up old clunker, and the narrator stows her bag of weapons on its floor."
  ],
  "entities": [
   {
    "name": "Tresting",
    "type": "person",
-   "role": "PI who offers the narrator a ride and intel; carries a jammed Glock and a Beretta"
+   "role": "private investigator (PI) and former cop who offers the narrator a ride and intel"
   },
   {
    "name": "Penny",
    "type": "person",
-   "role": "little girl who received the narrator's snub-nosed revolver as a party favor"
+   "role": "little girl who received the narrator's snubby revolver as a party favor"
+  },
+  {
+   "name": "Glock",
+   "type": "product",
+   "role": "Tresting's banged-up handgun that jammed and was left unloaded"
+  },
+  {
+   "name": "Beretta",
+   "type": "product",
+   "role": "nine-millimeter backup handgun carried by Tresting"
+  },
+  {
+   "name": "SIG",
+   "type": "product",
+   "role": "the narrator's handgun, which she slides back into her coat"
   },
   {
    "name": "Harley",
    "type": "product",
-   "role": "motorcycle whose saddlebag the narrator loots of grenades and other weapons"
+   "role": "motorcycles belonging to the bikers, one of which the narrator takes a saddlebag from"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
-  "pi",
-  "firearms",
-  "desert ambush"
+  "guns",
+  "desert",
+  "private investigator"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1945,
-  "output_tokens": 834
+  "output_tokens": 1070
  }
 }

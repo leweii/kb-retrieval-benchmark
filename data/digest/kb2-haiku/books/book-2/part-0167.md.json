@@ -1,90 +1,90 @@
 {
- "summary": "The narrator, Rio, and Checker discover that all electronics have failed, which Rio and Checker attribute to an EMP attack, most likely a high-altitude nuclear detonation. A battery-powered radio in a Faraday cage reports a localized event affecting Southern California, parts of Arizona and Nevada, and Mexico, with FEMA and the National Guard deploying. Rio concludes the blackout is a stalling tactic to let the attackers hunt them down, and the scene ends with the narrator asking what to do.",
- "one_line": "After an EMP knocks out all electronics in Southern California, the characters hear a radio report and realize the blackout is a stalling tactic by their pursuers.",
+ "summary": "In this excerpt from a fiction novel (Book 2, part 167), the narrator and Rio discover that all electronics have failed, which Rio attributes to an EMP attack. Checker explains that a high-altitude nuclear detonation could cause such an effect, and the narrator worries about cars and cloud backups. A radio broadcast reports an unverified 'event' localized to Southern California, parts of Arizona, Nevada, and Mexico, with FEMA and the National Guard deployed. Rio and the narrator conclude the attack is a stalling tactic meant to let their pursuers hunt them down.",
+ "one_line": "In a fiction novel, the characters learn that an EMP attack has knocked out electronics across Southern California and beyond, likely to stall their pursuit.",
  "key_facts": [
-  "Rio pulled the burner cell out of his pocket, reinserted the battery, and pressed the power button, and nothing happened.",
-  "Rio said, \"Not a power outage\" and attributed the failure to an EMP attack.",
-  "Rio said Pithica was warned by the alerts going out and was protecting itself.",
+  "Rio reinserted the battery into the burner cell, pressed the power button, and got no response.",
+  "Rio said, \"Not a power outage,\" and attributed the failure to an EMP attack that Pithica launched to protect itself after alerts went out.",
   "Checker said a high-altitude nuclear detonation is probably the easiest way to produce an EMP.",
   "Checker said one high-altitude nuke could take out all the electronics in the United States.",
-  "Checker said there would be no loss of human life, except for people depending on medical electronics.",
-  "The narrator asked about cars, and Checker said most cars are computerized these days and older ones might have a better chance.",
-  "Checker had been backing up in the cloud, and the narrator asked whether the network would still work from a place that was not fried.",
-  "Rio found a working radio kept inside a metal box in a Faraday cage, which a survivalist had stored.",
+  "Checker said no loss of human life would result directly, except for people depending on medical electronics.",
+  "The narrator asked, \"What about cars?\" and Checker replied that most cars are computerized these days.",
+  "Checker said that backups in the cloud should be fine through distributed computing, depending on how much had been taken out.",
+  "Rio found a working radio kept inside a Faraday cage in a metal box.",
   "A radio broadcast said it was unverified whether the event was an attack or a natural phenomenon.",
-  "The President asked people to help each other and avoid panic, and FEMA and the National Guard were being deployed to affected areas.",
+  "The President asked people to help each other out and avoid panic, and FEMA and the National Guard were being deployed to affected areas.",
   "The event was at least localized to Southern California and parts of Arizona, Nevada, and Mexico.",
   "Rio said, \"This is not their endgame,\" and the narrator agreed it was a stalling tactic.",
-  "Rio said the attackers would have some plan of escalation and were very efficient when they pooled their resources.",
-  "Checker's voice had gone very high when he wondered whether they had taken out the whole country."
+  "Rio said the enemy would have some plan of escalation and was very efficient when pooling resources.",
+  "The narrator suspected the attackers were provoked by what Steve's group did and tracked it back to them."
  ],
  "entities": [
   {
    "name": "Rio",
    "type": "person",
-   "role": "character who diagnoses the outage as an EMP attack and climbs onto the roof to look at the horizon"
+   "role": "character who identifies the outage as an EMP attack, climbs onto the roof, and finds the working radio"
   },
   {
    "name": "Checker",
    "type": "person",
-   "role": "character who explains EMP effects and high-altitude nuclear detonation and mentions cloud backups"
+   "role": "character who explains EMP effects over the panicked voice and worries about cloud backups"
   },
   {
    "name": "Pithica",
    "type": "organization",
-   "role": "entity that issued alerts and, per Rio, is protecting itself from the EMP"
+   "role": "entity whose alerts went out before the EMP and which Rio says is protecting itself"
   },
   {
    "name": "Steve's group",
    "type": "organization",
-   "role": "group whose actions may have provoked the attackers, per the narrator's speculation"
+   "role": "group whose actions may have provoked the attack, per the narrator's speculation"
   },
   {
    "name": "FEMA",
    "type": "organization",
-   "role": "agency reported on the radio as being deployed to affected areas"
+   "role": "agency reported in the radio broadcast as being deployed to affected areas"
   },
   {
    "name": "National Guard",
    "type": "organization",
-   "role": "force reported on the radio as being deployed to affected areas"
+   "role": "force reported in the radio broadcast as being deployed to affected areas"
   },
   {
    "name": "Southern California",
    "type": "place",
-   "role": "area at least partly affected by the localized event"
+   "role": "region where the event was localized according to the broadcast"
   },
   {
    "name": "Arizona",
    "type": "place",
-   "role": "state partly affected by the localized event"
+   "role": "state partly affected by the event according to the broadcast"
   },
   {
    "name": "Nevada",
    "type": "place",
-   "role": "state partly affected by the localized event"
+   "role": "state partly affected by the event according to the broadcast"
   },
   {
    "name": "Mexico",
    "type": "place",
-   "role": "country partly affected by the localized event"
+   "role": "country partly affected by the event according to the broadcast"
   },
   {
    "name": "EMP attack",
    "type": "event",
-   "role": "electromagnetic pulse attack blamed for the electronics failure"
+   "role": "electromagnetic pulse attack Rio blames for the electronics failure"
   }
  ],
  "tags": [
-  "science fiction",
+  "fiction",
+  "dystopian thriller",
   "emp attack",
   "survival",
-  "blackout",
-  "thriller"
+  "electronics failure",
+  "pursuit"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2012,
-  "output_tokens": 1222
+  "output_tokens": 1245
  }
 }

@@ -1,0 +1,57 @@
+{
+ "summary": "An excerpt from a novel's Book 1, part 153, in which the first-person narrator Marcus Yallow reflects on a sexual encounter with Ange, describing mixed feelings of change and intimacy afterward. The passage then shifts to his routine of checking email, dealing with spam and joe-jobbing targeting his Swedish mailbox, and sorting encrypted messages from his web of trust, one of which is encrypted only to his public key and is about to be read.",
+ "one_line": "Marcus Yallow reflects on his intimate moment with Ange, then sorts spam and encrypted messages, ending on a mysterious message encrypted to his key alone.",
+ "key_facts": [
+  "The narrator Marcus Yallow says the sexual experience with Ange was nothing like he expected, with parts better and parts much worse.",
+  "Afterwards Ange was grinning while fat tears rolled down her cheeks, and she whispered to Marcus Yallow, \"You're a good man, Marcus Yallow.\"",
+  "Marcus wrapped the condom in kleenex, wound it with toilet paper, and stuck it deep into the trash-can.",
+  "Ange was playing with her Xbox while sitting up in bed, and she pointed at Marcus's Xbox on the floor to signal him to log in.",
+  "Marcus's Swedish mailbox was repeatedly \"joe-jobbed,\" meaning it was used as the return address for spam sent to hundreds of millions of Internet accounts.",
+  "Marcus suspected the DHS might be trying to overwhelm his mailbox, though he also considered that it could just be people pranking him.",
+  "The Pirate Party's email service gave anyone who wanted it 500 gigabytes of email storage and had pretty good filters.",
+  "Marcus kept a separate mailbox for messages encrypted to his public key, since these were likely Xnet-related and possibly sensitive.",
+  "Spammers had not yet realized that using public keys would make their junk mail more plausible.",
+  "There were a couple dozen encrypted messages from people in the web of trust, including links to videos and pictures of DHS abuses.",
+  "One message was encrypted only to Marcus's public key, meaning no one else could read it."
+ ],
+ "entities": [
+  {
+   "name": "Marcus Yallow",
+   "type": "person",
+   "role": "first-person narrator who reflects on his encounter with Ange and manages his email"
+  },
+  {
+   "name": "Ange",
+   "type": "person",
+   "role": "woman with whom Marcus shares an intimate moment; she plays with her Xbox and cries happy tears"
+  },
+  {
+   "name": "DHS",
+   "type": "organization",
+   "role": "agency whose abuses are reported in messages and which may be behind the joe-jobbing"
+  },
+  {
+   "name": "Pirate Party",
+   "type": "organization",
+   "role": "provider of Marcus's email service, which has good filters and offers 500 gigabytes of storage"
+  },
+  {
+   "name": "Xnet",
+   "type": "program",
+   "role": "related network that encrypted messages in Marcus's separate mailbox are likely connected to"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "coming of age",
+  "surveillance",
+  "email spam",
+  "encryption",
+  "privacy"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1890,
+  "output_tokens": 1014
+ }
+}

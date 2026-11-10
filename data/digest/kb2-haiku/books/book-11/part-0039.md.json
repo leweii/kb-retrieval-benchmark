@@ -1,54 +1,69 @@
 {
- "summary": "An excerpt from Kate Douglas Wiggin's novel Rebecca of Sunnybrook Farm (labeled \"Book 11 — part 39\") in which Rebecca is scolded by her Aunt Miranda for leaving the house unsecured and careless while she went to a school exhibition wearing her pink dress and carrying a parasol. Miranda lists Rebecca's transgressions: she dropped a handkerchief, left a window screen out, left lunch uncleared, and left the side door unlocked. Rebecca tearfully explains she was late, rushed back to school, and feared a black mark. Miranda closes by reproaching her for not trying to make less trouble in a house that is not her own.",
- "one_line": "Aunt Miranda scolds Rebecca for leaving the house unlocked and careless after she secretly wore her pink dress and parasol to a school exhibition.",
+ "summary": "An excerpt from Book 11, part 39, of a novel (Kate Douglas Wiggin's Rebecca of Sunnybrook Farm style narrative) in which Rebecca is scolded by her aunt Miranda for wearing her pink dress and carrying a parasol to a school exhibition without permission, and for leaving the house careless: the screen out, a handkerchief dropped, lunch uncleared, and the side door unlocked. Rebecca admits the parasol was silly and explains she wanted to match the pink dress for a dialogue she performed with Emma Jane about a city girl and a country girl. Miranda calls her conduct crafty and underhanded, and Rebecca, in tears, explains she was late and feared a black mark before the minister's wife, the doctor's wife and the school committee.",
+ "one_line": "Rebecca is reprimanded by aunt Miranda for wearing her pink dress and parasol to school and for leaving the house carelessly unlocked.",
  "key_facts": [
-  "Rebecca did not ask Aunt Miranda's permission before wearing the pink dress and parasol to school.",
-  "Rebecca said she had intended to ask at noontime but could not because Miranda was not at home.",
-  "Rebecca admitted she was not certain Miranda would refuse, but thought it was worth the risk because the event was almost a real exhibition at school.",
-  "Miranda called the parasol business \"exhibition enough by yourself\" and asked whether Rebecca was exhibiting her parasol.",
+  "Rebecca did not ask Miranda for permission to wear the pink dress and parasol, and she says she intended to ask at noontime but Miranda was not at home.",
+  "Rebecca says she was not certain Miranda would refuse, but thought it was worth risking because it was almost a real exhibition at school.",
+  "Miranda scornfully asks whether Rebecca was exhibiting her parasol.",
+  "Rebecca confesses the parasol was silly but says it was the only time in her life she had anything to match it, and it looked beautiful with the pink dress.",
   "Rebecca and Emma Jane spoke a dialogue about a city girl and a country girl at the school exhibition.",
-  "Rebecca said the parasol was silly but was the only time in her whole life she had anything to match it.",
-  "Miranda said Rebecca dropped her handkerchief on the way up the front stairs, so she did not hide her tracks.",
-  "Miranda said Rebecca left the screen out of her bedroom window, letting flies come into the house.",
-  "Miranda said Rebecca never cleared away her lunch or put away a dish.",
-  "Miranda said Rebecca left the side door unlocked from half past twelve to three o'clock.",
-  "Rebecca said she was trimming the schoolroom, got belated, and ran all the way home.",
-  "Rebecca feared being late and receiving her first black mark on a Friday afternoon with the minister's wife, the doctor's wife and the school committee present.",
-  "Miranda quoted the proverb: \"An ounce of good behavior is worth a pound of repentance.\""
+  "Rebecca says she has not hurt her dress a mite.",
+  "Miranda calls the craftiness and underhandedness of Rebecca's actions the worst part of her conduct.",
+  "Miranda says Rebecca dropped her handkerchief on the way up the front stairs and so did not hide her tracks.",
+  "Miranda says Rebecca left the screen out of her bedroom window, letting flies into the house.",
+  "Miranda says Rebecca never cleared away her lunch or put away a dish.",
+  "Miranda says Rebecca left the side door unlocked from half past twelve to three o'clock.",
+  "Rebecca says she was trimming the schoolroom, got belated, and ran all the way home, and had time to eat only a mouthful.",
+  "Rebecca fears she would get her first black mark on a Friday afternoon in front of the minister's wife, the doctor's wife and the school committee if she was late.",
+  "Miranda quotes the proverb that an ounce of good behavior is worth a pound of repentance."
  ],
  "entities": [
   {
    "name": "Rebecca",
    "type": "person",
-   "role": "young girl who is scolded for her careless and disobedient actions while living with her aunt"
+   "role": "niece who wears the pink dress and parasol to school and is scolded for her carelessness"
   },
   {
    "name": "Miranda",
    "type": "person",
-   "role": "Rebecca's aunt who scolds her for leaving the house unsecured and for wearing the pink dress without permission"
+   "role": "aunt (aunt Mirandy) who scolds Rebecca for disobedience and careless conduct"
   },
   {
    "name": "Emma Jane",
    "type": "person",
-   "role": "Rebecca's companion who spoke a dialogue with her about a city girl and a country girl at the school exhibition"
+   "role": "Rebecca's companion in the school dialogue about a city girl and a country girl"
   },
   {
    "name": "school exhibition",
    "type": "event",
-   "role": "school event where Rebecca wore the pink dress and carried a parasol, and where she performed a dialogue"
+   "role": "school event at which Rebecca and Emma Jane performed a dialogue, for which Rebecca wore the pink dress and parasol"
+  },
+  {
+   "name": "minister's wife",
+   "type": "person",
+   "role": "one of the local dignitaries Rebecca feared would see her arrive late to school"
+  },
+  {
+   "name": "doctor's wife",
+   "type": "person",
+   "role": "one of the local dignitaries Rebecca feared would see her arrive late to school"
+  },
+  {
+   "name": "school committee",
+   "type": "organization",
+   "role": "body of officials Rebecca feared would see her arrive late to school"
   }
  ],
  "tags": [
-  "rebecca of sunnybrook farm",
-  "kate douglas wiggin",
-  "aunt miranda",
-  "household rules",
-  "scolding",
-  "school exhibition"
+  "fiction",
+  "coming of age",
+  "domestic discipline",
+  "school life",
+  "rebecca of sunnybrook farm"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1893,
-  "output_tokens": 1072
+  "output_tokens": 1264
  }
 }

@@ -1,48 +1,48 @@
 {
- "summary": "In this excerpt from Book 14, the narrator, Zenobia (called Zen), meets with a group that includes Geoff (called Call Me Cheese), Zeke, Jason (known as Gargle), and Ian in a tent-lined space they have borrowed. Jason explains the fabric blocks radio and cell signals, making the space a Faraday cage that Zen recognizes from her own backpack. The group then discusses her brother, an FBI sting that recruited an informant, and a fugitive who is still on the run and has been texting Zen over the Convo app.",
- "one_line": "Zen and her companions meet in a signal-blocking tent to discuss her brother, an FBI sting, and a fugitive still on the run.",
+ "summary": "A group of young hackers meets in a tent-lined space that blocks radio and cell signals, a portable security setup being demoed at a security conference. The narrator, Zenobia (\"Zen\"), bristles at teasing from Zeke, Jason (called Gargle), and Ian, who are discussing her brother's situation: an informant was recruited in an FBI sting, the agent running it has been identified, and one suspect remains on the run and has been texting her. The conversation shifts to software updates and surveillance, and Jason asks how much the fugitive knows about surveillance.",
+ "one_line": "Zenobia and a group of hackers meet in a signal-blocking tent to discuss her brother's FBI sting and a fugitive still on the run.",
  "key_facts": [
-  "The narrator's name is Zenobia, and she says she can be called Zen for short.",
-  "Geoff, called Call Me Cheese, says Zenobia was a badass woman warrior who led a rebellion against the Romans.",
-  "Jason, whom the narrator knew as Gargle, says a friend recently bought the building and plans to convert it into a community makerspace.",
-  "Jason says the tent fabric blocks radio waves and cell signals and is portable security for sensitive communications.",
-  "Jason says the group is demoing the tent at the security conference.",
+  "The narrator's full name is Zenobia, and she says she can be called Zen for short.",
+  "Zenobia is described as a badass woman warrior who led a rebellion against the Romans and conquered Egypt.",
+  "Jason, whom the narrator knew as Gargle, says a friend recently bought the place and plans to convert it into a community makerspace.",
+  "The tent fabric blocks radio waves and cell signals and is portable security for sensitive communications.",
+  "Jason says the tent is being demoed at the security conference.",
   "The narrator made her backpack into a Faraday cage using layers of duct tape and foil.",
   "Ian says the group has identified the crook who was recruited as an informant.",
-  "Ian says the group uncovered the FBI agent running the sting and found nothing embarrassing in his past.",
-  "Zeke mentions a tenth grade yearbook photo as embarrassing, but Ian's point is that nothing would discredit the agent.",
+  "Ian says the group uncovered the FBI agent running the sting and found nothing embarrassing in his past, except a tenth grade yearbook photo that Zeke calls embarrassing.",
   "Ian says one person is still on the run.",
-  "The narrator says the fugitive, called Wheeze, has sent her a few texts.",
-  "The narrator says she and the fugitive are both running Convo, which Zeke wrote.",
-  "Zeke warns about a kernel problem in the latest update that caused some devices to be bricked.",
-  "The narrator replies that they are running current versions and that she knows enough to keep systems updated.",
-  "Jason asks how much the fugitive knows about surveillance, and the narrator answers that he is pretty informed."
+  "The fugitive, nicknamed Wheeze, has sent the narrator a few texts.",
+  "The narrator and the fugitive are both running Convo, a messaging app that Zeke says is his.",
+  "Zeke warns of a kernel problem in the latest update that reportedly bricked some devices.",
+  "The narrator says she is running current versions and calls Zeke's warning redundant.",
+  "Ian jokes that the narrator was raised by wolves, and the narrator replies she was raised in Brookline by totally normal people.",
+  "Jason asks how much the fugitive knows about surveillance, and the narrator says he is pretty informed."
  ],
  "entities": [
   {
    "name": "Zenobia",
    "type": "person",
-   "role": "the narrator, called Zen for short; named after a historical warrior queen who led a rebellion against the Romans"
-  },
-  {
-   "name": "Geoff",
-   "type": "person",
-   "role": "called Call Me Cheese; corrects the narrator with history about Zenobia"
+   "role": "narrator, called Zen for short; named after the historical warrior queen who led a rebellion against the Romans"
   },
   {
    "name": "Zeke",
    "type": "person",
-   "role": "a member of the group who wrote the Convo app and offers a kernel update warning"
+   "role": "member of the group who teases the narrator and offers software update advice; his messaging app is Convo"
   },
   {
    "name": "Jason",
    "type": "person",
-   "role": "known to the narrator as Gargle; explains the tent's signal-blocking fabric and the planned security conference demo"
+   "role": "member of the group, known to the narrator as Gargle; says a friend bought the building and demoes the tent fabric at the security conference"
   },
   {
    "name": "Ian",
    "type": "person",
-   "role": "a member of the group who leads the discussion about the FBI sting and the fugitive"
+   "role": "member of the group who leads the discussion of the FBI sting and jokes that the narrator was raised by wolves"
+  },
+  {
+   "name": "Geoff",
+   "type": "person",
+   "role": "called Call Me Cheese; reacts to the narrator's name with a schoolteacher-like scolding"
   },
   {
    "name": "Monica",
@@ -52,12 +52,12 @@
   {
    "name": "Wheeze",
    "type": "person",
-   "role": "the fugitive still on the run, who has texted the narrator"
+   "role": "fugitive still on the run who has texted the narrator"
   },
   {
    "name": "FBI",
    "type": "organization",
-   "role": "agency whose agent was running the sting that recruited an informant"
+   "role": "agency whose agent ran the sting in which an informant was recruited"
   },
   {
    "name": "Convo",
@@ -67,24 +67,25 @@
   {
    "name": "Brookline",
    "type": "place",
-   "role": "city where Ian says he was raised by totally normal people"
+   "role": "town where the narrator says she was raised by normal people"
   },
   {
    "name": "security conference",
    "type": "event",
-   "role": "event where the group will demonstrate the signal-blocking tent"
+   "role": "event where the tent security product is being demoed"
   }
  ],
  "tags": [
   "fiction",
-  "thriller",
+  "hacking",
   "surveillance",
   "faraday cage",
-  "fbi sting"
+  "fugitive",
+  "book 14"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 2028,
-  "output_tokens": 1234
+  "output_tokens": 1271
  }
 }

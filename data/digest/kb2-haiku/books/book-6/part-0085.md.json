@@ -1,45 +1,44 @@
 {
- "summary": "In this fiction excerpt from Book 6, the narrator and Professor Halliday are held captive and plan an escape. The narrator notes that meal trays arrive at fixed times, which could be used to time their escape, and proposes staging a fire with the papers of Halliday's half-finished proof to make the captors open the door. Halliday objects strongly, calling the plan madness, while the narrator argues that the concrete room will not burn and that smoke is the main danger.",
- "one_line": "Captive narrator and Professor Halliday plan a timed escape, proposing a staged fire using Halliday's half-finished proof to lure the captors open the door.",
+ "summary": "The narrator and Professor Halliday are held captive and plan an escape. The narrator notes the meal tray arrives at 2:33 p.m. and proposes timing the next delivery to coordinate their escape before dark. Halliday wants to wait for Arthur, but the narrator refuses, and proposes setting fire to the papers of Halliday's half-finished proof to make the captors open the door and rush in. Halliday objects, calling it madness, and the narrator dismisses the risk of the concrete room burning.",
+ "one_line": "Captive narrator and Professor Halliday plan a timed escape, proposing to fake a fire with Halliday's half-finished proof to draw captors through the door.",
  "key_facts": [
   "The meal tray came through at thirty-three seconds past two p.m. according to the narrator's watch.",
-  "The narrator suggests the meal timing might be exact enough to use for executing the escape.",
-  "Halliday says the captors took her phone, so she cannot check the meal timing herself.",
-  "The narrator plans to time the next meal and escape before dark.",
-  "Halliday says they should wait for Arthur, calling the plan foolhardy and reckless.",
-  "The narrator says that reckless is where she lives and refuses to give Halliday a choice.",
-  "The narrator reasons that the captors would rush in to save their assets if the captives were in danger from a fire.",
-  "The captors' assets are described as the half-finished proof, Professor Halliday, and the narrator.",
-  "The narrator proposes using the papers on the table as fuel for a fire.",
-  "Halliday is horrified at the idea of burning her half-finished proof, which she calls her life's work.",
-  "The narrator says the proof can be rewritten and that leaving a copy with the captors is undesirable.",
+  "The narrator suggests the regular meal timing might be exact enough to use for executing the escape.",
+  "Halliday says her captors took her phone, so she cannot check the meal timing herself.",
+  "The narrator plans to time the next meal delivery and escape before dark.",
+  "Halliday wants to wait for Arthur, calling the plan foolhardy and reckless.",
+  "The narrator says, \"Reckless is where I live.\"",
+  "The narrator reasons that the captors would rush in to save them if they were in danger from a fire.",
+  "The narrator proposes burning the papers of the half-finished proof on the table as fuel for a fire.",
+  "The half-finished proof is described by Halliday as her life's work.",
+  "Halliday says recreating the proof has taken a great deal of effort, and the narrator replies that the second time will be easier.",
+  "The narrator argues the captors should not be left with a copy of the proof, and that burning it means they will not have to carry it.",
   "Halliday asks how they would ignite anything and what would stop the fire from killing them before rescue arrives.",
-  "The narrator says ignition is easy and that the room, surrounded by concrete, will not burn.",
-  "The narrator says smoke inhalation will be the only real problem with the fire plan.",
-  "The narrator notes that nausea makes food unappealing but tells Halliday to eat and pocket food for later."
+  "The narrator says the room is concrete and smoke inhalation will be the only problem.",
+  "The narrator notes the regular meals give scheduled chances of contact with captors, which could be used for a timed action."
  ],
  "entities": [
   {
    "name": "Halliday",
    "type": "person",
-   "role": "Professor, captive who objects to the escape plan and is protective of her half-finished proof"
+   "role": "Professor, captive who wants to wait for Arthur and objects to burning the proof"
   },
   {
    "name": "Arthur",
    "type": "person",
-   "role": "Named by Halliday as the person they should wait for before acting"
+   "role": "Person Halliday wants to wait for before escaping"
   }
  ],
  "tags": [
   "fiction",
   "captivity",
   "escape plan",
-  "mathematics",
-  "suspense"
+  "thriller",
+  "book 6"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1924,
-  "output_tokens": 805
+  "output_tokens": 788
  }
 }

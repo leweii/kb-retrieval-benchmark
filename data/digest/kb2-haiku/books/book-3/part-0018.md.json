@@ -1,47 +1,42 @@
 {
- "summary": "The narrator, Morgan, visits fertility doctor Hannah Klein after a final intrauterine insemination with Steve's sperm failed, confirming she will not have a biological child. Klein suggests considering adoption, and Morgan, though grieving, feels a sense of liberation at no longer having to endure the repeated humiliation of treatment. The passage is a reflective, wry excerpt from a fiction work and opens with a reference to Carly Grove, who found Kevin quickly and easily.",
- "one_line": "Morgan learns her final fertility treatment has failed and considers adoption after a visit to Dr. Hannah Klein.",
+ "summary": "In this excerpt from a fiction book (Book 3, part 18), the narrator Morgan visits fertility doctor Hannah Klein on the Upper West Side after a final failed intrauterine insemination attempt with husband Steve's sperm deposit. The pregnancy test confirms she is not pregnant, and Hannah suggests considering adoption. Morgan reflects that she feels liberated to stop the baby pursuit and must accept that the baby part of her life is over and move on to Plan B. The passage opens with reflections on Carly Grove, who found Kevin quickly, and on David's office, where the narrator had lunch of hot dogs.",
+ "one_line": "Morgan receives confirmation that her final fertility attempt has failed and hears adoption suggested by Dr. Hannah Klein.",
  "key_facts": [
-  "The narrator Morgan's final attempt at intrauterine insemination (IUI) with Steve's deposit had failed.",
-  "Morgan describes IUI as med-speak for an expensive \"turkey baster.\"",
-  "Morgan confirmed her pregnancy suspicions with a pregnancy test run by Hannah Klein's assistant, Lori.",
-  "Hannah Klein's office is on the Upper West Side.",
-  "Hannah Klein was pushing seventy and was a chain smoker.",
-  "Hannah Klein is a child of the Holocaust.",
+  "Morgan's final attempt at pregnancy, another intrauterine insemination (IUI) using the last of Steve's sperm deposit, had failed.",
+  "Lori, the assistant of Hannah Klein, ran the pregnancy test that confirmed Morgan was not pregnant.",
+  "Hannah Klein's office is on the Upper West Side, and she has been a fixture there for about fifty years.",
+  "Hannah Klein was pushing seventy, was a chain smoker, and was a child of the Holocaust.",
   "Hannah Klein told Morgan, \"maybe you ought to just start considering adoption—if having a child still means that much to you.\"",
-  "Morgan felt strangely liberated sitting in Klein's office because she no longer had to endure repeated humiliation of treatment.",
-  "Morgan's tests showed no cysts, fibroids, polyps, or ovulatory abnormalities.",
-  "Morgan's uterus and Fallopian tubes were fine, and Steve's sperm counts were okay.",
-  "Morgan had eaten two hot dogs with sauerkraut from a striped-umbrella vendor before going to Klein's office.",
-  "Morgan mentions Carly Grove, who found Kevin in no time with zero hassles, and calls the situation mysterious.",
-  "Klein is described as having white hair in a bun and a raspy New York voice.",
-  "Morgan describes the realization as accepting that the baby part of her life is over and moving on to Plan B."
+  "Morgan describes IUI as med-speak for an expensive \"turkey baster.\"",
+  "Morgan had no cysts, fibroids, polyps or ovulatory abnormalities, and her uterus and Fallopian tubes were fine.",
+  "Steve's sperm counts were okay, but no pregnancy occurred.",
+  "Morgan felt strangely liberated in Hannah Klein's office because she would never again have to endure the humiliation of those appointments.",
+  "Morgan ate two hot dogs with sauerkraut from a striped-umbrella vendor before going to Hannah Klein's office.",
+  "Morgan describes herself as a theoretically functional reproductive machine that just wouldn't kick over.",
+  "Carly Grove found Kevin in no time at all, with zero hassles, which the narrator finds mysterious.",
+  "Morgan hailed a cab clutching the grungy brown bag after leaving David's office.",
+  "Hannah Klein never wore perfume but always smelled faintly of roses mixed with something else."
  ],
  "entities": [
   {
    "name": "Morgan",
    "type": "person",
-   "role": "narrator, a woman seeking to have a child through fertility treatment"
+   "role": "narrator, a woman whose final IUI attempt failed and who receives the pregnancy test result"
   },
   {
    "name": "Steve",
    "type": "person",
-   "role": "Morgan's partner whose sperm was used in the insemination attempts"
+   "role": "Morgan's husband, whose sperm deposit was used in the final IUI attempt"
   },
   {
    "name": "Hannah Klein",
    "type": "person",
-   "role": "fertility doctor on the Upper West Side, Morgan's physician, pushing seventy and a Holocaust survivor's child"
+   "role": "fertility doctor on the Upper West Side, pushing seventy, a chain smoker and Holocaust child, who suggests adoption"
   },
   {
    "name": "Lori",
    "type": "person",
    "role": "Hannah Klein's assistant who ran the pregnancy test"
-  },
-  {
-   "name": "David",
-   "type": "person",
-   "role": "person whose office Morgan left before going to lunch and then to Klein's office"
   },
   {
    "name": "Carly Grove",
@@ -51,19 +46,30 @@
   {
    "name": "Kevin",
    "type": "person",
-   "role": "person found quickly by Carly Grove"
+   "role": "person Carly Grove found quickly, mentioned in passing"
+  },
+  {
+   "name": "David",
+   "type": "person",
+   "role": "person whose office Morgan left before getting lunch"
+  },
+  {
+   "name": "Upper West Side",
+   "type": "place",
+   "role": "neighborhood in New York where Hannah Klein's office is located"
   }
  ],
  "tags": [
   "fiction",
   "infertility",
-  "iui treatment",
+  "ivf-iui",
   "adoption",
-  "memoir-style narrative"
+  "family-life",
+  "novel-excerpt"
  ],
- "category": "health & psychology",
+ "category": "literature & arts",
  "usage": {
   "input_tokens": 1939,
-  "output_tokens": 1053
+  "output_tokens": 1221
  }
 }

@@ -1,56 +1,55 @@
 {
- "summary": "An excerpt from a fiction novel (Book 2, part 11) in which narrator Cas Russell, after a phone call with Rio, who is working undercover and wants no help, calls information broker Anton of Mack's Garage to research the word \"Pithica\" that may link to Colombian drug runners. Cas then drives Courtney through Los Angeles traffic on the 405 freeway in the heat, with Courtney's cash situation raised as a question.",
- "one_line": "Cas Russell, suspicious that Rio is working undercover, hires information broker Anton to dig up anything on \"Pithica\" while driving Courtney through LA traffic.",
+ "summary": "Cas Russell, a private investigator, reacts to a phone call from Rio, who is working undercover and declines help, leaving Cas to feel hurt and uneasy about his motives. Cas then calls Anton, an information broker at Mack's Garage, to research the word \"Pithica\" possibly linked to Colombian drug runners. Cas and Courtney then drive through Los Angeles traffic on the 405 freeway, and Cas asks Courtney about her cash situation.",
+ "one_line": "Cas Russell hangs up on Rio, hires information broker Anton to research \"Pithica,\" and drives Courtney through Los Angeles traffic.",
  "key_facts": [
-  "Narrator Cas Russell believes Rio is still undercover and was surprised he did not simply take down the gang.",
-  "Rio ended the phone call with the words \"God be with you\" and hung up.",
-  "Rio's usual method, as the narrator describes it, was to go in, hurt the people who needed hurting, and get out.",
-  "Rio had referred Dawna to Cas to get Courtney out, rather than doing it himself.",
-  "Anton answers the phone at Mack's Garage with a gravelly voice.",
-  "Cas asks Anton to find everything he can on the word \"Pithica\".",
-  "Cas suspects \"Pithica\" may have ties to Colombian drug runners and that the authorities might already be investigating.",
-  "Anton is one of several information brokers in the city whom Cas has hired over the past couple of years.",
-  "Anton promises results in two hours and charges his usual rates.",
-  "Cas and Courtney drive on the 405 freeway in Southern California during rush hour.",
+  "Rio was still undercover, which Cas had not expected given that Rio's usual method was to go in, hurt the people who needed hurting, and get out.",
+  "Rio ended the call with the words \"God be with you\" and hung up without giving a time or place.",
+  "Cas notes that a nice explosion would have left only a crater and the bodies of several eviscerated drug dealers if taking down the gang had been Rio's only objective.",
+  "Rio had referred Dawna to Cas to get Courtney out, rather than doing it himself, which Cas finds puzzling.",
+  "Cas thinks Rio was working his own angle and did not want help, even from her.",
+  "Cas calls Anton at Mack's Garage, an information broker she has hired over the past couple of years.",
+  "Cas asks Anton to find everything he can on the word \"Pithica,\" which may have ties to Colombian drug runners.",
+  "Anton says he needs two hours to get the information.",
+  "Cas and Courtney are stuck in rush hour traffic on the 405 freeway in Southern California.",
   "The temperature rose by a full thirty-four degrees Fahrenheit with the rising sun as they headed into Los Angeles.",
   "Cas asks Courtney whether she has cash or whether her money is all in the bank.",
-  "Cas and Courtney's car is described as a junkpot car."
+  "The car they are driving is described as a junkpot car."
  ],
  "entities": [
   {
    "name": "Cas Russell",
    "type": "person",
-   "role": "narrator and protagonist, a professional who hires information brokers and is accompanying Courtney"
+   "role": "narrator and protagonist, who calls Anton and drives Courtney into Los Angeles"
   },
   {
    "name": "Rio",
    "type": "person",
-   "role": "undercover operative and contact of Cas who refuses help and ends the call with \"God be with you\""
+   "role": "undercover operative and close contact of Cas who refuses to let her help and hangs up"
   },
   {
    "name": "Courtney",
    "type": "person",
-   "role": "companion of Cas whom Dawna referred to Cas to be gotten out"
-  },
-  {
-   "name": "Dawna",
-   "type": "person",
-   "role": "person who referred Courtney to Cas"
+   "role": "companion of Cas who was previously extracted from the situation and rides with her in the car"
   },
   {
    "name": "Anton",
    "type": "person",
-   "role": "information broker at Mack's Garage who will search for information on Pithica"
+   "role": "information broker at Mack's Garage who will research \"Pithica\" for Cas"
+  },
+  {
+   "name": "Dawna",
+   "type": "person",
+   "role": "person who was referred to Cas by Rio to get Courtney out"
   },
   {
    "name": "Mack's Garage",
    "type": "organization",
-   "role": "business where Anton answers calls and operates as an information broker"
+   "role": "business where Anton can be reached as an information broker"
   },
   {
    "name": "Pithica",
    "type": "other",
-   "role": "word Cas wants researched, possibly tied to Colombian drug runners"
+   "role": "term Cas asks Anton to research, possibly tied to Colombian drug runners"
   },
   {
    "name": "405 freeway",
@@ -60,19 +59,19 @@
   {
    "name": "Los Angeles",
    "type": "place",
-   "role": "city the characters drive into in the heat"
+   "role": "city the characters are driving into, with heat and rush hour traffic"
   }
  ],
  "tags": [
   "fiction",
-  "undercover intrigue",
+  "undercover",
   "private investigation",
   "los angeles",
-  "drug ring"
+  "colombian drug ring"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1934,
-  "output_tokens": 1055
+  "output_tokens": 1094
  }
 }

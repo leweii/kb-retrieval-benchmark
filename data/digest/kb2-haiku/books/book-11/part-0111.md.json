@@ -1,74 +1,62 @@
 {
- "summary": "An excerpt from Book 11 (part 111) of a novel, set at Wareham. Adam Ladd, who is fond of the schoolgirl Rebecca, notices she is overworked and pale after a tearful exchange with him at the seminary gate. He then meets the principal, Mr. Morrison, to propose English composition prizes marking the school's fiftieth anniversary, alongside a gift of a hundred volumes to the reference library. Afterward he visits Miss Maxwell, who plans to take Rebecca South for the spring vacation, and Adam offers to share the cost and responsibility.",
- "one_line": "At Wareham, Adam Ladd plans anniversary writing prizes and arranges with Miss Maxwell to take the overworked Rebecca South for spring vacation.",
+ "summary": "An excerpt from Book 11 (part 111) of a novel, set at Wareham, in which Adam Ladd and Miss Maxwell discuss the overworked young Rebecca. Adam, who has been planning a prize-essay competition to mark the fiftieth anniversary of the Wareham schools, leaves a visit with the principal Mr. Morrison and then calls on Miss Maxwell. The two agree that Rebecca needs rest, and Miss Maxwell proposes taking her on her usual spring trip South, with Adam offering to help pay for it.",
+ "one_line": "Adam Ladd and Miss Maxwell agree to take overworked Rebecca on a spring vacation South, while Adam plans essay prizes for Wareham schools.",
  "key_facts": [
-  "Adam Ladd tells Rebecca that vacation comes soon and asks whether she will rest and recover her dimples.",
-  "Rebecca replies that it is not one of her dimply days and runs into the seminary gate.",
+  "Adam Ladd tells Rebecca she is studying too hard and calls her Miss Rebecca Rowena.",
+  "Rebecca confesses she is studying 'Just a little' and notes that vacation comes soon.",
+  "Rebecca's eyes suffuse when Adam asks whether she will recover her dimples, and she says 'it's not one of my dimply days!'",
   "This year is the fiftieth anniversary of the founding of the Wareham schools.",
-  "Adam intends to give a hundred volumes to the reference library along with the prizes.",
-  "Adam plans prizes in English composition for the two upper classes, awarded to the writers of the two best essays.",
-  "The prizes will be substantial, either money or books, and Adam has not yet decided which.",
-  "Adam thinks Rose-Red-Snow-White needs help but cannot give it without causing remark, so she must earn it.",
+  "Adam plans to give a hundred volumes to the reference library and offer prizes in English composition.",
+  "The prizes are for the writers of the two best essays from the two upper classes, in money or books.",
+  "Adam decides that Rebecca must earn help himself, since giving it openly would cause remark.",
   "Miss Maxwell goes South every spring vacation, traveling by sea to Old Point Comfort.",
-  "Miss Maxwell considers taking Rebecca with her as a companion on the spring trip.",
-  "Adam offers to help Miss Maxwell take Rebecca away, saying he has been interested in the child for some years.",
+  "Miss Maxwell says she would like nothing better than to have Rebecca as a companion on the trip.",
+  "Adam says he has been interested in Rebecca for some years and that she was a friend of his long before Miss Maxwell came to Wareham.",
   "Miss Maxwell says she discovered Rebecca herself.",
-  "Adam says he was an intimate friend of Rebecca long before Miss Maxwell came to Wareham.",
-  "Miss Maxwell says Rebecca is independent of everything and everybody in a sense."
+  "Miss Maxwell says Rebecca attends to her own development and is in a sense independent of everything and everybody."
  ],
  "entities": [
   {
    "name": "Adam Ladd",
    "type": "person",
-   "role": "Wealthy benefactor who speaks with Rebecca and plans prizes for the Wareham schools"
+   "role": "Man who befriends Rebecca, plans essay prizes for the Wareham schools and offers to help fund her trip"
   },
   {
    "name": "Rebecca",
    "type": "person",
-   "role": "Schoolgirl at the Wareham seminary who appears tired and is to be taken on vacation"
+   "role": "Young student at the Wareham seminary, overworked and tired, invited on the spring trip"
   },
   {
    "name": "Miss Maxwell",
    "type": "person",
-   "role": "Hostess and Rebecca's patron who plans a spring trip South with her"
+   "role": "Hostess who discovered Rebecca and plans to take her South for spring vacation"
   },
   {
    "name": "Mr. Morrison",
    "type": "person",
-   "role": "Principal of the Wareham schools whom Adam meets about the prizes"
-  },
-  {
-   "name": "Wareham",
-   "type": "place",
-   "role": "Town where the seminary and schools are located"
-  },
-  {
-   "name": "Old Point Comfort",
-   "type": "place",
-   "role": "Destination by sea of Miss Maxwell's usual spring vacation"
+   "role": "Principal of the Wareham schools, told of Adam's plan"
   },
   {
    "name": "Wareham schools",
    "type": "organization",
-   "role": "Schools celebrating their fiftieth anniversary this year"
+   "role": "Schools whose fiftieth anniversary is being marked by Adam's prize offer"
   },
   {
-   "name": "Rose-Red-Snow-White",
-   "type": "person",
-   "role": "Nickname Adam uses for a girl he wants to help, apparently Rebecca"
+   "name": "Old Point Comfort",
+   "type": "place",
+   "role": "Destination of Miss Maxwell's usual sea voyage for spring vacation"
   }
  ],
  "tags": [
   "fiction",
   "novel excerpt",
-  "wareham",
-  "adam ladd",
   "rebecca",
-  "school prizes"
+  "wareham",
+  "character relationships"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1907,
-  "output_tokens": 1125
+  "output_tokens": 1022
  }
 }

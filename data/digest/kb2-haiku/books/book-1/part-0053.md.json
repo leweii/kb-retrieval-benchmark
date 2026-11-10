@@ -1,0 +1,81 @@
+{
+ "summary": "This excerpt from a novel's Book 1 (part 53) explains the basics of public-key-style cryptography: hard-to-factor large primes make certain scrambling schemes nearly unbreakable. It defines cleartext, ciphertext, cipher, and key, and contrasts old secrecy-based cipher practice with the idea that security should not depend on hiding the method. The narrator recounts how Germany's Enigma machine was cracked by the Allies under Alan Turing, and describes his admiration for Turing and the biography Darryl gave him.",
+ "one_line": "A novel excerpt explaining prime-factoring encryption, the terms cleartext, ciphertext, cipher and key, and how the Allies cracked Enigma under Alan Turing.",
+ "key_facts": [
+  "Unscrambling a message scrambled by multiplying large primes is very hard without knowing those primes, even for computers working for a trillion years.",
+  "The original message in cryptography is called the \"cleartext.\"",
+  "The scrambled message is called the \"ciphertext.\"",
+  "The scrambling system is called the \"cipher.\"",
+  "The key is secret stuff fed into the cipher along with the cleartext to make ciphertext.",
+  "Historically, every agency and government had its own ciphers and keys, and tried to keep them secret.",
+  "The narrator initially said of prime factoring, \"No way, that's BS.\"",
+  "The narrator compares the hypothetical NSA mathematicians to a hollow mountain full of people reading every email in the world.",
+  "The Nazi cipher was called Enigma, and it was scrambled and unscrambled by a little mechanical computer called an Enigma Machine.",
+  "The narrator notes that ciphers are hard to keep secret, and if someone changes sides a new cipher must be found.",
+  "The Allies cracked Enigma after they got their hands on an Enigma Machine.",
+  "The codebreaking work was led by Alan Turing, whom the narrator calls his \"personal all-time hero.\"",
+  "After the war, the British government forced Turing to take hormones to \"cure\" his homosexuality, and he killed himself.",
+  "Darryl gave the narrator a biography of Turing for his 14th birthday.",
+  "The narrator has been a \"Turing junkie\" ever since receiving the biography."
+ ],
+ "entities": [
+  {
+   "name": "Alan Turing",
+   "type": "person",
+   "role": "Led the Allied work that cracked the Enigma cipher; described as the narrator's personal all-time hero and as having pretty much invented computers as we know them today"
+  },
+  {
+   "name": "Enigma",
+   "type": "product",
+   "role": "The Nazi cipher used to scramble and unscramble messages"
+  },
+  {
+   "name": "Enigma Machine",
+   "type": "product",
+   "role": "Little mechanical computer used by the Nazis to scramble and unscramble messages; captured by the Allies"
+  },
+  {
+   "name": "Darryl",
+   "type": "person",
+   "role": "Gave the narrator a biography of Alan Turing for his 14th birthday"
+  },
+  {
+   "name": "National Security Agency",
+   "type": "organization",
+   "role": "Referenced as the hypothetical source of mathematicians reading every email in the world"
+  },
+  {
+   "name": "Castle Wolfenstein",
+   "type": "product",
+   "role": "Video game the narrator has spent many days playing while hunting Nazis"
+  },
+  {
+   "name": "British government",
+   "type": "organization",
+   "role": "Forced Alan Turing to take hormones after the war to \"cure\" his homosexuality"
+  },
+  {
+   "name": "Allies",
+   "type": "organization",
+   "role": "Got their hands on an Enigma Machine and cracked it during World War II"
+  },
+  {
+   "name": "Nazis",
+   "type": "organization",
+   "role": "Used the Enigma cipher and Enigma Machines to scramble their messages"
+  }
+ ],
+ "tags": [
+  "cryptography",
+  "prime factorization",
+  "enigma machine",
+  "alan turing",
+  "world war ii",
+  "codebreaking"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1867,
+  "output_tokens": 1243
+ }
+}

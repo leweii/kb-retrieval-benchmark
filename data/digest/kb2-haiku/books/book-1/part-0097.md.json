@@ -1,84 +1,88 @@
 {
- "summary": "A first-person narrator from a near-future Xnet-centered story recounts a hungover Saturday in San Francisco's Mission district after a night of flirting with Ange until 4AM. Walking out, he sees fresh graffiti, including the words DON'T TRUST ANYONE OVER 25 painted on an auto-yard fence, and learns through anonymous Xnet blogs that a concert in the park with that name has grown into a movement. He reflects on feeling alone, avoiding calls to Van, Jolu and Darryl, and plans to revisit an anarchist bookstore on Monday.",
- "one_line": "A narrator in the Mission district learns from Xnet blogs that a park concert called Don't Trust Anyone Over 25 has become a youth movement.",
+ "summary": "A first-person excerpt from a novel (Book 1, part 97) in which the narrator, hungover after a late-night flirtation with Ange, wanders the Mission district on a Saturday. He notices graffiti, including the slogan DON'T TRUST ANYONE OVER 25, and learns through anonymous Xnet blogs that a movement and a park concert by that name have been planned for weeks. He also reflects on his estrangement from Van, Jolu and Darryl, and ends by deciding to revisit an anarchist bookstore.",
+ "one_line": "A narrator in San Francisco's Mission district discovers an Xnet-organized park concert and anti-authority graffiti movement called Don't Trust Anyone Over 25.",
  "key_facts": [
-  "The narrator's school route passed a poster of Emma Goldman with the caption \"If I can't dance, I don't want to be a part of your revolution.\"",
-  "The narrator had been spending his energies on using the Xnet to organize dedicated fighters to jam the DHS.",
-  "The narrator was a zombie the next day because he and Ange had chatted and flirted until 4AM.",
-  "The day in question was a Saturday, so the narrator could sleep in.",
-  "The narrator liked Mission graffiti, which often came in huge murals or sarcastic art-student stencils.",
-  "Some surveillance cameras in the Mission had been spray-painted over.",
+  "The narrator recalls a poster in the Mission of old revolutionary Emma Goldman with the caption \"If I can't dance, I don't want to be a part of your revolution.\"",
+  "The narrator had been spending his energies figuring out how to use the Xnet to organize dedicated fighters so they could jam the DHS.",
+  "The narrator and Ange chatted and flirted until 4AM, and the following day he was a zombie from a hangover and sleep deprivation.",
+  "The excerpt takes place on a Saturday, and the narrator gets up around lunchtime to head out onto the streets.",
+  "The narrator notes that the Mission's taggers kept going under the nose of the DHS, and that some cameras had been spray-painted over.",
   "Painted in ten-foot-high letters on the side of an auto-yard's fence were the words DON'T TRUST ANYONE OVER 25.",
-  "The narrator could not call Van, who was not talking to him, and did not feel ready to talk to Jolu.",
-  "Anonymous Xnet blogs, called anonablogs, were untraceable to any author unless the author put her name on it.",
-  "Plans for a concert in the park had existed for weeks and had hopped from blog to blog.",
-  "The concert was called Don't Trust Anyone Over 25.",
-  "The narrator concluded that the slogan explained where Ange got it from.",
-  "On Monday morning, the narrator decided he wanted to check out the anarchist bookstore again."
+  "The narrator wonders whether someone who left his \"party\" the night before came to paint the slogan.",
+  "The narrator says Van is not talking to him, he is not ready to talk to Jolu, and he cannot call Darryl.",
+  "The narrator describes anonablogs on the Xnet as untraceable to any author unless the author puts her name on it.",
+  "Plans for the concert in the park had been circulating for weeks, hopping from blog to blog and becoming a full-blown movement.",
+  "The concert is called Don't Trust Anyone Over 25, and the narrator realizes this explains where Ange got the slogan.",
+  "On Monday morning the narrator decides he wants to check out the anarchist bookstore again."
  ],
  "entities": [
   {
    "name": "Emma Goldman",
    "type": "person",
-   "role": "old revolutionary depicted on a poster the narrator passed on his way to school"
-  },
-  {
-   "name": "Xnet",
-   "type": "program",
-   "role": "network the narrator and others use to organize, share information and publish anonymous blogs"
-  },
-  {
-   "name": "DHS",
-   "type": "organization",
-   "role": "agency the narrator wanted to jam through organized fighters"
+   "role": "old revolutionary depicted on a poster the narrator passes on the way to school"
   },
   {
    "name": "Ange",
    "type": "person",
-   "role": "someone the narrator chatted and flirted with until 4AM"
+   "role": "someone the narrator chatted and flirted with until 4AM; associated with the slogan Don't Trust Anyone Over 25"
   },
   {
    "name": "Van",
    "type": "person",
-   "role": "friend who was not talking to the narrator"
+   "role": "person who is not talking to the narrator"
   },
   {
    "name": "Jolu",
    "type": "person",
-   "role": "person the narrator did not feel ready to talk to"
+   "role": "person the narrator does not think he is ready to talk to"
   },
   {
    "name": "Darryl",
    "type": "person",
-   "role": "person the narrator considered calling but did not"
+   "role": "person the narrator considers calling but does not"
   },
   {
-   "name": "Mission",
-   "type": "place",
-   "role": "San Francisco neighborhood known for its graffiti, where the narrator walks"
+   "name": "the Turk",
+   "type": "person",
+   "role": "the narrator's companion in a secret club"
+  },
+  {
+   "name": "DHS",
+   "type": "organization",
+   "role": "agency the narrator's Xnet organizing aimed to jam; its cameras were spray-painted over"
+  },
+  {
+   "name": "Xnet",
+   "type": "other",
+   "role": "network used for organizing, blogs and the concert movement"
   },
   {
    "name": "Don't Trust Anyone Over 25",
    "type": "event",
-   "role": "name of the park concert and movement spread through Xnet blogs, also painted as graffiti"
+   "role": "name of the park concert and movement planned on Xnet blogs; also graffiti slogan"
   },
   {
-   "name": "anonablogs",
-   "type": "product",
-   "role": "untraceable anonymous blogs on the Xnet that discuss schools, cops and tagging"
+   "name": "Mission",
+   "type": "place",
+   "role": "San Francisco neighborhood with fresh graffiti and murals where the narrator walks"
+  },
+  {
+   "name": "auto-yard",
+   "type": "place",
+   "role": "business whose fence bore the painted slogan"
   }
  ],
  "tags": [
+  "fiction",
   "xnet",
   "graffiti",
   "activism",
-  "concert movement",
-  "youth protest",
-  "fiction"
+  "san francisco",
+  "youth movement"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1875,
-  "output_tokens": 1162
+  "output_tokens": 1269
  }
 }

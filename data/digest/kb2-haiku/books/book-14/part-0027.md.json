@@ -1,67 +1,72 @@
 {
- "summary": "A first-person narrator recounts leaving conventional schooling: they manipulated school records to enter the intended grade, found the classes mediocre, and at fourteen began spending time in University of Minnesota libraries, which felt welcoming and free of the public library's noisy children. They planned to enroll in a college program for high schoolers at sixteen, and say they were busy running their own business and with 'the Group.' The excerpt ends with Monica and the narrator discussing a news photo of children being led out of a house, with a boy named Wilson in front, as his father's reaction is debated.",
- "one_line": "A narrator describes leaving regular school for University of Minnesota libraries and a planned college program, then a news photo of Wilson being led from a house.",
+ "summary": "A first-person narrator describes leaving formal school behind and how they handled schooling, including altering records to enter the intended grade rather than repeat one, and finding comfort studying at University of Minnesota libraries from age fourteen. The narrator contrasts school's structure with college life, mentions a program letting high schoolers take college classes with free textbooks that they plan to try at sixteen, and notes being busy with a business and 'the Group.' The excerpt closes with a dialogue between the narrator and Monica about Wilson, whose family's home was raided on the news.",
+ "one_line": "A teenage narrator recounts leaving conventional school for University of Minnesota libraries and plans for a college-credit program, while Monica and the narrator discuss Wilson's raided home on the news.",
  "key_facts": [
-  "The narrator changed schools and claimed their records got messed up so they could enter the intended grade instead of repeating the one they never finished.",
+  "The narrator altered records after changing schools so they could enter the grade they were supposed to be going into instead of repeating the one they never finished.",
   "The narrator says that taking a GED test would have been simpler, but that option was not available to them.",
-  "The narrator describes school as a prison system combined with a mass babysitting operation.",
-  "The narrator started hanging out at the libraries at the University of Minnesota once they hit fourteen.",
-  "The University of Minnesota libraries had guest wifi and no little kids running around screaming, unlike the public library.",
-  "The narrator says articles found on Google Scholar that cost thirty-five bucks are free when accessed from a library computer.",
-  "In 2013, the original 'Garden of Earthly Delights' painting was seen up close by Diana after waiting in line for hours.",
-  "A college student told the narrator about a program where high school kids could take college classes and get free textbooks.",
-  "The narrator planned to try for that program next year, when they would be sixteen and eligible.",
-  "The narrator says they had their own business to run and were involved with 'the Group.'",
-  "Monica comments that Wilson's father must be going crazy while looking at a picture of kids being led out of a house.",
-  "Wilson is shown in front in the photo, looking like he just woke up and was wondering why people with guns were in his front yard."
+  "The narrator describes school as 'a prison system combined with a mass babysitting operation.'",
+  "The narrator started hanging out at the libraries at the University of Minnesota after hitting fourteen, citing guest wifi and no little kids screaming as in the public library.",
+  "The narrator reports that articles found on Google Scholar cost thirty-five bucks but are free using a library computer.",
+  "The narrator felt comfortable in the university libraries, 'like just another college student.'",
+  "A student told the narrator about a program where high school kids could take college classes and even get free textbooks.",
+  "The narrator planned to apply for that program next year when they would be sixteen and eligible.",
+  "The narrator says they had their own business to run, had 'the Group,' and did not miss going to a regular school at all.",
+  "Monica says 'Wilson's father must be going crazy' while staring at a picture of kids being led out of a house.",
+  "In the news picture, Wilson walks in front, looking like he just woke up and wondering why people with guns are in his front yard.",
+  "Monica's line, 'how embarrassing, my kid's on the news? What will people think?', is a mocking imitation of Wilson's father's presumed reaction."
  ],
  "entities": [
   {
    "name": "University of Minnesota",
    "type": "organization",
-   "role": "university whose libraries the narrator frequented from age fourteen for guest wifi and quiet stacks"
+   "role": "university whose libraries offered guest wifi and quiet study space that the narrator frequented from age fourteen"
+  },
+  {
+   "name": "Gary",
+   "type": "person",
+   "role": "engineer living in Borujerd, mentioned in the note"
   },
   {
    "name": "Google Scholar",
    "type": "product",
-   "role": "source of articles that cost thirty-five bucks but are free through a library computer"
-  },
-  {
-   "name": "Garden of Earthly Delights",
-   "type": "product",
-   "role": "painting whose original was seen up close by Diana in 2013 after hours in line"
-  },
-  {
-   "name": "Diana",
-   "type": "person",
-   "role": "person who saw the original Garden of Earthly Delights painting up close in 2013"
+   "role": "source of articles that cost thirty-five dollars unless accessed through a library computer"
   },
   {
    "name": "Monica",
    "type": "person",
-   "role": "speaker in the conversation about the news photo and Wilson's father"
+   "role": "speaker in the closing dialogue who comments on Wilson and his father"
   },
   {
    "name": "Wilson",
    "type": "person",
-   "role": "boy shown in front in the news photo of kids being led out of a house"
+   "role": "boy shown in a news picture being led out of a house, in front of the group"
+  },
+  {
+   "name": "Wilson's father",
+   "type": "person",
+   "role": "parent presumed to be distressed by his child's appearance on the news"
   },
   {
    "name": "the Group",
    "type": "organization",
-   "role": "group the narrator belonged to alongside running their own business and homework"
+   "role": "group the narrator belongs to, alongside running their own business and homework"
+  },
+  {
+   "name": "public library",
+   "type": "place",
+   "role": "library the narrator avoided because of noisy little kids"
   }
  ],
  "tags": [
   "fiction",
   "coming of age",
+  "homeschooling",
   "libraries",
-  "schooling",
-  "home education"
+  "dialogue"
  ],
  "category": "literature & arts",
  "usage": {
-  "input_tokens": 1808,
-  "output_tokens": 1014
+  "input_tokens": 1781,
+  "output_tokens": 1092
  }
 }

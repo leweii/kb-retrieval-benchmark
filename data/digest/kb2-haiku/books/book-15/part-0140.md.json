@@ -1,65 +1,68 @@
 {
- "summary": "In this excerpt from Book 15, part 140 of a fiction work, Ray talks with Amah, who leads a children's Trust, and Emma about the Whiston Trust's facilities. Amah explains that the Trust takes in orphans and teaches them skills, customs and education so they can assimilate into the colony on New Holyoke, with staff at Blackheath Grange continuing the work. Ray, who expressed concern about the children's emotional well-being, offers polite pleasantries while privately doubting whether the arrangement is ideal or just the best of poor options.",
- "one_line": "Ray speaks with Amah about how the Whiston Trust educates orphans for life on the colony of New Holyoke.",
+ "summary": "In this excerpt from Book 15 (part 140) of a fiction work, Ray is shown around Whiston's facilities by Emma and Amah, who explain the Trust's educational program for orphans bound for the colony of New Holyoke. Amah says the children are taught skills and social norms to assimilate, and that the colony embraces them in return for their contributions. Ray, embarrassed after questioning the children's emotional well-being, offers polite pleasantries and is relieved to avoid further trouble with the Whiston.",
+ "one_line": "Ray is shown the Whiston's orphan education program, where Amah explains how the Trust prepares children for life on New Holyoke.",
  "key_facts": [
-  "Amah says the children in the Trust have great potential and that the Trust looks for that potential and helps them develop it.",
-  "Amah says the Trust tries to give the children the facsimile of family as they go along.",
-  "Ray says losing your parents is a pretty big blow to try to bounce back from.",
-  "Amah says some children have been without parents, comforts, and love for several years, and those cases take longer for the colony to embrace them.",
-  "Amah says the children need to learn to assimilate, avoid social blunders, and contribute to a society that is radically different from the one they left behind.",
-  "Amah says the Trust has only a short time to introduce the children to the type of lives they will lead on New Holyoke.",
-  "Amah says Blackheath Grange has better facilities and a large staff to continue the process once the children are in the world.",
-  "Amah says that in return for education and skills, the children receive love, friendship, support, and an extended family.",
-  "Emma would like to show Ray the city, according to Amah, and Amah offers true Whiston hospitality to erase the harm.",
-  "Ray says he did not intend to sound critical when he questioned the children's emotional well-being.",
-  "Ray is privately unsure whether he agrees in principle with the Trust's approach or whether it is just the best of a poor lot of options.",
-  "Ray says he understands and exchanges what he assumes are more or less appropriate pleasantries.",
-  "Amah describes the curriculum as advanced for some children, while others lag significantly behind their expected educational level.",
-  "The excerpt ends with Ray relieved that he is not being cackled after for threatening the tranquility and security of the Whiston."
+  "Amah explains that the children in the Trust have great potential, and the Trust looks for that potential and helps them develop it.",
+  "Amah says the Trust attempts to give the children the facsimile of family as they go along.",
+  "Amah states that the Trust has only a short time to introduce the children to the type of lives they will lead on New Holyoke.",
+  "Amah says Blackheath Grange has better facilities and a large staff to continue the process of preparing the children.",
+  "Ray says that losing your parents is a pretty big blow to try to bounce back from.",
+  "Amah says that for some children, others have been without parents, comforts, and love for several years, and those cases take longer for the colony to embrace them.",
+  "Amah says the children receive love, friendship, support, and an extended family in return for becoming attractive members of the colony.",
+  "Amah asks Ray whether the arrangement is good for both sides, and Ray is not sure he agrees in principle.",
+  "Emma would like to show Ray the city, according to Amah, and some true Whiston hospitality would erase the harm.",
+  "Ray says he was a little surprised by the curriculum, which Amah says is quite advanced.",
+  "Ray says he didn't intend to sound critical.",
+  "Amah says some children lag significantly behind the educational level they should have attained.",
+  "The colony in question is New Holyoke."
  ],
  "entities": [
   {
    "name": "Ray",
    "type": "person",
-   "role": "Visitor who questions the Trust's treatment of the children and makes polite pleasantries with Amah"
+   "role": "visitor who is shown the facilities and questions the children's emotional well-being"
   },
   {
    "name": "Amah",
    "type": "person",
-   "role": "Speaker who leads the Trust and explains its approach to educating the children"
+   "role": "speaker who explains the Trust's educational approach to the children"
   },
   {
    "name": "Emma",
    "type": "person",
-   "role": "Person who has decided to show Ray the Trust's facilities and possibly the city"
+   "role": "person who shows Ray the facilities and offered to show him the city"
   },
   {
-   "name": "Whiston Trust",
+   "name": "Whiston",
    "type": "organization",
-   "role": "Organization that takes in orphans and prepares them for life in the colony"
+   "role": "institution whose facilities and hospitality are discussed"
+  },
+  {
+   "name": "Trust",
+   "type": "organization",
+   "role": "organization that takes in orphaned children and prepares them for life in the colony"
   },
   {
    "name": "New Holyoke",
    "type": "place",
-   "role": "Colony where the children will lead their lives"
+   "role": "colony where the children are headed and will lead their lives"
   },
   {
    "name": "Blackheath Grange",
    "type": "place",
-   "role": "Facility with better resources and a large staff that continues the children's preparation"
+   "role": "facility with better resources and a large staff to continue the children's preparation"
   }
  ],
  "tags": [
   "fiction",
   "orphans",
   "education",
-  "colony life",
   "new holyoke",
-  "book 15"
+  "colony life"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1811,
-  "output_tokens": 1055
+  "output_tokens": 963
  }
 }

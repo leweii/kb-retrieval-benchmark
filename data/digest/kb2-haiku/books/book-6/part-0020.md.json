@@ -1,59 +1,72 @@
 {
- "summary": "This excerpt from a fiction manuscript (labeled 'Book 6 — part 20') follows the narrator and Arthur Tresting as they arrive at Dr. Martinez's Pasadena condo, looking for Sonya Halliday. Arthur's call goes unanswered, the narrator and Arthur enter cautiously with weapons drawn, and they find the living room in disarray and an injured older woman on the kitchen floor who is not Sonya. The narrator also recalls teaching Pilar firearm safety, and nurses a concussion while driving.",
- "one_line": "Narrator and Arthur Tresting enter Dr. Martinez's ransacked Pasadena condo and find an injured woman who is not Sonya Halliday.",
+ "summary": "Narrator Russell and Arthur Tresting arrive at Dr. Martinez's Pasadena condo after Sonya Halliday fails to answer her phone. They find the living room ransacked, and in the kitchen an injured older woman slumped against the refrigerator, bleeding from the head, who is not Sonya. The excerpt ends with Arthur tending to her as she says she knows who he is. Earlier, Russell has been teaching Pilar firearms safety and is himself recovering from a concussion.",
+ "one_line": "Russell and Arthur arrive at Dr. Martinez's ransacked Pasadena condo and find an injured older woman in the kitchen, not Sonya Halliday.",
  "key_facts": [
-  "The narrator told Pilar to point her gun at the thing she wants dead, and said she is a smart girl who will not shoot herself.",
-  "Arthur said that the safety of a firearm has to be second-nature when teaching someone firearms.",
-  "The narrator was concussed, and his vision was getting fuzzy around the edges, though he would not admit it.",
-  "The group made good time to Pasadena.",
-  "Dr. Martinez's condo was in a pleasant, modern building full of wide windows and balconies.",
-  "The narrator carried a Colt, and Arthur carried a Glock.",
-  "Arthur called Sonya Halliday's phone as they climbed the steps, but she did not pick up.",
-  "Arthur opened the locked front door using lockpicks while the narrator covered him with his drawn gun.",
-  "The narrator entered first, taking point with his gun drawn, and Arthur eased the door shut behind them with a click.",
-  "The living room was in disarray, with chairs knocked off-kilter, needlepoint and photographs askew, and a bookshelf leaning against the back of the couch.",
-  "A tiny older woman with copper-toned skin and a face creased like a walnut was slumped against the refrigerator in the kitchen.",
-  "The older woman held an ice-filled washcloth against her head, which was bleeding and had wet, matted gray hair.",
-  "The older woman was not Sonya Halliday.",
-  "Arthur introduced himself to the woman as Arthur Tresting, a friend of Sonya's, and crouched beside her to help."
+  "Russell tells Arthur that he told Pilar to point her gun at the thing she wants dead, and says she is not going to shoot herself.",
+  "Arthur says that teaching firearms that way is wrong and that the safety should be second-nature.",
+  "Russell has a concussion that makes his vision fuzzy around the edges, though he refuses to admit it.",
+  "The group drives to Pasadena, where Dr. Martinez's condo is in a pleasant, modern building with wide windows and balconies.",
+  "Arthur calls Sonya Halliday to say they are arriving, but she does not pick up.",
+  "Russell draws his Colt and Arthur slides a hand against his holster as they stand on the porch.",
+  "Russell rings the doorbell and gets no answer.",
+  "Arthur uses lockpicks to open the front door, and Russell enters first with his gun drawn, crosshairs-first.",
+  "The living room is in disarray, with knocked-over chairs, fallen shelves, and photographs and papers scattered across the floor.",
+  "In the kitchen, a tiny older woman with copper-toned skin and a walnut-like face is slumped against the refrigerator, bleeding from the head onto a washcloth of ice.",
+  "The injured woman is not Sonya Halliday.",
+  "Arthur Tresting introduces himself to the woman as a friend of Sonya's, and she replies, \"I know.\""
  ],
  "entities": [
   {
+   "name": "Russell",
+   "type": "person",
+   "role": "first-person narrator who teaches Pilar marksmanship, has a concussion, and enters the condo with a drawn Colt"
+  },
+  {
    "name": "Arthur Tresting",
    "type": "person",
-   "role": "companion of the narrator who calls Sonya's phone, picks the front door lock, and tends to the injured woman"
-  },
-  {
-   "name": "Sonya Halliday",
-   "type": "person",
-   "role": "woman the narrator and Arthur came to see at Dr. Martinez's condo; not found there"
-  },
-  {
-   "name": "Dr. Martinez",
-   "type": "person",
-   "role": "owner of the Pasadena condo the group arrives at"
+   "role": "companion of Russell who calls Sonya, picks the door lock, and tends to the injured woman"
   },
   {
    "name": "Pilar",
    "type": "person",
-   "role": "young woman the narrator is teaching marksmanship"
+   "role": "student whom Russell is teaching to shoot"
+  },
+  {
+   "name": "Dr. Martinez",
+   "type": "person",
+   "role": "owner of the Pasadena condo"
+  },
+  {
+   "name": "Sonya Halliday",
+   "type": "person",
+   "role": "friend of Arthur who was expected at the condo but does not answer her phone and is not the injured woman"
   },
   {
    "name": "Pasadena",
    "type": "place",
-   "role": "city where Dr. Martinez's condo is located"
+   "role": "city where Dr. Martinez's condo is located and where the group arrives"
+  },
+  {
+   "name": "Colt",
+   "type": "product",
+   "role": "handgun Russell carries and draws"
+  },
+  {
+   "name": "Glock",
+   "type": "product",
+   "role": "handgun Arthur holsters after entering the kitchen"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
-  "manuscript excerpt",
-  "firearms",
-  "suspense"
+  "mystery",
+  "crime scene",
+  "pasadena"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1986,
-  "output_tokens": 1013
+  "output_tokens": 1075
  }
 }

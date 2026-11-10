@@ -1,78 +1,91 @@
 {
- "summary": "Sean, after a draining visit to a noisy ward with his Grampa, checks into the Lamplighter Inn on a dreary Florida strip and listens to a useless voicemail from Caleb, which he cannot transcribe. At the motel pool he meets Adele, an elderly, sun-baked woman who warns him the chlorinated water is bad, recommends Universal over Disney, and chats about Canadian 'snowbirds' while Sean says he has work to do down south.",
- "one_line": "Sean, a Toronto visitor in Florida, checks into a seedy motel and meets the talkative elderly guest Adele at the pool.",
+ "summary": "Sean, a visitor from Toronto, leaves his grandfather's ward feeling dejected after a recording he made there turns out to be unusable. He checks into the Lamplighter Inn in Florida, where he swims in a poorly maintained pool and meets Adele, a talkative older guest. She gives him advice about the local parks and asks about his stay, while he deflects with talk of his thesis work.",
+ "one_line": "Sean, a Toronto visitor in Florida, has a ruined ward recording with his grandfather and meets the chatty Adele at a motel pool.",
  "key_facts": [
-  "Sean checks into the Lamplighter Inn, located on a dreary strip populated with disused water-parks and crumbling plazas.",
-  "The Lamplighter Inn is the first motel Sean finds after leaving the ward.",
-  "Sean plays back a recording in which a message from Caleb says, \"I'm lactose intolerant.\"",
-  "The noise of the ward masked nine words in ten of the recording, and Sean found the surviving words empty of emotional freight.",
-  "Sean finds the motel pool water piss-warm and thickly chlorinated, feeling like swimming in pungent sweat.",
-  "Adele is an old, old woman wearing a one-piece with a skirt and a sunhat, with skin the color and texture of rawhide.",
-  "Adele says the pool's owner, Old Ross, doesn't like dealing with the pool and keeps shoveling in chlorine, so guests may be blonde in the morning.",
-  "Adele tells Sean that Universal is better than Disney in her opinion, and that most people don't bother with it.",
-  "Sean tells Adele he is visiting from Toronto and has a lot of work to do down south.",
-  "Sean says he will not get a chance to visit Universal or the other parks because of his work.",
-  "Adele calls visitors from Toronto 'snowbirds' who come to Florida to escape winter and then complain about the heat.",
-  "Sean's work relates to a thesis proposal, for which he has rehearsed a high-concept speech many times.",
-  "Sean is staying in Florida for a few weeks, at least, according to his own statement to Adele."
+  "Grampa's eye stopped seeking out the ward's corners and he slipped back into maintenance mode before Sean left.",
+  "Grampa came around the table for another hug and kiss before Sean left, and said 'Bye, Sean.'",
+  "Sean checked into the Lamplighter Inn, a motel on a dreary strip populated with disused water-parks and crumbling plazas.",
+  "When Sean played back his recording, he found it to be junk because the noise of the ward masked nine words in ten.",
+  "Sean tried to transcribe the recording longhand but could not keep his mind on it.",
+  "The pool water was described as piss-warm and thickly chlorinated, and felt like swimming in pungent sweat.",
+  "Sean managed one lap before crawling out to sit in a sway-backed deck-chair.",
+  "Adele, an old woman in a one-piece with a skirt and a sunhat, has skin described as the color and texture of rawhide, 'not so much tanned as baked.'",
+  "Adele said that Old Ross doesn't like dealing with the pool, so he keeps shoveling in the chlorine.",
+  "Adele told Sean, 'Don't be surprised if you're blonde in the morning.'",
+  "Adele advised Sean not to miss Universal, saying she thinks it is better than Disney.",
+  "Sean told Adele he expects to stay in Florida a couple of weeks at least and has a lot of work to do there.",
+  "Sean said he came down from Toronto, and Adele responded 'Lord, not another snowbird!'",
+  "Sean described his flight as 'a little dull, but fine.'",
+  "The text includes a stray line that a message came in from Caleb saying, 'I'm lactose intolerant,' and nothing more."
  ],
  "entities": [
   {
    "name": "Sean",
    "type": "person",
-   "role": "protagonist who visits his Grampa's ward, stays at the Lamplighter Inn, and talks with Adele at the pool"
+   "role": "Protagonist who recorded conversations on a ward with his grandfather, stays at the Lamplighter Inn, and has a thesis proposal to work on."
   },
   {
    "name": "Grampa",
    "type": "person",
-   "role": "Sean's grandfather, whose ward Sean visits and who hugs and kisses Sean goodbye"
-  },
-  {
-   "name": "Caleb",
-   "type": "person",
-   "role": "sender of the junk voicemail saying he is lactose intolerant"
+   "role": "Sean's grandfather, who is on the ward and hugs and kisses Sean goodbye."
   },
   {
    "name": "Adele",
    "type": "person",
-   "role": "elderly motel guest who chats with Sean by the pool and recommends Universal"
+   "role": "Elderly nicotine-voiced woman staying at the motel who chats with Sean by the pool."
   },
   {
-   "name": "Old Ross",
+   "name": "Ross",
    "type": "person",
-   "role": "pool caretaker or owner who shovels in chlorine and does not like dealing with the pool"
+   "role": "Motel staff member, referred to as Old Ross, who maintains the pool with chlorine."
+  },
+  {
+   "name": "Caleb",
+   "type": "person",
+   "role": "Sender of a message saying 'I'm lactose intolerant.'"
   },
   {
    "name": "Lamplighter Inn",
    "type": "place",
-   "role": "motel on a dreary strip where Sean checks in"
+   "role": "Motel where Sean checks in, located on a dreary strip with disused water-parks."
   },
   {
    "name": "Universal",
    "type": "place",
-   "role": "theme park in Florida that Adele recommends over Disney"
+   "role": "Theme park Adele recommends Sean visit, which she says is better than Disney."
   },
   {
    "name": "Disney",
-   "type": "place",
-   "role": "theme park in Florida that Adele compares unfavorably to Universal"
+   "type": "organization",
+   "role": "Theme park company that Adele compares unfavorably with Universal."
   },
   {
    "name": "Toronto",
    "type": "place",
-   "role": "city Sean comes from"
+   "role": "Sean's hometown, where he says he came down from."
+  },
+  {
+   "name": "Florida",
+   "type": "place",
+   "role": "Location of the motel and the Parks where Sean is staying."
+  },
+  {
+   "name": "Thesis proposal",
+   "type": "other",
+   "role": "Academic work Sean has been developing and says he has a lot of work to do on."
   }
  ],
  "tags": [
   "fiction",
-  "novel excerpt",
+  "grandfather",
   "florida",
-  "family",
-  "motel"
+  "motel",
+  "recording",
+  "family"
  ],
  "category": "literature & arts",
  "usage": {
-  "input_tokens": 2008,
-  "output_tokens": 1156
+  "input_tokens": 2013,
+  "output_tokens": 1983
  }
 }

@@ -1,61 +1,52 @@
 {
- "summary": "This is an excerpt from a novel (Book 12, part 17) in which Lexy, addressed as Miss Moran, is taken into a house by Mrs. Enderby, who insists Lexy is not Caroline and sends her upstairs to Caroline's bedroom. Lexy removes Caroline's hat and coat and resolves to find Caroline no matter what others think, spending her remaining money to do so. The note also contains one sentence about Megan viewing Monet's 'Impression, Sunrise' in 2013, which appears unrelated to the story and looks like a stray insertion.",
- "one_line": "An excerpt from a novel in which Lexy, sent upstairs by Mrs. Enderby, resolves to find the missing Caroline.",
+ "summary": "In this excerpt from a novel, Mrs. Enderby arrives at Miss Craigie's house with Lexy Moran, who has been mistaken for Caroline, and sends Lexy upstairs with a trunk of Caroline's belongings. Alone in a bedroom, Lexy looks at Caroline's hat and coat and resolves to find Caroline, setting aside her own concerns about her job and Mrs. Enderby's attitude. She plans to spend her remaining money on the search.",
+ "one_line": "Lexy Moran, mistaken for Caroline at Miss Craigie's house, resolves to find the missing Caroline.",
  "key_facts": [
-  "Mrs. Enderby tells Miss Craigie that 'it's not Caroline' and asks her to let Miss Moran go upstairs.",
-  "Mrs. Enderby has a chauffeur carry a small trunk upstairs while Lexy is told to turn her back and look out of the window.",
-  "Mrs. Enderby catches Lexy by the shoulder and says 'Take off those things of my child's. Have you no heart?'",
-  "Miss Craigie leads Lexy up the stairs to a neat, prim little bedroom where the trunk stands already unlocked.",
-  "Lexy takes off Caroline's hat and coat and lays them on the bed.",
-  "Lexy says aloud, 'I'm going to find her!' and declares she does not care what anyone else thinks.",
-  "Lexy has a little money due to her and intends to use every penny of it in finding Caroline.",
-  "Lexy's earlier 'mawkish self-pity' has vanished, and she no longer cares about Mrs. Enderby's attitude toward her.",
-  "Miss Craigie is described as bewildered and in the habit of obeying Mrs. Enderby.",
-  "Mrs. Enderby is standing in the tiny hall at the end of the excerpt.",
-  "A stray sentence in the note states that in 2013, after waiting in line for hours, Megan finally saw the original 'Impression, Sunrise' painting up close."
+  "Mrs. Enderby pushes Miss Craigie inside and tells her that the girl Lexy is not Caroline, saying \"I shall explain to you.\"",
+  "Miss Craigie exclaims \"But it's not Caroline!\" when she sees Lexy's face.",
+  "Mrs. Enderby instructs Miss Craigie to have no air of surprise and to allow the chauffeur to carry upstairs a small trunk.",
+  "Mrs. Enderby tells Lexy to \"Turn your back!\" and look out of the window while the chauffeur carries the trunk upstairs.",
+  "Miss Craigie is described as being in the habit of obeying Mrs. Enderby, and is described as bewildered.",
+  "Mrs. Enderby catches Lexy by the shoulder and says \"Take off those things of my child's. Have you no heart?\"",
+  "Miss Craigie leads Lexy up to a neat, prim little bedroom where the trunk stands already unlocked.",
+  "Lexy takes off Caroline's hat and coat and lays them on the bed, thinking \"I wonder if I'll ever see her wearing them again!\"",
+  "Lexy decides, \"I'm going to find her!\" and says she does not care what anyone else does or thinks.",
+  "Lexy has a little money due to her and means to use every penny of it to find Caroline.",
+  "Lexy washes her hands and face, brushes her hair, puts on her own hat and jacket, and goes downstairs again.",
+  "At the end of the excerpt, Mrs. Enderby is standing in the tiny hall."
  ],
  "entities": [
   {
-   "name": "Mrs. Enderby",
+   "name": "Lexy Moran",
    "type": "person",
-   "role": "Woman who insists the girl is not Caroline and directs the scene, including sending Lexy upstairs."
-  },
-  {
-   "name": "Miss Craigie",
-   "type": "person",
-   "role": "Gentle, apologetic woman who obeys Mrs. Enderby and shows Lexy to the bedroom."
-  },
-  {
-   "name": "Lexy",
-   "type": "person",
-   "role": "Young woman addressed as Miss Moran, who removes Caroline's clothes and resolves to find her."
+   "role": "young woman who is mistaken for Caroline and resolves to find her"
   },
   {
    "name": "Caroline",
    "type": "person",
-   "role": "Missing young woman whose hat and coat Lexy handles; Mrs. Enderby calls her 'my child'."
+   "role": "missing girl whose hat and coat Lexy finds; the one Lexy seeks"
   },
   {
-   "name": "Megan",
+   "name": "Mrs. Enderby",
    "type": "person",
-   "role": "Named in a stray sentence as having seen the original 'Impression, Sunrise' painting in 2013; unrelated to the story."
+   "role": "woman who controls the situation, pushes Miss Craigie inside and orders Lexy upstairs; mother of Caroline"
   },
   {
-   "name": "Impression, Sunrise",
-   "type": "product",
-   "role": "Painting that Megan waited hours in line in 2013 to see up close, per a stray sentence in the note."
+   "name": "Miss Craigie",
+   "type": "person",
+   "role": "gentle, apologetic woman who obeys Mrs. Enderby and shows Lexy to the bedroom"
   }
  ],
  "tags": [
-  "novel excerpt",
-  "mystery",
   "fiction",
-  "caroline search",
-  "mrs enderby"
+  "novel",
+  "mistaken identity",
+  "missing person",
+  "serial story"
  ],
  "category": "literature & arts",
  "usage": {
-  "input_tokens": 2079,
-  "output_tokens": 1547
+  "input_tokens": 2038,
+  "output_tokens": 989
  }
 }

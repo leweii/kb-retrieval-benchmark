@@ -1,79 +1,78 @@
 {
- "summary": "An excerpt from a fiction novel (labeled Book 3, part 135) in which the narrator confronts Alex Goddard in the Peten rain forest about Children of Light and Niiios del Mundo, a Guatemala City hospice for girls in trouble tied to a U.S. adoption service. Goddard claims he runs pharmaceutical research in the Peten and that the Guatemalan government demands bribes (an 'expediting fee') to release adoption paperwork, and he hints that an investigation could embarrass them. The narrator distrusts him, wants to take Sarah and leave, and is led uphill toward a section of forest to be shown something Goddard is proud of, while Goddard promises to explain the village of Baalum and how it connects to Sarah's mind.",
- "one_line": "The narrator confronts Alex Goddard about Children of Light and the village of Baalum while trying to get Sarah out of the Peten rain forest.",
+ "summary": "In this excerpt from a novel, the narrator confronts Alex Goddard in the Peten rain forest about Children of Light and Niiios del Mundo, a Guatemala City hospice for girls in trouble tied to his U.S. adoption service. Goddard claims officials demand an 'expediting fee' for infant adoptions and warns that scrutiny could expose this, while the narrator suspects he is lying. Goddard is pharmaceutical research in the Peten, and the narrator wants to retrieve Sarah and leave, but Goddard insists she start treatment. Goddard then leads the narrator uphill toward a section of forest and promises to explain Baalum, the village Sarah has fixated on, beginning about ten years earlier.",
+ "one_line": "In a Peten rain forest, the narrator confronts Alex Goddard about Children of Light, bribery allegations, and the mysterious village of Baalum.",
  "key_facts": [
-  "Alex Goddard says his project in the Peten is to carry out pharmaceutical research with as few distractions as possible.",
-  "Goddard says Niiios del Mundo is a hospice for girls in trouble in Guatemala City and is also called Niiios del Mundo.",
-  "Niiios del Mundo is connected with Goddard's U.S. adoption service, Children of Light.",
-  "Goddard claims the Guatemalan government threatens to hold up adoption paperwork unless a bribe, called an 'expediting fee', is paid.",
-  "Goddard warns that an investigation could be something they would not want to see lead off 60 Minutes.",
-  "The narrator suspects Goddard's explanation is BS but cannot prove it yet.",
-  "Sarah's treatment has only just been initiated by Goddard, who asks the narrator to give it a chance.",
-  "The narrator says he does not trust Alex Goddard any farther than he could throw him.",
-  "The narrator wants to get Sarah and leave the area as soon as possible, using limited American dollars to buy a way back to Guatemala City.",
-  "Sarah once came to the Peten and later announced she wanted to return there.",
-  "Goddard leads the narrator on an uphill forest trail headed due south, away from the river, toward a dense section of rain forest.",
-  "Goddard says the village of Baalum is difficult to explain to someone encountering it for the first time.",
-  "Goddard says the story of Baalum goes back about ten years."
+  "Alex Goddard says he is carrying out pharmaceutical research in the Peten with as few distractions as possible.",
+  "Goddard describes Niiios del Mundo as a hospice for girls in trouble in Guatemala City, connected with his U.S. adoption service Children of Light.",
+  "Goddard claims the Guatemalan government threatens to hold up adoption paperwork unless he pays a bribe called an 'expediting fee.'",
+  "Goddard says that if someone probed too deeply, it would be something the government would not want to see lead off 60 Minutes.",
+  "The narrator suspects Goddard's explanation is more BS but cannot prove it yet.",
+  "Goddard says he has only now initiated Sarah's treatment and asks the narrator to give it a chance.",
+  "The narrator does not trust Alex Goddard 'any farther than I could throw him.'",
+  "The narrator wants to get Sarah and leave as soon as possible, which would mean neutralizing Goddard and the Army.",
+  "The narrator notes that the Peten is the place Sarah came to once and announced she wanted to return to.",
+  "Goddard leads the narrator on an uphill forest trail headed due south, in the opposite direction from the river.",
+  "Goddard says Baalum is difficult to explain to someone encountering it for the first time.",
+  "Goddard says the story of Baalum goes back about ten years ago.",
+  "The narrator says they have every right to know what is going on back in the village."
  ],
  "entities": [
   {
    "name": "Alex Goddard",
    "type": "person",
-   "role": "Narrator's rival figure who runs pharmaceutical research in the Peten and is linked to Children of Light and Niiios del Mundo"
+   "role": "Pharmaceutical researcher in the Peten who runs the Children of Light adoption service and is treating Sarah"
   },
   {
    "name": "Sarah",
    "type": "person",
-   "role": "Person the narrator wants to take out of the Peten; her mind was devastated there and she is undergoing treatment"
+   "role": "The narrator's companion whose mind was devastated in the Peten and who is undergoing Goddard's treatment"
   },
   {
    "name": "Children of Light",
    "type": "organization",
-   "role": "Goddard's U.S. adoption service connected to the Guatemala City hospice"
+   "role": "Goddard's U.S. adoption service connected to Niiios del Mundo"
   },
   {
    "name": "Niiios del Mundo",
    "type": "organization",
-   "role": "Hospice for girls in trouble in Guatemala City that takes in orphaned or abandoned infants for adoption"
-  },
-  {
-   "name": "Peten",
-   "type": "place",
-   "role": "Rain forest region where Goddard's pharmaceutical research project is located"
-  },
-  {
-   "name": "Guatemala City",
-   "type": "place",
-   "role": "City where the hospice Niiios del Mundo is located and where the narrator hopes to return"
+   "role": "Hospice for girls in trouble in Guatemala City, connected with Children of Light"
   },
   {
    "name": "Baalum",
    "type": "place",
-   "role": "Village in the rain forest that Goddard promises to explain and that has seized Sarah's mind"
+   "role": "Village in the rain forest that has seized Sarah's mind and is difficult to explain"
+  },
+  {
+   "name": "Peten",
+   "type": "place",
+   "role": "Rain forest region where Goddard carries out his pharmaceutical research"
+  },
+  {
+   "name": "Guatemala City",
+   "type": "place",
+   "role": "Location of the Niiios del Mundo hospice and the destination the narrator wants to return to"
   },
   {
    "name": "60 Minutes",
    "type": "program",
-   "role": "Television news program that Goddard suggests an investigation could embarrass"
+   "role": "Television news program Goddard says would be interested in exposing the expediting fee practice"
   },
   {
    "name": "Army",
    "type": "organization",
-   "role": "Military presence the narrator expects to have to neutralize to get Sarah out"
+   "role": "Military force the narrator would have to neutralize to leave with Sarah"
   }
  ],
  "tags": [
   "fiction",
   "thriller",
-  "guatemala",
-  "adoption scandal",
   "rain forest",
-  "children of light"
+  "adoption",
+  "guatemala"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1850,
-  "output_tokens": 1295
+  "output_tokens": 1258
  }
 }

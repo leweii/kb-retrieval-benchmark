@@ -1,56 +1,59 @@
 {
- "summary": "In a warm Sunday morning scene on a veranda, Lexy and Captain Grey sit after breakfast with Dr. Quelton, whose manner is reassuring. Lexy presses Captain Grey about being kept from seeing his sister, whom no one is allowed to visit, and urges him to assert himself. Captain Grey hesitates, citing propriety and the awkwardness of challenging his brother-in-law's house, but they go upstairs to try to see her, where a nurse answers the door.",
- "one_line": "On a quiet Sunday at Dr. Quelton's house, Lexy urges Captain Grey to defy the rules and visit his sister, who is kept from visitors.",
+ "summary": "In a warm Sunday-morning scene at Dr. Quelton's house, Lexy urges Captain Grey to stop accepting the doctor's restrictions and go upstairs to see his sister, who is shut away and not allowed visitors. Grey is reluctant to make a scene in his brother-in-law's house, but Lexy pushes him, and the two climb the stairs to the sickroom, where a nurse stops them at the door before Grey says he will look in on his sister. The passage builds tension around Lexy's suspicion that Quelton is hiding something and her sense that her own time in the house is limited.",
+ "one_line": "Lexy pressures Captain Grey to defy Dr. Quelton's restrictions and visit his confined sister on a peaceful Sunday morning.",
  "key_facts": [
-  "Lexy and Captain Grey sat together on the veranda in the warm morning sunshine after breakfast in the dining room.",
+  "The scene takes place on the veranda of Dr. Quelton's house on a warm Sunday morning, with church bells ringing in the far distance.",
   "Dr. Quelton was courteous, affable and very attentive to his guests at breakfast.",
-  "Church bells were ringing in the far distance on a Sunday tranquillity over the country.",
-  "Lexy believed her time in the house would not be long because she had caused Dr. Quelton an anxiety he could not conceal.",
-  "Lexy said Captain Grey was not allowed to see his sister and that no one could see her.",
-  "Captain Grey was not allowed to call in another doctor.",
-  "Captain Grey said that in her husband's house he could not make a row.",
-  "Lexy asked, 'Why can't you?' and the question left Captain Grey startled and uneasy.",
-  "Lexy suggested he put on his best commanding officer's air and said there was nothing she would stop at.",
-  "Lexy advised Captain Grey to 'Laugh it off' if Dr. Quelton objected.",
-  "Captain Grey said, 'Suppose he hoofs us out of the house?'",
-  "Lexy said, 'Let's try it, anyhow,' and Captain Grey agreed with 'Right-o!'",
-  "They went upstairs and down the hall of the other wing, opposite Lexy's room.",
-  "A quiet, middle-aged little nurse came out when Captain Grey knocked on a door.",
-  "Captain Grey said he would pop in to see how his sister was getting on."
+  "Lexy believes her time in the house will not be long because she has caused Dr. Quelton an anxiety he cannot conceal.",
+  "Lexy tells Captain Grey that he is not allowed to see his sister, that no one can see her, and that he is not allowed to call in another doctor.",
+  "Captain Grey says that in her husband's house he cannot make a row.",
+  "Lexy asks Captain Grey why he cannot make a row, and the question leaves him startled and uneasy.",
+  "Captain Grey admits he does not have blind faith in Dr. Quelton.",
+  "Lexy advises Captain Grey to put on his best commanding officer's air and says there is nothing she would stop at.",
+  "Captain Grey asks what he can say to Quelton when the doctor hears about it, and Lexy suggests he laugh it off.",
+  "Captain Grey worries that Quelton might hoof them out of the house.",
+  "Lexy says Captain Grey is not a bit resourceful and says it is horrible to think of his sister shut up like that.",
+  "Captain Grey rises and says 'Right-o!' before they go upstairs together, the doctor having gone out.",
+  "A quiet, middle-aged little nurse comes out of the sickroom door in the other wing.",
+  "Captain Grey says he will just pop in to see how his sister is getting on."
  ],
  "entities": [
   {
    "name": "Lexy",
    "type": "person",
-   "role": "female character who urges Captain Grey to assert himself and visit his sister"
+   "role": "female character who urges Captain Grey to confront Dr. Quelton and visit his sister; has caused the doctor anxiety and expects her stay to end soon"
   },
   {
    "name": "Captain Grey",
    "type": "person",
-   "role": "young soldier whose sister is kept from visitors at Dr. Quelton's house"
+   "role": "young soldier, brother of a woman kept under restriction at Dr. Quelton's house, reluctant to make a row"
   },
   {
    "name": "Dr. Quelton",
    "type": "person",
-   "role": "doctor whose house the characters are staying in and whose care of the sister is questioned"
+   "role": "doctor whose house the characters are staying in, courteous to guests but restricting access to the sister"
   },
   {
-   "name": "Captain Grey's sister",
+   "name": "Dr. Quelton's house",
+   "type": "place",
+   "role": "setting of the veranda scene where the characters breakfast and later go upstairs to the sickroom"
+  },
+  {
+   "name": "nurse",
    "type": "person",
-   "role": "woman kept from visitors in her husband's house, cared for under Dr. Quelton"
+   "role": "quiet, middle-aged little nurse who comes out of the sickroom to stop the visit"
   }
  ],
  "tags": [
   "fiction",
   "novel excerpt",
-  "family conflict",
-  "medical confinement",
-  "captain grey",
-  "dr quelton"
+  "family tension",
+  "medical restriction",
+  "sickroom scene"
  ],
  "category": "literature & arts",
  "usage": {
   "input_tokens": 1998,
-  "output_tokens": 952
+  "output_tokens": 1097
  }
 }
