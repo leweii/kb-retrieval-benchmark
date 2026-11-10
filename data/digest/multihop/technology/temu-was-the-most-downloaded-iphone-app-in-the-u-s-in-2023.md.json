@@ -1,0 +1,123 @@
+{
+ "summary": "Apple's 2023 App Store year-end lists named Temu, a Chinese e-commerce app, the most-downloaded free iPhone app in the U.S., while apps from Chinese companies displaced slots once held by Meta and Google. The article attributes the shift to possible market saturation for U.S. tech giants and to Temu's bargain prices and heavy marketing. It also lists the top paid apps, free and paid games, and iPad charts, and notes Apple Arcade's limited visibility.",
+ "one_line": "Temu topped Apple's 2023 list of most-downloaded free iPhone apps in the U.S., as Chinese apps gained ground on Meta and Google.",
+ "key_facts": [
+  "Temu was Apple's most downloaded free iPhone app in the U.S. for 2023, with rankings based on app installs.",
+  "CapCut and TikTok, both from Beijing-based ByteDance, ranked No. 3 and No. 5 in 2023 free iPhone apps (per the article's text).",
+  "TikTok was the No. 1 app in 2022 and slipped to No. 5 in 2023, possibly due to negative attention such as bans on government devices.",
+  "Montana attempted to ban TikTok in its state, but the ruling was put on hold by the courts while TikTok's lawsuit progresses.",
+  "Apptopia data reported by Bloomberg showed consumers spent 18 minutes per day in Temu versus 10 minutes in Amazon; younger users spent 19 minutes per day on Temu.",
+  "Meta's Threads (an Instagram app) was a top-3 free app by U.S. downloads in 2023; Instagram was No. 6 and WhatsApp No. 9, and Facebook dropped off the top 10.",
+  "In 2022 Google had YouTube at No. 2, Google Maps No. 5, Google Search No. 6 and Gmail No. 7; in 2023 only Google Search (No. 7) and YouTube (No. 8) were in the top 10.",
+  "Max (formerly HBO Max) was the only top app not from Meta, Google or a Chinese firm, and ranked No. 3 by downloads in the U.S.",
+  "The top paid iPhone app of 2023 was Shadowrocket, followed by HotSchedules and Procreate Pocket.",
+  "MONOPOLY GO! was the No. 1 free iPhone game, followed by Roblox (up from No. 3 in 2022) and Royal Match.",
+  "Microsoft-owned Minecraft led the top paid iPhone games, and Five Nights at Freddy's, which became a movie in 2023, also made the list.",
+  "Top free iPad apps were led by Max, YouTube and Netflix, with Disney+, Prime Video and Peacock at No. 5, 8 and 10.",
+  "Apple's Top Apple Arcade Games list offers the only glimpse into the subscription gaming store, which lacks a Top Charts section."
+ ],
+ "entities": [
+  {
+   "name": "Temu",
+   "type": "product",
+   "role": "Chinese e-commerce app that was the most-downloaded free iPhone app in the U.S. in 2023"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Cupertino-based company that released the App Store year-end top apps feature"
+  },
+  {
+   "name": "ByteDance",
+   "type": "organization",
+   "role": "Beijing-based parent company of CapCut and TikTok"
+  },
+  {
+   "name": "CapCut",
+   "type": "product",
+   "role": "ByteDance video editing app ranked No. 3 in the free iPhone apps"
+  },
+  {
+   "name": "TikTok",
+   "type": "product",
+   "role": "ByteDance app that fell from No. 1 in 2022 to No. 5 in 2023"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Owner of WhatsApp, Instagram, Facebook and Threads"
+  },
+  {
+   "name": "Threads",
+   "type": "product",
+   "role": "Meta's new Instagram app, ranked No. 3 by U.S. downloads"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Tech giant whose apps slipped in the 2023 rankings"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Comparison point for Temu's user engagement time"
+  },
+  {
+   "name": "Apptopia",
+   "type": "organization",
+   "role": "Source of data on time spent in Temu and Amazon apps"
+  },
+  {
+   "name": "Bloomberg",
+   "type": "organization",
+   "role": "Outlet that reported the Apptopia data"
+  },
+  {
+   "name": "Montana",
+   "type": "place",
+   "role": "State that attempted to ban TikTok, blocked for now by courts"
+  },
+  {
+   "name": "Max",
+   "type": "product",
+   "role": "Formerly HBO Max; non-Meta, non-Google, non-Chinese app in the top free iPhone apps"
+  },
+  {
+   "name": "MONOPOLY GO!",
+   "type": "product",
+   "role": "No. 1 free iPhone game of 2023"
+  },
+  {
+   "name": "Minecraft",
+   "type": "product",
+   "role": "Microsoft-owned game that led the top paid games"
+  },
+  {
+   "name": "Shadowrocket",
+   "type": "product",
+   "role": "Top paid iPhone app of 2023"
+  },
+  {
+   "name": "Apple Arcade",
+   "type": "program",
+   "role": "Apple's subscription gaming store, with its own top games list"
+  },
+  {
+   "name": "Roblox",
+   "type": "product",
+   "role": "No. 2 free iPhone game and No. 1 free iPad game"
+  }
+ ],
+ "tags": [
+  "app-store",
+  "temu",
+  "tiktok",
+  "mobile-apps",
+  "apple",
+  "chinese-tech"
+ ],
+ "usage": {
+  "input_tokens": 3499,
+  "output_tokens": 1769
+ }
+}

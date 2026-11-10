@@ -1,0 +1,118 @@
+{
+ "summary": "A news feature on the boom in genetic engineering and designer organisms since Dr. Ava Singh's team announced the first fully customized living organism on September 23, 2023. It covers commercial products, the 'Gene Rush' economy, designer pets, drought-resistant Superseeds, and accidents such as a pathogen escape and a mutated oil-cleaning microorganism. It closes with ethical concerns, biohacking, and regulation lagging behind the science.",
+ "one_line": "Since 2023 a boom in designer organisms has brought wealth, new products and hope for hunger, but also ethical alarm, accidents and weak regulation.",
+ "key_facts": [
+  "Dr. Ava Singh and her team announced the first fully customized living organism on September 23, 2023, which started the boom.",
+  "The genetically modified 'FluoroFern', a plant that produces a neon glow, hit the market on October 15, 2023.",
+  "The 'Gene Rush' economy, likened to the 19th-century Gold Rush, rose on December 8, 2023, with stocks of GenEdit Solutions and BioFuture soaring.",
+  "On February 3, 2024, a lab in Nevada reported the first instance of a modified pathogen accidentally escaping into the wild; rapid containment followed.",
+  "Bio-engineered 'Superseeds' resistant to drought and disease have been sown across arid regions of Africa since March 17, 2024.",
+  "Zimbabwean farmer Hannah Ncube fears corporate control of the seeds, asking what happens if corporations raise the price or stop availability.",
+  "On May 10, 2024, pop star Zara Lune was photographed with a custom-designed parrot sporting her album colors and said \"It's not just a pet; it's a statement.\"",
+  "The NeoCat is a genetically engineered pet with customized traits, such as hypoallergenic fur, depending on price.",
+  "On April 9, 2025, a gene-edited microorganism meant to clean oil spills mutated, multiplied uncontrollably and threatened marine life.",
+  "Elizabeth Méndez, a genetic entrepreneur in Silicon Valley, predicts \"What the silicon chip was to the 20th century, the genome will be to the 21st.\"",
+  "Ethicist Dr. Michael Chen warns \"We are stepping over ethical boundaries faster than we can draw them,\" asking not can we, but should we.",
+  "Biohacking with community labs and DIY geneticists, enabled by democratized tools like CRISPR, raises questions about regulating work done at home.",
+  "Regulations struggle to keep pace with scientific advancement, and Dr. Singh warns that the organisms we design may design our fates in return."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Ava Singh",
+   "type": "person",
+   "role": "Scientist whose team announced the first fully customized living organism and who warns of caution"
+  },
+  {
+   "name": "Alex Jordan",
+   "type": "person",
+   "role": "Venture capitalist who seized the opportunity in genetic engineering"
+  },
+  {
+   "name": "Elizabeth Méndez",
+   "type": "person",
+   "role": "Genetic entrepreneur with a laboratory in Silicon Valley"
+  },
+  {
+   "name": "Dr. Michael Chen",
+   "type": "person",
+   "role": "Ethicist warning about crossing ethical boundaries"
+  },
+  {
+   "name": "Zara Lune",
+   "type": "person",
+   "role": "Pop star photographed with a custom-designed parrot"
+  },
+  {
+   "name": "Hannah Ncube",
+   "type": "person",
+   "role": "Zimbabwean farmer opposing corporate-owned seeds"
+  },
+  {
+   "name": "Dr. Raj Patel",
+   "type": "person",
+   "role": "Bioengineer reflecting on the dangers of engineered life"
+  },
+  {
+   "name": "GenEdit Solutions",
+   "type": "organization",
+   "role": "Company whose stock soared in the Gene Rush"
+  },
+  {
+   "name": "BioFuture",
+   "type": "organization",
+   "role": "Company whose stock soared in the Gene Rush"
+  },
+  {
+   "name": "FluoroFern",
+   "type": "product",
+   "role": "Genetically modified plant that produces a neon glow"
+  },
+  {
+   "name": "NeoCat",
+   "type": "product",
+   "role": "Genetically engineered pet with customizable traits"
+  },
+  {
+   "name": "Superseeds",
+   "type": "product",
+   "role": "Bio-engineered drought- and disease-resistant seeds sown in Africa"
+  },
+  {
+   "name": "CRISPR",
+   "type": "product",
+   "role": "Gene-editing tool whose democratization fuels biohacking"
+  },
+  {
+   "name": "Gene Rush",
+   "type": "event",
+   "role": "Media name for the gene-editing economic boom, begun December 8, 2023"
+  },
+  {
+   "name": "Nevada",
+   "type": "place",
+   "role": "Location of the lab that reported a modified pathogen escape"
+  },
+  {
+   "name": "Silicon Valley",
+   "type": "place",
+   "role": "Site of Elizabeth Méndez's laboratory"
+  },
+  {
+   "name": "Zimbabwe",
+   "type": "place",
+   "role": "Home country of farmer Hannah Ncube"
+  }
+ ],
+ "tags": [
+  "genetic-engineering",
+  "designer-organisms",
+  "biotech-economy",
+  "bioethics",
+  "news-feature",
+  "regulation"
+ ],
+ "usage": {
+  "input_tokens": 3264,
+  "output_tokens": 1655
+ }
+}

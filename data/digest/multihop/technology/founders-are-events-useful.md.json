@@ -1,0 +1,155 @@
+{
+ "summary": "Haje Jan Kamps's Startups Weekly newsletter opens with the question of whether events are worth it for founders, citing a TC+ survey of more than 50 founders that found no real consensus, only pros and cons. The rest is a roundup of the week's tech news: AI (OpenAI chip rumors, Adobe Firefly, Tidalflow), hardware (Meta Quest 3, Pixel 8, PC shipments), social platforms (Reddit, Mastodon, X, VidCon) and top reads on Google passkeys, Mastercard on UPI, and Brave layoffs.",
+ "one_line": "Startups Weekly asks whether events are worth founders' time, citing a TC+ survey of 50+ founders, then rounds up the week's AI, hardware and social news.",
+ "key_facts": [
+  "Reddit co-founder Alexis Ohanian tweeted that if he could redo one thing when building Reddit, he would have spent significantly less time attending events.",
+  "Haje Jan Kamps says he always regrets traveling to an event beforehand but never regrets it on the way back, since something magical comes out of going.",
+  "The TC+ team surveyed more than 50 founders on whether attending events still makes sense in 2023, and found no real consensus but useful pros and cons.",
+  "Kamps wrote this newsletter while laid up at home with pneumonia.",
+  "Rumors say OpenAI may be considering developing its own AI chips; ChatGPT's mobile app hit a record $4.6 million in revenue last month, but growth is slowing.",
+  "Dutch startup Tidalflow exited stealth with backing from Google's Gradient Ventures, aiming to help any software work with ChatGPT and other LLM ecosystems.",
+  "Adobe is doubling down on its Firefly generative AI models and showed Project Stardust as a sneak preview of its next-gen AI photo editing engine.",
+  "A federal judge threw out Sonos's $32.5 million win against Google after the company's patents were deemed unenforceable and invalid.",
+  "Ron reports that PC shipments decline slowed in Q3 2023 and that Apple's sales plunged over 23%.",
+  "Mastodon has 407K+ more monthly users than it thought, but its peak is now about the same as a decade ago.",
+  "X (formerly Twitter) is testing three tiers of its Premium service, and code suggests one tier may be ad-free.",
+  "Google is making passkeys the default sign-in method for all users.",
+  "Mastercard CFO Sachin Mehra praised UPI for helping digitization in India but called it an \"incredibly painful experience\" for ecosystem participants and questioned its commercial sustainability.",
+  "Brave Software, maker of Brave Browser and Search, laid off 9% of its workforce across departments.",
+  "VidCon hosted its first industry leadership summit, where creator economy experts and creators discussed grievances and ideas to make a creator's job more sustainable."
+ ],
+ "entities": [
+  {
+   "name": "Haje Jan Kamps",
+   "type": "person",
+   "role": "Author of the Startups Weekly newsletter, sick with pneumonia while writing it"
+  },
+  {
+   "name": "Alexis Ohanian",
+   "type": "person",
+   "role": "Reddit co-founder who tweeted he would have attended significantly fewer events"
+  },
+  {
+   "name": "TC+",
+   "type": "organization",
+   "role": "TechCrunch's team that surveyed more than 50 founders about event attendance"
+  },
+  {
+   "name": "Reddit",
+   "type": "organization",
+   "role": "Platform with ongoing API-related chaos and an app purge"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Rumored to be considering developing its own AI chips; maker of ChatGPT"
+  },
+  {
+   "name": "Nvidia",
+   "type": "organization",
+   "role": "Chipmaker whose stock rally is likely driven by the AI boom and which became a major robotics player"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "OpenAI's chatbot whose mobile app hit record $4.6 million monthly revenue"
+  },
+  {
+   "name": "Adobe",
+   "type": "organization",
+   "role": "Doubling down on Firefly generative AI and previewing Project Stardust"
+  },
+  {
+   "name": "Firefly",
+   "type": "product",
+   "role": "Adobe's generative AI models, now producing more realistic images and vector graphics in Illustrator"
+  },
+  {
+   "name": "Project Stardust",
+   "type": "product",
+   "role": "Adobe's sneak preview of its next-gen AI photo editing engine"
+  },
+  {
+   "name": "Tidalflow",
+   "type": "organization",
+   "role": "Dutch startup that exited stealth to help software work with LLM ecosystems"
+  },
+  {
+   "name": "Gradient Ventures",
+   "type": "organization",
+   "role": "Google's venture arm backing Tidalflow"
+  },
+  {
+   "name": "Meta Quest 3",
+   "type": "product",
+   "role": "Headset taking a step closer to mainstream AR/VR"
+  },
+  {
+   "name": "Sonos",
+   "type": "organization",
+   "role": "Audio company whose $32.5 million win against Google was thrown out"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Lost-then-won patent case target, maker of Pixel 8, and default passkey adopter"
+  },
+  {
+   "name": "Pixel 8",
+   "type": "product",
+   "role": "Google phone reviewed with solid performance and design upgrades; Pixel 8 Pro camera called the new mobile photography champ"
+  },
+  {
+   "name": "Narwhal",
+   "type": "product",
+   "role": "Third-party Reddit app hoping to survive the app purge with a subscription plan"
+  },
+  {
+   "name": "VidCon",
+   "type": "event",
+   "role": "Conference that hosted its first industry leadership summit"
+  },
+  {
+   "name": "Mastodon",
+   "type": "organization",
+   "role": "Social platform with 407K+ more monthly users than it thought"
+  },
+  {
+   "name": "X",
+   "type": "organization",
+   "role": "Formerly Twitter, testing three Premium tiers, one possibly ad-free"
+  },
+  {
+   "name": "Mastercard",
+   "type": "organization",
+   "role": "Payments company whose CFO commented on UPI in India"
+  },
+  {
+   "name": "Sachin Mehra",
+   "type": "person",
+   "role": "Mastercard CFO who voiced reservations about UPI's commercial sustainability"
+  },
+  {
+   "name": "UPI",
+   "type": "product",
+   "role": "India's payment system praised for digitization but called painful for participants"
+  },
+  {
+   "name": "Brave Software",
+   "type": "organization",
+   "role": "Maker of Brave Browser and Search that laid off 9% of its workforce"
+  }
+ ],
+ "tags": [
+  "startups",
+  "events",
+  "artificial-intelligence",
+  "newsletter",
+  "consumer-tech",
+  "social-media"
+ ],
+ "usage": {
+  "input_tokens": 3255,
+  "output_tokens": 2115
+ }
+}

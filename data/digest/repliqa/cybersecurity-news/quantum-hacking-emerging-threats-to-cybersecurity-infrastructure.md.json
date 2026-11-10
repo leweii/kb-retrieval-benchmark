@@ -1,0 +1,101 @@
+{
+ "summary": "The article argues that quantum computing threatens current public key encryption, notably via Shor's algorithm and 'harvest now, decrypt later' attacks, and that organizations must move to post-quantum cryptography now. It cites experts, NIST standardization work, industry announcements, and calls for global cooperation, private sector investment, and workforce education. It stresses that complacency and fragmented international efforts are the main obstacles.",
+ "one_line": "Quantum computers could break today's encryption, so governments, companies, and educators must urgently adopt post-quantum cryptography and cooperate globally.",
+ "key_facts": [
+  "Quantum computers use qubits, operating under superposition and entanglement, to process exponentially more information than classical computers.",
+  "Public key encryption relies on the difficulty of factoring large prime numbers, which quantum algorithms like Shor's algorithm can trivialize.",
+  "Dr. Ellen Miles, a leading quantum computing expert, warned in an October 2023 keynote at the annual Cyber Innovation Summit that quantum hacking is 'an approaching reality'.",
+  "A November 15, 2023 report by the Global Cyber Security Council warned that existing encryption could be retroactively compromised.",
+  "'Harvest now, decrypt later' attacks involve criminals storing encrypted data to decrypt it once quantum computers are available.",
+  "David Parkson, CISO at SecureTech Inc., said in late September 2023 that there is a 'wait and see' attitude toward quantum hacking, likening it to waiting for the roof to collapse.",
+  "The National Institute of Standards and Technology (NIST) has begun initiatives to standardize post-quantum cryptographic algorithms without significantly compromising system performance.",
+  "On December 1, 2023, QuantumSafe Tech announced hardware solutions that are inherently quantum-resistant, using lattice-based cryptography and advanced random number generation, aiming to overhaul security protocols by the end of the next fiscal year.",
+  "International response to quantum threats is described as fragmented, with disparate regulatory landscapes and competitive secrecy hindering cooperation.",
+  "At a Quantum Security Alliance meeting in January 2024, Dr. Rajeev Singh urged nations to consolidate research and share defensive strategies.",
+  "Emily Chao, co-founder of QuantumVault Inc., stated in a February 10, 2024 press release a commitment to quantum-resistant solutions accessible to all.",
+  "Professor Arnold Thompson of the Institute for Cyber Studies says quantum computing is double-edged and students need literacy in quantum mechanics as well as current security protocols."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Ellen Miles",
+   "type": "person",
+   "role": "Leading quantum computing expert who gave the keynote warning about quantum hacking"
+  },
+  {
+   "name": "Cyber Innovation Summit",
+   "type": "event",
+   "role": "Annual conference where Miles delivered a keynote in October 2023"
+  },
+  {
+   "name": "Global Cyber Security Council",
+   "type": "organization",
+   "role": "Issued a November 15, 2023 report warning of retroactive compromise of encryption"
+  },
+  {
+   "name": "David Parkson",
+   "type": "person",
+   "role": "CISO at SecureTech Inc. who criticized the 'wait and see' attitude"
+  },
+  {
+   "name": "SecureTech Inc.",
+   "type": "organization",
+   "role": "Company where David Parkson is Chief Information Security Officer"
+  },
+  {
+   "name": "National Institute of Standards and Technology (NIST)",
+   "type": "organization",
+   "role": "Leading initiatives to standardize post-quantum cryptographic algorithms"
+  },
+  {
+   "name": "QuantumSafe Tech",
+   "type": "organization",
+   "role": "Tech company announcing quantum-resistant hardware on December 1, 2023"
+  },
+  {
+   "name": "Quantum Security Alliance",
+   "type": "organization",
+   "role": "Held a January 2024 meeting where Rajeev Singh urged collaborative defense"
+  },
+  {
+   "name": "Dr. Rajeev Singh",
+   "type": "person",
+   "role": "Cybersecurity envoy calling for international collaboration"
+  },
+  {
+   "name": "QuantumVault Inc.",
+   "type": "organization",
+   "role": "Startup developing quantum-resistant solutions"
+  },
+  {
+   "name": "Emily Chao",
+   "type": "person",
+   "role": "Co-founder of QuantumVault Inc."
+  },
+  {
+   "name": "Professor Arnold Thompson",
+   "type": "person",
+   "role": "Educator at the Institute for Cyber Studies who stresses quantum literacy"
+  },
+  {
+   "name": "Institute for Cyber Studies",
+   "type": "organization",
+   "role": "Institution where Arnold Thompson teaches"
+  },
+  {
+   "name": "Shor's algorithm",
+   "type": "other",
+   "role": "Quantum algorithm that can break public key encryption by factoring"
+  }
+ ],
+ "tags": [
+  "quantum-computing",
+  "cybersecurity",
+  "post-quantum-cryptography",
+  "encryption",
+  "cyber-policy"
+ ],
+ "usage": {
+  "input_tokens": 3156,
+  "output_tokens": 1595
+ }
+}

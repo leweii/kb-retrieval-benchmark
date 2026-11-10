@@ -1,0 +1,86 @@
+{
+ "summary": "A template-style travel and food essay following a culinary exploration of [Region] in autumn 2023, with dated stops from September 5 to December 18. Each stop features a signature dish (staple, celebratory, hearty, seafood, dessert, historic, street food) and a local cook or vendor who explains its meaning. The piece argues the dishes express the region's soil, sea, history and people.",
+ "one_line": "A dated autumn 2023 tour of [Region]'s signature dishes, from staple stew to street food, told through the cooks who make them.",
+ "key_facts": [
+  "The exploration of [Region]'s traditional dishes was undertaken in the late autumn of 2023.",
+  "On September 5, 2023, the journey began with [Staple Dish], the core staple of [Region]'s cuisine, explained by chef Marco Valenti.",
+  "Marco Valenti said of the staple dish, \"It is the foundation of our culinary heritage.\"",
+  "On September 15 the author found [Regional Festival], an annual harvest celebration, where [Celebratory Dish] stood out.",
+  "Dona Estrella Ramirez has made [Celebratory Dish] for the festival for over 40 years and says it requires \"patience and love.\"",
+  "On October 22 in rural [Region], the Rodriguez family prepared [Hearty Dish] from locally sourced meats and root vegetables to get through the cold months.",
+  "On November 10 at the docks, third-generation fishmonger Clara Gonzalez prepared [Seafood Dish], saying \"The secret is in the freshness.\"",
+  "On November 26, siblings Ana and Luis Moreno served [Dessert Dish] at their patisserie, blending sweetness with the region's characteristic spices.",
+  "Ana Moreno said of the dessert, \"It's about balance.\"",
+  "On December 6, Elena Ortega prepared [Historic Dish], a centuries-old recipe her family has stewarded, cooked slowly over an open fire.",
+  "On December 18, street vendor Mario Puentes served [Street Food Dish], describing it as \"quick, informal, and full of character.\"",
+  "The conclusion says the dishes speak of the soil, the sea and the spirit of the people, evolving while rooted in the past."
+ ],
+ "entities": [
+  {
+   "name": "[Region]",
+   "type": "place",
+   "role": "Placeholder region whose cuisine is explored in the essay"
+  },
+  {
+   "name": "Marco Valenti",
+   "type": "person",
+   "role": "Renowned chef who explains the staple dish"
+  },
+  {
+   "name": "Dona Estrella Ramirez",
+   "type": "person",
+   "role": "Has made the celebratory dish for the festival for over 40 years"
+  },
+  {
+   "name": "José Rodriguez",
+   "type": "person",
+   "role": "Member of the Rodriguez family who prepares the hearty dish"
+  },
+  {
+   "name": "Rodriguez family",
+   "type": "organization",
+   "role": "Rural family that prepares the hearty winter dish in a small stone house"
+  },
+  {
+   "name": "Clara Gonzalez",
+   "type": "person",
+   "role": "Third-generation fishmonger who prepares the seafood dish"
+  },
+  {
+   "name": "Ana Moreno",
+   "type": "person",
+   "role": "Sibling running a patisserie that makes the dessert dish"
+  },
+  {
+   "name": "Luis Moreno",
+   "type": "person",
+   "role": "Sibling co-running the patisserie with Ana"
+  },
+  {
+   "name": "Elena Ortega",
+   "type": "person",
+   "role": "Keeper of the family recipe for the historic dish"
+  },
+  {
+   "name": "Mario Puentes",
+   "type": "person",
+   "role": "Street vendor who serves the street food dish"
+  },
+  {
+   "name": "[Regional Festival]",
+   "type": "event",
+   "role": "Annual harvest and communal celebration where the celebratory dish is served"
+  }
+ ],
+ "tags": [
+  "regional cuisine",
+  "food travel",
+  "traditional recipes",
+  "culinary heritage",
+  "seafood and street food"
+ ],
+ "usage": {
+  "input_tokens": 2942,
+  "output_tokens": 1237
+ }
+}

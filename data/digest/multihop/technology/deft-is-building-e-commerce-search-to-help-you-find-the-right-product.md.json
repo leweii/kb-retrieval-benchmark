@@ -1,0 +1,153 @@
+{
+ "summary": "Deft, an e-commerce search startup, has launched a multimodal search feature that lets users search with images as well as text, using its own parser, knowledge graph, LLMs and multimodal search. The company focuses on furniture and home décor, has raised $1.8 million in seed funding, and plans to make subscriptions its main revenue source. Investors and industry figures say it faces tough competition from Amazon and Google and must win user loyalty and likely involve retailers.",
+ "one_line": "Deft, an e-commerce search startup, launched multimodal image-and-text product search, backed by $1.8 million in seed funding, while facing competition from Amazon and Google.",
+ "key_facts": [
+  "Deft opened its service to beta users in May and has now released a multimodal search function so users don't have to describe items in words.",
+  "Deft was founded in 2019 by Alex Gunnarson and Zach Hudson; Gunnarson began the idea after spending hours trying to find a specific type of couch online.",
+  "Users can search for things like \"wooden lamps with three legs under $400\" or upload or paste an image and search \"lamps under $400 that look like this.\"",
+  "Deft looks beyond listings and descriptions to materials, reviews and photos, so a \"pet-friendly\" couch search can return stain and scratch-resistant material.",
+  "Deft currently focuses on furniture and home décor, shows results from Target, Pottery Barn and other web sources via its own scraping tech, and hasn't added Amazon because of many \"junk\" listings.",
+  "Deft raised $1.8 million in a seed round from Hustle Fund, Frontier VC, Vitalize, Long Ecommerce Ventures, 43 Ventures and angel investors.",
+  "Deft says it is on track to hit 50,000 monthly active users by the end of 2023 and sees \"tens of thousands\" of searches every week.",
+  "Deft claims a conversion rate five times higher than the standard e-commerce rate of around 2-3%.",
+  "Deft shows no ads and earns affiliate commissions, but wants subscriptions as its main revenue driver; it is testing a $10 a month plan for search customization and a $20 per month plan with personal shopping service.",
+  "Deft plans a browser extension by the end of this year or early next year, and search APIs for other e-commerce sites within three years.",
+  "Amazon updated its visual search in September and Google released its multi-search feature last year; Objective, a Matrix Partners-backed startup, is also a competitor.",
+  "Investor Amir Konigsberg, founder of the shuttered Twiggle, said competing with e-commerce players involves logistics and supply chain, and that Deft will have to involve retailers as partners or customers.",
+  "Neeva, founded by former Google execs, shut down its consumer efforts earlier this year and was acquired by Snowflake."
+ ],
+ "entities": [
+  {
+   "name": "Deft",
+   "type": "organization",
+   "role": "E-commerce search startup that launched multimodal search"
+  },
+  {
+   "name": "Alex Gunnarson",
+   "type": "person",
+   "role": "Co-founder of Deft who started the idea after struggling to find a couch online"
+  },
+  {
+   "name": "Zach Hudson",
+   "type": "person",
+   "role": "Co-founder of Deft who criticized Google and Amazon for pushing relevant listings down"
+  },
+  {
+   "name": "Ivan Mehta",
+   "type": "person",
+   "role": "TechCrunch author of the article"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication that ran the article and interviewed sources"
+  },
+  {
+   "name": "Hustle Fund",
+   "type": "organization",
+   "role": "Seed investor in Deft"
+  },
+  {
+   "name": "Frontier VC",
+   "type": "organization",
+   "role": "Seed investor in Deft"
+  },
+  {
+   "name": "Vitalize Venture Capital",
+   "type": "organization",
+   "role": "Seed investor in Deft"
+  },
+  {
+   "name": "Long Ecommerce Ventures",
+   "type": "organization",
+   "role": "Seed investor in Deft"
+  },
+  {
+   "name": "43 Ventures",
+   "type": "organization",
+   "role": "Seed investor in Deft"
+  },
+  {
+   "name": "Caroline Casson",
+   "type": "person",
+   "role": "Partner at Vitalize Venture Capital and Deft investor who praised its knowledge graph"
+  },
+  {
+   "name": "Adii Pienaar",
+   "type": "person",
+   "role": "Investor and WooCommerce co-founder who says Deft must offer a high-value proposition"
+  },
+  {
+   "name": "WooCommerce",
+   "type": "organization",
+   "role": "Company co-founded by Adii Pienaar, acquired by Automattic"
+  },
+  {
+   "name": "Automattic",
+   "type": "organization",
+   "role": "Acquirer of WooCommerce"
+  },
+  {
+   "name": "Amir Konigsberg",
+   "type": "person",
+   "role": "Investor and founder of Twiggle who warned about go-to-market and logistics challenges"
+  },
+  {
+   "name": "Twiggle",
+   "type": "organization",
+   "role": "E-commerce search startup founded by Amir Konigsberg that shut down"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Competitor with visual search; not yet included in Deft's results"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Competitor that released multi-search combining images and text"
+  },
+  {
+   "name": "Objective",
+   "type": "organization",
+   "role": "Matrix Partners-backed startup building an API platform for multimodal search"
+  },
+  {
+   "name": "Matrix Partners",
+   "type": "organization",
+   "role": "Backer of Objective"
+  },
+  {
+   "name": "Neeva",
+   "type": "organization",
+   "role": "Paid private search startup that shut down consumer efforts and was acquired by Snowflake"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Acquirer of Neeva"
+  },
+  {
+   "name": "Target",
+   "type": "organization",
+   "role": "Retailer whose products appear in Deft results"
+  },
+  {
+   "name": "Pottery Barn",
+   "type": "organization",
+   "role": "Retailer whose products appear in Deft results"
+  }
+ ],
+ "tags": [
+  "e-commerce",
+  "search",
+  "startups",
+  "multimodal-ai",
+  "seed-funding",
+  "competition"
+ ],
+ "usage": {
+  "input_tokens": 3064,
+  "output_tokens": 1928
+ }
+}

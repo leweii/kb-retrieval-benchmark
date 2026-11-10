@@ -1,0 +1,93 @@
+{
+ "summary": "Polygon's buying guide by Cameron Faulkner explains how to choose a power bank for phones, tablets, the Nintendo Switch, Steam Deck and laptops. The key advice is to pick a bank with Power Delivery (PD) support whose wattage matches or approaches your device's peak charging speed. It also covers wattage needs for each device type and recommends buying extra USB-C cables.",
+ "one_line": "Polygon's guide to choosing portable chargers by matching Power Delivery wattage to phones, tablets, Switch, Steam Deck and laptops.",
+ "key_facts": [
+  "Power banks vary in price based on compactness, port types, battery capacity (typically measured in mAh), and recharge speed.",
+  "Buyers should choose a power bank listing Power Delivery (\"PD\") that matches or comes close to the peak charging speed in watts of their devices.",
+  "Samsung's Galaxy S23 can recharge at 25 W or higher depending on model, while many other Android phones and iPhones charge over wire at under 20 W.",
+  "All iPads currently ship with 20 W power adapters, and tablets from Samsung and Amazon haven't deviated far from that speed.",
+  "The Nintendo Switch with detachable Joy-Cons can receive a maximum of 18 W through USB-C; the Switch Lite is slightly less demanding.",
+  "A two-pack of 100 W-ready, six-foot USB-C-to-C cables is available at Amazon for $15.99.",
+  "Each Steam Deck includes a 45 W USB-C wall adapter, and only power banks supporting the PD 3.0 spec can recharge it at its fastest speed.",
+  "A 65 W power bank should likely be fast enough for a 13-inch MacBook Air or Pro or a similarly sized Windows laptop.",
+  "Reaching 140 W requires a laptop supporting the PD 3.1 USB-C charging spec and a compatible USB-C-to-USB-C cable.",
+  "Apple's 140 W wall charger is included with 16-inch MacBook Pro laptops, and one recommended charger can match that speed.",
+  "Most Windows laptops don't go above 90 or 100 W at peak USB-C recharging speed.",
+  "Laptop-capable power banks cost about $100 to $150, which is easier to justify for travelers charging multiple power-hungry devices at once.",
+  "The article was updated Nov. 17 with checked prices and stock."
+ ],
+ "entities": [
+  {
+   "name": "Cameron Faulkner",
+   "type": "person",
+   "role": "Author of the guide"
+  },
+  {
+   "name": "Polygon",
+   "type": "organization",
+   "role": "Publisher of the What to Buy guide"
+  },
+  {
+   "name": "Vox Media",
+   "type": "organization",
+   "role": "Parent company that may earn a commission from links"
+  },
+  {
+   "name": "Nintendo Switch",
+   "type": "product",
+   "role": "Gaming handheld that accepts up to 18 W via USB-C"
+  },
+  {
+   "name": "Switch Lite",
+   "type": "product",
+   "role": "Switch model slightly less demanding in charging"
+  },
+  {
+   "name": "Steam Deck",
+   "type": "product",
+   "role": "Gaming handheld with a 45 W adapter needing PD 3.0 power banks"
+  },
+  {
+   "name": "Samsung Galaxy S23",
+   "type": "product",
+   "role": "Phone that can charge at 25 W or higher"
+  },
+  {
+   "name": "iPad",
+   "type": "product",
+   "role": "Tablet line shipping with 20 W power adapters"
+  },
+  {
+   "name": "MacBook",
+   "type": "product",
+   "role": "Apple laptop lineup that charges via USB-C"
+  },
+  {
+   "name": "Dell XPS 13",
+   "type": "product",
+   "role": "Windows laptop that charges via USB-C"
+  },
+  {
+   "name": "Razer Blade",
+   "type": "product",
+   "role": "Gaming laptop that charges via USB-C"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Retailer selling USB-C cable two-packs at $15.99"
+  }
+ ],
+ "tags": [
+  "portable-chargers",
+  "power-banks",
+  "usb-c",
+  "gaming-handhelds",
+  "buying-guide",
+  "laptops"
+ ],
+ "usage": {
+  "input_tokens": 2686,
+  "output_tokens": 1308
+ }
+}

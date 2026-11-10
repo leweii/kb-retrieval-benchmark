@@ -1,0 +1,114 @@
+{
+ "summary": "The note surveys internet service disruptions worldwide from September 2023 to April 2024, sorting them by cause (natural disasters, technical failures, cyberattacks, governmental interference) and comparing national responses. It highlights best practices in resilience and recovery, the role of regulation, international partnerships, emerging technologies like AI and blockchain, and investment in human capital. It concludes that proactive, collaborative approaches are needed to keep global internet services stable.",
+ "one_line": "Overview of global internet outages from 2023-2024, their causes, national responses, and strategies like collaboration, AI, and training to improve resilience.",
+ "key_facts": [
+  "On September 15, 2023, Japan had an outage of about two hours caused by a software glitch in a core network device, with minimal disruption.",
+  "On October 3, 2023, Nigeria suffered a widespread outage lasting 24 hours with sporadic aftershocks over the following week, attributed to malicious attacks and infrastructure failures.",
+  "On November 8, 2023, a strong earthquake damaged underground cables in California, leaving millions without connectivity for nearly six hours.",
+  "On September 29, 2023, an ISP in France had outages after a maintenance update went awry, resolved within hours.",
+  "An October 12 DDoS attack on Australian ISPs showed the damage cyberattacks can inflict; Anne Patterson, a cybersecurity expert in Sydney, said such attacks are growing in scale and sophistication.",
+  "On October 27, 2023, Brazil's government imposed a temporary internet shutdown in response to protest movements, sparking debates over digital rights.",
+  "On December 1, 2023, South Korea restored services within an hour after a rare outage, credited to government investment in high-tech, redundant infrastructure.",
+  "On January 4, 2024, Germany handled a major network outage with a coordinated disaster recovery plan and kept citizens informed.",
+  "On February 11, 2024, an outage in India was amplified by user ignorance, showing the importance of training and awareness programs.",
+  "The European Union's GDPR includes provisions to shore up cyber defenses while preserving user rights, and is suggested as a policy blueprint.",
+  "The Cybersecurity Tech Accord and the ITU's Internet Resilience and Stability working group exemplify international cooperation; Michael Thompson said \"collectively, we share resources, intelligence, and best practices that are invaluable to the integrity of global networks.\"",
+  "On April 5, 2024, an AI-driven monitoring system in Switzerland preempted a major outage by identifying abnormal traffic patterns.",
+  "Blockchain could help decentralize DNS services and reduce the risk of large-scale outages.",
+  "Japan's ongoing education and certification for IT staff has helped minimize the duration and effect of outages."
+ ],
+ "entities": [
+  {
+   "name": "Japan",
+   "type": "place",
+   "role": "Had a two-hour outage on September 15, 2023; example of preparedness and IT staff training"
+  },
+  {
+   "name": "Nigeria",
+   "type": "place",
+   "role": "Suffered a 24-hour outage on October 3, 2023, and faced criticism for slow response"
+  },
+  {
+   "name": "California",
+   "type": "place",
+   "role": "Lost internet service for nearly six hours after an earthquake on November 8, 2023"
+  },
+  {
+   "name": "France",
+   "type": "place",
+   "role": "An ISP had an outage on September 29, 2023, due to a faulty maintenance update"
+  },
+  {
+   "name": "Australia",
+   "type": "place",
+   "role": "ISPs were hit by a DDoS attack on October 12"
+  },
+  {
+   "name": "Anne Patterson",
+   "type": "person",
+   "role": "Cybersecurity expert in Sydney who warned of increasingly sophisticated attacks"
+  },
+  {
+   "name": "Brazil",
+   "type": "place",
+   "role": "Government imposed a temporary internet shutdown on October 27, 2023, amid protests"
+  },
+  {
+   "name": "South Korea",
+   "type": "place",
+   "role": "Model of efficient recovery, restoring service within an hour on December 1, 2023"
+  },
+  {
+   "name": "Germany",
+   "type": "place",
+   "role": "Showed a comprehensive disaster recovery plan after a major outage on January 4, 2024"
+  },
+  {
+   "name": "India",
+   "type": "place",
+   "role": "Outage on February 11, 2024, worsened by user ignorance"
+  },
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "Source of GDPR, cited as a regulatory blueprint"
+  },
+  {
+   "name": "GDPR",
+   "type": "program",
+   "role": "EU regulation with provisions for cyber defense and user rights"
+  },
+  {
+   "name": "Cybersecurity Tech Accord",
+   "type": "program",
+   "role": "Strategic partnership uniting private and public sectors against disruptions"
+  },
+  {
+   "name": "International Telecommunication Union (ITU)",
+   "type": "organization",
+   "role": "Hosts the Internet Resilience and Stability working group"
+  },
+  {
+   "name": "Michael Thompson",
+   "type": "person",
+   "role": "Canadian telecommunications authority who supports international partnerships"
+  },
+  {
+   "name": "Switzerland",
+   "type": "place",
+   "role": "Used an AI-driven monitoring system to preempt a major outage on April 5, 2024"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "cybersecurity",
+  "incident-response",
+  "infrastructure-resilience",
+  "international-cooperation",
+  "emerging-technology"
+ ],
+ "usage": {
+  "input_tokens": 3207,
+  "output_tokens": 1703
+ }
+}

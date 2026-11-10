@@ -1,0 +1,87 @@
+{
+ "summary": "The article explores the many causes of internet service disruptions, prompted by a September 15, 2023 outage on the US East Coast. Drawing on interviews with IT experts, it covers equipment failure, cyberattacks, environmental events, maintenance, satellite issues, human error, undersea cable damage and network overload, each illustrated with a dated 2023 incident. It concludes that disruptions are multifaceted and that understanding them is key to building more resilient networks.",
+ "one_line": "Experts explain the main causes of internet outages, from hardware failure and DDoS attacks to cable damage and overload, citing 2023 incidents.",
+ "key_facts": [
+  "On September 15, 2023, a widespread internet outage disrupted services across the East Coast of the United States.",
+  "Data from IT firms indicates hardware malfunctions cause approximately 40% of internet downtime incidents.",
+  "On November 22, 2023, a major DDoS attack brought down internet services for several hours in parts of Europe.",
+  "On October 3, 2023, a strong earthquake in California led to significant internet service disruptions.",
+  "On December 1, 2023, a prominent internet service provider announced a scheduled maintenance outage affecting thousands of users for several hours.",
+  "Damian Leigh suggests a more decentralized and robust network architecture could reduce dependence on single points of failure.",
+  "On September 28, 2023, a geomagnetic storm interfered with satellite internet services, causing widespread disturbances.",
+  "On November 12, 2023, a major outage was traced to a configuration error during a routine update.",
+  "On October 14, 2023, a ship's anchor accidentally severed an undersea cable in the Atlantic, affecting transatlantic data flow.",
+  "The Black Friday sale on November 24, 2023 caused network overload, with several retail websites buckling under increased traffic.",
+  "Raj Patel compares network congestion to highways during rush hour.",
+  "The article attributes a surge in cyber-attacks to increased remote work and digital reliance since the pandemic."
+ ],
+ "entities": [
+  {
+   "name": "Harrison Clarke",
+   "type": "person",
+   "role": "Network engineer with over a decade of experience; discusses equipment failures"
+  },
+  {
+   "name": "Mia Wong",
+   "type": "person",
+   "role": "Cybersecurity specialist; discusses DDoS attacks"
+  },
+  {
+   "name": "Dr. Joseph Alden",
+   "type": "person",
+   "role": "Environmental risk consultant; discusses earthquakes, floods and rodents"
+  },
+  {
+   "name": "Damian Leigh",
+   "type": "person",
+   "role": "Network operations manager; discusses scheduled maintenance outages"
+  },
+  {
+   "name": "Linda Rios",
+   "type": "person",
+   "role": "Satellite communications expert"
+  },
+  {
+   "name": "Alice McKinney",
+   "type": "person",
+   "role": "System administrator; discusses misconfiguration and human error"
+  },
+  {
+   "name": "Dr. Ethan Moore",
+   "type": "person",
+   "role": "Marine technology expert; discusses undersea cable damage"
+  },
+  {
+   "name": "Raj Patel",
+   "type": "person",
+   "role": "Network architect; discusses network overloads"
+  },
+  {
+   "name": "StarNet",
+   "type": "organization",
+   "role": "Company launching satellite internet services"
+  },
+  {
+   "name": "OrbitalLink",
+   "type": "organization",
+   "role": "Company launching satellite internet services"
+  },
+  {
+   "name": "Black Friday sale",
+   "type": "event",
+   "role": "November 24, 2023 shopping event that caused network overload"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "incident-report",
+  "cybersecurity",
+  "network-infrastructure",
+  "undersea-cables",
+  "it-experts"
+ ],
+ "usage": {
+  "input_tokens": 2966,
+  "output_tokens": 1145
+ }
+}

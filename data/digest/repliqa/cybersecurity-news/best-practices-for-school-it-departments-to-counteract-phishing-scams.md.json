@@ -1,0 +1,109 @@
+{
+ "summary": "The note outlines best practices for school IT departments to defend against phishing, which has become the most common attack method against education since September 2023. It covers training programs, multi-factor authentication, email filtering, audits, incident response plans, a security culture, parent involvement and infrastructure investment, with example schools and expert quotes for each.",
+ "one_line": "Guide to school IT best practices against phishing: training, MFA, audits, response plans, security culture, parent engagement and funding, with real-world examples.",
+ "key_facts": [
+  "An Information Security Forum (ISF) study found a 150% increase in phishing attacks on educational institutions globally since September 2023.",
+  "Daniel Smith of the Global Cybersecurity Initiative said on October 12, 2023 that phishing is a particular threat to education due to the vast personal data schools hold and their often under-funded cybersecurity measures.",
+  "John Doe, CIO of the Springfield School District, said on November 5, 2023 that 'spear-phishing' attacks are highly targeted and exploit specific school events or financial operations.",
+  "In September 2023, a small college in New England lost thousands of records containing sensitive student data to a phishing scam, leading to system upgrades and credit monitoring costs.",
+  "Jane Miller, director of student privacy at the Education Trust, said on December 14, 2023 that phishing 'is not just an IT problem' and drives parents to lose faith in the institution.",
+  "The City Learning Trust launched a training program on January 7, 2024 combining interactive workshops, regular email updates and mock phishing simulations.",
+  "The Brighton School System began requiring multi-factor authentication for all email accounts after February 15, 2024, significantly reducing phishing success.",
+  "A March 3, 2024 audit at Greenwald Academy found outdated software components that were then updated to fend off phishing threats.",
+  "The Wilson School District contained a severe phishing scam on April 28, 2024 within hours thanks to a well-practiced incident response plan.",
+  "Urban Education Institute launched an initiative on May 21, 2024 that included students in cybersecurity committees.",
+  "Viewpoint School District gave parents comprehensive guidelines during its annual internet safety week in June 2024.",
+  "New Horizons Education Center redirected funds to cyber initiatives on July 15, 2024.",
+  "An incident response plan should include isolating affected systems, notifying stakeholders such as legal guardians and law enforcement, and recovery steps.",
+  "Advanced email filtering software and system-wide encryption are cited as essential security measures."
+ ],
+ "entities": [
+  {
+   "name": "Information Security Forum (ISF)",
+   "type": "organization",
+   "role": "Conducted study showing a 150% rise in phishing attacks on schools since September 2023"
+  },
+  {
+   "name": "Daniel Smith",
+   "type": "person",
+   "role": "Cybersecurity analyst at the Global Cybersecurity Initiative who warned about phishing in education"
+  },
+  {
+   "name": "Global Cybersecurity Initiative",
+   "type": "organization",
+   "role": "Employer of analyst Daniel Smith"
+  },
+  {
+   "name": "John Doe",
+   "type": "person",
+   "role": "Chief Information Officer of the Springfield School District; described spear-phishing"
+  },
+  {
+   "name": "Springfield School District",
+   "type": "organization",
+   "role": "School district whose CIO commented on spear-phishing"
+  },
+  {
+   "name": "Jane Miller",
+   "type": "person",
+   "role": "Director of student privacy at the Education Trust"
+  },
+  {
+   "name": "Education Trust",
+   "type": "organization",
+   "role": "Organization where Jane Miller is director of student privacy"
+  },
+  {
+   "name": "City Learning Trust",
+   "type": "organization",
+   "role": "Launched a model training program on January 7, 2024"
+  },
+  {
+   "name": "Brighton School System",
+   "type": "organization",
+   "role": "Required multi-factor authentication for all email accounts after February 15, 2024"
+  },
+  {
+   "name": "Greenwald Academy",
+   "type": "organization",
+   "role": "Conducted a security audit on March 3, 2024 that found outdated software"
+  },
+  {
+   "name": "Wilson School District",
+   "type": "organization",
+   "role": "Contained a severe phishing scam on April 28, 2024 using its response plan"
+  },
+  {
+   "name": "Urban Education Institute",
+   "type": "organization",
+   "role": "Included students in cybersecurity committees from May 21, 2024"
+  },
+  {
+   "name": "Viewpoint School District",
+   "type": "organization",
+   "role": "Gave parents guidelines during its annual internet safety week in June 2024"
+  },
+  {
+   "name": "New Horizons Education Center",
+   "type": "organization",
+   "role": "Redirected funds to cyber initiatives on July 15, 2024"
+  },
+  {
+   "name": "New England",
+   "type": "place",
+   "role": "Region where a small college suffered a phishing data theft in September 2023"
+  }
+ ],
+ "tags": [
+  "phishing",
+  "school-cybersecurity",
+  "education-sector",
+  "incident-response",
+  "security-awareness",
+  "multi-factor-authentication"
+ ],
+ "usage": {
+  "input_tokens": 2982,
+  "output_tokens": 1554
+ }
+}

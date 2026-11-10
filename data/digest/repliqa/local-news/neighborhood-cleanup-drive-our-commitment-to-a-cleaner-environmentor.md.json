@@ -1,0 +1,82 @@
+{
+ "summary": "A satirical local-news piece on the Suburbicon Heights Annual Cleanup Drive, held September 8th, 2023. It pokes fun at the event's competitions, costumes, neighborly snooping and corporate sponsorship by Polystyrene Dreams Inc. It questions whether residents truly want change or only the appearance of caring about the environment.",
+ "one_line": "A satirical take on Suburbicon Heights' annual cleanup drive, questioning whether it reflects real environmental commitment or superficial, snoopy, corporate-sponsored community theater.",
+ "key_facts": [
+  "The Suburbicon Heights Annual Cleanup Drive was scheduled for Saturday morning, September 8th, 2023.",
+  "The event was organized by Betty Goodwill and her group of environmental enthusiasts.",
+  "Planned activities include bin bag races, a \"Guess the Garbage\" game, and recycling workshops.",
+  "Prizes are awarded for the most rubbish collected and the strangest item found.",
+  "Last year's golden bin award went to Jimmy Hawkins, who found a vintage 1980s toaster oven.",
+  "Participants form teams in matching outfits, such as a family of four wearing capes made from upcycled bin liners, dubbed the Green Guardians.",
+  "Janet Basket, described as the neighborhood's veteran gossip and part-time sleuth, says the quiet guy from number 42 collects porcelain dolls.",
+  "A \"DIY graveyard\" of broken lawnmowers and cracked planters lies between Daffodil Lane and Bluebird Street.",
+  "Salvaged items are set aside for the \"Salvation Station,\" where people donate trash hoping others will turn it into treasure.",
+  "The drive is sponsored by Polystyrene Dreams Inc., maker of disposable plates and cutlery, which hands out lemonade in Styrofoam cups.",
+  "Sponsor freebies include pens, t-shirts, and frisbees bearing 'be the change' logos.",
+  "The article argues the litter was discarded by residents themselves and suggests the drive may be a band-aid solution that values appearances over real change."
+ ],
+ "entities": [
+  {
+   "name": "Suburbicon Heights",
+   "type": "place",
+   "role": "Affluent suburban neighborhood hosting the cleanup drive"
+  },
+  {
+   "name": "Suburbicon Heights Annual Cleanup Drive",
+   "type": "event",
+   "role": "Annual neighborhood cleanup held September 8th, 2023, subject of the satire"
+  },
+  {
+   "name": "Betty Goodwill",
+   "type": "person",
+   "role": "Organizer of the cleanup drive"
+  },
+  {
+   "name": "Jimmy Hawkins",
+   "type": "person",
+   "role": "Won last year's golden bin award for finding a vintage 1980s toaster oven"
+  },
+  {
+   "name": "Janet Basket",
+   "type": "person",
+   "role": "Veteran gossip and part-time sleuth who comments on what people throw away"
+  },
+  {
+   "name": "Polystyrene Dreams Inc.",
+   "type": "organization",
+   "role": "Corporate sponsor, maker of disposable plates and cutlery"
+  },
+  {
+   "name": "Salvation Station",
+   "type": "program",
+   "role": "Place to donate salvaged junk in hope others reuse it"
+  },
+  {
+   "name": "Green Guardians",
+   "type": "other",
+   "role": "Humorous name for a family team in bin-liner capes"
+  },
+  {
+   "name": "Daffodil Lane",
+   "type": "place",
+   "role": "Street near the DIY graveyard of broken items"
+  },
+  {
+   "name": "Bluebird Street",
+   "type": "place",
+   "role": "Street near the DIY graveyard of broken items"
+  }
+ ],
+ "tags": [
+  "satire",
+  "community-cleanup",
+  "suburbia",
+  "environment",
+  "corporate-sponsorship",
+  "local-news"
+ ],
+ "usage": {
+  "input_tokens": 3026,
+  "output_tokens": 1202
+ }
+}

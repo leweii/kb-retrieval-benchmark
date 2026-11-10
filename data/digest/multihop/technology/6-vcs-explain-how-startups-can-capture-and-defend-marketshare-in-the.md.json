@@ -1,0 +1,157 @@
+{
+ "summary": "TechCrunch+ asked venture capitalists how startups can capture and defend market share with large language models (LLMs). The excerpt covers Rick Grinnell of Glasswing Ventures, who says most opportunity is in the application layer and that incumbents may squeeze the middle layer, and the start of Lisa Calhoun's answers at Valor VC, who focuses on applied AI. Topics include defensibility, proprietary data, enterprise AI demand, and usage-based versus SaaS pricing.",
+ "one_line": "VCs including Glasswing's Rick Grinnell and Valor's Lisa Calhoun discuss where AI startups can win and defend market share across the LLM stack.",
+ "key_facts": [
+  "Rick Grinnell, founder and managing partner at Glasswing Ventures, says \"most of the opportunity lies in the application layer\" of the AI tech stack.",
+  "Glasswing Ventures divides the GenAI tech stack into four layers: foundation model providers, middle-tier companies, end-market or top-layer applications, and full stack or end-to-end vertical companies.",
+  "Grinnell expects the best applications to build specialized middle-layer tooling in-house and blend it with appropriate foundational models, which shortens time-to-market.",
+  "Grinnell says the middle layer is risky because foundation model providers expanding into middle-layer tools raise commoditization risks, and clear winners have yet to emerge.",
+  "Datadog, New Relic and Splunk have all produced LLM observability tools, which Grinnell says may curtail startup market area in the short term.",
+  "Grinnell expects foundation model providers like Google's Bard, Microsoft/OpenAI's GPT-4 and Anthropic's Claude to settle into an oligopoly like the cloud provider market, with a strong open source contingent.",
+  "Grinnell's four-part defensibility framework: solve a real enterprise pain point, choose models intentionally, use proprietary data, and target niches that tolerate imprecision such as sales or marketing.",
+  "McKinsey reports generative AI can add up to $4.4 trillion in value across industries.",
+  "Global AI spending is expected to reach $154 billion by the end of 2023, a 27% increase from 2022, and to exceed $300 billion annually in 2026; AI budgets are now more than double cloud computing budgets.",
+  "Grinnell says OpenAI spends upward of $700,000 per day on compute, and he expects hybrid pricing with tiered periodic payments for SMBs and uncapped usage-based tiers for enterprises.",
+  "Edward Tsai, managing partner at Alumni Ventures, holds a \"controversial opinion\" that VCs and startups may want to temporarily reduce their focus on defensibility and prioritize value and speed to market.",
+  "Lisa Calhoun, founding managing partner of Valor VC, says Valor focuses on applied AI, meaning AI that solves a customer problem, with examples Saile.ai, Funding U and Allelica."
+ ],
+ "entities": [
+  {
+   "name": "Rick Grinnell",
+   "type": "person",
+   "role": "Founder and managing partner at Glasswing Ventures; VC respondent favoring the application layer"
+  },
+  {
+   "name": "Glasswing Ventures",
+   "type": "organization",
+   "role": "Venture firm of Rick Grinnell with a four-layer GenAI stack view"
+  },
+  {
+   "name": "Edward Tsai",
+   "type": "person",
+   "role": "Managing partner at Alumni Ventures; suggests deprioritizing defensibility for speed to market"
+  },
+  {
+   "name": "Alumni Ventures",
+   "type": "organization",
+   "role": "Venture firm of Edward Tsai"
+  },
+  {
+   "name": "Lisa Calhoun",
+   "type": "person",
+   "role": "Founding managing partner at Valor VC; VC respondent focused on applied AI"
+  },
+  {
+   "name": "Valor VC",
+   "type": "organization",
+   "role": "Venture firm focused on applied AI"
+  },
+  {
+   "name": "Alex Wilhelm",
+   "type": "person",
+   "role": "Author of the TechCrunch article"
+  },
+  {
+   "name": "TechCrunch+",
+   "type": "organization",
+   "role": "Publication that surveyed the venture capitalists"
+  },
+  {
+   "name": "Datadog",
+   "type": "organization",
+   "role": "Incumbent that released an LLM observability tool"
+  },
+  {
+   "name": "New Relic",
+   "type": "organization",
+   "role": "Incumbent that produced an LLM observability tool"
+  },
+  {
+   "name": "Splunk",
+   "type": "organization",
+   "role": "Incumbent that produced an LLM observability tool"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Model provider using token-based pricing and spending about $700,000 per day on compute"
+  },
+  {
+   "name": "Anthropic",
+   "type": "organization",
+   "role": "Foundation model provider behind Claude"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Partner of OpenAI (GPT-4) and investor in AI startups such as Inflection AI and Cohere"
+  },
+  {
+   "name": "Alphabet/Google",
+   "type": "organization",
+   "role": "Foundation model provider behind Bard"
+  },
+  {
+   "name": "Nvidia",
+   "type": "organization",
+   "role": "Investor in AI startups such as Inflection AI and Cohere"
+  },
+  {
+   "name": "Salesforce",
+   "type": "organization",
+   "role": "Investor in AI startups such as Inflection AI and Cohere"
+  },
+  {
+   "name": "Inflection AI",
+   "type": "organization",
+   "role": "AI startup that received investment from big tech"
+  },
+  {
+   "name": "Cohere",
+   "type": "organization",
+   "role": "AI startup that received investment from big tech"
+  },
+  {
+   "name": "Databricks",
+   "type": "organization",
+   "role": "Example of the kind of company expected to rise in the middle layer"
+  },
+  {
+   "name": "McKinsey",
+   "type": "organization",
+   "role": "Source of the $4.4 trillion generative AI value estimate"
+  },
+  {
+   "name": "Pinecone",
+   "type": "organization",
+   "role": "Startup specializing in part of the AI stack"
+  },
+  {
+   "name": "Saile.ai",
+   "type": "organization",
+   "role": "Applied AI startup that generates closeable leads for the Fortune 500"
+  },
+  {
+   "name": "Funding U",
+   "type": "organization",
+   "role": "Applied AI startup using its own trained dataset for a better credit risk score"
+  },
+  {
+   "name": "Allelica",
+   "type": "organization",
+   "role": "Applied AI startup using individual DNA to find the best medical treatment"
+  }
+ ],
+ "tags": [
+  "venture-capital",
+  "generative-ai",
+  "llm",
+  "startups",
+  "ai-pricing",
+  "defensibility"
+ ],
+ "usage": {
+  "input_tokens": 5042,
+  "output_tokens": 2079
+ }
+}

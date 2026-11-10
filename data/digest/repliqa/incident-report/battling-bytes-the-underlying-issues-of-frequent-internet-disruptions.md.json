@@ -1,0 +1,103 @@
+{
+ "summary": "The article argues that frequent internet outages in 2023 expose frail, underinvested infrastructure threatened by cyberattacks, extreme weather and surging bandwidth demand. It recounts outages in New York City and San Francisco, cites experts and officials on regulation, and points to Minneapolis and Austin as models. It calls for infrastructure investment, balanced regulation and community pressure.",
+ "one_line": "An opinion-style incident report linking 2023 internet outages to aging infrastructure, cyber threats, weather and demand, and urging investment, regulation and local action.",
+ "key_facts": [
+  "On September 3, 2023, at 11:45 AM, New York City lost internet connectivity for nearly four hours.",
+  "CybNet said the New York outage was caused by a damaged undersea cable due to unprecedented undercurrents tied to shifting climatic patterns.",
+  "On September 20, 2023, San Francisco suffered a massive Denial of Service attack that overwhelmed the city's main internet infrastructure providers; the attackers were unknown.",
+  "ISP giants GlobalNet and UniWeb have been criticized for neglecting infrastructure investment, with some components well past their expected life.",
+  "Cybersecurity analyst Richard Branson claims companies aren't willing to put up capital for large-scale overhauls needed for a robust network.",
+  "On October 10, 2023, an outdated firewall let a malware strain attack Century Communications and disrupt service in nine states.",
+  "During the 2023 hurricane season, a number of Gulf Coast service providers were knocked offline by severe storm damage.",
+  "Environmentalist Laura Pennington says climate change is creating more extreme weather that current infrastructure isn't designed to withstand.",
+  "Dr. Amanda Zhou warns that pressure on networks will increase as 5G rolls out and more devices come online.",
+  "Senator John K. Hamilton proposes a system where companies are held accountable for service stability, while others warn over-regulation may stifle innovation.",
+  "Minneapolis and Austin prioritized infrastructure investment locally and have fewer, more swiftly addressed disruptions.",
+  "Minneapolis Mayor Emily Torres credited the city's partnership with local ISPs and said economic incentives and public-private partnerships are powerful tools.",
+  "The Cybersecurity Infrastructure Security Agency (CISA) is expanding its focus to include promoting infrastructure resilience as well as cyber defense."
+ ],
+ "entities": [
+  {
+   "name": "CybNet",
+   "type": "organization",
+   "role": "Service provider that attributed the New York outage to a damaged undersea cable"
+  },
+  {
+   "name": "New York City",
+   "type": "place",
+   "role": "Site of the September 3, 2023 near four-hour outage"
+  },
+  {
+   "name": "San Francisco",
+   "type": "place",
+   "role": "Hit by a Denial of Service attack on September 20, 2023"
+  },
+  {
+   "name": "GlobalNet",
+   "type": "organization",
+   "role": "ISP giant criticized for neglecting infrastructure investment"
+  },
+  {
+   "name": "UniWeb",
+   "type": "organization",
+   "role": "ISP giant criticized for neglecting infrastructure investment"
+  },
+  {
+   "name": "Richard Branson",
+   "type": "person",
+   "role": "Cybersecurity analyst who says companies won't fund large-scale overhauls"
+  },
+  {
+   "name": "Century Communications",
+   "type": "organization",
+   "role": "Victim of an October 10, 2023 malware attack via an outdated firewall"
+  },
+  {
+   "name": "Laura Pennington",
+   "type": "person",
+   "role": "Environmentalist who links climate change to infrastructure risk"
+  },
+  {
+   "name": "Dr. Amanda Zhou",
+   "type": "person",
+   "role": "Telecommunication expert warning about growing data volume and 5G"
+  },
+  {
+   "name": "Senator John K. Hamilton",
+   "type": "person",
+   "role": "Government official arguing for stricter regulation and accountability"
+  },
+  {
+   "name": "Emily Torres",
+   "type": "person",
+   "role": "Minneapolis Mayor who cited public-private partnerships as key to success"
+  },
+  {
+   "name": "Minneapolis",
+   "type": "place",
+   "role": "City with local initiatives prioritizing robust infrastructure"
+  },
+  {
+   "name": "Austin",
+   "type": "place",
+   "role": "City with local initiatives prioritizing robust infrastructure"
+  },
+  {
+   "name": "Cybersecurity Infrastructure Security Agency (CISA)",
+   "type": "organization",
+   "role": "Federal agency expanding focus to infrastructure resilience"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "infrastructure",
+  "cybersecurity",
+  "regulation",
+  "climate",
+  "incident-report"
+ ],
+ "usage": {
+  "input_tokens": 2753,
+  "output_tokens": 1469
+ }
+}

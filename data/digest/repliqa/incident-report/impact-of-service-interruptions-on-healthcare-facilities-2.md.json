@@ -1,0 +1,82 @@
+{
+ "summary": "The note examines how power and internet outages since September 2023 have disrupted hospitals, citing incidents at St. Mary's General Hospital, CareEast Medical Center, River Heights community hospital and Grand River Hospital. It argues that inadequate investment in and maintenance of backup systems endangers patients, and that rural and community hospitals are especially vulnerable. It calls for government and private funding, regular testing, staff training and contingency planning.",
+ "one_line": "Report on 2023 hospital power and internet outages showing underprepared backup systems and urging investment, maintenance, training and collaborative action.",
+ "key_facts": [
+  "On October 5, 2023, St. Mary's General Hospital lost power for about four hours because of a transformer failure, according to city officials.",
+  "At St. Mary's General Hospital, emergency generators started but several non-critical systems stayed down, delaying routine patient care and diagnostics, per chief medical officer Sandra Thompson.",
+  "On September 15, 2023, CareEast Medical Center suffered an internet outage caused by a cyber-attack that crippled its electronic health records system.",
+  "CareEast Medical Center staff used paper records for nearly six hours, causing postponed treatments and compromised care coordination.",
+  "On November 3, 2023, a power outage temporarily incapacitated the intensive care units of the community hospital in River Heights.",
+  "River Heights emergency staff had to manually ventilate patients until backup power restored life-support systems; an investigation found the backup generators were not adequately maintained, delaying activation.",
+  "On December 10, 2023, Grand River Hospital's backup generators could not power all departments, forcing staff to prioritize areas such as operating rooms, maternity wards and neonatal units.",
+  "Nurse Jane Hollis said of the Grand River Hospital outage: \"We were playing God, deciding where the power should go.\"",
+  "Dr. Emily Robertson, Director of Emergency Preparedness at the National Health Institute, advocates increased funding and support to improve healthcare facilities' resilience.",
+  "Johnathan Green said investing in high-quality generators and redundant internet service providers is \"only the first step\"; hospitals must regularly test systems and train personnel to switch to backups.",
+  "Urban hospitals often have resources for advanced backup systems, while rural and community hospitals typically do not.",
+  "The note recommends comprehensive backup systems, stringent maintenance protocols, rigorous training programs, and consideration of legislation and funding."
+ ],
+ "entities": [
+  {
+   "name": "St. Mary's General Hospital",
+   "type": "organization",
+   "role": "Hospital that had a four-hour power outage on October 5, 2023 due to transformer failure"
+  },
+  {
+   "name": "Sandra Thompson",
+   "type": "person",
+   "role": "Chief medical officer of St. Mary's General Hospital who reported on the outage"
+  },
+  {
+   "name": "CareEast Medical Center",
+   "type": "organization",
+   "role": "Medical center whose electronic health records system was crippled by a cyber-attack-related internet outage on September 15, 2023"
+  },
+  {
+   "name": "Dr. Richard Bloomfield",
+   "type": "person",
+   "role": "Cardiologist at CareEast Medical Center who described the outage"
+  },
+  {
+   "name": "River Heights",
+   "type": "place",
+   "role": "Small town whose community hospital lost power on November 3, 2023, affecting its ICUs"
+  },
+  {
+   "name": "Dr. Emily Robertson",
+   "type": "person",
+   "role": "Director of Emergency Preparedness at the National Health Institute, advocate for more funding"
+  },
+  {
+   "name": "National Health Institute",
+   "type": "organization",
+   "role": "Organization where Emily Robertson directs emergency preparedness"
+  },
+  {
+   "name": "Johnathan Green",
+   "type": "person",
+   "role": "Healthcare technology consultant who stressed testing systems and training staff"
+  },
+  {
+   "name": "Jane Hollis",
+   "type": "person",
+   "role": "Nurse at Grand River Hospital who recounted the December 10, 2023 outage"
+  },
+  {
+   "name": "Grand River Hospital",
+   "type": "organization",
+   "role": "Hospital whose backup generators failed to power all departments on December 10, 2023"
+  }
+ ],
+ "tags": [
+  "healthcare",
+  "power-outages",
+  "backup-systems",
+  "emergency-preparedness",
+  "incident-report",
+  "infrastructure"
+ ],
+ "usage": {
+  "input_tokens": 2698,
+  "output_tokens": 1377
+ }
+}

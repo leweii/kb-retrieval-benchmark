@@ -1,0 +1,113 @@
+{
+ "summary": "Flipboard, the social magazine app, announced it is integrating ActivityPub so its profiles become discoverable and followable across the fediverse, starting with select publisher accounts and expanding to all users by the end of January. Flipboard \"flips\" will appear as posts on each user's flipboard.com Mastodon account, with opt-out available. CEO Mike McCue calls ActivityPub \"the future of the web, period\" and says Flipboard is funded by its own profits.",
+ "one_line": "Flipboard is adding ActivityPub support, gradually making all its user profiles and curated \"flips\" available across the fediverse, including Mastodon.",
+ "key_facts": [
+  "Flipboard announced on Monday (Dec 18, 2023) that it has integrated with ActivityPub, beginning with select accounts that can be followed by users of decentralized apps like Mastodon.",
+  "Flipboard earlier this year integrated with Mastodon via an API and set up its own Mastodon server, flipboard.social, as an experiment ahead of full ActivityPub integration.",
+  "Flipboard shifted its Twitter integration to Mastodon and Bluesky after Twitter/X raised API fees for third-party developers.",
+  "Initial test accounts include Semafor, Pitchfork, Fast Company, Medium, LGBTQ Nation, Digiday, Polygon, SPIN, Kotaku, The Verge, Smithsonian Magazine, The Root, ScienceAlert and AFAR Media, plus nonprofits The News Literacy Project and The 74.",
+  "When a user curates an article into a Flipboard magazine, the \"flip\" will also appear as a post on their new flipboard.com Mastodon account, linking to the article and to the user's magazine.",
+  "Each Flipboard user will get one Flipboard.com fediverse account regardless of how many magazines they host; McCue hopes Mastodon could support sub-feeds in the future.",
+  "Posting flips to Mastodon is opt-out, being opted in by default; private magazines will remain private.",
+  "Flipboard expects all user accounts to be connected to the fediverse by the end of January.",
+  "Flipboard has over 10,000 publishers of social magazines and over a quarter million individual curators, while Mastodon has around 1.5 million monthly active users.",
+  "Instagram Threads began testing ActivityPub the previous week, and Automattic made WordPress.org and WordPress.com blogs federated, with Tumblr planned next year.",
+  "Medium and Mozilla set up their own servers, and Mozilla backed a Mastodon client called Mammoth.",
+  "Flipboard may rethink its front end, which \"was built at a time pre-federation,\" according to CEO Mike McCue.",
+  "Flipboard is not raising funds for these changes and is running off its own profits."
+ ],
+ "entities": [
+  {
+   "name": "Flipboard",
+   "type": "organization",
+   "role": "Social magazine app integrating ActivityPub and joining the fediverse"
+  },
+  {
+   "name": "Mike McCue",
+   "type": "person",
+   "role": "Flipboard CEO who explained the ActivityPub roadmap"
+  },
+  {
+   "name": "Sarah Perez",
+   "type": "person",
+   "role": "TechCrunch author of the article"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication that interviewed McCue"
+  },
+  {
+   "name": "ActivityPub",
+   "type": "product",
+   "role": "Networking protocol underlying the fediverse"
+  },
+  {
+   "name": "Mastodon",
+   "type": "product",
+   "role": "Decentralized Twitter/X rival connected to Flipboard"
+  },
+  {
+   "name": "flipboard.social",
+   "type": "product",
+   "role": "Flipboard's earlier experimental Mastodon server"
+  },
+  {
+   "name": "Bluesky",
+   "type": "product",
+   "role": "Alternative social app Flipboard integrated in place of Twitter"
+  },
+  {
+   "name": "Twitter/X",
+   "type": "organization",
+   "role": "Platform whose increased API fees pushed Flipboard to alternatives"
+  },
+  {
+   "name": "Instagram Threads",
+   "type": "product",
+   "role": "App that began testing ActivityPub support"
+  },
+  {
+   "name": "Automattic",
+   "type": "organization",
+   "role": "Made WordPress blogs federated and plans the same for Tumblr"
+  },
+  {
+   "name": "Medium",
+   "type": "organization",
+   "role": "Publisher in the initial Flipboard test list that also set up its own server"
+  },
+  {
+   "name": "Mozilla",
+   "type": "organization",
+   "role": "Set up its own server and backed the Mastodon client Mammoth"
+  },
+  {
+   "name": "Mammoth",
+   "type": "product",
+   "role": "Mastodon client backed by Mozilla"
+  },
+  {
+   "name": "The News Literacy Project",
+   "type": "organization",
+   "role": "Nonprofit in the initial Flipboard account list"
+  },
+  {
+   "name": "The 74",
+   "type": "organization",
+   "role": "Education-focused news site in the initial account list"
+  }
+ ],
+ "tags": [
+  "activitypub",
+  "fediverse",
+  "flipboard",
+  "mastodon",
+  "social-media",
+  "decentralization"
+ ],
+ "usage": {
+  "input_tokens": 2929,
+  "output_tokens": 1595
+ }
+}

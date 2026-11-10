@@ -1,0 +1,80 @@
+{
+ "summary": "A first-person account of how augmented reality, introduced via Microsoft HoloLens 2 after September 1, 2023, changed collaboration, training, and remote work at the author's company. It covers milestones from the first AR training to a factory emergency repair, along with cost savings, converted skeptics, and data security challenges. The author concludes AR has become a staple of daily work with further potential.",
+ "one_line": "A first-person account of adopting Microsoft HoloLens 2 AR at work, improving collaboration, training, remote work and repair, while managing security concerns.",
+ "key_facts": [
+  "The author's team first encountered AR on a Monday morning not long after September 1, 2023, when manager David Skinner introduced the Microsoft HoloLens 2.",
+  "Sarah Bennet, a senior architect, rotated a 3D model of a building in AR so the team could inspect it without printing a physical blueprint.",
+  "The first AR training session took place around mid-September, led by a virtual expert projected into the meeting room, where engineers assembled a complex machine part with floating instructions and lit-up tools.",
+  "On October 5, project lead Jack Morrison organized an AR-powered design workshop; he said \"AR has not only bridged our thoughts but our spirits too!\"",
+  "The headquarters in Chicago and a satellite office in Singapore held holographic meetings; on November 6, Dr. Rachel Lui in Singapore diagnosed a machine in real time while the author observed from Chicago.",
+  "By early December, reduced travel costs, printed materials and training machine downtime won over skeptics in the finance department despite the high initial investment in AR gear and software development.",
+  "CFO Martin Green said the return on investment with AR was faster than anticipated: \"The future doesn't seem so distant when you're already reaping its rewards.\"",
+  "During an emergency factory-floor maintenance issue on January 15, technicians wore AR headsets showing repair procedures over the machinery, and downtime was reduced by half.",
+  "Skeptic Anne Garret, who once dismissed AR as a fad, led a complex virtual staff training session in February and became an advocate, teaching a newbie to operate a CNC machine through AR.",
+  "Data security and privacy concerns arose with cloud-based AR applications; the IT department led by Leo Thompson secured all AR interactions with end-to-end encryption.",
+  "Leo Thompson stressed the need to embrace innovation while protecting intellectual property and employee privacy."
+ ],
+ "entities": [
+  {
+   "name": "Microsoft HoloLens 2",
+   "type": "product",
+   "role": "AR headset adopted by the team for collaboration and training"
+  },
+  {
+   "name": "David Skinner",
+   "type": "person",
+   "role": "Manager who introduced the HoloLens 2 to the team"
+  },
+  {
+   "name": "Sarah Bennet",
+   "type": "person",
+   "role": "Senior architect who rotated a 3D building model in AR"
+  },
+  {
+   "name": "Jack Morrison",
+   "type": "person",
+   "role": "Project lead who organized the AR-powered design workshop on October 5"
+  },
+  {
+   "name": "Dr. Rachel Lui",
+   "type": "person",
+   "role": "Colleague in Singapore who performed a remote machinery diagnosis in AR"
+  },
+  {
+   "name": "Martin Green",
+   "type": "person",
+   "role": "CFO who said AR's return on investment was faster than expected"
+  },
+  {
+   "name": "Anne Garret",
+   "type": "person",
+   "role": "Former AR skeptic who became an advocate after leading a virtual training session"
+  },
+  {
+   "name": "Leo Thompson",
+   "type": "person",
+   "role": "Head of the IT department who secured AR interactions with end-to-end encryption"
+  },
+  {
+   "name": "Chicago",
+   "type": "place",
+   "role": "Location of the company headquarters"
+  },
+  {
+   "name": "Singapore",
+   "type": "place",
+   "role": "Location of the satellite office"
+  }
+ ],
+ "tags": [
+  "augmented-reality",
+  "workplace-technology",
+  "remote-collaboration",
+  "employee-training",
+  "hololens"
+ ],
+ "usage": {
+  "input_tokens": 3088,
+  "output_tokens": 1259
+ }
+}

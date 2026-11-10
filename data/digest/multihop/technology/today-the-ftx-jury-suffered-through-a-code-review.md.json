@@ -1,0 +1,104 @@
+{
+ "summary": "Elizabeth Lopatto recaps Gary Wang's testimony at the Sam Bankman-Fried FTX trial. Wang, FTX's co-founder and CTO, explained the \"allow_negative\" code that let Alameda Research go negative, avoid liquidation and draw on a $65 billion line of credit using FTX customer funds. He said Bankman-Fried directed these changes and the concealment of losses, and that he is cooperating to avoid jail. Lopatto notes the code is solid evidence, though none of the conversations Wang described were corroborated.",
+ "one_line": "Gary Wang testified that Sam Bankman-Fried directed code letting Alameda go negative on FTX, use customer money, and escape liquidation, while the jury sat through technical explanations.",
+ "key_facts": [
+  "Gary Wang co-founded FTX and Alameda Research and was FTX's CTO; he owned 10 percent of Alameda and 17 percent of FTX, with a $200,000 salary and no performance bonuses.",
+  "Sam Bankman-Fried owned 90 percent of Alameda and 65 percent of FTX and didn't code, so his fingerprints are not on the technical changes.",
+  "The database column \"allow_negative\" let Alameda have a negative balance, withdraw money it didn't have, and avoid automatic liquidation, which applied to normal customers.",
+  "Wang said Bankman-Fried \"told me a few times to make sure that Alameda's account is never liquidated on FTX.\"",
+  "A code commit dated July 31st, 2019 from Nishad Singh, titled \"OTC trades and transfers to special accounts,\" added two columns including allow_negative; Wang supervised it.",
+  "On the same day, Bankman-Fried tweeted \"Alameda is a liquidity provider on FTX, but their account is just like everyone else's.\"",
+  "Code shown in court generated a fake backstop fund number on FTX's website by multiplying daily trading volume by a random number and dividing by a billion.",
+  "Around 2019 or 2020, Wang found Alameda was negative by about $200 million, more than FTX's $150 million revenue; he said he knew Alameda was using customer funds and that it was wrong.",
+  "Alameda's line of credit on FTX reached $65 billion, having been raised several times at Bankman-Fried's request.",
+  "In 2021, FTX faced a \"several hundred million dollar\" loss from a MobileCoin exploit; Bankman-Fried had Alameda absorb it because FTX's balance sheets were visible to investors and Alameda's weren't.",
+  "By 2022, Wang estimated Alameda owed FTX about $11 billion, against FTX revenue of about $1.5 billion.",
+  "On November 7th, Bankman-Fried tweeted \"FTX is fine. Assets are fine.\" although Wang and Bankman-Fried had determined about $8 billion in customer money was gone.",
+  "FTX went bankrupt on November 11th; on November 12th Bankman-Fried told Wang to send funds to Bahamanian regulators and stall US lawyers.",
+  "Wang met the US government on November 17th, pled guilty a month later, and is cooperating hoping for a lenient sentence."
+ ],
+ "entities": [
+  {
+   "name": "Gary Wang",
+   "type": "person",
+   "role": "FTX co-founder and CTO, Alameda co-founder; cooperating witness who testified about the code"
+  },
+  {
+   "name": "Sam Bankman-Fried",
+   "type": "person",
+   "role": "Defendant; FTX CEO and majority owner of FTX and Alameda"
+  },
+  {
+   "name": "Elizabeth Lopatto",
+   "type": "person",
+   "role": "Author of the article"
+  },
+  {
+   "name": "Nishad Singh",
+   "type": "person",
+   "role": "Engineer whose username was on the allow_negative code commit"
+  },
+  {
+   "name": "Caroline Ellison",
+   "type": "person",
+   "role": "Alameda executive involved in the 2022 negative balance spreadsheet and Bahamas meeting"
+  },
+  {
+   "name": "Matt Huang",
+   "type": "person",
+   "role": "Paradigm Capital investor who testified about balance sheets from Bankman-Fried"
+  },
+  {
+   "name": "FTX",
+   "type": "organization",
+   "role": "Crypto exchange that allegedly defrauded customers and investors"
+  },
+  {
+   "name": "Alameda Research",
+   "type": "organization",
+   "role": "Trading firm given special privileges on FTX"
+  },
+  {
+   "name": "Paradigm Capital",
+   "type": "organization",
+   "role": "Investor firm of Matt Huang"
+  },
+  {
+   "name": "SEC",
+   "type": "organization",
+   "role": "Regulator mentioned regarding FTT as equity"
+  },
+  {
+   "name": "FTT token",
+   "type": "product",
+   "role": "Token issued by FTX, described by Wang as \"sort of equity\""
+  },
+  {
+   "name": "MobileCoin",
+   "type": "product",
+   "role": "Source of the exploit whose loss Alameda absorbed in 2021"
+  },
+  {
+   "name": "Bahamas",
+   "type": "place",
+   "role": "Location of the office where the group met and whose regulators received funds"
+  },
+  {
+   "name": "FTX trial",
+   "type": "event",
+   "role": "Criminal trial of Bankman-Fried where Wang testified"
+  }
+ ],
+ "tags": [
+  "ftx",
+  "sam-bankman-fried",
+  "crypto",
+  "trial",
+  "alameda-research",
+  "fraud"
+ ],
+ "usage": {
+  "input_tokens": 4820,
+  "output_tokens": 1714
+ }
+}

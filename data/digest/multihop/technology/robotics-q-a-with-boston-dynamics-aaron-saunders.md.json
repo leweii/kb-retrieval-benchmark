@@ -1,0 +1,92 @@
+{
+ "summary": "TechCrunch's Actuator newsletter interviews Boston Dynamics CTO Aaron Saunders, a 20-plus-year veteran of the company. He discusses how foundation models may shape robotics, why humanoids are not always the best form factor, which industries come after manufacturing and warehouses, and how far away general-purpose and home robots are. He also highlights supply-chain advances in computing, sensors and automotive electrification as an under-covered trend.",
+ "one_line": "Boston Dynamics CTO Aaron Saunders discusses generative AI, humanoids, next robotics markets, general-purpose and home robots, and underrated supply-chain trends.",
+ "key_facts": [
+  "Aaron Saunders is CTO of Boston Dynamics, has been with the company for more than 20 years, and was most recently its vice president of Engineering.",
+  "The Q&A is part of a TechCrunch Actuator series; earlier parts featured CMU's Matthew Johnson-Roberson, Toyota Research Institute's Max Bajracharya and Russ Tedrake, and Meta's Dhruv Batra.",
+  "Saunders says foundation models could enable conversational interfaces to robots, better computer vision and new capabilities like visual question answering, and may extend into robotic planning and control.",
+  "Interest in a box-moving robot originated from a video of Atlas moving boxes, but Boston Dynamics built Stretch as a custom robot that moves boxes more efficiently than a human.",
+  "Saunders says the humanoid form factor is the most obvious match for a world built around humans, and Boston Dynamics is working hard to close the technology gap.",
+  "He expects robotics to move from deterministic environments toward higher uncertainty, with construction and healthcare as the likely next wave after manufacturing and logistics.",
+  "Construction and healthcare are attractive because they have large workforces and high demand for skilled labor that supply is not meeting.",
+  "Saunders says purpose-built robots are a commodity in industrial automation, while multi-purpose robots are only now emerging.",
+  "True general-purpose robots must handle unstructured environments and unfamiliar problems, build trust and delight users, and be competitively priced.",
+  "Saunders says multifunctional in-home robots for the broad consumer market are still more than a decade away, though limited single-task home robots like Roomba may expand.",
+  "He says people would pay as much for a robot as for a car when it matches a car's dependability and value.",
+  "Saunders names electrification and ADAS in automotive, plus progress in graphics cards, computers and AI-enabled consumer electronics, as an under-covered trend enabling small robotics companies."
+ ],
+ "entities": [
+  {
+   "name": "Aaron Saunders",
+   "type": "person",
+   "role": "Boston Dynamics CTO and interviewee"
+  },
+  {
+   "name": "Boston Dynamics",
+   "type": "organization",
+   "role": "Robotics company where Saunders is CTO"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publisher of the Q&A"
+  },
+  {
+   "name": "Brian Heater",
+   "type": "person",
+   "role": "Author of the article"
+  },
+  {
+   "name": "Actuator",
+   "type": "product",
+   "role": "TechCrunch robotics newsletter running the Q&A series"
+  },
+  {
+   "name": "Matthew Johnson-Roberson",
+   "type": "person",
+   "role": "CMU interviewee in Part 1 of the series"
+  },
+  {
+   "name": "Max Bajracharya",
+   "type": "person",
+   "role": "Toyota Research Institute interviewee in Part 2"
+  },
+  {
+   "name": "Russ Tedrake",
+   "type": "person",
+   "role": "Toyota Research Institute interviewee in Part 2"
+  },
+  {
+   "name": "Dhruv Batra",
+   "type": "person",
+   "role": "Meta interviewee in Part 3"
+  },
+  {
+   "name": "Stretch",
+   "type": "product",
+   "role": "Boston Dynamics box-moving robot"
+  },
+  {
+   "name": "Atlas",
+   "type": "product",
+   "role": "Boston Dynamics humanoid robot whose box-moving video sparked interest in Stretch"
+  },
+  {
+   "name": "Roomba",
+   "type": "product",
+   "role": "Example of a limited-task home robot"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "boston-dynamics",
+  "generative-ai",
+  "humanoids",
+  "interview",
+  "automation"
+ ],
+ "usage": {
+  "input_tokens": 2583,
+  "output_tokens": 1362
+ }
+}

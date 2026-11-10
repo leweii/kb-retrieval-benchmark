@@ -1,0 +1,74 @@
+{
+ "summary": "A first-person incident report by a reporter describing a September 18, 2023 internet outage attributed to a coronal mass ejection (CME) inducing currents in undersea cables. It explains how geomagnetic storms can damage cable repeaters, how the outage disrupted work and personal life, and how recovery took a week of international effort. It closes with resilience measures such as redundancy, shielding research, and improved space weather monitoring.",
+ "one_line": "A reporter recounts a September 2023 internet outage blamed on a solar CME affecting undersea cables, and the recovery and resilience efforts that followed.",
+ "key_facts": [
+  "On September 18, 2023, the author lost internet connectivity in an outage attributed to a coronal mass ejection (CME).",
+  "A week before the outage, the Space Weather Prediction Center had issued alerts about potential geomagnetic storms from an unusually intense CME.",
+  "Dr. Emily Castor, a space weather physicist, describes CMEs as \"massive bursts of solar wind, plasma, and magnetic fields rising above the solar corona or being released into space.\"",
+  "Sarah Patel, CEO of Global Connectivity Solutions, says undersea cables carry an estimated 99% of international data.",
+  "Geomagnetic currents generated during solar storms can induce voltage surges in long undersea cables.",
+  "Electrical engineer Dr. Alan Nguyen says induced currents can cause \"substantial damage to the cables' repeaters,\" which amplify signals over long distances.",
+  "Dr. Jacob Torres, an astrophysicist, had mentioned that solar storms could affect satellite communications and power grids.",
+  "The outage caused missed deadlines and postponed interviews for the author, and affected sectors from financial services to healthcare, education and governance.",
+  "Technicians went to sea to locate and repair damaged cable segments while control centers rerouted data through less affected paths.",
+  "Full restoration took a week of effort and robust international cooperation.",
+  "Dr. Castor stresses building resilience through redundancy, shielding, and improved detection.",
+  "Sarah Patel's firm started exploring technologies to better withstand geomagnetic disturbances.",
+  "Research into shielding materials and meshed redundancy network architecture is underway to prevent total communications collapse.",
+  "Enhanced monitoring satellites now orbit closer to the Sun, relaying real-time data to improve space weather prediction."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Emily Castor",
+   "type": "person",
+   "role": "Leading space weather physicist who explains CMEs and urges redundancy, shielding, and improved detection"
+  },
+  {
+   "name": "Dr. Jacob Torres",
+   "type": "person",
+   "role": "Prominent astrophysicist who mentioned solar storms could affect satellites and power grids"
+  },
+  {
+   "name": "Sarah Patel",
+   "type": "person",
+   "role": "CEO of Global Connectivity Solutions, describes undersea cables as carrying 99% of international data"
+  },
+  {
+   "name": "Dr. Alan Nguyen",
+   "type": "person",
+   "role": "Electrical engineer who explains induced currents damaging cable repeaters"
+  },
+  {
+   "name": "Global Connectivity Solutions",
+   "type": "organization",
+   "role": "Firm led by Sarah Patel that began exploring technologies to withstand geomagnetic disturbances"
+  },
+  {
+   "name": "Space Weather Prediction Center",
+   "type": "organization",
+   "role": "Issued alerts a week earlier about potential geomagnetic storms from an intense CME"
+  },
+  {
+   "name": "Coronal Mass Ejection (CME)",
+   "type": "event",
+   "role": "Solar eruption blamed for inducing surges in undersea cables and causing the outage"
+  },
+  {
+   "name": "September 18, 2023 internet outage",
+   "type": "event",
+   "role": "Mass outage that disrupted the author's professional and personal life"
+  }
+ ],
+ "tags": [
+  "space-weather",
+  "undersea-cables",
+  "coronal-mass-ejection",
+  "internet-outage",
+  "infrastructure-resilience",
+  "incident-report"
+ ],
+ "usage": {
+  "input_tokens": 2858,
+  "output_tokens": 1290
+ }
+}

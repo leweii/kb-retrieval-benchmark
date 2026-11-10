@@ -1,0 +1,113 @@
+{
+ "summary": "The note surveys how financial markets worldwide approach Third-Party Risk Management (TPRM) after a string of breaches in late 2023. It compares regulation (EU, US), vendor assessment methods (Asia, BIS), alliances, AI automation, and staff training. It concludes that regulation, technology, collaboration and human capital will shape financial cybersecurity.",
+ "one_line": "Overview of how global financial markets handle third-party cyber risk through regulation, vendor assessment, alliances, AI automation and staff training after late-2023 breaches.",
+ "key_facts": [
+  "A breach on October 20, 2023 affected a prominent New York-based bank, causing losses in capital and customer trust.",
+  "Jasper Ruiz, cybersecurity consultant and former NSA analyst, said every third-party provider is 'both a necessity and a risk' and a potential backdoor for cybercriminals.",
+  "The EU's General Data Protection Regulation (GDPR) was updated on September 14, 2023, imposing stringent compliance and incident reporting requirements on data handlers and their vendors.",
+  "The United States uses a segmented framework, combining federal directives like FedRAMP with state rules like the California Consumer Privacy Act (CCPA).",
+  "Singapore and Hong Kong use robust risk scoring models with continuous monitoring of vendor security practices, per a November 2023 Monetary Authority of Singapore (MAS) report.",
+  "The Bank for International Standards released a memo on December 1, 2023 urging a qualitative approach that engages vendors about their security cultures beyond checklists.",
+  "After the September 2023 cyber-attacks, Australia's Big Four banks announced a shared platform for third-party risk assessment to standardize vendor evaluation.",
+  "Enrique Morales, a London-based Fintech security expert, highlighted that lack of standardized TPRM practices across borders complicates risk assessment for global firms.",
+  "IOSCO works to create a united front addressing international discrepancies in TPRM practices.",
+  "US fintech startup Securalyze offers automated vendor assessments using artificial intelligence.",
+  "After the system outage of September 15, 2023, the European Banking Authority (EBA) issued guidelines stressing human oversight of AI in decision-making.",
+  "The Financial Stability Board and the Association of Banks in Singapore (after its October 2023 symposium) emphasize sustained vendor engagement and continuous monitoring.",
+  "Elisabeth O'Connor, a Frankfurt-based cybersecurity trainer, calls employee awareness the first line of defense."
+ ],
+ "entities": [
+  {
+   "name": "Jasper Ruiz",
+   "type": "person",
+   "role": "Cybersecurity consultant and former NSA analyst quoted on third-party risk"
+  },
+  {
+   "name": "Enrique Morales",
+   "type": "person",
+   "role": "London-based Fintech security expert on cross-border TPRM challenges"
+  },
+  {
+   "name": "Elisabeth O'Connor",
+   "type": "person",
+   "role": "Frankfurt-based cybersecurity trainer stressing staff awareness"
+  },
+  {
+   "name": "General Data Protection Regulation (GDPR)",
+   "type": "program",
+   "role": "EU data regulation updated September 14, 2023"
+  },
+  {
+   "name": "Federal Risk and Authorization Management Program (FedRAMP)",
+   "type": "program",
+   "role": "US federal directive in the segmented regulatory framework"
+  },
+  {
+   "name": "California Consumer Privacy Act (CCPA)",
+   "type": "program",
+   "role": "State-level US privacy regulation"
+  },
+  {
+   "name": "Monetary Authority of Singapore (MAS)",
+   "type": "organization",
+   "role": "Issued November 2023 report on risk scoring and continuous monitoring"
+  },
+  {
+   "name": "Bank for International Standards",
+   "type": "organization",
+   "role": "Released December 1, 2023 memo favoring qualitative vendor assessment"
+  },
+  {
+   "name": "Big Four banks",
+   "type": "organization",
+   "role": "Australian banks creating a shared third-party risk assessment platform"
+  },
+  {
+   "name": "International Organization of Securities Commissions (IOSCO)",
+   "type": "organization",
+   "role": "Forum working to unify international TPRM practices"
+  },
+  {
+   "name": "Securalyze",
+   "type": "organization",
+   "role": "US fintech startup offering AI-based automated vendor assessments"
+  },
+  {
+   "name": "European Banking Authority (EBA)",
+   "type": "organization",
+   "role": "Issued guidelines on human oversight of AI after the September 15, 2023 outage"
+  },
+  {
+   "name": "Financial Stability Board (FSB)",
+   "type": "organization",
+   "role": "Made recommendations on vendor engagement and continuous monitoring"
+  },
+  {
+   "name": "Association of Banks in Singapore (ABS)",
+   "type": "organization",
+   "role": "Issued risk management guidelines after its October 2023 symposium"
+  },
+  {
+   "name": "Singapore",
+   "type": "place",
+   "role": "Asian financial center using risk scoring models"
+  },
+  {
+   "name": "Hong Kong",
+   "type": "place",
+   "role": "Asian financial center using risk scoring models"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "third-party-risk",
+  "financial-sector",
+  "regulation",
+  "ai-automation",
+  "vendor-management"
+ ],
+ "usage": {
+  "input_tokens": 3020,
+  "output_tokens": 1658
+ }
+}

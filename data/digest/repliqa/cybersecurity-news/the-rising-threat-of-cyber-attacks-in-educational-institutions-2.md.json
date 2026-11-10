@@ -1,0 +1,88 @@
+{
+ "summary": "The article describes the growing cyber threat to schools, colleges and universities, citing incidents at Springfield School District and Hamilton College and a CISA report on rising attack frequency and sophistication. It lists ten cybersecurity practices for schools, with advice from named experts, including risk assessments, access control, staff education, patching, backups, endpoint security, monitoring, incident response, physical access control and inter-institution collaboration. It concludes that cybersecurity is a necessity for education.",
+ "one_line": "Following recent attacks on schools, the article outlines ten cybersecurity practices educational institutions should adopt, citing expert recommendations.",
+ "key_facts": [
+  "A significant disruption hit the Springfield School District on September 12, 2023.",
+  "Hamilton College suffered a data breach on October 9.",
+  "A CISA report says the frequency and sophistication of cyber attacks on educational institutes have increased dramatically.",
+  "Jane Smith recommends comprehensive risk assessments at least twice a year, identifying vulnerabilities from outdated software to weak passwords.",
+  "IT director John Doe says user permissions and roles are crucial so students and staff access only the information needed; multi-factor authentication (MFA) strengthens this.",
+  "Dr. Alice Martinez urges cyber hygiene programs covering spotting phishing emails, strong passwords and privacy settings.",
+  "Michael Brown said, \"Keeping software up to date is like vaccinating your computer.\"",
+  "Rachel Green advises regular, secure data backups stored in multiple locations, one offsite, to guard against ransomware.",
+  "CISO Henry Lee says \"Each endpoint is a potential entry point for attackers\" and that endpoint security should be a top priority.",
+  "Henry Lee advises that a Security Operations Center can be an excellent investment for larger institutions.",
+  "Emily Jackson suggests an incident response plan include isolating affected systems, notifying stakeholders and restoring services safely, plus simulated attack exercises.",
+  "Dr. Martinez warns that physical breaches can be as devastating as virtual ones, especially with on-premises servers; keycards and biometrics should secure IT rooms.",
+  "The article recommends collaborating with other educational institutions to share threat intelligence and best practices."
+ ],
+ "entities": [
+  {
+   "name": "Springfield School District",
+   "type": "organization",
+   "role": "Suffered a significant cyber disruption on September 12, 2023"
+  },
+  {
+   "name": "Hamilton College",
+   "type": "organization",
+   "role": "Prestigious college hit by a data breach on October 9"
+  },
+  {
+   "name": "Cybersecurity and Infrastructure Security Agency (CISA)",
+   "type": "organization",
+   "role": "Released a report on rising cyber attacks against educational institutes"
+  },
+  {
+   "name": "Jane Smith",
+   "type": "person",
+   "role": "Cybersecurity expert recommending twice-yearly risk assessments"
+  },
+  {
+   "name": "John Doe",
+   "type": "person",
+   "role": "IT director advising on access control and user permissions"
+  },
+  {
+   "name": "Dr. Alice Martinez",
+   "type": "person",
+   "role": "Cybersecurity consultant urging cyber hygiene programs and warning about physical breaches"
+  },
+  {
+   "name": "Michael Brown",
+   "type": "person",
+   "role": "Tech enthusiast who compared software updates to vaccinating your computer"
+  },
+  {
+   "name": "Rachel Green",
+   "type": "person",
+   "role": "Cybersecurity analyst advising on data backups"
+  },
+  {
+   "name": "Henry Lee",
+   "type": "person",
+   "role": "Chief Information Security Officer (CISO) advising on endpoint security and network monitoring"
+  },
+  {
+   "name": "Emily Jackson",
+   "type": "person",
+   "role": "Security manager advising on incident response plans"
+  },
+  {
+   "name": "Security Operations Center",
+   "type": "other",
+   "role": "Monitoring setup suggested for larger institutions"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "education",
+  "ransomware",
+  "best-practices",
+  "risk-management",
+  "incident-response"
+ ],
+ "usage": {
+  "input_tokens": 2515,
+  "output_tokens": 1269
+ }
+}

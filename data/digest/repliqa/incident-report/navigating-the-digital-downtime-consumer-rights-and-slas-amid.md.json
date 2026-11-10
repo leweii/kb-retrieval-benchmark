@@ -1,0 +1,71 @@
+{
+ "summary": "This report examines consumer rights and service level agreements (SLAs) during internet outages, using several example cases from late 2023. It explains how SLAs define uptime and compensation, how claims work, and what consumers can do proactively. It also covers long-term outages, negotiating better SLAs, and calls for stronger regulation and standardized compensation.",
+ "one_line": "Report on what consumers can claim during internet outages, how SLAs govern compensation, and growing calls for stronger regulation.",
+ "key_facts": [
+  "Since September 1, 2023, a series of internet service disruptions has affected consumers across the country.",
+  "Jane Doe, a software developer from Silicon Valley, lost all internet service on the morning of October 15, 2023, and could not meet critical work deadlines.",
+  "On November 22, 2023, a widespread outage affected thousands of users, including Mike Smith, a teacher who delivers online classes.",
+  "An SLA typically outlines availability, expressed as a percentage of uptime, and response or resolution times.",
+  "An SLA guaranteeing 99.9% uptime within a billing month translates to a maximum cumulative downtime of about 45 minutes.",
+  "The Federal Communications Commission (FCC) may offer high-level protection and the right to information about outages, but specific rights often depend on individual contracts.",
+  "Emily Johnson, a Miami-based entrepreneur, had a 12-hour outage on December 4, 2023, and her provider's SLA gave a credit equal to one day's worth of her monthly bill.",
+  "Claims processes vary between providers and may require prompt reporting, a complex claims process, or a minimum outage duration.",
+  "Consumers are advised to keep detailed records of outages (times, dates, impacts) and document communications with their provider.",
+  "In long-term outages from natural disasters or equipment failures, some providers invoke force majeure clauses that limit liability.",
+  "Businesses or customers renewing contracts have room to negotiate better SLA terms.",
+  "Senator John Wilson has championed legislation that would mandate standardized compensation for internet outages."
+ ],
+ "entities": [
+  {
+   "name": "Jane Doe",
+   "type": "person",
+   "role": "Software developer from Silicon Valley who lost internet on October 15, 2023"
+  },
+  {
+   "name": "Mike Smith",
+   "type": "person",
+   "role": "Teacher affected by the November 22, 2023 outage who relies on internet for online classes"
+  },
+  {
+   "name": "Emily Johnson",
+   "type": "person",
+   "role": "Miami-based entrepreneur who had a 12-hour outage on December 4, 2023 and received an SLA credit"
+  },
+  {
+   "name": "Senator John Wilson",
+   "type": "person",
+   "role": "Champion of legislation mandating standardized compensation for internet outages"
+  },
+  {
+   "name": "Federal Communications Commission (FCC)",
+   "type": "organization",
+   "role": "Regulatory body that may offer high-level protection and outage information rights"
+  },
+  {
+   "name": "Service Level Agreements (SLAs)",
+   "type": "other",
+   "role": "Contract sections defining performance standards and compensation for service failures"
+  },
+  {
+   "name": "Silicon Valley",
+   "type": "place",
+   "role": "Location of Jane Doe"
+  },
+  {
+   "name": "Miami",
+   "type": "place",
+   "role": "Location of Emily Johnson"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "consumer-rights",
+  "sla",
+  "compensation",
+  "regulation"
+ ],
+ "usage": {
+  "input_tokens": 2682,
+  "output_tokens": 1072
+ }
+}

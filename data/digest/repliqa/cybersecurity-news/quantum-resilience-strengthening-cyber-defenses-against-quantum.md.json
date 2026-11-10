@@ -1,0 +1,62 @@
+{
+ "summary": "The note argues that quantum computers will eventually break current encryption, so organizations should build quantum resilience now. Drawing on cryptographer Dr. Evelyn Kirschner and Quantum Safe Ltd CTO Sean Lim, it outlines strategies: adopting post-quantum cryptography, building a quantum-aware culture, piloting quantum key distribution, prioritizing risk, learning continuously, and partnering with specialist security firms.",
+ "one_line": "Experts outline strategies such as PQC, QKD, risk prioritization, staff training and specialist partnerships to prepare organizations for quantum attacks on current encryption.",
+ "key_facts": [
+  "Quantum computers could render traditional cryptographic systems obsolete, from classified government communications to personal credit card transactions.",
+  "The note says the question is not if quantum computers will disrupt current security protocols, but when and how organizations can prepare.",
+  "A quantum attack could expose state secrets, cause financial markets chaos, and trigger a significant crisis in consumer confidence.",
+  "Quantum resilience is the practice of fortifying cyber defenses to withstand quantum attacks.",
+  "Post-Quantum Cryptography (PQC) refers to cryptographic algorithms believed to be secure against quantum computer attacks and designed to run on existing classical computing systems.",
+  "As of late 2023, the National Institute of Standards and Technology (NIST) and other international standards organizations are in the final stages of selecting and standardizing several PQC algorithms.",
+  "Dr. Evelyn Kirschner, who is part of the standardization effort, says the shift to PQC will require extensive testing to ensure compatibility and performance are maintained.",
+  "Dr. Kirschner argues every team member, not just leadership and the IT department, needs to be part of the conversation on quantum threats.",
+  "Quantum Key Distribution (QKD) uses quantum physics to securely exchange encryption keys between two parties and promises unconditional security based on the laws of physics.",
+  "Sean Lim's company Quantum Safe Ltd is piloting QKD technologies, with financial institutions, government entities, and healthcare organizations testing QKD systems.",
+  "Businesses should conduct quantum-specific risk assessments and prioritize the data, systems, and processes most at risk, so resources go first to the most vulnerable points.",
+  "Dr. Kirschner describes cybersecurity as 'a game of cat-and-mouse' that quantum computing accelerates, so organizations need continuous learning and swift adaptability.",
+  "Companies with limited resources are advised to partner with specialized security firms to audit, implement, and manage quantum-resilient measures."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Evelyn Kirschner",
+   "type": "person",
+   "role": "Leading cryptographer involved in PQC standardization who stresses testing, widespread literacy, and continuous learning"
+  },
+  {
+   "name": "Sean Lim",
+   "type": "person",
+   "role": "CTO of Quantum Safe Ltd who describes the quantum threat, QKD pilots, risk prioritization, and specialist partnerships"
+  },
+  {
+   "name": "Quantum Safe Ltd",
+   "type": "organization",
+   "role": "Company led technologically by Sean Lim that is piloting QKD technologies in various sectors"
+  },
+  {
+   "name": "National Institute of Standards and Technology (NIST)",
+   "type": "organization",
+   "role": "Standards organization in the final stages of selecting and standardizing PQC algorithms"
+  },
+  {
+   "name": "Post-Quantum Cryptography (PQC)",
+   "type": "product",
+   "role": "Cryptographic algorithms believed secure against quantum attacks, running on classical systems as a transitional measure"
+  },
+  {
+   "name": "Quantum Key Distribution (QKD)",
+   "type": "product",
+   "role": "Quantum-physics-based method for securely exchanging encryption keys"
+  }
+ ],
+ "tags": [
+  "quantum-computing",
+  "cybersecurity",
+  "post-quantum-cryptography",
+  "encryption",
+  "risk-management"
+ ],
+ "usage": {
+  "input_tokens": 3111,
+  "output_tokens": 1292
+ }
+}

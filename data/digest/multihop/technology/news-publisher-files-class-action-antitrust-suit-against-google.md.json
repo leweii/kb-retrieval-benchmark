@@ -1,0 +1,133 @@
+{
+ "summary": "Arkansas publisher Helena World Chronicle filed a class action antitrust suit in the U.S. District Court in D.C. against Google and Alphabet on behalf of news publishers. It alleges Google siphons off publishers' content, readers and ad revenue, and that AI products like Search Generative Experience (SGE) and Bard worsen the harm. The suit seeks damages and an injunction requiring publisher consent for AI training, while Google calls it meritless.",
+ "one_line": "Helena World Chronicle filed a class action antitrust suit against Google and Alphabet, alleging AI search products like SGE and Bard take publishers' content, traffic and revenue.",
+ "key_facts": [
+  "Helena World Chronicle, an Arkansas-based publisher that owns two weekly newspapers, filed the class action in the U.S. District Court in D.C. against Google and parent company Alphabet.",
+  "The complaint alleges violations of the Sherman Act and Clayton Act, and says Google is \"starving the free press\" and has cost publishers \"billions of dollars.\"",
+  "The suit cites Google's Knowledge Graph (launched May 2012), which by 2020 had grown to 500 billion facts about 5 billion entities, allegedly built on content \"misappropriated from Publishers.\"",
+  "The Atlantic modeled Google integrating AI into search and found the AI would answer the query without a click-through 75% of the time, per a Wall Street Journal report.",
+  "Google drives nearly 40% of publishers' traffic, according to Similarweb; publishers expect to lose 20-40% of website traffic when Google's AI products fully roll out.",
+  "Publishers cannot block SGE because it uses the same web crawler as Google's general search, GoogleBot.",
+  "The suit says Bard was trained on a dataset including news and magazine content, citing a 2023 News Media Alliance report and a Washington Post analysis in which news and media sites were the third largest category of AI training data.",
+  "The complaint also alleges spoliation of evidence through destruction of chat messages, an issue raised in Epic Games' successful lawsuit against Google over app store antitrust.",
+  "The suit seeks damages and an injunction requiring Google to get publisher consent to train AI products, and to let publishers who opt out of SGE still appear in search results.",
+  "Axel Springer signed a deal with OpenAI that week to license its news for AI model training.",
+  "Under a deal with the Canadian government, Google will pay $73.5 million (100 million Canadian dollars) every year to Canadian news organizations, distributed by headcount; Meta began blocking news in Canada in August.",
+  "Hausfeld is the law firm handling the case.",
+  "Google said the lawsuit is \"meritless\" and that it links people to publishers' websites more than 24 billion times each month at no cost to them."
+ ],
+ "entities": [
+  {
+   "name": "Helena World Chronicle",
+   "type": "organization",
+   "role": "Arkansas-based publisher of two weekly newspapers; plaintiff in the class action"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Defendant accused of anticompetitive behavior against news publishers"
+  },
+  {
+   "name": "Alphabet",
+   "type": "organization",
+   "role": "Google's parent company, co-defendant"
+  },
+  {
+   "name": "Search Generative Experience (SGE)",
+   "type": "product",
+   "role": "Google's AI conversational search feature cited as harming publishers"
+  },
+  {
+   "name": "Bard",
+   "type": "product",
+   "role": "Google's AI chatbot allegedly trained on news and publication content"
+  },
+  {
+   "name": "Knowledge Graph",
+   "type": "product",
+   "role": "Google database launched May 2012 that feeds Knowledge Panels, cited in the suit"
+  },
+  {
+   "name": "The Wall Street Journal",
+   "type": "organization",
+   "role": "Published a report detailing AI's threat to publisher traffic"
+  },
+  {
+   "name": "The Atlantic",
+   "type": "organization",
+   "role": "Online magazine whose modeling found AI would answer 75% of queries without click-through"
+  },
+  {
+   "name": "Similarweb",
+   "type": "organization",
+   "role": "Source of data that Google drives nearly 40% of publisher traffic"
+  },
+  {
+   "name": "Axel Springer",
+   "type": "organization",
+   "role": "Publisher that signed a deal with OpenAI to license news for AI training"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "AI company licensing Axel Springer's news"
+  },
+  {
+   "name": "News Media Alliance",
+   "type": "organization",
+   "role": "Source of a 2023 report cited in the complaint"
+  },
+  {
+   "name": "The Washington Post",
+   "type": "organization",
+   "role": "Published an article on AI training data cited in the suit"
+  },
+  {
+   "name": "Allen Institute for AI",
+   "type": "organization",
+   "role": "Researchers who worked with the Post on the training data analysis"
+  },
+  {
+   "name": "Epic Games",
+   "type": "organization",
+   "role": "Won a lawsuit against Google over app store antitrust issues"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Began blocking news in Canada in August; negotiations unresolved"
+  },
+  {
+   "name": "U.S. Justice Department",
+   "type": "organization",
+   "role": "Filed suits against Google over digital ad technologies and a 2020 search antitrust suit"
+  },
+  {
+   "name": "Hausfeld",
+   "type": "organization",
+   "role": "Law firm handling the case"
+  },
+  {
+   "name": "U.S. District Court in D.C.",
+   "type": "organization",
+   "role": "Court where the class action was filed"
+  },
+  {
+   "name": "Canadian government",
+   "type": "organization",
+   "role": "Reached agreement with Google to pay Canadian media for content"
+  }
+ ],
+ "tags": [
+  "antitrust",
+  "google",
+  "generative-ai",
+  "news-publishing",
+  "lawsuit",
+  "search"
+ ],
+ "usage": {
+  "input_tokens": 2976,
+  "output_tokens": 1822
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "summary": "A newly unredacted multi-state lawsuit against Meta, brought by attorneys general of 42 states, alleges the company knew millions of children under 13 use Instagram and Facebook yet collected their data without verifiable parental consent, violating COPPA. Internal documents allegedly show Meta tracked under-13 users, targeted them for growth, ignored reports of underage accounts, and steered researchers away from confirming their presence. Meta says the suit mischaracterizes its work with selective quotes and that age verification is a complex industry challenge.",
+ "one_line": "Unredacted multi-state lawsuit alleges Meta knowingly allowed and collected data from millions of under-13 users, violating COPPA while publicly claiming otherwise.",
+ "key_facts": [
+  "The multi-state lawsuit against Meta was filed in October 2023 and the attorneys general of 42 states obtained the documentation; the unredacted version was reported on 2023-11-27.",
+  "Paragraphs 642 through 835 of the complaint mostly document alleged violations of the Children's Online Privacy Protection Act (COPPA).",
+  "California AG Rob Bonta called the COPPA evidence 'damning' and said Meta says one thing publicly to Congress and regulators while saying something else internally.",
+  "In 2018 Meta internally noted that 20% of 12-year-olds on Instagram used it daily, and that 20-60% of 11- to 13-year-olds in certain birth cohorts used Instagram at least monthly.",
+  "In 2018 Mark Zuckerberg received a report estimating about 4 million people under 13 were on Instagram in 2015, about a third of all 10-12-year-olds in the U.S.",
+  "Meta data from 2020 on 3,989 surveyed children showed 31% of those aged 6-9 and 44% of those aged 10 to 12 had used Facebook.",
+  "An internal presentation called '2017 Teens Strategic Focus' allegedly had a goal to 'grow [Monthly Active People], [Daily Active People] and time spent among U13 kids.'",
+  "Of 402,000 reports of accounts owned by users under 13 in 2021, fewer than 164,000 were disabled, and disabling an account reportedly doesn't flag linked accounts on other platforms.",
+  "Zuckerberg told Congress in March 2021 'if we detect someone might be under the age of 13, even if they lied, we kick them off,' but documents from the next month cite a big age-verification backlog due to lack of staffing capacity, at times in the millions of accounts.",
+  "Meta researchers allegedly avoided confirming under-13 users, e.g., in 2021 telling a third-party research firm to remove information indicating a subject was on Instagram so the 'company won't be made aware of under 13.'",
+  "Instagram Head of Public Policy Karina Newton responded 'we're not collecting user names right?' when a researcher asked what happens to under-13 kids who slip through a study screener.",
+  "Meta says the suit 'mischaracterizes our work using selective quotes and cherry-picked documents' and that it removes under-13 accounts when it identifies them.",
+  "Bonta said any under-13 use is illegal regardless of the percentage, and that Meta could easily keep under-13s off its platforms."
+ ],
+ "entities": [
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Defendant in the multi-state lawsuit; accused of knowingly letting under-13s use Instagram and Facebook and collecting their data"
+  },
+  {
+   "name": "Rob Bonta",
+   "type": "person",
+   "role": "California Attorney General who commented on the COPPA allegations to TechCrunch"
+  },
+  {
+   "name": "Mark Zuckerberg",
+   "type": "person",
+   "role": "Meta CEO who received the 2018 report on under-13 users and testified to Congress in March 2021"
+  },
+  {
+   "name": "Karina Newton",
+   "type": "person",
+   "role": "Instagram Head of Public Policy who responded about not collecting user names in a 2021 study"
+  },
+  {
+   "name": "Children's Online Privacy Protection Act (COPPA)",
+   "type": "other",
+   "role": "Law restricting data collection from children online and requiring parental consent; basis of the allegations"
+  },
+  {
+   "name": "Instagram",
+   "type": "product",
+   "role": "Meta platform with alleged large under-13 user base"
+  },
+  {
+   "name": "Facebook",
+   "type": "product",
+   "role": "Meta platform with alleged under-13 users"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Mentioned as having recently requested redactions that hid a price-hiking algorithm"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication that interviewed AG Bonta"
+  },
+  {
+   "name": "Congress",
+   "type": "organization",
+   "role": "Body to which Zuckerberg testified in March 2021"
+  },
+  {
+   "name": "SpongeBob Official",
+   "type": "other",
+   "role": "Example of video content kids may lawfully watch with parental consent"
+  }
+ ],
+ "tags": [
+  "meta",
+  "coppa",
+  "child-safety",
+  "lawsuit",
+  "social-media",
+  "privacy"
+ ],
+ "usage": {
+  "input_tokens": 4216,
+  "output_tokens": 1630
+ }
+}

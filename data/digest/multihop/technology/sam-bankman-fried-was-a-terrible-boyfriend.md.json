@@ -1,0 +1,119 @@
+{
+ "summary": "The Verge's account of Caroline Ellison's first day testifying at Sam Bankman-Fried's criminal fraud trial, alongside the defense's cross-examination of Gary Wang. Ellison described Alameda's unlimited credit line from FTX customer funds, the use of FTX customer money to buy out Binance, the FTT token, misleading balance sheets, and a damning risk spreadsheet. The piece also covers her on-and-off romantic relationship with Bankman-Fried and how he kept Alameda's ties to FTX hidden.",
+ "one_line": "Caroline Ellison's first day of testimony against Sam Bankman-Fried detailed customer-fund misuse at Alameda and FTX, and their troubled romantic and working relationship.",
+ "key_facts": [
+  "Sam Bankman-Fried, founder of FTX, is on trial for seven counts of wire fraud and conspiracy; the SEC alleges FTX was a fraud \"from the start\".",
+  "Caroline Ellison, former head of Alameda Research, has already pleaded guilty to fraud, conspiracy to commit fraud, and money laundering, and said Bankman-Fried \"directed me to commit these crimes\".",
+  "Ellison testified \"We ultimately took about $14 billion, some of which we were not able to pay back.\"",
+  "Ellison and Bankman-Fried slept together on and off from fall 2018, dated from summer 2020 to summer 2021, and again from fall 2021 to spring 2022, when they lived together.",
+  "Ellison was named co-CEO of Alameda with Sam Trabucco in 2021 and CEO in 2022; she earned a $200,000 salary with bonuses of $100,000 to $20 million twice a year, and was refused equity.",
+  "Alameda had a $65 billion line of credit from FTX with no collateral, no contract and no written terms, and it was not visible to FTX's auditors; it was drawn in increments of $100,000 to $10 million.",
+  "In summer 2021 Bankman-Fried took $1 billion of FTX customer funds to buy back FTX shares from Binance, an early investor.",
+  "Alameda got 60 to 70 percent of the initial FTT supply for free, while seed investors paid 10 cents per coin and FTT listed at $1; Bankman-Fried directed Ellison to buy FTT if it fell below a dollar.",
+  "Bankman-Fried had Ellison put illiquid \"Sam coins\" on balance sheets shown to lenders, which she felt was \"somewhat misleading\".",
+  "In a fall 2021 spreadsheet, Ellison estimated a 30 percent chance Alameda couldn't meet Genesis loan recalls, rising to 100 percent if $3 billion went into venture investments; it included a row labeled \"FTX borrows\" meaning customer funds.",
+  "On January 14th, 2022, Bankman-Fried tweeted about launching a $2b venture fund, FTX Ventures, funded by Alameda, but he didn't want the source made public.",
+  "Alameda bought Robinhood shares for Bankman-Fried, who moved them to Emergent Fidelity Technologies to avoid association with Alameda.",
+  "Defense attorney Christian Everdell cross-examined FTX CTO Gary Wang, using the spot margin program to challenge his claim that Alameda could go negative without liquidation.",
+  "Bankman-Fried called his coin-flip willingness to risk destroying the world for a doubled-good world being \"risk-neutral\"."
+ ],
+ "entities": [
+  {
+   "name": "Sam Bankman-Fried",
+   "type": "person",
+   "role": "Founder of FTX and defendant in the criminal fraud trial"
+  },
+  {
+   "name": "Caroline Ellison",
+   "type": "person",
+   "role": "Former CEO of Alameda Research, ex-girlfriend of Bankman-Fried, and cooperating witness who pleaded guilty"
+  },
+  {
+   "name": "Gary Wang",
+   "type": "person",
+   "role": "FTX chief technology officer and co-owner of FTX and Alameda, cross-examined by the defense"
+  },
+  {
+   "name": "Christian Everdell",
+   "type": "person",
+   "role": "Bankman-Fried defense attorney who cross-examined Wang"
+  },
+  {
+   "name": "Sam Trabucco",
+   "type": "person",
+   "role": "Co-CEO of Alameda with Ellison in 2021"
+  },
+  {
+   "name": "Alameda Research",
+   "type": "organization",
+   "role": "Hedge fund run by Ellison that used FTX customer funds"
+  },
+  {
+   "name": "FTX",
+   "type": "organization",
+   "role": "Failed cryptocurrency exchange founded by Bankman-Fried"
+  },
+  {
+   "name": "Binance",
+   "type": "organization",
+   "role": "Early FTX investor bought out in 2021 with $1 billion of customer funds"
+  },
+  {
+   "name": "Genesis",
+   "type": "organization",
+   "role": "Outside lender to Alameda"
+  },
+  {
+   "name": "Securities and Exchange Commission",
+   "type": "organization",
+   "role": "Alleged FTX was a fraud from the start"
+  },
+  {
+   "name": "FTT",
+   "type": "product",
+   "role": "Token created by Bankman-Fried and Wang, one of the \"Sam coins\""
+  },
+  {
+   "name": "FTX Ventures",
+   "type": "organization",
+   "role": "$2b venture fund announced in January 2022, funded by Alameda"
+  },
+  {
+   "name": "Emergent Fidelity Technologies",
+   "type": "organization",
+   "role": "Vehicle that held Robinhood shares to avoid association with Alameda"
+  },
+  {
+   "name": "Michael Lewis",
+   "type": "person",
+   "role": "Author of Going Infinite, which reported a staff revolt at Alameda"
+  },
+  {
+   "name": "Going Infinite",
+   "type": "other",
+   "role": "Michael Lewis book cited for the Alameda staff revolt"
+  },
+  {
+   "name": "Robinhood",
+   "type": "organization",
+   "role": "Company whose shares Alameda bought for Bankman-Fried"
+  },
+  {
+   "name": "Spot margin program",
+   "type": "program",
+   "role": "FTX program letting users lend assets for margin trading, used by defense in cross-examination"
+  }
+ ],
+ "tags": [
+  "ftx",
+  "sam-bankman-fried",
+  "caroline-ellison",
+  "crypto-fraud",
+  "trial",
+  "alameda-research"
+ ],
+ "usage": {
+  "input_tokens": 4734,
+  "output_tokens": 2013
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "summary": "The article argues that schools and universities must adopt strong cybersecurity protocols as remote and hybrid learning become permanent, following a sharp rise in ransomware and other attacks since September 2023. It covers the risk landscape, training, policies, infrastructure, endpoint security, MFA, audits, and a culture of cybersecurity, with quotes from various experts.",
+ "one_line": "Overview of cybersecurity measures educational institutions should adopt for remote learning amid rising attacks since September 2023, including training, MFA, endpoint security, and audits.",
+ "key_facts": [
+  "Since September 2023, cyber attacks on educational institutions have risen sharply, with the FBI and CISA issuing alerts about ransomware targeting schools.",
+  "Sarah Benson, IT director at a midsize university, said on September 20, 2023 that cybersecurity is 'no longer a backdrop concern but a forefront necessity.'",
+  "A CyberEd threat report published September 30, 2023 listed phishing, malware, ransomware, and denial-of-service attacks as the most common threats.",
+  "Edward Grant, a cybersecurity expert, warned in October 2023 that personal devices used for remote learning invite many risks and urged strict policies.",
+  "Dr. Lisa Franklin recommends training focused on recognizing phishing emails, password security, and proper VPN use; since October 2023 several schools have made cybersecurity training modules mandatory each semester.",
+  "Marcus Peters, a cybersecurity policy advisor, has worked with school districts since November 2023 to draft and refine breach response plans.",
+  "On September 15, 2023, the Department of Education announced a grant program to help schools acquire state-of-the-art cybersecurity tools.",
+  "Frank Thompson, a senior network administrator, led an initiative from early October 2023 that had secured over 10,000 student and faculty devices by December.",
+  "By late September 2023, IT administrator Janet Lee had overseen the rollout of multi-factor authentication (MFA) across numerous school networks.",
+  "David Knight, a cybersecurity consultant, conducted over 50 school audits by November 2023 and found schools that audit regularly have fewer and less severe incidents.",
+  "Jane Hopkins of the state's education council said in a December 2023 meeting that safe online practices should be taught like reading and writing."
+ ],
+ "entities": [
+  {
+   "name": "FBI",
+   "type": "organization",
+   "role": "Issued alerts about rising ransomware attacks on schools"
+  },
+  {
+   "name": "Cybersecurity and Infrastructure Security Agency (CISA)",
+   "type": "organization",
+   "role": "Issued alerts about ransomware targeting schools"
+  },
+  {
+   "name": "Sarah Benson",
+   "type": "person",
+   "role": "IT director at a midsize university who said cybersecurity is a forefront necessity"
+  },
+  {
+   "name": "CyberEd",
+   "type": "organization",
+   "role": "Cybersecurity firm that published a September 30, 2023 threat report"
+  },
+  {
+   "name": "Edward Grant",
+   "type": "person",
+   "role": "Cybersecurity expert warning about personal devices"
+  },
+  {
+   "name": "Dr. Lisa Franklin",
+   "type": "person",
+   "role": "Cybersecurity awareness coach advocating training on phishing, passwords, VPNs"
+  },
+  {
+   "name": "Marcus Peters",
+   "type": "person",
+   "role": "Cybersecurity policy advisor helping districts draft response plans"
+  },
+  {
+   "name": "Department of Education",
+   "type": "organization",
+   "role": "Announced a grant program for school cybersecurity tools on September 15, 2023"
+  },
+  {
+   "name": "Frank Thompson",
+   "type": "person",
+   "role": "Senior network administrator who led an endpoint security initiative"
+  },
+  {
+   "name": "Janet Lee",
+   "type": "person",
+   "role": "IT administrator who oversaw MFA rollout across school networks"
+  },
+  {
+   "name": "David Knight",
+   "type": "person",
+   "role": "Cybersecurity consultant who conducted over 50 school audits"
+  },
+  {
+   "name": "Jane Hopkins",
+   "type": "person",
+   "role": "State education council member advocating a culture of cybersecurity"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "remote-learning",
+  "education",
+  "ransomware",
+  "mfa",
+  "security-policy"
+ ],
+ "usage": {
+  "input_tokens": 2836,
+  "output_tokens": 1346
+ }
+}

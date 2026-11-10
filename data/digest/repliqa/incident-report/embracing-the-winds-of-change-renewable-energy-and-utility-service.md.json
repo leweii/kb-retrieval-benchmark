@@ -1,0 +1,77 @@
+{
+ "summary": "A retired energy engineer reflects on the November 12, 2023 utility disruption across the Midwestern United States and argues that renewable energy can make utility services more resilient. He traces the shift from centralized fossil-fuel plants to decentralized solar and wind, and covers grid technology, policy, social change and economics. The piece concludes that renewables are both a resilience buffer and fiscally sensible.",
+ "one_line": "A retired engineer uses the November 12, 2023 Midwest utility disruption to argue that decentralized renewable energy strengthens grid resilience and makes economic sense.",
+ "key_facts": [
+  "On November 12, 2023, a significant utility services disruption occurred across the Midwestern United States.",
+  "An extensive blackout triggered by a severe storm occurred on October 14, 2023, exposing weak links in the grid.",
+  "By September 9, 2023, the United States was generating over 30% of its electricity from renewable sources, described as an unprecedented milestone.",
+  "On September 29, 2023, a comprehensive energy bill was passed providing subsidies and tax incentives for renewable adoption in residential and commercial sectors.",
+  "Cedar Rapids ran on local renewable power for days during the broader Midwest blackout.",
+  "Community microgrids using solar panels and on-site wind turbines can isolate themselves from the larger network during outages, acting as self-sustained power islands.",
+  "Renewables early on faced challenges in consistency, storage and transmission, addressed through better battery technologies and refined grid management systems.",
+  "Smart grids using real-time data analytics and Artificial Intelligence (AI) are being tested to predict overloads or failures before they occur.",
+  "The author's colleagues cite 'grid-edge' computing and distributed ledger technologies as advances for managing renewable intermittency.",
+  "In Springfield, the author witnessed a neighborhood's collective investment in a solar microgrid.",
+  "Households can become 'prosumers', both producers and consumers of energy.",
+  "Operational costs of solar and wind farms continue to fall, and renewables' low marginal costs act as an economic buffer during outages."
+ ],
+ "entities": [
+  {
+   "name": "Midwestern United States",
+   "type": "place",
+   "role": "Region affected by the November 12, 2023 utility disruption"
+  },
+  {
+   "name": "United States",
+   "type": "place",
+   "role": "Country that generated over 30% of its electricity from renewables by September 9, 2023"
+  },
+  {
+   "name": "Cedar Rapids",
+   "type": "place",
+   "role": "City that ran on local renewable power for days during the Midwest blackout"
+  },
+  {
+   "name": "Springfield",
+   "type": "place",
+   "role": "Location of a neighborhood's collective solar microgrid investment"
+  },
+  {
+   "name": "November 12, 2023 utility disruption",
+   "type": "event",
+   "role": "Disruption of utility services across the Midwest that prompted the reflection"
+  },
+  {
+   "name": "October 14, 2023 blackout",
+   "type": "event",
+   "role": "Extensive storm-triggered blackout showing grid weaknesses"
+  },
+  {
+   "name": "Comprehensive energy bill of September 29, 2023",
+   "type": "event",
+   "role": "Legislation providing subsidies and tax incentives for renewable adoption"
+  },
+  {
+   "name": "Smart grid",
+   "type": "product",
+   "role": "Grid technology using real-time analytics and AI to predict failures"
+  },
+  {
+   "name": "Community microgrids",
+   "type": "product",
+   "role": "Solar and wind-based local grids that can isolate during outages"
+  }
+ ],
+ "tags": [
+  "renewable-energy",
+  "power-outage",
+  "grid-resilience",
+  "microgrids",
+  "energy-policy",
+  "midwest"
+ ],
+ "usage": {
+  "input_tokens": 3061,
+  "output_tokens": 1144
+ }
+}

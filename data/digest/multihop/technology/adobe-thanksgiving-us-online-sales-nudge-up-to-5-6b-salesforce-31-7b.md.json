@@ -1,0 +1,108 @@
+{
+ "summary": "TechCrunch reports on Thanksgiving 2023 online sales, which grew only modestly: Adobe Analytics measured $5.6B in US online spending (+5.5%), while Salesforce put global online sales at $31.7B (+1%). Mobile set records and discounts drove spending, rather than inflation or buying pricier goods. Adobe forecasts $37.2B for the five-day Cyber Weekend, with Black Friday at $9.6B.",
+ "one_line": "Thanksgiving 2023 online sales rose only modestly, with Adobe reporting $5.6B in the US and Salesforce $31.7B globally, driven by record mobile spending and deeper discounts.",
+ "key_facts": [
+  "Adobe Analytics said US consumers spent $5.6 billion online on Thanksgiving 2023, up 5.5% on last year.",
+  "Salesforce reported global online sales of $31.7 billion on Thanksgiving, with a US tally of $7.5 billion, both up only 1%.",
+  "Salesforce said global average order value rose 2% to $103 per basket, while the US rose 1% to $119.",
+  "Adobe said $3.3 billion was spent on mobile devices on Thanksgiving, up 14% and an all-time record for the day.",
+  "Adobe predicts $37.2 billion in online spend over the five-day Cyber Weekend, up 5.4% year on year and 16.8% of all holiday spend.",
+  "Adobe forecasts Black Friday online sales of $9.6 billion, up 5.7%; the published 2022 figure was $9.13 billion.",
+  "Last year's Thanksgiving figure from Adobe was $5.29 billion; this year's 5.5% growth beats last year's 2.9% but is far below pre-COVID growth such as 18% or more in 2017.",
+  "Discounts in the US were up about 28% per both Adobe and Salesforce; toys and electronics saw sales up 182% and 113% over last month.",
+  "Mobile accounted for 59% of all online sales in the evening hours, per Adobe, while desktop still leads in conversions and items purchased.",
+  "Salesforce said mobile made up 79% of global online traffic and 82% in the US; Apple Pay transactions rose 47% versus 44% for all mobile wallets.",
+  "Social platforms such as Instagram, TikTok and Snapchat accounted for 13% of all traffic referrals to sites but are mostly not where purchases happen.",
+  "Buy Now Pay Later drove $390 million in online spend, up 7.5% on last year, per Adobe.",
+  "Adobe's figures draw on 1 trillion visits to US retail sites, 100 million SKUs and 18 product categories; Salesforce uses data from 1.5 billion consumers."
+ ],
+ "entities": [
+  {
+   "name": "Adobe Analytics",
+   "type": "organization",
+   "role": "Analytics firm that measured $5.6B in US Thanksgiving online spend and forecast Cyber Weekend sales"
+  },
+  {
+   "name": "Salesforce",
+   "type": "organization",
+   "role": "Company whose Commerce Cloud data showed $31.7B in global Thanksgiving online sales"
+  },
+  {
+   "name": "Commerce Cloud",
+   "type": "product",
+   "role": "Salesforce division that collects the sales data"
+  },
+  {
+   "name": "Vivek Pandya",
+   "type": "person",
+   "role": "Lead analyst, Adobe Digital Insights, quoted on record mobile shopping"
+  },
+  {
+   "name": "Rob Garf",
+   "type": "person",
+   "role": "Salesforce VP and GM, Retail, quoted on mobile wallets and social discovery"
+  },
+  {
+   "name": "Adobe Digital Insights",
+   "type": "organization",
+   "role": "Adobe research group of analyst Vivek Pandya"
+  },
+  {
+   "name": "Apple Pay",
+   "type": "product",
+   "role": "Mobile wallet whose transactions rose 47%"
+  },
+  {
+   "name": "Instagram",
+   "type": "product",
+   "role": "Social platform cited as a traffic referrer to retail sites"
+  },
+  {
+   "name": "TikTok",
+   "type": "product",
+   "role": "Social platform cited as a traffic referrer to retail sites"
+  },
+  {
+   "name": "Snapchat",
+   "type": "product",
+   "role": "Social platform cited as a traffic referrer to retail sites"
+  },
+  {
+   "name": "Black Friday",
+   "type": "event",
+   "role": "Day after Thanksgiving with Adobe forecast of $9.6B in online sales"
+  },
+  {
+   "name": "Cyber Weekend",
+   "type": "event",
+   "role": "Five-day shopping period forecast by Adobe at $37.2B online"
+  },
+  {
+   "name": "Thanksgiving",
+   "type": "event",
+   "role": "De facto start of the US holiday shopping season, the focus of the sales figures"
+  },
+  {
+   "name": "Ingrid Lunden",
+   "type": "person",
+   "role": "Author of the TechCrunch article"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publisher of the article"
+  }
+ ],
+ "tags": [
+  "e-commerce",
+  "holiday-shopping",
+  "mobile-commerce",
+  "retail-analytics",
+  "thanksgiving",
+  "black-friday"
+ ],
+ "usage": {
+  "input_tokens": 2798,
+  "output_tokens": 1628
+ }
+}

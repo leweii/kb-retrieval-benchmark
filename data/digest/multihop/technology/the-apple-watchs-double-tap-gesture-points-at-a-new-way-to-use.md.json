@@ -1,0 +1,104 @@
+{
+ "summary": "Victoria Song reviews the double tap gesture that arrived with watchOS 10.1 on the Apple Watch Series 9 and Ultra 2, explaining how it differs from the 2021 Assistive Touch accessibility feature and why it needs the S9 chip's neural engines. Apple executives describe the data collection, sensor noise challenges and testing behind it, while Song details its limits, such as minimal customization and weak third-party support. She concludes it hints at a future of phone-independent smartwatches with richer gestures.",
+ "one_line": "Apple's double tap gesture on the Series 9 and Ultra 2, built on the S9 chip, is useful but limited, hinting at gesture-driven wearables.",
+ "key_facts": [
+  "Double tap arrived with the watchOS 10.1 update on Apple Watch Series 9 and Ultra 2, a month after the watches launched.",
+  "Double tap uses a quick pinching motion to scroll the watchOS 10 smart stack, pause or end timers, skip music tracks and answer phone calls.",
+  "Apple introduced Assistive Touch in 2021 for people with limb differences or mobility issues; it works on Series 4 or later, including first-gen SE and Ultra.",
+  "The new S9 chip has four neural engines for machine learning, which power double tap; Assistive Touch on older watches ran on the main CPU.",
+  "David Clark, senior director of Apple Watch software engineering, says the Series 9 and Ultra 2 are 15 percent more accurate at detecting double tap and the feature is much less power intensive.",
+  "The double tap algorithm is trained on data from the accelerometer, gyroscope, and optical heart rate sensor collected from the wrist.",
+  "Clark says Apple's years of heart rate improvements helped cut through wrist signal noise; the gaps in reliable heart rate signals were used to confirm subtle motions like double tap.",
+  "Assistive Touch offers four gestures (single tap, double tap, clench, double clench) and a motion-based cursor, while double tap only performs an app's main action.",
+  "Song compares Assistive Touch to a computer mouse and double tap to the double-click.",
+  "Apple renamed the gesture from double pinch to double tap because Eric Charles says people told to pinch hold the gesture rather than release it, and 'Tap evokes a release.'",
+  "Customization is limited to music playback (pause/play vs. skip) and the smart stack; Song set hers to skip to the next track.",
+  "Spotify and Pocket Casts don't work with double tap, and most third-party apps only use it to dismiss notifications.",
+  "Double tap can scroll the smart stack but only selects the top widget, so opening a widget still requires the other hand.",
+  "Clark says Apple was wary of customization in this first iteration because it adds complexity."
+ ],
+ "entities": [
+  {
+   "name": "Victoria Song",
+   "type": "person",
+   "role": "Author of the article and reviewer who tested double tap in the watchOS 10.1 beta"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Maker of the Apple Watch and developer of double tap and Assistive Touch"
+  },
+  {
+   "name": "David Clark",
+   "type": "person",
+   "role": "Senior director of Apple Watch software engineering, explained the technology behind double tap"
+  },
+  {
+   "name": "Eric Charles",
+   "type": "person",
+   "role": "Senior manager of Apple Watch Product Marketing, explained Assistive Touch vs. double tap and the renaming"
+  },
+  {
+   "name": "Apple Watch Series 9",
+   "type": "product",
+   "role": "Smartwatch with the S9 chip that supports double tap"
+  },
+  {
+   "name": "Apple Watch Ultra 2",
+   "type": "product",
+   "role": "Smartwatch with the S9 chip that supports double tap"
+  },
+  {
+   "name": "S9 SiP",
+   "type": "product",
+   "role": "Chip with four neural engines that powers double tap"
+  },
+  {
+   "name": "Assistive Touch",
+   "type": "program",
+   "role": "2021 accessibility feature for navigating the Apple Watch without a second hand, from which double tap evolved"
+  },
+  {
+   "name": "watchOS 10.1",
+   "type": "product",
+   "role": "Software update that delivered double tap"
+  },
+  {
+   "name": "watchOS 10",
+   "type": "product",
+   "role": "Software version introducing the smart stack of widgets and redesigned glanceable apps"
+  },
+  {
+   "name": "Siri",
+   "type": "product",
+   "role": "Voice assistant used alongside double tap to open apps"
+  },
+  {
+   "name": "Spotify",
+   "type": "product",
+   "role": "Third-party app that doesn't work with double tap"
+  },
+  {
+   "name": "Pocket Casts",
+   "type": "product",
+   "role": "Third-party app that doesn't work with double tap"
+  },
+  {
+   "name": "The Verge",
+   "type": "organization",
+   "role": "Publication of the article"
+  }
+ ],
+ "tags": [
+  "apple-watch",
+  "wearables",
+  "gesture-controls",
+  "accessibility",
+  "watchos",
+  "product-review"
+ ],
+ "usage": {
+  "input_tokens": 5200,
+  "output_tokens": 1564
+ }
+}

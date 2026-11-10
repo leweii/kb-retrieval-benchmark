@@ -1,0 +1,71 @@
+{
+ "summary": "A humorous local-interest piece on the adoption of electric and autonomous vehicles in the writer's community. It covers the mayor's announcement of an all-electric plan, myths about EVs and self-driving cars, teething troubles, a community education fair, environmental benefits, and worries from taxi drivers. The tone is light, but it concludes that the technology promises a cleaner, more efficient future.",
+ "one_line": "A comic local feature on a community's shift to electric and autonomous vehicles, covering the mayor's pledge, myths, a public fair, and job worries.",
+ "key_facts": [
+  "On September 12, 2023, Mayor Bob \"Bolt\" Johnson announced the city's plan to go electric, saying \"No more gas guzzlers! We go electric!\"",
+  "The crowd applauded the mayor's speech, though half seemed to be clapping for the end of the speech rather than its content.",
+  "The article debunks the myth that EVs are powered by lightning captured during storms; they simply run on electricity.",
+  "A common myth holds that EVs cannot be driven beyond sight of home without needing a plug, but modern EVs go many miles.",
+  "The article says autonomous cars are run by sensors and algorithms, not by a mini spirit or genie inside the vehicle.",
+  "Harold, the local electric mechanic, says customers still ask for a tank fill-up, and he reminds them \"You 'charge' it, not 'fill' it.\"",
+  "The city council organized a fair called 'Electric Enlightenment' on October 10th, featuring test drives, info booths, and French fries.",
+  "At the fair, councilmember Susan Smith accidentally activated autonomous mode and professed her love for the vehicle as it navigated cones.",
+  "The article frames the switch as a way to cut the local carbon footprint, improve air quality, and say goodbye to the pricey gas pump.",
+  "Taxi drivers view autonomous cars with suspicion, fearing unemployment; cabby Tony 'Tires' McLire jokes they will take over the pizzeria.",
+  "The piece concludes that EVs and autonomous cars promise a cleaner, more efficient future, while also producing comic moments as residents talk to their cars."
+ ],
+ "entities": [
+  {
+   "name": "Bob \"Bolt\" Johnson",
+   "type": "person",
+   "role": "Mayor who announced the plan to take the city electric on September 12, 2023"
+  },
+  {
+   "name": "Harold",
+   "type": "person",
+   "role": "Local electric mechanic who deals with customers asking for tank fill-ups"
+  },
+  {
+   "name": "Susan Smith",
+   "type": "person",
+   "role": "Councilmember who accidentally activated autonomous mode at the fair"
+  },
+  {
+   "name": "Tony 'Tires' McLire",
+   "type": "person",
+   "role": "Cabby who jokes about autonomous cars taking over the pizzeria"
+  },
+  {
+   "name": "Electric Enlightenment",
+   "type": "event",
+   "role": "Community education fair held October 10th with test drives and info booths"
+  },
+  {
+   "name": "City council",
+   "type": "organization",
+   "role": "Local body that organized the Electric Enlightenment fair"
+  },
+  {
+   "name": "Electric vehicles (EVs)",
+   "type": "product",
+   "role": "Main subject; vehicles replacing gas cars in the local community"
+  },
+  {
+   "name": "Autonomous vehicles",
+   "type": "product",
+   "role": "Self-driving cars being adopted locally, which worry taxi drivers"
+  }
+ ],
+ "tags": [
+  "electric-vehicles",
+  "autonomous-vehicles",
+  "local-news",
+  "humor",
+  "sustainability",
+  "transportation"
+ ],
+ "usage": {
+  "input_tokens": 2700,
+  "output_tokens": 1132
+ }
+}

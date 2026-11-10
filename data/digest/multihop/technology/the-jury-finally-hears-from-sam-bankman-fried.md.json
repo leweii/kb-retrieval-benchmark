@@ -1,0 +1,119 @@
+{
+ "summary": "Elizabeth Lopatto's trial report for The Verge covers Sam Bankman-Fried's direct testimony in his fraud trial. She argues he undermined his own credibility with claims about Alameda Research's name, the \"allow_negative\" feature, the lack of a risk team, and what he knew about the roughly $8 billion Alameda owed FTX, which contradict earlier trial evidence the jury had seen. The piece also notes the judge scolding him for not answering questions.",
+ "one_line": "The Verge recounts Sam Bankman-Fried's direct testimony at his fraud trial, highlighting claims about Alameda and FTX that conflicted with evidence the jury had already seen.",
+ "key_facts": [
+  "Judge Lewis Kaplan scolded Sam Bankman-Fried for not answering questions from his own counsel Mark Cohen on direct examination; the day before he was scolded for not answering prosecutor Danielle Sassoon's cross-examination questions at an evidentiary hearing.",
+  "Three times during direct testimony, an \"Objection, narrative!\" to Bankman-Fried's answers was sustained.",
+  "Bankman-Fried started Alameda Research in 2017 during a crypto bull run, saying he knew \"basically nothing\" about cryptocurrency but wanted to do arbitrage; it was named for Alameda County, California, where its first office was set up.",
+  "Bankman-Fried testified the name was meant to keep the firm under the radar and that the internal name had been Wireless Mouse; Lopatto notes a podcast video, shown during Gary Wang's testimony, had him saying the name made it easier to get a bank account.",
+  "He hired Gary Wang, then Nishad Singh about a month after founding Alameda, then Caroline Ellison, and claimed he did not supervise Wang's direct work.",
+  "He testified arbitrage returned 50 to 100 percent annualized and that he gave FTX only a 20 percent chance of success; he said he handled support tickets \"periodically\" but called not creating a risk team a \"big mistake.\"",
+  "Bankman-Fried testified the FTX risk engine was \"sagging under the weight\" of growth in 2020 and got stuck in a feedback loop that could have caused losses in the \"trillions of dollars,\" and he said this led to \"allow_negative,\" which he claimed not to know about until recently.",
+  "Lopatto says \"allow_negative\" was coded and switched on in 2019, and that she, Bankman-Fried and the jury saw the code in court.",
+  "In 2021 FTX had $1 billion of revenue; Bankman-Fried said he worked 12 to 22 hours a day and handed Alameda to Caroline Ellison and Sam Trabucco as co-CEOs, while denying he knew Singh backdated interest payments to reach $1 billion.",
+  "Bankman-Fried said Alameda took the MobileCoin loss because he thought it appropriate for it to act as a backstop liquidity provider.",
+  "In June 2022 he heard of the \"fiat@ftx\" account tracking what Alameda owed FTX but did not investigate, and he directed Ellison to repay Alameda's lenders; he also gave capital infusions to BlockFi and Voyager.",
+  "Bankman-Fried said he did not learn of the $8 billion Alameda liability until October 2022, by looking at a computer database, and was \"very surprised!\"",
+  "He disputed Adam Yedidia's August 2022 account and said the balcony conversation with Singh was about Alameda's liabilities and FTX marketing spending, not money owed to FTX.",
+  "The article notes Bankman-Fried has been found guilty on seven counts including wire fraud, and the SEC alleged FTX was a fraud \"from the start.\""
+ ],
+ "entities": [
+  {
+   "name": "Sam Bankman-Fried",
+   "type": "person",
+   "role": "Founder of FTX and Alameda Research, testifying in his own defense at his fraud trial"
+  },
+  {
+   "name": "Elizabeth Lopatto",
+   "type": "person",
+   "role": "Author of the article covering the trial for The Verge"
+  },
+  {
+   "name": "The Verge",
+   "type": "organization",
+   "role": "Publication that ran the article"
+  },
+  {
+   "name": "FTX",
+   "type": "organization",
+   "role": "Failed cryptocurrency exchange founded by Bankman-Fried"
+  },
+  {
+   "name": "Alameda Research",
+   "type": "organization",
+   "role": "Crypto trading firm founded by Bankman-Fried in 2017 that received a near-infinite line of credit from FTX"
+  },
+  {
+   "name": "Lewis Kaplan",
+   "type": "person",
+   "role": "Judge who scolded Bankman-Fried for not answering questions"
+  },
+  {
+   "name": "Danielle Sassoon",
+   "type": "person",
+   "role": "Prosecutor who cross-examined Bankman-Fried"
+  },
+  {
+   "name": "Mark Cohen",
+   "type": "person",
+   "role": "Bankman-Fried's lawyer conducting direct examination"
+  },
+  {
+   "name": "Gary Wang",
+   "type": "person",
+   "role": "Programmer hired by Bankman-Fried; earlier testified, including about the MobileCoin loss"
+  },
+  {
+   "name": "Nishad Singh",
+   "type": "person",
+   "role": "Employee hired about a month after Alameda's founding; alleged to have backdated interest payments"
+  },
+  {
+   "name": "Caroline Ellison",
+   "type": "person",
+   "role": "Alameda hire who became co-CEO and was directed to repay lenders"
+  },
+  {
+   "name": "Sam Trabucco",
+   "type": "person",
+   "role": "Co-CEO of Alameda alongside Ellison who drifted into early retirement"
+  },
+  {
+   "name": "Adam Yedidia",
+   "type": "person",
+   "role": "Witness who testified about an August 2022 conversation with Bankman-Fried"
+  },
+  {
+   "name": "Securities and Exchange Commission",
+   "type": "organization",
+   "role": "Alleged FTX was a fraud from the start"
+  },
+  {
+   "name": "BlockFi",
+   "type": "organization",
+   "role": "Crypto lender that received a capital infusion from Bankman-Fried"
+  },
+  {
+   "name": "Voyager",
+   "type": "organization",
+   "role": "Crypto lender that received a capital infusion from Bankman-Fried"
+  },
+  {
+   "name": "Alameda County",
+   "type": "place",
+   "role": "California county for which Alameda Research was named and where its first office was set up"
+  }
+ ],
+ "tags": [
+  "sam-bankman-fried",
+  "ftx",
+  "crypto-fraud",
+  "trial",
+  "alameda-research",
+  "testimony"
+ ],
+ "usage": {
+  "input_tokens": 4388,
+  "output_tokens": 2091
+ }
+}

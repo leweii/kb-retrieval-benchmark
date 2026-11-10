@@ -1,0 +1,107 @@
+{
+ "summary": "The note explains how quantum computing threatens current encryption, especially RSA, because algorithms like Shor's algorithm could factor large numbers quickly. It describes demonstrations and expert warnings from late 2023 into 2024, and the global push toward post-quantum cryptography led by bodies such as NIST and the EU. It also notes quantum computing's benefits in medicine and AI, and urges organizations to begin quantum migration planning now.",
+ "one_line": "Quantum computers could break RSA encryption via Shor's algorithm, driving a global race to standardize and adopt quantum-resistant cryptography.",
+ "key_facts": [
+  "Quantum computers use qubits, which exist in superposition and can be both 0 and 1 simultaneously, unlike classical bits.",
+  "On October 10, 2023, Dr. Eliza Schwartz, Chief Scientist of QubitWorks, led a demonstration of a prototype quantum processor that did in minutes a calculation that would take a conventional supercomputer thousands of years.",
+  "In November 2023, at the CyberSecure Conference in San Francisco, Dr. Alan Turing Jr. said quantum computers can factor large numbers, critical for RSA encryption, exponentially faster than classical computers.",
+  "RSA encryption relies on the fact that multiplying two large primes is easy but recovering the primes from the product is incredibly hard.",
+  "Shor's algorithm, designed to run on a quantum computer, could factor large numbers effortlessly and render RSA encryption obsolete.",
+  "On December 5, 2023, Dr. Rebecca Shor demonstrated at the Quantum Tech Summit in New York that, in theory, a quantum computer with enough qubits could break RSA in mere hours.",
+  "Thomas Hudson, a cybersecurity adviser to the European Union, said on February 12, 2024 that the EU is working to migrate to quantum-resistant algorithms well before large-scale quantum computers become commonplace.",
+  "Encryption algorithms based on lattice problems, hash functions, and multivariate polynomial equations have so far proven to be 'quantum-resistant.'",
+  "NIST has been working to discover and standardize quantum-resistant algorithms since 2021 and expects to finalize a shortlist by late 2024.",
+  "Updating billions of devices and critical infrastructure makes the transition to post-quantum cryptography a herculean task.",
+  "On April 3, 2024, Quantum AI Inc. revealed a quantum-driven AI model that could predict protein folding patterns far quicker than existing technologies, potentially revolutionizing drug discovery.",
+  "The Quantum Secure Alliance facilitates collaboration among governments, academia, and the private sector and promotes adoption of quantum-resistant technologies."
+ ],
+ "entities": [
+  {
+   "name": "QubitWorks",
+   "type": "organization",
+   "role": "Company that built a prototype quantum processor demonstrated on October 10, 2023"
+  },
+  {
+   "name": "Dr. Eliza Schwartz",
+   "type": "person",
+   "role": "Chief Scientist of QubitWorks who led the quantum processor demonstration"
+  },
+  {
+   "name": "Dr. Alan Turing Jr.",
+   "type": "person",
+   "role": "Leading cryptographer who explained quantum threats to encryption at the CyberSecure Conference"
+  },
+  {
+   "name": "CyberSecure Conference",
+   "type": "event",
+   "role": "November 2023 conference in San Francisco where quantum risks to encryption were discussed"
+  },
+  {
+   "name": "Dr. Rebecca Shor",
+   "type": "person",
+   "role": "Researcher who demonstrated in theory how Shor's algorithm could break RSA in hours"
+  },
+  {
+   "name": "Quantum Tech Summit",
+   "type": "event",
+   "role": "New York event on December 5, 2023 where the RSA-breaking demonstration was presented"
+  },
+  {
+   "name": "Shor's algorithm",
+   "type": "other",
+   "role": "Quantum algorithm able to factor large numbers and break RSA"
+  },
+  {
+   "name": "RSA encryption",
+   "type": "other",
+   "role": "Widely used cryptographic system threatened by quantum computing"
+  },
+  {
+   "name": "Thomas Hudson",
+   "type": "person",
+   "role": "Cybersecurity adviser to the European Union who outlined its migration approach"
+  },
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "Working to migrate to quantum-resistant algorithms"
+  },
+  {
+   "name": "National Institute of Standards and Technology (NIST)",
+   "type": "organization",
+   "role": "US body standardizing quantum-resistant encryption algorithms since 2021"
+  },
+  {
+   "name": "Quantum AI Inc.",
+   "type": "organization",
+   "role": "Company that revealed a quantum-driven AI model for protein folding on April 3, 2024"
+  },
+  {
+   "name": "Quantum Secure Alliance",
+   "type": "organization",
+   "role": "Group promoting collaboration, education and adoption of quantum-resistant technologies"
+  },
+  {
+   "name": "San Francisco",
+   "type": "place",
+   "role": "Location of the CyberSecure Conference"
+  },
+  {
+   "name": "New York",
+   "type": "place",
+   "role": "Location of the Quantum Tech Summit"
+  }
+ ],
+ "tags": [
+  "quantum-computing",
+  "encryption",
+  "post-quantum-cryptography",
+  "cybersecurity",
+  "rsa",
+  "nist"
+ ],
+ "usage": {
+  "input_tokens": 2846,
+  "output_tokens": 1694
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "summary": "Beeper, a messaging aggregator startup, launched Beeper Mini, an Android app that lets users send and receive end-to-end encrypted iMessages for $1.99 per month. The team says it reverse-engineered the iMessage protocol so it needs no Mac relay server and no Apple ID. The article covers features, legal and regulatory context, the need for a third-party audit, Beeper's background, funding, and plans to rebrand its products.",
+ "one_line": "Beeper launched Beeper Mini, an Android app that reverse-engineers iMessage to deliver encrypted blue-bubble texts for $1.99 per month without an Apple ID.",
+ "key_facts": [
+  "Beeper Mini lets Android users send and receive end-to-end encrypted iMessage chats for $1.99 per month, with a seven-day free trial.",
+  "Beeper CEO Eric Migicovsky says the team reverse-engineered the iMessage protocol down to the lowest layer, so Beeper Mini is a native implementation and doesn't use a Mac server as a relay.",
+  "Messages are encrypted on the device before leaving the app, keys are stored only on the phone, and the app connects only to Apple servers, not Beeper's.",
+  "Supported features include high-resolution photos and videos, threads, replies, read receipts, group chats, tapbacks, editing and unsending messages, stickers, GIFs and voice notes; live location sharing, message effects and FaceTime calls are not yet supported.",
+  "Users do not need an Apple ID to use Beeper Mini.",
+  "Beeper built the Beeper Push Notification service (BPNs) to connect to Apple's APNs on the user's behalf when the app isn't running, since Android doesn't support APNs natively.",
+  "Beeper Mini has not yet had a third-party audit; an external audit is 'in progress' and an internal audit has been published, while certificate pinning makes traffic analysis harder.",
+  "Migicovsky cites DMCA 1201 F, which protects reverse-engineering for interoperability, but Apple could still send a Cease and Desist; Europe's Digital Markets Act and U.S. antitrust scrutiny may deter Apple.",
+  "In tests, texts from an Android phone on Google Fi to an iPhone 15 Pro Max worked, but when the Android phone's battery died, texts reverted to green bubbles and went to Google Messages.",
+  "Beeper was founded in 2020 by Eric Migicovsky and CTO Brad Murray, who met at Pebble; it has raised $16 million through a Series A led by Garry Tan of Initialized Capital.",
+  "The original Beeper app will be rebranded 'Beeper Cloud' and eventually sunset, with Beeper Mini adding other networks plus SMS and RCS and becoming simply Beeper again.",
+  "Competitor Texts.com, acquired by Automattic, costs $15 per month; Beeper is a 25-person distributed team and Beeper Mini is available on Google Play Store."
+ ],
+ "entities": [
+  {
+   "name": "Beeper",
+   "type": "organization",
+   "role": "Startup behind the messaging aggregator and Beeper Mini, founded in 2020"
+  },
+  {
+   "name": "Beeper Mini",
+   "type": "product",
+   "role": "Android app offering end-to-end encrypted iMessage for $1.99 per month"
+  },
+  {
+   "name": "Beeper Cloud",
+   "type": "product",
+   "role": "New name for the original multi-network Beeper app, to be sunset later"
+  },
+  {
+   "name": "Eric Migicovsky",
+   "type": "person",
+   "role": "Beeper co-founder and CEO, Pebble founder, former Y Combinator partner"
+  },
+  {
+   "name": "Brad Murray",
+   "type": "person",
+   "role": "Beeper co-founder and CTO, previously of Faire and Fitbit"
+  },
+  {
+   "name": "Pebble",
+   "type": "organization",
+   "role": "Smartwatch startup founded by Migicovsky where the co-founders met; later acquired by Fitbit"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Maker of iMessage, which may react to Beeper Mini"
+  },
+  {
+   "name": "Sunbird",
+   "type": "organization",
+   "role": "Competing effort to bring iMessage to Android, recently paused, which sent messages in clear text"
+  },
+  {
+   "name": "Texts.com",
+   "type": "product",
+   "role": "Competitor priced at $15 per month, acquired by Automattic"
+  },
+  {
+   "name": "Automattic",
+   "type": "organization",
+   "role": "Company that acquired Texts.com"
+  },
+  {
+   "name": "Garry Tan",
+   "type": "person",
+   "role": "Led Beeper's Series A for Initialized Capital; now president and CEO at Y Combinator"
+  },
+  {
+   "name": "Initialized Capital",
+   "type": "organization",
+   "role": "Lead investor in Beeper's Series A"
+  },
+  {
+   "name": "Samsung Next",
+   "type": "organization",
+   "role": "Beeper investor described as very supportive"
+  },
+  {
+   "name": "NSO Group",
+   "type": "organization",
+   "role": "Spyware maker Apple previously sued to block from using its services"
+  },
+  {
+   "name": "Beeper Push Notification service (BPNs)",
+   "type": "product",
+   "role": "Service that maintains APNs connections for Beeper Mini when the app isn't running"
+  },
+  {
+   "name": "Digital Markets Act",
+   "type": "other",
+   "role": "European law requiring interoperable chat interfaces from big tech companies"
+  },
+  {
+   "name": "Google Play Store",
+   "type": "product",
+   "role": "Where Beeper Mini is available to the public"
+  },
+  {
+   "name": "Zack Whittaker",
+   "type": "person",
+   "role": "Provided additional reporting"
+  }
+ ],
+ "tags": [
+  "imessage",
+  "android",
+  "beeper",
+  "reverse-engineering",
+  "messaging",
+  "startups"
+ ],
+ "usage": {
+  "input_tokens": 3757,
+  "output_tokens": 1825
+ }
+}

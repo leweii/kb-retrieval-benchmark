@@ -1,0 +1,107 @@
+{
+ "summary": "The article argues that internet connectivity is now a necessity and that homes and businesses should prepare for inevitable outages, citing several 2023 incidents. It gives expert-backed strategies for businesses (continuity plans, backup ISPs, VPNs), remote workers, and home users. It also covers ISP responsibilities, emerging technologies like mesh networks and satellite internet, and proposed policy to raise ISP resilience standards.",
+ "one_line": "A guide to preparing homes, businesses, ISPs and policymakers for internet outages, drawing on 2023 incidents and expert advice.",
+ "key_facts": [
+  "A widespread internet outage on September 15, 2023 caught many businesses and home users off guard.",
+  "A fiber cut incident in Austin was reported on October 12, 2023, and cyberattacks occurred in San Francisco later that month.",
+  "Network engineer Casey O'Donovan compares the internet to a vast highway system where a broken key data pathway snarls traffic.",
+  "A study led by Harvard Business Analyst Rajiv Srinivasan on November 1, 2023 suggested an hour of downtime can cost small businesses up to thousands of dollars.",
+  "Consultant Linda Guerrero recommends businesses have a continuity plan covering network failure, a secondary connection from a different ISP, diversified data access via cloud storage, a communication plan, offline staff training, and a VPN.",
+  "Remote work consultant Sarah Jensen advises equipping remote employees with the knowledge and tools to work without internet, such as offline documents and smartphone hotspots.",
+  "Tom Reynolds suggests home users always have a plan B, such as mobile data or local businesses offering free Wi-Fi.",
+  "Home preparedness tips include understanding data plans to avoid hotspot charges, regular backups to cloud or external drive, non-digital entertainment, and checking automatic payments.",
+  "After a significant outage on September 24, 2023, Michelle Watkins of a leading ISP stressed transparent, timely communication about the problem and resolution times.",
+  "Mesh networks piloted in Toledo on November 18, 2023 can reroute data through multiple pathways, per Dr. James Park.",
+  "Satellite internet offers redundancy and could serve areas unserved by traditional ISPs.",
+  "After the September 30, 2023 outage affecting New York City businesses, Councilmember Javier Ramos proposed legislation requiring higher resilience standards for ISPs."
+ ],
+ "entities": [
+  {
+   "name": "Casey O'Donovan",
+   "type": "person",
+   "role": "Network engineer with over a decade of experience who compares the internet to a highway system"
+  },
+  {
+   "name": "Rajiv Srinivasan",
+   "type": "person",
+   "role": "Harvard Business Analyst who led a November 1, 2023 study on downtime costs"
+  },
+  {
+   "name": "Linda Guerrero",
+   "type": "person",
+   "role": "Business expert and consultant recommending downtime strategies"
+  },
+  {
+   "name": "Sarah Jensen",
+   "type": "person",
+   "role": "Remote work consultant advising on offline work tools"
+  },
+  {
+   "name": "Tom Reynolds",
+   "type": "person",
+   "role": "Tech blogger and home network specialist"
+  },
+  {
+   "name": "Michelle Watkins",
+   "type": "person",
+   "role": "Customer relations manager at a leading ISP"
+  },
+  {
+   "name": "Dr. James Park",
+   "type": "person",
+   "role": "Computer scientist involved in the Toledo mesh network project"
+  },
+  {
+   "name": "Javier Ramos",
+   "type": "person",
+   "role": "City Councilmember who proposed ISP resilience legislation"
+  },
+  {
+   "name": "Austin",
+   "type": "place",
+   "role": "Site of a fiber cut incident reported October 12, 2023"
+  },
+  {
+   "name": "San Francisco",
+   "type": "place",
+   "role": "Location of cyberattacks later in October 2023"
+  },
+  {
+   "name": "Toledo",
+   "type": "place",
+   "role": "Site of a mesh network pilot on November 18, 2023"
+  },
+  {
+   "name": "New York City",
+   "type": "place",
+   "role": "City whose businesses were affected by the September 30, 2023 outage"
+  },
+  {
+   "name": "Harvard Business",
+   "type": "organization",
+   "role": "Affiliation of analyst Rajiv Srinivasan"
+  },
+  {
+   "name": "Internet service providers (ISPs)",
+   "type": "organization",
+   "role": "Providers expected to communicate transparently and improve infrastructure"
+  },
+  {
+   "name": "September 15, 2023 outage",
+   "type": "event",
+   "role": "Widespread outage that caught businesses and home users off guard"
+  }
+ ],
+ "tags": [
+  "internet-outage",
+  "business-continuity",
+  "disaster-preparedness",
+  "isp",
+  "remote-work",
+  "infrastructure"
+ ],
+ "usage": {
+  "input_tokens": 2989,
+  "output_tokens": 1487
+ }
+}

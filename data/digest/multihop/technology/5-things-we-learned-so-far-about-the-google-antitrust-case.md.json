@@ -1,0 +1,108 @@
+{
+ "summary": "TechCrunch recaps five takeaways from the U.S. government's antitrust trial against Google, after CEO Sundar Pichai testified on Monday. Evidence showed Google paid $26.3 billion in 2021 for default search placement, agreed not to promote Chrome to Safari users, tried to get preinstalled on iPhones, faced questions over deleted chats, and was confronted with its own 2005 complaint about Internet Explorer defaults. The piece also outlines possible remedies and ripple effects on other Big Tech cases.",
+ "one_line": "TechCrunch outlines five revelations from the Google antitrust trial, including $26.3 billion in default-search payments and Pichai's testimony, plus possible remedies and wider implications.",
+ "key_facts": [
+  "Google CEO Sundar Pichai testified Monday in the U.S. government's antitrust trial, defending deals with Apple and others to make Google the default search engine.",
+  "The lawsuit stems from a 2020 antitrust claim over Google's dominance in online search, separate from the January claim by the DOJ and eight states about digital advertising.",
+  "Search head Prabhakar Raghavan testified on October 28 that Google paid $26.3 billion in 2021 to browsers, phones and platforms including Apple, Samsung and Mozilla.",
+  "About $18 billion of Google's 2021 payments went to Apple, per a New York Times report; Google has had its Apple deal since 2003.",
+  "A 2007 Google email cited data showing that users who changed their homepage to Google did 15% more Google searches, while those who switched away did 27% fewer.",
+  "Microsoft CEO Satya Nadella said he was willing to spend $15 billion per year to get Bing into Apple's default search, per The Information.",
+  "As part of its search deal with Apple, Google agreed not to promote Chrome to Safari users, per Bloomberg.",
+  "Pichai admitted trying in 2018 to get Tim Cook to preinstall Google on every iOS device; Cook declined because Apple doesn't preload third-party software.",
+  "In February the DOJ accused Google of systematically destroying chats via its history-off option, which deletes messages every 24 hours, despite a litigation hold.",
+  "In 2005 Google legal chief David Drummond sent Microsoft a letter calling Internet Explorer as the default anticompetitive, saying most users \"do not change defaults.\"",
+  "The DOJ has said Google gets 16 times more data than Bing every day.",
+  "A ruling against Google could resemble the Microsoft case, including behavior changes and possibly sharing data with other search engines.",
+  "The FTC sued Amazon in September, and the FTC's case against Facebook seeks the sale of Instagram and WhatsApp."
+ ],
+ "entities": [
+  {
+   "name": "Sundar Pichai",
+   "type": "person",
+   "role": "Google CEO who testified in the antitrust trial"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Defendant in the DOJ antitrust case over search dominance"
+  },
+  {
+   "name": "Department of Justice",
+   "type": "organization",
+   "role": "Plaintiff in the antitrust case; also investigating Apple"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Received about $18 billion from Google in 2021 for default search"
+  },
+  {
+   "name": "Prabhakar Raghavan",
+   "type": "person",
+   "role": "Google search head who revealed the $26.3 billion payments"
+  },
+  {
+   "name": "Meagan Bellshaw",
+   "type": "person",
+   "role": "U.S. Justice Department lawyer who questioned Pichai"
+  },
+  {
+   "name": "Satya Nadella",
+   "type": "person",
+   "role": "Microsoft CEO who testified he'd spend $15 billion per year for Bing default on Apple"
+  },
+  {
+   "name": "Tim Cook",
+   "type": "person",
+   "role": "Apple CEO whom Pichai pitched in 2018 on preinstalling Google"
+  },
+  {
+   "name": "David Drummond",
+   "type": "person",
+   "role": "Google legal chief who wrote a 2005 letter criticizing Internet Explorer as default"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Past antitrust defendant in the 1990s; Bing and Internet Explorer maker"
+  },
+  {
+   "name": "DuckDuckGo",
+   "type": "organization",
+   "role": "Rival search engine whose CEO testified it could compete with similar Apple deals"
+  },
+  {
+   "name": "Federal Trade Commission",
+   "type": "organization",
+   "role": "Sued Amazon in September and is in a case against Facebook"
+  },
+  {
+   "name": "Chrome",
+   "type": "product",
+   "role": "Google browser Google agreed not to promote to Safari users"
+  },
+  {
+   "name": "Samsung",
+   "type": "organization",
+   "role": "Company that received Google default search payments"
+  },
+  {
+   "name": "Mozilla",
+   "type": "organization",
+   "role": "Company that received Google default search payments"
+  }
+ ],
+ "tags": [
+  "antitrust",
+  "google",
+  "big-tech",
+  "search-engines",
+  "apple",
+  "legal"
+ ],
+ "usage": {
+  "input_tokens": 3231,
+  "output_tokens": 1591
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "summary": "The article outlines best practices for IT administrators securing remote and hybrid workforces, backed by statistics from several surveys and reports showing rising cyberattacks, phishing and malware. It covers endpoint security, MFA, employee training, VPNs, monitoring with SIEM, 3-2-1 backups, clear remote work policies, Zero Trust, AI/ML and cross-department collaboration. Expert quotes and company examples illustrate each measure.",
+ "one_line": "A guide to remote work security best practices for IT administrators, citing threat statistics and expert and company examples across a dozen defensive measures.",
+ "key_facts": [
+  "A Gartner survey on September 12, 2023 found 80% of companies intend to allow employees to work remotely at least part-time.",
+  "A CyberEdge Group report released October 5, 2023 found a 30% increase in cyberattacks since remote work became a common arrangement.",
+  "A StatSecure study published November 21, 2023 found phishing attempts rose 120% since remote work became the norm, and malware-related breaches linked to remote work rose 150% since early last year.",
+  "GlobalTech Solutions, led by senior IT administrator Mark Liu, rolled out a company-wide MFA mandate on October 15, 2023, resulting in a 70% decrease in unauthorized access attempts.",
+  "A CyberWorkforce study dated December 1, 2023 found that 95% of cybersecurity breaches are due to human error.",
+  "A NetSecure benchmarking report released January 3, 2024 indicates only 60% of remote workers consistently use a VPN.",
+  "Jessica Toms, CISO at SecureItAll Inc., said remote work has changed the security perimeter and endpoint security must be a core focus.",
+  "Dr. Alan Houser argued that endpoint security must include advanced threat detection and response capabilities, not just antivirus, in his keynote at CyberSecCon on September 25, 2023.",
+  "Brad Davis, IT director at Innovatech Ltd., said in a February 16, 2024 interview that their SIEM solution caught several potential breaches by flagging unusual activity.",
+  "Julie Chen of Verity Data Services described a 3-2-1 backup strategy: three total copies of data, two local on different devices, and one off-site.",
+  "Simon Jeffries of Jeffries & Jeffries highlighted the importance of clear remote work policies after an April 2023 security breach attributed to unclear remote work guidelines.",
+  "Zero Trust enforces strict access controls and trusts no entity by default; Josh Kramer of CyberNet Solutions said his firm designs networks around the principle of least privilege.",
+  "A tech roundtable chaired by Anne Marie Thompson on February 25, 2024 revealed that AI and machine learning can boost cybersecurity by recognizing patterns and identifying anomalies."
+ ],
+ "entities": [
+  {
+   "name": "Gartner",
+   "type": "organization",
+   "role": "Conducted a September 12, 2023 survey showing 80% of companies plan to allow remote work at least part-time"
+  },
+  {
+   "name": "CyberEdge Group",
+   "type": "organization",
+   "role": "Published an October 5, 2023 report showing a 30% rise in cyberattacks"
+  },
+  {
+   "name": "Jessica Toms",
+   "type": "person",
+   "role": "Chief Information Security Officer at SecureItAll Inc."
+  },
+  {
+   "name": "SecureItAll Inc.",
+   "type": "organization",
+   "role": "Employer of Jessica Toms"
+  },
+  {
+   "name": "StatSecure",
+   "type": "organization",
+   "role": "Published a November 21, 2023 study on phishing and malware increases"
+  },
+  {
+   "name": "Dr. Alan Houser",
+   "type": "person",
+   "role": "Cybersecurity expert who stressed advanced endpoint threat detection and response"
+  },
+  {
+   "name": "CyberSecCon",
+   "type": "event",
+   "role": "Remote work security conference where Houser gave a keynote on September 25, 2023"
+  },
+  {
+   "name": "GlobalTech Solutions",
+   "type": "organization",
+   "role": "Company whose IT team rolled out a company-wide MFA mandate"
+  },
+  {
+   "name": "Mark Liu",
+   "type": "person",
+   "role": "Senior IT administrator at GlobalTech Solutions who led the MFA rollout"
+  },
+  {
+   "name": "CyberWorkforce",
+   "type": "organization",
+   "role": "Produced a December 1, 2023 study finding 95% of breaches are due to human error"
+  },
+  {
+   "name": "Nick Foster",
+   "type": "person",
+   "role": "Head of Employee Training at LearnSafe"
+  },
+  {
+   "name": "LearnSafe",
+   "type": "organization",
+   "role": "Employer of Nick Foster"
+  },
+  {
+   "name": "Laura Olsen",
+   "type": "person",
+   "role": "IT administrator at NextGen Security who credited enterprise-grade VPNs with reducing attack surface"
+  },
+  {
+   "name": "NextGen Security",
+   "type": "organization",
+   "role": "Employer of Laura Olsen"
+  },
+  {
+   "name": "NetSecure",
+   "type": "organization",
+   "role": "Released a January 3, 2024 benchmarking report on VPN use"
+  },
+  {
+   "name": "Brad Davis",
+   "type": "person",
+   "role": "IT director at Innovatech Ltd. who praised SIEM monitoring"
+  },
+  {
+   "name": "Innovatech Ltd.",
+   "type": "organization",
+   "role": "Employer of Brad Davis"
+  },
+  {
+   "name": "Julie Chen",
+   "type": "person",
+   "role": "Data Protection Officer at Verity Data Services who advocated the 3-2-1 backup strategy"
+  },
+  {
+   "name": "Verity Data Services",
+   "type": "organization",
+   "role": "Employer of Julie Chen"
+  },
+  {
+   "name": "Simon Jeffries",
+   "type": "person",
+   "role": "Senior partner at Jeffries & Jeffries who highlighted the need for clear remote work policies"
+  },
+  {
+   "name": "Jeffries & Jeffries",
+   "type": "organization",
+   "role": "Law firm of Simon Jeffries"
+  },
+  {
+   "name": "Josh Kramer",
+   "type": "person",
+   "role": "Network architect at CyberNet Solutions who discussed Zero Trust and least privilege"
+  },
+  {
+   "name": "CyberNet Solutions",
+   "type": "organization",
+   "role": "Employer of Josh Kramer"
+  },
+  {
+   "name": "Anne Marie Thompson",
+   "type": "person",
+   "role": "AI expert who chaired a February 25, 2024 tech roundtable on AI and ML in cybersecurity"
+  },
+  {
+   "name": "Sam Jacobs",
+   "type": "person",
+   "role": "Cybersecurity analyst at FirewallForensics who stressed collaboration"
+  },
+  {
+   "name": "FirewallForensics",
+   "type": "organization",
+   "role": "Employer of Sam Jacobs"
+  },
+  {
+   "name": "CyberSecure Team Building Event",
+   "type": "event",
+   "role": "March 10, 2024 event where a collaborative approach to cybersecurity was echoed"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "remote-work",
+  "it-administration",
+  "zero-trust",
+  "endpoint-security",
+  "employee-training"
+ ],
+ "usage": {
+  "input_tokens": 3162,
+  "output_tokens": 2235
+ }
+}

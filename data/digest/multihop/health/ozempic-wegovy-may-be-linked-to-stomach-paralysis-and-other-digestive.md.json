@@ -1,0 +1,118 @@
+{
+ "summary": "A JAMA study from the University of British Columbia found that GLP-1 receptor agonists such as Ozempic and Wegovy, when used for weight loss, were linked to higher risks of stomach paralysis (gastroparesis), pancreatitis and bowel obstruction compared with bupropion-naltrexone. The researchers called the events rare but concerning given wide use, and recommended updating warning labels. Novo Nordisk responded that its labeling already covers GI side effects and that the study has limitations, while an outside cardiologist said cardiovascular benefits appear to outweigh the risks.",
+ "one_line": "A JAMA study links GLP-1 weight loss drugs like Ozempic and Wegovy to higher risks of stomach paralysis, pancreatitis and bowel obstruction.",
+ "key_facts": [
+  "The study was published Thursday in JAMA and was the first large epidemiological study of these adverse effects in non-diabetic patients using the drugs specifically for weight loss, per a UBC press release.",
+  "UBC researchers examined health insurance claim records for approximately 16 million U.S. patients prescribed Ozempic, Wegovy or semaglutide or liraglutide medications between 2006 and 2020.",
+  "Compared with bupropion-naltrexone, GLP-1 agonist users were 3.67 times more likely to develop stomach paralysis, had a 9.09 times higher risk of pancreatitis and were 4.22 times more likely to have bowel obstruction.",
+  "The researchers could not assess whether stomach paralysis was temporary or permanent.",
+  "The number of people in the U.S. using GLP-1 agonists for diabetes or obesity reportedly reached 40 million in 2022.",
+  "The researchers recommend that regulators and drugmakers consider updating warning labels, which currently don't include the risk of gastroparesis.",
+  "Study co-author Dr. Mahyar Etminan said the decision should be individually assessed: benefits may outweigh risks in very obese individuals, while risks may outweigh benefits in healthy people wanting to lose a few pounds.",
+  "Limitations: researchers lacked medical charts for subjects' histories and could not look at risk with individual GLP-1 drugs, though Etminan thinks it is probably a class effect.",
+  "Etminan suspects people with preexisting GI conditions might be more susceptible, but the study did not determine which groups were at higher risk.",
+  "Cardiologist Dr. Ernst von Schwarz, not involved in the study, said GLP-1 drugs reduce cardiovascular event risk (Ozempic in 2016 in diabetics, Wegovy in 2023) and that these benefits appear to outweigh the side-effect risks.",
+  "In August, a Louisiana woman sued Novo Nordisk and Lilly, claiming they downplayed GI events from Ozempic and Mounjaro and never warned of gastroparesis.",
+  "Novo Nordisk said its FDA-approved labeling for Saxenda, Wegovy, Ozempic, Rybelsus and Victoza includes information on pancreatitis, ileus and delayed gastric emptying, and noted the study has limitations including confounding by indication.",
+  "Novo Nordisk noted Wegovy was not on the market during 2006-2020, Saxenda was approved in December 2014, Victoza in January 2010 and Ozempic in December 2017."
+ ],
+ "entities": [
+  {
+   "name": "Ozempic",
+   "type": "product",
+   "role": "semaglutide drug prescribed for diabetes management, linked to GI risks in the study"
+  },
+  {
+   "name": "Wegovy",
+   "type": "product",
+   "role": "semaglutide drug prescribed for weight loss, linked to GI risks"
+  },
+  {
+   "name": "Rybelsus",
+   "type": "product",
+   "role": "GLP-1 drug for type 2 diabetes included in the risk finding"
+  },
+  {
+   "name": "Saxenda",
+   "type": "product",
+   "role": "GLP-1 weight loss drug included in the risk finding"
+  },
+  {
+   "name": "Victoza",
+   "type": "product",
+   "role": "Novo Nordisk GLP-1 diabetes drug, FDA-approved January 2010"
+  },
+  {
+   "name": "Mounjaro",
+   "type": "product",
+   "role": "GLP-1 agonist made by Lilly, named in the Louisiana lawsuit"
+  },
+  {
+   "name": "JAMA",
+   "type": "organization",
+   "role": "journal that published the study"
+  },
+  {
+   "name": "The University of British Columbia (UBC)",
+   "type": "organization",
+   "role": "institution whose researchers conducted the study"
+  },
+  {
+   "name": "Dr. Mahyar Etminan",
+   "type": "person",
+   "role": "study co-author and UBC associate professor who commented on risks and limitations"
+  },
+  {
+   "name": "Mohit Sodhi",
+   "type": "person",
+   "role": "first author of the study, UBC experimental medicine graduate"
+  },
+  {
+   "name": "Dr. Ernst von Schwarz",
+   "type": "person",
+   "role": "California-based cardiologist, not involved in the study, who noted cardiovascular benefits"
+  },
+  {
+   "name": "Novo Nordisk",
+   "type": "organization",
+   "role": "maker of Ozempic and Wegovy; defended its labeling and safety and criticized the study's limitations"
+  },
+  {
+   "name": "Lilly",
+   "type": "organization",
+   "role": "maker of Mounjaro, co-defendant in the Louisiana lawsuit"
+  },
+  {
+   "name": "U.S. Food and Drug Administration (FDA)",
+   "type": "organization",
+   "role": "regulator that lists ileus as a potential Ozempic side effect"
+  },
+  {
+   "name": "Cleveland Clinic",
+   "type": "organization",
+   "role": "source cited for the definition of stomach paralysis"
+  },
+  {
+   "name": "Mayo Clinic",
+   "type": "organization",
+   "role": "source cited for the definition of ileus"
+  },
+  {
+   "name": "Fox News Digital",
+   "type": "organization",
+   "role": "outlet that interviewed Etminan and von Schwarz and received Novo Nordisk's statement"
+  }
+ ],
+ "tags": [
+  "glp-1",
+  "ozempic",
+  "wegovy",
+  "gastroparesis",
+  "drug-safety",
+  "weight-loss"
+ ],
+ "usage": {
+  "input_tokens": 3803,
+  "output_tokens": 1958
+ }
+}

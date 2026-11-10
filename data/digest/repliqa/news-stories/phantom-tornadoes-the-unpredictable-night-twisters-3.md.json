@@ -1,0 +1,98 @@
+{
+ "summary": "The note describes 'Phantom Tornadoes', night-time twisters reported since September 2023 that strike without warning and evade radar detection. It covers the first incident in Halcyon Ridge, Oklahoma, scientists' hypotheses (very low formation altitude, thermal inversions from urban heat islands), and new responses including LiDAR, machine learning, crowdsourced warnings via the WeatherGuardian app, and community education. Scientists are optimistic the mystery may soon be solved.",
+ "one_line": "Phantom Tornadoes, undetected night twisters seen since September 2023, are driving new research in LiDAR, machine learning, crowdsourced warnings and community education.",
+ "key_facts": [
+  "The first Phantom Tornado incident was reported on the evening of September 13, 2023, in the small town of Halcyon Ridge, Oklahoma.",
+  "In Halcyon Ridge, residents heard a sudden silence followed by a roar like a freight train; no warning was issued and no weather radar detected a twister.",
+  "Phantom Tornadoes strike without the telltale radar signature caused by rotating winds at the base of thunderstorms and have been reported across multiple states.",
+  "Dr. Emily Forrest of the National Weather Service suggests the tornadoes may form at very low altitude, below the minimum scan height of radar systems.",
+  "Jonah Sanderson, a climate researcher at the National Atmospheric Research Institute, says standard atmospheric models fail to predict these events and suspects complex thermal inversions created by urban heat islands.",
+  "Climatologists have noticed increased temperature volatility during the late hours of the night, which may underpin formation of the twisters.",
+  "The National Severe Storms Laboratory (NSSL) is collaborating with leading tech companies and has expedited new detection methods since the Halcyon Ridge event.",
+  "LiDAR (Light Detection and Ranging) systems are being field-tested; unlike radar, LiDAR detects shifts in atmospheric particles rather than wind movement patterns.",
+  "Adrian Huffman, a tech entrepreneur investing in LiDAR development, calls LiDAR potentially 'a game-changer' for understanding and predicting Phantom Tornadoes.",
+  "Silicon Valley startup SkyNet Solutions is training machine learning models to detect patterns leading up to nocturnal twisters; Rebecca Liu is a data scientist there.",
+  "The University of Central Tech has partnered with SkyNet Solutions to analyze massive datasets for anomalies signaling a Phantom Tornado.",
+  "A new app, WeatherGuardian, lets the public report suspicious weather through smartphones, supplementing a dense network of personal weather stations.",
+  "Local governments are running workshops on Phantom Tornado signs and the WeatherGuardian app, and schools have added weather awareness programs to their curriculum."
+ ],
+ "entities": [
+  {
+   "name": "Halcyon Ridge",
+   "type": "place",
+   "role": "Small Oklahoma town where the first Phantom Tornado was reported on September 13, 2023"
+  },
+  {
+   "name": "Dr. Emily Forrest",
+   "type": "person",
+   "role": "National Weather Service meteorologist leading research into Phantom Tornadoes"
+  },
+  {
+   "name": "National Weather Service",
+   "type": "organization",
+   "role": "Agency employing Dr. Emily Forrest"
+  },
+  {
+   "name": "Jonah Sanderson",
+   "type": "person",
+   "role": "Climate researcher at the National Atmospheric Research Institute who suspects thermal inversions"
+  },
+  {
+   "name": "National Atmospheric Research Institute",
+   "type": "organization",
+   "role": "Employer of climate researcher Jonah Sanderson"
+  },
+  {
+   "name": "National Severe Storms Laboratory (NSSL)",
+   "type": "organization",
+   "role": "Collaborating with tech companies to develop new detection methods"
+  },
+  {
+   "name": "Adrian Huffman",
+   "type": "person",
+   "role": "Tech entrepreneur investing in LiDAR development for storm detection"
+  },
+  {
+   "name": "SkyNet Solutions",
+   "type": "organization",
+   "role": "Silicon Valley startup applying machine learning to predict Phantom Tornadoes"
+  },
+  {
+   "name": "Rebecca Liu",
+   "type": "person",
+   "role": "Data scientist at SkyNet Solutions"
+  },
+  {
+   "name": "University of Central Tech",
+   "type": "organization",
+   "role": "Partner of SkyNet Solutions analyzing large datasets for anomalies"
+  },
+  {
+   "name": "WeatherGuardian",
+   "type": "product",
+   "role": "App for crowdsourced reporting of suspicious weather and community warnings"
+  },
+  {
+   "name": "LiDAR",
+   "type": "product",
+   "role": "Light Detection and Ranging technology being field-tested to detect atmospheric particle shifts"
+  },
+  {
+   "name": "Phantom Tornadoes",
+   "type": "event",
+   "role": "Undetected night-time tornadoes observed since September 2023"
+  }
+ ],
+ "tags": [
+  "tornadoes",
+  "severe weather",
+  "meteorology",
+  "lidar",
+  "machine learning",
+  "weather warnings"
+ ],
+ "usage": {
+  "input_tokens": 2794,
+  "output_tokens": 1627
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "summary": "A Sporting News explainer on prop bets, which are side bets on specific in-game events or statistical feats rather than the game's outcome. It covers the pros and cons, examples across the NBA, NFL, MLB, NHL and MLS, how American odds work for props, exotic props, and sportsbook rules. The pinnacle of prop betting is the Super Bowl, but props are offered year-round for every major sport.",
+ "one_line": "Explains what prop bets are, their pros and cons, examples by sport, how to read odds, exotic props, and typical sportsbook rules.",
+ "key_facts": [
+  "A prop bet is a \"side bet\" with a sportsbook on a specific event or statistical accomplishment within a game and rarely has anything to do with the game's outcome.",
+  "The Super Bowl is the most popular day of the year for prop bets, with hundreds offered ranging from typical to exotic.",
+  "Example prop bets include LeBron James scoring over 20 points in a game and the Dallas Cowboys gaining over 300 receiving yards in a game.",
+  "A pro of props: their lines tend to adjust more slowly than main lines, since sportsbooks lack the personnel to track every player, so bettors may find value, e.g. an 'under' on a quarterback's passing yards after a winter storm shifts the total in a Jets vs. Bills game.",
+  "Another pro is variety: moneylines, point spreads and totals are the three main bet types, while props add interest to games that seem one-sided.",
+  "A con of props is that they are hard to research because sports are extremely volatile and an athlete can have an off-night.",
+  "The article advises focusing only a small percentage of your bankroll on props and using most of it on moneylines, spreads, or totals.",
+  "Exotic props, such as those around the Super Bowl, are almost impossible to research and amount to guessing.",
+  "A popular NFL regular-season prop is the \"anytime touchdown scorer\" bet, wagering on a player to score a TD at any point in the game.",
+  "Positive American odds show winnings per $100 wagered: a $100 bet at +145 on a quarterback over 2.5 touchdowns pays $245 total ($100 returned plus $145 in winnings).",
+  "Negative odds show the wager needed to win $100: a bet at -135 on a player scoring less than 15.5 points requires $135 to win $100.",
+  "Exotic props can include the number of songs in the halftime show, the coin toss result, or the color of the sports drink dumped on the winning coach.",
+  "Many exotic bets are not legal at US sportsbooks, but large events like the Super Bowl or March Madness bring a wider range of props.",
+  "If a player in a player prop does not play, most sportsbooks void the bet and refund the wager; if he plays even a single play, the bet stands."
+ ],
+ "entities": [
+  {
+   "name": "Sporting News",
+   "type": "organization",
+   "role": "publisher of the article"
+  },
+  {
+   "name": "Martin Derbyshire",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Super Bowl",
+   "type": "event",
+   "role": "most popular day of the year for prop bets and source of the most exotic props"
+  },
+  {
+   "name": "LeBron James",
+   "type": "person",
+   "role": "example player in a points prop bet (over 20 points)"
+  },
+  {
+   "name": "Dallas Cowboys",
+   "type": "organization",
+   "role": "example team in a receiving yards prop (over 300 yards)"
+  },
+  {
+   "name": "New York Jets",
+   "type": "organization",
+   "role": "team in an example game where the total shifts due to a winter storm"
+  },
+  {
+   "name": "Buffalo Bills",
+   "type": "organization",
+   "role": "opponent of the Jets in the same example"
+  },
+  {
+   "name": "NBA",
+   "type": "organization",
+   "role": "league with player and team prop bets like points, assists, three-pointers, first basket"
+  },
+  {
+   "name": "NFL",
+   "type": "organization",
+   "role": "league described as the king of sports betting, with many props such as anytime touchdown scorer"
+  },
+  {
+   "name": "MLB",
+   "type": "organization",
+   "role": "league with props on home runs, RBI, strikeouts"
+  },
+  {
+   "name": "NHL",
+   "type": "organization",
+   "role": "league with props on assists, goals, shots on goal, and which team scores first"
+  },
+  {
+   "name": "MLS",
+   "type": "organization",
+   "role": "league with props on goals, assists, cards, and corner kicks; betting demand growing"
+  },
+  {
+   "name": "March Madness",
+   "type": "event",
+   "role": "large sporting event where sportsbooks offer a wider range of props"
+  }
+ ],
+ "tags": [
+  "sports betting",
+  "prop bets",
+  "super bowl",
+  "american odds",
+  "bankroll management"
+ ],
+ "usage": {
+  "input_tokens": 4185,
+  "output_tokens": 1453
+ }
+}

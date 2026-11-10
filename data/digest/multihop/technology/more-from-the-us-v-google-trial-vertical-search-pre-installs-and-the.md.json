@@ -1,0 +1,118 @@
+{
+ "summary": "TechCrunch rounds up recent testimony in the DOJ's antitrust trial against Google, nearly two months in. Topics include Google's most lucrative search queries, Android pre-install and revenue-share agreements, Expedia's complaints about ads, a European fine that spurred search improvements, and Mozilla's failed switch from Google to Yahoo as Firefox's default search engine. The article also explains what is at stake and how the outcome could affect other Big Tech cases.",
+ "one_line": "A TechCrunch roundup of US v Google trial testimony on top search queries, Android pre-installs, Expedia ad costs, EU-driven search upgrades and Firefox's Yahoo deal.",
+ "key_facts": [
+  "The DOJ's antitrust case against Google is nearly two months in and is called one of the biggest tech antitrust fights since the U.S. took Microsoft to trial in the 1990s.",
+  "The DOJ has said Google gets 16 times more data than Bing every day.",
+  "Judge Amit Mehta ruled to make public a list of 20 search terms ranked by revenue for the week of September 22, 2018, including iPhone 8, auto insurance, cheap flights and LifeLock; revenue and query counts were redacted.",
+  "Google employee Jamie Rosenberg testified on November 8 that Google's mobile app distribution agreement (MADA) requires Android makers like Samsung or Oppo to pre-load a bundle of 11 Google apps, including Search, Chrome and Play, but they need not be defaults.",
+  "Google's revenue share agreements (RSAs) with phone makers and carriers like Verizon require Google search and Chrome to be set as defaults; Rosenberg said Google apps are 'best in class'.",
+  "Barry Diller, chair of Expedia and IAC, testified on November 1 about rising ads in search results hurting organic listings and wrote in a 2019 letter that he was 'on the edge of revolt'.",
+  "Former Expedia COO Jeff Hurst testified on October 19 that Expedia's ad fees rose tenfold from $21 million in 2015 to $290 million in 2019 without an increase in Google traffic.",
+  "The government argued on November 10 that Google only improved its EU search after a €5 billion antitrust fine in 2018; Google's 'Go Big in Europe' plan added local content in France and Germany in 2019 and 2020.",
+  "The EU order forced Google to offer Android users a screen with five search engine options.",
+  "In 2014 Yahoo agreed to pay Mozilla $375 million annually to be Firefox's default search engine, versus Google's $276 million offer, according to Mozilla CEO Mitchell Baker.",
+  "Baker said Firefox's user numbers declined noticeably while Yahoo was the default, as Yahoo served more ads despite promises of fewer ads and less tracking.",
+  "Chrome ended 2014 with nearly 50% browser market share and 2017 at nearly 65% of desktop usage, suggesting Firefox's decline may have had other causes.",
+  "Google settled a separate antitrust suit with Match Group the previous week, and on November 6 went to trial against Epic Games over Google Play."
+ ],
+ "entities": [
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Defendant in the DOJ antitrust trial over search and advertising dominance"
+  },
+  {
+   "name": "Justice Department",
+   "type": "organization",
+   "role": "Plaintiff in the antitrust case against Google"
+  },
+  {
+   "name": "Amit Mehta",
+   "type": "person",
+   "role": "Judge presiding over the case; ordered the list of top search terms made public"
+  },
+  {
+   "name": "Jamie Rosenberg",
+   "type": "person",
+   "role": "Google employee focused on Android and Google Play who testified in Google's defense"
+  },
+  {
+   "name": "Barry Diller",
+   "type": "person",
+   "role": "Chair of Expedia and IAC who testified about ads in search results"
+  },
+  {
+   "name": "Jeff Hurst",
+   "type": "person",
+   "role": "Former Expedia chief operating officer who testified about ad fee increases"
+  },
+  {
+   "name": "Sundar Pichai",
+   "type": "person",
+   "role": "Google CEO who responded that travel listings were a popular Google experience"
+  },
+  {
+   "name": "Mitchell Baker",
+   "type": "person",
+   "role": "Mozilla CEO who gave recorded deposition about Firefox's switch to Yahoo"
+  },
+  {
+   "name": "Expedia",
+   "type": "organization",
+   "role": "Travel company complaining about Google's ads and costs"
+  },
+  {
+   "name": "Mozilla",
+   "type": "organization",
+   "role": "Maker of Firefox that switched its default search to Yahoo in 2014"
+  },
+  {
+   "name": "Yahoo",
+   "type": "organization",
+   "role": "Search provider that paid $375 million annually to be Firefox's default"
+  },
+  {
+   "name": "Epic Games",
+   "type": "organization",
+   "role": "Fortnite maker in a separate trial against Google over Google Play"
+  },
+  {
+   "name": "Match Group",
+   "type": "organization",
+   "role": "Dating site that settled a separate antitrust lawsuit with Google"
+  },
+  {
+   "name": "FTC",
+   "type": "organization",
+   "role": "Sued Amazon in September and is in an ongoing case against Facebook"
+  },
+  {
+   "name": "Bloomberg",
+   "type": "organization",
+   "role": "Outlet cited for trial reporting"
+  },
+  {
+   "name": "Firefox",
+   "type": "product",
+   "role": "Mozilla browser whose default search engine was switched from Google to Yahoo"
+  },
+  {
+   "name": "Mobile app distribution agreement (MADA)",
+   "type": "program",
+   "role": "Google agreement requiring Android makers to pre-load 11 Google apps"
+  }
+ ],
+ "tags": [
+  "antitrust",
+  "google",
+  "search-engines",
+  "android",
+  "mozilla",
+  "court-trial"
+ ],
+ "usage": {
+  "input_tokens": 3898,
+  "output_tokens": 1838
+ }
+}

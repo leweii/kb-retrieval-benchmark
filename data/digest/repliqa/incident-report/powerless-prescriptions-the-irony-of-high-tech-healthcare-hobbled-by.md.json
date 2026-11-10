@@ -1,0 +1,73 @@
+{
+ "summary": "A satirical incident report on a September 14, 2023 power outage at St. Jude's Medical Center, caused by a failure at the local power station. The outage disabled EHRs, wifi, cell service and billing, while the backup generators performed poorly, forcing staff back to paper charts, fax machines and pagers. Surgeries were postponed, records were left in disarray, and the staff were left with a kind of institutional PTSD.",
+ "one_line": "A humorous account of how a September 2023 power outage reduced St. Jude's Medical Center to paper charts, pagers and weak generators.",
+ "key_facts": [
+  "The power outage at St. Jude's Medical Center occurred on September 14, 2023, on an autumn morning.",
+  "The cause was a catastrophic failure at the local power station.",
+  "The backup generators sputtered and only partly worked, supplying critical areas with less power than needed.",
+  "Vital surgeries were postponed because operating rooms had very dim lighting.",
+  "Dr. Hannah Armstrong said, \"It's like we're practicing medieval medicine,\" while staring at her lifeless computer screen.",
+  "Electronic Health Records became unusable, so physicians like Dr. Marcus Wu had to use paper charting and a fax machine.",
+  "Karen Hightower, head of the billing department, said the staff couldn't process claims, admissions, or discharges without internet.",
+  "The local cell tower stopped working, leaving the staff with a \"No Service\" icon, and doctors brought back pagers.",
+  "A young Gen-Z nurse asked whether a pager was a new kind of smartwatch.",
+  "Maintenance worker Mike \"The Wrench\" Henderson described keeping the generators running as \"trying to plug a dam with bubble gum.\"",
+  "Patient Mrs. Ethel Harris, in for a routine procedure, comforted her caregivers by telling her nurse everything would be all right.",
+  "Power returned after several hours, leaving procedures backlogged and records in disarray.",
+  "The article suggests financial losses from the outage may not be covered by insurance."
+ ],
+ "entities": [
+  {
+   "name": "St. Jude's Medical Center",
+   "type": "organization",
+   "role": "Hospital hit by the power outage on September 14, 2023"
+  },
+  {
+   "name": "Dr. Hannah Armstrong",
+   "type": "person",
+   "role": "Doctor who compared the outage to practicing medieval medicine"
+  },
+  {
+   "name": "Dr. Marcus Wu",
+   "type": "person",
+   "role": "Physician forced to use paper charting and a fax machine"
+  },
+  {
+   "name": "Karen Hightower",
+   "type": "person",
+   "role": "Head of the billing department, unable to process claims, admissions or discharges"
+  },
+  {
+   "name": "Mike \"The Wrench\" Henderson",
+   "type": "person",
+   "role": "Maintenance staff member who struggled to keep generators running"
+  },
+  {
+   "name": "Mrs. Ethel Harris",
+   "type": "person",
+   "role": "Patient who came in for a routine procedure and comforted her caregivers"
+  },
+  {
+   "name": "Electronic Health Records (EHRs)",
+   "type": "product",
+   "role": "Digital records system that became unusable during the outage"
+  },
+  {
+   "name": "September 14, 2023 power outage",
+   "type": "event",
+   "role": "Incident that crippled the hospital's technology and operations"
+  }
+ ],
+ "tags": [
+  "power-outage",
+  "healthcare",
+  "hospital-it",
+  "incident-report",
+  "satire",
+  "backup-systems"
+ ],
+ "usage": {
+  "input_tokens": 2740,
+  "output_tokens": 1088
+ }
+}

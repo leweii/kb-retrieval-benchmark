@@ -1,0 +1,97 @@
+{
+ "summary": "TechCrunch's Devin Coldewey speculates about why OpenAI's board fired CEO Sam Altman on a Friday afternoon, citing only that he was \"not consistently candid\" with the board. He walks through eight theories, including a secret deal, strategy or financial disagreements, a security incident, AGI philosophy, copyright liability, a Murati coup, and a personal matter, weighing evidence for and against each. He concludes the cause was probably professional or business-related, and that the full truth may take a long time to emerge.",
+ "one_line": "TechCrunch weighs eight speculative theories for why OpenAI's board abruptly fired CEO Sam Altman for not being \"consistently candid.\"",
+ "key_facts": [
+  "OpenAI's board ejected CEO Sam Altman after an apparent vote of no confidence, saying he \"was not consistently candid in his communications with the board, hindering its ability to exercise its responsibilities.\"",
+  "OpenAI President Greg Brockman stepped down as chairman at the same time as Altman's firing, then resigned.",
+  "Microsoft is deeply embedded in OpenAI as an investor and customer; one report says Microsoft was as shocked as everyone else, and it said it \"remain[s] committed to our partnership.\"",
+  "The author argues OpenAI isn't a sound business because it serves an expensive product at bargain-bin prices, though Altman and the board seemed in sync on that strategy.",
+  "Microsoft reportedly suspended internal use of ChatGPT a few days earlier, and OpenAI subsequently stopped allowing new signups, which bolsters the security-incident theory.",
+  "CTO Mira Murati was elevated to interim CEO, and the board's statement notes she is in charge of product and safety, which works against the security and copyright theories.",
+  "The board's statement says OpenAI was structured to ensure that artificial general intelligence benefits all humanity, and Altman took the company in a more corporate direction by changing its legal status and pursuing enterprise and consumer applications.",
+  "Altman told the author at OpenAI's Dev Day earlier in November that the company doesn't want copyright problems from datasets of pirated books, which the author doubts.",
+  "The author finds it hard to believe OpenAI built GPT-3 with a copyrighted books database but not GPT-4 or later models.",
+  "Chief Science Officer Ilya Sutskever would presumably have known about any copyright issue and is still on the board.",
+  "Altman's younger sister Annie has publicly accused him of abuse; the author says there is no way to evaluate the allegations and reads the board's language as pointing to a professional or business matter.",
+  "An all-hands meeting on the afternoon of the firing reportedly produced only banal reassurances that the company is fine and a fresh CEO will come soon."
+ ],
+ "entities": [
+  {
+   "name": "Sam Altman",
+   "type": "person",
+   "role": "OpenAI CEO fired by the board for not being consistently candid"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "AI company whose board fired its CEO"
+  },
+  {
+   "name": "Greg Brockman",
+   "type": "person",
+   "role": "OpenAI President who stepped down as chairman and then resigned"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "OpenAI investor, customer and patron; reportedly shocked by the firing"
+  },
+  {
+   "name": "Mira Murati",
+   "type": "person",
+   "role": "OpenAI CTO elevated to interim CEO, in charge of product and safety"
+  },
+  {
+   "name": "Ilya Sutskever",
+   "type": "person",
+   "role": "OpenAI Chief Science Officer who remains on the board"
+  },
+  {
+   "name": "Annie",
+   "type": "person",
+   "role": "Altman's younger sister who has publicly accused him of abuse"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "OpenAI's hyped product; Microsoft reportedly suspended internal use"
+  },
+  {
+   "name": "GPT-3",
+   "type": "product",
+   "role": "OpenAI model possibly built with a copyrighted books database"
+  },
+  {
+   "name": "GPT-4",
+   "type": "product",
+   "role": "OpenAI model the author doubts avoided copyrighted book data"
+  },
+  {
+   "name": "Dev Day",
+   "type": "event",
+   "role": "OpenAI event earlier in November where Altman spoke with the author about copyright"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publisher of the article"
+  },
+  {
+   "name": "Devin Coldewey",
+   "type": "person",
+   "role": "Article author who spoke with Altman at Dev Day"
+  }
+ ],
+ "tags": [
+  "openai",
+  "sam-altman",
+  "corporate-governance",
+  "artificial-intelligence",
+  "tech-news",
+  "speculation"
+ ],
+ "usage": {
+  "input_tokens": 3726,
+  "output_tokens": 1507
+ }
+}

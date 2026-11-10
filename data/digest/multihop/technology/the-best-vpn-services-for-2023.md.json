@@ -1,0 +1,133 @@
+{
+ "summary": "Engadget's Katie Malone tested nine VPN services and picked five favorites: ProtonVPN (overall), Windscribe (free), ExpressVPN (streaming, travel, gaming), CyberGhost (cross-platform) and Surfshark (multiple devices). The guide explains that VPNs are only one part of online security, protecting mainly against ISP and public WiFi snooping and enabling geoblock workarounds, but not against phishing or data theft. It also covers the testing method, why NordVPN, TunnelBear, Bitdefender and Atlas VPN missed the cut, and an FAQ.",
+ "one_line": "Engadget tested nine VPNs and picked ProtonVPN, Windscribe, ExpressVPN, CyberGhost and Surfshark, while cautioning that VPNs are only one part of online security.",
+ "key_facts": [
+  "Engadget tested nine VPN services and chose five top picks: ProtonVPN, Windscribe, ExpressVPN, CyberGhost and Surfshark.",
+  "VPNs do not protect against phishing attacks or data theft, according to Roya Ensafi of the University of Michigan; much of the data is stored with the VPN provider instead of the ISP.",
+  "Yael Grauer of Consumer Reports recommends open-source software with reproducible builds and up-to-date support for protocols like WireGuard (CR's preferred protocol) or IPsec.",
+  "Testing included a geoblock test using Canada-exclusive Netflix releases, a streaming test of a YouTube news livestream via a Hong Kong-based VPN, and a gaming test on servers in the United Kingdom.",
+  "ProtonVPN is based in Switzerland, has a no-logs policy that has passed audits, and its paid plan starts at about $5.39 per month with servers in more than 65 countries on 10 devices.",
+  "Windscribe's free plan offers 10GB per month of data and unlimited connections; the company has over 500 servers in over 60 countries and its paid plans cost $5.75 to $9 per month.",
+  "ExpressVPN has 2,000 servers in 160 cities, allows up to five simultaneous devices, costs $8.32 to $12.95 per month, and includes the password manager ExpressVPN Keys and a kill switch called Network Lock.",
+  "CyberGhost allows seven simultaneous devices, costs $2.11 to $12.99 per month, completed a Deloitte security audit, and expanded from 91 to 100 countries.",
+  "Surfshark offers unlimited devices at about $2.49 to $12.95 per month and recently conducted its first independent audit; the testers had trouble with its WireGuard protocol and used IKEv2 instead.",
+  "NordVPN was rejected as overhyped and underwhelming, with pricing up to $14.49 for a 'complete' subscription.",
+  "TunnelBear failed numerous basic Consumer Reports security tests, though it added WireGuard support across more platforms in July.",
+  "An Atlas VPN vulnerability leaked Linux users' real IP addresses, and Bitdefender VPN lacked a transparency report or third-party audit.",
+  "Jed Crandall of Arizona State University suggested the free Tor browser as an alternative for activists and journalists.",
+  "Google One subscriptions include a VPN as of early 2023, available in 22 countries and shareable with up to five people; Engadget had not fully tested it."
+ ],
+ "entities": [
+  {
+   "name": "Engadget",
+   "type": "organization",
+   "role": "Publisher that tested and reviewed the VPN services"
+  },
+  {
+   "name": "Katie Malone",
+   "type": "person",
+   "role": "Author of the guide"
+  },
+  {
+   "name": "Roya Ensafi",
+   "type": "person",
+   "role": "Assistant professor of computer science and engineering at the University of Michigan; explained VPN limitations"
+  },
+  {
+   "name": "Yael Grauer",
+   "type": "person",
+   "role": "Program manager of Consumer Reports' online security guide; recommends VPN security features"
+  },
+  {
+   "name": "Jed Crandall",
+   "type": "person",
+   "role": "Associate professor at Arizona State University; suggested Tor for stronger anonymity"
+  },
+  {
+   "name": "Consumer Reports",
+   "type": "organization",
+   "role": "Source of academic security testing work used in evaluations"
+  },
+  {
+   "name": "VPNalyzer",
+   "type": "organization",
+   "role": "Source of pre-existing academic work used for testing"
+  },
+  {
+   "name": "ProtonVPN",
+   "type": "product",
+   "role": "Best VPN overall"
+  },
+  {
+   "name": "Proton Technologies",
+   "type": "organization",
+   "role": "Maker of ProtonVPN, mail, calendar and drive services"
+  },
+  {
+   "name": "Windscribe",
+   "type": "product",
+   "role": "Best free VPN"
+  },
+  {
+   "name": "ExpressVPN",
+   "type": "product",
+   "role": "Best VPN for streaming, frequent travel and gaming"
+  },
+  {
+   "name": "CyberGhost",
+   "type": "product",
+   "role": "Best VPN for cross-platform accessibility"
+  },
+  {
+   "name": "Surfshark",
+   "type": "product",
+   "role": "Best VPN for multiple devices"
+  },
+  {
+   "name": "NordVPN",
+   "type": "product",
+   "role": "Tested VPN that missed the cut as overhyped and underwhelming"
+  },
+  {
+   "name": "TunnelBear",
+   "type": "product",
+   "role": "Tested VPN that failed basic security tests"
+  },
+  {
+   "name": "Bitdefender VPN",
+   "type": "product",
+   "role": "Tested VPN lacking router support and audits"
+  },
+  {
+   "name": "Atlas VPN",
+   "type": "product",
+   "role": "Tested VPN with slower speeds and an IP leak vulnerability on Linux"
+  },
+  {
+   "name": "Google One",
+   "type": "product",
+   "role": "Subscription that includes a VPN, not yet fully tested"
+  },
+  {
+   "name": "Deloitte",
+   "type": "organization",
+   "role": "Conducted CyberGhost's independent security audit"
+  },
+  {
+   "name": "Tor",
+   "type": "product",
+   "role": "Free anonymity-focused browser suggested as an alternative"
+  }
+ ],
+ "tags": [
+  "vpn",
+  "cybersecurity",
+  "privacy",
+  "product-reviews",
+  "streaming"
+ ],
+ "usage": {
+  "input_tokens": 6771,
+  "output_tokens": 1953
+ }
+}

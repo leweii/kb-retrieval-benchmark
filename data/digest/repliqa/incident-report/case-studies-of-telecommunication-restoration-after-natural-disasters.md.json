@@ -1,0 +1,97 @@
+{
+ "summary": "The note presents six case studies of telecommunication restoration after disasters and crises between September 2023 and February 2024, including earthquakes, a hurricane, floods, tremors, a refugee-camp conflict zone, and Oregon forest fires. It describes the technical measures used, such as COWs, satellite links, mesh networks, seismic-resistant towers, solar internet points and emergency radio, and the specialists who led them. Its overarching point is that restoration is valued for the reunions, education, and sense of safety and community it brings.",
+ "one_line": "Six case studies from 2023-2024 show how telecom networks were restored after quakes, hurricanes, floods, conflict and fires, and why it matters to communities.",
+ "key_facts": [
+  "A magnitude 7.9 earthquake struck the coastal city of Thalassa on October 15, 2023, severing key communication lines.",
+  "Maria Gonsalves's team in Thalassa worked 12-hour shifts and deployed temporary cell towers, Cells on Wheels (COWs), within 48 hours of the disaster.",
+  "Solar-powered charging stations let Thalassa residents charge mobile devices while power was intermittent.",
+  "By Day 5, Maria Gonsalves and her team had restored 60% of mobile network capabilities in Thalassa.",
+  "After Hurricane Eloise on November 17, 2023, satellite communications specialist James Pfieffer set up emergency satellite links for Pantai Kencana.",
+  "Over three weeks, James Pfieffer's team laid over 30 miles of temporary cable and repaired junction points, prioritizing hospitals and emergency shelters.",
+  "Satellite phones were handed out and communication tents served as impromptu call centers in Pantai Kencana.",
+  "Flash floods in Montalban (September 21, 2023) followed a week-long downpour and caused landslides that uprooted cell towers and fiber-optic cables.",
+  "Community organizer Sofia Ramirez liaised with international aid organizations to funnel resources into Montalban's restoration, and engineers built a mesh network to bypass the worst-hit areas.",
+  "In the Rift Valley (December 8, 2023), William Okello's team installed seismic-resistant towers designed to swing and sway with tremors.",
+  "On January 28, 2024, Hadiya Farouk's project provided Wi-Fi in Syrian border refugee camps through solar-powered internet service points, supporting education, family contact and small online businesses.",
+  "During the Oregon forest fires (February 15, 2024), emergency radio and satellite systems coordinated ground teams and air support; Elaine Choi helped manage these networks.",
+  "Portable radio stations in rural Oregon broadcast fire movement, evacuation notices and information on emergency supplies where mobile networks were down."
+ ],
+ "entities": [
+  {
+   "name": "Maria Gonsalves",
+   "type": "person",
+   "role": "Seasoned telecommunications expert who led the Thalassa restoration team"
+  },
+  {
+   "name": "James Pfieffer",
+   "type": "person",
+   "role": "Satellite communications specialist who set up emergency links after Hurricane Eloise"
+  },
+  {
+   "name": "Sofia Ramirez",
+   "type": "person",
+   "role": "Community organizer who liaised with international aid organizations in Montalban"
+  },
+  {
+   "name": "William Okello",
+   "type": "person",
+   "role": "Earthquake engineering specialist leading the Rift Valley task force"
+  },
+  {
+   "name": "Hadiya Farouk",
+   "type": "person",
+   "role": "Telecommunication expert who initiated Wi-Fi coverage in Syrian border refugee camps"
+  },
+  {
+   "name": "Elaine Choi",
+   "type": "person",
+   "role": "Emergency systems operator managing networks during the Oregon fires"
+  },
+  {
+   "name": "Thalassa",
+   "type": "place",
+   "role": "Coastal city hit by a magnitude 7.9 earthquake on October 15, 2023"
+  },
+  {
+   "name": "Pantai Kencana",
+   "type": "place",
+   "role": "Area whose residents were disconnected by Hurricane Eloise"
+  },
+  {
+   "name": "Montalban",
+   "type": "place",
+   "role": "Region hit by flash floods and landslides on September 21, 2023"
+  },
+  {
+   "name": "Rift Valley",
+   "type": "place",
+   "role": "Region affected by a series of earth tremors on December 8, 2023"
+  },
+  {
+   "name": "Oregon",
+   "type": "place",
+   "role": "Location of forest fires that damaged communications networks on February 15, 2024"
+  },
+  {
+   "name": "Hurricane Eloise",
+   "type": "event",
+   "role": "Hurricane that destroyed telecommunications infrastructure on November 17, 2023"
+  },
+  {
+   "name": "Cells on Wheels (COWs)",
+   "type": "product",
+   "role": "Temporary cell towers deployed in Thalassa within 48 hours"
+  }
+ ],
+ "tags": [
+  "telecommunications",
+  "disaster-recovery",
+  "incident-report",
+  "natural-disasters",
+  "emergency-response"
+ ],
+ "usage": {
+  "input_tokens": 3309,
+  "output_tokens": 1574
+ }
+}

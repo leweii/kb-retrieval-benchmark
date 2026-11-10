@@ -1,0 +1,113 @@
+{
+ "summary": "Music Business Worldwide analyzes the National Music Publishers Association's October 30, 2023 submission to the US Copyright Office's inquiry on AI and copyright. The NMPA calls generative AI potentially \"the greatest risk to the human creative class that has ever existed\" while saying it is not opposed to AI. It argues against copyright for purely AI-generated works, for licensing and recordkeeping requirements, against opt-out regimes, and against fair use for AI training, positions largely shared by UMG but contested by Anthropic.",
+ "one_line": "The NMPA tells the US Copyright Office that generative AI threatens human creators and urges licensing, transparency, opt-in consent, and no fair use for AI training.",
+ "key_facts": [
+  "The NMPA's submission to the US Copyright Office is dated October 30, 2023, and says its members, US music publishers major and independent, are \"not opposed\" to AI.",
+  "The NMPA wrote that \"generative AI is the greatest risk to the human creative class that has ever existed\" and urged the Copyright Office to err on the side of protecting human creators where there is uncertainty.",
+  "The NMPA argues that works created principally by AI from a simple prompt should not be copyrightable and should be treated like public domain works, while works made with AI as a tool by human authors should be protected.",
+  "In August 2023 a US District Court in Washington, D.C. sided with the Copyright Office against Stephen Thaler, whose \"Creativity Machine\" created an AI-generated painting; Judge Beryl A. Howell wrote \"Human authorship is a bedrock requirement of copyright.\"",
+  "UMG, Concord Music Group and ABKCO sued AI developer Anthropic over alleged \"systematic and widespread infringement of their copyrighted song lyrics,\" seeking potentially tens of millions of dollars.",
+  "The NMPA says licensing musical works before AI training is \"both required and practicable\" and notes UMG and Warner Music Group were reported to be in talks with Google over licenses for artists' vocals and melodies.",
+  "The NMPA wants transparency and recordkeeping requirements for developers of AI models, those who build new tools on existing models, and those who broker datasets for AI training.",
+  "The EU's proposed AI Act would require AI developers to disclose whether their AI was trained on copyrighted materials, and TikTok and YouTube now require AI-generated content to be labeled.",
+  "The NMPA strongly opposes an opt-out regime, saying US copyright law is an opt-in system and opt-outs would shift the burden to obtain a license away from users and onto copyright owners.",
+  "UMG made a similar argument in its own submission, calling opt-out systems based on the \"erroneous premise\" that training on copyrighted works without permission is lawful by default.",
+  "The NMPA argues AI training fails all four fair use factors, calling it \"fundamentally a commercial endeavor\" and warning that noncommercial or research claims should be \"viewed skeptically.\"",
+  "Anthropic argued in its own submission that training on copyrighted works is fair use because copying is \"merely an intermediate step\" and the use is \"non-expressive\" and transformative.",
+  "The NMPA joined the Human Artistry Campaign earlier in 2023, which aims to ensure AI doesn't replace or \"erode\" human culture."
+ ],
+ "entities": [
+  {
+   "name": "National Music Publishers Association (NMPA)",
+   "type": "organization",
+   "role": "Trade group for US music publishers whose submission to the Copyright Office is the focus of the article"
+  },
+  {
+   "name": "US Copyright Office (USCO)",
+   "type": "organization",
+   "role": "Agency running a study on AI and copyright to assess whether legislative or regulatory steps are warranted"
+  },
+  {
+   "name": "Universal Music Group (UMG)",
+   "type": "organization",
+   "role": "Major music company that filed a submission aligned with the NMPA and is suing Anthropic"
+  },
+  {
+   "name": "Anthropic",
+   "type": "organization",
+   "role": "AI developer that argued training on copyrighted works is fair use and is being sued by UMG, Concord and ABKCO"
+  },
+  {
+   "name": "Concord Music Group",
+   "type": "organization",
+   "role": "Co-plaintiff in the lawsuit against Anthropic"
+  },
+  {
+   "name": "ABKCO",
+   "type": "organization",
+   "role": "Co-plaintiff in the lawsuit against Anthropic"
+  },
+  {
+   "name": "Warner Music Group",
+   "type": "organization",
+   "role": "Reported to be in talks with Google on AI licensing alongside UMG"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Tech company in reported talks with UMG and Warner on licenses for AI-generated songs"
+  },
+  {
+   "name": "Human Artistry Campaign",
+   "type": "organization",
+   "role": "Campaign the NMPA joined to ensure AI does not replace or erode human culture"
+  },
+  {
+   "name": "Stephen Thaler",
+   "type": "person",
+   "role": "Owner of the \"Creativity Machine\" whose copyright application for an AI-generated painting was rejected"
+  },
+  {
+   "name": "Beryl A. Howell",
+   "type": "person",
+   "role": "Judge who ruled that human authorship is a bedrock requirement of copyright"
+  },
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "Developing the AI Act, which would require disclosure of copyrighted training data"
+  },
+  {
+   "name": "TikTok",
+   "type": "organization",
+   "role": "Platform that requires AI-generated content to be labeled"
+  },
+  {
+   "name": "YouTube",
+   "type": "organization",
+   "role": "Platform that requires AI-generated content to be labeled"
+  },
+  {
+   "name": "JKBX",
+   "type": "organization",
+   "role": "Technology platform offering music royalties as an asset class; supports the MBW Reacts series"
+  },
+  {
+   "name": "Music Business Worldwide",
+   "type": "organization",
+   "role": "Publisher of the article and the MBW Reacts series"
+  }
+ ],
+ "tags": [
+  "generative-ai",
+  "copyright",
+  "music-publishing",
+  "fair-use",
+  "ai-regulation",
+  "licensing"
+ ],
+ "usage": {
+  "input_tokens": 5384,
+  "output_tokens": 1943
+ }
+}

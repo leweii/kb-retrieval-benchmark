@@ -1,0 +1,163 @@
+{
+ "summary": "Meta and IBM have launched the AI Alliance, an industry body promoting \"open innovation\" and \"open science\" in AI, with around 45 member organizations. TechCrunch's Kyle Wiggers questions its purpose given overlap with the Partnership on AI, vague objectives, and the absence of Google, OpenAI, Microsoft, Nvidia, Anthropic and others. He suggests Meta wants influence in the open vs. closed AI debate and IBM wants exposure for its generative AI platform.",
+ "one_line": "Meta and IBM launched the AI Alliance for open AI innovation, but its goals, overlap with existing groups, and missing major players raise doubts.",
+ "key_facts": [
+  "Meta and IBM announced the AI Alliance, an industry body to support \"open innovation\" and \"open science\" in AI.",
+  "The AI Alliance has around 45 member organizations, including AMD, Intel, CERN, Yale, Imperial College London, Stability AI and Hugging Face.",
+  "The Partnership on AI has a similar mission and is itself a member of the AI Alliance.",
+  "Members will first form working groups, a governing board and a technical oversight committee covering AI \"trust and validation\" metrics, hardware and infrastructure for AI training, and open source AI models and frameworks.",
+  "The Alliance's release contrasts its approach with \"a vision that aims to relegate AI innovation and value creation to a small number of companies with a closed, proprietary vision.\"",
+  "Google, OpenAI and Microsoft have criticized Meta's open source AI approach as potentially dangerous and disinformation-encouraging, and none are AI Alliance members despite belonging to the Partnership on AI.",
+  "Yann LeCun, Meta's chief AI scientist, said \"The platform that will win will be the open one.\"",
+  "One estimate says Stable Diffusion, released last August, is responsible for 80% of all AI-generated imagery.",
+  "Stanford, MIT, Anthropic, Cohere, Adept and Nvidia are not members of the AI Alliance; IBM's PR did not respond about the omissions.",
+  "Sriram Raghavan, VP of IBM's research AI division, said the Alliance is focused on members \"strongly committed to open innovation and open source AI\" and expects more to join.",
+  "MLCommons (behind MLPerf), LangChain and LlamaIndex are founding members, as are Sony, ServiceNow, NSF, NASA, Oracle, Cleveland Clinic, Dell, University of Tokyo, UC Berkeley, University of Illinois and Cornell.",
+  "The author argues IBM likely gains exposure for its generative AI platform, which competes with enterprise AI services from Microsoft and OpenAI.",
+  "The author doubts the Alliance can succeed given no deadlines or concrete objectives, many competing interests, and questionable openness credentials of IBM and Meta."
+ ],
+ "entities": [
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Co-founder of the AI Alliance; pursues open source AI and released Llama"
+  },
+  {
+   "name": "IBM",
+   "type": "organization",
+   "role": "Co-founder of the AI Alliance; enterprise-focused with a generative AI platform"
+  },
+  {
+   "name": "AI Alliance",
+   "type": "organization",
+   "role": "Industry body supporting open innovation and open science in AI"
+  },
+  {
+   "name": "Partnership on AI",
+   "type": "organization",
+   "role": "Similar earlier group and a member of the AI Alliance"
+  },
+  {
+   "name": "Kyle Wiggers",
+   "type": "person",
+   "role": "Author of the TechCrunch article"
+  },
+  {
+   "name": "Yann LeCun",
+   "type": "person",
+   "role": "Meta's chief AI scientist who advocates open AI"
+  },
+  {
+   "name": "Sriram Raghavan",
+   "type": "person",
+   "role": "VP of IBM's research AI division who commented on the Alliance"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Critic of open source AI; not an Alliance member"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Critic of Meta's open source approach; not a member"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "OpenAI partner and investor; not a member; competes with IBM"
+  },
+  {
+   "name": "Nvidia",
+   "type": "organization",
+   "role": "Dominant AI chip provider absent from the Alliance"
+  },
+  {
+   "name": "Stability AI",
+   "type": "organization",
+   "role": "Alliance member; maker of Stable Diffusion"
+  },
+  {
+   "name": "Hugging Face",
+   "type": "organization",
+   "role": "AI startup member of the Alliance"
+  },
+  {
+   "name": "MLCommons",
+   "type": "organization",
+   "role": "Founding member; consortium behind MLPerf benchmarks"
+  },
+  {
+   "name": "LangChain",
+   "type": "organization",
+   "role": "Founding member; tool and framework creator"
+  },
+  {
+   "name": "LlamaIndex",
+   "type": "organization",
+   "role": "Founding member; tool and framework creator"
+  },
+  {
+   "name": "Anthropic",
+   "type": "organization",
+   "role": "AI startup not in the Alliance"
+  },
+  {
+   "name": "Cohere",
+   "type": "organization",
+   "role": "AI startup not in the Alliance"
+  },
+  {
+   "name": "Adept",
+   "type": "organization",
+   "role": "AI startup not in the Alliance"
+  },
+  {
+   "name": "Stanford",
+   "type": "organization",
+   "role": "University absent from the Alliance; home of Stanford HAI"
+  },
+  {
+   "name": "MIT",
+   "type": "organization",
+   "role": "University absent from the Alliance"
+  },
+  {
+   "name": "CERN",
+   "type": "organization",
+   "role": "Research lab member of the Alliance"
+  },
+  {
+   "name": "Cleveland Clinic",
+   "type": "organization",
+   "role": "Healthcare member of the Alliance"
+  },
+  {
+   "name": "Roadzen",
+   "type": "organization",
+   "role": "Insurance-related member of the Alliance"
+  },
+  {
+   "name": "Llama",
+   "type": "product",
+   "role": "Meta's open source text-generating model"
+  },
+  {
+   "name": "Stable Diffusion",
+   "type": "product",
+   "role": "Open source image generator from Stability AI"
+  }
+ ],
+ "tags": [
+  "ai",
+  "open-source",
+  "meta",
+  "ibm",
+  "industry-alliance",
+  "generative-ai"
+ ],
+ "usage": {
+  "input_tokens": 3491,
+  "output_tokens": 1975
+ }
+}

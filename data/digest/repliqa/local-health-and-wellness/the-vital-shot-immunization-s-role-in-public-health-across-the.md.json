@@ -1,0 +1,81 @@
+{
+ "summary": "This Local Health and Wellness feature gathers interviews with frontline healthcare workers on why vaccination matters at every stage of life, from infancy to old age. Each professional covers a different angle, including myths, pediatric, adolescent, adult and elderly immunization, herd immunity, access in underserved areas, safety, and pharmacies. It closes with notes on vaccine hesitancy and preparing vaccines for emerging diseases.",
+ "one_line": "Interviews with healthcare workers show why vaccines are a lifelong public health necessity, covering age groups, herd immunity, safety, access and hesitancy.",
+ "key_facts": [
+  "Epidemiologist Dr. Emma Richardson was interviewed on September 15, 2023 and said \"Vaccines are not just for children\" and are \"a lifelong health necessity.\"",
+  "Pediatrician Dr. Michael Santos was interviewed October 2, 2023 at a pediatric clinic; he explained that babies' maternal antibodies fade over time and vaccines prime the immune system to fight infections before they occur.",
+  "Nurse Julie Nguyen spoke during a high-school vaccination drive on November 12, 2023, noting many teens come in for HPV and meningitis shots to prevent diseases with serious long-term consequences.",
+  "Internist Dr. Aarav Patel said on December 5, 2023 at an adult health fair that many adults are under-vaccinated and need boosters for tetanus and whooping cough, plus shingles and pneumonia vaccines as they age.",
+  "Geriatrician Dr. Lisa Kim spoke on January 8, 2024, saying immune systems wane with age and influenza, pneumococcal, and shingles vaccines can be \"literal lifesavers\" for the elderly.",
+  "Public health expert Dr. Alejandro Cortez (February 22, 2024) said vaccination is \"a social responsibility\" and that herd immunity protects those who can't be vaccinated for medical reasons.",
+  "Public health advocate Maria Rodriguez spoke on March 14, 2024 at an underserved community clinic, saying access to vaccinations is a major issue in less affluent areas and her campaigns bring services to those most in need.",
+  "Immunologist Dr. Susan Choi (April 3, 2024) said vaccines undergo rigorous testing and that benefits almost always outweigh potential risks.",
+  "Pharmacist James Lee said pharmacies have become key in public health campaigns by offering convenient vaccine access for everyone.",
+  "Vaccine hesitancy is addressed through education programs and community talks that combat misinformation and encourage uptake.",
+  "The article notes the medical community must develop and distribute new vaccines swiftly as new pathogens emerge, a need underscored by recent global health events."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Emma Richardson",
+   "type": "person",
+   "role": "Leading epidemiologist who dispelled vaccine myths"
+  },
+  {
+   "name": "Dr. Michael Santos",
+   "type": "person",
+   "role": "Pediatrician who stressed early childhood vaccinations"
+  },
+  {
+   "name": "Julie Nguyen",
+   "type": "person",
+   "role": "Nurse discussing adolescent immunization at a high-school vaccination drive"
+  },
+  {
+   "name": "Dr. Aarav Patel",
+   "type": "person",
+   "role": "Internist who discussed adult boosters and vaccines"
+  },
+  {
+   "name": "Dr. Lisa Kim",
+   "type": "person",
+   "role": "Geriatrician who discussed vaccines for older people"
+  },
+  {
+   "name": "Dr. Alejandro Cortez",
+   "type": "person",
+   "role": "Public health expert who explained herd immunity"
+  },
+  {
+   "name": "Maria Rodriguez",
+   "type": "person",
+   "role": "Public health advocate working on vaccine access in underserved communities"
+  },
+  {
+   "name": "Dr. Susan Choi",
+   "type": "person",
+   "role": "Immunologist who addressed vaccine safety"
+  },
+  {
+   "name": "James Lee",
+   "type": "person",
+   "role": "Pharmacist who described pharmacies' role in vaccine access"
+  },
+  {
+   "name": "Local Health and Wellness",
+   "type": "organization",
+   "role": "Publication that conducted the interviews"
+  }
+ ],
+ "tags": [
+  "vaccination",
+  "public health",
+  "immunization",
+  "herd immunity",
+  "healthcare interviews",
+  "vaccine hesitancy"
+ ],
+ "usage": {
+  "input_tokens": 2613,
+  "output_tokens": 1400
+ }
+}

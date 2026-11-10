@@ -1,0 +1,106 @@
+{
+ "summary": "Elizabeth Lopatto recounts prosecutor Danielle Sassoon's cross-examination of Sam Bankman-Fried at his fraud trial, focusing on his claims about not knowing where an $8 billion shortfall between Alameda and FTX went. His evasive answers, his admissions about not protecting customer funds, and evidence of a cozy relationship with the Bahamian government undermined his credibility. The defense rested after a brief redirect.",
+ "one_line": "Lopatto describes Sam Bankman-Fried's damaging cross-examination over the missing $8 billion of FTX customer funds before the defense rested.",
+ "key_facts": [
+  "Sam Bankman-Fried, founder of failed crypto exchange FTX, is on trial for seven counts of wire fraud and conspiracy.",
+  "A software bug overestimated the amount Alameda owed FTX by about $8 billion, and even after the bug was fixed Alameda still owed FTX about $8 billion.",
+  "Bankman-Fried directed Caroline Ellison to repay third-party loans and kept making investments rather than reacting to the shortfall.",
+  "Bankman-Fried testified he learned of the fiat@ftx account in June 2022 but did not discover what it was for until October.",
+  "Bankman-Fried said employees told him \"they were busy and I should stop asking questions because it was distracting.\"",
+  "Under Danielle Sassoon's questioning, Bankman-Fried admitted he gave no direction or policies to stop Alameda from spending FTX customer deposits, and he fired no one.",
+  "Adam Yedidia testified he asked Bankman-Fried about the $8 billion hole on a padel tennis court in their Bahamas complex in June or July; Bankman-Fried admitted being told only after Judge Lewis Kaplan intervened.",
+  "An Alameda balance sheet from June 13th, 2022 listed money borrowed from FTX as \"ftx borrows.\"",
+  "In the FTX group chat \"Project Chinchilla Chatter,\" Bankman-Fried identified Ryan Salame as the person to talk to in the Bahamian government.",
+  "In a November 9th email to Bahamas attorney general Ryan Pinder, Bankman-Fried offered to open withdrawals for all Bahamian customers, and FTX did open them.",
+  "Lopatto notes that merely losing $8 billion is not a crime, but lying to customers and lenders about FTX's safety would be.",
+  "After a brief redirect by his own lawyers, Bankman-Fried stepped down and the defense rested its case."
+ ],
+ "entities": [
+  {
+   "name": "Sam Bankman-Fried",
+   "type": "person",
+   "role": "FTX founder on trial for wire fraud and conspiracy; testified in his own defense"
+  },
+  {
+   "name": "Elizabeth Lopatto",
+   "type": "person",
+   "role": "Author of the article covering the trial"
+  },
+  {
+   "name": "Danielle Sassoon",
+   "type": "person",
+   "role": "Prosecutor who cross-examined Bankman-Fried"
+  },
+  {
+   "name": "Adam Yedidia",
+   "type": "person",
+   "role": "Bankman-Fried's college friend, Bahamas roommate and FTX employee who fixed the software bug and testified"
+  },
+  {
+   "name": "Caroline Ellison",
+   "type": "person",
+   "role": "Alleged co-conspirator directed to repay third-party loans"
+  },
+  {
+   "name": "Judge Lewis Kaplan",
+   "type": "person",
+   "role": "Judge who asked whether Yedidia had told Bankman-Fried about the money"
+  },
+  {
+   "name": "Ryan Salame",
+   "type": "person",
+   "role": "FTX executive named as contact in the Bahamian government"
+  },
+  {
+   "name": "Ryan Pinder",
+   "type": "person",
+   "role": "Attorney general of the Bahamas, recipient of Bankman-Fried's November 9th email"
+  },
+  {
+   "name": "FTX",
+   "type": "organization",
+   "role": "Failed cryptocurrency exchange founded by Bankman-Fried"
+  },
+  {
+   "name": "Alameda",
+   "type": "organization",
+   "role": "Trading firm that owed FTX about $8 billion"
+  },
+  {
+   "name": "Securities and Exchange Commission",
+   "type": "organization",
+   "role": "Alleges FTX was a fraud \"from the start\""
+  },
+  {
+   "name": "Project Chinchilla Chatter",
+   "type": "other",
+   "role": "Internal FTX group chat shown in court"
+  },
+  {
+   "name": "fiat@ftx",
+   "type": "other",
+   "role": "Account tracking how much Alameda owed FTX"
+  },
+  {
+   "name": "The Bahamas",
+   "type": "place",
+   "role": "Location of FTX operations and of Bankman-Fried's relationship with the government"
+  },
+  {
+   "name": "Elizabeth Holmes",
+   "type": "person",
+   "role": "Theranos founder, compared as another defendant who took the stand"
+  }
+ ],
+ "tags": [
+  "ftx",
+  "sam-bankman-fried",
+  "fraud-trial",
+  "cryptocurrency",
+  "alameda"
+ ],
+ "usage": {
+  "input_tokens": 3579,
+  "output_tokens": 1585
+ }
+}

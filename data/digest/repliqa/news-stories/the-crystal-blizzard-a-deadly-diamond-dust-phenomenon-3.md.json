@@ -1,0 +1,123 @@
+{
+ "summary": "The note is a news-style account of the Crystal Blizzard, a fictional-seeming disaster that struck the town of Frostfall on January 15, 2024, when shards of ice called \"diamond dust\" swept across the region. It covers eyewitness accounts, scientific explanations tied to climate change, the death toll, rescue efforts, and national, international and economic reactions. It closes with humanitarian aid, survivor stories, and a call for global action on climate.",
+ "one_line": "News story on the January 2024 Crystal Blizzard, a deadly diamond dust storm that hit Frostfall and spurred climate action calls.",
+ "key_facts": [
+  "The Crystal Blizzard struck the town of Frostfall on the morning of January 15, 2024.",
+  "The storm consisted of ice shards as hard and cutting as diamond, termed \"diamond dust,\" driven by ferocious winds.",
+  "As of January 20, emergency services had confirmed 47 fatalities, with rescue operations hampered by perilous conditions.",
+  "Among the dead were Reverend Thomas Keillor and local firefighter Sandra Green.",
+  "Dr. Emmett Calder of the Snowdon Research Facility attributed the phenomenon to global warming disrupting weather patterns plus a mix of atmospheric conditions and evaporating soil minerals.",
+  "Dr. Calder's team began developing satellite-based technology to detect atmospheric patterns that lead to diamond dust formation.",
+  "Rescue worker Alice Ramirez led a team recovering survivors from collapsed buildings; paramedic Jacob Muller likened treating injuries to working in \"a storm of glass needles.\"",
+  "On February 3, Senator Elise Hawthorne said the blizzard is \"a portent of what awaits us\" if climate is ignored.",
+  "The European Union expedited climate policy discussions, while China and India monitored their own weather anomalies; Tran Nguyen of the UN called it \"a wake-up call.\"",
+  "Economist Helen Pierce said agriculture was hit hardest, with Frostfall's surrounding farmlands razed and food security at stake.",
+  "The Red Cross and Direct Relief led international aid efforts, and donations exceeded expectations.",
+  "Teenager Miguel Alvarez was stranded on his family's farm and described the constant pinging of ice against the roof.",
+  "Katherine Morrow, a local shop owner, described the storm as mesmerizing until \"the sparkle turned vicious.\""
+ ],
+ "entities": [
+  {
+   "name": "Frostfall",
+   "type": "place",
+   "role": "Northern town devastated by the Crystal Blizzard"
+  },
+  {
+   "name": "Crystal Blizzard",
+   "type": "event",
+   "role": "Deadly diamond dust storm that began January 15, 2024"
+  },
+  {
+   "name": "Katherine Morrow",
+   "type": "person",
+   "role": "Local shop owner and eyewitness"
+  },
+  {
+   "name": "Dr. Emmett Calder",
+   "type": "person",
+   "role": "Climatologist at Snowdon Research Facility who explained the cause and leads detection research"
+  },
+  {
+   "name": "Snowdon Research Facility",
+   "type": "organization",
+   "role": "Research institution employing Dr. Calder"
+  },
+  {
+   "name": "Reverend Thomas Keillor",
+   "type": "person",
+   "role": "Community figure killed in the blizzard"
+  },
+  {
+   "name": "Sandra Green",
+   "type": "person",
+   "role": "Local firefighter killed in the blizzard"
+  },
+  {
+   "name": "Alice Ramirez",
+   "type": "person",
+   "role": "Rescue worker who led a survivor recovery team"
+  },
+  {
+   "name": "Jacob Muller",
+   "type": "person",
+   "role": "Paramedic treating diamond dust injuries"
+  },
+  {
+   "name": "Senator Elise Hawthorne",
+   "type": "person",
+   "role": "Senator who gave a climate speech on February 3"
+  },
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "Expedited climate policy discussions"
+  },
+  {
+   "name": "Tran Nguyen",
+   "type": "person",
+   "role": "UN environmental policy expert who called the disaster a wake-up call"
+  },
+  {
+   "name": "Helen Pierce",
+   "type": "person",
+   "role": "Economist commenting on economic impact"
+  },
+  {
+   "name": "Red Cross",
+   "type": "organization",
+   "role": "Aid organization leading relief efforts"
+  },
+  {
+   "name": "Direct Relief",
+   "type": "organization",
+   "role": "Aid organization leading relief efforts"
+  },
+  {
+   "name": "World in Need",
+   "type": "organization",
+   "role": "NGO of volunteer Lucy O'Connell"
+  },
+  {
+   "name": "Lucy O'Connell",
+   "type": "person",
+   "role": "Volunteer who praised the global compassion"
+  },
+  {
+   "name": "Miguel Alvarez",
+   "type": "person",
+   "role": "Teenage survivor stranded on his family's farm"
+  }
+ ],
+ "tags": [
+  "climate change",
+  "natural disaster",
+  "diamond dust",
+  "frostfall",
+  "humanitarian aid",
+  "news story"
+ ],
+ "usage": {
+  "input_tokens": 3084,
+  "output_tokens": 1572
+ }
+}

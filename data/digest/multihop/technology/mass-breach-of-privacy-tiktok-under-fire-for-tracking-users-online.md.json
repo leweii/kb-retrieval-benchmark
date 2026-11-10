@@ -1,0 +1,119 @@
+{
+ "summary": "An investigation by The Age and Sydney Morning Herald found that TikTok's tracking pixel, via \"automatic advanced matching\", sends users' emails and phone numbers back to TikTok from Australian websites, often before consent is given. Beyond Blue removed the pixel, marketing firm Civic Data warned clients to do the same, and Senator James Paterson called for an urgent probe by the information commissioner. TikTok denies breaching Australian privacy law, while experts raise concerns over China's intelligence laws.",
+ "one_line": "Testing found TikTok's website pixel sends personal data like emails and phone numbers before consent, prompting Australian privacy and China-related security concerns.",
+ "key_facts": [
+  "Beyond Blue removed the TikTok pixel from its website after being alerted to the tracking issue.",
+  "The Age and Sydney Morning Herald tested sites such as Sportsbet, Kmart and Beyond Blue using the Chrome extension Omnibug, entering their full name, email address and phone number.",
+  "TikTok's \"automatic advanced matching\" tool scrapes text entered in form fields or search boxes if it looks like an email address or phone number, often before the user clicks \"I consent\".",
+  "For Google and Meta pixels, email addresses and phone numbers were sent only after users had consented to the websites' privacy policies.",
+  "Sportsbet said it uses advanced matching, consistent with targeting methods many companies use; Kmart did not respond to requests for comment.",
+  "Civic Data director Chris Brinkworth, in a December 20 client bulletin, said the company had \"repeatedly observed non-consensual collection of personal data\" on Australian wagering, telco, finance, supermarket, e-commerce, charity and media websites.",
+  "Civic Data recommended businesses consider removing the TikTok pixel if they cannot guarantee data use matches consumer consent; its clients include Xero, Ticketek, Carsales, RACV and BlueScope.",
+  "Senator James Paterson called it a \"very serious and potentially unlawful mass breach of the privacy\" and urged an urgent investigation by Australia's information commissioner.",
+  "The Office of the Australian Information Commissioner said it is monitoring TikTok's handling of personal information, citing findings by the British Information Commissioner's Office.",
+  "A TikTok spokeswoman rejected Civic Data's claims, saying pixel usage is voluntary for advertisers, industry-wide, and compliant with all current Australian privacy laws.",
+  "China's National Intelligence Law of 2017 requires organisations and citizens to \"support, assist and co-operate with the state intelligence work\"; Paterson cited Article 7.",
+  "The Australian government banned TikTok on government devices this year; Britain, Canada, France and New Zealand have also banned it from official devices.",
+  "ASPI researcher Samantha Hoffman said TikTok's pixel data is similar to Google's and Meta's, but the difference is \"the intent\", noting advertising data's \"incredible propaganda value\".",
+  "In November 2022, TikTok changed its privacy policy to make clear user data can be accessed by some employees worldwide, including China."
+ ],
+ "entities": [
+  {
+   "name": "TikTok",
+   "type": "organization",
+   "role": "Social media company whose tracking pixel is accused of collecting personal data without consent"
+  },
+  {
+   "name": "Beyond Blue",
+   "type": "organization",
+   "role": "National mental health organisation that removed the TikTok pixel from its website"
+  },
+  {
+   "name": "Sportsbet",
+   "type": "organization",
+   "role": "Tested website; says it uses advanced matching"
+  },
+  {
+   "name": "Kmart",
+   "type": "organization",
+   "role": "Tested website; did not respond to comment requests"
+  },
+  {
+   "name": "Omnibug",
+   "type": "product",
+   "role": "Chrome extension used to test marketing and analytics tools"
+  },
+  {
+   "name": "Civic Data",
+   "type": "organization",
+   "role": "Marketing and advisory agency that warned clients to remove the TikTok pixel"
+  },
+  {
+   "name": "Chris Brinkworth",
+   "type": "person",
+   "role": "Civic Data director who authored the client bulletin"
+  },
+  {
+   "name": "James Paterson",
+   "type": "person",
+   "role": "Senator and Coalition cybersecurity spokesman who called for an urgent probe"
+  },
+  {
+   "name": "Office of the Australian Information Commissioner",
+   "type": "organization",
+   "role": "Privacy regulator monitoring TikTok's handling of personal information"
+  },
+  {
+   "name": "Jocelinn Kang",
+   "type": "person",
+   "role": "Technical specialist at the Australian Strategic Policy Institute"
+  },
+  {
+   "name": "Samantha Hoffman",
+   "type": "person",
+   "role": "Australian Strategic Policy Institute researcher commenting on intent and Chinese government access"
+  },
+  {
+   "name": "Australian Strategic Policy Institute",
+   "type": "organization",
+   "role": "Think tank whose experts commented on pixel tracking"
+  },
+  {
+   "name": "Privacy Act 1988",
+   "type": "other",
+   "role": "Australian law cited by Civic Data regarding consent requirements"
+  },
+  {
+   "name": "China's National Intelligence Law",
+   "type": "other",
+   "role": "2017 law requiring organisations to support state intelligence work"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Receives similar data, but only after consent in tests"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Receives similar data, but only after consent in tests"
+  },
+  {
+   "name": "British Information Commissioner's Office",
+   "type": "organization",
+   "role": "Made findings in an investigation into TikTok"
+  }
+ ],
+ "tags": [
+  "tiktok",
+  "privacy",
+  "data-tracking",
+  "australia",
+  "china",
+  "advertising"
+ ],
+ "usage": {
+  "input_tokens": 3382,
+  "output_tokens": 1817
+ }
+}

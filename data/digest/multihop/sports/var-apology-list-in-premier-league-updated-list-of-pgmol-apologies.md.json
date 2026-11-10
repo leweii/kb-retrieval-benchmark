@@ -1,0 +1,136 @@
+{
+ "summary": "Sporting News compiles a running list of apologies by PGMOL, the body responsible for referees in English football, for incorrect refereeing and VAR decisions in the Premier League. It opens with the 2023/24 season incidents, including Wolves being denied a penalty at Manchester United and a wrongly disallowed Luis Diaz goal in Tottenham 2-1 Liverpool. It then lists earlier errors from 2022 and 2023, covering wrong offside calls, penalties, red cards and disallowed goals.",
+ "one_line": "A running list of PGMOL apologies for Premier League refereeing and VAR errors, from February 2022 to the Tottenham-Liverpool match of September 30, 2023.",
+ "key_facts": [
+  "Wolves lost 1-0 at Manchester United on August 14, 2023 after being denied a late penalty for Andre Onana's foul on Sasa Kalajdzic, despite a long VAR check.",
+  "Jonathan Moss of PGMOL apologised for the Wolves error after the match, which manager Gary O'Neil said he appreciated.",
+  "In Tottenham 2-1 Liverpool on September 30, 2023, Luis Diaz's goal was wrongly ruled offside because VAR Darren England ended his check without drawing lines; PGMOL called it a \"serious human error\".",
+  "Liverpool were down to nine men in that match after a red card to Curtis Jones and two bookings for Diogo Jota, and Joel Matip's stoppage-time own-goal gave Tottenham the win.",
+  "Chief Refereeing Officer Howard Webb apologised to Brighton after they were denied a penalty in their 2-1 loss at Tottenham on April 8, 2023.",
+  "In Arsenal 1-1 Brentford on February 11, 2023, VAR's Lee Mason did not use the right player when checking offside for Brentford's goal; Mikel Arteta said \"That wasn't a human error.\"",
+  "John Brooks was taken off VAR duty for two games after drawing the offside line in the wrong place in Crystal Palace 1-1 Brighton, denying Pervis Estupinan a goal.",
+  "Aston Villa's 3-1 win over Manchester United on November 6, 2022 included a Lucas Digne free-kick taken with the wall set more than 10 yards behind the ball.",
+  "Douglas Luiz was wrongly sent off in Fulham 3-0 Aston Villa on October 20, 2022; Aleksandar Mitrovic was the real instigator of the bust-up.",
+  "Gabriel Martinelli's goal was wrongly disallowed in Manchester United 3-1 Arsenal on September 4, 2022 for an alleged Martin Odegaard foul on Christian Eriksen.",
+  "Webb's first apology in his new role came after Andy Madley awarded Crystal Palace a wrong penalty against Aston Villa on August 20, 2022.",
+  "Mike Riley apologised to Everton after VAR official Chris Kavanagh stuck with the on-field decision not to award a penalty for Rodri's handball in Everton 0-1 Manchester City on February 26, 2022."
+ ],
+ "entities": [
+  {
+   "name": "PGMOL",
+   "type": "organization",
+   "role": "Professional Game Match Officials Limited, the body responsible for referees in English football that issued the apologies"
+  },
+  {
+   "name": "Howard Webb",
+   "type": "person",
+   "role": "Chief Refereeing Officer who apologised to Brighton, Forest and West Ham's David Moyes"
+  },
+  {
+   "name": "Mike Riley",
+   "type": "person",
+   "role": "Referees chief who apologised to Everton in February 2022"
+  },
+  {
+   "name": "Jonathan Moss",
+   "type": "person",
+   "role": "PGMOL official who apologised to Wolves"
+  },
+  {
+   "name": "Gary O'Neil",
+   "type": "person",
+   "role": "Wolves manager denied a penalty at Manchester United"
+  },
+  {
+   "name": "Andre Onana",
+   "type": "person",
+   "role": "Manchester United goalkeeper who fouled Sasa Kalajdzic"
+  },
+  {
+   "name": "Sasa Kalajdzic",
+   "type": "person",
+   "role": "Wolves player fouled in the box"
+  },
+  {
+   "name": "Darren England",
+   "type": "person",
+   "role": "VAR official who failed to draw lines on Luis Diaz's goal"
+  },
+  {
+   "name": "Luis Diaz",
+   "type": "person",
+   "role": "Liverpool player whose goal was wrongly ruled offside"
+  },
+  {
+   "name": "Lee Mason",
+   "type": "person",
+   "role": "VAR official who used the wrong player in an offside check in Arsenal v Brentford"
+  },
+  {
+   "name": "Mikel Arteta",
+   "type": "person",
+   "role": "Arsenal manager critical of the VAR error"
+  },
+  {
+   "name": "John Brooks",
+   "type": "person",
+   "role": "VAR official taken off duty for two games"
+  },
+  {
+   "name": "Chris Kavanagh",
+   "type": "person",
+   "role": "VAR official in Everton v Manchester City"
+  },
+  {
+   "name": "Andy Madley",
+   "type": "person",
+   "role": "Referee who awarded Palace a wrong penalty against Aston Villa"
+  },
+  {
+   "name": "Bruno Fernandes",
+   "type": "person",
+   "role": "Manchester United player who said he would wait for an apology after the Romero handball"
+  },
+  {
+   "name": "Tottenham",
+   "type": "organization",
+   "role": "Club that beat Liverpool 2-1 and Brighton 2-1"
+  },
+  {
+   "name": "Liverpool",
+   "type": "organization",
+   "role": "Club wronged by the disallowed Diaz goal"
+  },
+  {
+   "name": "Wolves",
+   "type": "organization",
+   "role": "Club denied a late penalty at Manchester United"
+  },
+  {
+   "name": "Brighton",
+   "type": "organization",
+   "role": "Club denied a penalty at Tottenham and a goal at Crystal Palace"
+  },
+  {
+   "name": "Everton",
+   "type": "organization",
+   "role": "Club denied a penalty against Manchester City"
+  },
+  {
+   "name": "Sporting News",
+   "type": "organization",
+   "role": "Publisher of the list"
+  }
+ ],
+ "tags": [
+  "premier-league",
+  "var",
+  "referees",
+  "pgmol",
+  "football"
+ ],
+ "usage": {
+  "input_tokens": 3203,
+  "output_tokens": 1965
+ }
+}

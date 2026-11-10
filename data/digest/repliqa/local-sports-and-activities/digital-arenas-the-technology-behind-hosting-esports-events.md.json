@@ -1,0 +1,153 @@
+{
+ "summary": "The article explores the technology behind hosting esports events, covering network infrastructure, stage and lighting design, streaming platforms, computing hardware, anti-cheating tools, fan engagement, cybersecurity, technical support and esports education. It uses quotes and dated events from September 2023 to February 2024 to show how people and technology work together to run tournaments. It concludes that esports events are a showcase of technological advancement.",
+ "one_line": "An overview of the infrastructure, streaming, hardware, security, fair-play and education technologies that make professional esports events possible.",
+ "key_facts": [
+  "On October 10, 2023, at the Las Vegas Esports Arena, tech director Sandra Nguyen said a single tournament transfers petabytes of data, not including live streams.",
+  "Cisco and Juniper Networks are named as leaders offering enterprise-grade networking solutions for esports venues.",
+  "On September 30, 2023, the newly opened HyperX Esports Hub in Stockholm was visited, where LED displays enveloped the arena; lighting designer Elena Schmidt said every beam is synchronized with the game's action.",
+  "Arenas use soundproofing materials and smart acoustics to prevent noise bleed so players can focus amid thousands of fans.",
+  "On November 5, 2023, at the International Esports Federation's annual conference, Twitch's Mike Henderson spoke on the panel \"Streaming Wars: The Battle for Eyeballs.\"",
+  "Streaming platforms use Content Delivery Networks (CDNs), and Amazon Web Services and Google Cloud host and manage games, player stats and event information in real time.",
+  "On December 12, 2023, Lian Li CEO Victor Wang unveiled a new line of gaming cases at the Global Esports Hardware Expo in Taipei, designed for better airflow and easier access.",
+  "On September 15, 2023, referee coordinator James O'Connor compared esports anti-cheat monitoring to the Video Assistant Referee (VAR) system in football.",
+  "Valve and Riot Games continually evolve anti-cheating software that does real-time analysis to catch cheating.",
+  "On December 3, 2023, esports analyst Maria Gomez said connectivity lets fans interact with players in real time via chats, live polls and in-game actions influenced by viewer input.",
+  "At DreamHack Masters on January 20, 2024, cybersecurity software protected against DDoS attacks; expert Alan Torres said security was comparable to a financial institution's.",
+  "Sarah Bradley was lead IT support for the European Esports Championships on February 16, 2024, and described the pressure as intense.",
+  "On October 25, 2023, the University of California, Berkeley inaugurated its esports management program, directed by Dr. Dominic Martinez, covering network management, event organization and broadcasting."
+ ],
+ "entities": [
+  {
+   "name": "Sandra Nguyen",
+   "type": "person",
+   "role": "Tech director at the Las Vegas Esports Arena who discussed data transfer in tournaments"
+  },
+  {
+   "name": "Las Vegas Esports Arena",
+   "type": "place",
+   "role": "Venue with servers enabling zero-lag gameplay"
+  },
+  {
+   "name": "Cisco",
+   "type": "organization",
+   "role": "Provider of enterprise-grade networking solutions"
+  },
+  {
+   "name": "Juniper Networks",
+   "type": "organization",
+   "role": "Provider of enterprise-grade networking solutions"
+  },
+  {
+   "name": "HyperX Esports Hub",
+   "type": "place",
+   "role": "Newly opened esports arena in Stockholm with LED displays"
+  },
+  {
+   "name": "Elena Schmidt",
+   "type": "person",
+   "role": "Lighting designer who explained synchronized lighting"
+  },
+  {
+   "name": "International Esports Federation",
+   "type": "organization",
+   "role": "Host of the annual conference with the streaming panel"
+  },
+  {
+   "name": "Mike Henderson",
+   "type": "person",
+   "role": "Twitch senior director of strategic partnerships and panelist"
+  },
+  {
+   "name": "Twitch",
+   "type": "organization",
+   "role": "Streaming platform for esports"
+  },
+  {
+   "name": "Amazon Web Services",
+   "type": "organization",
+   "role": "Cloud services provider for esports events"
+  },
+  {
+   "name": "Google Cloud",
+   "type": "organization",
+   "role": "Cloud services provider for esports events"
+  },
+  {
+   "name": "Lian Li",
+   "type": "organization",
+   "role": "Maker of gaming cases"
+  },
+  {
+   "name": "Victor Wang",
+   "type": "person",
+   "role": "Lian Li CEO who unveiled new gaming cases"
+  },
+  {
+   "name": "Global Esports Hardware Expo",
+   "type": "event",
+   "role": "Taipei expo where Lian Li unveiled its cases"
+  },
+  {
+   "name": "James O'Connor",
+   "type": "person",
+   "role": "Referee coordinator who discussed fair-play technology"
+  },
+  {
+   "name": "Valve",
+   "type": "organization",
+   "role": "Company developing anti-cheating software"
+  },
+  {
+   "name": "Riot Games",
+   "type": "organization",
+   "role": "Company developing anti-cheating software"
+  },
+  {
+   "name": "Maria Gomez",
+   "type": "person",
+   "role": "Esports analyst on fan engagement"
+  },
+  {
+   "name": "DreamHack Masters",
+   "type": "event",
+   "role": "High-stakes tournament on January 20, 2024 with strong cybersecurity"
+  },
+  {
+   "name": "Alan Torres",
+   "type": "person",
+   "role": "Cybersecurity expert interviewed at DreamHack Masters"
+  },
+  {
+   "name": "Sarah Bradley",
+   "type": "person",
+   "role": "Lead IT support for the European Esports Championships"
+  },
+  {
+   "name": "European Esports Championships",
+   "type": "event",
+   "role": "Tournament on February 16, 2024 supported by Bradley's team"
+  },
+  {
+   "name": "University of California, Berkeley",
+   "type": "organization",
+   "role": "Inaugurated an esports management program on October 25, 2023"
+  },
+  {
+   "name": "Dr. Dominic Martinez",
+   "type": "person",
+   "role": "Program director of the Berkeley esports management program"
+  }
+ ],
+ "tags": [
+  "esports",
+  "event-technology",
+  "streaming",
+  "cybersecurity",
+  "networking",
+  "esports-education"
+ ],
+ "usage": {
+  "input_tokens": 3324,
+  "output_tokens": 1930
+ }
+}

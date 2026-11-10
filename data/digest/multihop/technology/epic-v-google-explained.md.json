@@ -1,0 +1,124 @@
+{
+ "summary": "The Verge explainer previews the Epic Games v. Google antitrust jury trial beginning November 6th, 2023, 1,180 days after Epic sued over Google's Android app store and payment fees. It reviews the August 13th, 2020 Fortnite fee bypass, Epic's monopoly and tying claims, Google's counterarguments about market definition, and how the earlier Epic v. Apple case ended. It also covers settlements by others, alleged dirty tricks, expected witnesses, hypocrisy on both sides, and the trial schedule.",
+ "one_line": "A Verge explainer on Epic Games' November 2023 jury trial against Google over alleged Android app store and payment monopolies, with background and expectations.",
+ "key_facts": [
+  "Epic v. Google went to trial on November 6th, 2023, a mere 1,180 days after Epic originally sued.",
+  "On August 13th, 2020, Epic deployed a hotfix to Fortnite letting players buy V-Bucks through its own payment option at a discount, bypassing Apple and Google fees; both companies kicked Fortnite off their app stores.",
+  "Epic claims Google has illegal monopolies in \"Android app distribution\" and \"Android in-app payment processing\" and illegally ties Google Play payments to the Google Play app store.",
+  "Google argues its real competition is Apple, so the court's \"market definition\" decision is central to the case.",
+  "In Epic v. Apple, Judge Yvonne Gonzalez Rogers ruled Apple had no unfair monopoly, defining the market as \"digital mobile gaming transactions,\" but found Epic violated its developer agreement and barred Apple from keeping users in the dark about alternate payment methods.",
+  "The Google case is a jury trial overseen by Judge Donato, unlike the Apple case, which was a bench trial; Google cannot tell jurors Apple won or that other plaintiffs settled.",
+  "All 50 state attorneys general and a number of consumers tentatively settled with Google, and Match Group (Tinder, Match.com, OkCupid) reached a last-minute settlement, leaving Epic alone.",
+  "Epic alleges Google ran projects called \"Project Hug,\" \"Project Agave,\" and \"Project Banyan,\" paying game developers and phone makers hundreds of millions of dollars, and considered buying Epic.",
+  "Google employees up to CEO Sundar Pichai set messages to auto-delete, so the judge will tell the jury not all evidence is visible.",
+  "Epic CEO Tim Sweeney wrote an email saying the plan for communicating with Google about bypassing the Play Store was \"SAY NOTHING TILL IT SHIPS,\" and Google is countersuing over it.",
+  "Google's \"User Choice Billing\" program did not exist until 2022 and only knocks 4 percentage points off Google's fee.",
+  "Epic is 40 percent owned by Chinese company Tencent, which Google may subtly raise; Judge Donato's order allows Google to ask a witness once about Tencent's domicile.",
+  "The trial was expected to last roughly five weeks, finishing evidence by December 4th, with a verdict expected well before the December holidays.",
+  "A December 15th, 2023 update says the case is basically over."
+ ],
+ "entities": [
+  {
+   "name": "Epic Games",
+   "type": "organization",
+   "role": "Fortnite publisher suing Google, alleging an illegal Android app store monopoly"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Defendant accused of monopolizing Android app distribution and in-app payments; countersuing Epic"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Earlier Epic defendant that mostly won its 2021 trial"
+  },
+  {
+   "name": "Fortnite",
+   "type": "product",
+   "role": "Free-to-play game that sells items via V-Bucks"
+  },
+  {
+   "name": "V-Bucks",
+   "type": "product",
+   "role": "Fortnite's virtual currency"
+  },
+  {
+   "name": "Tim Sweeney",
+   "type": "person",
+   "role": "Epic Games CEO and expected witness"
+  },
+  {
+   "name": "Sundar Pichai",
+   "type": "person",
+   "role": "Google CEO expected to testify; caught setting messages to auto-delete"
+  },
+  {
+   "name": "Judge Donato",
+   "type": "person",
+   "role": "Judge presiding over Epic v. Google jury trial"
+  },
+  {
+   "name": "Yvonne Gonzalez Rogers",
+   "type": "person",
+   "role": "Judge in the Epic v. Apple case"
+  },
+  {
+   "name": "Andy Rubin",
+   "type": "person",
+   "role": "Android co-founder who might be deposed"
+  },
+  {
+   "name": "Hiroshi Lockheimer",
+   "type": "person",
+   "role": "Current Android, Chrome and Chrome OS boss expected to testify"
+  },
+  {
+   "name": "Match Group",
+   "type": "organization",
+   "role": "Dating app company that reached a last-minute settlement with Google"
+  },
+  {
+   "name": "Tencent",
+   "type": "organization",
+   "role": "Chinese company that owns 40 percent of Epic"
+  },
+  {
+   "name": "User Choice Billing",
+   "type": "program",
+   "role": "Google's alternative billing program launched in 2022 that reduces fees by 4 percentage points"
+  },
+  {
+   "name": "Sean Hollister",
+   "type": "person",
+   "role": "Author of the Verge explainer"
+  },
+  {
+   "name": "Adi Robertson",
+   "type": "person",
+   "role": "Verge colleague who wrote a breakdown of the Apple ruling"
+  },
+  {
+   "name": "The Verge",
+   "type": "organization",
+   "role": "Publisher of the explainer"
+  },
+  {
+   "name": "Samsung",
+   "type": "organization",
+   "role": "Maker of Galaxy phones that include a competing app store on the homescreen"
+  }
+ ],
+ "tags": [
+  "antitrust",
+  "epic-games",
+  "google",
+  "app-stores",
+  "legal-trial",
+  "fortnite"
+ ],
+ "usage": {
+  "input_tokens": 5169,
+  "output_tokens": 1871
+ }
+}

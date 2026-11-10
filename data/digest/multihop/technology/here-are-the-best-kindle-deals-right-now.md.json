@@ -1,0 +1,117 @@
+{
+ "summary": "The Verge's Sheena Vasani rounds up current Amazon Kindle deals, model by model, as of October 2023. It covers the 2022 Kindle, Kindle Kids, Paperwhite, Oasis and Scribe, with list prices, recent low prices and current sales. It also explains ad-supported pricing and notes Amazon's 20 percent trade-in discount.",
+ "one_line": "A model-by-model guide to Amazon Kindle prices and sales in October 2023, covering Kindle, Kids, Paperwhite, Oasis and Scribe.",
+ "key_facts": [
+  "Amazon offers 20 percent off all of its Kindles when you trade in select devices.",
+  "Ad-supported Kindles show personalized ads on the lock screen and homescreen, typically saving about $20; a one-time payment removes the ads later.",
+  "The 2022 base Kindle starts at $99.99 and has a 300ppi screen, USB-C charging, 16GB of storage by default and a new 'denim' color; it replaced the 2019 model.",
+  "The ad-supported 2022 Kindle recently dropped to $79.99 ($20 off) with three months of Kindle Unlimited, but is currently full price at Amazon, Best Buy and Target; a bundle with ads, power adapter and fabric cover starts at $134.97 ($15 off).",
+  "The 2022 Kindle Kids has an MSRP of $119.99 and includes a case, a two-year extended replacement guarantee and one year of Amazon Kids Plus; it fell to $79.99 for Black Friday but has no deal now.",
+  "The 2021 Kindle Paperwhite is an 11th-gen model with USB-C, longer battery life and a 6.8-inch display; it is waterproof and supports Audible audiobooks.",
+  "The Kindle Paperwhite Kids Edition lists at $169.99 and is on sale at Amazon and Best Buy for $144.99 ($25 off).",
+  "The Kindle Oasis (2019) is the most expensive Kindle, starting at $249.99, with 8GB or 32GB options, a waterproof 7-inch 300ppi display and an adjustable yellow-toned color temperature.",
+  "The 8GB Kindle Oasis hit a low of $174.99 for the standalone configuration; the ad-supported Oasis is currently $249.99 at Amazon only.",
+  "The Oasis bundle with a power adapter is on sale for $279.97 with a fabric cover or $289.97 with a leather cover (each $30 off).",
+  "The ad-free Kindle Scribe is Amazon's biggest e-reader, with a 10.2-inch 300 dpi display and a stylus for note-taking; The Verge found its note-taking lacking, but Amazon is improving it via free OTA updates.",
+  "The 16GB Kindle Scribe with Premium Pen is $294.99 ($75 off); with folio cover and power adapter it starts at $334.97 ($115 off).",
+  "The Kindle Scribe Essentials Bundle with a 16GB Scribe, Basic Pen, power adapter and fabric folio cover is $310, down from $420 (26 percent off)."
+ ],
+ "entities": [
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Maker of the Kindle e-readers and a main retailer of the deals"
+  },
+  {
+   "name": "The Verge",
+   "type": "organization",
+   "role": "Publisher of the deals roundup"
+  },
+  {
+   "name": "Sheena Vasani",
+   "type": "person",
+   "role": "Author of the article"
+  },
+  {
+   "name": "Best Buy",
+   "type": "organization",
+   "role": "Retailer selling Kindles"
+  },
+  {
+   "name": "Target",
+   "type": "organization",
+   "role": "Retailer selling the base Kindle at full price"
+  },
+  {
+   "name": "Kindle (2022)",
+   "type": "product",
+   "role": "Entry-level Kindle starting at $99.99"
+  },
+  {
+   "name": "Kindle Kids (2022)",
+   "type": "product",
+   "role": "Kids edition of the base Kindle, MSRP $119.99"
+  },
+  {
+   "name": "Kindle Paperwhite (2021)",
+   "type": "product",
+   "role": "11th-gen Paperwhite with 6.8-inch display"
+  },
+  {
+   "name": "Kindle Paperwhite Kids Edition",
+   "type": "product",
+   "role": "Kid-oriented Paperwhite bundle, $169.99 list"
+  },
+  {
+   "name": "Kindle Paperwhite Signature Edition",
+   "type": "product",
+   "role": "Paperwhite variant with wireless charging and auto-adjusting backlight"
+  },
+  {
+   "name": "Kindle Oasis (2019)",
+   "type": "product",
+   "role": "Most expensive Kindle, starting at $249.99"
+  },
+  {
+   "name": "Kindle Scribe",
+   "type": "product",
+   "role": "Amazon's largest e-reader with stylus for writing"
+  },
+  {
+   "name": "Amazon Kids Plus",
+   "type": "program",
+   "role": "Subscription with kid-friendly books included with Kids models"
+  },
+  {
+   "name": "Kindle Unlimited",
+   "type": "program",
+   "role": "Subscription offered for three months with a recent Kindle deal"
+  },
+  {
+   "name": "Audible",
+   "type": "product",
+   "role": "Audiobook service supported by several Kindles"
+  },
+  {
+   "name": "Black Friday",
+   "type": "event",
+   "role": "Sales event when Kindle prices dropped to lows such as $79.99"
+  },
+  {
+   "name": "Verge Deals",
+   "type": "other",
+   "role": "The Verge's deals account on X (formerly Twitter) with nearly 51,000 followers"
+  }
+ ],
+ "tags": [
+  "kindle",
+  "amazon",
+  "deals",
+  "e-readers",
+  "consumer-tech"
+ ],
+ "usage": {
+  "input_tokens": 3734,
+  "output_tokens": 1804
+ }
+}

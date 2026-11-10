@@ -1,0 +1,71 @@
+{
+ "summary": "A guided tour of the street food scene in [Region] dated October 14, 2023, led by street food connoisseur Manuel Reyes. It moves from breakfast through lunch, snacks, evening eats and desserts, introducing vendors who blend long tradition with innovation. The piece presents street food as a living expression of the region's history, community and resilience.",
+ "one_line": "Manuel Reyes guides a tour of [Region]'s street food from dawn to dessert, profiling vendors who balance tradition and innovation.",
+ "key_facts": [
+  "The article is dated October 14, 2023 and is guided by street food connoisseur Manuel Reyes.",
+  "Manuel Reyes's passion for street food began in his grandmother's kitchen.",
+  "In the early 1900s, street food was a lifeline for the working class in [Region], offering affordable, accessible meals to workers.",
+  "By 7 AM, streets in [Region] are lined with people seeking their daily [signature breakfast dish].",
+  "María Lourdes has been serving her famous [breakfast dish] for over 30 years and says \"It's not just food; it's a community.\"",
+  "Jorge Castillo's food cart has been a lunchtime staple since September 2023, and his [signature lunch dish] uses a generations-old recipe.",
+  "Ana and Luis run a fusion food stall, established in early 2024, that remixes classic [Region] flavors with international twists.",
+  "Señora Isabel is an octogenarian whose evening food stand is almost as old as she is, and her [dish] is described as timeless.",
+  "Carmen, a teenage prodigy, launched her dessert cart \"Sweet Innovations\" just after New Year's 2024, pairing traditional [Region] desserts with modern flair.",
+  "Manuel Reyes calls vendors \"the guardians of our heritage\" who are not afraid to write new chapters.",
+  "The article is structured by time of day: breakfast, lunch, snacks, evening and dessert.",
+  "Manuel says of street food: \"It's about survival and celebration.\""
+ ],
+ "entities": [
+  {
+   "name": "Manuel Reyes",
+   "type": "person",
+   "role": "Local expert and street food connoisseur guiding the tour"
+  },
+  {
+   "name": "María Lourdes",
+   "type": "person",
+   "role": "Breakfast vendor serving her famous dish for over 30 years"
+  },
+  {
+   "name": "Jorge Castillo",
+   "type": "person",
+   "role": "Lunch food cart owner, active since September 2023"
+  },
+  {
+   "name": "Ana and Luis",
+   "type": "person",
+   "role": "Young culinary duo running a fusion food stall established in early 2024"
+  },
+  {
+   "name": "Señora Isabel",
+   "type": "person",
+   "role": "Octogenarian evening food stand vendor"
+  },
+  {
+   "name": "Carmen",
+   "type": "person",
+   "role": "Teenage dessert vendor behind the cart \"Sweet Innovations\""
+  },
+  {
+   "name": "Sweet Innovations",
+   "type": "organization",
+   "role": "Contemporary dessert cart launched just after New Year's 2024"
+  },
+  {
+   "name": "[Region]",
+   "type": "place",
+   "role": "The area whose street food scene is explored"
+  }
+ ],
+ "tags": [
+  "street-food",
+  "regional-cuisine",
+  "food-culture",
+  "vendors",
+  "culinary-innovation"
+ ],
+ "usage": {
+  "input_tokens": 2497,
+  "output_tokens": 1033
+ }
+}

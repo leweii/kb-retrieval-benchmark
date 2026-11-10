@@ -1,0 +1,117 @@
+{
+ "summary": "The article surveys recent innovations to make networks resilient against internet outages, which increasingly harm business, healthcare, and education. It covers causes of outages, AI-based prediction, tougher physical cables, redundancy, mesh networks, satellite fallback, legislation, and community programs. It concludes that a concerted effort is underway to make outages rare.",
+ "one_line": "Overview of technological, policy, and community innovations, from AI monitoring to mesh and satellite networks, aimed at preventing and quickly recovering from internet outages.",
+ "key_facts": [
+  "On October 14, 2023, New York suffered a significant outage that impacted thousands of businesses during peak hours.",
+  "On November 23, 2023, London's internet users saw a massive connectivity dip due to a fiber cut caused by construction activities.",
+  "Dr. Jane Holloway, a tech analyst, said on December 5, 2023: \"The internet is the backbone of modern society.\"",
+  "Most outages result from physical damage to cables, malicious cyber activities, or natural disasters; rarely a technical glitch, plus network congestion and overloads.",
+  "On September 19, 2023, ISP NetFuture announced AI-based monitoring systems across its network; CTO Mark Richardson said the system learns from historical outages and current performance.",
+  "On February 8, 2024, FlexiNet unveiled FlexiShield cables claiming triple the resilience of standard fibers against physical damage.",
+  "The Redundant Array of Independent Networks (RAIN) project, spearheaded by Dr. Emily Stewart on March 12, 2024, aims to build a framework for ISPs to integrate redundancy into existing systems.",
+  "As reported on January 15, 2024, Boulder, Colorado, began creating a citywide mesh network and saw a dramatic increase in internet resilience.",
+  "On April 21, 2024, SpaceX announced successful deployment of its latest satellite constellation, promising improved redundancy for ground networks.",
+  "SpaceX's Starlink and Amazon's Project Kuiper are racing to provide satellite internet as a fallback when terrestrial networks fail.",
+  "The Secure and Resilient Networks Act, passed on September 29, 2023, gives ISPs tax breaks and grants to adopt the latest resilience standards.",
+  "On November 1, 2023, the city of Asheville launched the 'Connected Community Program', working with local ISPs on tailored crisis response plans."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Jane Holloway",
+   "type": "person",
+   "role": "Renowned tech analyst quoted on the internet's role as society's backbone"
+  },
+  {
+   "name": "NetFuture",
+   "type": "organization",
+   "role": "Pioneering ISP that deployed AI-based monitoring systems"
+  },
+  {
+   "name": "Mark Richardson",
+   "type": "person",
+   "role": "CTO of NetFuture"
+  },
+  {
+   "name": "FlexiNet",
+   "type": "organization",
+   "role": "Company that unveiled FlexiShield cables"
+  },
+  {
+   "name": "FlexiShield",
+   "type": "product",
+   "role": "Cables claimed to offer triple the resilience of standard fibers"
+  },
+  {
+   "name": "Dr. Emily Stewart",
+   "type": "person",
+   "role": "Spearheaded the RAIN project"
+  },
+  {
+   "name": "Redundant Array of Independent Networks (RAIN)",
+   "type": "program",
+   "role": "Project to develop a framework for ISPs to integrate redundancy"
+  },
+  {
+   "name": "Boulder, Colorado",
+   "type": "place",
+   "role": "City that built a citywide mesh network"
+  },
+  {
+   "name": "SpaceX",
+   "type": "organization",
+   "role": "Operator of Starlink; deployed new satellite constellation on April 21, 2024"
+  },
+  {
+   "name": "Starlink",
+   "type": "product",
+   "role": "SpaceX satellite internet project"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Company behind Project Kuiper"
+  },
+  {
+   "name": "Project Kuiper",
+   "type": "program",
+   "role": "Amazon's satellite internet project"
+  },
+  {
+   "name": "Secure and Resilient Networks Act",
+   "type": "other",
+   "role": "Legislation passed September 29, 2023 incentivizing ISP resilience standards"
+  },
+  {
+   "name": "Asheville",
+   "type": "place",
+   "role": "City that launched the 'Connected Community Program'"
+  },
+  {
+   "name": "Connected Community Program",
+   "type": "program",
+   "role": "Asheville initiative developing community-tailored crisis response plans with local ISPs"
+  },
+  {
+   "name": "New York",
+   "type": "place",
+   "role": "Site of a major outage on October 14, 2023"
+  },
+  {
+   "name": "London",
+   "type": "place",
+   "role": "Site of a connectivity dip on November 23, 2023 from a fiber cut"
+  }
+ ],
+ "tags": [
+  "network-resilience",
+  "internet-outages",
+  "isp",
+  "mesh-networks",
+  "satellite-internet",
+  "policy"
+ ],
+ "usage": {
+  "input_tokens": 2779,
+  "output_tokens": 1546
+ }
+}

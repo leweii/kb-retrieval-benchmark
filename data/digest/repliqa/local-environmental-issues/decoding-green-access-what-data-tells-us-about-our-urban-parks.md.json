@@ -1,0 +1,112 @@
+{
+ "summary": "The note surveys how cities use data analytics, apps, and new design approaches to make urban parks more accessible and useful. It covers sensor-driven planning, community apps, pocket parks, brownfield conversion, edible rooftop gardens, inclusive playground design, green transport corridors, and citizen science. Each strategy is illustrated with a named project, location, launch date, and a quote from the person leading it.",
+ "one_line": "Cities are using data, apps, pocket parks, brownfield reuse, inclusive design, green corridors, and citizen science to improve access to urban parks.",
+ "key_facts": [
+  "Smart sensors and IoT devices installed in parks since September 2023 provide data on peak usage times, popular areas, and foot traffic flow.",
+  "Urban planner Johnathon Andrews said on November 5th, 2023 that real-time data helps design green spaces that are more welcoming and align with community needs.",
+  "Tech start-up GreenGo launched a park app in Chicago on January 15, 2024, using geolocation to guide visitors through nature trails and historical tours.",
+  "As of October 2023, Seattle's ParkVoice app has been used to gather community feedback on proposed park projects.",
+  "New York City's Green Patches Initiative, led by urban planner Susan Chen, began September 27th, 2023 and aims to turn overlooked city nooks into green spots by 2025.",
+  "Bluebell Fields in Detroit, a former automobile manufacturing plant, opened as a park on April 22nd, 2024 (Earth Day), led by environmental engineer Marcus Lei using soil remediation and sustainable landscaping.",
+  "Gardens in the Sky, launched in San Francisco on September 12th, 2023, turns rooftops into communal vegetable gardens to combat food deserts; project coordinator is Amy Wellington.",
+  "Central Park's southern playground redesign, completed December 5th, 2023, added sensory gardens for neurodivergent children and adults and wheelchair-accessible pathways.",
+  "Playground designer Elena Rodriguez said the redesign is about offering equal access to nature irrespective of ability or background.",
+  "New York unveiled its Emerald Links green corridor initiative on August 21st, 2024, following Amsterdam's Green Veins project, which connects suburban areas to city parks via cycling paths.",
+  "Urban cycling advocate Pedro Gomez said Emerald Links is about engaging New Yorkers with their city's green lungs through healthy transit options.",
+  "London's Urban Nature Watch citizen science program launched March 14th, 2024, with wildlife biologist Emma Thompson overseeing tracking of wildlife and plant health in public parks."
+ ],
+ "entities": [
+  {
+   "name": "Johnathon Andrews",
+   "type": "person",
+   "role": "Urban planner who advocates using real-time data to design green spaces"
+  },
+  {
+   "name": "GreenGo",
+   "type": "organization",
+   "role": "Tech start-up that launched a geolocation park app in Chicago on January 15, 2024"
+  },
+  {
+   "name": "ParkVoice",
+   "type": "product",
+   "role": "Seattle app for gathering feedback on proposed park projects"
+  },
+  {
+   "name": "Green Patches Initiative",
+   "type": "program",
+   "role": "New York City program turning overlooked nooks into green spots by 2025"
+  },
+  {
+   "name": "Susan Chen",
+   "type": "person",
+   "role": "Urban planner who spearheaded the Green Patches Initiative"
+  },
+  {
+   "name": "Bluebell Fields",
+   "type": "place",
+   "role": "Detroit park created on a former automobile manufacturing plant site, opened April 22nd, 2024"
+  },
+  {
+   "name": "Marcus Lei",
+   "type": "person",
+   "role": "Environmental engineer and project lead for Bluebell Fields"
+  },
+  {
+   "name": "Gardens in the Sky",
+   "type": "program",
+   "role": "San Francisco initiative turning rooftops into communal vegetable gardens"
+  },
+  {
+   "name": "Amy Wellington",
+   "type": "person",
+   "role": "Project coordinator for Gardens in the Sky"
+  },
+  {
+   "name": "Central Park",
+   "type": "place",
+   "role": "New York park whose southern playground was redesigned for inclusivity"
+  },
+  {
+   "name": "Elena Rodriguez",
+   "type": "person",
+   "role": "Playground designer for the Central Park southern playground redesign"
+  },
+  {
+   "name": "Green Veins",
+   "type": "program",
+   "role": "Amsterdam project connecting suburban areas to city parks via cycling paths"
+  },
+  {
+   "name": "Emerald Links",
+   "type": "program",
+   "role": "New York green corridor initiative for walking and cycling, unveiled August 21st, 2024"
+  },
+  {
+   "name": "Pedro Gomez",
+   "type": "person",
+   "role": "Urban cycling advocate who commented on Emerald Links"
+  },
+  {
+   "name": "Urban Nature Watch",
+   "type": "program",
+   "role": "London citizen science program tracking wildlife and plant health in parks"
+  },
+  {
+   "name": "Emma Thompson",
+   "type": "person",
+   "role": "Wildlife biologist overseeing Urban Nature Watch"
+  }
+ ],
+ "tags": [
+  "urban-parks",
+  "green-space",
+  "smart-cities",
+  "citizen-science",
+  "inclusive-design",
+  "brownfields"
+ ],
+ "usage": {
+  "input_tokens": 3124,
+  "output_tokens": 1652
+ }
+}

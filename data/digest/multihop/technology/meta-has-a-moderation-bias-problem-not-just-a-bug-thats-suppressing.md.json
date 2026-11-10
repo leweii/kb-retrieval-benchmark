@@ -1,0 +1,118 @@
+{
+ "summary": "TechCrunch reports that Instagram users accuse Meta of shadowbanning and over-moderating content about Palestine after Hamas' attack on Israelis and Israel's retaliation. Meta blames \"bugs\" and denies deliberately suppressing voices, but advocacy groups and a Meta-commissioned 2021 report point to long-standing bias, especially in Arabic content moderation. The article reviews user experiences, the history since 2021, Meta's partial reforms, and workarounds users employ.",
+ "one_line": "TechCrunch examines claims that Meta's Instagram suppresses Palestinian content, arguing documented systemic moderation bias goes beyond the \"bugs\" the company cites.",
+ "key_facts": [
+  "Meta's newsroom post, updated Oct. 18, 2023, denied deliberately suppressing voice and said policies are applied equally around the world.",
+  "Meta communications director Andy Stone said a bug affected all Stories that re-shared Reels and Feed posts, reducing reach, and that it affected accounts equally around the globe and was fixed.",
+  "Meta also said it fixed a bug that prevented users from going live, a global issue fixed within a few hours.",
+  "A 2021 third-party report commissioned by Meta found the company's actions had an \"adverse human rights impact\" on Palestinian users' freedom of expression and political participation.",
+  "The report found Arabic content was flagged as potentially violating at significantly higher rates than Hebrew content and was more likely to be erroneously removed.",
+  "Over the 13 days leading up to the 2021 ceasefire, 7amleh documented more than 500 reports of Palestinian \"digital rights violations.\"",
+  "Arabic has over 25 dialects, and Meta has been criticized for not adequately diversifying its language resources.",
+  "Instagram users reported that Stories about Palestine got far fewer views; an Egypt-based user's Stories dropped from about 300 views to one to two, and a UK user's views returned to normal after he posted a cat photo.",
+  "Instagram's auto-translation turned Arabic \"Alhamdulillah\" plus \"Palestinian\" and a flag emoji into phrases like \"Palestinian terrorists – Praise be to Allah\"; Meta said it fixed a problem causing inappropriate Arabic translations and apologized.",
+  "Meta committed to changes after the 2021 report, including updating dangerous-organization keywords, disclosing government removal requests, and launching a hostile speech classifier for Hebrew content.",
+  "Jillian York of EFF said moderation of English and European languages is more comprehensive partly because the EU enforces the Digital Services Act.",
+  "Meta said it set up a \"special operations center\" staffed with fluent Hebrew and Arabic speakers to monitor violating content during the current escalation.",
+  "Users try workarounds such as writing \"p@lestine,\" placing text over unrelated images like cat photos, or adding Israeli flag emojis and #istandwithisrael."
+ ],
+ "entities": [
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Parent company of Instagram and Facebook, accused of biased moderation against Palestinian content"
+  },
+  {
+   "name": "Instagram",
+   "type": "product",
+   "role": "Platform where users report shadowbanning of Palestine-related content"
+  },
+  {
+   "name": "Khitam Jabr",
+   "type": "person",
+   "role": "Palestinian-American filmmaker restricted for 24 hours after posting West Bank travel Reels"
+  },
+  {
+   "name": "Andy Stone",
+   "type": "person",
+   "role": "Meta communications director who declined to comment on record and cited a bug"
+  },
+  {
+   "name": "Leen Al Saadi",
+   "type": "person",
+   "role": "Palestinian journalist in Jordan and host of the podcast \"Preserving Palestine\"; reports being constantly censored"
+  },
+  {
+   "name": "Bella Hadid",
+   "type": "person",
+   "role": "Supermodel and activist who alleged Instagram shadowbanned her Palestine posts"
+  },
+  {
+   "name": "7amleh (Arab Center for Social Media Advancement)",
+   "type": "organization",
+   "role": "Documents Palestinian digital rights violations and works with social media companies on appeals"
+  },
+  {
+   "name": "Jalal Abukhater",
+   "type": "person",
+   "role": "7amleh advocacy manager who says Arabic content is moderated more carelessly than Hebrew and English"
+  },
+  {
+   "name": "Electronic Frontier Foundation (EFF)",
+   "type": "organization",
+   "role": "Digital rights nonprofit that called Meta's 2021 actions \"systemic censorship of Palestinian voices\""
+  },
+  {
+   "name": "Jillian York",
+   "type": "person",
+   "role": "EFF director for international freedom of expression; blames automation and minimally trained humans"
+  },
+  {
+   "name": "Miranda Sissons",
+   "type": "person",
+   "role": "Meta's director of human rights who said Meta was \"assessing the feasibility\" of reviewing Arabic by dialect"
+  },
+  {
+   "name": "Shayaan Khan",
+   "type": "person",
+   "role": "TikTok creator who posted a viral video about the Instagram mistranslation"
+  },
+  {
+   "name": "Wadea Al-Fayoume",
+   "type": "person",
+   "role": "Palestinian-American child fatally stabbed, death investigated as a hate crime"
+  },
+  {
+   "name": "Hamas",
+   "type": "organization",
+   "role": "Governs Gaza and is designated a terrorist organization by the US and EU; content supporting it is banned on Meta"
+  },
+  {
+   "name": "Oversight Board",
+   "type": "organization",
+   "role": "Meta body whose recommendation led to the third-party due diligence report"
+  },
+  {
+   "name": "Sheikh Jarrah",
+   "type": "place",
+   "role": "East Jerusalem neighborhood where May 2021 eviction ruling preceded violence and censorship complaints"
+  },
+  {
+   "name": "Morgan Sung",
+   "type": "person",
+   "role": "Author of the TechCrunch article"
+  }
+ ],
+ "tags": [
+  "meta",
+  "content-moderation",
+  "palestine",
+  "instagram",
+  "shadowbanning",
+  "digital-rights"
+ ],
+ "usage": {
+  "input_tokens": 7252,
+  "output_tokens": 1939
+ }
+}

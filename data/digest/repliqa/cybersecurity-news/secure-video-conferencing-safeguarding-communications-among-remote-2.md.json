@@ -1,0 +1,101 @@
+{
+ "summary": "This article compares the security of popular video conferencing platforms after September 1, 2023, as remote teams rely on them for global business. It reviews Zoom, Microsoft Teams, Google Meet, Webex by Cisco and privacy-focused open-source newcomers, citing recent security updates and expert comments. It concludes that no single platform is all-encompassing and that vigilance remains necessary as threats evolve.",
+ "one_line": "A comparison of security features in Zoom, Microsoft Teams, Google Meet, Webex and privacy-focused platforms for remote team video conferencing after September 2023.",
+ "key_facts": [
+  "Zoom announced end-to-end encryption (E2EE) for all users in a patch released on September 18, 2023.",
+  "Zoom uses meeting passcodes and the waiting room feature to mitigate 'Zoombombing', and hosts can grant and revoke attendee permissions.",
+  "Microsoft Teams integrates with Office 365 and offers Advanced Threat Protection (ATP), which screens shared documents and links for threats during real-time collaboration.",
+  "Microsoft Teams emphasizes compliance with standards such as ISO 27001 and HIPAA.",
+  "Google Meet introduced one-click privacy settings in a release on September 22, 2023.",
+  "Google Meet enforces two-factor authentication (2FA), and Google's cloud offers encryption in transit and at rest.",
+  "On October 26, 2023, Cisco unveiled a new multi-layer security framework for Webex, including secure device registration, data retention policies and the ability to lock and unlock meeting rooms.",
+  "Webex complies with industry standards including GDPR.",
+  "SignalWire Work and Jitsi Meet are privacy-centric, open-source alternatives whose security features are vetted by a community of developers.",
+  "James Donovan of TechSecure said in an October 5, 2023 interview that video conference data can range from personal employee information to trade secrets and financial data.",
+  "The article concludes that no single platform offers an all-encompassing security solution; each has unique strengths.",
+  "Remote work has accelerated since early 2020, exposing vulnerabilities such as unauthorized access to meetings and data leaks."
+ ],
+ "entities": [
+  {
+   "name": "Zoom",
+   "type": "product",
+   "role": "Video conferencing platform that added E2EE for all users and strengthened access controls"
+  },
+  {
+   "name": "Microsoft Teams",
+   "type": "product",
+   "role": "Collaboration and video platform with integrated Office 365 security and Advanced Threat Protection"
+  },
+  {
+   "name": "Google Meet",
+   "type": "product",
+   "role": "Video platform with simplified privacy controls, 2FA and Google cloud security"
+  },
+  {
+   "name": "Webex by Cisco",
+   "type": "product",
+   "role": "Long-standing enterprise conferencing platform with multi-layer security framework"
+  },
+  {
+   "name": "Cisco",
+   "type": "organization",
+   "role": "Maker of Webex that unveiled its security framework on October 26, 2023"
+  },
+  {
+   "name": "SignalWire Work",
+   "type": "product",
+   "role": "Privacy-focused, open-source emerging conferencing platform"
+  },
+  {
+   "name": "Jitsi Meet",
+   "type": "product",
+   "role": "Privacy-focused, open-source emerging conferencing platform"
+  },
+  {
+   "name": "James Donovan",
+   "type": "person",
+   "role": "Cybersecurity expert with TechSecure who described the sensitivity of conference data"
+  },
+  {
+   "name": "TechSecure",
+   "type": "organization",
+   "role": "Employer of cybersecurity expert James Donovan"
+  },
+  {
+   "name": "Sarah Thompson",
+   "type": "person",
+   "role": "Head of Security Communications at Zoom"
+  },
+  {
+   "name": "Linda Rodrigues",
+   "type": "person",
+   "role": "Cybersecurity consultant who described Microsoft's Advanced Threat Protection"
+  },
+  {
+   "name": "Joshua Franklin",
+   "type": "person",
+   "role": "Security analyst with OpenWeb Solutions who praised Google Meet's 2FA"
+  },
+  {
+   "name": "OpenWeb Solutions",
+   "type": "organization",
+   "role": "Employer of security analyst Joshua Franklin"
+  },
+  {
+   "name": "Michael Sanchez",
+   "type": "person",
+   "role": "Security expert who described Webex's layered security approach"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "video-conferencing",
+  "remote-work",
+  "encryption",
+  "platform-comparison"
+ ],
+ "usage": {
+  "input_tokens": 2852,
+  "output_tokens": 1397
+ }
+}

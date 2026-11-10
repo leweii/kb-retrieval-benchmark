@@ -1,0 +1,142 @@
+{
+ "summary": "A Sporting News explainer on moneyline betting, a simple wager where only the outright winner matters, not the margin or total score. It covers favorites and underdogs, the American, fractional and decimal odds formats with payout examples, why lines move, and possible outcomes (win, loss, draw/push). It also gives hypothetical moneyline examples across NFL, NBA, MLB, NHL, soccer, UFC, tennis and golf, plus an FAQ.",
+ "one_line": "Beginner's guide to moneyline betting: how favorites, underdogs and American, fractional and decimal odds work, why lines move, and sport-by-sport payout examples.",
+ "key_facts": [
+  "A moneyline bet focuses solely on identifying the winner; victory margin and total points have no bearing on the payout.",
+  "In American odds, the favorite is shown with a minus (-) sign; at -150 a bettor must wager $150 to win $100.",
+  "In American odds, the underdog is shown with a plus (+) sign; at +130 a bettor wins $130 for every $100 bet.",
+  "In the article's example, a $110 bet on the New England Patriots at -110 returns $210: the $110 stake plus $100 profit (the New York Jets are +250).",
+  "Fractional odds such as 5/1 or 5-1: the first number is potential profit and the second is the stake; at 4/9, a $9 bet returns $13 total ($4 profit plus $9 stake).",
+  "Decimal odds are multiplied by the stake to give the total payout; at 2.53, a $10 bet on the Edmonton Oilers returns $25.30, including $15.30 profit.",
+  "Moneyline odds change mainly because of public betting and new information, such as injuries, substitutions or weather.",
+  "Sportsbooks adjust odds when too many wagers favor one outcome, to balance bets and reduce financial risk.",
+  "In soccer, moneylines usually have three outcomes; at Draw +220, a $100 draw bet returns $320 total ($220 profit plus stake).",
+  "A tie in a moneyline bet is typically a 'push' and the original wager is refunded; if a draw option exists and wasn't bet, the bet loses.",
+  "Overtime, extra time and tiebreakers count in moneyline bets in most sports and at most sportsbooks, though rules should be checked.",
+  "In the hypothetical golf example, Tiger Woods is +500 and Rory McIlroy is +600, so a $100 bet wins $500 or $600; golf odds are higher because the field is large.",
+  "In the UFC example, Conor McGregor is -200 and Dustin Poirier is +170; a $200 bet on McGregor wins $100."
+ ],
+ "entities": [
+  {
+   "name": "Sporting News",
+   "type": "organization",
+   "role": "publisher of the moneyline betting guide"
+  },
+  {
+   "name": "Sam Eggleston",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "New England Patriots",
+   "type": "organization",
+   "role": "-110 favorite in the American odds example"
+  },
+  {
+   "name": "New York Jets",
+   "type": "organization",
+   "role": "+250 underdog in the American odds example"
+  },
+  {
+   "name": "Edmonton Oilers",
+   "type": "organization",
+   "role": "2.53 decimal odds example against the Detroit Red Wings"
+  },
+  {
+   "name": "Detroit Red Wings",
+   "type": "organization",
+   "role": "opponent in the decimal odds example"
+  },
+  {
+   "name": "Dallas Cowboys",
+   "type": "organization",
+   "role": "-130 favorite in the NFL example"
+  },
+  {
+   "name": "New York Giants",
+   "type": "organization",
+   "role": "+110 underdog in the NFL example"
+  },
+  {
+   "name": "Los Angeles Lakers",
+   "type": "organization",
+   "role": "-150 favorite in the NBA example"
+  },
+  {
+   "name": "Miami Heat",
+   "type": "organization",
+   "role": "+130 underdog in the NBA example"
+  },
+  {
+   "name": "New York Yankees",
+   "type": "organization",
+   "role": "-120 slight favorite in the MLB example"
+  },
+  {
+   "name": "Boston Red Sox",
+   "type": "organization",
+   "role": "+100 even-odds side in the MLB example"
+  },
+  {
+   "name": "Toronto Maple Leafs",
+   "type": "organization",
+   "role": "-140 favorite in the NHL example"
+  },
+  {
+   "name": "Chicago Blackhawks",
+   "type": "organization",
+   "role": "+120 underdog in the NHL example"
+  },
+  {
+   "name": "Seattle Sounders",
+   "type": "organization",
+   "role": "+110 MLS team in the soccer example"
+  },
+  {
+   "name": "Atlanta United",
+   "type": "organization",
+   "role": "+140 MLS team in the soccer example"
+  },
+  {
+   "name": "Conor McGregor",
+   "type": "person",
+   "role": "-200 favorite in the UFC example"
+  },
+  {
+   "name": "Dustin Poirier",
+   "type": "person",
+   "role": "+170 underdog in the UFC example"
+  },
+  {
+   "name": "Serena Williams",
+   "type": "person",
+   "role": "-150 favorite in the tennis example"
+  },
+  {
+   "name": "Maria Sharapova",
+   "type": "person",
+   "role": "+130 underdog in the tennis example"
+  },
+  {
+   "name": "Tiger Woods",
+   "type": "person",
+   "role": "+500 golfer in the PGA example"
+  },
+  {
+   "name": "Rory McIlroy",
+   "type": "person",
+   "role": "+600 golfer in the PGA example"
+  }
+ ],
+ "tags": [
+  "sports-betting",
+  "moneyline",
+  "betting-odds",
+  "gambling-basics",
+  "sportsbooks"
+ ],
+ "usage": {
+  "input_tokens": 6108,
+  "output_tokens": 1718
+ }
+}

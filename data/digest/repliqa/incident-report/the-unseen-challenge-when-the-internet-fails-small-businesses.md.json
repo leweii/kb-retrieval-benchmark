@@ -1,0 +1,92 @@
+{
+ "summary": "The note is an incident report on a widespread internet outage on September 23, 2023 that hit hundreds of small businesses on the East Coast. It gathers firsthand accounts from owners and freelancers describing lost sales, missed deadlines, emotional strain and improvised workarounds. It concludes that small businesses need backup plans and diversified operations to withstand future disruptions.",
+ "one_line": "A September 23, 2023 East Coast internet outage disrupted small businesses, prompting stories of lost revenue, stress, improvisation and a call for contingency planning.",
+ "key_facts": [
+  "On September 23, 2023, a widespread internet outage hit hundreds of small businesses across the East Coast and halted operations for hours.",
+  "The note says the outage resulted from a combination of technical failures and malicious cyber activity.",
+  "Anna Richardson, owner of Little Bean Coffee in downtown Charleston, lost her point of sale systems and online orders; she said, \"It was like someone had pressed pause on our livelihood.\"",
+  "Samuel Thompson, a freelance graphic designer in New York City, could not transfer files or reach clients, putting deadlines, reputation and income at risk.",
+  "Jessica Baines, co-founder of a boutique marketing firm, struggled to keep her team calm as pitches and campaigns were put on indefinite hold.",
+  "Tim Murphy, who runs a local bookstore, spent hours trying to reach his internet service provider, got only automated responses, and tracked sales manually without his online inventory management system.",
+  "Barbara Nielsen, an event planner in Philadelphia, had to reschedule an entire wedding because of the outage.",
+  "Alex Martinez routed delivery orders through his personal cellular data, a temporary and costly stopgap; he said his business is set up to function at 100% capacity online.",
+  "Melanie Foster, who owns a boutique clothing store, used social media over her phone's data connection to announce a 'flash sale' for in-person shoppers.",
+  "Businesses improvised with handwritten receipts, cash transactions and phone calls to regular customers.",
+  "The note highlights a lack of contingency plans at many small businesses and the damage to customer relationships that can linger after connectivity returns.",
+  "The incident is described as a wake-up call for small business owners to build backup plans and diversify methods of operation."
+ ],
+ "entities": [
+  {
+   "name": "Anna Richardson",
+   "type": "person",
+   "role": "Owner of Little Bean Coffee in downtown Charleston whose point of sale and online orders went down"
+  },
+  {
+   "name": "Little Bean Coffee",
+   "type": "organization",
+   "role": "Coffee shop in downtown Charleston affected by the outage"
+  },
+  {
+   "name": "Samuel Thompson",
+   "type": "person",
+   "role": "Freelance graphic designer in New York City who could not transfer files or contact clients"
+  },
+  {
+   "name": "Jessica Baines",
+   "type": "person",
+   "role": "Co-founder of a boutique marketing firm who tried to keep her team calm"
+  },
+  {
+   "name": "Tim Murphy",
+   "type": "person",
+   "role": "Local bookstore owner who tracked sales manually and struggled to reach his internet service provider"
+  },
+  {
+   "name": "Barbara Nielsen",
+   "type": "person",
+   "role": "Event planner in Philadelphia who had to reschedule a wedding"
+  },
+  {
+   "name": "Alex Martinez",
+   "type": "person",
+   "role": "Delivery service owner who used personal cellular data to route orders"
+  },
+  {
+   "name": "Melanie Foster",
+   "type": "person",
+   "role": "Boutique clothing store owner who ran a flash sale announced via social media"
+  },
+  {
+   "name": "September 23, 2023 internet outage",
+   "type": "event",
+   "role": "Widespread East Coast outage that halted small business operations for hours"
+  },
+  {
+   "name": "Charleston",
+   "type": "place",
+   "role": "Location of Little Bean Coffee"
+  },
+  {
+   "name": "New York City",
+   "type": "place",
+   "role": "Location of Samuel Thompson's freelance work"
+  },
+  {
+   "name": "Philadelphia",
+   "type": "place",
+   "role": "Location of Barbara Nielsen's event planning business"
+  }
+ ],
+ "tags": [
+  "internet-outage",
+  "small-business",
+  "incident-report",
+  "resilience",
+  "business-continuity",
+  "cybersecurity"
+ ],
+ "usage": {
+  "input_tokens": 2859,
+  "output_tokens": 1345
+ }
+}

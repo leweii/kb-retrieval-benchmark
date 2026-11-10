@@ -1,0 +1,102 @@
+{
+ "summary": "The note examines the economic and social costs of a September 4, 2023 internet outage in the northeastern United States, caused by a cyber-attack on multiple ISPs and lasting over eight hours. It describes impacts on finance, small businesses, healthcare, education and global markets, using quotes from affected individuals and experts. It concludes that growing outage frequency demands investment in failsafes, diversified connectivity and cybersecurity.",
+ "one_line": "A September 4, 2023 cyber-attack-driven internet outage in the northeastern US caused major economic, healthcare and education disruption, prompting calls for stronger digital infrastructure.",
+ "key_facts": [
+  "On September 4, 2023, a massive internet outage hit the northeastern United States and left millions without online services for over eight hours.",
+  "The outage was caused by a sophisticated cyber-attack targeting multiple internet service providers.",
+  "The New York Stock Exchange reported delays and disconnections, and stock trading slowed to a crawl.",
+  "Online sales company ShopFast Inc. reported losses of approximately $5 million per hour of downtime.",
+  "Economists estimate the blackout cut a tenth of a percentage point off US quarterly GDP growth.",
+  "Maria Gonzalez, who runs a bakery in Brooklyn, said payment systems went dark and orders could not be processed, saying it \"threatened my livelihood.\"",
+  "Dr. Angela Richardson, a cardiologist at Mercy General Hospital, said staff had to switch to manual record-keeping, delaying urgent care.",
+  "Healthcare was affected by inaccessible electronic health records, canceled telehealth appointments and offline patient monitoring systems.",
+  "Within hours, European stock markets reported unusual volatility and Asian suppliers to US businesses braced for delays and order cancellations.",
+  "Small businesses often suffer disproportionately because they lack sophisticated backup systems or multiple service providers.",
+  "James Patterson of Springfield High School said interactive lessons were impossible and remote students were cut off during the blackout.",
+  "Stakeholders from government officials to business leaders are advocating investment in failsafes, diversified connectivity options and fortified cybersecurity.",
+  "The note states that the frequency of internet service disruptions is growing rather than abating."
+ ],
+ "entities": [
+  {
+   "name": "New York Stock Exchange",
+   "type": "organization",
+   "role": "Reported trading delays and disconnections during the outage"
+  },
+  {
+   "name": "ShopFast Inc.",
+   "type": "organization",
+   "role": "Online sales company that lost about $5 million per hour of downtime"
+  },
+  {
+   "name": "Maria Gonzalez",
+   "type": "person",
+   "role": "Brooklyn bakery owner who described the outage's effect on her business"
+  },
+  {
+   "name": "James Patterson",
+   "type": "person",
+   "role": "Teacher at Springfield High School who described disrupted teaching"
+  },
+  {
+   "name": "Springfield High School",
+   "type": "organization",
+   "role": "School where Patterson teaches"
+  },
+  {
+   "name": "Dr. Angela Richardson",
+   "type": "person",
+   "role": "Cardiologist at Mercy General Hospital who described switching to manual records"
+  },
+  {
+   "name": "Mercy General Hospital",
+   "type": "organization",
+   "role": "Hospital affected by the outage"
+  },
+  {
+   "name": "Anthony Green",
+   "type": "person",
+   "role": "Human resources consultant who discussed lost manhours and compounded costs"
+  },
+  {
+   "name": "Sophie Chen",
+   "type": "person",
+   "role": "International trade analyst who commented on global economic spillover"
+  },
+  {
+   "name": "Eduardo Lopez",
+   "type": "person",
+   "role": "Small tech startup owner describing small business vulnerability"
+  },
+  {
+   "name": "Lisa Chang",
+   "type": "person",
+   "role": "Education policy advisor who called for better digital infrastructure in education"
+  },
+  {
+   "name": "Jack Brennan",
+   "type": "person",
+   "role": "Cybersecurity expert who stressed protecting digital infrastructure"
+  },
+  {
+   "name": "September 4, 2023 internet outage",
+   "type": "event",
+   "role": "Cyber-attack-caused blackout in the northeastern US lasting over eight hours"
+  },
+  {
+   "name": "Brooklyn",
+   "type": "place",
+   "role": "Location of Maria Gonzalez's bakery"
+  }
+ ],
+ "tags": [
+  "internet-outage",
+  "cybersecurity",
+  "economic-impact",
+  "incident-report",
+  "digital-infrastructure"
+ ],
+ "usage": {
+  "input_tokens": 2884,
+  "output_tokens": 1395
+ }
+}

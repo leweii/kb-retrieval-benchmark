@@ -1,0 +1,129 @@
+{
+ "summary": "Engadget's Andrew Tarantola looks back on ChatGPT's first year after its November 30, 2022 launch, covering record user growth, Microsoft's $10 billion investment, product updates, and the backlash it drew. The article walks through each quarter of 2023, including copyright lawsuits, bans, hallucination incidents, and the brief firing and return of Sam Altman. It concludes that ChatGPT looks unlikely to fade, though regulation may shape its future.",
+ "one_line": "A quarter-by-quarter retrospective on ChatGPT's first year, covering record growth, Microsoft's investment, lawsuits, regulatory pushback and the Sam Altman firing drama.",
+ "key_facts": [
+  "ChatGPT launched November 30, 2022 alongside GPT-3.5; OpenAI had been developing GPT since 2016, unveiling GPT-1 in 2018 and reaching GPT-3 by June 2020.",
+  "ChatGPT hit 100 million monthly active users in two months, faster than TikTok or Instagram and the fastest adoption to 100 million in internet history.",
+  "In January 2023 Microsoft extended its partnership with OpenAI with a $10 billion investment.",
+  "By February 2023 OpenAI was reportedly worth just under $30 billion, and ChatGPT was integrated into BingChat (now Copilot) and the Edge browser.",
+  "In March 2023 OpenAI announced the subscription service ChatGPT Plus and added plug-in and API support; ChatGPT also reached 100 million users per day, 30 times higher than two months earlier.",
+  "In March 2023 Elon Musk, Steve Wozniak and other AI researchers signed an open letter demanding a six month moratorium on AI development.",
+  "In April 2023 Italy banned ChatGPT use by public sector employees citing GDPR data privacy violations; the ban was temporary.",
+  "In May 2023 OpenAI released its iOS app and expanded availability to 11 more countries; a New York lawyer was caught citing nonexistent cases ChatGPT invented.",
+  "Comedian and author Sara Silverman sued OpenAI over its 'Book2' dataset, and the Authors Guild, representing Stephen King, John Grisham and 134 others, filed a class-action suit in September; much of Silverman's suit was dismissed.",
+  "The Associated Press announced in August 2023 a licensing agreement with OpenAI to use AP content to train GPT models.",
+  "A Washington Post report in August 2023 found OpenAI's March guardrails against political disinformation weren't being enforced.",
+  "On September 25, 2023, OpenAI added voice and image inputs to ChatGPT; an Enterprise version was also launched.",
+  "OpenAI's board fired Sam Altman just before Thanksgiving 2023, saying he had not been 'consistently candid'; after 72 hours of chaos and three CEOs in as many days, Altman returned.",
+  "OpenAI announced GPTs, customizable single-serving versions of the LLM that anyone can create, and has suggested it may enter the AI chip market; running ChatGPT costs about four cents per query."
+ ],
+ "entities": [
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "OpenAI's generative AI chatbot, the subject of the article"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Developer of ChatGPT and GPT models"
+  },
+  {
+   "name": "Sam Altman",
+   "type": "person",
+   "role": "OpenAI CEO, fired by the board and then reinstated"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Investor ($10 billion) and integrator of ChatGPT into Bing and Edge"
+  },
+  {
+   "name": "Elon Musk",
+   "type": "person",
+   "role": "OpenAI co-founder who signed the open letter calling for a six month AI moratorium"
+  },
+  {
+   "name": "Steve Wozniak",
+   "type": "person",
+   "role": "Signed the open letter calling for an AI development moratorium"
+  },
+  {
+   "name": "Dave Willner",
+   "type": "person",
+   "role": "OpenAI's head of Trust and Safety who resigned in July"
+  },
+  {
+   "name": "Sara Silverman",
+   "type": "person",
+   "role": "Comedian and author who sued OpenAI over copyrighted works in its training data"
+  },
+  {
+   "name": "Authors Guild of America",
+   "type": "organization",
+   "role": "Launched a class-action suit against OpenAI in September"
+  },
+  {
+   "name": "Associated Press",
+   "type": "organization",
+   "role": "News outlet that licensed its content to OpenAI in August"
+  },
+  {
+   "name": "Washington Post",
+   "type": "organization",
+   "role": "Reported that OpenAI's political disinformation guardrails were not enforced"
+  },
+  {
+   "name": "Getty Images",
+   "type": "organization",
+   "role": "Sued Stability AI over Stable Diffusion's use of copyrighted materials"
+  },
+  {
+   "name": "Stability AI",
+   "type": "organization",
+   "role": "Maker of Stable Diffusion, sued by Getty Images"
+  },
+  {
+   "name": "DALL-E 2",
+   "type": "product",
+   "role": "Text-to-image generator released April 2022 that primed the public for generative AI"
+  },
+  {
+   "name": "Italy",
+   "type": "place",
+   "role": "Country that temporarily banned public sector use of ChatGPT in April"
+  },
+  {
+   "name": "Federal Trade Commission",
+   "type": "organization",
+   "role": "Investigated OpenAI over potential consumer protection violations after a March data leak"
+  },
+  {
+   "name": "S&P Global",
+   "type": "organization",
+   "role": "Argues fear of missing out is driving ChatGPT's uptake"
+  },
+  {
+   "name": "President Biden",
+   "type": "person",
+   "role": "Has made responsible AI development a focus of his administration"
+  },
+  {
+   "name": "Snapchat",
+   "type": "organization",
+   "role": "Released its GPT-based My AI assistant"
+  }
+ ],
+ "tags": [
+  "chatgpt",
+  "openai",
+  "generative-ai",
+  "ai-regulation",
+  "microsoft",
+  "tech-retrospective"
+ ],
+ "usage": {
+  "input_tokens": 5296,
+  "output_tokens": 1913
+ }
+}

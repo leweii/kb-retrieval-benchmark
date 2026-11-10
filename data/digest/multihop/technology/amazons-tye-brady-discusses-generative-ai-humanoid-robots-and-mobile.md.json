@@ -1,0 +1,134 @@
+{
+ "summary": "TechCrunch's Brian Heater recaps Amazon's Delivering the Future event in Seattle and interviews Amazon Robotics chief technologist Tye Brady. Announcements covered Prime Air pharmacy drone delivery, the MK30 drone, and the Sequoia inventory system. Brady discussed generative AI in robotics, Agility's Digit humanoid pilots, mobile manipulation, and Amazon's position on jobs and worker safety.",
+ "one_line": "Amazon Robotics' Tye Brady talks generative AI, Agility's Digit humanoid pilots, mobile manipulation, Sequoia and robot-related jobs at Amazon's Delivering the Future event.",
+ "key_facts": [
+  "Amazon's Delivering the Future event was held over two days in Seattle, with the first day inside the Spheres near the South Lake Union headquarters.",
+  "Starting this year, customers in College Station, Texas can get medications from Amazon Pharmacy delivered by Prime Air drone.",
+  "Prime Air will launch in a third U.S. city next year, plus yet-to-be-named spots in the U.K. and Germany; it is currently limited to one city in Texas and another in California.",
+  "Amazon is rolling out the MK30 drone, which it claims is significantly quieter than the previous model.",
+  "Sequoia lets Amazon identify and store fulfillment center inventory up to 75% faster and cuts order processing time by up to 25%.",
+  "Tye Brady said Amazon has more than 750,000 mobile robots plus thousands of other robotic systems, reached over more than 10 years, during which it hired hundreds of thousands of employees.",
+  "Amazon's Robin fleet of package-manipulating robots has inducted more than 2 billion packages.",
+  "Amazon uses generative AI in its robotics lab to create synthetic packages, including damaged corners, to test perception and detection systems in simulation.",
+  "Brady said Amazon's Industrial Innovation Fund is about exploring what's possible, and investing in Agility doesn't mean its robots will enter Amazon's processes; it is 'very early stages'.",
+  "Brady said a 1% defect rate is a huge number at Amazon's scale, so robots can't work just 99% of the time.",
+  "Brady said that in 2022, compared to manual buildings, Amazon reduced the recordable injury rate by 15% with its automation investments.",
+  "Proteus works with the Cardinal arm outside Nashville, and Sequoia is fulfilling orders at Hou 6 near Houston.",
+  "Amazon is partnering with MIT/Ipsos on a study of how workers and consumers perceive industrial robots; MIT's Julie Shah is involved.",
+  "Sequoia was built for the height of Amazon's prior Kiva pods and can be retrofitted into brownfield buildings."
+ ],
+ "entities": [
+  {
+   "name": "Tye Brady",
+   "type": "person",
+   "role": "Amazon Robotics chief technologist interviewed in the article"
+  },
+  {
+   "name": "Brian Heater",
+   "type": "person",
+   "role": "TechCrunch author who wrote the article and conducted the interview"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Company hosting the event and deploying robots, drones and generative AI"
+  },
+  {
+   "name": "Amazon Robotics",
+   "type": "organization",
+   "role": "Amazon division led technically by Tye Brady"
+  },
+  {
+   "name": "Agility",
+   "type": "organization",
+   "role": "Maker of the Digit bipedal robot piloted by Amazon and an Industrial Innovation Fund recipient"
+  },
+  {
+   "name": "Digit",
+   "type": "product",
+   "role": "Agility's humanoid/bipedal robot being piloted by Amazon"
+  },
+  {
+   "name": "Prime Air",
+   "type": "program",
+   "role": "Amazon's drone delivery service expanding to new cities"
+  },
+  {
+   "name": "MK30",
+   "type": "product",
+   "role": "New, quieter Amazon delivery drone"
+  },
+  {
+   "name": "Sequoia",
+   "type": "product",
+   "role": "New first-party inventory and fulfillment system speeding storage and order processing"
+  },
+  {
+   "name": "Proteus",
+   "type": "product",
+   "role": "Amazon autonomous mobile robot moving carts and working with the Cardinal arm"
+  },
+  {
+   "name": "Cardinal",
+   "type": "product",
+   "role": "Amazon robotic arm working with Proteus near Nashville"
+  },
+  {
+   "name": "Robin",
+   "type": "product",
+   "role": "Amazon package-manipulating robot fleet that has inducted over 2 billion packages"
+  },
+  {
+   "name": "Julie Shah",
+   "type": "person",
+   "role": "MIT professor involved in the Amazon, MIT/Ipsos study on human-robot teamwork"
+  },
+  {
+   "name": "MIT/Ipsos",
+   "type": "organization",
+   "role": "Partners with Amazon on a study of worker and consumer views on industrial robots"
+  },
+  {
+   "name": "Industrial Innovation Fund",
+   "type": "program",
+   "role": "Amazon fund for exploring robotics technologies; Agility was among its first recipients"
+  },
+  {
+   "name": "Daniela Rus",
+   "type": "person",
+   "role": "Roboticist mentioned as excited about using generative AI to design robots"
+  },
+  {
+   "name": "Spheres",
+   "type": "place",
+   "role": "Glass geodesic dome greenhouses in Seattle where the first day of the event was held"
+  },
+  {
+   "name": "College Station, Texas",
+   "type": "place",
+   "role": "First city for Amazon Pharmacy drone deliveries"
+  },
+  {
+   "name": "Alphabet's Wing",
+   "type": "organization",
+   "role": "Drone delivery competitor mentioned alongside Amazon"
+  },
+  {
+   "name": "Delivering the Future",
+   "type": "event",
+   "role": "Amazon's annual event in Seattle where the announcements were made"
+  }
+ ],
+ "tags": [
+  "amazon",
+  "robotics",
+  "generative-ai",
+  "humanoid-robots",
+  "drone-delivery",
+  "warehouse-automation"
+ ],
+ "usage": {
+  "input_tokens": 6138,
+  "output_tokens": 1884
+ }
+}

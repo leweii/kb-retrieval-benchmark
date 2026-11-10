@@ -1,0 +1,113 @@
+{
+ "summary": "This Sporting News guide by Sam Eggleston explains point spread betting, in which bookmakers set a margin to level the playing field between a favorite and an underdog. It covers terms such as covering the spread, line movement, and pushes, with worked examples across NFL, NBA, MLB, NHL, soccer, tennis, and golf. It closes with an FAQ on the (-) and (+) symbols and on how ties are settled.",
+ "one_line": "A guide to point spread betting covering favorites, underdogs, covering, pushes, line movement, and sport-specific examples like run lines and puck lines.",
+ "key_facts": [
+  "A point spread is a predetermined margin set by bookmakers to level the playing field between two teams.",
+  "The favorite is typically assigned a negative value (e.g., Lakers -7) and must win by more than the spread; the underdog gets a positive value and wins the bet by winning outright or losing by less than the spread.",
+  "Point spread odds are typically close to even and can appear in American (-110 or +110), Decimal (1.91), or Fractional (10/11) formats.",
+  "Line movement is a change in the spread or odds after sportsbooks set them, commonly caused by lopsided betting money, unexpected events such as injuries or weather, and shifts in public perception.",
+  "A push occurs when the final margin exactly matches the spread, and wagers are typically refunded.",
+  "Sportsbooks often use half-points, such as Cowboys -7.5, to avoid pushes because they don't want to return bets.",
+  "In the Lakers -7 example, a 110-100 Lakers win covers the spread because the 10-point margin exceeds 7.",
+  "In the Bears -4 example, a 24-23 Bears win means a 1-point margin, so Bears bettors lose despite the win.",
+  "In baseball the point spread is the 'run line' (Yankees -1.5), in hockey the 'puck line' (Canadiens -1.5), and in soccer the 'goal line' (LA Galaxy -1).",
+  "In tennis, spread betting is based on games or sets ('game handicap' or 'set handicap'); a Serena Williams -4.5 favorite must win by a 5-game margin.",
+  "In golf, 'stroke handicap' betting is similar to a spread; Tiger Woods at -2.5 against Jordan Spieth must win by 3 or more strokes.",
+  "If the Cleveland Browns are -1.5 favorites over the Baltimore Ravens and the game ends in a 21-21 tie, the Ravens win the spread bet because the margin of 0 is narrower than 1.5.",
+  "In a secondary definition, betting 'against the spread' specifically means betting on the underdog."
+ ],
+ "entities": [
+  {
+   "name": "Sam Eggleston",
+   "type": "person",
+   "role": "Author of the article"
+  },
+  {
+   "name": "Sporting News",
+   "type": "organization",
+   "role": "Publisher of the article"
+  },
+  {
+   "name": "Los Angeles Lakers",
+   "type": "organization",
+   "role": "NBA team used as favorite (-7) in the winning bet example"
+  },
+  {
+   "name": "New York Knicks",
+   "type": "organization",
+   "role": "NBA opponent of the Lakers in the example"
+  },
+  {
+   "name": "Chicago Bears",
+   "type": "organization",
+   "role": "NFL team used as -4 favorite in the losing bet example"
+  },
+  {
+   "name": "Miami Dolphins",
+   "type": "organization",
+   "role": "NFL opponent of the Bears in the example"
+  },
+  {
+   "name": "Dallas Cowboys",
+   "type": "organization",
+   "role": "NFL team favored by 7 in the push example"
+  },
+  {
+   "name": "Philadelphia Eagles",
+   "type": "organization",
+   "role": "NFL opponent of the Cowboys in the push example"
+  },
+  {
+   "name": "Cleveland Browns",
+   "type": "organization",
+   "role": "NFL team -1.5 favorite in the tie example"
+  },
+  {
+   "name": "Baltimore Ravens",
+   "type": "organization",
+   "role": "NFL team that wins the spread bet in the tie example"
+  },
+  {
+   "name": "Serena Williams",
+   "type": "person",
+   "role": "Tennis player used as -4.5 favorite in the game handicap example"
+  },
+  {
+   "name": "Maria Sharapova",
+   "type": "person",
+   "role": "Tennis player used as +4.5 underdog in the example"
+  },
+  {
+   "name": "Tiger Woods",
+   "type": "person",
+   "role": "Golfer used as -2.5 stroke handicap favorite in the example"
+  },
+  {
+   "name": "Jordan Spieth",
+   "type": "person",
+   "role": "Golfer used as +2.5 underdog in the example"
+  },
+  {
+   "name": "LA Galaxy",
+   "type": "organization",
+   "role": "MLS team used as -1 goal line favorite in the example"
+  },
+  {
+   "name": "Atlanta United",
+   "type": "organization",
+   "role": "MLS opponent of LA Galaxy in the example"
+  }
+ ],
+ "tags": [
+  "sports betting",
+  "point spread",
+  "nfl",
+  "nba",
+  "gambling odds",
+  "betting guide"
+ ],
+ "usage": {
+  "input_tokens": 4792,
+  "output_tokens": 1562
+ }
+}

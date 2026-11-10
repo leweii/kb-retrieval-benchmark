@@ -1,0 +1,127 @@
+{
+ "summary": "Polygon's Cameron Faulkner rounds up the best controllers for PC gaming, based on staff preferences, covering Xbox, Sony DualSense, Nintendo Switch Pro and 8BitDo Ultimate models. For each it covers price, PC setup and compatibility (including Steam, DS4Windows and the 8BitDo USB Adapter 2), battery, and standout features. The Xbox controller got the most staff endorsements thanks to comfort, value and no-fuss PC setup.",
+ "one_line": "Polygon's staff picks for PC gaming controllers, comparing Xbox, DualSense, Switch Pro and 8BitDo models on price, compatibility and features.",
+ "key_facts": [
+  "The Microsoft Xbox controller received the highest number of endorsements among the Polygon team and usually costs around $50, depending on color.",
+  "The Xbox controller uses USB-C for wired play, has a 3.5mm headphone jack that works only when wired to a PC, and requires two AA batteries giving about 40 hours of battery life.",
+  "The 8BitDo USB Adapter 2 costs $19.99 and lets Xbox, DualSense and Switch Pro controllers connect to Nintendo Switch, Mac, Raspberry Pi and more.",
+  "The 8BitDo dual controller charging dock costs $44.99 and includes two rechargeable battery packs for Xbox controllers.",
+  "The Xbox Elite Series 2 costs $178.99 and offers swappable stick caps and D-pads, adjustable stick tension, customizable back paddles and a zip-up case; a cheaper Elite Series 2 Core exists, and a third-party kit costs $22.99 on Amazon.",
+  "Sony's DualSense costs $69.99; on PC, games that don't support the DirectInput API likely won't recognize it over Bluetooth, but Steam supports it through SteamInput.",
+  "Non-Steam games can be added to Steam via the 'Add a Game' option so the DualSense works with them, and DS4Windows can emulate the DualSense as an Xbox controller.",
+  "The Sony DualSense Edge costs $199.99 and has fully replaceable stick modules, but Sony and Steam haven't developed drivers for its back paddles and swappable control schemes on PC.",
+  "The Nintendo Switch Pro controller is not plug-and-play on PC unless connected via USB, though Steam officially supports it; it supports motion controls, HD rumble and amiibo, and can wake the console by holding the home button.",
+  "The 8BitDo Ultimate 2.4g costs $49.99, ships with a charging dock holding a 2.4 GHz transmitter, has two rear paddles, three custom control schemes, and a DirectInput/XInput switch.",
+  "The 8BitDo Ultimate Bluetooth is a pricier version with Nintendo-style face buttons and Gulikit Hall effect sticks that resist drift, but lacks NFC and has weaker haptics than the Switch Pro.",
+  "The article was updated on Nov. 17 to check prices and links for accuracy."
+ ],
+ "entities": [
+  {
+   "name": "Polygon",
+   "type": "organization",
+   "role": "Publisher whose staff shared their favorite PC-ready controllers"
+  },
+  {
+   "name": "Cameron Faulkner",
+   "type": "person",
+   "role": "Author of the article"
+  },
+  {
+   "name": "Microsoft Xbox controller",
+   "type": "product",
+   "role": "Most-endorsed controller, about $50, works easily with most PC games"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Maker of the Xbox controller and Elite Series 2"
+  },
+  {
+   "name": "Xbox Elite Series 2",
+   "type": "product",
+   "role": "$178.99 pro-grade Xbox controller with swappable parts and paddles"
+  },
+  {
+   "name": "Xbox Elite Series 2 Core",
+   "type": "product",
+   "role": "Cheaper Elite variant without the extra accessories"
+  },
+  {
+   "name": "Sony DualSense",
+   "type": "product",
+   "role": "$69.99 PS5 controller with haptics and adaptive triggers, favored by some staff"
+  },
+  {
+   "name": "DualSense Edge",
+   "type": "product",
+   "role": "$199.99 pro-grade PS5 controller with replaceable stick modules"
+  },
+  {
+   "name": "Nintendo Switch Pro controller",
+   "type": "product",
+   "role": "Staff favorite for comfort, durability and battery life on Switch and PC"
+  },
+  {
+   "name": "8BitDo USB Adapter 2",
+   "type": "product",
+   "role": "$19.99 adapter connecting controllers to Switch, Mac, Raspberry Pi and PC"
+  },
+  {
+   "name": "8BitDo Ultimate 2.4g",
+   "type": "product",
+   "role": "$49.99 customizable controller with charging dock and 2.4 GHz transmitter"
+  },
+  {
+   "name": "8BitDo Ultimate Bluetooth",
+   "type": "product",
+   "role": "Pricier variant with Hall effect sticks and Nintendo-style face buttons"
+  },
+  {
+   "name": "Steam",
+   "type": "product",
+   "role": "PC game client supporting DualSense and Switch Pro via Steam Input"
+  },
+  {
+   "name": "DS4Windows",
+   "type": "product",
+   "role": "App that emulates the DualSense as an Xbox controller on PC"
+  },
+  {
+   "name": "PCGamingWiki",
+   "type": "organization",
+   "role": "Site listing PC games that support DualSense haptics and adaptive triggers"
+  },
+  {
+   "name": "Nicole Carpenter",
+   "type": "person",
+   "role": "Polygon staffer praising the Xbox controller"
+  },
+  {
+   "name": "Nicole Clark",
+   "type": "person",
+   "role": "Polygon staffer praising the DualSense's precision"
+  },
+  {
+   "name": "Oli Welsh",
+   "type": "person",
+   "role": "Polygon staffer praising the Switch Pro controller's ergonomics"
+  },
+  {
+   "name": "Gulikit",
+   "type": "organization",
+   "role": "Maker of the Hall effect analog sticks in the Ultimate Bluetooth"
+  }
+ ],
+ "tags": [
+  "pc-gaming",
+  "game-controllers",
+  "buying-guide",
+  "xbox",
+  "playstation",
+  "8bitdo"
+ ],
+ "usage": {
+  "input_tokens": 4977,
+  "output_tokens": 1978
+ }
+}

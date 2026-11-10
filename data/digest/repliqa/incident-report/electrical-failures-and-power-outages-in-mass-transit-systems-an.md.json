@@ -1,0 +1,107 @@
+{
+ "summary": "This report reviews electrical failures and power outages in mass transit systems in several cities between September 2023 and February 2024. It shows how aging grid infrastructure disrupts commuters, emergency access and local businesses. It argues for reliable backup systems, infrastructure investment, new technologies like microgrids, and a proactive, multi-stakeholder approach.",
+ "one_line": "A report on transit power outages in US cities from late 2023 to early 2024, arguing for robust backup systems and proactive resilience investment.",
+ "key_facts": [
+  "On September 17, 2023, the MBTA in Boston experienced a massive power outage due to an electrical fault, with delays rippling throughout the day.",
+  "On October 3, 2023, MARTA trains in Atlanta stopped when a substation malfunctioned, and buses and shuttles dependent on rail synchronization were also delayed.",
+  "On November 21, 2023, a power outage in San Francisco Bay Area's BART system coincided with a regional emergency and lasted several hours.",
+  "Jenny Castillo, an EMT, reported increased difficulty reaching people in need during the BART outage.",
+  "Sophia Rodriguez, a regular LA Metro user, described chaos on December 4, 2023, with people missing doctor's appointments and worrying about picking up their kids.",
+  "David Kim, owner of a small deli near a New York City subway station, saw a dip in sales during the outage on January 15, 2024.",
+  "On February 2, 2024, London averted a potential crisis from a power station issue because autonomous backup systems kept Tube services running.",
+  "Michael Andersen, a senior advisor for urban planning in Denver, said maintaining old systems is not enough and modern, robust backup solutions are needed.",
+  "The report says an effective response requires rapid communication and coordination among transit authorities, local governments and emergency services.",
+  "Technologies such as microgrids, solar-powered auxiliary systems and energy storage are proposed to keep transit moving during outages.",
+  "The report says resilience requires cooperation among utility providers, city planners, technology developers, policymakers and transit authorities.",
+  "The report calls for shifting from a reactive to a proactive approach to electrical failures in mass transit."
+ ],
+ "entities": [
+  {
+   "name": "MBTA",
+   "type": "organization",
+   "role": "Boston transit agency that suffered a massive power outage on September 17, 2023"
+  },
+  {
+   "name": "Boston",
+   "type": "place",
+   "role": "City of the September 17, 2023 MBTA outage"
+  },
+  {
+   "name": "Metropolitan Atlanta Rapid Transit Authority (MARTA)",
+   "type": "organization",
+   "role": "Atlanta transit system halted by a substation malfunction on October 3, 2023"
+  },
+  {
+   "name": "Atlanta",
+   "type": "place",
+   "role": "City where MARTA trains stopped"
+  },
+  {
+   "name": "BART",
+   "type": "organization",
+   "role": "San Francisco Bay Area transit system with a several-hour outage on November 21, 2023"
+  },
+  {
+   "name": "San Francisco Bay Area",
+   "type": "place",
+   "role": "Region affected by the BART outage"
+  },
+  {
+   "name": "Jenny Castillo",
+   "type": "person",
+   "role": "EMT who reported difficulty reaching people in need during the BART outage"
+  },
+  {
+   "name": "LA Metro",
+   "type": "organization",
+   "role": "Los Angeles transit system affected by disruption on December 4, 2023"
+  },
+  {
+   "name": "Sophia Rodriguez",
+   "type": "person",
+   "role": "Regular LA Metro user who recalled the chaos of the outage"
+  },
+  {
+   "name": "David Kim",
+   "type": "person",
+   "role": "Owner of a small deli near a New York City subway station hurt by the January 15, 2024 outage"
+  },
+  {
+   "name": "New York City",
+   "type": "place",
+   "role": "Location of the subway outage on January 15, 2024"
+  },
+  {
+   "name": "London",
+   "type": "place",
+   "role": "City where backup systems averted a crisis on February 2, 2024"
+  },
+  {
+   "name": "Tube",
+   "type": "organization",
+   "role": "London's transit services that continued running thanks to backup systems"
+  },
+  {
+   "name": "Michael Andersen",
+   "type": "person",
+   "role": "Senior advisor for urban planning in Denver who called for modern backup solutions"
+  },
+  {
+   "name": "Denver",
+   "type": "place",
+   "role": "City where Michael Andersen works"
+  }
+ ],
+ "tags": [
+  "mass-transit",
+  "power-outages",
+  "infrastructure",
+  "backup-systems",
+  "urban-resilience",
+  "incident-report"
+ ],
+ "usage": {
+  "input_tokens": 2584,
+  "output_tokens": 1409
+ }
+}

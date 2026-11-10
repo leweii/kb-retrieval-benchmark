@@ -1,0 +1,101 @@
+{
+ "summary": "The article uses a September 2023 subway outage in Herald, caused by a failure in century-old track, to examine how aging infrastructure threatens public transit reliability. It covers the economic and social fallout, a UDRI study on infrastructure age, startup predictive-analytics solutions, proposed federal funding through the Forward Mobility Act, and 'Smarter City' visions for integrated mobility.",
+ "one_line": "A September 2023 Herald subway outage illustrates how aging transit infrastructure causes costly disruptions, and the technology, funding and planning responses being proposed.",
+ "key_facts": [
+  "On September 15, 2023, a failure in Herald's century-old track system caused an outage that halted the city's central line and stranded thousands of riders.",
+  "James McArthur, Head of the Herald Transit Authority (HTA), said the incident 'is symptomatic of a wider crisis' of transit systems relying on components 'designed for a bygone era'.",
+  "An Urban Development and Research Institute (UDRI) study released October 3, 2023 found approximately 70% of public transit infrastructure in major cities has been in use for over 50 years.",
+  "UDRI senior researcher Jennifer Alejo warned that without intervention, incidents like Herald's will become more commonplace.",
+  "The Herald outage reduced foot traffic for local businesses, forced students to reschedule exams, and disrupted parents' child care arrangements.",
+  "City University economics professor Greg Liang estimated the Herald incident cost the local economy $5 million in lost productivity and additional expenses.",
+  "On November 12, 2023, Boston-based startup TransitRevive announced a partnership with Herald to deploy predictive analytics and real-time monitoring across the subway network.",
+  "TransitRevive founder Emily Zhang said its AI-based systems let transit authorities move from reactive to proactive and optimize maintenance.",
+  "The Forward Mobility Act was introduced in the Senate on December 5, 2023, proposing a multifaceted funding approach to direct federal resources to public transportation.",
+  "Senator Elizabeth Marshall (D-NY) is a key proponent of the Forward Mobility Act and called it a leap toward sustainable, resilient public transportation.",
+  "Dr. Richard Tan heads the Smart Transit Hub project in San Francisco, which envisions autonomous shuttles, interconnected bike-share programs and energy-efficient light rail in a digitized framework."
+ ],
+ "entities": [
+  {
+   "name": "Herald",
+   "type": "place",
+   "role": "City whose central subway line failed on September 15, 2023 and which partnered with TransitRevive"
+  },
+  {
+   "name": "Herald Transit Authority (HTA)",
+   "type": "organization",
+   "role": "Transit agency headed by James McArthur"
+  },
+  {
+   "name": "James McArthur",
+   "type": "person",
+   "role": "Head of the HTA who addressed the outage at a press briefing"
+  },
+  {
+   "name": "Urban Development and Research Institute (UDRI)",
+   "type": "organization",
+   "role": "Released October 3, 2023 study on the age of transit infrastructure"
+  },
+  {
+   "name": "Jennifer Alejo",
+   "type": "person",
+   "role": "Senior researcher at UDRI"
+  },
+  {
+   "name": "Greg Liang",
+   "type": "person",
+   "role": "Economics professor at City University who estimated the outage's economic cost"
+  },
+  {
+   "name": "City University",
+   "type": "organization",
+   "role": "Institution where Greg Liang teaches"
+  },
+  {
+   "name": "TransitRevive",
+   "type": "organization",
+   "role": "Boston-based startup deploying predictive analytics and monitoring in Herald's subway"
+  },
+  {
+   "name": "Emily Zhang",
+   "type": "person",
+   "role": "Founder of TransitRevive"
+  },
+  {
+   "name": "Forward Mobility Act",
+   "type": "program",
+   "role": "Senate bill introduced December 5, 2023 to fund transit infrastructure"
+  },
+  {
+   "name": "Elizabeth Marshall",
+   "type": "person",
+   "role": "Senator (D-NY) and key proponent of the Forward Mobility Act"
+  },
+  {
+   "name": "Richard Tan",
+   "type": "person",
+   "role": "Dr.; head of the Smart Transit Hub project in San Francisco"
+  },
+  {
+   "name": "Smart Transit Hub",
+   "type": "program",
+   "role": "San Francisco 'Smarter City' project for integrated, multimodal mobility"
+  },
+  {
+   "name": "Herald-Subway incident",
+   "type": "event",
+   "role": "September 15, 2023 outage caused by century-old track failure"
+  }
+ ],
+ "tags": [
+  "public-transit",
+  "aging-infrastructure",
+  "incident-report",
+  "transit-funding",
+  "smart-cities",
+  "urban-policy"
+ ],
+ "usage": {
+  "input_tokens": 2930,
+  "output_tokens": 1478
+ }
+}

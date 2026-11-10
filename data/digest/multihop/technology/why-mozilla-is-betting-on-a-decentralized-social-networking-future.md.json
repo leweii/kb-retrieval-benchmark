@@ -1,0 +1,118 @@
+{
+ "summary": "Mozilla, the nonprofit-owned maker of Firefox and Pocket, is investing in the fediverse through Mozilla.social, a heavily moderated Mastodon instance now in private beta. Senior Director of Content Carolyn O'Hara says the goal is to give users choice and help the fediverse grow, not to amass billions of users. Mozilla is focusing on easier onboarding, content discovery via Pocket-powered recommendations, publisher outreach, and strict trust and safety, while noting the shutdown of Pebble as a cautionary tale.",
+ "one_line": "Mozilla is building a heavily moderated Mastodon instance, Mozilla.social, to help the fediverse grow with better onboarding, discovery, publisher involvement and trust and safety.",
+ "key_facts": [
+  "Mozilla announced its plans to enter the fediverse in December 2022 and launched a private beta of Mozilla.social, a Mastodon instance, in May 2023.",
+  "The fediverse is a collection of decentralized social apps, like Mastodon, that communicate over the ActivityPub protocol.",
+  "Mozilla is a wholly owned subsidiary of a nonprofit, so it says it is not driven by shareholder earnings or returning VC investment.",
+  "Carolyn O'Hara, Mozilla Senior Director of Content, said: \"We're not seeking to get, like 2 billion users on our instance. We want people to have choice and agency.\"",
+  "Users join Mozilla.social with their Mozilla accounts, which also give access to Firefox, Mozilla's VPN and Pocket; the instance is experimenting with hundreds of users and has no public launch date.",
+  "Mozilla uses a forked version of Elk as the alternative web client for its Mastodon server, and its social work is public on GitHub.",
+  "Mozilla is experimenting with a Discover feed and runs a Mastodon account, @Pocket_Recommends@mozilla.social, that posts story recommendations like the Pocket newsletter.",
+  "Mozilla is in active discussions with publishers, who feel pessimistic about social networks because Twitter drives little traffic and Meta said it wouldn't prioritize news on Instagram Threads.",
+  "Mozilla's content policies are strict on hate speech, impersonation, self-harm, harassment, misinformation, violent and sexualized content, and illegal content like CSAM.",
+  "Pebble (formerly T2), a Twitter clone focused on trust and safety, shut down after never gaining more than 20,000 users, suggesting safety alone isn't a growth driver.",
+  "O'Hara said \"this isn't a neutral platform\" and that the beta will open in phases so the moderation team can scale with the user base.",
+  "Mozilla has financially backed Mammoth, a startup that makes a third-party app for Mastodon.",
+  "Mozilla says its values of inclusion, dignity, security, agency and community have guided it for 25 years."
+ ],
+ "entities": [
+  {
+   "name": "Mozilla",
+   "type": "organization",
+   "role": "Nonprofit-owned maker of Firefox and Pocket investing in the fediverse"
+  },
+  {
+   "name": "Mozilla.social",
+   "type": "product",
+   "role": "Mozilla's Mastodon instance, currently in private beta"
+  },
+  {
+   "name": "Carolyn O'Hara",
+   "type": "person",
+   "role": "Mozilla Senior Director of Content interviewed by TechCrunch"
+  },
+  {
+   "name": "Mastodon",
+   "type": "product",
+   "role": "Decentralized social networking app in the fediverse"
+  },
+  {
+   "name": "ActivityPub",
+   "type": "other",
+   "role": "Protocol that lets fediverse apps communicate"
+  },
+  {
+   "name": "Pocket",
+   "type": "product",
+   "role": "Mozilla's read-it-later app, source of recommendation expertise"
+  },
+  {
+   "name": "Firefox",
+   "type": "product",
+   "role": "Mozilla's browser"
+  },
+  {
+   "name": "Elon Musk",
+   "type": "person",
+   "role": "Billionaire who bought Twitter, spurring interest in alternatives"
+  },
+  {
+   "name": "Twitter",
+   "type": "organization",
+   "role": "Social network now called X, under Musk"
+  },
+  {
+   "name": "Bluesky",
+   "type": "product",
+   "role": "Alternative to centralized social networking"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Large social company; said it wouldn't prioritize news on Threads"
+  },
+  {
+   "name": "Instagram Threads",
+   "type": "product",
+   "role": "Meta platform that publishers find interesting but not news-friendly"
+  },
+  {
+   "name": "Pebble",
+   "type": "product",
+   "role": "Formerly T2, a safety-focused Twitter clone that shut down"
+  },
+  {
+   "name": "Mammoth",
+   "type": "organization",
+   "role": "Startup backed by Mozilla, makers of a third-party Mastodon app"
+  },
+  {
+   "name": "Elk",
+   "type": "product",
+   "role": "Web client Mozilla forked for its Mastodon server"
+  },
+  {
+   "name": "Sarah Perez",
+   "type": "person",
+   "role": "TechCrunch author of the article"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication that interviewed O'Hara"
+  }
+ ],
+ "tags": [
+  "mozilla",
+  "fediverse",
+  "mastodon",
+  "social-media",
+  "content-moderation",
+  "decentralization"
+ ],
+ "usage": {
+  "input_tokens": 4282,
+  "output_tokens": 1681
+ }
+}

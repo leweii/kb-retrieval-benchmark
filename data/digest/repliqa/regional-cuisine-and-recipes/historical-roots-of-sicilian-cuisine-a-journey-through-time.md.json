@@ -1,0 +1,113 @@
+{
+ "summary": "The note traces Sicilian cuisine through successive historical layers, from Greek colonists and Roman trade to Arab, Norman, Spanish, Baroque, unification-era and post-war influences. Each era contributed ingredients and techniques such as olives, spices, rice, citrus, pasta, tomatoes and ricotta sweets. It closes with modern chefs like Corrado Assenza carrying the tradition forward, arguing that understanding a region's cuisine means understanding its history.",
+ "one_line": "Sicilian cuisine developed over millennia through Greek, Roman, Arab, Norman, Spanish and later influences, still visible in its dishes today.",
+ "key_facts": [
+  "Signs of human life in Sicily date back to 12,000 BC, but Sicilian cuisine began taking distinctive shape around 750 BC when Greeks established colonies.",
+  "The Greeks introduced olives and grape vines, and brought a taste for fresh seafood, oregano, thyme, almonds and honey in sweets.",
+  "A mosaic in the Villa Romana del Casale, dated to approximately 320 AD, may depict an early Sicilian banquet with Hellenic staples.",
+  "The Roman conquest in the 3rd century BC brought trade networks and Eastern spices, which became commonplace in Sicilian meals by the 1st century AD.",
+  "The Romans brought garum, a fermented fish sauce, to Sicily; Apicius documented recipes hinting at Sicilian inclusion.",
+  "Arab rule beginning in 827 AD introduced rice, saffron, sugarcane and citrus orchards during the 9th to 11th centuries, along with irrigation innovations from the Moors.",
+  "Pasta, couscous and sweet-and-sour contrasts, as in caponata, took root during the Arab period.",
+  "The Normans arrived in 1072; the court of King Roger II (1130 to 1154) was known for luxurious banquets with robust meat dishes and rich sauces.",
+  "Under Spanish rule from the 13th century the divide between aristocratic and peasant cuisine began to blur, and New World tomatoes were adopted after the Columbian exchange.",
+  "In the Baroque period (late 17th to 18th century), dedicated pasta making facilities were established around 1600, and ricotta was incorporated into cannoli and cassata; Modica chocolate dates to Spanish domination.",
+  "Sicily became part of unified Italy in 1861, and regional cuisine gained prominence.",
+  "Pasta con le sarde uses fresh sardines, wild fennel, raisins and pine nuts and is described as a symbol of Sicilian gastronomic heritage.",
+  "Tourism from the 1950s onwards brought international admiration to Sicily's cuisine.",
+  "Chef Corrado Assenza began crafting Sicilian flavors at Caffè Sicilia in Noto after 1990, bringing contemporary interpretations of traditional dishes to the public."
+ ],
+ "entities": [
+  {
+   "name": "Sicily",
+   "type": "place",
+   "role": "Mediterranean island whose cuisine is the subject of the note"
+  },
+  {
+   "name": "Greeks",
+   "type": "organization",
+   "role": "Colonists from around 750 BC who introduced olives, grape vines, seafood, herbs, almonds and honey"
+  },
+  {
+   "name": "Romans",
+   "type": "organization",
+   "role": "Conquerors from the 3rd century BC who brought spice trade and garum"
+  },
+  {
+   "name": "Apicius",
+   "type": "person",
+   "role": "Roman figure who documented recipes hinting at Sicilian inclusion"
+  },
+  {
+   "name": "Villa Romana del Casale",
+   "type": "place",
+   "role": "Site of a mosaic from about 320 AD depicting a possible early Sicilian banquet"
+  },
+  {
+   "name": "Arabs",
+   "type": "organization",
+   "role": "Rulers from 827 AD who introduced rice, saffron, sugarcane, citrus, pasta and couscous"
+  },
+  {
+   "name": "Moors",
+   "type": "organization",
+   "role": "Brought irrigation innovations that boosted agriculture"
+  },
+  {
+   "name": "Normans",
+   "type": "organization",
+   "role": "Arrived in 1072, conquered Arab rulers and brought lavish, hearty cuisine"
+  },
+  {
+   "name": "King Roger II",
+   "type": "person",
+   "role": "Norman ruler whose court (1130 to 1154) was known for luxurious banquets"
+  },
+  {
+   "name": "Modica",
+   "type": "place",
+   "role": "Origin of Sicilian chocolate dating to Spanish domination"
+  },
+  {
+   "name": "Corrado Assenza",
+   "type": "person",
+   "role": "Chef who began crafting Sicilian flavors at Caffè Sicilia in Noto after 1990"
+  },
+  {
+   "name": "Caffè Sicilia",
+   "type": "organization",
+   "role": "Noto establishment where Assenza works"
+  },
+  {
+   "name": "Noto",
+   "type": "place",
+   "role": "Town where Caffè Sicilia is located"
+  },
+  {
+   "name": "Pasta con le sarde",
+   "type": "product",
+   "role": "Dish of sardines, wild fennel, raisins and pine nuts symbolizing Sicilian heritage"
+  },
+  {
+   "name": "Caponata",
+   "type": "product",
+   "role": "Dish showing sweet and sour contrast from Arab influence"
+  },
+  {
+   "name": "Cosa Nostra",
+   "type": "organization",
+   "role": "Named in the note as bonding over pasta con le sarde in the 19th century"
+  }
+ ],
+ "tags": [
+  "sicilian-cuisine",
+  "food-history",
+  "mediterranean",
+  "regional-cuisine",
+  "italy"
+ ],
+ "usage": {
+  "input_tokens": 3357,
+  "output_tokens": 1775
+ }
+}

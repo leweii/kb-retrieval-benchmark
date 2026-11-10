@@ -1,0 +1,113 @@
+{
+ "summary": "A news-style feature on the rapid rise of genetic engineering and designer organisms since CRISPR-Cas9 in 2012. It covers milestones from a photosynthetic rodent to drought-tolerant plants, disease-resistant livestock, Huntington's disease correction, plastic-eating bacteria, heat-tolerant coral and space crops. It also highlights the ethical debate, including the Geneva summit and the proposed GeneGuard safeguard.",
+ "one_line": "Feature on the 2023-2024 genetic engineering boom, from a photosynthetic rodent to plastic-eating bacteria, and the ethical frameworks governing designer organisms.",
+ "key_facts": [
+  "CRISPR-Cas9 was discovered in 2012 and moved from the lab bench to practical application.",
+  "On September 5, 2023, Dr. Elaine Simmons of Innovative Genomics Institute announced 'The Second Genesis Project'.",
+  "Simmons' team created 'Helios', a small photosynthetic rodent that derives a portion of its energy from sunlight.",
+  "CRISPR-Cas9 works as a molecular scissor: the Cas9 enzyme is guided by an RNA piece matching the target DNA sequence and snips the DNA at that location.",
+  "In October 2023, Hungarian firm HelixCraft Innovations unveiled a plant that grows in arid conditions, needs minimal water and can purify saline sources.",
+  "A consortium led by agricultural scientist Dr. Amardeep Chaudhry developed livestock with improved disease resistance against common pathogens.",
+  "On February 9, 2024, a GeneTherapix team led by Dr. Laura Vázquez corrected the genetic mutations responsible for Huntington's disease in vitro.",
+  "Genetically engineered viruses are being used as vectors for vaccine delivery, tailored to each pathogen.",
+  "The International Summit on Gene Editing was held on March 28, 2024, in Geneva, bringing together ethicists, scientists and policymakers.",
+  "Bioethicist Dr. Kiyoko Tanaka conceived 'GeneGuard', a proposed genetic circuitbreaker to stop modified genes from propagating beyond intended boundaries.",
+  "On November 10, 2024, startup BioSynthetica announced bacteria that break down plastics into harmless byproducts, a process called 'bio-recycling'.",
+  "Marine biologists engineered coral species to withstand warmer ocean temperatures.",
+  "NASA and the European Space Agency are collaborating on 'celestial crops' designed to grow in Martian soil simulants."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Elaine Simmons",
+   "type": "person",
+   "role": "Scientist at Innovative Genomics Institute who announced 'The Second Genesis Project' and the photosynthetic rodent Helios"
+  },
+  {
+   "name": "Innovative Genomics Institute",
+   "type": "organization",
+   "role": "Institution of Dr. Elaine Simmons"
+  },
+  {
+   "name": "The Second Genesis Project",
+   "type": "program",
+   "role": "Project that produced the photosynthetic mammal Helios"
+  },
+  {
+   "name": "Helios",
+   "type": "other",
+   "role": "Photosynthetic rodent created by Simmons' team"
+  },
+  {
+   "name": "CRISPR-Cas9",
+   "type": "product",
+   "role": "Most widely used gene editing tool, discovered in 2012"
+  },
+  {
+   "name": "HelixCraft Innovations",
+   "type": "organization",
+   "role": "Hungarian bioengineering firm that unveiled a drought-tolerant, salt-purifying plant"
+  },
+  {
+   "name": "Dr. Amardeep Chaudhry",
+   "type": "person",
+   "role": "Agricultural scientist leading a consortium that developed disease-resistant livestock"
+  },
+  {
+   "name": "GeneTherapix",
+   "type": "organization",
+   "role": "Team that corrected Huntington's disease mutations in vitro"
+  },
+  {
+   "name": "Dr. Laura Vázquez",
+   "type": "person",
+   "role": "Lead researcher at GeneTherapix"
+  },
+  {
+   "name": "International Summit on Gene Editing",
+   "type": "event",
+   "role": "March 28, 2024 summit in Geneva on governance of gene editing"
+  },
+  {
+   "name": "Geneva",
+   "type": "place",
+   "role": "Location of the International Summit on Gene Editing"
+  },
+  {
+   "name": "Dr. Kiyoko Tanaka",
+   "type": "person",
+   "role": "Bioethicist who conceived GeneGuard"
+  },
+  {
+   "name": "GeneGuard",
+   "type": "product",
+   "role": "Proposed genetic circuitbreaker to prevent modified genes from spreading"
+  },
+  {
+   "name": "BioSynthetica",
+   "type": "organization",
+   "role": "Startup that created plastic-degrading bacteria"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "Collaborator in developing organisms for extraterrestrial agriculture"
+  },
+  {
+   "name": "European Space Agency",
+   "type": "organization",
+   "role": "Collaborator with NASA on celestial crops"
+  }
+ ],
+ "tags": [
+  "genetic-engineering",
+  "crispr",
+  "biotechnology",
+  "bioethics",
+  "news",
+  "environment"
+ ],
+ "usage": {
+  "input_tokens": 2899,
+  "output_tokens": 1650
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "summary": "The article reviews six severe-weather events from 2023 to 2025 that disrupted the US electrical grid: a Texas freeze, Hurricane Selena, Southwest heatwave blackouts, a Midwest tornado outbreak, a derecho, and a Northeast blizzard. For each event it gives the impacts and expert commentary on the vulnerabilities exposed. The common lesson is that resilience planning, weatherproofing and infrastructure investment must continue as extreme weather grows more frequent.",
+ "one_line": "Overview of six major weather-related US power outages from 2023 to 2025 and the grid resilience lessons drawn from each.",
+ "key_facts": [
+  "On February 14, 2024, an unprecedented cold snap hit Texas and left millions without power for days.",
+  "Texas's grid is described as infamously independent from national networks, and it failed as demand surged while natural gas and wind turbine supply was incapacitated by the freeze.",
+  "Utility analyst Jerry Thompson said the Texas grid was designed mainly for hot-summer peak demand, not extreme cold, and that the outage showed a systemic lack of weatherproofing across all forms of generation and transmission.",
+  "Hurricane Selena made landfall on October 5, 2023, on the southeastern coastline, leaving over 3 million residents without electricity.",
+  "After Hurricane Selena, flood defense strategies for critical substations were reviewed and drone technology was increasingly adopted for swift post-storm assessments.",
+  "A heatwave in summer 2025 pushed temperatures above 110 degrees Fahrenheit in the Southwest US, causing rolling blackouts from California to Arizona.",
+  "Energy policy expert Daniel Kim called for more renewable production to handle peak loads, dynamic pricing, and distributed sources such as residential solar panels with battery storage.",
+  "On June 3, 2024, tornadoes swept through the Midwest; emergency response coordinator Lisa Grant said more robust communication systems were needed, and utilities moved to more durable, storm-resistant poles and reevaluated underground cabling.",
+  "A derecho on August 11, 2023, with winds up to 110 miles per hour, caused outages for over a million households and businesses across the Midwest.",
+  "Outage manager Mike Johnson said the derecho showed the need for vegetation management; utilities began investing in predictive analytics, laser scanning and satellite imagery.",
+  "The Northeast blizzard of January 17, 2025, brought accumulations exceeding two feet and ice that downed power lines, with repairs slowed by treacherous roads.",
+  "Regional energy advisor Sarah Chen said cold weather packages for essential components had been overlooked in some grid designs, leading to more cold-resistant components and better storm impact prediction."
+ ],
+ "entities": [
+  {
+   "name": "Texas",
+   "type": "place",
+   "role": "State whose independent grid failed during the February 2024 freeze"
+  },
+  {
+   "name": "Jerry Thompson",
+   "type": "person",
+   "role": "Utility analyst who explained the Texas grid's design for summer peak demand"
+  },
+  {
+   "name": "Hurricane Selena",
+   "type": "event",
+   "role": "October 2023 hurricane that left over 3 million without power in the southeast"
+  },
+  {
+   "name": "Florida Power & Light",
+   "type": "organization",
+   "role": "Utility whose storm-hardening efforts were tested by Hurricane Selena"
+  },
+  {
+   "name": "Maria Vargas",
+   "type": "person",
+   "role": "Florida Power & Light representative commenting on storm hardening"
+  },
+  {
+   "name": "Daniel Kim",
+   "type": "person",
+   "role": "Energy policy expert who commented on the 2025 summer blackouts"
+  },
+  {
+   "name": "Lisa Grant",
+   "type": "person",
+   "role": "Emergency response coordinator discussing tornado recovery"
+  },
+  {
+   "name": "Mike Johnson",
+   "type": "person",
+   "role": "Outage manager who stressed vegetation management after the derecho"
+  },
+  {
+   "name": "Sarah Chen",
+   "type": "person",
+   "role": "Regional energy advisor commenting on the Northeast blizzard"
+  },
+  {
+   "name": "Texas Freeze of February 2024",
+   "type": "event",
+   "role": "Cold snap causing widespread multi-day outages in Texas"
+  },
+  {
+   "name": "Summer Blackouts of 2025",
+   "type": "event",
+   "role": "Heatwave-driven rolling blackouts across the Southwest US"
+  },
+  {
+   "name": "Tornado Outbreak of June 2024",
+   "type": "event",
+   "role": "Midwest tornadoes that leveled power lines"
+  },
+  {
+   "name": "Derecho Event of August 2023",
+   "type": "event",
+   "role": "Midwest windstorm that caused outages for over a million customers"
+  },
+  {
+   "name": "Blizzard of January 2025",
+   "type": "event",
+   "role": "Northeast snow and ice storm that crippled the grid"
+  }
+ ],
+ "tags": [
+  "power-grid",
+  "severe-weather",
+  "infrastructure-resilience",
+  "blackouts",
+  "incident-report",
+  "climate"
+ ],
+ "usage": {
+  "input_tokens": 2812,
+  "output_tokens": 1592
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "summary": "The note lists ten cybersecurity failures between September 2023 and April 2024 that caused internet outages at various providers. Causes range from basic lapses (unchanged passwords, missed patches, default credentials) to phishing, unencrypted updates, IoT botnets, insider threats, forgotten infrastructure, copied code, and overconfidence in an 'unhackable' system. The overall lesson is that cyber vigilance is a constant journey, not a destination.",
+ "one_line": "A roundup of ten cybersecurity failures from September 2023 to April 2024 that caused internet outages, and the lessons each teaches.",
+ "key_facts": [
+  "On September 15, 2023, Weblink Telecom suffered an outage when a disgruntled former employee, whose access was never revoked and whose passwords were never changed, introduced a bug that crippled the network for hours.",
+  "In October 2023, NextGen Internet was hit by an exploit that had been patched months earlier; a missed update on a key router caused massive traffic disruption.",
+  "In November 2023, an SimpliNet Solutions employee responded to a phishing email, compromising the whole network and slowing services despite earlier cybersecurity training that year.",
+  "In December 2023, SecureFi shipped new firmware with default settings, including an easily guessable admin password, and hackers quickly disrupted the network.",
+  "On January 17, 2024, GlobalNet suffered a massive data compromise when a performance-enhancing patch was intercepted because it was not encrypted.",
+  "On February 12, 2024, Boost Internet saw a surge of network requests caused by compromised IoT devices used in a Distributed Denial of Service (DDoS) attack, and took hours to identify the cause.",
+  "In March 2024, a long-term LightSpeed Internet employee turned bad actor facilitated a breach that took the network down for regions.",
+  "On March 27, 2024, QuantumNet went down for several hours after a passerby hacker found old, unnoticed and unsecured network infrastructure, a case of 'security through obscurity'.",
+  "On April 9, 2024, FastStream released an application containing 'test code' copied from a public forum without thorough review, leaving a critical vulnerability hackers exploited.",
+  "On April 20, 2024, EliteNet's 'unhackable' proprietary security system was bypassed by cybercriminals in a novel way, causing a day-long outage attributed to overconfidence and complacency."
+ ],
+ "entities": [
+  {
+   "name": "Weblink Telecom",
+   "type": "organization",
+   "role": "Internet service provider hit by outage from a former employee's retained access on September 15, 2023"
+  },
+  {
+   "name": "NextGen Internet",
+   "type": "organization",
+   "role": "Victim of an exploit for an unapplied patch in October 2023"
+  },
+  {
+   "name": "SimpliNet Solutions",
+   "type": "organization",
+   "role": "Company compromised via a phishing email in November 2023"
+  },
+  {
+   "name": "SecureFi",
+   "type": "organization",
+   "role": "Shipped firmware with default settings and a guessable admin password in December 2023"
+  },
+  {
+   "name": "GlobalNet",
+   "type": "organization",
+   "role": "Suffered data compromise from an unencrypted intercepted patch on January 17, 2024"
+  },
+  {
+   "name": "Boost Internet",
+   "type": "organization",
+   "role": "Hit by an IoT-based DDoS attack on February 12, 2024"
+  },
+  {
+   "name": "LightSpeed Internet",
+   "type": "organization",
+   "role": "Breached through an insider threat in March 2024"
+  },
+  {
+   "name": "QuantumNet",
+   "type": "organization",
+   "role": "Network taken down on March 27, 2024 via forgotten unsecured infrastructure"
+  },
+  {
+   "name": "FastStream",
+   "type": "organization",
+   "role": "Released an application with vulnerable copied test code on April 9, 2024"
+  },
+  {
+   "name": "EliteNet",
+   "type": "organization",
+   "role": "Company whose 'unhackable' proprietary defense was bypassed on April 20, 2024"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "internet-outages",
+  "incident-report",
+  "phishing",
+  "iot-security",
+  "insider-threat"
+ ],
+ "usage": {
+  "input_tokens": 2714,
+  "output_tokens": 1311
+ }
+}

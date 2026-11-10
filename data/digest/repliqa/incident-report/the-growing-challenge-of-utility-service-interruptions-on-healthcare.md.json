@@ -1,0 +1,112 @@
+{
+ "summary": "The note examines how rising interruptions to electricity, internet and water services are disrupting healthcare delivery, citing incidents from September to November 2023 in several US states. It describes cascading effects such as postponed surgeries and delayed diagnostics, and covers responses including backup generators, costs, stricter regulation, new technology, and staff training and simulations. It concludes that infrastructure, training and regulatory adherence must all improve to protect patient care.",
+ "one_line": "Utility outages in power, internet and water are increasingly disrupting hospitals, prompting backup systems, regulation, technology and staff training responses.",
+ "key_facts": [
+  "A record-breaking heatwave on September 12, 2023 began a series of power outages across healthcare facilities in several states.",
+  "Dr. Elena Watkins, chief of a prominent Arizona hospital, reported the outage failed cooling systems, endangering patients, medications and vaccines.",
+  "On October 5, 2023, an unexpected internet outage disrupted telehealth services, delayed virtual appointments and blocked access to online patient records.",
+  "Hospital administrator Jonathan Pierce called the internet outage \"a wake-up call to the over-reliance on digital systems without adequate backup plans.\"",
+  "On November 3, 2023, a major water main break in Ohio created a dire situation at Springfield General Hospital, and head of nursing Susan Marshall described implementing contingency protocols for sanitary surgeries and patient care.",
+  "After a regional power outage on November 15, the backlog of delayed procedures at Mercy Hospital in New York took weeks to clear.",
+  "Dr. Hamish Rodriguez, a senior surgeon, said \"Every postponed operation has a domino effect, creating scheduling nightmares and prolonging patient anxiety.\"",
+  "Central Hospital in California, under facilities manager Michael Chen, installed backup generators that switch on within seconds of a power failure.",
+  "Laura Gibson, financial officer at St. Luke's Hospital in Texas, said the cost of disruption to healthcare services is incalculably higher than the cost of comprehensive backup systems.",
+  "Dr. Robert Khan of New Jersey's Parkway Medical Center notes that failing to meet stricter regulatory backup requirements could bring sanctions and compromise patient care quality and safety.",
+  "Nurse educator Emily Roberts of Healthcare Simulations Inc. has worked with multiple hospitals to develop crisis simulation programs for utility outages.",
+  "Social worker Jordan Elias at Unity Health said \"It's not just about keeping the lights on; it's about reassuring patients and maintaining a semblance of normalcy amidst the chaos.\"",
+  "Technology solutions under development include predictive maintenance for utility infrastructure, smart grids and renewable energy systems for self-sufficient hospitals."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Elena Watkins",
+   "type": "person",
+   "role": "Chief of a prominent Arizona hospital who reported the September power outage's impact"
+  },
+  {
+   "name": "Jonathan Pierce",
+   "type": "person",
+   "role": "Hospital administrator who called the internet outage a wake-up call"
+  },
+  {
+   "name": "Susan Marshall",
+   "type": "person",
+   "role": "Head of nursing at Springfield General Hospital during the water main break"
+  },
+  {
+   "name": "Springfield General Hospital",
+   "type": "organization",
+   "role": "Ohio hospital affected by the November 3, 2023 water main break"
+  },
+  {
+   "name": "Mercy Hospital",
+   "type": "organization",
+   "role": "New York hospital with weeks-long backlog after the November 15 power outage"
+  },
+  {
+   "name": "Dr. Hamish Rodriguez",
+   "type": "person",
+   "role": "Senior surgeon who described the domino effect of postponed operations"
+  },
+  {
+   "name": "Central Hospital",
+   "type": "organization",
+   "role": "California hospital that installed fast-switching backup generators"
+  },
+  {
+   "name": "Michael Chen",
+   "type": "person",
+   "role": "Facilities manager at Central Hospital who spearheaded the generator installation"
+  },
+  {
+   "name": "Laura Gibson",
+   "type": "person",
+   "role": "Financial officer at St. Luke's Hospital in Texas, commented on backup system costs"
+  },
+  {
+   "name": "St. Luke's Hospital",
+   "type": "organization",
+   "role": "Texas hospital of financial officer Laura Gibson"
+  },
+  {
+   "name": "Dr. Robert Khan",
+   "type": "person",
+   "role": "Provider at New Jersey's Parkway Medical Center commenting on regulatory compliance"
+  },
+  {
+   "name": "Parkway Medical Center",
+   "type": "organization",
+   "role": "New Jersey medical center of Dr. Robert Khan"
+  },
+  {
+   "name": "Emily Roberts",
+   "type": "person",
+   "role": "Nurse educator who helped develop crisis simulation programs"
+  },
+  {
+   "name": "Healthcare Simulations Inc.",
+   "type": "organization",
+   "role": "Employer of Emily Roberts; collaborates with hospitals on simulations"
+  },
+  {
+   "name": "Jordan Elias",
+   "type": "person",
+   "role": "Social worker at Unity Health commenting on the human factor"
+  },
+  {
+   "name": "Unity Health",
+   "type": "organization",
+   "role": "Organization where social worker Jordan Elias works"
+  }
+ ],
+ "tags": [
+  "healthcare",
+  "utility-outages",
+  "disaster-preparedness",
+  "infrastructure",
+  "incident-report"
+ ],
+ "usage": {
+  "input_tokens": 2933,
+  "output_tokens": 1730
+ }
+}

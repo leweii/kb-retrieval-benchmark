@@ -1,0 +1,108 @@
+{
+ "summary": "A satirical piece imagining a perfect transportation network where an unplanned subway delay in New Metro City triggers an elaborate minute-by-minute contingency plan, from comfort kits to satellites and mechanics. It ends by admitting that real-world outage strategies are closer to hastily scrawled post-it notes.",
+ "one_line": "Satirical minute-by-minute account of an idealized contingency plan for a subway delay, contrasted with the messy reality of real outages.",
+ "key_facts": [
+  "The note is satire, framed as a world where 'delay' and 'cancellation' are obsolete terms.",
+  "On September 15th, 2023, a subway train in New Metro City pauses for an unplanned four minutes.",
+  "The planning committee is led by Iris Clockworthy.",
+  "At five minutes, Emergency Response #1 deploys 'Commuter Comfort Kits' containing an eye mask, a train-carriage stress ball and a pamphlet saying 'This too shall pass.'",
+  "At six minutes, substitute services (buses, taxis, bikes) are released, led by Gil Grimsby, the 'reigning champion of backup bus driving.'",
+  "At eight minutes, the Public Announcement Angels (PAAs), led by Selina Soothing-voice, issue calming announcements.",
+  "At nine minutes, mindfulness monitors are deployed on platforms to lead travelers through stress-relieving 'om's.",
+  "At ten minutes, Mortimer Monocle, the Grand Marshal of Movement Monitoring, analyzes transit patterns and adjusts routes.",
+  "At eleven minutes, the Satellite Samaritans provide live feeds, and at twelve minutes the Mechanics of Mystery repair faults before complaints arise.",
+  "At thirteen minutes, the Speedy Solutionists and Re-routing Ruffians manage detours using GPS, and a minute later the Informers push live updates to travelers' devices.",
+  "The Connectivity Champions promise uninterrupted internet and power during the disruption.",
+  "Just shy of fifteen minutes, the train doors open and travelers emerge to the on-time ovation.",
+  "The closing admits that in reality train delays are 'as normal as the setting sun' and plans are 'hastily scrawled post-it notes.'",
+  "The intro dates the framing as October 3rd, 2023."
+ ],
+ "entities": [
+  {
+   "name": "New Metro City",
+   "type": "place",
+   "role": "City where the subway train is delayed four minutes"
+  },
+  {
+   "name": "Iris Clockworthy",
+   "type": "person",
+   "role": "Infallible leader of the planning committee"
+  },
+  {
+   "name": "Gil Grimsby",
+   "type": "person",
+   "role": "Leads substitute services; champion of backup bus driving"
+  },
+  {
+   "name": "Selina Soothing-voice",
+   "type": "person",
+   "role": "Leads the Public Announcement Angels"
+  },
+  {
+   "name": "Mortimer Monocle",
+   "type": "person",
+   "role": "Grand Marshal of Movement Monitoring"
+  },
+  {
+   "name": "Bob, the Bus Driver",
+   "type": "person",
+   "role": "Public servant who has never known a delay announcement"
+  },
+  {
+   "name": "Wendy, the Wing Commander",
+   "type": "person",
+   "role": "Public servant who has never known a delay announcement"
+  },
+  {
+   "name": "Commuter Comfort Kits",
+   "type": "product",
+   "role": "Kits with eye mask, stress ball and pamphlet used in Emergency Response #1"
+  },
+  {
+   "name": "Public Announcement Angels (PAAs)",
+   "type": "organization",
+   "role": "Team delivering soothing service outage announcements"
+  },
+  {
+   "name": "Satellite Samaritans",
+   "type": "organization",
+   "role": "Satellites providing live feeds of services"
+  },
+  {
+   "name": "Mechanics of Mystery",
+   "type": "organization",
+   "role": "Hidden repair crews fixing faults before complaints"
+  },
+  {
+   "name": "Speedy Solutionists",
+   "type": "organization",
+   "role": "Problem-solving team at the thirteenth minute"
+  },
+  {
+   "name": "Re-routing Ruffians",
+   "type": "organization",
+   "role": "Team managing detours via GPS"
+  },
+  {
+   "name": "Informers",
+   "type": "organization",
+   "role": "Push live updates to travelers' devices"
+  },
+  {
+   "name": "Connectivity Champions",
+   "type": "organization",
+   "role": "Ensure internet and power stay uninterrupted"
+  }
+ ],
+ "tags": [
+  "satire",
+  "contingency-planning",
+  "public-transit",
+  "service-outage",
+  "incident-response"
+ ],
+ "usage": {
+  "input_tokens": 2922,
+  "output_tokens": 1416
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "summary": "The note outlines best practices for school IT departments to defend against phishing scams, which increasingly target educational institutions. It covers user training, AI-powered email filtering, multi-factor authentication, monitoring, patching, ingress/egress filtering, incident response plans, reporting, and PKI, and stresses building a culture of security.",
+ "one_line": "Best practices for school IT departments to counter phishing, from training and MFA to email filtering, patching, incident response and PKI.",
+ "key_facts": [
+  "As of November 15, 2023, several educational entities reported an uptick in phishing attempts.",
+  "Phishing is the deceptive practice of sending emails or creating web pages that look legitimate but are designed to steal personal information.",
+  "Michael Thompson, a cybersecurity consultant, says \"Phishing scams often exploit human error. Vigilant users are a formidable barrier against these attacks.\"",
+  "Training sessions should cover phishing email characteristics (suspicious senders, links, attachments), not sharing personal information online, and steps to take when an email seems suspicious.",
+  "Schools have turned to AI-powered email filters that adapt to new threats and can catch patterns and anomalies missed by traditional filters.",
+  "Sarah Jones, IT director at a leading high school, says \"Even if a phishing attempt is successful, MFA can prevent unauthorized access to accounts.\"",
+  "Multi-factor authentication requires two or more verification factors, such as a password and a text message code.",
+  "Automated tools can provide 24/7 network monitoring and send alerts when potential threats are detected.",
+  "On October 1, 2023, a major educational software provider released an update patching a security hole that had been exploited in multiple phishing incidents.",
+  "Ingress and egress filtering, using firewalls and intrusion prevention systems (IPS), controls traffic to block incoming threats and prevent unauthorized data exfiltration.",
+  "After a phishing incident on October 23, 2023, at a prestigious university, the school's swift response limited damage and prevented further unauthorized access.",
+  "An incident response plan should outline steps for containing the attack, eradicating the threat, and recovering compromised data.",
+  "A simple, anonymous reporting process for suspected phishing emails can increase participation and help IT understand campaigns targeting the network.",
+  "Public Key Infrastructure (PKI) lets institutions deploy digital certificates to authenticate and encrypt emails, making phishing harder."
+ ],
+ "entities": [
+  {
+   "name": "Michael Thompson",
+   "type": "person",
+   "role": "Cybersecurity consultant quoted on the role of vigilant users against phishing"
+  },
+  {
+   "name": "Sarah Jones",
+   "type": "person",
+   "role": "IT director at a leading high school, quoted on the value of MFA"
+  },
+  {
+   "name": "School IT departments",
+   "type": "organization",
+   "role": "Teams responsible for protecting student, faculty and staff data from phishing"
+  },
+  {
+   "name": "Multi-Factor Authentication (MFA)",
+   "type": "product",
+   "role": "Security measure requiring two or more verification factors"
+  },
+  {
+   "name": "Public Key Infrastructure (PKI)",
+   "type": "product",
+   "role": "Technology using digital certificates to authenticate and encrypt email"
+  },
+  {
+   "name": "Intrusion prevention systems (IPS)",
+   "type": "product",
+   "role": "Used with firewalls to filter phishing-related content"
+  },
+  {
+   "name": "Major educational software provider",
+   "type": "organization",
+   "role": "Released an October 1, 2023 update patching a security hole exploited in phishing incidents"
+  },
+  {
+   "name": "Prestigious university",
+   "type": "organization",
+   "role": "Site of an October 23, 2023 phishing incident that was contained by a swift response"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "phishing",
+  "education",
+  "it-security",
+  "best-practices"
+ ],
+ "usage": {
+  "input_tokens": 2815,
+  "output_tokens": 1209
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "summary": "A local-news feature on the wave of small businesses that opened in a hometown after September 1, 2023, profiling owners and their shops. It argues that small businesses create jobs, foster innovation, attract visitors and strengthen community ties, and that sustained local patronage is critical in their first two years. It closes by promoting education efforts like \"Shop Local Saturdays.\"",
+ "one_line": "Profiles new small businesses opened in a town since September 2023 and argues that local patronage sustains the local economy and community.",
+ "key_facts": [
+  "The article says new small businesses opened in town after September 1, 2023, and that about ten have opened since September 2023.",
+  "'Brews and Bites,' a coffee shop and eatery, had its grand opening on September 5, 2023; owner Jenna Marbles is a former teacher turned barista.",
+  "A Small Business Administration report indicates small businesses account for approximately 44% of U.S. economic activity.",
+  "'Knead to Bake,' an artisan bakery owned by Chloe Madison, opened on September 10.",
+  "'Bridgette's Bridal Boutique,' founded by Bridgette Wong, opened on September 15 and offers tailor-made bridal dresses.",
+  "Bridgette Wong worked for a decade in the fashion capitals of the world before returning home and has formed alliances with local designers.",
+  "'Green Fingers,' a plant store run by botanist duo Leonard and Shirley Green, welcomed its first customers on September 20.",
+  "'TechTown,' a gaming and electronics store founded by best friends Arjun Patel and Mia Zhang, opened on September 25 and offers free weekend coding workshops for youngsters.",
+  "'Brews and Bites' has started attracting coffee connoisseurs from neighboring cities, boosting tourism.",
+  "The article states that the first two years are the most critical for new small businesses, when many either find their footing or falter.",
+  "'Shop Local Saturdays' is an initiative encouraging residents to shop at local businesses at least once a week.",
+  "Small business owners often take part in community events, sponsor sports teams and contribute to charities."
+ ],
+ "entities": [
+  {
+   "name": "Brews and Bites",
+   "type": "organization",
+   "role": "Coffee shop and eatery that opened September 5, 2023; attracts visitors from neighboring cities"
+  },
+  {
+   "name": "Jenna Marbles",
+   "type": "person",
+   "role": "Owner of Brews and Bites, former teacher turned barista"
+  },
+  {
+   "name": "Knead to Bake",
+   "type": "organization",
+   "role": "Artisan bakery that opened September 10, reliant on daily local patronage"
+  },
+  {
+   "name": "Chloe Madison",
+   "type": "person",
+   "role": "Owner of Knead to Bake who credits community support for its success"
+  },
+  {
+   "name": "Green Fingers",
+   "type": "organization",
+   "role": "Plant store that opened September 20"
+  },
+  {
+   "name": "Leonard and Shirley Green",
+   "type": "person",
+   "role": "Botanist duo who run Green Fingers"
+  },
+  {
+   "name": "Bridgette's Bridal Boutique",
+   "type": "organization",
+   "role": "Bridal shop established September 15 offering tailor-made dresses"
+  },
+  {
+   "name": "Bridgette Wong",
+   "type": "person",
+   "role": "Founder of Bridgette's Bridal Boutique, formerly worked a decade in fashion capitals"
+  },
+  {
+   "name": "TechTown",
+   "type": "organization",
+   "role": "Gaming and electronics store opened September 25 that offers free coding workshops"
+  },
+  {
+   "name": "Arjun Patel",
+   "type": "person",
+   "role": "Co-founder of TechTown"
+  },
+  {
+   "name": "Mia Zhang",
+   "type": "person",
+   "role": "Co-founder of TechTown"
+  },
+  {
+   "name": "Small Business Administration",
+   "type": "organization",
+   "role": "Source of a report that small businesses make up about 44% of U.S. economic activity"
+  },
+  {
+   "name": "Shop Local Saturdays",
+   "type": "program",
+   "role": "Initiative encouraging residents to shop locally at least once a week"
+  },
+  {
+   "name": "Main Street",
+   "type": "place",
+   "role": "Street where new shop signs greet residents"
+  }
+ ],
+ "tags": [
+  "small-business",
+  "local-economy",
+  "community",
+  "entrepreneurship",
+  "local-news"
+ ],
+ "usage": {
+  "input_tokens": 2950,
+  "output_tokens": 1336
+ }
+}

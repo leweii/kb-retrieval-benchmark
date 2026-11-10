@@ -1,0 +1,104 @@
+{
+ "summary": "The note examines the economic costs of internet downtime, using a major ISP outage on September 15, 2023 in the Northeast US as a case study. It covers losses across finance, e-commerce, manufacturing, and technology, plus downstream effects on consumers and workers. It also covers historical trends, policy responses such as a proposed 99.99% uptime bill, a Conexus estimate of $55 billion in annual US losses, and preventative measures.",
+ "one_line": "Case study of the September 15, 2023 ISP outage showing how internet downtime causes sector-wide economic losses and prompts policy and prevention efforts.",
+ "key_facts": [
+  "On September 15, 2023 at 10:32 AM EST, a major ISP outage hit corporate offices, e-commerce platforms, and online services in the Northeast United States.",
+  "Alan Richardson, IT manager at a New York-based financial firm, said trading was suspended within minutes, costing an estimated $200,000 per hour.",
+  "E-commerce retailers raked in $5.7 trillion worldwide in 2022 according to analysts.",
+  "Startup owner Emily Harris said her online clothing store suffered a 70% reduction in daily sales due to the September outage.",
+  "Howard Chang, owner of a small restaurant chain in Boston, noted a steep drop in customer engagement for businesses using online reservation or ordering services.",
+  "The first recorded substantial internet outage occurred in 1996.",
+  "A study by Dr. Samantha Kleinberg of the University of California found the cumulative cost of internet outages has increased tenfold since 2010.",
+  "A cloud service provider CEO said service-level agreement penalties amounted to upward of $300,000 for just an hour of downtime.",
+  "An automotive plant in Detroit halted production during the September blackout, with an estimated loss of $600,000 for that day.",
+  "A study published in October 2023 by the Consumer Technology Association found consumer trust in digital services dips following major outages.",
+  "Senator John Abrams proposed a bill requiring ISPs to maintain a minimum uptime of 99.99% with substantial penalties for failing to do so.",
+  "A November 18, 2023 report by the think tank Conexus estimated the US economy could be losing up to $55 billion annually due to internet disruptions.",
+  "GlobalNet Solutions has begun to market proactive monitoring tools designed to predict outages and initiate fail-safes.",
+  "The September 2023 incident accelerated conversations about creating a national Internet resilience framework."
+ ],
+ "entities": [
+  {
+   "name": "Alan Richardson",
+   "type": "person",
+   "role": "IT manager at a New York-based financial firm who reported trading losses of $200,000 per hour"
+  },
+  {
+   "name": "Emily Harris",
+   "type": "person",
+   "role": "Startup owner whose online clothing store lost 70% of daily sales"
+  },
+  {
+   "name": "Howard Chang",
+   "type": "person",
+   "role": "Owner of a small restaurant chain in Boston who reported reduced customer engagement"
+  },
+  {
+   "name": "Dr. Samantha Kleinberg",
+   "type": "person",
+   "role": "Digital economy expert at the University of California who found outage costs rose tenfold since 2010"
+  },
+  {
+   "name": "Senator John Abrams",
+   "type": "person",
+   "role": "Proposed a bill requiring ISPs to maintain 99.99% uptime"
+  },
+  {
+   "name": "Consumer Technology Association",
+   "type": "organization",
+   "role": "Published an October 2023 study on declining consumer trust after outages"
+  },
+  {
+   "name": "Conexus",
+   "type": "organization",
+   "role": "Digital economy think tank that estimated up to $55 billion in annual US losses"
+  },
+  {
+   "name": "GlobalNet Solutions",
+   "type": "organization",
+   "role": "Company marketing proactive outage-monitoring tools"
+  },
+  {
+   "name": "Salesforce",
+   "type": "organization",
+   "role": "Cloud-based solutions company cited as scrambling to activate contingency plans"
+  },
+  {
+   "name": "Zoom",
+   "type": "organization",
+   "role": "Cloud-based solutions company cited as scrambling to activate contingency plans"
+  },
+  {
+   "name": "September 15, 2023 ISP outage",
+   "type": "event",
+   "role": "Major outage in the Northeast US used as the central case study"
+  },
+  {
+   "name": "University of California",
+   "type": "organization",
+   "role": "Institution of Dr. Samantha Kleinberg"
+  },
+  {
+   "name": "Detroit",
+   "type": "place",
+   "role": "Location of an automotive plant that halted production during the outage"
+  },
+  {
+   "name": "Boston",
+   "type": "place",
+   "role": "Location of Howard Chang's restaurant chain"
+  }
+ ],
+ "tags": [
+  "internet-outage",
+  "economic-impact",
+  "isp",
+  "incident-report",
+  "policy",
+  "infrastructure-resilience"
+ ],
+ "usage": {
+  "input_tokens": 3222,
+  "output_tokens": 1499
+ }
+}

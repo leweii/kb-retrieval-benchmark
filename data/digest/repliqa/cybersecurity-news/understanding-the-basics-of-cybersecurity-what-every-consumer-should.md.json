@@ -1,0 +1,88 @@
+{
+ "summary": "A consumer-oriented article framing cybersecurity as essential as locking your doors, timed to October's National Cyber Security Awareness Month. It lists the top 10 mistakes consumers make, such as weak passwords, oversharing, ignoring updates and skipping 2FA, and pairs each with a \"smart move\" fix, citing various experts and events from September–October 2023.",
+ "one_line": "A light-hearted guide to ten common consumer cybersecurity mistakes, each paired with a practical tip, tied to National Cyber Security Awareness Month 2023.",
+ "key_facts": [
+  "A cyber-attack occurs every 39 seconds, according to reports from September 2023.",
+  "October is National Cyber Security Awareness Month, the occasion for the article.",
+  "Cybersecurity expert Emma Jones, speaking at a conference on October 3, 2023, warned that oversharing personal data on social media can lead to identity theft or social engineering attacks.",
+  "A study from October 15, 2023 showed many people still use obvious passwords like \"password\" and \"123456\"; the advice is to use complex passwords and a reputable password manager.",
+  "Cybersecurity educator Michael Brown, in a workshop on September 19, 2023, highlighted that phishing attempts can lead to malware infections or data breaches; users should verify sources and hover over URLs.",
+  "Tech analyst Sarah Zhang said at a September 27, 2023 cybersecurity symposium that neglecting software updates leaves the door open for cybercriminals; automatic updates are recommended.",
+  "Jason Lopez, a hacker-turned-consultant, warned in an October 12, 2023 webinar that a strong password alone isn't always enough, and urged enabling two-factor authentication (2FA).",
+  "On public Wi-Fi, users should avoid sensitive information or use a Virtual Private Network (VPN) to encrypt data; activists demonstrated the risks on October 5, 2023.",
+  "Data recovery specialist Laura Green said on September 29, 2023: \"Regular backups are your safety net against cyberdisasters.\"",
+  "The 3-2-1 backup strategy means three total copies of data, two local on different devices, and one offsite.",
+  "James O'Connor, a victim of a vishing (voice phishing) scheme, shared how a fake bank representative duped him into revealing sensitive details.",
+  "On September 22, 2023, local police reported sensitive documents stolen from a homeowner's desk; Sofia Mendez illustrates that unattended devices or documents are easy targets, so shred paperwork and use screen locks and encryption.",
+  "The Federal Cybersecurity Agency released a bulletin last week detailing a scam affecting millions of consumers."
+ ],
+ "entities": [
+  {
+   "name": "National Cyber Security Awareness Month",
+   "type": "event",
+   "role": "October awareness month that prompted the article"
+  },
+  {
+   "name": "Emma Jones",
+   "type": "person",
+   "role": "Cybersecurity expert who cautioned against oversharing on social media at an October 3, 2023 conference"
+  },
+  {
+   "name": "Michael Brown",
+   "type": "person",
+   "role": "Cybersecurity educator who highlighted phishing risks in a September 19, 2023 workshop"
+  },
+  {
+   "name": "Sarah Zhang",
+   "type": "person",
+   "role": "Tech analyst who stressed the importance of software updates at a September 27, 2023 symposium"
+  },
+  {
+   "name": "Jason Lopez",
+   "type": "person",
+   "role": "Expert hacker-turned-consultant who warned about relying on passwords alone in an October 12, 2023 webinar"
+  },
+  {
+   "name": "Laura Green",
+   "type": "person",
+   "role": "Data recovery specialist quoted on the value of regular backups"
+  },
+  {
+   "name": "James O'Connor",
+   "type": "person",
+   "role": "Victim of a vishing scheme who shared his story"
+  },
+  {
+   "name": "Sofia Mendez",
+   "type": "person",
+   "role": "Digital guru who illustrates that unattended devices and documents are easy targets"
+  },
+  {
+   "name": "Federal Cybersecurity Agency",
+   "type": "organization",
+   "role": "Released a bulletin about the latest scam impacting millions of consumers"
+  },
+  {
+   "name": "Two-factor authentication (2FA)",
+   "type": "other",
+   "role": "Extra login security layer recommended as a \"double lock\""
+  },
+  {
+   "name": "Virtual Private Network (VPN)",
+   "type": "other",
+   "role": "Tool recommended to encrypt data on public Wi-Fi"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "consumer-safety",
+  "passwords",
+  "phishing",
+  "two-factor-authentication",
+  "data-backup"
+ ],
+ "usage": {
+  "input_tokens": 2794,
+  "output_tokens": 1481
+ }
+}

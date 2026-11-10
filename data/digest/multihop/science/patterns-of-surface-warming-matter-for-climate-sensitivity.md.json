@@ -1,0 +1,94 @@
+{
+ "summary": "The article explains the \"pattern effect\": climate sensitivity and radiative feedbacks depend on the geographic pattern of surface warming, not just on global mean temperature. Observed warming over recent decades (strong in the western Pacific, cooling in the eastern Pacific) produced more stabilizing feedbacks than expected in the future, so the historical record does not constrain the upper limit of climate sensitivity. The authors, drawing on a May 2022 US CLIVAR workshop, discuss implications for paleoclimate records and coupled climate models, which fail to reproduce observed patterns, and list open questions and new tools.",
+ "one_line": "Authors explain how the geographic pattern of surface warming shapes radiative feedbacks and climate sensitivity, and what that means for history, paleorecords, models and future projections.",
+ "key_facts": [
+  "Climate sensitivity is how much Earth's surface warms in response to a doubling of carbon dioxide relative to preindustrial levels; clouds are the main driver of the uncertainty.",
+  "The likely range of climate sensitivity estimates was stubbornly constant at 1.5–4.5 K for several decades before recent efforts narrowed it.",
+  "Early in the 2010s, estimates based on the observed warming record pointed to much lower climate sensitivity than estimates derived from climate models.",
+  "The pattern effect is the process whereby climate sensitivity depends on the geographic pattern of surface warming; it was rated one of the most promising avenues for constraining climate sensitivity [Forster et al., 2021].",
+  "A climate sweet spot is a location where surface warming produces efficient radiative damping; deep convection makes the western Pacific one.",
+  "Over the past ~40 years some locations cooled despite global mean warming on the order of 1 K, and warming aloft over cool eastern Pacific waters promotes low stratus and stratocumulus clouds that cool the planet.",
+  "Three research strands converged on the pattern effect: transient-vs-equilibrated model simulations, historical-record estimates of equilibrium sensitivity, and oceanography's ocean heat uptake efficacy.",
+  "Simple energy balance methods assuming constant feedbacks systematically underestimate actual equilibrium climate sensitivity because the warming pattern shifts from more stabilizing to less stabilizing feedbacks.",
+  "The best estimate is that radiative damping under idealized long-term CO2 forcing is 0.5 ± 0.5 watt per square meter per kelvin weaker than the feedback seen since the late 1800s [Andrews et al., 2022].",
+  "The foremost implication is that historically observed climate change does not constrain the upper limit of climate sensitivity.",
+  "The Last Glacial Maximum currently provides the best constraint on the upper bound of equilibrium climate sensitivity, so pattern details matter for paleo-based estimates.",
+  "Coupled climate models do not re-create observed cooling in the equatorial and subtropical eastern Pacific and Southern Ocean, and all models share the same sign of error in trend patterns [Wills et al., 2022].",
+  "140 scientists attended the US CLIVAR workshop in May 2022 in Boulder, Colo., from which the consensus in the article emerged.",
+  "New tools include storm- and cloud-resolving models, extended satellite observations of clouds and radiation, and Argo floats sampling deep-ocean heat uptake."
+ ],
+ "entities": [
+  {
+   "name": "Maria Rugenstein",
+   "type": "person",
+   "role": "lead author, Colorado State University, Fort Collins"
+  },
+  {
+   "name": "Mark Zelinka",
+   "type": "person",
+   "role": "co-author, Lawrence Livermore National Laboratory"
+  },
+  {
+   "name": "Kristopher B. Karnauskas",
+   "type": "person",
+   "role": "co-author, University of Colorado Boulder"
+  },
+  {
+   "name": "Paulo Ceppi",
+   "type": "person",
+   "role": "co-author, Imperial College London"
+  },
+  {
+   "name": "Timothy Andrews",
+   "type": "person",
+   "role": "co-author, Met Office Hadley Centre, Exeter, U.K."
+  },
+  {
+   "name": "US CLIVAR (U.S. Climate Variability and Predictability Program)",
+   "type": "program",
+   "role": "hosted the May 2022 pattern effect workshop in Boulder, Colo."
+  },
+  {
+   "name": "Last Glacial Maximum",
+   "type": "event",
+   "role": "paleoclimate period giving the best constraint on the upper bound of equilibrium climate sensitivity"
+  },
+  {
+   "name": "Western Pacific",
+   "type": "place",
+   "role": "climate sweet spot where deep convection spreads warming through the troposphere"
+  },
+  {
+   "name": "Eastern Pacific",
+   "type": "place",
+   "role": "region that cooled, with extensive low clouds that reflect sunlight"
+  },
+  {
+   "name": "Southern Ocean",
+   "type": "place",
+   "role": "region where models fail to reproduce observed cooling"
+  },
+  {
+   "name": "Lawrence Livermore National Laboratory",
+   "type": "organization",
+   "role": "institution of Mark Zelinka; DOE-contracted"
+  },
+  {
+   "name": "Argo floats",
+   "type": "product",
+   "role": "instruments sampling deep-ocean heat uptake"
+  }
+ ],
+ "tags": [
+  "climate-sensitivity",
+  "pattern-effect",
+  "radiative-feedbacks",
+  "climate-models",
+  "paleoclimate",
+  "ocean-heat-uptake"
+ ],
+ "usage": {
+  "input_tokens": 8445,
+  "output_tokens": 1735
+ }
+}

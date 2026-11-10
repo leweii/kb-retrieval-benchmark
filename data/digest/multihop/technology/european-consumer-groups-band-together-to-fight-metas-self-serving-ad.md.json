@@ -1,0 +1,107 @@
+{
+ "summary": "A coalition of BEUC and 18 member consumer groups filed a complaint with the EU's CPC network against Meta's 'pay or consent' model for Facebook and Instagram, calling it unfair, deceptive, aggressive and illegal under EU consumer law. The article explains the model's origins, the complaint's arguments, how CPC enforcement works compared with GDPR enforcement, and the European Commission's additional oversight under the DMA and DSA.",
+ "one_line": "BEUC and 18 member groups complained to EU consumer authorities that Meta's paid ad-free subscription versus tracking choice breaches consumer law.",
+ "key_facts": [
+  "BEUC and 18 of its member organizations filed a complaint with the CPC network of consumer protection authorities against Meta's 'pay or consent' model.",
+  "EU users of Facebook and Instagram must either agree to tracking and profiling for behavioral ads or pay a monthly subscription of at least €9.99pm for an ad-free version.",
+  "The member groups are located in Bulgaria, Czech Republic, Denmark, France, Greece, Italy, Latvia, Lithuania, Netherlands, Norway, Poland, Slovakia, Slovenia, Spain and Sweden.",
+  "BEUC says Meta partially blocks use of Facebook and Instagram until users pick an option, which it calls an aggressive practice under European consumer law.",
+  "BEUC argues Meta misleads users by calling the tracked option 'free', since consumers pay with their data, and many may wrongly think the paid option stops all tracking and profiling.",
+  "BEUC says strong network effects and a very high subscription fee mean consumers have no real choice.",
+  "Ireland's Data Protection Commission, Meta's lead EU data protection authority, has assessed the pay or consent offer for several months without communicating a conclusion.",
+  "The 'pay or okay' model was pioneered in Austria by the daily newspaper Der Standard, and noyb has challenged it since 2021.",
+  "In April, Austria's DPA ruled on a noyb cookie paywall complaint that users must be able to say yes or no to specific data operations, so blanket consent is not an option.",
+  "The CPC network cannot impose fines itself, but national consumer protection authorities can pursue enforcement with penalties of up to 4% of global annual turnover.",
+  "A previous CPC action on TikTok last year led it to pledge better ad disclosure and more transparency around digital coins and virtual gifts, though BEUC said significant concerns remained.",
+  "Facebook and Instagram were designated very large online platforms (VLOPs) under the DSA earlier this year and have been expected to comply since late August; the European Commission is the sole DSA enforcer on VLOPs."
+ ],
+ "entities": [
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Owner of Facebook and Instagram; target of the complaint over its pay-or-consent ad-free subscription"
+  },
+  {
+   "name": "BEUC",
+   "type": "organization",
+   "role": "European Consumer Organisation that led the complaint to the CPC network"
+  },
+  {
+   "name": "Ursula Pachl",
+   "type": "person",
+   "role": "Deputy director general of BEUC who commented on the complaint"
+  },
+  {
+   "name": "CPC",
+   "type": "organization",
+   "role": "Network of consumer protection authorities receiving the complaint"
+  },
+  {
+   "name": "noyb",
+   "type": "organization",
+   "role": "Privacy rights not-for-profit that filed a GDPR complaint with the Austrian data protection authority and has challenged 'pay or okay' since 2021"
+  },
+  {
+   "name": "Data Protection Commission",
+   "type": "organization",
+   "role": "Ireland's DPC, Meta's lead EU data protection authority, assessing its pay or consent offer"
+  },
+  {
+   "name": "Der Standard",
+   "type": "organization",
+   "role": "Austrian daily newspaper that pioneered the 'pay or okay' model"
+  },
+  {
+   "name": "European Commission",
+   "type": "organization",
+   "role": "Facilitates the CPC process and enforces the DSA on VLOPs"
+  },
+  {
+   "name": "TikTok",
+   "type": "organization",
+   "role": "Earlier CPC complaint target that pledged improvements last year"
+  },
+  {
+   "name": "Facebook",
+   "type": "product",
+   "role": "Meta social network offered with a tracking or paid ad-free choice"
+  },
+  {
+   "name": "Instagram",
+   "type": "product",
+   "role": "Meta social network offered with a tracking or paid ad-free choice"
+  },
+  {
+   "name": "General Data Protection Regulation",
+   "type": "other",
+   "role": "EU privacy law Meta claims its consent model complies with"
+  },
+  {
+   "name": "Digital Services Act",
+   "type": "other",
+   "role": "EU law under which Facebook and Instagram are VLOPs, with consent and dark pattern provisions"
+  },
+  {
+   "name": "Digital Markets Act",
+   "type": "other",
+   "role": "EU law to which Meta is also subject"
+  },
+  {
+   "name": "European Court of Justice",
+   "type": "organization",
+   "role": "CJEU, which noyb predicted may make the final decision on 'pay or okay'"
+  }
+ ],
+ "tags": [
+  "meta",
+  "consumer-protection",
+  "gdpr",
+  "eu-regulation",
+  "behavioral-advertising",
+  "privacy"
+ ],
+ "usage": {
+  "input_tokens": 4524,
+  "output_tokens": 1656
+ }
+}

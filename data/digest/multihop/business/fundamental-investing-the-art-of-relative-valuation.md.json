@@ -1,0 +1,97 @@
+{
+ "summary": "The article explains relative valuation, where a stock's multiple (PE, P/B, EV/EBITDA, etc.) is judged against growth, peers, history and interest rates. It contrasts equity multiples with enterprise value multiples, illustrating each with examples such as Bharti Airtel, and warns against 'ketchup economics'. It closes with pointers on avoiding pitfalls, including comparing against a company's own history and against changing interest rates.",
+ "one_line": "A guide to relative valuation of stocks using equity and enterprise-value multiples, with examples, caveats like ketchup economics, and tips to avoid pitfalls.",
+ "key_facts": [
+  "Aswath Damodaran's research found around 85 per cent of equity research analyst valuation and 50 per cent of corporate M&A transactions were based on relative valuation.",
+  "Absolute valuation is an interesting story backed by credible, validated numbers; relative valuation is an interesting number backed by a credible, validated story.",
+  "Only three items are attributable to equity shareholders: net profit, book value (shareholder funds), and free cash flow to equity (FCFE); price/revenue or price/EBITDA are incorrect equity multiples.",
+  "In the example, companies A (no debt) and B (debt of ₹10) have the same market cap, revenue and EBITDA, but PE of A is 10 versus 11.1 for B, so A is cheaper.",
+  "During the 2003-2007 bull market, textile stocks like Bombay Dyeing became multibaggers because of the value of their prime real estate land, justifying price/market value of net assets instead of Price/Book.",
+  "Enterprise value is market cap plus net debt (including minority interest) and enables capital-agnostic comparison of companies.",
+  "Bharti Airtel had a negative trailing PE at the start of FY22 (April 2021) but traded at 10 times EV/EBITDA with an expected EBITDA CAGR of over 20 per cent for two years; bl.portfolio recommended a buy in April 2021 and the stock has returned 80 per cent since.",
+  "If a company has EV of ₹100 and debt of ₹50, a 10 per cent increase in EV raises equity value by 20 per cent, showing leverage amplifies changes both ways.",
+  "Larry Summers coined 'ketchup economics' for analysts who only compare prices across assets; Paul Krugman likened the US housing bubble to it.",
+  "TCS commands a valuation premium over Infosys, Wipro and HCLTech due to superior margins and more consistent growth.",
+  "Interest rates and bond yields in many developed markets, including the US, are at their highest since 2007, with US bond yields offering 5 per cent.",
+  "Asian Paints, Nestle India and ABB India trade at PE of 65, 83 and 85, implying earnings yields of 1.5 per cent, 1.2 per cent and 1.2 per cent respectively."
+ ],
+ "entities": [
+  {
+   "name": "Aswath Damodaran",
+   "type": "person",
+   "role": "Valuation expert whose research showed the prevalence of relative valuation and who favours absolute valuation"
+  },
+  {
+   "name": "Larry Summers",
+   "type": "person",
+   "role": "Economist who coined the term 'ketchup economics'"
+  },
+  {
+   "name": "Paul Krugman",
+   "type": "person",
+   "role": "Nobel Laureate who compared the US housing bubble to ketchup economics"
+  },
+  {
+   "name": "Bharti Airtel",
+   "type": "organization",
+   "role": "Example of a stock with negative PE but attractive EV/EBITDA, which returned 80 per cent after a buy recommendation"
+  },
+  {
+   "name": "Bombay Dyeing",
+   "type": "organization",
+   "role": "Textile company whose stock surged in 2003-2007 due to real estate value"
+  },
+  {
+   "name": "TCS",
+   "type": "organization",
+   "role": "IT company commanding a valuation premium over peers"
+  },
+  {
+   "name": "Infosys",
+   "type": "organization",
+   "role": "Peer of TCS trading at a lower valuation"
+  },
+  {
+   "name": "Wipro",
+   "type": "organization",
+   "role": "Peer of TCS trading at a lower valuation"
+  },
+  {
+   "name": "HCLTech",
+   "type": "organization",
+   "role": "Peer of TCS trading at a lower valuation"
+  },
+  {
+   "name": "Asian Paints",
+   "type": "organization",
+   "role": "Stock with PE of 65 and earnings yield of 1.5 per cent"
+  },
+  {
+   "name": "Nestle India",
+   "type": "organization",
+   "role": "Stock with PE of 83 and earnings yield of 1.2 per cent"
+  },
+  {
+   "name": "ABB India",
+   "type": "organization",
+   "role": "Stock with PE of 85 and earnings yield of 1.2 per cent"
+  },
+  {
+   "name": "bl.portfolio",
+   "type": "product",
+   "role": "Business Line portfolio edition that published the story and recommended Bharti Airtel"
+  }
+ ],
+ "tags": [
+  "relative-valuation",
+  "equity-investing",
+  "stock-valuation",
+  "enterprise-value",
+  "india-markets",
+  "fundamental-analysis"
+ ],
+ "usage": {
+  "input_tokens": 5077,
+  "output_tokens": 1604
+ }
+}

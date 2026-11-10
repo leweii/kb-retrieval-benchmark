@@ -1,0 +1,173 @@
+{
+ "summary": "TechCrunch marks ChatGPT's first anniversary, recounting its launch as a low-key research preview built on GPT-3.5 and its growth into the fastest-growing consumer app in history. The article covers its expanded features, the competitive response from Google and others, expert views on why it resonates, and its limitations such as hallucinations, bias and legal trouble. It closes by suggesting that GPTs, OpenAI's custom chatbot tool, may make ChatGPT a gateway to a broader ecosystem.",
+ "one_line": "A year after launch, ChatGPT remains popular and influential despite limitations, and OpenAI's custom GPTs may shape its next phase.",
+ "key_facts": [
+  "OpenAI released ChatGPT a year before November 30, 2023 as a \"low-key research preview\", reportedly spurred in part by rivalry with Anthropic.",
+  "ChatGPT started as a free, web-based, chat-focused interface on top of GPT-3.5 and became OpenAI's most popular product and the fastest-growing consumer app in history.",
+  "OpenAI added paid tiers, an enterprise plan, web searching, document analyzing, image creation via DALL-E 3, and the ability to \"hear,\" \"speak,\" \"see\" and take actions.",
+  "Google released Bard in February in response to ChatGPT; Amazon Q is a more business-oriented rival, and DeepMind is expected to debut Gemini before the end of 2023.",
+  "Similarweb reported 140.7 million unique visitors to the ChatGPT web portal in October, and 4.9 million monthly active users of the iOS and Android apps in the U.S. alone.",
+  "Data.ai data suggests the ChatGPT mobile apps generated nearly $30 million in subscription revenue within a few months of launching.",
+  "An MIT study found ChatGPT cut the time to complete tasks like writing cover letters and cost-benefit analyses by 40% while raising output quality by 18%.",
+  "A Pew Research survey from August showed only 18% of Americans have ever tried ChatGPT, mostly for entertainment or one-off questions; one poll found only two in five teenagers used it in the last six months.",
+  "Stella Biderman said ChatGPT was not an AI breakthrough per se but a \"user experience breakthrough\" that took generative AI mainstream; OpenAI never released a research paper on ChatGPT.",
+  "ChatGPT sometimes hallucinates, shows bias, and regurgitates training data; its answers were banned from Stack Overflow and at least one academic conference.",
+  "Lawyers have been sanctioned for filing motions with fake lawsuit citations invented by ChatGPT, and scores of authors have sued OpenAI over regurgitated portions of their work.",
+  "Over 20,000 signatories, including Elon Musk and Steve Wozniak, signed an open letter calling for a pause on large-scale AI experiments, and European policymakers mandated security assessments for generative AI products, but real-world ChatGPT abuse has been rare.",
+  "GPTs let users build custom action-taking AI systems, such as a Gen Z meme translator or a data visualizer, and might kill the cottage industry around prompt creation."
+ ],
+ "entities": [
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "OpenAI's viral AI chatbot, celebrating its first anniversary"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Creator of ChatGPT, GPT-3.5, DALL-E 3 and GPTs"
+  },
+  {
+   "name": "Anthropic",
+   "type": "organization",
+   "role": "AI startup whose rivalry reportedly spurred ChatGPT's release"
+  },
+  {
+   "name": "GPT-3.5",
+   "type": "product",
+   "role": "OpenAI model that the initial ChatGPT was built on"
+  },
+  {
+   "name": "Sam Altman",
+   "type": "person",
+   "role": "OpenAI figure who tweeted about the night before ChatGPT's launch"
+  },
+  {
+   "name": "DALL-E 3",
+   "type": "product",
+   "role": "Image-creation model added to ChatGPT"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Rushed out Bard in response to ChatGPT"
+  },
+  {
+   "name": "Bard",
+   "type": "product",
+   "role": "Google's comparable AI chatbot released in February"
+  },
+  {
+   "name": "Amazon Q",
+   "type": "product",
+   "role": "Business-oriented ChatGPT rival"
+  },
+  {
+   "name": "DeepMind",
+   "type": "organization",
+   "role": "Google's AI research lab expected to debut Gemini"
+  },
+  {
+   "name": "Gemini",
+   "type": "product",
+   "role": "Next-gen chatbot expected from DeepMind"
+  },
+  {
+   "name": "Stella Biderman",
+   "type": "person",
+   "role": "AI researcher at Booz Allen Hamilton and EleutherAI who called ChatGPT a user experience breakthrough"
+  },
+  {
+   "name": "Booz Allen Hamilton",
+   "type": "organization",
+   "role": "Employer of Stella Biderman"
+  },
+  {
+   "name": "EleutherAI",
+   "type": "organization",
+   "role": "Open research group Biderman is part of"
+  },
+  {
+   "name": "Similarweb",
+   "type": "organization",
+   "role": "Web metrics company reporting ChatGPT traffic"
+  },
+  {
+   "name": "Data.ai",
+   "type": "organization",
+   "role": "Analytics firm estimating ChatGPT app revenue"
+  },
+  {
+   "name": "Ruoxi Shang",
+   "type": "person",
+   "role": "University of Washington PhD student studying human-AI interaction"
+  },
+  {
+   "name": "University of Washington",
+   "type": "organization",
+   "role": "University of Shang and Hyland"
+  },
+  {
+   "name": "Adam Hyland",
+   "type": "person",
+   "role": "University of Washington PhD student who compared ChatGPT to ELIZA"
+  },
+  {
+   "name": "ELIZA",
+   "type": "product",
+   "role": "1960s chatbot created by Joseph Weizenbaum in 1966"
+  },
+  {
+   "name": "Joseph Weizenbaum",
+   "type": "person",
+   "role": "MIT computer scientist who created ELIZA"
+  },
+  {
+   "name": "Kevin Roose",
+   "type": "person",
+   "role": "New York Times writer who called ChatGPT the best AI chatbot ever released to the public"
+  },
+  {
+   "name": "Derek Thompson",
+   "type": "person",
+   "role": "The Atlantic writer who included ChatGPT in 2022 breakthroughs"
+  },
+  {
+   "name": "Pew Research",
+   "type": "organization",
+   "role": "Conducted August survey on American ChatGPT usage"
+  },
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "Q&A site that banned ChatGPT answers"
+  },
+  {
+   "name": "Elon Musk",
+   "type": "person",
+   "role": "Signatory of open letter calling for AI pause"
+  },
+  {
+   "name": "Steve Wozniak",
+   "type": "person",
+   "role": "Apple co-founder and signatory of the open letter"
+  },
+  {
+   "name": "GPTs",
+   "type": "product",
+   "role": "OpenAI tool for building custom action-taking AI systems"
+  }
+ ],
+ "tags": [
+  "chatgpt",
+  "openai",
+  "generative-ai",
+  "chatbots",
+  "technology",
+  "anniversary"
+ ],
+ "usage": {
+  "input_tokens": 4212,
+  "output_tokens": 2273
+ }
+}

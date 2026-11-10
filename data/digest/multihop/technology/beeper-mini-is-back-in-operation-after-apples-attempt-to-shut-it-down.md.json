@@ -1,0 +1,84 @@
+{
+ "summary": "Beeper Mini, an app that brings iMessage to Android, resumed working on Monday after Apple blocked it over the weekend, citing security and privacy risks. Beeper hasn't said how it fixed the problem, made the app free for now, and offered to share its codebase with a mutually agreed third-party security firm. Phone number registration still doesn't work, so users must sign in with an Apple ID, and it's unclear whether Apple can block the updated build.",
+ "one_line": "Beeper Mini, the Android iMessage app, is working again after Apple's weekend block, is free for now, and Beeper has offered a third-party security audit.",
+ "key_facts": [
+  "Beeper Mini is an app that brings blue bubble iMessage texts to Android users and resumed functioning on Monday after Apple shut it down over a long weekend.",
+  "Beeper was founded by former Pebble smartwatch founder Eric Migicovsky and originally built an app aggregating all of a user's chat apps into a single interface.",
+  "Beeper Mini originally cost $1.99 per month and supported high-quality photos and videos, tapback reactions, typing indicators and read receipts.",
+  "Beeper claims Beeper Mini reached the top 20 in the Play Store's charts and over 100,000 downloads in its first 48 hours.",
+  "Apple acted on Friday night, stopping Beeper Mini's messages from being passed from Android phones to its servers.",
+  "Apple said the app \"posed significant risks to user security and privacy, including the potential for metadata exposure and enabling unwanted messages, spam, and phishing attacks,\" and that it couldn't verify Beeper's end-to-end encryption claims.",
+  "U.S. Senator Elizabeth Warren (D-Mass.) criticized Apple on X, saying \"Big Tech executives are protecting profits by squashing competitors.\"",
+  "Beeper Mini is free for the time being because things have been \"chaotic\"; subscriptions may return once things stabilize.",
+  "Phone number registration isn't working yet, so users must sign in with an Apple ID.",
+  "Beeper offered to share its entire Beeper Mini codebase with a mutually agreed upon 3rd party security research firm; Migicovsky wants Apple to agree on the firm first.",
+  "Beeper also said it would add a pager emoji to metadata on all sent messages, letting the Messages app filter out Beeper Mini users' messages.",
+  "The update was first available at beeper.com/update via sideloading, which is riskier than the Play Store, and later went live on Google Play (updated 1:28 pm ET).",
+  "After setup, TechCrunch's iPhone showed \"Device Added to Your Account. A Mac now has access to iMessage,\" hinting at Beeper's fix.",
+  "Apple has not contacted Beeper directly and has only released a statement to the press."
+ ],
+ "entities": [
+  {
+   "name": "Beeper Mini",
+   "type": "product",
+   "role": "App that brings iMessage to Android users, back in operation after Apple's block"
+  },
+  {
+   "name": "Beeper",
+   "type": "organization",
+   "role": "Startup behind Beeper Mini, originally a chat aggregator"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Blocked Beeper Mini citing security and privacy risks"
+  },
+  {
+   "name": "Eric Migicovsky",
+   "type": "person",
+   "role": "Beeper founder and former Pebble smartwatch founder"
+  },
+  {
+   "name": "Pebble",
+   "type": "organization",
+   "role": "Smartwatch company previously founded by Migicovsky"
+  },
+  {
+   "name": "Elizabeth Warren",
+   "type": "person",
+   "role": "U.S. Senator (D-Mass.) who criticized Apple's block on X"
+  },
+  {
+   "name": "iMessage",
+   "type": "product",
+   "role": "Apple's messaging protocol that Beeper reverse-engineered"
+  },
+  {
+   "name": "Play Store",
+   "type": "product",
+   "role": "Google's app store where Beeper Mini charted and the update later went live"
+  },
+  {
+   "name": "X",
+   "type": "organization",
+   "role": "Platform formerly Twitter where Warren posted"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication reporting and testing the updated app"
+  }
+ ],
+ "tags": [
+  "beeper-mini",
+  "imessage",
+  "apple",
+  "android",
+  "encryption",
+  "big-tech"
+ ],
+ "usage": {
+  "input_tokens": 2634,
+  "output_tokens": 1382
+ }
+}
