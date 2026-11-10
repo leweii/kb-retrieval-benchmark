@@ -39,7 +39,7 @@ def collect() -> dict:
     recs = {}
     for s in SCALES:
         r = recommend(d, s)
-        recs[s] = {k: (None if not v else {"model": v[0], "config": v[1], "acc": v[2]["acc"], "cost": v[2]["cost"],
+        recs[s] = {k: (None if not v else {"model": v[0], "config": v[1], "acc": v[2]["acc"], "cost": v[2]["cost"], "refusal_ok": v[2]["refusal_ok"],
                                            "lat50": v[2]["lat50"]}) for k, v in r.items()} if r else {}
     judged = sum(c["n_judged"] for c in cells)
     expected = sum(TOTAL_PER_SCALE[s] for s in SCALES) * len(CONFIGS) * len(MODELS)
@@ -125,7 +125,7 @@ function recs(){
   const names={best:"质量首选",value:"性价比",flash:"Flash 级首选"};
   document.getElementById("recs").innerHTML = D.scales.map(s=>{
     const r=D.recs[s]||{};
-    const rows=Object.keys(names).map(k=>{const v=r[k];return `<div><span class="k">${names[k]}</span>${v?`${D.labels[v.model]} + ${v.config} · ${pct(v.acc)} · ${usd(v.cost)}`:"数据不足"}</div>`;}).join("");
+    const rows=Object.keys(names).map(k=>{const v=r[k];return `<div><span class="k">${names[k]}</span>${v?`${D.labels[v.model]} + ${v.config} · 准确 ${pct(v.acc)} · 拒答 ${pct(v.refusal_ok)} · ${usd(v.cost)}`:"数据不足"}</div>`;}).join("");
     return `<div class="card"><b>${s} 篇</b>${rows}</div>`;}).join("");
 }
 

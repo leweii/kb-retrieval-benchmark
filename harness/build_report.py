@@ -125,14 +125,14 @@ class Data:
 
 
 def recommend(d: Data, scale: int) -> dict:
-    """Quality pick: highest MuSiQue accuracy among cells with >= 80% correct refusals and >= 30 judged MuSiQue
+    """Quality pick: highest MuSiQue accuracy among cells with >= 70% correct refusals and >= 30 judged MuSiQue
     questions. Value pick: cheapest cell within 5 points of the quality pick. Flash pick: same rule restricted to
     Haiku / DeepSeek. Avoid: lowest accuracy."""
     cells = []
     for m in MODELS:
         for mode, cfg, label in CONFIGS:
             c = d.cell(m, mode, cfg, scale)
-            if c["acc"] is not None and c["acc_n"] >= 30 and (c["refusal_ok"] or 0) >= 0.8:
+            if c["acc"] is not None and c["acc_n"] >= 30 and (c["refusal_ok"] or 0) >= 0.7:
                 cells.append((m, label, c))
     if not cells:
         return {}
@@ -171,7 +171,7 @@ def build() -> str:
     for s in SCALES:
         r = recommend(d, s)
         L.append(f"| {s} 篇 | {desc(r.get('best'))} | {desc(r.get('value'))} | {desc(r.get('flash'))} | {desc(r.get('worst'))} |")
-    L.append("\n选择规则：只在\"不可回答题正确拒答率 ≥ 80%、MuSiQue 已评分 ≥ 30 题\"的组合中比较；质量看 MuSiQue 答案准确率。")
+    L.append("\n选择规则：只在\"不可回答题正确拒答率 ≥ 70%、MuSiQue 已评分 ≥ 30 题\"的组合中比较；质量看 MuSiQue 答案准确率。")
 
     L.append("\n## 1. 数据覆盖（已跑完 / 已评分，按体量合计）\n")
     L.append("| 配置 | " + " | ".join(MODEL_LABEL[m] for m in MODELS) + " |")
