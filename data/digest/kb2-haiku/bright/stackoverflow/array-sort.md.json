@@ -1,0 +1,54 @@
+{
+ "summary": "This note is the reference page for Snowflake's ARRAY_SORT function, which returns an ARRAY with the input elements sorted in ascending or descending order. It explains the syntax and optional arguments sort_ascending (default TRUE) and nulls_first (default depends on sort direction), and notes the function returns NULL if any input is NULL and is not guaranteed stable when the array mixes numeric or timestamp types. Several examples show how JSON NULL and SQL NULL elements are placed under different argument settings, and how a sparse array and a mixed NUMBER/REAL array sort.",
+ "one_line": "Reference for the ARRAY_SORT function, which sorts array elements in ascending or descending order with control over NULL placement.",
+ "key_facts": [
+  "ARRAY_SORT returns an ARRAY that contains the elements of the input ARRAY sorted in ascending or descending order.",
+  "The syntax is ARRAY_SORT( <array> [ , <sort_ascending> [ , <nulls_first> ] ] ).",
+  "The sort_ascending argument defaults to TRUE, which sorts elements in ascending order; FALSE sorts in descending order.",
+  "The nulls_first argument defaults to FALSE if the ARRAY is sorted in ascending order and TRUE if sorted in descending order.",
+  "If any of the input arguments is NULL, the function returns NULL.",
+  "The function is not guaranteed to provide a stable sort when the ARRAY contains objects containing two different numeric or timestamp types.",
+  "In the example ARRAY_SORT([20, PARSE_JSON('null'), 0, NULL, 10]), the sorted result is [0, 10, 20, null, undefined], with JSON NULL before SQL NULL at the end.",
+  "With sort_ascending FALSE, ARRAY_SORT([20, PARSE_JSON('null'), 0, NULL, 10], FALSE) returns undefined, null, 20, 10, 0 with NULLs first.",
+  "Setting nulls_first to TRUE in ascending sort places the SQL NULL (undefined) first, while the JSON null stays last.",
+  "Setting nulls_first to FALSE in descending sort places the SQL NULL (undefined) last, after JSON null and the numbers.",
+  "The nulls_first argument has no effect on the placement of JSON NULL (null) elements.",
+  "An example builds a sparse array with ARRAY_INSERT(ARRAY_INSERT(ARRAY_CONSTRUCT(), 3, 2), 6, 1) and then sorts it with ARRAY_SORT.",
+  "An example sorting an ARRAY of many 1 values plus one 1e0::REAL value shows the unstable sort result, where the REAL value is displayed as 1.000000000000000e+00.",
+  "The page is categorized under Array/Object functions within the semistructured data function group."
+ ],
+ "entities": [
+  {
+   "name": "ARRAY_SORT",
+   "type": "program",
+   "role": "function described on the page that sorts the elements of an ARRAY in ascending or descending order"
+  },
+  {
+   "name": "PARSE_JSON",
+   "type": "program",
+   "role": "function used in examples to produce a JSON NULL value via PARSE_JSON('null')"
+  },
+  {
+   "name": "ARRAY_INSERT",
+   "type": "program",
+   "role": "function used in an example to construct a sparsely populated ARRAY by inserting values 2 and 1 at positions 3 and 6"
+  },
+  {
+   "name": "ARRAY_CONSTRUCT",
+   "type": "program",
+   "role": "function used with ARRAY_INSERT in an example to create an empty starting ARRAY"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql functions",
+  "array",
+  "sorting",
+  "null handling"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3887,
+  "output_tokens": 1209
+ }
+}

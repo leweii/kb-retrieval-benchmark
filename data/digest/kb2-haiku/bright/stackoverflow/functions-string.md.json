@@ -1,0 +1,78 @@
+{
+ "summary": "This is a clipped reference index page titled 'functions-string' for the String & Binary Functions family, which operate on string or binary inputs and return string or numeric values. The page groups functions into categories including General Manipulation, Case Conversion, Regular Expression Matching, Other Matching/Comparison, Compression/Decompression, Encoding/Decoding, Cryptographic/Checksum, Hash (Non-cryptographic), Collation, and Large Language Model. Most function names were stripped during clipping, so the surviving content is mainly category headings and table notes such as aliases, error-handling variants, and checksum-only warnings.",
+ "one_line": "Reference index of string and binary functions grouped by operation type, with notes on aliases, collation support, and checksum-only hash functions.",
+ "key_facts": [
+  "The String & Binary Functions family performs operations on a string input value or a binary input value (for certain functions) and returns a string or numeric value.",
+  "The page groups the functions by type of operation performed, under ten headings: General Manipulation, Case Conversion, Regular Expression Matching, Other Matching/Comparison, Compression/Decompression, Encoding/Decoding, Cryptographic/Checksum, Hash (Non-cryptographic), Collation, and Large Language Model.",
+  "The reference table has columns for Function Name, Binary Input Supported, Collation Supported, and Notes.",
+  "Two Regular Expression Matching functions are noted as 'Alias for RLIKE.'",
+  "One Regular Expression Matching function is noted as 'Alias for REGEXP_SUBSTR_ALL.'",
+  "One Other Matching/Comparison function is noted as 'Alias for POSITION' and provides partial support for collation.",
+  "Two Other Matching/Comparison functions are described as case-insensitive alternatives: one for LIKE and one for LIKE ANY.",
+  "Four Encoding/Decoding functions are error-handling versions of BASE64_DECODE_BINARY, BASE64_DECODE_STRING, HEX_DECODE_BINARY, and HEX_DECODE_STRING.",
+  "Four Cryptographic/Checksum functions are noted as 'Intended primarily for checksum operations. Not recommended for cryptography.'",
+  "Two Hash (Non-cryptographic) functions allow data types other than string and binary and are not intended for cryptography.",
+  "Several functions in the General Manipulation and Other Matching/Comparison sections are marked as providing partial support for collation, with details in each function's own documentation.",
+  "The page ends with a 'Was this page helpful?' feedback prompt and a language setting of English, which are page boilerplate."
+ ],
+ "entities": [
+  {
+   "name": "RLIKE",
+   "type": "other",
+   "role": "Function that two regular expression matching entries are aliases for"
+  },
+  {
+   "name": "REGEXP_SUBSTR_ALL",
+   "type": "other",
+   "role": "Function that a regular expression matching entry is an alias for"
+  },
+  {
+   "name": "POSITION",
+   "type": "other",
+   "role": "Function that an other matching/comparison entry is an alias for, with partial collation support"
+  },
+  {
+   "name": "LIKE",
+   "type": "other",
+   "role": "Matching operation that a function is described as a case-insensitive alternative to"
+  },
+  {
+   "name": "LIKE ANY",
+   "type": "other",
+   "role": "Matching operation that a function is described as a case-insensitive alternative to"
+  },
+  {
+   "name": "BASE64_DECODE_BINARY",
+   "type": "other",
+   "role": "Decoding function that an error-handling version is provided for"
+  },
+  {
+   "name": "BASE64_DECODE_STRING",
+   "type": "other",
+   "role": "Decoding function that an error-handling version is provided for"
+  },
+  {
+   "name": "HEX_DECODE_BINARY",
+   "type": "other",
+   "role": "Decoding function that an error-handling version is provided for"
+  },
+  {
+   "name": "HEX_DECODE_STRING",
+   "type": "other",
+   "role": "Decoding function that an error-handling version is provided for"
+  }
+ ],
+ "tags": [
+  "sql",
+  "string-functions",
+  "reference",
+  "regular-expressions",
+  "encoding",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2650,
+  "output_tokens": 2113
+ }
+}

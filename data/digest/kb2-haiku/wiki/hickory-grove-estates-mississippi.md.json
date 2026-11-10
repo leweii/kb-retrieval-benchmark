@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short encyclopedia-style entry describing Hickory Grove Estates, an unincorporated community in Oktibbeha County, Mississippi. It gives its county location and its position relative to Clayton Village, though the distance and direction figure is omitted in the source text.",
+ "one_line": "Hickory Grove Estates is an unincorporated community in Oktibbeha County, Mississippi, located south-southwest of Clayton Village.",
+ "key_facts": [
+  "Hickory Grove Estates is an unincorporated community located in Oktibbeha County, Mississippi.",
+  "Hickory Grove Estates is located south-southwest of Clayton Village.",
+  "The source describes Hickory Grove Estates as an unincorporated community, meaning it is not governed as an incorporated municipality.",
+  "The note gives the bearing of Hickory Grove Estates from Clayton Village as south-southwest, but no distance value appears in the text."
+ ],
+ "entities": [
+  {
+   "name": "Hickory Grove Estates",
+   "type": "place",
+   "role": "unincorporated community located in Oktibbeha County, Mississippi, south-southwest of Clayton Village"
+  },
+  {
+   "name": "Oktibbeha County",
+   "type": "place",
+   "role": "county in Mississippi where Hickory Grove Estates is located"
+  },
+  {
+   "name": "Clayton Village",
+   "type": "place",
+   "role": "reference point; Hickory Grove Estates lies south-southwest of it"
+  },
+  {
+   "name": "Mississippi",
+   "type": "place",
+   "role": "US state containing Oktibbeha County and Hickory Grove Estates"
+  }
+ ],
+ "tags": [
+  "mississippi",
+  "oktibbeha county",
+  "unincorporated community",
+  "rural geography",
+  "wikipedia stub"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1065,
+  "output_tokens": 555
+ }
+}

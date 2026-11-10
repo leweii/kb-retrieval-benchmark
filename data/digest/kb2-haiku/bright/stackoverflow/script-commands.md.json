@@ -1,0 +1,96 @@
+{
+ "summary": "Despite its title 'Script Commands', this clipped note contains three ESLint documentation pages: 'Ways to Extend ESLint' (plugins, shareable configs, custom formatters, custom parsers), 'Manage Releases' (release manager duties, patch and emergency releases, npm 404 troubleshooting), and 'Formatters Reference' (built-in CLI formatters with example output). The final formatter example is cut off mid-output.",
+ "one_line": "Clipped ESLint documentation covering ways to extend ESLint, the release management process, and built-in output formatters.",
+ "key_facts": [
+  "The note is titled 'Script Commands' but its body contains three ESLint docs pages: 'Ways to Extend ESLint', 'Manage Releases', and 'Formatters Reference'.",
+  "The 'Ways to Extend ESLint' page lists four extension types: Plugins, Shareable Configs, Custom Formatters, and Custom Parsers.",
+  "The page says plugins let you add custom ESLint rules and custom processors to a project, and that a plugin can be published as an npm module.",
+  "The page gives eslint-plugin-react as an example plugin with rules for React projects, such as requiring the use of key props when rendering dynamic lists.",
+  "The page describes eslint-config-airbnb as a shareable config designed to match the Airbnb JavaScript style guide.",
+  "The custom formatter eslint-formatter-gitlab can display ESLint results in GitLab code quality reports.",
+  "The custom parser @typescript-eslint/parser extends ESLint to lint TypeScript code, and the page states custom parsers cannot be included in a plugin.",
+  "ESLint ships with a built-in JavaScript parser called Espree.",
+  "The 'Manage Releases' page says regular releases follow semantic versioning and are production-ready, while prereleases are not production-ready.",
+  "One Technical Steering Committee (TSC) member is assigned to manage each scheduled release, determined at the TSC meeting the day before the release.",
+  "The release manager must have access to ESLint's two-factor authentication for npm to perform a release.",
+  "The release manager decides on the Monday after a scheduled release whether a patch release is necessary.",
+  "The page says emergency releases are avoided except when ESLint is completely unusable by most current users, such as a release that was missing core files.",
+  "The page says npm publish returns a 404 when release-please's granular access token expires after a year and must be regenerated every March.",
+  "The 'Formatters Reference' page says the --format or -f CLI flag selects a formatter, and the built-in options are html, json-with-metadata, json, and stylish."
+ ],
+ "entities": [
+  {
+   "name": "ESLint",
+   "type": "product",
+   "role": "JavaScript linting tool whose extension mechanisms, release process, and formatters are documented in the note"
+  },
+  {
+   "name": "eslint-plugin-react",
+   "type": "product",
+   "role": "example ESLint plugin with rules specifically for React projects"
+  },
+  {
+   "name": "eslint-config-airbnb",
+   "type": "product",
+   "role": "example shareable config that enforces the Airbnb JavaScript style guide"
+  },
+  {
+   "name": "Airbnb JavaScript style guide",
+   "type": "other",
+   "role": "style guide that eslint-config-airbnb is designed to match"
+  },
+  {
+   "name": "eslint-formatter-gitlab",
+   "type": "product",
+   "role": "example custom formatter that displays ESLint results in GitLab code quality reports"
+  },
+  {
+   "name": "@typescript-eslint/parser",
+   "type": "product",
+   "role": "example custom parser that extends ESLint to lint TypeScript code"
+  },
+  {
+   "name": "Espree",
+   "type": "product",
+   "role": "built-in JavaScript parser shipped with ESLint"
+  },
+  {
+   "name": "Technical Steering Committee (TSC)",
+   "type": "organization",
+   "role": "body whose member is assigned as release manager for each scheduled release"
+  },
+  {
+   "name": "npm",
+   "type": "organization",
+   "role": "package registry where plugins and shareable configs are published and where releases are published"
+  },
+  {
+   "name": "release-please",
+   "type": "program",
+   "role": "release tooling that uses a granular npm access token that expires yearly"
+  },
+  {
+   "name": "Jenkins",
+   "type": "program",
+   "role": "build system that uses a classic npm access token and requires a 2FA code to publish"
+  },
+  {
+   "name": "fullOfProblems.js",
+   "type": "other",
+   "role": "sample file linted to generate the formatter examples"
+  }
+ ],
+ "tags": [
+  "eslint",
+  "linting",
+  "plugins",
+  "release-management",
+  "formatters",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13113,
+  "output_tokens": 2914
+ }
+}

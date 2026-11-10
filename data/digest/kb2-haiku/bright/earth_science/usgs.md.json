@@ -1,0 +1,94 @@
+{
+ "summary": "This note is a truncated clipped capture of the U.S. Geological Survey (USGS) website, consisting almost entirely of navigation menus and government-banner boilerplate. The usable content is the site's top-level structure: Science (Science Explorer topics, five Mission Areas, seven Regions, Science Centers, Observatories, Laboratories), Products (Data, Maps, Multimedia Gallery, Publications, Web Tools, Software), News, Connect (headquarters address and phone numbers), and a partial About menu cut off mid-entry. The note contains no substantive article text on any earth science topic.",
+ "one_line": "Navigation-menu capture of the USGS website, listing its science topics, mission areas, regions, data products and contact details.",
+ "key_facts": [
+  "The USGS website's Science menu lists Science Explorer, Mission Areas, Regions, Science Centers, Observatories, Laboratories, Frequently Asked Questions, Educational Resources and Special Topics.",
+  "Science Explorer subtopics in the note include Biology, Climate, Coasts, Energy, Environmental Health, Geology, Information Systems, Maps and Mapping, Minerals, Methods and Analysis, Natural Hazards, Ocean, Planetary Science, Science Technology and Water.",
+  "The USGS Mission Areas menu lists five areas: Core Science Systems, Ecosystems, Energy and Minerals, Natural Hazards, and Water Resources.",
+  "The USGS Regions menu lists seven regions: Northeast, Southeast, Midcontinent, Rocky Mountain, Southwest, Alaska, and Northwest-Pacific Islands.",
+  "The Products menu groups offerings into Data (Data Management, Data Releases, Real-time Data, All Data), Maps (Map Releases, Topographic Maps, Volcanic Maps, All Maps), Multimedia Gallery, Publications, Web Tools, and Software.",
+  "The Products menu also links to the U.S. Board on Geographic Names, The National Map, the USGS Library, the USGS Store and Park Passes.",
+  "The News menu includes News Releases (national and state), Featured Stories, Science Snippets, Technical Announcements, Employees in the News, Newsletters and Media Contacts.",
+  "The USGS headquarters is listed at 12201 Sunrise Valley Drive, Reston, VA 20192, with telephone number 703-648-5953.",
+  "The Contact Us menu lists the phone number 1-888-392-8545 and a USGS Store line at 1-888-275-8747, along with a Chat link to geochat.usgs.gov.",
+  "The page's government banner states that official U.S. government websites use .gov and that secure .gov sites use HTTPS.",
+  "The Connect menu includes Locations, Staff Profiles, Social Media and Careers.",
+  "The Science menu includes a link titled USGS Celebrates the Year of Open Science.",
+  "The captured note ends partway through the About menu, so the remainder of the navigation and any page body text are missing."
+ ],
+ "entities": [
+  {
+   "name": "U.S. Geological Survey",
+   "type": "organization",
+   "role": "Federal agency whose website navigation menus form the content of this note; referred to as USGS."
+  },
+  {
+   "name": "Science Explorer",
+   "type": "program",
+   "role": "Top-level Science section listing subtopics such as Geology, Minerals, Natural Hazards and Water."
+  },
+  {
+   "name": "Mission Areas",
+   "type": "program",
+   "role": "Science menu section listing five USGS mission areas: Core Science Systems, Ecosystems, Energy and Minerals, Natural Hazards and Water Resources."
+  },
+  {
+   "name": "Regions",
+   "type": "place",
+   "role": "Science menu section listing seven USGS regions, including Alaska and Northwest-Pacific Islands."
+  },
+  {
+   "name": "The National Map",
+   "type": "product",
+   "role": "Listed under Products as a USGS mapping program."
+  },
+  {
+   "name": "U.S. Board on Geographic Names",
+   "type": "organization",
+   "role": "Listed under Products as a linked USGS-affiliated entry."
+  },
+  {
+   "name": "USGS Library",
+   "type": "place",
+   "role": "Listed under Products as a library resource."
+  },
+  {
+   "name": "USGS Store",
+   "type": "product",
+   "role": "Listed under Products and Contact Us as the store for USGS products, with its own phone line."
+  },
+  {
+   "name": "Park Passes",
+   "type": "product",
+   "role": "Recreational passes linked from the Products menu."
+  },
+  {
+   "name": "USGS Celebrates the Year of Open Science",
+   "type": "event",
+   "role": "Special-topic link in the Science menu."
+  },
+  {
+   "name": "GeoChat",
+   "type": "product",
+   "role": "Chat option listed under Contact Us at geochat.usgs.gov."
+  },
+  {
+   "name": "USGS headquarters",
+   "type": "place",
+   "role": "Headquarters in Reston, Virginia, at 12201 Sunrise Valley Drive, listed under Connect."
+  }
+ ],
+ "tags": [
+  "usgs",
+  "earth science",
+  "geology",
+  "maps",
+  "navigation",
+  "government data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10452,
+  "output_tokens": 2022
+ }
+}

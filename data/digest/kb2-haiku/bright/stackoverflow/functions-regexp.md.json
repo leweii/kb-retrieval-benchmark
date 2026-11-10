@@ -1,0 +1,68 @@
+{
+ "summary": "This note is a documentation page on Snowflake's string functions that use regular expressions. It covers general usage rules for subject and pattern arguments, the optional parameters string (c, i, m, e, s) that controls matching behavior, and the Perl-style backslash sequences supported in patterns. It also explains how to escape metacharacters and backreferences inside single-quoted versus dollar-quoted string constants, with worked SQL examples.",
+ "one_line": "Snowflake documentation on regular expression string functions, including match parameters, backslash sequences, metacharacter escaping, and quoting rules.",
+ "key_facts": [
+  "Snowflake regular expression functions operate on a 'subject' string using a 'pattern' regular expression.",
+  "Patterns support Perl backslash sequences including \\d (decimal digit), \\s (whitespace), \\w (word character), and \\b (word boundary).",
+  "By default the POSIX wildcard '.' does not match newline characters, and this can be changed with the 's' parameter or by replacing '.' with '(.|\\n)'.",
+  "The 'c' parameter enables case-sensitive matching and is the default parameter string.",
+  "The 'i' parameter enables case-insensitive matching, and when both 'c' and 'i' appear, the one occurring last in the parameters string takes effect.",
+  "The 'm' parameter enables multi-line mode so that '^' and '$' mark the beginning and end of any line in the subject.",
+  "The 'e' parameter extracts sub-matches and applies only to REGEXP_INSTR functions.",
+  "Snowflake does not support backreferences in regular expression patterns, but backreferences are supported in the replacement string of REGEXP_REPLACE.",
+  "In most regexp functions an empty pattern ('') matches nothing, not even an empty subject.",
+  "Dollar-quoted string constants ($$...$$) are interpreted literally, so backslashes do not need to be doubled.",
+  "In single-quoted string constants, each backslash in a backslash-sequence or metacharacter escape must be doubled, for example '\\\\?' to match a question mark.",
+  "A single Unicode character counts as one character for the '.' metacharacter and for subject offsets."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "database platform whose regular expression string functions are documented in this page"
+  },
+  {
+   "name": "REGEXP_INSTR",
+   "type": "product",
+   "role": "regex function to which the 'e' sub-match extraction parameter applies"
+  },
+  {
+   "name": "REGEXP_REPLACE",
+   "type": "product",
+   "role": "regex function whose replacement string supports backreferences"
+  },
+  {
+   "name": "REGEXP_SUBSTR_ALL",
+   "type": "product",
+   "role": "regex function that the note describes as an alias target in the function list"
+  },
+  {
+   "name": "RLIKE",
+   "type": "product",
+   "role": "regex function that other functions in the list are aliases for"
+  },
+  {
+   "name": "REGEXP_LIKE",
+   "type": "product",
+   "role": "regex function used in the examples for matching a question mark and a parenthesis pattern"
+  },
+  {
+   "name": "REGEXP_SUBSTR",
+   "type": "product",
+   "role": "regex function used in the example that extracts '(NY)' from 'Customers - (NY)'"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "regex",
+  "sql",
+  "string-functions",
+  "documentation",
+  "escaping"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5465,
+  "output_tokens": 1080
+ }
+}

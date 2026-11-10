@@ -1,0 +1,47 @@
+{
+ "summary": "This note is a directory listing from an Ubuntu package pool (main/r section) for the ROS Noetic package ros-noetic-behaviortree-cpp-v3. It contains 16 files and 0 directories, including binary .deb packages for amd64, arm64 and armhf, debug symbol packages (dbgsym), Debian source control (.dsc), debian.tar.xz archives and original source tarballs for versions 3.8.2 (buster build, January 2023) and 3.8.6 (focal build, December 2023). The rest of the page is web-server navigation and footer boilerplate.",
+ "one_line": "Ubuntu package pool listing of ROS Noetic ros-noetic-behaviortree-cpp-v3 builds (versions 3.8.2 and 3.8.6) for several architectures.",
+ "key_facts": [
+  "The directory is the Ubuntu package pool path main/r/ros-noetic-behaviortree-cpp-v3 under the ros folder.",
+  "The listing shows 0 directories and 16 files.",
+  "Version 3.8.2 packages are built as 1buster.20230110.191435 for amd64 and 1buster.20230110.191922 for arm64, both modified 01/10/2023.",
+  "Version 3.8.6 packages are built as 1focal.20231219 and include armhf, arm64 and amd64 binaries modified 12/19/2023.",
+  "The ros-noetic-behaviortree-cpp-v3 amd64 binary package for 3.8.2 is 291 KiB.",
+  "The ros-noetic-behaviortree-cpp-v3 amd64 binary package for 3.8.6 is 282 KiB.",
+  "Debug symbol packages (dbgsym) for 3.8.2 are about 5.8 to 5.9 MiB, and for 3.8.6 about 5.6 to 6.0 MiB.",
+  "The source tarball ros-noetic-behaviortree-cpp-v3_3.8.2.orig.tar.gz is 1.1 MiB and was modified 01/10/2023 at 07:11:24 PM UTC.",
+  "The source tarball ros-noetic-behaviortree-cpp-v3_3.8.6.orig.tar.gz is 1.1 MiB and was modified 12/19/2023 at 01:27:33 PM UTC.",
+  "The 3.8.2 Debian source package consists of a .dsc file of 1.1 KiB and a debian.tar.xz of 9.9 KiB.",
+  "The 3.8.6 Debian source package consists of a .dsc file of 1.1 KiB and a debian.tar.xz of 10 KiB.",
+  "The listing is served with Caddy, as indicated by its footer link."
+ ],
+ "entities": [
+  {
+   "name": "ros-noetic-behaviortree-cpp-v3",
+   "type": "product",
+   "role": "ROS Noetic package whose builds are listed in this Ubuntu package pool directory"
+  },
+  {
+   "name": "Ubuntu package pool",
+   "type": "program",
+   "role": "repository directory structure (ros/ubuntu/pool/main/r) hosting the package files"
+  },
+  {
+   "name": "Caddy",
+   "type": "program",
+   "role": "web server serving the directory listing"
+  }
+ ],
+ "tags": [
+  "ros",
+  "robotics",
+  "ubuntu",
+  "package-repository",
+  "behaviortree"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3331,
+  "output_tokens": 1078
+ }
+}

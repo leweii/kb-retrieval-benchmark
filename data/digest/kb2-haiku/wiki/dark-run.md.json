@@ -1,0 +1,64 @@
+{
+ "summary": "Dark Run is a stream in Schuylkill County, Pennsylvania, that is a tributary of Catawissa Creek and flows through Union Township. The note describes its water quality designations, the fish species that inhabit it, and the geology of its watershed. The stream also has several unnamed tributaries.",
+ "one_line": "Dark Run is a Pennsylvania stream in Schuylkill County that feeds Catawissa Creek and is designated a high-quality coldwater fishery.",
+ "key_facts": [
+  "Dark Run is a tributary of Catawissa Creek in Schuylkill County, Pennsylvania, United States.",
+  "Dark Run flows through Union Township.",
+  "The stream is considered a High-Quality Coldwater Fishery.",
+  "The stream is considered Class D Wild Trout Waters.",
+  "Eight species of fish inhabit Dark Run.",
+  "The main rock formation in the Dark Run watershed is the Mauch Chunk Formation.",
+  "The main soil in the Dark Run watershed is the Leck Kill soil.",
+  "Dark Run has several unnamed tributaries."
+ ],
+ "entities": [
+  {
+   "name": "Dark Run",
+   "type": "place",
+   "role": "stream that is a tributary of Catawissa Creek in Schuylkill County, Pennsylvania"
+  },
+  {
+   "name": "Catawissa Creek",
+   "type": "place",
+   "role": "creek into which Dark Run flows as a tributary"
+  },
+  {
+   "name": "Schuylkill County",
+   "type": "place",
+   "role": "county in Pennsylvania where Dark Run is located"
+  },
+  {
+   "name": "Pennsylvania",
+   "type": "place",
+   "role": "U.S. state containing Schuylkill County and Dark Run"
+  },
+  {
+   "name": "Union Township",
+   "type": "place",
+   "role": "township through which Dark Run flows"
+  },
+  {
+   "name": "Mauch Chunk Formation",
+   "type": "place",
+   "role": "main rock formation in the stream's watershed"
+  },
+  {
+   "name": "Leck Kill soil",
+   "type": "other",
+   "role": "main soil in the stream's watershed"
+  }
+ ],
+ "tags": [
+  "pennsylvania",
+  "streams",
+  "schuylkill county",
+  "watersheds",
+  "fisheries",
+  "geology"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1159,
+  "output_tokens": 694
+ }
+}

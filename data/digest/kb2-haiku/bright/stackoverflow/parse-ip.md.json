@@ -1,0 +1,54 @@
+{
+ "summary": "This is Snowflake's reference page for the PARSE_IP function, which returns a JSON object with the components of a valid INET or CIDR IPv4 or IPv6 string. It describes the syntax, the required type and optional permissive arguments, the always-returned and version-specific JSON elements, and includes examples for subnet range lookups with IPv4 and IPv6 addresses. The page's navigation menus and footer are boilerplate and were ignored.",
+ "one_line": "Snowflake reference for the PARSE_IP function, which parses INET or CIDR IPv4/IPv6 strings into a JSON object with subnet range details.",
+ "key_facts": [
+  "PARSE_IP returns a JSON object consisting of all the components from a valid INET or CIDR IPv4 or IPv6 string.",
+  "PARSE_IP syntax is PARSE_IP(<expr>, '<type>' [, <permissive>]).",
+  "The type argument supports either INET or CIDR and its value is case-insensitive.",
+  "If the permissive flag is set to 0, parse errors cause the function to fail; the default value is 0.",
+  "If the permissive flag is set to 1, parse errors result in an object with the error field set to the error message and no other fields set.",
+  "The always-returned elements are family, ip_type, host, and ip_fields.",
+  "The family element is 4 for IPv4 or 6 for IPv6.",
+  "The ip_fields element is an array of 4 numeric fields, each between 0 and 4,294,967,295 (2^32 - 1), inclusive.",
+  "For IPv4 addresses, the ipv4 element is the numeric IP address matching the first field in ip_fields.",
+  "When a subnet mask is included, the results include network_prefix_length, a numeric value identifying the length of the subnet mask.",
+  "For IPv6 addresses, hex_ipv6 expresses the IP address as a fully padded, fixed-size hexadecimal value.",
+  "Snowflake recommends storing PARSE_IP output in a VARIANT column when inputting a subnet mask for better performance.",
+  "The snowflake$type element is reserved for internal Snowflake usage.",
+  "In the IPv4 example, '192.168.242.188/24' produces ipv4_range_start 3232297472 and ipv4_range_end 3232297727."
+ ],
+ "entities": [
+  {
+   "name": "PARSE_IP",
+   "type": "program",
+   "role": "Snowflake string function that returns a JSON object with the components of a valid INET or CIDR IPv4 or IPv6 string"
+  },
+  {
+   "name": "INET",
+   "type": "other",
+   "role": "Type argument value identifying an Internet Protocol address"
+  },
+  {
+   "name": "CIDR",
+   "type": "other",
+   "role": "Type argument value identifying a Classless Internet Domain Routing address"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Vendor whose documentation describes PARSE_IP and recommends storing its output in a VARIANT column"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "ip-address",
+  "string-functions",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5463,
+  "output_tokens": 983
+ }
+}

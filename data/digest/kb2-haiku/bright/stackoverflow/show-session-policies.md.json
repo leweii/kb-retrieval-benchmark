@@ -1,0 +1,79 @@
+{
+ "summary": "This Snowflake documentation page describes the SHOW SESSION POLICIES command, which lists session policy information such as creation date, database and schema names, owner, and comments. It requires Enterprise Edition or higher and specifies the privileges needed (APPLY SESSION POLICY on the account, or OWNERSHIP on the session policy), plus usage notes about warehouses and the 10,000-row LIMIT limit. An example output row is included.",
+ "one_line": "Documents the Snowflake SHOW SESSION POLICIES command, its access privileges, usage limits, and example output.",
+ "key_facts": [
+  "SHOW SESSION POLICIES lists session policy information, including creation date, database and schema names, owner, and any available comments.",
+  "Session policies require Snowflake Enterprise Edition or higher.",
+  "The syntax for the command is SHOW SESSION POLICIES with no additional clauses shown.",
+  "The role executing the command must have the APPLY SESSION POLICY privilege on the Account, or OWNERSHIP on the Session policy, at a minimum.",
+  "OWNERSHIP is automatically granted to the role that created an object, but can also be transferred using the MANAGE GRANTS privilege.",
+  "Operating on any object in a schema also requires the USAGE privilege on the parent database and schema.",
+  "The SHOW SESSION POLICIES command does not require a running warehouse to execute.",
+  "The value for LIMIT_rows_ cannot exceed 10000.",
+  "If LIMIT_rows_ is omitted, the command results in an error if the result set is larger than 10K rows.",
+  "To view results for more than 10K records, either include LIMIT_rows_ or query the corresponding view in the Snowflake Information Schema.",
+  "The example output shows a session policy named session_policy_prod_1 in database MY_DB and schema MY_SCHEMA, owned by POLICY_ADMIN.",
+  "The example session policy has the comment 'session policy for use in the prod_1 environment' and kind SESSION_POLICY.",
+  "The example session policy was created on Mon, 11 Jan 2021 00:00:00 -0700."
+ ],
+ "entities": [
+  {
+   "name": "SHOW SESSION POLICIES",
+   "type": "program",
+   "role": "SQL command documented on the page that lists session policy information"
+  },
+  {
+   "name": "APPLY SESSION POLICY",
+   "type": "other",
+   "role": "account-level privilege required to execute the command"
+  },
+  {
+   "name": "OWNERSHIP",
+   "type": "other",
+   "role": "special privilege on an object automatically granted to the creating role"
+  },
+  {
+   "name": "MANAGE GRANTS",
+   "type": "other",
+   "role": "privilege that allows transferring OWNERSHIP of an object"
+  },
+  {
+   "name": "USAGE",
+   "type": "other",
+   "role": "privilege required on the parent database and schema when operating on objects in a schema"
+  },
+  {
+   "name": "session_policy_prod_1",
+   "type": "product",
+   "role": "example session policy shown in the output, in MY_DB.MY_SCHEMA"
+  },
+  {
+   "name": "POLICY_ADMIN",
+   "type": "person",
+   "role": "owner of the example session policy session_policy_prod_1"
+  },
+  {
+   "name": "Snowflake Information Schema",
+   "type": "other",
+   "role": "schema whose corresponding view can be queried to see results beyond 10K records"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact for inquiring about upgrading to Enterprise Edition"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "session policies",
+  "access control",
+  "show command",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2111,
+  "output_tokens": 1138
+ }
+}

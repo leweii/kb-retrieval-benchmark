@@ -1,0 +1,69 @@
+{
+ "summary": "A Stack Overflow question asks how to style a single GeoJSON source with different Mapbox GL line colors based on the text value of a feature property (\"Need\": Urgent, Medium, Starting) using react-map-gl, after the asker's attempt with feature-state and an array-based expression failed. The accepted answer by Steve Bennett explains that feature-state is for dynamically changed attributes, not needed here, and recommends data-driven styling with a 'match' expression on ['get','Need'] mapping Urgent to red, Medium to yellow, Starting to green, with black as fallback. A commenter asked about using a JavaScript function, and the answerer replied that data-driven styling is the mechanism instead.",
+ "one_line": "Stack Overflow thread on coloring Mapbox GL line features by a text property value using react-map-gl, answered with a data-driven 'match' expression.",
+ "key_facts": [
+  "The question was asked by user hansmei and was asked 2 years, 3 months before the page snapshot, with 3k views.",
+  "The asker wants to style a single GeoJSON source with different line colors based on the feature property \"Need\" using react-map-gl.",
+  "The example GeoJSON has three features with Need values \"Urgent\", \"Starting\" and \"Medium\", each a MultiLineString.",
+  "The asker wants Urgent lines colored red, Medium lines yellow, and Starting lines green.",
+  "The asker's attempted line-color expression used feature-state with \"Need\" and was described as not working.",
+  "Steve Bennett's accepted answer says feature-state is only needed to manipulate feature attributes dynamically, which the asker does not need.",
+  "The answer recommends regular data-driven styling using a 'match' expression on ['get','Need'].",
+  "The recommended match expression maps 'Urgent' to 'red', 'Medium' to 'yellow', 'Starting' to 'green', with 'black' as the fallback color.",
+  "The recommended line-width in the example is 3.",
+  "In a comment, the asker asked whether a JavaScript function could set the color based on the property.",
+  "Steve Bennett replied that no such function is needed because data-driven styling is the mechanism for this.",
+  "The answer was posted on January 19, 2022 and has a score of 2.",
+  "The question is tagged mapbox, mapbox-gl-js and react-map-gl."
+ ],
+ "entities": [
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "Q&A website hosting the question and answer"
+  },
+  {
+   "name": "hansmei",
+   "type": "person",
+   "role": "asker of the question who edited it on Jan 18, 2022"
+  },
+  {
+   "name": "Steve Bennett",
+   "type": "person",
+   "role": "author of the accepted answer recommending data-driven match styling"
+  },
+  {
+   "name": "Mapbox GL JS",
+   "type": "product",
+   "role": "mapping library whose line-color data-driven styling is discussed"
+  },
+  {
+   "name": "react-map-gl",
+   "type": "product",
+   "role": "React library used to render the map Source and Layer components"
+  },
+  {
+   "name": "GeoJSON",
+   "type": "product",
+   "role": "data format of the lineData FeatureCollection with Need property"
+  },
+  {
+   "name": "lineData",
+   "type": "other",
+   "role": "name of the example GeoJSON FeatureCollection"
+  }
+ ],
+ "tags": [
+  "mapbox-gl-js",
+  "react-map-gl",
+  "geojson",
+  "data-driven-styling",
+  "line-color",
+  "stackoverflow"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4933,
+  "output_tokens": 1097
+ }
+}

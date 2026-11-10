@@ -1,0 +1,40 @@
+{
+ "summary": "This note describes Astronomy Picture of the Day (APOD), a website provided by NASA and Michigan Technological University (MTU). The site features a different image or photograph of the universe each day, accompanied by a brief explanation written by a professional astronomer, as stated on the website itself.",
+ "one_line": "APOD is a NASA and Michigan Technological University website that features a daily astronomy image with an explanation by a professional astronomer.",
+ "key_facts": [
+  "Astronomy Picture of the Day (APOD) is a website provided by NASA and Michigan Technological University (MTU).",
+  "According to the website, \"Each day a different image or photograph of our universe is featured, along with a brief explanation written by a professional astronomer.\"",
+  "APOD features a different image or photograph of the universe each day.",
+  "Each APOD entry includes a brief explanation written by a professional astronomer.",
+  "APOD is provided jointly by NASA and Michigan Technological University."
+ ],
+ "entities": [
+  {
+   "name": "Astronomy Picture of the Day",
+   "type": "program",
+   "role": "Website featuring a daily image or photograph of the universe with a brief explanation by a professional astronomer"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "Provider of the Astronomy Picture of the Day website"
+  },
+  {
+   "name": "Michigan Technological University",
+   "type": "organization",
+   "role": "Provider of the Astronomy Picture of the Day website, abbreviated MTU"
+  }
+ ],
+ "tags": [
+  "astronomy",
+  "nasa",
+  "website",
+  "space imagery",
+  "education"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1077,
+  "output_tokens": 499
+ }
+}

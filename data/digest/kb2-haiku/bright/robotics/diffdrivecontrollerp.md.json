@@ -1,0 +1,54 @@
+{
+ "summary": "This note documents the configuration parameters of a differential drive controller, listing each parameter's type, default value, and description. It covers wheel geometry (wheel names, separation, radius, and per-side counts with correction multipliers), tf frame naming, odometry covariances and open-loop behavior, command timeout and publishing settings, and linear and angular velocity, acceleration and jerk limits. Several descriptions note how wrong values affect robot behavior, such as incorrect wheel separation causing poor curve handling.",
+ "one_line": "Configuration reference for a differential drive controller's wheel geometry, odometry, timing, and velocity-limit parameters.",
+ "key_facts": [
+  "The diff_drive_controller parameter left_wheel_names is a string array with default value [] and describes link names of the left side wheels.",
+  "The wheel_separation parameter is a double with default value 0.0 and is the shortest distance between the left and right wheels.",
+  "If wheel_separation is wrong, the robot will not behave correctly in curves.",
+  "The wheels_per_side parameter is an int with default value 0; for Husky, which has two wheels on each side using one control signal, the correct value is 1.",
+  "The wheel_radius parameter is a double with default value 0.0 and is used to transform linear velocity into wheel rotations; if wrong, the robot will move faster or slower than expected.",
+  "The left_wheel_radius_multiplier and right_wheel_radius_multiplier parameters each have default value 1.0 and correct for wheel radii differing from the nominal wheel_radius.",
+  "The odom_frame_id parameter defaults to \"odom\" and the base_frame_id parameter defaults to \"base_link\".",
+  "The tf_frame_prefix_enable parameter is a bool with default value true, and tf_frame_prefix defaults to an empty string, in which case the controller's namespace is used.",
+  "The open_loop parameter defaults to false; when true, odometry is calculated from commanded values rather than feedback.",
+  "The cmd_vel_timeout parameter defaults to 0.5 seconds and sets when input on the cmd_vel topic is considered stale.",
+  "The publish_rate parameter defaults to 50.0 Hz and sets the publishing rate of odometry and TF messages.",
+  "The velocity_rolling_window_size parameter defaults to 10 and sets the window size for the mean velocity used in odometry.",
+  "The pose_covariance_diagonal and twist_covariance_diagonal parameters are double arrays of six zeros by default, with suggested starting values [0.001, 0.001, 0.001, 0.001, 0.001, 0.01].",
+  "The linear x and angular z sections each define has_velocity_limits, has_acceleration_limits, has_jerk_limits (all default false) and max/min velocity, acceleration and jerk values defaulting to NAN."
+ ],
+ "entities": [
+  {
+   "name": "Husky",
+   "type": "product",
+   "role": "Example robot cited in the wheels_per_side description as having two wheels on each side that use one control signal."
+  },
+  {
+   "name": "diff_drive_controller",
+   "type": "program",
+   "role": "The differential drive controller whose parameters are documented in the note."
+  },
+  {
+   "name": "odom",
+   "type": "other",
+   "role": "Default name of the odometry frame, parent of base_frame_id when odometry is published."
+  },
+  {
+   "name": "base_link",
+   "type": "other",
+   "role": "Default name of the robot's base frame, child of the odometry frame."
+  }
+ ],
+ "tags": [
+  "robotics",
+  "differential drive",
+  "odometry",
+  "ros control",
+  "configuration parameters"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3258,
+  "output_tokens": 1146
+ }
+}

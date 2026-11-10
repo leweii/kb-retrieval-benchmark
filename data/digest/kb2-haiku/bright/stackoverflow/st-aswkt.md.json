@@ -1,0 +1,64 @@
+{
+ "summary": "This is a documentation page for the ST_ASWKT function (alias ST_ASTEXT) in a data warehouse SQL reference, under the geospatial functions category. It explains that the function takes a GEOGRAPHY or GEOMETRY expression and returns its Well-Known Text (WKT) representation as a VARCHAR. The page gives the two syntax forms, notes that ST_ASTEXT is an alias, and provides examples for GEOGRAPHY and GEOMETRY columns, including a note that ST_ASEWKT is used in the geometry example.",
+ "one_line": "Documentation for ST_ASWKT/ST_ASTEXT, which converts GEOGRAPHY or GEOMETRY values to WKT text.",
+ "key_facts": [
+  "ST_ASWKT returns the text (VARCHAR) representation of a GEOGRAPHY or GEOMETRY value in Well-Known Text (WKT) format.",
+  "ST_ASTEXT is an alias for ST_ASWKT.",
+  "The argument to ST_ASWKT must be an expression of type GEOGRAPHY or GEOMETRY.",
+  "The function returns a VARCHAR.",
+  "Syntax: ST_ASWKT( <geography_or_geometry_expression> ) or ST_ASTEXT( <geography_or_geometry_expression> ).",
+  "The GEOGRAPHY example creates a table geospatial_table with columns id INTEGER and g GEOGRAPHY.",
+  "In the GEOGRAPHY example, the point 'POINT(-122.35 37.55)' is inserted with id 1.",
+  "In the GEOGRAPHY example, the linestring 'LINESTRING(-124.20 42.00, -120.01 41.99)' is inserted with id 2.",
+  "In the GEOGRAPHY example, ST_ASWKT returns 'LINESTRING(-124.2 42,-120.01 41.99)' for the second row.",
+  "The GEOMETRY example creates a table geometry_table with a column g GEOMETRY.",
+  "The GEOMETRY example sets the session parameter GEOMETRY_OUTPUT_FORMAT to 'WKT'.",
+  "In the GEOMETRY example, ST_ASWKT returns 'LINESTRING(0.75 0.75,-10 20)' for the linestring 'LINESTRING(0.75 0.75, -10 20)'.",
+  "The page is listed under the Geospatial functions category."
+ ],
+ "entities": [
+  {
+   "name": "ST_ASWKT",
+   "type": "program",
+   "role": "function that returns the WKT text representation of a GEOGRAPHY or GEOMETRY value"
+  },
+  {
+   "name": "ST_ASTEXT",
+   "type": "program",
+   "role": "alias for ST_ASWKT"
+  },
+  {
+   "name": "ST_ASEWKT",
+   "type": "program",
+   "role": "function referenced in the GEOMETRY example description"
+  },
+  {
+   "name": "geospatial_table",
+   "type": "program",
+   "role": "example table with id INTEGER and g GEOGRAPHY columns"
+  },
+  {
+   "name": "geometry_table",
+   "type": "program",
+   "role": "example table with a g GEOMETRY column"
+  },
+  {
+   "name": "GEOMETRY_OUTPUT_FORMAT",
+   "type": "program",
+   "role": "session parameter set to 'WKT' in the GEOMETRY example"
+  }
+ ],
+ "tags": [
+  "geospatial",
+  "sql",
+  "wkt",
+  "geography",
+  "geometry",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2242,
+  "output_tokens": 1120
+ }
+}

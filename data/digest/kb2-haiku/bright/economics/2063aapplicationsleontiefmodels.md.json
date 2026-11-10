@@ -1,0 +1,75 @@
+{
+ "summary": "This LibreTexts page, section 2.6 of Applied Finite Mathematics by Rupinder Sekhon and Roberta Bloom, applies matrices to Wassily Leontief's input-output models of economies divided into sectors. It works through a closed model of a three-person village (farmer, carpenter, tailor) where all output is consumed internally, solving for equilibrium pay. It then covers the open model with external consumer demand, using X = AX + D and X = (I - A)^-1 D, and shows how to derive the input-output matrix from dollar transaction tables.",
+ "one_line": "Explains Leontief closed and open input-output models using matrices, with worked economic examples of sector production and consumer demand.",
+ "key_facts": [
+  "Wassily Leontief used matrices in the 1930's to model economic systems, called input-output models.",
+  "Leontief won the Nobel Prize in Economics in 1973 for his work in this field.",
+  "In the closed model example, the farmer consumes 40% of his own food, gives 40% to the carpenter, and 20% to the tailor.",
+  "The closed model input-output matrix has columns of .40, .40, .20 / .40, .30, .30 / .30, .20, .50 for farmer, carpenter, and tailor (as written in the table of the note).",
+  "In the closed model, the solution to the pay system is x = (29/26)t, y = (12/13)t, and z = t.",
+  "Choosing t = $2600 gives the closed model pay of $2900 for the farmer, $2400 for the carpenter, and $2600 for the tailor.",
+  "In the open model, the consumer demand matrix D is [40, 50, 60] in billions of dollars for food, shelter, and clothing industries.",
+  "The open model equation is X = AX + D, which is solved as X = (I - A)^-1 D.",
+  "The inverse matrix (I - A)^-1 in the open model example has first row 1.3445, .3835, .1807.",
+  "The open model required outputs are Farmer = $83.7999 billion, Carpenter = $74.2341 billion, and Tailor = $84.813 billion.",
+  "In Example 4, the F industry produces $250 total, of which $100 goes to consumer demand.",
+  "In Example 4, the input-output matrix entries are computed by dividing each industry's inputs by its total production, for example 40/250 = .1600.",
+  "The note states that in Leontief's models the total input always equals the total output.",
+  "The closed model equation is X = AX, or (I - A)X = 0, and the open model equation is X = AX + D.",
+  "The note recommends using a graphing calculator or computer application to solve the matrix systems."
+ ],
+ "entities": [
+  {
+   "name": "Wassily Leontief",
+   "type": "person",
+   "role": "economist who used matrices in the 1930's to model economic systems as input-output models and won the 1973 Nobel Prize in Economics"
+  },
+  {
+   "name": "Rupinder Sekhon",
+   "type": "person",
+   "role": "co-author of the source material and authorname on the page"
+  },
+  {
+   "name": "Roberta Bloom",
+   "type": "person",
+   "role": "co-author of the source material and De Anza College faculty member"
+  },
+  {
+   "name": "De Anza College",
+   "type": "organization",
+   "role": "institution associated with the authors and the original source content"
+  },
+  {
+   "name": "Applied Finite Mathematics (Sekhon and Bloom)",
+   "type": "program",
+   "role": "LibreTexts textbook book containing this section 2.6"
+  },
+  {
+   "name": "LibreTexts",
+   "type": "organization",
+   "role": "platform hosting the page, Mathematics LibreTexts"
+  },
+  {
+   "name": "Nobel Prize in Economics",
+   "type": "event",
+   "role": "award Leontief won in 1973 for his input-output work"
+  },
+  {
+   "name": "farmer, carpenter, and tailor village example",
+   "type": "event",
+   "role": "simple three-sector economy used as the closed model example"
+  }
+ ],
+ "tags": [
+  "input-output models",
+  "leontief models",
+  "matrices",
+  "closed economy model",
+  "open economy model"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 12079,
+  "output_tokens": 1265
+ }
+}

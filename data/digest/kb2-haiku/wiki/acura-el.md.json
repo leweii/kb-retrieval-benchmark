@@ -1,0 +1,40 @@
+{
+ "summary": "The note describes the Acura EL, a subcompact executive car produced at Honda's Alliston, Ontario, plant. It is noted as the first Acura built in Canada. The EL is described as a badge-engineered Honda Civic offering a higher level of features.",
+ "one_line": "The Acura EL is a subcompact executive car built in Alliston, Ontario, as a badge-engineered, upscale Honda Civic.",
+ "key_facts": [
+  "The Acura EL is a subcompact executive car.",
+  "The Acura EL was built at Honda's Alliston, Ontario, plant.",
+  "The Acura EL was the first Acura built in Canada.",
+  "The Acura EL is a badge-engineered Honda Civic.",
+  "The Acura EL offers a higher level of features than the Honda Civic it is based on."
+ ],
+ "entities": [
+  {
+   "name": "Acura EL",
+   "type": "product",
+   "role": "Subcompact executive car built at Honda's Alliston, Ontario, plant; badge-engineered Honda Civic with a higher level of features"
+  },
+  {
+   "name": "Honda's Alliston, Ontario, plant",
+   "type": "place",
+   "role": "Manufacturing plant where the Acura EL was built"
+  },
+  {
+   "name": "Honda Civic",
+   "type": "product",
+   "role": "Car on which the Acura EL is badge-engineered"
+  }
+ ],
+ "tags": [
+  "acura",
+  "honda",
+  "automobiles",
+  "canadian manufacturing",
+  "subcompact cars"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1055,
+  "output_tokens": 467
+ }
+}

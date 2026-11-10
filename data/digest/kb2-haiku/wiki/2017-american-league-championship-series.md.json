@@ -1,0 +1,57 @@
+{
+ "summary": "The note describes the 2017 American League Championship Series, noting that the New York Yankees advanced after upsetting the heavily favored Cleveland Indians 3-2 in the ALDS. It places this as the Yankees' 16th ALCS appearance and second as a Wild Card, recalls their 2012 ALCS sweep by the Detroit Tigers, and notes their record of eleven wins in fifteen prior appearances. It also observes that this is the sixth straight year an AL East team reached the ALCS.",
+ "one_line": "The 2017 ALCS saw the New York Yankees, a Wild Card team, advance after upsetting the Cleveland Indians in the ALDS.",
+ "key_facts": [
+  "The Yankees upset the heavily favored Cleveland Indians 3-2 in the ALDS to advance to the 2017 ALCS.",
+  "The 2017 ALCS was the Yankees' 16th appearance in the American League Championship Series.",
+  "This was the Yankees' second ALCS appearance as a Wild Card team.",
+  "The Yankees' previous ALCS appearance was the 2012 American League Championship Series, where they were swept by the Detroit Tigers.",
+  "The Yankees had won in eleven of their previous fifteen ALCS appearances.",
+  "The 2017 ALCS marked the sixth straight year in which an AL East team made it to the ALCS."
+ ],
+ "entities": [
+  {
+   "name": "New York Yankees",
+   "type": "organization",
+   "role": "heavily underdog team that upset the Cleveland Indians 3-2 in the ALDS to advance to the 2017 ALCS; made their 16th ALCS appearance"
+  },
+  {
+   "name": "Cleveland Indians",
+   "type": "organization",
+   "role": "heavily favored team upset by the Yankees 3-2 in the ALDS"
+  },
+  {
+   "name": "Detroit Tigers",
+   "type": "organization",
+   "role": "team that swept the Yankees in the 2012 American League Championship Series"
+  },
+  {
+   "name": "2017 American League Championship Series",
+   "type": "event",
+   "role": "the series the note describes, which the Yankees advanced to"
+  },
+  {
+   "name": "2012 American League Championship Series",
+   "type": "event",
+   "role": "the Yankees' previous ALCS appearance, in which they were swept by the Detroit Tigers"
+  },
+  {
+   "name": "AL East",
+   "type": "organization",
+   "role": "division whose team has reached the ALCS for six straight years"
+  }
+ ],
+ "tags": [
+  "baseball",
+  "mlb",
+  "american league",
+  "playoffs",
+  "new york yankees",
+  "alcs"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1149,
+  "output_tokens": 812
+ }
+}

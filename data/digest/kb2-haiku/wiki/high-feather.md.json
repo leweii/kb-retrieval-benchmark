@@ -1,0 +1,44 @@
+{
+ "summary": "High Feather is a 10-episode educational television show that aired on PBS in the 1980s, with each episode running 30 minutes. The note explains that its name derives from the Old English expression \"High Fettle,\" meaning enjoying life and cheerfully doing the tasks of living. It also quotes lyrics from the show's theme song that capture its heartfelt spirit.",
+ "one_line": "High Feather was a 10-episode 1980s PBS educational television show named after the Old English phrase \"High Fettle.\"",
+ "key_facts": [
+  "High Feather is a 10-episode educational television show.",
+  "High Feather ran on PBS in the 1980s.",
+  "Each episode of High Feather was 30 minutes long.",
+  "The name High Feather came from the Old English expression \"High Fettle.\"",
+  "High Fettle meant enjoying life and cheerfully doing the tasks of living.",
+  "The heartfelt spirit of High Feather was captured in the lyrics to its theme song.",
+  "The High Feather theme song includes the lyric \"I'm in High Feather.\"",
+  "The High Feather theme song includes the lyric \"Feel like the sun is shining on me.\"",
+  "The High Feather theme song includes the lyric \"I'm as free as I can be...\""
+ ],
+ "entities": [
+  {
+   "name": "High Feather",
+   "type": "program",
+   "role": "10-episode educational television show that ran on PBS in the 1980s, each episode 30 minutes long"
+  },
+  {
+   "name": "PBS",
+   "type": "organization",
+   "role": "broadcaster on which High Feather ran in the 1980s"
+  },
+  {
+   "name": "High Fettle",
+   "type": "other",
+   "role": "Old English expression from which the name High Feather came, meaning enjoying life and cheerfully doing the tasks of living"
+  }
+ ],
+ "tags": [
+  "television",
+  "educational tv",
+  "pbs",
+  "1980s tv",
+  "wikipedia"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 1128,
+  "output_tokens": 600
+ }
+}

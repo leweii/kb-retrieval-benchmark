@@ -1,0 +1,40 @@
+{
+ "summary": "The Grace Keiser Maring Library is a branch library on the south side of Muncie, Indiana. It stands at 1808 South Madison Street beside Heekin Park, which the note describes as the largest and oldest community park in Muncie. The note also states that the library was the first branch library built in the city.",
+ "one_line": "Grace Keiser Maring Library is a branch library on Muncie, Indiana's south side, beside Heekin Park.",
+ "key_facts": [
+  "The Grace Keiser Maring Library is located on the south side of Muncie, Indiana, USA.",
+  "The library is built at 1808 South Madison Street.",
+  "The library is next to Heekin Park.",
+  "Heekin Park is described as the largest and oldest community park in Muncie.",
+  "The Grace Keiser Maring Library was the first branch library built in the city of Muncie."
+ ],
+ "entities": [
+  {
+   "name": "Grace Keiser Maring Library",
+   "type": "place",
+   "role": "branch library located on the south side of Muncie, Indiana, built at 1808 South Madison Street and the first branch library built in the city"
+  },
+  {
+   "name": "Heekin Park",
+   "type": "place",
+   "role": "largest and oldest community park in Muncie, located next to the Grace Keiser Maring Library"
+  },
+  {
+   "name": "Muncie, Indiana",
+   "type": "place",
+   "role": "city in which the Grace Keiser Maring Library is located"
+  }
+ ],
+ "tags": [
+  "muncie",
+  "indiana",
+  "public library",
+  "heekin park",
+  "branch library"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1082,
+  "output_tokens": 481
+ }
+}

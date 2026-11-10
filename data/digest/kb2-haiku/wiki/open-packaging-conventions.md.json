@@ -1,0 +1,40 @@
+{
+ "summary": "The note describes the Open Packaging Conventions (OPC), a container-file technology first created by Microsoft. OPC bundles XML and non-XML files into a single entity, such as an OpenXPS document. The note says OPC-based formats keep the independent file entities intact and produce much smaller files than normal XML use.",
+ "one_line": "Open Packaging Conventions is a Microsoft-originated container-file technology that bundles XML and non-XML files into one document.",
+ "key_facts": [
+  "The Open Packaging Conventions (OPC) is a container-file technology initially created by Microsoft.",
+  "OPC stores a combination of XML and non-XML files that together form a single entity.",
+  "An Open XML Paper Specification (OpenXPS) document is given as an example of an entity stored using OPC.",
+  "OPC-based file formats leave the independent file entities embedded in the document intact.",
+  "OPC-based file formats result in much smaller files compared to normal use of XML."
+ ],
+ "entities": [
+  {
+   "name": "Open Packaging Conventions",
+   "type": "other",
+   "role": "Container-file technology initially created by Microsoft to store combined XML and non-XML files as a single entity"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Initial creator of the Open Packaging Conventions"
+  },
+  {
+   "name": "Open XML Paper Specification",
+   "type": "product",
+   "role": "Example of a document format (OpenXPS) that uses OPC to form a single entity"
+  }
+ ],
+ "tags": [
+  "file formats",
+  "xml",
+  "microsoft",
+  "document containers",
+  "openxps"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1119,
+  "output_tokens": 503
+ }
+}

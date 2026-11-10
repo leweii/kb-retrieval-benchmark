@@ -1,0 +1,92 @@
+{
+ "summary": "A VBForums thread in the C and C++ section titled \"Multithreading, Callbacks and Synchronization [RESOLVED]\" started by Phenix asks whether a hook callback that handles WM_PAINT will queue calls when image processing is slower than paint messages, and whether threads are needed to keep timestamps in order. CornedBee replies that the Windows message model prevents WM_PAINT from stacking, citing Jeffrey Richter's book, and azteched answers that callbacks are synchronous and suggests a worker thread fed by a timestamped shared queue with a condition variable. Phenix explains the actual goal is to log text from another app's MSHFlexGrid by capturing screen regions via BitBlt and extracting text with image processing.",
+ "one_line": "A VBForums thread debating whether Windows hook callbacks and WM_PAINT messages queue up, and how to thread image processing while keeping timestamps in order.",
+ "key_facts": [
+  "The thread is titled \"Multithreading, Callbacks and Synchronization [RESOLVED]\" in the C and C++ forum of VBForums and has 7 posts.",
+  "Thread starter Phenix asked whether a callback monitoring WM_PAINT that starts a slow image processing function would make calls queue up sequentially while retaining the real time of the WM_PAINT message.",
+  "Phenix's goal was for image processing results to keep the timestamps of WM_PAINT messages in sequence even if a later threaded call completes before an earlier one.",
+  "Phenix's application aims to get text from an external app's MSHFlexGrid whenever it updates so it can be logged, since GetWindowText does not work for that control.",
+  "Phenix noted from MSDN that PostMessage places a message in the thread's message queue and returns without waiting for the thread to process it.",
+  "CornedBee stated that the Windows message model should make it impossible for a WM_PAINT to be queued while another one is not yet processed.",
+  "CornedBee cited Jeffrey Richter's book \"Application Programming with Microsoft Windows\" saying the QS_PAINT flag stays set until ValidateRect, ValidateRgn or EndPaint validates the invalidated areas, so WM_PAINT messages cannot stack up.",
+  "azteched answered that callbacks have nothing inherently to do with multithreading and that the functions are called synchronously.",
+  "azteched suggested a worker thread that waits on a condition variable, fed by a shared queue of timestamped images pushed after each BitBlt.",
+  "Phenix noted that CallNextHookEx can be called before or after processing hook information, per MSDN, and considered placing image processing after it.",
+  "aewarnick said CornedBee was not bashing Windows but expressing certainty about the message model using the word \"should\".",
+  "CornedBee said Richter's book describes GetMessage handling: send queue first, then post queue, then QS_QUIT, input, QS_PAINT, and QS_TIMER messages in that order."
+ ],
+ "entities": [
+  {
+   "name": "VBForums",
+   "type": "organization",
+   "role": "online discussion forum hosting the thread, with its Visual Basic and VB .NET discussions"
+  },
+  {
+   "name": "Phenix",
+   "type": "person",
+   "role": "thread starter, an Addicted Member who asked about callbacks, WM_PAINT and image processing"
+  },
+  {
+   "name": "CornedBee",
+   "type": "person",
+   "role": "forum member, a Kitten, who explained the Windows message model and recommended Richter's book"
+  },
+  {
+   "name": "azteched",
+   "type": "person",
+   "role": "forum member, a Fanatic Member, who advised using a worker thread with a condition variable"
+  },
+  {
+   "name": "aewarnick",
+   "type": "person",
+   "role": "forum member, a Frenzied Member, who defended CornedBee's wording"
+  },
+  {
+   "name": "Jeffrey Richter",
+   "type": "person",
+   "role": "author of the book Application Programming with Microsoft Windows, cited on how GetMessage works"
+  },
+  {
+   "name": "Application Programming with Microsoft Windows",
+   "type": "product",
+   "role": "book by Jeffrey Richter recommended by CornedBee as an explanation of Windows internals"
+  },
+  {
+   "name": "WM_PAINT",
+   "type": "product",
+   "role": "Windows window message whose handling and queuing behaviour is the central topic"
+  },
+  {
+   "name": "MSHFlexGrid",
+   "type": "product",
+   "role": "grid control used by the external app from which Phenix wants to extract text"
+  },
+  {
+   "name": "MSDN",
+   "type": "organization",
+   "role": "Microsoft documentation cited for PostMessage and CallNextHookEx behaviour"
+  },
+  {
+   "name": "GetMessage",
+   "type": "product",
+   "role": "Windows function whose message retrieval order CornedBee described from Richter's book"
+  },
+  {
+   "name": "CallNextHookEx",
+   "type": "product",
+   "role": "Windows function that passes hook information to the next hook procedure, which Phenix considered calling after BitBlt"
+  }
+ ],
+ "tags": [
+  "windows-api",
+  "multithreading",
+  "message-queue",
+  "callbacks",
+  "synchronization"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6359,
+  "output_tokens": 1621
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "summary": "This Neuroelectric's Wiki page explains how Starstim supports sham stimulation and single- and double-blind experiments in tCS. Sham mode mimics real stimulation by ramping the current envelope up and down at the start and end of a session, so subjects feel sensations without significant current. The page also introduces ACTISHAM, an active sham method built with the Stimweaver optimization that keeps electrode montages identical across conditions and produces similar skin sensations while keeping cortical fields low.",
+ "one_line": "Explains sham stimulation, single and double blinding, and the ACTISHAM active-sham method for tCS experiments using Starstim.",
+ "key_facts": [
+  "Sham stimulation in tCS creates an experience akin to real stimulation without applying significant currents, so the subject believes they are being stimulated normally.",
+  "The goal of sham stimulation is to control for placebo effects in treatment.",
+  "With Starstim, sham mode is implemented by ramping the current envelope up and down at the beginning and end of stimulation.",
+  "The Sham ramp time depends on the protocol and the sensations of the patients, so it can be adjusted.",
+  "The sham ramp modulation applies to the tDCS, tACS and tRNS components of the stimulation.",
+  "In single-blind trials, the operator knows which stimulation type is applied but the subject does not.",
+  "In double-blind experiments, both operator and subject are blind to which type of stimulation is applied, such as active vs. sham or anodal vs. cathodal.",
+  "Traditional tDCS sham ramps currents up and down during a short period of time, e.g., 30 s, at the beginning and end of the protocol.",
+  "ACTISHAM uses the same electrode montages across conditions and changes only the individual currents at each electrode.",
+  "In the active sham condition, currents are configured to produce similar itching to the active condition but very low cortical electric fields.",
+  "ACTISHAM's active sham montages typically involve alternating anodes and cathodes, forming a criss-cross pattern for the motor strip.",
+  "Dagan et al (2018) used the Actisham method in freezing of gait tasks in Parkinson's disease patients.",
+  "In the Dagan et al work, no significant difference was found in the number of subjects who reported real or sham stimulation.",
+  "Induced skin redness under the electrode, not uncommon in the active condition, makes double-blinding more challenging with classical sham.",
+  "The page references the NIC2 manual (page 56) for configuring experiments and NIC for sham and double-blind trials."
+ ],
+ "entities": [
+  {
+   "name": "Starstim",
+   "type": "product",
+   "role": "Stimulation system with which sham and double-blind experiments can easily be implemented, per the page"
+  },
+  {
+   "name": "Neuroelectric's Wiki",
+   "type": "organization",
+   "role": "Wiki source hosting the page about sham and double-blind experiments"
+  },
+  {
+   "name": "ACTISHAM",
+   "type": "program",
+   "role": "Active sham method using the same electrode montages across conditions with low cortical electric fields"
+  },
+  {
+   "name": "Stimweaver",
+   "type": "program",
+   "role": "Optimization algorithm used to design ACTISHAM montages with a null electric field on the cortical target"
+  },
+  {
+   "name": "NIC2",
+   "type": "product",
+   "role": "Software whose manual (page 56) explains configuring experiments and NIC for sham and double-blind trials"
+  },
+  {
+   "name": "Dagan et al, 2018",
+   "type": "event",
+   "role": "Prior study that successfully used Actisham in freezing of gait tasks in Parkinson's disease patients"
+  },
+  {
+   "name": "Kessler et al 2012",
+   "type": "event",
+   "role": "Cited work on differences in the experience of active and sham tDCS"
+  },
+  {
+   "name": "Wallace et al 2016",
+   "type": "event",
+   "role": "Cited work on perceived comfort and blinding efficacy in sham-controlled tDCS trials at 2 mA"
+  }
+ ],
+ "tags": [
+  "tCS",
+  "sham stimulation",
+  "double-blind",
+  "neuromodulation",
+  "tDCS",
+  "Starstim"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6425,
+  "output_tokens": 1295
+ }
+}

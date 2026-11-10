@@ -1,0 +1,60 @@
+{
+ "summary": "This note is the Snowflake documentation page for the SHOW PROCEDURES command, which lists the stored procedures a user has privileges to access. It covers the optional LIKE pattern filter, the IN scope options (account, class, database, schema), default scope behavior, and usage limits such as the 10K record cap and the lack of a warehouse requirement. It also describes the output columns and gives an example using LIKE 'area_of_%' that returns the AREA_OF_CIRCLE procedure.",
+ "one_line": "Snowflake reference for the SHOW PROCEDURES command, covering its syntax, scope and filter options, usage limits, and output columns.",
+ "key_facts": [
+  "SHOW PROCEDURES lists the stored procedures that the user has privileges to access.",
+  "The LIKE parameter filters output by object name using case-insensitive pattern matching with SQL wildcards % and _.",
+  "The IN scope options are ACCOUNT, CLASS <class_name>, DATABASE, DATABASE <database_name>, SCHEMA, SCHEMA <schema_name>, and <schema_name>.",
+  "If no database is in use, the default scope is ACCOUNT; if a database is in use, the default scope is DATABASE.",
+  "If DATABASE is specified without db_name and no database is in use, the keyword has no effect on the output.",
+  "The command returns a maximum of 10K records for the specified object type, and records above the limit are not returned even with a filter applied.",
+  "The command does not require a running warehouse to execute.",
+  "Columns that start with the prefix is_ return either Y (yes) or N (no).",
+  "When CLASS is specified, the command returns only the columns name, min_num_arguments, max_num_arguments, arguments, descriptions, and language.",
+  "The created_on column gives the timestamp at which the stored procedure was created.",
+  "The is_builtin column returns Y if the stored procedure is built-in rather than user-defined.",
+  "The is_aggregate and valid_for_clustering columns are not applicable currently and are reserved for future use.",
+  "The is_secure column returns Y if the stored procedure is a secure stored procedure.",
+  "The example SHOW PROCEDURES LIKE 'area_of_%' returns the procedure AREA_OF_CIRCLE with arguments AREA_OF_CIRCLE(FLOAT) RETURN FLOAT in schema TEMPORARY_DOC_TEST."
+ ],
+ "entities": [
+  {
+   "name": "SHOW PROCEDURES",
+   "type": "program",
+   "role": "Snowflake command that lists the stored procedures the user has privileges to access"
+  },
+  {
+   "name": "AREA_OF_CIRCLE",
+   "type": "program",
+   "role": "example user-defined procedure returned by the LIKE 'area_of_%' filter, taking a FLOAT argument and returning a FLOAT"
+  },
+  {
+   "name": "TEMPORARY_DOC_TEST",
+   "type": "other",
+   "role": "schema in which the AREA_OF_CIRCLE example procedure exists"
+  },
+  {
+   "name": "TEMPORARY_DOC_TEST_DB",
+   "type": "other",
+   "role": "database (catalog) in which the AREA_OF_CIRCLE example procedure exists"
+  },
+  {
+   "name": "Working with Stored Procedures",
+   "type": "other",
+   "role": "related documentation referenced for more information about stored procedures"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "stored-procedures",
+  "show-command",
+  "metadata",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3452,
+  "output_tokens": 1116
+ }
+}

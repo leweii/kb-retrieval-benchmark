@@ -1,0 +1,51 @@
+{
+ "summary": "KNCH (90.1 FM) is the National Public Radio station serving the Concho Valley of west-central Texas. It is licensed to San Angelo and owned by Texas Tech University, though it is operated from Texas Tech's campus in Lubbock. Despite this arrangement, the station is branded as a separate station.",
+ "one_line": "KNCH is an NPR member station at 90.1 FM serving west-central Texas' Concho Valley, licensed to San Angelo and owned by Texas Tech University.",
+ "key_facts": [
+  "KNCH broadcasts at 90.1 FM.",
+  "KNCH is the National Public Radio station for the Concho Valley of west-central Texas.",
+  "KNCH is licensed to San Angelo, Texas.",
+  "KNCH is owned by Texas Tech University.",
+  "KNCH is operated out of Texas Tech University's campus in Lubbock.",
+  "KNCH is branded as a separate station despite being owned and operated by Texas Tech University."
+ ],
+ "entities": [
+  {
+   "name": "KNCH",
+   "type": "organization",
+   "role": "National Public Radio station (90.1 FM) for the Concho Valley of west-central Texas, licensed to San Angelo"
+  },
+  {
+   "name": "Texas Tech University",
+   "type": "organization",
+   "role": "owner of KNCH; the station is operated out of its campus in Lubbock"
+  },
+  {
+   "name": "San Angelo",
+   "type": "place",
+   "role": "city to which KNCH is licensed"
+  },
+  {
+   "name": "Lubbock",
+   "type": "place",
+   "role": "city where Texas Tech University's campus is located, from which KNCH is operated"
+  },
+  {
+   "name": "Concho Valley",
+   "type": "place",
+   "role": "region of west-central Texas that KNCH serves"
+  }
+ ],
+ "tags": [
+  "radio",
+  "npr",
+  "texas",
+  "public broadcasting",
+  "texas tech university"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1072,
+  "output_tokens": 590
+ }
+}

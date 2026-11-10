@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short encyclopedia-style entry about Agasarahalli, a village in the southern Indian state of Karnataka. It states that the village lies in the Hosakote taluk of Bangalore Rural district. The note gives no further details such as population or history.",
+ "one_line": "Agasarahalli is a village in Hosakote taluk, Bangalore Rural district, Karnataka, India.",
+ "key_facts": [
+  "Agasarahalli is a village in the southern state of Karnataka, India.",
+  "Agasarahalli is located in the Hosakote taluk of Bangalore Rural district in Karnataka.",
+  "Karnataka is a state in southern India.",
+  "Hosakote is a taluk in Bangalore Rural district, Karnataka."
+ ],
+ "entities": [
+  {
+   "name": "Agasarahalli",
+   "type": "place",
+   "role": "village in the southern state of Karnataka, India, located in Hosakote taluk"
+  },
+  {
+   "name": "Hosakote taluk",
+   "type": "place",
+   "role": "taluk in which Agasarahalli is located"
+  },
+  {
+   "name": "Bangalore Rural district",
+   "type": "place",
+   "role": "district containing the Hosakote taluk"
+  },
+  {
+   "name": "Karnataka",
+   "type": "place",
+   "role": "southern Indian state where Agasarahalli is a village"
+  }
+ ],
+ "tags": [
+  "karnataka",
+  "india",
+  "village",
+  "hosakote",
+  "bangalore-rural"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1053,
+  "output_tokens": 450
+ }
+}

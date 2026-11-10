@@ -1,0 +1,47 @@
+{
+ "summary": "The note describes the Kentish Town rail accident of 2 September 1861 near Kentish Town station in London. An excursion train run by the North London Railway collided with a freight train run by the London and North Western Railway, killing 16 people and injuring 317.",
+ "one_line": "A 1861 collision near Kentish Town station in London between a North London Railway excursion train and a London and North Western Railway freight train.",
+ "key_facts": [
+  "The Kentish Town rail accident occurred on 2 September 1861.",
+  "The accident happened near Kentish Town station in London.",
+  "16 people were killed in the Kentish Town rail accident.",
+  "317 people were injured in the Kentish Town rail accident.",
+  "The accident involved an excursion train operated by the North London Railway.",
+  "The excursion train collided with a freight train operated by the London and North Western Railway.",
+  "The collision was between a passenger excursion train and a freight train."
+ ],
+ "entities": [
+  {
+   "name": "Kentish Town station",
+   "type": "place",
+   "role": "station near which the accident occurred in London"
+  },
+  {
+   "name": "North London Railway",
+   "type": "organization",
+   "role": "operator of the excursion train involved in the collision"
+  },
+  {
+   "name": "London and North Western Railway",
+   "type": "organization",
+   "role": "operator of the freight train involved in the collision"
+  },
+  {
+   "name": "Kentish Town rail accident",
+   "type": "event",
+   "role": "collision of 2 September 1861 that killed 16 people and injured 317"
+  }
+ ],
+ "tags": [
+  "rail accident",
+  "railway history",
+  "london",
+  "victorian railways",
+  "1861"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1060,
+  "output_tokens": 490
+ }
+}

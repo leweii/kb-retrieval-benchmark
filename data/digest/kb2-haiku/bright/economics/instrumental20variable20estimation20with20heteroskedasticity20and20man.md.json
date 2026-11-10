@@ -1,0 +1,115 @@
+{
+ "summary": "This paper proposes heteroskedasticity-robust versions of the LIML and Fuller (FULL) instrumental variable estimators for models with many instruments, called HLIM and HFUL, along with heteroskedasticity-consistent standard errors. The estimators work by deleting own-observation (i=j) terms from the numerator of the LIML variance ratio, a jackknife approach that also yields a robust continuous updating estimator. The authors show that LIML and FULL are inconsistent under many instruments with heteroskedasticity, derive asymptotic theory under many-instrument and many-weak-instrument sequences, and report Monte Carlo results where HLIM and HFUL match LIML/FULL under homoskedasticity and have lower bias and dispersion under heteroskedasticity.",
+ "one_line": "Proposes jackknifed, heteroskedasticity-robust LIML (HLIM) and Fuller (HFUL) IV estimators with robust standard errors for models with many instruments.",
+ "key_facts": [
+  "LIML and FULL are inconsistent with many instruments and heteroskedasticity, while HLIM and HFUL are heteroskedasticity-robust versions.",
+  "HLIM is obtained by dropping the i = j terms from the numerator of the LIML objective function.",
+  "HLIM is invariant to normalization and can be interpreted as a linear combination of forward and reverse jackknife IV estimators.",
+  "HLIM and HFUL are as efficient as FULL and LIML under homoskedasticity and the many weak instruments sequence of Chao and Swanson (2005).",
+  "Under the many instruments sequence of Kunitomo (1980) and Bekker (1994), HLIM may be more or less efficient than LIML.",
+  "2SLS is not consistent with many instruments even under homoskedasticity, because P_ii does not go to zero, as pointed out by Bekker (1994).",
+  "LIML is consistent under heteroskedasticity when P_ii is constant, as in dummy instruments with equal group sizes (Bekker and van der Ploeg, 2005).",
+  "LIML inconsistency under heteroskedasticity arises from nonzero covariance between P_ii and gamma_i, the projection coefficients of X_i on epsilon_i.",
+  "The paper proposes a robust continuous updating estimator (RCUE) obtained by jackknifing the CUE quadratic form, with HLIM providing starting values.",
+  "Monte Carlo results: the proposed estimators perform as well as LIML or FULL under homoskedasticity and have much lower bias and dispersion under heteroskedasticity in nearly all cases considered.",
+  "HFUL has less bias and dispersion than FULL in most cases considered under heteroskedasticity.",
+  "Assumption 1 requires P_ii <= C < 1 and K tending to infinity, which implies K/n <= C.",
+  "The JIV estimator is inefficient relative to LIML and HLIM under many weak instruments, with asymptotic variance larger than HLIM's.",
+  "The research was supported by NSF Grant No. 0136869."
+ ],
+ "entities": [
+  {
+   "name": "Jerry A. Hausman",
+   "type": "person",
+   "role": "author, Department of Economics at M.I.T."
+  },
+  {
+   "name": "Whitney K. Newey",
+   "type": "person",
+   "role": "author, Department of Economics at M.I.T."
+  },
+  {
+   "name": "Tiemen Woutersen",
+   "type": "person",
+   "role": "author, Department of Economics at John Hopkins University"
+  },
+  {
+   "name": "John Chao",
+   "type": "person",
+   "role": "author, Department of Economics at University of Maryland"
+  },
+  {
+   "name": "Norman Swanson",
+   "type": "person",
+   "role": "author, Department of Economics at Rutgers University"
+  },
+  {
+   "name": "limited information maximum likelihood (LIML)",
+   "type": "program",
+   "role": "IV estimator whose heteroskedasticity-robust jackknife version HLIM is proposed"
+  },
+  {
+   "name": "Fuller (1977) estimator (FULL)",
+   "type": "program",
+   "role": "IV estimator whose robust version HFUL is proposed"
+  },
+  {
+   "name": "HLIM",
+   "type": "program",
+   "role": "proposed heteroskedasticity-robust jackknife version of LIML"
+  },
+  {
+   "name": "HFUL",
+   "type": "program",
+   "role": "proposed heteroskedasticity-robust version of FULL"
+  },
+  {
+   "name": "continuous updating estimator (CUE)",
+   "type": "program",
+   "role": "GMM estimator; a linearized jackknife version is proposed as a robust CUE"
+  },
+  {
+   "name": "jackknife IV (JIV) estimator",
+   "type": "program",
+   "role": "IV estimator family compared against HLIM and LIML"
+  },
+  {
+   "name": "Hahn and Hausman (2002)",
+   "type": "event",
+   "role": "prior work combining forward and reverse IV estimators"
+  },
+  {
+   "name": "Chao and Swanson (2004)",
+   "type": "event",
+   "role": "prior work on heteroskedasticity-consistent JIV standard errors and inconsistency of LIML under many instruments"
+  },
+  {
+   "name": "Newey and Windmeijer (2007)",
+   "type": "event",
+   "role": "prior work suggesting CUE and generalized empirical likelihood estimators are efficient under heteroskedasticity"
+  },
+  {
+   "name": "Bekker and van der Ploeg (2005)",
+   "type": "event",
+   "role": "prior work showing LIML inconsistency with dummy instruments and heteroskedasticity"
+  },
+  {
+   "name": "Davidson and MacKinnon (2006)",
+   "type": "event",
+   "role": "prior work showing JIV performs poorly relative to LIML"
+  }
+ ],
+ "tags": [
+  "instrumental variables",
+  "heteroskedasticity",
+  "many instruments",
+  "liml",
+  "jackknife estimation",
+  "econometrics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16153,
+  "output_tokens": 1846
+ }
+}

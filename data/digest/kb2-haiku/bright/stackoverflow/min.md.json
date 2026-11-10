@@ -1,0 +1,48 @@
+{
+ "summary": "This is a reference page for the MIN aggregation function, which returns the minimum value among the records of an expression while ignoring NULLs unless all records are NULL. It covers aggregate and window function syntax, the return type (same as input), usage notes on DISTINCT having no effect and the default cumulative window frame, and collation behavior. Examples create a sample table and show MIN with no grouping, GROUP BY, PARTITION BY, and a two-row sliding window ordered by k and d.",
+ "one_line": "Reference for the MIN aggregate and window function, which returns the minimum non-NULL value of an expression, with syntax, notes and examples.",
+ "key_facts": [
+  "MIN returns the minimum value for the records within the given expression, and NULL values are ignored unless all the records are NULL.",
+  "When all records are NULL, MIN returns a NULL value.",
+  "Aggregate function syntax is MIN( <expr> ).",
+  "Window function syntax is MIN( <expr> ) [ OVER ( [ PARTITION BY <expr1> ] [ ORDER BY <expr2> [ <window_frame> ] ] ) ].",
+  "The data type of the value returned by MIN is the same as the data type of the input values.",
+  "For compatibility with other systems, the DISTINCT keyword can be specified as an argument to MIN, but it does not have any effect.",
+  "When MIN is called as a window function without a window frame, the default is RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW, in accordance with the ANSI standard.",
+  "The comparisons in MIN follow the collation based on the input arguments' collations and precedences.",
+  "The collation of the result of MIN is the same as the collation of the input.",
+  "In the first example, SELECT MIN(d) FROM sample_table returns 1 for the sample table column d.",
+  "Using GROUP BY k with MIN(d) returns 1 for k=1, 2 for k=2, NULL for k=3, and 1 for k=NULL.",
+  "GROUP BY produces one output row per group, while PARTITION BY produces one output row per input row.",
+  "A sliding window with ROWS BETWEEN 1 PRECEDING AND CURRENT ROW, ordered by k and d, outputs the lowest value within two rows of the window."
+ ],
+ "entities": [
+  {
+   "name": "MIN",
+   "type": "other",
+   "role": "aggregate and window function that returns the minimum value of an expression, the subject of this page"
+  },
+  {
+   "name": "sample_table",
+   "type": "other",
+   "role": "example table with columns k and d used to demonstrate MIN in the examples"
+  },
+  {
+   "name": "ANSI standard",
+   "type": "organization",
+   "role": "standard that the default cumulative window frame follows for window functions"
+  }
+ ],
+ "tags": [
+  "sql",
+  "aggregate-functions",
+  "window-functions",
+  "null-handling",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3477,
+  "output_tokens": 917
+ }
+}

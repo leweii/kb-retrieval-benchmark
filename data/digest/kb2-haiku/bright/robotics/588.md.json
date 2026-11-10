@@ -1,0 +1,89 @@
+{
+ "summary": "This is GitHub issue #588 in the ros2/launch repository, opened by mjeronimo on Jan 24, 2022, reporting that changing the 'output' substitution type breaks dictionary usage for Node outputs. The reporter's launch file set output to a dict with stdout and stderr set to 'screen', which raised an error that 'stdoutstderr' is not a valid standard output config. The issue was fixed by pull request #640 (merged Aug 2022, cherry-picked to Humble as #647), and downstream projects referenced it for workarounds, though a later commenter reported it was still unfixed in the Humble release.",
+ "one_line": "GitHub issue in ros2/launch where the 'output' option rejected dictionary values for ROS 2 nodes, fixed by PR #640 in 2022.",
+ "key_facts": [
+  "GitHub issue #588 in the ros2/launch repository was titled \"Changing 'output' substitution type breaks dictionary usage\".",
+  "The issue was opened by mjeronimo on Jan 24, 2022 and was closed as completed on Aug 20, 2022.",
+  "The reporter used Ubuntu 20.04 with installation type source and version commit hash 8006dfa.",
+  "The reproduction launch file set output to a dictionary with 'stdout': 'screen' and 'stderr': 'screen' for a demo_nodes_cpp talker node.",
+  "The reported error was: stdoutstderr is not a valid standard output config i.e. \"screen\", \"log\" or \"both\".",
+  "The issue was labeled bug and help wanted.",
+  "hidmic stated on Jan 26, 2022 that a follow-up PR to support both substitutions and dictionaries would be best and most welcome, and that a regression test was also needed.",
+  "m-elwin opened pull request #640 on Aug 9, 2022 to allow a dict for 'output'.",
+  "Pull request #640 was merged and commit edf6891 said it addressed issue #588, allowing dict for 'output'.",
+  "The commit message stated that issue #577 had caused the 'output' option not to participate in $(var) expansion, and that the fix for it broke the dictionary use-case.",
+  "The fix checks whether the output value is a dict and only performs command expansion when it is not.",
+  "On Sep 27, 2022, FranekStark reported the issue was still not fixed in the current Humble release.",
+  "Several Universal Robots ROS2 driver and cartesian_controllers commits referenced this issue as a workaround for dictionary output."
+ ],
+ "entities": [
+  {
+   "name": "ros2/launch",
+   "type": "program",
+   "role": "ROS 2 launch repository where issue #588 was filed"
+  },
+  {
+   "name": "mjeronimo",
+   "type": "person",
+   "role": "reporter and opener of issue #588, Michael Jeronimo"
+  },
+  {
+   "name": "hidmic",
+   "type": "person",
+   "role": "maintainer who labeled the issue as a bug and requested a follow-up PR and regression test"
+  },
+  {
+   "name": "m-elwin",
+   "type": "person",
+   "role": "contributor (Matthew Elwin) who created pull request #640 fixing the issue"
+  },
+  {
+   "name": "FranekStark",
+   "type": "person",
+   "role": "commenter who reported the issue was still unfixed in the Humble release"
+  },
+  {
+   "name": "Pull request #640",
+   "type": "event",
+   "role": "merged fix addressing issue #588, allowing dict for 'output'"
+  },
+  {
+   "name": "Pull request #647",
+   "type": "event",
+   "role": "backport of PR #640 to Humble"
+  },
+  {
+   "name": "Issue #577",
+   "type": "event",
+   "role": "earlier issue where the 'output' option did not participate in $(var) expansion"
+  },
+  {
+   "name": "demo_nodes_cpp",
+   "type": "program",
+   "role": "package used in the reproduction launch file with talker and listener executables"
+  },
+  {
+   "name": "Ubuntu 20.04",
+   "type": "product",
+   "role": "operating system used by the reporter"
+  },
+  {
+   "name": "Universal Robots ROS2 Driver",
+   "type": "program",
+   "role": "downstream project that added a workaround referencing issue #588"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "launch",
+  "bug",
+  "python-launch",
+  "logging",
+  "github-issue"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15622,
+  "output_tokens": 1336
+ }
+}

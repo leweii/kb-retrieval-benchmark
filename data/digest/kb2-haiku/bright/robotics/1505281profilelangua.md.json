@@ -1,0 +1,85 @@
+{
+ "summary": "This is an Intel Community forum thread in the Intel Edge Software Hub board where user aa53 reports an error at step 6 of the Intel Edge Insights for Autonomous Mobile Robots 2022.3.1 get-started guide, which runs a ROS 2 sample application via docker compose. The build fails during the nav2-pre stage when rosdep cannot resolve system dependencies for many navigation2 packages on the foxy distro. Moderators asked for log files and why the package was rebuilt from source, since the prebuilt image from ./edgesoftware install worked; the user later confirmed the error persists only when building from source, and the thread was closed for further monitoring.",
+ "one_line": "Forum thread on a failed docker compose build of Intel's Edge Insights for Autonomous Mobile Robots 2022.3.1, caused by unresolved ROS 2 foxy rosdep dependencies.",
+ "key_facts": [
+  "The forum thread is titled 'Error running docker compose tutorial for Edge_Insights_for_Autonomous_Mobile_Robots_2022.3.1' in the Intel® Edge Software Hub board of the Intel Community.",
+  "The original post by user aa53 was dated 07-15-2023 and the thread had 1 579 views at that time.",
+  "The error occurs at step 6 of the tutorial 'Step 6: Run a ROS 2 sample application in the...' in the Intel Get Started Guide for the Edge Insights for AMR robot kit, version 2022-3.",
+  "The failing Docker build stage is [nav2-pre 5/9], which runs chmod, checks out navigation2 commit 60043d4067b9dbff73be65291f5df6aaa286cc61 and applies several patch files.",
+  "The rosdep install command was run with --rosdistro foxy and reported 'ERROR: the following packages/stacks could not have their rosdep keys resolved to system dependencies'.",
+  "Many navigation2 packages failed rosdep resolution, for example nav2_map_server with 'Cannot locate rosdep definition for [launch_testing]'.",
+  "The build log shows the base image was ros:foxy and the oneapi base image was intel/oneapi-basekit:2022.2-devel-ubuntu20.04.",
+  "The user stated they had not modified the docker-compose .yml file or the .env file.",
+  "The user's log shows the rosdep update step reported that the distros humble, iron, noetic and rolling were added while foxy was skipped as end-of-life.",
+  "Moderator Sahira_Intel replied on 07-18-2023 that she was looking into the issue.",
+  "Moderator JesusE_Intel asked on 07-20-2023 for all log files under /var/log/esb-cli/Edge_Insights_for_Autonomous_Mobile_Robots_<version>.",
+  "JesusE_Intel also asked why the package needed to be rebuilt from source, since the user said it had been installed successfully using ./edgesoftware install.",
+  "In an update, aa53 stated that getting the pre-built image from ./edgesoftware install works fine but the error persists when building it.",
+  "On 08-08-2023 JesusE_Intel said the thread would no longer be monitored and asked the user to submit a new question for further information."
+ ],
+ "entities": [
+  {
+   "name": "Intel Community",
+   "type": "organization",
+   "role": "online community forum hosting the thread"
+  },
+  {
+   "name": "Intel® Edge Software Hub",
+   "type": "program",
+   "role": "forum board where the question was posted"
+  },
+  {
+   "name": "Edge Insights for Autonomous Mobile Robots 2022.3.1",
+   "type": "product",
+   "role": "software package whose docker compose tutorial fails to build"
+  },
+  {
+   "name": "ROS 2 foxy",
+   "type": "product",
+   "role": "ROS distribution specified in rosdep install command"
+  },
+  {
+   "name": "rosdep",
+   "type": "product",
+   "role": "dependency resolution tool that failed to resolve navigation2 keys"
+  },
+  {
+   "name": "navigation2",
+   "type": "product",
+   "role": "ROS 2 navigation stack cloned and checked out at a specific commit in the build"
+  },
+  {
+   "name": "intel/oneapi-basekit:2022.2-devel-ubuntu20.04",
+   "type": "product",
+   "role": "base Docker image referenced in the build log"
+  },
+  {
+   "name": "aa53",
+   "type": "person",
+   "role": "forum user who posted the error and asked how to resolve it"
+  },
+  {
+   "name": "JesusE_Intel",
+   "type": "person",
+   "role": "Intel moderator who requested log files and asked about rebuilding from source"
+  },
+  {
+   "name": "Sahira_Intel",
+   "type": "person",
+   "role": "Intel moderator who said she was looking into the issue"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "docker",
+  "rosdep",
+  "navigation2",
+  "intel edge insights",
+  "autonomous mobile robots"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17759,
+  "output_tokens": 1549
+ }
+}

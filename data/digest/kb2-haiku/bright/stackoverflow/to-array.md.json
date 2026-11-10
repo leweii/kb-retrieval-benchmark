@@ -1,0 +1,46 @@
+{
+ "summary": "This is a reference page for the TO_ARRAY function, a Snowflake-style SQL function that converts an expression into an array. An ARRAY or VARIANT array input is returned unchanged, NULL or JSON null input returns NULL, and any other value becomes a single-element array. The page gives the syntax TO_ARRAY(<expr>) and a worked example that inserts TO_ARRAY(1) and TO_ARRAY(3) into a table and concatenates them with ARRAY_CAT.",
+ "one_line": "Reference page for the TO_ARRAY SQL function, which wraps a non-array value in a single-element array and passes arrays through unchanged.",
+ "key_facts": [
+  "TO_ARRAY returns the input unchanged if it is an ARRAY, or a VARIANT containing an array value.",
+  "For NULL or a JSON null input, TO_ARRAY returns NULL.",
+  "For any other value, TO_ARRAY returns a single-element array containing that value.",
+  "The syntax is TO_ARRAY( <expr> ).",
+  "The argument <expr> is an expression of any data type.",
+  "The example creates a table named array_demo_2 with columns ID INTEGER, array1 ARRAY and array2 ARRAY.",
+  "The example inserts the row ID 1, with array1 set to TO_ARRAY(1) and array2 set to TO_ARRAY(3).",
+  "The example query selects array1, array2 and ARRAY_CAT(array1, array2) from array_demo_2.",
+  "The concatenated result of ARRAY_CAT(array1, array2) in the example is the array [1, 3].",
+  "The page is listed under the categories JSON and XML Parsing, Array/Object Creation and Manipulation, Map Creation and Manipulation, Extraction, Conversion/Casting, and Type Predicates.",
+  "The page refers to the semi-structured data type array, linked from the semistructured documentation."
+ ],
+ "entities": [
+  {
+   "name": "TO_ARRAY",
+   "type": "program",
+   "role": "SQL function described on the page that converts an expression into an array"
+  },
+  {
+   "name": "ARRAY_CAT",
+   "type": "program",
+   "role": "function used in the example to concatenate array1 and array2"
+  },
+  {
+   "name": "array_demo_2",
+   "type": "other",
+   "role": "table created in the example to demonstrate TO_ARRAY inserts"
+  }
+ ],
+ "tags": [
+  "sql",
+  "array functions",
+  "type conversion",
+  "snowflake",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1831,
+  "output_tokens": 792
+ }
+}

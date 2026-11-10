@@ -1,0 +1,102 @@
+{
+ "summary": "This is the Python 3.12 standard library documentation page for the typing module, which provides runtime support for type hints. It explains that the runtime does not enforce annotations, which are instead used by external tools such as type checkers. The page covers type aliases, NewType, callable annotations, generics, tuple annotations, type[C], user-defined generic types, Any versus object, nominal versus structural subtyping, and special types like AnyStr, LiteralString and Never.",
+ "one_line": "Python 3.12 documentation for the typing module, covering type hints, generics, aliases, NewType, Any and structural subtyping.",
+ "key_facts": [
+  "The typing module was new in Python 3.5 and provides runtime support for type hints.",
+  "The Python runtime does not enforce function and variable type annotations; they are used by third-party tools such as type checkers, IDEs and linters.",
+  "A type alias defined with the type statement creates an instance of TypeAliasType, a feature new in Python 3.12.",
+  "NewType was added in version 3.5.2, became a class rather than a function in Python 3.10, and had its call performance restored to Python 3.9 levels in Python 3.11.",
+  "At runtime, the expression some_value is Derived(some_value) is always true for a NewType Derived.",
+  "Subclassing a NewType such as AdminUserId(UserId) fails at runtime and does not pass type checking.",
+  "Callable[[int], str] signifies a function that takes a single int parameter and returns a str.",
+  "Changed in version 3.10: Callable now supports ParamSpec and Concatenate, described in PEP 612.",
+  "Syntactic support for generics was added in Python 3.12, and the type parameter syntax is used as in def first[T](l: Sequence[T]) -> T.",
+  "tuple[T, ...] denotes a tuple of any length whose elements are all of type T, and tuple[()] denotes an empty tuple.",
+  "type[Any] is equivalent to type, which is the root of Python's metaclass hierarchy.",
+  "A static type checker treats every type as compatible with Any, and Any as compatible with every type.",
+  "Python's typing system treats a function without parameter or return type annotations as implicitly using Any.",
+  "The typing module's AnyStr is a constrained type variable defined as TypeVar('AnyStr', str, bytes), and it cannot mix str and bytes arguments.",
+  "LiteralString is a special type added in Python 3.11 that includes only literal strings and is defined in PEP 675.",
+  "Never is the bottom type, a type that has no members, and can be used for a function that should never be called or never returns."
+ ],
+ "entities": [
+  {
+   "name": "typing",
+   "type": "program",
+   "role": "Python standard library module providing runtime support for type hints, the subject of this documentation page"
+  },
+  {
+   "name": "Python 3.12.3 Documentation",
+   "type": "program",
+   "role": "documentation set in which this typing page appears"
+  },
+  {
+   "name": "typing_extensions",
+   "type": "program",
+   "role": "PyPI package providing backports of new typing features to older Python versions"
+  },
+  {
+   "name": "mypy",
+   "type": "program",
+   "role": "static type checker whose documentation is cited for the cheat sheet and type system reference"
+  },
+  {
+   "name": "PEP 484",
+   "type": "event",
+   "role": "Python Enhancement Proposal that initially defined the static type system using nominal subtyping and NewType details"
+  },
+  {
+   "name": "PEP 544",
+   "type": "event",
+   "role": "Python Enhancement Proposal that introduced structural subtyping via Protocol"
+  },
+  {
+   "name": "PEP 612",
+   "type": "event",
+   "role": "Python Enhancement Proposal covering ParamSpec and Concatenate, supported in Callable since Python 3.10"
+  },
+  {
+   "name": "PEP 675",
+   "type": "event",
+   "role": "Python Enhancement Proposal defining LiteralString"
+  },
+  {
+   "name": "NewType",
+   "type": "program",
+   "role": "typing helper for creating distinct types that the static type checker treats as subclasses of the original type"
+  },
+  {
+   "name": "Any",
+   "type": "program",
+   "role": "special typing type indicating an unconstrained type compatible with every type"
+  },
+  {
+   "name": "AnyStr",
+   "type": "program",
+   "role": "constrained type variable defined as TypeVar('AnyStr', str, bytes) for functions accepting str or bytes but not a mix"
+  },
+  {
+   "name": "LiteralString",
+   "type": "program",
+   "role": "special type that includes only literal strings, added in Python 3.11"
+  },
+  {
+   "name": "Never",
+   "type": "program",
+   "role": "bottom type with no members, used for functions that should never be called or never return"
+  }
+ ],
+ "tags": [
+  "python",
+  "type hints",
+  "typing",
+  "static typing",
+  "generics",
+  "python-docs"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13342,
+  "output_tokens": 1475
+ }
+}

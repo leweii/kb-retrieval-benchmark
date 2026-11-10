@@ -1,0 +1,78 @@
+{
+ "summary": "This is a Snowflake reference page for the SOUNDEX string function, which returns a phonetic code for an input string so that words with similar English pronunciations can be compared. The page explains the syntax, arguments and return format (a letter followed by three digits), and notes that Snowflake does not special-case surname prefixes and that some systems such as Teradata use a variant that keeps the second letter's code. Usage notes warn that only four characters are returned, so unrelated long phrases can share a code, and two examples show matching names and related rows across tables.",
+ "one_line": "Snowflake reference for the SOUNDEX function, which returns a four-character phonetic code to compare English pronunciations of strings.",
+ "key_facts": [
+  "SOUNDEX returns a string containing a phonetic representation of the input string, used to test whether strings such as 'Levine' and 'Lavine' have similar pronunciations in English.",
+  "SOUNDEX('Pfister') returns P236 in Snowflake.",
+  "In Snowflake, the first two letters of 'Pfister' (P and f) are adjacent and share Soundex code number 1, so the function ignores the code number for the second letter.",
+  "Teradata uses a variant that retains the Soundex code number for the second letter when the first and second letters share the same number, so 'Pfister' is P123 in that variant.",
+  "Snowflake provides no special handling for surname prefixes such as 'Van', 'De', or 'La'.",
+  "The SOUNDEX syntax is SOUNDEX( <varchar_expr> ), and the argument should use the Latin or Unicode character set.",
+  "The returned value is a VARCHAR that starts with a letter representing the first letter of the string, followed by 3 digits, such as s400 or c130.",
+  "Because SOUNDEX returns only four characters, its output is primarily determined by the first few syllables of the input.",
+  "The usage note example shows 'I love rock and roll music.', 'I love rocks and gemstones.', and 'I leave a rock wherever I go.' all return I416.",
+  "SOUNDEX('Marks') and SOUNDEX('Marx') both return M620.",
+  "In the sounding_board and sounding_bored example, 'Marsha' and 'Marcia' do not match with a direct equality comparison but match when compared using SOUNDEX.",
+  "The page lists sections for Syntax, Arguments, Returns, Usage Notes, and Examples, and is in English."
+ ],
+ "entities": [
+  {
+   "name": "SOUNDEX",
+   "type": "program",
+   "role": "Snowflake string function that returns a phonetic representation of an input string"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "database platform whose SOUNDEX function is documented on the page and which provides no special handling for surname prefixes"
+  },
+  {
+   "name": "Teradata",
+   "type": "product",
+   "role": "database system that uses a SOUNDEX variant retaining the code number for the second letter when first and second letters share a number"
+  },
+  {
+   "name": "Soundex phonetic algorithm",
+   "type": "program",
+   "role": "phonetic algorithm on which the function is based, described on Wikipedia"
+  },
+  {
+   "name": "Pfister",
+   "type": "other",
+   "role": "example surname returning P236 in Snowflake and P123 in the Teradata variant"
+  },
+  {
+   "name": "Marks",
+   "type": "other",
+   "role": "example name whose SOUNDEX value is M620, same as Marx"
+  },
+  {
+   "name": "Marx",
+   "type": "other",
+   "role": "example name whose SOUNDEX value is M620, same as Marks"
+  },
+  {
+   "name": "Marsha",
+   "type": "other",
+   "role": "example name in the sounding_board table that matches Marcia using SOUNDEX"
+  },
+  {
+   "name": "Marcia",
+   "type": "other",
+   "role": "example name in the sounding_bored table that matches Marsha using SOUNDEX"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "string-functions",
+  "phonetic-matching",
+  "soundex",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2851,
+  "output_tokens": 1256
+ }
+}

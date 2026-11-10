@@ -1,0 +1,32 @@
+{
+ "summary": "A short biographical note on Robert Wayman, stating his education: he attended Northwestern University, graduating with a bachelor's degree in science engineering and a Master of Business Administration degree. The note is brief and gives no career, dates, or other biographical detail.",
+ "one_line": "Robert Wayman's education: a science engineering bachelor's degree and an MBA from Northwestern University.",
+ "key_facts": [
+  "Robert Wayman attended Northwestern University.",
+  "Robert Wayman graduated from Northwestern University with a bachelor's degree in science engineering.",
+  "Robert Wayman graduated from Northwestern University with a Master of Business Administration degree."
+ ],
+ "entities": [
+  {
+   "name": "Robert Wayman",
+   "type": "person",
+   "role": "subject of the note; attended Northwestern University and earned a bachelor's degree in science engineering and an MBA"
+  },
+  {
+   "name": "Northwestern University",
+   "type": "organization",
+   "role": "university Robert Wayman attended, where he graduated with a bachelor's degree and an MBA"
+  }
+ ],
+ "tags": [
+  "biography",
+  "education",
+  "northwestern university",
+  "mba"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1032,
+  "output_tokens": 363
+ }
+}

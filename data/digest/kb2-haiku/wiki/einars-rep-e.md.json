@@ -1,0 +1,40 @@
+{
+ "summary": "A short biographical note on Einars Repše, stating that he graduated from Latvia State University (now the University of Latvia) in 1986 with a degree in physics, specialising in radio electronics. The note is brief and gives no further biographical details.",
+ "one_line": "Einars Repše's 1986 physics degree in radio electronics from Latvia State University, now the University of Latvia.",
+ "key_facts": [
+  "Einars Repše graduated from Latvia State University in 1986.",
+  "Latvia State University is now known as the University of Latvia.",
+  "Einars Repše earned a degree in physics.",
+  "Einars Repše's physics degree specialisation was radio electronics.",
+  "The graduation year of Einars Repše from Latvia State University was 1986."
+ ],
+ "entities": [
+  {
+   "name": "Einars Repše",
+   "type": "person",
+   "role": "subject of the note; graduated in 1986 with a physics degree (specialisation in radio electronics)"
+  },
+  {
+   "name": "Latvia State University",
+   "type": "organization",
+   "role": "university from which Einars Repše graduated in 1986, now known as the University of Latvia"
+  },
+  {
+   "name": "University of Latvia",
+   "type": "organization",
+   "role": "current name of Latvia State University"
+  }
+ ],
+ "tags": [
+  "latvia",
+  "education",
+  "physics",
+  "radio electronics",
+  "biography"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1034,
+  "output_tokens": 433
+ }
+}

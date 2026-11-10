@@ -1,0 +1,106 @@
+{
+ "summary": "This is the Usage page of the Crazyswarm2 ROS 2 documentation for controlling Crazyflie drones. It explains sourcing the ROS 2 workspace, restricting ROS to the local machine on shared networks, and the layout of configuration files, especially crazyflies.yaml with robot entries, robot_types and an 'all' section. It also covers running simulation, teleoperation with an XBox controller, Python scripts, and the swarm management GUI.",
+ "one_line": "Usage guide for Crazyswarm2 covering ROS 2 configuration files, simulation, teleoperation, Python scripts and swarm management for Crazyflie drones.",
+ "key_facts": [
+  "Users must source their ROS 2 workspace in each terminal with '. install/local_setup.bash' before using it.",
+  "On a shared network, users can set ROS_LOCALHOST_ONLY=1 and a unique ROS_DOMAIN_ID between 0 and 101 to avoid controlling other robots.",
+  "All configuration files are located in crazyflie/config.",
+  "The crazyflies.yaml file sets up everything related to the robots, while server.yaml covers the server, motion_capture.yaml covers the motion capture package, and teleop.yaml covers remote controls.",
+  "Each crazyflie should have a unique URI, which can be changed in Bitcraze's CFclient.",
+  "In the example configuration, the robot cf231 uses URI radio://0/80/2M/E7E7E7E7E7 with type cf21 and is enabled.",
+  "The cf21 robot type sets battery voltage_warning to 3.8 V and voltage_critical to 3.7 V.",
+  "The 'all' field in crazyflies.yaml applies parameters or logging to all connected crazyflies, and the server gives it the lowest priority.",
+  "The firmware_params example sets stabilizer estimator to 2 (kalman) and controller to 2 (mellinger).",
+  "Simulation uses the firmware code as software-in-the-loop and can optionally include robot dynamics; its configuration can be changed in server.yaml.",
+  "The command 'ros2 launch crazyflie_examples launch.py script:=hello_world backend:=sim' runs the simulation shorthand for hello_world.",
+  "The teleoperation controller assumes an XBox controller, whose button mapping can be changed in teleop.yaml.",
+  "Teleoperation supports attitude-control and position-control modes, where position control can be assisted by any localization system.",
+  "The swarm management tool is a ROS node and web-based GUI that shows drone location in a 3D window and status and log messages in a lower pane.",
+  "The page is copyrighted 2021-2024 by Wolfgang Hönig (TU Berlin), Kimberly McGuire (Bitcraze AB), and contributors."
+ ],
+ "entities": [
+  {
+   "name": "Crazyswarm2",
+   "type": "program",
+   "role": "ROS 2 documentation project whose Usage page is described"
+  },
+  {
+   "name": "Bitcraze CFclient",
+   "type": "program",
+   "role": "tool used to change a Crazyflie's unique URI"
+  },
+  {
+   "name": "Crazyflie",
+   "type": "product",
+   "role": "drone platform controlled through the ROS 2 configuration"
+  },
+  {
+   "name": "crazyflies.yaml",
+   "type": "program",
+   "role": "configuration file setting up everything related to the robots"
+  },
+  {
+   "name": "server.yaml",
+   "type": "program",
+   "role": "configuration file for the server and simulation settings"
+  },
+  {
+   "name": "motion_capture.yaml",
+   "type": "program",
+   "role": "configuration file for the motion capture package"
+  },
+  {
+   "name": "teleop.yaml",
+   "type": "program",
+   "role": "configuration file for remote controls and XBox button mapping"
+  },
+  {
+   "name": "hello_world",
+   "type": "program",
+   "role": "example Python script run via crazyflie_examples"
+  },
+  {
+   "name": "Wolfgang Hönig",
+   "type": "person",
+   "role": "copyright holder, listed with TU Berlin"
+  },
+  {
+   "name": "Kimberly McGuire",
+   "type": "person",
+   "role": "copyright holder, listed with Bitcraze AB"
+  },
+  {
+   "name": "TU Berlin",
+   "type": "organization",
+   "role": "affiliation of Wolfgang Hönig in the copyright notice"
+  },
+  {
+   "name": "Bitcraze AB",
+   "type": "organization",
+   "role": "affiliation of Kimberly McGuire in the copyright notice"
+  },
+  {
+   "name": "XBox controller",
+   "type": "product",
+   "role": "controller assumed for teleoperation"
+  },
+  {
+   "name": "ROS 2",
+   "type": "program",
+   "role": "robot software framework used for launching and running nodes"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "crazyflie",
+  "drone robotics",
+  "configuration",
+  "simulation",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3682,
+  "output_tokens": 1511
+ }
+}

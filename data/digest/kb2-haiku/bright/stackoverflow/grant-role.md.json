@@ -1,0 +1,69 @@
+{
+ "summary": "This note documents the Snowflake SQL command GRANT ROLE, which assigns a role to a user or to another role. Granting a role to another role creates a parent-child role hierarchy, and granting a role to a user lets that user perform all operations the role allows. The note covers the syntax, parameters, access control requirements (OWNERSHIP on the role or the global MANAGE GRANTS privilege, with SECURITYADMIN holding MANAGE GRANTS by default), a usage note that system-defined roles such as PUBLIC need not be granted, and two examples.",
+ "one_line": "Snowflake SQL reference for the GRANT ROLE command, which assigns a role to a user or another role.",
+ "key_facts": [
+  "GRANT ROLE assigns a role to a user or another role.",
+  "Granting a role to another role creates a parent-child relationship also referred to as a role hierarchy.",
+  "Granting a role to a user enables the user to perform all operations allowed by the role through the access privileges granted to the role.",
+  "The syntax is GRANT ROLE <name> TO { ROLE <parent_role_name> | USER <user_name> }.",
+  "Identifiers containing spaces or special characters must be enclosed in double quotes, and double-quoted identifiers are case-sensitive.",
+  "The minimum privilege required on the role being granted is OWNERSHIP.",
+  "Alternatively, a role with the global MANAGE GRANTS privilege can execute GRANT ROLE.",
+  "Only the SECURITYADMIN role, or a higher role, has the MANAGE GRANTS privilege by default, and it can be granted to additional roles as needed.",
+  "Operating on any object in a schema also requires the USAGE privilege on the parent database and schema.",
+  "System-defined roles, including PUBLIC, do not need to be granted to other roles because Snowflake defines and maintains their role hierarchy.",
+  "Example: GRANT ROLE analyst TO ROLE SYSADMIN; grants the role analyst to the role SYSADMIN.",
+  "Example: GRANT ROLE analyst TO USER user1; grants the role analyst to the user user1.",
+  "The page is part of the User Management section, under Database Role Management, Account-level Role Management and Privilege Management."
+ ],
+ "entities": [
+  {
+   "name": "GRANT ROLE",
+   "type": "other",
+   "role": "SQL command that assigns a role to a user or another role"
+  },
+  {
+   "name": "SECURITYADMIN",
+   "type": "other",
+   "role": "role that has the MANAGE GRANTS privilege by default"
+  },
+  {
+   "name": "SYSADMIN",
+   "type": "other",
+   "role": "example parent role receiving the analyst role in the first example"
+  },
+  {
+   "name": "PUBLIC",
+   "type": "other",
+   "role": "system-defined role that does not need to be granted to other roles"
+  },
+  {
+   "name": "analyst",
+   "type": "other",
+   "role": "example role granted to SYSADMIN and to user1"
+  },
+  {
+   "name": "user1",
+   "type": "person",
+   "role": "example user granted the analyst role"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "maintains the role hierarchy of system-defined roles"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "access control",
+  "roles",
+  "privileges",
+  "grant"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1899,
+  "output_tokens": 1034
+ }
+}

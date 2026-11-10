@@ -1,0 +1,125 @@
+{
+ "summary": "The note is a Wikipedia article defining a continent as a large geographical region identified by convention rather than strict criteria. It explains that the number of continents varies from four to seven depending on the model, covers the seven-continent model common in English-speaking countries, and discusses separation, geological continents, supercontinents, and the history of the concept from ancient Greek geography through European arrival in the Americas to the recognition of Antarctica and Australia as continents.",
+ "one_line": "Wikipedia overview of what a continent is, how many continents are recognized under different models, and how the concept developed historically.",
+ "key_facts": [
+  "A continent is any of several large geographical regions, generally identified by convention rather than strict criteria.",
+  "Up to seven or as few as four geographical regions are commonly regarded as continents.",
+  "Most English-speaking countries recognize seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+  "Australia, at 7,617,930 square kilometres, is deemed the smallest continent, while Greenland (2,166,086 square kilometres) is considered the world's largest island.",
+  "Of the seven most globally recognized continents, only Antarctica and Australia are completely separated from other continents by the ocean.",
+  "Geologists use four key attributes to define a continent: elevation, geology, crustal structure, and limits and area of more than one million square kilometres.",
+  "With the addition of Zealandia in 2017, Earth currently has seven recognized geological continents.",
+  "Herodotus in the 5th century BC questioned the division of the world into three continents, arguing Europe was larger than the other two combined.",
+  "Amerigo Vespucci's account Mundus Novus, published in 1502 or 1503, is the first known explicit identification of part of the Americas as a continent.",
+  "Martin Waldseemüller's 1507 world map Universalis Cosmographia was the first to show North and South America as separate from Asia.",
+  "The Rig Veda, often dated 1500 BCE, has the earliest mention of seven continents according to the article.",
+  "Europeans discovered Australia in 1606, and by the late 18th century some geographers considered it a continent in its own right.",
+  "Antarctica was sighted in 1820 during the First Russian Antarctic Expedition and described as a continent by Charles Wilkes in 1838.",
+  "Madagascar is referred to as \"the eighth continent\" from a biological perspective."
+ ],
+ "entities": [
+  {
+   "name": "Asia",
+   "type": "place",
+   "role": "largest of the seven continents by land area, listed first in the seven-continent model"
+  },
+  {
+   "name": "Africa",
+   "type": "place",
+   "role": "continent listed among the seven-continent model, joined to Asia by the Isthmus of Suez"
+  },
+  {
+   "name": "North America",
+   "type": "place",
+   "role": "continent joined to South America by the Isthmus of Panama in the seven-continent model"
+  },
+  {
+   "name": "South America",
+   "type": "place",
+   "role": "continent in the seven-continent model, treated with North America as America in some models"
+  },
+  {
+   "name": "Antarctica",
+   "type": "place",
+   "role": "continent described by Charles Wilkes in 1838 and the last continent identified"
+  },
+  {
+   "name": "Europe",
+   "type": "place",
+   "role": "continent with a land area of 10,180,000 square kilometres, treated as separate from Asia in most categorizations"
+  },
+  {
+   "name": "Australia",
+   "type": "place",
+   "role": "smallest continent by area, separated by ocean from other continents"
+  },
+  {
+   "name": "Oceania",
+   "type": "place",
+   "role": "geographical region grouping Pacific island countries with the continent of Australia"
+  },
+  {
+   "name": "Zealandia",
+   "type": "place",
+   "role": "submerged continent added as a geological continent in 2017"
+  },
+  {
+   "name": "Madagascar",
+   "type": "place",
+   "role": "microcontinent usually considered an island of Africa, called the eighth continent from a biological perspective"
+  },
+  {
+   "name": "Pangaea",
+   "type": "event",
+   "role": "supercontinent from which the current continents broke up, formed hundreds of millions of years ago"
+  },
+  {
+   "name": "Greenland",
+   "type": "place",
+   "role": "world's largest island, not considered a continent"
+  },
+  {
+   "name": "Herodotus",
+   "type": "person",
+   "role": "5th century BC Greek writer who questioned dividing the world into three continents"
+  },
+  {
+   "name": "Amerigo Vespucci",
+   "type": "person",
+   "role": "explorer whose voyage account Mundus Novus identified part of the Americas as a continent"
+  },
+  {
+   "name": "Martin Waldseemüller",
+   "type": "person",
+   "role": "cartographer who published the 1507 world map Universalis Cosmographia"
+  },
+  {
+   "name": "Charles Wilkes",
+   "type": "person",
+   "role": "described Antarctica as a continent on the United States Exploring Expedition in 1838"
+  },
+  {
+   "name": "Christopher Columbus",
+   "type": "person",
+   "role": "sailed to the Caribbean in 1492 and always believed he had reached Asia"
+  },
+  {
+   "name": "Strabo",
+   "type": "person",
+   "role": "ancient Greek geographer shown holding a globe of Europa and Asia"
+  }
+ ],
+ "tags": [
+  "geography",
+  "continents",
+  "plate tectonics",
+  "cartography",
+  "geology",
+  "history of geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 12468,
+  "output_tokens": 1635
+ }
+}

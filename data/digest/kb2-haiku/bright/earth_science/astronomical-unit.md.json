@@ -1,0 +1,134 @@
+{
+ "summary": "The note is a Wikipedia article on the astronomical unit (au), a unit of length defined as exactly 149,597,870,700 m and originally conceived as the average Earth-Sun distance. It covers the unit's symbol history, the evolution of its definition from the 1976 IAU definition to the 2012 IAU redefinition, and its use in measuring Solar System and stellar distances. It also traces historical estimates of the Earth-Sun distance from Aristarchus and Ptolemy through Kepler, the transits of Venus, and radar measurements, and includes a table of example distances.",
+ "one_line": "The astronomical unit is a length unit defined as exactly 149,597,870,700 metres, historically based on the average Earth-Sun distance.",
+ "key_facts": [
+  "The astronomical unit (au) is defined to be exactly equal to 149,597,870,700 m.",
+  "The astronomical unit was originally conceived as the average Earth-Sun distance, the average of Earth's aphelion and perihelion, before its modern redefinition in 2012.",
+  "One au is equivalent to 499 light-seconds to within 10 parts per million.",
+  "In 2012 the IAU adopted the definition of 1 astronomical unit = 149,597,870,700 metres as a conventional unit tied directly to the metre.",
+  "In 2012 the IAU recommended the symbol 'au' for the astronomical unit, after the 2006 BIPM recommendation of 'ua'.",
+  "The 1976 IAU definition stated the astronomical unit is the length for which the Gaussian gravitational constant takes the value 0.01720209895.",
+  "The parsec is defined in terms of the astronomical unit as the distance of an object with a parallax of 1 arcsecond.",
+  "Ptolemy in the 2nd century CE estimated the mean distance of the Sun as 1,210 Earth radii.",
+  "Johannes Kepler realized in his Rudolphine Tables (1627) that Ptolemy's estimate was too low, by at least a factor of three according to Kepler.",
+  "Jean Richer and Giovanni Domenico Cassini measured a solar parallax of 9.5 arcseconds in 1672, equivalent to about 22,000 Earth radii.",
+  "Simon Newcomb derived a widely accepted solar parallax value of 8.80 arcseconds, close to the modern value of 8.794143 arcseconds.",
+  "The Sun is constantly losing mass by radiating energy, so planetary orbits are steadily expanding, which has led to calls to abandon the astronomical unit.",
+  "The Kuiper belt's inner edge begins at approximately 30 au.",
+  "Light travels one astronomical unit in about 8 minutes 19 seconds."
+ ],
+ "entities": [
+  {
+   "name": "International Astronomical Union",
+   "type": "organization",
+   "role": "body that adopted the 1976 definition of the astronomical unit and the 2012 redefinition as 149,597,870,700 metres"
+  },
+  {
+   "name": "International Bureau of Weights and Measures",
+   "type": "organization",
+   "role": "BIPM; recommended the symbol ua in 2006 and used the symbol au in SI Brochure revisions of 2014 and 2019"
+  },
+  {
+   "name": "Aristarchus",
+   "type": "person",
+   "role": "ancient astronomer credited with the book On the Sizes and Distances of the Sun and Moon"
+  },
+  {
+   "name": "Eratosthenes",
+   "type": "person",
+   "role": "ancient Greek scholar whose estimate of the Sun's distance is reported by Eusebius"
+  },
+  {
+   "name": "Hipparchus",
+   "type": "person",
+   "role": "ancient astronomer who estimated Earth's distance from the Sun as 490 Earth radii"
+  },
+  {
+   "name": "Ptolemy",
+   "type": "person",
+   "role": "2nd-century CE astronomer who estimated the mean distance of the Sun as 1,210 Earth radii"
+  },
+  {
+   "name": "Johannes Kepler",
+   "type": "person",
+   "role": "astronomer who first realized Ptolemy's estimate was significantly too low, in his Rudolphine Tables (1627)"
+  },
+  {
+   "name": "Godefroy Wendelin",
+   "type": "person",
+   "role": "Flemish astronomer who repeated Aristarchus' measurements in 1635 and found Ptolemy's value too low by at least a factor of eleven"
+  },
+  {
+   "name": "Jeremiah Horrocks",
+   "type": "person",
+   "role": "astronomer who estimated a solar parallax of 15 arcseconds from his observation of the 1639 transit of Venus"
+  },
+  {
+   "name": "Christiaan Huygens",
+   "type": "person",
+   "role": "astronomer who estimated about 24,000 Earth radii for the Earth-Sun distance by comparing apparent sizes of Venus and Mars"
+  },
+  {
+   "name": "Jean Richer",
+   "type": "person",
+   "role": "astronomer who with Cassini measured the parallax of Mars in 1672"
+  },
+  {
+   "name": "Giovanni Domenico Cassini",
+   "type": "person",
+   "role": "astronomer who with Jean Richer measured a solar parallax of 9.5 arcseconds in 1672"
+  },
+  {
+   "name": "Simon Newcomb",
+   "type": "person",
+   "role": "astronomer who derived a widely accepted solar parallax of 8.80 arcseconds using aberration and transits of Venus data"
+  },
+  {
+   "name": "John Flamsteed",
+   "type": "person",
+   "role": "astronomer who made a 1672 estimate of the astronomical unit by measuring the martian diurnal parallax"
+  },
+  {
+   "name": "Jet Propulsion Laboratory",
+   "type": "organization",
+   "role": "provided ephemerides used in the 2009 IAU estimate; operates the HORIZONS ephemeris service"
+  },
+  {
+   "name": "433 Eros",
+   "type": "other",
+   "role": "near-Earth asteroid whose 1900-1901 passage allowed improved parallax measurement"
+  },
+  {
+   "name": "Zhoubi Suanjing",
+   "type": "program",
+   "role": "Chinese mathematical treatise (c. 1st century BCE) showing how the distance to the Sun can be computed geometrically"
+  },
+  {
+   "name": "Edmond Halley",
+   "type": "person",
+   "role": "strongly advocated James Gregory's method of observing transits of Venus"
+  },
+  {
+   "name": "Voyager 1",
+   "type": "product",
+   "role": "space probe 161 au from the Sun in August 2023 per the table"
+  },
+  {
+   "name": "Voyager 2",
+   "type": "product",
+   "role": "space probe 134 au from the Sun in August 2023 per the table"
+  }
+ ],
+ "tags": [
+  "astronomy",
+  "units of measurement",
+  "solar system",
+  "astronomical distance",
+  "history of astronomy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12737,
+  "output_tokens": 2127
+ }
+}

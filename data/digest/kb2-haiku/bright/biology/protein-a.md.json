@@ -1,0 +1,121 @@
+{
+ "summary": "This note describes Protein A, a 42 kDa surface protein from Staphylococcus aureus that binds immunoglobulins, mainly IgG Fc regions, via five homologous domains. It covers the protein's discovery history, species binding affinities, its role in bacterial pathogenesis, production methods, research uses, and its central role in industrial monoclonal antibody purification.",
+ "one_line": "Overview of Protein A, a Staphylococcus aureus immunoglobulin-binding protein and its uses in research and antibody purification.",
+ "key_facts": [
+  "Protein A is a 42 kDa surface protein originally found in the cell wall of Staphylococcus aureus and encoded by the spa gene.",
+  "Protein A is composed of five homologous Ig-binding domains that fold into a three-helix bundle.",
+  "Protein A binds the heavy chain within the Fc region of most immunoglobulins and within the Fab region in the case of the human VH3 family.",
+  "Verwey reported in 1940 that a protein fraction from staphylococcus extracts non-specifically precipitated rabbit antisera raised against different staphylococcus types.",
+  "In 1958, Jensen designated the active component Antigen A because it was found in fraction A of the extract, but mistakenly thought it was a polysaccharide.",
+  "In 1962, Löfkvist and Sjöquist corrected the error and confirmed that Antigen A was a surface protein on the bacterial wall of certain S. aureus strains.",
+  "The Bergen group from Norway named the protein \"Protein A\" after the antigen fraction isolated by Jensen.",
+  "Protein A's primary binding site is on the Fc region, between the CH2 and CH3 domains, as shown by crystallographic refinement.",
+  "Protein A binds with strong affinity to human IgG1, IgG2 and IgG4, and to rabbit and monkey (rhesus) immunoglobulins, according to the species table.",
+  "Protein A helps S. aureus disrupt opsonization and phagocytosis by binding antibodies in the wrong orientation.",
+  "Protein A facilitates adherence of S. aureus to human von Willebrand factor (vWF)-coated surfaces.",
+  "Protein A can inflame lung tissue by binding to tumor necrosis factor 1 (TNFR-1) receptors, playing a key role in staphylococcal pneumonia.",
+  "The first reference to a commercially available protein A chromatography resin appeared in 1976.",
+  "The first example of protein A coupled to a porous bead for IgG purification was published in 1972.",
+  "Today, chromatographic separation using immobilized protein A is the most widely established method for purifying monoclonal antibodies from harvest cell culture supernatant."
+ ],
+ "entities": [
+  {
+   "name": "Protein A",
+   "type": "product",
+   "role": "42 kDa surface protein from Staphylococcus aureus that binds immunoglobulins and is used in research and industrial antibody purification"
+  },
+  {
+   "name": "Staphylococcus aureus",
+   "type": "other",
+   "role": "bacterium in whose cell wall Protein A was originally found and which uses Protein A for virulence"
+  },
+  {
+   "name": "Verwey",
+   "type": "person",
+   "role": "researcher who in 1940 reported a protein fraction from staphylococcus extracts that non-specifically precipitated rabbit antisera"
+  },
+  {
+   "name": "Jensen",
+   "type": "person",
+   "role": "researcher who in 1958 confirmed Verwey's finding and designated the component Antigen A"
+  },
+  {
+   "name": "Löfkvist and Sjöquist",
+   "type": "person",
+   "role": "researchers who in 1962 corrected the error and confirmed Antigen A was a surface protein on S. aureus"
+  },
+  {
+   "name": "Bergen group",
+   "type": "organization",
+   "role": "Norwegian group that named the protein \"Protein A\""
+  },
+  {
+   "name": "ArlS-ArlR",
+   "type": "program",
+   "role": "two-component system that controls regulation of protein A"
+  },
+  {
+   "name": "spa gene",
+   "type": "other",
+   "role": "gene encoding Protein A"
+  },
+  {
+   "name": "Escherichia coli",
+   "type": "other",
+   "role": "bacterium commonly used today to produce recombinant Protein A"
+  },
+  {
+   "name": "Brevibacillus",
+   "type": "other",
+   "role": "host shown to be an effective producer of Protein A"
+  },
+  {
+   "name": "rProtein A, B4, C-CYS",
+   "type": "product",
+   "role": "first engineered version of protein A"
+  },
+  {
+   "name": "Protein G",
+   "type": "product",
+   "role": "other immunoglobulin-binding bacterial protein used to purify, immobilize or detect immunoglobulins"
+  },
+  {
+   "name": "Protein L",
+   "type": "product",
+   "role": "other immunoglobulin-binding bacterial protein used to purify, immobilize or detect immunoglobulins"
+  },
+  {
+   "name": "von Willebrand factor (vWF)",
+   "type": "other",
+   "role": "human protein to whose coated surfaces S. aureus adheres via Protein A"
+  },
+  {
+   "name": "tumor necrosis factor 1 (TNFR-1) receptors",
+   "type": "other",
+   "role": "receptors that Protein A binds to inflame lung tissue"
+  },
+  {
+   "name": "immunogold labelling",
+   "type": "other",
+   "role": "technique using protein A–gold (PAG) stain"
+  },
+  {
+   "name": "DNA-PAINT imaging",
+   "type": "other",
+   "role": "imaging method using DNA docking strand coupled protein A"
+  }
+ ],
+ "tags": [
+  "biochemistry",
+  "immunology",
+  "staphylococcus aureus",
+  "antibody purification",
+  "protein A",
+  "bacterial pathogenesis"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3583,
+  "output_tokens": 1786
+ }
+}

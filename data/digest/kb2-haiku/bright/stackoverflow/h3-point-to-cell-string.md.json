@@ -1,0 +1,52 @@
+{
+ "summary": "This is a reference page for the H3_POINT_TO_CELL_STRING function, which returns the hexadecimal H3 cell ID for a GEOGRAPHY Point at a given resolution. It gives the syntax, the two arguments (a geography point and an integer resolution from 0 to 15), and the VARCHAR return value. Two examples are shown: a valid call for the Brandenburg Gate at resolution 8, and an invalid call at resolution 18 that produces an error.",
+ "one_line": "Reference for the H3_POINT_TO_CELL_STRING function, which returns the hexadecimal H3 cell ID of a geography point at a chosen resolution.",
+ "key_facts": [
+  "H3_POINT_TO_CELL_STRING returns the hexadecimal H3 cell ID for a given location and resolution.",
+  "The function takes a GEOGRAPHY object representing a Point as its first argument.",
+  "The second argument, target_resolution, must be an INTEGER between 0 and 15 inclusive.",
+  "Specifying any target_resolution value other than 0 through 15 results in an error.",
+  "The function returns a VARCHAR value.",
+  "The syntax is H3_POINT_TO_CELL_STRING( <geography_point> , <target_resolution> ).",
+  "The example returns the hexadecimal H3 cell ID for the Brandenburg Gate at resolution 8.",
+  "The Brandenburg Gate example uses ST_POINT(13.377704, 52.516262) as the point.",
+  "The resolution 8 example returns the cell ID 881F1D4887FFFFF.",
+  "The example with resolution 18 fails with error 100410 (P0000): Invalid H3 resolution value: 18.",
+  "The error message states that resolution must be between 0 (coarsest) and 15 (finest).",
+  "The page is listed under the H3 category of the function catalog, within the Conversion, Output, Formatting group context shown in navigation."
+ ],
+ "entities": [
+  {
+   "name": "H3_POINT_TO_CELL_STRING",
+   "type": "program",
+   "role": "Function documented on the page that returns the hexadecimal H3 cell ID for a Point at a given resolution"
+  },
+  {
+   "name": "Brandenburg Gate",
+   "type": "place",
+   "role": "Location used in the example, queried at coordinates 13.377704, 52.516262 at resolution 8"
+  },
+  {
+   "name": "ST_POINT",
+   "type": "program",
+   "role": "Function used in the examples to construct the geography point from longitude and latitude"
+  },
+  {
+   "name": "H3",
+   "type": "program",
+   "role": "Hexagonal geospatial indexing system whose cell IDs the function returns"
+  }
+ ],
+ "tags": [
+  "h3",
+  "geospatial",
+  "sql function",
+  "reference",
+  "hexagonal grid"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1806,
+  "output_tokens": 883
+ }
+}

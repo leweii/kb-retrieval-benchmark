@@ -1,0 +1,55 @@
+{
+ "summary": "This is Snowflake's reference page for the LPAD function, which left-pads a VARCHAR string with characters, or a BINARY value with bytes, from a pad argument up to a specified length. It covers syntax, arguments, return type, usage notes (truncation, repeating multi-character pads, default blank pad for strings), collation behavior, and two examples showing string, binary, and multi-character padding. The surrounding navigation and footer text is boilerplate.",
+ "one_line": "Snowflake reference for the LPAD function, which left-pads VARCHAR strings or BINARY values to a target length using a pad argument.",
+ "key_facts": [
+  "LPAD left-pads a string with characters from another string, or left-pads a binary value with bytes from another binary value.",
+  "The base argument must be a VARCHAR or BINARY value.",
+  "The length_expr argument counts UTF-8 characters when the input is VARCHAR and bytes when the input is BINARY.",
+  "The pad argument must match the data type of the base argument.",
+  "The return data type is the same as the data type of the base input (BINARY or VARCHAR).",
+  "If the base argument is longer than length_expr, the base is truncated to length_expr.",
+  "The pad argument is repeated in the result until the desired length is reached, truncating superfluous characters or bytes.",
+  "If the pad argument is empty, no padding is inserted but the result is still truncated to length_expr.",
+  "When base is a string, the default pad is a single blank space; when base is binary, the pad argument must be provided explicitly.",
+  "Collation applies to VARCHAR inputs and does not apply when the first parameter is BINARY.",
+  "Collation settings have no impact on processing, so languages with two- or three-character letters such as 'dzs' in Hungarian and 'ch' in Czech still count as two or three characters.",
+  "The collation of the result is the same as the collation of the first input.",
+  "Snowflake recommends avoiding pad strings whose collation differs from the base string.",
+  "Example: SELECT LPAD(v, 10, '$') on 'Hi' returns '$$$$$$$$Hi'.",
+  "Example: SELECT LPAD('123.50', 19, '*_') returns '*_*_*_*_*_*_*123.50'."
+ ],
+ "entities": [
+  {
+   "name": "LPAD",
+   "type": "program",
+   "role": "Snowflake string function that left-pads a VARCHAR or BINARY value to a specified length using a pad argument"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "Platform whose reference documentation this page is part of"
+  },
+  {
+   "name": "HEX_ENCODE",
+   "type": "program",
+   "role": "Function used in the examples to convert strings to hexadecimal encoding before storing them as BINARY"
+  },
+  {
+   "name": "TO_BINARY",
+   "type": "program",
+   "role": "Function used in the examples to convert a hex string into a BINARY value"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "string functions",
+  "padding",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3422,
+  "output_tokens": 951
+ }
+}

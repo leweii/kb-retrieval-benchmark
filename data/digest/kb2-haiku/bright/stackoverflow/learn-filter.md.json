@@ -1,0 +1,95 @@
+{
+ "summary": "This clipped Microsoft Learn page is a set of DAX reference articles for four functions: LOOKUPVALUE, OFFSET, ROWNUMBER and WINDOW. The first three are fully included, while the WINDOW article is cut off partway through its remarks. Each article gives the syntax, parameter table, return value, remarks and worked examples, and the navigation and feedback boilerplate is omitted.",
+ "one_line": "Microsoft Learn DAX reference articles covering the LOOKUPVALUE, OFFSET, ROWNUMBER and WINDOW functions, with syntax, remarks and examples.",
+ "key_facts": [
+  "LOOKUPVALUE returns the value of result_columnName at the row where all pairs of search_columnName and search_value have an exact match.",
+  "If no row satisfies all LOOKUPVALUE search values, the function returns BLANK or the alternateResult if specified.",
+  "If multiple rows match LOOKUPVALUE search values and result_columnName returns different values, an error or alternateResult is returned.",
+  "The LOOKUPVALUE documentation says RELATED is in most cases more efficient than LOOKUPVALUE when a relationship exists between the tables.",
+  "The LOOKUPVALUE alternateResult parameter returns an error if specified in a Power Pivot calculated column.",
+  "LOOKUPVALUE is not supported in DirectQuery mode when used in calculated columns or row-level security (RLS) rules.",
+  "OFFSET returns a single row positioned before (negative delta) or after (positive delta) the current row within the same table, and may return multiple rows if the current row cannot be deduced to a single row.",
+  "OFFSET returns an empty table if the delta value causes a shift to a row that does not exist within the partition.",
+  "OFFSET returns an error if used within a calculated column on the same table as relation and orderBy is omitted.",
+  "ROWNUMBER returns the unique ranking for the current context within the specified partition, sorted by the specified order, and is blank if a match cannot be found.",
+  "ROWNUMBER returns an error when the columns cannot uniquely identify rows and the function detects a tie at runtime.",
+  "ROWNUMBER blanks parameter supports DEFAULT (the default), FIRST and LAST, which control where blank values are ordered.",
+  "WINDOW returns all rows positioned within the given interval, and the last row is included in the window.",
+  "WINDOW from_type and to_type default to REL, and ABS uses 1-based indexing from the beginning of the partition for positive values and from the end for negative values.",
+  "The reset parameter for OFFSET, ROWNUMBER and WINDOW is available in visual calculations only, with accepted values NONE, LOWESTPARENT, HIGHESTPARENT or an integer."
+ ],
+ "entities": [
+  {
+   "name": "LOOKUPVALUE",
+   "type": "product",
+   "role": "DAX function that returns the value for the row meeting all specified search criteria; the article is dated 10/20/2023"
+  },
+  {
+   "name": "OFFSET",
+   "type": "product",
+   "role": "DAX function that returns a row positioned before or after the current row by a given offset; the article is dated 02/20/2024"
+  },
+  {
+   "name": "ROWNUMBER",
+   "type": "product",
+   "role": "DAX function that returns the unique ranking for the current context within a partition; the article is dated 02/20/2024"
+  },
+  {
+   "name": "WINDOW",
+   "type": "product",
+   "role": "DAX function that returns multiple rows positioned within a given interval; the article is dated 02/20/2024 and is truncated in this note"
+  },
+  {
+   "name": "RELATED",
+   "type": "product",
+   "role": "DAX function recommended over LOOKUPVALUE when a relationship exists, shown in Example 2 as CHANNEL = RELATED('Sales Order'[Channel])"
+  },
+  {
+   "name": "ORDERBY",
+   "type": "product",
+   "role": "DAX clause defining how each partition is sorted, used by OFFSET, ROWNUMBER and WINDOW"
+  },
+  {
+   "name": "PARTITIONBY",
+   "type": "product",
+   "role": "DAX clause defining how the relation is partitioned, used by OFFSET, ROWNUMBER and WINDOW"
+  },
+  {
+   "name": "MATCHBY",
+   "type": "product",
+   "role": "DAX clause defining the columns used to match data and identify the current row"
+  },
+  {
+   "name": "ALLSELECTED",
+   "type": "product",
+   "role": "default relation used when none is specified in OFFSET, ROWNUMBER and WINDOW"
+  },
+  {
+   "name": "Power Pivot",
+   "type": "program",
+   "role": "environment in which the LOOKUPVALUE alternateResult parameter returns an error in calculated columns"
+  },
+  {
+   "name": "DirectQuery",
+   "type": "other",
+   "role": "mode in which LOOKUPVALUE is not supported in calculated columns or row-level security rules"
+  },
+  {
+   "name": "Sales Order",
+   "type": "other",
+   "role": "table in the LOOKUPVALUE and RELATED examples that holds the Channel column"
+  }
+ ],
+ "tags": [
+  "dax",
+  "power bi",
+  "lookup functions",
+  "window functions",
+  "reference documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13366,
+  "output_tokens": 2625
+ }
+}

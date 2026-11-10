@@ -1,0 +1,70 @@
+{
+ "summary": "A LinkedIn 'Advice' article, AI-assisted and community-contributed, asking how state-space methods can be used to design a Kalman filter for estimating states of dynamic systems from noisy measurements. It walks through five steps: state-space representation, measurement model, Kalman gain, state estimation (prediction and correction), and filter design, illustrated with a car position/velocity and radar example. Several community contributions add remarks on applications such as the 1970s moon mission navigation and the Kalman filter's recursive nature; the boilerplate navigation, login prompts and related-article links were ignored.",
+ "one_line": "A LinkedIn community article explaining, in five steps, how to apply state-space methods to design a Kalman filter.",
+ "key_facts": [
+  "The article is titled 'How can you apply state-space methods to design a Kalman filter?' and was last updated on Feb 12, 2024.",
+  "The article is categorized under Engineering > Electrical Engineering on LinkedIn and was produced with the help of AI and the LinkedIn community.",
+  "Kalman filters are described as tools for estimating the state of a dynamic system from noisy measurements, widely used in navigation, control, and signal processing.",
+  "The first step is to define a state vector and a state equation; for a car the state vector could be [x, v], where x is position and v is velocity.",
+  "The example state equations are x(k+1) = x(k) + v(k)T + w(k) and v(k+1) = v(k) + u(k) + w(k), where T is the sampling interval, u is the acceleration input, and w is the process noise.",
+  "The measurement model example uses a radar measuring distance and angle, with r(k) = sqrt(x(k)^2 + y(k)^2) + v(k) and theta(k) = atan2(y(k), x(k)) + v(k), where v is measurement noise.",
+  "The third step computes the Kalman gain, which determines how much the state estimate is updated based on the measurement.",
+  "The article notes that MATLAB has a function called kalman that calculates the Kalman gain given the state-space representation and noise covariance matrices.",
+  "State estimation consists of a prediction phase, which projects the state estimate to the next time step, and a correction phase, which adjusts the estimate using the measurement and the Kalman gain.",
+  "The filter design step mentions MATLAB tools kalmdesign and kalmopt for designing filter parameters.",
+  "A community contribution states that one famous application of a Kalman filter was on the moon mission in the 70s, where IMUs and aiding sensor measurements were fused.",
+  "Variants of the Kalman filter named in the article include the linear Kalman filter, the extended Kalman filter, and the unscented Kalman filter.",
+  "The article reports 9 community contributions and is credited to Muhammad Umer Mujahid as a top expert contributor.",
+  "Contributor Muhammad Maaz describes state-space representation as allowing inclusion of both deterministic and stochastic components."
+ ],
+ "entities": [
+  {
+   "name": "LinkedIn",
+   "type": "organization",
+   "role": "Platform hosting the article, with its navigation, policies and community contribution features"
+  },
+  {
+   "name": "Muhammad Umer Mujahid",
+   "type": "person",
+   "role": "Top expert and contributor to the article; electrical engineer and data scientist"
+  },
+  {
+   "name": "Muhammad Maaz",
+   "type": "person",
+   "role": "Community contributor who wrote several contributions on state-space representation, measurement models, Kalman gain and filter design"
+  },
+  {
+   "name": "Nassim Bessaad",
+   "type": "person",
+   "role": "Robotics and navigation researcher who contributed the moon mission application remark"
+  },
+  {
+   "name": "Kalman filter",
+   "type": "product",
+   "role": "Estimation algorithm that is the subject of the article, used to estimate system states from noisy measurements"
+  },
+  {
+   "name": "MATLAB",
+   "type": "product",
+   "role": "Software suggested for computing the Kalman gain with the kalman function and for design with kalmdesign and kalmopt"
+  },
+  {
+   "name": "Moon mission in the 1970s",
+   "type": "event",
+   "role": "Cited as a famous application of the Kalman filter for navigation, fusing IMU and aiding sensor measurements"
+  }
+ ],
+ "tags": [
+  "kalman filter",
+  "state-space methods",
+  "state estimation",
+  "signal processing",
+  "control systems",
+  "electrical engineering"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14525,
+  "output_tokens": 1394
+ }
+}

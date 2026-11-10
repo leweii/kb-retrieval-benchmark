@@ -1,0 +1,58 @@
+{
+ "summary": "This note is the Snowflake documentation page for the legacy USAGE_IN_CURRENCY_DAILY view in the ORGANIZATION_USAGE schema, which reports daily credit usage and usage in currency for an organization. It lists the view's columns with descriptions, including the possible USAGE_TYPE values and BALANCE_SOURCE values, and gives usage notes on latency, data changes before month close, reseller contracts, and retention. The page also notes that views with extra columns use an upgraded version that requires contacting Snowflake Support.",
+ "one_line": "Snowflake's legacy USAGE_IN_CURRENCY_DAILY view reporting an organization's daily credit and currency usage, with column definitions and usage notes.",
+ "key_facts": [
+  "The USAGE_IN_CURRENCY_DAILY view in the ORGANIZATION_USAGE schema returns daily credit usage and usage in currency for an organization.",
+  "The page describes the legacy version of the USAGE_IN_CURRENCY_DAILY view.",
+  "Users whose view contains additional columns, such as a BILLING_TYPE column, are using the upgraded version and must contact Snowflake Support to upgrade.",
+  "The USAGE_DATE column is a DATE in UTC format indicating when the usage took place.",
+  "For each USAGE_TYPE, 'overage' is prepended when usage was billed at on-demand pricing because it exceeded the capacity of the contract.",
+  "The USAGE column is NUMBER (38,6) and gives the total credits charged for the USAGE_TYPE; for Data Transfer, USAGE is TBs of data rather than credits.",
+  "The USAGE_IN_CURRENCY column is NUMBER (38,6) and gives the total amount charged for the USAGE_TYPE on the USAGE_DATE.",
+  "The 'priority support' usage type indicates how much was charged for priority support services in a given month and is associated with a contract stipulation rather than an account.",
+  "The 'support credit' usage type indicates Snowflake Support credited the account to reverse charges attributed to an issue in Snowflake.",
+  "The BALANCE_SOURCE value 'capacity' means usage paid with credits remaining on an organization's capacity commitment.",
+  "The BALANCE_SOURCE value 'rollover' means usage paid with rollover credits, which are unused credits added to the new contract when a capacity commitment is renewed.",
+  "The BALANCE_SOURCE value 'overage' means usage paid at on-demand pricing after capacity, rollover, and free credits are exhausted.",
+  "The BALANCE_SOURCE value 'rebate' means usage covered by credits awarded when the organization shared data with another organization.",
+  "Latency for the view may be up to 72 hours.",
+  "Until month close, data for a given day can change to account for end-of-month adjustments, contract amendments, or Snowflake account transfers between organizations.",
+  "Customers who signed a contract through a Snowflake reseller cannot access data in this view.",
+  "Data in this view is retained indefinitely."
+ ],
+ "entities": [
+  {
+   "name": "USAGE_IN_CURRENCY_DAILY",
+   "type": "product",
+   "role": "legacy view that returns daily credit usage and usage in currency for an organization"
+  },
+  {
+   "name": "ORGANIZATION_USAGE",
+   "type": "program",
+   "role": "schema in which the USAGE_IN_CURRENCY_DAILY view resides"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact point for upgrading to the latest version of the view designed for billing reconciliation"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the accounts, contracts, and services described in the view"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "usage-views",
+  "billing",
+  "credits",
+  "documentation",
+  "organization-usage"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 2772,
+  "output_tokens": 1250
+ }
+}

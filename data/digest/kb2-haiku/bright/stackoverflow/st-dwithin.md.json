@@ -1,0 +1,45 @@
+{
+ "summary": "This is a Snowflake documentation reference page for the ST_DWITHIN geospatial function. It explains that ST_DWITHIN returns TRUE when the minimum geodesic distance between two GEOGRAPHY values is within a given distance in meters, and FALSE otherwise. It gives the syntax, argument types, a NULL-handling usage note, and a worked example using points one degree apart on the equator.",
+ "one_line": "Snowflake reference for ST_DWITHIN, which tests whether two geography values lie within a specified distance in meters.",
+ "key_facts": [
+  "ST_DWITHIN returns TRUE if the minimum geodesic distance between two points is within the specified distance, otherwise FALSE.",
+  "For GEOGRAPHY values that are not points, such as lines or polygons, ST_DWITHIN uses the minimum geodesic distance between the two closest points of the two values.",
+  "The syntax is ST_DWITHIN( <geography_expression_1> , <geography_expression_2> , <distance_in_meters> ).",
+  "The first two arguments must be expressions of type GEOGRAPHY.",
+  "The distance_in_meters argument must be an expression of type REAL and is measured in meters.",
+  "ST_DWITHIN returns a BOOLEAN.",
+  "ST_DWITHIN returns NULL if any input is NULL.",
+  "The page tip says the search optimization service can improve the performance of queries that call this function.",
+  "The example SELECT ST_DWITHIN (ST_MAKEPOINT(0, 0), ST_MAKEPOINT(1, 0), 150000) returns True.",
+  "In the example, two points one degree apart along the equator are less than 150,000 meters apart."
+ ],
+ "entities": [
+  {
+   "name": "ST_DWITHIN",
+   "type": "program",
+   "role": "geospatial function that returns TRUE if two geography values are within a specified distance in meters"
+  },
+  {
+   "name": "ST_MAKEPOINT",
+   "type": "program",
+   "role": "function used in the example to construct points at (0, 0) and (1, 0)"
+  },
+  {
+   "name": "search optimization service",
+   "type": "program",
+   "role": "service the tip recommends for improving performance of queries calling ST_DWITHIN"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "geospatial",
+  "sql-function",
+  "geography",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1823,
+  "output_tokens": 748
+ }
+}

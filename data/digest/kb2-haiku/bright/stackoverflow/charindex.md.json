@@ -1,0 +1,55 @@
+{
+ "summary": "This is a reference page for the Snowflake CHARINDEX string function, which searches for the first occurrence of one string or binary expression within another and returns its 1-based position. It covers syntax, the optional start position argument, usage notes on NULL, not-found and empty-argument behavior, unsupported collation specifications, and examples with VARCHAR and BINARY values. The page's boilerplate navigation and category lists are ignored.",
+ "one_line": "Reference for Snowflake's CHARINDEX function, which returns the 1-based position of a substring or binary value within another expression.",
+ "key_facts": [
+  "CHARINDEX searches for the first occurrence of the first argument in the second argument and returns its position as a 1-based number.",
+  "The syntax is CHARINDEX( <expr1>, <expr2> [ , <start_pos> ] ), where start_pos defaults to 1.",
+  "If any arguments are NULL, CHARINDEX returns NULL.",
+  "If the string or binary value is not found, CHARINDEX returns 0.",
+  "If start_pos is beyond the end of the second argument, CHARINDEX returns 0.",
+  "If the first argument is empty, CHARINDEX returns 1.",
+  "The data types of the first two arguments should be the same, either both strings or both binary values.",
+  "CHARINDEX does not support the pi (punctuation-insensitive) collation specification or the cs-ai (case-sensitive, accent-insensitive) collation specification.",
+  "Using CHARINDEX with a column that has the upper or lower collation specifiers requires enabling the 2024_02 behavior change bundle via SELECT SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE('2024_02').",
+  "Example: charindex('an', 'banana', 1) returns 2.",
+  "Example: charindex('an', 'banana', 3) returns 4, finding the second occurrence of 'an'.",
+  "Example: CHARINDEX(X'EF', X'ABCDEF') returns 3 because EF matches the third byte.",
+  "Example: CHARINDEX(X'BC', X'ABCD') returns 0 because BC spans two bytes and no single byte contains it.",
+  "Example: CHARINDEX('dog', 'catalog') returns 0 and CHARINDEX('log', 'catalog') returns 5."
+ ],
+ "entities": [
+  {
+   "name": "CHARINDEX",
+   "type": "product",
+   "role": "string function described on the page that searches for the first occurrence of one expression within another"
+  },
+  {
+   "name": "POSITION",
+   "type": "product",
+   "role": "related function that supports a syntax variation CHARINDEX does not support"
+  },
+  {
+   "name": "SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE",
+   "type": "program",
+   "role": "statement used to enable the 2024_02 behavior change bundle for upper or lower collation use with CHARINDEX"
+  },
+  {
+   "name": "2024_02 behavior change bundle",
+   "type": "program",
+   "role": "bundle that must be enabled to use CHARINDEX with columns having upper or lower collation specifiers"
+  }
+ ],
+ "tags": [
+  "sql",
+  "string functions",
+  "snowflake",
+  "charindex",
+  "reference",
+  "collation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3070,
+  "output_tokens": 1037
+ }
+}

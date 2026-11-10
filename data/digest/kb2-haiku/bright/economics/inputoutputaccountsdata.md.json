@@ -1,0 +1,75 @@
+{
+ "summary": "This BEA web page is the data-download index for Input-Output Accounts Data. It lists downloadable supply, use, import, make, requirements and market-share tables for 2017-2022 (in 15, 17, 71 or 73 industry/commodity groupings) and detailed 2017 tables (402 industries or commodities), plus older 1947-1996 summary tables. It also notes the 2023 comprehensive update, domestic requirements tables first released Feb. 17, 2017, and a contact email for questions.",
+ "one_line": "BEA's index page of downloadable input-output accounts tables covering supply, use, make, import and requirements data for 1947 through 2022.",
+ "key_facts": [
+  "The Bureau of Economic Analysis states that selected annual Industry Economic Account statistics for 2017 through 2022 reflect the 2023 comprehensive update of the National Economic Accounts.",
+  "Data prior to 2017 will be forthcoming, according to the page's note.",
+  "Supply Tables show domestic supply of commodities by industry and are available for 2017-2022 in 15 and 71 industry groupings, and for 2017 in 402 industries.",
+  "Use Tables show use of commodities by industry and are available for 2017-2022 in 15 and 71 industry groupings, and for 2017 in 402 industries.",
+  "Domestic requirements tables were first released by BEA on Feb. 17, 2017.",
+  "The Survey of Current Business article 'Introducing Domestic Requirements Tables for 1997-2015' provides additional details on domestic requirements statistics.",
+  "Total requirements tables show total inputs required, directly and indirectly, to deliver one dollar of output to final users.",
+  "Domestic requirements tables show domestic inputs required, directly and indirectly, to deliver one dollar of output to final users.",
+  "Make and use tables for 1947-1962 and 1963-1996 are available as summary files with 46 and 65 industries respectively.",
+  "Make Tables after redefinitions show production of commodities by industry after redefinition of secondary production.",
+  "The after redefinition tables are used as inputs into the derivation of the total requirements and domestic requirements matrices.",
+  "Archived industry data are available through BEA's data archives.",
+  "Questions about Input-Output data can be sent to industryeconomicaccounts@bea.gov.",
+  "The page was last modified on 2/1/24."
+ ],
+ "entities": [
+  {
+   "name": "Bureau of Economic Analysis",
+   "type": "organization",
+   "role": "U.S. federal statistical agency that publishes the input-output accounts data, located at 4600 Silver Hill Road, Suitland, MD 20746"
+  },
+  {
+   "name": "Survey of Current Business",
+   "type": "product",
+   "role": "publication where BEA's 'Introducing Domestic Requirements Tables for 1997-2015' article appears"
+  },
+  {
+   "name": "Introducing Domestic Requirements Tables for 1997-2015",
+   "type": "other",
+   "role": "Survey of Current Business article giving additional details on domestic requirements statistics"
+  },
+  {
+   "name": "Total Requirements Derivation",
+   "type": "other",
+   "role": "BEA documentation on how total requirements tables are derived"
+  },
+  {
+   "name": "Domestic Requirements Derivation",
+   "type": "other",
+   "role": "BEA documentation on how domestic requirements tables are derived"
+  },
+  {
+   "name": "National Economic Accounts",
+   "type": "program",
+   "role": "national accounts whose 2023 comprehensive update is reflected in the 2017-2022 industry statistics"
+  },
+  {
+   "name": "Industry Economic Accounts",
+   "type": "program",
+   "role": "source of selected annual industry statistics for 2017 through 2022 and of underlying estimates"
+  },
+  {
+   "name": "BEA's data archives",
+   "type": "program",
+   "role": "archive where archived industry data are available"
+  }
+ ],
+ "tags": [
+  "input-output accounts",
+  "bea",
+  "industry statistics",
+  "national accounts",
+  "economic data tables",
+  "domestic requirements"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 8947,
+  "output_tokens": 1259
+ }
+}

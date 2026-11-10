@@ -1,0 +1,121 @@
+{
+ "summary": "This clipped Ecological Monographs article (Taylor et al., 2014) reports the first exhaustive molecular census of soil fungi in a boreal black spruce ecosystem near Fairbanks, Alaska. Using ITS sequencing of 28,884 clones from 12 sites, the authors recorded 1002 fungal OTUs and estimated a fungus:plant ratio of at least 17:1, which extrapolates globally to about 6 million species. They also report that closely related fungi often occupy divergent niches, suggesting deterministic niche partitioning. The note is truncated mid-results.",
+ "one_line": "Molecular census of soil fungi in Alaskan black spruce forest finds 1002 OTUs, a stable 17:1 fungus-to-plant ratio, and niche partitioning among related fungi.",
+ "key_facts": [
+  "The study was published in Ecological Monographs with first publication date 01 February 2014.",
+  "The authors are D. Lee Taylor, Teresa N. Hollingsworth, Jack W. McFarland, Niall J. Lennon, Chad Nusbaum, and Roger W. Ruess.",
+  "The census recorded 1002 fungal taxa (OTUs) in black spruce forest soils of interior Alaska.",
+  "The fungus:plant ratio in Picea mariana forest soils from interior Alaska is at least 17:1 and is regionally stable.",
+  "A global extrapolation of the ratio would suggest 6 million fungal species, versus leading estimates ranging from 616 000 to 1.5 million.",
+  "The study concludes that 98% of fungi remain undescribed and that many of these species occupy unique niches.",
+  "Hawksworth (1991) estimated a ratio of roughly 6 to 1 of fungi to vascular plants in the UK, yielding a global extrapolation of 1.5 million species.",
+  "The study sampled 12 of the 151 black spruce sites studied by Hollingsworth et al. (2006, 2008), with 48 samples from organic and mineral horizons.",
+  "Soil samples were collected as 50 cores per site, 1.8 cm in diameter by 20 cm deep, along four parallel transects.",
+  "Rarefaction analysis reached saturation, and 117 of the 1002 OTUs were singletons.",
+  "Of 97 plant species documented at the 12 sites, 60 are vascular, giving the approximately 17:1 multiplier.",
+  "The mean F:P ratio across sites was 16.0 (±6.1 SD), and the rarefied ratio was essentially constant at 16.8 with eight or more sites.",
+  "Clones were clustered into OTUs at 97% sequence identity across the ITS region using the Cap3 program.",
+  "Black spruce (Picea mariana) forests cover about 40% of the Alaskan landscape, roughly 40% of forested land in Alaska per the introduction.",
+  "Phylogenetic analyses focused on three genus-level clusters: Cortinarius (Basidiomycota), Leptodontidium (Ascomycota), and Mortierella (former Zygomycota)."
+ ],
+ "entities": [
+  {
+   "name": "Ecological Monographs",
+   "type": "product",
+   "role": "journal in which the article was published"
+  },
+  {
+   "name": "The Ecological Society of America",
+   "type": "organization",
+   "role": "publisher of the journal"
+  },
+  {
+   "name": "D. Lee Taylor",
+   "type": "person",
+   "role": "first-listed author of the article"
+  },
+  {
+   "name": "Teresa N. Hollingsworth",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Jack W. McFarland",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Niall J. Lennon",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Chad Nusbaum",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Roger W. Ruess",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Picea mariana",
+   "type": "other",
+   "role": "black spruce, the dominant tree species of the study forests"
+  },
+  {
+   "name": "Fairbanks region of interior Alaska",
+   "type": "place",
+   "role": "study area of black spruce forests"
+  },
+  {
+   "name": "Hawksworth 1991",
+   "type": "event",
+   "role": "prior study synthesizing UK fungal and plant diversity, yielding a ratio of about 6 to 1"
+  },
+  {
+   "name": "Hollingsworth et al. (2006, 2008)",
+   "type": "event",
+   "role": "earlier studies of the 151 black spruce sites from which 12 were sampled"
+  },
+  {
+   "name": "Cortinarius",
+   "type": "other",
+   "role": "mushroom-forming ectomycorrhizal basidiomycete genus analyzed phylogenetically"
+  },
+  {
+   "name": "Leptodontidium",
+   "type": "other",
+   "role": "root-associated dark septate endophyte genus in the Ascomycota analyzed phylogenetically"
+  },
+  {
+   "name": "Mortierella",
+   "type": "other",
+   "role": "diverse saprotrophic soil fungal genus analyzed phylogenetically"
+  },
+  {
+   "name": "Cap3",
+   "type": "program",
+   "role": "single-linkage assembly program used to group sequences into OTUs"
+  },
+  {
+   "name": "UCHIME",
+   "type": "program",
+   "role": "chimera-detection program applied to all sequences"
+  }
+ ],
+ "tags": [
+  "mycology",
+  "soil fungi",
+  "biodiversity",
+  "boreal forest",
+  "molecular ecology",
+  "niche partitioning"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11837,
+  "output_tokens": 1746
+ }
+}

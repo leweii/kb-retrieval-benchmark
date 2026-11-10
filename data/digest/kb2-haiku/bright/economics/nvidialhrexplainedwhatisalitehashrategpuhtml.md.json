@@ -1,0 +1,85 @@
+{
+ "summary": "A PCWorld feature by Thiago Trevisan explains Nvidia's Lite Hash Rate (LHR) technology, which halves Ethereum mining hash rate on select GeForce GPUs to make them less attractive to miners and more available to gamers. It covers which cards include LHR, how to identify them, the RTX 3060 launch and unlock history, and effects on gaming and resale value. The article was originally published August 24, 2021 and updated to include the RTX 3050 and the malware-laden LHR Unlocker tool.",
+ "one_line": "Explainer on Nvidia's Lite Hash Rate (LHR) GPUs, which limit Ethereum mining performance to steer graphics cards toward gamers.",
+ "key_facts": [
+  "Nvidia LHR graphics cards detect when they are being used for Ethereum (ETH) cryptocurrency mining and automatically halve the hash rate.",
+  "LHR technology was first introduced in the GeForce RTX 3060 but was quickly broken by an accidental beta driver release that unlocked full mining performance the same week it launched.",
+  "Nvidia reintroduced LHR across most of its lineup two months after the RTX 3060 launch, with newer LHR GPUs such as the RTX 3080 Ti featuring tighter integration between firmware and software.",
+  "Recent news indicated that up to 70 percent of an LHR GPU's mining performance had been unlocked with NBMiner, up from the 50 percent that LHR restricts cards to out of the box.",
+  "A high-profile purported LHR unlock tool installed a Trojan on users' PCs instead of unlocking the cards.",
+  "GeForce cards listed in the article as including LHR are the RTX 3050, RTX 3060, RTX 3060 Ti, RTX 3070, RTX 3070 Ti, RTX 3080, and RTX 3080 Ti.",
+  "Founders Edition models of the RTX 3060 Ti, RTX 3070 and RTX 3080 are unaffected by LHR.",
+  "Nvidia applied LHR to most of its RTX 30-series lineup in the middle of May 2021.",
+  "The GeForce RTX 3090 never got LHR and all models offer full hash rate performance.",
+  "LHR cards are identified by the box labeling them as \"LHR\" or \"Lite Hash Rate\".",
+  "AMD's Radeon graphics cards currently do not have any similar hash rate restrictions.",
+  "According to the article, LHR does not affect gaming performance as far as known; it is strictly a hash rate limiter.",
+  "The article notes that LHR may increase resale value for gamers because it indicates the card probably was not used for mining, while miners will value LHR cards less due to decreased performance relative to price.",
+  "The article was published March 1, 2022 by PCWorld, and the editor's note says it originally published August 24, 2021."
+ ],
+ "entities": [
+  {
+   "name": "Nvidia",
+   "type": "organization",
+   "role": "GPU maker that introduced Lite Hash Rate (LHR) technology to limit mining performance on select GeForce graphics cards"
+  },
+  {
+   "name": "Thiago Trevisan",
+   "type": "person",
+   "role": "author of the PCWorld article"
+  },
+  {
+   "name": "PCWorld",
+   "type": "organization",
+   "role": "publisher of the article"
+  },
+  {
+   "name": "Lite Hash Rate (LHR)",
+   "type": "program",
+   "role": "Nvidia technology that halves Ethereum mining hash rate on detected GPUs"
+  },
+  {
+   "name": "GeForce RTX 3060",
+   "type": "product",
+   "role": "first GPU to receive LHR technology, whose initial limiter was quickly broken"
+  },
+  {
+   "name": "GeForce RTX 3080 Ti",
+   "type": "product",
+   "role": "example of a newer LHR GPU with tighter firmware and software integration"
+  },
+  {
+   "name": "GeForce RTX 3090",
+   "type": "product",
+   "role": "RTX 30-series GPU that never got LHR and offers full hash rate performance"
+  },
+  {
+   "name": "NBMiner",
+   "type": "program",
+   "role": "mining software with which up to 70 percent of LHR mining performance was recently unlocked"
+  },
+  {
+   "name": "AMD Radeon",
+   "type": "product",
+   "role": "rival graphics cards that currently do not have similar hash rate restrictions"
+  },
+  {
+   "name": "Ethereum",
+   "type": "product",
+   "role": "cryptocurrency whose mining the LHR limiter targets"
+  }
+ ],
+ "tags": [
+  "gpu",
+  "nvidia",
+  "cryptocurrency mining",
+  "ethereum",
+  "graphics cards",
+  "lhr"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11006,
+  "output_tokens": 1469
+ }
+}

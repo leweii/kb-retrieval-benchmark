@@ -1,0 +1,101 @@
+{
+ "summary": "This chapter from a psychology research methods textbook explains quasi-experimental research, which manipulates an independent variable without random assignment, placing it between correlational studies and true experiments in internal validity. It describes three designs: nonequivalent groups, pretest-posttest, and interrupted time series, and notes that combining a treatment and control group with pretests and posttests yields a stronger quasi-experiment. Threats such as history, maturation, regression to the mean, and spontaneous remission are discussed, including the Eysenck psychotherapy debate.",
+ "one_line": "Explains quasi-experimental designs (nonequivalent groups, pretest-posttest, interrupted time series) and their threats to internal validity.",
+ "key_facts": [
+  "Quasi-experimental research is research that resembles experimental research but is not true experimental research because participants are not randomly assigned to conditions or orders of conditions.",
+  "Quasi-experiments eliminate the directionality problem because the independent variable is manipulated before the dependent variable is measured.",
+  "Quasi-experiments do not eliminate the problem of confounding variables because participants are not randomly assigned.",
+  "A nonequivalent groups design is a between-subjects design in which participants have not been randomly assigned to conditions.",
+  "In a pretest-posttest design, the dependent variable is measured once before the treatment and once after it is implemented.",
+  "Regression to the mean is the statistical fact that an individual who scores extremely on a variable on one occasion will tend to score less extremely on the next occasion.",
+  "Spontaneous remission is the tendency for many medical and psychological problems to improve over time without any form of treatment.",
+  "Posternak and Miller found that participants in waitlist control conditions improved an average of 10 to 15% before they received any treatment at all.",
+  "Hans Eysenck's 1952 article summarized 24 studies showing that about two thirds of patients improved between the pretest and posttest.",
+  "By 1980, hundreds of randomized experiments on psychotherapy had been summarized by Mary Lee Smith, Gene Glass, and Thomas Miller, finding about 80% of treatment participants improved more than the average control participant.",
+  "An interrupted time-series design includes multiple pretest and posttest measurements of the dependent variable, with a treatment interrupting the series.",
+  "In a classic example, reducing factory work shifts from 10 hours to 8 hours was followed by a rapid and lasting increase in productivity.",
+  "Figure 7.3 illustrates a hypothetical study in which an instructor publicly taking attendance is the treatment and the dependent variable is student absences per week in a research methods course.",
+  "A combination design with treatment and control groups that both receive pretests and posttests is generally better than either the nonequivalent groups design or the pretest-posttest design alone.",
+  "If participants in a combination design are randomly assigned to conditions, the design becomes a true experiment rather than a quasi-experiment."
+ ],
+ "entities": [
+  {
+   "name": "Cook & Campbell (1979)",
+   "type": "other",
+   "role": "Source of the definition of quasi-experimental research and author of Quasi-experimentation: Design & analysis issues in field settings"
+  },
+  {
+   "name": "Michael Posternak",
+   "type": "person",
+   "role": "Researcher who, with Ivan Miller, reviewed studies of untreated depression finding waitlist improvement of 10 to 15%"
+  },
+  {
+   "name": "Ivan Miller",
+   "type": "person",
+   "role": "Researcher who, with Michael Posternak, reviewed waitlist control results in depression treatment studies"
+  },
+  {
+   "name": "Hans Eysenck",
+   "type": "person",
+   "role": "Researcher who in a 1952 article summarized 24 psychotherapy studies and argued improvement might be spontaneous remission"
+  },
+  {
+   "name": "Mary Lee Smith",
+   "type": "person",
+   "role": "Co-author of The Benefits of Psychotherapy (1980) summarizing randomized psychotherapy experiments"
+  },
+  {
+   "name": "Gene Glass",
+   "type": "person",
+   "role": "Co-author of The Benefits of Psychotherapy (1980) summarizing randomized psychotherapy experiments"
+  },
+  {
+   "name": "Thomas Miller",
+   "type": "person",
+   "role": "Co-author of The Benefits of Psychotherapy (1980) summarizing randomized psychotherapy experiments"
+  },
+  {
+   "name": "Ms. Williams",
+   "type": "person",
+   "role": "Third-grade teacher whose class is an example in the fractions teaching nonequivalent groups scenario"
+  },
+  {
+   "name": "Mr. Jones",
+   "type": "person",
+   "role": "Third-grade teacher whose class is an example in the fractions teaching nonequivalent groups scenario"
+  },
+  {
+   "name": "The Benefits of Psychotherapy",
+   "type": "product",
+   "role": "1980 classic book by Smith, Glass, and Miller summarizing psychotherapy experiments"
+  },
+  {
+   "name": "Quasi-experimentation: Design & analysis issues in field settings",
+   "type": "product",
+   "role": "1979 book by Cook and Campbell cited for quasi-experiment definitions and the factory shift example"
+  },
+  {
+   "name": "Research Methods in Psychology – 2nd Canadian Edition",
+   "type": "product",
+   "role": "Textbook from which this chapter is taken, authored by Paul C. Price, Rajiv Jhangiani, and I-Chant A. Chiang"
+  },
+  {
+   "name": "BCcampus Open Publishing",
+   "type": "organization",
+   "role": "Publisher hosting the Research Methods in Psychology textbook via Pressbooks"
+  }
+ ],
+ "tags": [
+  "quasi-experiment",
+  "research methods",
+  "internal validity",
+  "pretest-posttest",
+  "interrupted time series",
+  "psychotherapy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11068,
+  "output_tokens": 1835
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "summary": "This note is the Snowflake documentation page for the SNOWFLAKE.CORTEX.SUMMARIZE function, which summarizes a given English-language input text and returns a string summary. It covers the syntax (a single text argument), access control requiring the SNOWFLAKE.CORTEX_USER database role, and an example that summarizes the review_content column of a reviews table. It also includes legal notices that Cortex LLM functions are powered partly by Meta's LLaMA 2 model and that outputs may be inaccurate or biased and need human oversight.",
+ "one_line": "Snowflake Cortex SUMMARIZE function documentation: syntax, access control, example, and legal notices for summarizing English text.",
+ "key_facts": [
+  "SNOWFLAKE.CORTEX.SUMMARIZE(<text>) summarizes the given English-language input text.",
+  "The text argument is a string containing the English text from which a summary should be generated.",
+  "The function returns a string containing a summary of the original text.",
+  "Users must use a role that has been granted the SNOWFLAKE.CORTEX_USER database role to use the function.",
+  "The example queries SELECT SNOWFLAKE.CORTEX.SUMMARIZE(review_content) FROM reviews LIMIT 10;",
+  "In the example, the table named reviews contains a column named review_content holding text of reviews submitted by users.",
+  "Snowflake Cortex LLM Functions are powered by machine learning technology, including Meta's LLaMA 2.",
+  "The foundation LLaMA 2 model is licensed under the LLaMA 2 Community License.",
+  "Use of LLM Functions based on the LLaMA 2 model is subject to Meta's Acceptable Use Policy.",
+  "Machine learning technology and results provided may be inaccurate, inappropriate, or biased.",
+  "Decisions based on machine learning outputs should have human oversight and review processes to ensure model-generated content is accurate.",
+  "LLM function queries will be treated as any other SQL query and may be subject to the same handling.",
+  "Further information on safety is available in the Snowflake AI Trust and Safety FAQ.",
+  "The page lists the content language as English."
+ ],
+ "entities": [
+  {
+   "name": "SNOWFLAKE.CORTEX.SUMMARIZE",
+   "type": "program",
+   "role": "Function that summarizes the given English-language input text and returns a string summary"
+  },
+  {
+   "name": "SNOWFLAKE.CORTEX_USER",
+   "type": "program",
+   "role": "Database role that must be granted to users to access the SUMMARIZE function"
+  },
+  {
+   "name": "reviews",
+   "type": "other",
+   "role": "Example table containing user-submitted review text"
+  },
+  {
+   "name": "review_content",
+   "type": "other",
+   "role": "Example column in the reviews table holding the text of reviews to be summarized"
+  },
+  {
+   "name": "Snowflake Cortex LLM Functions",
+   "type": "program",
+   "role": "Snowflake functions powered by machine learning technology, including Meta's LLaMA 2"
+  },
+  {
+   "name": "LLaMA 2",
+   "type": "program",
+   "role": "Foundation model licensed under the LLaMA 2 Community License that powers Cortex LLM Functions"
+  },
+  {
+   "name": "Meta Platforms, Inc.",
+   "type": "organization",
+   "role": "Company that owns the LLaMA 2 model and holds its copyright and license terms"
+  },
+  {
+   "name": "Snowflake AI Trust and Safety FAQ",
+   "type": "other",
+   "role": "Document offering further information on Cortex LLM Function safety"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "cortex",
+  "llm",
+  "text-summarization",
+  "sql-function",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1911,
+  "output_tokens": 1163
+ }
+}

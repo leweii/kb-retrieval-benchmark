@@ -1,0 +1,91 @@
+{
+ "summary": "This note is the documentation page for the OctomapServerContact node in the jsk_pcl_ros package of the JSK jsk_recognition project. The node builds an occupancy grid map that includes a contact sensor model, deriving from the OctomapServer class. It documents the node's subscribed and published topics, advertised services, configurable parameters, and sample launch commands for simulation and real sensors.",
+ "one_line": "Documentation for the OctomapServerContact node, an occupancy grid mapper with a contact sensor model derived from OctomapServer.",
+ "key_facts": [
+  "OctomapServerContact is an occupancy grid map in which the contact sensor model is available.",
+  "The OctomapServerContact class is derived from the OctomapServer class.",
+  "The node subscribes to contact_sensors_in of type jsk_recognition_msgs::ContactSensorArray for input contact sensor data.",
+  "The node subscribes to cloud_in (sensor_msgs/PointCloud2) for the input pointcloud and proximity_in (sensor_msgs/PointCloud2) for input from proximity sensors.",
+  "The node publishes octomap_full and octomap_binary as octomap_msgs/Octomap messages.",
+  "The projected_map topic (nav_msgs/OccupancyGrid) is a downprojected 2D occupancy map; since octomap_mapping 0.4.4 it is named projected_map by default to avoid collisions with static 2D maps.",
+  "The self_see_default_padding parameter defaults to 0.001 and self_see_default_scale defaults to 1.0, both matching pr2_navigation_self_filter.",
+  "The frame_id parameter defaults to /map, and base_frame_id defaults to base_footprint.",
+  "The resolution parameter defaults to 0.05 meters for an empty starting map.",
+  "The sensor_model/max_range parameter defaults to -1 (unlimited); a limit such as 5m is suggested to prevent spurious far-away points.",
+  "The sensor_model hit and miss probabilities default to 0.7 and 0.4; the min and max clamping probabilities default to 0.12 and 0.97.",
+  "The filter_ground parameter defaults to false and uses pcl::SACMODEL_PERPENDICULAR_PLANE to detect the ground plane.",
+  "The ground_filter distance defaults to 0.04, angle defaults to 0.15, and plane_distance defaults to 0.07.",
+  "The simulation sample is launched with sample_octomap_server_contact_pr2.launch.",
+  "For real sensors, the depth sensor is launched via openni.launch and then octomap_server_contact.launch is run; sample_octomap_contact.launch demonstrates frontier grids."
+ ],
+ "entities": [
+  {
+   "name": "OctomapServerContact",
+   "type": "program",
+   "role": "Occupancy grid map node with a contact sensor model, derived from OctomapServer, documented on this page"
+  },
+  {
+   "name": "OctomapServer",
+   "type": "program",
+   "role": "Original class from which OctomapServerContact is derived"
+  },
+  {
+   "name": "jsk_pcl_ros",
+   "type": "program",
+   "role": "ROS package containing the OctomapServerContact node"
+  },
+  {
+   "name": "jsk_recognition_msgs::ContactSensorArray",
+   "type": "product",
+   "role": "Message type for input contact sensor data on contact_sensors_in"
+  },
+  {
+   "name": "pr2_navigation_self_filter",
+   "type": "program",
+   "role": "Reference package whose self_see parameters are mirrored by this node"
+  },
+  {
+   "name": "octomap_msgs",
+   "type": "product",
+   "role": "Package providing Octomap messages and the GetOctomap and BoundingBoxQuery services"
+  },
+  {
+   "name": "JSK Lab",
+   "type": "organization",
+   "role": "Copyright holder of the documentation, from the JSK jsk_recognition project"
+  },
+  {
+   "name": "openni.launch",
+   "type": "program",
+   "role": "Launch file used to start the depth sensor for real-sensor use"
+  },
+  {
+   "name": "sample_octomap_server_contact_pr2.launch",
+   "type": "program",
+   "role": "Simulation sample launch file"
+  },
+  {
+   "name": "octomap_server_contact.launch",
+   "type": "program",
+   "role": "Launch file for running the node with a real depth sensor"
+  },
+  {
+   "name": "Read the Docs",
+   "type": "organization",
+   "role": "Hosting service that builds and hosts the documentation"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "ros",
+  "occupancy-mapping",
+  "octomap",
+  "contact-sensors",
+  "point-cloud"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9734,
+  "output_tokens": 1444
+ }
+}

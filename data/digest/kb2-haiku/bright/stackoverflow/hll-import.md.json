@@ -1,0 +1,55 @@
+{
+ "summary": "This note documents the Snowflake function HLL_IMPORT, which converts HyperLogLog state data from OBJECT format into BINARY format. The page explains that HyperLogLog states used by HLL_ACCUMULATE, HLL_COMBINE, and HLL_ESTIMATE are in a proprietary binary format that may change between versions, so HLL_IMPORT supports long-term storage and integration with external tools. The syntax is HLL_IMPORT(obj), and the examples section is empty in the clipped text. Navigation menus and footer boilerplate were ignored.",
+ "one_line": "Snowflake's HLL_IMPORT function converts HyperLogLog states from OBJECT format to BINARY for long-term storage and external tool integration.",
+ "key_facts": [
+  "HLL_IMPORT converts input in OBJECT format to BINARY format.",
+  "The HyperLogLog states operated on by HLL_ACCUMULATE, HLL_COMBINE, and HLL_ESTIMATE are in a proprietary binary format.",
+  "The proprietary binary format of HyperLogLog states may change in future versions of Snowflake.",
+  "Snowflake supports using HLL_IMPORT to convert HyperLogLog states from OBJECT format to BINARY, and vice versa.",
+  "HLL_IMPORT is intended for long-term storage of HyperLogLog states and for integration with external tools.",
+  "The syntax of HLL_IMPORT is HLL_IMPORT(obj).",
+  "HLL_IMPORT is listed under the Aggregation function category in the Snowflake documentation navigation.",
+  "The page's Examples section has no example content in the clipped note.",
+  "The page lists Syntax and Examples as its on-page sections.",
+  "The page language is English."
+ ],
+ "entities": [
+  {
+   "name": "HLL_IMPORT",
+   "type": "program",
+   "role": "Snowflake function that converts input in OBJECT format to BINARY format"
+  },
+  {
+   "name": "HLL_ACCUMULATE",
+   "type": "program",
+   "role": "Function that operates on HyperLogLog states in proprietary binary format"
+  },
+  {
+   "name": "HLL_COMBINE",
+   "type": "program",
+   "role": "Function that operates on HyperLogLog states in proprietary binary format"
+  },
+  {
+   "name": "HLL_ESTIMATE",
+   "type": "program",
+   "role": "Function that operates on HyperLogLog states in proprietary binary format"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Vendor whose database product provides the HLL_IMPORT function"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "hyperloglog",
+  "sql functions",
+  "binary format",
+  "cardinality estimation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1425,
+  "output_tokens": 866
+ }
+}

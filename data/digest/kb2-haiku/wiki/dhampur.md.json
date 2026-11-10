@@ -1,0 +1,51 @@
+{
+ "summary": "The note is a short encyclopedia-style entry describing Dhampur, a city and municipal board in Bijnor district of Uttar Pradesh, India. It states that the city lies in Northern India. The note gives no further detail such as population, history or economy.",
+ "one_line": "Dhampur is a city and municipal board in Bijnor district, Uttar Pradesh, in Northern India.",
+ "key_facts": [
+  "Dhampur is a city and a municipal board.",
+  "Dhampur is located in Bijnor district.",
+  "Dhampur is in the state of Uttar Pradesh, India.",
+  "Dhampur lies in Northern India.",
+  "The note gives the coordinates of Dhampur, but the coordinate values are not included in the text.",
+  "The note is sourced from Wikipedia."
+ ],
+ "entities": [
+  {
+   "name": "Dhampur",
+   "type": "place",
+   "role": "city and municipal board in Bijnor district, Uttar Pradesh, India; the subject of the note"
+  },
+  {
+   "name": "Bijnor district",
+   "type": "place",
+   "role": "district in which Dhampur is located"
+  },
+  {
+   "name": "Uttar Pradesh",
+   "type": "place",
+   "role": "Indian state in which Dhampur and Bijnor district are located"
+  },
+  {
+   "name": "India",
+   "type": "place",
+   "role": "country in which Dhampur is located"
+  },
+  {
+   "name": "Northern India",
+   "type": "place",
+   "role": "region in which Dhampur lies"
+  }
+ ],
+ "tags": [
+  "dhampur",
+  "uttar-pradesh",
+  "bijnor-district",
+  "india",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1032,
+  "output_tokens": 488
+ }
+}

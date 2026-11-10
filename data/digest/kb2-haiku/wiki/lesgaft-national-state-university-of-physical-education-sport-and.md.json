@@ -1,0 +1,43 @@
+{
+ "summary": "The note is a short entry describing the Lesgaft National State University of Physical Education, Sport and Health. It states that the university is located in St. Petersburg, Russia, and is named after Peter Lesgaft. The note contains no further detail beyond this identification.",
+ "one_line": "Lesgaft National State University of Physical Education, Sport and Health is a St. Petersburg, Russia university named after Peter Lesgaft.",
+ "key_facts": [
+  "Lesgaft National State University of Physical Education, Sport and Health is a university in St. Petersburg, Russia.",
+  "The university is named after Peter Lesgaft.",
+  "The university's full name includes the phrase Physical Education, Sport and Health."
+ ],
+ "entities": [
+  {
+   "name": "Lesgaft National State University of Physical Education, Sport and Health",
+   "type": "organization",
+   "role": "university in St. Petersburg, Russia, named after Peter Lesgaft"
+  },
+  {
+   "name": "Peter Lesgaft",
+   "type": "person",
+   "role": "namesake of the university"
+  },
+  {
+   "name": "St. Petersburg",
+   "type": "place",
+   "role": "city where the university is located"
+  },
+  {
+   "name": "Russia",
+   "type": "place",
+   "role": "country where St. Petersburg is located and where the university is situated"
+  }
+ ],
+ "tags": [
+  "university",
+  "russia",
+  "physical education",
+  "sport",
+  "st. petersburg"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1066,
+  "output_tokens": 430
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "summary": "A Rust Forum thread where user agiuliano asks how to store an ordered list of immutable strings in a struct (a Vec plus a HashMap from string to index) without duplicating them, and how to handle str, &str and String ownership. Respondents suggest Rc<str> or Arc<str> for shared immutable ownership, an owning StringStore with borrowed &'a str references, or string interning crates, and recommend pushing ownership of the strings up to an outer scope (posts own the strings, OrderedStrings borrows them). The thread also covers getter reference issues, deserializing from a buffer with borrowed strings, and why str cannot be stored directly in a Vec.",
+ "one_line": "Forum thread on storing shared, ordered Rust strings in a Vec and HashMap without duplication, covering ownership, borrowing, and Rc/Arc.",
+ "key_facts": [
+  "The original poster agiuliano wants a struct OrderedStrings holding symbols: Vec<String> and index_by_symbol: HashMap<String, usize> that stores the same strings only once in memory.",
+  "Cerber-Ursi suggested using Rc<str> (or Arc<str> if Send/Sync is needed) because the strings are immutable and need shared ownership.",
+  "KillTheMule noted that the extra Vec<String> is unnecessary if the HashMap keys can be iterated, but agiuliano replied the vector must be ordered so strings can be accessed by index.",
+  "KillTheMule suggested a StringStore(Vec<String>) owning the strings, with Vec<&'a str> and HashMap<&'a str, usize> borrowing from it.",
+  "erelde suggested the indexmap crate, which keeps insertion order, and shared a playground example using reference counting.",
+  "kornel suggested Arc<String> or a slimmer Arc<str>, and mentioned string interning crates for many small repeated strings such as tags or identifiers.",
+  "KillTheMule stated that Vec<str> is not possible because str is unsized and cannot be stored directly in a Vec.",
+  "agiuliano's use case is a set of Posts ordered by creation date, each with tags, exported as a file view; the list of all tags is held as an OrderedStrings.",
+  "KillTheMule recommended option 1, where the posts own the strings and OrderedStrings borrows them, dropping OrderedStrings before the posts.",
+  "agiuliano asked about a getter returning Option<&str> from a Vec<String>, which returns Option<&&String>; the thread addresses this issue.",
+  "agiuliano wanted a create_from_buff method that reads symbols from a file, and KillTheMule suggested moving the file read into a higher scope and having a top-level wrapper type own the data.",
+  "Cerber-Ursi and agiuliano clarified that let hello_var = \"hello\" holds a &str compiled as a constant in the binary, not a String on the stack."
+ ],
+ "entities": [
+  {
+   "name": "agiuliano",
+   "type": "person",
+   "role": "original poster of the thread who is learning Rust and asks about storing ordered strings"
+  },
+  {
+   "name": "Cerber-Ursi",
+   "type": "person",
+   "role": "forum user who suggested Rc<str> or Arc<str> for shared immutable ownership"
+  },
+  {
+   "name": "KillTheMule",
+   "type": "person",
+   "role": "forum user who suggested a StringStore owning Vec<String> with borrowed &str references and recommended the posts-own-strings design"
+  },
+  {
+   "name": "erelde",
+   "type": "person",
+   "role": "forum user who suggested reference-counted pointers and the indexmap crate"
+  },
+  {
+   "name": "bluss",
+   "type": "person",
+   "role": "mentioned by erelde as the author to study for indexmap code"
+  },
+  {
+   "name": "kornel",
+   "type": "person",
+   "role": "forum user who suggested Arc<String>, Arc<str>, and string interning crates"
+  },
+  {
+   "name": "Rust Programming Language Forum",
+   "type": "organization",
+   "role": "the community forum hosting the thread"
+  },
+  {
+   "name": "Rc",
+   "type": "product",
+   "role": "reference-counted smart pointer suggested for shared immutable strings"
+  },
+  {
+   "name": "Arc",
+   "type": "product",
+   "role": "atomic reference-counted smart pointer suggested when Send and Sync are needed"
+  },
+  {
+   "name": "indexmap",
+   "type": "product",
+   "role": "crate suggested as a map that keeps insertion order"
+  },
+  {
+   "name": "serde",
+   "type": "product",
+   "role": "serialization library discussed for deserializing a struct from a buffer"
+  },
+  {
+   "name": "OrderedStrings",
+   "type": "product",
+   "role": "struct the original poster is designing to hold ordered symbols with a lookup map"
+  }
+ ],
+ "tags": [
+  "rust",
+  "ownership",
+  "lifetimes",
+  "string-handling",
+  "smart-pointers",
+  "forum-thread"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7504,
+  "output_tokens": 1532
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "This note is a documentation page for the CURRENT_STATEMENT function, which returns the SQL text of the statement currently executing. It shows the syntax CURRENT_STATEMENT() with no arguments and gives one example where a SELECT query returns its own text as output. The page is a clipped web page, and its navigation and footer boilerplate has been ignored.",
+ "one_line": "Reference page for the CURRENT_STATEMENT() SQL function, which returns the text of the currently executing statement.",
+ "key_facts": [
+  "CURRENT_STATEMENT returns the SQL text of the statement that is currently executing.",
+  "The syntax of CURRENT_STATEMENT is CURRENT_STATEMENT() with no arguments.",
+  "CURRENT_STATEMENT takes no arguments; the page lists Arguments as 'None.'",
+  "The example query is SELECT 2.71, CURRENT_STATEMENT();",
+  "In the example output, the CURRENT_STATEMENT() column contains the text 'SELECT 2.71, CURRENT_STATEMENT();'.",
+  "The example output column for 2.71 has the value 2.71.",
+  "The page is listed under the Categories section of the documentation.",
+  "The page's language is English.",
+  "The page's sections include Syntax, Arguments, and Examples."
+ ],
+ "entities": [
+  {
+   "name": "CURRENT_STATEMENT",
+   "type": "program",
+   "role": "SQL function documented on this page that returns the SQL text of the currently executing statement"
+  }
+ ],
+ "tags": [
+  "sql",
+  "database-functions",
+  "reference",
+  "current-statement"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1382,
+  "output_tokens": 513
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "summary": "This is a documentation page for the Bitwise Expression Functions family, which performs bitwise operations on numbers or groups of numeric records. It lists each function's syntax and a short description, including scalar functions (BITAND, BITOR, BITXOR, BITNOT, shifts, GETBIT) and aggregate variants (BITAND_AGG, BITOR_AGG, BITXOR_AGG) that operate across all numeric records in a group. Website navigation and feedback boilerplate are ignored.",
+ "one_line": "Reference page listing the bitwise expression functions (BITAND, BITOR, BITXOR, BITNOT, shifts, GETBIT) and their aggregate variants.",
+ "key_facts": [
+  "The Bitwise Expression Functions family can perform bitwise operations on numbers or a group of numeric records.",
+  "BITAND(a, b) returns the bitwise AND of two numeric expressions a and b.",
+  "BITAND_AGG(a) is the same as BITAND but applied across all numeric records in group a.",
+  "BITNOT(a) returns the bitwise negation of the numeric expression a.",
+  "BITOR(a, b) returns the bitwise OR of two numeric expressions a and b.",
+  "BITOR_AGG(a) is the same as BITOR but applied across all numeric records in group a.",
+  "BITSHIFTLEFT(a, n) shifts the bits of numeric expression a n positions to the left.",
+  "BITSHIFTRIGHT(a, n) shifts the bits of numeric expression a n positions to the right, with sign extension.",
+  "BITXOR(a, b) returns the bitwise XOR of two numeric expressions a and b.",
+  "BITXOR_AGG(a) is the same as BITXOR but applied across all numeric records in group a.",
+  "GETBIT(a, n) gets the bit at position n in numeric expression a."
+ ],
+ "entities": [
+  {
+   "name": "Bitwise Expression Functions",
+   "type": "program",
+   "role": "function family for performing bitwise operations on numbers or groups of numeric records"
+  },
+  {
+   "name": "BITAND",
+   "type": "program",
+   "role": "function returning bitwise AND of two numeric expressions"
+  },
+  {
+   "name": "BITAND_AGG",
+   "type": "program",
+   "role": "aggregate function version of BITAND across all numeric records in a group"
+  },
+  {
+   "name": "BITNOT",
+   "type": "program",
+   "role": "function returning bitwise negation of a numeric expression"
+  },
+  {
+   "name": "BITOR",
+   "type": "program",
+   "role": "function returning bitwise OR of two numeric expressions"
+  },
+  {
+   "name": "BITOR_AGG",
+   "type": "program",
+   "role": "aggregate function version of BITOR across all numeric records in a group"
+  },
+  {
+   "name": "BITSHIFTLEFT",
+   "type": "program",
+   "role": "function shifting bits of a numeric expression to the left"
+  },
+  {
+   "name": "BITSHIFTRIGHT",
+   "type": "program",
+   "role": "function shifting bits of a numeric expression to the right with sign extension"
+  },
+  {
+   "name": "BITXOR",
+   "type": "program",
+   "role": "function returning bitwise XOR of two numeric expressions"
+  },
+  {
+   "name": "BITXOR_AGG",
+   "type": "program",
+   "role": "aggregate function version of BITXOR across all numeric records in a group"
+  },
+  {
+   "name": "GETBIT",
+   "type": "program",
+   "role": "function getting the bit at a given position in a numeric expression"
+  }
+ ],
+ "tags": [
+  "bitwise operations",
+  "sql functions",
+  "aggregate functions",
+  "documentation",
+  "numeric expressions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1617,
+  "output_tokens": 1126
+ }
+}

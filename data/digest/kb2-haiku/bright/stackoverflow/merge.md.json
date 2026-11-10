@@ -1,0 +1,78 @@
+{
+ "summary": "This note is the reference page for the SQL MERGE command, which inserts, updates, and deletes rows in a target table based on matches with a source table or subquery, useful for applying change logs. It documents the syntax of matched and not-matched clauses, their parameters, usage rules (clause ordering, nondeterministic versus deterministic duplicate-join behavior, and the ERROR_ON_NONDETERMINISTIC_MERGE session parameter), and several examples including simple updates, mixed operations, duplicate source rows, and a gym membership fee update.",
+ "one_line": "Reference for the SQL MERGE command, covering syntax, matched and not-matched clauses, duplicate-join behavior, and examples.",
+ "key_facts": [
+  "MERGE inserts, updates, and deletes values in a target table based on values in a second table or a subquery.",
+  "The MERGE syntax begins with MERGE INTO <target_table> USING <source> ON <join_expr>, followed by matchedClause or notMatchedClause.",
+  "A matchedClause takes the form WHEN MATCHED [ AND <case_predicate> ] THEN { UPDATE SET <col_name> = <expr> [ , ... ] | DELETE }.",
+  "A notMatchedClause takes the form WHEN NOT MATCHED [ AND <case_predicate> ] THEN INSERT [ ( <col_name> [ , ... ] ) ] VALUES ( <expr> [ , ... ] ).",
+  "A matching or not-matching clause that omits the AND subclause must be the last of its clause type in the statement, otherwise it results in an unreachable case that returns an error.",
+  "The session parameter nondeterministic-merge defaults to TRUE, in which case the merge returns an error when results are nondeterministic.",
+  "If the nondeterministic-merge parameter is FALSE, one row from among the duplicates is selected to perform the update or delete, and the row selected is not defined.",
+  "Deterministic merges always complete without error, for example when exactly one source row satisfies a WHEN MATCHED ... THEN UPDATE clause and no other source rows satisfy any WHEN MATCHED clauses.",
+  "To avoid errors from multiple source rows matching a target row, the note recommends using GROUP BY joins against one row at most in the source, such as select k, max(v) as v from src group by k.",
+  "When a MERGE has a WHEN NOT MATCHED ... THEN INSERT clause and the source contains duplicate values with no matching target rows, the target gets one copy of the row for each copy in the source.",
+  "The simple merge example reports 1 number of rows updated and the target table's description changes to 'To be updated (this is the new value)'.",
+  "The duplicate-source example reports 2 number of rows inserted and 0 number of rows updated, leaving two rows with ID 50 in the target.",
+  "The gym example applies a standard $40 fee to members who joined more than 30 days ago, using the members and signup tables with the members.fee column."
+ ],
+ "entities": [
+  {
+   "name": "MERGE",
+   "type": "program",
+   "role": "SQL command that inserts, updates, and deletes values in a target table based on a second table or subquery"
+  },
+  {
+   "name": "target_table",
+   "type": "other",
+   "role": "table specified to be merged in the simple merge example"
+  },
+  {
+   "name": "source_table",
+   "type": "other",
+   "role": "source table joined with the target table in the simple merge example"
+  },
+  {
+   "name": "nondeterministic-merge",
+   "type": "other",
+   "role": "session parameter that determines whether nondeterministic merges return an error (default TRUE) or pick an undefined duplicate row (FALSE)"
+  },
+  {
+   "name": "ERROR_ON_NONDETERMINISTIC_MERGE",
+   "type": "other",
+   "role": "parameter name used in the usage examples to control error behavior for nondeterministic merges"
+  },
+  {
+   "name": "target_orig",
+   "type": "other",
+   "role": "setup table cloned into target for the nondeterministic and deterministic join examples"
+  },
+  {
+   "name": "src",
+   "type": "other",
+   "role": "source table with multiple rows sharing the same k value in the duplicate join examples"
+  },
+  {
+   "name": "members",
+   "type": "other",
+   "role": "gym table storing member names, addresses and current fees (members.fee) in the gym example"
+  },
+  {
+   "name": "signup",
+   "type": "other",
+   "role": "gym table storing each member's signup date (signup.date) in the gym example"
+  }
+ ],
+ "tags": [
+  "sql",
+  "merge",
+  "database",
+  "upsert",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6088,
+  "output_tokens": 1430
+ }
+}

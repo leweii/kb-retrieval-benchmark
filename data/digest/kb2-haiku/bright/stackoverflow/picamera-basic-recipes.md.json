@@ -1,0 +1,91 @@
+{
+ "summary": "This clipped page is the 'Basic Recipes' section (3) of the picamera release-1.13 documentation, showing Python scripts for capturing images and recording video with the Raspberry Pi camera. It covers capturing to files, streams, PIL images, resized and consistent images, timelapse, low-light capture, network streaming, and video recording to files, streams, circular buffers and networks. The page is truncated just as it begins section 3.14 on overlaying images on the preview.",
+ "one_line": "Python recipes from the picamera 1.13 docs for capturing images and recording video on a Raspberry Pi camera.",
+ "key_facts": [
+  "The picamera basic recipes are section 3 of the release-1.13 documentation.",
+  "Warning: scripts should not be named picamera.py because that name clashes with the picamera module when Python imports it.",
+  "Capturing to a file example sets camera.resolution to (1024, 768) and calls camera.capture('foo.jpg') after a two-second warm-up sleep.",
+  "When capturing to a stream, picamera calls flush() on the object before capture returns but does not close it.",
+  "Capturing resized images uses the resize parameter, for example camera.capture('foo.jpg', resize=(320, 240)), so the GPU does the resizing.",
+  "To fix exposure, set shutter_speed, optionally set iso, let analog_gain and digital_gain settle, then set exposure_mode to 'off'; to fix white balance set awb_mode to 'off' and set awb_gains.",
+  "Rule of thumb in the recipe: ISO 100 and 200 are reasonable for daytime, while 400 and 800 are better for low light.",
+  "Capturing in low light uses a 6 second exposure, the maximum for the V1 camera module, while the V2 camera module can manage 10 second exposures.",
+  "The rolling shutter of the Pi camera module can distort moving subjects, and longer exposure times exaggerate this effect.",
+  "The network capture protocol sends the image length as a 32-bit little-endian integer, followed by the image bytes, and a length of 0 closes the connection.",
+  "Recording video to a stream sets quality=23; quality ranges from 1 (highest) to 40 (lowest), with 20 to 25 typical, and bitrate defaults to 17000000 with a maximum of 25000000.",
+  "The split_recording() method splits files only at a key-frame, so each file in the 10-file example is approximately 5 seconds long.",
+  "record_sequence() was introduced in picamera version 1.3.",
+  "PiCameraCircularIO was added in version 1.0 and copy_to() was added in version 1.11; the circular buffer example keeps 20 seconds of video.",
+  "VLC or mplayer will not work for playback on a Pi because neither can use the GPU for decoding, so playback must run on a faster machine."
+ ],
+ "entities": [
+  {
+   "name": "picamera",
+   "type": "program",
+   "role": "Python library for controlling the Raspberry Pi camera, whose release-1.13 documentation contains these recipes"
+  },
+  {
+   "name": "PiCamera",
+   "type": "program",
+   "role": "Main class used in the recipes to control the camera, with capture(), start_recording() and related methods"
+  },
+  {
+   "name": "PiCameraCircularIO",
+   "type": "program",
+   "role": "Ring-buffer in-memory stream class for video recording, used to keep the last n seconds of video"
+  },
+  {
+   "name": "BytesIO",
+   "type": "program",
+   "role": "Python in-memory stream class used as a capture or recording output in several recipes"
+  },
+  {
+   "name": "PIL",
+   "type": "program",
+   "role": "Python Imaging Library used to open captured images as Image objects and verify them"
+  },
+  {
+   "name": "VLC",
+   "type": "program",
+   "role": "Media player used by the network server recipe to display the H.264 stream, and noted as unsuitable for playback on a Pi"
+  },
+  {
+   "name": "mplayer",
+   "type": "program",
+   "role": "Alternative media player for the network stream server recipe, also unsuitable for playback on a Pi"
+  },
+  {
+   "name": "raspivid",
+   "type": "program",
+   "role": "Raspberry Pi camera executable that can be combined with netcat to stream video"
+  },
+  {
+   "name": "netcat",
+   "type": "program",
+   "role": "Network utility used with raspivid and VLC as a simpler alternative streaming setup on Linux"
+  },
+  {
+   "name": "Raspberry Pi camera V1 module",
+   "type": "product",
+   "role": "Camera module whose maximum exposure is 6 seconds"
+  },
+  {
+   "name": "Raspberry Pi camera V2 module",
+   "type": "product",
+   "role": "Camera module that can manage 10 second exposures"
+  }
+ ],
+ "tags": [
+  "picamera",
+  "raspberry pi",
+  "python",
+  "camera",
+  "video recording",
+  "image capture"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13068,
+  "output_tokens": 1507
+ }
+}

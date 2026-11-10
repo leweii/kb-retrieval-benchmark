@@ -1,0 +1,53 @@
+{
+ "summary": "This note is the Snowflake documentation page for the ALTER MODEL command, which modifies properties of an existing model such as its name, tags, default version, or comment. It lists the syntax variants (SET for comment and default version, TAG for setting tags, and UNSET TAG for removing tags), describes each parameter, and states the access control requirement that the role must have OWNERSHIP on the model along with USAGE on the parent database and schema. The command is available to all Snowflake accounts.",
+ "one_line": "Snowflake reference for the ALTER MODEL command, which changes a model's name, tags, default version, or comment.",
+ "key_facts": [
+  "ALTER MODEL is available to all Snowflake accounts.",
+  "ALTER MODEL modifies the properties of an existing model, including its name, tags, default version, or comment.",
+  "The SET clause accepts COMMENT = '<string_literal>' and DEFAULT_VERSION = '<version>'.",
+  "DEFAULT_VERSION sets the version on which methods are invoked when a method is called on the model.",
+  "The tag value is always a string, and the maximum number of characters for a tag value is 256.",
+  "UNSET TAG removes one or more tags from the model, using the syntax UNSET TAG <tag_name> [ , <tag_name> ... ].",
+  "The RENAME TO clause renames the model to a new identifier that is not currently used by any other model in the schema.",
+  "If a model identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "The role executing ALTER MODEL must have the OWNERSHIP privilege on the model at a minimum.",
+  "A role must be granted or inherit the OWNERSHIP privilege to create a temporary object with the same name as an existing object in the schema.",
+  "Operating on any object in a schema also requires the USAGE privilege on the parent database and schema.",
+  "The page lists related variants of the command, which are not detailed in the note."
+ ],
+ "entities": [
+  {
+   "name": "ALTER MODEL",
+   "type": "program",
+   "role": "SQL command that modifies properties of an existing model"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "platform whose accounts can use the ALTER MODEL command"
+  },
+  {
+   "name": "OWNERSHIP",
+   "type": "other",
+   "role": "minimum privilege required on the model to execute ALTER MODEL"
+  },
+  {
+   "name": "USAGE",
+   "type": "other",
+   "role": "privilege required on the parent database and schema"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "ddl",
+  "model management",
+  "access control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2089,
+  "output_tokens": 843
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "summary": "This is a clipped pandas 2.2.2 API reference page for Series.dt.tz_localize, which localizes tz-naive datetime Series/Index objects to tz-aware ones (or removes timezone info by passing tz=None) without moving the time to another zone. The page documents the tz, ambiguous and nonexistent parameters, the return and error behavior, and gives examples for US/Eastern localization, removing timezones, inferring DST transitions, and shifting nonexistent times in Europe/Warsaw. Navigation menus and repeated boilerplate were ignored.",
+ "one_line": "pandas 2.2.2 API reference page describing Series.dt.tz_localize, which makes tz-naive datetimes timezone-aware and handles DST ambiguities.",
+ "key_facts": [
+  "Series.dt.tz_localize localizes tz-naive Datetime Array/Index to tz-aware Datetime Array/Index without moving the time to another time zone.",
+  "Passing tz=None to tz_localize removes time zone information while preserving local time.",
+  "The tz parameter accepts str, pytz.timezone, dateutil.tz.tzfile, datetime.tzinfo or None.",
+  "The ambiguous parameter defaults to 'raise' and accepts 'infer', 'NaT', or a bool array.",
+  "The nonexistent parameter defaults to 'raise' and accepts 'shift_forward', 'shift_backward', 'NaT', or a timedelta.",
+  "In Central European Time, 02:30:00 local time occurs both at 00:30:00 UTC and at 01:30:00 UTC during the DST fall-back transition.",
+  "Raises TypeError if the Datetime Array/Index is tz-aware and tz is not None.",
+  "The documented example localizes pd.date_range('2018-03-01 09:00', periods=3) to the US/Eastern time zone, giving offsets of -05:00.",
+  "With nonexistent='shift_forward', the time 2015-03-29 02:30:00 in Europe/Warsaw becomes 03:00:00+02:00.",
+  "With nonexistent=pd.Timedelta('1h'), the time 2015-03-29 02:30:00 in Europe/Warsaw becomes 03:30:00+02:00.",
+  "The page's see-also reference is DatetimeIndex.tz_convert, which converts tz-aware DatetimeIndex from one time zone to another.",
+  "The page was created with Sphinx 7.2.6 and built with the PyData Sphinx Theme 0.14.4 and is copyright 2024 pandas."
+ ],
+ "entities": [
+  {
+   "name": "pandas",
+   "type": "product",
+   "role": "Python data analysis library whose 2.2.2 documentation contains this page"
+  },
+  {
+   "name": "Series.dt.tz_localize",
+   "type": "product",
+   "role": "Method documented on this page that localizes tz-naive datetimes to tz-aware"
+  },
+  {
+   "name": "DatetimeIndex.tz_convert",
+   "type": "product",
+   "role": "Related method listed in the See also section for converting tz-aware DatetimeIndex between time zones"
+  },
+  {
+   "name": "US/Eastern",
+   "type": "place",
+   "role": "Time zone used in the example that localizes a DatetimeIndex"
+  },
+  {
+   "name": "CET",
+   "type": "place",
+   "role": "Central European Time zone used in the DST ambiguity example"
+  },
+  {
+   "name": "Europe/Warsaw",
+   "type": "place",
+   "role": "Time zone used in the nonexistent-time examples"
+  },
+  {
+   "name": "NumFOCUS, Inc.",
+   "type": "organization",
+   "role": "Organization credited in the copyright footer for pandas"
+  },
+  {
+   "name": "OVHcloud",
+   "type": "organization",
+   "role": "Company hosting the pandas documentation"
+  },
+  {
+   "name": "Sphinx",
+   "type": "product",
+   "role": "Documentation generator used to build the page (version 7.2.6)"
+  },
+  {
+   "name": "PyData Sphinx Theme",
+   "type": "product",
+   "role": "Theme used to build the page (version 0.14.4)"
+  }
+ ],
+ "tags": [
+  "pandas",
+  "timezone",
+  "datetime",
+  "api-reference",
+  "dst"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16740,
+  "output_tokens": 1325
+ }
+}

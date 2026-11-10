@@ -1,0 +1,64 @@
+{
+ "summary": "This Google Cloud documentation page is a code sample titled \"Query a Firestore collection with multiple eq filters.\" It shows how to chain multiple equality (eq) filters on a Firestore collection of cities, using examples in C#, Go, Java, Node.js, PHP, Python and Ruby. The page links to guides on compound queries and querying data in Cloud Firestore; most of the surrounding text is site navigation and boilerplate.",
+ "one_line": "Google Cloud Firestore code samples in seven languages showing how to chain multiple equality filters in a collection query.",
+ "key_facts": [
+  "The code sample is titled \"Query a Firestore collection with multiple eq filters\" and is part of Google Cloud's Firestore samples.",
+  "The C# sample queries db.Collection(\"cities\") with WhereEqualTo(\"State\", \"CA\") chained to WhereEqualTo(\"Name\", \"San Francisco\").",
+  "The Go sample builds denverQuery with Where(\"name\", \"==\", \"Denver\") chained to Where(\"state\", \"==\", \"CO\").",
+  "The Go sample caliQuery filters state equal to \"CA\" and population less than or equal to 1000000.",
+  "The Go sample query filters country equal to \"USA\" and population greater than 5000000.",
+  "The Java sample creates chainedQuery1 with whereEqualTo(\"state\", \"CO\") followed by whereEqualTo(\"name\", \"Denver\").",
+  "The Node.js sample chains where('state', '==', 'CO') with where('name', '==', 'Denver') on citiesRef.",
+  "The Node.js sample also filters where('state', '==', 'CA') with where('population', '<', 1000000).",
+  "The PHP sample chains ->where('state', '=', 'CA') with ->where('name', '=', 'San Francisco') on $citiesRef.",
+  "The Python sample uses FieldFilter(\"state\", \"==\", \"CO\") chained with FieldFilter(\"name\", \"==\", \"Denver\") to build denver_query.",
+  "The Python large_us_cities_query combines FieldFilter(\"state\", \"==\", \"CA\") with FieldFilter(\"population\", \">\", 1000000).",
+  "The Ruby sample chains where(\"state\", \"=\", \"CA\") with where(\"name\", \"=\", \"San Francisco\") into chained_query.",
+  "Each code sample notes that developers must set up Application Default Credentials to authenticate to Firestore.",
+  "The page content is licensed under the Creative Commons Attribution 4.0 License, and code samples under the Apache 2.0 License."
+ ],
+ "entities": [
+  {
+   "name": "Firestore",
+   "type": "product",
+   "role": "Google Cloud NoSQL document database whose collection queries are demonstrated in the samples"
+  },
+  {
+   "name": "Google Cloud",
+   "type": "organization",
+   "role": "Provider of the documentation page and the Firestore product"
+  },
+  {
+   "name": "Application Default Credentials",
+   "type": "program",
+   "role": "Authentication setup required before running the Firestore code samples"
+  },
+  {
+   "name": "Java",
+   "type": "product",
+   "role": "Programming language in which one sample is written; noted as a registered trademark of Oracle and/or its affiliates"
+  },
+  {
+   "name": "Oracle",
+   "type": "organization",
+   "role": "Holder of the Java registered trademark, per the page footer"
+  },
+  {
+   "name": "Google Cloud sample browser",
+   "type": "program",
+   "role": "Tool for searching and filtering code samples for other Google Cloud products"
+  }
+ ],
+ "tags": [
+  "firestore",
+  "google-cloud",
+  "queries",
+  "code-samples",
+  "equality-filters"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6743,
+  "output_tokens": 1196
+ }
+}

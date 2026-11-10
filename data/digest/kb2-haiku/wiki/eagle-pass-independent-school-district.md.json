@@ -1,0 +1,43 @@
+{
+ "summary": "This note is a short encyclopedia-style entry describing Eagle Pass Independent School District, a public school district based in Eagle Pass, Texas. It states that the district's boundaries parallel those of Maverick County. The note gives no further details such as enrollment, schools, or history.",
+ "one_line": "Eagle Pass Independent School District is a public school district in Eagle Pass, Texas, whose boundaries match Maverick County.",
+ "key_facts": [
+  "Eagle Pass Independent School District is a public school district.",
+  "Eagle Pass Independent School District is based in Eagle Pass, Texas, USA.",
+  "The boundaries of Eagle Pass Independent School District parallel those of Maverick County."
+ ],
+ "entities": [
+  {
+   "name": "Eagle Pass Independent School District",
+   "type": "organization",
+   "role": "public school district based in Eagle Pass, Texas, whose boundaries parallel Maverick County"
+  },
+  {
+   "name": "Eagle Pass",
+   "type": "place",
+   "role": "city in Texas where the school district is based"
+  },
+  {
+   "name": "Maverick County",
+   "type": "place",
+   "role": "county whose boundaries the school district parallels"
+  },
+  {
+   "name": "Texas",
+   "type": "place",
+   "role": "US state in which Eagle Pass is located"
+  }
+ ],
+ "tags": [
+  "education",
+  "school district",
+  "texas",
+  "maverick county",
+  "public schools"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1047,
+  "output_tokens": 453
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "summary": "The note describes the Palazzo Corner Spinelli, a palace in Venice, northern Italy. It sits on the Grand Canal in the sestiere of San Marco and stands directly across the canal from the Palazzo Querini Dubois. The note is brief and gives only location details.",
+ "one_line": "Palazzo Corner Spinelli is a Venetian palace on the Grand Canal in San Marco, facing the Palazzo Querini Dubois.",
+ "key_facts": [
+  "The Palazzo Corner Spinelli is a palace in Venice, northern Italy.",
+  "The Palazzo Corner Spinelli is located on the Grand Canal.",
+  "The Palazzo Corner Spinelli is in the sestiere of San Marco.",
+  "The Palazzo Corner Spinelli stands across the canal from the Palazzo Querini Dubois."
+ ],
+ "entities": [
+  {
+   "name": "Palazzo Corner Spinelli",
+   "type": "place",
+   "role": "palace in Venice, located on the Grand Canal in the sestiere of San Marco"
+  },
+  {
+   "name": "Palazzo Querini Dubois",
+   "type": "place",
+   "role": "palace across the Grand Canal from the Palazzo Corner Spinelli"
+  },
+  {
+   "name": "Grand Canal",
+   "type": "place",
+   "role": "canal on which the Palazzo Corner Spinelli is located"
+  },
+  {
+   "name": "San Marco",
+   "type": "place",
+   "role": "sestiere of Venice where the Palazzo Corner Spinelli is located"
+  },
+  {
+   "name": "Venice",
+   "type": "place",
+   "role": "city in northern Italy where the Palazzo Corner Spinelli is located"
+  }
+ ],
+ "tags": [
+  "venice",
+  "palaces",
+  "grand canal",
+  "architecture",
+  "san marco"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1070,
+  "output_tokens": 564
+ }
+}

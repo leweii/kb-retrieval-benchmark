@@ -1,0 +1,150 @@
+{
+ "summary": "The note traces the history and structure of the states (Länder) of Germany. It covers the origin of the term Länder in the Weimar Constitution of 1919, the failed and limited efforts to redraw state boundaries, and the district system (Kreise) used within states. It also summarizes Germany's federal tradition from the Holy Roman Empire through the German Confederation and Empire to the Nazi-era abolition of effective state autonomy.",
+ "one_line": "Overview of the history, naming, boundary changes, and district structure of Germany's federal states from the Weimar era onward.",
+ "key_facts": [
+  "The term Länder (Lands) dates back to the Weimar Constitution of 1919; before this the constituent states of the German Empire were called Staaten (States).",
+  "The term Bundesland is very common today but is not used officially, neither by the 1919 constitution nor by the Basic Law of 1949.",
+  "Bavaria (since 1919), Saxony (originally since 1919 and again since 1990), and Thuringia (since 1994) call themselves Freistaaten (Free States).",
+  "Hugo Preuss, the father of the Weimar Constitution, drafted a plan to divide the German Reich into 14 roughly equal-sized states, which was turned down.",
+  "Article 18 of the Weimar Constitution required three fifths of the votes handed in, and at least the majority of the population, to decide on a territorial alteration.",
+  "Before 1933 there were only four changes in the configuration of the German states, including the merger of the 7 Thuringian states in 1920.",
+  "Pyrmont joined Prussia in 1922, and Waldeck did so in 1929.",
+  "Every German state except the city-states of Berlin, Hamburg, and Bremen consists of Landkreise (rural districts), Kreisfreie Städte, or Kommunalverbände besonderer Art.",
+  "The Holy Roman Empire comprised more than 300 petty states around 1796.",
+  "After the Congress of Vienna (1815), 39 states formed the German Confederation.",
+  "The new German Empire included 25 states (three of them Hanseatic cities) and the imperial territory of Alsace-Lorraine.",
+  "Prussia controlled 65% of the territory and 62% of the population of the German Empire.",
+  "The remaining states were gradually de facto abolished and reduced to provinces under the Nazi regime via the Gleichschaltung process.",
+  "The states administratively were largely superseded by the Nazi Gau system."
+ ],
+ "entities": [
+  {
+   "name": "Weimar Constitution",
+   "type": "program",
+   "role": "1919 constitution that introduced the term Länder and set rules for territorial change in Article 18"
+  },
+  {
+   "name": "Basic Law",
+   "type": "program",
+   "role": "1949 constitution that does not officially use the term Bundesland"
+  },
+  {
+   "name": "Hugo Preuss",
+   "type": "person",
+   "role": "father of the Weimar Constitution who drafted a plan to divide the German Reich into 14 states"
+  },
+  {
+   "name": "Bavaria",
+   "type": "place",
+   "role": "Free State since 1919 and recipient of Coburg in the 1920 Thuringian merger"
+  },
+  {
+   "name": "Saxony",
+   "type": "place",
+   "role": "Free State, originally since 1919 and again since 1990"
+  },
+  {
+   "name": "Thuringia",
+   "type": "place",
+   "role": "Free State since 1994"
+  },
+  {
+   "name": "Hamburg",
+   "type": "place",
+   "role": "city-state and one of the Hanseatic cities"
+  },
+  {
+   "name": "Bremen",
+   "type": "place",
+   "role": "Free Hanseatic City and city-state consisting of two urban districts"
+  },
+  {
+   "name": "Berlin",
+   "type": "place",
+   "role": "city-state that is also an urban district"
+  },
+  {
+   "name": "Prussia",
+   "type": "place",
+   "role": "dominant state of the German Empire controlling 65% of territory; target of later breakup plans that failed"
+  },
+  {
+   "name": "Coburg",
+   "type": "place",
+   "role": "former state that opted for Bavaria during the 1920 Thuringian merger"
+  },
+  {
+   "name": "Pyrmont",
+   "type": "place",
+   "role": "former state that joined Prussia in 1922"
+  },
+  {
+   "name": "Waldeck",
+   "type": "place",
+   "role": "former state that joined Prussia in 1929"
+  },
+  {
+   "name": "Holy Roman Empire",
+   "type": "place",
+   "role": "earlier realm comprising more than 300 petty states around 1796"
+  },
+  {
+   "name": "German Confederation",
+   "type": "organization",
+   "role": "federation of 39 states formed after the Congress of Vienna in 1815"
+  },
+  {
+   "name": "North German Federation",
+   "type": "organization",
+   "role": "federation under Prussian hegemony that replaced the German Confederation after the Austro-Prussian War"
+  },
+  {
+   "name": "German Empire",
+   "type": "place",
+   "role": "state that included 25 states and the imperial territory of Alsace-Lorraine"
+  },
+  {
+   "name": "Alsace-Lorraine",
+   "type": "place",
+   "role": "imperial territory included in the German Empire"
+  },
+  {
+   "name": "Treaty of Versailles",
+   "type": "event",
+   "role": "treaty that caused territorial losses for Germany"
+  },
+  {
+   "name": "Gleichschaltung",
+   "type": "event",
+   "role": "Nazi process by which the states were de facto abolished and reduced to provinces"
+  },
+  {
+   "name": "Nazi Gau system",
+   "type": "program",
+   "role": "administrative system that largely superseded the states under Nazi rule"
+  },
+  {
+   "name": "Wilhelm of Prussia",
+   "type": "person",
+   "role": "King of Prussia crowned as German Emperor"
+  },
+  {
+   "name": "Franco-Prussian War",
+   "type": "event",
+   "role": "war of 1870–71 in which the remaining independent states allied with Prussia"
+  }
+ ],
+ "tags": [
+  "german states",
+  "federalism",
+  "weimar republic",
+  "constitutional history",
+  "administrative districts",
+  "germany"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 2312,
+  "output_tokens": 1830
+ }
+}

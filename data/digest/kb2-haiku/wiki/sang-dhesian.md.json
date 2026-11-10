@@ -1,0 +1,49 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Sang Dhesian, a village in Punjab, India. It places the village in Phillaar tahsil of Jalandhar district and notes that it is known for the Baba Sang ji Gurdwara.",
+ "one_line": "Sang Dhesian is a village in Phillaur tahsil, Jalandhar district, Punjab, India, known for the Baba Sang ji Gurdwara.",
+ "key_facts": [
+  "Sang Dhesian is also written as Dhesian Sang.",
+  "Sang Dhesian is a village in Phillaur tahsil of Jalandhar district.",
+  "Sang Dhesian is located in the Punjab state of India.",
+  "Sang Dhesian is known for the Baba Sang ji Gurdwara."
+ ],
+ "entities": [
+  {
+   "name": "Sang Dhesian",
+   "type": "place",
+   "role": "village in Phillaur tahsil of Jalandhar district, Punjab, India, known for Baba Sang ji Gurdwara"
+  },
+  {
+   "name": "Phillaur tahsil",
+   "type": "place",
+   "role": "tahsil (administrative subdivision) containing Sang Dhesian"
+  },
+  {
+   "name": "Jalandhar district",
+   "type": "place",
+   "role": "district of Punjab state containing Phillaur tahsil and Sang Dhesian"
+  },
+  {
+   "name": "Punjab",
+   "type": "place",
+   "role": "state of India where Jalandhar district and Sang Dhesian are located"
+  },
+  {
+   "name": "Baba Sang ji Gurdwara",
+   "type": "place",
+   "role": "gurdwara (Sikh place of worship) for which Sang Dhesian is known"
+  }
+ ],
+ "tags": [
+  "punjab",
+  "india",
+  "village",
+  "gurdwara",
+  "jalandhar district"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1051,
+  "output_tokens": 566
+ }
+}

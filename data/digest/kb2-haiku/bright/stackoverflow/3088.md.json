@@ -1,0 +1,75 @@
+{
+ "summary": "A GitHub issue (#3088) in the Npgsql repository, opened by OoLunar on July 28, 2020, reports that NpgsqlCommand.ExecuteNonQuery appeared to freeze with no output when a parameter of type Text was set to a ulong value. Maintainers roji and YohDeadfall tried to reproduce it; roji found the real cause was a type mismatch (Can't write CLR type System.Int64 with handler type TextHandler), which a ToString() on the value fixed. OoLunar closed the issue as completed, and a debugger stack trace later showed the exception, suggesting a try-catch elsewhere in the project (possibly Discord.NET) had hidden it.",
+ "one_line": "GitHub issue in the Npgsql repo where ExecuteNonQuery seemed to hang, later traced to a Text parameter receiving a ulong value.",
+ "key_facts": [
+  "GitHub issue #3088 in the npgsql/npgsql repository was opened by OoLunar on Jul 28, 2020 and titled 'ExecuteNonQuery freezes with no output in DEBUG output (Possibly due to syntax error?)'.",
+  "The issue was closed as completed by OoLunar on Jul 28, 2020.",
+  "OoLunar reported Npgsql version 4.1.4, PostgreSQL version 12.0, and operating systems Windows 10 (Client) and Debian 10 (Host).",
+  "The reported code froze at Command.ExecuteNonQuery() on a SELECT query with a parameter 'guildID' of type NpgsqlDbType.Text.",
+  "YohDeadfall suggested the table might have many records without an index or primary key, and recommended bigint instead of text for guild_id for performance reasons.",
+  "OoLunar stated the guild_id column had a UNIQUE constraint and the database was fresh with 1 record.",
+  "roji could not reproduce the freeze with a clean sample using a TEXT guild_id column and a ulong value converted with ToString().",
+  "roji reported that after cleaning up the sample, the error was \"Can't write CLR type System.Int64 with handler type TextHandler\" because the Text parameter was set to a ulong value.",
+  "roji stated that adding a ToString on the parameter value made the sample work, printing 466356954865074176, Here 1, and Here 2.",
+  "OoLunar said they had never received the type casting error and apologized for wasting time.",
+  "YohDeadfall asked whether a try-catch might hide the error and suggested stopping the debugger when the app hangs to show the stack trace.",
+  "After running the project through the VSC debugger, OoLunar reported that the exception showed clearly.",
+  "OoLunar suspected the project's use of Discord.NET might be catching errors and said the problem was no longer an Npgsql issue but a lack of debugging.",
+  "The issue had 3 participants: roji, YohDeadfall, and OoLunar."
+ ],
+ "entities": [
+  {
+   "name": "Npgsql",
+   "type": "product",
+   "role": "the .NET PostgreSQL data provider whose repository hosts the issue; NpgsqlCommand.ExecuteNonQuery is the method that appeared to freeze"
+  },
+  {
+   "name": "OoLunar",
+   "type": "person",
+   "role": "issue author who reported the ExecuteNonQuery freeze and later closed the issue as completed"
+  },
+  {
+   "name": "YohDeadfall",
+   "type": "person",
+   "role": "contributor who suggested a missing index, recommended bigint over text, and asked about try-catch and stack traces"
+  },
+  {
+   "name": "roji",
+   "type": "person",
+   "role": "member who could not reproduce the freeze and identified the type mismatch error"
+  },
+  {
+   "name": "Discord.NET",
+   "type": "product",
+   "role": "library used in OoLunar's project, suspected of catching errors that hid the exception"
+  },
+  {
+   "name": "PostgreSQL",
+   "type": "product",
+   "role": "database server; version 12.0 was reported by OoLunar"
+  },
+  {
+   "name": "Tomoe",
+   "type": "product",
+   "role": "OoLunar's project repository, referenced for the PreparedStatements.cs and MutedRole.cs code"
+  },
+  {
+   "name": "GitHub",
+   "type": "organization",
+   "role": "platform hosting the npgsql/npgsql repository and issue #3088"
+  }
+ ],
+ "tags": [
+  "npgsql",
+  "postgresql",
+  "dotnet",
+  "parameter-types",
+  "debugging",
+  "github-issue"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7997,
+  "output_tokens": 1418
+ }
+}

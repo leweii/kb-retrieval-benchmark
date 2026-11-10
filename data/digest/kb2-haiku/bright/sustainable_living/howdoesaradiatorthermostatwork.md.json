@@ -1,0 +1,71 @@
+{
+ "summary": "A UK Radiators blog how-to explaining the two main ways to control radiator temperature: thermostatic radiator valves (TRVs) and smart radiator valves. It describes how TRVs shut off hot water to a single radiator once the room reaches the set temperature, including a frost prevention mode, and how smart valves learn occupancy patterns via motion sensors. The page is mostly promotional, with boilerplate navigation, product ads and related-post links removed.",
+ "one_line": "Explains how thermostatic and smart radiator valves control room temperature, and where TRVs should not be installed.",
+ "key_facts": [
+  "The article says there are two ways to control radiator temperature: thermostatic radiator valves (also known as TRVs) and a smart thermostat that can control radiators individually.",
+  "Thermostatic radiator valves use mechanisms, sometimes using liquid or wax, that shut off the flow of hot water to a specific radiator when the room temperature reaches the desired level.",
+  "Thermostatic radiator valves do not interact with the boiler directly but heat radiators quicker by shutting off the water supply earlier.",
+  "The article states that TRVs mean the boiler switches off quicker, saving money, reducing the carbon footprint and reaching the desired comfort level.",
+  "Good thermostatic radiator valves have a frost prevention mode that detects when room temperature drops below a certain level and reopens the valve slightly.",
+  "The frost prevention mode is said to prevent radiators and pipes from freezing, becoming damaged and potentially bursting.",
+  "The article advises that TRVs shouldn't be installed in bathrooms, due to frequent temperature changes, or in rooms where the boiler thermostat is located.",
+  "Smart radiator valves can replace the heads of thermostatic radiator valves and use motion sensors to detect people in the space.",
+  "A smart radiator valve learns the times of day the user needs the room to be warm and turns the valve on and off accordingly.",
+  "The temperature the room should be at is still set by the user with smart radiator valves.",
+  "To have the ultimate control, the article says a full set of heating controls is needed, including a smart thermostat panel and a set of smart radiator thermostats.",
+  "The article's example smart thermostat product is the Salus iT600 Smart Home Smart Thermostat VS20WRF.",
+  "The example TRV product shown is the Talus Flair - White Thermostatic Radiator Valve.",
+  "The page directs readers to The Ultimate Guide to Radiator Valves for more on their choices.",
+  "The seller UK Radiators is based at Unit C, Caxton Court, Newcomen Way, Severalls Industrial Park, Colchester, CO4 9TG."
+ ],
+ "entities": [
+  {
+   "name": "UK Radiators",
+   "type": "organization",
+   "role": "online seller of radiators and heating products that publishes the article and promotes its own TRVs and heating controls"
+  },
+  {
+   "name": "Thermostatic radiator valves (TRVs)",
+   "type": "product",
+   "role": "valves that shut off hot water to an individual radiator when the room reaches the desired temperature"
+  },
+  {
+   "name": "Smart radiator valves",
+   "type": "product",
+   "role": "valves that replace thermostatic heads, use motion sensors and learn when the room should be warm"
+  },
+  {
+   "name": "Talus Flair - White Thermostatic Radiator Valve",
+   "type": "product",
+   "role": "example TRV product image shown in the article"
+  },
+  {
+   "name": "Salus iT600 Smart Home Smart Thermostat VS20WRF",
+   "type": "product",
+   "role": "example smart thermostat panel shown in the article"
+  },
+  {
+   "name": "The Ultimate Guide to Radiator Valves",
+   "type": "other",
+   "role": "related UK Radiators blog post recommended for learning about valve choices"
+  },
+  {
+   "name": "Trident central heating inhibitors and additives",
+   "type": "product",
+   "role": "products advertised in the page footer section, not part of the article's main explanation"
+  }
+ ],
+ "tags": [
+  "radiators",
+  "thermostatic radiator valves",
+  "smart heating",
+  "home heating",
+  "energy saving",
+  "central heating"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7329,
+  "output_tokens": 1307
+ }
+}

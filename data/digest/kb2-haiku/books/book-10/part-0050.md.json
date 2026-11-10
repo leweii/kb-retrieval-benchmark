@@ -1,0 +1,74 @@
+{
+ "summary": "An excerpt from a fiction book (Book 10, part 50) in which Greg, a Google employee, is confronted in his kitchen by a pudgy, pale man who claims to work for a DC firm employed by Google. Greg threatens to go to the press with a write-up, but the man dismisses this, suggests the paper would not find a confirming source, and offers Greg a job on a team to take over a flawed program called googlecleaner. The man pitches money, meaningful work, and a role in political life, which Greg rejects as an attempt to get him to smear political candidates.",
+ "one_line": "Greg, a Google employee, refuses a kitchen-table job offer from a DC operative who wants him to smear political candidates.",
+ "key_facts": [
+  "Greg is confronted in a kitchen by a man who says \"I'm not a cop\" and says he works for a DC firm in Google's employ.",
+  "The man describes his DC firm as \"The inventors of swiftboating.\"",
+  "Greg says \"I'll go to the press\" and that he has \"written this all up.\"",
+  "The man says the Chronicle would \"try to find a confirming source\" and claims \"They won't find it.\"",
+  "The man tells Greg his profile \"looks just like it looked the day you landed at SFO.\"",
+  "The man says \"I'm in the win-win business\" and claims to be billing Google for the meeting.",
+  "The man advises rinsing the beans before grinding to \"take some of the bitterness out and brings up the oils.\"",
+  "The man takes off his jacket, rolls up his cuffs, and slips a cheap digital watch into his pocket before working at the sink.",
+  "The man says \"We're drafting a team for Building 49,\" and Greg replies \"There is no building 49.\"",
+  "The team is to have \"its own buginizer, to own googlecleaner.\"",
+  "The man says \"Maya's code wasn't very efficient\" and that every run of it \"clobbers the whole farm.\"",
+  "The man offers \"money,\" \"good work,\" \"smart colleagues,\" and \"A chance to participate in the political life of your country.\"",
+  "Greg responds \"You're on crack\" and refuses to help.",
+  "Greg concludes that if the man thinks he will \"smear political candidates in exchange for favors, you're even crazier than I thought.\""
+ ],
+ "entities": [
+  {
+   "name": "Greg",
+   "type": "person",
+   "role": "Google employee confronted in the kitchen and offered a job; refuses and threatens to go to the press"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "employer of Greg; the firm the man's DC firm works for"
+  },
+  {
+   "name": "DC firm",
+   "type": "organization",
+   "role": "firm employed by Google, described as the inventors of swiftboating; the man's employer"
+  },
+  {
+   "name": "Chronicle",
+   "type": "organization",
+   "role": "newspaper Greg threatens to take his write-up to"
+  },
+  {
+   "name": "Building 49",
+   "type": "place",
+   "role": "non-existent building named by the man as the location for a new team"
+  },
+  {
+   "name": "googlecleaner",
+   "type": "program",
+   "role": "flawed program the new team would take ownership of, with its own buginizer"
+  },
+  {
+   "name": "Maya",
+   "type": "person",
+   "role": "author of googlecleaner's code, described as inefficient and buggy"
+  },
+  {
+   "name": "SFO",
+   "type": "place",
+   "role": "airport where Greg landed, referenced as the baseline for his profile"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "thriller",
+  "google",
+  "political intrigue",
+  "recruitment"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1899,
+  "output_tokens": 1124
+ }
+}

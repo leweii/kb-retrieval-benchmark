@@ -1,0 +1,59 @@
+{
+ "summary": "A narrator, communicating through encrypted messages with a contact called Wheeze, learns that their friend Wilson has been detained in connection with a terrorism investigation, and that Zip was detained too. The narrator, who had used a campus computer lab with limited surveillance, reflects on Wilson as a harmless, clumsy 'doofus' whose past trouble was minor, such as the gourmet pickle incident, and therefore finds the charge hard to believe. The narrator suspects Zip, an older take-charge figure who lives with Wheeze's family, of being a 'rat' and wonders whether the messages can be trusted.",
+ "one_line": "A narrator learns through encrypted messages that friend Wilson has been detained in a terrorism investigation, and suspects Zip of betrayal.",
+ "key_facts": [
+  "The narrator had used a campus computer lab once after forgetting a power cord and never went back there again.",
+  "The student worker told the narrator that the campus lacked budget to cover the whole campus, leaving a handful of spots surveillance-free, including that lab.",
+  "The narrator's messages to Wheeze used end-to-end encryption and an open source program that everyone on the Group vouched for.",
+  "The narrator checked the program's code line by line.",
+  "Wheeze messaged that Wilson was \"detained in connection with a ter- rorism investigation.\"",
+  "Wilson was described as a friendly doofus whose biggest problem was that he wanted everyone to like him.",
+  "Wilson once had $600 worth of gourmet pickles explode across a fancy grocery store floor after bumping into a display while goofing off with friends.",
+  "The narrator said Wilson \"wasn't smart enough\" to be a terrorist and \"wasn't a terrorist.\"",
+  "Wheeze wrote that Zip had also been detained.",
+  "The narrator typed \"He's a rat\" to Wheeze, first deleting a draft version before retyping it.",
+  "Zip had crashed on a couch at Wheeze's house after a protest and had been living there ever since.",
+  "Zip was older than Wilson and was a more take-charge kind of guy.",
+  "Everybody loved Zip, according to the narrator.",
+  "Wheeze was running through everything Zip had said and done, as the narrator had done weeks earlier."
+ ],
+ "entities": [
+  {
+   "name": "Wilson",
+   "type": "person",
+   "role": "friend of the narrator, described as a clumsy, friendly doofus who was detained in a terrorism investigation"
+  },
+  {
+   "name": "Wheeze",
+   "type": "person",
+   "role": "contact receiving and sending encrypted messages with the narrator, who reports Wilson's and Zip's detentions"
+  },
+  {
+   "name": "Zip",
+   "type": "person",
+   "role": "older, take-charge friend who lived on a couch at Wheeze's house after a protest, detained and suspected by the narrator of being a rat"
+  },
+  {
+   "name": "the Group",
+   "type": "organization",
+   "role": "group whose members vouched for the open source encryption program used for messages"
+  },
+  {
+   "name": "campus student lab",
+   "type": "place",
+   "role": "campus computer lab with a student worker, one of a few spots without surveillance, where the narrator once used a computer"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "encryption",
+  "detention",
+  "friendship",
+  "suspicion"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1904,
+  "output_tokens": 1047
+ }
+}

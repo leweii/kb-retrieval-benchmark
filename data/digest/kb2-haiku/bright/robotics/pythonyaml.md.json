@@ -1,0 +1,106 @@
+{
+ "summary": "This Real Python tutorial teaches working with YAML in Python using the third-party PyYAML library, since Python has no built-in YAML support. It opens with a crash course covering YAML's history relative to XML and JSON, its practical uses in DevOps tools, its syntax, and unique features like tags, anchors, aliases, and block scalars. It then covers installing PyYAML, serializing Python data via JSON, and reading and writing YAML documents.",
+ "one_line": "A Real Python tutorial on reading, writing, and parsing YAML in Python with PyYAML, including a YAML crash course.",
+ "key_facts": [
+  "Python lacks built-in support for the YAML data format, which is commonly used for configuration and serialization.",
+  "YAML stands for YAML Ain't Markup Language, a recursive acronym; the original draft defined it as Yet Another Markup Language.",
+  "Starting from YAML 1.2, the format officially became a strict superset of JSON.",
+  "YAML's specification forbids using tabs for indentation and considers their use a syntax error.",
+  "JSON is the only one of XML, JSON, and YAML that doesn't support comments.",
+  "Ansible, Docker Compose, and Kubernetes are listed as tools that use YAML for configuration.",
+  "In YAML 1.1 (used by PyYAML), a literal like 59:59 is interpreted as the integer 3599.",
+  "YAML 1.2 dropped support for literals such as yes and no as booleans.",
+  "Anchors are declared with the ampersand (&) symbol and dereferenced with the asterisk (*) symbol.",
+  "The merge key (<<) lets an object inherit attributes from other objects while adding or overriding properties.",
+  "The pipe (|) block scalar indicator preserves newlines literally, while the greater than sign (>) indicator folds lines.",
+  "PyYAML is written in pure Python but most distributions bundle a compiled C binding for the LibYAML library that makes it run much faster.",
+  "To check for the C binding, run import yaml and then yaml.__with_libyaml__, which returns True when it is present.",
+  "The tutorial recommends ruamel.yaml for YAML 1.2 features and round-trip parsing that preserves comments, and StrictYAML for type safety and schema validation.",
+  "The yaml.safe_load() function is the quickest way to deserialize a YAML string into a Python dictionary."
+ ],
+ "entities": [
+  {
+   "name": "PyYAML",
+   "type": "program",
+   "role": "Python's most popular third-party YAML library, used throughout the tutorial for reading and writing YAML."
+  },
+  {
+   "name": "Real Python",
+   "type": "organization",
+   "role": "Publisher of the tutorial and of the related video course on YAML."
+  },
+  {
+   "name": "Bartosz Zaczyński",
+   "type": "person",
+   "role": "Author of the related video course 'YAML: Python's Missing Battery'."
+  },
+  {
+   "name": "Ansible",
+   "type": "program",
+   "role": "DevOps tool that uses YAML to describe remote infrastructure state and orchestrate IT processes."
+  },
+  {
+   "name": "Docker Compose",
+   "type": "program",
+   "role": "Tool that uses YAML to describe the microservices of a Dockerized application."
+  },
+  {
+   "name": "Kubernetes",
+   "type": "program",
+   "role": "Tool that uses YAML to define objects in a computer cluster for orchestration and management."
+  },
+  {
+   "name": "ruamel.yaml",
+   "type": "program",
+   "role": "Library derived from an older PyYAML version, suggested for YAML 1.2 features and round-trip parsing."
+  },
+  {
+   "name": "StrictYAML",
+   "type": "program",
+   "role": "Library that restricts the YAML specification for type safety and schema validation, though slower."
+  },
+  {
+   "name": "yamllint",
+   "type": "program",
+   "role": "Command-line linter for YAML that checks syntax."
+  },
+  {
+   "name": "yq",
+   "type": "program",
+   "role": "Command-line YAML processor based on jq, for filtering data."
+  },
+  {
+   "name": "shyaml",
+   "type": "program",
+   "role": "Alternative command-line YAML processor."
+  },
+  {
+   "name": "LibYAML",
+   "type": "program",
+   "role": "Shared C library that PyYAML can use through a compiled binding to run faster."
+  },
+  {
+   "name": "YAML",
+   "type": "other",
+   "role": "Data serialization format the tutorial teaches, a strict superset of JSON from version 1.2."
+  },
+  {
+   "name": "Perl",
+   "type": "program",
+   "role": "Scripting language whose three fundamental data structures YAML shares."
+  }
+ ],
+ "tags": [
+  "yaml",
+  "python",
+  "pyyaml",
+  "serialization",
+  "configuration",
+  "tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11987,
+  "output_tokens": 1454
+ }
+}

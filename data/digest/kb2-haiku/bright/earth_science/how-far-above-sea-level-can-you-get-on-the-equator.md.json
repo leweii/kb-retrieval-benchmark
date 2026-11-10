@@ -1,0 +1,78 @@
+{
+ "summary": "A Stack Exchange Earth Science question asks how high above sea level one can get exactly on the equator; the asker guessed a mountain in the Ecuadorian Andes or the Kenyan highlands. The first answer identifies a point at 4,690 m on the southern slopes of Volcán Cayambe in Ecuador as the highest point on the equator, noted as the only place on the equator where snow lies on the ground. The second answer names Mount Kenya (about 5,000 m), Mount Kinabalu in Borneo (about 4,000 m) and Kilimanjaro (about 6,000 m, but farther from the equator). A comment notes that Chimborazo, at 1° 28' N, would be the highest point if the question meant near the equator rather than exactly on it.",
+ "one_line": "A Stack Exchange thread asking the highest point at sea level exactly on the equator, with answers naming Cayambe in Ecuador and other equatorial peaks.",
+ "key_facts": [
+  "The question on Earth Science Stack Exchange asks how far above sea level one can get exactly on the equator.",
+  "The asker guessed a mountain in the Ecuadorian Andes or the Kenyan highlands might be the highest point.",
+  "The first answer states the highest point on the Equator is at an elevation of 4,690 metres (15,387 ft).",
+  "That point is at 0°0′0″N 77°59′31″W, on the southern slopes of Volcán Cayambe in Ecuador.",
+  "Volcán Cayambe has a summit of 5,790 metres (18,996 ft), according to the first answer.",
+  "The first answer says the 4,690 m point is slightly above the snow line and is the only place on the Equator where snow lies on the ground.",
+  "A comment states that if the question meant near the equator, the answer would be Chimborazo, which is at 1° 28' N.",
+  "The second answer says Mount Kenya is more or less on the equator and is about 5,000 metres above sea level.",
+  "The second answer says Mount Kinabalu in northern Borneo (Malaysia) is on the equator but only 4,000 metres high.",
+  "The second answer says Kilimanjaro in Tanzania is about 6,000 metres but is further from the equator than Mount Kenya.",
+  "A comment suggests downloading a free DEM from gisgeography.com as a way to find elevation data.",
+  "The question was asked on June 30, 2019 and had been viewed 328 times at the time of capture."
+ ],
+ "entities": [
+  {
+   "name": "Earth Science Stack Exchange",
+   "type": "organization",
+   "role": "Q&A community where the question was posted"
+  },
+  {
+   "name": "Volcán Cayambe",
+   "type": "place",
+   "role": "mountain whose southern slopes hold the highest point on the Equator, at a summit of 5,790 metres"
+  },
+  {
+   "name": "Ecuador",
+   "type": "place",
+   "role": "country where Volcán Cayambe is located"
+  },
+  {
+   "name": "Chimborazo",
+   "type": "place",
+   "role": "peak at 1° 28' N, cited in a comment as the answer if the question meant near the equator"
+  },
+  {
+   "name": "Mount Kenya",
+   "type": "place",
+   "role": "peak more or less on the equator, about 5,000 metres high"
+  },
+  {
+   "name": "Mount Kinabalu",
+   "type": "place",
+   "role": "peak on the equator in northern Borneo (Malaysia), 4,000 metres high"
+  },
+  {
+   "name": "Kilimanjaro",
+   "type": "place",
+   "role": "peak in Tanzania, about 6,000 metres, further from the equator than Mount Kenya"
+  },
+  {
+   "name": "Kenyan highlands",
+   "type": "place",
+   "role": "region the asker suggested as a candidate for the highest equatorial point"
+  },
+  {
+   "name": "gisgeography.com",
+   "type": "program",
+   "role": "website offering a free global DEM data source mentioned in a comment"
+  }
+ ],
+ "tags": [
+  "geography",
+  "equator",
+  "elevation",
+  "mountains",
+  "stack exchange",
+  "earth science"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 4109,
+  "output_tokens": 1262
+ }
+}

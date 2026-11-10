@@ -1,0 +1,94 @@
+{
+ "summary": "A GNOME Discourse forum thread where a user asks how to get the full path of a file selected in a GTK4 C file chooser dialog, since gtk_file_chooser_get_current_name asserts when used in OPEN mode and crashes the app. Another user suggests gtk_file_chooser_get_filename, and a link is shared to a GTK3-oriented guide, which the user notes does not fit GTK4. The user eventually solves it by using gtk_file_chooser_get_file and g_file_get_path in the response handler, then the topic was auto-closed after 30 days of inactivity.",
+ "one_line": "Forum thread on retrieving the full path of a file chosen in a GTK4 C file chooser dialog, solved with gtk_file_chooser_get_file and g_file_get_path.",
+ "key_facts": [
+  "The user's crash message was a Gtk-CRITICAL assertion in gtk_file_chooser_widget_get_current_name stating impl->action == GTK_FILE_CHOOSER_ACTION_SAVE failed.",
+  "The user's program then terminated with std::logic_error and the message basic_string::_M_construct null not valid.",
+  "The user's dialog was created with the action GTK_FILE_CHOOSER_ACTION_OPEN and the response handler was on_open_response.",
+  "The user's original code used gtk_file_chooser_get_current_name, which is intended for save dialogs.",
+  "gusnan (Andreas Rönnquist) suggested using gtk_file_chooser_get_filename on the dialog in the on_open_response function, noting he had not tested it.",
+  "gusnan noted that the referenced code reacted to GTK_RESPONSE_OK rather than GTK_RESPONSE_ACCEPT, so behavior might differ.",
+  "Stefan Salewski pointed to his guide at ssalewski.de/gtkprogramming.html#_filechooserdialog for getting the full name and path.",
+  "The user replied that Salewski's solution was probably from GTK3 and that they needed GTK4.",
+  "Emmanuele Bassi suggested the 'Getting Started' tutorial on developer.gnome.org, which has a section on opening a file and reading its contents.",
+  "The user's final solution used g_autoptr (GFile) file = gtk_file_chooser_get_file(GTK_FILE_CHOOSER(dialog)).",
+  "The user's final solution converted the path with g_file_get_path(file) and stored it in a std::string.",
+  "The user's final solution displayed the resulting path by calling gtk_label_set_text on the label.",
+  "The topic was automatically closed on December 3, 2022, 30 days after the last reply."
+ ],
+ "entities": [
+  {
+   "name": "GNOME Discourse",
+   "type": "organization",
+   "role": "forum platform hosting the thread"
+  },
+  {
+   "name": "fik236",
+   "type": "person",
+   "role": "original poster asking how to get the file name with full path"
+  },
+  {
+   "name": "gusnan (Andreas Rönnquist)",
+   "type": "person",
+   "role": "replier who suggested gtk_file_chooser_get_filename"
+  },
+  {
+   "name": "StefanSalewski (Stefan Salewski)",
+   "type": "person",
+   "role": "replier who pointed to his GTK guide on file chooser dialogs"
+  },
+  {
+   "name": "ebassi (Emmanuele Bassi)",
+   "type": "person",
+   "role": "replier who recommended the Getting Started tutorial on developer.gnome.org"
+  },
+  {
+   "name": "gtk_file_chooser_get_current_name",
+   "type": "program",
+   "role": "function the user originally called, which triggered the save-action assertion"
+  },
+  {
+   "name": "gtk_file_chooser_get_filename",
+   "type": "program",
+   "role": "function suggested by gusnan as an alternative"
+  },
+  {
+   "name": "gtk_file_chooser_get_file",
+   "type": "program",
+   "role": "function used in the accepted solution to get a GFile"
+  },
+  {
+   "name": "g_file_get_path",
+   "type": "program",
+   "role": "function used in the accepted solution to get the full path string"
+  },
+  {
+   "name": "on_open_response",
+   "type": "program",
+   "role": "response callback in the user's code that handles the dialog result"
+  },
+  {
+   "name": "GTK4",
+   "type": "product",
+   "role": "GUI toolkit version the user needed the solution for"
+  },
+  {
+   "name": "Getting Started tutorial",
+   "type": "program",
+   "role": "documentation on developer.gnome.org about opening and reading files"
+  }
+ ],
+ "tags": [
+  "gtk4",
+  "c",
+  "file-chooser",
+  "gtk",
+  "forum-thread",
+  "gnome"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3311,
+  "output_tokens": 1439
+ }
+}

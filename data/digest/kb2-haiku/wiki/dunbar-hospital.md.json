@@ -1,0 +1,44 @@
+{
+ "summary": "The note describes Dunbar Hospital, which was the first hospital serving the black community in Detroit, Michigan. The building is at 580 Frederick Street and now serves as the administrative headquarters of the Detroit Medical Society. It was listed on the National Register of Historic Places in 1979.",
+ "one_line": "Dunbar Hospital was Detroit's first hospital for the black community, now the Detroit Medical Society's headquarters and a 1979 NRHP listing.",
+ "key_facts": [
+  "Dunbar Hospital was the first hospital for the black community in Detroit, Michigan.",
+  "Dunbar Hospital is located at 580 Frederick Street.",
+  "Dunbar Hospital is currently the administrative headquarters of the Detroit Medical Society.",
+  "Dunbar Hospital was listed on the National Register of Historic Places in 1979."
+ ],
+ "entities": [
+  {
+   "name": "Dunbar Hospital",
+   "type": "place",
+   "role": "first hospital for the black community in Detroit, Michigan; located at 580 Frederick Street"
+  },
+  {
+   "name": "Detroit Medical Society",
+   "type": "organization",
+   "role": "current occupant of Dunbar Hospital, using it as administrative headquarters"
+  },
+  {
+   "name": "National Register of Historic Places",
+   "type": "program",
+   "role": "listed Dunbar Hospital in 1979"
+  },
+  {
+   "name": "Detroit, Michigan",
+   "type": "place",
+   "role": "city where Dunbar Hospital is located"
+  }
+ ],
+ "tags": [
+  "detroit",
+  "hospitals",
+  "african american history",
+  "historic places",
+  "michigan"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1078,
+  "output_tokens": 512
+ }
+}

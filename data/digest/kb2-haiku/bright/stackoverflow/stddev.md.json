@@ -1,0 +1,60 @@
+{
+ "summary": "This is a reference page for the Snowflake SQL function STDDEV (alias STDDEV_SAMP), which returns the sample standard deviation of non-NULL values and returns DOUBLE. It covers aggregate and window function syntax, usage notes (NULL for single records, implicit VARCHAR casting, window frame rules), and examples using a small integer table and a food-truck menu_items table. The page includes the SQL to create and load the menu_items table with 60 rows.",
+ "one_line": "Reference page for the SQL STDDEV/STDDEV_SAMP functions, covering syntax, usage notes, and worked examples.",
+ "key_facts": [
+  "STDDEV and STDDEV_SAMP are aliases for the same function that returns the sample standard deviation of non-NULL values.",
+  "The data type of the value returned by STDDEV is DOUBLE.",
+  "If all records inside a group are NULL, STDDEV returns NULL.",
+  "For single-record inputs, STDDEV and STDDEV_SAMP both return NULL, unlike Oracle where STDDEV returns 0.",
+  "When passed a VARCHAR expression, STDDEV implicitly casts the input to floating point values and returns an error if the cast cannot be performed.",
+  "When STDDEV is a window function with an ORDER BY clause in the OVER clause, the DISTINCT keyword is prohibited and causes a SQL compilation error.",
+  "When STDDEV is a window function with an ORDER BY clause and no window frame is specified, an implied cumulative window frame RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW is used.",
+  "In the example with integers 6, 10 and 14, STDDEV(c1) returns 4.",
+  "STDDEV_SAMP returns the same result as STDDEV for the integers 6, 10 and 14, which is 4.",
+  "For the Dessert rows of the menu_items table, STDDEV_COGS is 1.00519484 and STDDEV_PRICE is 1.471960144.",
+  "In the window function example, the standard deviation of menu_cogs_usd for the Beverage category is 0.1258305738.",
+  "The menu_items table contains 60 rows and is based on, but not identical to, the menu table in the Tasty Bytes sample database.",
+  "The menu_items table has columns menu_id, menu_category, menu_item_name, menu_cogs_usd NUMBER(7,2) and menu_price_usd NUMBER(7,2).",
+  "The menu_items rows for Mini Pizza and Large Pizza have NULL cogs and price values."
+ ],
+ "entities": [
+  {
+   "name": "STDDEV",
+   "type": "program",
+   "role": "aggregate and window SQL function returning the sample standard deviation, documented on this page"
+  },
+  {
+   "name": "STDDEV_SAMP",
+   "type": "program",
+   "role": "alias of STDDEV that returns the same sample standard deviation"
+  },
+  {
+   "name": "Oracle",
+   "type": "product",
+   "role": "database whose STDDEV_SAMP returns NULL for a single record and whose STDDEV returns 0"
+  },
+  {
+   "name": "menu_items",
+   "type": "program",
+   "role": "example table listing food-truck items with category, COGS and sale price, used in the examples"
+  },
+  {
+   "name": "Tasty Bytes sample database",
+   "type": "program",
+   "role": "sample database on which the menu table that menu_items is based on appears"
+  }
+ ],
+ "tags": [
+  "sql",
+  "aggregate functions",
+  "standard deviation",
+  "window functions",
+  "statistics",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6186,
+  "output_tokens": 1133
+ }
+}

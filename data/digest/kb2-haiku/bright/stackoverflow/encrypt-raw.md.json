@@ -1,0 +1,66 @@
+{
+ "summary": "This is Snowflake's reference page for the ENCRYPT_RAW function, which encrypts a BINARY value using a BINARY key. It documents the syntax, the required and optional arguments (value, key, initialization vector, additional authenticated data, and encryption method), the VARIANT return structure, usage notes, and two examples showing encryption and decryption with DECRYPT_RAW. The page also notes that the example stores keys and IVs in the table, which is insecure and should not be done in practice.",
+ "one_line": "Snowflake reference for ENCRYPT_RAW, which encrypts a BINARY value with a BINARY key using modes such as AES-GCM, including its arguments, return format, and examples.",
+ "key_facts": [
+  "ENCRYPT_RAW encrypts a BINARY value using a BINARY key.",
+  "For AES128 the key must be 128 bits (16 bytes), and for AES256 the key must be 256 bits (32 bytes).",
+  "For GCM, the initialization vector (IV) must be 96 bits (12 bytes), although Snowflake currently only supports 96 bits.",
+  "For CCM, the IV should be 56 bits (7 bytes), and for ECB the IV parameter is unneeded.",
+  "For all other supported encryption modes, the IV should be 128 bits (16 bytes).",
+  "If the IV parameter is set to NULL, the implementation chooses a new pseudo-random IV during each call.",
+  "Additional authenticated data (AAD) is authenticated but not encrypted, and decryption fails if the AAD does not match the value passed during encryption.",
+  "For ENCRYPT_RAW and DECRYPT_RAW, the data type of the AAD should be BINARY.",
+  "The default encryption method is 'AES-GCM', and if the mode is not specified GCM is used.",
+  "The padding is PKCS by default, and padding applies only to ECB and CBC modes.",
+  "The function returns a VARIANT containing two or three BINARY fields: the IV, the ciphertext, and, for AEAD modes, the AEAD tag.",
+  "To decrypt data encrypted by ENCRYPT_RAW(), use DECRYPT_RAW(), not DECRYPT().",
+  "The functions use a FIPS-compliant cryptographic library.",
+  "The example's encryption key is derived with SHA2_BINARY('NotSecretEnough', 256), and the example's binary value is 'Bonjour'.",
+  "The example's UPDATE statement reported 1 row updated and 0 multi-joined rows updated."
+ ],
+ "entities": [
+  {
+   "name": "ENCRYPT_RAW",
+   "type": "program",
+   "role": "Snowflake function that encrypts a BINARY value using a BINARY key, the subject of this page"
+  },
+  {
+   "name": "DECRYPT_RAW",
+   "type": "program",
+   "role": "Function used to decrypt data encrypted by ENCRYPT_RAW()"
+  },
+  {
+   "name": "ENCRYPT",
+   "type": "program",
+   "role": "Function that encrypts using a passphrase; its data must be decrypted with DECRYPT()"
+  },
+  {
+   "name": "DECRYPT",
+   "type": "program",
+   "role": "Function used to decrypt data encrypted by ENCRYPT()"
+  },
+  {
+   "name": "AES-GCM",
+   "type": "program",
+   "role": "Default encryption method used in the examples and syntax, an AEAD-enabled mode"
+  },
+  {
+   "name": "SHA2_BINARY",
+   "type": "program",
+   "role": "Function used in the example to generate the encryption key from a string"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "encryption",
+  "sql functions",
+  "aes-gcm",
+  "binary data",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6058,
+  "output_tokens": 1171
+ }
+}

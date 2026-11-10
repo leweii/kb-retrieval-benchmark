@@ -1,0 +1,93 @@
+{
+ "summary": "This Stack Overflow question, titled \"Run bash script from Windows PowerShell\", asks how to execute a bash script (script.sh) from Windows PowerShell, since in Cygwin it could be run with ./script.sh args but PowerShell opens the file in Notepad instead. The page contains several answers offering different approaches: using WSL's bash on Windows 10, using sh or bash from Git for Windows (adding Git's bin folder to PATH or associating .sh files with Git Bash), and associating the .SH extension in PATHEXT. Commenters note that many solutions require installing extra software and that scripts need Unix line endings.",
+ "one_line": "Stack Overflow Q&A on running a bash .sh script from Windows PowerShell via WSL, Git Bash, or PATHEXT configuration.",
+ "key_facts": [
+  "The question was asked on Jul 8, 2009 by user wsorenson, who stated that in Cygwin ./script.sh args worked but PowerShell opened the script file in Notepad.",
+  "The question has been viewed 421k times and was last modified 3 months ago relative to the page capture.",
+  "The top answer by Marius Tancredi (answered Jun 4, 2017) says that on Windows 10, after enabling Bash on Windows, one can run bash ./script.sh.",
+  "That answer notes that the C drive is located at /mnt/c under Bash on Windows, and external hard drives are not mountable.",
+  "That answer advises making sure the shell script is formatted with Unix-style line endings to avoid errors.",
+  "A higher-voted answer by TheBonsai (answered Jul 8, 2009) suggests running the script by passing it as an argument to a *NIX shell, such as sh myscriptfile.",
+  "A commenter reported that sh is not recognized by vanilla PowerShell and that Git must be installed to add sh.exe to the PATH.",
+  "An answer by GangaRam Dewasi (answered Dec 16, 2019) suggests adding C:\\Program Files\\git\\bin\\ to the Windows PATH so that bash and sh can be run from the command line.",
+  "An answer by Rynant (answered Nov 9, 2012) says adding .SH to the PATHEXT environment variable allows running .\\script.sh args, provided sh.exe or another *nix shell is associated with the .sh extension.",
+  "An answer by manuelvigarcia (answered Sep 25, 2023) describes installing Git with the option 'Associate .sh files to be run with Bash' so scripts run directly from PowerShell.",
+  "An answer by t7e (answered Aug 13, 2023) suggests running bash -c \"echo test\" from PowerShell once WSL is configured, and one commenter reported an execvpe /bin/bash failed error.",
+  "The page is a Stack Overflow question page tagged bash and powershell, with the site's copyright notice showing 2024 Stack Exchange Inc, licensed CC BY-SA."
+ ],
+ "entities": [
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "question-and-answer website hosting the thread"
+  },
+  {
+   "name": "Cygwin",
+   "type": "product",
+   "role": "Unix-like environment in which the asker could run ./script.sh args directly"
+  },
+  {
+   "name": "Windows PowerShell",
+   "type": "product",
+   "role": "shell from which the asker wants to run the bash script"
+  },
+  {
+   "name": "Bash on Windows",
+   "type": "product",
+   "role": "Windows 10 feature that provides a native bash shell, described as the native solution"
+  },
+  {
+   "name": "Git for Windows",
+   "type": "product",
+   "role": "Git client whose bin folder provides bash and sh executables usable from Windows"
+  },
+  {
+   "name": "Notepad",
+   "type": "product",
+   "role": "editor that PowerShell opens when a .sh file is run without an associated program"
+  },
+  {
+   "name": "wsorenson",
+   "type": "person",
+   "role": "original asker of the question, asked Jul 8, 2009"
+  },
+  {
+   "name": "Marius Tancredi",
+   "type": "person",
+   "role": "author of the top answer describing Bash on Windows usage"
+  },
+  {
+   "name": "TheBonsai",
+   "type": "person",
+   "role": "answerer who suggested passing the script to a *NIX shell via sh"
+  },
+  {
+   "name": "Rynant",
+   "type": "person",
+   "role": "answerer who suggested adding .SH to PATHEXT"
+  },
+  {
+   "name": "GangaRam Dewasi",
+   "type": "person",
+   "role": "answerer who suggested adding Git's bin folder to the PATH"
+  },
+  {
+   "name": "manuelvigarcia",
+   "type": "person",
+   "role": "answerer who suggested associating .sh files with Git Bash during Git installation"
+  }
+ ],
+ "tags": [
+  "bash",
+  "powershell",
+  "windows",
+  "shell-scripting",
+  "wsl",
+  "git-bash"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7053,
+  "output_tokens": 1527
+ }
+}

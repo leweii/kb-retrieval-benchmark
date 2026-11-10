@@ -1,0 +1,146 @@
+{
+ "summary": "This is a comment thread from the articulatedrobotics Discourse forum for the 'Running ros2_control on a real robot, making a mobile robot pt 13' tutorial, mainly about the diffdrive_arduino hardware interface. Users report build failures (missing hardware_interface, which needs ros2_control installed on the building machine), a controller manager that fails because of a serial permission error fixed by adding the user to the dialout group, wheel-speed mismatches tied to counts per revolution and loop rate, and incompatibility with ROS Humble because base_interface.hpp was removed. Josh Newans answers most questions, and the thread ends with his clarification that diffdrive_arduino uses a plain serial protocol rather than rosserial or micro-ROS.",
+ "one_line": "Forum thread troubleshooting the diffdrive_arduino ros2_control hardware interface build, serial permissions, speed tuning and Humble compatibility.",
+ "key_facts": [
+  "Sasffm's diffdrive_arduino build failed with 'Could not find a package configuration file provided by \"hardware_interface\"', and Josh Newans advised installing ros2_control (e.g. sudo apt install ros-foxy-ros2-control) and installing it on the Pi as well.",
+  "Sasffm's controller manager failed with 'IO Exception (13): Permission denied' on the serial device, and the problem was solved by adding the user to the 'dialout' group.",
+  "Josh Newans noted that /dev/ttyUSB0 may sometimes be the lidar, so the serial device should be set by path or ID rather than /dev/ttyUSB0.",
+  "Josh Newans suggested using 'miniterm -e <device path> 57600' to test the Arduino serial connection.",
+  "ketill's robot drove at about half the commanded linear and angular velocity, with counts per revolution of 392 and a wheel radius of 0.09 m and wheel separation of 0.43 m.",
+  "Josh Newans calculated that 392 counts per revolution divided by 30 gives 13 counts per loop for 1 rev/sec.",
+  "Josh Newans gave an example where 0.5 m/s with a 0.06 m wheel radius needs 1.32 rev/sec, which is about 17 counts per loop.",
+  "ketill reported that a Velodyne 16 lidar converted to laser scan could produce too many or too few scans per revolution when the resolution in the YAML file was not evenly divided, and fixed it by setting resolution to 0.006.",
+  "Douglas_Beach found that building diffdrive_arduino on ROS Humble failed because hardware_interface/base_interface.hpp no longer exists in the Humble ros2_control package.",
+  "BigShark3000 reported that using the HoverDiffDrive plugin on Humble worked after swapping the order of the 'position' and 'velocity' state interfaces in ros2_control.xacro, since the plugin expected position first.",
+  "Josh Newans said the Humble incompatibility needs more than a file change, involves a substantial API change, and that he planned a future video on writing a Humble hardware interface.",
+  "teknetik reported that a fork at github.com/RedstoneGithub/diffdrive_arduino compiled on Humble but was not yet tested on hardware.",
+  "Sudhanshu_ranjan's serial_motor_demo_msgs build failed on ament_cmake not being found, and sourcing /opt/ros/foxy/setup.bash fixed it.",
+  "Enno_Stelma used Humble on Ubuntu 22.04 with an RPi4, an Arduino Due running micro-ROS, and an L298N motor driver, and asked whether diffdrive_arduino could work with micro-ROS.",
+  "Josh Newans stated that diffdrive_arduino does not use rosserial or micro-ROS, but makes a pure serial connection to software on the other end using a simple custom protocol, so the Arduino should not run rosserial or micro-ROS."
+ ],
+ "entities": [
+  {
+   "name": "articulatedrobotics",
+   "type": "organization",
+   "role": "Discourse forum hosting the discussion thread for the robotics tutorial series"
+  },
+  {
+   "name": "Running ros2_control on a real robot, making a mobile robot pt 13",
+   "type": "program",
+   "role": "tutorial whose comment thread this is, the discussion topic of the forum post"
+  },
+  {
+   "name": "JoshNewans",
+   "type": "person",
+   "role": "tutorial author who answers most troubleshooting questions and wrote diffdrive_arduino"
+  },
+  {
+   "name": "Sasffm",
+   "type": "person",
+   "role": "forum user who reported build and serial permission errors and then solved them with the dialout group"
+  },
+  {
+   "name": "ketill",
+   "type": "person",
+   "role": "forum user whose robot drove at about half the commanded velocity and who reported a Velodyne 16 lidar laser-scan issue"
+  },
+  {
+   "name": "Douglas_Beach",
+   "type": "person",
+   "role": "forum user who found the Humble hardware_interface/base_interface.hpp incompatibility"
+  },
+  {
+   "name": "BigShark3000",
+   "type": "person",
+   "role": "forum user who suggested swapping position and velocity state interfaces for a hardware plugin based on ros2_control_demos"
+  },
+  {
+   "name": "teknetik",
+   "type": "person",
+   "role": "forum user who reported that a diffdrive_arduino fork compiled on Humble"
+  },
+  {
+   "name": "Sudhanshu_ranjan",
+   "type": "person",
+   "role": "forum user whose serial_motor_demo_msgs build failed until the ROS environment was sourced"
+  },
+  {
+   "name": "Enno_Stelma",
+   "type": "person",
+   "role": "forum user using Humble with micro-ROS and an Arduino Due who asked whether diffdrive_arduino works with that setup"
+  },
+  {
+   "name": "diffdrive_arduino",
+   "type": "program",
+   "role": "ROS 2 hardware interface package for differential drive robots whose motors are connected through an Arduino, discussed throughout the thread"
+  },
+  {
+   "name": "ros2_control",
+   "type": "program",
+   "role": "ROS 2 control framework whose hardware_interface package diffdrive_arduino depends on"
+  },
+  {
+   "name": "hardware_interface",
+   "type": "program",
+   "role": "ros2_control package that diffdrive_arduino needs; its base_interface.hpp header was removed in the Humble release"
+  },
+  {
+   "name": "controller manager",
+   "type": "program",
+   "role": "ROS 2 node whose services the spawners wait for; it failed to start because of the serial error"
+  },
+  {
+   "name": "ROS Humble",
+   "type": "program",
+   "role": "ROS 2 distribution on which the base_interface.hpp incompatibility appears"
+  },
+  {
+   "name": "micro-ROS",
+   "type": "program",
+   "role": "alternative method for ROS messaging on microcontrollers, which Enno_Stelma used with an Arduino Due and which Josh Newans said diffdrive_arduino does not use"
+  },
+  {
+   "name": "rosserial",
+   "type": "program",
+   "role": "method for sending ROS messages over serial to an Arduino, which diffdrive_arduino does not use"
+  },
+  {
+   "name": "Velodyne 16 lidar",
+   "type": "product",
+   "role": "lidar whose pointcloud converted to laser scan produced too many or too few scans per revolution with slam toolbox"
+  },
+  {
+   "name": "slam toolbox",
+   "type": "program",
+   "role": "SLAM node that failed to start correctly with the mis-divided laser scan resolution"
+  },
+  {
+   "name": "HoverDiffDrive",
+   "type": "program",
+   "role": "hardware plugin used by BigShark3000 that expected position as the first state interface"
+  },
+  {
+   "name": "ros2_control_demos",
+   "type": "program",
+   "role": "reference repository of ros2_control examples suggested for porting the hardware interface to Humble"
+  },
+  {
+   "name": "RedstoneGithub/diffdrive_arduino",
+   "type": "product",
+   "role": "GitHub fork of diffdrive_arduino that teknetik reported compiles on Humble"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "ros2-control",
+  "robotics",
+  "serial-communication",
+  "humble",
+  "troubleshooting"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15204,
+  "output_tokens": 2593
+ }
+}

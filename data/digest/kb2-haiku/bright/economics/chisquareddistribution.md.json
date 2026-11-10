@@ -1,0 +1,85 @@
+{
+ "summary": "This Wikipedia article covers the chi-squared distribution, a probability distribution defined as the distribution of a sum of squares of k independent standard normal variables, where k is the degrees of freedom. It is a special case of the gamma distribution and is widely used in inferential statistics, notably in hypothesis testing and confidence intervals. The note introduces its definitions, the motivation via the normal and binomial distributions, and its role in tests such as Pearson's chi-squared test. The clipped text is cut off partway through the binomial discussion.",
+ "one_line": "Wikipedia article on the chi-squared distribution, a gamma special case defined by summed squared standard normal variables and central to hypothesis testing.",
+ "key_facts": [
+  "The chi-squared distribution with k degrees of freedom is the distribution of a sum of the squares of k independent standard normal random variables.",
+  "The chi-squared distribution is a special case of the gamma distribution.",
+  "The chi-squared distribution has one parameter: a positive integer k specifying the number of degrees of freedom.",
+  "The mean of the chi-squared distribution is k and the variance is 2k.",
+  "The skewness of the chi-squared distribution is sqrt(8/k) and the excess kurtosis is 12/k.",
+  "The mode of the chi-squared distribution is max(k-2, 0).",
+  "The chi-squared distribution is used primarily in hypothesis testing and, to a lesser extent, for confidence intervals for population variance when the underlying distribution is normal.",
+  "The chi-squared distribution is used in the chi-squared tests for goodness of fit and for independence of two criteria of classification of qualitative data.",
+  "The square of a standard normal distribution is the chi-squared distribution with one degree of freedom, denoted Q ~ χ²(1).",
+  "The chi-squared distribution arises as the large sample distribution of generalized likelihood ratio tests.",
+  "Exact tests such as Fisher's exact test are preferred over chi-squared approximations for small sample sizes in contingency tables.",
+  "Ramsey shows that the exact binomial test is always more powerful than the normal approximation.",
+  "Karl Pearson generalized the form of the De Moivre–Laplace binomial-to-normal result into the chi-squared statistic sum of (O_i − E_i)² / E_i.",
+  "The article is noted as a distribution with the Wikidata item Q243462 and is available in 39 languages."
+ ],
+ "entities": [
+  {
+   "name": "Chi-squared distribution",
+   "type": "other",
+   "role": "probability distribution the article describes, special case of the gamma distribution"
+  },
+  {
+   "name": "Karl Pearson",
+   "type": "person",
+   "role": "figure whose form of the binomial-derived expression was generalized to the chi-squared statistic"
+  },
+  {
+   "name": "Chi-squared test",
+   "type": "program",
+   "role": "common statistical test for goodness of fit and independence that uses the chi-squared distribution"
+  },
+  {
+   "name": "Fisher's exact test",
+   "type": "program",
+   "role": "test preferred over the chi-squared approximation for small sample sizes in contingency tables"
+  },
+  {
+   "name": "Neyman–Pearson lemma",
+   "type": "other",
+   "role": "result stating simple likelihood ratio tests commonly provide the highest power to reject the null hypothesis"
+  },
+  {
+   "name": "Ramsey",
+   "type": "person",
+   "role": "researcher who shows the exact binomial test is always more powerful than the normal approximation"
+  },
+  {
+   "name": "Lancaster",
+   "type": "person",
+   "role": "author who shows the connections among the binomial, normal, and chi-squared distributions"
+  },
+  {
+   "name": "De Moivre and Laplace",
+   "type": "person",
+   "role": "mathematicians who established that a binomial distribution could be approximated by a normal distribution"
+  },
+  {
+   "name": "Friedman's analysis of variance by ranks",
+   "type": "program",
+   "role": "statistical test that also uses the chi-squared distribution"
+  },
+  {
+   "name": "Central limit theorem",
+   "type": "other",
+   "role": "result explaining why sampling distributions of test statistics approach the normal distribution as sample size increases"
+  }
+ ],
+ "tags": [
+  "probability distributions",
+  "statistics",
+  "hypothesis testing",
+  "degrees of freedom",
+  "gamma distribution",
+  "chi-squared test"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17893,
+  "output_tokens": 1353
+ }
+}

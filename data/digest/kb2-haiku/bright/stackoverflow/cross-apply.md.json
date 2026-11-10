@@ -1,0 +1,90 @@
+{
+ "summary": "This Microsoft Learn material documents U-SQL's CROSS APPLY and OUTER APPLY operators, which evaluate a row-generating expression on the right against each row of the left rowset, and the EXPLODE expression used with them to unpack SQL.ARRAY, SQL.MAP, or IEnumerable values into rows. It explains that CROSS APPLY drops left rows whose right-side result is empty while OUTER APPLY keeps them, and that the operator is called LATERAL in other SQL dialects. The page is followed by numerous examples over sample employee, band, publication and nested map/array data, plus code-behind C# examples for enumerating files and registry values.",
+ "one_line": "Explains U-SQL CROSS APPLY and OUTER APPLY operators and the EXPLODE expression for unpacking arrays, maps and enumerables into rows.",
+ "key_facts": [
+  "U-SQL CROSS APPLY and OUTER APPLY evaluate rowset-generating expressions on the right against each row of the left rowset.",
+  "When CROSS APPLY is specified, no rows are produced for a left row when the right-side rowset expression returns an empty rowset for that row.",
+  "When OUTER APPLY is specified, one row is produced for each left row even when the right-side rowset expression returns an empty rowset.",
+  "The APPLY operator is also known as LATERAL in other SQL dialects.",
+  "U-SQL supports only a few special expression types in APPLY because implementing a fully generic CROSS APPLY in a scale-out query processor is difficult.",
+  "The two supported expression types are the built-in EXPLODE() expression and a user-defined operator called an Applier.",
+  "EXPLODE accepts a value of type SQL.ARRAY, SQL.MAP, or IEnumerable and unpacks the values into a rowset.",
+  "EXPLODE on SQL.ARRAY<T> produces a single column of type T where each item is placed into its own row; an empty or null array yields an empty rowset.",
+  "EXPLODE on SQL.MAP<K,V> produces two columns of type K and V where each key-value pair is placed into its own row.",
+  "EXPLODE is syntactically only supported in the context of an APPLY and is not a general rowset expression.",
+  "The derived table alias for EXPLODE on SQL.ARRAY requires one column, and on SQL.MAP requires two columns.",
+  "The Explode examples use the ARRAY_AGG and MAP_AGG aggregate functions to reverse the explode operation.",
+  "The examples can be executed in Visual Studio with the Azure Data Lake Tools plug-in or run locally without an Azure subscription.",
+  "The page was dated 02/10/2021 and copyright Microsoft 2024 appears in the page footer."
+ ],
+ "entities": [
+  {
+   "name": "U-SQL",
+   "type": "product",
+   "role": "The query language whose CROSS APPLY and OUTER APPLY operators and EXPLODE expression are documented."
+  },
+  {
+   "name": "CROSS APPLY",
+   "type": "other",
+   "role": "Apply operator that produces no rows for left rows whose right-side rowset is empty."
+  },
+  {
+   "name": "OUTER APPLY",
+   "type": "other",
+   "role": "Apply operator that produces one row per left row even when the right-side rowset is empty."
+  },
+  {
+   "name": "EXPLODE",
+   "type": "other",
+   "role": "Built-in U-SQL rowset expression that unpacks SQL.ARRAY, SQL.MAP or IEnumerable values into rows."
+  },
+  {
+   "name": "SQL.ARRAY",
+   "type": "other",
+   "role": "U-SQL built-in array type that EXPLODE can unpack into one column with one item per row."
+  },
+  {
+   "name": "SQL.MAP",
+   "type": "other",
+   "role": "U-SQL built-in map type that EXPLODE can unpack into key and value columns with one pair per row."
+  },
+  {
+   "name": "Applier",
+   "type": "other",
+   "role": "User-defined operator (IApplier) that takes each input row into 0 to n rows of a specified schema."
+  },
+  {
+   "name": "ARRAY_AGG",
+   "type": "other",
+   "role": "Aggregate function used in a bonus example to reverse the explode outcome for arrays."
+  },
+  {
+   "name": "MAP_AGG",
+   "type": "other",
+   "role": "Aggregate function used in a bonus example to reverse the explode outcome for maps."
+  },
+  {
+   "name": "Azure Data Lake Tools plug-in",
+   "type": "product",
+   "role": "Visual Studio tooling in which the examples can be executed."
+  },
+  {
+   "name": "Code-Behind",
+   "type": "other",
+   "role": "Mechanism for placing C# code in an associated .cs file, which the tooling registers automatically."
+  }
+ ],
+ "tags": [
+  "u-sql",
+  "cross apply",
+  "outer apply",
+  "explode",
+  "azure data lake",
+  "sql"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15214,
+  "output_tokens": 1539
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "summary": "Agni Air Flight 101 was a regional Agni Air flight from Kathmandu to Lukla, Nepal, that crashed on 24 August 2010, killing all 14 people aboard. Twenty minutes after take-off the crew reported technical problems and asked to return to Kathmandu, but they were diverted to another airport. Contact was lost five minutes later, and the aircraft was found crashed south of Kathmandu.",
+ "one_line": "A 2010 Agni Air regional flight from Kathmandu to Lukla crashed south of Kathmandu, killing all 14 people on board.",
+ "key_facts": [
+  "Agni Air Flight 101 was a regional flight operated by Agni Air between Kathmandu, Nepal, and Lukla, Nepal.",
+  "The flight crashed on 24 August 2010.",
+  "All 14 people on board Agni Air Flight 101 were killed.",
+  "Twenty minutes after take-off from Kathmandu, the flight crew reported technical issues with the aircraft.",
+  "The crew requested a return to the airport after reporting technical issues on Agni Air Flight 101.",
+  "Agni Air Flight 101 was diverted to a different airport instead of returning to Kathmandu.",
+  "Contact with Agni Air Flight 101 was lost five minutes after the crew's transmission reporting technical issues.",
+  "The aircraft was found crashed south of Kathmandu."
+ ],
+ "entities": [
+  {
+   "name": "Agni Air",
+   "type": "organization",
+   "role": "operator of Agni Air Flight 101, a regional flight between Kathmandu and Lukla"
+  },
+  {
+   "name": "Agni Air Flight 101",
+   "type": "event",
+   "role": "regional flight that crashed on 24 August 2010, killing all 14 people on board"
+  },
+  {
+   "name": "Kathmandu",
+   "type": "place",
+   "role": "departure airport city of Agni Air Flight 101 and location south of which the aircraft was found"
+  },
+  {
+   "name": "Lukla",
+   "type": "place",
+   "role": "destination of Agni Air Flight 101"
+  },
+  {
+   "name": "Nepal",
+   "type": "place",
+   "role": "country containing Kathmandu and Lukla"
+  }
+ ],
+ "tags": [
+  "aviation accident",
+  "nepal",
+  "agni air",
+  "plane crash",
+  "aviation safety"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1166,
+  "output_tokens": 728
+ }
+}

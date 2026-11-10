@@ -1,0 +1,31 @@
+{
+ "summary": "This is a reference page for the COSH function, which computes the hyperbolic cosine of its argument. It gives the syntax COSH(<real_expr>), where the argument should evaluate to a real number. A single example shows SELECT COSH(1.5) returning 2.352409615. The page is listed under the numeric function categories of Arithmetic, Rounding and Truncation, Exponent and Root, Logarithmic, Trigonometric, and Other.",
+ "one_line": "Reference page for the COSH SQL function, which returns the hyperbolic cosine of a real number argument.",
+ "key_facts": [
+  "COSH computes the hyperbolic cosine of its argument.",
+  "The syntax is COSH( <real_expr> ).",
+  "The argument real_expr should evaluate to a real number.",
+  "The example SELECT COSH(1.5) returns 2.352409615.",
+  "The COSH page is listed under the numeric category.",
+  "Related numeric function categories listed include Arithmetic, Rounding and Truncation, Exponent and Root, Logarithmic, Trigonometric, and Other."
+ ],
+ "entities": [
+  {
+   "name": "COSH",
+   "type": "product",
+   "role": "function that computes the hyperbolic cosine of its real number argument"
+  }
+ ],
+ "tags": [
+  "sql",
+  "function reference",
+  "hyperbolic cosine",
+  "numeric functions",
+  "trigonometric"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1305,
+  "output_tokens": 443
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "summary": "The note describes Phu Kradueng, a mountain 1316 m high in Loei Province, Thailand. It lies in Phu Kradueng District, which takes its name from the mountain, and its western side borders Nam Nao District of Phetchabun Province. The mountain is part of the Phetchabun Mountains, a massif that forms a natural boundary between North Thailand and Isan.",
+ "one_line": "Phu Kradueng is a 1316 m mountain in Loei Province, Thailand, part of the Phetchabun Mountains.",
+ "key_facts": [
+  "Phu Kradueng is a mountain 1316 m high.",
+  "Phu Kradueng is located in Loei Province, Thailand.",
+  "Phu Kradueng is in Phu Kradueng District.",
+  "Phu Kradueng District is named after the mountain.",
+  "The west side of Phu Kradueng borders Nam Nao District of Phetchabun Province.",
+  "Phu Kradueng is part of the Phetchabun Mountains.",
+  "The Phetchabun Mountains are a massif forming a natural boundary between North Thailand and Isan."
+ ],
+ "entities": [
+  {
+   "name": "Phu Kradueng",
+   "type": "place",
+   "role": "1316 m high mountain in Loei Province, Thailand, giving its name to Phu Kradueng District"
+  },
+  {
+   "name": "Loei Province",
+   "type": "place",
+   "role": "province in Thailand where the mountain is located"
+  },
+  {
+   "name": "Phu Kradueng District",
+   "type": "place",
+   "role": "district in Loei Province named after the mountain"
+  },
+  {
+   "name": "Nam Nao District",
+   "type": "place",
+   "role": "district of Phetchabun Province bordering the mountain's west side"
+  },
+  {
+   "name": "Phetchabun Province",
+   "type": "place",
+   "role": "province whose Nam Nao District borders the mountain's west side"
+  },
+  {
+   "name": "Phetchabun Mountains",
+   "type": "place",
+   "role": "massif of which Phu Kradueng is part, forming a natural boundary between North Thailand and Isan"
+  }
+ ],
+ "tags": [
+  "thailand",
+  "mountains",
+  "loei province",
+  "geography",
+  "phetchabun mountains"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1105,
+  "output_tokens": 685
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "summary": "This Snowflake documentation page explains ternary logic (three-valued logic, 3VL), which has the truth values TRUE, FALSE and UNKNOWN, with UNKNOWN represented by NULL, as specified in the SQL standard. It gives truth tables for the AND, OR and NOT operators with NULL operands, and states that comparison operators return NULL when any operand is NULL. It also covers how IFF and [NOT] IN behave when NULL values are involved.",
+ "one_line": "Snowflake documentation on ternary (three-valued) logic, showing how NULL as UNKNOWN affects comparisons, AND/OR/NOT, IFF and IN.",
+ "key_facts": [
+  "Ternary logic, or three-valued logic (3VL), is a logic system with three truth values: TRUE, FALSE, and UNKNOWN.",
+  "In Snowflake, UNKNOWN is represented by NULL.",
+  "As specified in the SQL standard, ternary logic applies to the evaluation of Boolean expressions and predicates.",
+  "If any operand for a comparison operator is NULL, the result is NULL.",
+  "Comparison operators include =, !=, <>, <, <=, >, and >=.",
+  "For a BOOLEAN column C, the expression C AND NULL evaluates to NULL when C is TRUE and to FALSE when C is FALSE.",
+  "For a BOOLEAN column C, the expression C OR NULL evaluates to TRUE when C is TRUE and to NULL when C is FALSE or NULL.",
+  "For a BOOLEAN column C, NOT C evaluates to NULL when C is NULL.",
+  "IFF(C, e1, e2) evaluates to e1 when C is TRUE and to e2 when C is FALSE or NULL.",
+  "The expression c1 IN (c2, c3, ...) is syntactically equivalent to (c1 = c2 or c1 = c3 or ...).",
+  "When the value of c1 is NULL, the expression c1 IN (c2, c3, NULL) always evaluates to FALSE.",
+  "The expression c1 NOT IN (c2, c3, ...) is syntactically equivalent to (c1 <> c2 AND c1 <> c3 AND ...).",
+  "Even if c1 NOT IN (c2, c3) is TRUE, c1 NOT IN (c2, c3, NULL) evaluates to NULL."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "database platform whose documentation describes how it represents UNKNOWN as NULL in ternary logic"
+  },
+  {
+   "name": "SQL standard",
+   "type": "other",
+   "role": "specification that defines ternary logic as used in this page"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "ternary-logic",
+  "null-handling",
+  "three-valued-logic",
+  "boolean-logic"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2198,
+  "output_tokens": 926
+ }
+}

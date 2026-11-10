@@ -1,0 +1,48 @@
+{
+ "summary": "This is a reference page for the Snowflake-style ARRAYS_TO_OBJECT function, which builds an OBJECT from an array of VARCHAR keys and an array of values of equal length. It documents the syntax, arguments, return type, and usage notes, including error codes for non-string keys and unequal array lengths. NULL handling differs for keys versus values, and the key order of the returned object is not guaranteed. Three examples illustrate the basic case and the NULL key and NULL value behaviors.",
+ "one_line": "Reference for the ARRAYS_TO_OBJECT function, which builds an OBJECT from a key array and a value array of equal length.",
+ "key_facts": [
+  "ARRAYS_TO_OBJECT takes two arguments: key_array and value_array.",
+  "key_array must be an ARRAY of VARCHAR values that specify the keys for the new OBJECT.",
+  "value_array must be the same length as key_array.",
+  "The function returns a value of the type OBJECT.",
+  "If any element in key_array is not a string, the function reports error 215002 (22000): Key supplied for ARRAYS_TO_OBJECT does not have string type.",
+  "If key_array and value_array have unequal lengths, the function reports error 215001 (22000): Key array and value array had unequal lengths in ARRAYS_TO_OBJECT.",
+  "If an element in key_array is NULL, that key and its corresponding value are omitted from the returned OBJECT.",
+  "If a key is not NULL but the corresponding element in value_array is NULL, the key and NULL value are included in the returned OBJECT.",
+  "The returned OBJECT does not necessarily preserve the original order of the key-value pairs.",
+  "Example: ARRAYS_TO_OBJECT(['key1', 'key2', 'key3'], [1, 2, 3]) returns an object with key1: 1, key2: 2, key3: 3.",
+  "Example: ARRAYS_TO_OBJECT(['key1', NULL, 'key3'], [1, 2, 3]) returns an object with only key1: 1 and key3: 3.",
+  "Example: ARRAYS_TO_OBJECT(['key1', 'key2', 'key3'], [1, NULL, 3]) returns an object with key2 set to null."
+ ],
+ "entities": [
+  {
+   "name": "ARRAYS_TO_OBJECT",
+   "type": "program",
+   "role": "SQL function documented on this page that builds an OBJECT from a key ARRAY and a value ARRAY"
+  },
+  {
+   "name": "OBJECT",
+   "type": "other",
+   "role": "data type returned by ARRAYS_TO_OBJECT, containing the specified keys and values"
+  },
+  {
+   "name": "ARRAY",
+   "type": "other",
+   "role": "data type of the key_array and value_array input arguments"
+  }
+ ],
+ "tags": [
+  "sql",
+  "functions",
+  "arrays",
+  "objects",
+  "reference",
+  "null-handling"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2497,
+  "output_tokens": 930
+ }
+}

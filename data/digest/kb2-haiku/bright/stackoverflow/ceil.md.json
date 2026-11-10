@@ -1,0 +1,54 @@
+{
+ "summary": "This is Snowflake's reference page for the CEIL numeric function, which rounds a value up to the nearest equal or larger integer, or to a specified number of decimal places. It covers the syntax, argument rules, return data types, usage notes on negative scales and NULL handling, and examples including a table demonstrating various scale values. The page's navigation and feedback boilerplate is ignored.",
+ "one_line": "Reference for the Snowflake CEIL function, which rounds numeric values up to an integer or to a given number of decimal places.",
+ "key_facts": [
+  "CEIL returns values from input_expr rounded to the nearest equal or larger integer, or to the nearest equal or larger value with the specified number of places after the decimal point.",
+  "The syntax is CEIL( <input_expr> [, <scale_expr> ]).",
+  "The scale_expr should evaluate to an integer from -38 to +38.",
+  "The default scale_expr is zero, meaning the function removes all digits after the decimal point.",
+  "The data type of the returned value is NUMBER(precision, scale).",
+  "The data type returned by CEIL(3.14, 1) is NUMBER(4, 1).",
+  "The data type returned by CEIL(33.33, -1) is NUMBER(5, 0).",
+  "If scale_expr is negative, it specifies the number of places before the decimal point to which to adjust the number; for example, if the scale is -2, the result is a multiple of 100.",
+  "If scale_expr is larger than the input expression scale, the function does not have any effect.",
+  "If either input_expr or scale_expr is NULL, the result is NULL.",
+  "When negative numbers are rounded up, the value is closer to 0; for example, CEIL(-1.9) is -1, not -2.",
+  "If rounding upward brings the number outside the range of the data type, an error is returned.",
+  "SELECT CEIL(135.135) returns 136 and CEIL(-975.975) returns -975.",
+  "In the scale example, CEIL(135.135, -2) returns 200 and CEIL(-975.975, 2) returns -975.97."
+ ],
+ "entities": [
+  {
+   "name": "CEIL",
+   "type": "product",
+   "role": "numeric function documented on this page that rounds values up to the nearest equal or larger integer or decimal place"
+  },
+  {
+   "name": "FLOAT",
+   "type": "product",
+   "role": "example numeric data type that input_expr should be one of"
+  },
+  {
+   "name": "NUMBER",
+   "type": "product",
+   "role": "numeric data type; the return type of CEIL is NUMBER(precision, scale)"
+  },
+  {
+   "name": "test_ceiling",
+   "type": "other",
+   "role": "transient table created in the example to demonstrate CEIL with scale parameters"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "numeric functions",
+  "rounding",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2655,
+  "output_tokens": 886
+ }
+}

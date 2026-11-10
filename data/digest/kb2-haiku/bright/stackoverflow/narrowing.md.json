@@ -1,0 +1,95 @@
+{
+ "summary": "This TypeScript handbook-style note explains narrowing, the process by which TypeScript refines a declared union type to a more specific type based on type guards, assignments, and control flow. It walks through typeof checks, truthiness narrowing (including pitfalls with null and empty strings), equality narrowing, the in and instanceof operators, assignments, control flow analysis, user-defined type predicates, and assertion functions. The note ends by introducing discriminated unions using a Shape type with circle and square kinds.",
+ "one_line": "A TypeScript handbook guide to narrowing, covering type guards, control flow analysis, type predicates, and discriminated unions.",
+ "key_facts": [
+  "TypeScript refines types to more specific types than declared through a process called narrowing.",
+  "A check such as typeof padding === \"number\" is called a type guard in TypeScript.",
+  "The typeof operator in TypeScript is expected to return one of eight strings: string, number, bigint, boolean, symbol, undefined, object, function.",
+  "typeof null returns \"object\" in JavaScript, so checking typeof strs === \"object\" alone leaves null in the narrowed type string[] | null.",
+  "Values that coerce to false in truthiness checks include 0, NaN, \"\" (the empty string), 0n, null, and undefined.",
+  "The double-Boolean negation !!\"world\" has the narrow literal type true, while Boolean(\"hello\") is inferred as type boolean.",
+  "Equality narrowing with x == null removes both null and undefined from the type.",
+  "With the in operator, optional properties appear on both sides of the narrowing check.",
+  "instanceof narrowing checks whether the prototype chain of x contains Foo.prototype.",
+  "Assignments narrow the observed type of a variable, but assignability is checked against the declared type.",
+  "Control flow analysis lets TypeScript remove number from string | number after an if block that returns when padding is a number.",
+  "A user-defined type guard uses a type predicate return type of the form parameterName is Type.",
+  "Using zoo.filter(isFish) with a Fish | Bird array yields a Fish[] array.",
+  "The Shape interface with kind, radius, and sideLength optional fields fails to tell the type checker which fields are present for each kind.",
+  "The note recommends a discriminated union, with Circle (kind \"circle\", radius number) and Square (kind \"square\", sideLength number), as a better encoding."
+ ],
+ "entities": [
+  {
+   "name": "TypeScript",
+   "type": "product",
+   "role": "the language whose type system performs narrowing and control flow analysis described in the note"
+  },
+  {
+   "name": "padLeft",
+   "type": "other",
+   "role": "example function that takes padding of type number | string and prepends it to input"
+  },
+  {
+   "name": "printAll",
+   "type": "other",
+   "role": "example function that prints strings from a string | string[] | null parameter and is used to illustrate typeof and truthiness pitfalls"
+  },
+  {
+   "name": "getUsersOnlineMessage",
+   "type": "other",
+   "role": "example function whose numUsersOnline parameter is narrowed by truthiness in an if statement"
+  },
+  {
+   "name": "multiplyAll",
+   "type": "other",
+   "role": "example function using a Boolean negation to filter out undefined from values"
+  },
+  {
+   "name": "Fish",
+   "type": "other",
+   "role": "example type with a swim method used in in-operator and type predicate examples"
+  },
+  {
+   "name": "Bird",
+   "type": "other",
+   "role": "example type with a fly method used in in-operator and type predicate examples"
+  },
+  {
+   "name": "Human",
+   "type": "other",
+   "role": "example type with optional swim and fly methods, showing it appears on both sides of an in check"
+  },
+  {
+   "name": "isFish",
+   "type": "other",
+   "role": "user-defined type guard function with return type pet is Fish"
+  },
+  {
+   "name": "Shape",
+   "type": "other",
+   "role": "interface with a kind field and optional radius and sideLength, then replaced by a union of Circle and Square"
+  },
+  {
+   "name": "getArea",
+   "type": "other",
+   "role": "example function computing area of a Shape, used to show the problem with optional radius"
+  },
+  {
+   "name": "Container",
+   "type": "other",
+   "role": "example interface with a value field of type number | null | undefined used in equality narrowing"
+  }
+ ],
+ "tags": [
+  "typescript",
+  "type narrowing",
+  "type guards",
+  "control flow analysis",
+  "discriminated unions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16519,
+  "output_tokens": 1362
+ }
+}

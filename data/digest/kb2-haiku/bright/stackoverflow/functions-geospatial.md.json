@@ -1,0 +1,77 @@
+{
+ "summary": "This is a clipped reference page titled \"functions-geospatial\" that lists geospatial SQL functions grouped into sub-categories: conversion/input/parsing, conversion/output/formatting, constructors, accessors, relationship and measurement, transformation, utility, and H3. The page says these functions work on GEOGRAPHY and GEOMETRY values and convert them to and from other representations such as VARCHAR. Most function names were stripped during clipping, so the note mainly preserves the notes column: which functions apply only to GEOGRAPHY or only to GEOMETRY, which are aliases, and which are deprecated.",
+ "one_line": "Reference table of geospatial SQL functions grouped by category, marking GEOGRAPHY-only and GEOMETRY-only functions, aliases, and deprecations.",
+ "key_facts": [
+  "The geospatial functions page describes functions that operate on GEOGRAPHY and GEOMETRY data types.",
+  "The functions can convert GEOGRAPHY and GEOMETRY values to and from other representations, such as VARCHAR.",
+  "The function list is divided into eight sub-categories: Conversion/Input/Parsing, Conversion/Output/Formatting, Constructor, Accessor, Relationship and Measurement, Transformation, Utility, and H3.",
+  "Several Conversion/Output/Formatting entries are listed as aliases for ST_ASWKB.",
+  "Several Conversion/Output/Formatting entries are listed as aliases for ST_ASWKT.",
+  "Constructor entries include aliases for ST_MAKEGEOMPOINT and ST_MAKEPOINT, and an alias for ST_MAKEPOLYGON.",
+  "A Relationship and Measurement entry is listed as an alias for ST_NPOINTS.",
+  "One Transformation entry is marked as deprecated for GEOGRAPHY.",
+  "Many entries are marked as applying to GEOGRAPHY only, and some are marked as applying to GEOMETRY only.",
+  "The H3 Functions sub-category contains only GEOGRAPHY-only entries.",
+  "The page ends with a \"Was this page helpful?\" feedback prompt and language selector set to English, which are navigation boilerplate."
+ ],
+ "entities": [
+  {
+   "name": "GEOGRAPHY",
+   "type": "other",
+   "role": "Geospatial data type that many of the listed functions operate on exclusively"
+  },
+  {
+   "name": "GEOMETRY",
+   "type": "other",
+   "role": "Geospatial data type that some of the listed functions operate on exclusively"
+  },
+  {
+   "name": "VARCHAR",
+   "type": "other",
+   "role": "Text representation to and from which geospatial values can be converted"
+  },
+  {
+   "name": "ST_ASWKB",
+   "type": "program",
+   "role": "Function that a listed Conversion/Output entry is an alias for"
+  },
+  {
+   "name": "ST_ASWKT",
+   "type": "program",
+   "role": "Function that a listed Conversion/Output entry is an alias for"
+  },
+  {
+   "name": "ST_MAKEGEOMPOINT",
+   "type": "program",
+   "role": "Function that a listed Constructor entry is an alias for"
+  },
+  {
+   "name": "ST_MAKEPOINT",
+   "type": "program",
+   "role": "Function that a listed Constructor entry is an alias for"
+  },
+  {
+   "name": "ST_MAKEPOLYGON",
+   "type": "program",
+   "role": "Function that a listed Constructor entry is an alias for"
+  },
+  {
+   "name": "ST_NPOINTS",
+   "type": "program",
+   "role": "Function that a listed Relationship and Measurement entry is an alias for"
+  }
+ ],
+ "tags": [
+  "geospatial",
+  "sql functions",
+  "geography",
+  "geometry",
+  "spatial data",
+  "h3"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2325,
+  "output_tokens": 1884
+ }
+}

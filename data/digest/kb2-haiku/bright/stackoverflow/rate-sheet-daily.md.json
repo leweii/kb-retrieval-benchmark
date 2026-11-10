@@ -1,0 +1,55 @@
+{
+ "summary": "This note documents the RATE_SHEET_DAILY view in the Snowflake ORGANIZATION_USAGE schema, which returns effective rates in the organization currency based on credits used across all Snowflake accounts in an organization. It describes the upgraded version of the view, designed for billing reconciliation, and lists its columns with data types and descriptions, including billing types, rating types, and service types. It also gives usage notes on latency, month-close adjustments, reseller contracts, and data retention.",
+ "one_line": "Reference documentation for Snowflake's RATE_SHEET_DAILY view, which lists effective daily usage rates per account for billing reconciliation.",
+ "key_facts": [
+  "The RATE_SHEET_DAILY view is in the ORGANIZATION_USAGE schema and returns effective rates used for calculating usage in the organization currency based on credits used for all Snowflake accounts in the organization.",
+  "The note describes the upgraded version of the RATE_SHEET_DAILY view, which is designed to help with billing reconciliation.",
+  "If a view does not match the columns listed in the topic, the organization is using the legacy version of the view, identifiable by the BILLING_TYPE column being absent.",
+  "The DATE column is the date (in the UTC time zone) for the effective price.",
+  "The EFFECTIVE_RATE column is NUMBER(38, 2) and gives the rate after applying any applicable discounts per the contract for the organization.",
+  "The CURRENCY column gives the currency of the EFFECTIVE_RATE.",
+  "The BILLING_TYPE column indicates what is being charged or credited, with possible values consumption, rebate, priority support, and support_credit.",
+  "A billing type of rebate covers usage covered by the credits awarded to the organization when it shared data with another organization.",
+  "A billing type of support_credit means Snowflake Support credited the account to reverse charges attributed to an issue in Snowflake.",
+  "The RATING_TYPE column indicates how usage is rated or priced, with possible values compute, data_transfer, storage, and other.",
+  "Possible SERVICE_TYPE values include automatic_clustering, cloud_services, data_transfer, logging, materialized_view, replication, query_acceleration, search_optimization, snowpipe, storage, and warehouse_metering.",
+  "The USAGE_TYPE column corresponds to the Usage Category column in a billing statement and exists for backward compatibility only.",
+  "Latency for the view may be up to 24 hours.",
+  "Until month close, data for a given day can change to account for end-of-month adjustments/credits, mid-month contract amendments, or Snowflake account transfers between organizations.",
+  "Customers who signed a contract through a Snowflake reseller cannot access data in this view. Data is retained indefinitely."
+ ],
+ "entities": [
+  {
+   "name": "RATE_SHEET_DAILY",
+   "type": "product",
+   "role": "Snowflake view in the ORGANIZATION_USAGE schema that returns effective usage rates for all accounts in an organization"
+  },
+  {
+   "name": "ORGANIZATION_USAGE",
+   "type": "program",
+   "role": "Snowflake schema containing the RATE_SHEET_DAILY view"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the RATE_SHEET_DAILY view and the accounts whose usage it rates"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "Credits accounts to reverse charges attributed to an issue in Snowflake, producing support_credit billing type"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "billing",
+  "usage-metrics",
+  "data-reference",
+  "rate-sheet"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 2724,
+  "output_tokens": 1187
+ }
+}

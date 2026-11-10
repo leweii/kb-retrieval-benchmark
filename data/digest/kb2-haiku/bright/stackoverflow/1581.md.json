@@ -1,0 +1,89 @@
+{
+ "summary": "This is a closed GitHub issue (#158) from the gofiber/fiber repository titled 'How do I Set/Get data in context?', opened by hyingreborn on February 20, 2020. The user wants to pass JWT claims from middleware to a route handler, and maintainer Fenny answered that the Locals method should be used. Later commenters asked how Locals can take two parameters, and sixcolors explained that the method takes a key and an optional value, acting as a getter or setter.",
+ "one_line": "GitHub issue in gofiber/fiber asking how to pass data from middleware to a route handler, answered by using Ctx Locals.",
+ "key_facts": [
+  "The GitHub issue is #158 in the gofiber/fiber repository, titled 'How do I Set/Get data in context?'.",
+  "The issue was opened by hyingreborn on February 20, 2020 and was closed as completed by Fenny on the same day.",
+  "hyingreborn wanted to save user information in JWT middleware and retrieve it in the routing handler.",
+  "Fenny, a Member of the project, answered that the project uses Locals and linked to the documentation.",
+  "Fenny's example calls c.Locals(\"claims\", claims) in app.Use(\"/api\", ...) and claims := c.Locals(\"claims\") in the GET handler for /api/v1/manager.",
+  "The issue was labeled 'question' and then 'solved'.",
+  "On February 20, 2024, martirosharutyunyan asked how c.Locals can accept two parameters.",
+  "sixcolors, a Member, replied that Locals takes a key and an optional value, acting as a getter when the value is omitted and a setter when it is provided.",
+  "sixcolors quoted the implementation: func (c *DefaultCtx) Locals(key any, value ...any) any, which calls c.fasthttp.UserValue(key) when no value is given and c.fasthttp.SetUserValue(key, value[0]) otherwise.",
+  "On September 21, 2022, acidjazz said Locals is an awesome feature and suggested it be listed elsewhere so users can find it more easily.",
+  "ReneWerner87 linked the Fiber documentation page at docs.gofiber.io/api/ctx#locals on September 21, 2022.",
+  "levniko, a newcomer to Fiber, asked on August 6, 2022 how to reach the claims value set with Locals in the handler.",
+  "The thread shows 8 participants, and the issue has 7 comments according to its header."
+ ],
+ "entities": [
+  {
+   "name": "gofiber/fiber",
+   "type": "program",
+   "role": "the Go web framework repository where the GitHub issue #158 was filed"
+  },
+  {
+   "name": "hyingreborn",
+   "type": "person",
+   "role": "issue author who asked how to set and get data in context from JWT middleware"
+  },
+  {
+   "name": "Fenny",
+   "type": "person",
+   "role": "Member who answered that Locals should be used and closed the issue as completed"
+  },
+  {
+   "name": "sixcolors",
+   "type": "person",
+   "role": "Member who explained that Locals accepts one or two parameters as a getter or setter"
+  },
+  {
+   "name": "acidjazz",
+   "type": "person",
+   "role": "commenter who said Locals is an awesome feature that should be listed elsewhere"
+  },
+  {
+   "name": "ReneWerner87",
+   "type": "person",
+   "role": "commenter who linked the Fiber documentation page for Ctx Locals"
+  },
+  {
+   "name": "levniko",
+   "type": "person",
+   "role": "commenter who asked how to reach the claims value set with Locals"
+  },
+  {
+   "name": "martirosharutyunyan",
+   "type": "person",
+   "role": "commenter who asked how Locals can work with two parameters"
+  },
+  {
+   "name": "Locals",
+   "type": "product",
+   "role": "Fiber Ctx method used to store and retrieve request-scoped data by key"
+  },
+  {
+   "name": "Fiber documentation",
+   "type": "product",
+   "role": "official documentation linked for the Ctx Locals method at docs.gofiber.io"
+  },
+  {
+   "name": "JWT middleware",
+   "type": "program",
+   "role": "authentication middleware from which the user's claims were to be saved to context"
+  }
+ ],
+ "tags": [
+  "go",
+  "fiber",
+  "middleware",
+  "context",
+  "github-issue",
+  "jwt"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4637,
+  "output_tokens": 1329
+ }
+}

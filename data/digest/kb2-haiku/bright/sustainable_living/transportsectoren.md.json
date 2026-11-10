@@ -1,0 +1,61 @@
+{
+ "summary": "This clipped EMSD (Hong Kong Electrical and Mechanical Services Department) page from the Energy Consumption Indicators and Benchmarks (ECIB) site presents the Energy Utilisation Index for the transport sector. It lists fuel or electricity consumption per 100 km for motorcycles, private cars by engine size and fuel type, various bus, light bus, taxi and goods vehicle categories. A note cautions that the indexes are one way, but not the only way, of improving vehicle energy performance and are not territory-wide standards. The page was last updated on 10 November 2023.",
+ "one_line": "Hong Kong EMSD table of transport-sector energy utilisation indexes giving fuel or electricity use per 100 km for various vehicle types.",
+ "key_facts": [
+  "The ECIB transport sector page lists Energy Utilisation Index values as fuel or electricity consumption per 100km distance travelled.",
+  "Motorcycles (Petrol) have an energy utilisation index of 3.6 Litre/100km.",
+  "Private Cars with petrol engine size ≤ 1,000cc have an index of 6.7 Litre/100km.",
+  "Private Cars with petrol engine size 1,501 – 2,500cc have an index of 11.0 Litre/100km.",
+  "Private Cars with petrol engine size > 4,500cc have an index of 19.6 Litre/100km.",
+  "Electric Vehicles (V28) have an index of 19.7 kWh/100km.",
+  "Hybrid Vehicles (V29) have an index of 7.1 Litre/100km.",
+  "Public Buses (Double Deck) Non-franchised (Diesel) have an index of 65.1 Litre/100km.",
+  "Taxi (Urban) (LPG) has an index of 16.1 Litre/100km, while Taxi (Lantau Island) has 16.4 Litre/100km.",
+  "Heavy Goods Vehicles (Diesel) have an index of 41.2 Litre/100km.",
+  "The note states stakeholders are encouraged to consider these indexes as one way, but not the only way, of improving vehicle energy performance with respect to the past.",
+  "The note states the indicators should not be construed as representative energy consumption levels of the population, nor as territory-wide standards.",
+  "The indexes are derived from studies on a limited size of samples within the population of respective energy-consuming groups.",
+  "The page was last updated on 10 November 2023.",
+  "The glossary of subgroup definitions is provided as a PDF linked from the page."
+ ],
+ "entities": [
+  {
+   "name": "Electrical and Mechanical Services Department",
+   "type": "organization",
+   "role": "publisher of the ECIB website and copyright holder of the page"
+  },
+  {
+   "name": "ECIB",
+   "type": "program",
+   "role": "Energy Consumption Indicators and Benchmarks website hosting the transport sector energy utilisation index"
+  },
+  {
+   "name": "Energy Utilisation Index - Transport Sector",
+   "type": "program",
+   "role": "table of fuel or electricity consumption per 100km for vehicle categories"
+  },
+  {
+   "name": "Carbon Neutral@HK",
+   "type": "program",
+   "role": "government initiative logo linked from the page footer"
+  },
+  {
+   "name": "Hong Kong Asia's World City",
+   "type": "program",
+   "role": "government branding logo linked from the page footer"
+  }
+ ],
+ "tags": [
+  "energy efficiency",
+  "transport",
+  "hong kong",
+  "vehicles",
+  "benchmarks",
+  "fuel consumption"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5421,
+  "output_tokens": 1149
+ }
+}

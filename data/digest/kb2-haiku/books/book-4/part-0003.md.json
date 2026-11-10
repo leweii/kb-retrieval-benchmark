@@ -1,0 +1,69 @@
+{
+ "summary": "An excerpt from the third part of a serialized fiction story (Book 4) that opens with an author's preface about sysadmins and the myth that the Internet was built to survive nuclear war, then follows Felix, a freelance systems administrator, awakened at 2 AM by an on-call phone alert about failed main routers and BGP. His wife Kelly objects to him answering, and he attempts a remote fix via the cage's UPS while the two argue about his habit of fixing things from home. The note ends mid-sentence as he considers driving out to the cage.",
+ "one_line": "Part 3 of a fiction serial in which sysadmin Felix is paged at 2 AM over failed routers and argues with his wife Kelly about answering.",
+ "key_facts": [
+  "The author describes freelance systems administrators as working in the steam tunnels of the information age, pulling cables, configuring machines, keeping backups running, and kicking the network in its soft and vulnerable places.",
+  "The author writes that the myth that the Internet was designed to withstand a nuclear war is pernicious.",
+  "The author states that the nuclear-war vision was present in the hindbrains of generals who greenlighted network R&D at companies like Rand and BBN, but was not a big piece of the actual engineering and design.",
+  "The story originally appeared in Baen's Universe Magazine, which was edited by Eric Flint.",
+  "The author says listeners to the podcast heard the story as it was written, read aloud in serial chinks after each composing session.",
+  "Felix's special phone rings at two in the morning while he is in bed with his wife Kelly.",
+  "Kelly says, \"You're not a fucking doctor,\" and calls him a \"goddamned systems administrator.\"",
+  "Kelly says Felix is a father now and that he cannot go running off in the middle of the night every time someone's porn supply goes down.",
+  "The system monitor reports: \"Main routers not responding. BGP not responding.\"",
+  "Felix could log in to the UPS for the cage and reboot the routers, because the UPS sits in a different netblock with its own independent routers on their own uninterruptible power supplies.",
+  "Kelly says, \"In five years of marriage, you have never once been able to fix anything from here.\"",
+  "The narration says Felix does fix things from home all the time, but discreetly, so Kelly does not remember it.",
+  "Felix's logs show that after 1 AM nothing can be fixed without driving out to the cage.",
+  "The excerpt ends mid-sentence while describing the need to drive out."
+ ],
+ "entities": [
+  {
+   "name": "Felix",
+   "type": "person",
+   "role": "freelance systems administrator and protagonist who is on call and answers the 2 AM phone"
+  },
+  {
+   "name": "Kelly",
+   "type": "person",
+   "role": "Felix's wife of five years who objects to him answering the phone"
+  },
+  {
+   "name": "Eric Flint",
+   "type": "person",
+   "role": "editor of Baen's Universe Magazine, described as a talented writer and advocate for open and free culture"
+  },
+  {
+   "name": "Baen's Universe Magazine",
+   "type": "organization",
+   "role": "online magazine where the story originally appeared"
+  },
+  {
+   "name": "Rand",
+   "type": "organization",
+   "role": "company whose generals-era network R&D is mentioned in relation to the nuclear-war myth"
+  },
+  {
+   "name": "BBN",
+   "type": "organization",
+   "role": "company whose network R&D is mentioned in relation to the nuclear-war myth"
+  },
+  {
+   "name": "Strangelove",
+   "type": "other",
+   "role": "reference to the nuclear-war scenario mentioned as a wet-dream in the generals' hindbrains"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "serial novel",
+  "systems administration",
+  "networking",
+  "internet history"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1937,
+  "output_tokens": 1178
+ }
+}

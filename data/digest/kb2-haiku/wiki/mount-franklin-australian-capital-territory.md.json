@@ -1,0 +1,43 @@
+{
+ "summary": "This note describes Mount Franklin, a mountain in the Brindabella Ranges. It lies on the border between the Australian Capital Territory and New South Wales, Australia, with its summit located in the Australian Capital Territory. The note gives no elevation figure, as the value is missing from the text.",
+ "one_line": "Mount Franklin is a mountain in the Brindabella Ranges on the Australian Capital Territory and New South Wales border.",
+ "key_facts": [
+  "Mount Franklin is a mountain in the Brindabella Ranges.",
+  "Mount Franklin is located on the border between the Australian Capital Territory and New South Wales, Australia.",
+  "The summit of Mount Franklin is located in the Australian Capital Territory."
+ ],
+ "entities": [
+  {
+   "name": "Mount Franklin",
+   "type": "place",
+   "role": "mountain in the Brindabella Ranges on the border between the Australian Capital Territory and New South Wales, with its summit in the Australian Capital Territory"
+  },
+  {
+   "name": "Brindabella Ranges",
+   "type": "place",
+   "role": "mountain range in which Mount Franklin is located"
+  },
+  {
+   "name": "Australian Capital Territory",
+   "type": "place",
+   "role": "Australian territory on whose border Mount Franklin lies and where its summit is located"
+  },
+  {
+   "name": "New South Wales",
+   "type": "place",
+   "role": "Australian state sharing a border with the Australian Capital Territory at Mount Franklin"
+  }
+ ],
+ "tags": [
+  "mountains",
+  "australia",
+  "australian capital territory",
+  "new south wales",
+  "brindabella ranges"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1086,
+  "output_tokens": 504
+ }
+}

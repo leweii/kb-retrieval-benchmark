@@ -1,0 +1,85 @@
+{
+ "summary": "This is a clipped React documentation page for the useContext hook, which lets a component read and subscribe to context. It covers the hook's reference (parameters, return value, caveats), usage patterns such as passing data deeply, updating context with state, fallback default values, overriding context in part of the tree, and optimizing re-renders with useMemo and useCallback. It ends with troubleshooting tips for providers not being seen or returning undefined. Navigation menus, banners and the repeated page header are boilerplate and were ignored.",
+ "one_line": "React docs page explaining the useContext hook for reading and subscribing to context, with usage, caveats and troubleshooting.",
+ "key_facts": [
+  "useContext is a React Hook that lets you read and subscribe to context from your component.",
+  "The signature is written as const value = useContext(SomeContext).",
+  "Parameter SomeContext is the context previously created with createContext; the context itself does not hold the information.",
+  "useContext returns the value passed to the closest SomeContext.Provider above the calling component in the tree.",
+  "If there is no matching provider, useContext returns the defaultValue passed to createContext.",
+  "React automatically re-renders components that read some context if it changes.",
+  "Context value changes are compared with the Object.is comparison.",
+  "Skipping re-renders with memo does not prevent children from receiving fresh context values.",
+  "A useContext() call is not affected by providers returned from the same component; the Provider must be above the component.",
+  "Passing context only works if the SomeContext used to provide and read it are exactly the same object, as determined by a === comparison.",
+  "Example in the docs: a Button anywhere inside Form receives \"dark\" as the value when a ThemeContext.Provider with value=\"dark\" wraps Form.",
+  "The default context value never changes; to update context, combine it with state.",
+  "If a provider is rendered without a value prop, useContext returns undefined, equivalent to passing value={undefined}.",
+  "The docs note that a Provider with value={undefined} in the parent tree makes useContext return undefined rather than the default value.",
+  "To optimize re-renders, wrap functions with useCallback and object values with useMemo before passing them via context."
+ ],
+ "entities": [
+  {
+   "name": "useContext",
+   "type": "program",
+   "role": "React Hook that lets a component read and subscribe to context; the subject of this page"
+  },
+  {
+   "name": "React",
+   "type": "product",
+   "role": "JavaScript library whose documentation this page belongs to; page covers react@18.2.0"
+  },
+  {
+   "name": "createContext",
+   "type": "program",
+   "role": "React API used to create a context, whose defaultValue is returned when no provider exists"
+  },
+  {
+   "name": "useMemo",
+   "type": "program",
+   "role": "React Hook recommended to wrap the context value object to avoid unnecessary re-renders"
+  },
+  {
+   "name": "useCallback",
+   "type": "program",
+   "role": "React Hook recommended to wrap the login function passed via context to avoid unnecessary re-renders"
+  },
+  {
+   "name": "useState",
+   "type": "program",
+   "role": "React Hook used with context to hold state that is passed down as the context value"
+  },
+  {
+   "name": "memo",
+   "type": "program",
+   "role": "React API that skips re-renders but does not prevent children from receiving fresh context values"
+  },
+  {
+   "name": "React DevTools",
+   "type": "product",
+   "role": "Tool suggested for checking whether the component hierarchy is right"
+  },
+  {
+   "name": "React Conf",
+   "type": "event",
+   "role": "Conference announced in the page banner for May 15-16"
+  },
+  {
+   "name": "Object.is",
+   "type": "program",
+   "role": "JavaScript comparison used to compare previous and next context values"
+  }
+ ],
+ "tags": [
+  "react",
+  "hooks",
+  "useContext",
+  "context",
+  "frontend documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13188,
+  "output_tokens": 1155
+ }
+}

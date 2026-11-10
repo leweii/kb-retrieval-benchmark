@@ -1,0 +1,55 @@
+{
+ "summary": "This is a Snowflake reference page for the JAROWINKLER_SIMILARITY string function, which computes the Jaro-Winkler similarity between two strings as an integer from 0 (no similarity) to 100 (exact match). The comparison is case-insensitive but sensitive to all formatting characters, including whitespace. The page covers syntax, arguments, usage notes on execution time, collation behavior, and a worked example comparing several string pairs with their scores.",
+ "one_line": "Reference page for Snowflake's JAROWINKLER_SIMILARITY function, which scores string similarity from 0 to 100.",
+ "key_facts": [
+  "JAROWINKLER_SIMILARITY computes the Jaro-Winkler similarity of two input strings and returns an integer between 0 and 100.",
+  "A return value of 0 indicates no similarity, and 100 indicates an exact match.",
+  "The similarity computation is case-insensitive.",
+  "The computation is sensitive to all formatting characters, including white space characters.",
+  "The syntax is JAROWINKLER_SIMILARITY( <string_expr1> , <string_expr2> ), and both arguments are required.",
+  "When comparing short strings, execution time is proportional to the product of the lengths of the input strings.",
+  "When comparing long strings, execution time is proportional to the length of the longer string.",
+  "Collation details have no impact: in languages with digraphs or trigraphs such as Hungarian 'Dz' and 'Dzs', each character is treated as an independent character.",
+  "The result is based solely on the characters in the strings, not on the collation specifications of the strings.",
+  "In the example, 'Gute nacht' compared with 'Ich weis nicht' scores 56 in both directions.",
+  "In the example, 'Ich weiß nicht' compared with 'Ich wei? nicht' scores 98.",
+  "In the example, 'Ich weiß nicht' compared with 'Ich weiss nicht' scores 97.",
+  "In the example, 'Snowflake' compared with 'Oracle' scores 61.",
+  "In the example, 'święta' compared with 'swieta' scores 77.",
+  "In the example, comparing an empty string with an empty string scores 0, and comparing NULL with any string returns NULL."
+ ],
+ "entities": [
+  {
+   "name": "JAROWINKLER_SIMILARITY",
+   "type": "program",
+   "role": "Snowflake string function that computes the Jaro-Winkler similarity of two input strings, returning an integer from 0 to 100"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Company whose documentation page describes the JAROWINKLER_SIMILARITY function; the page also compares the strings 'Snowflake' and 'Oracle' in the example"
+  },
+  {
+   "name": "Oracle",
+   "type": "organization",
+   "role": "Second string in an example pair compared against 'Snowflake', scoring 61"
+  },
+  {
+   "name": "ed",
+   "type": "other",
+   "role": "Example table whose columns s and t are compared in the usage example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "string-functions",
+  "jaro-winkler",
+  "similarity",
+  "sql-reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2182,
+  "output_tokens": 1004
+ }
+}

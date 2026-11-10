@@ -1,0 +1,32 @@
+{
+ "summary": "This is a clipped reference page for the ALTER INTEGRATION command, which modifies the properties of an existing integration. It gives the general syntax ALTER <integration_type> INTEGRATION <object_name> <actions>, where the actions depend on the integration type. The page points to other pages for type-specific syntax, usage notes, and examples, but those details are not included in this note. Most of the remaining text is navigation and boilerplate.",
+ "one_line": "Reference page describing the general syntax for the ALTER INTEGRATION command, which modifies existing integrations.",
+ "key_facts": [
+  "ALTER INTEGRATION modifies the properties for an existing integration.",
+  "The general syntax is ALTER <integration_type> INTEGRATION <object_name> <actions>.",
+  "The <actions> portion of the syntax is specific to the object type.",
+  "The page refers readers to separate pages for specific syntax, usage notes, and examples.",
+  "The page is categorized under General, API, Catalog, External access, Notification, Security, and Storage navigation sections.",
+  "The page includes a 'Was this page helpful?' feedback prompt with Yes and No options.",
+  "The page language is English."
+ ],
+ "entities": [
+  {
+   "name": "ALTER INTEGRATION",
+   "type": "product",
+   "role": "SQL command documented on this page that modifies the properties of an existing integration"
+  }
+ ],
+ "tags": [
+  "sql",
+  "alter-integration",
+  "database-commands",
+  "reference",
+  "syntax"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1215,
+  "output_tokens": 471
+ }
+}

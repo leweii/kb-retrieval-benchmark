@@ -1,0 +1,43 @@
+{
+ "summary": "Mohinga is a rice noodle and fish soup from Myanmar, described as an essential part of Burmese cuisine and considered by many to be the country's national dish. It is widely available across most of Myanmar, where street hawkers and roadside stalls in major cities sell it in large quantities. Traditionally a breakfast food, it is increasingly eaten at other times of the day.",
+ "one_line": "Mohinga is a rice noodle and fish soup from Myanmar, often regarded as its national dish and commonly eaten for breakfast.",
+ "key_facts": [
+  "Mohinga is a rice noodle and fish soup from Myanmar.",
+  "Mohinga is an essential part of Burmese cuisine.",
+  "Many people consider mohinga to be the national dish of Myanmar.",
+  "Mohinga is readily available in most parts of Myanmar.",
+  "In major cities, street hawkers and roadside stalls sell dozens of dishes of mohinga to locals and passers-by.",
+  "Mohinga is usually eaten for breakfast.",
+  "Today mohinga is being consumed more and more throughout the day."
+ ],
+ "entities": [
+  {
+   "name": "Mohinga",
+   "type": "product",
+   "role": "rice noodle and fish soup from Myanmar, considered by many to be its national dish"
+  },
+  {
+   "name": "Myanmar",
+   "type": "place",
+   "role": "country where mohinga is a national dish and readily available in most parts"
+  },
+  {
+   "name": "Burmese cuisine",
+   "type": "other",
+   "role": "cuisine of which mohinga is an essential part"
+  }
+ ],
+ "tags": [
+  "myanmar",
+  "burmese cuisine",
+  "noodles",
+  "soup",
+  "street food",
+  "breakfast"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1127,
+  "output_tokens": 532
+ }
+}

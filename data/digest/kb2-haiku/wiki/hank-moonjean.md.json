@@ -1,0 +1,40 @@
+{
+ "summary": "A short obituary-style note reporting that Hank Moonjean died of pancreatic cancer at his Hollywood Hills home on October 7, 2012, aged 82. It states he was survived by his partner of 53 years, Bradley Bennett.",
+ "one_line": "Hank Moonjean, who died of pancreatic cancer in 2012 at age 82, is remembered through a brief obituary note.",
+ "key_facts": [
+  "Hank Moonjean died from pancreatic cancer.",
+  "Hank Moonjean died at his Hollywood Hills residence.",
+  "Hank Moonjean died on October 7, 2012.",
+  "Hank Moonjean was 82 years old when he died.",
+  "Hank Moonjean was survived by his partner of 53 years, Bradley Bennett."
+ ],
+ "entities": [
+  {
+   "name": "Hank Moonjean",
+   "type": "person",
+   "role": "subject of the note; died from pancreatic cancer at his Hollywood Hills residence on October 7, 2012, at age 82"
+  },
+  {
+   "name": "Bradley Bennett",
+   "type": "person",
+   "role": "partner of 53 years who survived Hank Moonjean"
+  },
+  {
+   "name": "Hollywood Hills",
+   "type": "place",
+   "role": "location of Hank Moonjean's residence where he died"
+  }
+ ],
+ "tags": [
+  "obituary",
+  "death",
+  "pancreatic cancer",
+  "hollywood hills",
+  "biography"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1056,
+  "output_tokens": 447
+ }
+}

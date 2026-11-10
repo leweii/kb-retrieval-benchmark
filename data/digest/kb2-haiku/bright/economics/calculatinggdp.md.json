@@ -1,0 +1,109 @@
+{
+ "summary": "This Lumen Learning macroeconomics module explains how GDP is calculated using the expenditure approach (C + I + G + (X – M)) with 2016 U.S. figures, and how GDP can be broken down by type of product (durable goods, nondurable goods, services, structures, inventories). It describes what counts and does not count in each component, how the Bureau of Economic Analysis and Census Bureau gather data and revise estimates, and briefly introduces the national income approach to measuring GDP.",
+ "one_line": "Explains how U.S. GDP is measured by expenditure components and by type of product, with 2016 data, data sources, and the national income alternative.",
+ "key_facts": [
+  "GDP under the expenditure approach is calculated as Consumption + Investment + Government Spending + Net Exports, written as GDP = C + I + G + (X – M).",
+  "In 2016, consumption was $12.8 trillion, or 68.7% of total U.S. GDP of $18.6 trillion.",
+  "In 2016, investment was $3.0 trillion (16.3%), government was $3.3 trillion (17.6%), and net exports were -$0.50 trillion (-2.7%).",
+  "Consumption expenditure is described as a 'gentle elephant' that does not jump around much over time, and it has been creeping up towards 70% in recent years.",
+  "Investment expenditure refers to purchases of new capital goods such as business equipment, commercial real estate, residential housing, and inventories, and does not include purchases of stocks and bonds.",
+  "Buying a new house is counted as investment rather than consumption, and inventories produced this year are included in this year's GDP even if they have not yet sold.",
+  "Government spending in GDP includes only government purchases of goods or services; transfer payments such as unemployment benefits, veterans' benefits, and Social Security payments are excluded.",
+  "A trade surplus exists when exports exceed imports, while a trade deficit exists when imports exceed exports; the U.S. has had a trade deficit in most years since the early 1980s.",
+  "In 2016, services were $11.6 trillion (62.4%) of GDP, durable goods $3.0 trillion (16.3%), nondurable goods $2.5 trillion (13.1%), and structures $1.5 trillion (8.0%).",
+  "Goods lasting three years or more are durable goods, while goods lasting less than three years are nondurable goods.",
+  "The Bureau of Economic Analysis (BEA), within the U.S. Department of Commerce, constructs GDP estimates, which are produced quarterly and annualized by multiplying by four.",
+  "The BEA releases an 'advance' GDP estimate one month after a quarter, a 'preliminary' estimate one month later, and a 'final' estimate one month after that, though it is not actually final.",
+  "Once every five years, the BEA revises all past GDP estimates going back to 1929.",
+  "The national income approach measures GDP by adding up all income produced, including wages and salaries, interest and dividends, rent, and profit, so the total value of output equals the total value of income."
+ ],
+ "entities": [
+  {
+   "name": "Bureau of Economic Analysis (BEA)",
+   "type": "organization",
+   "role": "Government economists within the U.S. Department of Commerce who construct estimates of GDP from a variety of sources"
+  },
+  {
+   "name": "U.S. Census Bureau",
+   "type": "organization",
+   "role": "Conducts business censuses, monthly retail sales surveys, monthly construction surveys, and monthly import and export document records used in GDP estimates"
+  },
+  {
+   "name": "U.S. Department of the Treasury",
+   "type": "organization",
+   "role": "Source of statistics on federal government purchases used for GDP estimates"
+  },
+  {
+   "name": "Social Security Administration",
+   "type": "organization",
+   "role": "Source of payroll records used to track government spending involving hiring people"
+  },
+  {
+   "name": "U.S. Department of Transportation",
+   "type": "organization",
+   "role": "Provides information on energy used in GDP estimates"
+  },
+  {
+   "name": "U.S. Department of Energy",
+   "type": "organization",
+   "role": "Provides information on energy used in GDP estimates"
+  },
+  {
+   "name": "Agency for Health Care Research and Quality",
+   "type": "organization",
+   "role": "Collects information on healthcare used in GDP estimates"
+  },
+  {
+   "name": "U.S. Department of Agriculture",
+   "type": "organization",
+   "role": "Collects statistics on farming used in GDP estimates"
+  },
+  {
+   "name": "Starbucks",
+   "type": "organization",
+   "role": "Example of a company whose new store construction counts as business investment"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Example of a company whose purchase of robots counts as business investment"
+  },
+  {
+   "name": "Gross domestic product (GDP)",
+   "type": "other",
+   "role": "Value of the output of all final goods and services produced within a country in a year; the central measure discussed in the note"
+  },
+  {
+   "name": "Great Recession",
+   "type": "event",
+   "role": "Period between 2008 and 2009 after which imports and exports declined"
+  },
+  {
+   "name": "OpenStax College",
+   "type": "organization",
+   "role": "Original author of the shared content 'Measuring the Size of the Economy: Gross Domestic Product'"
+  },
+  {
+   "name": "Lumen Learning",
+   "type": "organization",
+   "role": "Provider of the modified and adapted content of the module"
+  },
+  {
+   "name": "Rice University",
+   "type": "organization",
+   "role": "Provider of the original OpenStax College content"
+  }
+ ],
+ "tags": [
+  "gdp",
+  "macroeconomics",
+  "national income",
+  "trade balance",
+  "economic measurement"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 7959,
+  "output_tokens": 1755
+ }
+}

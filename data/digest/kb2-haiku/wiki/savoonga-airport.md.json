@@ -1,0 +1,55 @@
+{
+ "summary": "This note describes Savoonga Airport, a state-owned public-use airport in Alaska. It lies two nautical miles (4 km) south of the central business district of Savoonga, a city in the Nome Census Area. The note also places Savoonga on St. Lawrence Island in the Bering Sea.",
+ "one_line": "Savoonga Airport is a state-owned public-use airport two nautical miles south of Savoonga, on St. Lawrence Island in Alaska.",
+ "key_facts": [
+  "Savoonga Airport is a state-owned public-use airport.",
+  "Savoonga Airport is located two nautical miles (4 km) south of the central business district of Savoonga.",
+  "Savoonga is a city in the Nome Census Area of the U.S. state of Alaska.",
+  "Savoonga is located on St. Lawrence Island.",
+  "St. Lawrence Island lies in the Bering Sea."
+ ],
+ "entities": [
+  {
+   "name": "Savoonga Airport",
+   "type": "place",
+   "role": "state-owned public-use airport two nautical miles south of Savoonga's central business district"
+  },
+  {
+   "name": "Savoonga",
+   "type": "place",
+   "role": "city in the Nome Census Area of Alaska where the airport is located"
+  },
+  {
+   "name": "Nome Census Area",
+   "type": "place",
+   "role": "census area in the U.S. state of Alaska containing Savoonga"
+  },
+  {
+   "name": "St. Lawrence Island",
+   "type": "place",
+   "role": "island on which Savoonga is located"
+  },
+  {
+   "name": "Bering Sea",
+   "type": "place",
+   "role": "sea in which St. Lawrence Island lies"
+  },
+  {
+   "name": "Alaska",
+   "type": "place",
+   "role": "U.S. state containing Savoonga Airport"
+  }
+ ],
+ "tags": [
+  "aviation",
+  "alaska",
+  "airports",
+  "st. lawrence island",
+  "savoonga"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1081,
+  "output_tokens": 582
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "summary": "This note is a git submodule configuration file (.gitmodules) from a robotics project. It lists nine submodules, each mapped to a local path under src/lib/ and a GitHub repository URL. The repositories include motor controller, local and coverage planners, NTRIP GNSS client, ROS message packages, GPS driver, positioning, monitoring and remote-control components, mostly from the ClemensElflein GitHub account.",
+ "one_line": "A .gitmodules file listing nine ROS robotics library submodules under src/lib with their GitHub source URLs.",
+ "key_facts": [
+  "The note is a .gitmodules file in a robotics project with the domain listed as robotics.",
+  "The file defines nine submodules, each with a path under src/lib/.",
+  "The submodule src/lib/xesc_ros points to https://github.com/ClemensElflein/xesc_ros.git.",
+  "The submodule src/lib/ftc_local_planner points to https://github.com/ClemensElflein/ftc_local_planner.git.",
+  "The submodule src/lib/slic3r_coverage_planner points to https://github.com/ClemensElflein/slic3r_coverage_planner.git.",
+  "The submodule src/lib/ntrip_client points to https://github.com/LORD-MicroStrain/ntrip_client.git, the only one from the LORD-MicroStrain account.",
+  "The submodule src/lib/xbot_msgs points to https://github.com/ClemensElflein/xbot_msgs.git.",
+  "The submodule src/lib/xbot_driver_gps points to https://github.com/ClemensElflein/xbot_driver_gps.git.",
+  "The submodule src/lib/xbot_positioning points to https://github.com/ClemensElflein/xbot_positioning.git.",
+  "The submodule src/lib/xbot_monitoring points to https://github.com/ClemensElflein/xbot_monitoring without a .git suffix.",
+  "The submodule src/lib/xbot_remote points to https://github.com/ClemensElflein/xbot_remote without a .git suffix.",
+  "Each submodule entry uses a path line and a url line in git config format."
+ ],
+ "entities": [
+  {
+   "name": "xesc_ros",
+   "type": "program",
+   "role": "submodule at src/lib/xesc_ros, hosted at ClemensElflein/xesc_ros"
+  },
+  {
+   "name": "ftc_local_planner",
+   "type": "program",
+   "role": "submodule at src/lib/ftc_local_planner, hosted at ClemensElflein/ftc_local_planner"
+  },
+  {
+   "name": "slic3r_coverage_planner",
+   "type": "program",
+   "role": "submodule at src/lib/slic3r_coverage_planner, hosted at ClemensElflein/slic3r_coverage_planner"
+  },
+  {
+   "name": "ntrip_client",
+   "type": "program",
+   "role": "submodule at src/lib/ntrip_client, hosted at LORD-MicroStrain/ntrip_client"
+  },
+  {
+   "name": "xbot_msgs",
+   "type": "program",
+   "role": "submodule at src/lib/xbot_msgs, hosted at ClemensElflein/xbot_msgs"
+  },
+  {
+   "name": "xbot_driver_gps",
+   "type": "program",
+   "role": "submodule at src/lib/xbot_driver_gps, hosted at ClemensElflein/xbot_driver_gps"
+  },
+  {
+   "name": "xbot_positioning",
+   "type": "program",
+   "role": "submodule at src/lib/xbot_positioning, hosted at ClemensElflein/xbot_positioning"
+  },
+  {
+   "name": "xbot_monitoring",
+   "type": "program",
+   "role": "submodule at src/lib/xbot_monitoring, hosted at ClemensElflein/xbot_monitoring"
+  },
+  {
+   "name": "xbot_remote",
+   "type": "program",
+   "role": "submodule at src/lib/xbot_remote, hosted at ClemensElflein/xbot_remote"
+  },
+  {
+   "name": "ClemensElflein",
+   "type": "organization",
+   "role": "GitHub account hosting eight of the nine listed submodule repositories"
+  },
+  {
+   "name": "LORD-MicroStrain",
+   "type": "organization",
+   "role": "GitHub account hosting the ntrip_client repository"
+  }
+ ],
+ "tags": [
+  "git",
+  "submodules",
+  "robotics",
+  "ros",
+  "gnss",
+  "path-planning"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1558,
+  "output_tokens": 1379
+ }
+}

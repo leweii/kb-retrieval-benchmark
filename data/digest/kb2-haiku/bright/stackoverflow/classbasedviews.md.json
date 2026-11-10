@@ -1,0 +1,85 @@
+{
+ "summary": "This is a page from the Django 5.0 documentation explaining class-based views, which are callables that take a request and return a response and let developers structure views with inheritance and mixins. It covers basic view classes (View, RedirectView, TemplateView), using generic views directly in the URLconf via as_view(), subclassing generic views, supporting extra HTTP methods such as HEAD for a book list API, and asynchronous class-based views. Site navigation, language menus and footer boilerplate are ignored.",
+ "one_line": "Django 5.0 documentation on class-based views: base view classes, URLconf usage, subclassing, HTTP method handling and async views.",
+ "key_facts": [
+  "A view is a callable which takes a request and returns a response, and Django provides classes that can be used as views.",
+  "All views inherit from the View class, which handles linking the view into the URLs, HTTP method dispatching and other common features.",
+  "RedirectView provides an HTTP redirect, and TemplateView extends the base class to also render a template.",
+  "Any arguments passed to as_view() override attributes set on the class, as in TemplateView.as_view(template_name=\"about.html\").",
+  "To subclass TemplateView, the example sets template_name = \"about.html\" in a class named AboutView inside some_app/views.py.",
+  "The as_view() class method provides a function-like entry point to class-based views so they can be used in a URLconf.",
+  "In the book library example, BookListView defines a head() method that returns a response with a Last-Modified header in RFC 1123 date format based on the most recent book's publication_date.",
+  "A HEAD request to the book list view returns an empty body with the Last-Modified header, so the client can decide whether to download the full object list.",
+  "A GET request to the book list view returns an object list using the book_list.html template.",
+  "View subclasses may define asynchronous (async def) method handlers, such as an async get() that awaits asyncio.sleep(1) and returns HttpResponse(\"Hello async world!\").",
+  "Within a single view class, all user-defined method handlers must be either synchronous (def) or all asynchronous (async def).",
+  "An ImproperlyConfigured exception will be raised in as_view() if def and async def declarations are mixed in one view class.",
+  "Django automatically detects asynchronous views and runs them in an asynchronous context.",
+  "The page is part of Django 5.0 documentation, with copyright listed as 2005-2024 Django Software Foundation."
+ ],
+ "entities": [
+  {
+   "name": "Django",
+   "type": "product",
+   "role": "The web framework whose documentation this page is from; Django 5.0 documentation is the version shown"
+  },
+  {
+   "name": "View",
+   "type": "other",
+   "role": "Base view class from which all views inherit, handling URL linking and HTTP method dispatching"
+  },
+  {
+   "name": "RedirectView",
+   "type": "other",
+   "role": "Class-based view that provides an HTTP redirect"
+  },
+  {
+   "name": "TemplateView",
+   "type": "other",
+   "role": "Class-based view that extends the base class to render a template; subclassed in the AboutView example"
+  },
+  {
+   "name": "as_view()",
+   "type": "other",
+   "role": "Class method that provides a function-like entry to class-based views for use in URLconfs"
+  },
+  {
+   "name": "AboutView",
+   "type": "other",
+   "role": "Example subclass of TemplateView with template_name set to about.html"
+  },
+  {
+   "name": "BookListView",
+   "type": "other",
+   "role": "Example ListView subclass for the book library API that implements head() to return a Last-Modified header"
+  },
+  {
+   "name": "AsyncView",
+   "type": "other",
+   "role": "Example View subclass with an async get() handler that sleeps and returns Hello async world!"
+  },
+  {
+   "name": "Django Software Foundation",
+   "type": "organization",
+   "role": "Organization credited with copyright and that owns the Django trademark"
+  },
+  {
+   "name": "Read the Docs",
+   "type": "organization",
+   "role": "Provider of the offline download versions of the Django documentation"
+  }
+ ],
+ "tags": [
+  "django",
+  "class-based-views",
+  "python",
+  "web-development",
+  "documentation",
+  "async"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6578,
+  "output_tokens": 1263
+ }
+}

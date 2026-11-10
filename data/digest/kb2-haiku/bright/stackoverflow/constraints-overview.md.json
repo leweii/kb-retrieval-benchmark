@@ -1,0 +1,43 @@
+{
+ "summary": "This Snowflake documentation page overviews constraint functionality in Snowflake. It lists supported ANSI constraint types (UNIQUE, PRIMARY KEY, FOREIGN KEY, NOT NULL) and explains that Snowflake defines and maintains constraints but does not enforce them except NOT NULL. It also covers table-level behavior for copies, Time Travel, single- versus multi-column constraints, and inline versus out-of-line definitions.",
+ "one_line": "Snowflake's overview of supported constraint types, enforcement behavior, and inline versus out-of-line constraint definitions.",
+ "key_facts": [
+  "Snowflake supports the ANSI SQL constraint types UNIQUE, PRIMARY KEY, FOREIGN KEY, and NOT NULL.",
+  "A table can have multiple unique keys and foreign keys but only one primary key.",
+  "Every foreign key must reference a corresponding primary or unique key that matches the column types of each column in the foreign key.",
+  "Snowflake supports defining and maintaining constraints but does not enforce them, except for NOT NULL constraints, which are always enforced.",
+  "Snowflake supports constraints on permanent, transient, and temporary tables.",
+  "Constraints can be defined on columns of all data types, and there are no limits on the number of columns that can be included in a constraint.",
+  "When a table is copied using CREATE TABLE … LIKE or CREATE TABLE … CLONE, all existing constraints on the table, including foreign keys, are copied to the new table.",
+  "DROP/UNDROP and GET_DDL are supported for tables with constraints, and also for schemas and databases.",
+  "For Time Travel, when previous versions of a table are copied, the current version of the constraints is used because Snowflake does not store previous versions of constraints in table metadata.",
+  "For multi-column constraints such as compound primary keys or unique keys, the columns are ordered and each column has a corresponding key sequence.",
+  "Inline constraints are created as part of the column definition and can only be used for single-column constraints.",
+  "Out-of-line constraints are defined using a separate clause, can be used for single-column or multi-column constraints, and can be created for existing columns.",
+  "The primary key for a foreign key can be on a different table or on the same table as the foreign key."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "data platform whose constraint functionality is described in this overview"
+  },
+  {
+   "name": "ANSI SQL standard",
+   "type": "program",
+   "role": "standard from which the supported constraint types UNIQUE, PRIMARY KEY, FOREIGN KEY, and NOT NULL are taken"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "constraints",
+  "database-design",
+  "data-integrity"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1968,
+  "output_tokens": 897
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "summary": "This Frontiers in Physiology article (2021) compares sleep in the adaptation (first) night and the experimental (second) night of polysomnography in 74 healthy young adults at Osaka University. It examines sleep-stage continuity and transitions, cycle-by-cycle sleep-stage distribution, and EEG and heart rate variability (HRV) spectral power to characterize the first-night effect. The main findings are lower sleep quality and more wakefulness and N1 in the adaptation night, with first-cycle changes in sleep stages and beta EEG power, while HF amplitude of HRV stayed lower across four cycles.",
+ "one_line": "Study of the first-night effect in 74 healthy young adults, comparing sleep-stage dynamics, EEG power and heart rate variability across sleep cycles in adaptation and experimental nights.",
+ "key_facts": [
+  "The study included 74 healthy adults who underwent polysomnographic recordings on two consecutive nights.",
+  "Cycle-by-cycle analysis was performed in 34 subjects with four sleep cycles.",
+  "Sleep runs were significantly shorter in the adaptation night than in the experimental night (p < 0.01).",
+  "Stage N1 and stage N2 runs were shorter in the adaptation night, while stage Wake runs were longer (both p < 0.01 for N1 and N2).",
+  "The normalized transition probability from N2 to N1 was higher in the adaptation night, and from N2 to N3 was lower (p < 0.01).",
+  "In the first sleep cycle, the percentages of stage Wake and N1 were significantly higher and stage N3 significantly lower in the adaptation night (p < 0.01).",
+  "The high beta EEG band in NREM sleep was significantly higher in the first sleep cycle of the adaptation night (p < 0.01).",
+  "RR intervals and HF amplitude were significantly lower over the four sleep cycles in the adaptation night than in the experimental night (both p < 0.05) in NREM sleep.",
+  "Sleep efficiency was lower (p < 0.001) and total sleep time shorter (p < 0.01) in the adaptation night.",
+  "REM sleep was shorter in the adaptation night (p < 0.001), and the number of REM sleep periods increased from the adaptation to the experimental night (p < 0.05).",
+  "Subjects with AHI of 5 or more were excluded; 26 participants were excluded in total, including 19 with sleep apnea syndrome.",
+  "Recordings were made at Osaka University Graduate School of Dentistry between November 25th, 2013, and September 25th, 2019.",
+  "The study was designed to detect a medium effect size (dz = 0.5) with power 0.90 using a two-tailed paired t-test.",
+  "The authors hypothesized that the sleep architecture of the first sleep cycle is most influenced by the laboratory environment in the adaptation night.",
+  "The conclusion states results suggest distinct vulnerability of autonomic adaptation processes within the central nervous system in young healthy subjects sleeping in a sleep laboratory for the first time."
+ ],
+ "entities": [
+  {
+   "name": "Osaka University Graduate School of Dentistry",
+   "type": "organization",
+   "role": "institution where the sleep laboratory recordings were performed and ethics approval was granted"
+  },
+  {
+   "name": "Osaka University Hospital",
+   "type": "organization",
+   "role": "affiliation of co-author Hiroyoshi Adachi and others, Sleep Medicine Center"
+  },
+  {
+   "name": "Ai Shirota",
+   "type": "person",
+   "role": "first-listed author of the article"
+  },
+  {
+   "name": "Takafumi Kato",
+   "type": "person",
+   "role": "corresponding author of the article"
+  },
+  {
+   "name": "Pittsburgh Sleep Quality Index (PSQI)",
+   "type": "program",
+   "role": "subjective questionnaire completed by participants to assess sleep quality over one month"
+  },
+  {
+   "name": "Self-rating Depression Scale (SDS)",
+   "type": "program",
+   "role": "self-administered survey used to quantify depressed status"
+  },
+  {
+   "name": "Embla N7000",
+   "type": "product",
+   "role": "polysomnography recording system used with REMbrandt PSG software"
+  },
+  {
+   "name": "first-night effect",
+   "type": "event",
+   "role": "phenomenon of poorer sleep quality in the first night of polysomnographic recording used to adapt to the lab"
+  },
+  {
+   "name": "American Academy of Sleep Medicine criteria version 2.1",
+   "type": "program",
+   "role": "criteria used to score sleep stages and respiratory events"
+  },
+  {
+   "name": "Feinberg (1974) method",
+   "type": "program",
+   "role": "reference method used to define sleep cycles"
+  },
+  {
+   "name": "complex demodulation (CD)",
+   "type": "program",
+   "role": "heart rate analysis method used to compute HRV amplitudes"
+  },
+  {
+   "name": "Frontiers in Physiology",
+   "type": "organization",
+   "role": "journal in which the article was published (Volume 12, 2021)"
+  }
+ ],
+ "tags": [
+  "sleep",
+  "first-night effect",
+  "polysomnography",
+  "heart rate variability",
+  "sleep cycles",
+  "EEG"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 12614,
+  "output_tokens": 1637
+ }
+}

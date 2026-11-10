@@ -1,0 +1,40 @@
+{
+ "summary": "The note is a short excerpt from a Wikipedia article on the FIFA Club World Cup, focusing on championship records. It states that Barcelona hold the record for most victories with three titles, that Corinthians' inaugural win is the best result by a host nation's national league champion, and that Spanish teams have won the tournament five times, more than any other nation.",
+ "one_line": "Summary of FIFA Club World Cup records, including Barcelona's three wins and Spain's five titles.",
+ "key_facts": [
+  "Barcelona hold the record for most victories in the FIFA Club World Cup, winning the competition three times.",
+  "Corinthians' inaugural victory remains the best result from a host nation's national league champions.",
+  "Teams from Spain have won the FIFA Club World Cup five times.",
+  "Teams from Spain have won the tournament more often than any other nation."
+ ],
+ "entities": [
+  {
+   "name": "FIFA Club World Cup",
+   "type": "event",
+   "role": "the tournament whose records the note describes"
+  },
+  {
+   "name": "Barcelona",
+   "type": "organization",
+   "role": "club holding the record for most victories, with three wins"
+  },
+  {
+   "name": "Corinthians",
+   "type": "organization",
+   "role": "club whose inaugural victory is the best result from a host nation's national league champions"
+  }
+ ],
+ "tags": [
+  "football",
+  "club world cup",
+  "fifa",
+  "sports records",
+  "barcelona",
+  "spain"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1064,
+  "output_tokens": 438
+ }
+}

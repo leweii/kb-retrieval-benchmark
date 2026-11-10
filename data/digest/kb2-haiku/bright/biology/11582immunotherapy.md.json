@@ -1,0 +1,106 @@
+{
+ "summary": "This Cleveland Clinic Health Library article explains immunotherapy for cancer, which uses the body's immune system to find and destroy cancer cells. It describes five types of immunotherapy (checkpoint inhibitors, adoptive cell therapy, cancer vaccines, monoclonal antibodies and immune system modulators), the cancers each treats, common side effects such as immune-related adverse effects, how treatment is given, and questions to ask a provider. The article notes immunotherapy can control cancer and help people live longer but cannot cure it for everyone.",
+ "one_line": "Cleveland Clinic overview of cancer immunotherapy, its five main types, uses, side effects, and treatment outlook.",
+ "key_facts": [
+  "Immunotherapy for cancer uses the body's immune system to find and destroy cancerous cells.",
+  "The article states there are five types of immunotherapy: checkpoint inhibitors, adoptive cell therapy, cancer vaccines, monoclonal antibodies and immune system modulators.",
+  "Healthcare providers typically use immunotherapy to treat advanced cancer, cancer that hasn't responded to other treatments and cancer that's come back.",
+  "Checkpoint inhibitors are immunotherapy drugs that work by breaking the connection between checkpoint proteins and other proteins that tell T-cells to turn off.",
+  "CAR T-cell therapy treats certain blood cancers, including some types of leukemia, lymphoma and multiple myeloma.",
+  "The FDA has not approved tumor-infiltrating lymphocyte (TIL) therapy as a standard cancer treatment.",
+  "The FDA has approved more than 60 different monoclonal antibody drugs that treat a wide range of cancer.",
+  "The FDA has approved a cancer vaccine that uses an immune cell that responds to specific antigens on prostate cancer cells.",
+  "Interleukin IL-2 increases the number of white blood cells in the body, including T-cells and B-cells.",
+  "Immunomodulatory drugs listed include thalidomide (Thalomid), lenalidomide (Revlimid), pomalidomide (Pomalyst) and imiquimod (Aldara, Zyclara).",
+  "About 20% of people receiving immunotherapy have severe immune-related adverse effects (irAE).",
+  "Immunotherapy is usually given through an intravenous (IV) infusion, daily, weekly, monthly or in a cycle with rest periods.",
+  "The article states immunotherapy is not a cure: it can control cancer so people can live longer, but not everyone responds to treatment.",
+  "Cancer vaccines do not prevent cancer, though HPV vaccines protect against an infectious disease linked to anal, throat and penile cancers.",
+  "The article was last reviewed by a Cleveland Clinic medical professional on 11/15/2022."
+ ],
+ "entities": [
+  {
+   "name": "Cleveland Clinic",
+   "type": "organization",
+   "role": "non-profit academic medical center that published the article and whose website hosts it"
+  },
+  {
+   "name": "U.S. Food and Drug Administration (FDA)",
+   "type": "organization",
+   "role": "agency that has approved monoclonal antibody drugs and a prostate cancer vaccine, and has not approved TIL therapy as standard treatment"
+  },
+  {
+   "name": "CAR T-cell therapy",
+   "type": "program",
+   "role": "chimeric antigen receptor T-cell therapy that turns T-cells into more efficient cancer-fighting cells, used for certain blood cancers"
+  },
+  {
+   "name": "Tumor-infiltrating lymphocyte (TIL) therapy",
+   "type": "program",
+   "role": "T-cell transfer therapy in which larger, stronger TIL cells are grown from tumors and returned; studied for melanoma, cervical squamous carcinoma and cholangiocarcinoma"
+  },
+  {
+   "name": "Checkpoint inhibitors",
+   "type": "product",
+   "role": "immunotherapy drugs that break the connection between checkpoint proteins and other proteins so T-cells keep killing cancer cells"
+  },
+  {
+   "name": "Monoclonal antibody therapy",
+   "type": "program",
+   "role": "treatment using lab-made antibodies that attack cancer cells or deliver drugs, toxins or radioactive material"
+  },
+  {
+   "name": "Cancer vaccines",
+   "type": "product",
+   "role": "vaccines that train the body to fight cancer; do not prevent cancer"
+  },
+  {
+   "name": "Cytokines",
+   "type": "other",
+   "role": "proteins that manage the immune system's response, including interferons and interleukins"
+  },
+  {
+   "name": "Interleukin IL-2",
+   "type": "product",
+   "role": "specific interleukin that increases white blood cells including T-cells and B-cells"
+  },
+  {
+   "name": "Thalidomide (Thalomid)",
+   "type": "product",
+   "role": "immunomodulatory drug that makes cells release IL-2 and blocks new blood vessel formation in tumors"
+  },
+  {
+   "name": "Lenalidomide (Revlimid)",
+   "type": "product",
+   "role": "immunomodulatory drug approved for newly diagnosed myeloma and effective for recurrent myeloma"
+  },
+  {
+   "name": "Pomalidomide (Pomalyst)",
+   "type": "product",
+   "role": "immunomodulatory drug effective for recurrent myeloma"
+  },
+  {
+   "name": "Imiquimod (Aldara, Zyclara)",
+   "type": "product",
+   "role": "immunomodulatory drug that makes cells release cytokines"
+  },
+  {
+   "name": "Human papillomavirus (HPV) vaccine",
+   "type": "product",
+   "role": "vaccine protecting against an infectious disease linked to anal, throat and penile cancers"
+  }
+ ],
+ "tags": [
+  "immunotherapy",
+  "cancer treatment",
+  "immune system",
+  "t-cells",
+  "monoclonal antibodies",
+  "medical reference"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 11718,
+  "output_tokens": 1864
+ }
+}

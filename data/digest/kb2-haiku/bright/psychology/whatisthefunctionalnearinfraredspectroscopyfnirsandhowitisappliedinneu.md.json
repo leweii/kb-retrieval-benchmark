@@ -1,0 +1,84 @@
+{
+ "summary": "This blog article by Dr. Marco Mancini introduces functional near-infrared spectroscopy (fNIRS) as a non-invasive optical imaging technique that measures blood oxygenation changes, and explains why it is attractive for neuromarketing compared with fMRI. It covers fNIRS's advantages (movement, portability, low cost, real-time use, temporal resolution), summarizes a 2018 Lee et al. proposal and a follow-up study on prefrontal cortex activation, and lists other applications such as human factors training and clinical rehabilitation.",
+ "one_line": "Overview of fNIRS, a portable, low-cost optical brain imaging method contrasted with fMRI and applied in neuromarketing research.",
+ "key_facts": [
+  "Functional near-infrared spectroscopy (fNIRS) is described as a non-invasive optical imaging technique that measures blood oxygenation changes similar to fMRI.",
+  "fNIRS measures changes in hemoglobin (Hb) concentrations within the brain by means of the characteristic absorption spectra of Hb in the near-infrared range.",
+  "The fMRI experimental setup requires the total immobility of subjects, who must lie down inside the scanner, which is most of the time located inside a hospital.",
+  "Companies and academics in neuromarketing and consumer neuroscience usually do not own an fMRI and instead have special agreements with public and private institutes operating in the healthcare industry.",
+  "The article lists movement, portability, low cost, real-time assessment of regional oxygenation, and temporal resolution as reasons for the growing interest of neuromarketing experts in fNIRS.",
+  "fNIRS temporal resolution is up to 100 Hz, though usually 1–10 Hz, and is not comparable to EEG, which captures neural events in the order of milliseconds.",
+  "In 2018, Lee et al. highlighted the advantages of fNIRS in neuromarketing, proposing its integration among the most effective neuromarketing methods.",
+  "A follow-up study including two small fNIRS experiments reported significant differences in activation of prefrontal cortex between different tested stimuli.",
+  "That study found higher activation when viewing labels and brands compared to non-labeled products.",
+  "That study found significantly higher activation when in drinking cola compared to just viewing a picture.",
+  "The article states that fNIRS is widely applied beyond neuromarketing for safety simulations and training for airline pilots, train engineers, ship captains, truck drivers, and air traffic controllers.",
+  "Other fNIRS applications listed include military simulations and training, in-home real-time monitoring during patient rehabilitation for cognitive impairment or depression, and as a replacement for or supplement to functional brain imaging.",
+  "The article states that about 95% of all thought, emotion, and learning occur in the unconscious mind, according to the site's Neuromarketing page teaser."
+ ],
+ "entities": [
+  {
+   "name": "Functional near-infrared spectroscopy (fNIRS)",
+   "type": "product",
+   "role": "non-invasive optical imaging technique that measures blood oxygenation changes, the subject of the article"
+  },
+  {
+   "name": "fMRI (Functional magnetic resonance imaging)",
+   "type": "product",
+   "role": "neuroimaging technique with high, detailed spatial resolution but limited for real-world applications due to subject immobility and cost"
+  },
+  {
+   "name": "Electroencephalography (EEG)",
+   "type": "product",
+   "role": "neuroimaging technique widely used in neuromarketing that captures neural events in the order of milliseconds"
+  },
+  {
+   "name": "Lee et al.",
+   "type": "person",
+   "role": "authors who in 2018 highlighted the advantages of fNIRS in neuromarketing and proposed its integration among the most effective neuromarketing methods"
+  },
+  {
+   "name": "Dr. Marco Mancini",
+   "type": "person",
+   "role": "author of the article, whose experience focuses on analysis of cognitive and emotional variables from biometric measures"
+  },
+  {
+   "name": "Galea",
+   "type": "product",
+   "role": "platform announced by OpenBCI for integrating brain activity study in Virtual Reality and Mixed Reality, mentioned as a related resource"
+  },
+  {
+   "name": "OpenBCI",
+   "type": "organization",
+   "role": "organization that announced the development of Galea"
+  },
+  {
+   "name": "Galvanic Skin Response (GSR)",
+   "type": "product",
+   "role": "related resource on the site about its use in neuromarketing"
+  },
+  {
+   "name": "Implicit Reaction Time Tests (IRTs)",
+   "type": "product",
+   "role": "family of tests related resource allowing neuromarketing experts to study responses"
+  },
+  {
+   "name": "Eye Tracker",
+   "type": "product",
+   "role": "device studied as a related resource that records eye movements of people"
+  }
+ ],
+ "tags": [
+  "fnirs",
+  "neuromarketing",
+  "neuroimaging",
+  "consumer neuroscience",
+  "brain imaging",
+  "fmri comparison"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9188,
+  "output_tokens": 1578
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "summary": "This is reference documentation for the GET_ABSOLUTE_PATH SQL function, which returns the absolute cloud storage path of a staged file given a stage name and the file's relative path within that stage. It covers syntax, argument quoting rules for stage names with spaces or special characters, the return value, privilege requirements for external and internal stages, a note on encryption for downloaded internal-stage files, and a single example retrieving a JPG path from an S3-backed external stage.",
+ "one_line": "Reference for the GET_ABSOLUTE_PATH SQL function, which returns the cloud storage absolute path of a staged file.",
+ "key_facts": [
+  "GET_ABSOLUTE_PATH retrieves the absolute path of a staged file using the stage name and the file's path relative to its location in the stage as inputs.",
+  "The syntax is GET_ABSOLUTE_PATH( @<stage_name> , '<relative_file_path>' ).",
+  "If a stage name includes spaces or special characters, it must be enclosed in single quotes, for example '@\"my  stage\"' for a stage named \"my  stage\".",
+  "The function returns the absolute path of the file in cloud storage.",
+  "For an external stage, any role with the USAGE privilege on the stage can get a return value from the function.",
+  "For an internal stage, any role with the READ privilege on the stage can get a return value from the function.",
+  "If files downloaded from an internal stage are corrupted, the user should verify with the stage creator that ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') is set for the stage.",
+  "The documented example runs SELECT GET_ABSOLUTE_PATH(@images_stage, 'us/yosemite/half_dome.jpg').",
+  "In the example, the function returns s3://photos/national_parks/us/yosemite/half_dome.jpg.",
+  "The example file is described as a bitmap format image file stored in an external stage."
+ ],
+ "entities": [
+  {
+   "name": "GET_ABSOLUTE_PATH",
+   "type": "program",
+   "role": "SQL function documented in the note that retrieves the absolute cloud storage path of a staged file"
+  },
+  {
+   "name": "images_stage",
+   "type": "product",
+   "role": "external stage used as the stage argument in the example"
+  },
+  {
+   "name": "half_dome.jpg",
+   "type": "product",
+   "role": "bitmap image file in the example whose absolute path is retrieved"
+  },
+  {
+   "name": "SNOWFLAKE_SSE",
+   "type": "program",
+   "role": "encryption type that the stage should have set if files downloaded from an internal stage are corrupted"
+  }
+ ],
+ "tags": [
+  "sql",
+  "snowflake",
+  "staged-files",
+  "stage",
+  "function-reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1739,
+  "output_tokens": 864
+ }
+}

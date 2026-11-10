@@ -1,0 +1,88 @@
+{
+ "summary": "This is a Snowflake documentation page for the SHA2 and SHA2_HEX string functions, which return a hex-encoded string containing the N-bit SHA-2 message digest of an input message. The optional digest_size argument selects SHA-224, SHA-256 (default), SHA-384, or SHA-512, and SHA-512/224 and SHA-512/256 are not supported. The page warns that the function is one-way with no decryption counterpart and is meant for checksums, and it includes a SELECT example and a table example showing VARCHAR and BINARY output.",
+ "one_line": "Snowflake reference for the SHA2 and SHA2_HEX functions, which return hex-encoded SHA-2 digests of a string.",
+ "key_facts": [
+  "SHA2 and SHA2_HEX are synonymous functions that return a hex-encoded string containing the N-bit SHA-2 message digest.",
+  "The required msg argument is a string expression, the message to be hashed.",
+  "The optional digest_size argument is the output size in bits and defaults to 256.",
+  "Valid digest_size values are 224 (SHA-224), 256 (SHA-256, default), 384 (SHA-384), and 512 (SHA-512).",
+  "SHA-512/224 and SHA-512/256 are not supported.",
+  "The function returns a value of data type VARCHAR.",
+  "The page warns not to use this function to encrypt a message that needs to be decrypted, because it has no corresponding decryption function.",
+  "The page states the function is intended for purposes such as calculating a checksum to detect data corruption.",
+  "The example SELECT sha2('Snowflake', 224) returns 6267d3d7a59929e6864dd4b737d98e3ef8569d9f88a7466647838532.",
+  "The table example inserts 'AbCd0' and shows that SHA2 of it is e1d8ba27889d6782008f495473278c4f071995c5549a976e4d4f93863ce93643 in both the VARCHAR and hex columns.",
+  "The example table sha_table also includes SHA1, SHA1_HEX, SHA1_BINARY, and SHA2_BINARY output columns.",
+  "The page lists the Syntax, Arguments, Returns, Usage Notes, and Examples sections."
+ ],
+ "entities": [
+  {
+   "name": "SHA2",
+   "type": "program",
+   "role": "Function that returns a hex-encoded N-bit SHA-2 message digest of a string; synonymous with SHA2_HEX"
+  },
+  {
+   "name": "SHA2_HEX",
+   "type": "program",
+   "role": "Synonymous function with SHA2 that returns a hex-encoded SHA-2 message digest"
+  },
+  {
+   "name": "SHA-224",
+   "type": "program",
+   "role": "SHA-2 variant selected by digest_size 224"
+  },
+  {
+   "name": "SHA-256",
+   "type": "program",
+   "role": "SHA-2 variant selected by digest_size 256, the default"
+  },
+  {
+   "name": "SHA-384",
+   "type": "program",
+   "role": "SHA-2 variant selected by digest_size 384"
+  },
+  {
+   "name": "SHA-512",
+   "type": "program",
+   "role": "SHA-2 variant selected by digest_size 512"
+  },
+  {
+   "name": "SHA1",
+   "type": "program",
+   "role": "Hash function used in the table example alongside SHA2"
+  },
+  {
+   "name": "SHA1_HEX",
+   "type": "program",
+   "role": "Hex-output SHA1 function used in the table example"
+  },
+  {
+   "name": "SHA1_BINARY",
+   "type": "program",
+   "role": "Binary-output SHA1 function used in the table example"
+  },
+  {
+   "name": "SHA2_BINARY",
+   "type": "program",
+   "role": "Binary-output SHA2 function used in the table example"
+  },
+  {
+   "name": "sha_table",
+   "type": "other",
+   "role": "Example table created to store SHA1 and SHA2 outputs of the value 'AbCd0'"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "hashing",
+  "sha-2",
+  "checksum",
+  "string-functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2589,
+  "output_tokens": 1259
+ }
+}

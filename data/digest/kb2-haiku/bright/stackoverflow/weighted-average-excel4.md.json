@@ -1,0 +1,78 @@
+{
+ "summary": "A Chandoo.org tutorial on calculating weighted averages in Excel, explaining why plain averages can mislead (using an ACME Widgets salary example) and giving SUMPRODUCT-based formula patterns for percentage weights, weights not summing to 100%, counts, and conditional weighted averages. The page also includes a long comment thread where readers ask about weighted averages for payment terms, pivot tables, Likert data, and blank cells, with replies from Hui.",
+ "one_line": "Chandoo tutorial on computing weighted averages in Excel with SUMPRODUCT, including variants for weights not summing to 100% and conditional Boston-only averages.",
+ "key_facts": [
+  "The article states there is no built-in Excel formula for weighted averages, and recommends using SUMPRODUCT.",
+  "The basic weighted average pattern is =SUMPRODUCT(<your values>, <your weights>), valid when percentage weights total 100%.",
+  "When weights do not add up to 100%, the article recommends =SUMPRODUCT(<your values>, <your weights>) / SUM(<your weights>).",
+  "For counts instead of weights, the article uses =SUMPRODUCT(<your values>, <your counts>) / SUM(<your counts>).",
+  "The ACME Widgets CEO example computes a simple average salary of $330,000 from (55000+65000+75000+120000+1200000)/5.",
+  "The article says the correct weighted average salary for the ACME Widgets example is $76k.",
+  "For the Boston example, the article states the SUMPRODUCT total is 218,600 and the total count for Boston is 400, giving a weighted average of 546.50.",
+  "The article suggests learning moving average and average of top n values after weighted average.",
+  "The article's Boston conditional formula is =SUMPRODUCT((C5:C16)*(B5:B16=F5),D5:D16)/SUMIFS(D5:D16,B5:B16,F5).",
+  "A commenter named Yair suggests the array-style formula SUM(A2:A6*B2:B6/SUM($B$2:$B$6)), and Daniel Ferry replies that SUMPRODUCT is about 10% faster than the equivalent array formula.",
+  "Hui replies to Krunal Patel that weighting requires a second variable, illustrating with milk fat content: 1000 litres at 5% and 4000 litres at 10% gives a weighted average of 9%.",
+  "Hui explains that averages of averages cannot simply be averaged because each input has a different weighting, so total production divided by total run hours is correct.",
+  "The article was last updated on March 14, 2024 and is tagged average(), sum(), sumproduct, and Learn Excel."
+ ],
+ "entities": [
+  {
+   "name": "Chandoo",
+   "type": "person",
+   "role": "author of the article and site owner of Chandoo.org, who says his aim is to make readers awesome in Excel and Power BI"
+  },
+  {
+   "name": "ACME Widgets co.",
+   "type": "organization",
+   "role": "company whose CEO uses a salary report example to illustrate why plain averages mislead"
+  },
+  {
+   "name": "SUMPRODUCT",
+   "type": "program",
+   "role": "Excel function recommended for computing weighted averages by summing products of corresponding values"
+  },
+  {
+   "name": "SUMIFS",
+   "type": "program",
+   "role": "Excel function used to total the count of Boston observations as the divisor in the conditional weighted average"
+  },
+  {
+   "name": "Hui",
+   "type": "person",
+   "role": "commenter who answers reader questions about weighted average formulas in the comment thread"
+  },
+  {
+   "name": "Daniel Ferry",
+   "type": "person",
+   "role": "commenter at excelhero.com who says SUMPRODUCT is about 10% faster than the equivalent array formula"
+  },
+  {
+   "name": "Yair",
+   "type": "person",
+   "role": "commenter who suggests an array formula SUM(A2:A6*B2:B6/SUM($B$2:$B$6)) for weighted averages"
+  },
+  {
+   "name": "Krunal Patel",
+   "type": "person",
+   "role": "commenter who asks how to calculate a weighted average based on dates and amounts"
+  },
+  {
+   "name": "Boston",
+   "type": "place",
+   "role": "city whose observations are used in the conditional weighted average example, yielding 546.50"
+  }
+ ],
+ "tags": [
+  "excel",
+  "weighted average",
+  "sumproduct",
+  "formulas",
+  "statistics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15181,
+  "output_tokens": 1396
+ }
+}

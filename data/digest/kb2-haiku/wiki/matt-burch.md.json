@@ -1,0 +1,37 @@
+{
+ "summary": "A short wiki note about Matt Burch, stating that he graduated from the University of Kansas in 1999 with a degree in computer engineering. It also notes that he is married to Mary Burch. The note is brief and gives no further biographical detail.",
+ "one_line": "Matt Burch is a University of Kansas 1999 computer engineering graduate who is married to Mary Burch.",
+ "key_facts": [
+  "Matt Burch graduated from the University of Kansas in 1999.",
+  "Matt Burch earned a degree in computer engineering.",
+  "Matt Burch is married to Mary Burch."
+ ],
+ "entities": [
+  {
+   "name": "Matt Burch",
+   "type": "person",
+   "role": "subject of the note; graduated from the University of Kansas in 1999 with a degree in computer engineering and is married to Mary Burch"
+  },
+  {
+   "name": "University of Kansas",
+   "type": "organization",
+   "role": "university from which Burch graduated in 1999"
+  },
+  {
+   "name": "Mary Burch",
+   "type": "person",
+   "role": "spouse of Matt Burch"
+  }
+ ],
+ "tags": [
+  "biography",
+  "education",
+  "computer engineering",
+  "university of kansas"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1023,
+  "output_tokens": 362
+ }
+}

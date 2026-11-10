@@ -1,0 +1,63 @@
+{
+ "summary": "This is Snowflake documentation for the custom classifier method DELETE_CATEGORY. The method deletes a specified semantic category along with its associated privacy category, regular expression, and comment from the custom classification instance. It is available to Snowflake accounts on Enterprise Edition or higher, and the page covers its syntax, arguments, output, access control requirements, and usage notes.",
+ "one_line": "Snowflake reference for the custom classifier DELETE_CATEGORY method, which removes a semantic category and its associated settings.",
+ "key_facts": [
+  "DELETE_CATEGORY is a method of the Snowflake custom classifier that deletes the specified semantic category.",
+  "Deleting a semantic category also removes its associated privacy category, regular expression, and comment from the instance.",
+  "The method is available to all Snowflake accounts that are Enterprise Edition.",
+  "Custom Classification requires Enterprise Edition (or higher).",
+  "The syntax is CALL <custom_classifier>!DELETE_CATEGORY( '<semantic_category>' ).",
+  "The semantic_category argument specifies the identifier (name) of the semantic category to delete.",
+  "The method returns a status message indicating the deletion of the specified semantic category.",
+  "The account role calling this method must be granted the instance role custom_classifier!PRIVACY_USER on the custom classifier.",
+  "By default, the account role used to create the instance can call this method.",
+  "Operating on any object in a schema also requires the USAGE privilege on the parent database and schema.",
+  "Usage notes say to call the method in a separate SQL statement, with no method chaining.",
+  "The page links to a custom classification example for a representative usage example.",
+  "The page includes a 'Was this page helpful?' feedback prompt and navigation elements, which were ignored."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Company whose platform documentation describes the DELETE_CATEGORY method and its Enterprise Edition availability"
+  },
+  {
+   "name": "DELETE_CATEGORY",
+   "type": "program",
+   "role": "Custom classifier method that deletes a specified semantic category with its privacy category, regular expression, and comment"
+  },
+  {
+   "name": "custom_classifier",
+   "type": "product",
+   "role": "Custom classification instance on which the DELETE_CATEGORY method is called"
+  },
+  {
+   "name": "Custom Classification",
+   "type": "product",
+   "role": "Snowflake feature that requires Enterprise Edition or higher"
+  },
+  {
+   "name": "Enterprise Edition",
+   "type": "product",
+   "role": "Snowflake edition required to use Custom Classification and DELETE_CATEGORY"
+  },
+  {
+   "name": "custom_classifier!PRIVACY_USER",
+   "type": "program",
+   "role": "Instance role that the calling account role must be granted on the custom classifier"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "custom-classification",
+  "data-privacy",
+  "sql-reference",
+  "access-control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1777,
+  "output_tokens": 933
+ }
+}

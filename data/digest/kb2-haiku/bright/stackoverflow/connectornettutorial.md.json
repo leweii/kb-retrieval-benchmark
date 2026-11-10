@@ -1,0 +1,90 @@
+{
+ "summary": "This page is section 6.1.2 of the MySQL Connector/NET Developer Guide, a tutorial on the MySqlCommand object. It explains the three main execution methods (ExecuteReader, ExecuteNonQuery, ExecuteScalar) and gives a C# code example for each, using the world database's Country table. The examples show querying Oceania countries, inserting a 'Disneyland' row, and counting countries.",
+ "one_line": "MySQL Connector/NET tutorial on using the MySqlCommand object with ExecuteReader, ExecuteNonQuery and ExecuteScalar in C#.",
+ "key_facts": [
+  "The MySqlCommand object is used to perform database operations once a connection to the MySQL database has been established.",
+  "The three main methods of MySqlCommand are ExecuteReader, ExecuteNonQuery and ExecuteScalar.",
+  "ExecuteReader is used to query the database and usually returns results in a MySqlDataReader object.",
+  "ExecuteNonQuery is used to insert, update, and delete data.",
+  "ExecuteScalar is used to return a single value.",
+  "The first example queries the Name and HeadOfState columns from the Country table WHERE Continent='Oceania' and prints results in a while loop.",
+  "The ExecuteNonQuery example inserts a row into the Country table with Name 'Disneyland', HeadOfState 'Mickey Mouse' and Continent 'North America'.",
+  "The ExecuteScalar example runs SELECT COUNT(*) FROM Country and prints 'Number of countries in the world database is: ' followed by the count.",
+  "The examples connect to a server on localhost as user root, using the database named world on port 3306.",
+  "In the ExecuteReader example, the MySqlDataReader is disposed of by invoking its Close method.",
+  "The ExecuteNonQuery procedure is simpler because no object is needed to store results.",
+  "The ExecuteScalar example stores the result in a variable instead of a MySqlDataReader object.",
+  "The tutorial is part of the Tutorial: An Introduction to Connector/NET Programming section, preceded by The MySqlConnection Object and followed by Working with Decoupled Data.",
+  "The page is from the MySQL Connector/NET Developer Guide and its copyright is listed as © 2024 Oracle."
+ ],
+ "entities": [
+  {
+   "name": "MySqlCommand",
+   "type": "product",
+   "role": "Object used to perform database operations after a connection is established; created with the SQL query and connection."
+  },
+  {
+   "name": "MySqlDataReader",
+   "type": "product",
+   "role": "Object that holds query results returned by ExecuteReader, processed with Read and closed with Close."
+  },
+  {
+   "name": "MySqlConnection",
+   "type": "product",
+   "role": "Connection object created from a connection string and opened before running commands; the subject of the previous tutorial page."
+  },
+  {
+   "name": "ExecuteReader",
+   "type": "product",
+   "role": "MySqlCommand method used to query the database and generate a MySqlDataReader."
+  },
+  {
+   "name": "ExecuteNonQuery",
+   "type": "product",
+   "role": "MySqlCommand method used to insert, update, and delete data."
+  },
+  {
+   "name": "ExecuteScalar",
+   "type": "product",
+   "role": "MySqlCommand method used to return a single value, such as a row count."
+  },
+  {
+   "name": "Country",
+   "type": "product",
+   "role": "Table in the world database used in the examples for querying, inserting and counting rows."
+  },
+  {
+   "name": "world",
+   "type": "product",
+   "role": "Example MySQL database on localhost used by the code samples."
+  },
+  {
+   "name": "MySQL Connector/NET Developer Guide",
+   "type": "program",
+   "role": "Documentation manual that contains this tutorial page."
+  },
+  {
+   "name": "Tutorial: An Introduction to Connector/NET Programming",
+   "type": "program",
+   "role": "Parent tutorial section containing this MySqlCommand page."
+  },
+  {
+   "name": "Oracle",
+   "type": "organization",
+   "role": "Copyright holder (© 2024 Oracle) listed on the page footer."
+  }
+ ],
+ "tags": [
+  "mysql",
+  "connector-net",
+  "csharp",
+  "ado-net",
+  "database",
+  "tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9066,
+  "output_tokens": 1315
+ }
+}

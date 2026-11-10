@@ -1,0 +1,47 @@
+{
+ "summary": "The note is a brief encyclopedic entry on Sierra Suroeste, a comarca in Spain. It explains that the comarca has no administrative role and is located in the southwestern part of Badajoz province in Extremadura, western Spain. It names Jerez de los Caballeros as its capital and largest city.",
+ "one_line": "Sierra Suroeste is a non-administrative comarca in southwestern Badajoz province, Extremadura, western Spain, with Jerez de los Caballeros as its capital.",
+ "key_facts": [
+  "Sierra Suroeste is a comarca in Spain.",
+  "A comarca is described in the note as a county with no administrative role.",
+  "Sierra Suroeste is located in the southwestern part of the province of Badajoz.",
+  "Sierra Suroeste is located in the autonomous community of Extremadura.",
+  "Extremadura is located in western Spain.",
+  "The capital of Sierra Suroeste is Jerez de los Caballeros.",
+  "Jerez de los Caballeros is the largest city in Sierra Suroeste."
+ ],
+ "entities": [
+  {
+   "name": "Sierra Suroeste",
+   "type": "place",
+   "role": "comarca (county with no administrative role) in southwestern Badajoz province, Extremadura, western Spain"
+  },
+  {
+   "name": "Jerez de los Caballeros",
+   "type": "place",
+   "role": "capital and largest city of Sierra Suroeste"
+  },
+  {
+   "name": "Badajoz",
+   "type": "place",
+   "role": "province in which Sierra Suroeste is located"
+  },
+  {
+   "name": "Extremadura",
+   "type": "place",
+   "role": "autonomous community in which Sierra Suroeste is located"
+  }
+ ],
+ "tags": [
+  "spain",
+  "extremadura",
+  "badajoz",
+  "comarca",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1066,
+  "output_tokens": 561
+ }
+}

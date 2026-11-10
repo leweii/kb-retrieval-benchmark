@@ -1,0 +1,50 @@
+{
+ "summary": "This note is a documentation page for Snowflake's REGEXP_SUBSTR function, which returns the substring matching a regular expression within a string, or NULL if no match is found. It covers the syntax, optional arguments (position, occurrence, regex parameters, group number), return type VARCHAR, and a series of worked examples using sample tables. The examples illustrate matching whole patterns, selecting later occurrences, extracting capture groups with the 'e' parameter or group_num, case-insensitive matching, overlapping matches, and building a JSON string from Apache HTTP Server log lines.",
+ "one_line": "Snowflake documentation for the REGEXP_SUBSTR function, covering its arguments, regex parameters, group extraction, and examples.",
+ "key_facts": [
+  "REGEXP_SUBSTR returns the substring that matches a regular expression within a string, and returns NULL if no match is found.",
+  "The syntax is REGEXP_SUBSTR( <subject> , <pattern> [ , <position> [ , <occurrence> [ , <regex_parameters> [ , <group_num> ] ] ] ] ).",
+  "The default value of position is 1, meaning the search starts at the first character on the left.",
+  "The default value of occurrence is 1, and the function skips the first occurrence - 1 matches.",
+  "The supported regex_parameters values are c (case-sensitive), i (case-insensitive), m (multi-line mode), e (extract sub-matches), and s (the '.' wildcard also matches newline).",
+  "The default value of regex_parameters is c.",
+  "If the 'e' parameter is specified without group_num, group_num defaults to 1 (the first group).",
+  "Snowflake supports up to 1024 groups.",
+  "The function returns a value of type VARCHAR that is the matching substring.",
+  "Arguments with collation specifications are currently not supported.",
+  "In the example using pattern '\\b\\S*o\\S*\\b' on the string 'Hellooo World', the result is 'Hellooo'.",
+  "In the example with the pattern 'A\\W+(\\w)(\\w)(\\w)' on 'A MAN A PLAN A CANAL', extracting groups 1, 2 and 3 of the first match returns 'M', 'A' and 'N'.",
+  "Requesting the 4th occurrence of the pattern 'A\\W+(\\w+)' in 'A MAN A PLAN A CANAL' returns NULL because there are only three matches.",
+  "The overlapping-occurrence example on ',abc,def,ghi,jkl,' with pattern '[[:punct:]][[:alnum:]]+[[:punct:]]' and occurrence 2 returns ',ghi,'.",
+  "Specifying an empty string as regex_parameters explicitly omits the regex parameters, as shown in the example using '(H\\S*o\\S*\\b).*'."
+ ],
+ "entities": [
+  {
+   "name": "REGEXP_SUBSTR",
+   "type": "product",
+   "role": "Snowflake SQL function documented on this page that returns the substring matching a regular expression"
+  },
+  {
+   "name": "REGEXP_INSTR",
+   "type": "product",
+   "role": "related Snowflake regular expression function mentioned for additional examples"
+  },
+  {
+   "name": "Apache HTTP Server",
+   "type": "product",
+   "role": "web server whose access log lines are parsed in one example to build a JSON object"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "regular expressions",
+  "string functions",
+  "reference documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6867,
+  "output_tokens": 1124
+ }
+}

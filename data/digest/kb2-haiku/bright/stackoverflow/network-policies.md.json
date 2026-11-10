@@ -1,0 +1,42 @@
+{
+ "summary": "This note documents the NETWORK_POLICIES Account Usage view, which returns one row for each network policy in an account. It lists the view's columns (id, name, owner, owner_role_type, comment, created, last_altered, deleted) with their data types and descriptions. Two usage notes cover latency of up to 120 minutes and the fact that the view only shows objects the current session role has been granted privileges to access.",
+ "one_line": "Reference for the Snowflake NETWORK_POLICIES Account Usage view, listing its columns and usage notes.",
+ "key_facts": [
+  "The NETWORK_POLICIES view is an Account Usage view that returns one row for each network policy in the account.",
+  "The id column is a NUMBER holding the internal system-generated identifier for the network policy.",
+  "The name column is a VARCHAR holding the network policy name.",
+  "The owner column is a VARCHAR holding the name of the role that owns the network policy.",
+  "The owner_role_type column is a VARCHAR and can be ROLE or DATABASE_ROLE, or APPLICATION if a Snowflake Native App owns the object.",
+  "owner_role_type returns NULL if the object was deleted, because a deleted object does not have an owner role.",
+  "The comment column is a VARCHAR holding the comment for the network policy, if any.",
+  "The created column is a TIMESTAMP_LTZ recording the date and time the network policy was created.",
+  "The last_altered column is a TIMESTAMP_LTZ recording the date and time the network policy was last altered.",
+  "The deleted column is a TIMESTAMP_LTZ recording the date and time the network policy was dropped.",
+  "Usage note: latency for the view may be up to 120 minutes (2 hours).",
+  "Usage note: the view only displays objects for which the current role for the session has been granted access privileges."
+ ],
+ "entities": [
+  {
+   "name": "NETWORK_POLICIES",
+   "type": "other",
+   "role": "Account Usage view that returns one row for each network policy in the account"
+  },
+  {
+   "name": "Snowflake Native App",
+   "type": "product",
+   "role": "Application that can own a network policy, in which case owner_role_type is APPLICATION"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account usage",
+  "network policies",
+  "metadata views",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1548,
+  "output_tokens": 722
+ }
+}

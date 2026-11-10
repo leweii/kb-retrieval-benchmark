@@ -1,0 +1,38 @@
+{
+ "summary": "This is a reference page for the GETBIT function, which takes an INTEGER expression and a bit position and returns the value (0 or 1) of that bit. Bit positions run from 0 for the least significant bit up to 127 for the most significant bit. The page includes a syntax block, argument and return descriptions, and one example that retrieves bits at positions 100, 3, 2, 1 and 0 of the integer 11, showing 0, 1, 0, 1, 1 respectively.",
+ "one_line": "Reference page for the GETBIT SQL function, which returns the 0 or 1 value of a given bit position in an integer.",
+ "key_facts": [
+  "GETBIT returns the value of a bit at a specified position in a given INTEGER value.",
+  "Syntax is GETBIT( <integer_expr>, <bit_position> ).",
+  "The integer_expr argument must evaluate to a data type that can be cast to INTEGER.",
+  "bit_position starts at 0 for the least significant bit.",
+  "bit_position goes up to 127 for the most significant bit.",
+  "The function returns 0 or 1 as the value of the bit at the specified position.",
+  "The example runs SELECT GETBIT(11, 100), GETBIT(11, 3), GETBIT(11, 2), GETBIT(11, 1), GETBIT(11, 0).",
+  "In the example, GETBIT(11, 100) returns 0.",
+  "In the example, GETBIT(11, 3) returns 1.",
+  "In the example, GETBIT(11, 2) returns 0.",
+  "In the example, GETBIT(11, 1) returns 1.",
+  "In the example, GETBIT(11, 0) returns 1.",
+  "The page is listed under the Language setting English."
+ ],
+ "entities": [
+  {
+   "name": "GETBIT",
+   "type": "program",
+   "role": "SQL function documented on this page that returns the value of a bit at a specified position in an integer"
+  }
+ ],
+ "tags": [
+  "sql",
+  "bit-manipulation",
+  "functions",
+  "reference",
+  "integer"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1593,
+  "output_tokens": 638
+ }
+}

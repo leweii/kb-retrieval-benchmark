@@ -1,0 +1,139 @@
+{
+ "summary": "This ScienceDirect-style topic page collects excerpts on asymptotic normality, mainly of maximum likelihood estimators (MLE). It covers how MLE error is asymptotically Gaussian with covariance given by the inverse Fisher information (CRLB), used to build confidence intervals for source reliability in social sensing, and the claim-classification false positive/negative estimates. Other excerpts cover the central limit theorem extension to MLE in machine learning, residual diagnostics in logistic regression, kernel regression consistency, and nonparametric and time series asymptotics.",
+ "one_line": "Excerpts from multiple statistics and econometrics texts explaining asymptotic normality of maximum likelihood estimators and related diagnostics and methods.",
+ "key_facts": [
+  "Asymptotic normality means the MLE is asymptotically Gaussian as the data sample size grows, with the limiting covariance given by the inverse Fisher information matrix.",
+  "In the social sensing excerpt, the MLE is described as unbiased in the limiting sense and its covariance reaches the CRLB, making it an efficient estimator.",
+  "The confidence interval of source reliability at confidence level p is the estimate plus or minus c_p times the estimated standard deviation, where c_p is the z-score.",
+  "For the 95% confidence level, the z-score c_p equals 1.96.",
+  "In the social sensing excerpt, a claim is judged true if Z_j* is at least 0.5 and false otherwise.",
+  "Estimated false positives are the sum over claims with Z_j* >= 0.5 of (1 - Z_j*), and estimated false negatives are the sum over claims with Z_j* < 0.5 of Z_j*.",
+  "Sugiyama's Introduction to Statistical Machine Learning states that the MLE asymptotically follows a normal distribution with expectation theta* and variance-covariance matrix (1/n) times the inverse Fisher information.",
+  "Sugiyama's excerpt states that the Cramér-Rao lower bound is attained asymptotically, meaning the MLE is asymptotically efficient.",
+  "Boik's Theorem 9 states that the MLE of theta, scaled by root n, converges in distribution to N(0, inverse of the limit average information matrix).",
+  "In Boik's logistic regression illustration with theta = (-1, 0.2), the simulated MLE means were (-1.058, 0.213), slightly biased, and the normal approximation slightly underestimated the covariance.",
+  "The aSAH residual analysis notes that with continuous covariates, the conditions for asymptotic normality are unlikely to be met, so half-normal QQ plots and LOESS checks are used to detect lack of fit.",
+  "Vinod's kernel regression review states that kernel regression is consistent and asymptotically normal under stated conditions, with bandwidth h often chosen by leave-one-out cross validation.",
+  "Dahlhaus notes that stationarity has long been central to time series analysis, and that nonstationary asymptotics is harder, with integrated and cointegrated models as exceptions."
+ ],
+ "entities": [
+  {
+   "name": "Dong Wang",
+   "type": "person",
+   "role": "co-author of the chapter 'Confidence bounds in social sensing' in Social Sensing (2015)"
+  },
+  {
+   "name": "Lance Kaplan",
+   "type": "person",
+   "role": "co-author of the chapter 'Confidence bounds in social sensing' in Social Sensing (2015)"
+  },
+  {
+   "name": "Social Sensing",
+   "type": "program",
+   "role": "2015 book in which the confidence bounds chapter appears"
+  },
+  {
+   "name": "John Muschelli",
+   "type": "person",
+   "role": "co-author of Computational Statistics with R, Handbook of Statistics (2014)"
+  },
+  {
+   "name": "Ravi Varadhan",
+   "type": "person",
+   "role": "co-author of Computational Statistics with R, Handbook of Statistics (2014)"
+  },
+  {
+   "name": "aSAH data",
+   "type": "other",
+   "role": "dataset used for residual analysis in Computational Statistics with R"
+  },
+  {
+   "name": "G. Freitag",
+   "type": "person",
+   "role": "co-author of the Mallows distance quantile process paper (2003)"
+  },
+  {
+   "name": "M. Vogt",
+   "type": "person",
+   "role": "co-author of the Mallows distance quantile process paper (2003)"
+  },
+  {
+   "name": "Masashi Sugiyama",
+   "type": "person",
+   "role": "author of the Properties of Maximum Likelihood Estimation chapter in Introduction to Statistical Machine Learning (2016)"
+  },
+  {
+   "name": "Antonio Napolitano",
+   "type": "person",
+   "role": "author of Ergodic properties and measurement of characteristics in Cyclostationary Processes and Time Series (2020)"
+  },
+  {
+   "name": "L.D. Brown",
+   "type": "person",
+   "role": "author of Decision Theory: Classical in the International Encyclopedia of the Social & Behavioral Sciences (2001)"
+  },
+  {
+   "name": "Le Cam",
+   "type": "person",
+   "role": "formulated asymptotic sufficiency, contiguity, and local asymptotic normality concepts"
+  },
+  {
+   "name": "F. Ferraty",
+   "type": "person",
+   "role": "co-author of Functional nonparametric statistics chapter (2003)"
+  },
+  {
+   "name": "Ph. Vieu",
+   "type": "person",
+   "role": "co-author of Functional nonparametric statistics chapter (2003)"
+  },
+  {
+   "name": "Robert J. Boik",
+   "type": "person",
+   "role": "author of Normal Approximations in Philosophy of Statistics (2011)"
+  },
+  {
+   "name": "Hrishikesh D. Vinod",
+   "type": "person",
+   "role": "author of Conceptual Econometrics Using R in Handbook of Statistics (2019)"
+  },
+  {
+   "name": "Rainer Dahlhaus",
+   "type": "person",
+   "role": "author of Time Series Analysis: Methods and Applications in Handbook of Statistics (2012)"
+  },
+  {
+   "name": "Kant",
+   "type": "person",
+   "role": "German philosopher quoted in 1784 on the crooked timber of humanity, cited in Vinod's review"
+  },
+  {
+   "name": "Li and Racine (2007)",
+   "type": "other",
+   "role": "source cited for kernel regression optimality and consistency results"
+  },
+  {
+   "name": "Cramér-Rao lower bound (CRLB)",
+   "type": "other",
+   "role": "efficiency bound that the MLE covariance reaches asymptotically"
+  },
+  {
+   "name": "EM algorithm",
+   "type": "program",
+   "role": "method from which the MLE of source reliability and claim probabilities are obtained"
+  }
+ ],
+ "tags": [
+  "asymptotic normality",
+  "maximum likelihood",
+  "fisher information",
+  "confidence intervals",
+  "estimation theory",
+  "statistics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14415,
+  "output_tokens": 2148
+ }
+}

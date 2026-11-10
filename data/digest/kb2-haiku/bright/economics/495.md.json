@@ -1,0 +1,137 @@
+{
+ "summary": "This note is the MDPI journal page for a 2022 Vaccines article by Xuechen Xiong and colleagues at the Chinese University of Hong Kong and Fudan University, a cost-effectiveness analysis of COVID-19 vaccination in Hong Kong. The authors built a Markov susceptible-infected-recovered model over one year from a Hong Kong healthcare perspective, comparing a do-nothing arm with a vaccination arm measured in QALYs at a HKD 1,000,000/QALY threshold. The abstract reports that the program was not cost-effective before the Omicron wave but became cost-effective during Omicron, and it recommends prioritizing the elderly. Most of the page is site navigation and boilerplate; the article text shown is the abstract and the start of the background.",
+ "one_line": "A 2022 cost-effectiveness analysis finding COVID-19 vaccination in Hong Kong cost-effective during the Omicron wave but not before it.",
+ "key_facts": [
+  "The article is titled \"Economic Value of Vaccines to Address the COVID-19 Pandemic in Hong Kong: A Cost-Effectiveness Analysis\" and was published in Vaccines in 2022, volume 10, issue 4, article 495.",
+  "The study used a Markov model of COVID-19 infections with a susceptible–infected–recovered structure over a 1-year time horizon.",
+  "The analysis took a Hong Kong healthcare sector perspective and measured resource utilization, economic burden, and disease outcomes.",
+  "The model compared two arms: do nothing and implement a vaccination program.",
+  "Effectiveness was measured in quality-adjusted life years (QALYs) at a willingness-to-pay threshold of HKD 1,000,000 per QALY.",
+  "The vaccination program, which reached approximately 72% of Hong Kong's population with two doses, cost HKD 22,339,700 per QALY gained from February 2021 to February 2022.",
+  "The vaccination program was not cost-effective given the low prevalence of COVID-19 before the Omicron wave.",
+  "The estimated ICER of the vaccination program from February 2022 to February 2023 was HKD 310,094, and the program was judged cost-effective in the context of Omicron.",
+  "The abstract states that Hong Kong was experiencing the fifth wave of Omicron at the time of writing.",
+  "As of March 2022, there were more than 438 million confirmed COVID-19 cases globally and more than 5.9 million deaths.",
+  "Hong Kong, with approximately 7.4 million people, had approximately 748,919 confirmed COVID-19 cases and 4355 deaths from January 2020 to March 2022.",
+  "The Centre for Health Protection of the Department of Health in Hong Kong was established in 2004.",
+  "From 4 February 2020, travel between Hong Kong and mainland China and other regions was restricted.",
+  "The \"Designated Hotels for Quarantine\" regulation was implemented on 22 December 2020.",
+  "The article was submitted on 17 February 2022, revised on 19 March 2022, accepted on 21 March 2022, and published on 23 March 2022.",
+  "The authors conclude that the elderly population should be prioritized to improve vaccine coverage compared with other age groups."
+ ],
+ "entities": [
+  {
+   "name": "Xuechen Xiong",
+   "type": "person",
+   "role": "first author of the article, affiliated with the Institute of Future Cities, The Chinese University of Hong Kong"
+  },
+  {
+   "name": "Jing Li",
+   "type": "person",
+   "role": "co-author of the article"
+  },
+  {
+   "name": "Bo Huang",
+   "type": "person",
+   "role": "co-author of the article, corresponding author"
+  },
+  {
+   "name": "Tony Tam",
+   "type": "person",
+   "role": "co-author of the article"
+  },
+  {
+   "name": "Yingyi Hong",
+   "type": "person",
+   "role": "co-author of the article"
+  },
+  {
+   "name": "Ka-Chun Chong",
+   "type": "person",
+   "role": "co-author of the article"
+  },
+  {
+   "name": "Zhaohua Huo",
+   "type": "person",
+   "role": "co-author of the article"
+  },
+  {
+   "name": "Christian Napoli",
+   "type": "person",
+   "role": "academic editor of the journal Vaccines for this article"
+  },
+  {
+   "name": "Vaccines",
+   "type": "program",
+   "role": "MDPI journal in which the article was published"
+  },
+  {
+   "name": "MDPI",
+   "type": "organization",
+   "role": "publisher of the journal and the article, which is available under open access"
+  },
+  {
+   "name": "The Chinese University of Hong Kong",
+   "type": "organization",
+   "role": "affiliation of most of the authors"
+  },
+  {
+   "name": "Fudan University",
+   "type": "organization",
+   "role": "affiliation of author Xuechen Xiong's second affiliation, School of Public Health"
+  },
+  {
+   "name": "Centre for Health Protection, Department of Health, Hong Kong",
+   "type": "organization",
+   "role": "government body established in 2004 with experience coping with pandemic-capable diseases"
+  },
+  {
+   "name": "Hong Kong",
+   "type": "place",
+   "role": "study setting, densely populated international city of about 7.4 million people"
+  },
+  {
+   "name": "COVID-19 vaccination program in Hong Kong",
+   "type": "program",
+   "role": "intervention evaluated for cost-effectiveness against a do-nothing arm"
+  },
+  {
+   "name": "Omicron wave",
+   "type": "event",
+   "role": "COVID-19 wave in Hong Kong during which the vaccination program was judged cost-effective"
+  },
+  {
+   "name": "Prohibition on Group Gathering Regulation",
+   "type": "program",
+   "role": "Hong Kong regulation implemented on 29 March 2020"
+  },
+  {
+   "name": "Wearing of Mask Regulation",
+   "type": "program",
+   "role": "Hong Kong regulation implemented on 15 July 2020"
+  },
+  {
+   "name": "Compulsory Testing for Certain Persons Regulation",
+   "type": "program",
+   "role": "Hong Kong regulation implemented on 15 November 2020"
+  },
+  {
+   "name": "Designated Hotels for Quarantine",
+   "type": "program",
+   "role": "Hong Kong regulation implemented on 22 December 2020"
+  }
+ ],
+ "tags": [
+  "vaccines",
+  "cost-effectiveness",
+  "covid-19",
+  "hong kong",
+  "health economics",
+  "omicron"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 16079,
+  "output_tokens": 1985
+ }
+}

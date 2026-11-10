@@ -1,0 +1,51 @@
+{
+ "summary": "This clipped Snowflake documentation page describes the account_root_budget!ACTIVATE method, which activates the account budget so it can track credit usage. It covers the call syntax, the return value 'activated', and the ACCOUNTADMIN-only access requirement. Usage notes say activation is irreversible, a spending limit and notification settings must be configured afterward, and custom budgets do not need activation. The page also notes the feature is not available for Trial Accounts.",
+ "one_line": "Snowflake method that activates the account budget, an irreversible step requiring the ACCOUNTADMIN role.",
+ "key_facts": [
+  "The account_root_budget!ACTIVATE method activates the account budget.",
+  "Syntax is CALL account_root_budget!ACTIVATE() and the method returns 'activated'.",
+  "Only a user with the ACCOUNTADMIN role can activate the account budget.",
+  "Once the account budget is activated, it cannot be deactivated.",
+  "After activation, a spending limit must be set for the budget to start tracking credit usage.",
+  "After activation, the notification integration and email address(es) must be set to receive notifications.",
+  "No notifications will be sent if email addresses are not set.",
+  "The ACTIVATE method is only available on the account budget; custom budgets do not require activation.",
+  "The example call is CALL snowflake.local.account_root_budget!ACTIVATE();.",
+  "This feature is currently not available for Trial Accounts.",
+  "Troubleshooting information for account budget activation errors is provided on a separate page."
+ ],
+ "entities": [
+  {
+   "name": "account_root_budget!ACTIVATE",
+   "type": "program",
+   "role": "method that activates the account budget"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "the only role permitted to activate the account budget"
+  },
+  {
+   "name": "Trial Accounts",
+   "type": "other",
+   "role": "account type for which this feature is currently not available"
+  },
+  {
+   "name": "snowflake.local.account_root_budget",
+   "type": "program",
+   "role": "fully qualified budget object used in the example call"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "budgets",
+  "account-administration",
+  "credits",
+  "cost-management"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1509,
+  "output_tokens": 689
+ }
+}

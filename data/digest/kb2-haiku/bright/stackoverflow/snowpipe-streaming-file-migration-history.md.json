@@ -1,0 +1,64 @@
+{
+ "summary": "This is documentation for the SNOWPIPE_STREAMING_FILE_MIGRATION_HISTORY Account Usage view in Snowflake, which records data migrated into Snowflake tables by Snowpipe Streaming over the last 365 days. It lists the view's columns (time window, credits, bytes and rows migrated, and target table, schema and database identifiers and names), usage notes about latency and why migrated counts may differ from inserted counts, and a sample query with example output. The page also includes navigation and footer boilerplate, which was ignored.",
+ "one_line": "Snowflake Account Usage view documenting Snowpipe Streaming data migration history, including credits, bytes and rows migrated per table over the past year.",
+ "key_facts": [
+  "The SNOWPIPE_STREAMING_FILE_MIGRATION_HISTORY view is an Account Usage view that shows the history of data migrated into Snowflake tables by Snowpipe Streaming within the last 365 days (1 year).",
+  "The view displays the number of rows and bytes migrated and the credits used for migration, billed for the entire Snowflake account.",
+  "START_TIME and END_TIME are TIMESTAMP_LTZ values that define the local time zone range in which data migration took place.",
+  "CREDITS_USED is a FLOAT giving the number of credits billed for Snowpipe Streaming data migration during the START_TIME and END_TIME window.",
+  "NUM_BYTES_MIGRATED and NUM_ROWS_MIGRATED are NUMBER columns giving the bytes and rows migrated during the START_TIME and END_TIME window.",
+  "TABLE_ID, SCHEMA_ID and DATABASE_ID are internal, system-generated identifiers for the target table, its schema and its database.",
+  "TABLE_NAME, SCHEMA_NAME and DATABASE_NAME are TEXT columns giving the names of the target table, schema and database that the Snowpipe Streaming client loads data into.",
+  "Latency for the view may be up to 12 hours.",
+  "File migration sometimes may be pre-empted by clustering or other DML operations, so migration may not always occur and the migration history may be empty even after 12 hours.",
+  "The NUM_BYTES_MIGRATED and NUM_ROWS_MIGRATED columns only show bytes and rows processed during the migration process and may not equal the actual numbers inserted by Snowpipe Streaming.",
+  "Example from the note: Snowpipe Streaming inserts 1M rows and the table has 1M rows, but NUM_ROWS_MIGRATED shows only 800K rows because the other 200K rows are processed outside of the migration process.",
+  "The example query is SELECT * FROM SNOWFLAKE.ACCOUNT_USAGE.SNOWPIPE_STREAMING_FILE_MIGRATION_HISTORY;",
+  "In the sample output, a row for STREAMING_TABLE in schema SNOW of database STREAMING (window 2023-02-07 19:00 to 20:00 UTC) shows CREDITS_USED 0.000096761, 7,850 bytes and 39 rows migrated."
+ ],
+ "entities": [
+  {
+   "name": "SNOWPIPE_STREAMING_FILE_MIGRATION_HISTORY",
+   "type": "product",
+   "role": "Account Usage view that records the history of data migrated into Snowflake tables by Snowpipe Streaming within the last 365 days"
+  },
+  {
+   "name": "Snowpipe Streaming",
+   "type": "product",
+   "role": "Snowflake service whose client loads data into Snowflake tables; its migration history is tracked by the view"
+  },
+  {
+   "name": "SNOWFLAKE.ACCOUNT_USAGE",
+   "type": "program",
+   "role": "Snowflake schema in which the view resides and is queried"
+  },
+  {
+   "name": "STREAMING_TABLE",
+   "type": "product",
+   "role": "Example target table in the sample query output"
+  },
+  {
+   "name": "SNOW",
+   "type": "place",
+   "role": "Example schema name in the sample query output"
+  },
+  {
+   "name": "STREAMING",
+   "type": "place",
+   "role": "Example database name in the sample query output"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "snowpipe-streaming",
+  "account-usage",
+  "data-migration",
+  "billing",
+  "sql"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2690,
+  "output_tokens": 1390
+ }
+}

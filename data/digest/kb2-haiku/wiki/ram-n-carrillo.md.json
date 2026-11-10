@@ -1,0 +1,38 @@
+{
+ "summary": "The note is a short biographical entry on Ramón Carrillo. It states that he was born in Santiago del Estero, studied at the University of Buenos Aires, and earned a medicine degree in 1929 with a Gold Medal as the best student in his class.",
+ "one_line": "Biographical note on Ramón Carrillo, an Argentine physician born in Santiago del Estero who graduated in medicine in 1929.",
+ "key_facts": [
+  "Ramón Carrillo was born in Santiago del Estero.",
+  "Ramón Carrillo attended the University of Buenos Aires.",
+  "Ramón Carrillo obtained a degree in Medicine in 1929.",
+  "Ramón Carrillo received a Gold Medal as the best student in his class when he obtained his Medicine degree."
+ ],
+ "entities": [
+  {
+   "name": "Ramón Carrillo",
+   "type": "person",
+   "role": "subject of the note; born in Santiago del Estero, earned a Medicine degree in 1929 with a Gold Medal as best student in his class"
+  },
+  {
+   "name": "Santiago del Estero",
+   "type": "place",
+   "role": "birthplace of Ramón Carrillo"
+  },
+  {
+   "name": "University of Buenos Aires",
+   "type": "organization",
+   "role": "university Ramón Carrillo attended, where he obtained his Medicine degree"
+  }
+ ],
+ "tags": [
+  "biography",
+  "medicine",
+  "argentina",
+  "education"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1054,
+  "output_tokens": 448
+ }
+}

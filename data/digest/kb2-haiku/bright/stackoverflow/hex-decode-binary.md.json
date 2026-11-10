@@ -1,0 +1,62 @@
+{
+ "summary": "This is a Snowflake reference page for the HEX_DECODE_BINARY string function, which decodes a hex-encoded string into a BINARY value. The page gives the syntax, notes that the input must contain only hexadecimal digits, and says the result can be inserted into a BINARY column. It includes two examples: a round trip that encodes 'HELLO' with HEX_ENCODE and decodes it into a table, and decoding the output of MD5_BINARY.",
+ "one_line": "Snowflake reference for HEX_DECODE_BINARY, which converts a hex-encoded string into a BINARY value, with examples.",
+ "key_facts": [
+  "HEX_DECODE_BINARY decodes a hex-encoded string to a binary.",
+  "The syntax is HEX_DECODE_BINARY(<input>).",
+  "The input argument is a string expression containing only hexadecimal digits.",
+  "The function returns a BINARY value that can, for example, be inserted into a column of type BINARY.",
+  "The first example creates a table with CREATE TABLE binary_table (v VARCHAR, b BINARY).",
+  "The first example inserts 'HELLO' using HEX_DECODE_BINARY(HEX_ENCODE('HELLO')) into binary_table.",
+  "Retrieving the row with SELECT v, b, HEX_DECODE_STRING(TO_VARCHAR(b)) returns V 'HELLO', B '48454C4C4F', and HEX_DECODE_STRING(TO_VARCHAR(B)) 'HELLO'.",
+  "The hex value 48454C4C4F is the hex encoding of the characters in 'HELLO'.",
+  "The second example decodes a hex-encoded binary output by MD5_BINARY using HEX_DECODE_BINARY(HEX_ENCODE(MD5_BINARY('Snowflake'))).",
+  "The MD5 example's output is shown as EDF1439075A83A447FB8B630DDC9C8DE.",
+  "The page's table of contents lists Syntax, Arguments, Returns, and Examples.",
+  "The page is listed under the Encoding/Decoding category among other string function categories."
+ ],
+ "entities": [
+  {
+   "name": "HEX_DECODE_BINARY",
+   "type": "program",
+   "role": "function that decodes a hex-encoded string to a BINARY value"
+  },
+  {
+   "name": "HEX_ENCODE",
+   "type": "program",
+   "role": "function used in examples to encode a string as hexadecimal digit characters"
+  },
+  {
+   "name": "HEX_DECODE_STRING",
+   "type": "program",
+   "role": "function used in the first example to display the BINARY value as the original string"
+  },
+  {
+   "name": "TO_VARCHAR",
+   "type": "program",
+   "role": "function used to convert the BINARY value to a string before HEX_DECODE_STRING"
+  },
+  {
+   "name": "MD5_BINARY",
+   "type": "program",
+   "role": "function whose output is hex-encoded and decoded in the second example"
+  },
+  {
+   "name": "binary_table",
+   "type": "other",
+   "role": "table created in the first example with columns v VARCHAR and b BINARY"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "hex-decoding",
+  "binary-data",
+  "sql-functions",
+  "string-encoding"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1995,
+  "output_tokens": 1029
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "summary": "The note describes Coquimbito, a rural district in Maipú Department, Mendoza Province, Argentina. It lies in the southeast of the Mendoza metropolitan area and is administratively part of the municipality of Maipú. The note also states that the name refers to the Chilean port city of Coquimbo.",
+ "one_line": "Coquimbito is a rural district in Maipú Department, Mendoza Province, Argentina, southeast of Mendoza's metro area.",
+ "key_facts": [
+  "Coquimbito is a rural district in the Maipú Department of Mendoza Province, Argentina.",
+  "Coquimbito is located in the southeast of the metropolitan area of Mendoza, the provincial capital.",
+  "Coquimbito is administratively part of the municipality of Maipú.",
+  "The name Coquimbito refers to the Chilean port city of Coquimbo."
+ ],
+ "entities": [
+  {
+   "name": "Coquimbito",
+   "type": "place",
+   "role": "rural district in the Maipú Department, Mendoza Province, Argentina, subject of the note"
+  },
+  {
+   "name": "Maipú Department",
+   "type": "place",
+   "role": "department in Mendoza Province where Coquimbito is located"
+  },
+  {
+   "name": "Mendoza Province",
+   "type": "place",
+   "role": "province in Argentina containing the Maipú Department"
+  },
+  {
+   "name": "Mendoza",
+   "type": "place",
+   "role": "provincial capital; its metropolitan area includes Coquimbito's southeast location"
+  },
+  {
+   "name": "Maipú",
+   "type": "place",
+   "role": "municipality to which Coquimbito administratively belongs"
+  },
+  {
+   "name": "Coquimbo",
+   "type": "place",
+   "role": "Chilean port city to which the name Coquimbito refers"
+  }
+ ],
+ "tags": [
+  "argentina",
+  "mendoza",
+  "maipu",
+  "coquimbito",
+  "rural district",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1083,
+  "output_tokens": 588
+ }
+}

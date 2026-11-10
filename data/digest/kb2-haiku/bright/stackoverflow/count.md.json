@@ -1,0 +1,65 @@
+{
+ "summary": "This is Snowflake documentation for the COUNT aggregate and window function. It explains that COUNT returns either the number of non-NULL values for specified columns or the total number of records, with optional DISTINCT, and describes the syntax, arguments, usage notes for window frames and DISTINCT restrictions, and examples. The examples cover NULL handling, COUNT(alias.*) counting rows without any NULLs, and treatment of VARIANT JSON null as SQL NULL.",
+ "one_line": "Snowflake reference for the COUNT aggregate and window functions, covering NULL handling, DISTINCT, and VARIANT examples.",
+ "key_facts": [
+  "COUNT returns either the number of non-NULL records for the specified columns, or the total number of records.",
+  "The aggregate syntax is COUNT( [ DISTINCT ] <expr1> [ , <expr2> ... ] ) or COUNT( * ).",
+  "When DISTINCT is used with multiple columns, it returns the number of different combinations of the column values.",
+  "In the documented example, DISTINCT col1, col2, col3 over four rows (1,1,1), (1,1,1), (1,1,1), (1,1,2) returns 2.",
+  "When used as a window function with an ORDER BY subclause and no explicit window frame, the implied frame is RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW.",
+  "Using the keyword DISTINCT inside a window function is prohibited and results in a compile-time error.",
+  "COUNT(alias.*) returns the number of rows that do not contain any NULL values.",
+  "In the non_null_counter example with 8 rows, SELECT COUNT(n.*) returns 5.",
+  "In the basic_example table, SELECT COUNT(*) returns 6, COUNT(i_col) returns 4, and COUNT(DISTINCT i_col) returns 2.",
+  "In the basic_example table, COUNT(j_col) returns 5 and COUNT(DISTINCT j_col) returns 2.",
+  "JSON (VARIANT) null is treated as SQL NULL by the COUNT function.",
+  "In the VARIANT example with 4 rows, SELECT COUNT(v:Title) returns 2 because the SQL NULL row and the JSON null row are excluded.",
+  "When a row access policy is set on a table or view, Snowflake must scan each row to determine whether the user can view it when COUNT is used.",
+  "The <expr1> argument should be a column name, which can be a qualified name such as database.schema.table.column_name, or Alias.*."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "platform whose documentation page describes the COUNT function"
+  },
+  {
+   "name": "COUNT",
+   "type": "program",
+   "role": "aggregate and window function that returns number of non-NULL records or total records"
+  },
+  {
+   "name": "VARIANT",
+   "type": "other",
+   "role": "data type whose JSON null values are treated as SQL NULL by COUNT"
+  },
+  {
+   "name": "basic_example",
+   "type": "other",
+   "role": "example table with integer columns i_col and j_col containing NULL values"
+  },
+  {
+   "name": "non_null_counter",
+   "type": "other",
+   "role": "example table used to demonstrate COUNT(alias.*) counting rows without NULLs"
+  },
+  {
+   "name": "count_example_with_variant_column",
+   "type": "other",
+   "role": "example table with a VARIANT column v used to show JSON null handling"
+  }
+ ],
+ "tags": [
+  "sql",
+  "snowflake",
+  "aggregate functions",
+  "count",
+  "null handling",
+  "window functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4671,
+  "output_tokens": 1145
+ }
+}

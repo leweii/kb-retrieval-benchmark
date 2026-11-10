@@ -1,0 +1,104 @@
+{
+ "summary": "This is the README of the archived ros-tooling/rosbag2_storage_mcap GitHub repository, which provides a rosbag2 storage plugin adding support for the MCAP file format. It explains installation via apt for ROS 2 distributions, using MCAP with ros2 bag record, play and info commands, and configuring the MCAP writer through a YAML options file or preset storage profiles (fastwrite, zstd_fast, zstd_small). The repository has been archived and development moved to ros2/rosbag2.",
+ "one_line": "README for the archived rosbag2_storage_mcap plugin, which adds MCAP file format support to ROS 2 rosbag2 with writer options and presets.",
+ "key_facts": [
+  "The rosbag2_storage_mcap repository was archived by its owner on Nov 30, 2022 and is now read-only.",
+  "Development of rosbag2_storage_mcap continues at github.com/ros2/rosbag2 under the rolling branch rosbag2_storage_mcap.",
+  "rosbag2_storage_mcap is a storage plugin for rosbag2 that extends it with support for the MCAP file format.",
+  "On Ubuntu, rosbag2_storage_mcap can be installed with 'sudo apt install ros-humble-rosbag2-storage-mcap' after following the ROS 2 installation instructions.",
+  "Recording with MCAP storage uses the command 'ros2 bag record -s mcap /topic1 /topic2', where -s mcap is the abbreviation of --storage mcap.",
+  "The MCAP writer is configured for ros2 bag record with the --storage-config-file option pointing to a YAML file describing mcap::McapWriterOptions.",
+  "The fastwrite preset is configured for the highest write throughput and lowest resource utilization, does not calculate CRCs, and does not write a message index, and is useful for resource-constrained robots.",
+  "The zstd_fast preset uses zstd chunk compression at the lowest compression ratio with chunk CRC calculation disabled, equivalent to compression Zstd, compressionLevel Fastest, and noChunkCRC true.",
+  "The zstd_small preset writes 4MB chunks compressed with zstd at the highest compression ratio (compressionLevel Slowest) and calculates chunk CRCs, and is useful with ros2 bag convert as a post-processing step.",
+  "The README advises that MCAPs written with fastwrite are not recommended as long-term storage because reading messages from a subset of topics or seeking may not work without a message index.",
+  "The repository is licensed under Apache-2.0 and was written mainly in C++ (87.8%) with CMake (12.2%).",
+  "The repository had 30 stars, 5 forks, 0 open issues and 9 contributors at the time the page was captured.",
+  "The noChunking option, when true, writes Schema, Channel and Message records directly into the Data section instead of Chunks."
+ ],
+ "entities": [
+  {
+   "name": "rosbag2_storage_mcap",
+   "type": "program",
+   "role": "rosbag2 storage plugin that extends rosbag2 with support for the MCAP file format; archived repository under ros-tooling"
+  },
+  {
+   "name": "MCAP",
+   "type": "product",
+   "role": "file format supported by the rosbag2_storage_mcap storage plugin for rosbag2"
+  },
+  {
+   "name": "rosbag2",
+   "type": "program",
+   "role": "ROS 2 bag recording framework that rosbag2_storage_mcap extends with a storage plugin; development moved to ros2/rosbag2"
+  },
+  {
+   "name": "ros-tooling",
+   "type": "organization",
+   "role": "GitHub organization that owns the rosbag2_storage_mcap repository"
+  },
+  {
+   "name": "ros2/rosbag2",
+   "type": "organization",
+   "role": "GitHub repository where development of rosbag2_storage_mcap continues after the move"
+  },
+  {
+   "name": "ROS 2",
+   "type": "program",
+   "role": "robotics framework whose distributions (Foxy, Galactic, Humble, Rolling) include rosbag2_storage_mcap"
+  },
+  {
+   "name": "zstd",
+   "type": "program",
+   "role": "compression algorithm used by the zstd_fast and zstd_small storage presets"
+  },
+  {
+   "name": "fastwrite",
+   "type": "program",
+   "role": "storage preset profile for highest write throughput and lowest resource utilization without CRCs or message index"
+  },
+  {
+   "name": "zstd_fast",
+   "type": "program",
+   "role": "storage preset profile using zstd chunk compression at lowest compression ratio with chunk CRC disabled"
+  },
+  {
+   "name": "zstd_small",
+   "type": "program",
+   "role": "storage preset profile writing 4MB zstd chunks at highest compression ratio with chunk CRCs, used with ros2 bag convert"
+  },
+  {
+   "name": "mcap::McapWriterOptions",
+   "type": "product",
+   "role": "MCAP writer options structure whose fields are configured through a YAML file"
+  },
+  {
+   "name": "mcap compress",
+   "type": "program",
+   "role": "MCAP CLI command suggested for post-processing fastwrite files to restore a message index and save space"
+  },
+  {
+   "name": "ros2 bag convert",
+   "type": "program",
+   "role": "ROS 2 command used to post-process MCAP files with a storage preset profile such as zstd_small"
+  },
+  {
+   "name": "Foxglove",
+   "type": "organization",
+   "role": "organization whose mcap project (mcap.dev) provides the MCAP format and the McapWriterOptions declaration"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "rosbag2",
+  "mcap",
+  "storage",
+  "ros2",
+  "file-format"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10223,
+  "output_tokens": 1782
+ }
+}

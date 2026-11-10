@@ -1,0 +1,37 @@
+{
+ "summary": "Seaport Centre is described as a high-tech business park in Redwood City, California. As of 2007, the note says it is one of the largest biotechnology research complexes in the San Francisco Bay Area. The note is very brief and gives no further detail.",
+ "one_line": "Seaport Centre is a high-tech business park in Redwood City, California, and a major Bay Area biotechnology research complex as of 2007.",
+ "key_facts": [
+  "Seaport Centre is a high-tech business park located in Redwood City, California, United States.",
+  "As of 2007, Seaport Centre is one of the largest biotechnology research complexes in the San Francisco Bay Area."
+ ],
+ "entities": [
+  {
+   "name": "Seaport Centre",
+   "type": "place",
+   "role": "high-tech business park in Redwood City, California, and one of the largest biotechnology research complexes in the San Francisco Bay Area as of 2007"
+  },
+  {
+   "name": "Redwood City, California",
+   "type": "place",
+   "role": "city where Seaport Centre is located"
+  },
+  {
+   "name": "San Francisco Bay Area",
+   "type": "place",
+   "role": "region where Seaport Centre is one of the largest biotechnology research complexes as of 2007"
+  }
+ ],
+ "tags": [
+  "redwood city",
+  "biotechnology",
+  "business park",
+  "bay area",
+  "california"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1048,
+  "output_tokens": 417
+ }
+}

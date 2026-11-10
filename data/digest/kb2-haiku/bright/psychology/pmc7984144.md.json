@@ -1,0 +1,54 @@
+{
+ "summary": "This note is not an article. It is a PubMed Central (PMC) access-block page for article PMC7984144, returned because the request was made by an automated python-requests client. The page says access was blocked under the PMC Copyright Notice and gives a message ID and timestamp for an unblock request. No content from the actual paper is included.",
+ "one_line": "A blocked-access error page for PMC article PMC7984144, returned after automated retrieval with python-requests violated PMC's copyright terms.",
+ "key_facts": [
+  "The PMC page for article PMC7984144 reported that access was blocked because an automated process was used to retrieve content.",
+  "The block reason was automated retrieval by user agent \"python-requests/2.31.0\".",
+  "The requested URL was https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7984144/.",
+  "The block message ID was 867133339.",
+  "The block time was recorded as 2024/03/29 22:43:44.",
+  "The page states that use of PubMed Central is free but must comply with the terms of the PMC Copyright Notice.",
+  "To request an unblock, the user must email pubmedcentral@nih.gov and include all information from the blocked-request box.",
+  "The page does not contain the title, authors, or text of the article itself.",
+  "The page is published by the National Library of Medicine at 8600 Rockville Pike, Bethesda, MD 20894."
+ ],
+ "entities": [
+  {
+   "name": "PubMed Central",
+   "type": "program",
+   "role": "NCBI full-text archive whose page for article PMC7984144 blocked the automated request"
+  },
+  {
+   "name": "National Library of Medicine",
+   "type": "organization",
+   "role": "publisher of the PMC site, located at 8600 Rockville Pike, Bethesda, MD 20894"
+  },
+  {
+   "name": "PMC Copyright Notice",
+   "type": "other",
+   "role": "terms of use that the automated retrieval violated"
+  },
+  {
+   "name": "pubmedcentral@nih.gov",
+   "type": "other",
+   "role": "contact address for requesting an unblock"
+  },
+  {
+   "name": "PMC7984144",
+   "type": "other",
+   "role": "article identifier whose page was requested and blocked"
+  }
+ ],
+ "tags": [
+  "pubmed central",
+  "web scraping",
+  "access block",
+  "ncbi",
+  "copyright terms"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2941,
+  "output_tokens": 719
+ }
+}

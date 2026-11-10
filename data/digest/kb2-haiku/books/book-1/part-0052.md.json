@@ -1,0 +1,77 @@
+{
+ "summary": "Marcus, the narrator of this excerpt from Book 1 (part 52), describes his new life after the Department of Homeland Security-style surveillance crackdown in San Francisco. He has abandoned his old handle, set up an anonymous email through the Swedish Pirate Party, and relies on the Xnet network, while helping others with Xnet troubleshooting. He mourns the suspension of the Harajuku Fun Madness game, deliberately tapers his use of his wiretapped laptop, and distributes fifty to sixty burned copies of ParanoidXbox daily. He defends his confidence in encryption by explaining the basic idea of one-way mathematical functions, using multiplying large primes as the example.",
+ "one_line": "The narrator, now using the handle M1k3y, evades surveillance via the Xnet and the Pirate Party email while distributing ParanoidXbox and explaining cryptography basics.",
+ "key_facts": [
+  "The narrator set up a fake email address through the Pirate Party, a Swedish political party that hated Internet surveillance.",
+  "The narrator accessed his email strictly via Xnet, hopping from one neighbor's Internet connection to the next.",
+  "The narrator's new handle, come up with on the spur of the moment, was M1k3y, replacing w1n5ton.",
+  "The narrator said that if Benson could figure out w1n5ton, anyone could.",
+  "The company suspended Harajuku Fun Madness indefinitely, citing \"security reasons\" about hiding things and sending people to find them.",
+  "The narrator kept using his laptop but planned to use it a little less each day so watchers would see a gradual change in habits.",
+  "The narrator read obituaries of thousands of friends and neighbors dead at the bottom of the Bay.",
+  "The narrator burned fifty or sixty copies of ParanoidXbox every day and handed them out around the city.",
+  "The narrator said Crypto is cryptography, or \"secret writing\", and has existed since Roman times.",
+  "The narrator said Augustus Caesar was a big fan of secret codes and liked to invent his own.",
+  "The narrator described crypto as hard math and gave the Cliff's Notes version: some mathematical functions are easy in one direction and hard in the other.",
+  "The narrator gave the example that multiplying two big prime numbers together to make a giant number is easy, while reversing it is hard."
+ ],
+ "entities": [
+  {
+   "name": "Xnet",
+   "type": "program",
+   "role": "network the narrator uses for almost everything, accessed via neighbors' Internet connections"
+  },
+  {
+   "name": "Pirate Party",
+   "type": "organization",
+   "role": "Swedish political party that hated Internet surveillance and promised to keep mail accounts secret; provided the narrator's fake email address"
+  },
+  {
+   "name": "w1n5ton",
+   "type": "other",
+   "role": "the narrator's former handle, which he stopped using"
+  },
+  {
+   "name": "M1k3y",
+   "type": "other",
+   "role": "the narrator's new handle, come up with on the spur of the moment"
+  },
+  {
+   "name": "Benson",
+   "type": "person",
+   "role": "person who could figure out the narrator's former handle w1n5ton"
+  },
+  {
+   "name": "Harajuku Fun Madness",
+   "type": "program",
+   "role": "game the narrator missed; the company suspended it indefinitely for security reasons"
+  },
+  {
+   "name": "ParanoidXbox",
+   "type": "product",
+   "role": "software the narrator burned and distributed to people around the city"
+  },
+  {
+   "name": "Augustus Caesar",
+   "type": "person",
+   "role": "Roman emperor described as a big fan of cryptography who invented his own codes"
+  },
+  {
+   "name": "BART",
+   "type": "organization",
+   "role": "transit system whose stations were the site of protests described in the paper"
+  }
+ ],
+ "tags": [
+  "cryptography",
+  "surveillance",
+  "xnet",
+  "fiction",
+  "privacy"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1862,
+  "output_tokens": 1216
+ }
+}

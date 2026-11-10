@@ -1,0 +1,79 @@
+{
+ "summary": "This ROS 2 Humble beginner tutorial shows how to create and run a publisher (talker) and subscriber (listener) node in C++ that exchange string messages over a topic. The visible portion covers creating the cpp_pubsub package, downloading and examining the MinimalPublisher code, and adding rclcpp and std_msgs dependencies to package.xml. The note is cut off while beginning the CMakeLists.txt step, and most of the page is site navigation.",
+ "one_line": "ROS 2 Humble tutorial on writing a simple C++ publisher and subscriber, covering package creation, the MinimalPublisher node and dependency setup.",
+ "key_facts": [
+  "The tutorial goal is to create and run a publisher and subscriber node using C++; it is beginner level and takes about 20 minutes.",
+  "The nodes pass string messages to each other over a topic in a simple \"talker\" and \"listener\" system.",
+  "The example code is hosted in the ros2/examples repository under rclcpp/topics on the humble branch.",
+  "The package is created in ros2_ws/src with: ros2 pkg create --build-type ament_cmake --license Apache-2.0 cpp_pubsub.",
+  "The publisher source file is downloaded as publisher_member_function.cpp from minimal_publisher/member_function.cpp using wget on Linux/macOS or curl on Windows.",
+  "The MinimalPublisher class inherits from rclcpp::Node, names the node \"minimal_publisher\" and initializes count_ to 0.",
+  "The publisher uses the std_msgs::msg::String type, the topic name \"topic\", and a queue size of 10.",
+  "A wall timer of 500ms calls timer_callback twice a second, which sets message.data to \"Hello, world! \" plus a counter and publishes it.",
+  "The RCLCPP_INFO macro prints every published message to the console.",
+  "In main, rclcpp::init initializes ROS 2 and rclcpp::spin starts processing node data, including timer callbacks.",
+  "The package.xml should have its description, maintainer and license tags filled in, with license Apache License 2.0.",
+  "The dependencies <depend>rclcpp</depend> and <depend>std_msgs</depend> are added after the ament_cmake buildtool dependency in package.xml.",
+  "The tutorial page is for the Humble Hawksbill distribution, an older but still supported version; Iron is the latest linked."
+ ],
+ "entities": [
+  {
+   "name": "ROS 2",
+   "type": "product",
+   "role": "robotics middleware framework documented by the tutorial"
+  },
+  {
+   "name": "Humble Hawksbill",
+   "type": "product",
+   "role": "ROS 2 distribution this documentation version covers"
+  },
+  {
+   "name": "Iron Irwini",
+   "type": "product",
+   "role": "newer ROS 2 distribution linked as the latest version"
+  },
+  {
+   "name": "cpp_pubsub",
+   "type": "program",
+   "role": "package created in the tutorial to hold the publisher and subscriber"
+  },
+  {
+   "name": "MinimalPublisher",
+   "type": "program",
+   "role": "node class that publishes string messages on a timer"
+  },
+  {
+   "name": "rclcpp",
+   "type": "product",
+   "role": "ROS 2 C++ client library used by the nodes"
+  },
+  {
+   "name": "std_msgs",
+   "type": "product",
+   "role": "package providing the built-in String message type"
+  },
+  {
+   "name": "ament_cmake",
+   "type": "product",
+   "role": "build type used for the package"
+  },
+  {
+   "name": "ros2/examples",
+   "type": "organization",
+   "role": "GitHub repository hosting the example code"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "cpp",
+  "publisher-subscriber",
+  "tutorial",
+  "rclcpp",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15611,
+  "output_tokens": 1176
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "summary": "In this excerpt from a novel, the narrator shows Halliday and Arthur a set of crumpled pages recovered from Martinez's condo, revealing that Martinez proved P equals NP after burning Professor Halliday's work and her own out of fear. The narrator explains the P versus NP problem in simple terms, contrasting problems that can be solved quickly with problems whose solutions can only be quickly verified. Halliday warns that the proof could upend the economy and break encryption, since much of modern security depends on the difficulty of solving NP problems.",
+ "one_line": "In a novel excerpt, the narrator reveals Martinez's proof that P equals NP and explains the problem's stakes to Halliday and Arthur.",
+ "key_facts": [
+  "Martinez burned Professor Halliday's work after she burned her own, because she was afraid.",
+  "Martinez had found something: she proved P equals NP.",
+  "The narrator handed crumpled pages from Martinez's condo to Halliday, who read them with a penlight passed by Arthur.",
+  "P versus NP is described as a problem in mathematics concerning how difficult problems are computationally.",
+  "Problems in the set P can be solved quickly, meaning in polynomial time on a deterministic Turing machine.",
+  "Problems in NP can have their solutions verified quickly, but solving them quickly is not necessarily known.",
+  "The narrator compares NP to a maze: checking a given solution by walking through it is easy, while finding the solution is much harder.",
+  "Mathematics has never proven whether P equals NP, whether they are unequal, or whether the question is provably unanswerable.",
+  "Most people figured P did not equal NP, since no one had found a fast way to solve an NP-complete problem.",
+  "Halliday said the proof threatened the economy and could revolutionize logistics and protein folding, making them suddenly easy.",
+  "Halliday noted that much encryption works because once a code is known, access is granted, so the proof could break it.",
+  "Arthur asked the narrator to explain in layman's terms, saying he knew nothing about complexity classes."
+ ],
+ "entities": [
+  {
+   "name": "Martinez",
+   "type": "person",
+   "role": "Rita Martinez, whose condo the pages were recovered from and who proved P equals NP"
+  },
+  {
+   "name": "Halliday",
+   "type": "person",
+   "role": "Professor Halliday, whose work Martinez burned and who reads the proof pages"
+  },
+  {
+   "name": "Arthur",
+   "type": "person",
+   "role": "character who asks the narrator for a layman's explanation and comforts Halliday"
+  },
+  {
+   "name": "P versus NP problem",
+   "type": "event",
+   "role": "unsolved problem in mathematics about whether quickly verifiable problems can also be quickly solved"
+  },
+  {
+   "name": "Turing machine",
+   "type": "product",
+   "role": "deterministic model of computation referenced in defining polynomial time"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "computational complexity",
+  "P versus NP",
+  "mathematics",
+  "cryptography"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 2031,
+  "output_tokens": 947
+ }
+}

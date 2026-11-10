@@ -1,0 +1,104 @@
+{
+ "summary": "This ROS wiki page explains that ROS software is organized into packages, which may contain nodes, libraries, datasets, configuration files, or third-party software. It describes the common package directory structure, the command-line tools used to manage packages, and the Python and C++ client library APIs for querying package information. The page is for ROS 1, with ROS 2 users directed to separate documentation.",
+ "one_line": "ROS wiki page describing ROS packages: their file structure, command-line tools, and Python and C++ APIs for querying package information.",
+ "key_facts": [
+  "In ROS, a package is the smallest individual thing you can build and the unit of release, with one debian package for each ROS package.",
+  "A ROS package is simply a directory descended from ROS_PACKAGE_PATH that has a package.xml file in it.",
+  "Packages are easy to create by hand or with tools like catkin_create_pkg.",
+  "ROS packages generally follow a 'Goldilocks' principle: enough functionality to be useful, but not so much that the package is heavyweight and difficult to use.",
+  "The include/package_name directory holds C++ include headers, which should be exported in the CMakeLists.txt.",
+  "The msg/ and srv/ folders contain Message (msg) and Service (srv) types respectively.",
+  "The CHANGELOG.rst file can be automatically injected into binary packaging and into the wiki page for the package.",
+  "The rospack tool finds and retrieves information about packages, and rosdep installs system dependencies of a package.",
+  "The rqt plugin 'Introspection/Package Graph' visualizes package dependencies as a graph.",
+  "The roscd command, part of rosbash, performs a cd to the directory of a package, for example roscd roscpp_tutorials.",
+  "In Python, the RosPack class in the rospkg library provides package information, such as rospack.list() and rospack.get_path('rospy_tutorials').",
+  "In C++, ros::package in the roslib package provides information via ros::package::getPath('roslib') and ros::package::getAll(packages).",
+  "The page states that the ROS Wiki is for ROS 1, and ROS 2 users are directed to the ROS 2 Project Documentation at docs.ros.org.",
+  "The page was last edited on 2019-04-14 by IsaacSaito and is licensed under Creative Commons Attribution 3.0."
+ ],
+ "entities": [
+  {
+   "name": "catkin_create_pkg",
+   "type": "program",
+   "role": "tool used to create packages, mentioned as a way to easily create ROS packages"
+  },
+  {
+   "name": "rospack",
+   "type": "program",
+   "role": "command-line tool that finds and retrieves information about packages"
+  },
+  {
+   "name": "catkin_make",
+   "type": "program",
+   "role": "command-line tool that builds a workspace of packages"
+  },
+  {
+   "name": "rosdep",
+   "type": "program",
+   "role": "command-line tool that installs system dependencies of a package"
+  },
+  {
+   "name": "rqt",
+   "type": "program",
+   "role": "ROS GUI framework with an Introspection/Package Graph plugin that visualizes package dependencies"
+  },
+  {
+   "name": "rosbash",
+   "type": "program",
+   "role": "shell extension providing ROS-variants of common Unix shell commands, including roscd"
+  },
+  {
+   "name": "roscd",
+   "type": "program",
+   "role": "rosbash command that changes directory to a package's directory"
+  },
+  {
+   "name": "rospkg",
+   "type": "program",
+   "role": "Python library whose RosPack class gets information about ROS packages"
+  },
+  {
+   "name": "roslib",
+   "type": "program",
+   "role": "ROS package providing ros::package for getting information about ROS packages in C++"
+  },
+  {
+   "name": "ROS_PACKAGE_PATH",
+   "type": "other",
+   "role": "environment variable whose descendant directories can contain ROS packages"
+  },
+  {
+   "name": "package.xml",
+   "type": "other",
+   "role": "manifest file that identifies a directory as a ROS package"
+  },
+  {
+   "name": "roscpp_tutorials",
+   "type": "product",
+   "role": "example package used in the roscd command example"
+  },
+  {
+   "name": "rospy_tutorials",
+   "type": "product",
+   "role": "example package whose file path is retrieved in the Python example"
+  },
+  {
+   "name": "Open Robotics",
+   "type": "organization",
+   "role": "organization linked at the bottom of the page as bringing the wiki"
+  }
+ ],
+ "tags": [
+  "ros",
+  "robotics",
+  "packages",
+  "catkin",
+  "software-organization"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3930,
+  "output_tokens": 1368
+ }
+}

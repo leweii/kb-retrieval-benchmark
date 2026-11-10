@@ -1,0 +1,78 @@
+{
+ "summary": "This note documents the DetachableJoint system in Gazebo simulation, which lets two models start rigidly attached and later detach by publishing to a topic, and reattach by publishing to another topic. It explains the tree-only kinematic constraint, the example vehicle with three detachable objects, collision and reattachment caveats (including a DART issue), and the plugin parameters: parent_link, child_model, child_model_link, and the optional detach, attach, output and legacy topic settings.",
+ "one_line": "Describes the Gazebo DetachableJoint system for attaching and detaching models at runtime via topics, with its tree-topology and collision constraints.",
+ "key_facts": [
+  "The DetachableJoint system allows two models to start off rigidly attached and then detach during simulation by publishing to a topic.",
+  "The system internally uses a fixed joint between two links, each belonging to two separate models.",
+  "Kinematic topology has to be a tree; kinematic loops are not currently supported.",
+  "Once detached, the joint can be re-attached by publishing to a topic.",
+  "When reattaching, the child model is attached to the parent model at its current pose/configuration.",
+  "The example detachable_joint.sdf demonstrates a four wheel vehicle that holds three objects later detached from the vehicle.",
+  "In the example, the parent model is the vehicle and the kinematic topology is world---vehicle_blue---B1 with B2 and B3 also attached to vehicle_blue.",
+  "If detached models need to collide with a parent model or other detached models with the same parent, the parent model needs <self_collide> set to true.",
+  "Due to an issue in DART, the default physics engine, none of the parent or child models should be in collision in their initial attached state.",
+  "Reattaching a child model is not currently supported while the child model and parent model are in contact.",
+  "To reattach at a specific pose, the child model can be positioned through a set_pose service call prior to reattaching the joint.",
+  "The parameter parent_link names the link in the model containing the system that serves as the parent link in the detachable joint.",
+  "The parameter child_model names the model containing the child link in the detachable joint.",
+  "The parameter child_model_link names the link in child_model used as the child link.",
+  "The optional detach_topic defaults to the pattern /model/<model_name>/detachable_joint/detach and is required to detach child models individually when multiple plugins are used in one model.",
+  "The optional attach_topic defaults to /model/<model_name>/detachable_joint/attach and is required to attach child models individually when multiple plugins are used in one model.",
+  "The optional output_topic publishes detachment state and defaults to /model/<child_model_name>/detachable_joint/state."
+ ],
+ "entities": [
+  {
+   "name": "DetachableJoint",
+   "type": "program",
+   "role": "system that lets two models start rigidly attached and later detach or reattach via topics"
+  },
+  {
+   "name": "DART",
+   "type": "program",
+   "role": "default physics engine, which has an issue relevant to initially colliding models"
+  },
+  {
+   "name": "detachable_joint.sdf",
+   "type": "program",
+   "role": "example world file demonstrating a four wheel vehicle holding three detachable objects"
+  },
+  {
+   "name": "vehicle_blue",
+   "type": "product",
+   "role": "four wheel vehicle serving as the parent model in the example"
+  },
+  {
+   "name": "B1",
+   "type": "product",
+   "role": "object held by vehicle_blue that is later detached in the example"
+  },
+  {
+   "name": "B2",
+   "type": "product",
+   "role": "object held by vehicle_blue that is later detached in the example"
+  },
+  {
+   "name": "B3",
+   "type": "product",
+   "role": "object held by vehicle_blue that is later detached in the example"
+  },
+  {
+   "name": "set_pose",
+   "type": "program",
+   "role": "service call used to position the child model before reattaching the joint"
+  }
+ ],
+ "tags": [
+  "gazebo",
+  "robotics",
+  "simulation",
+  "joints",
+  "physics",
+  "plugins"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2225,
+  "output_tokens": 1217
+ }
+}

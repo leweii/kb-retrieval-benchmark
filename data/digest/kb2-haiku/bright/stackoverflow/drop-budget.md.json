@@ -1,0 +1,46 @@
+{
+ "summary": "This note is the Snowflake reference page for the DROP SNOWFLAKE.CORE.BUDGET command, which drops an instance of a custom budget. It covers the syntax with an optional IF EXISTS clause, the budget name parameter and its identifier rules, and the access requirement of OWNERSHIP on the budget plus USAGE on the parent database and schema. It notes that dropped budgets cannot be recovered and gives a single example. The feature is not available for Trial Accounts.",
+ "one_line": "Snowflake reference for the DROP SNOWFLAKE.CORE.BUDGET command, which permanently removes a custom budget.",
+ "key_facts": [
+  "The DROP SNOWFLAKE.CORE.BUDGET command drops an instance of a custom budget.",
+  "The syntax is DROP SNOWFLAKE.CORE.BUDGET [ IF EXISTS ] <name>.",
+  "The budget identifier must start with an alphabetic character and cannot contain spaces or special characters unless enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "If the budget identifier is not fully qualified, the command looks for the budget in the current schema for the session.",
+  "The role used to drop a budget must hold the OWNERSHIP privilege on the budget.",
+  "Operating on any object in a schema also requires the USAGE privilege on the parent database and schema.",
+  "Dropped budgets cannot be recovered; they must be recreated.",
+  "This feature is currently not available for Trial Accounts.",
+  "The related system function is SYSTEM$SHOW_BUDGETS_IN_ACCOUNT.",
+  "The example DROP SNOWFLAKE.CORE.BUDGET my_budget; drops the budget my_budget in the current schema."
+ ],
+ "entities": [
+  {
+   "name": "SNOWFLAKE.CORE.BUDGET",
+   "type": "product",
+   "role": "custom budget object that the DROP command removes"
+  },
+  {
+   "name": "SYSTEM$SHOW_BUDGETS_IN_ACCOUNT",
+   "type": "program",
+   "role": "related function listed under See also"
+  },
+  {
+   "name": "my_budget",
+   "type": "product",
+   "role": "example budget dropped in the current schema"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "budget",
+  "ddl",
+  "access control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1847,
+  "output_tokens": 758
+ }
+}

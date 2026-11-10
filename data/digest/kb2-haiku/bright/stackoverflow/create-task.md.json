@@ -1,0 +1,71 @@
+{
+ "summary": "This is Snowflake's reference page for the CREATE TASK command, which creates a new task (or replaces an existing one, or clones one with CREATE TASK ... CLONE) in the current or specified schema. New or cloned tasks are created suspended. The page covers the syntax, required parameters (task name and SQL to execute), optional parameters such as warehouse or serverless sizing, scheduling via cron or minute intervals, timeouts, failure suspension, task graph settings (AFTER, FINALIZE, TASK_AUTO_RETRY_ATTEMPTS), WHEN conditions, access control, usage notes, and several examples.",
+ "one_line": "Snowflake reference for the CREATE TASK command, covering syntax, scheduling, task graphs, warehouses, access control and examples.",
+ "key_facts": [
+  "Newly created or cloned tasks are created suspended.",
+  "CREATE TASK supports a CLONE variant that creates a clone of an existing task with the same parameter values.",
+  "The task name must be unique for the schema in which the task is created and must start with an alphabetic character.",
+  "Omitting the WAREHOUSE parameter means the task uses serverless compute resources.",
+  "USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE applies only to serverless tasks and defaults to MEDIUM if omitted.",
+  "The SCHEDULE parameter accepts either '<num> MINUTE' or 'USING CRON <expr> <time_zone>'; a schedule cannot be specified for child tasks in a task graph.",
+  "The default value of USER_TASK_TIMEOUT_MS is 3600000 (1 hour), with a maximum of 86400000 (1 day).",
+  "SUSPEND_TASK_AFTER_NUM_FAILURES defaults to 10; setting it to 0 means failed tasks are not automatically suspended.",
+  "A single task is limited to 100 predecessor tasks and 100 child tasks, and a task graph is limited to 1000 tasks total.",
+  "A root task can only have one finalizer task, and a finalizer task cannot have child tasks or a schedule.",
+  "TASK_AUTO_RETRY_ATTEMPTS accepts values from 0 to 30 and defaults to 0, and must be set on the root task.",
+  "The maximum supported SCHEDULE minute interval is 11520 (8 days).",
+  "The tag value maximum length is 256 characters.",
+  "CREATE OR REPLACE drops and recreates the task, the recreated task is suspended by default, and a next scheduled run of a standalone or root task is cancelled.",
+  "Creating a task requires the CREATE TASK privilege on the schema and, for user-managed warehouses only, USAGE on the warehouse; EXECUTE MANAGED TASK is required only for serverless tasks."
+ ],
+ "entities": [
+  {
+   "name": "CREATE TASK",
+   "type": "program",
+   "role": "Snowflake SQL command that creates a new task or replaces an existing task, documented on this page"
+  },
+  {
+   "name": "SYSTEM$STREAM_HAS_DATA",
+   "type": "program",
+   "role": "Function used in a WHEN clause to indicate whether a specified stream contains change tracking data"
+  },
+  {
+   "name": "SYSTEM$GET_PREDECESSOR_RETURN_VALUE",
+   "type": "program",
+   "role": "Function that retrieves the return value of a predecessor task in a task graph for use in a WHEN expression"
+  },
+  {
+   "name": "SYSTEM$GET_TASK_GRAPH_CONFIG",
+   "type": "program",
+   "role": "Function for getting the configuration string for the currently running task graph task"
+  },
+  {
+   "name": "SYSTEM$SEND_EMAIL",
+   "type": "program",
+   "role": "Procedure called in the finalizer task example to send an email alert after task completion"
+  },
+  {
+   "name": "Snowflake Scripting",
+   "type": "program",
+   "role": "Procedural SQL feature that Snowsight and the Classic Console do not support for creating or modifying tasks"
+  },
+  {
+   "name": "Amazon SNS, Microsoft Azure Event Grid, Google Pub/Sub",
+   "type": "organization",
+   "role": "Notification services that ERROR_INTEGRATION can use to send task error notifications"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "task scheduling",
+  "create task",
+  "task graph",
+  "data engineering"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12354,
+  "output_tokens": 1413
+ }
+}

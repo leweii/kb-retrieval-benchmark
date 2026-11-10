@@ -1,0 +1,43 @@
+{
+ "summary": "This page is documentation for the WIDTH_BUCKET function, a numeric function that constructs equi-width histograms by dividing a histogram range into intervals of identical size. It returns the bucket number into which an evaluated expression falls, or null if any input is null. The page covers syntax, argument constraints, out-of-range return values, and a worked example that creates a four-bucket histogram of home prices between $200,000 and $600,000.",
+ "one_line": "Documentation for the WIDTH_BUCKET function, which assigns a numeric value to an equi-width histogram bucket number.",
+ "key_facts": [
+  "WIDTH_BUCKET constructs equi-width histograms in which the histogram range is divided into intervals of identical size.",
+  "The function returns an integer value or null if any input is null.",
+  "Syntax is WIDTH_BUCKET( <expr> , <min_value> , <max_value> , <num_buckets> ).",
+  "The expression must evaluate to a numeric value or a value that can be implicitly converted to a numeric value.",
+  "The expression value must be within the range -(2^53 - 1) to 2^53 - 1 (inclusive).",
+  "The min_value and max_value must not be equal, and abs(max_value - min_value) must be less than 2^53.",
+  "The num_buckets argument must be a positive integer value.",
+  "The function returns 0 when the expression is less than min_value.",
+  "The function returns num_buckets + 1 when the expression is greater than or equal to max_value.",
+  "The example creates a four-bucket histogram on the price column for homes sold in the $200k-600k price range.",
+  "The example table home_sales has columns sale_date (DATE) and price (NUMBER(11, 2)).",
+  "In the example, a price of 290000.00 falls into bucket 1 and a price of 510000.00 falls into bucket 4.",
+  "In the example, prices 320000.00 and 399999.99 fall into bucket 2, while 400000.00 and 470000.00 fall into bucket 3."
+ ],
+ "entities": [
+  {
+   "name": "WIDTH_BUCKET",
+   "type": "program",
+   "role": "numeric function that constructs equi-width histograms and returns the bucket number for a value"
+  },
+  {
+   "name": "home_sales",
+   "type": "other",
+   "role": "example table holding sale_date and price columns used in the worked example"
+  }
+ ],
+ "tags": [
+  "sql",
+  "numeric functions",
+  "histogram",
+  "width_bucket",
+  "database documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2436,
+  "output_tokens": 776
+ }
+}

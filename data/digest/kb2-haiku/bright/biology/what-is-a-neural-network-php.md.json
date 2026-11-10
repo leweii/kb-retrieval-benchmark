@@ -1,0 +1,70 @@
+{
+ "summary": "This University of Dayton Magazine piece is an interview-style explainer by computer science assistant professor Tam Nguyen, republished from The Conversation, on how neural networks work. It covers everyday examples such as smartphone face recognition, driverless cars, and text suggestions, explains that networks need large training datasets, describes layered processing of inputs like the dog-or-cat example, and gives a brief history from 1943 to the recent resurgence driven by GPUs. Site navigation and footer boilerplate are ignored.",
+ "one_line": "Computer scientist Tam Nguyen explains how neural networks simulate the brain, why they need big data, and why they became widespread.",
+ "key_facts": [
+  "Tam Nguyen is an assistant professor in the Department of Computer Science at the University of Dayton.",
+  "The article is dated January 15, 2021.",
+  "Neural networks are programs in which a series of algorithms try to simulate the human brain.",
+  "A common example of a neural network is a smartphone camera's ability to recognize faces.",
+  "Driverless cars use multiple cameras and neural networks to recognize other vehicles, traffic signs and pedestrians and adjust turns or speed accordingly.",
+  "Neural networks are behind text suggestions while writing texts or emails and the translation tools available online.",
+  "Neural networks are trained on vast amounts of data to recognize, classify and predict things.",
+  "Clicking images of crosswalks to prove you are not a robot can help train a neural network.",
+  "A person perceives around 30 frames or images per second, which means 1,800 images per minute, and over 600 million images per year.",
+  "In a basic network that recognizes dogs and cats, the first layer breaks the image into areas of light and dark, the next layer recognizes edges, and later layers recognize shapes.",
+  "Neural networks can consist of millions of parameters to classify and recognize their input.",
+  "Warren McCulloch and Walter Pitts created a computational model for neural networks based on algorithms in 1943.",
+  "The idea of neural networks went through a long hibernation because the immense computational resources needed did not yet exist.",
+  "Graphical processing units (GPUs) are chips originally used for processing graphics in video games that are excellent for running neural networks.",
+  "The article is republished from The Conversation under a Creative Commons license."
+ ],
+ "entities": [
+  {
+   "name": "Tam Nguyen",
+   "type": "person",
+   "role": "assistant professor in the Department of Computer Science at the University of Dayton and author of the article"
+  },
+  {
+   "name": "University of Dayton",
+   "type": "organization",
+   "role": "employer of Tam Nguyen, where he is a professor of computer science"
+  },
+  {
+   "name": "The Conversation",
+   "type": "organization",
+   "role": "outlet from which the article is republished under a Creative Commons license"
+  },
+  {
+   "name": "Warren McCulloch",
+   "type": "person",
+   "role": "co-creator of a computational model for neural networks based on algorithms in 1943"
+  },
+  {
+   "name": "Walter Pitts",
+   "type": "person",
+   "role": "co-creator of a computational model for neural networks based on algorithms in 1943"
+  },
+  {
+   "name": "Getty Images",
+   "type": "organization",
+   "role": "source of the image credited as MF3d / E+ via Getty Images"
+  },
+  {
+   "name": "graphical processing units (GPUs)",
+   "type": "product",
+   "role": "advanced computational chips that proved excellent for running neural networks"
+  }
+ ],
+ "tags": [
+  "neural networks",
+  "artificial intelligence",
+  "machine learning",
+  "computer science",
+  "big data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3799,
+  "output_tokens": 1106
+ }
+}

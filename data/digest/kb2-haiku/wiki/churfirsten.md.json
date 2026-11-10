@@ -1,0 +1,42 @@
+{
+ "summary": "The note is a short encyclopedic entry on the Churfirsten, a mountain range located in the Canton of St. Gallen in Switzerland. It states that the range forms the natural boundary between the canton's Toggenburg and Sarganserland districts. The note gives no further details such as heights or history.",
+ "one_line": "The Churfirsten is a mountain range in the Canton of St. Gallen, Switzerland, forming the boundary between the Toggenburg and Sarganserland districts.",
+ "key_facts": [
+  "Churfirsten is a mountain range in the Canton of St. Gallen, Switzerland.",
+  "The Churfirsten form the natural boundary between the canton's Toggenburg and Sarganserland districts."
+ ],
+ "entities": [
+  {
+   "name": "Churfirsten",
+   "type": "place",
+   "role": "mountain range in the Canton of St. Gallen, Switzerland, forming the natural boundary between the Toggenburg and Sarganserland districts"
+  },
+  {
+   "name": "Canton of St. Gallen",
+   "type": "place",
+   "role": "Swiss canton in which the Churfirsten mountain range is located"
+  },
+  {
+   "name": "Toggenburg",
+   "type": "place",
+   "role": "district of the Canton of St. Gallen bordered by the Churfirsten"
+  },
+  {
+   "name": "Sarganserland",
+   "type": "place",
+   "role": "district of the Canton of St. Gallen bordered by the Churfirsten"
+  }
+ ],
+ "tags": [
+  "mountains",
+  "switzerland",
+  "canton of st. gallen",
+  "geography",
+  "alps"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1043,
+  "output_tokens": 515
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "summary": "EgyptAir Flight 763 was a non-scheduled international passenger flight from Cairo, Egypt, to Aden, South Yemen. On 19 March 1972 it was operated by the newly renamed EgyptAir using a McDonnell Douglas DC9-32 registered in Yugoslavia as YU-AHR. The aircraft crashed into the Shamsan Mountains while approaching Aden, killing all 30 people on board.",
+ "one_line": "A 1972 non-scheduled EgyptAir passenger flight from Cairo to Aden that crashed into the Shamsan Mountains, killing all 30 aboard.",
+ "key_facts": [
+  "EgyptAir Flight 763 was an international non-scheduled passenger flight from Cairo, Egypt, to Aden, South Yemen.",
+  "The flight occurred on 19 March 1972.",
+  "The aircraft was a McDonnell Douglas DC9-32.",
+  "The aircraft was registered in Yugoslavia as YU-AHR.",
+  "The flight was operated by the newly renamed EgyptAir.",
+  "The aircraft crashed into the Shamsan Mountains on approach to Aden.",
+  "The crash killed all 30 people on board.",
+  "The flight's destination was Aden, South Yemen."
+ ],
+ "entities": [
+  {
+   "name": "EgyptAir Flight 763",
+   "type": "event",
+   "role": "Non-scheduled international passenger flight from Cairo to Aden that crashed on 19 March 1972, killing all 30 people on board"
+  },
+  {
+   "name": "EgyptAir",
+   "type": "organization",
+   "role": "Newly renamed airline that operated the flight"
+  },
+  {
+   "name": "McDonnell Douglas DC9-32",
+   "type": "product",
+   "role": "Aircraft type flown on the flight"
+  },
+  {
+   "name": "YU-AHR",
+   "type": "product",
+   "role": "Yugoslav registration of the aircraft involved in the crash"
+  },
+  {
+   "name": "Cairo",
+   "type": "place",
+   "role": "Departure city of the flight in Egypt"
+  },
+  {
+   "name": "Aden",
+   "type": "place",
+   "role": "Destination city of the flight in South Yemen"
+  },
+  {
+   "name": "Shamsan Mountains",
+   "type": "place",
+   "role": "Mountains into which the aircraft crashed on approach to Aden"
+  }
+ ],
+ "tags": [
+  "aviation accident",
+  "egyptair",
+  "1972",
+  "aviation history",
+  "air crash",
+  "aden"
+ ],
+ "category": "history & politics",
+ "usage": {
+  "input_tokens": 1137,
+  "output_tokens": 770
+ }
+}

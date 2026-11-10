@@ -1,0 +1,71 @@
+{
+ "summary": "This note summarizes a Jacobson (2021) modeling study of transitioning Italy to 100% clean wind-water-solar (WWS) energy by 2050 as part of a Green New Deal plan, with at least 80% by 2030. It reports grid stability results from the LOADMATCH model, the upfront cost of about $570 billion, reductions in energy demand, costs, and deaths from air pollution, job changes, and land requirements, and it assumes the Italian grid is isolated from other grids. The tables give the supporting data on demand, capacities, storage, costs, energy balances, land use, and jobs.",
+ "one_line": "Jacobson's study modeling Italy's 100% wind-water-solar energy transition by 2050, covering costs, jobs, health, climate, grid stability and land use.",
+ "key_facts": [
+  "The study assumes Italy's grid is isolated from other grids and uses 2050 business-as-usual (BAU) and WWS load data with 30-second resolution WWS supply data from the GATORGCMOM weather-prediction model.",
+  "The proposed Italian transition timeline is 100% WWS by no later than 2050, with at least 80% by 2030.",
+  "The Italian WWS energy plan has an upfront cost of $570 billion.",
+  "The plan creates 306,000 more long-term, full-time jobs than lost.",
+  "The plan saves 18,000 lives from air pollution each year in 2050.",
+  "The plan reduces 2050 end-use energy requirements by 61.7%.",
+  "The plan reduces 2050 private energy costs by 71%, from $211 to $61.4 billion/yr.",
+  "The plan reduces social energy costs by 90%, from $618 to $61.4 billion/yr.",
+  "Italy's 2050 WWS plan requires 0.34% of Italian land for footprint and 1.55% for spacing.",
+  "Italy's 2050 BAU annual average end-use demand is 217.4 GW, while WWS 2050 annual average end-use demand is 83.2 GW.",
+  "Table 4 gives 2050 onshore wind nameplate capacity of 100 GW and offshore wind of 33.2 GW.",
+  "Table 8 reports total WWS supply before transmission and distribution losses of 917 TWh, with 471 TWh from onshore and offshore wind electricity.",
+  "Table 11 reports 457,460 total jobs produced, 151,359 jobs lost, and a net change of 306,101 jobs in Italy.",
+  "Table 7 gives a total LCOE of 8.42 ¢/kWh-all-energy and an annual energy cost of $61.4 billion/yr for Italy.",
+  "Table 10 gives Italy's region land area as 294,140 km2, with a footprint area of 998 km2 and a spacing area of 4,574 km2."
+ ],
+ "entities": [
+  {
+   "name": "Jacobson, M.Z.",
+   "type": "person",
+   "role": "author of the source study, The cost of grid stability with 100% clean, renewable energy for all purposes when countries are isolated versus interconnected, Renewable Energy, 2021"
+  },
+  {
+   "name": "LOADMATCH",
+   "type": "program",
+   "role": "grid model used to derive the results"
+  },
+  {
+   "name": "GATORGCMOM",
+   "type": "program",
+   "role": "weather-prediction model that provided 30-second resolution WWS supply data"
+  },
+  {
+   "name": "Green New Deal",
+   "type": "program",
+   "role": "energy goal the Italian transition to 100% WWS energy is meant to achieve"
+  },
+  {
+   "name": "Italy",
+   "type": "place",
+   "role": "country whose energy transition to 100% wind-water-solar power by 2050 is modeled"
+  },
+  {
+   "name": "Ivanpah solar plant",
+   "type": "product",
+   "role": "reference plant whose mirror and land characteristics are assumed for each CSP plant before storage"
+  },
+  {
+   "name": "Senvion (formerly Repower)",
+   "type": "organization",
+   "role": "manufacturer of the 5 MW wind turbines assumed in the climate model"
+  }
+ ],
+ "tags": [
+  "renewable energy",
+  "green new deal",
+  "grid stability",
+  "energy storage",
+  "italy",
+  "climate policy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10563,
+  "output_tokens": 1329
+ }
+}

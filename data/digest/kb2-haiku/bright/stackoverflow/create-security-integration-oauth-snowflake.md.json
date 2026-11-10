@@ -1,0 +1,80 @@
+{
+ "summary": "This is Snowflake documentation for the CREATE SECURITY INTEGRATION (Snowflake OAuth) SQL command, which creates or replaces an OAuth integration that lets clients redirect users to an authorization page and obtain access tokens and optionally refresh tokens for Snowflake. It covers syntax for partner applications (Tableau Desktop, Tableau Server/Online, Looker) and custom clients, with required and optional parameters, refresh token validity limits, role blocking and pre-authorization, access control requirements (CREATE INTEGRATION privilege, ACCOUNTADMIN by default), usage notes, and examples. Boilerplate navigation and page chrome were ignored.",
+ "one_line": "Reference documentation for the Snowflake SQL command that creates or replaces OAuth security integrations for partner applications and custom clients.",
+ "key_facts": [
+  "The CREATE SECURITY INTEGRATION (Snowflake OAuth) command creates a new Snowflake OAuth security integration in the account or replaces an existing one.",
+  "Supported OAUTH_CLIENT values for partner applications are TABLEAU_DESKTOP, TABLEAU_SERVER, and LOOKER.",
+  "OAUTH_REDIRECT_URI is required when OAUTH_CLIENT=LOOKER.",
+  "For custom clients, OAUTH_CLIENT_TYPE must be 'CONFIDENTIAL' or 'PUBLIC', and the redirect URI must be protected by TLS unless OAUTH_ALLOW_NON_TLS_REDIRECT_URI is TRUE.",
+  "The default ENABLED value is FALSE; if the integration is created without setting it to TRUE, Snowflake sets it to FALSE.",
+  "The default OAUTH_REFRESH_TOKEN_VALIDITY for Tableau Desktop is 36000 seconds (10 hours), with a minimum of 60 and maximum of 36000 seconds.",
+  "For Tableau Server or Tableau Online, the refresh token validity default and maximum are 7776000 seconds (90 days), with a minimum of 60 seconds.",
+  "For custom clients, OAUTH_REFRESH_TOKEN_VALIDITY ranges from 86400 (1 day) to 7776000 (90 days), with a default of 7776000.",
+  "If OAUTH_ISSUE_REFRESH_TOKENS is FALSE and ENABLED is TRUE, a non-configurable access token valid for 600 seconds (10 minutes) is issued.",
+  "By default, Snowflake prevents the ACCOUNTADMIN, ORGADMIN, and SECURITYADMIN roles from authenticating through the integration unless the account parameter is set to FALSE.",
+  "PRE_AUTHORIZED_ROLES_LIST is supported for confidential clients only, and ACCOUNTADMIN, ORGADMIN, and SECURITYADMIN cannot be included in it.",
+  "OAUTH_ENFORCE_PKCE defaults to FALSE, though Snowflake highly recommends requiring PKCE for all authorizations.",
+  "OAUTH_USE_SECONDARY_ROLES accepts IMPLICIT or NONE, with a default of NONE.",
+  "The CREATE INTEGRATION privilege on the account is required and by default is held only by the ACCOUNTADMIN role.",
+  "CREATE OR REPLACE statements are atomic: the old object is deleted and the new object is created in a single transaction."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the database service in which the OAuth security integration is created."
+  },
+  {
+   "name": "Tableau Desktop",
+   "type": "product",
+   "role": "Partner application supported as an OAUTH_CLIENT value, requiring version 2019.1 or higher."
+  },
+  {
+   "name": "Tableau Server",
+   "type": "product",
+   "role": "Partner application for Tableau Online or Tableau Server; custom client setting is recommended when using private connectivity."
+  },
+  {
+   "name": "Tableau Online",
+   "type": "product",
+   "role": "Partner application grouped with Tableau Server as a supported OAUTH_CLIENT value."
+  },
+  {
+   "name": "Looker",
+   "type": "product",
+   "role": "The Looker business intelligence tool, a partner application that requires OAUTH_REDIRECT_URI."
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "Snowflake role that holds the CREATE INTEGRATION privilege by default and is blocked from authenticating by default."
+  },
+  {
+   "name": "ORGADMIN",
+   "type": "other",
+   "role": "Snowflake role blocked from authenticating by default and excluded from pre-authorized roles."
+  },
+  {
+   "name": "SECURITYADMIN",
+   "type": "other",
+   "role": "Snowflake role blocked from authenticating by default and excluded from pre-authorized roles."
+  },
+  {
+   "name": "Snowflake OAuth",
+   "type": "program",
+   "role": "OAuth-based authentication feature that enables clients to obtain access and refresh tokens for Snowflake."
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "oauth",
+  "security integration",
+  "sql reference",
+  "authentication"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8111,
+  "output_tokens": 1704
+ }
+}

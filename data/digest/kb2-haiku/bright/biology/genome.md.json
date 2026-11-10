@@ -1,0 +1,142 @@
+{
+ "summary": "The note is a wiki-style overview of the genome: the complete genetic information of an organism, covering its definition, origin of the term, sequencing history, and the structure of viral, prokaryotic and eukaryotic genomes. It describes repetitive and transposable DNA, genome size variation across species, genomic alterations, genome evolution, and genome depictions in science fiction. It also includes a table of representative sequenced genomes with sizes and gene counts.",
+ "one_line": "Overview of the genome as an organism's complete genetic information, covering sequencing history, genome structure, repetitive DNA, genome size and evolution.",
+ "key_facts": [
+  "The term genome was created in 1920 by Hans Winkler, professor of botany at the University of Hamburg, Germany.",
+  "The Human Genome Project was started in October 1990 and reported the sequence of the human genome in April 2003, though the initial finished sequence was missing 8% of the genome.",
+  "Scientists reported the first end-to-end human genome sequence in March 2022.",
+  "In 1976, Walter Fiers at the University of Ghent (Belgium) established the complete nucleotide sequence of a viral RNA-genome (Bacteriophage MS2).",
+  "The first bacterial genome to be sequenced was Haemophilus influenzae, completed by a team at The Institute for Genomic Research in 1995.",
+  "The first eukaryotic genome completed was budding yeast Saccharomyces cerevisiae, published as the result of a European-led effort begun in the mid-1980s.",
+  "In December 2013, scientists first sequenced the entire genome of a Neanderthal, extracted from the toe bone of a 130,000-year-old Neanderthal found in a Siberian cave.",
+  "In humans, the nuclear genome comprises approximately 3.1 billion nucleotides of DNA, divided into 24 linear molecules.",
+  "Noncoding sequences make up 98% of the human genome.",
+  "Tandem repeats make up about 4% of the human genome and 9% of the fruit fly genome.",
+  "Huntington's disease results when the human gene huntingtin (Htt), which typically contains 6–29 CAG tandem repeats, expands to over 36 repeats.",
+  "The human genome has around 500,000 LINEs, taking around 17% of the genome.",
+  "The Alu element is the most common SINE found in primates, about 350 base pairs long and occupying about 11% of the human genome with around 1,500,000 copies.",
+  "Largest known viral genome is Pandoravirus salinus at 2,470,000 base pairs.",
+  "Paris japonica has a genome of 150 GB, described as the largest plant genome known.",
+  "Michael Crichton's 1990 novel Jurassic Park tells of cloned dinosaurs created from dinosaur DNA extracted from ancient mosquitoes, and the 1997 film Gattaca is set in a society of genetically engineered children."
+ ],
+ "entities": [
+  {
+   "name": "Human Genome Project",
+   "type": "program",
+   "role": "Project organized to map and sequence the human genome, started October 1990 and reporting the sequence in April 2003"
+  },
+  {
+   "name": "Hans Winkler",
+   "type": "person",
+   "role": "Professor of botany at the University of Hamburg, Germany, who created the term genome in 1920"
+  },
+  {
+   "name": "Walter Fiers",
+   "type": "person",
+   "role": "University of Ghent (Belgium) scientist who first established the complete nucleotide sequence of a viral RNA-genome (Bacteriophage MS2) in 1976"
+  },
+  {
+   "name": "Fred Sanger",
+   "type": "person",
+   "role": "Scientist who completed the first DNA-genome sequence, Phage Φ-X174, of 5386 base pairs, the next year after 1976"
+  },
+  {
+   "name": "The Institute for Genomic Research",
+   "type": "organization",
+   "role": "Team that completed the first bacterial genome sequence (Haemophilus influenzae) in 1995 and the first archaeon genome (Methanococcus jannaschii) in 1996"
+  },
+  {
+   "name": "Haemophilus influenzae",
+   "type": "other",
+   "role": "First bacterium genome sequenced, completed in 1995"
+  },
+  {
+   "name": "Saccharomyces cerevisiae",
+   "type": "other",
+   "role": "Budding yeast whose 16 chromosomes were the first eukaryotic genome completed"
+  },
+  {
+   "name": "Methanococcus jannaschii",
+   "type": "other",
+   "role": "First archaeon genome sequence, completed in 1996"
+  },
+  {
+   "name": "Jean Weissenbach",
+   "type": "person",
+   "role": "Led a team at the Genoscope in Paris that released a detailed genomic map, a fundamental step in the Human Genome Project"
+  },
+  {
+   "name": "James D. Watson",
+   "type": "person",
+   "role": "Co-discoverer of the structure of DNA whose full genome was completed in 2007"
+  },
+  {
+   "name": "DNA.LAND",
+   "type": "program",
+   "role": "Crowdsourced scientific endeavour at the New York Genome Center to which people may submit their genomes"
+  },
+  {
+   "name": "Huntington's disease",
+   "type": "other",
+   "role": "Neurodegenerative disease caused by expansion of CAG tandem repeats in the huntingtin gene"
+  },
+  {
+   "name": "Jurassic Park",
+   "type": "product",
+   "role": "Michael Crichton's 1990 novel and film about cloned dinosaurs, cited as fiction illustrating genome concerns"
+  },
+  {
+   "name": "Gattaca",
+   "type": "product",
+   "role": "1997 film set in a futurist society of genetically engineered children, cited as fiction illustrating genome concerns"
+  },
+  {
+   "name": "Michael Crichton",
+   "type": "person",
+   "role": "Author of the 1990 novel Jurassic Park"
+  },
+  {
+   "name": "Alu element",
+   "type": "other",
+   "role": "Most common SINE found in primates, about 350 base pairs long"
+  },
+  {
+   "name": "Pandoravirus salinus",
+   "type": "other",
+   "role": "Largest known viral genome, at 2,470,000 base pairs"
+  },
+  {
+   "name": "Paris japonica",
+   "type": "other",
+   "role": "Plant with a 150 GB genome, the largest plant genome known"
+  },
+  {
+   "name": "Polychaos dubium",
+   "type": "other",
+   "role": "Amoeboid listed with a 670 GB genome, the largest known genome (disputed)"
+  },
+  {
+   "name": "Neuse River waterdog",
+   "type": "other",
+   "role": "Amphibian with largest tetrapod genome sequenced as of 2022, 118 GB"
+  },
+  {
+   "name": "Protopterus aethiopicus",
+   "type": "other",
+   "role": "Marbled lungfish with the largest vertebrate genome known, 130 GB"
+  }
+ ],
+ "tags": [
+  "genomics",
+  "genome size",
+  "transposable elements",
+  "sequencing",
+  "genetics",
+  "human genome"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10739,
+  "output_tokens": 2165
+ }
+}

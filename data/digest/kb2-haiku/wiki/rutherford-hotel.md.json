@@ -1,0 +1,46 @@
+{
+ "summary": "The note describes the Rutherford Hotel, a luxury accommodation hotel in Nelson, New Zealand, named after Sir Ernest Rutherford. It is the largest hotel in Nelson and the tallest building in the city. The hotel belongs to the Heritage Hotels chain, which operates hotels in many New Zealand locations.",
+ "one_line": "The Rutherford Hotel is a luxury hotel in Nelson, New Zealand, named after Sir Ernest Rutherford, and is the city's largest hotel and tallest building.",
+ "key_facts": [
+  "The Rutherford Hotel is named after Sir Ernest Rutherford.",
+  "The Rutherford Hotel is a luxury accommodation hotel in Nelson, New Zealand.",
+  "The Rutherford Hotel is the biggest hotel in Nelson.",
+  "The Rutherford Hotel is the tallest building in Nelson.",
+  "The Rutherford Hotel is part of the chain company Heritage Hotels.",
+  "Heritage Hotels has hotels based in many locations around New Zealand."
+ ],
+ "entities": [
+  {
+   "name": "Rutherford Hotel",
+   "type": "place",
+   "role": "luxury accommodation hotel in Nelson, New Zealand; biggest hotel and tallest building in the city"
+  },
+  {
+   "name": "Sir Ernest Rutherford",
+   "type": "person",
+   "role": "namesake of the Rutherford Hotel"
+  },
+  {
+   "name": "Nelson, New Zealand",
+   "type": "place",
+   "role": "city where the Rutherford Hotel is located"
+  },
+  {
+   "name": "Heritage Hotels",
+   "type": "organization",
+   "role": "chain company that the Rutherford Hotel is part of"
+  }
+ ],
+ "tags": [
+  "hotels",
+  "nelson new zealand",
+  "heritage hotels",
+  "accommodation",
+  "new zealand"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1096,
+  "output_tokens": 592
+ }
+}

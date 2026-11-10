@@ -1,0 +1,91 @@
+{
+ "summary": "This clipped FastAPI documentation page covers two Advanced User Guide topics. The first, 'Return a Response Directly', explains that FastAPI normally converts return values to JSON with jsonable_encoder and wraps them in a JSONResponse, but a Response or sub-class can be returned directly to set custom headers or cookies, with no validation or conversion. The second, 'Advanced Dependencies', begins explaining parameterized dependencies through a callable class instance, and the excerpt is truncated partway through its example.",
+ "one_line": "FastAPI guide on returning Response objects directly and starting parameterized dependencies via callable class instances.",
+ "key_facts": [
+  "By default FastAPI converts a path operation's return value to JSON using the jsonable_encoder and places it inside a JSONResponse.",
+  "A path operation can return a JSONResponse directly, which is useful for returning custom headers or cookies.",
+  "JSONResponse is a sub-class of Response, and when a Response is returned FastAPI passes it directly without data conversion.",
+  "Returning a Response directly means FastAPI does not convert contents with Pydantic models or validate data types.",
+  "A Pydantic model cannot be placed in a JSONResponse without first converting it to a dict with types like datetime and UUID converted to JSON-compatible types.",
+  "The example PUT path '/items/{id}' in the update_item function calls jsonable_encoder(item) and returns JSONResponse(content=json_compatible_item_data).",
+  "The technical details note says from starlette.responses import JSONResponse can also be used, because FastAPI provides the same starlette.responses as fastapi.responses for convenience.",
+  "A legacy XML example at the path '/legacy/' returns Response(content=data, media_type=\"application/xml\") with an XML string containing a shampoo element.",
+  "When a Response is returned directly its data is not validated, converted (serialized), nor documented automatically.",
+  "Directly returned responses can still be documented as described in the Additional Responses in OpenAPI guide.",
+  "The Advanced Dependencies page states that all dependencies seen so far are a fixed function or class, and some cases need parameters set on the dependency.",
+  "The Advanced Dependencies example checks whether the query parameter q contains fixed content, and the fixed content should be parameterizable.",
+  "In Python, an instance of a class can be made callable by declaring a __call__ method.",
+  "The FixedContentQueryChecker example class takes fixed_content in __init__, and checker = FixedContentQueryChecker(\"bar\") is used as a dependency via Depends(checker).",
+  "A tip recommends preferring the Annotated version of dependency declarations if possible."
+ ],
+ "entities": [
+  {
+   "name": "FastAPI",
+   "type": "product",
+   "role": "the Python web framework whose user guide pages are described in the note"
+  },
+  {
+   "name": "JSONResponse",
+   "type": "product",
+   "role": "response class that FastAPI uses by default and that path operations can return directly, a sub-class of Response"
+  },
+  {
+   "name": "Response",
+   "type": "product",
+   "role": "response class that FastAPI passes through directly without data conversion when returned from a path operation"
+  },
+  {
+   "name": "jsonable_encoder",
+   "type": "product",
+   "role": "function used to convert data, such as Pydantic models, into JSON-compatible types before passing it to a response"
+  },
+  {
+   "name": "Pydantic",
+   "type": "product",
+   "role": "library whose models are converted by FastAPI by default and cannot be placed directly in a JSONResponse"
+  },
+  {
+   "name": "Starlette",
+   "type": "product",
+   "role": "source of most available response classes, which FastAPI re-exports through fastapi.responses"
+  },
+  {
+   "name": "update_item",
+   "type": "other",
+   "role": "example path operation function for PUT /items/{id} that returns a JSONResponse built with jsonable_encoder"
+  },
+  {
+   "name": "get_legacy_data",
+   "type": "other",
+   "role": "example path operation function for GET /legacy/ that returns an XML Response"
+  },
+  {
+   "name": "FixedContentQueryChecker",
+   "type": "other",
+   "role": "example class whose instances are callable and check whether the query parameter q contains a fixed content string"
+  },
+  {
+   "name": "Material for MkDocs",
+   "type": "program",
+   "role": "documentation tool the FastAPI site is made with, as credited in the page footer"
+  },
+  {
+   "name": "tiangolo",
+   "type": "person",
+   "role": "owner of the FastAPI trademark, which is registered in the US and other regions"
+  }
+ ],
+ "tags": [
+  "fastapi",
+  "python",
+  "http-responses",
+  "dependency-injection",
+  "web-api",
+  "pydantic"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15266,
+  "output_tokens": 2096
+ }
+}

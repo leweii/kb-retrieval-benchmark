@@ -1,0 +1,105 @@
+{
+ "summary": "This note is a guide by Hartley, Hoover and Salyer on solving real business cycle (RBC) models with a representative agent. It sets up a social planner's problem with technology shocks, derives the equilibrium conditions, and calibrates parameters to postwar U.S. data (alpha=0.36, beta=0.99, delta=0.025, A=3). It then linearizes the system, solves it via eigenvalue decomposition, and simulates artificial series whose volatilities and correlations are compared with U.S. data in Table 1.",
+ "one_line": "A worked guide to solving and calibrating a real business cycle model with technology shocks, using linearization and eigenvalue methods.",
+ "key_facts": [
+  "The typical real business cycle model assumes an economy of identical infinitely-lived households and firms, reflected in a single representative agent.",
+  "Output is produced according to yt = zt f(kt, ht), where zt is the technology shock and the price of output is normalized to one.",
+  "The planner's problem uses 0 < beta < 1 as the agents' discount factor and 0 < delta < 1 as the depreciation rate of capital.",
+  "The technology shock follows an autoregressive process with autocorrelation parameter 0 <= rho <= 1 and innovation with mean one and standard deviation sigma_e.",
+  "Typical calibrated values based on postwar U.S. data (Hansen and Wright, 1992) are alpha = 0.36, beta = 0.99, delta = 0.025, and A = 3.",
+  "With these parameters the steady-state values are c = 0.79, k = 10.90, h = 0.29, and y = 1.06.",
+  "The calibration implies labor's share of output is 64%, an annual riskless interest rate of 0.04%, a capital-output ratio of roughly 10, and roughly 30% of time spent in work activity.",
+  "The Solow residual is detrended linearly over quarterly data for 60.1-94.4, giving an estimated technology shock serial correlation rho of 0.95.",
+  "The variance of the technology shock innovation was estimated at 0.007.",
+  "The linear system is written as A u_t = B E_t(u_{t+1}), and the stable rational expectations solution is associated with the eigenvalue less than one.",
+  "The rational expectations solution includes the restriction c~ = 0.54 h~ ... with c~ = 0.54 h~ + 0.02 k~ + 0.44 z~ in the paper's expression (16) as printed.",
+  "Simulated output, consumption and investment were generated from 3000 observations, of which the last 120 were examined.",
+  "Table 1 reports that in the RBC model investment has relative volatility 2.86 against 3.02 in U.S. data, with correlation with output 0.95 against 0.80.",
+  "The note cites Debreu (1954) for the result that the Pareto optimum matches the competitive equilibrium, and Prescott (1986) for the existence and uniqueness of the solution."
+ ],
+ "entities": [
+  {
+   "name": "Hartley, Hoover, Salyer",
+   "type": "person",
+   "role": "authors of the guide 'RBC Models: A User's Guide'"
+  },
+  {
+   "name": "Debreu (1954)",
+   "type": "person",
+   "role": "cited for showing the Pareto optimum equals the competitive equilibrium in this environment"
+  },
+  {
+   "name": "Prescott (1986)",
+   "type": "person",
+   "role": "cited for exposition of the competitive equilibrium and Pareto optimum connection and for the model's solution properties"
+  },
+  {
+   "name": "Hansen (1985)",
+   "type": "person",
+   "role": "source of the model in which utility is linear in leisure"
+  },
+  {
+   "name": "Hansen and Wright (1992)",
+   "type": "person",
+   "role": "source of typical postwar U.S. parameter values"
+  },
+  {
+   "name": "Farmer (1994)",
+   "type": "person",
+   "role": "the discussion of linearization follows closely that of Farmer"
+  },
+  {
+   "name": "Kydland and Prescott (1990)",
+   "type": "person",
+   "role": "source of the U.S. data statistics reported in Table 1"
+  },
+  {
+   "name": "Hoover and Salyer (1996)",
+   "type": "person",
+   "role": "discuss the use of the Solow residual as a measure of technology shocks"
+  },
+  {
+   "name": "McGrattan (1994)",
+   "type": "person",
+   "role": "cited as showing U.S. experience broadly consistent with the calibrated steady state"
+  },
+  {
+   "name": "Sargent (1987)",
+   "type": "person",
+   "role": "cited for a discussion of dynamic programming"
+  },
+  {
+   "name": "Hamilton (1994)",
+   "type": "person",
+   "role": "cited for the matrix decomposition details"
+  },
+  {
+   "name": "Federal Reserve Bank of Minneapolis Quarterly Review",
+   "type": "organization",
+   "role": "journal in which several cited works were published"
+  },
+  {
+   "name": "Solow residual",
+   "type": "other",
+   "role": "measure of technology shocks used to estimate the shock process"
+  },
+  {
+   "name": "Real business cycle model",
+   "type": "program",
+   "role": "the economic model whose solution and calibration the note describes"
+  }
+ ],
+ "tags": [
+  "real business cycle",
+  "macroeconomics",
+  "calibration",
+  "linearization",
+  "technology shocks",
+  "rational expectations"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 12268,
+  "output_tokens": 1649
+ }
+}

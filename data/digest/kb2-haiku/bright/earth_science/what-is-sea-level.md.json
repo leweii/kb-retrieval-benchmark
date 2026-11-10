@@ -1,0 +1,67 @@
+{
+ "summary": "A Penn State Coastal Processes course page introduces sea level, asking what it is, how it is measured, why it has changed over geologic time, and why it is uneven across the globe. It embeds a 3:25 MinutePhysics video and a transcript explaining that Earth's non-spherical shape, uneven gravity from density variations, and continents complicate defining sea level. The note is cut off mid-sentence while discussing the Earth Gravitational Model used to define sea level.",
+ "one_line": "Introductory course page explaining what sea level is, why it is hard to define on a non-spherical, uneven Earth, and how gravity models define it.",
+ "key_facts": [
+  "The page states that it looks at what sea level change is and what mechanisms drive sea level change on a planetary scale.",
+  "The embedded MinutePhysics video is 3:25 long and was published on Nov. 25, 2013.",
+  "The video transcript asks how we know sea level beneath Mt. Everest, since there is no sea for hundreds of kilometers.",
+  "The Earth is 42km farther across at the equator than from pole to pole.",
+  "If sea level were defined by standing on sea ice at the North Pole, the ocean surface at the equator would be 21km above sea level.",
+  "The Chimborazo volcano in Ecuador, not Mount Everest, is the peak farthest from the center of the Earth because of the bulging.",
+  "Variations in Earth's interior density can make the level of the sea vary by up to 100m from a uniform ellipsoid.",
+  "Geodetic scientists or geodesists decided to define sea level using the strength of gravity.",
+  "The Earth Gravitational Model is an detailed model of the Earth's gravitational field incorporated into modern GPS receivers.",
+  "The Earth Gravitational Model allows geodesists to predict the average level of the ocean to within a meter everywhere on Earth.",
+  "The transcript notes that a GPS receiver without the model might show a person in Sri Lanka as 100m below sea level, because Sri Lanka has weak gravity.",
+  "The transcript states that a mountain's gravity attracts nearby water, raising the sea around it."
+ ],
+ "entities": [
+  {
+   "name": "MinutePhysics",
+   "type": "organization",
+   "role": "publisher of the 3:25 video 'What is Sea Level?' published on Nov. 25, 2013"
+  },
+  {
+   "name": "Mt. Everest",
+   "type": "place",
+   "role": "mountain used as an example of height above sea level, 8850m"
+  },
+  {
+   "name": "Chimborazo volcano",
+   "type": "place",
+   "role": "volcano in Ecuador that is the peak farthest from the center of the Earth due to bulging"
+  },
+  {
+   "name": "Earth Gravitational Model",
+   "type": "program",
+   "role": "detailed model of the Earth's gravitational field used to define sea level and incorporated into GPS receivers"
+  },
+  {
+   "name": "geodetic scientists (geodesists)",
+   "type": "organization",
+   "role": "scientists who decided sea level should be defined using the strength of gravity"
+  },
+  {
+   "name": "Sri Lanka",
+   "type": "place",
+   "role": "example location with weak gravity where a GPS receiver without the model would wrongly show 100m below sea level"
+  },
+  {
+   "name": "North Pole",
+   "type": "place",
+   "role": "proposed reference point for defining sea level by standing on sea ice"
+  }
+ ],
+ "tags": [
+  "sea level",
+  "geodesy",
+  "gravity",
+  "earth science",
+  "coastal processes"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15261,
+  "output_tokens": 1092
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "summary": "This note is a clipped documentation page for the HOUR, MINUTE, and SECOND functions, which extract the corresponding time part from a time or timestamp value. It gives the syntax for each function, a usage table with the possible value range of each part, and one worked example using a timestamp with a -07:00 offset. Navigation menus and footer boilerplate were ignored.",
+ "one_line": "Documentation for the HOUR, MINUTE and SECOND functions that extract time parts from a time or timestamp value.",
+ "key_facts": [
+  "HOUR(<time_or_timestamp_expr>) extracts the hour of the specified day from a time or timestamp value.",
+  "MINUTE(<time_or_timestamp_expr>) extracts the minute of the specified hour from a time or timestamp value.",
+  "SECOND(<time_or_timestamp_expr>) extracts the second of the specified minute from a time or timestamp value.",
+  "HOUR returns values from 0 to 23.",
+  "MINUTE returns values from 0 to 59.",
+  "SECOND returns values from 0 to 59.",
+  "The example casts the string '2013-05-08T23:39:20.123-07:00' to TIMESTAMP, yielding 2013-05-08 23:39:20.123.",
+  "In the example, HOUR returns 23, MINUTE returns 39, and SECOND returns 20 for the given timestamp."
+ ],
+ "entities": [
+  {
+   "name": "HOUR",
+   "type": "program",
+   "role": "Function that extracts the hour of the specified day from a time or timestamp value, returning 0 to 23"
+  },
+  {
+   "name": "MINUTE",
+   "type": "program",
+   "role": "Function that extracts the minute of the specified hour from a time or timestamp value, returning 0 to 59"
+  },
+  {
+   "name": "SECOND",
+   "type": "program",
+   "role": "Function that extracts the second of the specified minute from a time or timestamp value, returning 0 to 59"
+  }
+ ],
+ "tags": [
+  "sql",
+  "date-time",
+  "timestamp",
+  "functions",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1699,
+  "output_tokens": 648
+ }
+}

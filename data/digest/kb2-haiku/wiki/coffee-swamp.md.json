@@ -1,0 +1,45 @@
+{
+ "summary": "Coffee Swamp is a two-acre freshwater swamp on the northern edge of Washington Island in Door County, Wisconsin. It has been a designated state natural area since 1994. The swamp represents a boreal forest and hosts plant species including various sedges, ferns and other rare plants.",
+ "one_line": "Coffee Swamp is a two-acre boreal freshwater swamp on Washington Island, Wisconsin, designated a state natural area in 1994.",
+ "key_facts": [
+  "Coffee Swamp is a two acre freshwater swamp.",
+  "Coffee Swamp is located on the northern edge of Washington Island.",
+  "Washington Island is in Door County, Wisconsin.",
+  "Coffee Swamp has been a designated state natural area since 1994.",
+  "Coffee Swamp represents a boreal forest.",
+  "Coffee Swamp hosts a number of plant species.",
+  "Plant species at Coffee Swamp include various sedges.",
+  "Plant species at Coffee Swamp include ferns.",
+  "Coffee Swamp hosts other rare plants."
+ ],
+ "entities": [
+  {
+   "name": "Coffee Swamp",
+   "type": "place",
+   "role": "two acre freshwater swamp and designated state natural area on the northern edge of Washington Island"
+  },
+  {
+   "name": "Washington Island",
+   "type": "place",
+   "role": "island in Door County, Wisconsin where Coffee Swamp is located on the northern edge"
+  },
+  {
+   "name": "Door County, Wisconsin",
+   "type": "place",
+   "role": "county containing Washington Island and Coffee Swamp"
+  }
+ ],
+ "tags": [
+  "wisconsin",
+  "wetlands",
+  "swamp",
+  "natural areas",
+  "boreal forest",
+  "door county"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1084,
+  "output_tokens": 545
+ }
+}

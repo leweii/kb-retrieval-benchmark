@@ -1,0 +1,86 @@
+{
+ "summary": "This is the React documentation page \"Your First Component\" from the Learn React section. It explains that components are reusable UI building blocks and that a React component is a JavaScript function whose name starts with a capital letter and which returns JSX markup. It walks through defining a Profile component with export default, a Gallery component that nests several Profile components, and a warning never to define a component inside another component. The page ends with a recap and four challenges.",
+ "one_line": "React docs page explaining components as reusable JavaScript functions that return JSX, with examples of defining, exporting, and nesting them.",
+ "key_facts": [
+  "Components are one of the core concepts of React and the foundation upon which you build user interfaces (UI).",
+  "React lets you combine markup, CSS, and JavaScript into custom \"components\", reusable UI elements for your app.",
+  "A React component is a JavaScript function that you can sprinkle with markup.",
+  "The export default prefix is a standard JavaScript syntax (not specific to React) that lets you mark the main function in a file so you can later import it from other files.",
+  "React component names must start with a capital letter or they won't work.",
+  "The JSX syntax lets you embed markup inside JavaScript; the img tag in the example is written like HTML but is actually JavaScript under the hood.",
+  "If markup isn't all on the same line as the return keyword, you must wrap it in a pair of parentheses; without them, code on the lines after return will be ignored.",
+  "In the Gallery example, the Gallery component renders three Profile components inside a section element with the heading \"Amazing scientists\".",
+  "Lowercase tags like <section> refer to HTML tags, while capitalized tags like <Profile /> refer to components.",
+  "Components must never be defined inside another component; the page says doing so is very slow and causes bugs.",
+  "When a child component needs data from a parent, it should be passed by props instead of nesting definitions.",
+  "Most React apps use components all the way down, including larger pieces like sidebars, lists, and complete pages.",
+  "The page cites Chakra UI and Material UI as examples of community component libraries that can jumpstart a project.",
+  "The Recap states that in a React app every piece of UI is a component, and components are regular JavaScript functions whose names begin with a capital letter and which return JSX markup.",
+  "The page includes four challenges: Export the component, Fix the return statement, Spot the mistake, and Your own component."
+ ],
+ "entities": [
+  {
+   "name": "React",
+   "type": "product",
+   "role": "JavaScript library whose core concept of components is taught on this documentation page"
+  },
+  {
+   "name": "Profile",
+   "type": "other",
+   "role": "example component that returns an img tag with Katherine Johnson's image and alt text"
+  },
+  {
+   "name": "Gallery",
+   "type": "other",
+   "role": "example component that renders multiple Profile components inside a section titled Amazing scientists"
+  },
+  {
+   "name": "JSX",
+   "type": "product",
+   "role": "syntax that lets markup be embedded inside JavaScript"
+  },
+  {
+   "name": "Katherine Johnson",
+   "type": "person",
+   "role": "subject of the alt text on the example Profile image"
+  },
+  {
+   "name": "Chakra UI",
+   "type": "product",
+   "role": "community open source component library cited as an example"
+  },
+  {
+   "name": "Material UI",
+   "type": "product",
+   "role": "community open source component library cited as an example"
+  },
+  {
+   "name": "CodeSandbox",
+   "type": "product",
+   "role": "online editor used for the interactive examples, linked as a fork option"
+  },
+  {
+   "name": "Next.js",
+   "type": "product",
+   "role": "framework mentioned as one that defines the root component in pages/index.js"
+  },
+  {
+   "name": "Aklilu Lemma",
+   "type": "person",
+   "role": "name in the alt text of the image in the first challenge's sandbox"
+  }
+ ],
+ "tags": [
+  "react",
+  "components",
+  "jsx",
+  "frontend",
+  "documentation",
+  "javascript"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7201,
+  "output_tokens": 1193
+ }
+}

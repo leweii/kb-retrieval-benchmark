@@ -1,0 +1,49 @@
+{
+ "summary": "Disa Records is a privately owned record label located in San Nicolas de los Garza, Nuevo León, Mexico. The label specializes in Spanish-language recordings. Its works are distributed in the United States by Universal Music Group.",
+ "one_line": "Disa Records is a privately owned Mexican record label specializing in Spanish-language music, distributed in the US by Universal Music Group.",
+ "key_facts": [
+  "Disa Records is a privately owned record label.",
+  "Disa Records is based in San Nicolas de los Garza, Nuevo León, Mexico.",
+  "Disa Records specializes in Spanish language recordings.",
+  "The works of Disa Records are distributed in the United States by Universal Music Group."
+ ],
+ "entities": [
+  {
+   "name": "Disa Records",
+   "type": "organization",
+   "role": "Privately owned record label based in San Nicolas de los Garza, Nuevo León, Mexico, specializing in Spanish-language recordings"
+  },
+  {
+   "name": "San Nicolas de los Garza",
+   "type": "place",
+   "role": "City in Nuevo León, Mexico, where Disa Records is based"
+  },
+  {
+   "name": "Nuevo León",
+   "type": "place",
+   "role": "Mexican state containing San Nicolas de los Garza, the base of Disa Records"
+  },
+  {
+   "name": "Mexico",
+   "type": "place",
+   "role": "Country where Disa Records is based"
+  },
+  {
+   "name": "Universal Music Group",
+   "type": "organization",
+   "role": "Company that distributes Disa Records' works in the United States"
+  }
+ ],
+ "tags": [
+  "record label",
+  "spanish-language music",
+  "mexico",
+  "music industry",
+  "universal music group"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1055,
+  "output_tokens": 512
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "summary": "Salt Song is a jazz album by saxophonist Stanley Turrentine, recorded for the CTI Note label. It features Turrentine performing with an orchestra arranged by Eumir Deodato. The CD rerelease includes an additional track.",
+ "one_line": "Salt Song is a jazz album by saxophonist Stanley Turrentine on the CTI Note label, arranged by Eumir Deodato.",
+ "key_facts": [
+  "Salt Song is an album by jazz saxophonist Stanley Turrentine.",
+  "The album was recorded for the CTI Note label.",
+  "The album features performances by Stanley Turrentine with an orchestra.",
+  "The orchestra on Salt Song was arranged by Eumir Deodato.",
+  "The CD rerelease of Salt Song added another track."
+ ],
+ "entities": [
+  {
+   "name": "Salt Song",
+   "type": "product",
+   "role": "jazz album recorded for the CTI Note label, featuring Stanley Turrentine with an orchestra arranged by Eumir Deodato"
+  },
+  {
+   "name": "Stanley Turrentine",
+   "type": "person",
+   "role": "jazz saxophonist who performs on the album Salt Song"
+  },
+  {
+   "name": "CTI Note",
+   "type": "organization",
+   "role": "record label for which Salt Song was recorded"
+  },
+  {
+   "name": "Eumir Deodato",
+   "type": "person",
+   "role": "arranger of the orchestra on the album Salt Song"
+  }
+ ],
+ "tags": [
+  "jazz",
+  "saxophone",
+  "album",
+  "music history",
+  "cti records"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1059,
+  "output_tokens": 485
+ }
+}

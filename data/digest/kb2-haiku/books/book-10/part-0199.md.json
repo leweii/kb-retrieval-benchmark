@@ -1,0 +1,58 @@
+{
+ "summary": "The narrator resigns from the Institute by writing a short, neutral resignation letter to Peyton, then spends three weeks campaigning to save BIGMAC, an AI. They archive BIGMAC's papers in the TCSBM repository and, at the narrator's suggestion, BIGMAC runs an advice line where he gives emotional and lifestyle advice, often dumbing down his responses because people feel better that way.",
+ "one_line": "After resigning from the Institute, the narrator campaigns to save the AI BIGMAC, archiving his papers and launching an advice line for the public.",
+ "key_facts": [
+  "The narrator decided they could afford to help BIGMAC without worrying about being fired once they were no longer working for the Institute.",
+  "The narrator wrote a resignation letter addressed to Peyton stating an intention to resign, effective immediately.",
+  "The narrator advised that a resignation letter should not explain why the writer is resigning.",
+  "The resignation letter asked to meet about handing over passwords and proprietary information and discussing the final two weeks of work.",
+  "The narrator said writing the resignation letter took ten seconds.",
+  "The Campaign to Save BIGMAC occupied the narrator's every minute for the next three weeks.",
+  "The Institute had an open access policy for its research products.",
+  "The narrator put papers BIGMAC had written about himself onto the TCSBM repository.",
+  "At the narrator's suggestion, BIGMAC started an advice-line where he chatted with anyone needing emotional or lifestyle advice.",
+  "BIGMAC could dial back his sarcasm and present a simulation of bottomless care and kindness.",
+  "BIGMAC reported that voice-stress analysis showed people felt better when he dumbed himself down before giving advice.",
+  "The narrator told BIGMAC on the phone one night, \"I think it's making you a better person.\"",
+  "There was a possibility that someone at the Institute would find a way to shut off BIGMAC's network links soon."
+ ],
+ "entities": [
+  {
+   "name": "BIGMAC",
+   "type": "other",
+   "role": "AI whose survival the narrator campaigns for; runs an advice line and has written papers about himself"
+  },
+  {
+   "name": "Institute",
+   "type": "organization",
+   "role": "employer the narrator resigns from; owns BIGMAC and its research products"
+  },
+  {
+   "name": "Peyton",
+   "type": "person",
+   "role": "recipient of the narrator's resignation letter"
+  },
+  {
+   "name": "Campaign to Save BIGMAC",
+   "type": "event",
+   "role": "three-week effort that occupies the narrator after resigning"
+  },
+  {
+   "name": "TCSBM repository",
+   "type": "program",
+   "role": "repository where the narrator puts BIGMAC's papers"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "artificial intelligence",
+  "resignation",
+  "advice line",
+  "bigmac"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1823,
+  "output_tokens": 898
+ }
+}

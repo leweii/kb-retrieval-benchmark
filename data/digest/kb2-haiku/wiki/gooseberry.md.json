@@ -1,0 +1,46 @@
+{
+ "summary": "The note describes the gooseberry plant as native to many parts of Europe and western Asia. It says the plant grows naturally in alpine thickets and rocky woods in lower-elevation areas, ranging from France eastward into the Himalayas and peninsular India.",
+ "one_line": "Overview of the gooseberry plant's native range across Europe, western Asia, the Himalayas and peninsular India.",
+ "key_facts": [
+  "The gooseberry is indigenous to many parts of Europe and western Asia.",
+  "The gooseberry grows naturally in alpine thickets and rocky woods in the lower country.",
+  "The gooseberry's natural range extends from France eastward.",
+  "The gooseberry's natural range extends well into the Himalayas.",
+  "The gooseberry's natural range extends into peninsular India."
+ ],
+ "entities": [
+  {
+   "name": "Gooseberry",
+   "type": "other",
+   "role": "plant indigenous to Europe and western Asia, the subject of the note"
+  },
+  {
+   "name": "Himalayas",
+   "type": "place",
+   "role": "mountain range within the gooseberry's natural range"
+  },
+  {
+   "name": "France",
+   "type": "place",
+   "role": "western end of the gooseberry's natural range, extending eastward"
+  },
+  {
+   "name": "Peninsular India",
+   "type": "place",
+   "role": "region within the gooseberry's natural range"
+  }
+ ],
+ "tags": [
+  "gooseberry",
+  "plants",
+  "botany",
+  "native range",
+  "europe",
+  "asia"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1053,
+  "output_tokens": 453
+ }
+}

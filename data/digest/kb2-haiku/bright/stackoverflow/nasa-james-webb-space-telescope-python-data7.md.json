@@ -1,0 +1,140 @@
+{
+ "summary": "A Codecademy blog article from July 2022 explaining how Python is used in astronomy and in the James Webb Space Telescope (JWST) data pipeline. It quotes Codecademy curriculum developer Nitya Mandyam, astronomer Erik Tollerud, and JWST data processing lead Mike Swam on why code matters for analyzing telescope data. It closes by pointing readers to public JWST data resources, astronomy tools, and Codecademy courses for learning Python and data science.",
+ "one_line": "Codecademy article explaining how Python powers NASA's James Webb Space Telescope data processing and astronomy, with resources for learning to analyze JWST data.",
+ "key_facts": [
+  "The article was published on 07/14/2022 by Cory Stieg and has an estimated read time of 5 minutes.",
+  "NASA's James Webb Space Telescope (JWST) is described as orbiting 1 million miles away.",
+  "Nitya Mandyam is a Senior Curriculum Developer at Codecademy who has a PhD in astrophysics.",
+  "Nitya Mandyam calls Python \"the language of data analysis, data manipulation, and data inference.\"",
+  "Erik Tollerud is identified as Assistant Astronomer at the Space Telescope Science Institute and spoke to GitHub's The ReadME Project.",
+  "Mike Swam, the data processing team lead who worked on JWST, said on the podcast Talk Python to Me in March 2022 that \"And that's where my code comes in.\"",
+  "Data from NASA's Deep Space Network feeds into the Space Telescope Science Institute's processing systems using Python.",
+  "The article states JWST is designed with an 18-piece mirror that enables it to pick up far infrared light from distant galaxies.",
+  "Mike Swam said, \"They're beautiful and they're almost useless for science without the metadata.\"",
+  "NumPy is described as the Python module for performing numerical operations on large quantities of data.",
+  "Galaxy Zoo is a crowd-sourced application that allows volunteers to classify galaxies based on their shapes.",
+  "Astropy is described as a Python package specifically designed for astronomy.",
+  "Nitya Mandyam calls Jupyter Notebooks \"the bread and butter of data science.\"",
+  "The article recommends courses including Learn Python 3, Learn SQL, Visualize data with Python, Build Deep Learning Models with TensorFlow, and Getting Started with Python for Data Science."
+ ],
+ "entities": [
+  {
+   "name": "James Webb Space Telescope (JWST)",
+   "type": "product",
+   "role": "NASA space telescope whose images were released the week of the article and whose data is processed using Python"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "space agency that operates the James Webb Space Telescope and the Deep Space Network"
+  },
+  {
+   "name": "Codecademy",
+   "type": "organization",
+   "role": "online learning platform that published the article and offers the recommended courses"
+  },
+  {
+   "name": "Nitya Mandyam",
+   "type": "person",
+   "role": "Senior Curriculum Developer at Codecademy with a PhD in astrophysics, quoted on astronomy and Python"
+  },
+  {
+   "name": "Erik Tollerud",
+   "type": "person",
+   "role": "Assistant Astronomer at the Space Telescope Science Institute, quoted on astronomers writing and running code"
+  },
+  {
+   "name": "Mike Swam",
+   "type": "person",
+   "role": "data processing team lead who worked on JWST, quoted on Python in JWST data processing"
+  },
+  {
+   "name": "Cory Stieg",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Space Telescope Science Institute",
+   "type": "organization",
+   "role": "institute whose processing systems receive JWST data using Python"
+  },
+  {
+   "name": "Deep Space Network",
+   "type": "program",
+   "role": "NASA network from which JWST data feeds down into processing systems"
+  },
+  {
+   "name": "GitHub's The ReadME Project",
+   "type": "organization",
+   "role": "publication to which Erik Tollerud spoke"
+  },
+  {
+   "name": "Talk Python to Me",
+   "type": "program",
+   "role": "podcast on which Mike Swam spoke in March 2022"
+  },
+  {
+   "name": "NumPy",
+   "type": "product",
+   "role": "Python module for performing numerical operations on large quantities of data"
+  },
+  {
+   "name": "MatPlotLib",
+   "type": "product",
+   "role": "Python library for creating visuals, common in astronomy"
+  },
+  {
+   "name": "Galaxy Zoo",
+   "type": "program",
+   "role": "crowd-sourced application that lets volunteers classify galaxies by shape"
+  },
+  {
+   "name": "Astropy",
+   "type": "product",
+   "role": "Python package specifically designed for astronomy"
+  },
+  {
+   "name": "Jupyter Notebooks",
+   "type": "product",
+   "role": "tool for writing and iterating on Python code for data analysis"
+  },
+  {
+   "name": "Learn Python 3",
+   "type": "program",
+   "role": "recommended Codecademy course for Python fundamentals"
+  },
+  {
+   "name": "Learn SQL",
+   "type": "program",
+   "role": "recommended Codecademy course on SQL querying"
+  },
+  {
+   "name": "Visualize data with Python",
+   "type": "program",
+   "role": "recommended Codecademy skill path on Python libraries like MatPlotLib and Pandas"
+  },
+  {
+   "name": "Build Deep Learning Models with TensorFlow",
+   "type": "program",
+   "role": "recommended Codecademy skill path for those who know Python, NumPy, and machine learning"
+  },
+  {
+   "name": "Getting Started with Python for Data Science",
+   "type": "program",
+   "role": "free recommended Codecademy course on Python and data science tools"
+  }
+ ],
+ "tags": [
+  "python",
+  "astronomy",
+  "james webb space telescope",
+  "data science",
+  "nasa",
+  "codecademy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4764,
+  "output_tokens": 1817
+ }
+}

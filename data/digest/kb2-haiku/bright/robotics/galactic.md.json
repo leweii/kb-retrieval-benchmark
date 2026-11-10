@@ -1,0 +1,105 @@
+{
+ "summary": "This is a clipped GitHub page for the galactic branch of the gazebosim/ros_gz repository, which provides integration between ROS (1 and 2) and Gazebo simulation. The branch supports ROS Galactic, with packages for bridging Ignition Transport to ROS, launching Ignition Gazebo with ROS, image and point cloud transport, and demos. The page also describes binary installation from packages.ros.org and building from source with colcon. Most of the page is GitHub navigation and boilerplate, which was ignored.",
+ "one_line": "Galactic-branch README of the ros_gz repository, describing ROS Galactic and Ignition Gazebo integration packages and how to install and build them.",
+ "key_facts": [
+  "The galactic branch of the gazebosim/ros_gz repository supports ROS Galactic.",
+  "The repository is licensed under Apache-2.0.",
+  "The ros_ign metapackage provides all the other packages in the repository.",
+  "ros_ign_bridge is a bidirectional transport bridge between Ignition Transport and ROS.",
+  "ros_ign_image is a unidirectional transport bridge for images from Ignition Transport to ROS using image_transport.",
+  "ros_ign_gazebo provides convenient launch files and executables for using Ignition Gazebo with ROS.",
+  "ros_ign_point_cloud provides plugins for publishing point clouds to ROS from Ignition Gazebo simulations.",
+  "Galactic binaries are available for Edifice and are hosted at https://packages.ros.org.",
+  "Binary installation uses the command sudo apt install ros-galactic-ros-ign.",
+  "The Ignition version is selected by setting the IGNITION_VERSION environment variable, for example export IGNITION_VERSION=edifice.",
+  "Building from source requires cloning the repository with git clone https://github.com/osrf/ros_ign.git -b galactic into a colcon workspace.",
+  "The workspace is built with colcon build after sourcing /opt/ros/galactic/setup.bash.",
+  "The compatibility table lists Galactic with Edifice (binaries from packages.ros.org) and Galactic with Fortress (only from source).",
+  "The repository had 187 stars, 119 forks and 36 open issues at the time of the clip."
+ ],
+ "entities": [
+  {
+   "name": "gazebosim/ros_gz",
+   "type": "program",
+   "role": "GitHub repository providing integration between ROS (1 and 2) and Gazebo simulation; the galactic branch is the subject of the note"
+  },
+  {
+   "name": "ROS Galactic",
+   "type": "program",
+   "role": "ROS distribution supported by this branch"
+  },
+  {
+   "name": "Ignition Gazebo",
+   "type": "program",
+   "role": "Gazebo simulator that ros_ign_gazebo and ros_ign_point_cloud integrate with ROS"
+  },
+  {
+   "name": "Ignition Transport",
+   "type": "program",
+   "role": "transport library bridged to ROS by ros_ign_bridge and ros_ign_image"
+  },
+  {
+   "name": "ros_ign",
+   "type": "program",
+   "role": "metapackage that provides all the other packages"
+  },
+  {
+   "name": "ros_ign_bridge",
+   "type": "program",
+   "role": "bidirectional transport bridge between Ignition Transport and ROS"
+  },
+  {
+   "name": "ros_ign_image",
+   "type": "program",
+   "role": "unidirectional transport bridge for images from Ignition Transport to ROS using image_transport"
+  },
+  {
+   "name": "ros_ign_gazebo",
+   "type": "program",
+   "role": "launch files and executables for using Ignition Gazebo with ROS"
+  },
+  {
+   "name": "ros_ign_gazebo_demos",
+   "type": "program",
+   "role": "demos using the ROS-Ignition integration"
+  },
+  {
+   "name": "ros_ign_point_cloud",
+   "type": "program",
+   "role": "plugins for publishing point clouds to ROS from Ignition Gazebo simulations"
+  },
+  {
+   "name": "Edifice",
+   "type": "product",
+   "role": "Ignition version for which Galactic binaries are available"
+  },
+  {
+   "name": "Fortress",
+   "type": "product",
+   "role": "Ignition version that Galactic can be compiled against only from source"
+  },
+  {
+   "name": "packages.ros.org",
+   "type": "organization",
+   "role": "host of the ROS binary packages"
+  },
+  {
+   "name": "Apache-2.0 license",
+   "type": "other",
+   "role": "license of the repository"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "ros2",
+  "simulation",
+  "gazebo",
+  "ignition",
+  "build-instructions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8539,
+  "output_tokens": 1422
+ }
+}

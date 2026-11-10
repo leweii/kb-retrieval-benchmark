@@ -1,0 +1,101 @@
+{
+ "summary": "This NCEI web page describes the World Ocean Database (WOD), the world's largest collection of uniformly formatted, quality-controlled, publicly available ocean profile data, built over more than 20 years and spanning from Captain Cook's 1772 voyage to the Argo period. It explains access methods (WODselect, data by location and year), data versions (WOD18 as the latest major release), quality control, variables, depth calculation, and frequently asked questions about using the data.",
+ "one_line": "NOAA NCEI's World Ocean Database, a quality-controlled collection of global ocean profile data from 1772 onward, with access tools, versions, and FAQs.",
+ "key_facts": [
+  "The World Ocean Database (WOD) is described as the world's largest collection of uniformly formatted, quality controlled, publicly available ocean profile data.",
+  "WOD is the end result of more than 20 years of coordinated efforts to incorporate data into a single database.",
+  "WOD data spans from Captain Cook's 1772 voyage to the contemporary Argo period.",
+  "Original versions of the 20,000+ datasets in the WOD are available through the NCEI archives.",
+  "The latest major release is World Ocean Database 2018 (WOD18), which includes more than 15.7 million oceanographic casts made up of 3.56 billion individual profile measurements.",
+  "WOD major releases are associated with concurrent releases of the World Ocean Atlas (WOA) and contain final quality control flags used in the WOA.",
+  "WODselect allows users to search by parameters such as date, geographic area, probe type, and measured variables, and download data in WOD native, csv, or netCDF formats.",
+  "The World Ocean Database (WOD) is an NCEI product and an IODE (International Oceanographic Data and Information Exchange) project.",
+  "WOD variables listed include temperature, salinity, oxygen, nutrients, tracers, and biological variables such as plankton and chlorophyll.",
+  "-999.99 represents missing data in the WOD, and zero is used as the flag for missing data in conjunction with that value.",
+  "For depth calculations, the UNESCO algorithm is used for data that includes pressure measurements, while XBT depths come from a drop-rate equation and time since drop.",
+  "The WOD is freely usable: the World Ocean Database and World Ocean Atlas are available for public use without restriction.",
+  "Files requested from the WOD FTP site are removed 3 days after they are created.",
+  "The Global Ocean Heat and Salt Content product has historical sea surface temperature anomaly data from in situ measurements dating back to 1955.",
+  "Questions about the WOD can be directed to OCL.help@noaa.gov, and publication citations can be sent to ncei.info@noaa.gov."
+ ],
+ "entities": [
+  {
+   "name": "World Ocean Database",
+   "type": "product",
+   "role": "NCEI's largest collection of uniformly formatted, quality controlled, publicly available ocean profile data, the subject of the page"
+  },
+  {
+   "name": "World Ocean Database 2018",
+   "type": "product",
+   "role": "Latest major release of the WOD, containing more than 15.7 million oceanographic casts"
+  },
+  {
+   "name": "World Ocean Atlas",
+   "type": "product",
+   "role": "Climatological series associated with each WOD major release, which uses WOD data"
+  },
+  {
+   "name": "WODselect",
+   "type": "program",
+   "role": "Retrieval system used to search the WOD by parameters and download custom datasets"
+  },
+  {
+   "name": "National Centers for Environmental Information",
+   "type": "organization",
+   "role": "NOAA organization that produces and hosts the World Ocean Database and its archives"
+  },
+  {
+   "name": "IODE",
+   "type": "organization",
+   "role": "International Oceanographic Data and Information Exchange, of which the WOD is a project"
+  },
+  {
+   "name": "Global Ocean Monitoring (GOMO)",
+   "type": "program",
+   "role": "NOAA OAR program that partially funds the WOD work"
+  },
+  {
+   "name": "Argo",
+   "type": "program",
+   "role": "Contemporary ocean profiling program; WOD data extends to the Argo period, and Argo removed floats with pressure offset problems"
+  },
+  {
+   "name": "Captain Cook's 1772 voyage",
+   "type": "event",
+   "role": "Earliest data point in the WOD time span"
+  },
+  {
+   "name": "Global Ocean Heat and Salt Content",
+   "type": "product",
+   "role": "NCEI product with sea surface temperature anomaly and heat/salt content data"
+  },
+  {
+   "name": "Ocean Data View (ODV)",
+   "type": "program",
+   "role": "Freeware oceanographic profile data display tool recommended for reading WOD data"
+  },
+  {
+   "name": "ETOPO2",
+   "type": "product",
+   "role": "Altitude/bathymetry dataset from which the land/sea mask used in heat content calculations is derived"
+  },
+  {
+   "name": "Alpha Helix",
+   "type": "product",
+   "role": "Ship named in the WOD cruise reference example US029567"
+  }
+ ],
+ "tags": [
+  "oceanography",
+  "ocean data",
+  "climate data",
+  "NOAA",
+  "data archives",
+  "ocean profiles"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13285,
+  "output_tokens": 1609
+ }
+}

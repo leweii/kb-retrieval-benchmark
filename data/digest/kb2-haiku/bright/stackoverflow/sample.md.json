@@ -1,0 +1,68 @@
+{
+ "summary": "This note is documentation for the SAMPLE / TABLESAMPLE clause, which returns a random subset of rows from a table. It describes two approaches: fraction-based sampling, where each row or block is included with a given probability (BERNOULLI/ROW or SYSTEM/BLOCK), and fixed-size sampling, which returns a specified number of rows (up to 1,000,000). It covers syntax, usage restrictions on seeds, joins, views and subqueries, performance considerations, and examples. SAMPLE and TABLESAMPLE are synonymous.",
+ "one_line": "Documentation for the SAMPLE/TABLESAMPLE clause, covering fraction-based and fixed-size random row sampling, seeds, and their restrictions.",
+ "key_facts": [
+  "SAMPLE and TABLESAMPLE are synonymous and can be used interchangeably.",
+  "The default sampling method is BERNOULLI when no method is specified.",
+  "BERNOULLI (or ROW) includes each row with a probability of p/100.",
+  "SYSTEM (or BLOCK) includes each block of rows with a probability of p/100 and does not support fixed-size sampling.",
+  "The probability can be any decimal number between 0 and 100 inclusive.",
+  "The num in num ROWS can be any integer between 0 and 1000000 inclusive.",
+  "The seed (REPEATABLE or SEED) can be any integer between 0 and 2147483647 inclusive.",
+  "For BERNOULLI or ROW sampling, the expected number of returned rows is (p/100)*n, where n is the number of rows in the table.",
+  "Sampling with a seed is not supported on views or subqueries.",
+  "Sampling the result of a JOIN is allowed only when the sample is row-based (Bernoulli) and does not use a seed.",
+  "SYSTEM and BLOCK sampling are often faster than BERNOULLI or ROW sampling.",
+  "Fixed-size sampling can be slower than equivalent fraction-based sampling because it prevents some query optimization.",
+  "The example SELECT * FROM testtable SAMPLE (10); returns a sample in which each row has a 10% probability of being included."
+ ],
+ "entities": [
+  {
+   "name": "SAMPLE",
+   "type": "other",
+   "role": "SQL clause that returns a random subset of rows from a specified table; synonymous with TABLESAMPLE"
+  },
+  {
+   "name": "TABLESAMPLE",
+   "type": "other",
+   "role": "SQL clause synonymous with SAMPLE for returning a random subset of rows"
+  },
+  {
+   "name": "BERNOULLI",
+   "type": "other",
+   "role": "default sampling method that includes each row with a probability of p/100; also written as ROW"
+  },
+  {
+   "name": "SYSTEM",
+   "type": "other",
+   "role": "sampling method that includes each block of rows with a probability of p/100; also written as BLOCK; does not support fixed-size sampling"
+  },
+  {
+   "name": "testtable",
+   "type": "other",
+   "role": "example table used in the sampling examples"
+  },
+  {
+   "name": "table1",
+   "type": "other",
+   "role": "example table sampled at 25% in a join example"
+  },
+  {
+   "name": "table2",
+   "type": "other",
+   "role": "example table sampled at 50% in a join example"
+  }
+ ],
+ "tags": [
+  "sql",
+  "sampling",
+  "tablesample",
+  "database",
+  "query-syntax"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4312,
+  "output_tokens": 1057
+ }
+}

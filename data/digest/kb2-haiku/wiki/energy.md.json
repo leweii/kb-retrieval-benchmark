@@ -1,0 +1,67 @@
+{
+ "summary": "This wiki note introduces the Lagrangian, defined as kinetic energy minus potential energy, and explains why the Lagrange formalism is often more convenient than the Hamiltonian for non-conservative systems such as those with friction. It then lists the forms energy can take (mechanical, electric, magnetic, gravitational, chemical, nuclear, thermal, radiant, rest, and others) and gives examples of energy transformation, including a steam turbine, a crane motor, a falling object, and the Sun converting nuclear potential energy into radiant energy.",
+ "one_line": "Overview of the Lagrangian formalism and the main forms of energy, with examples of energy transformation.",
+ "key_facts": [
+  "The Lagrangian is named after Joseph-Louis Lagrange.",
+  "The Lagrangian is defined as the kinetic energy minus the potential energy.",
+  "The Lagrangian formalism is as fundamental as the Hamiltonian, and both can be used to derive the equations of motion or be derived from them.",
+  "The Lagrangian formalism was invented in the context of classical mechanics but is generally useful in modern physics.",
+  "The Lagrange formalism is usually mathematically more convenient than the Hamiltonian for non-conservative systems, such as systems with friction.",
+  "Mechanical energy is the sum of macroscopic translational and rotational kinetic and potential energies.",
+  "Chemical potential energy is due to chemical bonds.",
+  "Nuclear potential energy binds nucleons to form the atomic nucleus and is involved in nuclear reactions.",
+  "Chromodynamic potential energy binds quarks to form hadrons.",
+  "Elastic potential energy is due to the deformation of a material (or its container) exhibiting a restorative force.",
+  "Radiant energy is potential energy stored in the fields of, and propagated by, electromagnetic radiation, including light.",
+  "Rest energy is potential energy due to an object's rest mass.",
+  "Thermal energy is the kinetic energy of the microscopic motion of particles, a disordered equivalent of mechanical energy.",
+  "Generating electric energy from heat energy via a steam turbine is an example of energy transformation.",
+  "Lifting an object against gravity using electrical energy driving a crane motor performs mechanical work on the object and stores gravitational potential energy in it.",
+  "When an object falls to the ground, gravity does mechanical work that transforms gravitational potential energy into kinetic energy, released as heat on impact.",
+  "The Sun transforms nuclear potential energy to other forms of energy; its total mass does not decrease from this alone, but its mass decreases when the energy escapes to its surroundings, largely as radiant energy."
+ ],
+ "entities": [
+  {
+   "name": "Joseph-Louis Lagrange",
+   "type": "person",
+   "role": "namesake of the Lagrangian, which is named after him"
+  },
+  {
+   "name": "Lagrangian",
+   "type": "other",
+   "role": "energy-related concept defined as kinetic energy minus potential energy, useful for deriving equations of motion"
+  },
+  {
+   "name": "Hamiltonian",
+   "type": "other",
+   "role": "formalism comparable in fundamentality to the Lagrangian, less convenient for non-conservative systems"
+  },
+  {
+   "name": "steam turbine",
+   "type": "product",
+   "role": "example device converting heat energy into electric energy"
+  },
+  {
+   "name": "crane motor",
+   "type": "product",
+   "role": "example device lifting an object against gravity using electrical energy"
+  },
+  {
+   "name": "Sun",
+   "type": "other",
+   "role": "example star transforming nuclear potential energy to radiant and other energy forms, losing mass as energy escapes"
+  }
+ ],
+ "tags": [
+  "classical mechanics",
+  "lagrangian",
+  "energy forms",
+  "energy transformation",
+  "physics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1794,
+  "output_tokens": 1196
+ }
+}

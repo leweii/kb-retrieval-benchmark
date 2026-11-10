@@ -1,0 +1,90 @@
+{
+ "summary": "This is Snowflake documentation for the ALTER SECURITY INTEGRATION command as applied to Snowflake OAuth client integrations. It gives the syntax for setting or unsetting tags and for modifying partner-application and custom-client integrations, then describes each parameter with its defaults and allowed values. A short usage note warns against entering personal, sensitive or regulated data as metadata, and one example re-enables a suspended integration.",
+ "one_line": "Snowflake reference for the ALTER SECURITY INTEGRATION command that modifies Snowflake OAuth partner and custom client integrations.",
+ "key_facts": [
+  "ALTER SECURITY INTEGRATION modifies the properties of an existing security integration created for a Snowflake OAuth client.",
+  "For modifying other integration types such as External OAuth, the documentation points to a separate ALTER SECURITY INTEGRATION page.",
+  "The SET TAG and UNSET TAG syntax applies to security integrations, and a tag value is always a string with a maximum of 256 characters.",
+  "OAUTH_REFRESH_TOKEN_VALIDITY for partner applications accepts values from 86400 (1 day) to 7776000 (90 days), with a default of 7776000.",
+  "By default, OAUTH_ISSUE_REFRESH_TOKENS is TRUE, and setting it to FALSE means user consent is revoked and the user must confirm authorization again.",
+  "OAUTH_USE_SECONDARY_ROLES accepts IMPLICIT or NONE, and its default is NONE.",
+  "By default Snowflake prevents the ACCOUNTADMIN, ORGADMIN, and SECURITYADMIN roles from authenticating, and the account parameter must be set to FALSE to allow them.",
+  "For custom clients, OAUTH_REDIRECT_URI must be protected by TLS unless OAUTH_ALLOW_NON_TLS_REDIRECT_URI is set to TRUE, which defaults to FALSE.",
+  "OAUTH_ENFORCE_PKCE defaults to FALSE and determines whether Proof Key for Code Exchange is required for the integration.",
+  "PRE_AUTHORIZED_ROLES_LIST cannot include ACCOUNTADMIN, ORGADMIN, or SECURITYADMIN and is supported for confidential clients only.",
+  "For Tableau Desktop, refresh token validity ranges from 60 seconds to 36000 seconds (10 hours), with a default of 36000.",
+  "For Tableau Server or Tableau Online, refresh token validity ranges from 60 seconds to 7776000 seconds (90 days), with a default of 7776000.",
+  "For custom clients, refresh token validity ranges from 86400 seconds (1 day) to 7776000 seconds (90 days), with a default of 7776000.",
+  "The NETWORK_POLICY parameter controls network traffic that tries to exchange an authorization code or use a refresh token.",
+  "The example 'ALTER SECURITY INTEGRATION myint SET ENABLED = TRUE;' initiates operation of a suspended integration."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "the data platform whose ALTER SECURITY INTEGRATION command and Snowflake OAuth integrations are documented"
+  },
+  {
+   "name": "Snowflake OAuth",
+   "type": "program",
+   "role": "the OAuth integration type whose properties this command modifies, for partner applications and custom clients"
+  },
+  {
+   "name": "ALTER SECURITY INTEGRATION",
+   "type": "program",
+   "role": "the SQL command documented on this page for modifying existing security integrations"
+  },
+  {
+   "name": "TABLEAU_SERVER",
+   "type": "product",
+   "role": "example value of OAUTH_CLIENT for which partner application parameters are valid"
+  },
+  {
+   "name": "LOOKER",
+   "type": "product",
+   "role": "partner application whose use requires the OAUTH_REDIRECT_URI parameter"
+  },
+  {
+   "name": "Tableau Desktop",
+   "type": "product",
+   "role": "application listed with minimum, maximum and default refresh token validity values for custom clients"
+  },
+  {
+   "name": "Tableau Server or Tableau Online",
+   "type": "product",
+   "role": "application listed with minimum, maximum and default refresh token validity values for custom clients"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "privileged role blocked from authenticating by default"
+  },
+  {
+   "name": "ORGADMIN",
+   "type": "other",
+   "role": "privileged role blocked from authenticating by default"
+  },
+  {
+   "name": "SECURITYADMIN",
+   "type": "other",
+   "role": "privileged role blocked from authenticating by default"
+  },
+  {
+   "name": "myint",
+   "type": "other",
+   "role": "example security integration whose ENABLED property is set to TRUE"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "oauth",
+  "security integration",
+  "sql reference",
+  "authentication"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6596,
+  "output_tokens": 1594
+ }
+}

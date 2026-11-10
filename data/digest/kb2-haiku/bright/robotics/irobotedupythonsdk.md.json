@@ -1,0 +1,121 @@
+{
+ "summary": "This note is the README of the iRobot Education Python SDK GitHub repository, an installable BETA Python SDK for iRobot Root rt0, Root rt1 and Create 3 educational robots. It uses async execution, compatible with Python 3.9 or greater, and communicates mainly over Bluetooth Low Energy on Windows, macOS and Linux, with experimental ALPHA backends for USB serial and MicroPython. The page also covers installation via pip, examples mirroring the iRobot Education Python Web Playground, a turtle programming model, and licensing and attribution information (BSD-3-Clause, with dependencies Bleak, pySerial and Root Robot Python Web App). GitHub navigation and boilerplate were ignored.",
+ "one_line": "README for iRobot Education's BSD-3-Clause Python SDK for Root and Create 3 educational robots, covering Bluetooth, USB and MicroPython backends.",
+ "key_facts": [
+  "The iRobot Education Python SDK is an installable Python SDK for the iRobot Education robots.",
+  "The SDK supports the iRobot Root rt0, Root rt1 and Create 3 educational robots.",
+  "The SDK uses async execution and is compatible with Python 3.9 or greater.",
+  "MicroPython may work with the SDK, but it is not tested.",
+  "The SDK is designed to communicate with robots via Bluetooth Low Energy on Windows, macOS and Linux systems.",
+  "Experimental backends for USB serial and USB on MicroPython boards are not currently supported.",
+  "The BETA version of the iRobot Python SDK is provided 'as is' to conduct testing and gather user feedback.",
+  "The SDK is installed with the command pip3 install irobot_edu_sdk.",
+  "The play() method starts execution and blocks until the robot's nose or power button is pressed, the robot is disconnected, or Ctrl-C is pressed.",
+  "Bluetooth('') connects to the first BLE robot detected, while Bluetooth('ROOT') uses the robot named 'ROOT'.",
+  "The Serial backend is an ALPHA feature for some Root robots over USB, and is not currently available on Create 3 robots.",
+  "The MicroPython backend requires MicroPython firmware including the uasyncio library version 1.13 or greater.",
+  "The SDK's turtle programming model follows the paradigm of turtle graphics and is a limited, simplified, synchronous interface.",
+  "The repository is licensed under the BSD-3-Clause license and the page reports 14 stars and 6 forks.",
+  "Copyright is listed as © 2022-2023 iRobot Corporation."
+ ],
+ "entities": [
+  {
+   "name": "iRobot Education Python SDK",
+   "type": "product",
+   "role": "installable Python SDK for iRobot Education robots, described as a BETA release"
+  },
+  {
+   "name": "iRobot Root rt0",
+   "type": "product",
+   "role": "educational robot supported by the SDK"
+  },
+  {
+   "name": "iRobot Root rt1",
+   "type": "product",
+   "role": "educational robot supported by the SDK"
+  },
+  {
+   "name": "Create 3",
+   "type": "product",
+   "role": "educational robot supported by the SDK"
+  },
+  {
+   "name": "iRobot Coding App",
+   "type": "product",
+   "role": "app whose Learning Level 3 uses a similar format to the SDK"
+  },
+  {
+   "name": "iRobot Python Web Playground",
+   "type": "product",
+   "role": "web playground whose examples the SDK's examples mirror"
+  },
+  {
+   "name": "iRobotEducation",
+   "type": "organization",
+   "role": "GitHub organization that owns the irobot-edu-python-sdk repository"
+  },
+  {
+   "name": "iRobot Corporation",
+   "type": "organization",
+   "role": "copyright holder of the SDK (© 2022-2023)"
+  },
+  {
+   "name": "Bleak",
+   "type": "product",
+   "role": "required direct dependency licensed under the MIT license"
+  },
+  {
+   "name": "pySerial",
+   "type": "product",
+   "role": "required direct dependency licensed under the BSD 3-Clause license"
+  },
+  {
+   "name": "Root Robot Python Web App",
+   "type": "product",
+   "role": "required direct dependency licensed under the MIT license"
+  },
+  {
+   "name": "Poetry",
+   "type": "product",
+   "role": "recommended build tool licensed under the MIT license"
+  },
+  {
+   "name": "Bluetooth",
+   "type": "product",
+   "role": "backend class for communicating with robots over Bluetooth Low Energy"
+  },
+  {
+   "name": "Serial",
+   "type": "product",
+   "role": "ALPHA backend class for USB serial communication with some Root robots"
+  },
+  {
+   "name": "USB",
+   "type": "product",
+   "role": "ALPHA backend class for MicroPython-compatible boards over USB"
+  },
+  {
+   "name": "Python Software Foundation",
+   "type": "organization",
+   "role": "governs and holds the trademark for Python 3"
+  },
+  {
+   "name": "Bluetooth SIG, Inc.",
+   "type": "organization",
+   "role": "owns the Bluetooth word mark and logos"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "python sdk",
+  "education robots",
+  "bluetooth low energy",
+  "micropython",
+  "open source"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8272,
+  "output_tokens": 1609
+ }
+}

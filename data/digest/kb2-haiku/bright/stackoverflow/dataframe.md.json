@@ -1,0 +1,72 @@
+{
+ "summary": "This clipped pandas 2.2.2 documentation page describes the DataFrame.itertuples method, which iterates over DataFrame rows as namedtuples. It explains the index and name parameters, lists related methods iterrows and items, and gives examples showing default output, index=False, and a custom name 'Animal'. Navigation menus and footer boilerplate are ignored.",
+ "one_line": "Reference page for pandas DataFrame.itertuples, which iterates DataFrame rows as namedtuples with optional index and custom name.",
+ "key_facts": [
+  "pandas.DataFrame.itertuples has the signature DataFrame.itertuples(index=True, name='Pandas').",
+  "The index parameter is a bool with default True and, if True, returns the index as the first element of each tuple.",
+  "The name parameter is a str or None with default 'Pandas' and sets the name of the returned namedtuples; None returns regular tuples.",
+  "itertuples returns an iterator of namedtuples, one per DataFrame row, with the first field possibly being the index and the following fields the column values.",
+  "The page lists DataFrame.iterrows as a related method that iterates over rows as (index, Series) pairs.",
+  "The page lists DataFrame.items as a related method that iterates over (column name, Series) pairs.",
+  "A note states that column names are renamed to positional names if they are invalid Python identifiers, repeated, or start with an underscore.",
+  "In the example with df = pd.DataFrame({'num_legs': [4, 2], 'num_wings': [0, 2]}, index=['dog', 'hawk']), the default output is Pandas(Index='dog', num_legs=4, num_wings=0) and Pandas(Index='hawk', num_legs=2, num_wings=2).",
+  "Setting index=False yields Pandas(num_legs=4, num_wings=0) and Pandas(num_legs=2, num_wings=2) with no index field.",
+  "Setting name='Animal' yields namedtuples printed as Animal(Index='dog', num_legs=4, num_wings=0) and Animal(Index='hawk', num_legs=2, num_wings=2).",
+  "The source code link points to pandas v2.2.2, pandas/core/frame.py lines L1559-L1641.",
+  "The documentation is copyright 2024 pandas via NumFOCUS, Inc., hosted by OVHcloud, and was built with Sphinx 7.2.6 and the PyData Sphinx Theme 0.14.4."
+ ],
+ "entities": [
+  {
+   "name": "pandas",
+   "type": "product",
+   "role": "Python data analysis library whose 2.2.2 documentation this page comes from"
+  },
+  {
+   "name": "DataFrame.itertuples",
+   "type": "program",
+   "role": "method documented on this page that iterates over DataFrame rows as namedtuples"
+  },
+  {
+   "name": "DataFrame.iterrows",
+   "type": "program",
+   "role": "related method that iterates over DataFrame rows as (index, Series) pairs"
+  },
+  {
+   "name": "DataFrame.items",
+   "type": "program",
+   "role": "related method that iterates over (column name, Series) pairs"
+  },
+  {
+   "name": "NumFOCUS, Inc.",
+   "type": "organization",
+   "role": "organization credited with pandas in the page footer"
+  },
+  {
+   "name": "OVHcloud",
+   "type": "organization",
+   "role": "company hosting the pandas documentation site"
+  },
+  {
+   "name": "Sphinx",
+   "type": "product",
+   "role": "documentation tool used to create the page, version 7.2.6"
+  },
+  {
+   "name": "PyData Sphinx Theme",
+   "type": "product",
+   "role": "theme used to build the page, version 0.14.4"
+  }
+ ],
+ "tags": [
+  "pandas",
+  "dataframe",
+  "python",
+  "api-reference",
+  "iteration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 18089,
+  "output_tokens": 1189
+ }
+}

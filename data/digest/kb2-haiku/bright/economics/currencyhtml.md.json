@@ -1,0 +1,79 @@
+{
+ "summary": "This clipped Federal Reserve Financial Services page gives guidance for organizations depositing and ordering U.S. currency through FedCash Services. It covers a USCP strap band packaging update, which deposits Federal Reserve Banks accept or refuse, currency deposit quality standards, cross-shipping fees and the Recirculation Policy, and normal weekly frequency of cash service. The navigation menus and boilerplate were ignored, and the note ends mid-sentence.",
+ "one_line": "Federal Reserve guidance on depositing and ordering U.S. currency through FedCash Services, including deposit standards and cross-shipping fees.",
+ "key_facts": [
+  "The United States Currency Program (USCP) is made up of the Board of Governors of the Federal Reserve System and the Bureau of Engraving and Printing (BEP).",
+  "The USCP is transitioning strap bands of newly produced notes so that all BEP strap bands state the same language and no longer specify denomination, manufacturing equipment source and sequencing.",
+  "Federal Reserve Banks accept only genuine U.S. currency for deposit and do not accept foreign currency, mutilated currency, or counterfeit or unlawfully altered currency.",
+  "Organizations should forward counterfeit or unlawfully altered currency directly to their local U.S. Secret Service office.",
+  "If Federal Reserve Banks detect counterfeit or unlawfully altered currency in a deposit, it is forwarded to the Secret Service and the organization is charged for the difference.",
+  "Currency must be bundled by denomination in ten equal straps of 100 notes each, and a full bag may not contain more than 16 bundles.",
+  "$1 through $20 denominations must be deposited in full bundles, while $50 and $100 denominations may be deposited in full straps or full bundles.",
+  "Banding material must be between 1.00 and 1.57 inches wide, with an approximate weight of 100g/sqm, and made of paper rather than synthetic materials.",
+  "Each band must be stamped with the organization's name, ABA routing number, the four-digit endpoint number of the depositing office, the dollar amount, initials or names of verifiers, and the date of validation.",
+  "A cross-shipping fee is charged to organizations that deposit fit $10 or $20 notes and then order the same denomination, above a de minimis amount, during the same business week within a Federal Reserve Bank Zone or Sub-zone.",
+  "Under the Federal Reserve's Recirculation Policy, organizations should avoid cross-shipping or plan for payment of a Recirculation Fee when cross-shipping is necessary.",
+  "For each endpoint, normal cash service is one deposit and one order of currency per week.",
+  "The Federal Reserve Bank may, at its discretion, reduce cash orders to maintain currency inventories."
+ ],
+ "entities": [
+  {
+   "name": "FedCash Services",
+   "type": "program",
+   "role": "Federal Reserve cash service through which organizations deposit and order currency; the page title subject"
+  },
+  {
+   "name": "United States Currency Program (USCP)",
+   "type": "program",
+   "role": "Program made up of the Board of Governors of the Federal Reserve System and the Bureau of Engraving and Printing, which is transitioning strap band packaging"
+  },
+  {
+   "name": "Board of Governors of the Federal Reserve System",
+   "type": "organization",
+   "role": "Member of the USCP"
+  },
+  {
+   "name": "Bureau of Engraving and Printing (BEP)",
+   "type": "organization",
+   "role": "Member of the USCP that produces newly printed notes with strap bands"
+  },
+  {
+   "name": "U.S. Secret Service",
+   "type": "organization",
+   "role": "Agency to which counterfeit or unlawfully altered currency is forwarded from Federal Reserve Banks or depositing organizations"
+  },
+  {
+   "name": "Federal Reserve Banks",
+   "type": "organization",
+   "role": "Accept genuine U.S. currency deposits and apply deposit standards and fees"
+  },
+  {
+   "name": "Recirculation Policy",
+   "type": "program",
+   "role": "Federal Reserve policy under which cross-shipping should be avoided or a Recirculation Fee paid"
+  },
+  {
+   "name": "Cash Services Manual of Procedures",
+   "type": "other",
+   "role": "Reference document for currency depositing procedures"
+  },
+  {
+   "name": "Deposit Visual Reference Guide",
+   "type": "other",
+   "role": "Resource showing examples of correct and incorrect deposit procedures"
+  }
+ ],
+ "tags": [
+  "currency",
+  "federal reserve",
+  "cash services",
+  "deposits",
+  "cross-shipping",
+  "banking"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 13813,
+  "output_tokens": 1462
+ }
+}

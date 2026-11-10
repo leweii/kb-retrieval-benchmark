@@ -1,0 +1,38 @@
+{
+ "summary": "The note is a short stub describing the Dvora-class fast patrol boat, a class of fast patrol boats built by Israel Aerospace Industries for the Israeli Sea Corps. It states only that the class is based on an Israeli design, with the design name missing from the note. Little other detail is given.",
+ "one_line": "The Dvora-class is a fast patrol boat built by Israel Aerospace Industries for the Israeli Sea Corps.",
+ "key_facts": [
+  "The Dvora-class fast patrol boat is a fast class of patrol boats.",
+  "The Dvora-class boats were built by Israel Aerospace Industries.",
+  "The Dvora-class boats were built for the Israeli Sea Corps.",
+  "The Dvora-class is based on an Israeli design, though the name of that design is missing from the note."
+ ],
+ "entities": [
+  {
+   "name": "Dvora-class fast patrol boat",
+   "type": "product",
+   "role": "fast class of patrol boats described in the note"
+  },
+  {
+   "name": "Israel Aerospace Industries",
+   "type": "organization",
+   "role": "builder of the Dvora-class patrol boats"
+  },
+  {
+   "name": "Israeli Sea Corps",
+   "type": "organization",
+   "role": "customer for which the Dvora-class boats were built"
+  }
+ ],
+ "tags": [
+  "israel",
+  "naval vessels",
+  "patrol boats",
+  "military equipment"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 1055,
+  "output_tokens": 433
+ }
+}

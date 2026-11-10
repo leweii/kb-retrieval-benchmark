@@ -1,0 +1,70 @@
+{
+ "summary": "This is a Real Python tutorial by Davide Mastromatteo titled \"Python args and kwargs: Demystified,\" explaining how *args and **kwargs let functions accept a varying number of positional and keyword arguments. It covers tuples versus lists, the required parameter ordering (standard, *args, **kwargs), and the single and double asterisk unpacking operators for calls, assignments, list and dictionary merging, and string unpacking. The article closes by warning that overly clever unpacking constructions can hurt readability, referencing the Zen of Python.",
+ "one_line": "A Real Python tutorial explaining Python's *args and **kwargs for flexible function arguments and the asterisk unpacking operators.",
+ "key_facts": [
+  "The Real Python tutorial \"Python args and kwargs: Demystified\" was written by Davide Mastromatteo.",
+  "The article is tagged as intermediate and python level content on Real Python.",
+  "The correct parameter order in a function definition is standard arguments, then *args arguments, then **kwargs arguments.",
+  "Defining def my_function(a, b, **kwargs, *args) causes a SyntaxError because *args comes after **kwargs.",
+  "Inside a function, *args collects positional arguments into a tuple, which is immutable.",
+  "Assigning my_tuple[0] = 9 on a tuple raises TypeError: 'tuple' object does not support item assignment.",
+  "Iterating over a kwargs dictionary without .values() iterates over its keys, so concatenate(a=\"Real\", b=\"Python\", c=\"Is\", d=\"Great\", e=\"!\") returns \"abcde\" instead of \"RealPythonIsGreat!\".",
+  "The single asterisk operator * can be used on any iterable, while the double asterisk ** can only be used on dictionaries.",
+  "Calling my_sum(*my_list) with a four-item list against a three-parameter function raises TypeError: my_sum() takes 3 positional arguments but 4 were given.",
+  "Since PEP 448 in Python 3.5, unpacking can merge lists like [*my_first_list, *my_second_list] and dictionaries like {**my_first_dict, **my_second_dict}.",
+  "The expression sum_integers_args_3 with lists [1, 2, 3], [4, 5] and [6, 7, 8, 9] passed via multiple unpacking returns 45.",
+  "The statement *a, = \"RealPython\" produces a list of single characters because the trailing comma makes the left side a tuple.",
+  "The article cites the seventh rule of The Zen of Python by Tim Peters, that readability counts, to advise using clever unpacking sparingly.",
+  "Real Python's copyright notice lists the years 2012–2024."
+ ],
+ "entities": [
+  {
+   "name": "Real Python",
+   "type": "organization",
+   "role": "Publisher of the tutorial and the site hosting the article, offering tutorials, courses, quizzes and a community chat."
+  },
+  {
+   "name": "Davide Mastromatteo",
+   "type": "person",
+   "role": "Author of the article \"Python args and kwargs: Demystified\"; described as developer and editor of \"the Python Corner\"."
+  },
+  {
+   "name": "Python args and kwargs: Demystified",
+   "type": "program",
+   "role": "The tutorial article and its related video course on *args and **kwargs in Python."
+  },
+  {
+   "name": "PEP 448",
+   "type": "other",
+   "role": "Python enhancement proposal, referenced as the change that made unpacking operators more powerful in Python 3.5."
+  },
+  {
+   "name": "The Zen of Python",
+   "type": "other",
+   "role": "Guideline text by Tim Peters whose seventh rule, readability counts, is cited to caution against overly complex unpacking."
+  },
+  {
+   "name": "Tim Peters",
+   "type": "person",
+   "role": "Author of The Zen of Python, quoted for the rule that readability counts."
+  },
+  {
+   "name": "Trey Hunner",
+   "type": "person",
+   "role": "Author of an external article on asterisks in Python recommended for further reading."
+  }
+ ],
+ "tags": [
+  "python",
+  "functions",
+  "args-and-kwargs",
+  "unpacking",
+  "tutorial",
+  "arguments"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14061,
+  "output_tokens": 1331
+ }
+}

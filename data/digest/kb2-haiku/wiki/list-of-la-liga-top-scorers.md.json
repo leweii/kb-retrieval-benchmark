@@ -1,0 +1,88 @@
+{
+ "summary": "The note covers the record books of La Liga top goalscorers, naming Lionel Messi as the all-time leader and holder of the single-season record of 50 goals in 2011-12. It also cites Telmo Zarra's six top-scorer seasons between 1945 and 1953 and the five-season totals of Alfredo Di Stéfano, Quini and Hugo Sánchez. The text repeats the same passage three times, and the versions disagree on how many players had five-season totals and whether Messi is among them.",
+ "one_line": "A note on La Liga's all-time top goalscorers, including Lionel Messi's records and players with multiple top-scorer seasons.",
+ "key_facts": [
+  "Lionel Messi of Barcelona is La Liga's all-time top goalscorer.",
+  "Lionel Messi holds the record for most goals scored in a single La Liga season, with 50 goals in 2011-12.",
+  "Telmo Zarra of Athletic Bilbao was the competition's all-time top scorer until 2014.",
+  "Telmo Zarra was top scorer in six seasons between 1945 and 1953.",
+  "Alfredo Di Stéfano of Real Madrid finished as top scorer in five seasons.",
+  "Quini of Sporting de Gijón and Barcelona finished as top scorer in five seasons.",
+  "Hugo Sánchez of Atlético Madrid and Real Madrid finished as top scorer in five seasons.",
+  "The first version of the passage says three other players each finished as top scorer in five seasons.",
+  "The later versions of the passage say four other players each finished as top scorer in five seasons.",
+  "The later versions list Lionel Messi among the four players who each finished as top scorer in five seasons, which conflicts with the note's own description of him as the all-time leader.",
+  "The passage appears three times in the note with small wording changes.",
+  "The note does not give dates for the five-season totals of Di Stéfano, Quini and Sánchez."
+ ],
+ "entities": [
+  {
+   "name": "La Liga",
+   "type": "program",
+   "role": "competition whose all-time top goalscorers and season top scorers are listed"
+  },
+  {
+   "name": "Lionel Messi",
+   "type": "person",
+   "role": "Barcelona player; La Liga's all-time top goalscorer and holder of the single-season record of 50 goals in 2011-12"
+  },
+  {
+   "name": "Barcelona",
+   "type": "organization",
+   "role": "club of Lionel Messi, and of Quini"
+  },
+  {
+   "name": "Telmo Zarra",
+   "type": "person",
+   "role": "Athletic Bilbao player; former all-time top scorer until 2014; top scorer in six seasons between 1945 and 1953"
+  },
+  {
+   "name": "Athletic Bilbao",
+   "type": "organization",
+   "role": "club of Telmo Zarra"
+  },
+  {
+   "name": "Alfredo Di Stéfano",
+   "type": "person",
+   "role": "Real Madrid player; top scorer in five seasons"
+  },
+  {
+   "name": "Real Madrid",
+   "type": "organization",
+   "role": "club of Alfredo Di Stéfano and Hugo Sánchez"
+  },
+  {
+   "name": "Quini",
+   "type": "person",
+   "role": "Sporting de Gijón and Barcelona player; top scorer in five seasons"
+  },
+  {
+   "name": "Sporting de Gijón",
+   "type": "organization",
+   "role": "club of Quini"
+  },
+  {
+   "name": "Hugo Sánchez",
+   "type": "person",
+   "role": "Atlético Madrid and Real Madrid player; top scorer in five seasons"
+  },
+  {
+   "name": "Atlético Madrid",
+   "type": "organization",
+   "role": "club of Hugo Sánchez"
+  }
+ ],
+ "tags": [
+  "la liga",
+  "football",
+  "top scorers",
+  "records",
+  "goalscoring",
+  "spanish football"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1622,
+  "output_tokens": 1663
+ }
+}

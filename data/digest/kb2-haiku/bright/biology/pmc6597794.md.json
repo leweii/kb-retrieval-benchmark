@@ -1,0 +1,111 @@
+{
+ "summary": "This Physiology Reports study (2019) compares hemodynamic mechanisms of tilt-induced vasovagal syncope in healthy volunteers and POTS patients without prior syncope history, versus non-fainting controls. Subjects were tilted to 70 degrees while blood pressure, cardiac output, systemic vascular resistance, and regional blood volumes and flows were measured by impedance plethysmography. The authors conclude that fainting in healthy controls is driven by decreased SVR from splanchnic arterial vasoconstriction loss, while fainting in POTS patients is driven by decreased cardiac output from enhanced splanchnic pooling.",
+ "one_line": "Study comparing tilt-induced vasovagal syncope mechanisms in healthy volunteers versus POTS patients, finding different hemodynamic causes for fainting in each group.",
+ "key_facts": [
+  "The study was published in Physiology Reports in 2019, volume 7(13), article e14148, with doi 10.14814/phy2.14148.",
+  "Groups were Control-Faint (N = 12), POTS-Faint (N = 12), and Control-noFaint (N = 10).",
+  "Subjects were studied supine and during 70 degree upright tilt, with tilt lasting 10 min for Control-noFaint.",
+  "Control-Faint mean age was 21 ± 2 years, and POTS-Faint mean age was 20 ± 2 years.",
+  "Heart rate was significantly higher in POTS-Faint than Control-noFaint at baseline (P < 0.025), with values of 73 ± 3 bpm versus 64 ± 3 bpm.",
+  "Time from tilt up to syncope averaged 375 ± 49 s for Control-Faint and 349 ± 58 s for POTS-Faint, with no significant difference.",
+  "In Control-Faint, cardiac output increased above baseline during Phase 2 because of reduced splanchnic vascular resistance.",
+  "In POTS-Faint, cardiac output progressively decreased during tilt, and cardiac output decreased compared with Control-noFaint (P < 0.001).",
+  "The authors state that decreased SVR and splanchnic arterial vasoconstriction is the mechanism for faint in Control-Faint.",
+  "The authors state that decreased cardiac output caused by enhanced splanchnic pooling is the mechanism for faint in POTS-Faint.",
+  "Splanchnic blood volume was significantly larger in POTS-Faint than Control-noFaint (P < 0.01).",
+  "Central blood volume decreased significantly more in fainting subjects than Control-noFaint (P < 0.01).",
+  "Imminent vasovagal syncope was defined by MAP below 60 mmHg or systolic BP below 70 mmHg with symptoms of impending loss of consciousness.",
+  "The study was approved by the Institutional Review Board of New York Medical College.",
+  "Women participated in the early to midluteal phase or high hormone phase of oral contraception, and subjects refrained from caffeine for at least 72 h before testing."
+ ],
+ "entities": [
+  {
+   "name": "Julian M. Stewart",
+   "type": "person",
+   "role": "corresponding author of the study"
+  },
+  {
+   "name": "Marvin S. Medow",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Mohamed A. Shaban",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Tyler Fialkoff",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Brianna Tuma-Marcella",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Paul Visintainer",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Courtney Terilli",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Physiology Reports",
+   "type": "product",
+   "role": "journal in which the study was published (Physiol Rep v.7(13), 2019)"
+  },
+  {
+   "name": "postural tachycardia syndrome",
+   "type": "other",
+   "role": "condition of the POTS-Faint and POTS patient groups studied"
+  },
+  {
+   "name": "vasovagal syncope",
+   "type": "other",
+   "role": "condition studied, abbreviated VVS, triggered by upright posture"
+  },
+  {
+   "name": "New York Medical College",
+   "type": "organization",
+   "role": "institution whose Institutional Review Board approved the study"
+  },
+  {
+   "name": "Jardine et al. (2018)",
+   "type": "other",
+   "role": "cited source describing phases of vasovagal syncope used for fiducial points"
+  },
+  {
+   "name": "Fu et al. (2012)",
+   "type": "other",
+   "role": "cited study finding that a minority of healthy volunteers had decreased SVR as the hypotension mechanism"
+  },
+  {
+   "name": "Modelflow algorithm",
+   "type": "product",
+   "role": "method used to estimate beat-to-beat cardiac output from finger pressure pulse contour"
+  },
+  {
+   "name": "Innocor inert gas rebreathing",
+   "type": "product",
+   "role": "reference method used to calibrate ModelFlow cardiac output while supine"
+  }
+ ],
+ "tags": [
+  "vasovagal syncope",
+  "postural tachycardia syndrome",
+  "orthostatic intolerance",
+  "tilt table testing",
+  "splanchnic circulation",
+  "cardiac output"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 13080,
+  "output_tokens": 1684
+ }
+}

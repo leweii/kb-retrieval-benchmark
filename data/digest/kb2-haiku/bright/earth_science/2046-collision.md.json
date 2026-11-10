@@ -1,0 +1,106 @@
+{
+ "summary": "A CNN news article reports that NASA is tracking a newly discovered asteroid, 2023 DW, which has a small chance of hitting Earth on February 14, 2046. The asteroid, about 160 feet (50 meters) across, ranks 1 on the Torino Impact Hazard Scale, the only object on NASA's risk list above 0. Officials stress that early orbit predictions often shrink as more observations arrive, and that the DART mission shows humanity could respond to such threats.",
+ "one_line": "NASA tracks newly discovered asteroid 2023 DW, which has a small chance of hitting Earth on February 14, 2046.",
+ "key_facts": [
+  "The asteroid 2023 DW is roughly the size of an Olympic swimming pool and measures about 160 feet (about 50 meters) in diameter, according to NASA data.",
+  "NASA's Planetary Defense Coordination Office described a 'small chance' of 2023 DW colliding with Earth in 23 years, with a potential impact on Valentine's Day in 2046.",
+  "The European Space Agency data projected a 1 in 625 chance of 2023 DW striking Earth.",
+  "NASA's Jet Propulsion Laboratory Sentry system calculated the odds of impact closer to 1 in 560.",
+  "2023 DW is the only object on NASA's risk list that ranks 1 out of 10 on the Torino Impact Hazard Scale; all other objects rank 0.",
+  "The Jet Propulsion Laboratory said a ranking of 1 means 'the chance of collision is extremely unlikely with no cause for public attention or public concern.'",
+  "Davide Farnocchia, a navigation engineer at the Jet Propulsion Laboratory in Pasadena, California, said: 'This object is not particularly concerning.'",
+  "The asteroid has 10 predicted close approaches to Earth, with the nearest on February 14, 2046, and nine others between 2047 and 2054.",
+  "The closest the asteroid is expected to travel to Earth is about 1.1 million miles (1.8 million kilometers), according to NASA's Eyes on Asteroids website.",
+  "2023 DW was first spotted on February 2 and travels about 15.5 miles per second (25 kilometers per second) at more than 11 million miles (18 million kilometers) from Earth.",
+  "The asteroid completes one loop around the sun every 271 days.",
+  "NASA officials warned that the odds of impact could change dramatically as more observations are collected, and NASA Asteroid Watch said it takes several weeks of data to reduce uncertainties.",
+  "The Center for Near Earth Object Studies notes that the threat from a specific object will most often decrease as additional observations become available.",
+  "Farnocchia said the asteroid's proximity to the moon may delay new data for a few days, since the recent full moon likely obscures 2023 DW.",
+  "Farnocchia cited NASA's DART mission (Double Asteroid Redirection Test), a spacecraft collision with an asteroid in September 2022, as evidence humanity can prepare for threatening space rocks."
+ ],
+ "entities": [
+  {
+   "name": "2023 DW",
+   "type": "other",
+   "role": "asteroid tracked by NASA with a small chance of hitting Earth in 2046, rated 1 on the Torino scale"
+  },
+  {
+   "name": "NASA Planetary Defense Coordination Office",
+   "type": "organization",
+   "role": "NASA office that announced the asteroid's small chance of colliding with Earth"
+  },
+  {
+   "name": "European Space Agency",
+   "type": "organization",
+   "role": "source of data projections giving a 1 in 625 chance of impact"
+  },
+  {
+   "name": "Jet Propulsion Laboratory",
+   "type": "organization",
+   "role": "NASA lab in Pasadena, California whose Sentry system calculated odds of about 1 in 560"
+  },
+  {
+   "name": "Sentry system",
+   "type": "program",
+   "role": "Jet Propulsion Laboratory system that tracks potential collisions with celestial objects"
+  },
+  {
+   "name": "Torino Impact Hazard Scale",
+   "type": "other",
+   "role": "metric for categorizing the projected risk of an object colliding with Earth"
+  },
+  {
+   "name": "Davide Farnocchia",
+   "type": "person",
+   "role": "navigation engineer at the Jet Propulsion Laboratory in Pasadena, California"
+  },
+  {
+   "name": "NASA Asteroid Watch",
+   "type": "organization",
+   "role": "NASA account that noted on Twitter that several weeks of data are needed to predict orbits"
+  },
+  {
+   "name": "Center for Near Earth Object Studies",
+   "type": "organization",
+   "role": "center located at the Jet Propulsion Laboratory that notes early predictions can be ruled out with more observations"
+  },
+  {
+   "name": "Eyes on Asteroids",
+   "type": "program",
+   "role": "NASA website giving the asteroid's closest approach distance"
+  },
+  {
+   "name": "DART mission",
+   "type": "event",
+   "role": "Double Asteroid Redirection Test, a September 2022 mission that intentionally collided a spacecraft into an asteroid"
+  },
+  {
+   "name": "CNN",
+   "type": "organization",
+   "role": "publisher of the article"
+  },
+  {
+   "name": "Jackie Wattles",
+   "type": "person",
+   "role": "co-author of the CNN article"
+  },
+  {
+   "name": "Kristin Fisher",
+   "type": "person",
+   "role": "co-author of the CNN article"
+  }
+ ],
+ "tags": [
+  "asteroids",
+  "near-earth objects",
+  "nasa",
+  "planetary defense",
+  "2023 dw",
+  "space hazards"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14623,
+  "output_tokens": 1755
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "summary": "This note describes reflex syncope, a brief loss of consciousness caused by a neurally induced drop in blood pressure and/or heart rate, divided into vasovagal, situational, and carotid sinus types. It covers warning signs, triggers, the underlying mechanism, diagnosis by ruling out other causes, and treatments including trigger avoidance, fluids and salt, medications, and occasionally pacemakers. The main danger is injury from falling while unconscious.",
+ "one_line": "Overview of reflex syncope: its three types, warning signs, triggers, diagnosis, treatment options and prognosis.",
+ "key_facts": [
+  "Reflex syncope is a brief loss of consciousness due to a neurologically induced drop in blood pressure and/or a decrease in heart rate.",
+  "Reflex syncope is divided into three types: vasovagal, situational, and carotid sinus.",
+  "Reflex syncope affects at least 1 in 1,000 people per year.",
+  "Reflex syncope is the most common type of syncope, making up more than 50% of all cases.",
+  "Vasovagal syncope is typically triggered by seeing blood, pain, emotional stress, or prolonged standing.",
+  "Situational syncope is often triggered by urination, swallowing, or coughing.",
+  "Carotid sinus syncope is due to pressure on the carotid sinus in the neck, which may happen when wearing a tight collar, shaving, or turning the head.",
+  "Before losing consciousness, a person may experience sweating, a decreased ability to see, or ringing in the ears.",
+  "In the vasovagal pathophysiology, the nucleus tractus solitarii of the brainstem is activated, enhancing parasympathetic tone and withdrawing sympathetic tone.",
+  "The vasodepressor end of the response spectrum can cause a blood pressure drop to as low as 80/20 without much change in heart rate.",
+  "The core of the diagnosis of vasovagal syncope rests upon a clear description of a typical pattern of triggers, symptoms, and time course.",
+  "Diagnostic tests for recurrent vasovagal syncope include a tilt table test, an insertable loop recorder, a Holter or event monitor, an echocardiogram, and an electrophysiology study.",
+  "The cornerstone of treatment is avoidance of triggers known to cause syncope in that person.",
+  "Beta blockers were once the most common medication given for vasovagal syncope but have been shown to be ineffective in a variety of studies and are no longer prescribed.",
+  "For people with the cardioinhibitory form of vasovagal syncope, implantation of a permanent pacemaker may be beneficial or even curative."
+ ],
+ "entities": [
+  {
+   "name": "Reflex syncope",
+   "type": "event",
+   "role": "Main subject: a brief loss of consciousness caused by a neurally induced drop in blood pressure and/or heart rate"
+  },
+  {
+   "name": "Vasovagal syncope",
+   "type": "event",
+   "role": "Most common type of reflex syncope, typically recurrent and triggered by blood sight, pain, emotional stress, or prolonged standing"
+  },
+  {
+   "name": "Situational syncope",
+   "type": "event",
+   "role": "Type of reflex syncope often triggered by urination, swallowing, or coughing"
+  },
+  {
+   "name": "Carotid sinus syncope",
+   "type": "event",
+   "role": "Type of reflex syncope caused by pressure on the carotid sinus in the neck"
+  },
+  {
+   "name": "Nucleus tractus solitarii",
+   "type": "other",
+   "role": "Brainstem structure activated directly or indirectly by the triggering stimulus in vasovagal syncope"
+  },
+  {
+   "name": "Bezold-Jarisch reflex",
+   "type": "other",
+   "role": "One account offered for the physiological responses in vasovagal syncope"
+  },
+  {
+   "name": "Tilt table test",
+   "type": "program",
+   "role": "Diagnostic test that may improve diagnostic accuracy in recurrent vasovagal syncope"
+  },
+  {
+   "name": "Midodrine",
+   "type": "product",
+   "role": "Medication that may be tried if lifestyle measures are insufficient for vasovagal syncope"
+  },
+  {
+   "name": "Fludrocortisone",
+   "type": "product",
+   "role": "Medication that may be tried if lifestyle measures are insufficient for vasovagal syncope"
+  },
+  {
+   "name": "Beta blockers",
+   "type": "product",
+   "role": "Medication once most common for treatment but now no longer prescribed because they are ineffective"
+  },
+  {
+   "name": "Paroxetine",
+   "type": "product",
+   "role": "SSRI listed as a medication which may be effective"
+  },
+  {
+   "name": "Sertraline",
+   "type": "product",
+   "role": "SSRI listed as a medication which may be effective"
+  },
+  {
+   "name": "Atropine",
+   "type": "product",
+   "role": "Medication which may be effective in health-care settings where syncope is anticipated"
+  },
+  {
+   "name": "Epinephrine (adrenaline)",
+   "type": "product",
+   "role": "Medication which may be effective in health-care settings where syncope is anticipated"
+  },
+  {
+   "name": "Cardioneuroablation",
+   "type": "program",
+   "role": "Related see-also topic listed in the note"
+  },
+  {
+   "name": "Orthostatic hypotension",
+   "type": "event",
+   "role": "Related see-also topic listed in the note"
+  },
+  {
+   "name": "Postural orthostatic tachycardia syndrome",
+   "type": "event",
+   "role": "Related see-also topic listed in the note"
+  },
+  {
+   "name": "Roemheld Syndrome",
+   "type": "event",
+   "role": "Related see-also topic listed in the note"
+  }
+ ],
+ "tags": [
+  "syncope",
+  "fainting",
+  "autonomic nervous system",
+  "vasovagal",
+  "blood pressure",
+  "medicine"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 4483,
+  "output_tokens": 1794
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "summary": "This is a short clipped web page titled \"commands-transaction\" from the source \"bright\" (domain \"stackoverflow\"). Its only substantive content is a heading, \"Transaction Commands,\" and one sentence saying that transaction commands let you manage your transactions. The rest is site boilerplate such as a feedback prompt, copyright line and language setting, and the note gives no further detail.",
+ "one_line": "A near-empty clipped page titled \"Transaction Commands\" stating that transaction commands let users manage transactions.",
+ "key_facts": [
+  "The note is titled \"commands-transaction\" and comes from the source \"bright\".",
+  "The note's domain metadata is \"stackoverflow\".",
+  "The page's main heading is \"Transaction Commands\".",
+  "The page states that \"Transaction commands enable you to manage your transactions.\"",
+  "The page includes a \"Was this page helpful?\" prompt with Yes and No options, which is site boilerplate.",
+  "The page footer contains an \"Inc. All Rights Reserved\" copyright line, which is site boilerplate.",
+  "The page language is listed as English.",
+  "The note contains no further details about specific transaction commands, their syntax or their behavior."
+ ],
+ "entities": [
+  {
+   "name": "Transaction Commands",
+   "type": "product",
+   "role": "the page's main heading; described as commands that enable users to manage their transactions"
+  },
+  {
+   "name": "bright",
+   "type": "other",
+   "role": "source label given in the note's metadata"
+  },
+  {
+   "name": "stackoverflow",
+   "type": "organization",
+   "role": "domain listed in the note's metadata"
+  }
+ ],
+ "tags": [
+  "transactions",
+  "commands",
+  "web-clip",
+  "stackoverflow",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1064,
+  "output_tokens": 823
+ }
+}

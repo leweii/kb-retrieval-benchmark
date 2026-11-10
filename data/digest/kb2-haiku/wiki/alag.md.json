@@ -1,0 +1,49 @@
+{
+ "summary": "The note is a short Wikipedia-style entry about Alag, a 2006 Bollywood film. It names the lead actors Akshay Kapoor and Dia Mirza, the director Ashu Trikha, and the producer Subi Samuel. The note gives no plot, release details, or reception information.",
+ "one_line": "Alag is a 2006 Bollywood film starring Akshay Kapoor and Dia Mirza, directed by Ashu Trikha.",
+ "key_facts": [
+  "Alag is a 2006 Bollywood film.",
+  "Alag stars Akshay Kapoor.",
+  "Alag stars Dia Mirza.",
+  "Alag was directed by Ashu Trikha.",
+  "Alag was produced by Subi Samuel."
+ ],
+ "entities": [
+  {
+   "name": "Alag",
+   "type": "product",
+   "role": "2006 Bollywood film subject of the note"
+  },
+  {
+   "name": "Akshay Kapoor",
+   "type": "person",
+   "role": "lead actor starring in Alag"
+  },
+  {
+   "name": "Dia Mirza",
+   "type": "person",
+   "role": "lead actress starring in Alag"
+  },
+  {
+   "name": "Ashu Trikha",
+   "type": "person",
+   "role": "director of Alag"
+  },
+  {
+   "name": "Subi Samuel",
+   "type": "person",
+   "role": "producer of Alag"
+  }
+ ],
+ "tags": [
+  "bollywood",
+  "indian cinema",
+  "2006 films",
+  "film"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 1036,
+  "output_tokens": 442
+ }
+}

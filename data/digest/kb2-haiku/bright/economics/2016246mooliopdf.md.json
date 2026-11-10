@@ -1,0 +1,145 @@
+{
+ "summary": "This paper by Pahlaj Moolio and Somphyvatanak Kong, published in the Athens Journal of Business & Economics (2016), estimates the long-run relationship between foreign aid and economic growth in Cambodia, Lao PDR, Myanmar, and Vietnam (CLMV) using panel data from 1997 to 2014. Using panel unit root, Pedroni and Kao cointegration tests, and panel FMOLS and DOLS estimators, it finds that aid and GDP cointegrate and that aid has a positive, significant effect on economic growth. The authors conclude that foreign aid has been favorable to growth in these four ASEAN countries and recommend further studies with more countries and additional development measures.",
+ "one_line": "Panel cointegration study finding foreign aid has a significant positive long-run effect on GDP growth in Cambodia, Lao PDR, Myanmar and Vietnam, 1997-2014.",
+ "key_facts": [
+  "The study covers panel data from 1997 to 2014 for Cambodia, Lao PDR, Myanmar, and Vietnam (CLMV).",
+  "CLMV received approximately US$68.6 billion in foreign aid during the study period, with Vietnam the largest recipient.",
+  "Lao PDR was the most aid-dependent of the four countries when comparing foreign aid as a share of GDP.",
+  "Average annual GDP growth during 1997-2014 was 7.84% for Cambodia, 6.92% for Lao PDR, 10.61% for Myanmar, and 6.38% for Vietnam.",
+  "The study applies panel cointegration tests, panel FMOLS, and panel DOLS estimators using EViews version 8.",
+  "Pedroni (1999) and Kao (1999) residual-based cointegration tests indicated that foreign aid and GDP cointegrate in a panel framework.",
+  "Panel FMOLS estimated the aid coefficient for CLMV as a group at 0.912939, while panel DOLS estimated it at 0.913310.",
+  "The authors interpret the grouped estimate as meaning that 10 units of foreign aid inflows resulted in about 9.1 units increase in real GDP.",
+  "Country-specific estimates show Myanmar benefiting most from foreign aid, followed by Vietnam, Cambodia, and Lao PDR.",
+  "Real GDP was deflated by each country's consumer price index, and the variables were used in common logarithm form.",
+  "The model follows Hatemi-J and Irandoust (2005), with aid and GDP data sourced from the World Bank and the Asian Development Bank Key Indicators.",
+  "The authors conclude that foreign aid had a significantly positive impact on CLMV's economic growth between 1997 and 2014.",
+  "The paper cites Burnside and Dollar (2000) and Collier and Dollar (2002), who argued aid's effect depends on good policies, as part of the mixed literature.",
+  "The authors recommend future studies with more Asian countries over a longer period and additional measures such as mortality rate, enrolment rate, and life expectancy."
+ ],
+ "entities": [
+  {
+   "name": "Pahlaj Moolio",
+   "type": "person",
+   "role": "Professor at Pannasastra University of Cambodia and co-author of the paper"
+  },
+  {
+   "name": "Somphyvatanak Kong",
+   "type": "person",
+   "role": "Researcher at Pannasastra University of Cambodia and co-author of the paper"
+  },
+  {
+   "name": "Athens Journal of Business & Economics",
+   "type": "organization",
+   "role": "journal in which the paper was published (Volume 2, Issue 4, pages 417-428)"
+  },
+  {
+   "name": "Pannasastra University of Cambodia",
+   "type": "organization",
+   "role": "affiliation of both authors"
+  },
+  {
+   "name": "Cambodia",
+   "type": "place",
+   "role": "one of the four CLMV countries studied"
+  },
+  {
+   "name": "Lao PDR",
+   "type": "place",
+   "role": "one of the four CLMV countries studied; the most aid-dependent of the four"
+  },
+  {
+   "name": "Myanmar",
+   "type": "place",
+   "role": "one of the four CLMV countries studied; showed the highest country-specific aid coefficient"
+  },
+  {
+   "name": "Vietnam",
+   "type": "place",
+   "role": "one of the four CLMV countries studied; largest aid recipient"
+  },
+  {
+   "name": "CLMV",
+   "type": "other",
+   "role": "grouping of Cambodia, Lao PDR, Myanmar, and Vietnam, the sample of the study"
+  },
+  {
+   "name": "ASEAN",
+   "type": "organization",
+   "role": "regional bloc to which the four sample countries belong"
+  },
+  {
+   "name": "Hatemi-J and Irandoust (2005)",
+   "type": "other",
+   "role": "prior study whose model specification the paper follows"
+  },
+  {
+   "name": "Pedroni (1999) cointegration test",
+   "type": "program",
+   "role": "residual-based panel cointegration test applied in the study"
+  },
+  {
+   "name": "Kao (1999) cointegration test",
+   "type": "program",
+   "role": "residual-based panel cointegration test applied in the study"
+  },
+  {
+   "name": "Panel FMOLS",
+   "type": "program",
+   "role": "fully modified OLS estimator used to estimate long-run aid effect"
+  },
+  {
+   "name": "Panel DOLS",
+   "type": "program",
+   "role": "dynamic OLS estimator used to confirm FMOLS results"
+  },
+  {
+   "name": "EViews version 8",
+   "type": "product",
+   "role": "statistical software used for all calculations"
+  },
+  {
+   "name": "World Bank",
+   "type": "organization",
+   "role": "source of foreign aid data (databank)"
+  },
+  {
+   "name": "Asian Development Bank",
+   "type": "organization",
+   "role": "source of GDP data via Key Indicators for Asia and Pacific"
+  },
+  {
+   "name": "Burnside and Dollar (2000)",
+   "type": "other",
+   "role": "prior literature finding aid promotes growth only with good policies"
+  },
+  {
+   "name": "Collier and Dollar (2002)",
+   "type": "other",
+   "role": "prior literature validating Burnside and Dollar on aid and poverty depending on policy quality"
+  },
+  {
+   "name": "Montinola (2007)",
+   "type": "other",
+   "role": "prior study finding aid promotes fiscal reform only in more democratic countries"
+  },
+  {
+   "name": "Official development assistance (ODA)",
+   "type": "program",
+   "role": "term used for foreign aid, defined as concessional loans and grants to developing countries"
+  }
+ ],
+ "tags": [
+  "foreign aid",
+  "economic growth",
+  "panel cointegration",
+  "ASEAN",
+  "development economics",
+  "econometrics"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 13387,
+  "output_tokens": 2065
+ }
+}

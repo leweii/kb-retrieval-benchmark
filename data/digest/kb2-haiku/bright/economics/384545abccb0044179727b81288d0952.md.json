@@ -1,0 +1,69 @@
+{
+ "summary": "This Cambridge Core page is the chapter 3 summary for Andrew C. Harvey's book Forecasting, Structural Time Series Models and the Kalman Filter, titled 'State space models and the Kalman filter' (pp. 100-167, published 1990). The chapter explains that the state space form lets a wide range of time series models be handled, and that applying the Kalman filter yields algorithms for prediction, smoothing and maximum likelihood estimation via the prediction error decomposition. It also notes which sections matter most for practitioners and that the chapter can be read independently of the rest of the book.",
+ "one_line": "Chapter 3 of Andrew C. Harvey's book on structural time series, summarizing state space models and the Kalman filter for prediction, smoothing and estimation.",
+ "key_facts": [
+  "The chapter is titled '3 - State space models and the Kalman filter' and appears in the book Forecasting, Structural Time Series Models and the Kalman Filter.",
+  "The chapter is written by Andrew C. Harvey, affiliated with the London School of Economics and Political Science.",
+  "The chapter spans pages 100 - 167 of the book.",
+  "The print publication year of the book is 1990, and the chapter was published online by Cambridge University Press on 05 July 2014.",
+  "The chapter's DOI is https://doi.org/10.1017/CBO9781107049994.004.",
+  "The summary states that the state space form is 'an enormously powerful tool which opens the way to handling a wide range of time series models.'",
+  "Once a model is put in state space form, the Kalman filter may be applied, leading to algorithms for prediction and smoothing.",
+  "The Kalman filter opens the way to maximum likelihood estimation of unknown parameters via the prediction error decomposition, covered in section 3.4.",
+  "Prediction and smoothing are described in sections 3.5 and 3.6 respectively.",
+  "The summary says the most important sections to become familiar with are sections 3.1 and 3.5, the earlier parts of sections 3.2, 3.4 and 3.6, and sub-section 3.7.1 for those interested in non-linear models.",
+  "The chapter can be read independently of the rest of the book and serves as a guide to uses of state space models outside engineering.",
+  "Practitioners of structural time series modelling do not have to master all the technical details of the Kalman filter set out in the chapter.",
+  "The book's chapter list includes 9 chapters, from 'Introduction' to 'Continuous time'."
+ ],
+ "entities": [
+  {
+   "name": "Andrew C. Harvey",
+   "type": "person",
+   "role": "author of the chapter and the book Forecasting, Structural Time Series Models and the Kalman Filter"
+  },
+  {
+   "name": "London School of Economics and Political Science",
+   "type": "organization",
+   "role": "affiliation of author Andrew C. Harvey"
+  },
+  {
+   "name": "Cambridge University Press",
+   "type": "organization",
+   "role": "publisher of the book and chapter"
+  },
+  {
+   "name": "Forecasting, Structural Time Series Models and the Kalman Filter",
+   "type": "product",
+   "role": "book containing the chapter, print publication year 1990"
+  },
+  {
+   "name": "State space models and the Kalman filter",
+   "type": "event",
+   "role": "chapter 3 of the book, the subject of this note"
+  },
+  {
+   "name": "Kalman filter",
+   "type": "program",
+   "role": "algorithm applied to state space models to enable prediction, smoothing and maximum likelihood estimation"
+  },
+  {
+   "name": "Prediction error decomposition",
+   "type": "program",
+   "role": "method by which the Kalman filter enables maximum likelihood estimation of unknown model parameters"
+  }
+ ],
+ "tags": [
+  "time series",
+  "kalman filter",
+  "state space models",
+  "forecasting",
+  "econometrics",
+  "statistics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11496,
+  "output_tokens": 1200
+ }
+}

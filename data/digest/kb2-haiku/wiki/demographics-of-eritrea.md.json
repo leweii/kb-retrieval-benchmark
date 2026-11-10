@@ -1,0 +1,47 @@
+{
+ "summary": "The note summarizes the ethnic composition of Eritrea, which has nine recognized ethnic groups. According to SIL Ethnologue, Tigrayans make up about 50% of the population and the Tigre about 30%. Most remaining residents belong to other Afro-Asiatic-speaking Cushitic communities, with some Nilo-Saharan-speaking minorities and smaller groups.",
+ "one_line": "Overview of Eritrea's nine recognized ethnic groups and their approximate population shares, per SIL Ethnologue.",
+ "key_facts": [
+  "Eritrea has nine recognized ethnic groups.",
+  "According to SIL Ethnologue, Tigrayans make up about 50% of Eritrea's population.",
+  "According to SIL Ethnologue, the Tigre constitute around 30% of Eritrea's residents.",
+  "The Tigre speak a Semitic language.",
+  "Most of the rest of Eritrea's population belong to other Afro-Asiatic-speaking communities of the Cushitic branch.",
+  "Eritrea also has a number of Nilo-Saharan-speaking ethnic minorities.",
+  "Eritrea also has other smaller ethnic groups."
+ ],
+ "entities": [
+  {
+   "name": "SIL Ethnologue",
+   "type": "organization",
+   "role": "source cited for the estimated ethnic population shares in Eritrea"
+  },
+  {
+   "name": "Tigrayans",
+   "type": "other",
+   "role": "ethnic group making up about 50% of Eritrea's population"
+  },
+  {
+   "name": "Tigre",
+   "type": "other",
+   "role": "ethnic group, Semitic-speaking, constituting around 30% of Eritrea's residents"
+  },
+  {
+   "name": "Eritrea",
+   "type": "place",
+   "role": "nation whose ethnic demographics are described"
+  }
+ ],
+ "tags": [
+  "eritrea",
+  "demographics",
+  "ethnic groups",
+  "africa",
+  "languages"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1139,
+  "output_tokens": 606
+ }
+}

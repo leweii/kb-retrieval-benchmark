@@ -1,0 +1,69 @@
+{
+ "summary": "The note traces how quantum mechanics arose from early discoveries about discrete energy. Max Planck's 1900 solution to the black-body radiation problem introduced discrete energy values, and Albert Einstein's 1905 paper offered a quantum-based explanation of the photoelectric effect. In the mid-1920s Erwin Schrödinger, Werner Heisenberg, Max Born and others reconceived early quantum theory, and the modern theory uses mathematical formalisms in which a wave function gives probability amplitudes for properties such as position and momentum.",
+ "one_line": "Overview of how quantum mechanics emerged from Planck's and Einstein's early quantum work and the mid-1920s reformulation by Schrödinger, Heisenberg and Born.",
+ "key_facts": [
+  "Quantum mechanics gradually arose from the necessity of discrete energy values in Max Planck's solution in 1900 to the black-body radiation problem.",
+  "Albert Einstein's 1905 paper offered a quantum-based theory to explain the photoelectric effect.",
+  "The necessary correspondence between energy and frequency appeared in Albert Einstein's 1905 paper.",
+  "Early quantum theory was profoundly re-conceived in the mid-1920s.",
+  "Erwin Schrödinger, Werner Heisenberg, Max Born and others re-conceived early quantum theory in the mid-1920s.",
+  "The modern theory of quantum mechanics is formulated in various specially developed mathematical formalisms.",
+  "In one formalism of modern quantum mechanics, a mathematical function called the wave function provides information about the probability amplitude of position.",
+  "In one formalism of modern quantum mechanics, the wave function provides information about the probability amplitude of momentum.",
+  "In one formalism of modern quantum mechanics, the wave function provides information about the probability amplitude of other physical properties of a particle."
+ ],
+ "entities": [
+  {
+   "name": "Max Planck",
+   "type": "person",
+   "role": "Proposed a solution in 1900 to the black-body radiation problem that involved discrete energy values"
+  },
+  {
+   "name": "Albert Einstein",
+   "type": "person",
+   "role": "Author of a 1905 paper offering a quantum-based theory to explain the photoelectric effect"
+  },
+  {
+   "name": "Erwin Schrödinger",
+   "type": "person",
+   "role": "Physicist who helped re-conceive early quantum theory in the mid-1920s"
+  },
+  {
+   "name": "Werner Heisenberg",
+   "type": "person",
+   "role": "Physicist who helped re-conceive early quantum theory in the mid-1920s"
+  },
+  {
+   "name": "Max Born",
+   "type": "person",
+   "role": "Physicist who helped re-conceive early quantum theory in the mid-1920s"
+  },
+  {
+   "name": "Black-body radiation problem",
+   "type": "event",
+   "role": "Problem solved by Max Planck's 1900 solution using discrete energy values"
+  },
+  {
+   "name": "Photoelectric effect",
+   "type": "event",
+   "role": "Phenomenon explained by Albert Einstein's 1905 quantum-based theory"
+  },
+  {
+   "name": "Wave function",
+   "type": "other",
+   "role": "Mathematical function providing information about the probability amplitude of position, momentum and other physical properties of a particle"
+  }
+ ],
+ "tags": [
+  "quantum mechanics",
+  "physics history",
+  "wave function",
+  "quantum theory",
+  "photoelectric effect"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1216,
+  "output_tokens": 1080
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "summary": "Palitaw is a small, flat, sweet rice cake from the Philippines, named after the Tagalog word \"litaw\" meaning float or rise. It is made from soaked and ground malagkit (sticky rice) that is shaped into circles and boiled until it floats. The note describes serving it dipped in grated coconut with a sugar and toasted sesame seed mixture.",
+ "one_line": "Palitaw is a Filipino sweet rice cake made from ground sticky rice, boiled until it floats, and served with coconut and sesame sugar.",
+ "key_facts": [
+  "Palitaw is a small, flat, sweet rice cake eaten in the Philippines.",
+  "The name palitaw comes from \"litaw\", the Tagalog word for \"float\" or \"rise\".",
+  "Palitaw is made from washed, soaked, and ground malagkit, which is sticky rice.",
+  "After excess water is let out of the grinding process, scoops of the batter are rolled and flattened into a circular shape.",
+  "Palitaw is cooked by dropping it into boiling water.",
+  "Floating to the surface of the boiling water indicates that palitaw is done.",
+  "Before serving, palitaw is dipped in grated coconut.",
+  "Palitaw is presented with a separate mix of sugar and toasted sesame seeds.",
+  "The note describes palitaw as a sweet rice cake, not a savory dish."
+ ],
+ "entities": [
+  {
+   "name": "Palitaw",
+   "type": "product",
+   "role": "small, flat, sweet rice cake eaten in the Philippines, made from ground malagkit"
+  },
+  {
+   "name": "Malagkit",
+   "type": "product",
+   "role": "sticky rice used as the main ingredient of palitaw"
+  },
+  {
+   "name": "Litaw",
+   "type": "other",
+   "role": "Tagalog word meaning \"float\" or \"rise\", source of the name palitaw"
+  },
+  {
+   "name": "Philippines",
+   "type": "place",
+   "role": "country where palitaw is eaten"
+  }
+ ],
+ "tags": [
+  "filipino cuisine",
+  "rice cakes",
+  "desserts",
+  "sticky rice",
+  "philippine food"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1163,
+  "output_tokens": 669
+ }
+}

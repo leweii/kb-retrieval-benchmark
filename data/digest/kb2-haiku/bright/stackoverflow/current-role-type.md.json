@@ -1,0 +1,33 @@
+{
+ "summary": "This note documents the CURRENT_ROLE_TYPE() function, which reports whether the active role in the session is an account role or a database role. It returns ROLE for an account role and DATABASE_ROLE for a database role. The page lists its syntax, states it takes no arguments and has no usage notes, and gives a SELECT example that returns ROLE.",
+ "one_line": "Reference for the CURRENT_ROLE_TYPE() session function, which returns ROLE or DATABASE_ROLE for the session's active role.",
+ "key_facts": [
+  "CURRENT_ROLE_TYPE returns either ROLE or DATABASE_ROLE.",
+  "It returns ROLE when the current active role in the session is an account role.",
+  "It returns DATABASE_ROLE when the current active role in the session is a database role.",
+  "The syntax is CURRENT_ROLE_TYPE().",
+  "The function takes no arguments.",
+  "The page lists no usage notes for the function.",
+  "The example query SELECT CURRENT_ROLE_TYPE(); returns ROLE.",
+  "The function belongs to the Session Object category, under the Session section of the reference."
+ ],
+ "entities": [
+  {
+   "name": "CURRENT_ROLE_TYPE",
+   "type": "product",
+   "role": "Session function documented on this page that returns ROLE or DATABASE_ROLE based on the active role's type"
+  }
+ ],
+ "tags": [
+  "sql",
+  "session-functions",
+  "roles",
+  "reference",
+  "snowflake"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1329,
+  "output_tokens": 472
+ }
+}

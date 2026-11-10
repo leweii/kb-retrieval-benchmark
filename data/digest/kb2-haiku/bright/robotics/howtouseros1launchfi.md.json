@@ -1,0 +1,100 @@
+{
+ "summary": "This Foxglove blog tutorial by José L. Millán explains how to use ROS 1 launch files to run, configure, and namespace multiple nodes with a single command. It walks through a sense-think-act example with sensor_node, compute_node and motor_node, adds namespaces, includes a robot_node from the params_pkg package with parameters loaded from a YAML file, and shows monitoring with Foxglove Studio panels. The post links to the foxglove/tutorials GitHub repo for the code.",
+ "one_line": "Tutorial on using ROS 1 launch files to run, configure, and namespace multiple nodes at once, with Foxglove Studio monitoring.",
+ "key_facts": [
+  "The tutorial was published October 31, 2022 by José L. Millán and takes about 9 minutes to read.",
+  "Launch files let users execute and configure multiple ROS 1 nodes with a single command.",
+  "The example robot follows a \"sense-think-act\" model with sensor_node, compute_node and motor_node.",
+  "The sensor_node reads distance data, compute_node sends commands to the wheels, and motor_node outputs voltage to the motors.",
+  "The launch file is named launch_example.launch.py and is placed in a launch folder of the launch_pkg package.",
+  "Nodes are declared in the launch file with the node tag, using attributes such as pkg, type, name and output=\"screen\".",
+  "Adding ns=\"sense_think_act\" to the node tags places the three nodes and their topics in that namespace.",
+  "A node has only one name but can belong to multiple levels of namespaces, joined with a forward slash.",
+  "The robot_node from the ROS 1 parameters tutorial is included from params_pkg using the rosparam load command with warehouseA_core.yaml.",
+  "The robot_node is placed in the \"core\" namespace and reports that its name is RobotA with a max speed of 1.4.",
+  "The robot_node follows waypoints listed as Home, Corridor, Home.",
+  "The launch file is run with the command roslaunch launch_pkg launch_example.launch.py on ROS 1 Noetic (rosversion 1.15.14).",
+  "Foxglove Studio's Topic Graph panel is used to check that nodes and topics are running and carry their namespaces.",
+  "The post's code is available in the foxglove/tutorials GitHub repository under ros1/launch."
+ ],
+ "entities": [
+  {
+   "name": "José L. Millán",
+   "type": "person",
+   "role": "author of the blog post"
+  },
+  {
+   "name": "Foxglove",
+   "type": "organization",
+   "role": "publisher of the blog post and maker of Foxglove Studio"
+  },
+  {
+   "name": "Foxglove Studio",
+   "type": "product",
+   "role": "visualization tool used to monitor nodes via Topic Graph, Raw Messages, Plot and Gauge panels"
+  },
+  {
+   "name": "launch_pkg",
+   "type": "program",
+   "role": "ROS 1 package created to hold the launch file and nodes"
+  },
+  {
+   "name": "launch_example.launch.py",
+   "type": "program",
+   "role": "launch file that declares and runs the nodes"
+  },
+  {
+   "name": "sensor_node",
+   "type": "program",
+   "role": "node that reads distance data from a sensor in the sense-think-act example"
+  },
+  {
+   "name": "compute_node",
+   "type": "program",
+   "role": "node that receives sensor data and sends a command to the wheels"
+  },
+  {
+   "name": "motor_node",
+   "type": "program",
+   "role": "node that receives the command and outputs the needed voltage to the motors"
+  },
+  {
+   "name": "robot_node",
+   "type": "program",
+   "role": "node from params_pkg included in the launch file and configured with parameters"
+  },
+  {
+   "name": "params_pkg",
+   "type": "program",
+   "role": "package from the ROS 1 parameters tutorial that provides robot_node and warehouseA_core.yaml"
+  },
+  {
+   "name": "sense_think_act",
+   "type": "event",
+   "role": "namespace given to the three sensing, computing and motor nodes"
+  },
+  {
+   "name": "ROS 1",
+   "type": "product",
+   "role": "robot middleware the tutorial covers"
+  },
+  {
+   "name": "foxglove/tutorials",
+   "type": "product",
+   "role": "GitHub repo containing the code covered in the post"
+  }
+ ],
+ "tags": [
+  "ros1",
+  "launch files",
+  "robotics",
+  "namespaces",
+  "foxglove studio",
+  "tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7602,
+  "output_tokens": 1357
+ }
+}

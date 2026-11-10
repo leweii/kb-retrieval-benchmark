@@ -1,0 +1,57 @@
+{
+ "summary": "999 ABC Broken Hill is an ABC Local Radio station located in Broken Hill, New South Wales. It broadcasts to the surrounding outback region. The note names Menindee, White Cliffs and Silverton as towns within its coverage area.",
+ "one_line": "999 ABC Broken Hill is an ABC Local Radio station serving Broken Hill and the surrounding New South Wales outback.",
+ "key_facts": [
+  "999 ABC Broken Hill is an ABC Local Radio station.",
+  "The station is based in Broken Hill, New South Wales.",
+  "The station broadcasts to the surrounding outback region in New South Wales.",
+  "The station's broadcast area includes the town of Menindee.",
+  "The station's broadcast area includes the town of White Cliffs.",
+  "The station's broadcast area includes the town of Silverton."
+ ],
+ "entities": [
+  {
+   "name": "999 ABC Broken Hill",
+   "type": "program",
+   "role": "ABC Local Radio station based in Broken Hill and broadcasting to the surrounding outback region in New South Wales"
+  },
+  {
+   "name": "ABC Local Radio",
+   "type": "organization",
+   "role": "network to which 999 ABC Broken Hill belongs"
+  },
+  {
+   "name": "Broken Hill",
+   "type": "place",
+   "role": "town where the station is based"
+  },
+  {
+   "name": "Menindee",
+   "type": "place",
+   "role": "town included in the station's broadcast area"
+  },
+  {
+   "name": "White Cliffs",
+   "type": "place",
+   "role": "town included in the station's broadcast area"
+  },
+  {
+   "name": "Silverton",
+   "type": "place",
+   "role": "town included in the station's broadcast area"
+  }
+ ],
+ "tags": [
+  "radio",
+  "abc",
+  "broken hill",
+  "new south wales",
+  "outback",
+  "local media"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1068,
+  "output_tokens": 548
+ }
+}

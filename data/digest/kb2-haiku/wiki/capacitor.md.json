@@ -1,0 +1,46 @@
+{
+ "summary": "This note, excerpted from a Wikipedia article on capacitors, explains how voltage reversal affects capacitor life. It states that capacitors usually must handle the maximum reversal a system will produce, with AC circuits seeing 100% reversal and under-damped DC circuits seeing less. The note also says reversal raises electric fields in the dielectric, causes heating, and can sharply shorten lifespan, which in turn shapes choices of dielectric, voltage rating, and internal connections.",
+ "one_line": "Explains how voltage reversal in AC and under-damped DC circuits shortens capacitor life and shapes capacitor design choices.",
+ "key_facts": [
+  "For maximum life, capacitors usually need to be able to handle the maximum amount of reversal that a system will experience.",
+  "An AC circuit will experience 100% voltage reversal.",
+  "Under-damped DC circuits will experience less than 100% voltage reversal.",
+  "Reversal creates excess electric fields in the dielectric.",
+  "Reversal causes excess heating of both the dielectric and the conductors.",
+  "Reversal can dramatically shorten the life expectancy of a capacitor.",
+  "Reversal ratings often affect design considerations for the capacitor.",
+  "Design considerations affected by reversal ratings include the choice of dielectric materials.",
+  "Design considerations affected by reversal ratings include voltage ratings.",
+  "Design considerations affected by reversal ratings include the types of internal connections used."
+ ],
+ "entities": [
+  {
+   "name": "Capacitor",
+   "type": "product",
+   "role": "electronic component whose life expectancy is discussed in relation to voltage reversal"
+  },
+  {
+   "name": "AC circuit",
+   "type": "other",
+   "role": "circuit type that experiences 100% voltage reversal"
+  },
+  {
+   "name": "Under-damped DC circuit",
+   "type": "other",
+   "role": "circuit type that experiences less than 100% voltage reversal"
+  }
+ ],
+ "tags": [
+  "capacitors",
+  "voltage reversal",
+  "electronics",
+  "circuit design",
+  "dielectric",
+  "component life"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1166,
+  "output_tokens": 653
+ }
+}

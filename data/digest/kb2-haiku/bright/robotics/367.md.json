@@ -1,0 +1,96 @@
+{
+ "summary": "This is a closed GitHub issue (#367) in the ros-infrastructure/rosdep repository titled \"rosdep fails if pip is not installed\", opened by mitchellwills on Jan 6, 2015. The reporter saw rosdep throw an internal error with \"Bad installer [pip]\" when pip was missing, and suggested installing pip implicitly. Maintainer wjwwood explained that asserting pip is available is intended when a pip key is needed, and closed the issue; later commenters in 2017-2018 reported the same error, and a collaborator suggested the fix is to install pip and to make the error message clearer.",
+ "one_line": "GitHub issue #367 in the rosdep project reporting that rosdep raises an internal error when pip is not installed, closed as intended behavior.",
+ "key_facts": [
+  "GitHub issue #367 in the ros-infrastructure/rosdep repository is titled \"rosdep fails if pip is not installed\".",
+  "The issue was opened by user mitchellwills on Jan 6, 2015 and had 15 comments.",
+  "mitchellwills reported the problem on hydro 12.04 and indigo 13.10.",
+  "The error output was \"Bad installer [pip]: [Errno 2] No such file or directory\" under rosdep version 0.11.0.",
+  "mitchellwills ran the command rosdep install -i --from-paths src in the root of a catkin workspace.",
+  "A package in the src directory depended on a rosdep key that resolved to a pip package.",
+  "wjwwood, a contributor, said that when a pip key is needed rosdep will assert that pip is available, which is intended behavior, and closed the issue on Jan 6, 2015.",
+  "wjwwood wrote that rosdep will except if --simulate is used, but not when nothing in the workspace depends on a key resolving to pip.",
+  "wjwwood said the top part of the error output is attached to all exceptions and that exception handling should be changed to be more palatable.",
+  "mitchellwills said the error should print bad installer without the internal error message, since it is not really an internal error.",
+  "On Dec 28, 2017, bryan-bisonai reported the same error with rosdep version 0.11.8 using the kinetic rosdistro.",
+  "On Apr 4, 2018, aniroodh-ravikumar reported that the error persisted after pip was installed, with rosdep version 0.12.2, and that pip --version failed with a missing /usr/local/bin/pip.",
+  "aniroodh-ravikumar's python was located at /opt/local/bin/python, running Python 2.7.14.",
+  "NikolausDemmel, a collaborator, said that pip must be runnable from the shell and suggested python -m pip install --force-reinstall -U pip.",
+  "wjwwood said /opt/local/bin is probably macports, which none of the maintainers use regularly."
+ ],
+ "entities": [
+  {
+   "name": "rosdep",
+   "type": "program",
+   "role": "ROS dependency installation tool whose pip installer failure is the subject of the issue"
+  },
+  {
+   "name": "ros-infrastructure/rosdep",
+   "type": "organization",
+   "role": "GitHub repository hosting the rosdep project and issue #367"
+  },
+  {
+   "name": "mitchellwills",
+   "type": "person",
+   "role": "opened the issue on Jan 6, 2015 and reported the pip error"
+  },
+  {
+   "name": "wjwwood",
+   "type": "person",
+   "role": "contributor who explained the intended pip assertion behavior and closed the issue"
+  },
+  {
+   "name": "NikolausDemmel",
+   "type": "person",
+   "role": "collaborator who suggested installing pip and troubleshooting the path"
+  },
+  {
+   "name": "bryan-bisonai",
+   "type": "person",
+   "role": "commenter who reported the same error in December 2017"
+  },
+  {
+   "name": "aniroodh-ravikumar",
+   "type": "person",
+   "role": "commenter who reported the error persisting after pip was installed in April 2018"
+  },
+  {
+   "name": "pip",
+   "type": "program",
+   "role": "Python package installer whose absence triggers the rosdep error"
+  },
+  {
+   "name": "hydro 12.04",
+   "type": "product",
+   "role": "ROS distribution and Ubuntu version where the issue was first seen"
+  },
+  {
+   "name": "indigo 13.10",
+   "type": "product",
+   "role": "ROS distribution and Ubuntu version where the issue was also seen"
+  },
+  {
+   "name": "catkin",
+   "type": "program",
+   "role": "ROS build system whose package.xml was edited in the reproduction test"
+  },
+  {
+   "name": "macports",
+   "type": "organization",
+   "role": "package manager that /opt/local/bin is probably associated with, per wjwwood"
+  }
+ ],
+ "tags": [
+  "rosdep",
+  "ros",
+  "pip",
+  "github-issue",
+  "dependency-management",
+  "python"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7957,
+  "output_tokens": 1493
+ }
+}

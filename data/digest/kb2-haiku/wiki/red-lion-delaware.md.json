@@ -1,0 +1,60 @@
+{
+ "summary": "The note is a short encyclopedia-style entry describing Red Lion, an unincorporated community in New Castle County, Delaware, United States. It explains the community's location relative to nearby towns and state highways. The note is brief and gives no history, population, or other details.",
+ "one_line": "Red Lion is an unincorporated community in New Castle County, Delaware, located at the junction of Routes 7 and 71.",
+ "key_facts": [
+  "Red Lion is an unincorporated community in New Castle County, Delaware, United States.",
+  "Red Lion is located at the intersection of Delaware Route 7 and Delaware Route 71.",
+  "Red Lion lies northwest of Delaware City.",
+  "Red Lion lies southwest of New Castle.",
+  "Delaware Route 7 and Delaware Route 71 meet at Red Lion."
+ ],
+ "entities": [
+  {
+   "name": "Red Lion",
+   "type": "place",
+   "role": "unincorporated community in New Castle County, Delaware, located at the intersection of Delaware Route 7 and Delaware Route 71"
+  },
+  {
+   "name": "New Castle County",
+   "type": "place",
+   "role": "county in Delaware, United States, where Red Lion is located"
+  },
+  {
+   "name": "Delaware",
+   "type": "place",
+   "role": "U.S. state containing Red Lion and New Castle County"
+  },
+  {
+   "name": "Delaware Route 7",
+   "type": "program",
+   "role": "state highway intersecting Delaware Route 71 at Red Lion"
+  },
+  {
+   "name": "Delaware Route 71",
+   "type": "program",
+   "role": "state highway intersecting Delaware Route 7 at Red Lion"
+  },
+  {
+   "name": "Delaware City",
+   "type": "place",
+   "role": "town located southeast of Red Lion"
+  },
+  {
+   "name": "New Castle",
+   "type": "place",
+   "role": "town located northeast of Red Lion"
+  }
+ ],
+ "tags": [
+  "delaware",
+  "new castle county",
+  "unincorporated community",
+  "red lion",
+  "us geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1070,
+  "output_tokens": 612
+ }
+}

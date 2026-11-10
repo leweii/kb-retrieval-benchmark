@@ -1,0 +1,75 @@
+{
+ "summary": "This note documents changes to the aqueous chemistry routine (aqchem.F) of the CMAQv4.7 multipollutant model, dated 13 January 2010, after solver problems caused sporadic abnormally high simulated sulfate. The problems were traced to stiffness from very fast OH reactions (for mercury speciation and cloud SOA) coupled with slower sulfur chemistry in the forward Euler solver. The fixes were added precision, a minimum 1-second timestep after 100 solver iterations to restore mass conservation, and removing OH-driven reactions from the timestep control with a steady-state assumption for OH.",
+ "one_line": "Notes on 2010 fixes to the CMAQv4.7 aqueous chemistry solver, addressing stiffness from fast OH reactions and mass conservation.",
+ "key_facts": [
+  "The notes are dated 13 January 2010 and concern the aqueous chemistry routine of the CMAQv4.7 multipollutant model.",
+  "Sporadic abnormally high sulfate concentrations were simulated, in some cases above 400 ug/m3.",
+  "The new hydroxyl radical reactions that convert mercury (Hg) covalence states and produce cloud SOA have rate constants of about 1.E10 (L/mol/sec).",
+  "Other reactions in the CMAQ aqueous mechanism are much slower, for example about 1.E4 for S(IV) oxidation by H2O2.",
+  "The stiffness from coupling faster and slower processes can cause numerical instabilities in the forward Euler solver used by aqchem.F for oxidation reactions.",
+  "Tests showed mass was not conserved for species produced via aqueous phase oxidation during the last chemistry integration step.",
+  "The mass conservation issue occurs episodically, when the solver reaches the maximum of 100 iterations and the final timestep is expanded to the remainder of the cloud lifetime.",
+  "After 100 iterations, the solver now continues integrating with a minimum 1 second timestep for the remainder of the cloud lifetime.",
+  "Total mass available is a limit on the amount oxidized, which is why mass is conserved in the later part of the cloud lifetime after the change.",
+  "Previously, OH reactions of glyoxal, methylglyoxal and Hg controlled the time step of oxidation reactions; now only the sulfur reactions affect dt.",
+  "In CMAQ's gas phase, OH is assumed to be in pseudo-steady state and is not a transported species, because hydroxyl radical reactions tend to be catalytic.",
+  "Operator splitting means aqueous and gas-phase chemistry are not solved simultaneously.",
+  "A steady-state assumption for OH is adopted in the aqueous chemistry routine to account for uncertainties, including neglect of the production reaction H2O2 + hv -> 2 OH, which is not currently implemented in aqchem.",
+  "The note cites Carlton et al. (2008), 'CMAQ Model Performance Enhanced When In-Cloud Secondary Organic Aerosol is Included', Environ. Sci. Technol., 42(23), 8798-8802."
+ ],
+ "entities": [
+  {
+   "name": "CMAQv4.7",
+   "type": "product",
+   "role": "multipollutant air quality model whose aqueous chemistry routine was found to have solver problems"
+  },
+  {
+   "name": "aqchem.F",
+   "type": "program",
+   "role": "aqueous chemistry routine/subroutine that employs the forward Euler solver for oxidation reactions"
+  },
+  {
+   "name": "Carlton et al. (2008)",
+   "type": "other",
+   "role": "cited source describing the in-cloud secondary organic aerosol (cloud SOA) reactions added to the model"
+  },
+  {
+   "name": "Carlton, A.G., B.J. Turpin, K.E. Altieri, S.P. Seitzinger, R. Mathur, S.J. Roselle, and R.J. Weber",
+   "type": "person",
+   "role": "authors of the cited 2008 paper in Environ. Sci. Technol."
+  },
+  {
+   "name": "Environmental Science & Technology",
+   "type": "other",
+   "role": "journal in which the cited Carlton et al. 2008 paper appeared (vol. 42, issue 23)"
+  },
+  {
+   "name": "mercury (Hg)",
+   "type": "other",
+   "role": "element whose covalence states are converted by new hydroxyl radical reactions in the aqueous chemistry routine"
+  },
+  {
+   "name": "cloud SOA",
+   "type": "other",
+   "role": "in-cloud secondary organic aerosol produced by new hydroxyl radical reactions"
+  },
+  {
+   "name": "forward Euler solver",
+   "type": "program",
+   "role": "numerical solver employed by aqchem.F for oxidation reactions, prone to instability when stiff"
+  }
+ ],
+ "tags": [
+  "aqueous chemistry",
+  "cmaq",
+  "numerical solver",
+  "atmospheric modeling",
+  "sulfate",
+  "mass conservation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2268,
+  "output_tokens": 1586
+ }
+}

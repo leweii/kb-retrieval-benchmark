@@ -1,0 +1,130 @@
+{
+ "summary": "This MathWorks documentation example sets up an end-to-end pick-and-place workflow for a Kinova Gen3 manipulator simulated in Gazebo and controlled from MATLAB over ROS 1. The robot scans the scene with a depth camera, builds a point-cloud-based planning scene, detects bottles and cans with ICP registration, and uses RRT path planning to move recyclable parts into two bins. The page also includes navigation and boilerplate, which were ignored.",
+ "one_line": "MathWorks example of a Kinova Gen3 arm sorting recyclable parts in Gazebo using point-cloud processing, ICP detection, and RRT path planning.",
+ "key_facts": [
+  "The example sets up an end-to-end pick-and-place workflow for a robotic manipulator like the Kinova Gen3.",
+  "The example identifies and recycles objects into two bins using a Kinova Gen3 manipulator.",
+  "The example uses tools from five toolboxes, including Robotics System Toolbox, ROS Toolbox, Image Processing Toolbox, and Computer Vision Toolbox.",
+  "The simulation runs in Gazebo using ROS 1, and the VM contains ROS Melodic.",
+  "The MATLAB connection to ROS is started with rosinit using port 11311.",
+  "The robot moves to scanning poses and captures point clouds with an onboard depth sensor, then merges them using pcmerge.",
+  "The merged point cloud is segmented based on Euclidean distance using pcsegdist, and the segments are encoded as collision meshes for RRT path planning.",
+  "The manipulatorRRT object plans paths from an initial to a desired joint configuration while avoiding collisions.",
+  "Trajectories are generated with trapveltraj using a trapezoidal profile and sampled every 0.1 seconds.",
+  "The functions exampleCommandDetectParts and exampleCommandClassifyParts use the pcregistericp (ICP) algorithm to identify which segmented point clouds match objects to pick.",
+  "In the sample run, the detection step reported 'Bottle detected...' and 'Can detected...'.",
+  "The gripper is controlled through the action '/my_gen3/custom_gripper_controller/gripper_cmd'.",
+  "The joint-trajectory controller is implemented in the KINOVA ROS package (ros_kortex), which uses ros_control.",
+  "The placing poses are defined for two belts at positions [0.2 0.55 0.26] and [0.2 -0.55 0.26]."
+ ],
+ "entities": [
+  {
+   "name": "Kinova Gen3",
+   "type": "product",
+   "role": "robotic manipulator arm simulated and controlled in the pick-and-place example"
+  },
+  {
+   "name": "Robotics System Toolbox",
+   "type": "product",
+   "role": "toolbox used to model and simulate the manipulator"
+  },
+  {
+   "name": "ROS Toolbox",
+   "type": "product",
+   "role": "toolbox used for connecting MATLAB to Gazebo"
+  },
+  {
+   "name": "Image Processing Toolbox",
+   "type": "product",
+   "role": "toolbox used for object detection using point cloud processing"
+  },
+  {
+   "name": "Computer Vision Toolbox",
+   "type": "product",
+   "role": "toolbox used for object detection using point cloud processing and simulated depth camera"
+  },
+  {
+   "name": "Gazebo",
+   "type": "product",
+   "role": "simulator in which the robot world runs"
+  },
+  {
+   "name": "Robot Operating System (ROS)",
+   "type": "program",
+   "role": "middleware used to connect MATLAB with the simulated robot"
+  },
+  {
+   "name": "ROS Melodic",
+   "type": "program",
+   "role": "ROS version contained in the virtual machine used for this example"
+  },
+  {
+   "name": "ros_kortex",
+   "type": "program",
+   "role": "ROS package provided by KINOVA to simulate and control the robot in Gazebo"
+  },
+  {
+   "name": "ros_control",
+   "type": "program",
+   "role": "framework used by the packages to control joints to desired joint positions"
+  },
+  {
+   "name": "manipulatorRRT",
+   "type": "product",
+   "role": "object that defines the RRT planner for paths avoiding collisions"
+  },
+  {
+   "name": "pcregistericp",
+   "type": "product",
+   "role": "function implementing the iterative closest point registration used to identify parts to pick"
+  },
+  {
+   "name": "pcmerge",
+   "type": "product",
+   "role": "function used to merge captured point clouds into a single point cloud"
+  },
+  {
+   "name": "pcsegdist",
+   "type": "product",
+   "role": "function used to segment the point cloud based on Euclidean distance"
+  },
+  {
+   "name": "trapveltraj",
+   "type": "product",
+   "role": "function that assigns time steps to waypoints following a trapezoidal profile"
+  },
+  {
+   "name": "exampleCommandBuildWorld",
+   "type": "program",
+   "role": "function that identifies the planning scene by scanning the environment"
+  },
+  {
+   "name": "exampleCommandDetectParts",
+   "type": "program",
+   "role": "function that detects objects to pick using the depth camera feed"
+  },
+  {
+   "name": "Pick and Place Using RRT for Manipulators",
+   "type": "program",
+   "role": "related example on RRT planning for manipulators"
+  },
+  {
+   "name": "Pick-and-Place Workflow Using RRT Planner and Stateflow for MATLAB",
+   "type": "program",
+   "role": "related example that examines the workflow in detail"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "manipulator",
+  "gazebo",
+  "ros",
+  "point-cloud",
+  "path-planning"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11609,
+  "output_tokens": 1711
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "summary": "This is a Snowflake Account Usage reference page for the TASK_VERSIONS view, which records the history of task versions and their properties in task graphs (DAGs) at a given time. It lists the view's columns with data types and descriptions, notes that data latency may be up to 3 hours, and gives two example queries: one retrieving tasks from a specific task graph by ROOT_TASK_ID and GRAPH_VERSION, and one joining task_history with task_versions to show task runs with task information.",
+ "one_line": "Snowflake Account Usage view TASK_VERSIONS, documenting the columns and history of task graph versions and their properties.",
+ "key_facts": [
+  "The TASK_VERSIONS view is an Account Usage view available to all accounts.",
+  "The view enables retrieval of the history of task versions and their properties at a given time.",
+  "ROOT_TASK_ID is a TEXT column identifying the root task in a DAG and matches the ID column value in SHOW TASKS output.",
+  "GRAPH_VERSION is a NUMBER column that is an integer identifying the version of the task.",
+  "GRAPH_VERSION_CREATED_ON is a TIMESTAMP_LTZ column recording when this version of the task graph was saved.",
+  "Recreating a task using CREATE OR REPLACE TASK creates a new task with a new ID.",
+  "PREDECESSORS is an ARRAY column listing predecessor tasks with fully-qualified names, and displays an empty array if the task has no predecessor.",
+  "STATE is a TEXT column showing whether the task is started or suspended, and is NULL for root tasks.",
+  "ALLOW_OVERLAPPING_EXECUTION is a BOOLEAN column that displays TRUE for root tasks if overlapping execution of the DAG is explicitly allowed, and NULL for child tasks.",
+  "ERROR_INTEGRATION names the notification integration used to access Amazon Simple Notification Service (SNS) to relay error notifications.",
+  "LAST_COMMITTED_ON is NULL if the task has not been resumed or manually executed after it was created.",
+  "LAST_SUSPENDED_ON records when the task was last suspended and is NULL if the task has not been suspended yet.",
+  "OWNER_ROLE_TYPE is either ROLE or DATABASE_ROLE, or APPLICATION if a Snowflake Native App owns the object.",
+  "Snowflake returns NULL for OWNER_ROLE_TYPE if the object was deleted because a deleted object does not have an owner role.",
+  "Usage notes state that latency for the view may be up to 3 hours."
+ ],
+ "entities": [
+  {
+   "name": "TASK_VERSIONS",
+   "type": "product",
+   "role": "Account Usage view described on the page, which retrieves the history of task versions and their properties"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the Account Usage views and SQL commands such as SHOW TASKS and CREATE OR REPLACE TASK documented on the page"
+  },
+  {
+   "name": "task_history",
+   "type": "product",
+   "role": "Account Usage view joined with task_versions in the second example to retrieve task runs for a task graph"
+  },
+  {
+   "name": "Amazon Simple Notification Service (SNS)",
+   "type": "product",
+   "role": "Service accessed through the notification integration to relay error notifications for a task"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account usage",
+  "tasks",
+  "task graphs",
+  "dag",
+  "sql views"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2971,
+  "output_tokens": 1121
+ }
+}

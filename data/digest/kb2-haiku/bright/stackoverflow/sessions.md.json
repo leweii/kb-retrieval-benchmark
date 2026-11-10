@@ -1,0 +1,59 @@
+{
+ "summary": "This note documents the SESSIONS view, an Account Usage view in Snowflake that records session information, including the authentication method used to access Snowflake and the login event. It returns one row per session created over the last year. The note lists the view's columns with data types and descriptions, covering session, user, authentication, and client application details, plus the possible values for why a session closes. It also gives usage notes on latency, the start date of data, and what the view does not track.",
+ "one_line": "Reference documentation for Snowflake's SESSIONS Account Usage view, covering session columns, closure reasons, and usage limitations.",
+ "key_facts": [
+  "The SESSIONS view is an Account Usage view that provides information on the session, including the authentication method to Snowflake and the Snowflake login event.",
+  "Snowflake returns one row for each session created over the last year.",
+  "SESSION_ID is a Number that is the unique identifier for the current session.",
+  "CREATED_ON is a TIMESTAMP_LTZ giving the date and time, in the UTC time zone, when the session was created.",
+  "AUTHENTICATION_METHOD is a String giving the authentication method used to access Snowflake.",
+  "LOGIN_EVENT_ID is a Number that is the unique identifier for the login event.",
+  "CLIENT_APPLICATION_VERSION is a String giving the version number (e.g. 3.8.7) of the Snowflake-provided client application used to create the remote session.",
+  "CLIENT_BUILD_ID is a String giving the build number (e.g. 41897) of the third-party client application, if available, such as a Java application using the JDBC driver.",
+  "CLOSED_REASON is a String giving the reason a Snowflake session closes, with values including UNKNOWN, DROP_USER, LOGOUT, FORCED_LOGOUT, ABANDONED, OAUTH_CRITICAL_CHANGE_INTEGRATION, DROP_ACCOUNT, OAUTH_CONSENT_REVOKED, TASK_COMPLETED, and SFC_FORCED_LOGOUT.",
+  "Latency for the view may be up to 180 minutes (3 hours).",
+  "The view displays data starting from July 20-21, 2020.",
+  "The SESSIONS view does not currently track SQL API transient sessions.",
+  "This view does not record the activity of internal users the system defines to perform various operations, such as maintaining Snowsight worksheets."
+ ],
+ "entities": [
+  {
+   "name": "SESSIONS view",
+   "type": "product",
+   "role": "Account Usage view that provides information on Snowflake sessions, authentication method, and login events"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "Platform whose sessions and authentication methods the SESSIONS view reports on"
+  },
+  {
+   "name": "JDBC",
+   "type": "product",
+   "role": "Example client driver used to create a remote session, e.g. JDBC 3.8.7 as a client application identifier"
+  },
+  {
+   "name": "Snowsight",
+   "type": "product",
+   "role": "Snowflake interface whose worksheets are maintained by internal users not recorded in the view"
+  },
+  {
+   "name": "SQL API",
+   "type": "product",
+   "role": "Interface whose transient sessions the SESSIONS view does not currently track"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account usage",
+  "sessions",
+  "authentication",
+  "database views",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1980,
+  "output_tokens": 1069
+ }
+}

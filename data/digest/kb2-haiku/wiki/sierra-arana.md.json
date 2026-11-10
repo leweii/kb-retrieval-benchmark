@@ -1,0 +1,49 @@
+{
+ "summary": "The note describes the Sierra Arana, also called Sierra de Arana or Sierra Harana, a mountain range located in the centre of the province of Granada in southern Spain. It identifies the Peña de la Cruz as the range's highest peak.",
+ "one_line": "Sierra Arana is a mountain range in central Granada province, southern Spain, whose highest peak is the Peña de la Cruz.",
+ "key_facts": [
+  "The Sierra Arana is also known as Sierra de Arana or Sierra Harana.",
+  "The Sierra Arana is a mountain range in the center of the province of Granada.",
+  "The Sierra Arana is located in southern Spain.",
+  "The highest peak of the Sierra Arana is the Peña de la Cruz."
+ ],
+ "entities": [
+  {
+   "name": "Sierra Arana",
+   "type": "place",
+   "role": "mountain range in the center of the province of Granada, southern Spain, also known as Sierra de Arana or Sierra Harana"
+  },
+  {
+   "name": "Sierra de Arana",
+   "type": "place",
+   "role": "alternative name of the Sierra Arana"
+  },
+  {
+   "name": "Sierra Harana",
+   "type": "place",
+   "role": "alternative name of the Sierra Arana"
+  },
+  {
+   "name": "Peña de la Cruz",
+   "type": "place",
+   "role": "highest peak of the Sierra Arana"
+  },
+  {
+   "name": "Province of Granada",
+   "type": "place",
+   "role": "province in southern Spain where the Sierra Arana is located"
+  }
+ ],
+ "tags": [
+  "mountains",
+  "spain",
+  "granada",
+  "geography",
+  "sierra arana"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1057,
+  "output_tokens": 500
+ }
+}

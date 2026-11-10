@@ -1,0 +1,90 @@
+{
+ "summary": "This note describes the layout and orbital mechanics of the Solar System, the gravitationally bound system of the Sun and the objects orbiting it. It explains that orbital spacing generally grows with distance from the Sun, that no accepted theory yet explains those distances, and that Kepler's laws govern orbits as ellipses with the Sun at one focus. It also covers perihelion, aphelion, and how orbit shapes differ between planets and smaller bodies.",
+ "one_line": "Overview of the Solar System's structure, orbital spacing, and Kepler's laws of planetary motion.",
+ "key_facts": [
+  "Venus is approximately 0.33 AU farther from the Sun than Mercury.",
+  "Saturn is 4.3 AU out from Jupiter.",
+  "Neptune lies 10.5 AU out from Uranus.",
+  "The Titius–Bode law is an attempt to determine a relationship between orbital distances, but no such theory has been accepted.",
+  "The Solar System is the gravitationally bound system comprising the Sun and the objects that orbit it, either directly or indirectly.",
+  "The largest eight objects that orbit the Sun directly are the planets.",
+  "Two of the moons that orbit the Sun indirectly are larger than the smallest planet, Mercury.",
+  "Kepler's laws of planetary motion describe the orbits of objects about the Sun.",
+  "Following Kepler's laws, each object travels along an ellipse with the Sun at one focus.",
+  "Objects closer to the Sun (with smaller semi-major axes) travel more quickly because they are more affected by the Sun's gravity.",
+  "A body's closest approach to the Sun is called its perihelion.",
+  "A body's most distant point from the Sun is called its aphelion.",
+  "The orbits of the planets are nearly circular.",
+  "Many comets, asteroids, and Kuiper belt objects follow highly elliptical orbits.",
+  "The positions of the bodies in the Solar System can be predicted using numerical models."
+ ],
+ "entities": [
+  {
+   "name": "Solar System",
+   "type": "place",
+   "role": "gravitationally bound system comprising the Sun and the objects that orbit it"
+  },
+  {
+   "name": "Sun",
+   "type": "place",
+   "role": "central star that the Solar System's objects orbit, located at one focus of each elliptical orbit"
+  },
+  {
+   "name": "Mercury",
+   "type": "place",
+   "role": "smallest planet, used as the size comparison for the moons"
+  },
+  {
+   "name": "Venus",
+   "type": "place",
+   "role": "planet approximately 0.33 AU farther from the Sun than Mercury"
+  },
+  {
+   "name": "Jupiter",
+   "type": "place",
+   "role": "planet from which Saturn lies 4.3 AU out"
+  },
+  {
+   "name": "Saturn",
+   "type": "place",
+   "role": "planet 4.3 AU out from Jupiter"
+  },
+  {
+   "name": "Uranus",
+   "type": "place",
+   "role": "planet from which Neptune lies 10.5 AU out"
+  },
+  {
+   "name": "Neptune",
+   "type": "place",
+   "role": "planet lying 10.5 AU out from Uranus"
+  },
+  {
+   "name": "Titius–Bode law",
+   "type": "program",
+   "role": "proposed but unaccepted relationship between orbital distances"
+  },
+  {
+   "name": "Kepler's laws of planetary motion",
+   "type": "program",
+   "role": "laws describing elliptical orbits of objects about the Sun"
+  },
+  {
+   "name": "Kuiper belt",
+   "type": "place",
+   "role": "region whose objects follow highly elliptical orbits"
+  }
+ ],
+ "tags": [
+  "astronomy",
+  "solar system",
+  "orbital mechanics",
+  "kepler's laws",
+  "planets"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1567,
+  "output_tokens": 1136
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "summary": "The note covers deficiency of L-gulonolactone oxidase (GULO), the enzyme that makes the precursor to vitamin C. Its gene was lost independently in haplorhine primates (including humans), guinea pigs, and some bats, leaving a pseudogene (GULOP). It also discusses possible adaptations after the loss, animal and plant models, and related sugar-1,4-lactone oxidases.",
+ "one_line": "GULO, the enzyme for vitamin C synthesis, was lost independently in humans and other haplorhine primates, guinea pigs and some bats, with evolutionary consequences and research models.",
+ "key_facts": [
+  "The non-functional gulonolactone oxidase pseudogene (GULOP) was mapped to human chromosome 8p21.",
+  "GULO produces the precursor to ascorbic acid, which spontaneously converts to the vitamin itself.",
+  "GULO activity has been lost independently in several species, including some bats, guinea pigs, and the haplorrhine primates.",
+  "Loss of GULO activity in primates occurred about 63 million years ago, around the split into suborders Haplorhini (lost the enzyme) and Strepsirrhini (retained it).",
+  "Haplorhines include tarsiers and simians; strepsirrhines include lorises, galagos, pottos, and to some extent lemurs.",
+  "OMIM describes L-gulonolactone oxidase deficiency, called 'hypoascorbemia', as 'a public inborn error of metabolism' affecting all humans; its pathological form is scurvy.",
+  "Guinea pigs lost the ability to make GULO 20 million years ago.",
+  "Linus Pauling observed that apo(a) and Lp(a) were greatly favored by evolution after loss of endogenous ascorbate production, acting as ascorbate surrogate.",
+  "Johnson et al. hypothesized that GULOP mutation benefited early primates by increasing uric acid levels and enhancing fructose effects on weight gain and fat accumulation, giving a survival advantage when food was short.",
+  "In 1999, Maeda et al. genetically engineered mice with inactivated GULO gene; they depend entirely on dietary vitamin C and show compromised vasculature integrity.",
+  "Only primates share regulation of CAMP gene expression by vitamin D, which occurred after the loss of the GULO gene.",
+  "Overexpressing inositol oxygenase and gulono-1,4-lactone oxidase in Arabidopsis thaliana leads to enhanced biomass and tolerance to abiotic stresses.",
+  "GULO belongs to a family of sugar-1,4-lactone oxidases that includes yeast D-arabinono-1,4-lactone oxidase (ALO), which produces erythorbic acid."
+ ],
+ "entities": [
+  {
+   "name": "L-gulonolactone oxidase (GULO)",
+   "type": "product",
+   "role": "enzyme producing the precursor to vitamin C"
+  },
+  {
+   "name": "GULOP",
+   "type": "other",
+   "role": "non-functional GULO pseudogene mapped to human chromosome 8p21"
+  },
+  {
+   "name": "Haplorhini",
+   "type": "other",
+   "role": "primate suborder that lost GULO activity, including tarsiers and simians"
+  },
+  {
+   "name": "Strepsirrhini",
+   "type": "other",
+   "role": "primate suborder that retained GULO activity"
+  },
+  {
+   "name": "Guinea pigs",
+   "type": "other",
+   "role": "species that lost GULO activity and are a popular human model"
+  },
+  {
+   "name": "Linus Pauling",
+   "type": "person",
+   "role": "observed evolutionary favoring of apo(a) and Lp(a) after loss of ascorbate production"
+  },
+  {
+   "name": "Johnson et al.",
+   "type": "person",
+   "role": "hypothesized survival benefit of GULOP mutation via uric acid and fructose effects"
+  },
+  {
+   "name": "Maeda et al.",
+   "type": "person",
+   "role": "created GULO-inactivated mice in 1999"
+  },
+  {
+   "name": "OMIM (Online Mendelian Inheritance in Man)",
+   "type": "organization",
+   "role": "describes GULO deficiency as a public inborn error of metabolism"
+  },
+  {
+   "name": "Arabidopsis thaliana",
+   "type": "other",
+   "role": "plant used to study vitamin C"
+  },
+  {
+   "name": "D-arabinono-1,4-lactone oxidase (ALO)",
+   "type": "product",
+   "role": "yeast enzyme related to GULO producing erythorbic acid"
+  },
+  {
+   "name": "Scurvy",
+   "type": "other",
+   "role": "pathological result of ascorbate deficiency"
+  }
+ ],
+ "tags": [
+  "vitamin c",
+  "gulo",
+  "evolution",
+  "primates",
+  "enzymes",
+  "genetics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2922,
+  "output_tokens": 1506
+ }
+}

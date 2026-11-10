@@ -1,0 +1,116 @@
+{
+ "summary": "This Wikipedia article defines remote sensing as acquiring information about an object or phenomenon without physical contact, especially about Earth and other planets. It covers active and passive methods, the main application areas, and data characteristics such as spatial, spectral, radiometric and temporal resolution. It also describes data processing, NASA processing levels, historical development from aerial photography to satellites, and education. The excerpt ends before the software and gamma-ray sections, and the 'Acoustic and near-acoustic' subsection is only a short part of the article.",
+ "one_line": "Wikipedia overview of remote sensing: acquiring information about Earth and planets at a distance via active and passive sensors, covering applications, data processing and history.",
+ "key_facts": [
+  "Remote sensing is the acquisition of information about an object or phenomenon without making physical contact with the object, in contrast to in situ or on-site observation.",
+  "Active remote sensing emits a signal toward an object and detects its reflection, while passive remote sensing detects reflected sunlight.",
+  "RADAR and LiDAR are examples of active remote sensing where the time delay between emission and return is measured.",
+  "Reflected sunlight is the most common source of radiation measured by passive sensors.",
+  "Landsat has been used for simultaneous multi-spectral imaging since the 1970s.",
+  "The Hyperion sensor on Earth Observing-1 resolves 220 bands from 0.4 to 2.5 μm.",
+  "Radiometric resolution typically ranges from 8 to 14 bits, corresponding to 256 gray levels up to 16,384 shades per band.",
+  "NASA defined data processing levels in 1986 as part of its Earth Observing System.",
+  "The LACIE (Large Area Crop Inventory Experiment) project, run by NASA, NOAA and the USDA in 1974–77, was the first large project to apply Landsat images to statistics.",
+  "The term 'remote sensing' was coined in the early 1960s by Evelyn Pruitt with assistance from Walter Bailey at the Office of Naval Research.",
+  "The first commercial satellite collecting very high resolution imagery, IKONOS, was launched in 1999.",
+  "Sonar includes passive sonar, which listens for sounds made by another object, and active sonar, which emits pulses and listens for echoes.",
+  "Ultrasound sensors emit high-frequency pulses and listen for echoes, used for detecting water waves and water level, as in tide gauges.",
+  "Georeferencing typically involves computer-aided matching of 30 or more points per image to a benchmark.",
+  "The 2001 Mars Odyssey used spectrometers and imagers to hunt for evidence of past or present water and volcanic activity on Mars."
+ ],
+ "entities": [
+  {
+   "name": "Landsat",
+   "type": "program",
+   "role": "multi-spectral Earth observation satellite program in use since the 1970s, used for land cover mapping and water quality indicators"
+  },
+  {
+   "name": "IKONOS",
+   "type": "product",
+   "role": "satellite launched in 1999 as the first commercial satellite collecting very high resolution imagery"
+  },
+  {
+   "name": "Hyperion sensor on Earth Observing-1",
+   "type": "product",
+   "role": "sensor resolving 220 bands from 0.4 to 2.5 μm"
+  },
+  {
+   "name": "LACIE (Large Area Crop Inventory Experiment)",
+   "type": "program",
+   "role": "first large project applying Landsat images to statistics, run by NASA, NOAA and USDA in 1974–77"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "defined data processing levels in 1986 as part of its Earth Observing System"
+  },
+  {
+   "name": "Evelyn Pruitt",
+   "type": "person",
+   "role": "realized aerial photography was no longer an adequate term and coined 'remote sensing' with Walter Bailey"
+  },
+  {
+   "name": "Walter Bailey",
+   "type": "person",
+   "role": "fellow staff member at the Office of Naval Research who assisted Evelyn Pruitt in coining the term 'remote sensing'"
+  },
+  {
+   "name": "Office of Naval Research",
+   "type": "organization",
+   "role": "workplace of Evelyn Pruitt and Walter Bailey when they coined the term 'remote sensing'"
+  },
+  {
+   "name": "Janet Franklin",
+   "type": "person",
+   "role": "prominent scientist using remote sensing for vegetation and land mapping"
+  },
+  {
+   "name": "Ruth DeFries",
+   "type": "person",
+   "role": "prominent scientist using remote sensing for vegetation and land mapping"
+  },
+  {
+   "name": "Magellan spacecraft",
+   "type": "product",
+   "role": "carried synthetic aperture radar that provided detailed topographic maps of Venus"
+  },
+  {
+   "name": "Mars Odyssey",
+   "type": "product",
+   "role": "2001 spacecraft using spectrometers and imagers to search Mars for water and volcanic activity"
+  },
+  {
+   "name": "Google Earth",
+   "type": "product",
+   "role": "software used by 80% of German students, downloaded 100 million times in 2006"
+  },
+  {
+   "name": "KYDOW",
+   "type": "organization",
+   "role": "regulatory agency using Landsat images to indicate water quality parameters"
+  },
+  {
+   "name": "James Bagley",
+   "type": "person",
+   "role": "author quoted from a 1941 textbook 'Aerophotography and Aerosurverying'"
+  },
+  {
+   "name": "Nadar (G. Tournachon)",
+   "type": "person",
+   "role": "balloonist who made photographs of Paris from his balloon in 1858"
+  }
+ ],
+ "tags": [
+  "remote sensing",
+  "earth observation",
+  "satellites",
+  "sonar",
+  "data processing",
+  "geospatial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11141,
+  "output_tokens": 1789
+ }
+}

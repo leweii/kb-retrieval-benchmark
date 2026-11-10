@@ -1,0 +1,96 @@
+{
+ "summary": "This is the pandas 2.2.2 API reference page for SeriesGroupBy.agg, which aggregates a Series using one or more operations. It documents the parameters (func, args, engine, engine_kwargs, kwargs), the return type, and related methods, with examples of single and multiple aggregations, named aggregation, and dtype behavior. Site navigation, footer, and build credits are boilerplate and were ignored.",
+ "one_line": "Reference page for pandas SeriesGroupBy.agg, covering its func, engine, and named-aggregation options with examples.",
+ "key_facts": [
+  "SeriesGroupBy.agg aggregates using one or more operations over the specified axis and returns a Series.",
+  "The func parameter accepts a function, a string function name, a list of functions and/or function names, or None.",
+  "When func is None, **kwargs are used with Named Aggregation, with one output column per keyword argument.",
+  "Passing a dictionary as func was deprecated since version 2.1.0 and will raise in a future version of pandas; passing a list of aggregations is recommended instead.",
+  "The engine parameter accepts 'cython' or 'numba'; None defaults to 'cython' or to the globally set compute.use_numba option.",
+  "For the 'numba' engine, engine_kwargs accepts the keys nopython, nogil and parallel, with default {'nopython': True, 'nogil': False, 'parallel': False}.",
+  "For the 'cython' engine there are no accepted engine_kwargs.",
+  "When engine='numba' is used, there is no fall back behavior; group data and group index are passed as numpy arrays to the JITed user defined function.",
+  "Functions that mutate the passed object can produce unexpected behavior or errors and are not supported.",
+  "Changed in version 1.3.0: the resulting dtype reflects the return value of the passed func.",
+  "Example: s = pd.Series([1, 2, 3, 4]) with s.groupby([1, 1, 2, 2]).agg(['min', 'max']) returns min and max columns with values 1 and 2 for group 1, and 3 and 4 for group 2.",
+  "Using agg(minimum='min', maximum='max') on the grouped Series names the output columns minimum and maximum.",
+  "Using agg(lambda x: x.astype(float).min()) on the grouped Series returns float64 values 1.0 and 3.0.",
+  "The See also section lists Series.groupby.apply, Series.groupby.transform and Series.aggregate as related methods.",
+  "The page is copyright 2024 pandas via NumFOCUS, Inc., hosted by OVHcloud, and built with Sphinx 7.2.6 and the PyData Sphinx Theme 0.14.4."
+ ],
+ "entities": [
+  {
+   "name": "pandas",
+   "type": "product",
+   "role": "Python data analysis library whose 2.2.2 documentation contains this page"
+  },
+  {
+   "name": "SeriesGroupBy.agg",
+   "type": "other",
+   "role": "API method documented on the page that aggregates a Series using one or more operations"
+  },
+  {
+   "name": "Named Aggregation",
+   "type": "other",
+   "role": "mechanism where keyword arguments define output column names and aggregations when func is None"
+  },
+  {
+   "name": "numba",
+   "type": "program",
+   "role": "JIT compiler selectable as the engine='numba' option for running user defined functions"
+  },
+  {
+   "name": "cython",
+   "type": "program",
+   "role": "C-extension engine, the default engine for aggregation"
+  },
+  {
+   "name": "Series.groupby.apply",
+   "type": "other",
+   "role": "related method that applies a function group-wise and combines results, listed in See also"
+  },
+  {
+   "name": "Series.groupby.transform",
+   "type": "other",
+   "role": "related method that transforms the Series on each group, listed in See also"
+  },
+  {
+   "name": "Series.aggregate",
+   "type": "other",
+   "role": "related method that aggregates using one or more operations over the specified axis, listed in See also"
+  },
+  {
+   "name": "NumFOCUS, Inc.",
+   "type": "organization",
+   "role": "organization credited with pandas copyright on the page"
+  },
+  {
+   "name": "OVHcloud",
+   "type": "organization",
+   "role": "host of the pandas documentation site"
+  },
+  {
+   "name": "Sphinx",
+   "type": "product",
+   "role": "documentation tool used to create the page, version 7.2.6"
+  },
+  {
+   "name": "PyData Sphinx Theme",
+   "type": "product",
+   "role": "theme used to build the page, version 0.14.4"
+  }
+ ],
+ "tags": [
+  "pandas",
+  "python",
+  "groupby",
+  "aggregation",
+  "api-reference",
+  "data-analysis"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17773,
+  "output_tokens": 2298
+ }
+}

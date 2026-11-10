@@ -1,0 +1,111 @@
+{
+ "summary": "This is a clipped MoveIt documentation page, titled \"movegroupinterfacetu\", whose extracted text is almost entirely site navigation. It lists the MoveIt tutorial index across MoveIt 2 (Humble, Rolling) and MoveIt 1 (Noetic, Melodic), with the Move Group C++ Interface section and its subsections (Setup, Visualization, Planning to a Pose goal, Cartesian Paths, Adding objects, Attaching objects) as the page's focus. The note contains no tutorial body text, so specific technical details, code, or outputs are not available.",
+ "one_line": "Navigation index of MoveIt robot-motion-planning tutorials, centered on the Move Group C++ Interface section, across ROS 1 and ROS 2 versions.",
+ "key_facts": [
+  "The page lists MoveIt versions Moveit 2 - Humble, Moveit 2 - Rolling, MoveIt 1 - Noetic, and MoveIt 1 - Melodic.",
+  "The Move Group C++ Interface tutorial section lists the subsections Getting Started, Running the Code, Expected Output, and The Entire Code.",
+  "The Move Group C++ Interface's code subsections include Setup, Visualization, Getting Basic Information, Start the demo, and Planning to a Pose goal.",
+  "Further Move Group C++ Interface subsections include Visualizing plans, Moving to a pose goal, Planning to a joint-space goal, and Planning with Path Constraints.",
+  "The Move Group C++ Interface tutorial also covers Enforce Planning in Joint Space, Cartesian Paths, Adding objects to the environment, and Attaching objects to the robot.",
+  "The Move Group C++ Interface tutorial ends with Detaching and Removing Objects, The Launch File, and A Note on Setting Tolerances.",
+  "The site's quickstart tutorial is titled MoveIt Quickstart in RViz and includes a step to interact with the Panda robot.",
+  "The Move Group Python Interface tutorial is a separate page that includes Planning to a Joint Goal and Cartesian Paths sections.",
+  "Other listed tutorials include Planning Scene, Planning Scene Monitor, Motion Planning API, Motion Planning Pipeline, and Creating MoveIt Plugins.",
+  "Other listed tutorials include MoveIt Grasps, MoveIt Task Constructor, MoveIt Deep Grasps, and MoveItCpp Tutorial.",
+  "The MoveIt Setup Assistant tutorial has 12 numbered steps, from Step 1: Start through Step 12: Generate Configuration Files.",
+  "The URDF and SRDF tutorial covers Virtual Joints, Passive Joints, Groups, End-Effectors, Self-Collisions, and Robot Poses.",
+  "The Mesh Filter tutorial is titled Mesh Filter with UR5 and Kinect.",
+  "The Bullet collision checker tutorial is titled Using Bullet for Collision Checking and includes Continuous Collision Detection.",
+  "The note body contains no explanatory text beyond the navigation and section headings."
+ ],
+ "entities": [
+  {
+   "name": "MoveIt",
+   "type": "product",
+   "role": "robot motion planning framework whose documentation tutorials are indexed on this page"
+  },
+  {
+   "name": "Move Group C++ Interface",
+   "type": "program",
+   "role": "tutorial section whose subsections form the page's main focus"
+  },
+  {
+   "name": "MoveIt Quickstart in RViz",
+   "type": "program",
+   "role": "tutorial that launches the demo and configures the plugin, then interacts with the Panda"
+  },
+  {
+   "name": "Panda",
+   "type": "product",
+   "role": "robot used in the quickstart tutorial's interaction and motion-planning steps"
+  },
+  {
+   "name": "RViz",
+   "type": "product",
+   "role": "visualization tool used to start RViz and the MoveGroup node in tutorials"
+  },
+  {
+   "name": "Move Group Python Interface",
+   "type": "program",
+   "role": "separate tutorial covering the Python equivalent of the move group interface"
+  },
+  {
+   "name": "MoveIt Setup Assistant",
+   "type": "program",
+   "role": "tutorial covering 12 steps for configuring a robot for MoveIt"
+  },
+  {
+   "name": "MoveIt Grasps",
+   "type": "program",
+   "role": "tutorial covering grasp generation, filtering, and suction grasp pipelines"
+  },
+  {
+   "name": "MoveIt Task Constructor",
+   "type": "program",
+   "role": "tutorial covering installation, running the demo, and basic concepts"
+  },
+  {
+   "name": "MoveIt Deep Grasps",
+   "type": "program",
+   "role": "tutorial covering grasp pose detection and Dex-Net"
+  },
+  {
+   "name": "MoveItCpp Tutorial",
+   "type": "program",
+   "role": "tutorial covering planning with MoveItCpp"
+  },
+  {
+   "name": "Gazebo",
+   "type": "product",
+   "role": "simulator mentioned in the Setup Assistant and Deep Grasps tutorials"
+  },
+  {
+   "name": "UR5",
+   "type": "product",
+   "role": "robot arm used in the Mesh Filter tutorial"
+  },
+  {
+   "name": "Kinect",
+   "type": "product",
+   "role": "sensor used with the UR5 in the Mesh Filter tutorial"
+  },
+  {
+   "name": "Dex-Net",
+   "type": "program",
+   "role": "grasp-planning system covered in the MoveIt Deep Grasps tutorial"
+  }
+ ],
+ "tags": [
+  "moveit",
+  "robotics",
+  "motion-planning",
+  "ros",
+  "tutorial",
+  "navigation-index"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15193,
+  "output_tokens": 2206
+ }
+}

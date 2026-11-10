@@ -1,0 +1,96 @@
+{
+ "summary": "Bellemare and Wichman (February 2019) derive elasticity formulas for the inverse hyperbolic sine (arcsinh) transformation, which approximates a logarithm while retaining zero-valued observations. They cover four specifications (linear-arcsinh, arcsinh-linear, arcsinh-linear with a dummy, and arcsinh-arcsinh) and show with simulations and a re-analysis of the Dehejia and Wahba (1999) NSW data that ad hoc transformations can produce substantially different elasticities. They close with guidelines for applied researchers, including delta-method standard errors and Stata code.",
+ "one_line": "Derives elasticity formulas for the inverse hyperbolic sine transformation and shows ad hoc transformations can substantially change estimated elasticities.",
+ "key_facts": [
+  "The inverse hyperbolic sine (arcsinh) transformation approximates the natural logarithm and allows retaining zero-valued observations.",
+  "The paper was authored by Marc F. Bellemare and Casey J. Wichman and is dated February 24, 2019.",
+  "The paper's word count is 4,279.",
+  "The arcsinh transformation is defined as arcsinh(x) = ln(x + sqrt(x^2 + 1)).",
+  "The derivative of arcsinh(x) with respect to x is 1/sqrt(x^2 + 1).",
+  "The paper focuses only on nonnegative variables because arcsinh is convex over negative values.",
+  "The empirical illustration uses data from Dehejia and Wahba (1999), an evaluation of LaLonde's (1986) National Supported Work (NSW) experiment.",
+  "In the NSW data, Earnings78 has 45 zero-valued observations for the treatment group and 92 for the control group.",
+  "In the NSW data, 111 treatment and 178 control observations have zero pre-treatment earnings (Earnings75).",
+  "In column (1) of Table 3, the NSW program increased post-treatment earnings by $1,750 per year, and the semi-elasticity was approximately 33%.",
+  "Using arcsinh on pre-treatment earnings reduced the earnings elasticity from 0.043 to 0.026, a nearly 40 percent reduction.",
+  "The paper suggests applying approximate elasticities for values of x or y no less than 10, since values above 10 reduce approximation error to less than half a percent.",
+  "Guideline 4 suggests that if a dataset has more than one third zero-valued observations, it is perhaps best to explicitly model selection out of zero, for example with a Tobit or zero-inflated model.",
+  "Guideline 6 states that standard errors for these nonlinear elasticity combinations should be obtained using the delta method.",
+  "Table 1 simulations show elasticities become more stable as the scaling constant k increases, with virtually no change for k > 10."
+ ],
+ "entities": [
+  {
+   "name": "Marc F. Bellemare",
+   "type": "person",
+   "role": "co-author; Northrop Professor, Department of Applied Economics, University of Minnesota"
+  },
+  {
+   "name": "Casey J. Wichman",
+   "type": "person",
+   "role": "co-author; Fellow, Resources for the Future"
+  },
+  {
+   "name": "Dehejia and Wahba (1999)",
+   "type": "other",
+   "role": "source of the subset of LaLonde's data used in the empirical illustration; reevaluated causal effects of training programs"
+  },
+  {
+   "name": "LaLonde (1986)",
+   "type": "other",
+   "role": "original study evaluating the National Supported Work experiment with experimental data"
+  },
+  {
+   "name": "National Supported Work (NSW) demonstration",
+   "type": "program",
+   "role": "experiment in which disadvantaged workers were randomly assigned to counseling and work experience or to a control group"
+  },
+  {
+   "name": "Halvorsen and Palmquist (1980)",
+   "type": "other",
+   "role": "cited for the interpretation of dummy variables in semilogarithmic equations"
+  },
+  {
+   "name": "Kennedy (1981)",
+   "type": "other",
+   "role": "cited for a small-sample bias correction for dummy variables in semilogarithmic equations"
+  },
+  {
+   "name": "Giles (1982)",
+   "type": "other",
+   "role": "cited for unbiased estimation of dummy variables in semilogarithmic equations"
+  },
+  {
+   "name": "Ravallion (forthcoming)",
+   "type": "other",
+   "role": "noted that arcsinh has undesirable properties for negative data because it is convex over negative values"
+  },
+  {
+   "name": "Angrist and Pischke (2008)",
+   "type": "other",
+   "role": "textbook Mostly Harmless Econometrics; Table 3.3.3 reproduces the Dehejia and Wahba data"
+  },
+  {
+   "name": "Resources for the Future",
+   "type": "organization",
+   "role": "affiliation of co-author Casey J. Wichman"
+  },
+  {
+   "name": "University of Minnesota",
+   "type": "organization",
+   "role": "affiliation of co-author Marc F. Bellemare"
+  }
+ ],
+ "tags": [
+  "econometrics",
+  "inverse hyperbolic sine",
+  "arcsinh",
+  "elasticities",
+  "log transformation",
+  "zero-valued observations"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12703,
+  "output_tokens": 1628
+ }
+}

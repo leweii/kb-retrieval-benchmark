@@ -1,0 +1,65 @@
+{
+ "summary": "This Snowflake documentation page describes the AGGREGATE_QUERY_HISTORY Account Usage view, which tracks statement execution over time and aggregates repeated SQL statements in one-minute intervals. It is especially useful for monitoring Unistore workloads that run a small number of distinct statements at high throughput. The page lists the view's columns, explains the OBJECT statistics fields and the QUERY_PARAMETERIZED_HASH column, notes up to 180 minutes of latency, and gives example queries for errors, throughput, top queries by execution count, and latency analysis.",
+ "one_line": "Snowflake Account Usage view that aggregates repeated query executions in one-minute intervals for workload monitoring and performance analysis.",
+ "key_facts": [
+  "AGGREGATE_QUERY_HISTORY is an Account Usage view available to all accounts.",
+  "The view aggregates repeated SQL statements in one-minute intervals and contains similar data to the QUERY_HISTORY view.",
+  "AGGREGATE_QUERY_HISTORY is particularly useful for monitoring Unistore workloads that execute a small number of distinct statements repeatedly at high throughput.",
+  "The CALLS column gives the number of times the statement (query + query plan) was executed in the aggregation interval.",
+  "The QUERY_PARAMETERIZED_HASH column is a hash computed on the query after parameterizing all literals, so queries differing only in literals such as 'TIM' and 'AIHUA' share the same value.",
+  "Identifier, session variable and stage names are case insensitive for QUERY_PARAMETERIZED_HASH, and white space differences are ignored.",
+  "OBJECT-type statistics fields include sum, avg, stddev, min, median, p90, p99, p99.9 and max across all executions within the aggregation interval.",
+  "The PERCENTAGE_SCANNED_FROM_CACHE value ranges from 0.0 to 1.0 and must be multiplied by 100 to get a true percentage.",
+  "The ERRORS column lists error codes and messages in the format {\"code\": \"code1\", \"message\": \"msg1\", \"count\": 10}.",
+  "TOTAL_ELAPSED_TIME is the elapsed time in milliseconds.",
+  "The usage notes state that latency for the view may be up to 180 minutes (3 hours).",
+  "The errors and hybrid table throttling example monitors TRANSACTION_BLOCKED_TIME, QUEUED_PROVISIONING_TIME, QUEUED_REPAIR_TIME, QUEUED_OVERLOAD_TIME and HYBRID_TABLE_REQUESTS_THROTTLED_COUNT.",
+  "The throughput example computes queries per second as SUM(calls) / 60 for the warehouse MY_WAREHOUSE.",
+  "The top-queries example ranks query_parameterized_hash values by SUM(calls) as execution_count in descending order."
+ ],
+ "entities": [
+  {
+   "name": "AGGREGATE_QUERY_HISTORY",
+   "type": "product",
+   "role": "Account Usage view that enables monitoring and tracking of statement execution over time, aggregated in one-minute intervals for repeated SQL statements"
+  },
+  {
+   "name": "QUERY_HISTORY",
+   "type": "product",
+   "role": "view that contains similar data to AGGREGATE_QUERY_HISTORY"
+  },
+  {
+   "name": "QUERY_PARAMETERIZED_HASH",
+   "type": "product",
+   "role": "column containing a hash value computed on the parameterized query, identifying identical parameterized queries"
+  },
+  {
+   "name": "MY_WAREHOUSE",
+   "type": "product",
+   "role": "example warehouse used in the throughput and top-query examples"
+  },
+  {
+   "name": "Unistore",
+   "type": "program",
+   "role": "workload type that executes a small number of distinct statements repeatedly at high throughput, for which the view is particularly useful"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the data platform whose account usage view is documented"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account usage",
+  "query history",
+  "performance monitoring",
+  "sql views",
+  "unistore"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7520,
+  "output_tokens": 1355
+ }
+}

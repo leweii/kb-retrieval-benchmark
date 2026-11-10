@@ -1,0 +1,79 @@
+{
+ "summary": "This DigitalOcean Community tutorial by Pankaj explains the Python for loop, covering its syntax, iterating over strings, lists, tuples, dictionaries and range() objects, and controlling loops with break, continue and an optional else block. It includes code examples with outputs and notes that for loops suit fixed repetition counts while while loops suit unknown counts. The page also carries much site navigation and boilerplate, which was ignored.",
+ "one_line": "A DigitalOcean tutorial on Python for loops covering iteration over sequences, range(), break, continue, and for-else.",
+ "key_facts": [
+  "The DigitalOcean tutorial 'Python for loop' was last updated on March 13, 2024 and written by author Pankaj.",
+  "The tutorial says a for loop is best used when a block of code must be repeated a fixed number of times; if the repeat count is unknown, a while loop should be used.",
+  "The basic Python for loop syntax is 'for itarator_variable in sequence_name:' followed by indented statements.",
+  "Iterating over the string word=\"anaconda\" with a for loop prints each of its characters on its own line.",
+  "The tuple nums = (1, 2, 3, 4) summed in a for loop gives 'Sum of numbers is 10'.",
+  "range() accepts between 1 and 3 integer arguments: start (default 0), stop (required and not included), and step (default 1).",
+  "Using range(1, 10, 3) in a for loop prints the values 1, 4 and 7 with the step label.",
+  "range(100,0,-10) with a negative step counts down from 100 to 10 by tens, stopping before 0.",
+  "The break statement exits a for loop prematurely; the example checking whether 2 is in [1, 2, 3, 4, 5, 6] outputs 'List contains 2: True'.",
+  "The continue statement skips the loop body for negative numbers, so the sum of positives in [1, 2, -3, 4, -5, 6] is computed.",
+  "The else block of a Python for loop runs only when the loop is not terminated by a break statement.",
+  "In the for-else example, print_sum_even_nums([2, 4, 6, 8]) prints 'Sum of numbers 20', while [2, 4, 5, 8] prints nothing because of the odd number.",
+  "Iterating over a dictionary in a for loop yields its keys, and dictionary_variable[key] retrieves the corresponding values.",
+  "The tutorial is part 25 of 36 in the 'How To Code in Python' tutorial series."
+ ],
+ "entities": [
+  {
+   "name": "Pankaj",
+   "type": "person",
+   "role": "author of the Python for loop tutorial"
+  },
+  {
+   "name": "DigitalOcean",
+   "type": "organization",
+   "role": "publisher of the tutorial through the DigitalOcean Community"
+  },
+  {
+   "name": "Python for loop",
+   "type": "program",
+   "role": "subject of the tutorial, an iterating control structure in Python"
+  },
+  {
+   "name": "How To Code in Python",
+   "type": "program",
+   "role": "tutorial series containing this article as entry 25/36"
+  },
+  {
+   "name": "range()",
+   "type": "program",
+   "role": "built-in function used with for loops to generate integer sequences"
+  },
+  {
+   "name": "while loop",
+   "type": "program",
+   "role": "alternative loop recommended when the number of repetitions is unknown"
+  },
+  {
+   "name": "Tweepy Library",
+   "type": "product",
+   "role": "library covered in a related tutorial on building a Twitterbot with Python 3"
+  },
+  {
+   "name": "Natural Language Toolkit NLTK",
+   "type": "product",
+   "role": "library covered in a related tutorial on working with language data in Python 3"
+  },
+  {
+   "name": "matplotlib",
+   "type": "product",
+   "role": "library covered in a related tutorial on graphing word frequency with Python 3"
+  }
+ ],
+ "tags": [
+  "python",
+  "for-loop",
+  "iteration",
+  "control-flow",
+  "programming-tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10649,
+  "output_tokens": 1229
+ }
+}

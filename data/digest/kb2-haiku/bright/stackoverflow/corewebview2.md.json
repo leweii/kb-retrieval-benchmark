@@ -1,0 +1,74 @@
+{
+ "summary": "This is a clipped Microsoft Learn reference page set for the WebView2 .NET API, covering several Core classes: the CoreWebView2Controller.AllowExternalDrop property, the CoreWebView2DevToolsProtocolEventReceivedEventArgs class, the CoreWebView2SharedBuffer class, and the CoreWebView2WebResourceResponseReceivedEventArgs class. Most of the text is repeated navigation, package version lists and boilerplate. The AllowExternalDrop property gets or sets whether dropping files into WebView2 is allowed, defaulting to true; the other classes are described by their definitions, properties and methods. The note is truncated at the end.",
+ "one_line": "Microsoft Learn .NET reference pages for WebView2 Core classes, including the AllowExternalDrop property, DevTools event args, and shared buffer.",
+ "key_facts": [
+  "CoreWebView2Controller.AllowExternalDrop is a public bool property with get and set accessors.",
+  "The AllowExternalDrop property configures whether dropping files into WebView2 is allowed or permitted.",
+  "The default value of AllowExternalDrop is true.",
+  "Example code sets webView.AllowExternalDrop = !webView.AllowExternalDrop; to toggle the property.",
+  "The classes listed are in the namespace Microsoft.Web.WebView2.Core, in assembly Microsoft.Web.WebView2.Core.dll.",
+  "CoreWebView2DevToolsProtocolEventReceivedEventArgs is a public class that inherits from EventArgs and carries event args for the DevToolsProtocolEventReceived event.",
+  "CoreWebView2DevToolsProtocolEventReceivedEventArgs exposes the ParameterObjectAsJson property, which gets the parameter object of the DevToolsProtocol event as a JSON string.",
+  "CoreWebView2DevToolsProtocolEventReceivedEventArgs exposes the SessionId property, which returns an empty string if the event comes from the default session for the top page.",
+  "CoreWebView2SharedBuffer is a shared memory based buffer object created by CreateSharedBuffer(UInt64) and implements IDisposable.",
+  "CoreWebView2SharedBuffer is presented to script as an ArrayBuffer when posted with PostSharedBufferToScript.",
+  "CoreWebView2SharedBuffer properties are Buffer, FileMappingHandle and Size, where Size is the size of the shared buffer in bytes.",
+  "CoreWebView2SharedBuffer methods include Close(), which releases the backing shared memory, and OpenStream(), which gets a stream to access the buffer.",
+  "The page notes that some information relates to prerelease product that may be substantially modified before it is released.",
+  "The page footer shows the copyright line '© Microsoft 2024'."
+ ],
+ "entities": [
+  {
+   "name": "Microsoft.Web.WebView2.Core",
+   "type": "other",
+   "role": "namespace containing the documented WebView2 Core classes"
+  },
+  {
+   "name": "Microsoft.Web.WebView2.Core.dll",
+   "type": "product",
+   "role": "assembly that contains the documented classes"
+  },
+  {
+   "name": "Microsoft.Web.WebView2",
+   "type": "product",
+   "role": "NuGet package whose versions are listed for each class"
+  },
+  {
+   "name": "CoreWebView2Controller",
+   "type": "product",
+   "role": "class that exposes the AllowExternalDrop property"
+  },
+  {
+   "name": "CoreWebView2DevToolsProtocolEventReceivedEventArgs",
+   "type": "product",
+   "role": "event args class for the DevToolsProtocolEventReceived event"
+  },
+  {
+   "name": "CoreWebView2SharedBuffer",
+   "type": "product",
+   "role": "shared memory based buffer class created by CreateSharedBuffer and posted to script"
+  },
+  {
+   "name": "CoreWebView2WebResourceResponseReceivedEventArgs",
+   "type": "product",
+   "role": "event args class listed in the note, with its details truncated"
+  },
+  {
+   "name": "Microsoft Edge",
+   "type": "product",
+   "role": "browser named in the upgrade banner of the clipped page"
+  }
+ ],
+ "tags": [
+  "webview2",
+  "dotnet",
+  "microsoft-edge",
+  "api-reference",
+  "windows-desktop"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17107,
+  "output_tokens": 1384
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "summary": "This note is a short excerpt from the Wikipedia article on the Major League Baseball Most Valuable Player Award, describing how the voting works. Voting occurs before the postseason but results are announced after the World Series. The BBWAA polled three writers per league city starting in 1938, cut to two in 1961, and gives no strict definition of \"most valuable\".",
+ "one_line": "Excerpt on MLB MVP Award voting: BBWAA writers vote before the postseason, results follow the World Series, and \"most valuable\" is undefined.",
+ "key_facts": [
+  "MVP voting for the Major League Baseball Most Valuable Player Award takes place before the postseason.",
+  "The MVP results are not announced until after the World Series.",
+  "The BBWAA began by polling three writers in each league city in 1938.",
+  "The BBWAA reduced the number of polled writers to two per league city in 1961.",
+  "The BBWAA does not offer a clear-cut definition of what \"most valuable\" means.",
+  "The BBWAA leaves the judgment of \"most valuable\" to the individual voters."
+ ],
+ "entities": [
+  {
+   "name": "Major League Baseball Most Valuable Player Award",
+   "type": "program",
+   "role": "award whose voting process is described"
+  },
+  {
+   "name": "BBWAA",
+   "type": "organization",
+   "role": "organization whose writers vote on the MVP award"
+  },
+  {
+   "name": "World Series",
+   "type": "event",
+   "role": "championship after which MVP results are announced"
+  }
+ ],
+ "tags": [
+  "baseball",
+  "mlb",
+  "mvp",
+  "awards",
+  "bbwaa"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1116,
+  "output_tokens": 500
+ }
+}

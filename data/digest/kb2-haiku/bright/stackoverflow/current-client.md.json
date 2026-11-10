@@ -1,0 +1,58 @@
+{
+ "summary": "This note documents the Snowflake SQL system function CURRENT_CLIENT, which returns the version of the client from which it was called. When called through the JDBC or ODBC driver, it returns the driver version. The page notes that the Snowflake web Worksheet connects directly and therefore returns a different value than client applications, and gives SnowSQL and Classic Console examples.",
+ "one_line": "Snowflake's CURRENT_CLIENT() function returns the version of the calling client or JDBC/ODBC driver, with web Worksheet results differing.",
+ "key_facts": [
+  "CURRENT_CLIENT returns the version of the client from which the function was called.",
+  "If called from an application using the JDBC or ODBC driver to connect to Snowflake, CURRENT_CLIENT returns the version of the driver.",
+  "The syntax of CURRENT_CLIENT is CURRENT_CLIENT() with no arguments.",
+  "The Worksheet in the Snowflake web interface connects to Snowflake directly and does not use the JDBC or ODBC driver.",
+  "Calling CURRENT_CLIENT in the Worksheet returns a different value than calling it from a client application.",
+  "Example output of SELECT CURRENT_CLIENT() from within SnowSQL is SnowSQL 1.1.18.",
+  "Example output of SELECT CURRENT_CLIENT() from the Worksheet in the Classic Console is Snowflake UI 1434236365.",
+  "The example result table in the Classic Console Worksheet has one row, numbered row 1."
+ ],
+ "entities": [
+  {
+   "name": "CURRENT_CLIENT",
+   "type": "product",
+   "role": "Snowflake function that returns the version of the calling client or driver"
+  },
+  {
+   "name": "SnowSQL",
+   "type": "product",
+   "role": "Snowflake command-line client used in the first example, which returned version 1.1.18"
+  },
+  {
+   "name": "JDBC",
+   "type": "product",
+   "role": "Driver through which an application can connect to Snowflake, whose version CURRENT_CLIENT can return"
+  },
+  {
+   "name": "ODBC",
+   "type": "product",
+   "role": "Driver through which an application can connect to Snowflake, whose version CURRENT_CLIENT can return"
+  },
+  {
+   "name": "Worksheet in the Snowflake web interface",
+   "type": "product",
+   "role": "Web interface feature that connects directly to Snowflake and returns a different CURRENT_CLIENT value"
+  },
+  {
+   "name": "Classic Console",
+   "type": "product",
+   "role": "Snowflake console where the second example runs CURRENT_CLIENT from its Worksheet"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "client-version",
+  "jdbc-odbc",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1565,
+  "output_tokens": 863
+ }
+}

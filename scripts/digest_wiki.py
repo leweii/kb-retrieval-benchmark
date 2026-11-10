@@ -47,7 +47,14 @@ quotes exactly as in the note. Each fact must make sense on its own (repeat the 
 - entities: the people, organizations, places, events, products and programs the note names, each with a \
 short role description as it appears in this note. Use the full name as written in the note.
 - tags: 3-6 lowercase topical tags.
-Only use information from the note."""
+- category: the single best-fitting broad category from the given list.
+The note may be a clipped web page with navigation menus, cookie banners, scripts or JSON — ignore that \
+boilerplate and digest only the actual content. Only use information from the note."""
+
+CATEGORIES = ["people", "places & geography", "sports", "music", "film & television", "literature & arts",
+              "history & politics", "government & law", "business & economy", "science & technology",
+              "health & psychology", "religion & culture", "other"]
+MAX_INPUT_CHARS = 32000  # long scraped pages: the first ~8k tokens carry the content
 
 SCHEMA = {
     "type": "object",
@@ -70,12 +77,25 @@ SCHEMA = {
             },
         },
         "tags": {"type": "array", "items": {"type": "string"}},
+        "category": {"type": "string", "enum": CATEGORIES},
     },
-    "required": ["summary", "one_line", "key_facts", "entities", "tags"],
+    "required": ["summary", "one_line", "key_facts", "entities", "tags", "category"],
     "additionalProperties": False,
 }
 
 client = anthropic.Anthropic(max_retries=6)
+
+
+MODELS = {  # --model name -> (model id, $/M in, $/M out, cache dir suffix)
+    "sonnet": ("claude-sonnet-5-5", 2.00, 10.00, ""),
+    "haiku": ("claude-haiku-5-5", 0.10, 0.50, "-haiku"),
+}
+CACHE_SUFFIX = ""
+
+
+def set_model(name: str) -> None:
+    global MODEL, PRICE_IN, PRICE_OUT, CACHE_SUFFIX
+    MODEL, PRICE_IN, PRICE_OUT, CACHE_SUFFIX = MODELS[name]
 
 
 def dataset_of(corpus: str) -> str:
@@ -83,14 +103,14 @@ def dataset_of(corpus: str) -> str:
 
 
 def cache_path(corpus: str, rel: str) -> Path:
-    return ROOT / "data" / "digest" / dataset_of(corpus) / (rel + ".json")
+    return ROOT / "data" / "digest" / (dataset_of(corpus) + CACHE_SUFFIX) / (rel + ".json")
 
 
 def digest_one(corpus: str, rel: str) -> float:
     out = cache_path(corpus, rel)
     if out.exists():
         return 0.0
-    md = (corpus_dir(corpus) / "raw" / rel).read_text(encoding="utf-8")
+    md = (corpus_dir(corpus) / "raw" / rel).read_text(encoding="utf-8")[:MAX_INPUT_CHARS]
     resp = client.messages.create(
         model=MODEL,
         max_tokens=16000,
@@ -130,6 +150,22 @@ def slug(text: str, max_len: int = 70) -> str:
     return (s[:max_len].rsplit("-", 1)[0] if len(s) > max_len else s) or "x"
 
 
+def topic_of(meta: dict, data: dict) -> str:
+    """v1 corpora carry topic/category in frontmatter. v2 (kb2): encyclopedia pages are grouped by the
+    LLM-assigned category (1650 pages under one 'wikipedia' topic would be unnavigable), web clippings by
+    StackExchange domain, fiction chunks by book."""
+    if meta.get("topic") or meta.get("category"):
+        return meta.get("topic") or meta.get("category")
+    src = meta.get("source")
+    if src == "wiki":
+        return f"encyclopedia: {data.get('category', 'other')}"
+    if src == "bright":
+        return f"web clippings: {meta.get('domain', 'misc').replace('_', ' ')}"
+    if src == "books":
+        return f"fiction: {meta.get('title', 'book').split(' — ')[0]}"
+    return "misc"
+
+
 def norm_entity(name: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"^(the|dr\.?|mr\.?|mrs\.?|ms\.?)\s+", "", name.strip(), flags=re.I)).casefold()
 
@@ -141,15 +177,19 @@ def run_reduce(corpus: str) -> None:
     if wiki.exists():
         shutil.rmtree(wiki)
 
-    pages = []
+    pages, used_pages = [], set()
     for d in docs:
         cp = cache_path(corpus, d["path"])
         if not cp.exists():
             raise FileNotFoundError(f"missing digest for {d['path']} — run map first")
         meta, _ = split_frontmatter((cdir / "raw" / d["path"]).read_text(encoding="utf-8"))
-        topic = meta.get("topic") or meta.get("category") or "misc"
-        pages.append({"doc": d, "meta": meta, "topic": topic, "data": json.loads(cp.read_text()),
-                      "page": f"sources/{slug(topic)}/{Path(d['path']).stem}"})
+        data = json.loads(cp.read_text())
+        topic = topic_of(meta, data)
+        page, i = f"sources/{slug(topic)}/{Path(d['path']).stem}", 2
+        while page in used_pages:
+            page, i = f"sources/{slug(topic)}/{Path(d['path']).stem}-{i}", i + 1
+        used_pages.add(page)
+        pages.append({"doc": d, "meta": meta, "topic": topic, "data": data, "page": page})
 
     # entity table: normalized name -> mentions
     mentions: dict[str, list[tuple[dict, dict]]] = defaultdict(list)
@@ -238,6 +278,10 @@ def run_reduce(corpus: str) -> None:
 
 if __name__ == "__main__":
     cmd, *args = sys.argv[1:]
+    if "--model" in args:  # sonnet (default) | haiku — selects model and cache dir for map and reduce
+        i = args.index("--model")
+        set_model(args[i + 1])
+        args = args[:i] + args[i + 2:]
     if cmd == "map":
         limit = int(args[args.index("--limit") + 1]) if "--limit" in args else None
         run_map(args[0], limit)

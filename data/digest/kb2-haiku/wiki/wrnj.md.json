@@ -1,0 +1,45 @@
+{
+ "summary": "WRNJ is a radio station licensed to Hackettstown, New Jersey, broadcasting on 1510 AM with an adult contemporary format. The station is locally owned by WRNJ Radio, Inc. and carries programming from ABC News Radio. The note is a brief stub covering only these basic facts.",
+ "one_line": "WRNJ is a 1510 AM adult contemporary radio station in Hackettstown, New Jersey, locally owned and carrying ABC News Radio programming.",
+ "key_facts": [
+  "WRNJ is a radio station in Hackettstown, New Jersey.",
+  "WRNJ broadcasts on 1510 AM.",
+  "WRNJ broadcasts an adult contemporary format.",
+  "WRNJ is owned locally by WRNJ Radio, Inc.",
+  "WRNJ features programming from ABC News Radio."
+ ],
+ "entities": [
+  {
+   "name": "WRNJ",
+   "type": "organization",
+   "role": "AM radio station in Hackettstown, New Jersey broadcasting on 1510 AM with an adult contemporary format"
+  },
+  {
+   "name": "WRNJ Radio, Inc.",
+   "type": "organization",
+   "role": "local owner of the WRNJ radio station"
+  },
+  {
+   "name": "ABC News Radio",
+   "type": "organization",
+   "role": "provider of programming carried by WRNJ"
+  },
+  {
+   "name": "Hackettstown, New Jersey",
+   "type": "place",
+   "role": "city where WRNJ is located"
+  }
+ ],
+ "tags": [
+  "radio",
+  "new jersey",
+  "am radio",
+  "adult contemporary",
+  "broadcasting"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1059,
+  "output_tokens": 505
+ }
+}

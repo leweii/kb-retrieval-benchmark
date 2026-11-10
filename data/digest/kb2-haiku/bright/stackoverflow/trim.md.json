@@ -1,0 +1,49 @@
+{
+ "summary": "This is a reference page for the TRIM string function, which removes leading and trailing characters from a string. If no characters are specified, it removes leading and trailing blank spaces by default. The page covers syntax, arguments, usage notes about explicitly specifying whitespace characters, collation behavior, and two SQL examples.",
+ "one_line": "Reference documentation for the TRIM string function, which strips specified leading and trailing characters (default: spaces) from a string.",
+ "key_facts": [
+  "TRIM(<expr> [, <characters> ]) removes leading and trailing characters from a string expression.",
+  "The default value of the characters argument is a single blank space character ' '.",
+  "If no characters are specified, all leading and trailing blank spaces are removed.",
+  "The characters in the characters argument can be specified in any order.",
+  "To remove whitespace, the whitespace characters must be explicitly included in the argument.",
+  "TRIM('$.') removes leading and trailing blank spaces, dollar signs, and periods from the input string.",
+  "TRIM does not remove other whitespace characters such as tabulation characters or end-of-line characters unless explicitly specified.",
+  "Collation is supported when the optional second argument is omitted, or when it contains only constant whitespace.",
+  "The collation specification of the returned value is the same as the collation specification of the first argument.",
+  "Example: SELECT TRIM('❄-❄ABC-❄-', '❄-') returns ABC.",
+  "The second example uses CONCAT with '>' and '<' to visualize whitespace removal from the tr table.",
+  "In the whitespace example, TRIM applied to '  asd  ' yields '>asd<'.",
+  "TRIM applied to a NULL value returns NULL.",
+  "The page is listed under the Functions-String reference section and the language shown is English."
+ ],
+ "entities": [
+  {
+   "name": "TRIM",
+   "type": "program",
+   "role": "String function that removes leading and trailing characters from a string expression"
+  },
+  {
+   "name": "CONCAT",
+   "type": "program",
+   "role": "Function used in the whitespace example to wrap values in '>' and '<' characters for visualization"
+  },
+  {
+   "name": "tr",
+   "type": "other",
+   "role": "Table used in the whitespace example whose column v is trimmed"
+  }
+ ],
+ "tags": [
+  "sql",
+  "string-functions",
+  "trim",
+  "reference",
+  "whitespace"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2145,
+  "output_tokens": 736
+ }
+}

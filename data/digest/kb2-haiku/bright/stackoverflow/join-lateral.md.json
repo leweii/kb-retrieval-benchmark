@@ -1,0 +1,84 @@
+{
+ "summary": "This note is a reference page for the LATERAL join in a SQL dialect (appears to be Snowflake documentation). It explains that a lateral join lets an inline view reference columns from a table expression that precedes it, behaving like a correlated subquery executed for each left-hand row. It gives the syntax, usage notes on allowed inline view types and join clause restrictions, and examples using departments and employees tables, including a FLATTEN example and a demonstration that comma and INNER JOIN syntaxes are equivalent.",
+ "one_line": "Reference page explaining SQL LATERAL joins, which let an inline view reference columns from a preceding table expression, with examples.",
+ "key_facts": [
+  "A lateral join references columns from a table expression that precedes the inline view.",
+  "A lateral join behaves more like a correlated subquery than most JOINs, as if the server looped over each row in left_hand_table LHT and executed right_hand_subquery RHS using that row's values.",
+  "Unlike a non-lateral join, the output of a lateral join includes only the rows generated from the inline view.",
+  "The syntax is SELECT ... FROM <left_hand_table_expression>, LATERAL ( <inline_view> ).",
+  "The inline_view can be an inline view, a subquery, or a table function such as FLATTEN or a user-defined table function (UDTF).",
+  "The inline_view cannot be a table.",
+  "A lateral join can use either the comma or the words INNER JOIN, just as INNER JOIN syntax can.",
+  "You cannot specify the ON, USING, or NATURAL JOIN clause in a lateral table function other than a SQL UDTF.",
+  "The basic example joins the departments table with a LATERAL subquery selecting employees where e.department_ID = d.department_ID.",
+  "In the basic example, department 1 'Engineering' contains employees Richards (101) and Paulson (102), and department 2 'Support' contains Johnson (103).",
+  "The FLATTEN example uses SELECT emp.employee_ID, emp.last_name, index, value AS project_name FROM employees AS emp, LATERAL FLATTEN(INPUT => emp.project_names) AS proj_names.",
+  "In the FLATTEN example, employee 101 Richards has project names 'Materialized Views' and 'UDFs', and employee 102 Paulson has 'Materialized Views' and 'Lateral Joins'.",
+  "The two join syntaxes, comma with LATERAL and INNER JOIN LATERAL, are shown to be equivalent and produce the same output."
+ ],
+ "entities": [
+  {
+   "name": "LATERAL join",
+   "type": "other",
+   "role": "SQL join construct that lets an inline view reference columns from a preceding table expression; the subject of the note"
+  },
+  {
+   "name": "FLATTEN",
+   "type": "program",
+   "role": "built-in table function used as an inline view in the lateral join example to expand array data"
+  },
+  {
+   "name": "user-defined table function (UDTF)",
+   "type": "program",
+   "role": "type of table function that can serve as an inline view in a lateral join"
+  },
+  {
+   "name": "departments",
+   "type": "other",
+   "role": "example table with department_id and name columns, containing Engineering and Support"
+  },
+  {
+   "name": "employees",
+   "type": "other",
+   "role": "example table with employee_ID, last_name, department_ID and project_names columns"
+  },
+  {
+   "name": "Engineering",
+   "type": "organization",
+   "role": "department with department_id 1 in the example data"
+  },
+  {
+   "name": "Support",
+   "type": "organization",
+   "role": "department with department_id 2 in the example data"
+  },
+  {
+   "name": "Richards",
+   "type": "person",
+   "role": "employee with employee_ID 101 in Engineering"
+  },
+  {
+   "name": "Paulson",
+   "type": "person",
+   "role": "employee with employee_ID 102 in Engineering"
+  },
+  {
+   "name": "Johnson",
+   "type": "person",
+   "role": "employee with employee_ID 103 in Support"
+  }
+ ],
+ "tags": [
+  "sql",
+  "lateral join",
+  "joins",
+  "subquery",
+  "flatten",
+  "database reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3624,
+  "output_tokens": 1262
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "summary": "This note describes Holden, a lake in the municipality of Verran in Trøndelag county, Norway. It gives the lake's location relative to nearby villages, notes a dam at its southern end used to control water for hydroelectric power, and traces its outflow into the Follaelva river, which reaches the Trondheimsfjord at Follafoss.",
+ "one_line": "Holden is a lake in Verran municipality, Trøndelag county, Norway, dammed for hydroelectric power and drained by the Follaelva river.",
+ "key_facts": [
+  "Holden is a lake in the municipality of Verran in Trøndelag county, Norway.",
+  "Holden is located about west of the village of Malm.",
+  "Holden is located about north of the village of Follafoss.",
+  "The lake has a dam on its southern end to control the water for hydroelectric power.",
+  "The lake flows out into the Follaelva river.",
+  "The Follaelva river flows into the Trondheimsfjord at the village of Follafoss."
+ ],
+ "entities": [
+  {
+   "name": "Holden",
+   "type": "place",
+   "role": "lake in the municipality of Verran, Trøndelag county, Norway, with a dam on its southern end for hydroelectric power"
+  },
+  {
+   "name": "Verran",
+   "type": "place",
+   "role": "municipality in Trøndelag county, Norway, where Holden lake is located"
+  },
+  {
+   "name": "Trøndelag",
+   "type": "place",
+   "role": "county in Norway containing the municipality of Verran"
+  },
+  {
+   "name": "Malm",
+   "type": "place",
+   "role": "village about west of Holden lake"
+  },
+  {
+   "name": "Follafoss",
+   "type": "place",
+   "role": "village about north of Holden lake, where the Follaelva river flows into the Trondheimsfjord"
+  },
+  {
+   "name": "Follaelva",
+   "type": "place",
+   "role": "river into which Holden lake flows out, which flows into the Trondheimsfjord"
+  },
+  {
+   "name": "Trondheimsfjord",
+   "type": "place",
+   "role": "fjord into which the Follaelva river flows at the village of Follafoss"
+  }
+ ],
+ "tags": [
+  "norway",
+  "lakes",
+  "hydroelectric power",
+  "trøndelag",
+  "verran",
+  "rivers"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1104,
+  "output_tokens": 683
+ }
+}

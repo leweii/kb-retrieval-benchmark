@@ -1,0 +1,44 @@
+{
+ "summary": "This note is the reference page for the Snowflake system function SYSTEM$TYPEOF, which returns a VARCHAR string naming the SQL data type of an input expression. It gives the syntax SYSTEM$TYPEOF( <expr> ), where the argument can be a column name or a general expression, and lists example outputs for NULL, integer, scientific-notation, and string literals and a CONCAT expression. The Usage Notes section is empty.",
+ "one_line": "Reference page for the SYSTEM$TYPEOF function, which returns the SQL data type name of an expression with examples.",
+ "key_facts": [
+  "SYSTEM$TYPEOF returns a string representing the SQL data type associated with an expression.",
+  "The syntax is SYSTEM$TYPEOF( <expr> ).",
+  "The argument can be a column name or a general expression.",
+  "The function returns a VARCHAR that contains the data type of the input expression.",
+  "The note gives BOOLEAN, DECIMAL, ARRAY and OBJECT as examples of returned data type names.",
+  "SELECT SYSTEM$TYPEOF(null) returns NULL[LOB].",
+  "SELECT SYSTEM$TYPEOF(1) returns NUMBER(1,0)[SB1].",
+  "SELECT SYSTEM$TYPEOF(1e10) returns NUMBER(11,0)[SB8].",
+  "SELECT SYSTEM$TYPEOF(10000) returns NUMBER(5,0)[SB2].",
+  "SELECT SYSTEM$TYPEOF('something') returns VARCHAR(9)[LOB].",
+  "SELECT SYSTEM$TYPEOF(CONCAT('every', 'body')) returns VARCHAR(9)[LOB].",
+  "The examples are run with FROM (values(1)) v as the source table.",
+  "The page sits under the Query Information category of the documentation.",
+  "The Usage Notes section of the page has no content."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$TYPEOF",
+   "type": "program",
+   "role": "system function that returns a string naming the SQL data type of an expression; the subject of the page"
+  },
+  {
+   "name": "CONCAT",
+   "type": "program",
+   "role": "string function used in one example, SYSTEM$TYPEOF(CONCAT('every', 'body')), which returns VARCHAR(9)[LOB]"
+  }
+ ],
+ "tags": [
+  "sql",
+  "system-functions",
+  "data-types",
+  "snowflake",
+  "query-information"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1972,
+  "output_tokens": 803
+ }
+}

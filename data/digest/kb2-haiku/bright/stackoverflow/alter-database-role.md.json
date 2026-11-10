@@ -1,0 +1,60 @@
+{
+ "summary": "This note is the Snowflake documentation page for the ALTER DATABASE ROLE SQL command, which modifies properties of an existing database role. The only supported operations are renaming a database role and adding, overwriting, or removing a comment, plus setting and unsetting tags. It lists the syntax, parameters, the OWNERSHIP and APPLY privileges required, a metadata usage caution, and two examples (a rename and adding a comment).",
+ "one_line": "Snowflake reference for the ALTER DATABASE ROLE command, covering renaming, comments, tags, required privileges and examples.",
+ "key_facts": [
+  "ALTER DATABASE ROLE modifies the properties for an existing database role.",
+  "Currently the only supported operations are renaming a database role or adding, overwriting, or removing a comment for a database role.",
+  "The syntax includes IF EXISTS, RENAME TO <new_name>, SET COMMENT, UNSET COMMENT, SET TAG, and UNSET TAG.",
+  "The <name> identifier must be unique in the database in which the role is created.",
+  "An identifier must start with an alphabetic character and cannot contain spaces or special characters unless enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "If the identifier is not fully qualified as db_name.database_role_name, the command looks for the database role in the current database for the session.",
+  "When renaming a fully-qualified database role, the database name must remain the same; only database_role_name can change.",
+  "The new_name for RENAME TO must be unique for the account.",
+  "The tag value is always a string with a maximum of 256 characters.",
+  "Executing this command requires the OWNERSHIP privilege on the database role, and only the owner or a higher role can execute it.",
+  "The owner role does not inherit permissions granted to the owned database role.",
+  "The APPLY privilege on a Tag enables setting a tag on a database role.",
+  "Example: ALTER DATABASE ROLE d1.dr1 RENAME TO d1.dbr2 renames database role dr1 to dbr2 in database d1.",
+  "Example: ALTER DATABASE ROLE d1.dbr2 SET COMMENT = 'New comment for database role' adds a comment to d1.dbr2."
+ ],
+ "entities": [
+  {
+   "name": "ALTER DATABASE ROLE",
+   "type": "program",
+   "role": "SQL command whose syntax, parameters, privileges and examples are documented on this page"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "service whose documentation this page belongs to, referenced in a metadata usage caution"
+  },
+  {
+   "name": "d1",
+   "type": "other",
+   "role": "database used in the rename and comment examples"
+  },
+  {
+   "name": "dr1",
+   "type": "other",
+   "role": "original database role name renamed to dbr2 in the first example"
+  },
+  {
+   "name": "dbr2",
+   "type": "other",
+   "role": "new database role name after the rename, given a comment in the second example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "database roles",
+  "access control",
+  "reference documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2609,
+  "output_tokens": 977
+ }
+}

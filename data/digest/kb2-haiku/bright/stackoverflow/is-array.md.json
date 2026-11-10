@@ -1,0 +1,67 @@
+{
+ "summary": "This is a Snowflake SQL reference page for the IS_ARRAY function, which returns TRUE when a VARIANT argument holds an ARRAY value. It gives the syntax (IS_ARRAY(<variant_expr>)) and a worked example that creates a table of VARIANT columns holding various types and tests three of them. The example shows that arrays built with TO_ARRAY or ARRAY_CONSTRUCT return True while a boolean returns False. The usage notes section is empty in the note.",
+ "one_line": "Reference for Snowflake's IS_ARRAY function, which returns TRUE if a VARIANT value contains an ARRAY.",
+ "key_facts": [
+  "IS_ARRAY returns TRUE if its VARIANT argument contains an ARRAY value.",
+  "The syntax of IS_ARRAY is IS_ARRAY( <variant_expr> ).",
+  "The only argument of IS_ARRAY is variant_expr, an expression that evaluates to a value of type VARIANT.",
+  "IS_ARRAY is listed under the Type Predicates category of semistructured functions.",
+  "The example creates a table named multiple_types with nine VARIANT columns, including array1, array2, boolean1, char1, varchar1, decimal1, double1, integer1 and object1.",
+  "array1 is populated with TO_VARIANT(TO_ARRAY('Example')).",
+  "array2 is populated with TO_VARIANT(ARRAY_CONSTRUCT('Array-like', 'example')).",
+  "boolean1 is populated with TO_VARIANT(TRUE).",
+  "object1 is populated with TO_VARIANT(TO_OBJECT(PARSE_JSON('{\"Tree\": \"Pine\"}'))).",
+  "The example query SELECT IS_ARRAY(array1), IS_ARRAY(array2), IS_ARRAY(boolean1) FROM multiple_types returns True, True and False.",
+  "The page lists the function's categories as JSON and XML Parsing, Array/Object Creation and Manipulation, Map Creation and Manipulation, Extraction, Conversion/Casting, and Type Predicates."
+ ],
+ "entities": [
+  {
+   "name": "IS_ARRAY",
+   "type": "program",
+   "role": "Function that returns TRUE if its VARIANT argument contains an ARRAY value"
+  },
+  {
+   "name": "TO_ARRAY",
+   "type": "program",
+   "role": "Function used in the example to create an array from 'Example' before wrapping it with TO_VARIANT"
+  },
+  {
+   "name": "ARRAY_CONSTRUCT",
+   "type": "program",
+   "role": "Function used in the example to build the array ('Array-like', 'example')"
+  },
+  {
+   "name": "TO_VARIANT",
+   "type": "program",
+   "role": "Function used in the example to convert values into VARIANT columns"
+  },
+  {
+   "name": "TO_OBJECT",
+   "type": "program",
+   "role": "Function used in the example to convert parsed JSON into an object"
+  },
+  {
+   "name": "PARSE_JSON",
+   "type": "program",
+   "role": "Function used in the example to parse the JSON string '{\"Tree\": \"Pine\"}'"
+  },
+  {
+   "name": "multiple_types",
+   "type": "other",
+   "role": "Example table with nine VARIANT columns used to demonstrate IS_ARRAY"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "semistructured data",
+  "variant",
+  "type predicates",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2007,
+  "output_tokens": 1101
+ }
+}

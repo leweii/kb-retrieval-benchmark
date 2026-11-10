@@ -1,0 +1,89 @@
+{
+ "summary": "This is a clipped MDN Web Docs reference page for JavaScript's String.prototype.matchAll() method, which returns an iterator of all matches of a string against a regular expression, including capturing groups. It covers the syntax, the required global flag, the return value, and the internal delegation to Symbol.matchAll, with examples comparing it to exec() loops and String.prototype.match(). The page's navigation menus and the italics() page navigation text are boilerplate and were ignored.",
+ "one_line": "MDN reference for JavaScript's String.prototype.matchAll(), which iterates all regex matches in a string, including capture groups.",
+ "key_facts": [
+  "String.prototype.matchAll() returns an iterator of all results matching a string against a regular expression, including capturing groups.",
+  "The syntax is matchAll(regexp), where regexp is a RegExp object or any object that has a Symbol.matchAll method.",
+  "If regexp is not a RegExp and has no Symbol.matchAll method, it is implicitly converted to a RegExp using new RegExp(regexp, 'g').",
+  "If regexp is a regex without the global (g) flag, matchAll() throws a TypeError.",
+  "The return value is an iterable iterator, which is not restartable, or an empty iterator if no matches are found.",
+  "Each value yielded by the matchAll() iterator is an array with the same shape as the return value of RegExp.prototype.exec().",
+  "String.prototype.matchAll itself simply calls the Symbol.matchAll method of the argument; the actual implementation comes from RegExp.prototype[@@matchAll]().",
+  "matchAll() internally clones the regexp, so unlike regexp.exec() in a loop, lastIndex does not change as the string is scanned.",
+  "For the regex /foo[a-z]*/g on the string 'table football, foosball', matchAll() yields 'football' at start=6 end=14 and 'foosball' at start=16 end=24.",
+  "With the regex /t(e)(st(\\d?))/g on 'test1test2', str.match() returns only ['test1', 'test2'] and ignores capture groups, while matchAll() exposes the groups such as 'e', 'st1' and '1'.",
+  "An object with a Symbol.matchAll method can act as a custom matcher, and its return value becomes the return value of matchAll().",
+  "The method is specified in the ECMAScript Language Specification at sec-string.prototype.matchall.",
+  "A polyfill for String.prototype.matchAll is available in the core-js library.",
+  "The MDN page was last modified on Jan 13, 2024."
+ ],
+ "entities": [
+  {
+   "name": "String.prototype.matchAll()",
+   "type": "program",
+   "role": "JavaScript String method whose documentation this page describes"
+  },
+  {
+   "name": "RegExp",
+   "type": "program",
+   "role": "JavaScript regular expression object that matchAll() accepts as its regexp argument"
+  },
+  {
+   "name": "RegExp.prototype.exec()",
+   "type": "program",
+   "role": "method whose return shape matchAll() iterator values match, and which is used in a while loop in the comparison example"
+  },
+  {
+   "name": "RegExp.prototype[@@matchAll]()",
+   "type": "program",
+   "role": "method that provides the actual implementation behind String.prototype.matchAll"
+  },
+  {
+   "name": "Symbol.matchAll",
+   "type": "program",
+   "role": "symbol method that matchAll() calls on its argument, allowing custom matchers"
+  },
+  {
+   "name": "String.prototype.match()",
+   "type": "program",
+   "role": "comparison method that ignores capture groups when the g flag is used"
+  },
+  {
+   "name": "TypeError",
+   "type": "other",
+   "role": "error thrown when the regexp has no global (g) flag"
+  },
+  {
+   "name": "ECMAScript Language Specification",
+   "type": "other",
+   "role": "specification that defines String.prototype.matchAll"
+  },
+  {
+   "name": "core-js",
+   "type": "program",
+   "role": "library that provides a polyfill for String.prototype.matchAll"
+  },
+  {
+   "name": "Array.from()",
+   "type": "program",
+   "role": "method used in examples to collect matchAll() results into an array"
+  },
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "publisher of the clipped reference page; content is under a Creative Commons license"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "string-methods",
+  "regular-expressions",
+  "mdn",
+  "web-development"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16741,
+  "output_tokens": 2200
+ }
+}

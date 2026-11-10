@@ -1,0 +1,49 @@
+{
+ "summary": "This note is a short encyclopedia-style entry about A Don, a village in south-eastern Laos. It states that the village lies near the Vietnamese border and belongs to Kaleum District in Sekong Province.",
+ "one_line": "A Don is a village in south-eastern Laos near the Vietnam border, located in Kaleum District, Sekong Province.",
+ "key_facts": [
+  "A Don is a village in south-eastern Laos.",
+  "A Don is located near the border with Vietnam.",
+  "A Don is located in Kaleum District.",
+  "A Don is located in Sekong Province."
+ ],
+ "entities": [
+  {
+   "name": "A Don",
+   "type": "place",
+   "role": "village in south-eastern Laos near the border with Vietnam, located in Kaleum District in Sekong Province"
+  },
+  {
+   "name": "Kaleum District",
+   "type": "place",
+   "role": "district in which A Don is located"
+  },
+  {
+   "name": "Sekong Province",
+   "type": "place",
+   "role": "province containing Kaleum District and the village of A Don"
+  },
+  {
+   "name": "Laos",
+   "type": "place",
+   "role": "country in which A Don is located, in its south-eastern part"
+  },
+  {
+   "name": "Vietnam",
+   "type": "place",
+   "role": "neighboring country whose border lies near A Don"
+  }
+ ],
+ "tags": [
+  "laos",
+  "village",
+  "sekong province",
+  "kaleum district",
+  "southeast asia"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1020,
+  "output_tokens": 451
+ }
+}

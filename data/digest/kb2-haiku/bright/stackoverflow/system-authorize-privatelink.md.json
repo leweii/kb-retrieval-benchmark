@@ -1,0 +1,69 @@
+{
+ "summary": "This is a Snowflake documentation page for the SYSTEM$AUTHORIZE_PRIVATELINK function, which enables private connectivity to the Snowflake service for the current account. It requires Business Critical edition or higher and can only be run by account administrators (ACCOUNTADMIN role) on AWS or Azure, not GCP. The page covers the AWS and Azure syntax, the arguments (AWS account ID, Azure private endpoint resource ID, and federated token), how to obtain the federated token via cloud CLI commands, and examples for each platform.",
+ "one_line": "Snowflake reference page for SYSTEM$AUTHORIZE_PRIVATELINK, which enables private connectivity to Snowflake on AWS or Azure.",
+ "key_facts": [
+  "SYSTEM$AUTHORIZE_PRIVATELINK enables private connectivity to the Snowflake service for the current account.",
+  "The function requires Business Critical (or higher) edition.",
+  "Only account administrators (users with the ACCOUNTADMIN role) can execute this function.",
+  "The function can be used with Snowflake accounts on AWS or Azure; Google Cloud Platform (GCP) is not currently supported.",
+  "On AWS, the function syntax is SYSTEM$AUTHORIZE_PRIVATELINK('<aws_id>', '<federated_token>').",
+  "On Azure, the function syntax is SYSTEM$AUTHORIZE_PRIVATELINK('<private-endpoint-resource-id>', '<federated_token>').",
+  "The aws_id is the 12-digit identifier that uniquely identifies an Amazon Web Services (AWS) account, as a string.",
+  "The private-endpoint-resource-id is the identifier that uniquely identifies a Snowflake account in Microsoft Azure as a string.",
+  "For Snowflake on AWS, the federated token is obtained with the command: aws sts get-federation-token --name sam",
+  "For Snowflake on Azure, the federated token is obtained with the command: az account get-access-token --subscription <SubscriptionID>",
+  "The Azure SubscriptionID can be found by running az account list --output table and noting the SubscriptionId column value.",
+  "The AWS example uses the AWS account ID 185... and a federated user with FederatedUserId ending in ':sam'.",
+  "The Azure example uses a private endpoint resource ID under the resource group 'sf-1' with the name 'test-self-service'.",
+  "The related function SYSTEM$GET_PRIVATELINK_AUTHORIZED_ENDPOINTS is listed under 'See also'."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$AUTHORIZE_PRIVATELINK",
+   "type": "program",
+   "role": "Snowflake system function that enables private connectivity to the Snowflake service for the current account"
+  },
+  {
+   "name": "SYSTEM$GET_PRIVATELINK_AUTHORIZED_ENDPOINTS",
+   "type": "program",
+   "role": "Related Snowflake function listed under 'See also'"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "Contact point for inquiring about upgrading to Business Critical edition"
+  },
+  {
+   "name": "Amazon Web Services (AWS)",
+   "type": "organization",
+   "role": "Cloud platform whose account identifier and federated token are used with the function"
+  },
+  {
+   "name": "Microsoft Azure",
+   "type": "organization",
+   "role": "Cloud platform whose private endpoint resource identifier and access token are used with the function"
+  },
+  {
+   "name": "Google Cloud Platform (GCP)",
+   "type": "organization",
+   "role": "Cloud platform not currently supported by the function"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "program",
+   "role": "Role required to execute the function"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "privatelink",
+  "aws",
+  "azure",
+  "account-administration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2488,
+  "output_tokens": 1259
+ }
+}

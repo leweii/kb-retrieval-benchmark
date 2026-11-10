@@ -1,0 +1,90 @@
+{
+ "summary": "This Wikipedia article explains Global Warming Potential (GWP), an index measuring how much infrared thermal radiation a greenhouse gas absorbs over a chosen time horizon after emission, relative to carbon dioxide, which has a GWP of one. It covers the definition and radiative forcing, GWP values for many gases from IPCC reports (including 2007 values), the importance of time horizon (commonly 100 years for regulators), why water vapour's GWP is negligible, and the calculation factors and carbon dioxide equivalent concept. The captured text is cut off partway through the calculation methods section.",
+ "one_line": "Explains Global Warming Potential, an index comparing how much heat different greenhouse gases trap relative to CO2 over a set time horizon.",
+ "key_facts": [
+  "Global Warming Potential (GWP) is an index measuring how much infrared thermal radiation a greenhouse gas would absorb over a given time frame after being emitted to the atmosphere.",
+  "GWP is expressed as a multiple of the radiation absorbed by the same mass of added carbon dioxide (CO2), which is the reference gas with a GWP of one.",
+  "Methane has a GWP over 20 years (GWP-20) of 81.2, meaning a leak of a tonne of methane is equivalent to emitting 81.2 tonnes of carbon dioxide measured over 20 years.",
+  "Methane's GWP-100 is 27.9 and its GWP-500 is 7.95, reflecting its much shorter atmospheric lifetime than carbon dioxide.",
+  "The carbon dioxide equivalent (CO2e) is calculated as GWP times the mass of the other gas.",
+  "Methane has an atmospheric lifetime of 12 ± 2 years, and the 2021 IPCC report lists its GWP as 83 over 20 years, 30 over 100 years and 10 over 500 years.",
+  "A 2014 analysis stated that after six or seven decades the impact of methane and CO2 is about equal, because methane decomposes to water and CO2 through chemical reactions in the atmosphere.",
+  "Sulfur hexafluoride has a GWP of 22,800 over 100 years and 16,300 over 20 years according to the IPCC Third Assessment Report, as cited in the note.",
+  "Methane has a GWP of 25 over 100 years and 86 over 20 years as stated in the time horizon section, showing that short-lived gases have large effects over short periods.",
+  "Commonly, a time horizon of 100 years is used by regulators.",
+  "The GWP for a mixture of gases can be obtained from the mass-fraction-weighted average of the GWPs of the individual gases.",
+  "Water vapour's 100-year GWP is estimated between -0.001 and 0.0005, so it is considered negligible because anthropogenic water vapour emissions are removed via precipitation within weeks.",
+  "The most recent IPCC report cited is the IPCC Sixth Assessment Report (Working Group I) from 2023.",
+  "The 2007 IPCC Fourth Assessment Report values, still used as of 2020 for some comparisons, give a 100-year GWP of 25 for methane and 298 for nitrous oxide."
+ ],
+ "entities": [
+  {
+   "name": "Global Warming Potential",
+   "type": "other",
+   "role": "index measuring the infrared radiation a greenhouse gas absorbs over a time horizon relative to carbon dioxide"
+  },
+  {
+   "name": "Intergovernmental Panel on Climate Change",
+   "type": "organization",
+   "role": "body that periodically compiles and revises GWP estimates in its reports"
+  },
+  {
+   "name": "IPCC Sixth Assessment Report",
+   "type": "program",
+   "role": "most recent report cited, Working Group I from 2023, listing GWP values for gases"
+  },
+  {
+   "name": "IPCC Fourth Assessment Report",
+   "type": "program",
+   "role": "source of the 2007 GWP values listed in the note"
+  },
+  {
+   "name": "IPCC Third Assessment Report",
+   "type": "program",
+   "role": "cited as source of sulfur hexafluoride GWP values over 100 and 20 years"
+  },
+  {
+   "name": "Carbon dioxide",
+   "type": "other",
+   "role": "reference gas with a GWP of one for all time periods"
+  },
+  {
+   "name": "Methane",
+   "type": "other",
+   "role": "greenhouse gas with a 12 ± 2 year atmospheric lifetime and GWP values varying by time horizon"
+  },
+  {
+   "name": "Nitrous oxide",
+   "type": "other",
+   "role": "greenhouse gas listed with a GWP of 298 over 100 years in the 2007 values"
+  },
+  {
+   "name": "Sulfur hexafluoride",
+   "type": "other",
+   "role": "greenhouse gas with a GWP of 22,800 over 100 years and 16,300 over 20 years"
+  },
+  {
+   "name": "Water vapour",
+   "type": "other",
+   "role": "greenhouse gas whose GWP is considered negligible because emissions are removed by precipitation within weeks"
+  },
+  {
+   "name": "Radiative forcing",
+   "type": "other",
+   "role": "scientific concept used to quantify external drivers of climate change in watts per square meter"
+  }
+ ],
+ "tags": [
+  "global warming potential",
+  "greenhouse gases",
+  "radiative forcing",
+  "climate metrics",
+  "ipcc",
+  "carbon dioxide equivalent"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17298,
+  "output_tokens": 1701
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "summary": "This National Geographic Education encyclopedic entry explains seafloor spreading, the geologic process in which tectonic plates split apart at divergent boundaries. It describes how mantle convection heats and weakens the crust, how magma rises through cracks and cools into basalt that becomes new crust, and how this happens along mid-ocean ridges such as the Mid-Atlantic Ridge. The note is cut off mid-sentence while discussing the Mid-Atlantic Ridge and the South American plate.",
+ "one_line": "Encyclopedic entry on seafloor spreading, where plates split apart, mantle convection drives magma upward, and new crust forms along mid-ocean ridges.",
+ "key_facts": [
+  "Seafloor spreading is a geologic process in which tectonic plates, large slabs of Earth's lithosphere, split apart from each other.",
+  "Seafloor spreading and other tectonic activity processes are the result of mantle convection.",
+  "Mantle convection is the slow, churning motion of Earth's mantle.",
+  "Convection currents carry heat from the lower mantle and core to the lithosphere.",
+  "Convection currents also 'recycle' lithospheric materials back to the mantle.",
+  "Seafloor spreading occurs at divergent plate boundaries.",
+  "As tectonic plates slowly move away from each other, heat from the mantle's convection currents makes the crust more plastic and less dense.",
+  "The less-dense material rises, often forming a mountain or elevated area of the seafloor.",
+  "Eventually the crust cracks, and hot magma fueled by mantle convection bubbles up to fill these fractures and spills onto the crust.",
+  "Bubbled-up magma is cooled by frigid seawater to form igneous rock.",
+  "The igneous rock basalt becomes a new part of Earth's crust.",
+  "Seafloor spreading occurs along mid-ocean ridges, which are large mountain ranges rising from the ocean floor.",
+  "The Mid-Atlantic Ridge separates the North American plate from the Eurasian plate.",
+  "The entry is listed for grades 6 - 12+ with subjects Earth Science, Geology, Meteorology, Geography and Physical Geography.",
+  "The main photograph, titled Seafloor Spreading, is an illustration by Joshua Doubek, courtesy Wikimedia, under CC-BY-SA-3.0."
+ ],
+ "entities": [
+  {
+   "name": "Seafloor Spreading",
+   "type": "event",
+   "role": "geologic process in which tectonic plates split apart from each other, the subject of the entry"
+  },
+  {
+   "name": "Mantle convection",
+   "type": "other",
+   "role": "slow churning motion of Earth's mantle that drives seafloor spreading and other tectonic activity"
+  },
+  {
+   "name": "Mid-Ocean Ridges",
+   "type": "place",
+   "role": "large mountain ranges rising from the ocean floor where seafloor spreading occurs"
+  },
+  {
+   "name": "Mid-Atlantic Ridge",
+   "type": "place",
+   "role": "mid-ocean ridge that separates the North American plate from the Eurasian plate"
+  },
+  {
+   "name": "North American plate",
+   "type": "place",
+   "role": "tectonic plate separated from the Eurasian plate by the Mid-Atlantic Ridge"
+  },
+  {
+   "name": "Eurasian plate",
+   "type": "place",
+   "role": "tectonic plate separated from the North American plate by the Mid-Atlantic Ridge"
+  },
+  {
+   "name": "Joshua Doubek",
+   "type": "person",
+   "role": "illustrator credited for the Seafloor Spreading photograph"
+  },
+  {
+   "name": "Wikimedia",
+   "type": "organization",
+   "role": "source credited for the Seafloor Spreading illustration"
+  }
+ ],
+ "tags": [
+  "plate tectonics",
+  "seafloor spreading",
+  "mantle convection",
+  "mid-ocean ridges",
+  "oceanic crust",
+  "earth science"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17840,
+  "output_tokens": 2500
+ }
+}

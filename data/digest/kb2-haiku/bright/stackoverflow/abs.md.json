@@ -1,0 +1,42 @@
+{
+ "summary": "This is a reference page for the ABS function in what appears to be Snowflake SQL documentation, listed under the Arithmetic category of numeric functions. It states that ABS returns the absolute value of a numeric expression, gives its syntax as ABS( <num_expr> ), and includes an example query over a small VALUES table showing that negative inputs become positive and NULL stays NULL. The page's navigation and footer boilerplate was ignored.",
+ "one_line": "Reference page for the SQL ABS function, which returns the absolute value of a numeric expression, with a worked example.",
+ "key_facts": [
+  "ABS returns the absolute value of a numeric expression.",
+  "The syntax of ABS is ABS( <num_expr> ).",
+  "The ABS function is listed under the Arithmetic category of numeric functions.",
+  "The example query is SELECT column1, abs(column1) FROM (values (0), (1), (-2), (3.5), (-4.5), (null)).",
+  "In the example, the input 0.0 returns 0.0 from ABS(COLUMN1).",
+  "In the example, the input 1.0 returns 1.0 from ABS(COLUMN1).",
+  "In the example, the input -2.0 returns 2.0 from ABS(COLUMN1).",
+  "In the example, the input 3.5 returns 3.5 from ABS(COLUMN1).",
+  "In the example, the input -4.5 returns 4.5 from ABS(COLUMN1).",
+  "In the example, the input NULL returns NULL from ABS(COLUMN1).",
+  "The page's On this page sections are Syntax and Examples.",
+  "The page is available in English."
+ ],
+ "entities": [
+  {
+   "name": "ABS",
+   "type": "program",
+   "role": "numeric function that returns the absolute value of a numeric expression"
+  },
+  {
+   "name": "Arithmetic",
+   "type": "other",
+   "role": "category under which the ABS function is listed"
+  }
+ ],
+ "tags": [
+  "sql",
+  "abs function",
+  "numeric functions",
+  "arithmetic",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1374,
+  "output_tokens": 637
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "summary": "A Stereolabs community forum thread in which user Jian reports that the ros2 rviz2 example (launched via zed_display_rviz2 display_zed2i.launch.py) fails on a Jetson AGX Orin Dev Kit with a ZED 2i camera, even though ROS2 and the ZED ROS2 wrapper installed successfully. The error is a failed load of the grid_map_rviz_plugin/GridMap display plugin plus an invalid frame ID 'map' warning. Myzhar suggests installing ros-humble-grid-map-rviz-plugin, then notes the plugin is not required and advises removing the Local Grid Map display; he also asks whether the zed_wrapper zed2i.launch.py command works. Jian finds that launching zed_wrapper first downloads and optimizes the model, after which rviz2 works, though Jian is on ROS2 Foxy and could not find a Foxy equivalent of the plugin.",
+ "one_line": "Forum thread on fixing a failing rviz2 ZED 2i example on a Jetson AGX Orin, resolved by launching the zed_wrapper first.",
+ "key_facts": [
+  "Jian was trying to follow the Stereolabs tutorial 'Getting Started with ROS 2 on Jetson AGX Orin' to configure ROS2 on a Jetson AGX Orin Dev Kit.",
+  "The rviz example was launched with the command: ros2 launch zed_display_rviz2 display_zed2i.launch.py.",
+  "The error log reported that the plugin for class 'grid_map_rviz_plugin/GridMap' failed to load.",
+  "The rviz2 log also showed the warning: Invalid frame ID \"map\" passed to canTransform argument target_frame - frame does not exist.",
+  "The ZED SDK version shown in the log was 4.0.3 - Build 72471_a14c21bc.",
+  "Myzhar suggested installing the package ros-humble-grid-map-rviz-plugin with sudo apt install.",
+  "Jian was using ROS2 Foxy, not Humble, and could not find a Foxy equivalent of the grid map plugin.",
+  "Myzhar stated that the grid map plugin is not required and that the Local Grid Map object can be removed from the rviz configuration to stop the warning.",
+  "Myzhar asked whether the command ros2 launch zed_wrapper zed2i.launch.py works correctly.",
+  "On June 6, 2023, Jian reported that ros2 launch zed_wrapper zed2i.launch.py worked, downloading and optimizing the model.",
+  "After the zed_wrapper launch succeeded, the rviz2 command started to work for Jian.",
+  "The Local Grid Map checkbox was unchecked in Jian's rviz setup.",
+  "The thread is in the Stereolabs Forums under the Software and ROS2 categories and is tagged ros, jetson and python."
+ ],
+ "entities": [
+  {
+   "name": "Jian",
+   "type": "person",
+   "role": "forum user who posted the question about the rviz2 ZED 2i error and later reported the fix"
+  },
+  {
+   "name": "Myzhar",
+   "type": "person",
+   "role": "forum user who replied with troubleshooting suggestions"
+  },
+  {
+   "name": "Stereolabs",
+   "type": "organization",
+   "role": "company that published the ROS2 tutorial and hosts the community forum"
+  },
+  {
+   "name": "Jetson AGX Orin Dev Kit",
+   "type": "product",
+   "role": "hardware platform on which ROS2 and the ZED 2i were being configured"
+  },
+  {
+   "name": "ZED 2i",
+   "type": "product",
+   "role": "stereo camera used with the rviz example"
+  },
+  {
+   "name": "Getting Started with ROS 2 on Jetson AGX Orin",
+   "type": "program",
+   "role": "Stereolabs tutorial Jian was following to configure ROS2"
+  },
+  {
+   "name": "zed_display_rviz2",
+   "type": "program",
+   "role": "ROS2 package whose display_zed2i.launch.py launch file was run for the rviz example"
+  },
+  {
+   "name": "zed_wrapper",
+   "type": "program",
+   "role": "ZED ROS2 wrapper package whose zed2i.launch.py launch file fixed the rviz2 problem"
+  },
+  {
+   "name": "grid_map_rviz_plugin",
+   "type": "program",
+   "role": "rviz plugin whose failure to load caused the error; Myzhar said it was not required"
+  },
+  {
+   "name": "ros-humble-grid-map-rviz-plugin",
+   "type": "program",
+   "role": "apt package Myzhar suggested installing for ROS2 Humble"
+  },
+  {
+   "name": "ROS2 Foxy",
+   "type": "program",
+   "role": "ROS2 distribution Jian was using, for which no grid map plugin install was found"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "zed 2i",
+  "jetson agx orin",
+  "rviz2",
+  "troubleshooting",
+  "stereolabs forum"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3788,
+  "output_tokens": 1569
+ }
+}

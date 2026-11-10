@@ -1,0 +1,57 @@
+{
+ "summary": "This note is the reference page for the Snowflake SQL command DROP DATABASE, which removes a database from the system. It covers the command syntax, the name and CASCADE/RESTRICT parameters, Time Travel and Fail-safe behavior after a drop, restoration by renaming, notes on database replication (secondary and primary databases), and two usage examples showing the status output and SHOW DATABASES HISTORY results.",
+ "one_line": "Reference for the Snowflake DROP DATABASE command, covering CASCADE/RESTRICT, Time Travel and Fail-safe recovery, and replication restrictions.",
+ "key_facts": [
+  "DROP DATABASE syntax is: DROP DATABASE [ IF EXISTS ] <name> [ CASCADE | RESTRICT ].",
+  "The default for the CASCADE | RESTRICT option is CASCADE.",
+  "CASCADE drops the database and all objects in it, including tables with primary/unique keys referenced by foreign keys in other tables.",
+  "RESTRICT returns a warning about existing foreign key references and does not drop the database.",
+  "Identifiers containing spaces, special characters, or mixed-case characters must be enclosed in double quotes, and such quoted identifiers are case-sensitive.",
+  "Within the Time Travel retention period, a dropped database can be restored.",
+  "In Fail-safe (7 days), a dropped database can be recovered, but only by Snowflake.",
+  "A transient database has no Fail-safe, so it is purged when it moves out of Time Travel.",
+  "Once a dropped database has been purged, it cannot be recovered and must be recreated.",
+  "When a database is dropped, data retention periods explicitly set on child schemas or tables differ from the database are not honored; child objects are retained for the database's period, so they should be dropped explicitly first.",
+  "After dropping a database, creating a database with the same name creates a new version; the dropped version can be restored by renaming the current version to a different name.",
+  "The DROP operation fails if a session policy or password policy is set on a user or the account.",
+  "Only the database owner (the role with the OWNERSHIP privilege on the database) can drop the database.",
+  "A primary database cannot be dropped while one or more replicas (secondary databases) exist.",
+  "To drop a primary database with replicas, promote a secondary database to primary and then drop the former primary, or drop all its secondary databases first.",
+  "In the example, DROP DATABASE mytestdb2 returned the status 'MYTESTDB2 successfully dropped.'"
+ ],
+ "entities": [
+  {
+   "name": "DROP DATABASE",
+   "type": "program",
+   "role": "SQL command described in the note that removes a database from the system"
+  },
+  {
+   "name": "Time Travel",
+   "type": "program",
+   "role": "retention feature within which a dropped database can be restored"
+  },
+  {
+   "name": "Fail-safe",
+   "type": "program",
+   "role": "seven-day period after Time Travel in which a dropped permanent database can be recovered only by Snowflake"
+  },
+  {
+   "name": "MYTESTDB2",
+   "type": "other",
+   "role": "example database that is dropped and then shown in SHOW DATABASES HISTORY output"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "database",
+  "ddl",
+  "time-travel",
+  "data-recovery"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2659,
+  "output_tokens": 1042
+ }
+}

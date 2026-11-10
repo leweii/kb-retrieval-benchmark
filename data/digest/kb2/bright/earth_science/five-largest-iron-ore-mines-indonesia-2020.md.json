@@ -1,0 +1,86 @@
+{
+ "summary": "A Mining Technology article (September 9, 2021) ranks the five largest iron ore mines in Indonesia by 2020 production, using GlobalData's mines and projects database. The list runs from Yiwan Mine (2.547 MTPA) down to Nalo Baru Mine (0.027 MTPA), and three of the five are owned by Indonesia Asahan Aluminium. Most of the page is navigation and form boilerplate.",
+ "one_line": "Ranking of Indonesia's five largest iron ore mines by estimated 2020 production, led by Yiwan Mine at 2.547 MTPA, per GlobalData.",
+ "key_facts": [
+  "The ranking is based on 2020 production and drawn from GlobalData's mines and projects database, which tracks all operating and developing mines and projects globally.",
+  "Yiwan Mine, the largest, is in South Kalimantan, is owned by Yiwan Mining, and produced an estimated 2.547 MTPA of iron ore in 2020.",
+  "Gag Island Project in West Papua is owned by Indonesia Asahan Aluminium and produced an estimated 1.06 MTPA of iron ore in 2020.",
+  "Gag Island Project is a surface mine and will operate until 2047.",
+  "Pomalaa Mine is in South East Sulawesi, is owned by Indonesia Asahan Aluminium, and produced an estimated 0.943 MTPA in 2020.",
+  "Pakal Island Mine is a surface mine in North Maluku, owned by Indonesia Asahan Aluminium, and produced an estimated 0.515 MTPA in 2020.",
+  "Nalo Baru Mine is a surface mine in Jambi, owned by Earthstone Holdings, and produced an estimated 0.027 MTPA in 2020.",
+  "Nalo Baru Mine will operate until 2031.",
+  "Indonesia Asahan Aluminium owns three of the five mines: Gag Island Project, Pomalaa Mine and Pakal Island Mine.",
+  "Verdict's parent company GlobalData provides business information to 4,000 of the world's largest companies.",
+  "The article was published on September 9, 2021 on Mining Technology."
+ ],
+ "entities": [
+  {
+   "name": "GlobalData",
+   "type": "organization",
+   "role": "Provider of the mines and projects database used for the ranking; parent company of Verdict"
+  },
+  {
+   "name": "Mining Technology",
+   "type": "organization",
+   "role": "Publication that ran the article"
+  },
+  {
+   "name": "Verdict Media Limited",
+   "type": "organization",
+   "role": "Publisher of Mining Technology"
+  },
+  {
+   "name": "Yiwan Mine",
+   "type": "place",
+   "role": "Largest Indonesian iron ore mine in 2020 (2.547 MTPA), in South Kalimantan"
+  },
+  {
+   "name": "Yiwan Mining",
+   "type": "organization",
+   "role": "Owner of Yiwan Mine"
+  },
+  {
+   "name": "Gag Island Project",
+   "type": "place",
+   "role": "Second-largest iron ore mine, in West Papua, 1.06 MTPA"
+  },
+  {
+   "name": "Indonesia Asahan Aluminium",
+   "type": "organization",
+   "role": "Owner of Gag Island Project, Pomalaa Mine and Pakal Island Mine"
+  },
+  {
+   "name": "Pomalaa Mine",
+   "type": "place",
+   "role": "Third-largest iron ore mine, in South East Sulawesi, 0.943 MTPA"
+  },
+  {
+   "name": "Pakal Island Mine",
+   "type": "place",
+   "role": "Fourth-largest iron ore mine, surface mine in North Maluku, 0.515 MTPA"
+  },
+  {
+   "name": "Nalo Baru Mine",
+   "type": "place",
+   "role": "Fifth-largest iron ore mine, surface mine in Jambi, 0.027 MTPA"
+  },
+  {
+   "name": "Earthstone Holdings",
+   "type": "organization",
+   "role": "Owner of Nalo Baru Mine"
+  }
+ ],
+ "tags": [
+  "iron ore",
+  "indonesia",
+  "mining",
+  "globaldata",
+  "2020 production"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 6129,
+  "output_tokens": 1305
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "summary": "This note documents the Snowflake budget method !GET_SPENDING_HISTORY, which returns credit spending for a budget instance. It covers the syntax with optional UTC time bounds, the returned columns (MEASUREMENT_DATE, SERVICE_TYPE, CREDITS_SPENT), the privileges needed for custom and account budgets, and two example calls. The method is not available for Trial Accounts.",
+ "one_line": "Reference for the Snowflake budget method !GET_SPENDING_HISTORY, which returns credit spending by date and service type.",
+ "key_facts": [
+  "The method !GET_SPENDING_HISTORY is called on a budget instance as <budget_name>!GET_SPENDING_HISTORY.",
+  "This feature is currently not available for Trial Accounts.",
+  "The optional arguments are TIME_LOWER_BOUND and TIME_UPPER_BOUND, given as constant expressions in UTC timestamp format.",
+  "Both TIME_LOWER_BOUND and TIME_UPPER_BOUND must be set to limit results by a time range.",
+  "The returned column MEASUREMENT_DATE is of type DATE and gives the date when the usage occurred.",
+  "The returned column SERVICE_TYPE is of type VARCHAR and identifies the serverless feature consuming credits.",
+  "The returned column CREDITS_SPENT is of type FLOAT and gives the number of credits used.",
+  "SERVICE_TYPE values include AUTO_CLUSTERING, HYBRID_TABLE_REQUESTS, MATERIALIZED_VIEW, PIPE, QUERY_ACCELERATION, SEARCH_OPTIMIZATION, SERVERLESS_TASK, SNOWPIPE_STREAMING, WAREHOUSE_METERING, and WAREHOUSE_METERING_READER.",
+  "Viewing results for a custom budget requires a role granted the USAGE privilege on the database and schema containing the budget instance.",
+  "Viewing results for the account budget requires a specific application role, linked from the budgets documentation.",
+  "The example CALL budget_db.budget_schema.my_budget!GET_SPENDING_HISTORY() views spending for my_budget in schema budget_db.budget_schema.",
+  "The example CALL snowflake.local.account_root_budget!GET_SPENDING_HISTORY with a 7-day lower bound uses dateadd('days', -7, current_timestamp()) and an upper bound of current_timestamp()."
+ ],
+ "entities": [
+  {
+   "name": "!GET_SPENDING_HISTORY",
+   "type": "program",
+   "role": "budget method that returns spending history for a budget instance"
+  },
+  {
+   "name": "my_budget",
+   "type": "program",
+   "role": "example custom budget in schema budget_db.budget_schema"
+  },
+  {
+   "name": "budget_db.budget_schema",
+   "type": "place",
+   "role": "database and schema containing the example budget"
+  },
+  {
+   "name": "snowflake.local.account_root_budget",
+   "type": "program",
+   "role": "account budget used in the seven-day example"
+  },
+  {
+   "name": "Trial Accounts",
+   "type": "other",
+   "role": "account type for which this feature is not available"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "budgets",
+  "credits",
+  "spending history",
+  "sql reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2055,
+  "output_tokens": 1064
+ }
+}

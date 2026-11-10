@@ -1,0 +1,60 @@
+{
+ "summary": "This note describes Spilsby railway station, a former station in the market town of Spilsby, Lincolnshire, England. The station sat on a four-mile branch line linking Spilsby with Firsby Junction, where it met the main line from Cleethorpes to London. The line opened in 1868, declined in traffic, was bought by the Great Northern Railway in 1890, lost passenger services in 1939, and closed entirely in 1958.",
+ "one_line": "Spilsby railway station was a closed Lincolnshire station on a four-mile branch line to Firsby Junction, opened 1868 and shut in 1958.",
+ "key_facts": [
+  "Spilsby railway station was a railway station in the market town of Spilsby, Lincolnshire, England.",
+  "The station stood on a four mile long branch line between Spilsby and Firsby Junction.",
+  "At Firsby Junction the branch connected with the main line from Cleethorpes to London.",
+  "The station and branch line opened on 1 May 1868.",
+  "Traffic on the line soon slumped after opening.",
+  "The line was bought by the Great Northern Railway in 1890.",
+  "In 1939 passenger services on the line were suspended.",
+  "After 1939 only a goods service remained on the line.",
+  "The goods service on the Spilsby branch ceased in 1958.",
+  "In 1958 the Spilsby railway station and line were closed."
+ ],
+ "entities": [
+  {
+   "name": "Spilsby",
+   "type": "place",
+   "role": "market town in Lincolnshire, England where the railway station was located"
+  },
+  {
+   "name": "Lincolnshire",
+   "type": "place",
+   "role": "English county containing the market town of Spilsby"
+  },
+  {
+   "name": "Firsby Junction",
+   "type": "place",
+   "role": "junction where the Spilsby branch line connected with the main line"
+  },
+  {
+   "name": "Cleethorpes to London main line",
+   "type": "program",
+   "role": "main line that the Spilsby branch connected with at Firsby Junction"
+  },
+  {
+   "name": "Great Northern Railway",
+   "type": "organization",
+   "role": "company that bought the line in 1890"
+  },
+  {
+   "name": "Spilsby railway station",
+   "type": "place",
+   "role": "former railway station in Spilsby that closed in 1958"
+  }
+ ],
+ "tags": [
+  "railways",
+  "lincolnshire",
+  "branch line",
+  "railway closures",
+  "english local history"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1163,
+  "output_tokens": 726
+ }
+}

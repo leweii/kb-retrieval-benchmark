@@ -1,0 +1,34 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Ocala, Florida. It identifies Ocala as a city in Northern Florida and gives its population as estimated by the United States Census Bureau in the 2013 census. It also ranks Ocala as the 45th most populated city in Florida.",
+ "one_line": "Ocala is a city in Northern Florida with an estimated 57,468 residents in 2013, ranking 45th among Florida cities.",
+ "key_facts": [
+  "Ocala is a city located in Northern Florida.",
+  "As of the 2013 census, Ocala's population was estimated by the United States Census Bureau at 57,468.",
+  "Ocala is the 45th most populated city in Florida.",
+  "The pronunciation of Ocala is given as /oʊ ˈkælə/, roughly 'oh - KAL - ə'."
+ ],
+ "entities": [
+  {
+   "name": "Ocala, Florida",
+   "type": "place",
+   "role": "city located in Northern Florida, subject of the note"
+  },
+  {
+   "name": "United States Census Bureau",
+   "type": "organization",
+   "role": "source of the population estimate for Ocala as of the 2013 census"
+  }
+ ],
+ "tags": [
+  "ocala",
+  "florida",
+  "geography",
+  "population",
+  "united states"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1074,
+  "output_tokens": 395
+ }
+}

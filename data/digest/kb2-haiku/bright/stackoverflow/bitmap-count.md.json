@@ -1,0 +1,40 @@
+{
+ "summary": "This is a reference page for the BITMAP_COUNT aggregation function, which takes a bitmap representing the set of distinct values in a column and returns the number of distinct values whose bits are set. The page gives the syntax BITMAP_COUNT( <bitmap> ) and states that the argument must be a bitmap returned by a bitmap-building function, which is cut off in the note. Examples are not included and are referred to a separate guide on using bitmaps for hierarchical aggregations. Navigation and feedback boilerplate is omitted.",
+ "one_line": "Reference page for the BITMAP_COUNT aggregation function, which returns the number of distinct values encoded in a bitmap.",
+ "key_facts": [
+  "BITMAP_COUNT is an aggregation function.",
+  "Given a bitmap that represents the set of distinct values for a column, BITMAP_COUNT returns the number of distinct values.",
+  "The syntax is BITMAP_COUNT( <bitmap> ).",
+  "The single argument must evaluate to a bitmap returned by the bitmap-building function referenced in the note (name truncated in the source).",
+  "The function returns the number of distinct values in a column, as represented by the bits set in the input bitmap.",
+  "The page refers readers to 'Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations' for examples.",
+  "The page is listed under the Bitwise, Hash and Count Distinct Values related function groups in its navigation.",
+  "The page's 'On this page' sections are Syntax, Arguments, Returns and Examples.",
+  "The page language is English.",
+  "The note's metadata lists the source as 'bright' and the domain as 'stackoverflow'."
+ ],
+ "entities": [
+  {
+   "name": "BITMAP_COUNT",
+   "type": "program",
+   "role": "aggregation function that returns the number of distinct values represented by the bits set in an input bitmap"
+  },
+  {
+   "name": "Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations",
+   "type": "other",
+   "role": "related guide referenced for examples of BITMAP_COUNT"
+  }
+ ],
+ "tags": [
+  "sql",
+  "aggregation",
+  "bitmap",
+  "distinct-count",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1477,
+  "output_tokens": 713
+ }
+}

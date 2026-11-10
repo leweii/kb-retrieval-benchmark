@@ -1,0 +1,84 @@
+{
+ "summary": "A DIYnot forum thread started by AP77 on 31 Jul 2019 about an elderly neighbour's hot tap water feeling far too hot even though the cylinder thermostat is set to about 50 degrees. AP77 suspects the thermostat is faulty since it clicks around 70 degrees. Responders suggest a stuck open zone valve, ask about the system type (S-plan, Y-plan or vented), and advise checking for one or two valve boxes on the pipes. AP77 reports an open vented system, the immersion off, and that the water cools somewhat when the boiler is left off for 5 to 6 hours.",
+ "one_line": "Forum thread on hot tap water running too hot despite a cylinder thermostat set to 50 degrees, with diagnostic advice on zone valves and system type.",
+ "key_facts": [
+  "AP77 started the thread on 31 Jul 2019 to help an elderly neighbour whose hot water from the taps seemed too hot.",
+  "The hot water cylinder thermostat was set to 50 degrees, described as almost the coolest setting.",
+  "Turning the cylinder thermostat clockwise, AP77 heard it click around 70 degrees.",
+  "AP77 asked whether the click meant the water in the tank was around 70 degrees and whether the thermostat needed replacing.",
+  "mrStat replied that the problem could be a stuck open zone valve and asked what kind of system it was.",
+  "The boiler is a Worcester Bosch condensing boiler in a bungalow.",
+  "The hot water cylinder is in the airing cupboard at ground floor level and the cold water tank is in the loft.",
+  "AP77 believes the system is an open vented system and the immersion heater is turned off.",
+  "The boiler runs and heats the water and the radiators when required.",
+  "If the boiler is switched off and left for 5 or 6 hours, the hot tap water is a little cooler.",
+  "dilalio advised uploading photos of the pipework or looking for boxes about the size of a block of butter on the pipes: one box indicates a Y plan and two boxes an S plan.",
+  "undertrained asked whether the thermostat was making good contact with the metal of the cylinder.",
+  "The thread is in the Plumbing and Central Heating forum on DIYnot."
+ ],
+ "entities": [
+  {
+   "name": "AP77",
+   "type": "person",
+   "role": "Thread starter who is trying to help an elderly neighbour with overly hot tap water"
+  },
+  {
+   "name": "mrStat",
+   "type": "person",
+   "role": "Forum member who suggested a stuck open zone valve and asked about the system type"
+  },
+  {
+   "name": "dilalio",
+   "type": "person",
+   "role": "Forum member who explained that one box on the pipes indicates a Y plan and two boxes an S plan"
+  },
+  {
+   "name": "undertrained",
+   "type": "person",
+   "role": "Forum member who asked whether the thermostat makes good contact with the cylinder metal"
+  },
+  {
+   "name": "Worcester Bosch",
+   "type": "organization",
+   "role": "Manufacturer of the condensing boiler in the neighbour's bungalow"
+  },
+  {
+   "name": "DIYnot",
+   "type": "organization",
+   "role": "Website hosting the forum thread"
+  },
+  {
+   "name": "Hertfordshire",
+   "type": "place",
+   "role": "Location listed on mrStat's profile"
+  },
+  {
+   "name": "Potters Bar",
+   "type": "place",
+   "role": "Location listed on dilalio's profile"
+  },
+  {
+   "name": "S-Plan",
+   "type": "product",
+   "role": "Central heating plumbing system type with two valve boxes, mentioned as a possible system"
+  },
+  {
+   "name": "Y-Plan",
+   "type": "product",
+   "role": "Central heating plumbing system type with one valve box, mentioned as a possible system"
+  }
+ ],
+ "tags": [
+  "hot water cylinder",
+  "thermostat",
+  "central heating",
+  "plumbing",
+  "zone valve",
+  "forum thread"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6538,
+  "output_tokens": 1218
+ }
+}

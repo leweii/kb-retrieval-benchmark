@@ -1,0 +1,73 @@
+{
+ "summary": "The note describes Gamla stan metro station, a Stockholm metro station in the Gamla stan district that is served by the Red and Green lines. It opened on 24 November 1957 as part of the Slussen to Hötorget connection, which joined the east and west parts of the green line. The Red line's first stretch, from T-Centralen to Fruängen, opened on 5 April 1964.",
+ "one_line": "Gamla stan metro station is a Stockholm metro station in the Gamla stan district, served by the Red and Green lines, opened in 1957.",
+ "key_facts": [
+  "Gamla stan metro station is a station of the Stockholm metro.",
+  "Gamla stan metro station is located in the district of Gamla stan.",
+  "The station is served by the Red and the Green lines.",
+  "The station was opened on 24 November 1957.",
+  "The station opened as part of the connection between Slussen and Hötorget.",
+  "That connection joined the east and west parts of the green line.",
+  "On 5 April 1964, the first stretch of the Red line was opened.",
+  "The first stretch of the Red line ran between T-Centralen and Fruängen."
+ ],
+ "entities": [
+  {
+   "name": "Gamla stan metro station",
+   "type": "place",
+   "role": "Stockholm metro station located in the district of Gamla stan, served by the Red and Green lines, opened 24 November 1957"
+  },
+  {
+   "name": "Stockholm metro",
+   "type": "organization",
+   "role": "metro system of which Gamla stan metro station is a station"
+  },
+  {
+   "name": "Gamla stan",
+   "type": "place",
+   "role": "district where Gamla stan metro station is located"
+  },
+  {
+   "name": "Red line",
+   "type": "program",
+   "role": "metro line serving Gamla stan metro station; its first stretch, between T-Centralen and Fruängen, opened on 5 April 1964"
+  },
+  {
+   "name": "Green line",
+   "type": "program",
+   "role": "metro line serving Gamla stan metro station; its east and west parts were joined by the Slussen to Hötorget connection"
+  },
+  {
+   "name": "Slussen",
+   "type": "place",
+   "role": "one end of the connection opened in 1957 that included the station"
+  },
+  {
+   "name": "Hötorget",
+   "type": "place",
+   "role": "other end of the connection opened in 1957 that included the station"
+  },
+  {
+   "name": "T-Centralen",
+   "type": "place",
+   "role": "start point of the first Red line stretch opened on 5 April 1964"
+  },
+  {
+   "name": "Fruängen",
+   "type": "place",
+   "role": "end point of the first Red line stretch opened on 5 April 1964"
+  }
+ ],
+ "tags": [
+  "stockholm",
+  "metro",
+  "public transport",
+  "gamla stan",
+  "rail transit"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1122,
+  "output_tokens": 1386
+ }
+}

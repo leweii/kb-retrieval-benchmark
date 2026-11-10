@@ -1,0 +1,63 @@
+{
+ "summary": "This clipped documentation page describes the GET_CONFIG method for Snowflake budgets, which returns budget configuration properties. It lists the returned columns (notification channel, notification email, last notification time, spend limit, mute flag, budget type, and account-budget-only activation fields), the access control requirements for custom and account budgets, and two example CALL statements. The feature is not available for trial accounts.",
+ "one_line": "Snowflake documentation for the budget GET_CONFIG method, which returns a budget's notification, spend limit, and activation configuration.",
+ "key_facts": [
+  "The GET_CONFIG method is invoked with the syntax <budget_name>!GET_CONFIG().",
+  "The GET_CONFIG feature is currently not available for Trial Accounts.",
+  "The NOTIFICATION_EMAIL column returns budget notification email address(es) as a comma-separated list when there is more than one.",
+  "The LAST_NOTIFICATION_TIME column is a UTC timestamp of when the last email notification was sent.",
+  "The SPEND_LIMIT column gives the budget's spending limit in credits.",
+  "The NOTIFICATION_MUTE_FLAG column is TRUE if email notifications are muted for the budget.",
+  "BUDGET_TYPE valid values are ACCOUNT_ROOT_BUDGET or USER_BUDGET.",
+  "IS_ACTIVE is TRUE if the account budget has been activated and is only available for the account budget.",
+  "ACTIVATION_TIMESTAMP is a TIMESTAMP_TZ giving when the account budget was activated and is only available for the account budget.",
+  "To view results for a custom budget, a role needs the USAGE privilege on the database and schema containing the budget instance.",
+  "Viewing results for the account budget requires a specific application role described in the budgets documentation.",
+  "An example call for a custom budget is CALL budget_db.budget_schema.my_budget!GET_CONFIG();.",
+  "An example call for the account budget is CALL snowflake.local.account_root_budget!GET_CONFIG();."
+ ],
+ "entities": [
+  {
+   "name": "GET_CONFIG",
+   "type": "program",
+   "role": "budget method that returns the budget configuration properties"
+  },
+  {
+   "name": "ACCOUNT_ROOT_BUDGET",
+   "type": "other",
+   "role": "budget type value for the account budget"
+  },
+  {
+   "name": "USER_BUDGET",
+   "type": "other",
+   "role": "budget type value for user budgets"
+  },
+  {
+   "name": "my_budget",
+   "type": "program",
+   "role": "example custom budget in schema budget_db.budget_schema"
+  },
+  {
+   "name": "snowflake.local.account_root_budget",
+   "type": "program",
+   "role": "account budget referenced in the account-budget example"
+  },
+  {
+   "name": "Trial Accounts",
+   "type": "other",
+   "role": "account type for which the feature is not currently available"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "budgets",
+  "sql-methods",
+  "access-control",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1898,
+  "output_tokens": 946
+ }
+}

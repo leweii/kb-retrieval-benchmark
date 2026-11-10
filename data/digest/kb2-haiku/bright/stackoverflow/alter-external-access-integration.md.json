@@ -1,0 +1,70 @@
+{
+ "summary": "This is Snowflake documentation for the ALTER EXTERNAL ACCESS INTEGRATION SQL command, which modifies an existing external access integration. It describes the SET and UNSET syntax, the parameters (allowed network rules, API authentication integrations, allowed secrets, ENABLED, COMMENT and TAG), and the OWNERSHIP privilege required on the integration. It also includes a usage note on not entering personal or sensitive data as metadata and two examples. The feature is not supported in the Gov region.",
+ "one_line": "Snowflake SQL reference for ALTER EXTERNAL ACCESS INTEGRATION, covering syntax, parameters, privileges and examples for modifying external access integrations.",
+ "key_facts": [
+  "ALTER EXTERNAL ACCESS INTEGRATION modifies the properties of an existing external access integration.",
+  "External access is not supported in the Gov region.",
+  "The ALTER EXTERNAL ACCESS INTEGRATION statement supports optional IF EXISTS before the integration name.",
+  "ALLOWED_NETWORK_RULES specifies allowed network rules, and only egress rules may be specified.",
+  "ALLOWED_API_AUTHENTICATION_INTEGRATIONS specifies security integrations whose OAuth authorization server issued the secret used by the UDF or procedure, and the security integration must be the type used for external API integration.",
+  "ALLOWED_AUTHENTICATION_SECRETS specifies the secrets that a UDF or procedure can use when referring to this integration.",
+  "ENABLED is set to TRUE or FALSE, with a default of TRUE; if disabled, handler code relying on the integration cannot reach the external endpoint.",
+  "The value of ENABLED is case-insensitive.",
+  "COMMENT sets a comment for the external access integration, with no value by default.",
+  "TAG tag values are always strings with a maximum of 256 characters.",
+  "UNSET resets the properties ALLOWED_NETWORK_RULES, ALLOWED_API_AUTHENTICATION_INTEGRATIONS, ALLOWED_AUTHENTICATION_SECRETS, COMMENT and TAG to their defaults.",
+  "Specifying a value when resetting a property with UNSET returns an error.",
+  "The role executing the command needs OWNERSHIP on the integration at a minimum.",
+  "Customers should not enter personal data (other than for a User object), sensitive data, export-controlled data or other regulated data as metadata.",
+  "An example sets ALLOWED_AUTHENTICATION_SECRETS of dev_integration to my_new_secret, and another disables dev_integration_disabled with a comment 'Disabled until the end of the Q1.'"
+ ],
+ "entities": [
+  {
+   "name": "ALTER EXTERNAL ACCESS INTEGRATION",
+   "type": "program",
+   "role": "SQL command that modifies the properties of an existing external access integration"
+  },
+  {
+   "name": "CREATE NETWORK RULE",
+   "type": "program",
+   "role": "reference command for network rules referenced by ALLOWED_NETWORK_RULES"
+  },
+  {
+   "name": "CREATE SECURITY INTEGRATION",
+   "type": "program",
+   "role": "reference command for security integrations referenced by ALLOWED_API_AUTHENTICATION_INTEGRATIONS"
+  },
+  {
+   "name": "Gov region",
+   "type": "place",
+   "role": "region where external access is not supported"
+  },
+  {
+   "name": "dev_integration",
+   "type": "product",
+   "role": "example external access integration whose allowed secrets are set to my_new_secret"
+  },
+  {
+   "name": "dev_integration_disabled",
+   "type": "product",
+   "role": "example external access integration that is disabled and given a comment"
+  },
+  {
+   "name": "my_new_secret",
+   "type": "product",
+   "role": "secret set as the allowed authentication secret in the first example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "external-access",
+  "security",
+  "reference-documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3273,
+  "output_tokens": 1273
+ }
+}

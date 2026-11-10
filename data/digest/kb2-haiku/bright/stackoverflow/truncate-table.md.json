@@ -1,0 +1,52 @@
+{
+ "summary": "This note is a documentation page for the TRUNCATE TABLE SQL command, which removes all rows from a table while keeping the table structure, privileges and constraints intact. It also clears the table's load metadata so the same files can be loaded again after the command completes. The page gives the syntax, describes the name parameter and its identifier quoting rules, and includes a worked example that creates a table, inserts 20 rows, truncates it with IF EXISTS, and confirms the count drops to 0. The clipped page's navigation menu and footer were ignored.",
+ "one_line": "Documentation for the TRUNCATE TABLE command, which empties a table's rows while keeping its structure, privileges, constraints and load metadata reset.",
+ "key_facts": [
+  "TRUNCATE TABLE removes all rows from a table but leaves the table intact, including all privileges and constraints on the table.",
+  "TRUNCATE TABLE also deletes the load metadata for the table, which allows the same files to be loaded into the table again after the command completes.",
+  "The syntax is TRUNCATE [ TABLE ] [ IF EXISTS ] <name>.",
+  "The name parameter specifies the identifier for the table to truncate.",
+  "If a table identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive, for example \"My Object\".",
+  "If the table identifier is not fully qualified, the command looks for the table in the current schema for the session.",
+  "The TABLE keyword is optional if the table name is fully qualified or a database and schema are currently in use for the session.",
+  "The example creates a table named temp with a single column i of type number using CREATE OR REPLACE TABLE.",
+  "The example populates temp with 20 rows using INSERT INTO temp SELECT seq8() FROM table(generator(rowcount=>20)) v.",
+  "Before truncating, SELECT COUNT(*) FROM temp returns 20.",
+  "The example runs TRUNCATE TABLE IF EXISTS temp, after which SELECT COUNT(*) FROM temp returns 0."
+ ],
+ "entities": [
+  {
+   "name": "TRUNCATE TABLE",
+   "type": "program",
+   "role": "SQL command described on the page that removes all rows from a table while leaving the table intact"
+  },
+  {
+   "name": "temp",
+   "type": "other",
+   "role": "example table created, populated with 20 rows, and truncated in the examples"
+  },
+  {
+   "name": "seq8",
+   "type": "program",
+   "role": "function used in the example INSERT statement to generate values"
+  },
+  {
+   "name": "generator",
+   "type": "program",
+   "role": "table function used with rowcount=>20 in the example to produce 20 rows"
+  }
+ ],
+ "tags": [
+  "sql",
+  "truncate-table",
+  "database",
+  "snowflake",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1876,
+  "output_tokens": 893
+ }
+}

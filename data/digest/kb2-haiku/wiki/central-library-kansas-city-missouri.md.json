@@ -1,0 +1,57 @@
+{
+ "summary": "The note describes the Central Library, the main library of the Kansas City Public Library system in downtown Kansas City, Missouri. It gives the building's street address and its corner location at West 10th Street and Baltimore Avenue, along with nearby landmarks. It also notes that the building houses the administration of Kansas City's library system.",
+ "one_line": "The Central Library is the main building of the Kansas City Public Library system, located at 14 West 10th Street downtown.",
+ "key_facts": [
+  "The Central Library is the main library of the Kansas City Public Library system.",
+  "The Central Library is located in the Library District of Downtown Kansas City, Missouri, United States.",
+  "The Central Library is situated at 14 West 10th Street.",
+  "The Central Library sits at the corner of West 10th Street and Baltimore Avenue.",
+  "The Central Library is across Baltimore Avenue from the Kansas City Club.",
+  "The Central Library is up from the New York Life Building.",
+  "The Central Library contains the administration of Kansas City's library system."
+ ],
+ "entities": [
+  {
+   "name": "Central Library",
+   "type": "place",
+   "role": "main library of the Kansas City Public Library system, located at 14 West 10th Street in downtown Kansas City, Missouri"
+  },
+  {
+   "name": "Kansas City Public Library",
+   "type": "organization",
+   "role": "library system whose main library is the Central Library"
+  },
+  {
+   "name": "Kansas City Club",
+   "type": "organization",
+   "role": "landmark located across Baltimore Avenue from the Central Library"
+  },
+  {
+   "name": "New York Life Building",
+   "type": "place",
+   "role": "building near the Central Library"
+  },
+  {
+   "name": "Baltimore Avenue",
+   "type": "place",
+   "role": "street that the Central Library sits on the corner of, with the Kansas City Club across it"
+  },
+  {
+   "name": "West 10th Street",
+   "type": "place",
+   "role": "street on which the Central Library is located at number 14"
+  }
+ ],
+ "tags": [
+  "kansas city",
+  "libraries",
+  "downtown kansas city",
+  "public library",
+  "missouri"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1135,
+  "output_tokens": 635
+ }
+}

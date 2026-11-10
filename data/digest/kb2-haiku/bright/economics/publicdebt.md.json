@@ -1,0 +1,75 @@
+{
+ "summary": "This is a FRED (Federal Reserve Bank of St. Louis) data page for the quarterly series GFDEGDQ188S, which measures total U.S. federal public debt as a percentage of GDP, seasonally adjusted. The page shows the latest observation of 121.62069 percent for Q4 2023, last updated March 28, 2024, with quarterly data from 1966-01-01 to 2023-10-01. It also gives the series' construction formula, source attribution, citation details, related series and blog posts, and notes that recessions are shaded on the chart.",
+ "one_line": "St. Louis Fed FRED page with quarterly U.S. federal total public debt as a percent of GDP, 1966 to Q4 2023.",
+ "key_facts": [
+  "The FRED series GFDEGDQ188S is titled Federal Debt: Total Public Debt as Percent of Gross Domestic Product.",
+  "The latest observation shown is Q4 2023 at 121.62069 percent of GDP.",
+  "The series was updated March 28, 2024 at 8:07 AM CDT.",
+  "The series is quarterly and seasonally adjusted, with units of percent of GDP.",
+  "Data covers the period from 1966-01-01 to 2023-10-01.",
+  "The first data point, for 1966-01-01, is 40.33999 percent of GDP.",
+  "The series value jumped to 132.96365 percent of GDP in 2020-04-01, up from 106.99007 in 2020-01-01.",
+  "The series was first constructed by the Federal Reserve Bank of St. Louis in October 2012.",
+  "The series is calculated as ((GFDEBTN/1000)/GDP)*100, where GFDEBTN is total public debt in millions of dollars converted to billions.",
+  "The underlying data source is the U.S. Office of Management and Budget, and the release is Debt to Gross Domestic Product Ratios.",
+  "The suggested citation is dated March 28, 2024 and is retrieved from FRED, Federal Reserve Bank of St. Louis.",
+  "Related series include Federal Surplus or Deficit [-] as Percent of Gross Domestic Product and Gross Federal Debt as Percent of Gross Domestic Product.",
+  "Related FRED blog posts include 'Two tales of federal debt', 'Higher public debt, but a lower cost to service it', and 'A lesson in measuring the federal debt'.",
+  "The page is tagged Public Domain: Citation Requested."
+ ],
+ "entities": [
+  {
+   "name": "Federal Reserve Bank of St. Louis",
+   "type": "organization",
+   "role": "Publisher of the FRED series, which first constructed the debt-to-GDP series in October 2012 and is cited as a source"
+  },
+  {
+   "name": "Office of Management and Budget",
+   "type": "organization",
+   "role": "Source of the total public debt data used in the series, cited as U.S. Office of Management and Budget"
+  },
+  {
+   "name": "FRED",
+   "type": "program",
+   "role": "Economic data platform hosting the Federal Debt: Total Public Debt as Percent of GDP series and cited as the retrieval source"
+  },
+  {
+   "name": "Federal Debt: Total Public Debt as Percent of Gross Domestic Product",
+   "type": "other",
+   "role": "The FRED series GFDEGDQ188S described on this page, with quarterly seasonally adjusted data from 1966 to Q4 2023"
+  },
+  {
+   "name": "Gross Domestic Product",
+   "type": "other",
+   "role": "Denominator in the formula for the debt-to-GDP ratio, with GDP data tagged as sourced from the Bureau of Economic Analysis"
+  },
+  {
+   "name": "Bureau of Economic Analysis",
+   "type": "organization",
+   "role": "Listed in the page tags as a source associated with Gross Domestic Product data"
+  },
+  {
+   "name": "U.S. Treasury: Financial Management Service",
+   "type": "organization",
+   "role": "Listed in the page tags as an associated data source for public debt"
+  },
+  {
+   "name": "ALFRED Vintage Series",
+   "type": "product",
+   "role": "Related FRED archive listing for the Federal Debt: Total Public Debt as Percent of GDP series"
+  }
+ ],
+ "tags": [
+  "federal debt",
+  "gdp",
+  "public finance",
+  "us economy",
+  "fred",
+  "time series"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 5174,
+  "output_tokens": 2403
+ }
+}

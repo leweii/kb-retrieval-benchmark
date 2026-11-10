@@ -1,0 +1,76 @@
+{
+ "summary": "The note is a Wikipedia-derived article on the reward system, the mesocorticolimbic circuit of neural structures responsible for incentive salience (wanting), associative learning, and positively valenced emotions such as pleasure. It defines reward and its primary and extrinsic/intrinsic forms, describes the brain structures involved (ventral tegmental area, striatum, nucleus accumbens, prefrontal cortex, hippocampus, amygdala) and the competing theories of nucleus accumbens activity, and explains the role of dopamine and the mesolimbic pathway. The text is truncated before the sections on anti-reward system, disorders, and history.",
+ "one_line": "Wikipedia article describing the brain's reward system: the mesocorticolimbic circuit behind wanting, learning, and pleasure, and its key structures.",
+ "key_facts": [
+  "The reward system is also known as the mesocorticolimbic circuit.",
+  "The reward system is responsible for incentive salience, associative learning (primarily positive reinforcement and classical conditioning), and positively valenced emotions with pleasure as a core component.",
+  "A rewarding stimulus is described as \"any stimulus, object, event, activity, or situation that has the potential to make us approach and consume it is by definition a reward\".",
+  "Primary rewards facilitate the survival of one's self and offspring and include homeostatic rewards such as palatable food and reproductive rewards such as sexual contact and parental investment.",
+  "Extrinsic rewards, such as money, are conditioned rewards that motivate behavior but are not inherently pleasurable.",
+  "Extrinsic rewards may elicit pleasure, such as euphoria from winning a lot of money in a lottery, after being classically conditioned with intrinsic rewards.",
+  "The three primary functions of rewards are producing associative learning, affecting decision-making and inducing approach behavior, and eliciting positively valenced emotions, particularly pleasure.",
+  "The brain structures of the reward system are located primarily within the cortico-basal ganglia-thalamo-cortical loop, and the basal ganglia portion drives activity within the reward system.",
+  "The ventral tegmental area (VTA) is important in responding to stimuli and cues that indicate a reward is present.",
+  "The article describes the nucleus accumbens shell and ventral pallidum as containing hedonic hotspots, identified as of October 2017.",
+  "Two competing theories concern nucleus accumbens activity: the inhibition (hyperpolarization) hypothesis and the disinhibition (depolarization) hypothesis.",
+  "Dozens of brain sites will maintain intracranial self-stimulation, with the lateral hypothalamus and medial forebrain bundle being especially effective.",
+  "Abstinence from addicting drugs activates the prefrontal cortex glutamatergic projection to the nucleus accumbens, which leads to strong cravings.",
+  "The amygdala receives input from the VTA and outputs to the nucleus accumbens and is important in creating powerful emotional flashbulb memories.",
+  "Reward is described as a mechanism that evolved to help increase the adaptive fitness of animals."
+ ],
+ "entities": [
+  {
+   "name": "Ventral tegmental area",
+   "type": "place",
+   "role": "brain structure important in responding to stimuli and cues indicating a reward is present; projects dopamine signals to the nucleus accumbens"
+  },
+  {
+   "name": "Nucleus accumbens",
+   "type": "place",
+   "role": "part of the ventral striatum; receives dopamine from the VTA and is central to wanting and liking reactions"
+  },
+  {
+   "name": "Prefrontal cortex",
+   "type": "place",
+   "role": "reward-system structure that mediates salience and conditional behaviors and helps associate environmental cues with reward"
+  },
+  {
+   "name": "Amygdala",
+   "type": "place",
+   "role": "reward-system structure that receives input from the VTA, outputs to the NAc, and mediates withdrawal anxiety"
+  },
+  {
+   "name": "Hippocampus",
+   "type": "place",
+   "role": "reward-system structure serving contextual memories and associated cues, underpinning reinstatement of reward-seeking"
+  },
+  {
+   "name": "Medial forebrain bundle",
+   "type": "place",
+   "role": "set of neural pathways that mediates brain stimulation reward, a component of the reward system"
+  },
+  {
+   "name": "Mesolimbic dopamine pathway",
+   "type": "program",
+   "role": "pathway projecting from the ventral tegmental area to the nucleus accumbens, central to reward circuits"
+  },
+  {
+   "name": "Intracranial self-stimulation",
+   "type": "event",
+   "role": "experimental procedure in which dozens of brain sites maintain stimulation, studied in brain-stimulation reward research"
+  }
+ ],
+ "tags": [
+  "neuroscience",
+  "reward system",
+  "dopamine",
+  "motivation",
+  "addiction",
+  "brain anatomy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15556,
+  "output_tokens": 1557
+ }
+}

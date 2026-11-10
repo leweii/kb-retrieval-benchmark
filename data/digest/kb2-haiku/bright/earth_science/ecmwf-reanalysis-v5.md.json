@@ -1,0 +1,64 @@
+{
+ "summary": "This note is an ECMWF web page describing ERA5, the fifth generation ECMWF atmospheric reanalysis of global climate, covering January 1940 to the present. ERA5 provides hourly estimates of many atmospheric, land and oceanic climate variables on a 31km grid with 137 model levels up to 80km, and includes uncertainty information at reduced resolutions. It is produced by the Copernicus Climate Change Service at ECMWF and replaces ERA-Interim, which stopped being produced on 31 August 2019.",
+ "one_line": "ECMWF's ERA5 fifth-generation global atmospheric reanalysis, covering 1940 to present, produced by the Copernicus Climate Change Service.",
+ "key_facts": [
+  "ERA5 is the fifth generation ECMWF atmospheric reanalysis of the global climate.",
+  "ERA5 covers the period from January 1940 to present.",
+  "ERA5 is produced by the Copernicus Climate Change Service (C3S) at ECMWF.",
+  "ERA5 provides hourly estimates of a large number of atmospheric, land and oceanic climate variables.",
+  "ERA5 data cover the Earth on a 31km grid.",
+  "ERA5 resolves the atmosphere using 137 levels from the surface up to a height of 80km.",
+  "ERA5 includes information about uncertainties for all variables at reduced spatial and temporal resolutions.",
+  "ERA5 is available on single levels, pressure levels, potential temperature levels, a potential vorticity level, and model levels.",
+  "Daily and monthly aggregates of the hourly ERA5 fields are available as well.",
+  "ERA5 combines vast amounts of historical observations into global estimates using advanced modelling and data assimilation systems.",
+  "ERA5 replaces the ERA-Interim reanalysis, which stopped being produced on 31 August 2019.",
+  "The ERA5 dataset is a global reanalysis of type 'Reanalysis (global)' provided by Copernicus.",
+  "Access to the ERA5 data portals and their features depends on who the user is, via the Climate Data Store."
+ ],
+ "entities": [
+  {
+   "name": "ECMWF",
+   "type": "organization",
+   "role": "European Centre for Medium-Range Weather Forecasts, the producer of the ERA5 reanalysis and host of the web page"
+  },
+  {
+   "name": "ERA5",
+   "type": "product",
+   "role": "Fifth generation ECMWF atmospheric reanalysis of global climate covering January 1940 to present"
+  },
+  {
+   "name": "Copernicus Climate Change Service",
+   "type": "program",
+   "role": "Creator of ERA5, abbreviated C3S, operating at ECMWF"
+  },
+  {
+   "name": "ERA-Interim",
+   "type": "product",
+   "role": "Earlier reanalysis replaced by ERA5, which stopped being produced on 31 August 2019"
+  },
+  {
+   "name": "Climate Data Store",
+   "type": "program",
+   "role": "Portal through which the ERA5 dataset is explored and accessed"
+  },
+  {
+   "name": "Copernicus",
+   "type": "organization",
+   "role": "Provider of the ERA5 dataset"
+  }
+ ],
+ "tags": [
+  "reanalysis",
+  "climate data",
+  "atmospheric science",
+  "ecmwf",
+  "copernicus",
+  "weather data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2040,
+  "output_tokens": 1049
+ }
+}

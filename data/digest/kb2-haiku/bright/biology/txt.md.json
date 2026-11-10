@@ -1,0 +1,87 @@
+{
+ "summary": "This NHS-style note explains what antibiotics are for, how to take them, and their risks. Antibiotics treat or prevent some bacterial infections by killing bacteria or stopping their spread, but do not work for viral infections like colds and flu. It covers missed and extra doses, common and serious side effects including allergic reaction, interactions and pregnancy considerations, and groups antibiotics into six classes with examples and uses. The note stresses following a doctor's advice because of antibiotic resistance.",
+ "one_line": "NHS guide to antibiotics covering appropriate use, dosing, side effects, interactions, antibiotic resistance, and the six main antibiotic classes.",
+ "key_facts": [
+  "Antibiotics are used to treat or prevent some types of bacterial infection and work by killing bacteria or preventing them from spreading.",
+  "Antibiotics do not work for viral infections such as colds and flu, and most coughs.",
+  "Antibiotics are no longer routinely used to treat chest infections, ear infections in children, or sore throats.",
+  "Antibiotic resistance is described as a big problem; taking antibiotics when not needed can mean they will not work in the future.",
+  "People at a high risk of infection may be given antibiotics as a precaution, known as antibiotic prophylaxis.",
+  "Antibiotics can come as tablets, capsules or a liquid to drink, as creams, lotions, sprays and drops, or as injections or drips.",
+  "If a dose is missed, in most cases the missed dose should be taken as soon as remembered, but if it is almost time for the next dose it should be skipped; a double dose should not be taken.",
+  "Accidentally taking 1 extra dose is unlikely to cause serious harm but increases the chance of side effects such as stomach pain, diarrhoea, and feeling or being sick.",
+  "The common side effects of antibiotics include being sick, feeling sick, bloating and indigestion, and diarrhoea.",
+  "Penicillin and cephalosporins are antibiotics especially associated with allergic reactions; in very rare cases this can lead to anaphylaxis, a medical emergency.",
+  "Symptoms requiring a call to 999 or a visit to A&E include a skin rash, wheezing, tightness in the chest or throat, trouble breathing or talking, and swelling of the mouth, face, lips, tongue or throat.",
+  "Some antibiotics do not mix well with other medicines such as the contraceptive pill and alcohol.",
+  "Penicillins such as amoxicillin are widely used for skin, chest and urinary tract infections.",
+  "Aminoglycosides such as gentamicin and tobramycin are used in hospital for very serious illness and can cause hearing loss and kidney damage.",
+  "Fluoroquinolones such as ciprofloxacin and levofloxacin are no longer used routinely because of the risk of serious side effects.",
+  "Other antibiotics include chloramphenicol, fusidic acid, nitrofurantoin and trimethoprim, used for eye and ear, skin and eye, and urinary tract infections respectively."
+ ],
+ "entities": [
+  {
+   "name": "NHS 111",
+   "type": "program",
+   "role": "NHS service to call as soon as possible if more than 1 extra antibiotic dose was taken, the person is worried, or has severe side effects"
+  },
+  {
+   "name": "A&E",
+   "type": "place",
+   "role": "emergency department to go to immediately for signs of serious allergic reaction"
+  },
+  {
+   "name": "Penicillins",
+   "type": "product",
+   "role": "antibiotic class widely used for skin, chest and urinary tract infections, including amoxicillin and flucloxacillin"
+  },
+  {
+   "name": "Cephalosporins",
+   "type": "product",
+   "role": "antibiotic class, such as cefalexin, used for a wide range of infections and some serious ones like sepsis and meningitis"
+  },
+  {
+   "name": "Aminoglycosides",
+   "type": "product",
+   "role": "antibiotic class, such as gentamicin and tobramycin, used in hospital for very serious illness"
+  },
+  {
+   "name": "Tetracyclines",
+   "type": "product",
+   "role": "antibiotic class, such as doxycycline, commonly used for acne and rosacea"
+  },
+  {
+   "name": "Macrolides",
+   "type": "product",
+   "role": "antibiotic class, such as azithromycin and erythromycin, useful for lung and chest infections and penicillin allergy"
+  },
+  {
+   "name": "Fluoroquinolones",
+   "type": "product",
+   "role": "broad-spectrum antibiotic class, such as ciprofloxacin and levofloxacin, no longer used routinely due to serious side effect risk"
+  },
+  {
+   "name": "Anaphylaxis",
+   "type": "event",
+   "role": "serious allergic reaction that is a medical emergency and can be caused by antibiotics in very rare cases"
+  },
+  {
+   "name": "Antibiotic resistance",
+   "type": "event",
+   "role": "big problem arising when antibiotics are taken unnecessarily, so they may not work in the future"
+  }
+ ],
+ "tags": [
+  "antibiotics",
+  "bacterial infection",
+  "medication safety",
+  "side effects",
+  "antibiotic resistance",
+  "pharmacology"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 8214,
+  "output_tokens": 1633
+ }
+}

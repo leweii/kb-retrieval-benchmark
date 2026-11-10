@@ -1,0 +1,55 @@
+{
+ "summary": "This is a Snowflake documentation reference page for the SNOWFLAKE.ALERT.LAST_SUCCESSFUL_SCHEDULED_TIME() function. It returns the scheduled time of the most recent successful alert condition evaluation, where no errors occurred and the alert state was CONDITION_FALSE or TRIGGERED. The function takes no arguments, returns a TIMESTAMP_LTZ value (or NULL if there are no recent successful evaluations), and is defined in the ALERT schema of the SNOWFLAKE database. Calling it requires a role granted the snowflake.alert_viewer database role.",
+ "one_line": "Reference for the Snowflake function that returns the scheduled time of the most recent successful alert evaluation.",
+ "key_facts": [
+  "SNOWFLAKE.ALERT.LAST_SUCCESSFUL_SCHEDULED_TIME() returns the timestamp representing the scheduled time for the most recent successful evaluation of the alert condition.",
+  "A successful evaluation for this function is one where no errors occurred and the alert history state is CONDITION_FALSE or TRIGGERED.",
+  "The function takes no arguments; its syntax is SNOWFLAKE.ALERT.LAST_SUCCESSFUL_SCHEDULED_TIME().",
+  "The function returns a TIMESTAMP_LTZ value.",
+  "The function returns NULL if there are no recent successful evaluations of the alert condition.",
+  "The function is defined in the ALERT schema of the SNOWFLAKE database.",
+  "To call the function, the user must use a role that is granted the snowflake.alert_viewer database role.",
+  "The example grant statement is: GRANT DATABASE ROLE snowflake.alert_viewer TO ROLE alert_role;",
+  "The note's example describes granting the snowflake.alert_viewer database role to a role named alert_role so it can call the function.",
+  "The page's usage notes section describes the function's schema location and required privilege."
+ ],
+ "entities": [
+  {
+   "name": "SNOWFLAKE.ALERT.LAST_SUCCESSFUL_SCHEDULED_TIME",
+   "type": "program",
+   "role": "Function that returns the scheduled time of the most recent successful alert condition evaluation"
+  },
+  {
+   "name": "snowflake.alert_viewer",
+   "type": "program",
+   "role": "Database role that must be granted to a role to call the function"
+  },
+  {
+   "name": "alert_role",
+   "type": "program",
+   "role": "Example role granted the snowflake.alert_viewer database role"
+  },
+  {
+   "name": "ALERT schema",
+   "type": "other",
+   "role": "Schema of the SNOWFLAKE database where the function is defined"
+  },
+  {
+   "name": "SNOWFLAKE database",
+   "type": "other",
+   "role": "Database containing the ALERT schema that defines the function"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "alerts",
+  "sql-function",
+  "timestamps",
+  "access-control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1638,
+  "output_tokens": 946
+ }
+}

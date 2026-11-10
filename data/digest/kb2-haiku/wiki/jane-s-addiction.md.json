@@ -1,0 +1,57 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Jane's Addiction, an American rock band formed in Los Angeles in 1985. It identifies the band's four members: vocalist Perry Farrell, guitarist Dave Navarro, drummer Stephen Perkins and bassist Chris Chaney.",
+ "one_line": "Jane's Addiction is a Los Angeles rock band formed in 1985, with members Perry Farrell, Dave Navarro, Stephen Perkins and Chris Chaney.",
+ "key_facts": [
+  "Jane's Addiction is an American rock band.",
+  "Jane's Addiction is from Los Angeles.",
+  "Jane's Addiction was formed in 1985.",
+  "The band consists of vocalist Perry Farrell.",
+  "The band consists of guitarist Dave Navarro.",
+  "The band consists of drummer Stephen Perkins.",
+  "The band consists of bassist Chris Chaney."
+ ],
+ "entities": [
+  {
+   "name": "Jane's Addiction",
+   "type": "organization",
+   "role": "American rock band from Los Angeles, formed in 1985"
+  },
+  {
+   "name": "Perry Farrell",
+   "type": "person",
+   "role": "vocalist of Jane's Addiction"
+  },
+  {
+   "name": "Dave Navarro",
+   "type": "person",
+   "role": "guitarist of Jane's Addiction"
+  },
+  {
+   "name": "Stephen Perkins",
+   "type": "person",
+   "role": "drummer of Jane's Addiction"
+  },
+  {
+   "name": "Chris Chaney",
+   "type": "person",
+   "role": "bassist of Jane's Addiction"
+  },
+  {
+   "name": "Los Angeles",
+   "type": "place",
+   "role": "city the band is from"
+  }
+ ],
+ "tags": [
+  "rock music",
+  "american bands",
+  "los angeles",
+  "1980s music",
+  "band members"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1068,
+  "output_tokens": 558
+ }
+}

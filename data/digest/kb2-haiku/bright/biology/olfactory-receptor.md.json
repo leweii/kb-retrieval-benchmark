@@ -1,0 +1,111 @@
+{
+ "summary": "This Wikipedia-style note describes olfactory receptors (ORs), chemoreceptors in olfactory neurons that detect odorants and send odor information to the brain. It covers their GPCR signaling mechanism, proposed metalloprotein and vibration theories of smell and the controversy around them, the large and variable OR gene family with its naming system, and evolutionary changes in OR gene counts across primates and mice. It also notes key discoveries, including the 2004 Nobel Prize to Buck and Axel and the 2023 OR51E2 structure.",
+ "one_line": "Overview of olfactory receptors: GPCR-based odor detectors, their signaling, gene family diversity, evolution, and theories of how they detect smell.",
+ "key_facts": [
+  "Olfactory receptors (ORs), also known as odorant receptors, are chemoreceptors expressed in the cell membranes of olfactory receptor neurons.",
+  "In vertebrates, olfactory receptors are members of the class A rhodopsin-like family of G protein-coupled receptors (GPCRs).",
+  "In insects, olfactory receptors are members of an unrelated group of ligand-gated ion channels.",
+  "The olfactory receptor family consists of around 400 genes in humans and 1400 genes in mice.",
+  "According to an analysis of Human Genome Project data, humans have approximately 400 functional OR genes, and the remaining 600 candidates are pseudogenes.",
+  "After odorant binding, the G protein (Golf and/or Gs) activates adenylate cyclase, which converts ATP into cyclic AMP (cAMP), opening cyclic nucleotide-gated ion channels.",
+  "Zhuang, Matsunami and Block, in 2012, showed that copper is essential for detection of certain thiols by the mouse OR MOR244-3.",
+  "Crabtree, in 1978, suggested that Cu(I) is \"the most likely candidate for a metallo-receptor site in olfaction\".",
+  "Class I human OR families (fish-like receptors) are families 51-56, while class II (tetrapod specific receptors) are families 1-13.",
+  "Class I receptors are specialized to detect hydrophilic odorants, while class II receptors detect more hydrophobic compounds.",
+  "Mice have gained 623 new OR genes and lost 285 genes since divergence from their most recent common ancestor, while humans gained 83 and lost 428.",
+  "Mice have a total of 1035 protein-coding OR genes, while humans have 387 protein-coding OR genes.",
+  "In 2004, Linda B. Buck and Richard Axel won the Nobel Prize in Physiology or Medicine for their work on olfactory receptors.",
+  "In 2023 the structure of OR51E2 was found, the first elucidation of the structure of any human olfactory receptor.",
+  "In 2006, trace amine-associated receptors (TAARs) were shown to exist for detecting volatile amines, and all functional human TAARs except TAAR1 are expressed in the olfactory epithelium."
+ ],
+ "entities": [
+  {
+   "name": "Olfactory receptor",
+   "type": "other",
+   "role": "Chemoreceptors in olfactory receptor neurons that detect odorants and give rise to the sense of smell"
+  },
+  {
+   "name": "Linda B. Buck",
+   "type": "person",
+   "role": "Co-recipient of the 2004 Nobel Prize in Physiology or Medicine for work on olfactory receptors"
+  },
+  {
+   "name": "Richard Axel",
+   "type": "person",
+   "role": "Co-recipient of the 2004 Nobel Prize in Physiology or Medicine for work on olfactory receptors"
+  },
+  {
+   "name": "Golebiowski",
+   "type": "person",
+   "role": "Researcher who, with Ma and Matsunami, showed the ligand recognition mechanism involves OR-specific residues in the sixth helix"
+  },
+  {
+   "name": "Suslick",
+   "type": "person",
+   "role": "Proposed that ORs are metalloproteins serving as a Lewis acid site for binding odorant molecules"
+  },
+  {
+   "name": "Crabtree",
+   "type": "person",
+   "role": "In 1978 suggested Cu(I) is the most likely candidate for a metallo-receptor site in olfaction"
+  },
+  {
+   "name": "Zhuang, Matsunami and Block",
+   "type": "person",
+   "role": "Authors who in 2012 confirmed copper is essential for mouse OR MOR244-3 detection of certain thiols"
+  },
+  {
+   "name": "MOR244-3",
+   "type": "product",
+   "role": "Mouse olfactory receptor that detects (methylthio)methanethiol and other sulfur compounds; studied for copper dependence"
+  },
+  {
+   "name": "OR5AN1",
+   "type": "product",
+   "role": "Human musk-recognizing olfactory receptor that did not distinguish deuterated isotopomers in vitro"
+  },
+  {
+   "name": "OR51E2",
+   "type": "product",
+   "role": "Olfactory receptor whose structure was found in 2023, the first elucidation of a human OR structure"
+  },
+  {
+   "name": "Tian et al",
+   "type": "person",
+   "role": "Authors who proposed an evolutionarily optimized three-layer regulation mechanism for OR expression"
+  },
+  {
+   "name": "Trace amine-associated receptors (TAARs)",
+   "type": "product",
+   "role": "Another class of odorant receptors for detecting volatile amines, identified in 2006"
+  },
+  {
+   "name": "Vomeronasal receptors",
+   "type": "product",
+   "role": "A third class of olfactory receptors that putatively function as pheromone receptors"
+  },
+  {
+   "name": "Human Genome Project",
+   "type": "program",
+   "role": "Source of data analyzed to count functional human OR genes and pseudogenes"
+  },
+  {
+   "name": "HUGO",
+   "type": "organization",
+   "role": "Body whose official gene symbols are based on the OR nomenclature system"
+  }
+ ],
+ "tags": [
+  "olfaction",
+  "gpcr",
+  "chemoreceptors",
+  "gene families",
+  "evolution",
+  "neuroscience"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5828,
+  "output_tokens": 1905
+ }
+}

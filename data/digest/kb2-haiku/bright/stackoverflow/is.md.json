@@ -1,0 +1,51 @@
+{
+ "summary": "This is a Snowflake documentation page for the IS_<object_type> family of Boolean predicate functions, which determine the data type of a VARIANT value. All functions are unary, take one VARIANT argument, and return FALSE for SQL NULL or VARIANT null input. The examples use a vartab table with rows of null, NULL, boolean, integer, decimal, double, varchar, array and object values to show which predicates match which types.",
+ "one_line": "Reference for the IS_<object_type> Boolean predicate functions that test the data type of VARIANT values, with examples.",
+ "key_facts": [
+  "The IS_ _ <object_type> family of functions serves as Boolean predicates that determine the data type of a value stored in a VARIANT column.",
+  "All IS_ functions are unary, taking a VARIANT expression as the only argument.",
+  "All IS_ functions return FALSE if the input is SQL NULL or the VARIANT expression contains null.",
+  "The examples use a table named vartab, created in the PARSE_JSON documentation, with columns n and v.",
+  "Row 1 of vartab has the VARIANT value null, whose typeof is NULL_VALUE.",
+  "Row 2 of vartab is SQL NULL, whose typeof is NULL.",
+  "Row 3 of vartab is true, whose typeof is BOOLEAN.",
+  "Row 4 of vartab is -17, whose typeof is INTEGER.",
+  "Row 5 of vartab is 123.12, whose typeof is DECIMAL.",
+  "Row 6 of vartab is 1.912000000000000e+02, whose typeof is DOUBLE.",
+  "Row 7 of vartab is the string \"Om ara pa ca na dhih\", whose typeof is VARCHAR.",
+  "Row 8 of vartab is an array containing -1, 12, 289, 2188, false and undefined, whose typeof is ARRAY.",
+  "Row 9 of vartab is an object with keys x (\"abc\"), y (false) and z (10), whose typeof is OBJECT.",
+  "Using is_char(v) on vartab returns a count of 1, matching only the string row.",
+  "is_integer(v) matches only the -17 row, while is_decimal(v) matches both -17 and 123.12, and is_double(v) matches -17, 123.12 and 1.912e+02."
+ ],
+ "entities": [
+  {
+   "name": "vartab",
+   "type": "other",
+   "role": "example table with columns n and v containing VARIANT values, used to demonstrate the IS_ functions"
+  },
+  {
+   "name": "PARSE_JSON",
+   "type": "program",
+   "role": "function referenced as the source of the vartab table creation example"
+  },
+  {
+   "name": "VARIANT",
+   "type": "other",
+   "role": "data type whose values the IS_ predicate functions test"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "variant",
+  "sql functions",
+  "type predicates",
+  "json",
+  "data types"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2708,
+  "output_tokens": 922
+ }
+}

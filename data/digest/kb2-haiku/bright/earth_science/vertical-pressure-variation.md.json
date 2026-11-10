@@ -1,0 +1,86 @@
+{
+ "summary": "This Wikipedia article explains vertical pressure variation, the change of pressure with elevation caused by gravity's pull on a fluid. It gives the basic linear formula for incompressible fluids such as water, describes the hydrostatic paradox and its history, and explains why atmospheric pressure instead decreases exponentially with height, including the barometric formula and altitude-from-pressure formulas using sea-level reference values.",
+ "one_line": "Explains how fluid pressure changes with elevation, covering the basic hydrostatic formula, the hydrostatic paradox, and the exponential decline of atmospheric pressure.",
+ "key_facts": [
+  "Vertical pressure variation is the variation in pressure as a function of elevation, driven especially by gravity's pull on the fluid.",
+  "The basic formula dP/dh = −ρg states that pressure decreases as height increases, with ρ as density, g as gravity and h as height.",
+  "For a liquid of uniform density ρ with pressure P0 at one point, the pressure at another point is P1 = P0 − ρg(h1 − h0).",
+  "Seawater is treated as an incompressible fluid, so its density can be approximated as constant more reasonably than that of air.",
+  "The barometric formula depends only on the height of the fluid chamber, not on its width or length, a feature called the hydrostatic paradox.",
+  "W. H. Besant wrote: \"Any quantity of liquid, however small, may be made to support any weight, however large.\"",
+  "Flemish scientist Simon Stevin was the first to explain the hydrostatic paradox mathematically.",
+  "In 1916 Richard Glazebrook described an arrangement he attributed to Pascal and called the effect the hydrostatic paradox, with the equation W = wA/α.",
+  "Hydraulic machinery uses the hydrostatic paradox phenomenon to multiply force or torque.",
+  "Earth's average radius is about 6371 km, so gravity can be approximated as constant over atmospheric length scales measured in kilometres.",
+  "For atmospheric pressure, the constant-temperature result is P_h = P0 e^(−mgh/kT), an exponential rather than linear function of height.",
+  "The Portland State Aerospace Society derivation gives height as a function of pressure, z = −(RT/g) ln(P/P0).",
+  "Reference values used in the article are R = 287.053 J/(kg K), T = 288.15 K, g = 9.80665 m/s² and P0 = 101,325 Pa at sea level.",
+  "The article gives the lapse-rate formula z = (T0/L)((P/P0)^(−LR/g) − 1) with L = −6.5×10⁻³ K/m and calls it the recommended formula.",
+  "Temperature variation in the lower atmosphere is only in the dozens of degrees, so for small height differences such as the CN tower it stays within single-digit degrees."
+ ],
+ "entities": [
+  {
+   "name": "Simon Stevin",
+   "type": "person",
+   "role": "Flemish scientist who was the first to explain the hydrostatic paradox mathematically"
+  },
+  {
+   "name": "W. H. Besant",
+   "type": "person",
+   "role": "author quoted expressing the hydrostatic paradox in his Elementary Hydrostatics"
+  },
+  {
+   "name": "Richard Glazebrook",
+   "type": "person",
+   "role": "author who in 1916 mentioned the hydrostatic paradox in his Hydrostatics textbook"
+  },
+  {
+   "name": "Pascal",
+   "type": "person",
+   "role": "figure to whom Glazebrook attributed an arrangement illustrating the hydrostatic paradox"
+  },
+  {
+   "name": "Portland State Aerospace Society",
+   "type": "organization",
+   "role": "source of an alternative derivation giving height as a function of pressure"
+  },
+  {
+   "name": "Victor L. Streeter",
+   "type": "person",
+   "role": "author of Fluid Mechanics cited as a reference for the basic formula"
+  },
+  {
+   "name": "Hydrostatic paradox",
+   "type": "event",
+   "role": "principle that a small volume of liquid can support any weight given sufficient height"
+  },
+  {
+   "name": "Barometric formula",
+   "type": "other",
+   "role": "formula describing how atmospheric pressure varies with height, linked as main article"
+  },
+  {
+   "name": "CN tower",
+   "type": "place",
+   "role": "tall building cited as an example where temperature variation over its height is small"
+  },
+  {
+   "name": "Earth",
+   "type": "place",
+   "role": "planet whose average radius of about 6371 km makes gravity approximately constant over atmospheric scales"
+  }
+ ],
+ "tags": [
+  "hydrostatics",
+  "fluid pressure",
+  "atmospheric pressure",
+  "barometric formula",
+  "gravity",
+  "physics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5114,
+  "output_tokens": 1484
+ }
+}

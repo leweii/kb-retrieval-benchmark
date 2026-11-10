@@ -1,0 +1,55 @@
+{
+ "summary": "The note is titled \"deep hole drilling\" and is tagged with source \"bright\" and domain \"earth_science\", but its body is a truncated clipped web page from unisig.com. The captured content is almost entirely cookie-consent dialog markup and site boilerplate, and it contains no substantive text about deep hole drilling. The only usable information is the consent categories and the cookie providers listed in the banner.",
+ "one_line": "Title-only clip on deep hole drilling from the unisig.com site, captured with a cookie-consent banner and no article text.",
+ "key_facts": [
+  "The note is titled \"deep hole drilling\" with source \"bright\" and domain \"earth_science\".",
+  "The clipped page is hosted on unisig.com, and the body contains no article text about deep hole drilling.",
+  "The cookie consent dialog on the page lists four consent categories: Necessary, Preferences, Statistics and Marketing.",
+  "The Necessary category lists 7 cookies, and its description says the website cannot function properly without these cookies.",
+  "The Statistics category lists 10 cookies, and its description says statistic cookies collect and report information anonymously.",
+  "The Preferences category lists 2 cookies, and its description says preference cookies remember settings such as preferred language or region.",
+  "The cookie banner text states: \"We use cookies to personalise content and ads, to provide social media features and to analyse our traffic.\"",
+  "Cookie providers named in the banner include Cookiebot, Google, Vimeo, Akamai Technologies and unisig.com.",
+  "The Cookiebot consent banner is labelled \"Powered by Cookiebot\" and the cookie details use the phrase \"This website uses cookies\" as their heading.",
+  "The unisig.com cookies listed are PHPSESSID, which preserves user session state, and storeApiNonce, which is necessary for the shopping cart functionality."
+ ],
+ "entities": [
+  {
+   "name": "unisig.com",
+   "type": "organization",
+   "role": "website hosting the clipped page and setting the PHPSESSID and storeApiNonce cookies"
+  },
+  {
+   "name": "Cookiebot",
+   "type": "product",
+   "role": "consent management platform that powers the cookie dialog on the page"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "cookie provider listed under the Necessary category with rc::a and rc::c cookies"
+  },
+  {
+   "name": "Vimeo",
+   "type": "organization",
+   "role": "cookie provider listed under the Necessary category with __cf_bm and under Preferences with player and sync_active cookies"
+  },
+  {
+   "name": "Akamai Technologies",
+   "type": "organization",
+   "role": "cookie provider listed under the Statistics category"
+  }
+ ],
+ "tags": [
+  "deep hole drilling",
+  "earth science",
+  "web clipping",
+  "cookie consent",
+  "unisig"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 19922,
+  "output_tokens": 1366
+ }
+}

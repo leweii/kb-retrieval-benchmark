@@ -1,0 +1,59 @@
+{
+ "summary": "This is a Snowflake documentation page for the TRY_TO_DECIMAL function, which converts a VARCHAR string expression to a fixed-point NUMBER(p,s) and returns NULL instead of raising an error when conversion fails. TRY_TO_NUMBER and TRY_TO_NUMERIC are synonyms. The page covers syntax, arguments (optional format, precision defaulting to 38, scale defaulting to 0), return type, a usage note that it only works on string expressions, and two examples showing out-of-range and format-mismatch inputs becoming NULL.",
+ "one_line": "Snowflake reference for TRY_TO_DECIMAL, which converts strings to fixed-point numbers and returns NULL on failure instead of erroring.",
+ "key_facts": [
+  "TRY_TO_DECIMAL, TRY_TO_NUMBER, and TRY_TO_NUMERIC are synonymous functions that convert an input expression to a fixed-point number with error-handling support.",
+  "If the conversion cannot be performed, TRY_TO_DECIMAL returns a NULL value instead of raising an error.",
+  "The syntax is TRY_TO_DECIMAL( <string_expr> [, '<format>' ] [, <precision> [, <scale> ] ] ).",
+  "The required string_expr argument must be an expression of type VARCHAR.",
+  "The precision argument is the maximal number of decimal digits in the result, from 1 to 38, and defaults to 38.",
+  "In Snowflake, precision does not affect the bytes needed to store the number or efficiency.",
+  "The scale argument is the number of fractional decimal digits, from 0 to precision minus 1, and defaults to 0.",
+  "The function returns NUMBER(p,s), where p is the precision and s is the scale.",
+  "A usage note states that TRY_TO_DECIMAL only works for string expressions.",
+  "In the first example, TO_DECIMAL(column1, 4, 2) on '345.123' fails with error 100039 (22003): Numeric value '345.123' is out of range.",
+  "Replacing TO_DECIMAL with TRY_TO_DECIMAL in that example returns 345 for the default column, 345.12 for the scale-2 column, and NULL for the out-of-range column.",
+  "In the second example, TO_DECIMAL(column1, 5, 2) on '$345.12' fails with error 100038 (22018) because the dollar sign is not recognized without a format.",
+  "With TRY_TO_DECIMAL and the format '$999.00', '$345.12' converts to 345 or 345.12, while the format-less 5,2 call returns NULL."
+ ],
+ "entities": [
+  {
+   "name": "TRY_TO_DECIMAL",
+   "type": "program",
+   "role": "Snowflake function that converts a string expression to a fixed-point number, returning NULL on conversion failure"
+  },
+  {
+   "name": "TRY_TO_NUMBER",
+   "type": "program",
+   "role": "Synonym of TRY_TO_DECIMAL with the same operation"
+  },
+  {
+   "name": "TRY_TO_NUMERIC",
+   "type": "program",
+   "role": "Synonym of TRY_TO_DECIMAL with the same operation"
+  },
+  {
+   "name": "TO_DECIMAL",
+   "type": "program",
+   "role": "Non-error-handling conversion function used in the examples to show errors being raised"
+  },
+  {
+   "name": "Error-handling Conversion Functions",
+   "type": "other",
+   "role": "Related documentation section referenced for more information"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "data-conversion",
+  "numeric-types",
+  "error-handling",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3138,
+  "output_tokens": 1164
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "summary": "This is a clipped NCL (NCAR Command Language) documentation page for the built-in function gaus, which computes Gaussian latitudes and weights. The function takes nlat, the number of latitude points per hemisphere, and returns a 2D double array whose first column holds the latitudes and second column the weights. The page includes two examples: one generating double-precision values for a 64-latitude globe, and one using tofloat to get float values for 94 latitudes. Navigation and boilerplate were ignored.",
+ "one_line": "Documentation for NCL's gaus function, which returns Gaussian latitudes and weights for a given number of latitudes per hemisphere.",
+ "key_facts": [
+  "gaus computes Gaussian latitudes and weights.",
+  "The nlat argument is a scalar integer equal to the number of latitude points per hemisphere.",
+  "As of version 6.0.0, the nlat argument can be of type integer or long.",
+  "gaus returns a two-dimensional double array of dimensions [2*nlat,2].",
+  "The first dimension of the returned array contains the Gaussian latitudes and the second dimension contains the Gaussian weights.",
+  "By default the values returned by gaus are of type double.",
+  "Example 1 sets nlat = 64 for a globe and calls gaus(nlat/2) to get values per hemisphere.",
+  "In Example 1, glat = gau_info(:,0) gives the Gaussian latitudes and gwgt = gau_info(:,1) gives the Gaussian weights.",
+  "Example 2 uses nlat = 94 for a globe and wraps the call as tofloat(gaus(nlat/2)).",
+  "Using tofloat in Example 2 produces float-type Gaussian latitudes and weights.",
+  "Related functions listed include latGau, latGauWgt, latGlobeF, latGlobeFo, lonGlobeF and lonGlobeFo.",
+  "The page is listed under NCL Documentation > Functions > Lat/Lon functions."
+ ],
+ "entities": [
+  {
+   "name": "NCL",
+   "type": "program",
+   "role": "NCAR Command Language, the software whose documentation includes the gaus function page"
+  },
+  {
+   "name": "gaus",
+   "type": "program",
+   "role": "NCL function that computes Gaussian latitudes and weights"
+  },
+  {
+   "name": "UCAR",
+   "type": "organization",
+   "role": "organization shown in the page header"
+  },
+  {
+   "name": "NCAR",
+   "type": "organization",
+   "role": "organization shown in the page header"
+  },
+  {
+   "name": "CISL",
+   "type": "organization",
+   "role": "organization shown in the page header"
+  },
+  {
+   "name": "latGau",
+   "type": "program",
+   "role": "related latitude/longitude function listed under See Also"
+  },
+  {
+   "name": "latGauWgt",
+   "type": "program",
+   "role": "related latitude/longitude function listed under See Also"
+  },
+  {
+   "name": "latGlobeF",
+   "type": "program",
+   "role": "related latitude/longitude function listed under See Also"
+  },
+  {
+   "name": "latGlobeFo",
+   "type": "program",
+   "role": "related latitude/longitude function listed under See Also"
+  },
+  {
+   "name": "lonGlobeF",
+   "type": "program",
+   "role": "related latitude/longitude function listed under See Also"
+  },
+  {
+   "name": "lonGlobeFo",
+   "type": "program",
+   "role": "related latitude/longitude function listed under See Also"
+  },
+  {
+   "name": "tofloat",
+   "type": "program",
+   "role": "NCL function used in Example 2 to convert the gaus output to float type"
+  }
+ ],
+ "tags": [
+  "ncl",
+  "gaussian latitudes",
+  "gaussian weights",
+  "climate modeling",
+  "geoscience software",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2324,
+  "output_tokens": 1129
+ }
+}

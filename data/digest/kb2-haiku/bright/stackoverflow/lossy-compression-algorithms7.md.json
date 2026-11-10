@@ -1,0 +1,85 @@
+{
+ "summary": "This Bitmovin developer blog post, written by Andrea Fassina on 10 March 2020, is a comprehensive guide to lossy compression algorithms for video developers. It explains why compression matters for content distribution, defines lossy compression as producing a close approximation rather than an exact copy, and covers distortion metrics such as perceptual distortion, mean square error and PSNR. It then describes the two-step process of quantization and transform coding, including DCT, wavelet and 2D Haar transforms. The page's navigation menus, product promotions and related-post listings are boilerplate and were ignored.",
+ "one_line": "A 2020 Bitmovin developer guide explaining lossy compression algorithms, distortion metrics like PSNR, quantization, and transform coding such as DCT and wavelets.",
+ "key_facts": [
+  "The article 'Lossy Compression Algorithms: Everything a Developer Needs to Know' was written by Andrea Fassina and dated 10 March 2020, with a 15 min read time.",
+  "Lossy compression means compressed data is not exactly the same as the original but a close approximation to it.",
+  "The note states that in most cases the human eye wouldn't even notice the difference between an original file and one compressed in a lossy way.",
+  "The note says lossy compression yields a much higher compression ratio than lossless compression, where an exact copy of the content is created.",
+  "The note states that if you have a high data rate and a zero distortion, it is a lossless compression scheme.",
+  "Peak-Signal-To-Noise Ratio (PSNR) is calculated by comparing the size of an error relative to the peak value of a signal, and is typically expressed in decibel units (dB).",
+  "The note says a good PSNR ratio will register values of around 80db.",
+  "The note states that quantization is the step that adds the most distortion in lossy compression.",
+  "The note lists three forms of quantization: uniform, non-uniform, and vector.",
+  "The note states that the DCT is lossless apart from rounding errors, and it splits the signal into a DC component and an AC component.",
+  "The note describes a wavelet transform as creating progressively smaller summary images, decreasing by a quarter of the size for each step.",
+  "The note describes 2D Haar Transform as the representation of a signal with a discrete non-differentiable (step) function, illustrated with an 8 x 8 image.",
+  "The note states that the human eye is less sensitive to higher spatial frequency components than lower spatial frequency components.",
+  "The note concludes that the goal of all compression algorithms is to achieve the highest possible compression ratio, with compression ratios coming down to cost and quality considerations."
+ ],
+ "entities": [
+  {
+   "name": "Bitmovin",
+   "type": "organization",
+   "role": "video technology company whose blog hosts the article and promotes its VOD services and Video Developer Network"
+  },
+  {
+   "name": "Andrea Fassina",
+   "type": "person",
+   "role": "author of the article 'Lossy Compression Algorithms: Everything a Developer Needs to Know'"
+  },
+  {
+   "name": "Video Developer Network",
+   "type": "program",
+   "role": "Bitmovin resource offering classroom-style university quality videos on lossy compression, including a lesson on lossless compression"
+  },
+  {
+   "name": "Peak-Signal-To-Noise Ratio (PSNR)",
+   "type": "other",
+   "role": "metric calculated by comparing the size of an error relative to the peak value of a signal, used to assess video quality"
+  },
+  {
+   "name": "Mean Square Error",
+   "type": "other",
+   "role": "distortion measure comparing input data sequence X with output data sequence Y over N elements"
+  },
+  {
+   "name": "Quantization",
+   "type": "other",
+   "role": "process of mapping input from a large set to numerical output values in a smaller finite set, and the step that adds the most distortion"
+  },
+  {
+   "name": "Discrete Cosine Transform (DCT)",
+   "type": "other",
+   "role": "transform that converts pixel values in an image block to frequency values and is part of the encoding algorithm"
+  },
+  {
+   "name": "Wavelet transformation",
+   "type": "other",
+   "role": "alternative lossy compression method that decomposes an input signal using a set of functions called wavelets"
+  },
+  {
+   "name": "2D Haar Transform",
+   "type": "other",
+   "role": "example of lossy compression of a black and white image, representing a signal with a discrete step function"
+  },
+  {
+   "name": "VOD",
+   "type": "product",
+   "role": "video on demand services Bitmovin offers to help deliver content to customers"
+  }
+ ],
+ "tags": [
+  "video compression",
+  "lossy compression",
+  "video encoding",
+  "transform coding",
+  "quantization",
+  "psnr"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11498,
+  "output_tokens": 1447
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "summary": "This note is an excerpt of RFC 2616 (HTTP/1.1) section 14, which defines the syntax and semantics of standard HTTP/1.1 header fields. It covers the request headers Accept, Accept-Charset, Accept-Encoding and Accept-Language, the response headers Accept-Ranges and Age, the entity-header Allow, the request header Authorization, and the general-header Cache-Control with its cacheability, storage and expiration directives. The clipped text ends partway through section 14.9.4 on cache revalidation and reload controls.",
+ "one_line": "Excerpt of RFC 2616 section 14 defining HTTP/1.1 header fields such as Accept, Authorization, Age and Cache-Control.",
+ "key_facts": [
+  "RFC 2616 section 14 is titled \"Header Field Definitions\" and defines the syntax and semantics of all standard HTTP/1.1 header fields.",
+  "The Accept request-header field specifies media types acceptable for the response, and the default quality value is q=1.",
+  "The example Accept: audio/*; q=0.2, audio/basic means the client prefers audio/basic but will accept any audio type after an 80% mark-down in quality.",
+  "If no Accept header field is present, the client is assumed to accept all media types, and the server SHOULD send a 406 (not acceptable) response when it cannot satisfy the Accept header.",
+  "In Accept-Charset, the special value \"*\" matches every character set not mentioned elsewhere in the field.",
+  "The Accept-Encoding rules state that the identity content-coding is always acceptable unless refused by identity;q=0 or *;q=0.",
+  "The Accept-Language field assigns a language quality factor based on the longest matching language-range, and assigns 0 if no range matches.",
+  "Accept-Ranges: bytes indicates a server accepts byte-range requests, and Accept-Ranges: none advises clients not to attempt range requests.",
+  "The Age header value must be non-negative decimal integers in seconds, and a cache that overflows must transmit an Age value of 2147483648 (2^31).",
+  "An Allow header field MUST be present in a 405 (Method Not Allowed) response, and a proxy MUST NOT modify the Allow header field.",
+  "A user agent sends an Authorization request-header field with credentials, usually after receiving a 401 response.",
+  "A shared cache must not return a response to an Authorization request for another request, except under specific exceptions involving s-maxage, must-revalidate or public.",
+  "The Cache-Control directive no-store is meant to prevent the inadvertent release or retention of sensitive information, such as on backup tapes.",
+  "The max-age directive overrides the Expires header even when the Expires header is more restrictive."
+ ],
+ "entities": [
+  {
+   "name": "RFC 2616",
+   "type": "program",
+   "role": "the HTTP/1.1 specification whose section 14 this note excerpts, authored by Fielding, et al."
+  },
+  {
+   "name": "Hypertext Transfer Protocol -- HTTP/1.1",
+   "type": "program",
+   "role": "the parent document section of the clipped page"
+  },
+  {
+   "name": "Accept",
+   "type": "other",
+   "role": "request-header field specifying acceptable media types for the response"
+  },
+  {
+   "name": "Accept-Charset",
+   "type": "other",
+   "role": "request-header field indicating acceptable character sets for the response"
+  },
+  {
+   "name": "Accept-Encoding",
+   "type": "other",
+   "role": "request-header field restricting acceptable content-codings in the response"
+  },
+  {
+   "name": "Accept-Language",
+   "type": "other",
+   "role": "request-header field restricting the natural languages preferred in the response"
+  },
+  {
+   "name": "Accept-Ranges",
+   "type": "other",
+   "role": "response-header field indicating the server's acceptance of range requests"
+  },
+  {
+   "name": "Age",
+   "type": "other",
+   "role": "response-header field conveying the sender's estimate of time since the response was generated at the origin server"
+  },
+  {
+   "name": "Allow",
+   "type": "other",
+   "role": "entity-header field listing the methods supported by the resource identified by the Request-URI"
+  },
+  {
+   "name": "Authorization",
+   "type": "other",
+   "role": "request-header field carrying a user agent's credentials for authentication with a server"
+  },
+  {
+   "name": "Cache-Control",
+   "type": "other",
+   "role": "general-header field specifying directives that caching mechanisms must obey"
+  },
+  {
+   "name": "HTTP Authentication: Basic and Digest Access Authentication",
+   "type": "other",
+   "role": "external document describing HTTP access authentication, cited in section 14.8"
+  }
+ ],
+ "tags": [
+  "http",
+  "rfc 2616",
+  "http headers",
+  "caching",
+  "content negotiation",
+  "web protocols"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11206,
+  "output_tokens": 1477
+ }
+}

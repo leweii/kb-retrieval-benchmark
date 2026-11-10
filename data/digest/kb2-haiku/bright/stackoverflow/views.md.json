@@ -1,0 +1,61 @@
+{
+ "summary": "This is reference documentation for the Snowflake Account Usage VIEWS view, which returns one row per view in the account, excluding views in the ACCOUNT_USAGE, READER_ACCOUNT_USAGE, and INFORMATION_SCHEMA schemas. It lists the view's columns, such as identifiers, names, owner, definition text, secure flag, and creation, alteration, and DDL timestamps. The usage notes cover up to 90 minutes of latency, privilege-based visibility, the MANAGE GRANTS limitation, and how LAST_ALTERED and LAST_DDL differ for tracking modifications.",
+ "one_line": "Reference for Snowflake's Account Usage VIEWS view, listing each account view's columns, timestamps, and usage notes.",
+ "key_facts": [
+  "The Snowflake Account Usage VIEWS view displays a row for each view in the account, not including views in the ACCOUNT_USAGE, READER_ACCOUNT_USAGE, and INFORMATION_SCHEMA schemas.",
+  "The VIEW_DEFINITION column (type TEXT) contains the text of the query expression for the view.",
+  "The IS_SECURE column (type TEXT) specifies whether the view is secure.",
+  "The CREATED column (type TIMESTAMP_LTZ) stores the date and time when the view was created.",
+  "The LAST_DDL_BY column shows the current username of the user who executed the last DDL operation; if the user has been dropped, it shows DROPPED_USER(<id>).",
+  "The CHECK_OPTION, IS_UPDATABLE, and INSERTABLE_INTO columns are not applicable for Snowflake.",
+  "The TABLE_OWNER column contains the name of the role that owns the view.",
+  "Latency for the view may be up to 90 minutes.",
+  "The view only displays objects for which the current role for the session has been granted access privileges.",
+  "The view does not recognize the MANAGE GRANTS privilege and may therefore show less information than a SHOW command run by a user holding MANAGE GRANTS.",
+  "For views and tables, the LAST_DDL column should be used for the last modification time rather than LAST_ALTERED.",
+  "When a table or view is created, the LAST_DDL timestamp is the same as the CREATED timestamp.",
+  "When a table or view is dropped, the LAST_DDL timestamp is the same as the DELETED timestamp.",
+  "For replicated databases, LAST_DDL and LAST_DDL_BY are only updated for objects in the primary database; after failover they update for the newly promoted primary database and remain unchanged in the now secondary database.",
+  "For objects in secondary databases newly created during a refresh operation, the DDL fields are null."
+ ],
+ "entities": [
+  {
+   "name": "ACCOUNT_USAGE",
+   "type": "program",
+   "role": "schema excluded from the VIEWS view results"
+  },
+  {
+   "name": "READER_ACCOUNT_USAGE",
+   "type": "program",
+   "role": "schema excluded from the VIEWS view results"
+  },
+  {
+   "name": "INFORMATION_SCHEMA",
+   "type": "program",
+   "role": "schema excluded from the VIEWS view results"
+  },
+  {
+   "name": "MANAGE GRANTS",
+   "type": "other",
+   "role": "privilege the view does not recognize"
+  },
+  {
+   "name": "DROPPED_USER",
+   "type": "other",
+   "role": "value shown in LAST_DDL_BY when the user has been dropped"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account usage",
+  "views",
+  "metadata",
+  "ddl",
+  "schema reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2794,
+  "output_tokens": 1145
+ }
+}

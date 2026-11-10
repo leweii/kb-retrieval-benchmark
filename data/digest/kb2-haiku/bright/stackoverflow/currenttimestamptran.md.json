@@ -1,0 +1,102 @@
+{
+ "summary": "This Microsoft Learn reference page documents the Transact-SQL CURRENT_TIMESTAMP function, which returns the current database system timestamp as a datetime value without the database time zone offset, derived from the operating system of the computer running SQL Server. It notes that SYSDATETIME and SYSUTCDATETIME have more fractional-second precision than GETDATE and GETUTCDATE, and that CURRENT_TIMESTAMP is the ANSI SQL equivalent of GETDATE. The page includes syntax, return type, remarks on nondeterminism and indexing, and examples comparing the six current date and time functions.",
+ "one_line": "Reference page for the Transact-SQL CURRENT_TIMESTAMP function, which returns the current system datetime and is the ANSI equivalent of GETDATE.",
+ "key_facts": [
+  "CURRENT_TIMESTAMP returns the current database system timestamp as a datetime value, without the database time zone offset.",
+  "CURRENT_TIMESTAMP derives its value from the operating system of the computer on which the instance of SQL Server runs.",
+  "CURRENT_TIMESTAMP takes no arguments.",
+  "The return type of CURRENT_TIMESTAMP is datetime.",
+  "CURRENT_TIMESTAMP is the ANSI SQL equivalent to GETDATE.",
+  "SYSDATETIME and SYSUTCDATETIME have more precision, measured by fractional seconds precision, than GETDATE and GETUTCDATE.",
+  "The SYSDATETIMEOFFSET function includes the system time zone offset.",
+  "CURRENT_TIMESTAMP is a nondeterministic function, and views and expressions that reference this column cannot be indexed.",
+  "Transact-SQL statements can refer to CURRENT_TIMESTAMP anywhere they can refer to a datetime expression.",
+  "The page lists Azure SQL Database, Azure SQL Managed Instance, Azure Synapse Analytics, Analytics Platform System (PDW), SQL analytics endpoint in Microsoft Fabric, and Warehouse in Microsoft Fabric as applicable products.",
+  "In example A, CURRENT_TIMESTAMP returned 2007-04-30 13:10:02.047 while SYSDATETIME returned 2007-04-30 13:10:02.0474381.",
+  "The page's article date is 04/25/2024 and it has 15 contributors."
+ ],
+ "entities": [
+  {
+   "name": "CURRENT_TIMESTAMP",
+   "type": "other",
+   "role": "Transact-SQL function documented on this page that returns the current database system timestamp as a datetime value"
+  },
+  {
+   "name": "SQL Server",
+   "type": "product",
+   "role": "the database instance on whose operating system CURRENT_TIMESTAMP derives its value"
+  },
+  {
+   "name": "GETDATE",
+   "type": "other",
+   "role": "Transact-SQL function to which CURRENT_TIMESTAMP is the ANSI SQL equivalent"
+  },
+  {
+   "name": "GETUTCDATE",
+   "type": "other",
+   "role": "Transact-SQL function with less fractional-second precision than SYSUTCDATETIME, compared in the note"
+  },
+  {
+   "name": "SYSDATETIME",
+   "type": "other",
+   "role": "Transact-SQL function with more fractional-second precision than GETDATE"
+  },
+  {
+   "name": "SYSUTCDATETIME",
+   "type": "other",
+   "role": "Transact-SQL function with more fractional-second precision than GETUTCDATE"
+  },
+  {
+   "name": "SYSDATETIMEOFFSET",
+   "type": "other",
+   "role": "Transact-SQL function that includes the system time zone offset"
+  },
+  {
+   "name": "Azure SQL Database",
+   "type": "product",
+   "role": "listed product to which the function applies"
+  },
+  {
+   "name": "Azure SQL Managed Instance",
+   "type": "product",
+   "role": "listed product to which the function applies"
+  },
+  {
+   "name": "Azure Synapse Analytics",
+   "type": "product",
+   "role": "listed product to which the function applies"
+  },
+  {
+   "name": "Analytics Platform System (PDW)",
+   "type": "product",
+   "role": "listed product to which the function applies"
+  },
+  {
+   "name": "SQL analytics endpoint in Microsoft Fabric",
+   "type": "product",
+   "role": "listed product to which the function applies"
+  },
+  {
+   "name": "Warehouse in Microsoft Fabric",
+   "type": "product",
+   "role": "listed product to which the function applies"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "publisher of the Microsoft Learn documentation page"
+  }
+ ],
+ "tags": [
+  "sql-server",
+  "transact-sql",
+  "date-and-time",
+  "datetime-functions",
+  "database-reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4722,
+  "output_tokens": 1497
+ }
+}

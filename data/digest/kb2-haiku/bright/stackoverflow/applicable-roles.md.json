@@ -1,0 +1,60 @@
+{
+ "summary": "This note documents the APPLICABLE_ROLES Information Schema view, which returns one row for each role grant, where roles can be granted to individual users and to other roles. It lists the four columns (GRANTEE, ROLE_NAME, ROLE_OWNER, IS_GRANTABLE) with their data types and descriptions. A usage note states that the view does not show any information about database roles.",
+ "one_line": "Reference page describing the APPLICABLE_ROLES Information Schema view, its four columns, and its limitation regarding database roles.",
+ "key_facts": [
+  "The APPLICABLE_ROLES view is an Information Schema view that displays one row for each role grant.",
+  "Roles can be granted to individual users and to other roles.",
+  "The GRANTEE column has data type TEXT and holds the role or user to whom the privilege is granted.",
+  "The ROLE_NAME column has data type TEXT and holds the name of the role.",
+  "The ROLE_OWNER column has data type TEXT and holds the owner of the role.",
+  "The IS_GRANTABLE column has data type TEXT and indicates whether this role can be granted to others.",
+  "The view does not display any information about database roles.",
+  "The page links to an Overview of Access Control for more information about roles and grants.",
+  "The page includes a usage note about database roles and a reference to control considerations for database roles.",
+  "The page is available in English."
+ ],
+ "entities": [
+  {
+   "name": "APPLICABLE_ROLES",
+   "type": "program",
+   "role": "Information Schema view that displays one row for each role grant"
+  },
+  {
+   "name": "GRANTEE",
+   "type": "other",
+   "role": "column holding the role or user to whom the privilege is granted"
+  },
+  {
+   "name": "ROLE_NAME",
+   "type": "other",
+   "role": "column holding the name of the role"
+  },
+  {
+   "name": "ROLE_OWNER",
+   "type": "other",
+   "role": "column holding the owner of the role"
+  },
+  {
+   "name": "IS_GRANTABLE",
+   "type": "other",
+   "role": "column indicating whether this role can be granted to others"
+  },
+  {
+   "name": "Overview of Access Control",
+   "type": "other",
+   "role": "referenced documentation on roles and grants"
+  }
+ ],
+ "tags": [
+  "information schema",
+  "access control",
+  "roles",
+  "grants",
+  "database reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1316,
+  "output_tokens": 702
+ }
+}

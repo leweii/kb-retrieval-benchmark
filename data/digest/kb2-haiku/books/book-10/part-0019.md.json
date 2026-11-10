@@ -1,0 +1,70 @@
+{
+ "summary": "An excerpt from a fiction novel (\"Book 10 — part 19\") in which Lawrence, in a New York hotel room, reflects on a man's cryptic advice that the speaker's sister should 'disappear before someone disappeared me,' noting the past-tense description of her. Lawrence, stuck on his investigation of documents, a sister and data streams, is distracted by noisy neighbors and the view of New York. The scene shifts to Penn Station, where a Securitat man scans and detains Lawrence, whose wearable 'pan' malfunctions and leaves him anxious, before he is led into a station outpost.",
+ "one_line": "Lawrence, a hotel-bound investigator in New York, is detained by a Securitat man at Penn Station while his malfunctioning pan agitates him.",
+ "key_facts": [
+  "A man quoted in the passage advised, 'If I was you, kid, I'd just disappear before someone disappeared me.'",
+  "The speaker says he is 'not very good at bullshitting, and that's a vital skill in today's world.'",
+  "The speaker says his sister 'was better at it than me, when she worked at it, but she was the kind of person who'd let her guard slip every now and then.'",
+  "Lawrence notices that zbigkrot used the past tense to describe his sister, and infers she had been disappeared.",
+  "Lawrence is in a hotel room where at least four people are talking in Chinese in the room next door.",
+  "Lawrence is staring at the walls of his hotel room while he is 'not getting anywhere with the docs, the sister, the data streams.'",
+  "Lawrence digs under the bed to retrieve his boots, which are covered in dust-furred old socks and worse.",
+  "The Securitat man points at Lawrence as he walks past Penn Station, and Lawrence points at himself in a who-me? gesture.",
+  "Lawrence's pan (a device that scans and monitors his body) tries to wipe itself and nags him about the Securitat man's scanning.",
+  "Lawrence says, 'Sir, my pan is going nuts. May I put down my arms so I can tell it to let you in?'",
+  "The Securitat man ignores Lawrence and keeps waving his hands slowly over Lawrence's body.",
+  "The Securitat man tells Lawrence, 'Come with me,' and leads him through a door into a narrow corridor inside Penn Station.",
+  "The concourse is thronged with people who part before Lawrence and the Securitat man without making eye contact.",
+  "Lawrence's pan triggers his heart and breathing to race, and he considers this a bad failure mode he has never experienced before.",
+  "The Securitat's outpost in Penn Station is described as as clean as a dentist's office, with mesh-reinforced windows and locks that make three distinct clicks."
+ ],
+ "entities": [
+  {
+   "name": "Lawrence",
+   "type": "person",
+   "role": "protagonist who is in a New York hotel room and is then detained by a Securitat man at Penn Station"
+  },
+  {
+   "name": "zbigkrot",
+   "type": "person",
+   "role": "man who gave the advice to disappear before being disappeared and described his sister in the past tense"
+  },
+  {
+   "name": "Securitat man",
+   "type": "person",
+   "role": "official who scans Lawrence with his hands and leads him into Penn Station's corridor"
+  },
+  {
+   "name": "Penn Station",
+   "type": "place",
+   "role": "New York train station where the Securitat man detains Lawrence and where the Securitat has an outpost"
+  },
+  {
+   "name": "New York",
+   "type": "place",
+   "role": "city visible from Lawrence's hotel window"
+  },
+  {
+   "name": "Securitat",
+   "type": "organization",
+   "role": "security force whose outpost is in Penn Station and whose agent detains Lawrence"
+  },
+  {
+   "name": "pan",
+   "type": "product",
+   "role": "device on Lawrence's body that scans and nags him, malfunctioning during the encounter"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "science fiction",
+  "surveillance",
+  "new york",
+  "espionage"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1870,
+  "output_tokens": 1264
+ }
+}

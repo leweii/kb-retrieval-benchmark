@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Ginegar, a kibbutz in northern Israel. It states the kibbutz lies not far from Nazareth, near Migdal HaEmek, and falls under the Jezreel Valley Regional Council. The population figure is missing from the note.",
+ "one_line": "Ginegar is a kibbutz in northern Israel near Nazareth and Migdal HaEmek, under the Jezreel Valley Regional Council.",
+ "key_facts": [
+  "Ginegar is a kibbutz in northern Israel.",
+  "Ginegar is located not far from Nazareth.",
+  "Ginegar is located near Migdal HaEmek.",
+  "Ginegar falls under the jurisdiction of the Jezreel Valley Regional Council."
+ ],
+ "entities": [
+  {
+   "name": "Ginegar",
+   "type": "place",
+   "role": "kibbutz in northern Israel not far from Nazareth, near Migdal HaEmek, under Jezreel Valley Regional Council jurisdiction"
+  },
+  {
+   "name": "Migdal HaEmek",
+   "type": "place",
+   "role": "town near which Ginegar is located"
+  },
+  {
+   "name": "Nazareth",
+   "type": "place",
+   "role": "city located not far from Ginegar"
+  },
+  {
+   "name": "Jezreel Valley Regional Council",
+   "type": "organization",
+   "role": "regional council with jurisdiction over Ginegar"
+  }
+ ],
+ "tags": [
+  "israel",
+  "kibbutz",
+  "jezreel valley",
+  "northern israel",
+  "settlements"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1056,
+  "output_tokens": 486
+ }
+}

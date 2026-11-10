@@ -1,0 +1,94 @@
+{
+ "summary": "This May 2012 EPA document lays out the strategic vision and guiding principles of the ENERGY STAR Products Program, which reduces greenhouse gas emissions by helping consumers identify the most energy-efficient products. It describes six principles for setting or revising specifications (energy savings, performance, cost recovery, multi-manufacturer availability, testability, and label visibility). It also covers when specifications are revised or sunset, with worked examples such as refrigerators, televisions, dehumidifiers, traffic signals, oil furnaces and programmable thermostats.",
+ "one_line": "EPA's May 2012 document defines ENERGY STAR's vision, six principles for setting product specifications, and criteria for revising or sunsetting them.",
+ "key_facts": [
+  "The ENERGY STAR product labeling program reduces greenhouse gas emissions by removing market barriers that keep consumers and businesses from identifying the financial and environmental benefits of the most energy-efficient products.",
+  "EPA typically achieves the balance among its six guiding principles by selecting efficiency levels reflective of the top 25% of models available on the market when the specification goes into effect.",
+  "ENERGY STAR specifications are set so that any cost differential at purchase is recovered through utility bill savings within the product's life, generally between 2 and 5 years.",
+  "EPA will not proceed with a specification if only one manufacturer makes the product type or one manufacturer holds a patent on the only technology that makes a product more efficient.",
+  "The first ENERGY STAR specification went into effect in 1992 for desktop computers and monitors; since then more than 150 revisions have taken effect across more than 60 product categories.",
+  "Specifications for rapidly evolving products such as displays are revised every two years, while slower-advancing products are reviewed every three years or when qualified market share reaches about 35%.",
+  "The U.S. Department of Energy (DOE) leads development of product testing procedures and metrics, performs verification testing and provides technical support for ENERGY STAR specifications.",
+  "In 2006, EPA revised the ENERGY STAR oil furnace specification from a minimum of 90% AFUE to 83% AFUE because builders in the Northeast U.S. could not find qualified equipment and were reverting to 78% AFUE minimum-efficiency models; 83% AFUE represented about 25% of available models.",
+  "EPA proposed suspending the traffic signal specification after EPAct 2005 set it as a federal standard, since only minimal additional energy savings would result from a revision; similar situations occurred for exit signs and distribution transformers.",
+  "The ENERGY STAR television specification Version 2.0 had over 90% market share for some time before revision, because establishing a fair 'On Mode' power measurement approach took significant time and coordination.",
+  "In 2004, EPA revised the monitor specification to address 'Active Mode' with one performance level covering both LCD and CRT technologies, reflecting a technology-neutral approach.",
+  "EPA suspended the ENERGY STAR programmable thermostat program because field studies showed savings well below the intended 10-30% of space heating and cooling energy costs, and it worked with stakeholders on a usability metric.",
+  "EPA may sunset a specification when cost-effective efficiency gains are unavailable, a federal standard at the ENERGY STAR level serves as a backstop, or the product type is being discontinued."
+ ],
+ "entities": [
+  {
+   "name": "ENERGY STAR",
+   "type": "program",
+   "role": "EPA product labeling program identifying highly energy-efficient products to reduce greenhouse gas emissions"
+  },
+  {
+   "name": "U.S. Environmental Protection Agency (EPA)",
+   "type": "organization",
+   "role": "Agency that runs ENERGY STAR and sets, revises and sunsets product specifications"
+  },
+  {
+   "name": "U.S. Department of Energy (DOE)",
+   "type": "organization",
+   "role": "Leads development of test procedures and metrics, performs verification testing, supports specification development"
+  },
+  {
+   "name": "ENERGY STAR's Most Efficient",
+   "type": "program",
+   "role": "Initiative to leverage the ENERGY STAR platform for generational change"
+  },
+  {
+   "name": "ENERGY STAR Emerging Technology Award",
+   "type": "program",
+   "role": "Initiative to leverage the ENERGY STAR platform for generational change"
+  },
+  {
+   "name": "ENERGY STAR Quality Installation",
+   "type": "program",
+   "role": "Complementary field program addressing sizing and installation issues for central air conditioners"
+  },
+  {
+   "name": "Energy Policy Act of 2005 (EPAct)",
+   "type": "other",
+   "role": "Congressional act setting minimum efficiency standards, including for traffic signals and commercial refrigeration"
+  },
+  {
+   "name": "Energy Independence and Security Act of 2007 (EISA)",
+   "type": "other",
+   "role": "Congressional act setting standards such as dehumidifier Energy Factor levels"
+  },
+  {
+   "name": "American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE)",
+   "type": "organization",
+   "role": "Example source of product test procedures"
+  },
+  {
+   "name": "ASTM International",
+   "type": "organization",
+   "role": "Example source of product test procedures (American Society for Testing and Materials)"
+  },
+  {
+   "name": "International Electrotechnical Commission (IEC)",
+   "type": "organization",
+   "role": "Example source of product test procedures"
+  },
+  {
+   "name": "Northeast U.S.",
+   "type": "place",
+   "role": "Region where builders and program implementers reported limited supply of qualified oil furnaces"
+  }
+ ],
+ "tags": [
+  "energy-efficiency",
+  "energy-star",
+  "epa",
+  "product-standards",
+  "greenhouse-gas",
+  "appliance-labeling"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 10746,
+  "output_tokens": 1832
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "summary": "John C. Frain re-examines the long-run correlation between average money growth and average inflation using a multi-country IMF International Financial Statistics data set of 88-89 countries with at least 25 years of data. He finds strong correlations that persist when high-inflation countries are excluded, contradicting De Grauwe and Polan (2001), and finds the response for low-inflation countries is less than one-to-one under OLS but not inconsistent with a unit response under a variable coefficient model. The paper argues the results support the European Central Bank's monetary analysis pillar, while stressing the findings are long-run and imply no direction of causality.",
+ "one_line": "Frain's 2004 paper finds a strong long-run link between money growth and inflation across countries, challenging De Grauwe and Polan and supporting ECB monetary analysis.",
+ "key_facts": [
+  "The paper was published in The Economic and Social Review, Vol. 35, No. 3, Winter 2004, pp. 251-266.",
+  "The author, John C. Frain, is affiliated with the Central Bank and Financial Services Regulatory Authority of Ireland and Trinity College Dublin.",
+  "McCandless and Weber (1995) examined data covering a 30-year period for 110 countries using three definitions of money (M0, M1 and M2).",
+  "De Grauwe and Polan (2001) concluded that the correlation between inflation and money growth is entirely due to high inflation countries in their sample.",
+  "The data used are from the January 2003 International Financial Statistics CD-ROM of the International Monetary Fund.",
+  "The analysis limited the sample to countries with at least 25 years of annual data, yielding 89, 88 and 87 countries for M0, M1 and M2 respectively.",
+  "For the full sample, the coefficient on the monetary growth variables is close to one (minimum .938, maximum 1.074).",
+  "For lower inflation countries (less than 10 per cent average inflation), the coefficients on monetary growth remain significant but all are significantly less than one.",
+  "The excess money growth variable is defined as money growth minus real output growth plus price growth, i.e. ∆m̂i = ∆mi – ∆y + ∆p.",
+  "A minimum sample size of 15 is used in the recursive estimates, which corresponds to an inflation rate of about 4 per cent.",
+  "The variable coefficient model is estimated with Kalman filter techniques, assuming a diffuse initialisation of the filter.",
+  "For the excess M1 full sample regression, the coefficient is 1.012 with a standard error of 0.012 and R² of 0.99.",
+  "The ECB defines price stability as a year-on-year increase in the Harmonised Index of Consumer Prices for the euro area of below 2 per cent.",
+  "The paper states that its results are long run and say nothing about any short-run relationship between money growth and inflation.",
+  "De Grauwe and Polan's full sample M1 regression used 165 countries and reported a money growth coefficient of 2.1018."
+ ],
+ "entities": [
+  {
+   "name": "John C. Frain",
+   "type": "person",
+   "role": "author of the paper, affiliated with the Central Bank and Financial Services Regulatory Authority of Ireland and Trinity College Dublin"
+  },
+  {
+   "name": "McCandless and Weber (1995)",
+   "type": "other",
+   "role": "most quoted prior study finding a near-unity long-run correlation between money growth and inflation across 110 countries"
+  },
+  {
+   "name": "De Grauwe and Polan (2001)",
+   "type": "other",
+   "role": "study whose finding that the money-inflation link vanishes without high inflation countries is re-examined and challenged"
+  },
+  {
+   "name": "International Financial Statistics (IFS)",
+   "type": "program",
+   "role": "International Monetary Fund database used as the data source"
+  },
+  {
+   "name": "European Central Bank",
+   "type": "organization",
+   "role": "institution whose two-pillar monetary policy strategy, including monetary analysis, the paper supports"
+  },
+  {
+   "name": "Central Bank and Financial Services Regulatory Authority of Ireland",
+   "type": "organization",
+   "role": "author's employer, whose views are not necessarily represented by the paper"
+  },
+  {
+   "name": "Trinity College Dublin",
+   "type": "organization",
+   "role": "author's affiliated university"
+  },
+  {
+   "name": "Karl Whelan",
+   "type": "person",
+   "role": "thanked for comments on earlier drafts"
+  },
+  {
+   "name": "Frank Browne",
+   "type": "person",
+   "role": "thanked for comments on earlier drafts"
+  },
+  {
+   "name": "Meyer (2001)",
+   "type": "other",
+   "role": "argues a central bank should extract long-run signals from monetary data, cited in the policy section"
+  },
+  {
+   "name": "Irish Economic Association",
+   "type": "organization",
+   "role": "hosted the Eighteenth Annual Conference in Belfast in 2004 where the paper was read"
+  },
+  {
+   "name": "Koopman (1997)",
+   "type": "other",
+   "role": "source of Kalman filter initialisation technique used in the variable coefficient model"
+  },
+  {
+   "name": "Nelson (2003)",
+   "type": "other",
+   "role": "does not question De Grauwe and Polan's empirical findings but argues they are not relevant"
+  }
+ ],
+ "tags": [
+  "inflation",
+  "money growth",
+  "monetary policy",
+  "econometrics",
+  "european central bank",
+  "quantity theory of money"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 12114,
+  "output_tokens": 1682
+ }
+}

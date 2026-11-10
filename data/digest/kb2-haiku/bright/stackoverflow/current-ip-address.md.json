@@ -1,0 +1,39 @@
+{
+ "summary": "This clipped Snowflake documentation page describes the CURRENT_IP_ADDRESS function, which returns the IP address of the client that submitted the request. It takes no arguments and is shown with a sample query returning 192.0.2.255. Navigation menus, feedback prompts and footer text were ignored.",
+ "one_line": "Snowflake function CURRENT_IP_ADDRESS, which returns the IP address of the client that submitted the request.",
+ "key_facts": [
+  "CURRENT_IP_ADDRESS returns the IP address of the client that submitted the request.",
+  "The syntax of CURRENT_IP_ADDRESS is CURRENT_IP_ADDRESS().",
+  "CURRENT_IP_ADDRESS takes no arguments.",
+  "The documentation example runs the query select current_ip_address(); to return the current IP address of the client connected to Snowflake.",
+  "In the documented example output, CURRENT_IP_ADDRESS() returns 192.0.2.255.",
+  "The function is listed under the Session Object section of the Snowflake documentation navigation.",
+  "The page's table of contents lists Syntax, Arguments and Examples sections.",
+  "The page is in English according to the language selector.",
+  "The note's metadata gives the title as 'current ip address' with source 'bright' and domain 'stackoverflow'."
+ ],
+ "entities": [
+  {
+   "name": "CURRENT_IP_ADDRESS",
+   "type": "program",
+   "role": "Function that returns the IP address of the client that submitted the request"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "Client system to which the example client is connected"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "ip-address",
+  "session-functions",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1310,
+  "output_tokens": 555
+ }
+}

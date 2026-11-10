@@ -1,0 +1,90 @@
+{
+ "summary": "This is the GitHub repository page for ethercat_driver_ros2, a Hardware Interface from ICube Laboratory (University of Strasbourg) that integrates simple EtherCAT modules with ros2_control, building on the IgH EtherCAT Master for Linux. The driver offers a generic way to parametrise and assemble Hardware Interfaces based on EtherCAT modules defined through parameter files. The page lists Apache-2.0 licensing, release v1.2.0 (Jun 30, 2023), 111 stars, 28 forks, and the maintainers' contact details; the surrounding GitHub navigation and boilerplate were ignored.",
+ "one_line": "ICube Lab's Apache-2.0 ROS 2 hardware interface for integrating EtherCAT modules with ros2_control, built on the IgH EtherCAT Master.",
+ "key_facts": [
+  "ethercat_driver_ros2 is a Hardware Interface for simple EtherCAT module integration with ros2_control.",
+  "The driver is built upon the IgH EtherCAT Master for Linux.",
+  "The driver provides a generic way to parametrise and assemble Hardware Interfaces based on EtherCAT modules defined using parameter files.",
+  "EtherCAT is described in the note as providing reliable, real-time communication between systems and being a common industrial standard.",
+  "Parts of the driver are based on the implementation of SimplECAT.",
+  "The repository is published by ICube-Robotics and is licensed under Apache-2.0.",
+  "The repository had 111 stars and 28 forks at the time of the page capture.",
+  "The latest release is v1.2.0, dated Jun 30, 2023; the repository lists 3 releases in total.",
+  "The repository lists 11 contributors and 13 open issues.",
+  "The repository has 4 open pull requests.",
+  "The main language is C++ at 88.9% of the codebase, followed by CMake at 6.2% and Python at 2.3%.",
+  "The repository contains folders including ethercat_driver, ethercat_driver_ros2, ethercat_generic_plugins, ethercat_interface, ethercat_manager, and ethercat_msgs.",
+  "The project's documentation is hosted at icube-robotics.github.io/ethercat_driver_ros2/.",
+  "Contacts listed are Manuel Yguel, Laurent Barbé, Philippe Zanne, and Maciej Bednarczyk, all at ICube Laboratory, University of Strasbourg, France."
+ ],
+ "entities": [
+  {
+   "name": "ethercat_driver_ros2",
+   "type": "program",
+   "role": "Hardware Interface repository for simple EtherCAT module integration with ros2_control"
+  },
+  {
+   "name": "ros2_control",
+   "type": "program",
+   "role": "framework with which the ethercat_driver is combined to define Hardware Interfaces"
+  },
+  {
+   "name": "IgH EtherCAT Master for Linux",
+   "type": "program",
+   "role": "EtherCAT master on which the driver builds"
+  },
+  {
+   "name": "SimplECAT",
+   "type": "program",
+   "role": "implementation on which parts of the driver are based"
+  },
+  {
+   "name": "ICube Laboratory",
+   "type": "organization",
+   "role": "laboratory that hosts and maintains the repository"
+  },
+  {
+   "name": "University of Strasbourg",
+   "type": "organization",
+   "role": "university affiliated with ICube Laboratory, located in France"
+  },
+  {
+   "name": "Manuel Yguel",
+   "type": "person",
+   "role": "listed contact for the repository"
+  },
+  {
+   "name": "Laurent Barbé",
+   "type": "person",
+   "role": "listed contact for the repository"
+  },
+  {
+   "name": "Philippe Zanne",
+   "type": "person",
+   "role": "listed contact for the repository"
+  },
+  {
+   "name": "Maciej Bednarczyk",
+   "type": "person",
+   "role": "listed contact for the repository, GitHub user mcbed"
+  },
+  {
+   "name": "EtherCAT",
+   "type": "program",
+   "role": "industrial standard for reliable, real-time communication between systems"
+  }
+ ],
+ "tags": [
+  "ethercat",
+  "ros2-control",
+  "robotics",
+  "industrial-automation",
+  "hardware-interface",
+  "ros2"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8358,
+  "output_tokens": 1310
+ }
+}

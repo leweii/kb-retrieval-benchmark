@@ -1,0 +1,99 @@
+{
+ "summary": "This is the home page of pipeflowcalculations.com, a website offering pipe flow calculators for fluid dynamics problems. It advertises desktop, web and Android calculators, over 200,000 calculations per year, theory topics, a fluids database of 60 fluids, and pipe standards tables. Much of the page is navigation and link lists, which are not summarized here.",
+ "one_line": "Home page of pipeflowcalculations.com, listing its fluid dynamics pipe flow calculators, theory, fluid data and pipe standards.",
+ "key_facts": [
+  "The website offers pipe flow calculators for everyday problem-solving in the field of fluid dynamics.",
+  "The site describes itself as growing for more than 20 years.",
+  "Sixteen desktop calculators, fourteen web application calculators and three Android smartphone calculators are available at the moment.",
+  "The site states it has more than 200.000 calculations per year, used every day by thousands of students and professionals.",
+  "The page claims every reported bug is fixed within a day or two, for years.",
+  "The page claims simple and complex fluid flow problems can be solved in less than one minute GUARANTEED.",
+  "The download version preview lists 20 calculators, including the desktop application with 17 calculators, online calculators with 15, and smartphone applications with 3.",
+  "Calculators listed include flow rate in pipe for given pressure, pump head and flow, Venturi tube sizing, orifice plate calculation, and calculating the thickness of the pipe wall from internal pressure and permitted minimum yield stress.",
+  "All formulas used in the calculators are shown and explained, across 4 topics and 26 articles with over 100 formulas in fluid mechanics.",
+  "The site presents basic physical and chemical characteristics of 60 fluids, including liquids, gases, fuels and flue gases.",
+  "Six pipe standards are covered: ANSI, API, PVC and EN.",
+  "The pipe standards listed include ASME/ANSI B36.10 (welded and seamless wrought steel pipe), API 5L (specification for line pipe), and ASTM D1785 (poly-vinyl chloride plastic pipes).",
+  "Pipe costing calculation is available for an entered unit price, and pipe weight can be calculated with and without fluid."
+ ],
+ "entities": [
+  {
+   "name": "pipeflowcalculations.com",
+   "type": "product",
+   "role": "website offering pipe flow calculators, theory and fluid and pipe reference tables"
+  },
+  {
+   "name": "ASME/ANSI B36.10",
+   "type": "program",
+   "role": "pipe standard for welded and seamless wrought steel pipe"
+  },
+  {
+   "name": "API 5L",
+   "type": "program",
+   "role": "pipe standard, specification for line pipe"
+  },
+  {
+   "name": "API 5L AND ISO 3183",
+   "type": "program",
+   "role": "reference for steel pipe grades, yield and tensile strength"
+  },
+  {
+   "name": "ASTM A 270",
+   "type": "program",
+   "role": "pipe standard for stainless sanitary tubes"
+  },
+  {
+   "name": "ASME/ANSI B36.19 M",
+   "type": "program",
+   "role": "pipe standard for stainless steel pipe"
+  },
+  {
+   "name": "EN 10220",
+   "type": "program",
+   "role": "pipe standard for seamless and welded steel tubes"
+  },
+  {
+   "name": "ASTM D1785",
+   "type": "program",
+   "role": "pipe standard for poly-vinyl chloride (PVC) plastic pipes"
+  },
+  {
+   "name": "EN10305-1",
+   "type": "program",
+   "role": "pipe standard for seamless cold drawn precision steel tubes"
+  },
+  {
+   "name": "Bernoulli's principle",
+   "type": "other",
+   "role": "one of the calculators offered"
+  },
+  {
+   "name": "Venturi",
+   "type": "product",
+   "role": "calculator for Venturi tube sizing and flow calculation"
+  },
+  {
+   "name": "Orifice plate",
+   "type": "product",
+   "role": "calculator for orifice plate calculation and sizing for natural gas, propane"
+  },
+  {
+   "name": "Pump head and flow",
+   "type": "product",
+   "role": "calculator for pump head and flow for a specific pipeline"
+  }
+ ],
+ "tags": [
+  "fluid dynamics",
+  "pipe flow",
+  "calculators",
+  "pipe standards",
+  "fluid properties",
+  "engineering software"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4514,
+  "output_tokens": 1343
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "summary": "This Snowflake documentation page describes the GENERATOR system table function, which creates synthetic rows based on a specified ROWCOUNT, a TIMELIMIT in seconds, or both. The note explains the syntax, the rules for combining the two parameters, and how null or omitted arguments behave. It also includes examples showing how SEQ4() and UNIFORM() in the projection clause determine row contents, and a TIMELIMIT example that counts generated rows.",
+ "one_line": "Snowflake's GENERATOR system table function creates synthetic rows by row count, time limit, or both.",
+ "key_facts": [
+  "GENERATOR creates rows based on a specified number of rows, a specified generation period in seconds, or both.",
+  "The syntax is GENERATOR( ROWCOUNT => <count> [ , TIMELIMIT => <sec> ] ) or GENERATOR( [ TIMELIMIT => <sec> ] ).",
+  "The ROWCOUNT and TIMELIMIT arguments must be non-negative integer constants.",
+  "If only ROWCOUNT is specified, the resulting table contains count rows.",
+  "If only TIMELIMIT is specified, the query runs for sec seconds and generates as many rows as possible in that time frame.",
+  "When TIMELIMIT is reached before ROWCOUNT, the table contains the number of rows generated within the time frame, which is not entirely deterministic.",
+  "If ROWCOUNT or TIMELIMIT is null, it is ignored, so GENERATOR(ROWCOUNT => null) generates 0 rows.",
+  "If both ROWCOUNT and TIMELIMIT are omitted, GENERATOR returns 0 rows.",
+  "The content of the rows is determined by the functions in the projection clause, not by the GENERATOR function itself.",
+  "The documentation notes that not all valid functions produce sequences without gaps, and SEQ() examples can have gaps.",
+  "A example with SEQ4() and UNIFORM(1, 10, RANDOM(12)) using ROWCOUNT => 10 shows seeded random output.",
+  "Passing the constant 42 instead of RANDOM(12) as the third argument to UNIFORM(1, 10, ...) makes the UNIFORM value 10 for every row.",
+  "A TIMELIMIT => 10 example with COUNT(seq4()) returned 3615440896 rows, illustrating the system-dependent row count."
+ ],
+ "entities": [
+  {
+   "name": "GENERATOR",
+   "type": "program",
+   "role": "system-defined table function that creates synthetic rows based on ROWCOUNT, TIMELIMIT, or both"
+  },
+  {
+   "name": "SEQ4()",
+   "type": "program",
+   "role": "function used in the projection clause in examples to produce sequence numbers"
+  },
+  {
+   "name": "UNIFORM",
+   "type": "program",
+   "role": "function used in examples to produce uniform random values between 1 and 10 with a seed or constant third argument"
+  },
+  {
+   "name": "RANDOM",
+   "type": "program",
+   "role": "function used as a seed argument to UNIFORM in the examples"
+  },
+  {
+   "name": "SEQ()",
+   "type": "program",
+   "role": "sequence function referenced in usage notes as one whose output may contain gaps"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "table-function",
+  "synthetic-data",
+  "generator"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3254,
+  "output_tokens": 1074
+ }
+}

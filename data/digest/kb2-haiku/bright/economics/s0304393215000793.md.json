@@ -1,0 +1,85 @@
+{
+ "summary": "Luca Benati's 2015 Journal of Monetary Economics paper uses structural VARs and cointegration methods to test whether the long-run Phillips curve (LRPC) is non-vertical for the post-WWII U.S., U.K., Euro area, Canada, and Australia. Across strong-form, medium-form, and weak-form LRPC specifications, neither approach yields clear evidence of a non-vertical inflation-unemployment trade-off, though uncertainty around the estimates is substantial. The paper extends King and Watson (1994) using six-variable VARs and newer identification methods, and argues Svensson's (2015) inflation-targeting estimates are uninformative about the LRPC slope because inflation has lost its unit root under inflation targeting.",
+ "one_line": "Benati's 2015 structural VAR study finds no clear evidence of a non-vertical long-run Phillips curve across five advanced economies, though estimates are highly uncertain.",
+ "key_facts": [
+  "The paper was published in the Journal of Monetary Economics, Volume 76, November 2015, pages 15-28, by Luca Benati.",
+  "The study examines the long-run trade-off between inflation and the unemployment rate in the post-WWII U.S., U.K., Euro area, Canada, and Australia.",
+  "The abstract states that neither cointegration methods nor non-cointegrated structural VARs produce clear evidence of a non-vertical trade-off.",
+  "The paper states that the extent of uncertainty surrounding the estimates is substantial, so a researcher with alternative priors likely would not see her views falsified.",
+  "The long-run Phillips curve is defined as describing the alternative combinations of inflation and the unemployment rate that an economy can achieve in equilibrium.",
+  "King and Watson (1994) produced evidence of a negative and statistically significant long-run trade-off conditional on aggregate demand-side shocks, using a bivariate VAR.",
+  "Evans (1994) showed that trivariate VARs based on King and Watson's identification strategy sometimes pointed towards a vertical long-run Phillips curve.",
+  "The paper uses six-variable VARs with information about the stance of monetary policy and the state of the business cycle.",
+  "The 'strong-form LRPC' tests whether inflation and unemployment are possibly cointegrated; evidence for it was overall weak.",
+  "The 'medium-form LRPC' allows permanent inflation shocks, not further disentangled, to have a permanent impact on the unemployment rate; for neither country was it possible to reject a vertical LRPC.",
+  "The 'weak-form LRPC' disentangles permanent inflation shocks into demand- and supply-side shocks using sign restrictions on impacts at t=0; for none of the four identified shocks is there evidence of a non-vertical LRPC.",
+  "The monetary policy shock is described as the single most important of the identified shocks for the slope of the LRPC.",
+  "Benati (2008) documented that under inflation targeting, evidence of a unit root in inflation has entirely vanished, with inflation in most cases statistically indistinguishable from white noise.",
+  "The conclusions state the evidence provides essentially no support to a non-vertical long-run Phillips trade-off that a policymaker could exploit to permanently reduce unemployment."
+ ],
+ "entities": [
+  {
+   "name": "Luca Benati",
+   "type": "person",
+   "role": "author of the paper, published in Journal of Monetary Economics in 2015"
+  },
+  {
+   "name": "Journal of Monetary Economics",
+   "type": "organization",
+   "role": "journal in which the paper appeared (Volume 76, November 2015)"
+  },
+  {
+   "name": "King and Watson (1994)",
+   "type": "event",
+   "role": "prior structural VAR study of the post-WWII U.S. Phillips curve, described as a 'revisionist econometric history'"
+  },
+  {
+   "name": "Evans (1994)",
+   "type": "person",
+   "role": "author of a comment showing trivariate VARs sometimes gave different results from King and Watson's bivariate analysis"
+  },
+  {
+   "name": "Svensson (2015)",
+   "type": "person",
+   "role": "author of a recent investigation of the slope of the LRPC for inflation-targeting countries, judged uninformative by Benati"
+  },
+  {
+   "name": "Benati (2008)",
+   "type": "event",
+   "role": "prior work documenting inflation persistence across monetary regimes and the vanishing unit root under inflation targeting"
+  },
+  {
+   "name": "Sargent (1971)",
+   "type": "person",
+   "role": "earlier scholar whose work King and Watson built on regarding the LRPC"
+  },
+  {
+   "name": "Lucas (1972)",
+   "type": "person",
+   "role": "earlier scholar whose work King and Watson built on regarding the LRPC"
+  },
+  {
+   "name": "Ricardo Reis",
+   "type": "person",
+   "role": "Co-Editor thanked in the acknowledgments"
+  },
+  {
+   "name": "Swiss National Bank",
+   "type": "organization",
+   "role": "hosted the 2012 research conference 'Policy Challenges and Developments in Monetary Economics' where the paper was presented"
+  }
+ ],
+ "tags": [
+  "phillips curve",
+  "monetary policy",
+  "inflation",
+  "unemployment",
+  "structural var",
+  "cointegration"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 5537,
+  "output_tokens": 1668
+ }
+}

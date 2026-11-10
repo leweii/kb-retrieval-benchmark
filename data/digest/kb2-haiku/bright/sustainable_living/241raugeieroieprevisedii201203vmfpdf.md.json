@@ -1,0 +1,131 @@
+{
+ "summary": "Raugei, Fullana-i-Palmer and Fthenakis argue that the perceived low energy return on energy investment (EROI) of photovoltaics versus fossil fuels is largely a misconception caused by outdated data and inconsistent calculation methods. The paper reviews EROI methodology, distinguishes electricity-output EROI (Eqn. 2) from primary-energy-equivalent EROI (Eqn. 4), and presents updated EROI values for modern PV systems (mono-c Si, multi-c Si, ribbon Si, CdTe) compared with oil- and coal-fired electricity and fossil fuel EROIF. It concludes PV is already a viable option, while noting its intermittency, storage needs and dependence on fossil-origin investment.",
+ "one_line": "Updated analysis showing modern photovoltaic systems have EROI comparable to conventional fossil-fuel electricity once methodology is applied consistently.",
+ "key_facts": [
+  "The EROI of fossil-fuel thermal electricity has been viewed as much higher than that of PV, a view the paper calls largely a misconception fostered by outdated data and inconsistent methods.",
+  "EROI of domestic US oil at the wellhead was higher than 100 in the 1930s, fell to around 30 for global oil in the 1990s, and is down to approximately 20 by now.",
+  "Calculated EROI values for coal are in the 40 to 80 range.",
+  "Approximately 80% of global electricity is of fossil origin, with oil- and gas-fired power plants providing over 30% of the total (IEA, 2008).",
+  "The installed photovoltaic capacity has undergone a ten-fold increase over the last five years (Kautto and Jaeger-Waldau, 2009).",
+  "The paper assumes a performance ratio of 75% for rooftop mounted systems and 80% for ground mounted optimal latitude installations.",
+  "An average southern European ground-level insolation of 1,700 kWh/(m2·yr) is used, which coincides with the mean global horizontal insolation between the Arctic and Antarctic circles.",
+  "An industry-standard PV system lifetime (T) of 30 years is assumed.",
+  "The EU-27 electric grid efficiency (ηgrid) of 0.31 is used to convert PV electricity into its primary energy equivalent.",
+  "Eqn. 2 EROIel for PV ranges from about 5.9 (mono-c Si and multi-c Si rooftop) to 11.8 (CdTe ground-mounted), compared with 3.7–10.6 for oil-fired and 12.2–24.6 for coal-fired electricity.",
+  "Eqn. 4 EROIPE-eq for PV ranges from 19 to 38 (mean 28.5), compared with EROIF of 10–30 (mean 20) for oil and 40–80 (mean 60) for coal.",
+  "The EROI of PV expressed as primary energy equivalent is higher by a factor of 1/ηgrid = 3.2 than the electricity-based EROI.",
+  "The authors note EROI does not differentiate between renewable and non-renewable primary energy inputs and is thus a rather poor sole indicator of long-term sustainability.",
+  "The paper states that PV is not a base-load technology and that deploying it beyond approximately 20% of grid penetration may require extensive energy storage.",
+  "The authors conclude that PV is already a viable energy option, but that it must still be supported by an initial investment of primary energy that is, as of today, of fossil origin."
+ ],
+ "entities": [
+  {
+   "name": "Marco Raugei",
+   "type": "person",
+   "role": "corresponding author; affiliated with ESCI–Universitat Pompeu Fabra and Center for Life Cycle Analysis, Columbia University"
+  },
+  {
+   "name": "Pere Fullana-i-Palmer",
+   "type": "person",
+   "role": "co-author; affiliated with UNESCO Chair in Life Cycle and Climate Change, ESCI–Universitat Pompeu Fabra"
+  },
+  {
+   "name": "Vasilis Fthenakis",
+   "type": "person",
+   "role": "co-author; affiliated with Center for Life Cycle Analysis, Columbia University and National Photovoltaic Environmental Research Center, Brookhaven National Laboratory"
+  },
+  {
+   "name": "UNESCO Chair in Life Cycle and Climate Change",
+   "type": "organization",
+   "role": "affiliation of Fullana-i-Palmer at Escola Superior de Comerç Internacional (ESCI)"
+  },
+  {
+   "name": "Escola Superior de Comerç Internacional (ESCI) – Universitat Pompeu Fabra",
+   "type": "organization",
+   "role": "institution of Raugei and Fullana-i-Palmer, Barcelona, Spain"
+  },
+  {
+   "name": "Center for Life Cycle Analysis, Columbia University",
+   "type": "organization",
+   "role": "institution of Raugei and Fthenakis, New York, USA"
+  },
+  {
+   "name": "National Photovoltaic Environmental Research Center, Brookhaven National Laboratory",
+   "type": "organization",
+   "role": "affiliation of Fthenakis, Upton, NY, USA"
+  },
+  {
+   "name": "Ecoinvent",
+   "type": "program",
+   "role": "LCA database used for power plant energy investments and feedstock energy for oil- and coal-fired electricity"
+  },
+  {
+   "name": "Murphy and Hall",
+   "type": "person",
+   "role": "authors cited for the definition of primary energy sources and energy carriers"
+  },
+  {
+   "name": "Campbell and Laherrère",
+   "type": "person",
+   "role": "authors cited for the definition of peak oil as the point at which half of economically extractable reserves are consumed"
+  },
+  {
+   "name": "IEA",
+   "type": "organization",
+   "role": "source cited for the share of global electricity of fossil origin (IEA, 2008)"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "source cited for mean global horizontal insolation data (NASA, 2008)"
+  },
+  {
+   "name": "Peak oil",
+   "type": "event",
+   "role": "concept of the absolute peak in global oil production discussed as approaching"
+  },
+  {
+   "name": "Energy Return on Energy Investment (EROI)",
+   "type": "other",
+   "role": "indicator central to the paper, defined as ratio of energy output to energy invested"
+  },
+  {
+   "name": "Energy Pay-Back Time (EPBT)",
+   "type": "other",
+   "role": "PV energy performance indicator defined as EPP divided by yearly equivalent primary energy output"
+  },
+  {
+   "name": "Compressed air energy storage (CAES)",
+   "type": "program",
+   "role": "least expensive large-scale storage option discussed for PV deployment"
+  },
+  {
+   "name": "Advanced adiabatic CAES (AA-CAES)",
+   "type": "program",
+   "role": "possible future storage technology with anticipated 50% cycle efficiency"
+  },
+  {
+   "name": "Carbon capture and storage (CCS)",
+   "type": "program",
+   "role": "technology that would reduce the final EROIel of coal-fired electricity if applied"
+  },
+  {
+   "name": "Mono-crystalline Si, multi-crystalline Si, ribbon Si and CdTe thin film PV",
+   "type": "product",
+   "role": "modern PV technologies for which updated EROI values were calculated"
+  }
+ ],
+ "tags": [
+  "eroi",
+  "photovoltaics",
+  "energy return",
+  "fossil fuels",
+  "life cycle assessment",
+  "energy policy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13186,
+  "output_tokens": 2366
+ }
+}

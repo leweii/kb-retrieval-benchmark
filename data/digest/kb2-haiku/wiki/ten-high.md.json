@@ -1,0 +1,48 @@
+{
+ "summary": "Ten High is an American whiskey brand first introduced in the 1930s by Hiram Walker & Sons and now produced by the Barton Brands division of the Sazerac Company. The name refers to a barrel storage location at least ten ricks high, where barrels mature faster. The note says the manufacturer did not actually promise the whiskey came from barrels aged in such locations, even though the name evoked that method.",
+ "one_line": "Ten High is an American whiskey brand from the 1930s, now made by Barton Brands, named after a high barrel storage location.",
+ "key_facts": [
+  "Ten High is a brand of American whiskey.",
+  "Ten High was first introduced in the 1930s.",
+  "Ten High was first introduced by Hiram Walker & Sons.",
+  "Ten High is now produced by the Barton Brands division of the Sazerac Company.",
+  "The name \"Ten High\" refers to a barrel storage location at least ten ricks high.",
+  "Barrels in the upper part of the aging warehouse mature faster.",
+  "The brand name evoked the high-rick storage method.",
+  "The manufacturer did not actually promise that the brand was from barrels aged in such locations."
+ ],
+ "entities": [
+  {
+   "name": "Ten High",
+   "type": "product",
+   "role": "brand of American whiskey first introduced in the 1930s"
+  },
+  {
+   "name": "Hiram Walker & Sons",
+   "type": "organization",
+   "role": "original introducer of the Ten High brand in the 1930s"
+  },
+  {
+   "name": "Barton Brands",
+   "type": "organization",
+   "role": "division of the Sazerac Company that now produces Ten High"
+  },
+  {
+   "name": "Sazerac Company",
+   "type": "organization",
+   "role": "parent company of Barton Brands, which produces Ten High"
+  }
+ ],
+ "tags": [
+  "whiskey",
+  "american whiskey",
+  "distilling",
+  "barrel aging",
+  "brands"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1129,
+  "output_tokens": 588
+ }
+}

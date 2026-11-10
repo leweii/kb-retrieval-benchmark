@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a brief wiki excerpt about the album \"Con-Test\" and its reissue history. It states that MCA Records acquired the reissue rights for \"Con-Test\" and also for Nash's \"American Band-ages\" in 1986. The abrupt change of record label left both records with almost no promotion.",
+ "one_line": "MCA Records acquired reissue rights to \"Con-Test\" and Nash's \"American Band-ages\" in 1986, but both received almost no promotion.",
+ "key_facts": [
+  "MCA Records picked up the reissue rights for \"Con-Test\".",
+  "MCA Records also picked up the reissue rights for Nash's \"American Band-ages\" in 1986.",
+  "The abrupt change in record labels led to a near-absence of promotion for both records.",
+  "Both \"Con-Test\" and \"American Band-ages\" received almost no promotion after the label change."
+ ],
+ "entities": [
+  {
+   "name": "MCA Records",
+   "type": "organization",
+   "role": "record label that picked up the reissue rights for \"Con-Test\" and Nash's \"American Band-ages\" in 1986"
+  },
+  {
+   "name": "Con-Test",
+   "type": "product",
+   "role": "record whose reissue rights MCA Records acquired and which suffered near-absent promotion after the label change"
+  },
+  {
+   "name": "American Band-ages",
+   "type": "product",
+   "role": "record by Nash whose reissue rights MCA Records acquired in 1986 and which suffered near-absent promotion"
+  },
+  {
+   "name": "Nash",
+   "type": "person",
+   "role": "artist whose record \"American Band-ages\" was reissued by MCA Records in 1986"
+  }
+ ],
+ "tags": [
+  "music",
+  "record labels",
+  "reissues",
+  "album promotion",
+  "nash"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1049,
+  "output_tokens": 557
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "summary": "A Netlify support forum thread where CongChuong reports that a Vite React project builds locally but fails on Netlify with a Rollup error 'Could not resolve ./Pages/Home/Home from src/App.jsx'. Forum member hrishikesh points to a Netlify support guide on case sensitivity, and later identifies the cause: the import uses an uppercase 'P' in 'Pages' while the GitHub repo folder is lowercase 'pages'. The thread shows the build log and the case-sensitivity fix.",
+ "one_line": "Forum thread where a Vite React app fails on Netlify with a missing-import error, caused by a case mismatch in the 'Pages' folder name.",
+ "key_facts": [
+  "CongChuong reported on August 5, 2023 that a Netlify build of a React project built with Vite fails with 'Could not resolve ./Pages/Home/Home from src/App.jsx'.",
+  "The project runs fine on localhost but fails on Netlify during the 'building site' stage.",
+  "The build log shows 'vite v4.4.8 building for production...' followed by 'RollupError: Could not resolve ./Pages/Home/Home from src/App.jsx'.",
+  "The Netlify build command was 'CI='' npm run build' and the publish directory was /opt/build/repo/Client/dist.",
+  "The build ran in the directory /opt/build/repo/Client, with @netlify/build version 29.17.4.",
+  "hrishikesh replied on August 5, 2023 with a link to a Netlify support guide on case sensitivity, which says case issues often cause files to be missing on Netlify but not locally.",
+  "CongChuong replied on August 10, 2023 that they had checked carefully and had no case errors in their code.",
+  "hrishikesh replied on August 11, 2023 that the error is the uppercase 'P' in './Pages/Home/Home'.",
+  "hrishikesh stated that the GitHub repo uses a lowercase 'p' in the folder name.",
+  "The Netlify support guide was last reviewed by Netlify Support Staff in December 2022."
+ ],
+ "entities": [
+  {
+   "name": "CongChuong",
+   "type": "person",
+   "role": "forum user who posted the question about the failing Netlify build of a React project"
+  },
+  {
+   "name": "hrishikesh",
+   "type": "person",
+   "role": "forum user who pointed to the case-sensitivity guide and identified the uppercase 'P' error"
+  },
+  {
+   "name": "Netlify",
+   "type": "organization",
+   "role": "hosting platform where the React project's build fails"
+  },
+  {
+   "name": "Netlify Support Forums",
+   "type": "program",
+   "role": "community forum where the thread was posted"
+  },
+  {
+   "name": "petFamily",
+   "type": "product",
+   "role": "name of the GitHub repository containing the React client project"
+  },
+  {
+   "name": "Vite",
+   "type": "product",
+   "role": "build tool used for the React project (v4.4.8 in the log)"
+  },
+  {
+   "name": "Rollup",
+   "type": "product",
+   "role": "bundler that threw the 'Could not resolve' error"
+  },
+  {
+   "name": "src/App.jsx",
+   "type": "other",
+   "role": "file containing the import that could not be resolved"
+  },
+  {
+   "name": "Pages/Home/Home",
+   "type": "other",
+   "role": "import path that failed because of the uppercase 'P' in 'Pages'"
+  }
+ ],
+ "tags": [
+  "netlify",
+  "vite",
+  "react",
+  "case-sensitivity",
+  "build-error",
+  "rollup"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3249,
+  "output_tokens": 1081
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "summary": "This is a Snowflake documentation reference page for the CREATE MASKING POLICY SQL command, which requires Enterprise Edition or higher. It explains the command's syntax, required and optional parameters (including COMMENT and EXEMPT_OTHER_POLICIES), access control requirements, and usage notes. It also provides examples of normal masking policies, conditional masking policies, and a policy that allows a masked column to be referenced by row access or conditional masking policies. Navigation and boilerplate were ignored.",
+ "one_line": "Snowflake reference for the CREATE MASKING POLICY command, covering syntax, parameters, privileges, and masking examples.",
+ "key_facts": [
+  "CREATE MASKING POLICY requires Enterprise Edition (or higher) in Snowflake.",
+  "Creating a masking policy creates it in the current or specified schema, or replaces an existing masking policy when OR REPLACE is used.",
+  "The first column argument in a masking policy signature determines the column data type to mask, and the RETURNS data type must match it.",
+  "The first column argument cannot be a virtual column in a conditional masking policy.",
+  "Optional conditional columns, when specified, determine whether the policy conditions mask or tokenize data in the first column.",
+  "The COMMENT parameter adds or overwrites a comment for the masking policy.",
+  "EXEMPT_OTHER_POLICIES accepts TRUE or FALSE and specifies whether a row access policy or conditional masking policy can reference a column already protected by this masking policy.",
+  "The value of EXEMPT_OTHER_POLICIES cannot change after the masking policy is set on a table or view; a CREATE OR REPLACE MASKING POLICY statement is required to update it.",
+  "The CREATE MASKING POLICY privilege is required on the Schema, and USAGE on the parent database and schema is also required.",
+  "A given table or view column cannot be specified in both a masking policy signature and a row access policy signature at the same time.",
+  "CREATE OR REPLACE statements are atomic: the old object is deleted and the new object is created in a single transaction.",
+  "The Snowflake documentation notes that the input and output data types of a masking policy must match; timestamp input cannot return a string such as ***MASKED***.",
+  "The example policy email_mask returns the plain value for role ANALYST and a fixed '*********' mask for other users.",
+  "The example email_visibility returns unmasked email when CURRENT_ROLE is ADMIN or the visibility column is 'Public', otherwise '***MASKED***'."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Company whose data platform documents the CREATE MASKING POLICY command and its requirements."
+  },
+  {
+   "name": "CREATE MASKING POLICY",
+   "type": "program",
+   "role": "SQL command documented on this page for creating or replacing a masking policy."
+  },
+  {
+   "name": "EXEMPT_OTHER_POLICIES",
+   "type": "program",
+   "role": "Optional property that controls whether row access or conditional masking policies can reference a protected column."
+  },
+  {
+   "name": "email_mask",
+   "type": "program",
+   "role": "Example normal masking policy that shows plain text to ANALYST, domain-only to SUPPORT, and a fixed mask otherwise."
+  },
+  {
+   "name": "email_visibility",
+   "type": "program",
+   "role": "Example conditional masking policy that unmasks email for ADMIN or when the visibility column is 'Public'."
+  },
+  {
+   "name": "de_email_visibility",
+   "type": "program",
+   "role": "Example conditional tokenization policy that detokenizes email for ADMIN when visibility is 'Public'."
+  },
+  {
+   "name": "ANALYST",
+   "type": "other",
+   "role": "Custom role shown in examples as the role that can see plain-text values."
+  },
+  {
+   "name": "SUPPORT",
+   "type": "other",
+   "role": "Role in examples that sees the email domain unmasked through regexp_replace."
+  },
+  {
+   "name": "mask_udf",
+   "type": "program",
+   "role": "Example custom masking UDF referenced in the policy body for non-analyst users."
+  },
+  {
+   "name": "full_location_masking",
+   "type": "program",
+   "role": "Example JavaScript UDF that masks latitude, longitude, and location in VARIANT JSON data."
+  },
+  {
+   "name": "mask_geo_point",
+   "type": "program",
+   "role": "Example masking policy that replaces GEOGRAPHY values with a fixed point at San Mateo, California for non-ANALYST users."
+  },
+  {
+   "name": "masking_admin",
+   "type": "other",
+   "role": "Example custom role that owns a masking policy in the role hierarchy example."
+  },
+  {
+   "name": "rap_admin",
+   "type": "other",
+   "role": "Example custom role that owns a row access policy in the role hierarchy example."
+  },
+  {
+   "name": "cond_masking_admin",
+   "type": "other",
+   "role": "Example custom role that owns a conditional masking policy in the role hierarchy example."
+  },
+  {
+   "name": "SYSADMIN",
+   "type": "other",
+   "role": "Snowflake system role at the top of the example role hierarchy."
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "masking-policy",
+  "data-security",
+  "sql",
+  "column-security",
+  "access-control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7118,
+  "output_tokens": 1637
+ }
+}

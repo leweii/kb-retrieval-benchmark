@@ -1,0 +1,36 @@
+{
+ "summary": "This is a clipped Snowflake documentation page for the ALTER SECURITY INTEGRATION command, which modifies the properties of an existing security integration. It gives the four syntax forms: SET parameters, UNSET a parameter, SET TAG, and UNSET TAG, with optional IF EXISTS. The page notes that syntax varies by security integration type and points to type-specific pages for details and examples.",
+ "one_line": "Snowflake reference for the ALTER SECURITY INTEGRATION command, covering its SET/UNSET parameter and tag syntax forms.",
+ "key_facts": [
+  "ALTER SECURITY INTEGRATION modifies the properties for an existing security integration.",
+  "The command syntax begins with ALTER [ SECURITY ] INTEGRATION [ IF EXISTS ] <name>.",
+  "One syntax form uses SET <parameters> to change properties of a named security integration.",
+  "One syntax form uses UNSET <parameter> to unset a parameter of a security integration.",
+  "A SET TAG form assigns tags as <tag_name> = '<tag_value>' pairs, separated by commas.",
+  "An UNSET TAG form removes one or more tags by <tag_name> from a security integration.",
+  "The IF EXISTS clause is optional in the SET and UNSET forms of the syntax.",
+  "The syntax varies considerably among security environments, meaning types of security integrations.",
+  "Specific syntax, usage notes, and examples are documented on separate type-specific pages referenced by the page.",
+  "The page sits under the Security category in a navigation path that also includes General, API, Catalog, External access, Notification and Storage.",
+  "The page header identifies the topic as SECURITY INTEGRATION."
+ ],
+ "entities": [
+  {
+   "name": "ALTER SECURITY INTEGRATION",
+   "type": "program",
+   "role": "SQL command that modifies the properties of an existing security integration, documented on this page"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "security-integration",
+  "alter-statement",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1413,
+  "output_tokens": 658
+ }
+}

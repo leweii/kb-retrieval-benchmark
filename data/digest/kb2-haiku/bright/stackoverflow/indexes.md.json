@@ -1,0 +1,45 @@
+{
+ "summary": "This note is the schema reference for the INDEXES view, an Account Usage view available to all accounts that shows one row for each index defined in the specified or current database. It lists the view's columns with their data types and descriptions, covering index identity, the hybrid table and schema/database it belongs to, owner details, uniqueness, associated constraint, status, and creation and deletion timestamps. A usage note says the view may lag by up to 180 minutes. Page navigation and footer boilerplate were ignored.",
+ "one_line": "Schema reference for Snowflake's INDEXES Account Usage view, listing index metadata columns and a latency note.",
+ "key_facts": [
+  "The INDEXES view is an Account Usage view available to all accounts.",
+  "The INDEXES view displays a row for each index defined in the specified (or current) database.",
+  "The ID column is a NUMBER that is the ID of the index.",
+  "The NAME column is a TEXT value giving the name of the index.",
+  "The TABLE_NAME column is a TEXT value giving the name of the hybrid table.",
+  "The IS_UNIQUE column is TEXT with YES or NO, indicating whether the index is a unique index.",
+  "The CONSTRAINT_NAME column is TEXT and gives the name of the constraint associated with the index.",
+  "The STATUS column is TEXT and gives the latest status of the index.",
+  "The CREATED column is TIMESTAMP_LTZ and gives the time of creation for the index.",
+  "The DELETED column is TIMESTAMP_LTZ and gives the date and time when the hybrid table was dropped.",
+  "The OWNER_ROLE_TYPE column is TEXT and is either ROLE or DATABASE_ROLE, or APPLICATION if a Snowflake Native App owns the object.",
+  "OWNER_ROLE_TYPE is NULL when an object has been deleted because a deleted object does not have an owner role.",
+  "The SCHEMA_ID column is TEXT and is the ID of the schema to which the hybrid table belongs.",
+  "The DATABASE_ID column is a NUMBER and is the ID of the database to which the hybrid table belongs.",
+  "Latency for the view may be up to 180 minutes (3 hours)."
+ ],
+ "entities": [
+  {
+   "name": "INDEXES view",
+   "type": "product",
+   "role": "Account Usage view that displays a row for each index defined in the specified (or current) database"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Vendor whose documentation page this note is clipped from; the page footer reads 'Inc. All Rights Reserved'"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account-usage",
+  "database-schema",
+  "indexes",
+  "metadata"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1758,
+  "output_tokens": 864
+ }
+}

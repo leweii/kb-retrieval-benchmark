@@ -1,0 +1,121 @@
+{
+ "summary": "This is a truncated console log from a GitHub gist by user dpiet, created August 30, 2021, titled 'Console output after ros2-control package install check'. It records the output of running 'ros2 launch moveit2_tutorials demo.launch.py' on ROS 2 Foxy with a Panda robot arm. The log shows most nodes starting, the panda_arm_controller starting successfully, and the panda_hand_controller dying because its 'type' parameter was not defined. It also lists several warnings and errors from move_group, rviz2 and the class loader.",
+ "one_line": "A truncated ROS 2 Foxy console log from a MoveIt2 Panda demo launch, showing controller startup and the panda_hand_controller failure.",
+ "key_facts": [
+  "The gist is by user dpiet, titled 'Console output after ros2-control package install check', and was created August 30, 2021 16:47.",
+  "The launched command was 'ros2 launch moveit2_tutorials demo.launch.py'.",
+  "The launch started rviz2, static_transform_publisher, robot_state_publisher, move_group, ros2_control_node, mongo_wrapper_ros.py and three controller spawners.",
+  "The ros2_control_node reported that the controller_manager update rate is 100 Hz.",
+  "The panda_hand_controller failed with the error \"The 'type' param not defined for 'panda_hand_controller'.\" and its process died with exit code 1.",
+  "The panda_arm_controller was configured and started, with command interface [position] and state interfaces [position velocity].",
+  "The panda_arm_controller publishes controller state at 50.00 Hz and monitors action status changes at 20.00 Hz.",
+  "The joint_state_controller was loaded, configured and started, and its spawner process finished cleanly.",
+  "The move_group node warned that Octomap resolution was not specified and assumed 0.1 instead.",
+  "The move_group node logged the error 'No 3D sensor plugin(s) defined for octomap updates'.",
+  "The move_group context used the planning plugin ompl_interface/OMPLPlanner and printed 'You can start planning now!'.",
+  "A MongoDB server (db version v3.6.8) started on localhost port 33829 with database path /tmp/db on host LAPTOP-N06C44K6.",
+  "rviz2 logged the error 'Action server: /recognize_objects not available'.",
+  "rviz2 logged the error that parameter 'panda_arm.kinematics_solver' has already been declared during loadRobotModel.",
+  "rviz2 populated 75 planners for the panda_arm group, including planner ids such as RRTConnectkConfigDefault and PRMstarkConfigDefault."
+ ],
+ "entities": [
+  {
+   "name": "dpiet",
+   "type": "person",
+   "role": "GitHub user who created and published the gist"
+  },
+  {
+   "name": "moveit2_tutorials",
+   "type": "program",
+   "role": "package whose demo.launch.py file was run to produce the log"
+  },
+  {
+   "name": "rviz2",
+   "type": "program",
+   "role": "visualization node that started in the launch and reported errors about the Panda model and planners"
+  },
+  {
+   "name": "move_group",
+   "type": "program",
+   "role": "MoveIt MoveGroup node that loaded the Panda model, planning pipeline and OMPL planner"
+  },
+  {
+   "name": "ros2_control_node",
+   "type": "program",
+   "role": "node that ran the controller_manager and loaded the Panda controllers"
+  },
+  {
+   "name": "panda_arm_controller",
+   "type": "program",
+   "role": "arm controller that was configured and started successfully"
+  },
+  {
+   "name": "panda_hand_controller",
+   "type": "program",
+   "role": "hand controller whose spawner died because the 'type' parameter was not defined"
+  },
+  {
+   "name": "joint_state_controller",
+   "type": "program",
+   "role": "controller that published joint states and was loaded and started successfully"
+  },
+  {
+   "name": "robot_state_publisher",
+   "type": "program",
+   "role": "node that parsed the robot URDF and published segment transforms for the Panda links"
+  },
+  {
+   "name": "static_transform_publisher",
+   "type": "program",
+   "role": "node that published the transform from 'world' to 'panda_link0'"
+  },
+  {
+   "name": "mongo_wrapper_ros.py",
+   "type": "program",
+   "role": "wrapper that started a local MongoDB server on port 33829"
+  },
+  {
+   "name": "MongoDB",
+   "type": "product",
+   "role": "database server (v3.6.8) started on localhost:33829 with the WiredTiger storage engine"
+  },
+  {
+   "name": "Panda",
+   "type": "product",
+   "role": "robot model named 'panda' whose URDF was loaded by the launch nodes"
+  },
+  {
+   "name": "OMPL",
+   "type": "program",
+   "role": "planning interface used by the move_group planning pipeline"
+  },
+  {
+   "name": "ROS 2 Foxy",
+   "type": "program",
+   "role": "ROS 2 distribution under /opt/ros/foxy that the nodes ran on"
+  },
+  {
+   "name": "GitHub",
+   "type": "organization",
+   "role": "hosting platform for the gist"
+  },
+  {
+   "name": "LAPTOP-N06C44K6",
+   "type": "place",
+   "role": "host machine name reported by the MongoDB log"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "moveit",
+  "robotics",
+  "panda-arm",
+  "console-log",
+  "troubleshooting"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16445,
+  "output_tokens": 2551
+ }
+}

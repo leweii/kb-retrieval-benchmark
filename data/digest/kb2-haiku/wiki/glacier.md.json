@@ -1,0 +1,87 @@
+{
+ "summary": "The note defines a glacier as a persistent, constantly moving body of dense ice that forms where snow accumulation exceeds ablation over many years, often centuries. It explains that glaciers deform and flow under their own weight, forming crevasses and seracs, and abrade rock to create landforms such as cirques and moraines. It also distinguishes glaciers, which form only on land, from sea ice and lake ice. A second section describes the main types of crevasses (transverse, longitudinal, marginal) and the bergschrund.",
+ "one_line": "Defines glaciers as persistent, slowly flowing land ice bodies and describes the types of crevasses and bergschrunds they form.",
+ "key_facts": [
+  "A glacier is a persistent body of dense ice that is constantly moving under its own weight.",
+  "A glacier forms where the accumulation of snow exceeds its ablation (melting and sublimation) over many years, often centuries.",
+  "Glaciers slowly deform and flow due to stresses induced by their weight, creating crevasses, seracs, and other distinguishing features.",
+  "Glaciers abrade rock and debris from their substrate to create landforms such as cirques and moraines.",
+  "Glaciers form only on land and are distinct from the much thinner sea ice and lake ice that form on the surface of bodies of water.",
+  "Transverse crevasses are transverse to flow and form where steeper slopes cause a glacier to accelerate.",
+  "Longitudinal crevasses form semi-parallel to flow where a glacier expands laterally.",
+  "Marginal crevasses form from the edge of the glacier, due to the reduction in speed caused by friction of the valley walls.",
+  "Marginal crevasses are usually largely transverse to flow.",
+  "Moving glacier ice can sometimes separate from stagnant ice above, forming a bergschrund.",
+  "Bergschrunds resemble crevasses but are singular features at a glacier's margins."
+ ],
+ "entities": [
+  {
+   "name": "Glacier",
+   "type": "other",
+   "role": "persistent body of dense ice that constantly moves under its own weight; the subject of the note"
+  },
+  {
+   "name": "Crevasses",
+   "type": "other",
+   "role": "fractures in glacier ice formed in several ways, including transverse, longitudinal and marginal types"
+  },
+  {
+   "name": "Transverse crevasses",
+   "type": "other",
+   "role": "crevasses transverse to flow that form where steeper slopes cause a glacier to accelerate"
+  },
+  {
+   "name": "Longitudinal crevasses",
+   "type": "other",
+   "role": "crevasses that form semi-parallel to flow where a glacier expands laterally"
+  },
+  {
+   "name": "Marginal crevasses",
+   "type": "other",
+   "role": "crevasses that form from the edge of a glacier due to reduced speed caused by friction of the valley walls"
+  },
+  {
+   "name": "Bergschrund",
+   "type": "other",
+   "role": "singular feature that forms when moving glacier ice separates from stagnant ice above, at a glacier's margins"
+  },
+  {
+   "name": "Cirques",
+   "type": "other",
+   "role": "landforms abraded from substrate by glaciers"
+  },
+  {
+   "name": "Moraines",
+   "type": "other",
+   "role": "landforms abraded from substrate by glaciers"
+  },
+  {
+   "name": "Seracs",
+   "type": "other",
+   "role": "distinguishing features created by glacier deformation and flow"
+  },
+  {
+   "name": "Sea ice",
+   "type": "other",
+   "role": "much thinner ice that forms on the surface of seas, contrasted with glaciers"
+  },
+  {
+   "name": "Lake ice",
+   "type": "other",
+   "role": "much thinner ice that forms on the surface of lakes, contrasted with glaciers"
+  }
+ ],
+ "tags": [
+  "glaciology",
+  "glaciers",
+  "ice",
+  "crevasses",
+  "geomorphology",
+  "cryosphere"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1396,
+  "output_tokens": 1191
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short encyclopedic entry describing Bloomingdale, an unincorporated census-designated place in Hillsborough County, Florida. It gives the 2010 census population and the two ZIP Codes that serve the community, noting how each is addressed.",
+ "one_line": "Bloomingdale is an unincorporated census-designated place in Hillsborough County, Florida, with a 2010 population of 22,711.",
+ "key_facts": [
+  "Bloomingdale is an unincorporated census-designated place in Hillsborough County, Florida, United States.",
+  "The population of Bloomingdale, Florida was 22,711 at the 2010 census.",
+  "The ZIP Code 33511 serves Bloomingdale and is addressed to Brandon.",
+  "The ZIP Code 33596 serves Bloomingdale and is addressed to Valrico."
+ ],
+ "entities": [
+  {
+   "name": "Bloomingdale, Florida",
+   "type": "place",
+   "role": "unincorporated census-designated place in Hillsborough County, Florida, United States; subject of the note"
+  },
+  {
+   "name": "Hillsborough County, Florida",
+   "type": "place",
+   "role": "county in which Bloomingdale is located"
+  },
+  {
+   "name": "Brandon",
+   "type": "place",
+   "role": "community to which ZIP Code 33511 is addressed"
+  },
+  {
+   "name": "Valrico",
+   "type": "place",
+   "role": "community to which ZIP Code 33596 is addressed"
+  }
+ ],
+ "tags": [
+  "florida",
+  "hillsborough county",
+  "census-designated place",
+  "zip codes",
+  "demographics"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1090,
+  "output_tokens": 495
+ }
+}

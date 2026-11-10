@@ -1,0 +1,49 @@
+{
+ "summary": "This note is a Snowflake-style reference page for the RANK window function, which returns the rank of each row within an ordered group, starting at 1, with tied values sharing a rank and gaps left in the sequence afterward. It gives the syntax (optional PARTITION BY, required ORDER BY, optional window frame), explains the usage notes, and walks through examples using a corn_production table to contrast RANK with DENSE_RANK, including the tie case where RANK skips a value while DENSE_RANK does not.",
+ "one_line": "Reference for the RANK window function, which assigns sequential ranks within an ordered (optionally partitioned) group, with gaps after ties.",
+ "key_facts": [
+  "RANK() returns the rank of a value within an ordered group of values, starting at 1 and continuing up sequentially.",
+  "If two values are the same, they have the same rank.",
+  "The RANK syntax is RANK() OVER ( [ PARTITION BY <expr1> ] ORDER BY <expr2> [ { ASC | DESC } ] [ <window_frame> ] ).",
+  "RANK() takes no arguments because the rank is determined by the ordering of the window.",
+  "Tie values result in the same rank value, but gaps in the sequence result from the tie values.",
+  "If the first three rows return 1, RANK skips 2 and 3 and assigns 4 to the next row in the group.",
+  "PARTITION BY is omitted when a single group is wanted, such as ranking all farmers in the U.S. regardless of state.",
+  "The example table corn_production has columns farmer_ID INTEGER, state varchar, and bushels float.",
+  "The example data includes farmers in Iowa producing 100 and 110 bushels and in Kansas producing 120 and 130 bushels.",
+  "Ordering corn_production by bushels DESC gives RANK values 1, 2, 3, 4 for bushels 130, 120, 110, 100.",
+  "When partitioned by state, RANK() OVER (PARTITION BY state ORDER BY bushels DESC) gives rank 1 and 2 within both Iowa and Kansas.",
+  "With a tie at 110 in Iowa, RANK gives 1, 2, 3, 3, 5 while DENSE_RANK gives 1, 2, 3, 3, 4.",
+  "DENSE_RANK does not skip rank 4 after a tie for rank 3."
+ ],
+ "entities": [
+  {
+   "name": "RANK",
+   "type": "program",
+   "role": "analytic window function that returns the rank of a value within an ordered group, with gaps after ties"
+  },
+  {
+   "name": "DENSE_RANK",
+   "type": "program",
+   "role": "analytic window function compared against RANK in the examples; does not skip ranks after ties"
+  },
+  {
+   "name": "corn_production",
+   "type": "other",
+   "role": "example table of farmer_ID, state and bushels used in the examples"
+  }
+ ],
+ "tags": [
+  "sql",
+  "window-functions",
+  "rank",
+  "dense-rank",
+  "aggregation",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3365,
+  "output_tokens": 951
+ }
+}

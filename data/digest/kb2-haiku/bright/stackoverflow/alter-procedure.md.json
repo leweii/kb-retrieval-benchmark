@@ -1,0 +1,44 @@
+{
+ "summary": "This is the Snowflake documentation page for the ALTER PROCEDURE statement, which modifies properties of an existing stored procedure. It lists the syntax variants for renaming (and moving) a procedure, setting or unsetting log level, trace level, comment and tags, and changing the EXECUTE AS setting to CALLER or OWNER. It also explains that argument data types identify overloaded procedures and gives one rename example.",
+ "one_line": "Snowflake reference for the ALTER PROCEDURE statement, covering renaming, comments, tags, log and trace levels, and EXECUTE AS settings.",
+ "key_facts": [
+  "ALTER PROCEDURE modifies the properties for an existing stored procedure.",
+  "The argument data types are required because stored procedures support name overloading.",
+  "RENAME TO new_name changes the identifier, and the combination of identifier and argument data types must be unique for the schema.",
+  "A procedure can be moved to a different database and/or schema by specifying a qualified new_name in the form db_name.schema_name.object_name or schema_name.object_name.",
+  "The destination database and/or schema must already exist, and an object with the same name cannot already exist in the new location.",
+  "Moving an object to a managed access schema is prohibited unless the object owner also owns the target schema.",
+  "SET COMMENT adds a comment or overwrites the existing comment, and the value is displayed in the DESCRIPTION column.",
+  "LOG_LEVEL specifies the severity level of messages that are ingested into the active event table.",
+  "UNSET COMMENT and UNSET TAG reset those properties to defaults; COMMENT and TAG are the only properties that can be unset.",
+  "Tag values are always strings with a maximum of 256 characters.",
+  "EXECUTE AS CALLER makes future calls run as a caller's rights procedure.",
+  "EXECUTE AS OWNER makes future calls run as an owner's rights procedure.",
+  "The example renames procedure1(FLOAT) to procedure2 using ALTER PROCEDURE IF EXISTS.",
+  "Customers should not enter personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data as metadata."
+ ],
+ "entities": [
+  {
+   "name": "ALTER PROCEDURE",
+   "type": "product",
+   "role": "SQL statement documented on this page that modifies properties of an existing stored procedure"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "service whose stored procedure statement this reference documents"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "stored-procedures",
+  "ddl",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3231,
+  "output_tokens": 839
+ }
+}

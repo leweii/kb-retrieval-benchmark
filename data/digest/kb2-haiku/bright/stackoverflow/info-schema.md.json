@@ -1,0 +1,70 @@
+{
+ "summary": "This is Snowflake's documentation page on the Information Schema, also called the data dictionary. It explains that every database has a built-in read-only INFORMATION_SCHEMA containing views for database and account-level metadata and table functions for account usage and history. It also covers usage notes, how Information Schema differs from SHOW commands, and how to qualify object names in queries.",
+ "one_line": "Snowflake's documentation of the INFORMATION_SCHEMA metadata views and table functions, their usage rules, and how they differ from SHOW commands.",
+ "key_facts": [
+  "The Snowflake Information Schema, also called the Data Dictionary, is based on the SQL-92 ANSI Information Schema with Snowflake-specific additions.",
+  "Snowflake automatically creates a built-in, read-only schema named INFORMATION_SCHEMA in every database in an account.",
+  "The Information Schema topics use the term 'catalog' in place of 'database' to maintain compatibility with the ANSI standard.",
+  "Most Information Schema views are ANSI-standard, while Snowflake-specific views cover non-standard objects such as stages and file formats.",
+  "Table functions in INFORMATION_SCHEMA return account-level usage and historical information for storage, warehouses, user logins, and queries.",
+  "Data retention for LOGIN_HISTORY-type table functions is listed in the documentation as 14 days for many functions, and 6 months for some others.",
+  "Query results from Information Schema views depend on the privileges granted to the user's current role.",
+  "Queries on Information Schema views do not guarantee consistency with respect to concurrent DDL.",
+  "An error 'Information schema query returned too much data. Please repeat query with more selective predicates.' is returned when filters are not sufficiently selective.",
+  "Snowflake-specific views are subject to change, so selecting specific columns is recommended over SELECT *.",
+  "Warehouses must be running and in use to query Information Schema views, unlike SHOW commands.",
+  "Unquoted, case-insensitive identifiers are converted to uppercase internally, so they must be queried in uppercase in Information Schema views.",
+  "Unlike most SHOW commands, Information Schema views display all objects in the current or specified database and require a filter such as WHERE table_schema = CURRENT_SCHEMA() to limit to a schema.",
+  "Queries must use the qualified name database.information_schema.name, or the INFORMATION_SCHEMA schema must be in use for the session.",
+  "If a database was created from a share and INFORMATION_SCHEMA is the current schema, a query may fail with 'INFORMATION_SCHEMA does not exist or is not authorized'."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake Information Schema",
+   "type": "program",
+   "role": "System-defined views and table functions providing metadata about objects in a Snowflake account, also called the Data Dictionary"
+  },
+  {
+   "name": "INFORMATION_SCHEMA",
+   "type": "program",
+   "role": "Built-in read-only schema automatically created in every Snowflake database"
+  },
+  {
+   "name": "SQL-92 ANSI Information Schema",
+   "type": "program",
+   "role": "Standard on which the Snowflake Information Schema is based"
+  },
+  {
+   "name": "LOGIN_HISTORY",
+   "type": "program",
+   "role": "Table function example returning user login events, queried with event_timestamp and user_name"
+  },
+  {
+   "name": "TABLES",
+   "type": "program",
+   "role": "Information Schema view displaying tables and views, used with table_name and comment columns"
+  },
+  {
+   "name": "MONITOR USAGE",
+   "type": "program",
+   "role": "Global privilege that determines whether a role gets results from many table functions"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "Role that returns results for many Information Schema table functions without other privileges"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "information-schema",
+  "metadata",
+  "sql",
+  "data-dictionary"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5868,
+  "output_tokens": 1255
+ }
+}

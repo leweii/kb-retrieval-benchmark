@@ -1,0 +1,90 @@
+{
+ "summary": "This is the Python 3.12 standard library documentation page for the doctest module, which finds interactive Python examples in docstrings and text files and executes them to verify that their output matches. It explains simple usage with testmod() and testfile(), how examples and exceptions are recognized, the execution context, the option flags and directives that control matching and reporting, and warnings about fragile output such as set ordering, object addresses and floats. The excerpt ends partway through the Basic API section describing testfile().",
+ "one_line": "Python 3.12 documentation for the doctest module, which runs interactive examples in docstrings and text files to verify their output.",
+ "key_facts": [
+  "The doctest module searches for pieces of text that look like interactive Python sessions and executes them to verify they work exactly as shown.",
+  "Ending a module with if __name__ == \"__main__\": import doctest; doctest.testmod() runs the docstring examples when the module is run as a script.",
+  "Running a doctest-enabled script without -v prints nothing unless an example fails, and the final failure line reads '***Test Failed*** N failures.'",
+  "Passing -v to a doctest script prints a detailed log of each example tried and a summary such as '9 passed and 0 failed.'",
+  "The testfile() function treats the content of a text file as a single giant docstring and does not require the file to contain a Python program.",
+  "By default each docstring test uses a shallow copy of the module's globals, so tests do not change the module's real globals.",
+  "The expected output for an exception must start with the header 'Traceback (most recent call last):' or 'Traceback (innermost last):'.",
+  "The ELLIPSIS option lets an ellipsis marker (...) in expected output match any substring in the actual output.",
+  "The IGNORE_EXCEPTION_DETAIL option makes doctests pass when an exception of the expected type is raised even if its message differs; since Python 3.2 it also ignores module information in the exception name.",
+  "The SKIP option means an example is not run at all, which is useful when its output is random or depends on unavailable resources.",
+  "The -o command line option was added in version 3.4, and the -f option is shorthand for -o FAIL_FAST.",
+  "Doctest directives are comments such as '# doctest: +NORMALIZE_WHITESPACE' placed after an example's source code to enable or disable options for that example only.",
+  "The page warns that printing a set may produce elements in any order, so a test comparing printed set output is vulnerable and should instead compare with '== {\"spam\", \"eggs\"}' returning True.",
+  "The page advises that floating-point output can vary across platforms, and that numbers of the form I/2.**J are safe across all platforms."
+ ],
+ "entities": [
+  {
+   "name": "doctest",
+   "type": "program",
+   "role": "Python standard library module that searches for interactive Python examples and executes them to verify their output"
+  },
+  {
+   "name": "testmod()",
+   "type": "program",
+   "role": "function that runs doctests on the docstrings of a module"
+  },
+  {
+   "name": "testfile()",
+   "type": "program",
+   "role": "function that tests interactive examples contained in a text file"
+  },
+  {
+   "name": "DONT_ACCEPT_TRUE_FOR_1",
+   "type": "program",
+   "role": "option flag that disallows matching 1 with True and 0 with False"
+  },
+  {
+   "name": "ELLIPSIS",
+   "type": "program",
+   "role": "option flag allowing an ellipsis marker in expected output to match any substring"
+  },
+  {
+   "name": "IGNORE_EXCEPTION_DETAIL",
+   "type": "program",
+   "role": "option flag that ignores exception message and module name when checking exceptions"
+  },
+  {
+   "name": "NORMALIZE_WHITESPACE",
+   "type": "program",
+   "role": "option flag treating all sequences of whitespace as equal"
+  },
+  {
+   "name": "FAIL_FAST",
+   "type": "program",
+   "role": "reporting option that exits after the first failing example"
+  },
+  {
+   "name": "example.py",
+   "type": "product",
+   "role": "sample example module whose factorial() docstrings are used to demonstrate doctest"
+  },
+  {
+   "name": "unittest",
+   "type": "program",
+   "role": "unit testing framework named as the next topic after doctest in the documentation"
+  },
+  {
+   "name": "Python 3.12.3 Documentation",
+   "type": "product",
+   "role": "documentation set that contains this doctest page"
+  }
+ ],
+ "tags": [
+  "python",
+  "doctest",
+  "testing",
+  "documentation",
+  "standard library",
+  "docstrings"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12543,
+  "output_tokens": 1383
+ }
+}

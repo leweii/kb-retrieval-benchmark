@@ -1,0 +1,40 @@
+{
+ "summary": "WWLU is a non-commercial educational radio station located in Lincoln University, Pennsylvania. It is owned and operated by Lincoln University. The note records that the station first went on the air in 1970 under the callsign WLIU, and that its current callsign took effect in 2002.",
+ "one_line": "WWLU is a non-commercial educational radio station in Lincoln University, Pennsylvania, owned and operated by the university.",
+ "key_facts": [
+  "WWLU is a non-commercial educational radio station.",
+  "WWLU is located in Lincoln University, Pennsylvania.",
+  "WWLU is owned and operated by Lincoln University.",
+  "The station first aired in 1970 under the callsign WLIU.",
+  "The callsign WWLU came into effect in 2002."
+ ],
+ "entities": [
+  {
+   "name": "WWLU",
+   "type": "organization",
+   "role": "non-commercial educational radio station in Lincoln University, Pennsylvania"
+  },
+  {
+   "name": "Lincoln University",
+   "type": "organization",
+   "role": "owner and operator of radio station WWLU"
+  },
+  {
+   "name": "WLIU",
+   "type": "product",
+   "role": "original callsign of the station when it first aired in 1970"
+  }
+ ],
+ "tags": [
+  "radio",
+  "broadcasting",
+  "lincoln university",
+  "pennsylvania",
+  "educational media"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1057,
+  "output_tokens": 416
+ }
+}

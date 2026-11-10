@@ -1,0 +1,131 @@
+{
+ "summary": "This Wikipedia excerpt covers the historical development of quantum physics and the Planck constant. It traces the photoelectric effect and black-body radiation work of Hertz, Lenard, Einstein, Rayleigh and Jeans, and Wien, through Bohr's angular momentum quantum and the later matrix and wave mechanics. It also describes how the constant is measured today, via CODATA values, watt-balance experiments, and the Faraday constant, and ends with a note on uncertainty trade-offs.",
+ "one_line": "Historical and experimental overview of the Planck constant, covering the photoelectric effect, black-body radiation, and modern measurement methods.",
+ "key_facts": [
+  "The photoelectric effect was first observed by Alexandre Edmond Becquerel in 1839, though credit is usually given to Heinrich Hertz, who published the first thorough investigation in 1887.",
+  "Philipp Lenard published another particularly thorough investigation of the photoelectric effect in 1902.",
+  "Einstein's 1905 paper discussing the photoelectric effect in terms of light quanta earned him the Nobel Prize in 1921, after Robert Andrews Millikan's experimental work confirmed his predictions.",
+  "In 1905, Rayleigh and Jeans, and separately Einstein, independently proved that classical electromagnetism could never account for the observed black-body spectrum.",
+  "The name \"ultraviolet catastrophe\" for these black-body proofs was coined by Paul Ehrenfest in 1911.",
+  "The very first Solvay Conference in 1911 was devoted to \"the theory of radiation and quanta\".",
+  "Max Planck received the 1918 Nobel Prize in Physics \"in recognition of the services he rendered to the advancement of Physics by his discovery of energy quanta\".",
+  "Bohr introduced the reduced Planck constant as the quantum of angular momentum, initially believing it was the angular momentum of each electron in an atom, which proved incorrect.",
+  "The correct quantization rules for electrons were given by Heisenberg's matrix mechanics in 1925 and the Schrödinger wave equation in 1926.",
+  "The CODATA value of the Planck constant is based on three watt-balance measurements of KJ2RK and one inter-laboratory determination of the molar volume of silicon.",
+  "The CODATA value is mostly determined by a 2007 watt-balance measurement made at the U.S. National Institute of Standards and Technology (NIST).",
+  "Five other measurements by three different methods were initially considered for the CODATA value but were not included in the final refinement because they were too imprecise to affect the result.",
+  "The Faraday constant F is the charge of one mole of electrons, equal to the Avogadro constant NA multiplied by the elementary charge e.",
+  "The Faraday constant can be determined by electrolysis experiments that measure the amount of silver dissolved from an electrode in a given time and for a given electric current.",
+  "Wilhelm Wien discovered the mathematical relationship between the peaks of black-body curves at different temperatures, known as Wien's displacement law (1893)."
+ ],
+ "entities": [
+  {
+   "name": "Alexandre Edmond Becquerel",
+   "type": "person",
+   "role": "first observed the photoelectric effect in 1839"
+  },
+  {
+   "name": "Heinrich Hertz",
+   "type": "person",
+   "role": "published the first thorough investigation of the photoelectric effect in 1887"
+  },
+  {
+   "name": "Philipp Lenard",
+   "type": "person",
+   "role": "published another thorough investigation of the photoelectric effect in 1902"
+  },
+  {
+   "name": "Einstein",
+   "type": "person",
+   "role": "published 1905 paper explaining the photoelectric effect via light quanta and proved classical electromagnetism could not account for the black-body spectrum"
+  },
+  {
+   "name": "Robert Andrews Millikan",
+   "type": "person",
+   "role": "experimental work confirmed Einstein's predictions on the photoelectric effect"
+  },
+  {
+   "name": "Rayleigh",
+   "type": "person",
+   "role": "with Jeans, proved in 1905 that classical electromagnetism could not account for the black-body spectrum"
+  },
+  {
+   "name": "Jeans",
+   "type": "person",
+   "role": "with Rayleigh, proved in 1905 that classical electromagnetism could not account for the black-body spectrum"
+  },
+  {
+   "name": "Paul Ehrenfest",
+   "type": "person",
+   "role": "coined the name \"ultraviolet catastrophe\" in 1911"
+  },
+  {
+   "name": "Max Planck",
+   "type": "person",
+   "role": "received the 1918 Nobel Prize in Physics for discovering energy quanta"
+  },
+  {
+   "name": "Bohr",
+   "type": "person",
+   "role": "introduced the reduced Planck constant as the quantum of angular momentum"
+  },
+  {
+   "name": "Sommerfeld",
+   "type": "person",
+   "role": "contributed developments to the Bohr model that did not fully describe electron angular momentum"
+  },
+  {
+   "name": "Heisenberg",
+   "type": "person",
+   "role": "gave the correct quantization rules for electrons via matrix mechanics in 1925"
+  },
+  {
+   "name": "Schrödinger",
+   "type": "person",
+   "role": "gave the Schrödinger wave equation in 1926 for electron quantization"
+  },
+  {
+   "name": "Wilhelm Wien",
+   "type": "person",
+   "role": "discovered the relationship between black-body curve peaks at different temperatures and proposed an approximation for the spectrum"
+  },
+  {
+   "name": "National Institute of Standards and Technology",
+   "type": "organization",
+   "role": "made the 2007 watt-balance measurement that mostly determines the CODATA Planck constant value"
+  },
+  {
+   "name": "Solvay Conference",
+   "type": "event",
+   "role": "first held in 1911 and devoted to the theory of radiation and quanta"
+  },
+  {
+   "name": "Nobel Prize",
+   "type": "event",
+   "role": "awarded to Einstein in 1921 and to Max Planck in 1918"
+  },
+  {
+   "name": "CODATA",
+   "type": "program",
+   "role": "source of the quoted Planck constant value, based on watt-balance and silicon molar volume measurements"
+  },
+  {
+   "name": "Faraday constant",
+   "type": "other",
+   "role": "charge of one mole of electrons, equal to the Avogadro constant multiplied by the elementary charge"
+  }
+ ],
+ "tags": [
+  "quantum physics",
+  "planck constant",
+  "photoelectric effect",
+  "black-body radiation",
+  "physics history",
+  "measurement"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2621,
+  "output_tokens": 2710
+ }
+}

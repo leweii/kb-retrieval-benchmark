@@ -1,0 +1,180 @@
+{
+ "summary": "This paper, written by ROS Navigation maintainers, surveys state-of-the-art mobile robot navigation algorithms in ROS 2 and Nav2, organized by fundamental problems. The portion present covers global path planners (holonomic NavFn, Lazy Theta*-P, 2D-A*, and kinematically feasible Hybrid-A* and State Lattice) with a benchmark table, and begins local trajectory planners (reactive DWA/DWB controllers), with the note cut off mid-sentence. It also introduces Nav2 as a successor to the ROS 1 Navigation Stack and summarizes the ecosystem's rapid development.",
+ "one_line": "Survey by ROS Navigation maintainers reviewing global and local path planning algorithms in ROS 2 Nav2, with benchmarks.",
+ "key_facts": [
+  "The survey paper is authored by Steve Macenski (ROS 2 Project Lead, Samsung Research), Tom Moore, David V. Lu, Alexey Merzlyakov, and Michael Ferguson.",
+  "Nav2 was built to leverage innovations in behavior trees and maintains production-grade quality with 90% unit test coverage.",
+  "The original Navigation Stack was developed at Willow Garage for the PR2 robot and was based around an unconfigurable state machine, move base.",
+  "Nav2 global planning methods are Navigation Function, 2D-A*, Theta*, Hybrid-A*, and State Lattice planners.",
+  "Global path planners are all extensions of Dijkstra's algorithm aiming to find the path with minimal cost.",
+  "The benchmark used a AMD Ryzen 5 5600X CPU with Ubuntu 20.04, 1,000 randomly generated start and goal poses through a 20% randomly occupied 10,000m2 map, with start and goal at least 3 meters apart.",
+  "In the benchmark, NavFn planned in 61.02 ms with a path length of 52.25 m, Lazy Theta*-P in 94.42 ms with 50.28 m, Smac 2D-A* in 88.82 ms with 49.65 m, Smac Hybrid-A* in 38.77 ms with 50.78 m, and Smac State Lattice in 39.40 ms with 50.51 m.",
+  "NavFn is the default planning algorithm in Nav2 and is the oldest algorithm in Nav2, derived from the ROS 1 Navigation Stack.",
+  "Lazy Theta*-P uses a Moore neighborhood and L2 distance heuristic and evaluates line-of-sight on the current node's grandparent rather than parent.",
+  "Hybrid-A* was proposed by Stanford during the DARPA Urban Challenge as an extension of traditional grid-A*.",
+  "State Lattice was utilized by Carnegie Mellon University in the DARPA Urban Challenge and uses offline computed motion primitives.",
+  "Nav2 includes trajectory planners Dynamic Window Approach (DWA), Regulated Pure Pursuit (RPP), Model Predictive Path Integral (MPPI), and Rotation Shim controllers.",
+  "DWB is currently the default local trajectory planner in Nav2, a refactor of the Base Local Planner and DWA Local Planner from ROS 1.",
+  "The survey notes that DWB's numerous, highly interrelated parameters make tuning complex, and poorly tuned configurations can create extremely suboptimal behaviors."
+ ],
+ "entities": [
+  {
+   "name": "Nav2",
+   "type": "program",
+   "role": "next-generation autonomous mobile robotics navigation framework for ROS 2, the major project of the mobile robotics ecosystem"
+  },
+  {
+   "name": "Robot Operating System 2 (ROS 2)",
+   "type": "program",
+   "role": "robotics framework redesigned to meet requirements of modern robotics research and commercial products"
+  },
+  {
+   "name": "Steve Macenski",
+   "type": "person",
+   "role": "ROS 2 Project Lead at Samsung Research, author of the survey"
+  },
+  {
+   "name": "Tom Moore",
+   "type": "person",
+   "role": "Robot Localization Maintainer at Locus Robotics, author of the survey"
+  },
+  {
+   "name": "David V. Lu",
+   "type": "person",
+   "role": "ROS 1 Co-Maintainer at Metro Robots, author of the survey"
+  },
+  {
+   "name": "Alexey Merzlyakov",
+   "type": "person",
+   "role": "ROS 2 Developer at Samsung Research, author of the survey"
+  },
+  {
+   "name": "Michael Ferguson",
+   "type": "person",
+   "role": "ROS 1 Co-Maintainer at Cobalt Robotics, author of the survey"
+  },
+  {
+   "name": "Samsung Research",
+   "type": "organization",
+   "role": "affiliation of authors Steve Macenski and Alexey Merzlyakov"
+  },
+  {
+   "name": "Locus Robotics",
+   "type": "organization",
+   "role": "affiliation of author Tom Moore"
+  },
+  {
+   "name": "Metro Robots",
+   "type": "organization",
+   "role": "affiliation of author David V. Lu"
+  },
+  {
+   "name": "Cobalt Robotics",
+   "type": "organization",
+   "role": "affiliation of author Michael Ferguson"
+  },
+  {
+   "name": "Willow Garage",
+   "type": "organization",
+   "role": "developer of the original Navigation Stack for the PR2 robot"
+  },
+  {
+   "name": "Navigation Stack",
+   "type": "program",
+   "role": "original ROS 1 navigation system built around the move base state machine"
+  },
+  {
+   "name": "PR2",
+   "type": "product",
+   "role": "robot for which the original Navigation Stack was developed"
+  },
+  {
+   "name": "move base",
+   "type": "program",
+   "role": "unconfigurable state machine at the core of the original Navigation Stack"
+  },
+  {
+   "name": "Navigation Function (NavFn)",
+   "type": "program",
+   "role": "oldest Nav2 global planner, a modified Global Dynamic Window Approach planner using a quadratic kernel potential field, default planner in Nav2"
+  },
+  {
+   "name": "Lazy Theta*-P",
+   "type": "program",
+   "role": "any-angle grid-based path planner in Nav2 based on A* with line-of-sight checks"
+  },
+  {
+   "name": "Smac 2D-A*",
+   "type": "program",
+   "role": "cost grid A* holonomic planner within the Smac Planner Framework"
+  },
+  {
+   "name": "Smac Hybrid-A*",
+   "type": "program",
+   "role": "kinematically feasible planner in the Smac Planner Framework using motion primitives and analytic expansions"
+  },
+  {
+   "name": "Smac State Lattice",
+   "type": "program",
+   "role": "kinematically feasible planner using offline computed motion primitives in the Smac Planner Framework"
+  },
+  {
+   "name": "Stanford",
+   "type": "organization",
+   "role": "proposer of Hybrid-A* during the DARPA Urban Challenge"
+  },
+  {
+   "name": "Carnegie Mellon University",
+   "type": "organization",
+   "role": "utilizer of State Lattice in the DARPA Urban Challenge"
+  },
+  {
+   "name": "DARPA Urban Challenge",
+   "type": "event",
+   "role": "competition where Hybrid-A* and State Lattice planners were proposed or utilized"
+  },
+  {
+   "name": "Dynamic Window Approach (DWA)",
+   "type": "program",
+   "role": "reactive trajectory planning method enabled by the DWB Local Planner in Nav2"
+  },
+  {
+   "name": "DWB",
+   "type": "program",
+   "role": "default local trajectory planner in Nav2, successor to DWA controller in the ROS 1 Navigation Stack"
+  },
+  {
+   "name": "Timed Elastic Band (TEB)",
+   "type": "program",
+   "role": "trajectory planner available in the broader ROS 2 ecosystem"
+  },
+  {
+   "name": "Graceful Controller",
+   "type": "program",
+   "role": "control-law trajectory planner available in the broader ROS 2 ecosystem"
+  },
+  {
+   "name": "SBPL",
+   "type": "program",
+   "role": "historical state lattice planning library that Nav2 State Lattice improves upon"
+  },
+  {
+   "name": "MRPT",
+   "type": "program",
+   "role": "similar mobile robotics framework cited as lacking some new Nav2 capabilities"
+  }
+ ],
+ "tags": [
+  "ros 2",
+  "mobile robotics",
+  "path planning",
+  "navigation",
+  "trajectory planning",
+  "nav2"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12051,
+  "output_tokens": 2636
+ }
+}

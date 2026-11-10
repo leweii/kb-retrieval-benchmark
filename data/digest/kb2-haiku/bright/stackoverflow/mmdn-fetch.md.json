@@ -1,0 +1,100 @@
+{
+ "summary": "This clipped note bundles three MDN Web Docs pages on the browser Fetch API: the 'Cross-global fetch usage' guide, the 'Headers' interface reference, and the 'Fetch API' overview. The guide explains that since Firefox 60 a relative URL passed to a cross-global fetch from a same-origin iframe is resolved against the iframe's location rather than the current global. The Headers page describes the Headers interface, its methods and guard behavior, and the Fetch API page introduces fetch() and its Request and Response objects. The surrounding navigation, login prompts, footers and GitHub metadata are boilerplate and were ignored.",
+ "one_line": "MDN web docs pages on the browser Fetch API covering cross-global fetch URL resolution, the Headers interface, and the fetch() overview.",
+ "key_facts": [
+  "The Cross-global fetch usage article explains an edge case where a cross-origin fetch with a relative URL initiated from an iframe was previously resolved against the current global location rather than the iframe's location.",
+  "The edge case requires a same-origin iframe, an iframe location with a different base URL, a cross-global call such as frame.contentWindow.fetch(), and a relative URL passed to fetch.",
+  "In Firefox 60 onwards, Mozilla resolves the relative URL against the global that owns the fetch() function being used, referenced via Firefox bug 1432272.",
+  "The Cross-global fetch usage article was last modified on Feb 26, 2023.",
+  "The Headers interface of the Fetch API allows actions such as retrieving, setting, adding to, and removing HTTP request and response headers.",
+  "Header names in Headers methods are matched by case-insensitive byte sequence.",
+  "Headers methods such as set(), delete() and append() throw a TypeError when the Headers object has an immutable Guard, and fail silently in other failure cases.",
+  "Headers.set() overwrites an existing header value, whereas Headers.append() appends the new value onto the end of the set of values.",
+  "When Header values are iterated over, they are automatically sorted in lexicographical order and values from duplicate header names are combined.",
+  "The Headers() constructor can accept an object literal or an array of arrays, e.g. new Headers({\"Content-Type\": \"text/xml\"}).",
+  "The Fetch API provides an interface for fetching resources across the network and is a more powerful and flexible replacement for XMLHttpRequest.",
+  "The fetch() method takes one mandatory argument, the path to the resource, and returns a Promise that resolves to the Response as soon as the server responds with headers, even if the response is an HTTP error status.",
+  "The fetch() method is a global method in both Window and Worker contexts.",
+  "The Fetch API is specified in the Fetch Standard at fetch.spec.whatwg.org, and the Headers page was last modified on Mar 6, 2024."
+ ],
+ "entities": [
+  {
+   "name": "Fetch API",
+   "type": "program",
+   "role": "Web API described as an interface for fetching resources across the network, a replacement for XMLHttpRequest"
+  },
+  {
+   "name": "fetch()",
+   "type": "program",
+   "role": "Global method used to make a request and fetch a resource, returning a Promise that resolves to a Response"
+  },
+  {
+   "name": "Headers",
+   "type": "program",
+   "role": "Fetch API interface representing HTTP request and response headers"
+  },
+  {
+   "name": "Request",
+   "type": "program",
+   "role": "Fetch API interface representing a resource request, related to the Fetch API"
+  },
+  {
+   "name": "Response",
+   "type": "program",
+   "role": "Fetch API interface representing the response to a request"
+  },
+  {
+   "name": "XMLHttpRequest",
+   "type": "program",
+   "role": "Older API that the Fetch API is described as a more powerful and flexible replacement for"
+  },
+  {
+   "name": "iframe",
+   "type": "program",
+   "role": "HTML element from which a cross-origin fetch with a relative URL can be initiated in the edge case"
+  },
+  {
+   "name": "Firefox",
+   "type": "product",
+   "role": "Browser in which, from version 60 onwards, relative URLs are resolved against the global owning fetch()"
+  },
+  {
+   "name": "Mozilla",
+   "type": "organization",
+   "role": "Organization that changed Firefox to resolve relative URLs against the global owning fetch()"
+  },
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "Documentation site hosting the source pages"
+  },
+  {
+   "name": "Fetch Standard",
+   "type": "program",
+   "role": "Specification referenced by the Fetch API and Headers pages"
+  },
+  {
+   "name": "Firefox bug 1432272",
+   "type": "event",
+   "role": "Bug report referenced as the source of the Firefox change to relative URL resolution"
+  },
+  {
+   "name": "Web Workers",
+   "type": "other",
+   "role": "Context in which the Headers and Fetch API features are available"
+  }
+ ],
+ "tags": [
+  "fetch api",
+  "web apis",
+  "http headers",
+  "iframe",
+  "cors",
+  "javascript"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16424,
+  "output_tokens": 1565
+ }
+}

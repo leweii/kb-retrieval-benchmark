@@ -1,0 +1,90 @@
+{
+ "summary": "This clipped page is a collection of R base package help pages (version 3.6.2) from RDocumentation, covering Bessel functions, built-in constants, operator syntax and precedence, integer vectors, and file.path. Each section gives the usage, arguments, return values, details, references and examples for its topic. Navigation, DataCamp links and boilerplate are omitted.",
+ "one_line": "A compilation of R base 3.6.2 help pages on Bessel functions, built-in constants, operator precedence, integer vectors and file.path.",
+ "key_facts": [
+  "The Bessel help page describes Bessel functions of integer and fractional order, of first and second kind (J_nu and Y_nu) and modified Bessel functions I_nu and K_nu.",
+  "The functions besselI, besselK, besselJ and besselY take arguments x (numeric, >= 0), nu (order, may be fractional and negative) and expon.scaled (logical, default FALSE).",
+  "For nu < 0, the Bessel help page says formulae 9.1.2 and 9.6.2 from Abramowitz & Stegun are applied, which is probably suboptimal, except for besselK which is symmetric in nu.",
+  "The Bessel help page warns that current algorithms give warnings about accuracy loss for large arguments and are rarely useful for nu in the order of millions.",
+  "The built-in constants are LETTERS, letters, month.abb, month.name and pi.",
+  "The Constants help page cites John Machin (ca 1706) who computed pi to over 100 decimal places using a Taylor series expansion.",
+  "The operator precedence list places :: and ::: highest, followed by $ and @, indexing, exponentiation (right to left), unary minus and plus, and the sequence operator ':'.",
+  "On the Syntax help page, assignment operators <- and <<- are right to left, '=' is also right to left, and ?' is help.",
+  "The Syntax help page notes that '=' has lower precedence than '<-', so x <- y = 5 gives a non-catchable error.",
+  "The integer help page says as.integer truncates non-integral numeric values towards zero and returns NA for real values larger in modulus than the largest integer.",
+  "The integer help page states that current implementations of R use 32-bit integers, restricting representable integers to about plus or minus 2 x 10^9.",
+  "The file.path help page says file.path constructs a path from components in a platform-independent way and returns an empty character vector if any argument has zero length, unlike paste.",
+  "The file.path help page says the function is designed to be faster than paste because it is used extensively in R itself.",
+  "The Bessel references include Abramowitz and Stegun (1972), Handbook of Mathematical Functions, Dover, New York, Chapter 9."
+ ],
+ "entities": [
+  {
+   "name": "R",
+   "type": "product",
+   "role": "programming language and environment whose base package these help pages document"
+  },
+  {
+   "name": "RDocumentation",
+   "type": "program",
+   "role": "documentation site from which the help pages were clipped"
+  },
+  {
+   "name": "DataCamp",
+   "type": "organization",
+   "role": "provider of the RDocumentation site and the DataCamp Workspace where examples can be run"
+  },
+  {
+   "name": "Bessel",
+   "type": "other",
+   "role": "help page topic on Bessel functions of integer and fractional order"
+  },
+  {
+   "name": "Constants",
+   "type": "other",
+   "role": "help page topic on R's built-in constants such as LETTERS, letters, month.abb, month.name and pi"
+  },
+  {
+   "name": "Syntax",
+   "type": "other",
+   "role": "help page topic on operator syntax and precedence in R"
+  },
+  {
+   "name": "integer",
+   "type": "other",
+   "role": "help page topic on creating, coercing and testing integer vectors"
+  },
+  {
+   "name": "file.path",
+   "type": "other",
+   "role": "help page topic on constructing platform-independent file paths"
+  },
+  {
+   "name": "John Machin",
+   "type": "person",
+   "role": "mathematician who in ca 1706 computed pi to over 100 decimal places, cited in the Constants examples"
+  },
+  {
+   "name": "Abramowitz and Stegun",
+   "type": "other",
+   "role": "authors of the Handbook of Mathematical Functions cited for formulae used for negative nu"
+  },
+  {
+   "name": "Becker, Chambers and Wilks",
+   "type": "other",
+   "role": "authors of The New S Language (1988), cited as a reference in several help pages"
+  }
+ ],
+ "tags": [
+  "r",
+  "base-package",
+  "bessel-functions",
+  "r-documentation",
+  "operators",
+  "integers"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9509,
+  "output_tokens": 1411
+ }
+}

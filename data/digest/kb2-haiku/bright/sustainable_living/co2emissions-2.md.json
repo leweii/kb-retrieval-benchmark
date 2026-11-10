@@ -1,0 +1,116 @@
+{
+ "summary": "This Our World in Data article by Hannah Ritchie and Max Roser examines how much CO₂ the world emits and which countries emit the most, covering annual, per capita, regional and cumulative historical emissions. It explains that comparisons depend on metrics (annual, per person, historical, trade-adjusted) that tell different stories, and describes how fossil fuel emissions are estimated from energy statistics and their uncertainties. The page also includes boilerplate such as citation, licensing and navigation text, which was ignored.",
+ "one_line": "Overview of global CO₂ emissions by country, region, per capita and cumulative history, and how these emissions are measured.",
+ "key_facts": [
+  "Carbon dioxide emissions are described as the primary driver of global climate change.",
+  "In 1950 the world emitted 6 billion tonnes of CO₂; by 1990 this had almost quadrupled to more than 20 billion tonnes.",
+  "The world now emits over 35 billion tonnes of CO₂ each year.",
+  "In 1900, more than 90% of emissions were produced in Europe or the US.",
+  "The average footprint in poorest Sub-Saharan African countries such as Chad, Niger, and the Central African Republic is around 0.1 tonnes per year.",
+  "The average American or Australian produces the same emissions in under two days as the average person in Mali or Niger does in an entire year.",
+  "Asia accounts for around half of global emissions and is home to almost 60% of the world's population.",
+  "China emits more than one-quarter of global emissions; North America is the second largest regional emitter at one-fourth of global emissions.",
+  "Africa and South America each account for 3-4% of global emissions.",
+  "The UK was the world's largest emitter until 1888, when it was overtaken by the US.",
+  "The United States has emitted around 400 billion tonnes of CO₂ since 1751, almost one-quarter of historical emissions, more than 1.5 times China's contribution.",
+  "The UK is now responsible for less than 1% of global emissions.",
+  "Historical fossil fuel CO₂ emissions can be reconstructed back to 1751 based on energy statistics.",
+  "China overestimated its annual emissions in 2013 by using global average emission factors, according to Liu et al. (2015), an overestimation of about 10% of global emissions estimates.",
+  "More typically, uncertainty in global CO₂ emissions ranges between 2-5%."
+ ],
+ "entities": [
+  {
+   "name": "Our World in Data",
+   "type": "organization",
+   "role": "publisher of the article, which is part of its collection on CO₂ and greenhouse gas emissions"
+  },
+  {
+   "name": "Hannah Ritchie",
+   "type": "person",
+   "role": "co-author of the article"
+  },
+  {
+   "name": "Max Roser",
+   "type": "person",
+   "role": "co-author of the article"
+  },
+  {
+   "name": "Kurzgesagt",
+   "type": "organization",
+   "role": "YouTube channel that produced a video with Our World in Data on CO₂ emission comparisons"
+  },
+  {
+   "name": "Carbon Dioxide Information Analysis Center (CDIAC)",
+   "type": "organization",
+   "role": "source of full description of data acquisition and original sources for emissions data"
+  },
+  {
+   "name": "Intergovernmental Panel on Climate Change (IPCC)",
+   "type": "organization",
+   "role": "provides guidelines on methodologies and best practices for measuring national CO₂ estimates"
+  },
+  {
+   "name": "Global Carbon Project",
+   "type": "organization",
+   "role": "underlying data source for annual CO₂ emissions data"
+  },
+  {
+   "name": "Liu et al. (2015)",
+   "type": "event",
+   "role": "study revealing China overestimated its 2013 annual emissions by using global average emission factors"
+  },
+  {
+   "name": "Carbon Brief",
+   "type": "organization",
+   "role": "source discussing tensions in reaching international aviation and shipping deals"
+  },
+  {
+   "name": "Macknick, J. (2011)",
+   "type": "event",
+   "role": "cited source on energy and CO2 emission data uncertainties"
+  },
+  {
+   "name": "China",
+   "type": "place",
+   "role": "world's largest annual emitter and second-largest historical contributor"
+  },
+  {
+   "name": "United States",
+   "type": "place",
+   "role": "largest historical cumulative emitter, around 400 billion tonnes since 1751"
+  },
+  {
+   "name": "United Kingdom",
+   "type": "place",
+   "role": "first industrialized nation and world's largest emitter until 1888"
+  },
+  {
+   "name": "Qatar, United Arab Emirates, Bahrain, Kuwait",
+   "type": "place",
+   "role": "major oil-producing countries with the world's largest per capita CO₂ emissions"
+  },
+  {
+   "name": "Canada",
+   "type": "place",
+   "role": "example country used to illustrate how 1900 CO₂ emissions are estimated"
+  },
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "grouped as a collective body that negotiates and sets climate targets; almost a fifth of historical emissions"
+  }
+ ],
+ "tags": [
+  "co2 emissions",
+  "climate change",
+  "emissions inequality",
+  "per capita emissions",
+  "carbon accounting",
+  "fossil fuels"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11691,
+  "output_tokens": 1598
+ }
+}

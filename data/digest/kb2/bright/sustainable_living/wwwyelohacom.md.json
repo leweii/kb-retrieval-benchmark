@@ -1,0 +1,94 @@
+{
+ "summary": "This is a clipped FAQ/blog listing from Yeloha, a solar-sharing company that builds a digital solar subscription network on top of the existing utility grid. The posts explain the Sun Host and Sun Partner roles, how credits appear on utility bills, the subscription guarantee, tax credits, supported New York utilities, and what happens when someone moves.",
+ "one_line": "Yeloha's FAQ page explains its solar subscription model, where Sun Hosts provide roofs and Sun Partners subscribe to panels for utility bill credits.",
+ "key_facts": [
+  "Yeloha builds a digital solar subscription network on top of the existing utility grid, allocating credits for clean energy production to subscribers' monthly utility bills.",
+  "The name Yeloha combines 'Aloha', the Hawaiian greeting also derived from 'alo' meaning 'share', and 'Yellow', representing the sun and the clean power it generates.",
+  "Yeloha has full responsibility for the system and provides maintenance and insurance at no cost to Sun Hosts.",
+  "Only about 8% of US households qualify for a solar installation, which is why Yeloha created solar sharing for everyone else.",
+  "Currently all NY utilities are supported except municipal and Long Island: Con Edison, Central Hudson, National Grid, NYSEG, Orange & Rockland, and RG&E.",
+  "The 6 supported NY utilities cover about 80% of the state's households, or about 95% excluding Long Island.",
+  "Apartment dwellers need not install anything; signup is completely online and credits appear on the same monthly utility bill.",
+  "Subscribers can track panel production and savings in near real-time with the Yeloha app.",
+  "Under the Subscription Guarantee, each panel has a minimum production, for example 336 kWh per panel for a one-year subscription.",
+  "If actual production falls below the minimum at the end of the subscription, the subscription is automatically extended until the proper amount of energy has been generated.",
+  "Yeloha uses federal and in some cases state tax credits to reduce installation cost, so this does not impact subscribers' taxes.",
+  "A Sun Host who moves can transfer the Hosting agreement to the new property owner, who gets free solar electricity.",
+  "A Sun Partner who moves informs Yeloha of the new utility account and either continues receiving credits or gets a prorated refund."
+ ],
+ "entities": [
+  {
+   "name": "Yeloha",
+   "type": "organization",
+   "role": "solar-sharing company offering solar subscriptions and hosting"
+  },
+  {
+   "name": "Sun Host",
+   "type": "program",
+   "role": "property owner with panels on their roof who receives free maintenance, insurance and solar electricity"
+  },
+  {
+   "name": "Sun Partner",
+   "type": "program",
+   "role": "subscriber who receives credits from panels on another community member's roof"
+  },
+  {
+   "name": "Yeloha app",
+   "type": "product",
+   "role": "tool for tracking panel production and savings in near real-time"
+  },
+  {
+   "name": "Sun Partner Subscription Agreement",
+   "type": "other",
+   "role": "document detailing the subscription guarantee terms"
+  },
+  {
+   "name": "Con Edison",
+   "type": "organization",
+   "role": "supported New York utility"
+  },
+  {
+   "name": "Central Hudson",
+   "type": "organization",
+   "role": "supported New York utility"
+  },
+  {
+   "name": "National Grid",
+   "type": "organization",
+   "role": "supported New York utility"
+  },
+  {
+   "name": "NYSEG",
+   "type": "organization",
+   "role": "supported New York utility"
+  },
+  {
+   "name": "Orange & Rockland",
+   "type": "organization",
+   "role": "supported New York utility"
+  },
+  {
+   "name": "RG&E",
+   "type": "organization",
+   "role": "supported New York utility"
+  },
+  {
+   "name": "New York",
+   "type": "place",
+   "role": "state where Yeloha supports most utilities"
+  }
+ ],
+ "tags": [
+  "solar",
+  "community-solar",
+  "subscription",
+  "utilities",
+  "faq",
+  "new-york"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 3945,
+  "output_tokens": 1231
+ }
+}

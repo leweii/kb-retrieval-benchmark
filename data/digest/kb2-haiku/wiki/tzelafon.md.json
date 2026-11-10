@@ -1,0 +1,39 @@
+{
+ "summary": "Tzelafon is a moshav (a cooperative agricultural community) in central Israel. It is located north of Beit Shemesh and falls under the jurisdiction of Mateh Yehuda Regional Council. The note gives no population figure, as the number was left blank in the source.",
+ "one_line": "Tzelafon is a moshav in central Israel, located north of Beit Shemesh within Mateh Yehuda Regional Council.",
+ "key_facts": [
+  "Tzelafon is a moshav in central Israel.",
+  "Tzelafon is located to the north of Beit Shemesh.",
+  "Tzelafon falls under the jurisdiction of Mateh Yehuda Regional Council.",
+  "The source note states the population of Tzelafon as of a certain year but the figure is missing from the text."
+ ],
+ "entities": [
+  {
+   "name": "Tzelafon",
+   "type": "place",
+   "role": "moshav in central Israel located north of Beit Shemesh"
+  },
+  {
+   "name": "Beit Shemesh",
+   "type": "place",
+   "role": "city to the south of Tzelafon, used as its locational reference"
+  },
+  {
+   "name": "Mateh Yehuda Regional Council",
+   "type": "organization",
+   "role": "regional council with jurisdiction over Tzelafon"
+  }
+ ],
+ "tags": [
+  "israel",
+  "moshav",
+  "central israel",
+  "beit shemesh",
+  "mateh yehuda"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1050,
+  "output_tokens": 457
+ }
+}

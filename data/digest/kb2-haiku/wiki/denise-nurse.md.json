@@ -1,0 +1,38 @@
+{
+ "summary": "A short biographical note about Denise Nurse, covering her legal education. She studied Law at the University of Liverpool, graduating in 1997, and later completed professional degrees at the University of Law.",
+ "one_line": "Denise Nurse is a person who studied Law at the University of Liverpool (graduated 1997) and later took professional degrees at the University of Law.",
+ "key_facts": [
+  "Denise Nurse studied Law.",
+  "Denise Nurse graduated from the University of Liverpool in 1997.",
+  "Denise Nurse studied at the University of Law for her professional degrees.",
+  "The University of Liverpool is where Denise Nurse graduated in 1997 after studying Law."
+ ],
+ "entities": [
+  {
+   "name": "Denise Nurse",
+   "type": "person",
+   "role": "subject of the note; studied Law at the University of Liverpool and later at the University of Law"
+  },
+  {
+   "name": "University of Liverpool",
+   "type": "organization",
+   "role": "university from which Denise Nurse graduated in 1997 after studying Law"
+  },
+  {
+   "name": "University of Law",
+   "type": "organization",
+   "role": "institution where Denise Nurse studied for her professional degrees"
+  }
+ ],
+ "tags": [
+  "law",
+  "education",
+  "biography",
+  "university"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1031,
+  "output_tokens": 388
+ }
+}

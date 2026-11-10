@@ -1,0 +1,53 @@
+{
+ "summary": "This is a clipped page from the NOAA National Severe Storms Laboratory (NSSL) website, titled Lightning Basics, in the Severe Weather 101 education section. The note is mostly site navigation and an embedded video player for a lightning video, with a banner photo of cloud-to-ground lightning strikes. The clipping is cut off before any article text, so it contains no substantive explanation of lightning itself.",
+ "one_line": "NSSL's Severe Weather 101 'Lightning Basics' web page, mainly a lightning video player and site navigation; article text is missing.",
+ "key_facts": [
+  "The page is titled Lightning Basics and sits under the Severe Weather 101 heading on the NSSL website.",
+  "The breadcrumb path is Home, then Learning Resources, then Severe Weather 101, then Lightning Basics.",
+  "The banner image shows a photo of multiple cloud to ground lightning strikes.",
+  "An embedded video player uses the source file Lightning_web_v2_480p.mp4 from the path /news/video/wb-lightning/.",
+  "The video player's preview thumbnail is Wx_Briefly_lightning_thumbnail.jpg.",
+  "The site's Weather Research menu lists a separate Lightning page at /research/lightning/.",
+  "The Education menu lists Severe Weather 101, For Educators, For Students and For Everyone as sections.",
+  "The page's share link is https://www.nssl.noaa.gov/education/svrwx101/lightning/.",
+  "The site header names the organization as NSSL, NOAA National Severe Storms Laboratory.",
+  "The site links to social media accounts for NSSL on Facebook, Twitter and Instagram.",
+  "The clipped note contains no article body text explaining lightning, so its explanatory content cannot be summarized.",
+  "The Research Tools menu on the same site lists Radar, Testbeds, Observation, Simulation, Decision Support, Warning and Forecast."
+ ],
+ "entities": [
+  {
+   "name": "NSSL",
+   "type": "organization",
+   "role": "Site branding and abbreviation for the NOAA National Severe Storms Laboratory, whose website hosts this page"
+  },
+  {
+   "name": "NOAA National Severe Storms Laboratory",
+   "type": "organization",
+   "role": "Full name of the organization shown in the site banner heading"
+  },
+  {
+   "name": "Severe Weather 101",
+   "type": "program",
+   "role": "Education section of the NSSL site under which the Lightning Basics page appears"
+  },
+  {
+   "name": "Lightning Basics",
+   "type": "other",
+   "role": "Title of the clipped web page, a lightning-focused educational page"
+  }
+ ],
+ "tags": [
+  "lightning",
+  "severe weather",
+  "nssl",
+  "noaa",
+  "weather education",
+  "video"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17811,
+  "output_tokens": 1568
+ }
+}

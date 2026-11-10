@@ -1,0 +1,105 @@
+{
+ "summary": "This Pain journal article (2016, vol. 157) by Kamping, Andoh, Bomba, Diers, Diesch and Flora reports a study of how contextual masochistic visual stimuli modulate laser-induced pain in 16 masochists and 16 matched controls. Masochists reported lower pain intensity and unpleasantness when painful stimuli were paired with masochistic pictures, and fMRI showed altered activity and connectivity, especially involving the parietal operculum and insula. The authors propose the parietal operculum attenuates the affective-motivational aspects of pain in masochists, possibly via multisensory integration.",
+ "one_line": "Study finding masochists report less pain under masochistic visual context, linked to reduced parietal operculum-insula connectivity and altered fMRI activity.",
+ "key_facts": [
+  "The study compared 16 persons with masochistic behaviors and 16 control subjects matched for age, sex, and education.",
+  "Masochists reported substantially reduced pain intensity and unpleasantness in the masochistic context compared with controls.",
+  "Masochists rated the masochistic pictures as pleasant (M = 6.18, SD = 0.89) while controls rated them as aversive (M = 3.38, SD = 1.23).",
+  "Painful laser stimuli used a 1340 nm infrared neodymium yttrium aluminium perovskite laser applied to the dorsum of the left hand, with 250 total stimuli.",
+  "Masochists indicated pain intensity ratings of M = 2.18 during masochistic picture presentation versus M = 3.52 for controls (t(30) = 2.14, P = 0.04).",
+  "Masochists indicated pain unpleasantness ratings of M = 1.59 during masochistic picture presentation versus 3.24 for controls (t(30) = 2.52, P = 0.02).",
+  "Masochists compared with controls showed significantly higher activation in the right anterior cingulate cortex (BA 32) and right anterior insula when viewing masochistic pictures.",
+  "Masochists showed decreased functional connectivity between the parietal operculum and the bilateral insula, central operculum, bilateral supramarginal gyrus, right inferior frontal gyrus, and left temporal pole compared with controls.",
+  "The imaging was performed on a 3T Siemens TRIO scanner using FSL and FEAT analysis with whole-brain family-wise error correction at P < 0.05.",
+  "Inclusion criteria for masochists required more than 50% of their sexuality to be acted out with pain-related masochistic activities in real life, not exclusively online.",
+  "Masochists' first interest in masochism averaged 17.07 years (SD = 10.01), and first acting out was at 29.40 years (SD = 13.36).",
+  "The number of masochistic practices correlated with the ratio Valunpl (r = 0.567, P = 0.043).",
+  "The authors conclude the parietal operculum serves as an important relay station that attenuates the affective-motivational aspects of pain in masochists.",
+  "All subjects fulfilled the DSM-IV criterion A for sexual masochism disorder but none fulfilled criterion B, which requires clinically significant distress or impairment."
+ ],
+ "entities": [
+  {
+   "name": "Sandra Kamping",
+   "type": "person",
+   "role": "first author of the study, affiliated with the first affiliation listed"
+  },
+  {
+   "name": "Herta Flora",
+   "type": "person",
+   "role": "corresponding author of the study"
+  },
+  {
+   "name": "Martin Diers",
+   "type": "person",
+   "role": "co-author of the study"
+  },
+  {
+   "name": "Eugen Diesch",
+   "type": "person",
+   "role": "co-author of the study"
+  },
+  {
+   "name": "Longo et al.",
+   "type": "other",
+   "role": "prior study cited for applying painful laser stimuli while subjects viewed their hand or a wooden object"
+  },
+  {
+   "name": "Pain",
+   "type": "other",
+   "role": "journal in which the article was published (2016, vol. 157, pp. 445–455)"
+  },
+  {
+   "name": "Medical Faculty Mannheim, Heidelberg University",
+   "type": "organization",
+   "role": "ethics committee that approved the study"
+  },
+  {
+   "name": "International Affective Picture System",
+   "type": "program",
+   "role": "source of neutral, positive and negative control pictures"
+  },
+  {
+   "name": "Self-Assessment Manikin",
+   "type": "product",
+   "role": "scale used to rate valence and arousal of pictures"
+  },
+  {
+   "name": "FMRIB Software Library",
+   "type": "program",
+   "role": "software used for fMRI preprocessing and analysis"
+  },
+  {
+   "name": "Harvard-Oxford Cortical Structural Atlas",
+   "type": "program",
+   "role": "atlas used to label activation clusters"
+  },
+  {
+   "name": "Diagnostic and Statistical Manual for Mental Disorders IV",
+   "type": "other",
+   "role": "diagnostic manual used for screening and criteria"
+  },
+  {
+   "name": "Parietal operculum",
+   "type": "other",
+   "role": "brain region serving as seed for connectivity analysis and proposed relay station attenuating affective pain aspects in masochists"
+  },
+  {
+   "name": "Anterior cingulate cortex",
+   "type": "other",
+   "role": "brain region showing increased activation in masochists and involved in affective pain processing"
+  }
+ ],
+ "tags": [
+  "pain modulation",
+  "masochism",
+  "fmri",
+  "parietal operculum",
+  "insula",
+  "contextual modulation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11946,
+  "output_tokens": 1709
+ }
+}

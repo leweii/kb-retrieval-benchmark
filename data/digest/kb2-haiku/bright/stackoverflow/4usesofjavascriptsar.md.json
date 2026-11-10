@@ -1,0 +1,74 @@
+{
+ "summary": "A DigitalOcean community tutorial by William Imoh, last updated March 19, 2024, explaining four uses of JavaScript's .map() array method. It covers calling a function on each array item, converting a string to an array using Array.prototype.map with .call(), rendering lists in React, and reformatting arrays of objects. The page's navigation, footer and comment boilerplate were ignored.",
+ "one_line": "Tutorial by William Imoh on four practical uses of JavaScript's .map() method, including string conversion and React list rendering.",
+ "key_facts": [
+  "The tutorial is titled 'How To Use JavaScript Maps - .map()' and was updated on March 19, 2024.",
+  "William Imoh is the author of the tutorial.",
+  "The .map() method creates a new array by calling a specific function on each item in the parent array.",
+  "The article describes .map() as a non-mutating method, as opposed to mutating methods that only change the calling array.",
+  "The first use case shows that sweetArray [2, 3, 4, 5, 35] mapped with sweetItem * 2 produces [4, 6, 8, 10, 70].",
+  "The second use case uses Array.prototype.map.call on the string 'Sammy' with each letter appended with 'a', producing [\"Sa\", \"aa\", \"ma\", \"ma\", \"ya\"].",
+  "The tutorial says the string conversion works like the .split() method of a string, except each character can be modified before being returned in an array.",
+  "The third use case shows JavaScript libraries like React using .map() inside JSX to render list items, using the names array whale, squid, turtle, coral, starfish.",
+  "The React example renders the list into a DOM element with id 'root' using ReactDOM.",
+  "The fourth use case reformats an array of objects, producing [{shark: \"ocean\", age: 50}, {turtle: \"pond\", age: 60}, {otter: \"fish biscuits\", age: 50}].",
+  "The tutorial's prerequisites note that no coding is required, but readers can follow along with the Node.js REPL or browser developer tools.",
+  "The tutorial is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
+  "The conclusion points readers to the article 'How To Use Array Methods in JavaScript: Iteration Methods' for more information."
+ ],
+ "entities": [
+  {
+   "name": "William Imoh",
+   "type": "person",
+   "role": "author of the tutorial 'How To Use JavaScript Maps - .map()'"
+  },
+  {
+   "name": "DigitalOcean",
+   "type": "organization",
+   "role": "publisher of the community tutorial on DigitalOcean's Community site"
+  },
+  {
+   "name": "React",
+   "type": "product",
+   "role": "JavaScript library that uses .map() to render items in a list, shown in an example component"
+  },
+  {
+   "name": "Node.js REPL",
+   "type": "product",
+   "role": "optional environment readers can use to follow the tutorial examples"
+  },
+  {
+   "name": "Google Chrome",
+   "type": "product",
+   "role": "browser whose developer tools (Chrome DevTools) can be used to follow the examples"
+  },
+  {
+   "name": "Cloudways",
+   "type": "product",
+   "role": "managed hosting provider promoted in the conclusion as a way to deploy applications"
+  },
+  {
+   "name": "DigitalOcean App Platform",
+   "type": "product",
+   "role": "service mentioned for deploying frontend applications from GitHub"
+  },
+  {
+   "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",
+   "type": "other",
+   "role": "license under which the tutorial content is published"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "array-methods",
+  "map",
+  "react",
+  "tutorial",
+  "web-development"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13960,
+  "output_tokens": 1175
+ }
+}

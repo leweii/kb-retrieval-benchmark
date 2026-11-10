@@ -1,0 +1,71 @@
+{
+ "summary": "This is Snowflake documentation for the CREATE SECURITY INTEGRATION (SAML2) SQL command, which creates or replaces a SAML2 security integration providing single sign-on between Snowflake and a third-party Identity Provider. It gives the syntax, required parameters (name, TYPE, ENABLED, SAML2_ISSUER, SAML2_SSO_URL, SAML2_PROVIDER, SAML2_X509_CERT), the many optional parameters, access control requirements (CREATE INTEGRATION privilege, ACCOUNTADMIN by default), usage notes on atomic CREATE OR REPLACE, and an AD FS example.",
+ "one_line": "Snowflake SQL reference for creating or replacing a SAML2 single sign-on security integration with a third-party identity provider.",
+ "key_facts": [
+  "CREATE SECURITY INTEGRATION (SAML2) creates a new SAML2 security integration in the account or replaces an existing integration.",
+  "A SAML2 security integration provides single sign-on (SSO) workflows by creating an interface between Snowflake and a third-party Identity Provider (IdP).",
+  "Required parameters include name, TYPE = SAML2, ENABLED, SAML2_ISSUER, SAML2_SSO_URL, SAML2_PROVIDER, and SAML2_X509_CERT.",
+  "SAML2_PROVIDER must be one of the following: OKTA, ADFS, Custom.",
+  "SAML2_X509_CERT is the Base64 encoded IdP signing certificate on a single line without the BEGIN CERTIFICATE and END CERTIFICATE markers.",
+  "ALLOWED_USER_DOMAINS is a list of email domains that can authenticate with a SAML2 security integration.",
+  "ALLOWED_EMAIL_PATTERNS is a list of regular expressions that email addresses are matched against to authenticate with a SAML2 security integration.",
+  "If SAML2_REQUESTED_NAMEID_FORMAT is not specified, Snowflake sends the urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress value in the authentication request to the IdP.",
+  "SAML2_FORCE_AUTHN defaults to FALSE; when TRUE, Snowflake sets the ForceAuthn SAML parameter to TRUE in the outgoing request to the identity provider.",
+  "SAML2_POST_LOGOUT_REDIRECT_URL is the endpoint to which Snowflake redirects users after clicking the Log Out button in the Classic Console.",
+  "The default SAML2_SNOWFLAKE_ACS_URL is https://<account_locator>.<region>.snowflakecomputing.com/fed/login.",
+  "The CREATE INTEGRATION privilege on the account is required and only the ACCOUNTADMIN role has it by default.",
+  "CREATE OR REPLACE statements are atomic: the old object is deleted and the new object is created in a single transaction.",
+  "The example creates an Active Directory Federation Services (AD FS) integration named my_idp with SAML2_SP_INITIATED_LOGIN_PAGE_LABEL = 'my_idp' and SAML2_ENABLE_SP_INITIATED = false.",
+  "Customers should not enter personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data as metadata."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "Service provider that the SAML2 security integration connects to the identity provider for single sign-on"
+  },
+  {
+   "name": "OKTA",
+   "type": "organization",
+   "role": "Identity provider value accepted for the SAML2_PROVIDER parameter"
+  },
+  {
+   "name": "ADFS",
+   "type": "product",
+   "role": "Microsoft Active Directory Federation Services identity provider value for SAML2_PROVIDER, used in the example"
+  },
+  {
+   "name": "Microsoft Active Directory Federation Services (AD FS)",
+   "type": "product",
+   "role": "Identity provider used in the example security integration"
+  },
+  {
+   "name": "my_idp",
+   "type": "program",
+   "role": "Example name of the SAML2 security integration in the AD FS example"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "Role that has the CREATE INTEGRATION privilege by default"
+  },
+  {
+   "name": "Classic Console",
+   "type": "product",
+   "role": "Snowflake interface whose Log Out button redirects users to SAML2_POST_LOGOUT_REDIRECT_URL"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "saml2",
+  "single sign-on",
+  "security integration",
+  "identity provider",
+  "sql reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5571,
+  "output_tokens": 1533
+ }
+}

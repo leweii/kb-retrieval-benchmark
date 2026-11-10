@@ -1,0 +1,63 @@
+{
+ "summary": "A fragment of a fiction piece in which Robbie, a robot rowing a boat at sunset, rescues divers floating among lifeless colorful sea creatures. He hauls in a passive 'human-shell' he calls Isaac, then realizes the diver he calls Janet is a real, panicking human and helps her aboard using his oar. The passage touches on Asimov's robot laws and the limits of Isaac's programming.",
+ "one_line": "A robot named Robbie rescues divers at sunset, discovering that one he took for a human-shell is a real, panicking woman.",
+ "key_facts": [
+  "Robbie is a robot rowing a boat with servo-driven oars at sunset.",
+  "Robbie calls the human-shell man 'Isaac'; he hauls himself into the boat with his strong brown arms.",
+  "Human-shells are uninhabited bodies that float with their BCDs inflated, following perfect dive procedure.",
+  "Waves of up to a meter and a half in length were pounding the divers and knocking them under.",
+  "The woman Robbie calls Janet climbs along his oar and cries 'Get me out! for Christ's sake, get me out!'",
+  "Robbie realizes Janet is a live human, not a human-shell, and tips up his oar-servo to lift her.",
+  "Weight belt, tank and gear pull Janet down while she is half in, half out of the water.",
+  "Isaac sits motionless with a good-natured slight smile; it isn't in his programming to help a fellow diver in the boat, so he is like ballast.",
+  "Robbie pleads 'for Asimov's sake' and recalls the first commandment: a robot may not harm a human or, through inaction, allow one to come to harm.",
+  "Robbie switches on his running lights and headlights to become a beacon after the sun fully sets.",
+  "Janet chins herself into the boat and collapses on the deck; the air turns nippy and both humans get goose pimples.",
+  "The reef makes a grinding noise and says 'Yaah! Get lost. Sovereign territory!'",
+  "A stray line says Gary mentioned that he has been vegan for years."
+ ],
+ "entities": [
+  {
+   "name": "Robbie",
+   "type": "person",
+   "role": "robot rowing the boat and rescuing the divers"
+  },
+  {
+   "name": "Isaac",
+   "type": "person",
+   "role": "human-shell diver Robbie hauls into the boat; passive by programming"
+  },
+  {
+   "name": "Janet",
+   "type": "person",
+   "role": "real human diver who panics and is rescued"
+  },
+  {
+   "name": "Gary",
+   "type": "person",
+   "role": "person mentioned as having been vegan for years"
+  },
+  {
+   "name": "Asimov",
+   "type": "person",
+   "role": "invoked in Robbie's plea, referring to the robot laws"
+  },
+  {
+   "name": "The reef",
+   "type": "other",
+   "role": "speaks, grinding and claiming sovereign territory"
+  }
+ ],
+ "tags": [
+  "robots",
+  "asimov's laws",
+  "rescue",
+  "diving",
+  "science fiction"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1991,
+  "output_tokens": 939
+ }
+}

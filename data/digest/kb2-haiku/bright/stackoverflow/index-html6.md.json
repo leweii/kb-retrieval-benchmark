@@ -1,0 +1,90 @@
+{
+ "summary": "A tutorial by Brad Duthie (14 February 2024) on simulating data sets in R for understanding statistical analyses and planning experimental designs. It covers univariate random generators (runif, rnorm, rpois, rbinom), random sampling with sample, simulating correlated variables with mvrnorm from the MASS library using a specified covariance matrix, and building a full three-species data set with length, width, mass and offspring counts that is then analysed with an ANOVA and a Poisson generalised linear mixed model from lme4.",
+ "one_line": "A tutorial on simulating univariate and correlated data sets in R, then using a simulated three-species data set for ANOVA and mixed-model analysis.",
+ "key_facts": [
+  "The notes were written by Brad Duthie and dated 14 February 2024.",
+  "The runif function draws random numbers from a uniform distribution with default min = 0 and max = 1.",
+  "The rnorm function defaults to a standard normal distribution with mean 0 and sd 1.",
+  "The rpois function takes two arguments, n and lambda, and has no default values.",
+  "In the binomial example, rbinom(n = 1, size = 1000, prob = 0.5) returned 496 heads in one simulated run of 1000 fair coin flips.",
+  "The sample function samples with replacement by default only when replace = TRUE is set; the default replace = FALSE returns an error if size exceeds the length of x.",
+  "The notes use the mvrnorm function from the MASS library to generate correlated variables from a specified covariance matrix.",
+  "The three measurements M1, M2 and M3 have means 159.54, 245.26 and 25.52 and variances 12.68, 30.39 and 2.18.",
+  "The covariances specified are 13.95 between M1 and M2, 3.07 between M1 and M3, and 4.70 between M2 and M3.",
+  "In the full data set, each organism's expected number of offspring equals one tenth of its mass, implemented as lambda = Mass * 0.1 in rpois.",
+  "The full simulated data set has three species with 20 samples each, giving 60 rows in total.",
+  "The ANOVA of Mass by species gave F value 3.137 with Pr(>F) 0.051, so the species mass difference was not significant at the 0.05 level.",
+  "The generalised linear mixed model uses glmer with a Poisson family, formula offspring ~ Mass + (1 | species), and returned a singular fit warning.",
+  "The notes state that the species mean masses differ by adding 3 for species 2 and 4.5 for species 3 to the base mass mean, although the code in the note reuses mns for mvrnorm."
+ ],
+ "entities": [
+  {
+   "name": "Brad Duthie",
+   "type": "person",
+   "role": "author of the notes on creating simulated data sets in R"
+  },
+  {
+   "name": "Stirling Coding Club",
+   "type": "organization",
+   "role": "hosted a session on randomisation that the notes borrow heavily from"
+  },
+  {
+   "name": "MASS",
+   "type": "program",
+   "role": "R library whose mvrnorm function generates correlated multivariate normal data"
+  },
+  {
+   "name": "lme4",
+   "type": "program",
+   "role": "R library used to fit the glmer generalised linear mixed model"
+  },
+  {
+   "name": "runif",
+   "type": "program",
+   "role": "base R function returning random numbers from a uniform distribution"
+  },
+  {
+   "name": "rnorm",
+   "type": "program",
+   "role": "base R function returning random values from a normal distribution"
+  },
+  {
+   "name": "rpois",
+   "type": "program",
+   "role": "base R function returning random values from a Poisson distribution"
+  },
+  {
+   "name": "rbinom",
+   "type": "program",
+   "role": "base R function returning the number of successes in binomial trials"
+  },
+  {
+   "name": "sample",
+   "type": "program",
+   "role": "base R function for sampling elements from an object with or without replacement"
+  },
+  {
+   "name": "mvrnorm",
+   "type": "program",
+   "role": "MASS function that simulates multiple variables with a specified covariance structure"
+  },
+  {
+   "name": "Box Muller method",
+   "type": "other",
+   "role": "method for generating normal random numbers starting from uniform random numbers (Box and Muller 1958)"
+  }
+ ],
+ "tags": [
+  "r programming",
+  "data simulation",
+  "random sampling",
+  "statistics",
+  "correlation",
+  "mixed models"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14564,
+  "output_tokens": 1338
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "summary": "This is a short navigation-heavy documentation page titled 'commands-replication' describing Replication and Failover Commands. It states that these commands let users manage replication and failover, and its page outline lists two sections, Failover and Replication, with no command details included in the note. Most of the text is site boilerplate such as menus, a feedback prompt, and copyright notice.",
+ "one_line": "Documentation page introducing replication and failover commands, with sections on Failover and Replication but no command details.",
+ "key_facts": [
+  "The page is titled 'commands-replication' and its heading is 'Replication and Failover Commands'.",
+  "The page states that replication and failover commands enable users to manage replication and failover.",
+  "The page outline lists two sections: Failover and Replication.",
+  "The page sits under a navigation list that includes '4. Replication', '11. Failover/Failback', and '18. Client Redirect'.",
+  "The source domain is listed as 'stackoverflow' and the source as 'bright'.",
+  "The page's language is listed as English.",
+  "The Failover and Replication section headings contain no body text in this note.",
+  "The page includes a 'Was this page helpful?' feedback prompt with Yes and No options.",
+  "The page footer contains a copyright notice reading 'Inc. All Rights Reserved.'"
+ ],
+ "entities": [
+  {
+   "name": "Replication and Failover Commands",
+   "type": "program",
+   "role": "Page heading describing commands that manage replication and failover"
+  },
+  {
+   "name": "Failover",
+   "type": "program",
+   "role": "Section heading on the page outline"
+  },
+  {
+   "name": "Replication",
+   "type": "program",
+   "role": "Section heading on the page outline"
+  },
+  {
+   "name": "Failover/Failback",
+   "type": "program",
+   "role": "Navigation list item numbered 11"
+  },
+  {
+   "name": "Client Redirect",
+   "type": "program",
+   "role": "Navigation list item numbered 18"
+  }
+ ],
+ "tags": [
+  "replication",
+  "failover",
+  "database commands",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1143,
+  "output_tokens": 611
+ }
+}

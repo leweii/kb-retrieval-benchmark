@@ -1,0 +1,70 @@
+{
+ "summary": "This is Snowflake's reference page for the ENCRYPT function, which encrypts a VARCHAR or BINARY value using a VARCHAR passphrase. It documents the syntax, the optional additional authenticated data (AAD) and encryption method arguments (algorithm, block cipher mode, and padding), the BINARY return value made of an IV, ciphertext and optional AEAD tag, and usage notes. Examples show encryption, round-trip decryption with DECRYPT, use of AAD, and the failure that occurs when the wrong AAD is supplied.",
+ "one_line": "Snowflake reference for the ENCRYPT function, covering passphrase-based encryption, AAD, encryption methods, return format and examples.",
+ "key_facts": [
+  "ENCRYPT encrypts a VARCHAR or BINARY value using a VARCHAR passphrase.",
+  "The passphrase is always a VARCHAR, regardless of whether the value_to_encrypt is VARCHAR or BINARY.",
+  "When a passphrase is passed to ENCRYPT, the algorithm AES uses AES-256 encryption (256 bits).",
+  "The default encryption method is 'AES-GCM', and if the mode is not specified, GCM is used.",
+  "If the padding is not specified, PKCS is used; padding applies only to ECB and CBC modes.",
+  "The data type of the value returned by ENCRYPT is BINARY.",
+  "The returned value contains an initialization vector (IV) generated randomly using a CTR-DRBG random number generator.",
+  "AAD is supported only by AEAD-enabled encryption modes like GCM (default).",
+  "If the AAD passed to decryption does not match the AAD passed to encryption, decryption fails.",
+  "To decrypt data encrypted by ENCRYPT(), use DECRYPT(), not DECRYPT_RAW().",
+  "Snowflake recommends a passphrase of at least 8 bytes, although the passphrase can be of arbitrary length, even 0.",
+  "The functions use a FIPS-compliant cryptographic library.",
+  "The encrypt/decrypt function cannot be used to decrypt data that was externally encrypted or to encrypt data that will be externally decrypted.",
+  "In the wrong-AAD example, decryption fails with error 100311 (22023): Decryption failed. Check encrypted data, key, AAD, or AEAD tag."
+ ],
+ "entities": [
+  {
+   "name": "ENCRYPT",
+   "type": "program",
+   "role": "Snowflake function that encrypts a VARCHAR or BINARY value using a VARCHAR passphrase"
+  },
+  {
+   "name": "DECRYPT",
+   "type": "program",
+   "role": "function used to decrypt data encrypted by ENCRYPT()"
+  },
+  {
+   "name": "DECRYPT_RAW",
+   "type": "program",
+   "role": "function that must not be used to decrypt data encrypted by ENCRYPT()"
+  },
+  {
+   "name": "ENCRYPT_RAW",
+   "type": "program",
+   "role": "function that encrypts using a key rather than a passphrase, paired with DECRYPT_RAW"
+  },
+  {
+   "name": "AES",
+   "type": "other",
+   "role": "algorithm supported for encryption; uses AES-256 when a passphrase is passed"
+  },
+  {
+   "name": "GCM",
+   "type": "other",
+   "role": "Galois/Counter Mode, the default AEAD-enabled block cipher mode"
+  },
+  {
+   "name": "CTR-DRBG",
+   "type": "other",
+   "role": "random number generator used to generate the initialization vector"
+  }
+ ],
+ "tags": [
+  "encryption",
+  "snowflake",
+  "sql",
+  "aes",
+  "aead",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4438,
+  "output_tokens": 1157
+ }
+}

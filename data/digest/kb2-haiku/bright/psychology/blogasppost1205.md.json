@@ -1,0 +1,100 @@
+{
+ "summary": "A TMS Software blog post by Bernard (dated Friday, March 29, 2024) introduces PDFSignVerify, a proof-of-concept application for signing and verifying PDF documents with PKCS#11 tokens. It builds on an earlier post about token-based signing and explains the ETSI-based approach using the ESS signing-certificate-v2 attribute, since TMS Cryptography Pack does not support SHA1 for new signatures. The post notes successful interoperability tests with several PDF readers and that the tool is free to use.",
+ "one_line": "TMS Software blog post introducing PDFSignVerify, a free proof-of-concept tool for signing and verifying PDFs with PKCS#11 tokens.",
+ "key_facts": [
+  "The blog post was dated Friday, March 29, 2024 and is titled 'Signing and verifying PDF documents with TMS Cryptography Pack'.",
+  "PDFSignVerify is described as a proof of concept (PoC) application for signing and verifying PDFs with PKCS#11 tokens.",
+  "The PoC is limited because it is not possible to address all PDF versions and formats in a simple tool.",
+  "PDF specifications are laid out in an ISO standard, cited as ISO 32000-2:2020.",
+  "PDF signatures are added as Cryptographic Message Syntax (CMS) sequences coded in ASN.1 DER.",
+  "PDFSignVerify uses the ETSI EN 319 141-1 and 141-2 standards.",
+  "TMS Cryptography Pack does not support SHA1 for new signatures, so the PoC uses the ESS signing-certificate-v2 attribute in the Signed Attribute sequence.",
+  "The signature is applied to the ASN.1 encoding of the entire Signed Attribute sequence and added to the CMS sequence along with the message digest of the initial PDF file.",
+  "The PoC app has Sign and Verify buttons, usable once the PKCS#11 driver, token password and file have been selected.",
+  "PDFSignVerify was developed with TMS Cryptography Pack version 5.0, which the post says will be issued in a few weeks.",
+  "Version 5.0 is fully written in Pascal Object and removes deprecated algorithms such as RIPEMD160.",
+  "The new PDF signatures were successfully tested for interoperability with Adobe Acrobat Reader, FoxIT PDF Reader, PDF X-Change Editor and Microsoft Edge.",
+  "PDFSignVerify is free of use and can be downloaded from download.tmssoftware.com.",
+  "The previous blog post discussed signing documents with tokens and proposed a simple tool to check the content of a PKCS#11 token."
+ ],
+ "entities": [
+  {
+   "name": "PDFSignVerify",
+   "type": "program",
+   "role": "proof-of-concept application for signing and verifying PDFs with PKCS#11 tokens"
+  },
+  {
+   "name": "TMS Cryptography Pack",
+   "type": "product",
+   "role": "cryptographic library used to build PDFSignVerify; version 5.0 to be issued in a few weeks"
+  },
+  {
+   "name": "TMS Software",
+   "type": "organization",
+   "role": "publisher of the blog post and the TMS Cryptography Pack"
+  },
+  {
+   "name": "Bernard",
+   "type": "person",
+   "role": "author signing off the blog post"
+  },
+  {
+   "name": "ISO 32000-2:2020",
+   "type": "other",
+   "role": "ISO standard specifying the Portable Document Format (PDF)"
+  },
+  {
+   "name": "ETSI EN 319 141-1 and 141-2",
+   "type": "other",
+   "role": "standards used by PDFSignVerify, covering PAdES digital signatures"
+  },
+  {
+   "name": "Cryptographic Message Syntax (CMS)",
+   "type": "other",
+   "role": "format in which signatures are added to PDF files, per RFC 5652"
+  },
+  {
+   "name": "Adobe Acrobat Reader",
+   "type": "product",
+   "role": "PDF reader used to test interoperability of new PDF signatures"
+  },
+  {
+   "name": "FoxIT PDF Reader",
+   "type": "product",
+   "role": "PDF reader used to test interoperability of new PDF signatures"
+  },
+  {
+   "name": "PDF X-Change Editor",
+   "type": "product",
+   "role": "PDF editor used to test interoperability of new PDF signatures"
+  },
+  {
+   "name": "Microsoft Edge",
+   "type": "product",
+   "role": "browser used to test interoperability of new PDF signatures"
+  },
+  {
+   "name": "PKCS#11",
+   "type": "other",
+   "role": "token interface standard used by PDFSignVerify for signing"
+  },
+  {
+   "name": "RIPEMD160",
+   "type": "other",
+   "role": "deprecated algorithm removed in TMS Cryptography Pack version 5.0"
+  }
+ ],
+ "tags": [
+  "pdf",
+  "digital signatures",
+  "pkcs#11",
+  "cryptography",
+  "tms software",
+  "etsi standards"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5241,
+  "output_tokens": 1549
+ }
+}

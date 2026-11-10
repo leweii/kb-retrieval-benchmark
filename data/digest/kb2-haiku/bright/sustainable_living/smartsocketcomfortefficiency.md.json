@@ -1,0 +1,84 @@
+{
+ "summary": "A Loxone blog article by Zsanett Koves (11 December 2023, Know How section) explaining how smart sockets provide convenient comfort and energy efficiency. It covers what smart plugs are, how they work over wireless networks, how they reduce standby waste and costs (with a TV unit example costing about £50 a year), and how the Loxone Smart Socket Air can be used in homes, offices, cafés, hospitality and ambient assisted living.",
+ "one_line": "Loxone blog article explaining how smart sockets like the Smart Socket Air save energy, reduce standby waste and add convenience in homes and businesses.",
+ "key_facts": [
+  "The article is titled 'How smart sockets provide convenient comfort and energy efficiency' and was written by Zsanett Koves on 11th December 2023 in the Know How section.",
+  "Smart sockets, also known as smart plugs, give users control of plugged-in appliances, with some offering control even when the user is not in the building.",
+  "Some smart sockets can monitor how much power the device plugged into them is using.",
+  "Smart sockets connect to wireless networks and allow local and remote operation via dedicated smartphone apps or a smart home hub.",
+  "In the TV unit example, the standby power of the TV unit is 24Wh, and the devices are only used for 4 hours in the evening.",
+  "The article estimates that the TV unit standby wastage costs the user approximately £50 a year, in a one-bedroom bachelor flat.",
+  "The Smart Socket Air is described as essentially a switchable relay based on Loxone Air technology.",
+  "The Smart Socket Air can provide energy consumption data for any device plugged into it.",
+  "The Smart Socket Air can be programmed to turn off devices when no one is at home or outside office hours.",
+  "The 'Standby Killer' section says display fridges and confectionery counters in cafés are often left running outside business hours and can be automatically turned off by the Smart Socket Air.",
+  "In the Ambient Assisted Living section, the Smart Socket Air can send a notification via the Loxone App if the kettle hasn't been boiled or the TV hasn't been switched on by a certain time in the morning.",
+  "The article states that energy usage data can be viewed at any time from within the Loxone App, '24 hours a day, 365 days a year'.",
+  "The article advises that features should be discussed with a professional Loxone installer or Loxone Partner."
+ ],
+ "entities": [
+  {
+   "name": "Loxone",
+   "type": "organization",
+   "role": "Company whose blog article promotes its smart home and building automation system and Smart Socket Air."
+  },
+  {
+   "name": "Zsanett Koves",
+   "type": "person",
+   "role": "Author of the blog article, published 11th December 2023 in Know How."
+  },
+  {
+   "name": "Loxone Smart Socket Air",
+   "type": "product",
+   "role": "Switchable relay based on Loxone Air technology that provides energy consumption data and can be automated to turn devices off."
+  },
+  {
+   "name": "Loxone App",
+   "type": "product",
+   "role": "App used to view energy data, check device on/off status, remotely switch devices and receive notifications."
+  },
+  {
+   "name": "Loxone Partner",
+   "type": "organization",
+   "role": "Professional Loxone installers who discuss and commission the system and energy monitoring features."
+  },
+  {
+   "name": "Loxone Config & App 14.5",
+   "type": "product",
+   "role": "Previous Article linked from the page."
+  },
+  {
+   "name": "WUTEH Warehouse and Office Centre",
+   "type": "place",
+   "role": "Next Article linked from the page, a Spotlight feature."
+  },
+  {
+   "name": "Maximum energy efficiency thanks to Loxone and Vaillant",
+   "type": "event",
+   "role": "Related 'More about this topic' article link."
+  },
+  {
+   "name": "Smart Meters: Not So Smart After All",
+   "type": "other",
+   "role": "Related 'More about this topic' article link."
+  },
+  {
+   "name": "The Benefits of Improving your EPC Rating",
+   "type": "other",
+   "role": "Related 'More about this topic' article link."
+  }
+ ],
+ "tags": [
+  "smart home",
+  "energy efficiency",
+  "smart plugs",
+  "standby power",
+  "ambient assisted living",
+  "building automation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13483,
+  "output_tokens": 1314
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on the Jonga, a vehicle designed by Nissan and used by the Indian Army. It also explains that the name Jonga is an acronym for Jabalpur Ordnance aNd Guncarriage Assembly, the name of the Jabalpur-based assembly that is tied to the vehicle's name.",
+ "one_line": "The Jonga was a Nissan-designed vehicle used by the Indian Army, named after the Jabalpur Ordnance and Guncarriage Assembly.",
+ "key_facts": [
+  "The Jonga was a vehicle designed by Nissan.",
+  "The Jonga was used by the Indian Army.",
+  "Jonga is an acronym.",
+  "Jonga stands for Jabalpur Ordnance aNd Guncarriage Assembly.",
+  "The Jabalpur Ordnance aNd Guncarriage Assembly is the source of the name Jonga."
+ ],
+ "entities": [
+  {
+   "name": "Jonga",
+   "type": "product",
+   "role": "Nissan-designed vehicle used by the Indian Army"
+  },
+  {
+   "name": "Nissan",
+   "type": "organization",
+   "role": "designer of the Jonga vehicle"
+  },
+  {
+   "name": "Indian Army",
+   "type": "organization",
+   "role": "military force that used the Jonga"
+  },
+  {
+   "name": "Jabalpur Ordnance aNd Guncarriage Assembly",
+   "type": "organization",
+   "role": "entity whose initials form the name Jonga"
+  }
+ ],
+ "tags": [
+  "vehicles",
+  "military vehicles",
+  "indian army",
+  "nissan",
+  "jabalpur"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1040,
+  "output_tokens": 509
+ }
+}

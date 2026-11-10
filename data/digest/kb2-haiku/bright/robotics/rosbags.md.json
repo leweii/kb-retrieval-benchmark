@@ -1,0 +1,90 @@
+{
+ "summary": "This is a GitLab project page for rosbags, a pure Python library for reading, modifying, converting, and writing rosbag files in both rosbag1 and rosbag2 formats. The page shows release 0.10.0 as the latest commit, repository structure, and the README. The README lists the library's components, notes it has no ROS dependencies, and gives install, reading, conversion, development, and support instructions.",
+ "one_line": "Pure Python library for reading, modifying, converting and writing rosbag1 and rosbag2 files without ROS dependencies.",
+ "key_facts": [
+  "Rosbags is a pure Python library to read, modify, convert, and write rosbag files.",
+  "Rosbags contains high-level interfaces, a rosbag2 reader and writer, a rosbag1 reader and writer, an extensible type system with serializers and deserializers, and an efficient converter between rosbag1 and rosbag2.",
+  "Rosbags does not have any dependencies on the ROS software stacks and can be used on its own or alongside ROS1 or ROS2.",
+  "Rosbags was developed for MARV, which requires a fast, correct, and flexible library to read, manipulate, and write rosbag file formats.",
+  "Rosbags is published on PyPI and is installed with pip install rosbags.",
+  "The example reader uses AnyReader from rosbags.highlevel and get_typestore with Stores.ROS2_FOXY as a fallback type store when a bag has no message definitions.",
+  "The rosbags-convert command converts foo.bag into a directory named foo/ by default.",
+  "The rosbags-convert command with the --dst option saves the converted result to a path given by the user.",
+  "The project is hosted at gitlab.com/ternaris/rosbags and has 169 commits, 1 branch, and 25 tags.",
+  "The latest release shown is Release 0.10.0, authored by Marko Durkovic 4 days before the snapshot.",
+  "The project was created on May 16, 2021, and its license is Apache License 2.0.",
+  "The README says the minimum required Python version was increased to 3.10.",
+  "Development uses pytest as the test runner, and documentation is built with sphinx-build -a docs public.",
+  "Professional support for rosbags is available from Ternaris."
+ ],
+ "entities": [
+  {
+   "name": "rosbags",
+   "type": "program",
+   "role": "Pure Python library to read, modify, convert, and write rosbag files"
+  },
+  {
+   "name": "MARV",
+   "type": "product",
+   "role": "Project for which rosbags was developed, requiring a fast, correct, and flexible rosbag library"
+  },
+  {
+   "name": "Ternaris",
+   "type": "organization",
+   "role": "Maintainer of the rosbags project; provides professional support"
+  },
+  {
+   "name": "Marko Durkovic",
+   "type": "person",
+   "role": "Author of the latest commit, Release 0.10.0"
+  },
+  {
+   "name": "GitLab",
+   "type": "organization",
+   "role": "Platform hosting the rosbags repository"
+  },
+  {
+   "name": "AnyReader",
+   "type": "program",
+   "role": "High-level reader interface in rosbags.highlevel used to open and deserialize messages from rosbag1 or rosbag2 files"
+  },
+  {
+   "name": "rosbags-convert",
+   "type": "program",
+   "role": "Command-line tool for converting between rosbag versions"
+  },
+  {
+   "name": "Stores.ROS2_FOXY",
+   "type": "product",
+   "role": "Type store option passed to get_typestore as a default for bags without message definitions"
+  },
+  {
+   "name": "pytest",
+   "type": "program",
+   "role": "Test runner used by the rosbags code base"
+  },
+  {
+   "name": "Apache License 2.0",
+   "type": "other",
+   "role": "License of the rosbags project"
+  },
+  {
+   "name": "PyPI",
+   "type": "organization",
+   "role": "Package index where rosbags is published"
+  }
+ ],
+ "tags": [
+  "rosbag",
+  "robotics",
+  "python-library",
+  "ros",
+  "file-conversion",
+  "open-source"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2720,
+  "output_tokens": 1225
+ }
+}

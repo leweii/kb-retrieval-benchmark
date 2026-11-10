@@ -1,0 +1,41 @@
+{
+ "summary": "This note is a Snowflake-style reference page for the AS_BOOLEAN function, which casts a VARIANT value to a BOOLEAN value. It gives the syntax AS_BOOLEAN(<variant>), states that the argument must be an expression evaluating to a VARIANT containing a valid BOOLEAN value, and says the return type is BOOLEAN. A simple example shows TRUE, FALSE and NULL wrapped in TO_VARIANT being cast back to True, False and NULL. Navigation, feedback widgets and other page boilerplate are ignored.",
+ "one_line": "Reference page for the AS_BOOLEAN function, which casts a VARIANT value to a BOOLEAN, with syntax, arguments, return type and an example.",
+ "key_facts": [
+  "AS_BOOLEAN casts a VARIANT value to a BOOLEAN value.",
+  "The syntax is AS_BOOLEAN( <variant> ).",
+  "The argument should be an expression that evaluates to a VARIANT that contains a valid BOOLEAN value.",
+  "The data type of the value returned by AS_BOOLEAN is BOOLEAN.",
+  "The page lists AS_BOOLEAN under the categories Semistructured Data (Cast) and Conversion/Casting, among others.",
+  "The example SELECT AS_BOOLEAN(TO_VARIANT(TRUE)) returns True.",
+  "The example SELECT AS_BOOLEAN(TO_VARIANT(FALSE)) returns False.",
+  "The example SELECT AS_BOOLEAN(TO_VARIANT(NULL)) returns NULL.",
+  "The page's table of contents lists the sections Syntax, Arguments, Returns and Examples.",
+  "The page is written in English."
+ ],
+ "entities": [
+  {
+   "name": "AS_BOOLEAN",
+   "type": "product",
+   "role": "function that casts a VARIANT value to a BOOLEAN value"
+  },
+  {
+   "name": "TO_VARIANT",
+   "type": "product",
+   "role": "function used in the example to convert TRUE, FALSE and NULL to VARIANT before casting"
+  }
+ ],
+ "tags": [
+  "sql",
+  "snowflake",
+  "variant",
+  "boolean",
+  "type-casting",
+  "semi-structured-data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1631,
+  "output_tokens": 729
+ }
+}

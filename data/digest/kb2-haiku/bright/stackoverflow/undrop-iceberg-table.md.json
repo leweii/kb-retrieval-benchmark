@@ -1,0 +1,42 @@
+{
+ "summary": "This note is the Snowflake documentation page for the UNDROP ICEBERG TABLE command, which restores a dropped Iceberg table. It gives the syntax, the single <name> parameter, usage notes on schema scope, name conflicts, external volumes and catalog integrations, and one example restoring my_iceberg_table. The command is available to all accounts.",
+ "one_line": "Snowflake reference for the UNDROP ICEBERG TABLE command, which restores a dropped Iceberg table and its usage constraints.",
+ "key_facts": [
+  "UNDROP ICEBERG TABLE is available to all accounts.",
+  "The syntax is UNDROP ICEBERG TABLE <name>.",
+  "The <name> parameter specifies the identifier for the table to restore.",
+  "Identifiers containing spaces or special characters must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "Restoring Iceberg tables is only supported in the current schema or current database, even if the table name is fully-qualified.",
+  "If an Iceberg table with the same name already exists, an error is returned.",
+  "To undrop an Iceberg table whose external volume has been dropped, the external volume must be undropped first.",
+  "An Iceberg table cannot be undropped by creating a new external volume with the same name as the dropped external volume.",
+  "A table that uses a catalog integration cannot be restored if the associated catalog integration has been dropped.",
+  "The example UNDROP ICEBERG TABLE my_iceberg_table; restores the most recent version of a dropped table named my_iceberg_table.",
+  "The page refers to Iceberg tables as simply 'tables' except where specifying Iceberg tables avoids confusion."
+ ],
+ "entities": [
+  {
+   "name": "UNDROP ICEBERG TABLE",
+   "type": "program",
+   "role": "SQL command documented on this page that restores a dropped Iceberg table"
+  },
+  {
+   "name": "my_iceberg_table",
+   "type": "product",
+   "role": "example table name used to show restoring the most recent version of a dropped table"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "iceberg-tables",
+  "sql-commands",
+  "undrop",
+  "data-recovery"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1657,
+  "output_tokens": 707
+ }
+}

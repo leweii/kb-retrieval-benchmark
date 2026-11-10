@@ -1,0 +1,92 @@
+{
+ "summary": "This MDN Web Docs material covers several interfaces of the File and Directory Entries API: FileSystemDirectoryReader's readEntries() method, FileSystemDirectoryEntry, and FileSystemFileEntry. It explains how readEntries() returns directory entries via a callback, how directories are created and accessed, and how files are read. The page also notes browser limitations, such as Chrome 77 returning only the first 100 FileSystemEntry instances per call, and marks some methods as non-standard or deprecated.",
+ "one_line": "MDN reference pages for the File and Directory Entries API covering readEntries(), FileSystemDirectoryEntry and FileSystemFileEntry.",
+ "key_facts": [
+  "FileSystemDirectoryReader's readEntries() method retrieves the directory entries within the directory being read and delivers them in an array to a provided callback function.",
+  "readEntries() accepts a successCallback and an optional errorCallback, and returns undefined.",
+  "If there are no files left, or readEntries() was already called on the FileSystemDirectoryReader, the array passed to successCallback is empty.",
+  "The errorCallback receives a DOMException object describing the error which occurred.",
+  "On Chrome 77, readEntries() will only return the first 100 FileSystemEntry instances, so it must be called multiple times to obtain all instances.",
+  "The FileSystemDirectoryEntry interface represents a directory in a file system and provides methods to access and manipulate files in a directory.",
+  "You can create a new directory by calling getDirectory(); if the full path includes parent directories that do not exist, an error is returned.",
+  "FileSystemDirectoryEntry has instance methods createReader(), getDirectory(), getFile() and removeRecursively().",
+  "removeRecursively() on FileSystemDirectoryEntry is marked as Non-standard and Deprecated.",
+  "createReader() creates a FileSystemDirectoryReader object which can be used to read the entries in a directory.",
+  "getFile() returns a FileSystemFileEntry object representing a file within the directory's hierarchy, given a path relative to the directory.",
+  "The FileSystemFileEntry interface represents a file in a file system and offers properties describing the file's attributes.",
+  "FileSystemFileEntry's file() method creates a new File object which can be used to read the file.",
+  "FileSystemFileEntry's createWriter() method is marked as Non-standard and Deprecated.",
+  "The example in the FileSystemDirectoryEntry page creates a directory called \"Documents\" using fs.root.getDirectory with create set to true after requesting a TEMPORARY file system of 1MB.",
+  "The readEntries() page was last modified on Apr 7, 2023, and the FileSystemDirectoryEntry page on Jul 7, 2023."
+ ],
+ "entities": [
+  {
+   "name": "File and Directory Entries API",
+   "type": "program",
+   "role": "Web API whose interfaces are documented in this note, linked from the MDN pages"
+  },
+  {
+   "name": "FileSystemDirectoryReader",
+   "type": "product",
+   "role": "interface whose readEntries() method retrieves directory entries and delivers them to a callback"
+  },
+  {
+   "name": "readEntries()",
+   "type": "product",
+   "role": "instance method of FileSystemDirectoryReader that returns directory entries via successCallback"
+  },
+  {
+   "name": "FileSystemDirectoryEntry",
+   "type": "product",
+   "role": "interface representing a directory in a file system, with createReader(), getDirectory(), getFile() and removeRecursively() methods"
+  },
+  {
+   "name": "FileSystemFileEntry",
+   "type": "product",
+   "role": "interface representing a file in a file system, with the file() method that creates a File object"
+  },
+  {
+   "name": "FileSystemEntry",
+   "type": "product",
+   "role": "parent interface from which FileSystemDirectoryEntry and FileSystemFileEntry are based"
+  },
+  {
+   "name": "FileSystem",
+   "type": "product",
+   "role": "related interface in the File and Directory Entries API with name and root properties"
+  },
+  {
+   "name": "DataTransferItem.webkitGetAsEntry()",
+   "type": "product",
+   "role": "method whose documentation provides example code that uses readEntries()"
+  },
+  {
+   "name": "DOMException",
+   "type": "product",
+   "role": "object type passed to the errorCallback describing the error"
+  },
+  {
+   "name": "Chrome 77",
+   "type": "product",
+   "role": "browser version noted as returning only the first 100 FileSystemEntry instances from readEntries()"
+  },
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "publisher of the reference pages in this note"
+  }
+ ],
+ "tags": [
+  "web-api",
+  "file-system",
+  "javascript",
+  "browser-compatibility",
+  "mdn-reference",
+  "directory-entries"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16600,
+  "output_tokens": 1503
+ }
+}

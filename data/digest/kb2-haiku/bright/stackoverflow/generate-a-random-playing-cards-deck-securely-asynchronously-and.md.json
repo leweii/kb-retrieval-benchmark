@@ -1,0 +1,76 @@
+{
+ "summary": "The note explains how to generate a playing-card deck (52 cards) that is asynchronous and deterministic, so a user can reveal cards one at a time without exposing the whole deck. It uses a seed passed from the frontend with a position number, and PHP's mt_srand/mt_rand with array_multisort to produce a consistent shuffle. It closes by suggesting improvements such as hiding the seed by modifying it or storing seeds in a database so only the backend controls them.",
+ "one_line": "A method for generating a reproducible, card-by-card shuffled 52-card deck using seeded random numbers, with ways to hide the seed.",
+ "key_facts": [
+  "There are 52! unique ways of shuffling a standard 52-card deck, roughly 8e68.",
+  "The author's project required that each card be returned only when the user wants to reveal it, not the whole deck at once.",
+  "The system must be asynchronous, so a user requests a single card at a time rather than the whole deck.",
+  "The system must be deterministic, so querying a second card should draw from the same deck as the first.",
+  "Calling srand(42) in PHP produces the same sequence of random numbers on each page load, though results may depend on the environment.",
+  "The example sets the seed with mt_srand($seed) in the showCards function.",
+  "The deck list CARDS_LIST uses codes S1-S13, H1-H13, D1-D13 and C1-C13 for spades, hearts, diamonds and clubs.",
+  "The showCards function shuffles by generating mt_rand() values for each card and calling array_multisort($order, $cards).",
+  "showCards returns $cards[$position - 1], so the frontend supplies a position from 1 to 52.",
+  "The author states the approach gives a fully functional system that draws any card from any position without exposing other cards.",
+  "A suggested improvement is to hide the seed by modifying it with an algorithm, for example multiplying it by 2.",
+  "A second suggested improvement is to store seeds in a database and return only an ID to the frontend, so the backend controls the seed.",
+  "The author says the principles can be adapted to other decks, such as Magic: The Gathering cards.",
+  "The author writes the example code in PHP and Angular and says the concepts apply to any programming language.",
+  "The author is a software engineer at Amazon who writes about programming, UX and interviewing."
+ ],
+ "entities": [
+  {
+   "name": "RandomDeck",
+   "type": "product",
+   "role": "online demo of the card-dealing system on the author's website"
+  },
+  {
+   "name": "PHP",
+   "type": "product",
+   "role": "language in which the example code is written"
+  },
+  {
+   "name": "Angular",
+   "type": "product",
+   "role": "frontend framework used with the example code"
+  },
+  {
+   "name": "mt_srand",
+   "type": "program",
+   "role": "PHP function used to set the seed in the showCards example"
+  },
+  {
+   "name": "mt_rand",
+   "type": "program",
+   "role": "PHP function used to generate the order values for shuffling"
+  },
+  {
+   "name": "array_multisort",
+   "type": "program",
+   "role": "PHP function used to shuffle the deck using the generated order"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "employer of the author, a software engineer"
+  },
+  {
+   "name": "Magic the Gathering",
+   "type": "product",
+   "role": "example of another card game whose deck the principles could apply to"
+  }
+ ],
+ "tags": [
+  "algorithms",
+  "playing cards",
+  "deterministic randomness",
+  "seeding",
+  "php",
+  "tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3074,
+  "output_tokens": 1067
+ }
+}

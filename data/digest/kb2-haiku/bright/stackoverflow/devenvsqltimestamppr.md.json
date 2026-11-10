@@ -1,0 +1,59 @@
+{
+ "summary": "This is a Microsoft Learn reference page for the SqlTimestamp property in Dynamics 365 Business Central (AL development). The property marks a table field as the timestamp field, exposing the hidden row version number that SQL Server maintains for each record so code can access it. Boilerplate such as navigation, feedback prompts and footers is omitted.",
+ "one_line": "Reference page for the AL SqlTimestamp table field property, which exposes SQL Server's hidden row version timestamp in Dynamics 365 Business Central.",
+ "key_facts": [
+  "The SqlTimestamp property specifies a field to be a timestamp field.",
+  "The property was available or changed with runtime version 1.0.",
+  "The property applies to Table Field objects.",
+  "The property value is True if the field is the timestamp field; otherwise False.",
+  "The default value of SqlTimestamp is false.",
+  "The syntax is written as SQLTimestamp = true;",
+  "Each table includes a hidden timestamp field.",
+  "The timestamp field contains row version numbers for records as maintained in SQL Server.",
+  "The SqlTimestamp property exposes the timestamp field in the table object and enables code to be written against it.",
+  "The SqlTimestamp property only applies to fields with the data type BigInteger.",
+  "More information on the timestamp field is in the Timestamp Field section of the table system fields documentation.",
+  "The page was last updated 02/26/2024 and lists 5 contributors.",
+  "The page is listed under Properties and Table and Table Extension Properties in See Also."
+ ],
+ "entities": [
+  {
+   "name": "SqlTimestamp",
+   "type": "product",
+   "role": "Table field property that specifies a field as the timestamp field"
+  },
+  {
+   "name": "SQL Server",
+   "type": "product",
+   "role": "Database system that maintains the row version numbers in the timestamp field"
+  },
+  {
+   "name": "Dynamics 365 Business Central",
+   "type": "product",
+   "role": "Product the feedback link refers to for this documentation page"
+  },
+  {
+   "name": "BigInteger",
+   "type": "other",
+   "role": "Data type that the SqlTimestamp property applies to"
+  },
+  {
+   "name": "Timestamp Field",
+   "type": "other",
+   "role": "Documentation section on table system fields that explains the timestamp field"
+  }
+ ],
+ "tags": [
+  "dynamics 365 business central",
+  "al development",
+  "sql server",
+  "table properties",
+  "timestamp",
+  "row version"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2670,
+  "output_tokens": 744
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on the Hyundai Trago, a line of heavy-duty commercial vehicles made by Hyundai Motor Company. It says the range was mainly sold as luxury cargo trucks, dump trucks and tractors. It also records the alternate names the vehicle carried in different markets: Bering HD or Bering HDMX in the USA and Canada, and Hyundai New Power Truck in Korea.",
+ "one_line": "Hyundai Trago is a heavy-duty commercial truck line from Hyundai Motor Company, sold under other names in the USA, Canada and Korea.",
+ "key_facts": [
+  "The Hyundai Trago (hangul: 현대 트라고) is a line of heavy-duty commercial vehicles made by Hyundai Motor Company.",
+  "The Hyundai Trago range was primarily available as luxury cargo trucks, dump trucks and tractors.",
+  "The model truck name of the Hyundai Trago is 'Hyundai'.",
+  "In the USA and Canada, the Hyundai Trago was known as Bering HD or Bering HDMX.",
+  "In Korea, the truck based on the Hyundai Trago was known as Hyundai New Power Truck."
+ ],
+ "entities": [
+  {
+   "name": "Hyundai Trago",
+   "type": "product",
+   "role": "heavy-duty commercial vehicle line by Hyundai Motor Company, primarily sold as luxury cargo and dump trucks and tractors"
+  },
+  {
+   "name": "Hyundai Motor Company",
+   "type": "organization",
+   "role": "manufacturer of the Hyundai Trago line"
+  },
+  {
+   "name": "Bering HD",
+   "type": "product",
+   "role": "name under which the Hyundai Trago was known in the USA and Canada"
+  },
+  {
+   "name": "Bering HDMX",
+   "type": "product",
+   "role": "alternate name under which the Hyundai Trago was known in the USA and Canada"
+  },
+  {
+   "name": "Hyundai New Power Truck",
+   "type": "product",
+   "role": "name under which the Korean truck based on the Hyundai Trago was known in Korea"
+  }
+ ],
+ "tags": [
+  "hyundai",
+  "trucks",
+  "commercial vehicles",
+  "heavy-duty vehicles",
+  "automotive"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1136,
+  "output_tokens": 718
+ }
+}

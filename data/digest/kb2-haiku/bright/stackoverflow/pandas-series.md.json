@@ -1,0 +1,76 @@
+{
+ "summary": "This is the pandas 2.2.1 API reference page for pandas.Series.all, which returns whether all elements are True, optionally over an axis. It describes the axis, bool_only, skipna and kwargs parameters, the return value, and examples for both Series and DataFrame. The surrounding navigation and footer text is site boilerplate.",
+ "one_line": "pandas 2.2.1 API reference page for Series.all, which tests whether all elements of a Series or DataFrame axis are True.",
+ "key_facts": [
+  "The page is the pandas 2.2.1 API reference entry for pandas.Series.all.",
+  "Series.all returns True unless at least one element within a series or along a DataFrame axis is False or equivalent (e.g. zero or empty).",
+  "The axis parameter defaults to 0, and for Series this parameter is unused.",
+  "Setting axis=None reduces all axes and returns a scalar.",
+  "The bool_only parameter defaults to False and is not implemented for Series.",
+  "The skipna parameter defaults to True and excludes NA/null values.",
+  "If the entire row or column is NA and skipna is True, the result of Series.all is True, as for an empty row or column.",
+  "If skipna is False, NA values are treated as True, because they are not equal to zero.",
+  "Additional **kwargs have no effect but might be accepted for compatibility with NumPy.",
+  "pd.Series([True, False]).all() returns False.",
+  "pd.Series([], dtype=\"float64\").all() returns True.",
+  "pd.Series([np.nan]).all(skipna=False) returns True.",
+  "For a DataFrame with col1 [True, True] and col2 [True, False], df.all() returns col1 True and col2 False.",
+  "df.all(axis=None) returns False for that DataFrame.",
+  "The page is copyright 2024 pandas via NumFOCUS, Inc., hosted by OVHcloud, and built with Sphinx 7.2.6 and the PyData Sphinx Theme 0.14.4."
+ ],
+ "entities": [
+  {
+   "name": "pandas",
+   "type": "product",
+   "role": "Python data analysis library whose documentation (version 2.2.1) this page belongs to"
+  },
+  {
+   "name": "pandas.Series.all",
+   "type": "product",
+   "role": "Series method that returns whether all elements are True, potentially over an axis"
+  },
+  {
+   "name": "pandas.DataFrame.any",
+   "type": "product",
+   "role": "Related method that returns True if one (or more) elements are True"
+  },
+  {
+   "name": "NumPy",
+   "type": "product",
+   "role": "Library whose compatibility is mentioned for the accepted **kwargs parameters"
+  },
+  {
+   "name": "NumFOCUS, Inc.",
+   "type": "organization",
+   "role": "Organization credited with pandas in the page copyright footer"
+  },
+  {
+   "name": "OVHcloud",
+   "type": "organization",
+   "role": "Host of the pandas documentation site"
+  },
+  {
+   "name": "Sphinx",
+   "type": "product",
+   "role": "Documentation tool used to build the page (version 7.2.6)"
+  },
+  {
+   "name": "PyData Sphinx Theme",
+   "type": "product",
+   "role": "Theme used to build the page (version 0.14.4)"
+  }
+ ],
+ "tags": [
+  "pandas",
+  "python",
+  "series",
+  "dataframe",
+  "boolean-reduction",
+  "api-reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16866,
+  "output_tokens": 2201
+ }
+}

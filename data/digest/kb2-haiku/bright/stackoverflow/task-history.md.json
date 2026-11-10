@@ -1,0 +1,54 @@
+{
+ "summary": "This note is the reference page for the Snowflake Account Usage view TASK_HISTORY, which returns one row per completed run of a task. It documents the view's columns (task name, query text, schedule and completion times, state, error details, graph version, run identifiers and query hashes) and gives usage notes on latency and filtering. It also includes two example queries for retrieving recent task runs.",
+ "one_line": "Reference documentation for Snowflake's TASK_HISTORY Account Usage view, covering its columns, usage notes and example queries.",
+ "key_facts": [
+  "TASK_HISTORY is an Account Usage view that displays one row for each run of a task in the history.",
+  "The NAME column holds the name of the task.",
+  "The STATE column reports SUCCEEDED, FAILED, CANCELLED, or SKIPPED for completed task runs.",
+  "The view does not return SCHEDULED or EXECUTING task runs.",
+  "SCHEDULED_TIME is the time when the task is or was scheduled to start running, and tasks are guaranteed not to execute before it.",
+  "COMPLETED_TIME is the time when the task completed.",
+  "SCHEDULED_FROM can be SCHEDULE, EXECUTE TASK, or MANUAL RETRY.",
+  "ATTEMPT_NUMBER is an integer for the number of attempts to run the task, initially one.",
+  "GRAPH_RUN_GROUP_ID identifies the graph run; the combination of GRAPH_RUN_GROUP_ID and ATTEMPT_NUMBER uniquely identifies a graph run.",
+  "RUN_ID is the original scheduled time of the standalone or root task in epoch milliseconds, and may not be unique before retry.",
+  "Latency for the view may be up to 45 minutes.",
+  "For increased performance, queries should filter on the COMPLETED_TIME or SCHEDULED_TIME column.",
+  "BACKFILL_INFO is reserved for future use and returns NULL for all rows.",
+  "CONFIG displays the graph level configuration for the root task, otherwise NULL."
+ ],
+ "entities": [
+  {
+   "name": "TASK_HISTORY",
+   "type": "product",
+   "role": "Account Usage view that returns one row per run of a task in the history"
+  },
+  {
+   "name": "QUERY_HISTORY",
+   "type": "product",
+   "role": "view that can be joined with TASK_HISTORY via QUERY_ID for additional execution details"
+  },
+  {
+   "name": "SHOW TASKS",
+   "type": "product",
+   "role": "command whose ID column value matches ROOT_TASK_ID for the same task"
+  },
+  {
+   "name": "EXECUTE TASK",
+   "type": "program",
+   "role": "mechanism by which a task is scheduled to run, as a value of SCHEDULED_FROM"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "task-history",
+  "account-usage",
+  "sql",
+  "data-engineering"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3324,
+  "output_tokens": 920
+ }
+}

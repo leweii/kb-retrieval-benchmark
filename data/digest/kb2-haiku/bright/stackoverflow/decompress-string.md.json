@@ -1,0 +1,56 @@
+{
+ "summary": "This is a Snowflake reference page for the DECOMPRESS_STRING function, which takes a BINARY value compressed with a given method and returns the decompressed string. The page gives the syntax DECOMPRESS_STRING(input, method), notes that the compression level is not required and is ignored if supplied, and says unknown methods cause the query to fail while method names are case insensitive. A SNAPPY example shows COMPRESS('Snowflake', 'SNAPPY') producing hex 0920536E6F77666C616B65, which DECOMPRESS_STRING restores to Snowflake.",
+ "one_line": "Snowflake reference for DECOMPRESS_STRING, which restores a BINARY value compressed by a named method back into a string.",
+ "key_facts": [
+  "DECOMPRESS_STRING decompresses a BINARY input parameter to a string.",
+  "The syntax is DECOMPRESS_STRING(<input>, <method>).",
+  "The method argument is the compression method originally used to compress the input.",
+  "DECOMPRESS_STRING does not require the compression level, and if one is specified it is ignored and the actual compression level is used.",
+  "If the compression method is unknown or invalid, the query fails.",
+  "The compression method name (e.g. ZLIB) is case insensitive.",
+  "The function returns a string with decompressed data.",
+  "Example: COMPRESS('Snowflake', 'SNAPPY') returns the hex value 0920536E6F77666C616B65.",
+  "Example: DECOMPRESS_STRING(TO_BINARY('0920536E6F77666C616B65', 'HEX'), 'SNAPPY') returns Snowflake.",
+  "The page is listed under the Compression/Decompression category."
+ ],
+ "entities": [
+  {
+   "name": "DECOMPRESS_STRING",
+   "type": "program",
+   "role": "Snowflake string function that decompresses a BINARY input to a string using a specified method"
+  },
+  {
+   "name": "COMPRESS",
+   "type": "program",
+   "role": "Snowflake function that compresses a string, used in the example with the SNAPPY method"
+  },
+  {
+   "name": "TO_BINARY",
+   "type": "program",
+   "role": "Function used in the example to convert the hex string into a BINARY value"
+  },
+  {
+   "name": "SNAPPY",
+   "type": "program",
+   "role": "Compression method used in the example to compress and decompress the string Snowflake"
+  },
+  {
+   "name": "ZLIB",
+   "type": "program",
+   "role": "Example compression method name given in the arguments description"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "string-functions",
+  "compression",
+  "decompression",
+  "binary"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1920,
+  "output_tokens": 827
+ }
+}

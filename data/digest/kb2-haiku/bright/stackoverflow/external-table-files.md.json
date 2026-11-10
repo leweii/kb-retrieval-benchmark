@@ -1,0 +1,49 @@
+{
+ "summary": "This page documents the EXTERNAL_TABLE_FILES table function, which returns metadata about the staged data files referenced by an external table. It takes a required TABLE_NAME string argument and returns FILE_NAME, REGISTERED_ON, FILE_SIZE, LAST_MODIFIED, ETAG and MD5 for each file. The function returns nothing until the external table has been refreshed to include the files, and access is limited to the table owner, higher roles, or roles with USAGE on the containing database and schema plus any privilege on the table. The page is surrounded by site navigation that was ignored.",
+ "one_line": "Reference for the EXTERNAL_TABLE_FILES table function, which lists staged data file metadata registered in an external table.",
+ "key_facts": [
+  "EXTERNAL_TABLE_FILES is a table function used to query information about the staged data files of an external table.",
+  "Its syntax is EXTERNAL_TABLE_FILES(TABLE_NAME => '<string>'), where TABLE_NAME is a required string naming an external table.",
+  "Results are returned for the external table owner, meaning the role with the OWNERSHIP privilege on the external table, or a higher role.",
+  "A role that has the USAGE privilege on the database and schema containing an external table and any privilege on the external table can also get results.",
+  "The table function cannot retrieve metadata about staged data files until the external table is refreshed (synched) to include the data files in its metadata.",
+  "The FILE_NAME column (TEXT) gives the name of the source file and its relative path to the staged file.",
+  "The REGISTERED_ON column (TIMESTAMP_LTZ) gives the timestamp when the file metadata was added to the external table.",
+  "The FILE_SIZE column (NUMBER) gives the size of the file in bytes.",
+  "The LAST_MODIFIED column (TIMESTAMP_LTZ) gives the timestamp when the file was last updated in the stage.",
+  "The ETAG column (HEX) gives the ETag header for the file.",
+  "The MD5 column (HEX) gives the MD5 checksum for the file.",
+  "The example retrieves stored metadata for all data files referenced by the mytable external table using select * from table(information_schema.external_table_files(TABLE_NAME=>'MYTABLE')).",
+  "The page's related topics include External Tables and External Functions in the Data Loading and Transfer area."
+ ],
+ "entities": [
+  {
+   "name": "EXTERNAL_TABLE_FILES",
+   "type": "program",
+   "role": "table function documented on this page that returns metadata about staged data files referenced by an external table"
+  },
+  {
+   "name": "information_schema",
+   "type": "program",
+   "role": "schema in which the EXTERNAL_TABLE_FILES table function is called in the example"
+  },
+  {
+   "name": "mytable",
+   "type": "product",
+   "role": "external table used in the example to retrieve file metadata"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "external-tables",
+  "information-schema",
+  "table-functions",
+  "staged-files",
+  "metadata"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2072,
+  "output_tokens": 966
+ }
+}

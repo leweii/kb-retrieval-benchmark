@@ -1,0 +1,65 @@
+{
+ "summary": "This is Snowflake documentation for the ALTER PIPE SQL command, which modifies a limited set of properties of an existing pipe and performs operations such as pausing a pipe, refreshing it, and setting comments or tags. The note covers the syntax, parameters (including PIPE_EXECUTION_PAUSED, COMMENT, TAG, UNSET, REFRESH with PREFIX and MODIFIED_AFTER), usage notes on privileges and limitations, and examples. Navigation and boilerplate from the web page are ignored.",
+ "one_line": "Snowflake reference for the ALTER PIPE command, covering pausing, refreshing, commenting and tagging Snowpipe pipes.",
+ "key_facts": [
+  "ALTER PIPE modifies a limited set of properties for an existing pipe object and supports pausing a pipe, refreshing a pipe, adding/overwriting/removing a comment, and setting/unsetting a tag.",
+  "The PIPE_EXECUTION_PAUSED parameter accepts TRUE or FALSE and defaults to FALSE, meaning the pipe is running by default.",
+  "A pipe is considered stale when paused for longer than the limited retention period for event messages, which is 14 days by default.",
+  "Either a stale pipe or other specified scenarios require forcing the pipe to resume by calling the SYSTEM$PIPE_FORCE_RESUME function.",
+  "The tag value is always a string, and the maximum number of characters for a tag value is 256.",
+  "The REFRESH clause copies a set of staged data files to the Snowpipe ingest queue for loading into the target table, and can only load data files staged within the last 7 days.",
+  "The REFRESH PREFIX parameter path is appended to the stage reference in the pipe definition, and the path must be enclosed in single quotes.",
+  "The MODIFIED_AFTER parameter takes an ISO-8601 timestamp; its default and maximum allowed value is 7 days.",
+  "Only the pipe owner (the role with the OWNERSHIP privilege on the pipe) can set or unset properties on a pipe.",
+  "A non-owner role with the OPERATE privilege on the pipe can pause or resume it using SET PIPE_EXECUTION_PAUSED.",
+  "Non-owner roles refreshing a pipe need OPERATE on the pipe, USAGE on an external stage or READ on an internal stage in the pipe definition, and SELECT and INSERT on the target table.",
+  "It is not currently possible to modify the AWS_SNS_TOPIC or INTEGRATION parameters using ALTER PIPE.",
+  "The REFRESH functionality is intended for short term use to resolve specific issues when Snowpipe fails to load a subset of files and is not intended for regular use.",
+  "The example 'alter pipe mypipe SET PIPE_EXECUTION_PAUSED = true;' pauses the pipe named mypipe.",
+  "The example 'ALTER PIPE mypipe REFRESH PREFIX='d1/' MODIFIED_AFTER='2018-07-30T13:56:46-07:00';' loads only files under the d1 path staged after the given timestamp."
+ ],
+ "entities": [
+  {
+   "name": "ALTER PIPE",
+   "type": "program",
+   "role": "SQL command documented on this page that modifies properties of, pauses, or refreshes an existing pipe"
+  },
+  {
+   "name": "SYSTEM$PIPE_FORCE_RESUME",
+   "type": "program",
+   "role": "function called to force a pipe to resume after it has been paused in certain scenarios"
+  },
+  {
+   "name": "Snowpipe",
+   "type": "product",
+   "role": "service whose pipes load staged data files into target tables, with an ingest queue used by REFRESH"
+  },
+  {
+   "name": "mypipe",
+   "type": "product",
+   "role": "example pipe name used to illustrate pausing, commenting and refreshing"
+  },
+  {
+   "name": "mytable",
+   "type": "product",
+   "role": "target table in the example pipe definition loaded from @mystage/path1/"
+  },
+  {
+   "name": "mystage",
+   "type": "product",
+   "role": "example stage referenced by the pipe definition in the refresh examples"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "snowpipe",
+  "sql",
+  "data loading",
+  "alter pipe"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4066,
+  "output_tokens": 1377
+ }
+}

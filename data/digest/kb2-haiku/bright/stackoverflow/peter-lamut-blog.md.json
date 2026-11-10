@@ -1,0 +1,69 @@
+{
+ "summary": "This is a clipped excerpt from Peter Lamut's Python blog containing three posts: one on keyword-only arguments (Python 3 and Python 2 approaches), one on distinguishing None from missing dictionary keys using a sentinel object, and one on Python attribute lookup covering instance dictionaries, descriptors, MRO and a start on metaclasses. Navigation, archive lists, tag clouds, sharing widgets and author boilerplate are ignored. The author describes the blog as mostly writings about Python and programming in general.",
+ "one_line": "Excerpt from Peter Lamut's Python blog covering keyword-only arguments, sentinel values for missing dictionary keys, and attribute lookup with descriptors and MRO.",
+ "key_facts": [
+  "The keyword-only arguments post by Peter Lamut was published on November 10, 2017.",
+  "In Python 3, a bare * in a function signature such as def demo2(x, y, *, separator='___') makes separator keyword-only.",
+  "Calling cat('  foo ', 'bar ', True) returned 'FOOBAR' before a refactor that swapped the strip and to_upper parameters, after which it returned 'foobar'.",
+  "In Python 2, keyword-only arguments cannot be declared after *args, so the post suggests using **kwargs and manually popping expected options.",
+  "The sentinel post by Peter Lamut was published on April 1, 2020 and recommends MISSING = object() with data.get('baz', MISSING).",
+  "The sentinel post notes that using a default such as 'NO VALUE' fails if that string is actually present in the dictionary.",
+  "The sentinel approach performs a single dictionary lookup, whereas the membership-test approach requires two dictionary lookups.",
+  "The attribute lookup post was based on a talk given at the local Python meetup, the Ljubljana Python Group.",
+  "The attribute lookup post states that instance attributes normally take precedence over class attributes, but sometimes class attributes shadow instance attributes.",
+  "Data descriptors define __set__() and/or __delete__() and take precedence over instance attributes, while non-data descriptors define only __get__() and are shadowed by instance attributes.",
+  "The post states that properties are actually implemented as descriptors behind the scenes.",
+  "For class E(C, D) in the example hierarchy, E.__mro__ is (E, C, A, D, B, object), and Python uses the C3 linearization algorithm.",
+  "The author describes himself as an experienced software engineer primarily using Python and JavaScript, who uses Linux and attends EuroPython."
+ ],
+ "entities": [
+  {
+   "name": "Peter Lamut",
+   "type": "person",
+   "role": "author of the blog, an experienced software engineer who writes mostly about Python and programming in general"
+  },
+  {
+   "name": "Peter Lamut's blog",
+   "type": "other",
+   "role": "personal blog hosted on WordPress.com, mostly writings about Python and programming in general"
+  },
+  {
+   "name": "Ljubljana Python Group",
+   "type": "organization",
+   "role": "local Python meetup where the author gave a talk on attribute lookup"
+  },
+  {
+   "name": "EuroPython",
+   "type": "event",
+   "role": "developer conference the author enjoys attending"
+  },
+  {
+   "name": "Jupyter Notebook",
+   "type": "product",
+   "role": "tool used for the attribute lookup presentation, with a downloadable notebook provided"
+  },
+  {
+   "name": "C3 linearization algorithm",
+   "type": "other",
+   "role": "algorithm Python uses to construct the method resolution order"
+  },
+  {
+   "name": "SQLAlchemy",
+   "type": "product",
+   "role": "ORM library whose attributes on data models are cited as descriptor examples"
+  }
+ ],
+ "tags": [
+  "python",
+  "function arguments",
+  "dictionary",
+  "descriptors",
+  "attribute lookup",
+  "sentinel"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14467,
+  "output_tokens": 1216
+ }
+}

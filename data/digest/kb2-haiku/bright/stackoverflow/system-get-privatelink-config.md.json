@@ -1,0 +1,84 @@
+{
+ "summary": "This Snowflake documentation page describes the SYSTEM$GET_PRIVATELINK_CONFIG() function, which returns a JSON object with the account information needed to self-configure private connectivity to the Snowflake service or internal stages. The page lists the name/value pairs returned for AWS, Microsoft Azure, and Google Cloud Platform, explains each key and how its value should be used for DNS CNAME records or endpoint creation, and notes that only account administrators (ACCOUNTADMIN role) can run it. It also includes an example that flattens the JSON output.",
+ "one_line": "Documents the SYSTEM$GET_PRIVATELINK_CONFIG function, which returns JSON account details for configuring Snowflake PrivateLink connectivity.",
+ "key_facts": [
+  "SYSTEM$GET_PRIVATELINK_CONFIG() returns a JSON object containing the Snowflake account information needed to self-configure private connectivity to the Snowflake service or Snowflake internal stages.",
+  "The function takes no arguments.",
+  "Only account administrators (users with the ACCOUNTADMIN role) can execute SYSTEM$GET_PRIVATELINK_CONFIG.",
+  "The AWS output includes the key privatelink-vpce-id, described as the AWS VPCE ID for the account identifier, used to create an AWS VPC endpoint.",
+  "The Microsoft Azure output includes the key privatelink-pls-id, which is the Azure Private Link Service ID in alias format, used to create an Azure Private Link private endpoint.",
+  "The Google Cloud Platform output includes the key privatelink-gcp-service-attachment, the endpoint for the Snowflake service when using Google Cloud Private Service Connect.",
+  "The privatelink-internal-stage value is visible only when the ENABLE_INTERNAL_STAGES_PRIVATELINK setting is TRUE, which is its default is FALSE.",
+  "The privatelink-account-url is the URL to connect to the Snowflake account using AWS PrivateLink, Azure Private Link, or Google Cloud Private Service Connect, and should be used to create a CNAME for DNS resolution.",
+  "The privatelink-connection-ocsp-urls value is the list of OCSP URLs for use with Redirecting Client Connections and should match the output for OCSP_CLIENT_FAILOVER from SYSTEM$ALLOWLIST_PRIVATELINK.",
+  "The regionless-privatelink-ocsp-url is recorded as ocsp.<org_name>-<account_name>.privatelink.snowflakecomputing.com, where org_name is the Snowflake organization name and account_name is the unique account name within the organization.",
+  "The snowsight-privatelink-url lets users access Snowsight and the Snowflake Marketplace using private connectivity.",
+  "The regionless-snowsight-privatelink-url lets Snowsight use private connectivity to the Snowflake service and should match the SNOWSIGHT_DEPLOYMENT_REGIONLESS output from SYSTEM$ALLOWLIST_PRIVATELINK.",
+  "The example query SELECT SYSTEM$GET_PRIVATELINK_CONFIG(); retrieves the JSON for an account on AWS, and the flatten example uses parse_json with table(flatten(...)) to display key/value rows."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$GET_PRIVATELINK_CONFIG",
+   "type": "program",
+   "role": "System function described on this page that returns a JSON representation of Snowflake account information for private connectivity configuration"
+  },
+  {
+   "name": "SYSTEM$ALLOWLIST_PRIVATELINK",
+   "type": "program",
+   "role": "Function whose output the returned URLs and values should match, such as SNOWSIGHT_DEPLOYMENT_REGIONLESS and OCSP_CLIENT_FAILOVER"
+  },
+  {
+   "name": "ENABLE_INTERNAL_STAGES_PRIVATELINK",
+   "type": "program",
+   "role": "Setting that controls visibility of the privatelink-internal-stage key; default is FALSE and must be TRUE to obtain the internal stage endpoint"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "Role whose users are the only ones who can execute this function"
+  },
+  {
+   "name": "AWS PrivateLink",
+   "type": "product",
+   "role": "AWS private connectivity service; the AWS output includes privatelink-vpce-id for creating a VPC endpoint"
+  },
+  {
+   "name": "Azure Private Link",
+   "type": "product",
+   "role": "Microsoft Azure private connectivity service; the Azure output includes privatelink-pls-id for creating a private endpoint"
+  },
+  {
+   "name": "Google Cloud Private Service Connect",
+   "type": "product",
+   "role": "Google Cloud private connectivity service; the GCP output includes privatelink-gcp-service-attachment"
+  },
+  {
+   "name": "Snowsight",
+   "type": "product",
+   "role": "Snowflake web interface whose private connectivity URLs are returned by the function"
+  },
+  {
+   "name": "Snowflake Marketplace",
+   "type": "product",
+   "role": "Service accessible through Snowsight using the snowsight-privatelink-url"
+  },
+  {
+   "name": "Redirecting Client Connections",
+   "type": "program",
+   "role": "Client redirect feature that uses the list of OCSP URLs returned in privatelink-connection-ocsp-urls"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "privatelink",
+  "system-functions",
+  "networking",
+  "private-connectivity",
+  "dns"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5241,
+  "output_tokens": 1818
+ }
+}

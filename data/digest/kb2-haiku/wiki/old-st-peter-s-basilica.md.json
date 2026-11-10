@@ -1,0 +1,62 @@
+{
+ "summary": "The note is a Wikipedia-derived infobox and caption for Old St. Peter's Basilica, the earlier basilica on the Vatican site in Rome. It gives the building's Roman Catholic affiliation, its consecration and completion around 360, its groundbreaking between 326 and 333, and its Ancient Roman architectural style. It also notes the Vatican Obelisk, which stood on the spot where Emperor Caligula had it erected in 37 A.D.",
+ "one_line": "Old St. Peter's Basilica was the early Roman Catholic major basilica in Rome, built c. 326–360, with the Vatican Obelisk beside it.",
+ "key_facts": [
+  "Old St. Peter's Basilica is also known by the Latin name Basilica Sancti Petri.",
+  "The note gives the geographic coordinates of Old St. Peter's Basilica as 41.90222° N, 12.45333° E.",
+  "Old St. Peter's Basilica was affiliated with the Roman Catholic Church.",
+  "The building's country is listed as the Papal States.",
+  "Old St. Peter's Basilica was consecrated around 360 (c. 360).",
+  "Its ecclesiastical or organizational status is listed as major basilica.",
+  "Construction (groundbreaking) of Old St. Peter's Basilica took place between 326 and 333.",
+  "The basilica was completed around 360 (c. 360).",
+  "The architectural style of Old St. Peter's Basilica is listed as Ancient Roman architecture.",
+  "A 19th-century drawing shows the basilica as it is thought to have looked around 1450.",
+  "The Vatican Obelisk is shown on the left side of the 19th-century drawing.",
+  "The Vatican Obelisk still stands on the spot where it was erected on the orders of the Emperor Caligula in 37 A.D."
+ ],
+ "entities": [
+  {
+   "name": "Old St. Peter's Basilica",
+   "type": "place",
+   "role": "the subject of the note; a Roman Catholic major basilica with Ancient Roman architecture, groundbreaking 326–333 and completion c. 360"
+  },
+  {
+   "name": "St. Peter's Basilica",
+   "type": "place",
+   "role": "the name under which the basilica is listed in the note's heading and infobox, with the Latin name Basilica Sancti Petri"
+  },
+  {
+   "name": "Vatican Obelisk",
+   "type": "product",
+   "role": "obelisk shown on the left of the 19th-century drawing, still standing where Caligula had it erected"
+  },
+  {
+   "name": "Emperor Caligula",
+   "type": "person",
+   "role": "Roman emperor on whose orders the Vatican Obelisk was erected in 37 A.D."
+  },
+  {
+   "name": "Papal States",
+   "type": "place",
+   "role": "the country listed for the basilica in the note's infobox"
+  },
+  {
+   "name": "Roman Catholic",
+   "type": "organization",
+   "role": "the affiliation listed for the basilica"
+  }
+ ],
+ "tags": [
+  "basilica",
+  "vatican",
+  "ancient rome",
+  "church architecture",
+  "roman catholic"
+ ],
+ "category": "religion & culture",
+ "usage": {
+  "input_tokens": 1378,
+  "output_tokens": 967
+ }
+}

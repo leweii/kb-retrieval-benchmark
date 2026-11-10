@@ -1,0 +1,82 @@
+{
+ "summary": "The note gives statistics on World Series appearances and titles by franchise in the American and National Leagues. It highlights the New York Yankees' 27 titles and the St. Louis Cardinals' 11, and notes AL teams have won 65 of 113 series. It also lists the 2017 champion Houston Astros and the Commissioner's Trophy. The text contains a repeated paragraph with a discrepancy in the Dodgers' appearance count (19 vs 18).",
+ "one_line": "Overview of World Series history, with appearance and title counts by franchise and league, led by the Yankees' 27 championships.",
+ "key_facts": [
+  "The New York Yankees have played in 40 World Series and won 27, the most of any team.",
+  "The Philadelphia / Kansas City / Oakland Athletics have played in 14 World Series and won 9.",
+  "The Boston Red Sox have played in 12 World Series and won 8, including the first World Series.",
+  "The St. Louis Cardinals have appeared in 19 World Series and won 11, the most National League titles.",
+  "The New York / San Francisco Giants have played in 20 World Series and won 8.",
+  "The Brooklyn / Los Angeles Dodgers have won 6 World Series; the note gives their appearances as both 19 and 18 in two repeated paragraphs.",
+  "The Cincinnati Reds have appeared in 9 World Series and won 5.",
+  "American League teams have won 65 of the 113 World Series played (57.5%).",
+  "The Yankees' 27 titles account for 23.9% of all series played and 41.5% of AL wins.",
+  "The Cardinals' 11 titles account for 9.7% of all series played and 23% of the 48 National League victories.",
+  "The World Series was first played in 1903; the Commissioner's Trophy is awarded to the winner.",
+  "The Houston Astros are the current champions as of 2017, their 1st title, with the Los Angeles Dodgers as runners-up."
+ ],
+ "entities": [
+  {
+   "name": "New York Yankees",
+   "type": "organization",
+   "role": "AL team with most titles (27 of 40 appearances)"
+  },
+  {
+   "name": "Philadelphia / Kansas City / Oakland Athletics",
+   "type": "organization",
+   "role": "AL franchise with 14 appearances and 9 titles"
+  },
+  {
+   "name": "Boston Red Sox",
+   "type": "organization",
+   "role": "AL team with 12 appearances and 8 titles, in the first World Series"
+  },
+  {
+   "name": "St. Louis Cardinals",
+   "type": "organization",
+   "role": "NL team with 19 appearances and 11 titles"
+  },
+  {
+   "name": "New York / San Francisco Giants",
+   "type": "organization",
+   "role": "NL franchise with 20 appearances and 8 titles"
+  },
+  {
+   "name": "Brooklyn / Los Angeles Dodgers",
+   "type": "organization",
+   "role": "NL franchise with 6 titles; 2017 runners-up"
+  },
+  {
+   "name": "Cincinnati Reds",
+   "type": "organization",
+   "role": "NL team with 9 appearances and 5 titles"
+  },
+  {
+   "name": "Houston Astros",
+   "type": "organization",
+   "role": "2017 champions, first title"
+  },
+  {
+   "name": "Commissioner's Trophy",
+   "type": "other",
+   "role": "Trophy awarded to the World Series winner"
+  },
+  {
+   "name": "World Series",
+   "type": "event",
+   "role": "Championship series of Major League Baseball, first played 1903"
+  }
+ ],
+ "tags": [
+  "world series",
+  "mlb",
+  "baseball",
+  "yankees",
+  "championships"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1582,
+  "output_tokens": 1104
+ }
+}

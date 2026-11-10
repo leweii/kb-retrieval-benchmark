@@ -1,0 +1,96 @@
+{
+ "summary": "This NOAA SWPC page describes the Aurora 30 Minute Forecast product, a short-term forecast of the location and intensity of the aurora based on the OVATION model. It gives a 30 to 90 minute lead time, equal to the solar wind's travel time from the L1 point to Earth. The note also explains how the aurora maps are read, how OVATION was developed and updated from 2009 to 2020, and where the forecast data files can be accessed. Most of the page is navigation boilerplate, which was ignored.",
+ "one_line": "NOAA SWPC's 30-minute aurora forecast product, built on the OVATION model driven by L1 solar wind data.",
+ "key_facts": [
+  "The Aurora - 30 Minute Forecast is a short-term forecast of the location and intensity of the aurora, based on the OVATION model.",
+  "The product provides a 30 to 90 minute forecast of aurora location and intensity.",
+  "The forecast lead time is the time it takes for the solar wind to travel from the L1 observation point to Earth.",
+  "The aurora is typically shown as a green oval centered on Earth's magnetic pole, and the ovals turn red when the aurora is forecast to be more intense.",
+  "The aurora can be observed from as much as 1000 km away when it is bright and conditions are right.",
+  "OVATION stands for Oval Variation, Assessment, Tracking, Intensity, and Online Nowcasting.",
+  "OVATION was developed at the Johns Hopkins University Applied Physics Laboratory by Patrick Newell and co-workers.",
+  "The model uses solar wind velocity and interplanetary magnetic field measured at the L1 orbit position, 1.6 million km (1 million miles) upstream from Earth, as input.",
+  "When solar wind input data are contaminated or unavailable, an alternative estimate based on the current Kp geomagnetic index is used, and there is then no forecast lead time.",
+  "The original OVATION model, based solely on DMSP data, was only reliable to Kp of 7.",
+  "In 2013, Newell upgraded OVATION Prime by adding NASA TIMED GUVI data, extending it to Kp values of 8 and 9.",
+  "In 2011, NOAA (NCEI and SWPC) developed a real-time version of the OVATION model.",
+  "In 2016, NOAA SWPC shared the operational OVATION code, written in IDL, with the UK Met Office, which converted it to Python.",
+  "In 2020, NOAA SWPC implemented the new version of the OVATION Prime model into operations, dubbed OVATION 2020.",
+  "The Hemispheric Power Index, an estimate of total auroral energy input at each pole, is available in ASCII format."
+ ],
+ "entities": [
+  {
+   "name": "NOAA / NWS Space Weather Prediction Center",
+   "type": "organization",
+   "role": "publisher of the Aurora 30 Minute Forecast page and product"
+  },
+  {
+   "name": "OVATION",
+   "type": "program",
+   "role": "empirical aurora intensity model that drives the forecast; expansion Oval Variation, Assessment, Tracking, Intensity, and Online Nowcasting"
+  },
+  {
+   "name": "Johns Hopkins University, Applied Physics Laboratory",
+   "type": "organization",
+   "role": "institution where the OVATION model was developed"
+  },
+  {
+   "name": "Patrick Newell",
+   "type": "person",
+   "role": "developer of the OVATION model with co-workers"
+  },
+  {
+   "name": "L1 orbit position",
+   "type": "place",
+   "role": "upstream observation point 1.6 million km (1 million miles) from Earth where solar wind data are measured"
+  },
+  {
+   "name": "NASA Polar satellite",
+   "type": "product",
+   "role": "satellite carrying the Ultraviolet imager (UVI) used to validate the OVATION relationship"
+  },
+  {
+   "name": "NASA TIMED GUVI instrument",
+   "type": "product",
+   "role": "instrument whose data extended OVATION to Kp 8 and 9 storms"
+  },
+  {
+   "name": "DMSP data",
+   "type": "product",
+   "role": "data source for the original OVATION model, reliable only to Kp 7"
+  },
+  {
+   "name": "Machol and Redmon (NCEI)",
+   "type": "person",
+   "role": "developers of the real-time OVATION model"
+  },
+  {
+   "name": "Viereck (SWPC)",
+   "type": "person",
+   "role": "implemented the model and developed the real-time graphical products"
+  },
+  {
+   "name": "UK Met Office",
+   "type": "organization",
+   "role": "converted the OVATION model from IDL to Python"
+  },
+  {
+   "name": "OVATION 2020",
+   "type": "program",
+   "role": "new OVATION Prime version implemented into NOAA SWPC operations in 2020"
+  }
+ ],
+ "tags": [
+  "aurora",
+  "space weather",
+  "geomagnetic storms",
+  "ovation model",
+  "solar wind",
+  "noaa"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5967,
+  "output_tokens": 1530
+ }
+}

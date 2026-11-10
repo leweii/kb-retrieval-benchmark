@@ -1,0 +1,64 @@
+{
+ "summary": "A Earth Science Stack Exchange question asks whether the 2-D elevation wave spectrum (a function of wavenumber and direction, in m^4) is always positive and why. The accepted answer by milancurcic explains that wave variance and energy spectra are positive-definite because they are built from squared amplitudes of linear sinusoidal components, and it works through the frequency, wavenumber and directional spectrum definitions and their units. Comments note that all spectra are positive by definition and recommend reference books by Ian Young and Komen et al.",
+ "one_line": "Stack Exchange Q&A explaining why wave variance spectra are positive-definite and how their units differ across frequency, wavenumber and directional forms.",
+ "key_facts": [
+  "The question asks whether the 2-D elevation wave spectrum, a function of wavenumber and direction with units of m^4, is always positive.",
+  "The answer states that wave variance or energy spectrum, directional or non-directional, is positive-definite.",
+  "In linear water-wave theory the surface elevation is written as a sum of sinusoids eta(t) = sum a_i sin(f_i t + phi_i).",
+  "Wave variance is <eta^2> = (1/2N) sum a_i^2 = sigma^2.",
+  "The wave variance spectrum F(f) is defined such that F(f) Delta f = a_i^2 / 2.",
+  "In the continuous limit, the integral of F(f) from 0 to infinity over df equals sigma^2.",
+  "Because the spectrum is built from squared amplitudes, both the variance and individual discrete spectral components are positive-definite.",
+  "The relation F(k) = F(f) c_g links the wavenumber spectrum to the frequency spectrum, where c_g is the group velocity of an individual component.",
+  "The non-directional spectrum is the integral of the directional spectrum over all directions.",
+  "F(k) has units of m^3 and F(k,theta) has units of m^3 rad^-1 in the standard definition, since spectrum integrals must give m^2.",
+  "For a polar directional wavenumber spectrum weighted by k, F(k,theta) has units of m^4 rad^-1.",
+  "The answerer explains positive-definite as meaning the function is real and greater than zero.",
+  "Ian Young's wave book is recommended as excellent but expensive.",
+  "Komen et al. is recommended as a broad and thorough but more accessible text."
+ ],
+ "entities": [
+  {
+   "name": "milancurcic",
+   "type": "person",
+   "role": "answerer who wrote the accepted answer explaining positive-definiteness and spectrum units"
+  },
+  {
+   "name": "arkaia",
+   "type": "person",
+   "role": "commenter who stated that all spectra are always positive by definition"
+  },
+  {
+   "name": "Ian Young",
+   "type": "person",
+   "role": "author of a wave book described as excellent but very expensive"
+  },
+  {
+   "name": "Komen et al.",
+   "type": "other",
+   "role": "authors of a broad and thorough but more accessible wave text"
+  },
+  {
+   "name": "Earth Science Stack Exchange",
+   "type": "organization",
+   "role": "Q&A community where the question was posted"
+  },
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "parent company and network page shown in the clipped boilerplate"
+  }
+ ],
+ "tags": [
+  "ocean waves",
+  "wave spectrum",
+  "wave modeling",
+  "spectral analysis",
+  "wave variance"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5192,
+  "output_tokens": 1075
+ }
+}

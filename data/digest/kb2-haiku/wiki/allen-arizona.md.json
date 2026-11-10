@@ -1,0 +1,45 @@
+{
+ "summary": "This note describes Allen, Arizona, a ghost town in Pima County in southern Arizona. It states the town was founded around 1880, roughly fifty miles southeast of Ajo. The note says its post office closed by 1886 and the town has been abandoned since.",
+ "one_line": "Allen, Arizona is an abandoned ghost town in Pima County, founded around 1880 fifty miles southeast of Ajo.",
+ "key_facts": [
+  "Allen, also known as Allen City, is a ghost town in Pima County in southern Arizona.",
+  "Allen was founded fifty miles southeast of Ajo.",
+  "Allen was founded circa 1880.",
+  "By 1886, the post office in Allen closed.",
+  "The town of Allen has been abandoned since its post office closed.",
+  "Allen is located in Pima County, Arizona."
+ ],
+ "entities": [
+  {
+   "name": "Allen, Arizona",
+   "type": "place",
+   "role": "ghost town in Pima County in southern Arizona, founded c. 1880 and abandoned after its post office closed by 1886"
+  },
+  {
+   "name": "Allen City",
+   "type": "place",
+   "role": "alternate name for Allen, Arizona"
+  },
+  {
+   "name": "Pima County",
+   "type": "place",
+   "role": "county in southern Arizona where Allen is located"
+  },
+  {
+   "name": "Ajo",
+   "type": "place",
+   "role": "reference town located about fifty miles northwest of Allen's founding site"
+  }
+ ],
+ "tags": [
+  "arizona",
+  "ghost towns",
+  "pima county",
+  "local history"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1062,
+  "output_tokens": 480
+ }
+}

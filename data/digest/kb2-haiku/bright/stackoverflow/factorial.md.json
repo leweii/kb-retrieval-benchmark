@@ -1,0 +1,36 @@
+{
+ "summary": "This note is a documentation page for the FACTORIAL function, which computes the factorial of an integer input. The input must be an integer expression in the range 0 to 33. The page gives the syntax FACTORIAL( <integer_expr> ) and an example query returning factorials of 0, 1, 5 and 10. The surrounding navigation, feedback prompt and footer text are boilerplate.",
+ "one_line": "Documentation for the FACTORIAL function, which computes an integer's factorial for inputs from 0 to 33.",
+ "key_facts": [
+  "FACTORIAL computes the factorial of its input.",
+  "The input argument of FACTORIAL must be an integer expression in the range of 0 to 33.",
+  "The syntax of FACTORIAL is FACTORIAL( <integer_expr> ).",
+  "FACTORIAL(0) returns 1.",
+  "FACTORIAL(1) returns 1.",
+  "FACTORIAL(5) returns 120.",
+  "FACTORIAL(10) returns 3628800.",
+  "The example query is SELECT FACTORIAL(0), FACTORIAL(1), FACTORIAL(5), FACTORIAL(10);",
+  "The page is listed under the Arithmetic category in its navigation.",
+  "The page is listed under the Other category in its navigation.",
+  "The page's language is English."
+ ],
+ "entities": [
+  {
+   "name": "FACTORIAL",
+   "type": "program",
+   "role": "function that computes the factorial of an integer input in the range 0 to 33"
+  }
+ ],
+ "tags": [
+  "sql",
+  "factorial",
+  "arithmetic",
+  "function reference",
+  "math"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1398,
+  "output_tokens": 510
+ }
+}

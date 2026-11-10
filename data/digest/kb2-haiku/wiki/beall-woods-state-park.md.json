@@ -1,0 +1,65 @@
+{
+ "summary": "Beall Woods State Park is an Illinois state park bordering the Wabash River and Keensburg in Wabash County. Its core is an old-growth hardwood forest designated a state Natural Area, and portions are a National Natural Landmark called the Forest of the Wabash. The park was created in 1966 and offers a small primitive campground, a visitor center opened in April 2001, and hiking trails.",
+ "one_line": "Beall Woods State Park is an Illinois state park on the Wabash River with old-growth hardwood forest and a National Natural Landmark.",
+ "key_facts": [
+  "Beall Woods State Park is an Illinois state park bordering the Wabash River and Keensburg in Wabash County, Illinois.",
+  "The park's old-growth forest is designated a \"Natural Area\" by the state of Illinois.",
+  "The trees in the forest consist overwhelmingly of hardwoods of the former Eastern Woodlands ecosystem.",
+  "Portions of Beall Woods State Park have been designated a National Natural Landmark as the \"Forest of the Wabash\".",
+  "The state park was created in 1966.",
+  "The nearest towns with sizable commercial infrastructure, including hotels and grocery stores, are Grayville and Mount Carmel.",
+  "Beall Woods State Park hosts a small primitive campground.",
+  "Beall Woods State Park maintains a visitor center which opened in April 2001.",
+  "The park maintains hiking trails, primarily through the Forest of the Wabash portion of the park."
+ ],
+ "entities": [
+  {
+   "name": "Beall Woods State Park",
+   "type": "place",
+   "role": "Illinois state park bordering the Wabash River and Keensburg in Wabash County, containing an old-growth forest"
+  },
+  {
+   "name": "Wabash River",
+   "type": "place",
+   "role": "river bordering Beall Woods State Park"
+  },
+  {
+   "name": "Keensburg",
+   "type": "place",
+   "role": "town bordering Beall Woods State Park"
+  },
+  {
+   "name": "Wabash County, Illinois",
+   "type": "place",
+   "role": "county in which Beall Woods State Park is located"
+  },
+  {
+   "name": "Grayville",
+   "type": "place",
+   "role": "nearest town with sizable commercial infrastructure to the park"
+  },
+  {
+   "name": "Mount Carmel",
+   "type": "place",
+   "role": "nearest town with sizable commercial infrastructure to the park"
+  },
+  {
+   "name": "Forest of the Wabash",
+   "type": "place",
+   "role": "portion of Beall Woods State Park designated a National Natural Landmark"
+  }
+ ],
+ "tags": [
+  "illinois",
+  "state parks",
+  "old-growth forest",
+  "hardwood forest",
+  "wabash river",
+  "natural landmarks"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1265,
+  "output_tokens": 847
+ }
+}

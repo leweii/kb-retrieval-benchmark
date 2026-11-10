@@ -1,0 +1,90 @@
+{
+ "summary": "A guest post by Nick Wan of Utah State University, published on the Cognitive Neuroscience Society blog, explains functional near-infrared spectroscopy (fNIRS) as a portable brain-imaging tool that sits between EEG and fMRI. Drawing on preliminary data Daniel Belyusar of MIT's AGELAB presented at the Society for Neuroscience meeting, the post covers oxygen overshoot during cognitive tasks, the tradeoffs in temporal and spatial resolution, and fNIRS's robustness to motion and suitability for naturalistic experiments such as driving simulations. The surrounding navigation menus, archives and contact details are site boilerplate and were ignored.",
+ "one_line": "A guest post explaining fNIRS, a portable brain-imaging method combining EEG-like timing with fMRI-like spatial measurement for real-world studies.",
+ "key_facts": [
+  "fNIRS stands for functional near-infrared spectroscopy, a non-invasive tool that measures oxygen concentration levels in the brain.",
+  "Daniel Belyusar from MIT's AGELAB presented preliminary fNIRS data at the Society for Neuroscience (SfN) meeting in Washington, D.C.",
+  "In the presented study, drivers performed a numerical n-back task while steering a vehicle in a driving simulation.",
+  "As task difficulty increased in the driving study, driving performance decreased, and the fNIRS data showed an overshoot in oxygen level.",
+  "fMRI may record one sample per 2 seconds, whereas fNIRS can record 10 samples per 1 second.",
+  "fMRI only measures how much oxygen is consumed, not how much oxygen is available in the area.",
+  "fNIRS takes 10 samples per second, while EEG records 500 to 1000 samples per second.",
+  "fNIRS cannot analyze past the cortex, so it cannot capture subcortical activation that fMRI can image.",
+  "Current fNIRS devices are about 4 feet tall with a width and depth of about 3 feet; the Hitachi ETG-4000 was designed to be portable with wheels.",
+  "fNIRS is less sensitive to motion artifacts because it uses near-infrared light rather than magnetic fields or electrical activity.",
+  "Belyusar said time-series analysis, a technique used in EEG, is the likely next step for fNIRS data analysis.",
+  "Belyusar said, \"We're able to do more naturalistic things with fNIRS than with fMRI.\"",
+  "The post was written by Nick Wan, a graduate student at Utah State University, and was published December 8, 2014.",
+  "The post is filed under Uncategorized and tagged driving, fMRI and fNIRS on the Cognitive Neuroscience Society website."
+ ],
+ "entities": [
+  {
+   "name": "Nick Wan",
+   "type": "person",
+   "role": "Guest post author; graduate student at Utah State University who regularly writes about neuroscience and academia"
+  },
+  {
+   "name": "Daniel Belyusar",
+   "type": "person",
+   "role": "MIT AGELAB researcher who presented preliminary fNIRS work at SfN and was interviewed for the post"
+  },
+  {
+   "name": "MIT AGELAB",
+   "type": "organization",
+   "role": "Lab at MIT where Daniel Belyusar works; credited for the photo"
+  },
+  {
+   "name": "Utah State University",
+   "type": "organization",
+   "role": "University where guest author Nick Wan is a graduate student"
+  },
+  {
+   "name": "Society for Neuroscience (SfN) meeting",
+   "type": "event",
+   "role": "Annual meeting in Washington, D.C. where Belyusar presented fNIRS data"
+  },
+  {
+   "name": "Cognitive Neuroscience Society",
+   "type": "organization",
+   "role": "Society that published the blog post"
+  },
+  {
+   "name": "fNIRS",
+   "type": "product",
+   "role": "Functional near-infrared spectroscopy, the non-invasive portable brain-imaging method discussed"
+  },
+  {
+   "name": "fMRI",
+   "type": "product",
+   "role": "Functional magnetic resonance imaging, compared with fNIRS for spatial resolution and portability"
+  },
+  {
+   "name": "EEG",
+   "type": "product",
+   "role": "Electroencephalography, compared with fNIRS for temporal resolution and motion artifacts"
+  },
+  {
+   "name": "Hitachi ETG-4000",
+   "type": "product",
+   "role": "fNIRS device designed to be portable, with wheels attached below the unit"
+  },
+  {
+   "name": "True Brain",
+   "type": "other",
+   "role": "Blog where Nick Wan regularly writes about neuroscience and academia"
+  }
+ ],
+ "tags": [
+  "fnirs",
+  "neuroimaging",
+  "brain imaging",
+  "cognitive neuroscience",
+  "driving simulation",
+  "oxygenation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10670,
+  "output_tokens": 1518
+ }
+}

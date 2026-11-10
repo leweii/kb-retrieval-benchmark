@@ -1,0 +1,75 @@
+{
+ "summary": "This freeCodeCamp article by Ondiek Elijah Ochieng, published November 11, 2021, explains how to dockerize a basic Flask web application. It walks through a simple app.py, a Dockerfile based on python:3.8-slim-buster, building an image with docker build, and running it as a container in detached mode with port mapping. It also covers useful commands such as docker images, docker ps, docker stop and docker container prune. Boilerplate such as navigation, advertisements and charity text is ignored.",
+ "one_line": "A freeCodeCamp tutorial on packaging a basic Flask app into a Docker image and running it as a container.",
+ "key_facts": [
+  "The article was published November 11, 2021 on freeCodeCamp.org and is tagged #Docker.",
+  "The article was written by Ondiek Elijah Ochieng, a Software Developer and Ms Learn Student Ambassador.",
+  "Flask is described as a popular Python micro web framework for developing lightweight web applications and APIs.",
+  "A Docker container is described as a collection of dependencies and code organized as software that runs quickly and efficiently in a range of computing environments.",
+  "A Docker image is described as a blueprint that specifies how to run an application, and its build instructions are stored in a Dockerfile.",
+  "The Dockerfile in the tutorial starts with FROM python:3.8-slim-buster and sets WORKDIR /python-docker.",
+  "The Dockerfile installs dependencies by copying requirements.txt and running pip3 install -r requirements.txt.",
+  "The Dockerfile's CMD is [\"python3\", \"-m\", \"flask\", \"run\", \"--host=0.0.0.0\"] so the app is reachable from outside the container.",
+  "The image is built with the command docker build --tag python-docker .",
+  "Running the container with plain docker run leaves localhost:5000 unreachable in the browser, so the article recommends detached mode.",
+  "The recommended command is docker run -d -p 5000:5000 python-docker, where -d runs detached and -p exposes the port.",
+  "The command docker stop <container-name> stops a running container.",
+  "The command docker container prune removes unused resources, freeing up space and keeping the system clean.",
+  "The sample app.py returns the greeting '<h1>Hello from Flask & Docker</h2>' at the route '/'."
+ ],
+ "entities": [
+  {
+   "name": "Ondiek Elijah Ochieng",
+   "type": "person",
+   "role": "author of the article, a Software Developer and Ms Learn Student Ambassador"
+  },
+  {
+   "name": "freeCodeCamp.org",
+   "type": "organization",
+   "role": "publisher of the article, described as a donor-supported tax-exempt 501(c)(3) charity"
+  },
+  {
+   "name": "Flask",
+   "type": "product",
+   "role": "popular Python micro web framework used as the demonstration web framework"
+  },
+  {
+   "name": "Docker",
+   "type": "product",
+   "role": "tool used to create, ship, and run applications in containers"
+  },
+  {
+   "name": "Dockerfile",
+   "type": "product",
+   "role": "special file storing the instructions Docker uses to build an image"
+  },
+  {
+   "name": "python-docker",
+   "type": "product",
+   "role": "name of the Docker image built from the project in the tutorial"
+  },
+  {
+   "name": "docker.com",
+   "type": "organization",
+   "role": "source cited for the definitions of container and image"
+  },
+  {
+   "name": "Python",
+   "type": "product",
+   "role": "language of the Flask app, with base image python:3.8-slim-buster"
+  }
+ ],
+ "tags": [
+  "docker",
+  "flask",
+  "python",
+  "containers",
+  "tutorial",
+  "deployment"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6963,
+  "output_tokens": 1132
+ }
+}

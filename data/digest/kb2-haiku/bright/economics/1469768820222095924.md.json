@@ -1,0 +1,95 @@
+{
+ "summary": "This is the journal page for a 2022 Quantitative Finance research paper by K. Boudt, K. Dragun and S. Vanduffel on the optimal payoff for a Yaari investor, whose preferences follow Yaari's dual theory of choice under risk. The authors analyse optimal payoffs across several cases and give the optimal payoff under a variance constraint, extending mean-variance optimization to distorted expectation-variance optimization. They also derive the optimal payoff for an investor who wants to outperform an external benchmark while staying near it. The page is mostly navigation and citation boilerplate, and the content above is drawn from the abstract and notes.",
+ "one_line": "Boudt, Dragun and Vanduffel's 2022 Quantitative Finance paper deriving optimal payoffs for a Yaari (dual theory) investor, including under a variance constraint.",
+ "key_facts": [
+  "The paper 'The optimal payoff for a Yaari investor' was published in Quantitative Finance, Volume 22, Issue 10, in 2022, on pages 1839-1852.",
+  "The authors are K. Boudt, K. Dragun and S. Vanduffel.",
+  "The paper was received 08 Nov 2021, accepted 21 Jun 2022, and published online 28 Jul 2022.",
+  "The DOI of the article is 10.1080/14697688.2022.2095924.",
+  "Yaari's dual theory of choice under risk is described as the natural counterpart of expected utility theory.",
+  "Optimal payoff choice for an expected utility maximizer is well studied, but less is known about the optimal payoff for a Yaari investor.",
+  "The main contribution is the optimal payoff for a Yaari investor under a variance constraint, extending mean-variance optimization to distorted expectation-variance optimization.",
+  "The paper also derives the optimal payoff for an investor who aims to outperform an external benchmark while the payoff stays in the neighbourhood of this benchmark.",
+  "The keywords are decision analysis, preferences, cost-efficiency and Hoeffding-Fréchet bounds.",
+  "The Mathematics Subject Classifications listed are 91B28, 91B30, 91B02.",
+  "The paper was initiated during a research visit of Steven Vanduffel at the University of New South Wales (UNSW) in October 2019.",
+  "The results are also valid in incomplete market models with an empirical pricing measure after suitable calibration, but optimal payoffs may not be attainable there.",
+  "In the Black-Scholes market there is a bijection between the state-price density and the stock price, implying the optimal payoff is increasing in the stock price.",
+  "The page reports 136 views and 0 CrossRef citations to date.",
+  "A related article, 'Risk contributions of lambda quantiles' by A. Ince et al., was published online 20 Jul 2022 in Quantitative Finance."
+ ],
+ "entities": [
+  {
+   "name": "K. Boudt",
+   "type": "person",
+   "role": "author of 'The optimal payoff for a Yaari investor'"
+  },
+  {
+   "name": "K. Dragun",
+   "type": "person",
+   "role": "author of 'The optimal payoff for a Yaari investor'"
+  },
+  {
+   "name": "S. Vanduffel",
+   "type": "person",
+   "role": "author of 'The optimal payoff for a Yaari investor'; visited University of New South Wales in October 2019"
+  },
+  {
+   "name": "Qihe Tang",
+   "type": "person",
+   "role": "thanked in acknowledgments for hospitality and valuable comments on an earlier draft"
+  },
+  {
+   "name": "Jaak Moors",
+   "type": "person",
+   "role": "thanked in acknowledgments for his classes and encouragement to pursue research"
+  },
+  {
+   "name": "A. Ince",
+   "type": "person",
+   "role": "author of related article 'Risk contributions of lambda quantiles'"
+  },
+  {
+   "name": "Quantitative Finance",
+   "type": "program",
+   "role": "journal in which the paper was published (Volume 22, Issue 10, 2022)"
+  },
+  {
+   "name": "University of New South Wales (UNSW)",
+   "type": "organization",
+   "role": "institution hosting Steven Vanduffel's research visit in October 2019"
+  },
+  {
+   "name": "Taylor and Francis Online",
+   "type": "organization",
+   "role": "publisher platform hosting the article"
+  },
+  {
+   "name": "Yaari's dual theory of choice under risk",
+   "type": "other",
+   "role": "decision theory framework studied in the paper, natural counterpart of expected utility theory"
+  },
+  {
+   "name": "Black-Scholes market",
+   "type": "other",
+   "role": "market model in which the optimal payoff is shown to be increasing in the stock price"
+  },
+  {
+   "name": "Risk contributions of lambda quantiles",
+   "type": "product",
+   "role": "related research article cited on the page"
+  }
+ ],
+ "tags": [
+  "decision theory",
+  "portfolio optimization",
+  "risk measures",
+  "mean-variance",
+  "distorted expectation"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 2955,
+  "output_tokens": 1551
+ }
+}

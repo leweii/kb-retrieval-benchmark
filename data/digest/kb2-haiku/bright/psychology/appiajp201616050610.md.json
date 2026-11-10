@@ -1,0 +1,135 @@
+{
+ "summary": "This American Journal of Psychiatry article reports a cross-sectional MRI study of how gray matter volume and white matter fractional anisotropy change with age in schizophrenia. It compares 326 patients with schizophrenia or schizoaffective disorder against 197 healthy comparison subjects aged 20-65, using polynomial regression at whole-brain and voxel level. The main finding is that gray matter loss in schizophrenia is rapid early and slows in middle life, while white matter deterioration progresses at a constant, faster rate with age.",
+ "one_line": "MRI study finding accelerated gray matter loss early and steady, faster white matter deterioration with age in schizophrenia versus healthy controls.",
+ "key_facts": [
+  "The study was published in The American Journal of Psychiatry, first published online 6 Dec 2016, DOI 10.1176/appi.ajp.2016.16050610.",
+  "The study sample included 326 individuals diagnosed with schizophrenia or schizoaffective disorder and 197 healthy comparison subjects aged 20-65 years.",
+  "Schizophrenia patients in the study comprised 273 with schizophrenia (N=273) and 53 with schizoaffective disorder (N=53).",
+  "Gray matter volume loss in schizophrenia progressively worsened with age to a maximal loss of 8% in the seventh decade of life.",
+  "The inferred rate of gray matter volume loss was significantly accelerated in schizophrenia up to middle age and plateaued thereafter.",
+  "Significant reductions in fractional anisotropy emerged in schizophrenia only after age 35.",
+  "The slope of the fractional anisotropy decline was 60% steeper in schizophrenia relative to comparison subjects.",
+  "Rates of reduction of gray matter volume and fractional anisotropy were significantly faster in males than in females, but no sex-by-diagnosis interaction was evident.",
+  "The authors concluded schizophrenia is characterized by an initial, rapid rate of gray matter loss that slows in middle life, followed by a white matter deficit that worsens at a constant rate.",
+  "Participants were drawn from the Australian Schizophrenia Research Bank, a storage facility of medical research data collected across five Australian states and territories.",
+  "The study comprised 523 participants, including 225 males among the 326 patients and 99 males among the 197 comparison subjects.",
+  "Gray matter volume and fractional anisotropy analyses used permutation testing with 5,000 permutations and threshold-free cluster enhancement.",
+  "Compared with comparison subjects, the schizophrenia group had lower IQ (t=11.5, df=507.9, p<0.001) and a greater proportion of males (χ2=18.3, df=1, p<0.001).",
+  "The study was approved by the Melbourne Health Human Research Ethics Committee."
+ ],
+ "entities": [
+  {
+   "name": "Vanessa L. Cropley",
+   "type": "person",
+   "role": "author (Ph.D.)"
+  },
+  {
+   "name": "Paul Klauser",
+   "type": "person",
+   "role": "author (M.D., Ph.D.)"
+  },
+  {
+   "name": "Rhoshel K. Lenroot",
+   "type": "person",
+   "role": "author (M.D.)"
+  },
+  {
+   "name": "Jason Bruggemann",
+   "type": "person",
+   "role": "author (Ph.D.)"
+  },
+  {
+   "name": "Suresh Sundram",
+   "type": "person",
+   "role": "author (M.B.B.S., Ph.D.)"
+  },
+  {
+   "name": "Chad Bousman",
+   "type": "person",
+   "role": "author (Ph.D.)"
+  },
+  {
+   "name": "Avril Pereira",
+   "type": "person",
+   "role": "author (Ph.D.)"
+  },
+  {
+   "name": "Maria A. Di Biase",
+   "type": "person",
+   "role": "author (B.S.)"
+  },
+  {
+   "name": "Thomas W. Weickert",
+   "type": "person",
+   "role": "author (Ph.D.)"
+  },
+  {
+   "name": "Cynthia Shannon Weickert",
+   "type": "person",
+   "role": "author (Ph.D.)"
+  },
+  {
+   "name": "Christos Pantelis",
+   "type": "person",
+   "role": "author (M.B.B.S., M.D.)"
+  },
+  {
+   "name": "Andrew Zalesky",
+   "type": "person",
+   "role": "author (Ph.D.)"
+  },
+  {
+   "name": "The American Journal of Psychiatry",
+   "type": "program",
+   "role": "journal in which the article was published"
+  },
+  {
+   "name": "Australian Schizophrenia Research Bank",
+   "type": "organization",
+   "role": "source of participant data, a storage facility of medical research data collected across five Australian states and territories"
+  },
+  {
+   "name": "Melbourne Health Human Research Ethics Committee",
+   "type": "organization",
+   "role": "approved the study procedures"
+  },
+  {
+   "name": "optimized voxel-based morphometry toolbox for SPM8",
+   "type": "product",
+   "role": "software used to calculate relative gray matter volume maps"
+  },
+  {
+   "name": "FMRIB diffusion toolkit",
+   "type": "product",
+   "role": "software used with tract-based spatial statistics to calculate fractional anisotropy maps"
+  },
+  {
+   "name": "Randomise",
+   "type": "product",
+   "role": "FMRIB Software Library tool used for permutation testing"
+  },
+  {
+   "name": "schizophrenia",
+   "type": "other",
+   "role": "disorder whose age-related brain structural changes are studied"
+  },
+  {
+   "name": "schizoaffective disorder",
+   "type": "other",
+   "role": "diagnosis of 53 patients in the study"
+  }
+ ],
+ "tags": [
+  "schizophrenia",
+  "neuroimaging",
+  "brain aging",
+  "gray matter",
+  "white matter",
+  "psychiatry"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 16507,
+  "output_tokens": 1770
+ }
+}

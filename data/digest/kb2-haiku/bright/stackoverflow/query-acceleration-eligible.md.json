@@ -1,0 +1,38 @@
+{
+ "summary": "This note documents the QUERY_ACCELERATION_ELIGIBLE view, an Account Usage view for identifying SQL queries eligible for the query acceleration service. It lists the view's columns, including query identifiers and text, timing, warehouse details, eligible acceleration time, the upper limit scale factor, and query hash fields. It also notes that data latency can be up to 180 minutes and that query acceleration supports SELECT, INSERT containing a SELECT, and CREATE TABLE AS SELECT statements.",
+ "one_line": "Reference page for the QUERY_ACCELERATION_ELIGIBLE Account Usage view, which identifies queries eligible for the query acceleration service.",
+ "key_facts": [
+  "The QUERY_ACCELERATION_ELIGIBLE view is an Account Usage view used to identify queries that are eligible for the query acceleration service.",
+  "The ELIGIBLE_QUERY_ACCELERATION_TIME column is a NUMBER giving the amount of query execution time, in seconds, eligible for the query acceleration service.",
+  "The UPPER_LIMIT_SCALE_FACTOR column is a NUMBER that gives the acceleration-max-scale-factor for the given query.",
+  "The QUERY_HASH column is a TEXT value computed based on the canonicalized SQL text.",
+  "The QUERY_PARAMETERIZED_HASH column is a TEXT value computed based on the parameterized query.",
+  "The WAREHOUSE_SIZE column is a TEXT value giving the size of the warehouse when the statement executed.",
+  "The START_TIME and END_TIME columns are TIMESTAMP_LTZ values giving the statement start and end times.",
+  "The QUERY_ID column is a TEXT internal/system-generated identifier for the SQL statement.",
+  "Latency for the view may be up to 180 minutes (3 hours).",
+  "Query acceleration is supported for SELECT statements.",
+  "Query acceleration is supported for INSERT statements when the statement contains a SELECT statement.",
+  "Query acceleration is supported for CREATE TABLE AS SELECT (CTAS) statements.",
+  "The QUERY_HASH_VERSION and QUERY_PARAMETERIZED_HASH_VERSION columns are NUMBER values giving the hash versions used to compute the respective hashes."
+ ],
+ "entities": [
+  {
+   "name": "QUERY_ACCELERATION_ELIGIBLE",
+   "type": "product",
+   "role": "Account Usage view used to identify queries eligible for the query acceleration service"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account usage",
+  "query acceleration",
+  "sql",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1786,
+  "output_tokens": 872
+ }
+}

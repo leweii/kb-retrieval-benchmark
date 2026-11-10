@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on the song \"Luck Be a Lady.\" It states that Frank Loesser wrote the song in 1950 and that Robert Alda first performed it. It also notes that the song was featured in the musical Guys and Dolls.",
+ "one_line": "\"Luck Be a Lady\" is a 1950 song by Frank Loesser, first performed by Robert Alda and featured in the musical Guys and Dolls.",
+ "key_facts": [
+  "\"Luck Be a Lady\" is a song written by Frank Loesser.",
+  "Frank Loesser wrote \"Luck Be a Lady\" in 1950.",
+  "\"Luck Be a Lady\" was first performed by Robert Alda.",
+  "\"Luck Be a Lady\" was featured in the musical Guys and Dolls."
+ ],
+ "entities": [
+  {
+   "name": "Luck Be a Lady",
+   "type": "product",
+   "role": "song written by Frank Loesser in 1950 and first performed by Robert Alda"
+  },
+  {
+   "name": "Frank Loesser",
+   "type": "person",
+   "role": "writer of the song \"Luck Be a Lady\" in 1950"
+  },
+  {
+   "name": "Robert Alda",
+   "type": "person",
+   "role": "first performer of the song \"Luck Be a Lady\""
+  },
+  {
+   "name": "Guys and Dolls",
+   "type": "product",
+   "role": "musical in which the song was featured"
+  }
+ ],
+ "tags": [
+  "music",
+  "broadway",
+  "musical theatre",
+  "songs",
+  "frank loesser"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1048,
+  "output_tokens": 485
+ }
+}

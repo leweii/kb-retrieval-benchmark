@@ -1,0 +1,52 @@
+{
+ "summary": "This page is a reference entry for the DESCRIBE WAREHOUSE command, which describes a named warehouse and shows details such as its creation date. It gives the syntax, notes that DESCRIBE can be abbreviated to DESC, and includes an example that creates a warehouse, describes it, and shows the output columns. The Usage Notes section is empty.",
+ "one_line": "Reference page for the DESCRIBE WAREHOUSE command, which shows a warehouse's details such as its creation date, with syntax and an example.",
+ "key_facts": [
+  "DESCRIBE WAREHOUSE describes the warehouse, for example by showing the date the warehouse was created.",
+  "DESCRIBE can be abbreviated to DESC.",
+  "The syntax is DESC[RIBE] WAREHOUSE <name>, where the parameter is name.",
+  "The example creates a warehouse named temporary__warehouse with WAREHOUSE_SIZE=XSMALL.",
+  "The example then runs DESCRIBE WAREHOUSE temporary_warehouse.",
+  "The example output has three columns: created_on, name, and kind.",
+  "The example output shows created_on as 2022-06-23 00:00:00.000 -0700.",
+  "The example output shows name as TEMPORARY_WAREHOUSE and kind as WAREHOUSE.",
+  "The example's CREATE statement uses the name temporary__warehouse (double underscore), while the DESCRIBE statement uses temporary_warehouse (single underscore).",
+  "The Usage Notes section of the page has no content.",
+  "The page sections are Syntax, Parameters, Usage Notes, and Examples.",
+  "The page is listed under the language English and includes a 'Was this page helpful?' prompt."
+ ],
+ "entities": [
+  {
+   "name": "DESCRIBE WAREHOUSE",
+   "type": "other",
+   "role": "SQL command that describes a warehouse and shows details such as its creation date"
+  },
+  {
+   "name": "DESC",
+   "type": "other",
+   "role": "abbreviated form of DESCRIBE"
+  },
+  {
+   "name": "temporary_warehouse",
+   "type": "other",
+   "role": "warehouse described in the example, shown in output as TEMPORARY_WAREHOUSE"
+  },
+  {
+   "name": "temporary__warehouse",
+   "type": "other",
+   "role": "warehouse created in the example with WAREHOUSE_SIZE=XSMALL"
+  }
+ ],
+ "tags": [
+  "sql",
+  "data warehouse",
+  "database commands",
+  "warehouse management",
+  "reference documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1503,
+  "output_tokens": 1309
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "summary": "This is a clipped Halo Waypoint web page for Halo Infinite, mostly navigation and platform boilerplate. The actual promotional text says Cyber Showdown returns with a free 20-tier Operation Pass with new customization rewards for the CHIMERA Armor Core, and the Premium Operation Pass adds the Emberbreak Armor Coating, a fourth Challenge Slot, and bonus XP. The page lists Xbox, Windows and Steam as platforms. The note's domain field says earth_science, but its content is about a video game.",
+ "one_line": "Halo Waypoint promotion for Halo Infinite's Cyber Showdown event, its free and Premium Operation Passes, and platform availability.",
+ "key_facts": [
+  "The page's main heading is \"Halo Infinite\".",
+  "The promotional text opens with \"Arise, Executor!\" and says Cyber Showdown returns.",
+  "Cyber Showdown returns with a free 20-tier Operation Pass.",
+  "The free Operation Pass features new customization rewards for the CHIMERA Armor Core.",
+  "Securing the Premium Operation Pass obtains the Emberbreak Armor Coating.",
+  "The Premium Operation Pass also grants a fourth Challenge Slot and bonus XP.",
+  "The page lists availability on Xbox, Windows and Steam.",
+  "The site's Games menu links to Halo Infinite and Halo: The Master Chief Collection.",
+  "The site's Community menu links to Halo Insider, Content Browser and Leaderboards.",
+  "The site's navigation includes News, Esports, Show, Support and Gear sections.",
+  "The page includes a \"Get Halo\" purchase button.",
+  "The note's metadata lists the domain as \"earth_science\" and the source as \"bright\", which does not match the video game content."
+ ],
+ "entities": [
+  {
+   "name": "Halo Infinite",
+   "type": "product",
+   "role": "game featured on the page, with the Cyber Showdown event and Operation Pass"
+  },
+  {
+   "name": "Halo Waypoint",
+   "type": "organization",
+   "role": "website hosting the Halo Infinite page, shown in the header logo and navigation"
+  },
+  {
+   "name": "Cyber Showdown",
+   "type": "event",
+   "role": "event returning to Halo Infinite with a free 20-tier Operation Pass"
+  },
+  {
+   "name": "Operation Pass",
+   "type": "program",
+   "role": "free 20-tier pass with customization rewards; the Premium version adds the Emberbreak Armor Coating, a fourth Challenge Slot and bonus XP"
+  },
+  {
+   "name": "Emberbreak Armor Coating",
+   "type": "product",
+   "role": "reward obtained by securing the Premium Operation Pass"
+  },
+  {
+   "name": "CHIMERA Armor Core",
+   "type": "product",
+   "role": "armor core that receives new customization rewards in the Operation Pass"
+  },
+  {
+   "name": "Halo: The Master Chief Collection",
+   "type": "product",
+   "role": "other Halo game linked from the Games menu"
+  },
+  {
+   "name": "Halo Insider",
+   "type": "program",
+   "role": "community link in the site's Community menu"
+  },
+  {
+   "name": "Content Browser",
+   "type": "program",
+   "role": "community link in the site's Community menu, under Halo Infinite"
+  },
+  {
+   "name": "Leaderboards",
+   "type": "program",
+   "role": "community link in the site's Community menu, under Halo Infinite"
+  },
+  {
+   "name": "Xbox",
+   "type": "product",
+   "role": "platform on which Halo Infinite is listed as available"
+  },
+  {
+   "name": "Windows",
+   "type": "product",
+   "role": "platform on which Halo Infinite is listed as available"
+  },
+  {
+   "name": "Steam",
+   "type": "product",
+   "role": "platform on which Halo Infinite is listed as available"
+  }
+ ],
+ "tags": [
+  "halo infinite",
+  "video games",
+  "cyber showdown",
+  "halo waypoint",
+  "operation pass",
+  "game promotion"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 21982,
+  "output_tokens": 2017
+ }
+}

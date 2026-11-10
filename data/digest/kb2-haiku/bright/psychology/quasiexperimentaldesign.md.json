@@ -1,0 +1,84 @@
+{
+ "summary": "This Research Methods Knowledge Base page introduces quasi-experimental design, which resembles an experimental design but lacks random assignment. It notes such designs are often inferior on internal validity yet more frequently implemented than randomized experiments. The page previews two classic designs in detail, the nonequivalent groups design and the regression-discontinuity design, and briefly lists other quasi-experiments, while noting interrupted time series designs are not covered.",
+ "one_line": "Introduction to quasi-experimental design, which lacks random assignment, and a preview of its classic variants in Trochim's Research Methods Knowledge Base.",
+ "key_facts": [
+  "A quasi-experimental design looks a bit like an experimental design but lacks the key ingredient of random assignment.",
+  "Don Campbell, the author's mentor, often referred to quasi-experiments as \"queasy\" experiments because they give experimental purists a queasy feeling.",
+  "With respect to internal validity, quasi-experimental designs often appear to be inferior to randomized experiments.",
+  "Taken as a group, quasi-experimental designs are easily more frequently implemented than their randomized cousins.",
+  "The nonequivalent groups design is probably the most commonly used quasi-experimental design and may be the most commonly used of all designs.",
+  "In its simplest form, the nonequivalent groups design requires a pretest and posttest for a treated group and a comparison group.",
+  "The nonequivalent groups design is identical to the Analysis of Covariance design except that the groups are not created through random assignment.",
+  "The regression-discontinuity design assigns treatment using a cutoff score on a pretreatment variable.",
+  "The regression-discontinuity design strikes most people as biased because of regression to the mean, but the page says this is not the case.",
+  "The page lists other quasi-experiments including the Proxy Pretest Design, Double Pretest Design, Nonequivalent Dependent Variables Design, Pattern Matching Design, and the Regression Point Displacement design.",
+  "The Regression Point Displacement Design was first described in a paper the author co-authored with Donald T. Campbell.",
+  "Donald T. Campbell died in Spring 1996, after about five drafts each over a five year period.",
+  "Interrupted time series designs are a major class of quasi-experimental designs not included on this page."
+ ],
+ "entities": [
+  {
+   "name": "Don Campbell",
+   "type": "person",
+   "role": "author's mentor who often referred to quasi-experimental designs as \"queasy\" experiments"
+  },
+  {
+   "name": "Prof William M.K. Trochim",
+   "type": "person",
+   "role": "author of the Research Methods Knowledge Base page"
+  },
+  {
+   "name": "Donald T. Campbell",
+   "type": "person",
+   "role": "co-author with the author of the paper first describing the Regression Point Displacement Design"
+  },
+  {
+   "name": "Research Methods Knowledge Base",
+   "type": "program",
+   "role": "online knowledge base hosting the page, by Prof William M.K. Trochim, hosted by Conjointly"
+  },
+  {
+   "name": "Conjointly",
+   "type": "organization",
+   "role": "survey research platform that hosts the Research Methods Knowledge Base"
+  },
+  {
+   "name": "Nonequivalent Groups Design",
+   "type": "other",
+   "role": "most commonly used quasi-experimental design, requiring a pretest and posttest for treated and comparison groups"
+  },
+  {
+   "name": "Regression-Discontinuity Design",
+   "type": "other",
+   "role": "quasi-experimental design assigning treatment by a cutoff score on a pretreatment variable"
+  },
+  {
+   "name": "Regression Point Displacement Design",
+   "type": "other",
+   "role": "newest quasi-experiment, co-described by the author and Donald T. Campbell"
+  },
+  {
+   "name": "Analysis of Covariance",
+   "type": "other",
+   "role": "design the nonequivalent groups design is identical to, except groups are not randomly assigned"
+  },
+  {
+   "name": "Interrupted time series designs",
+   "type": "other",
+   "role": "major class of quasi-experimental designs not covered on this page"
+  }
+ ],
+ "tags": [
+  "quasi-experimental design",
+  "research design",
+  "internal validity",
+  "nonequivalent groups",
+  "regression-discontinuity",
+  "research methods"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8684,
+  "output_tokens": 1327
+ }
+}

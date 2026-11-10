@@ -1,0 +1,56 @@
+{
+ "summary": "The note describes Foligno Cathedral, a Roman Catholic cathedral on Piazza della Repubblica in central Foligno, Italy. It was built on the site of an earlier basilica and is dedicated to the city's patron saint, the martyr Felician of Foligno (San Feliciano), who was buried there in 251 AD. The cathedral is the seat of the Bishop of Foligno.",
+ "one_line": "Foligno Cathedral is the Roman Catholic cathedral in central Foligno, Italy, dedicated to the martyr Saint Felician and seat of the Bishop of Foligno.",
+ "key_facts": [
+  "Foligno Cathedral is a Roman Catholic cathedral.",
+  "Foligno Cathedral is situated on the Piazza della Repubblica in the center of Foligno, Italy.",
+  "Foligno Cathedral was built on the site of an earlier basilica.",
+  "Foligno Cathedral is dedicated to the patron saint of Foligno, the martyr Felician of Foligno (San Feliciano).",
+  "Felician of Foligno was buried in the cathedral in 251 AD.",
+  "Foligno Cathedral is the seat of the Bishop of Foligno."
+ ],
+ "entities": [
+  {
+   "name": "Foligno Cathedral",
+   "type": "place",
+   "role": "Roman Catholic cathedral on Piazza della Repubblica in central Foligno, Italy, seat of the Bishop of Foligno"
+  },
+  {
+   "name": "Piazza della Repubblica",
+   "type": "place",
+   "role": "square in the center of Foligno where the cathedral is situated"
+  },
+  {
+   "name": "Foligno",
+   "type": "place",
+   "role": "city in Italy where the cathedral is located and whose patron saint the cathedral honors"
+  },
+  {
+   "name": "Felician of Foligno",
+   "type": "person",
+   "role": "martyr and patron saint of Foligno, buried in the cathedral in 251 AD"
+  },
+  {
+   "name": "San Feliciano",
+   "type": "person",
+   "role": "alternate Italian name of Felician of Foligno, to whom the cathedral is dedicated"
+  },
+  {
+   "name": "Bishop of Foligno",
+   "type": "organization",
+   "role": "bishop whose seat is Foligno Cathedral"
+  }
+ ],
+ "tags": [
+  "cathedral",
+  "catholic church",
+  "foligno",
+  "italy",
+  "saints"
+ ],
+ "category": "religion & culture",
+ "usage": {
+  "input_tokens": 1122,
+  "output_tokens": 750
+ }
+}

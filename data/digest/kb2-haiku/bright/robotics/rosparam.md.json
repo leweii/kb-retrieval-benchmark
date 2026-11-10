@@ -1,0 +1,104 @@
+{
+ "summary": "This is a ROS Wiki package page for rosparam, a command-line tool for getting and setting ROS Parameters on the Parameter Server using YAML-encoded files, plus an experimental library for using YAML with the Parameter Server intended for internal use only. The page is mostly boilerplate and per-distribution metadata (documentation generation dates, dependencies, users, build history) across ROS distros from diamondback through noetic. The package is authored by Ken Conley, maintained by Open Robotics staff in later releases, and licensed under BSD.",
+ "one_line": "ROS Wiki page for rosparam, the command-line tool and library for getting and setting ROS Parameter Server values via YAML files.",
+ "key_facts": [
+  "rosparam is a command-line tool for getting and setting ROS Parameters on the Parameter Server using YAML-encoded files.",
+  "rosparam contains an experimental library for using YAML with the Parameter Server, intended for internal use only.",
+  "rosparam can be invoked within a roslaunch file.",
+  "The rosparam package is authored by Ken Conley and licensed under BSD.",
+  "The Source for the diamondback-era package was svn https://code.ros.org/svn/ros/stacks/ros_comm/tags/ros_comm-1.4.8.",
+  "For the fuerte distribution, the source was git https://github.com/ros/ros_comm.git on branch ros_comm-1.6 and fuerte-devel with documentation generated on December 28, 2013.",
+  "Maintainer for the groovy, hydro, indigo, jade, kinetic, lunar, melodic and noetic releases is listed as Dirk Thomas, and in kinetic and later as Jacob Perron, Michael Carroll and Shane Loretz of Open Robotics.",
+  "Documentation for the noetic distribution was generated on November 23, 2023 at 11:55 AM.",
+  "Documentation for the melodic distribution was generated on March 01, 2022 at 07:25 AM.",
+  "The page lists the ROS 2 documentation links for Humble, Iron, and Rolling, noting the ROS Wiki is for ROS 1.",
+  "The melodic and noetic continuous integration build history shows build #69 on 17-Oct-2020 with 1400 of 1401 tests passing.",
+  "The rosparam package depends on roslib in the diamondback and electric releases, and on catkin and rosgraph in groovy and later releases.",
+  "The electric distribution lists python-yaml and roslib as dependencies."
+ ],
+ "entities": [
+  {
+   "name": "rosparam",
+   "type": "program",
+   "role": "command-line tool and experimental library for getting and setting ROS Parameters using YAML-encoded files"
+  },
+  {
+   "name": "Parameter Server",
+   "type": "program",
+   "role": "ROS component on which rosparam gets and sets ROS Parameters"
+  },
+  {
+   "name": "roslaunch",
+   "type": "program",
+   "role": "ROS launch tool within which rosparam can be invoked"
+  },
+  {
+   "name": "Ken Conley",
+   "type": "person",
+   "role": "author of the rosparam package"
+  },
+  {
+   "name": "Dirk Thomas",
+   "type": "person",
+   "role": "maintainer of rosparam in groovy through melodic releases"
+  },
+  {
+   "name": "Jacob Perron",
+   "type": "person",
+   "role": "maintainer of rosparam in kinetic and later releases, listed with openrobotics address"
+  },
+  {
+   "name": "Michael Carroll",
+   "type": "person",
+   "role": "maintainer of rosparam in kinetic and later releases, listed with openrobotics address"
+  },
+  {
+   "name": "Shane Loretz",
+   "type": "person",
+   "role": "maintainer of rosparam in kinetic and later releases, listed with openrobotics address"
+  },
+  {
+   "name": "roslib",
+   "type": "program",
+   "role": "dependency of rosparam in diamondback and electric releases"
+  },
+  {
+   "name": "python-yaml",
+   "type": "program",
+   "role": "dependency of rosparam in electric, groovy and hydro releases"
+  },
+  {
+   "name": "rosgraph",
+   "type": "program",
+   "role": "dependency of rosparam in groovy and later releases"
+  },
+  {
+   "name": "catkin",
+   "type": "program",
+   "role": "build dependency of rosparam in groovy and later releases"
+  },
+  {
+   "name": "ros_comm",
+   "type": "program",
+   "role": "ROS communications stack containing the rosparam package"
+  },
+  {
+   "name": "Open Robotics",
+   "type": "organization",
+   "role": "organization whose address is used for rosparam maintainers in later releases"
+  }
+ ],
+ "tags": [
+  "ros",
+  "robotics",
+  "parameter-server",
+  "yaml",
+  "roslaunch",
+  "ros1"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17626,
+  "output_tokens": 1456
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "summary": "The note explains that the U.S. Constitution and federal law do not require presidential electors to vote according to their state's popular vote, although some states bind electors by state law. It notes that faithless electors have occurred only a few times and never changed a presidential outcome. It also stresses that the Electoral College vote, not the popular vote, decides the presidency, so a candidate can win the presidency while losing the popular vote, as happened in 1876, 1888, 2000 and 2016.",
+ "one_line": "Explains that the Electoral College, not the popular vote, decides the U.S. presidency, and that electors are not strictly bound by federal law.",
+ "key_facts": [
+  "No constitutional provision or federal law requires electors to vote according to the results of their state's popular vote.",
+  "Some states bind their electors to their pledges by state law.",
+  "Historically there have been only a few instances of faithless electors casting ballots for a candidate to whom they were not pledged.",
+  "Faithless elector instances have never resulted in changing the final outcome of a presidential election.",
+  "The popular vote does not declare the presidency; the Electoral College vote does.",
+  "A candidate can win the electoral vote and the presidency even if another candidate wins the popular vote.",
+  "The note states that this happened in 1876.",
+  "The note states that this happened in 1888.",
+  "The note states that this happened in 2000.",
+  "The note states that this happened in 2016."
+ ],
+ "entities": [
+  {
+   "name": "Electoral College",
+   "type": "other",
+   "role": "body whose electoral vote determines the U.S. presidency, not the popular vote"
+  },
+  {
+   "name": "faithless electors",
+   "type": "other",
+   "role": "electors who cast ballots for a candidate to whom they were not pledged"
+  }
+ ],
+ "tags": [
+  "electoral college",
+  "us presidential elections",
+  "faithless electors",
+  "popular vote",
+  "elections"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 1179,
+  "output_tokens": 577
+ }
+}

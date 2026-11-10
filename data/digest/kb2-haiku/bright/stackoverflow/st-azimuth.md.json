@@ -1,0 +1,63 @@
+{
+ "summary": "This note is a documentation page for the ST_AZIMUTH geospatial function, which returns the azimuth in radians from an origin Point to a target Point for both GEOGRAPHY and GEOMETRY objects. It explains the compass convention (0 for north, π/2 east, π south, 3π/2 west), the NULL result when both points coincide, and the spherical-Earth formula for geography with a caution that elliptical Earth models can give significantly different results. It also gives syntax, argument descriptions, usage notes, and several SQL examples with their outputs.",
+ "one_line": "Documentation for the ST_AZIMUTH function, which computes the azimuth in radians between two Points for GEOGRAPHY or GEOMETRY objects.",
+ "key_facts": [
+  "ST_AZIMUTH returns the azimuth in radians between an origin Point (the observer's location) and a specified target Point.",
+  "The azimuth is positive in the clockwise direction and is 0 for a line segment pointing north.",
+  "The azimuth is π/2 for a line segment pointing east, π for south, and 3π/2 for west.",
+  "If the two Points are the same location, ST_AZIMUTH returns NULL.",
+  "For GEOGRAPHY objects on a spherical Earth, the calculation uses a described formula; systems using an elliptical Earth model use a more complex algorithm that can occasionally yield significantly different results.",
+  "The return type of ST_AZIMUTH is REAL.",
+  "If one of the input geospatial objects is not a Point, the function reports an error.",
+  "The function returns NULL if one or both input points are NULL.",
+  "The GEOGRAPHY example with origin POINT(0 1) and target POINT(0 0) returns 3.141592654 radians.",
+  "The GEOGRAPHY example using DEGREES on origin POINT(0 1) and target POINT(1 2) returns 44.978182941 degrees.",
+  "The GEOMETRY example with origin POINT(0 1) and target POINT(0 0) returns 3.141592654 radians.",
+  "The GEOMETRY example with origin POINT(0 0) and target POINT(0.707 0.707) returns 0.7853981634 radians.",
+  "For GEOMETRY objects, the reference direction is the Y-axis."
+ ],
+ "entities": [
+  {
+   "name": "ST_AZIMUTH",
+   "type": "program",
+   "role": "geospatial function that returns the azimuth in radians between an origin Point and a target Point"
+  },
+  {
+   "name": "GEOGRAPHY",
+   "type": "product",
+   "role": "data type whose Point objects are used with ST_AZIMUTH on a spherical Earth model"
+  },
+  {
+   "name": "GEOMETRY",
+   "type": "product",
+   "role": "data type whose Point objects are used with ST_AZIMUTH, using the Y-axis as the north reference"
+  },
+  {
+   "name": "TO_GEOGRAPHY",
+   "type": "program",
+   "role": "function used in examples to create GEOGRAPHY Point objects from WKT text"
+  },
+  {
+   "name": "TO_GEOMETRY",
+   "type": "program",
+   "role": "function used in examples to create GEOMETRY Point objects from WKT text"
+  },
+  {
+   "name": "DEGREES",
+   "type": "program",
+   "role": "function used in an example to convert the radian result of ST_AZIMUTH to degrees"
+  }
+ ],
+ "tags": [
+  "geospatial",
+  "sql-functions",
+  "azimuth",
+  "geography",
+  "geometry"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2893,
+  "output_tokens": 1097
+ }
+}

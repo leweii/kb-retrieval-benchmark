@@ -1,0 +1,40 @@
+{
+ "summary": "The note describes the Church of San Pietro in Montorio, which was built on the site of an earlier 9th-century church dedicated to Saint Peter on Rome's Janiculum hill. The church functions as a shrine marking the supposed site of St. Peter's crucifixion.",
+ "one_line": "San Pietro in Montorio is a church on Rome's Janiculum hill, built over a 9th-century Saint Peter church and serving as a shrine to Peter's supposed crucifixion site.",
+ "key_facts": [
+  "The Church of San Pietro in Montorio was built on the site of an earlier 9th-century church.",
+  "The earlier church on the site was dedicated to Saint Peter.",
+  "The earlier 9th-century church stood on Rome's Janiculum hill.",
+  "The Church of San Pietro in Montorio serves as a shrine.",
+  "The shrine marks the supposed site of St. Peter's crucifixion."
+ ],
+ "entities": [
+  {
+   "name": "Church of San Pietro in Montorio",
+   "type": "place",
+   "role": "church built on the site of an earlier 9th-century church and serving as a shrine marking the supposed site of St. Peter's crucifixion"
+  },
+  {
+   "name": "Saint Peter",
+   "type": "person",
+   "role": "saint to whom the earlier 9th-century church was dedicated and whose supposed crucifixion site the shrine marks"
+  },
+  {
+   "name": "Janiculum hill",
+   "type": "place",
+   "role": "hill in Rome where the earlier 9th-century church stood"
+  }
+ ],
+ "tags": [
+  "rome",
+  "churches",
+  "saint peter",
+  "christianity",
+  "religious sites"
+ ],
+ "category": "religion & culture",
+ "usage": {
+  "input_tokens": 1074,
+  "output_tokens": 519
+ }
+}

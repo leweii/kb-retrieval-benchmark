@@ -1,0 +1,94 @@
+{
+ "summary": "This ScienceDirect page is a preview of a 2021 Journal of Quantitative Spectroscopy and Radiative Transfer article, titled 'Identification of polluted clouds and composition analysis based on GF-5 DPC data', by Fei Shen, Qunying Zhang, Jinji Ma, Zhengqiang Li and Jin Hong. The authors use GF-5 DPC polarization data to identify continental polluted cumulus clouds over China, analyze their transport with wind fields and backward trajectories, and infer their composition from SONET aerosol classes, verified with OPAC software and compared against CALIPSO VFM data. The page text consists mainly of highlights, the abstract and the start of the introduction, with navigation and access boilerplate removed.",
+ "one_line": "A 2021 study using GF-5 DPC satellite polarization data to identify polluted clouds over China and infer their aerosol composition.",
+ "key_facts": [
+  "The article is published in Journal of Quantitative Spectroscopy and Radiative Transfer, Volume 269, July 2021, article 107659.",
+  "The article's DOI is 10.1016/j.jqsrt.2021.107659.",
+  "Authors listed are Fei Shen, Qunying Zhang, Jinji Ma, Zhengqiang Li and Jin Hong.",
+  "Polluted clouds were detected by a novel method based on Gaofen-5 DPC data.",
+  "Continental polluted cumulus (CPCU) plays an important role in atmospheric radiative transfer and the Earth's environmental change.",
+  "GF-5 DPC data were used to identify polluted clouds based on the sensitivity of polarization to small particles.",
+  "The identification method is based on two tests and was applied to polluted clouds in China.",
+  "Based on SONET monitoring data, atmospheric aerosol composition in China was classified into ten types, considering climate types, Digital Elevation Model and social economy.",
+  "The identification results showed four polluted clouds over China on May 27, 2018, with high concentration of small dust particles.",
+  "Results were verified by the Optical Properties of Aerosols and Clouds (OPAC) software.",
+  "Compared with CALIPSO Vertical Feature Mask (VFM) data, the proposed method is described as effective and robust.",
+  "Clouds cover about 67% of the Earth's surface and affect the Earth-Atmosphere radiation balance.",
+  "Polluted particles from factories, fossil fuel combustion and biomass burning can become cloud condensation nuclei, increasing droplet numbers and cloud albedo."
+ ],
+ "entities": [
+  {
+   "name": "Fei Shen",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Qunying Zhang",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Jinji Ma",
+   "type": "person",
+   "role": "correspondence author of the article"
+  },
+  {
+   "name": "Zhengqiang Li",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Jin Hong",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+   "type": "organization",
+   "role": "journal publishing the article, Volume 269, July 2021"
+  },
+  {
+   "name": "GF-5 DPC data",
+   "type": "product",
+   "role": "satellite polarization data used to identify polluted clouds"
+  },
+  {
+   "name": "Sun-sky radiometer Observation NETwork (SONET)",
+   "type": "program",
+   "role": "monitoring network whose data classified aerosol composition types in China"
+  },
+  {
+   "name": "Optical Properties of Aerosols and Clouds (OPAC)",
+   "type": "product",
+   "role": "software used to verify the composition results"
+  },
+  {
+   "name": "Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observations (CALIPSO) Vertical Feature Mask (VFM) data",
+   "type": "product",
+   "role": "reference dataset used for comparison with the proposed method"
+  },
+  {
+   "name": "Digital Elevation Model",
+   "type": "product",
+   "role": "factor considered in classifying aerosol composition types"
+  },
+  {
+   "name": "China",
+   "type": "place",
+   "role": "region where polluted clouds were identified"
+  }
+ ],
+ "tags": [
+  "polluted clouds",
+  "remote sensing",
+  "GF-5 DPC",
+  "aerosol composition",
+  "atmospheric radiative transfer",
+  "cloud condensation nuclei"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17069,
+  "output_tokens": 1419
+ }
+}

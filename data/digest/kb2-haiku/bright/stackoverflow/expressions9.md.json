@@ -1,0 +1,90 @@
+{
+ "summary": "This note is a clipped Android Developers navigation page (titled \"expressions9\") that lists site sections such as Essentials, Design & Plan, Develop, and the developer guides index. It contains no substantive article content, only menu links to topics like Compose, Wear OS, Android TV, Android for Cars, ChromeOS, Google Play services, architecture components, permissions, and enterprise apps. The useful takeaway is the site's structure rather than any specific facts.",
+ "one_line": "Clipped Android Developers site navigation menu listing guides for Compose, Wear OS, TV, cars, architecture, Play, and permissions.",
+ "key_facts": [
+  "The clipped page is titled \"expressions9\" and its source is recorded as \"bright\" with domain \"stackoverflow\".",
+  "The Essentials section describes Modern Android as bringing apps to life with less code using a modern declarative approach to UI and the simplicity of Kotlin.",
+  "The Design & Plan section offers Figma kits for Android, Material Design, or Wear OS.",
+  "The Develop section promotes Gemini in Android Studio as an AI development companion for Android development.",
+  "The Build by category section lists Games, Media apps, Health & Fitness, and Enterprise apps.",
+  "The Build for Billions section is described as creating the best experience for entry-level devices and includes Android (Go edition).",
+  "The Wear OS guide section includes topics such as Tiles, Complications, Notifications, Handling data, and Creating watch faces.",
+  "The Android TV guide section includes topics such as Build TV Apps, Build TV playback apps, Help users find content on TV, and Build TV input services.",
+  "The Android for Cars section includes topics such as Build media apps for cars and Build parked apps for Android Automotive OS.",
+  "The App architecture section lists Introduction, Guide to app architecture, Modularization, Architecture components, and App entry points.",
+  "The Google Play section lists Google Play Billing, Play Asset Delivery, Play Feature Delivery, In-app reviews, In-app updates, and Google Play Instant.",
+  "The Core areas section lists App compatibility, User interfaces, Audio & video, Services, Background tasks, Alarms, Permissions, and App data and files.",
+  "The Google Play Instant support section links to Known issues and StackOverflow.",
+  "The page includes localized language options such as English, Deutsch, Français, 日本語, and 한국어.",
+  "The page ends mid-list in the Best practices section with a Testing subsection that has a Fundamentals entry."
+ ],
+ "entities": [
+  {
+   "name": "Android Studio",
+   "type": "product",
+   "role": "Google's IDE, promoted in the Develop section with Gemini as an AI development companion"
+  },
+  {
+   "name": "Gemini",
+   "type": "product",
+   "role": "AI development companion featured in Gemini in Android Studio"
+  },
+  {
+   "name": "Google Play",
+   "type": "program",
+   "role": "distribution platform with Play Billing, Play Asset Delivery, Play Feature Delivery, and Play Points listed"
+  },
+  {
+   "name": "Wear OS",
+   "type": "product",
+   "role": "Google's smartwatch platform with its own developer guide section"
+  },
+  {
+   "name": "Android TV",
+   "type": "product",
+   "role": "TV platform with a developer guide section covering TV apps and playback"
+  },
+  {
+   "name": "Android for Cars",
+   "type": "product",
+   "role": "car platform section covering Android Auto and Android Automotive OS"
+  },
+  {
+   "name": "Jetpack Compose",
+   "type": "product",
+   "role": "declarative UI toolkit referenced in the Compose libraries and Compose guides"
+  },
+  {
+   "name": "Figma kits",
+   "type": "product",
+   "role": "design kits for Android, Material Design, and Wear OS offered in the Design & Plan section"
+  },
+  {
+   "name": "Android (Go edition)",
+   "type": "product",
+   "role": "edition for entry-level devices under the Build for Billions section"
+  },
+  {
+   "name": "Google Play Instant",
+   "type": "program",
+   "role": "section covering instant apps and instant games"
+  },
+  {
+   "name": "Google Play services",
+   "type": "program",
+   "role": "external library reference listed in the Libraries section"
+  }
+ ],
+ "tags": [
+  "android",
+  "navigation-menu",
+  "developer-docs",
+  "web-clipping",
+  "android-studio"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12127,
+  "output_tokens": 1350
+ }
+}

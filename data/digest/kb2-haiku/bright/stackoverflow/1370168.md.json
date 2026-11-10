@@ -1,0 +1,61 @@
+{
+ "summary": "A Posit Community thread in which user ernijs12 asks how to compute a weighted average of material quantities per date in R, describing a six-step procedure and sharing a for-loop attempt that got stuck. FJCC replies with dplyr code using group_by and mutate to compute daily shares, scaled quantities and per-material totals, and notes that weights sum to one per day, which the original poster acknowledges as an error in their own reasoning. The thread was closed automatically seven days after the last reply.",
+ "one_line": "Posit Community thread on computing a per-date weighted average of material quantities in R, solved with dplyr grouping.",
+ "key_facts": [
+  "The original post by user ernijs12 was dated May 12, 2022, at 8:20pm.",
+  "The example data set lists Date, Material and Quantity for two materials, nails and hammer, on dates 2020-01-01 and 2020-02-02.",
+  "On 2020-01-01 the nails quantities are 10 and 100, and the hammer quantities are 20 and 80.",
+  "The original poster's worked example totals 210 for all items on 2020-01-01 and calculates a result of 80.54 for that day.",
+  "The original poster's six steps are: subset one day, sum quantities that day, divide each quantity by the daily sum to get weights, multiply quantities by weights and sum per item, divide by the sum of all weights, and repeat for all days.",
+  "The original poster's for-loop code reads the data with read.csv('Book1.csv') and converts Date with as.Date.",
+  "FJCC replied on May 12, 2022, at 8:43pm with dplyr code that groups by Date, computes DailySum, Weight and ScaledQuantity, then summarizes TotalSclQuant by Date and Material.",
+  "FJCC's output lists 2020-01-01 hammer as 32.4 and nails as 48.1, and 2020-02-02 hammer as 15.3 and nails as 38.9.",
+  "FJCC pointed out that the weights sum to one for each day, which the original poster confirmed as their own error.",
+  "The original poster replied on May 12, 2022, at 9:21pm, thanking FJCC and saying the code could be adjusted to fix the problem.",
+  "The topic was automatically closed on May 19, 2022, at 9:21pm, seven days after the last reply."
+ ],
+ "entities": [
+  {
+   "name": "ernijs12",
+   "type": "person",
+   "role": "original poster who asked how to calculate the weighted average"
+  },
+  {
+   "name": "FJCC",
+   "type": "person",
+   "role": "replier who provided dplyr code and pointed out the weights sum to one"
+  },
+  {
+   "name": "Posit Community",
+   "type": "organization",
+   "role": "forum hosting the discussion thread"
+  },
+  {
+   "name": "Book1.csv",
+   "type": "product",
+   "role": "input CSV file read by the original poster's for-loop code"
+  },
+  {
+   "name": "dplyr",
+   "type": "program",
+   "role": "R package FJCC used for group_by, mutate and summarize"
+  },
+  {
+   "name": "reprex package",
+   "type": "program",
+   "role": "package used by FJCC to create the reproducible example, version 2.0.1"
+  }
+ ],
+ "tags": [
+  "r",
+  "dplyr",
+  "weighted-average",
+  "for-loops",
+  "data-aggregation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2837,
+  "output_tokens": 1030
+ }
+}

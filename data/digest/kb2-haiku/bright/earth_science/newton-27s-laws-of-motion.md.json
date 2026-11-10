@@ -1,0 +1,96 @@
+{
+ "summary": "This note explains Newton's laws of motion, the three laws relating an object's motion to the forces acting on it, which form the basis of Newtonian mechanics. It covers their first statement in Newton's 1687 Principia, the mathematical tools used (kinematics, vectors, force), and each law with its modern interpretation. It then works through examples such as free fall, projectile motion, circular orbits, harmonic oscillators, variable-mass rockets, energy, rigid-body rotation, the multi-body gravitational problem, and chaos, noting where the laws break down under relativity and quantum mechanics.",
+ "one_line": "Overview of Newton's three laws of motion, their mathematical basis, worked examples, and limits, drawn from Newton's 1687 Principia.",
+ "key_facts": [
+  "Newton's laws of motion were first stated by Isaac Newton in his Philosophiæ Naturalis Principia Mathematica, originally published in 1687.",
+  "Newton's first law is the principle of inertia: a body moves in a straight line at constant speed unless compelled to change that state by forces impressed on it.",
+  "The modern understanding of Newton's first law is that no inertial observer is privileged over any other; there is no absolute standard of rest.",
+  "In modern notation, Newton's second law states that the force equals the time derivative of momentum, F = dp/dt, and for constant mass F = ma.",
+  "Newton's third law states that to every action there is always opposed an equal reaction, and it relates to the conservation of momentum.",
+  "The text states that the 'action' and 'reaction' in the third law apply to different bodies, so a book on a table pulls the Earth upward with a reaction to the Earth's gravitational pull on the book.",
+  "Newton's laws were limited by discoveries: special relativity is needed at very high speeds, general relativity for very massive objects, and quantum mechanics for very small objects.",
+  "During free fall near Earth's surface, the acceleration is the same for all bodies independent of mass, and the note gives g = GM/r^2 ≈ 9.8 m/s^2.",
+  "For uniform circular motion, the acceleration has magnitude v^2/r directed toward the center of the circle, and the centripetal force has magnitude mv^2/r.",
+  "The harmonic oscillator with force F = -kx has angular frequency ω equal to the square root of k/m.",
+  "For a small-angle pendulum, the sine of θ is nearly equal to θ, giving a simple harmonic oscillator with frequency ω = √(g/L).",
+  "Newton's law of universal gravitation gives the force as F = GMm/r^2, and the Kepler problem orbits are conic sections: ellipses, parabolas, or hyperbolas.",
+  "The three-body problem in general has no exact solution in closed form, so numerical methods are used to approximate the trajectories.",
+  "Newton's laws allow chaos: systems such as the three-body problem and the double pendulum can show sensitive dependence on initial conditions.",
+  "Frank Wilczek suggested calling the assumption that total mass equals the sum of individual masses 'Newton's Zeroth Law'."
+ ],
+ "entities": [
+  {
+   "name": "Isaac Newton",
+   "type": "person",
+   "role": "first stated the three laws of motion in his Principia published in 1687"
+  },
+  {
+   "name": "Philosophiæ Naturalis Principia Mathematica",
+   "type": "product",
+   "role": "work in which Newton first stated the three laws, originally published in 1687"
+  },
+  {
+   "name": "Frank Wilczek",
+   "type": "person",
+   "role": "suggested designating the mass-additivity assumption as 'Newton's Zeroth Law'"
+  },
+  {
+   "name": "Newtonian mechanics",
+   "type": "program",
+   "role": "the study of the behavior of massive bodies using Newton's laws, based on the laws' foundation"
+  },
+  {
+   "name": "Newton's law of universal gravitation",
+   "type": "program",
+   "role": "law used to derive free fall acceleration and orbital forces, giving force proportional to masses and inversely proportional to distance squared"
+  },
+  {
+   "name": "special relativity",
+   "type": "program",
+   "role": "theory needed when objects move at very high speeds, beyond Newton's laws"
+  },
+  {
+   "name": "general relativity",
+   "type": "program",
+   "role": "theory needed when objects are very massive, beyond Newton's laws"
+  },
+  {
+   "name": "quantum mechanics",
+   "type": "program",
+   "role": "theory needed when objects are very small, beyond Newton's laws"
+  },
+  {
+   "name": "Space Shuttle Atlantis",
+   "type": "product",
+   "role": "example of a rocket that propels matter in one direction to push the craft in the other"
+  },
+  {
+   "name": "Earth",
+   "type": "place",
+   "role": "planet whose gravity causes free fall and whose curvature affects the cannonball thought experiment"
+  },
+  {
+   "name": "Newton's cannonball",
+   "type": "event",
+   "role": "thought experiment interpolating between projectile motion and uniform circular motion"
+  },
+  {
+   "name": "Fermi–Pasta–Ulam–Tsingou problem",
+   "type": "event",
+   "role": "example of a chaotic system obeying Newton's laws"
+  }
+ ],
+ "tags": [
+  "classical mechanics",
+  "newton's laws",
+  "physics",
+  "force and motion",
+  "orbital mechanics",
+  "chaos theory"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12266,
+  "output_tokens": 1677
+ }
+}

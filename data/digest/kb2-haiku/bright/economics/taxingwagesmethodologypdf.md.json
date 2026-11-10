@@ -1,0 +1,146 @@
+{
+ "summary": "This OECD Taxing Wages 2019 annex explains the methodology and limitations behind the report's comparative tax, benefit and labour cost statistics across OECD countries. It defines eight household types built around an average full-time worker earning a fraction of average wages, and details the earnings data sources, industry coverage (ISIC Sectors B-N, later ISIC Rev. 4), 2018 wage estimation method, exchange rates and PPPs, and what taxes and benefits are covered. The note is partly truncated at the end, cutting off mid-discussion of standard tax reliefs.",
+ "one_line": "OECD annex describing the methodology, household types, earnings data and limitations behind the Taxing Wages 2019 comparative tax statistics.",
+ "key_facts": [
+  "The Taxing Wages 2019 report focuses on eight household types that vary by composition and level of earnings.",
+  "Each household contains a full-time adult employee, and the annual income from employment is assumed to be a given fraction of average gross wage earnings.",
+  "Any children in the household are assumed to be aged between six and eleven inclusive.",
+  "The standard assumption for calculating average wage earnings is based on Sectors B-N of ISIC Revision 4 (United Nations).",
+  "The 2005 edition of Taxing Wages used sectors C-K incl. of ISIC Revision 3.1.",
+  "Chile, Ireland, Slovak Republic and Turkey cannot exclude or convert part-time workers' wages, so their reported average wages will be lower than an average of full-time workers.",
+  "An OECD Secretariat analysis found full-time employees' earnings in 2014 were on average 12% higher than earnings of all employees in selected European countries.",
+  "Excluding supervisory and management employees can reduce average earnings by 10% to 18%, according to an OECD Secretariat analysis of Eurostat data.",
+  "Fringe benefits rarely account for more than 1-2% of labour costs and are excluded where possible from average earnings.",
+  "In the United States, employers' contributions to private pension, family allowance or health and life insurance schemes can account for more than 5% of employee earnings and are excluded.",
+  "Statistical data on average gross wage earnings in 2018 were generally not available, so 2018 estimates were derived by multiplying 2017 earnings by the country-specific annual percentage change of wages in the OECD Economic Outlook.",
+  "Thirteen OECD member countries provided national estimates of 2018 average gross wage earnings, which were not used in the Taxing Wages calculations except for listed countries.",
+  "Treaty-free coverage includes personal income tax, employee and employer social security contributions, and payroll taxes, while income tax on capital income, net wealth tax, corporate income tax and all indirect taxes are not considered.",
+  "Compulsory social security contributions paid to general government are treated as tax revenues in the Report.",
+  "The 2018 exchange rate for the United States is 1.00 USD, and the 2018 PPP for the United Kingdom is 0.69 GBP."
+ ],
+ "entities": [
+  {
+   "name": "OECD",
+   "type": "organization",
+   "role": "publisher of Taxing Wages 2019, which produces comparative statistics on taxes, benefits and labour costs across member countries"
+  },
+  {
+   "name": "Taxing Wages 2019",
+   "type": "program",
+   "role": "OECD report whose methodology and limitations are described in this annex"
+  },
+  {
+   "name": "ISIC Revision 4",
+   "type": "other",
+   "role": "International Standard Industrial Classification of All Economic Activities used as the basis for average wage earnings sectors B-N"
+  },
+  {
+   "name": "ISIC Revision 3.1",
+   "type": "other",
+   "role": "earlier classification used in the 2005 edition of Taxing Wages, covering sectors C-K incl."
+  },
+  {
+   "name": "United Nations",
+   "type": "organization",
+   "role": "source of the ISIC classification revisions"
+  },
+  {
+   "name": "OECD Economic Outlook",
+   "type": "product",
+   "role": "publication whose country-specific annual wage percentage changes were used to estimate 2018 average wages"
+  },
+  {
+   "name": "Eurostat",
+   "type": "organization",
+   "role": "source of earnings data analysed by the OECD Secretariat for full-time and supervisory worker comparisons"
+  },
+  {
+   "name": "Special Feature of Taxing Wages 2003-2004",
+   "type": "product",
+   "role": "document setting out the reasons for moving to a broadened average wage definition"
+  },
+  {
+   "name": "Chile",
+   "type": "place",
+   "role": "country whose part-time worker wages cannot be excluded, so its reported average wage is lower than a full-time average"
+  },
+  {
+   "name": "Ireland",
+   "type": "place",
+   "role": "country whose part-time worker wages cannot be excluded from its average wage figures"
+  },
+  {
+   "name": "Slovak Republic",
+   "type": "place",
+   "role": "country whose part-time worker wages cannot be excluded from its average wage figures"
+  },
+  {
+   "name": "Turkey",
+   "type": "place",
+   "role": "country whose part-time worker wages cannot be excluded from its average wage figures"
+  },
+  {
+   "name": "Belgium",
+   "type": "place",
+   "role": "country where the special case for part-time spouses earning 33% of average wage affects tax rate results"
+  },
+  {
+   "name": "United States",
+   "type": "place",
+   "role": "country where employer contributions to private schemes can account for more than 5% of employee earnings"
+  },
+  {
+   "name": "Australia",
+   "type": "place",
+   "role": "country whose final 2018 average gross wage earnings figure was used"
+  },
+  {
+   "name": "Bureau of Statistics (Australia)",
+   "type": "organization",
+   "role": "source of Australian average weekly earnings data for the Labour Force survey"
+  },
+  {
+   "name": "INSEE",
+   "type": "organization",
+   "role": "French statistics body that publishes the DADS annual social data declarations used as the France earnings source"
+  },
+  {
+   "name": "Statistics Norway",
+   "type": "organization",
+   "role": "source of Norwegian wage data from enterprise samples"
+  },
+  {
+   "name": "Statistics Sweden",
+   "type": "organization",
+   "role": "source of Swedish earnings data from its September survey of employers"
+  },
+  {
+   "name": "Office for National Statistics",
+   "type": "organization",
+   "role": "source of UK earnings data through the Annual Survey of Hours and Earnings (ASHE)"
+  },
+  {
+   "name": "Annual Survey of Hours and Earnings (ASHE)",
+   "type": "program",
+   "role": "UK earnings survey used as the data source for the United Kingdom"
+  },
+  {
+   "name": "Employment, Hours, and Earnings from the Current Employment Statistics Survey",
+   "type": "program",
+   "role": "US source of monthly earnings data covering over 40 million non-agricultural wage and salary workers"
+  }
+ ],
+ "tags": [
+  "tax policy",
+  "oecd",
+  "wages",
+  "methodology",
+  "taxation comparison",
+  "labour costs"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 13103,
+  "output_tokens": 2153
+ }
+}

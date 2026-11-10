@@ -1,0 +1,127 @@
+{
+ "summary": "This Wikipedia article explains seismic magnitude scales, which estimate the overall size or strength of an earthquake, distinct from seismic intensity scales that describe ground shaking at a location. It covers how magnitudes are derived from seismic waves and why multiple scales exist, including the Richter local scale (ML), body-wave scales (mB, mb, mbLg), surface-wave scales (Ms), moment magnitude (Mw), energy magnitude (Me), the K-class scale, tsunami and duration scales, and macroseismic scales. It also notes the saturation problem and the IASPEI standardization since 2005.",
+ "one_line": "Overview of the scales (Richter, body-wave, surface-wave, moment, energy and others) used to measure earthquake size from seismic waves.",
+ "key_facts": [
+  "Seismic magnitude scales describe the overall strength or size of an earthquake, while seismic intensity scales categorize the severity of ground shaking at a given location.",
+  "The Richter local magnitude scale (ML) was developed in 1935 by Charles F. Richter.",
+  "Each unit of magnitude on the logarithmic Richter scale represents a 10^1.5 (about 32-fold) increase in seismic energy.",
+  "Richter defined the zero point as where an earthquake at 100 km produces a maximum horizontal displacement of 0.001 millimeters on a Wood-Anderson torsion seismograph.",
+  "Since 2005 the International Association of Seismology and Physics of the Earth's Interior (IASPEI) has standardized procedures for the principal magnitude scales ML, Ms, mb, mB and mbLg.",
+  "The mb scale was introduced in the 1960s with the World-Wide Standardized Seismograph Network (WWSSN) and better discriminates tectonic earthquakes from underground nuclear explosions.",
+  "The regional mbLg scale was developed by Nuttli (1973) for North America east of the Rocky Mountains, where the continental crust is a craton.",
+  "The surface-wave magnitude scale (Ms) was based on a procedure developed by Beno Gutenberg in 1942 and measures surface waves for a period of about 20 seconds.",
+  "The moment magnitude scale (Mw) was developed by seismologists Thomas C. Hanks and Hiroo Kanamori and is based on seismic moment M0.",
+  "Seismic moment is considered the most objective measure of an earthquake's size in regard of total energy, but the energy magnitude scale Me better reflects ground-shaking potential.",
+  "Me and Mw for very similar earthquakes can differ by as much as 1.4 units.",
+  "In 1997 two Chile earthquakes: the July Mw 6.9 quake was barely felt, while the October Mw 7.1 quake injured over 300 people and destroyed or seriously damaged over 10,000 houses.",
+  "The K-class energy scale was developed in 1955 by Soviet seismologists in the Garm (Tajikistan) region and is based on K = log ES, with E in Joules.",
+  "The tsunami magnitude scale Mt, based on a correlation by Katsuyuki Abe, relates seismic moment to tsunami wave amplitude measured by tidal gauges.",
+  "The Japan Meteorological Agency magnitude MJMA applies to shallow earthquakes within 600 km and agrees with Mw in the range of 4.5 to 7.5 but underestimates larger magnitudes.",
+  "Most seismological authorities, such as the United States Geological Survey, report earthquake magnitudes above 4.0 as moment magnitude, which the press describes as Richter magnitude."
+ ],
+ "entities": [
+  {
+   "name": "Charles F. Richter",
+   "type": "person",
+   "role": "Seismologist who developed the first magnitude scale, the local magnitude scale ML, in 1935"
+  },
+  {
+   "name": "Beno Gutenberg",
+   "type": "person",
+   "role": "Seismologist who developed the surface-wave magnitude procedure in 1942 and the original body-wave magnitude mB"
+  },
+  {
+   "name": "Thomas C. Hanks",
+   "type": "person",
+   "role": "Seismologist who co-developed the moment magnitude scale Mw with Hiroo Kanamori"
+  },
+  {
+   "name": "Hiroo Kanamori",
+   "type": "person",
+   "role": "Seismologist who co-developed the moment magnitude scale Mw with Thomas C. Hanks"
+  },
+  {
+   "name": "Nuttli",
+   "type": "person",
+   "role": "Seismologist who developed the regional mbLg scale in 1973 for stable continental crust"
+  },
+  {
+   "name": "Katsuyuki Abe",
+   "type": "person",
+   "role": "Researcher whose correlation of seismic moment with tsunami amplitude underlies the tsunami magnitude scale Mt"
+  },
+  {
+   "name": "International Association of Seismology and Physics of the Earth's Interior (IASPEI)",
+   "type": "organization",
+   "role": "Body that has standardized measurement procedures and equations for the principal magnitude scales since 2005"
+  },
+  {
+   "name": "United States Geological Survey",
+   "type": "organization",
+   "role": "Seismological authority that reports earthquake magnitudes above 4.0 as moment magnitude"
+  },
+  {
+   "name": "Japan Meteorological Agency",
+   "type": "organization",
+   "role": "Agency that calculates the MJMA magnitude for shallow earthquakes in Japan"
+  },
+  {
+   "name": "World-Wide Standardized Seismograph Network (WWSSN)",
+   "type": "program",
+   "role": "Seismograph network established in the 1960s, for which the mb scale was introduced"
+  },
+  {
+   "name": "Richter magnitude scale",
+   "type": "product",
+   "role": "Popular name for the local magnitude scale ML, first scale for measuring earthquake magnitudes"
+  },
+  {
+   "name": "Moment magnitude scale",
+   "type": "product",
+   "role": "Scale Mw based on seismic moment, used by most authorities for magnitudes above 4.0"
+  },
+  {
+   "name": "Loma Prieta earthquake",
+   "type": "event",
+   "role": "1989 earthquake whose damage was greatest in the Marina district of San Francisco, nearly 100 km from the epicenter"
+  },
+  {
+   "name": "1968 Illinois earthquake",
+   "type": "event",
+   "role": "Earthquake shown in an isoseismal map illustrating irregular distribution of shaking"
+  },
+  {
+   "name": "1995 New Madrid earthquake",
+   "type": "event",
+   "role": "Earthquake of about M 6 felt through most of the central U.S. (note: the text gives the year 1895)"
+  },
+  {
+   "name": "1994 Northridge quake",
+   "type": "event",
+   "role": "Magnitude 6.7 earthquake felt only in southern California, used to illustrate regional differences"
+  },
+  {
+   "name": "Garm (Tajikistan) region",
+   "type": "place",
+   "role": "Central Asian region where the K-class energy scale was developed in 1955"
+  },
+  {
+   "name": "Seismicity of the Earth catalog",
+   "type": "other",
+   "role": "Global earthquake catalog by Gutenberg & Richter (1954) whose magnitudes' computational method was never fully published"
+  }
+ ],
+ "tags": [
+  "seismology",
+  "earthquakes",
+  "magnitude scales",
+  "seismic waves",
+  "moment magnitude",
+  "richter scale"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13409,
+  "output_tokens": 2329
+ }
+}

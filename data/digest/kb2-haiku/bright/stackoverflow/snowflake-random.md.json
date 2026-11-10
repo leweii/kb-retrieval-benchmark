@@ -1,0 +1,65 @@
+{
+ "summary": "This note is a clipped Snowflake documentation page covering two SQL data generation functions, RANDSTR and RANDOM. RANDSTR returns a random string of a given length drawn from letters and digits, while RANDOM returns a pseudo-random 64-bit integer. The page explains the seed arguments, the usage caveats for repeated calls, the MT19937-64 algorithm, and includes example queries and outputs. Navigation menus, language links and footer boilerplate were ignored.",
+ "one_line": "Snowflake SQL reference pages for the RANDSTR and RANDOM data generation functions, covering seeds, usage notes, and examples.",
+ "key_facts": [
+  "RANDSTR(<length>, <gen>) returns a random string of the specified length.",
+  "RANDSTR chooses individual characters uniformly at random from the pool 0-9, a-z, A-Z.",
+  "The generator expression gen in RANDSTR is used as the seed for the uniform random distribution.",
+  "In the RANDSTR example with seed 1234, randstr(5, 1234) returned E5tav in all five generated rows.",
+  "RANDOM returns a pseudo-random 64-bit integer on each call.",
+  "RANDOM([seed]) takes an optional integer seed; if no seed is provided, a random seed is chosen in a platform-specific manner.",
+  "If a statement calls RANDOM with the same seed for each row, RANDOM returns a different value for each row.",
+  "If a statement calls RANDOM more than once with the same seed for the same row, it returns the same value for each call in that row.",
+  "There is no guarantee that a statement calling RANDOM produces the same set of values when executed more than once, with or without a seed.",
+  "Random values are not necessarily unique; the page recommends sequences SEQ1, SEQ2, SEQ4 or SEQ8 when unique values are needed.",
+  "The period of RANDOM before wrapping is 2^19937 - 1.",
+  "RANDOM implements a 64-bit Mersenne twister algorithm known as MT19937-64.",
+  "The output of RANDOM is only pseudo-random and can be predicted given enough information, including the algorithm and the seed.",
+  "Generating pseudo-random numbers with RANDOM is computationally expensive, so large numbers of calls can consume significant resources."
+ ],
+ "entities": [
+  {
+   "name": "RANDSTR",
+   "type": "program",
+   "role": "Snowflake SQL function that returns a random string of a specified length using a generator seed"
+  },
+  {
+   "name": "RANDOM",
+   "type": "program",
+   "role": "Snowflake SQL function that returns a pseudo-random 64-bit integer, with an optional seed"
+  },
+  {
+   "name": "MT19937-64",
+   "type": "other",
+   "role": "64-bit Mersenne twister algorithm that RANDOM implements"
+  },
+  {
+   "name": "Mersenne twister",
+   "type": "other",
+   "role": "Pseudo-random number generator algorithm family referenced as the basis of RANDOM"
+  },
+  {
+   "name": "SEQ1 / SEQ2 / SEQ4 / SEQ8",
+   "type": "program",
+   "role": "Sequence functions recommended instead of RANDOM when unique values are needed"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Company and data platform whose documentation this page belongs to"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "random-number-generation",
+  "data-generation",
+  "seeds",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14765,
+  "output_tokens": 1661
+ }
+}

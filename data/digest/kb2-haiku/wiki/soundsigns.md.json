@@ -1,0 +1,38 @@
+{
+ "summary": "This note is a brief entry about Soundsigns, an album by American jazz saxophonist Dewey Redman. It states that the album collects performances recorded in 1978 and released on the Galaxy label. The note is very short and gives no tracklist, personnel, or release date beyond the recording year.",
+ "one_line": "Soundsigns is a 1978 jazz album by saxophonist Dewey Redman, recorded for the Galaxy label.",
+ "key_facts": [
+  "Soundsigns is an album by the American jazz saxophonist Dewey Redman.",
+  "The album consists of performances recorded in 1978.",
+  "The performances on Soundsigns were recorded for the Galaxy label."
+ ],
+ "entities": [
+  {
+   "name": "Soundsigns",
+   "type": "product",
+   "role": "album by Dewey Redman of performances recorded in 1978 for the Galaxy label"
+  },
+  {
+   "name": "Dewey Redman",
+   "type": "person",
+   "role": "American jazz saxophonist who released the album Soundsigns"
+  },
+  {
+   "name": "Galaxy",
+   "type": "organization",
+   "role": "record label for which the Soundsigns performances were recorded"
+  }
+ ],
+ "tags": [
+  "jazz",
+  "saxophone",
+  "album",
+  "1978",
+  "galaxy records"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1030,
+  "output_tokens": 413
+ }
+}

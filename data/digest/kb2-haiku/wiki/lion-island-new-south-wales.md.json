@@ -1,0 +1,48 @@
+{
+ "summary": "The note describes Lion Island, a river island at the mouth of the Hawkesbury River inside Broken Bay in New South Wales, Australia. It states the island is considered part of a unit whose name was cut off in the clipped text. The name is descriptive, because the island resembles a Sphinx, a mythical crouching lion figure.",
+ "one_line": "Lion Island is a river island at the Hawkesbury River mouth in Broken Bay, New South Wales, Australia, named for its resemblance to a sphinx.",
+ "key_facts": [
+  "Lion Island is a river island located at the mouth of the Hawkesbury River.",
+  "Lion Island is located inside Broken Bay.",
+  "Lion Island is in the state of New South Wales, Australia.",
+  "The island is considered part of a larger unit, though the name of that unit is missing from the note.",
+  "The name Lion Island is a descriptive name.",
+  "The island's name reflects that it resembles a Sphinx.",
+  "A Sphinx is a mythical figure of a crouching lion."
+ ],
+ "entities": [
+  {
+   "name": "Lion Island",
+   "type": "place",
+   "role": "river island located at the mouth of the Hawkesbury River inside Broken Bay, New South Wales, Australia"
+  },
+  {
+   "name": "Hawkesbury River",
+   "type": "place",
+   "role": "river whose mouth is where Lion Island is located"
+  },
+  {
+   "name": "Broken Bay",
+   "type": "place",
+   "role": "bay in which Lion Island is located"
+  },
+  {
+   "name": "New South Wales",
+   "type": "place",
+   "role": "Australian state in which Lion Island is located"
+  }
+ ],
+ "tags": [
+  "lion island",
+  "new south wales",
+  "hawkesbury river",
+  "broken bay",
+  "islands",
+  "australia"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1088,
+  "output_tokens": 545
+ }
+}

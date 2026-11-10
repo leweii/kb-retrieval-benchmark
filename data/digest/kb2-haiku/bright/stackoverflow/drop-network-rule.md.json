@@ -1,0 +1,56 @@
+{
+ "summary": "This is a reference page for the Snowflake-style SQL command DROP NETWORK RULE, which removes a specified network rule from the system. It gives the syntax (with optional IF EXISTS), explains the name parameter and its quoting and case-sensitivity rules, and states the access requirement that the role needs OWNERSHIP on the network rule. The page also notes that dropped network rules cannot be recovered and must be recreated, and includes a single example dropping a rule named myrule.",
+ "one_line": "Reference for the DROP NETWORK RULE SQL command, which permanently removes a network rule and requires OWNERSHIP on it.",
+ "key_facts": [
+  "DROP NETWORK RULE removes the specified network rule from the system.",
+  "The syntax is DROP NETWORK RULE [ IF EXISTS ] <name>.",
+  "The <name> parameter specifies the identifier for the network rule to drop.",
+  "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "The minimum privilege required to execute DROP NETWORK RULE is OWNERSHIP on the Network Rule object.",
+  "OWNERSHIP is automatically granted to the role that created the object but can also be transferred using the GRANT OWNERSHIP command.",
+  "Transferring ownership can be done by the owning role or any role with the MANAGE GRANTS privilege.",
+  "Dropped network rules cannot be recovered; they must be recreated.",
+  "The page's example drops a network rule named myrule with the statement DROP NETWORK RULE myrule;.",
+  "The page is listed among sections including Authentication Policy, Network Policy, Network Rule, Packages Policy, Password Policy, Session Policy, and Secret."
+ ],
+ "entities": [
+  {
+   "name": "DROP NETWORK RULE",
+   "type": "program",
+   "role": "SQL command that removes the specified network rule from the system"
+  },
+  {
+   "name": "Network Rule",
+   "type": "product",
+   "role": "securable object that the DROP NETWORK RULE command removes and on which OWNERSHIP is required"
+  },
+  {
+   "name": "OWNERSHIP",
+   "type": "other",
+   "role": "special privilege on an object, automatically granted to the role that created the object, required to drop a network rule"
+  },
+  {
+   "name": "MANAGE GRANTS",
+   "type": "other",
+   "role": "privilege that allows a role to transfer ownership of an object"
+  },
+  {
+   "name": "myrule",
+   "type": "product",
+   "role": "example network rule name dropped in the example statement"
+  }
+ ],
+ "tags": [
+  "sql",
+  "network-rule",
+  "access-control",
+  "ddl",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1667,
+  "output_tokens": 855
+ }
+}

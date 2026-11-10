@@ -1,0 +1,73 @@
+{
+ "summary": "This note is a documentation page for the Snowflake-style SQL function ST_ASEWKB, which takes a GEOGRAPHY or GEOMETRY value and returns its binary representation in EWKB (Extended Well-Known Binary) format. It gives the syntax, notes that the argument must be GEOGRAPHY or GEOMETRY, and states the return type is BINARY. Two examples show a geography table with a point and a linestring, and a geometry table with points and linestrings carrying different SRIDs, along with their hex EWKB output.",
+ "one_line": "Documentation for the ST_ASEWKB SQL function, which returns a GEOGRAPHY or GEOMETRY value's binary EWKB representation.",
+ "key_facts": [
+  "ST_ASEWKB returns the binary representation of a GEOGRAPHY or GEOMETRY value in EWKB format.",
+  "The syntax is ST_ASEWKB( <geography_or_geometry_expression> ).",
+  "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+  "The function returns a value of type BINARY.",
+  "The GEOGRAPHY example creates a table geospatial_table with columns id INTEGER and g GEOGRAPHY.",
+  "The GEOGRAPHY example inserts 'POINT(-122.35 37.55)' with id 1 and 'LINESTRING(-124.20 42.00, -120.01 41.99)' with id 2.",
+  "For the GEOGRAPHY example's EWKB output, the note assumes the BINARY_OUTPUT_FORMAT parameter is at its default value.",
+  "The GEOGRAPHY example's EWKB output for the point is 0101000020E61000006666666666965EC06666666666C64240.",
+  "The GEOMETRY example creates a table geometry_table with a column g of type GEOMETRY.",
+  "The GEOMETRY example inserts 'SRID=4326;POINT(-122.35 37.55)' and 'SRID=0;LINESTRING(0.75 0.75, -10 20)'.",
+  "The GEOMETRY example shows that the two geometries with different SRIDs produce different EWKB outputs.",
+  "The GEOMETRY example's EWKB output for the linestring begins 01020000200000000002000000."
+ ],
+ "entities": [
+  {
+   "name": "ST_ASEWKB",
+   "type": "program",
+   "role": "SQL function documented in this note that returns the EWKB binary representation of a GEOGRAPHY or GEOMETRY value"
+  },
+  {
+   "name": "GEOGRAPHY",
+   "type": "other",
+   "role": "data type accepted as the function argument, shown in the geography example"
+  },
+  {
+   "name": "GEOMETRY",
+   "type": "other",
+   "role": "data type accepted as the function argument, shown in the geometry example"
+  },
+  {
+   "name": "BINARY",
+   "type": "other",
+   "role": "return type of the ST_ASEWKB function"
+  },
+  {
+   "name": "EWKB",
+   "type": "other",
+   "role": "Extended Well-Known Binary format in which the function returns its output"
+  },
+  {
+   "name": "BINARY_OUTPUT_FORMAT",
+   "type": "other",
+   "role": "parameter whose default value is assumed for the EWKB output in the geography example"
+  },
+  {
+   "name": "geospatial_table",
+   "type": "other",
+   "role": "example table created in the GEOGRAPHY example"
+  },
+  {
+   "name": "geometry_table",
+   "type": "other",
+   "role": "example table created in the GEOMETRY example"
+  }
+ ],
+ "tags": [
+  "sql",
+  "geospatial",
+  "ewkb",
+  "st_asewkb",
+  "geography",
+  "geometry"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2205,
+  "output_tokens": 1150
+ }
+}

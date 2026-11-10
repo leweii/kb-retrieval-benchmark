@@ -1,0 +1,52 @@
+{
+ "summary": "This note is a Snowflake-style documentation page for the DENSE_RANK analytic window function, which returns a row's rank within an ordered window without gaps after ties. It gives the syntax (optional PARTITION BY, required ORDER BY, optional window frame) and explains that the function takes no arguments. Examples use a corn_production table to contrast DENSE_RANK with RANK, both with and without partitioning by state, and show how ties are handled.",
+ "one_line": "Documentation for the DENSE_RANK window function, which assigns sequential ranks without gaps after ties, with examples compared to RANK.",
+ "key_facts": [
+  "DENSE_RANK returns the rank of a value within a group of values, without gaps in the ranks.",
+  "The rank value starts at 1 and continues up sequentially.",
+  "If two values are the same, they have the same rank.",
+  "The DENSE_RANK syntax is DENSE_RANK() OVER ( [ PARTITION BY <expr1> ] ORDER BY <expr2> [ ASC | DESC ] [ <window_frame> ] ).",
+  "The DENSE_RANK function takes no arguments because the ordering of the window determines the rank.",
+  "PARTITION BY is omitted when a single group is wanted, such as ranking all farmers in the U.S. regardless of state.",
+  "The example table corn_production has columns farmer_ID (INTEGER), state (varchar), and bushels (float).",
+  "In the first example, ordering corn_production by bushels descending gives DENSE_RANK values 1, 2, 3, 4 for bushels 130, 120, 110, 100.",
+  "In the tie example with bushels 130, 120, 110, 110, 100, DENSE_RANK gives 1, 2, 3, 3, 4.",
+  "In the same tie example, RANK gives 1, 2, 3, 3, 5 because rank 4 is skipped after the tie at rank 3.",
+  "Partitioning by state gives Iowa ranks 1 and 2 and Kansas ranks 1 and 2 under DENSE_RANK.",
+  "The page includes a 'Was this page helpful?' prompt and the language is set to English."
+ ],
+ "entities": [
+  {
+   "name": "DENSE_RANK",
+   "type": "program",
+   "role": "analytic window function described on the page that returns a rank without gaps"
+  },
+  {
+   "name": "RANK",
+   "type": "program",
+   "role": "comparison window function whose output skips ranks after ties"
+  },
+  {
+   "name": "corn_production",
+   "type": "other",
+   "role": "example table holding farmer_ID, state and bushels values used in the examples"
+  },
+  {
+   "name": "Window Frame Syntax",
+   "type": "other",
+   "role": "referenced optional window_frame syntax that is linked but not described in this note"
+  }
+ ],
+ "tags": [
+  "sql",
+  "window-functions",
+  "dense-rank",
+  "ranking",
+  "snowflake"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3300,
+  "output_tokens": 912
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "summary": "The note is a Wikipedia-style article on shock waves in physics: disturbances that travel faster than the local speed of sound and produce abrupt changes in pressure, temperature and density. It covers how shocks form in supersonic flow, their types (normal, oblique, bow, attached, detached), and their irreversibility, with entropy rising and energy lost. It also surveys occurrences and applications, including nonlinear steepening, astrophysics, meteor entries, transonic wings, combustion engines, memristors and shock detection in computational fluid dynamics.",
+ "one_line": "Overview of shock waves in physics: supersonic disturbances with abrupt pressure, temperature and density jumps, their types, formation and applications.",
+ "key_facts": [
+  "A shock wave is a type of propagating disturbance that moves faster than the local speed of sound in the medium.",
+  "A shock wave is characterized by an abrupt, nearly discontinuous, change in pressure, temperature, and density of the medium.",
+  "Measurements of the thickness of shock waves in air have resulted in values around 200 nm.",
+  "Unlike solitons, the energy and speed of a shock wave alone dissipates relatively quickly with distance.",
+  "When a shock wave passes through matter, energy is preserved but entropy increases; shock waves are strongly irreversible processes.",
+  "A normal shock is at 90° (perpendicular) to the shock medium's flow direction, while an oblique shock is at an angle to the direction of flow.",
+  "A bow shock occurs upstream of the front of a blunt object when the upstream flow velocity exceeds Mach 1.",
+  "The contact front trails the shock front and marks the boundary between the driver gas and the driven gas.",
+  "Shock waves in air are heard as a loud \"crack\" or \"snap\" noise, and the sonic boom of supersonic aircraft is heard as a \"thud\" or \"thump\".",
+  "Shock waves can form by nonlinear steepening, as in ocean waves that form breakers on the shore.",
+  "Detonation waves are shocks supported by a trailing exothermic reaction; TNT has a detonation velocity of 6,900 m/s.",
+  "The Tunguska event and the 2013 Russian meteor event are the best documented evidence of shock waves produced by a massive meteoroid.",
+  "The 2013 meteor released energy equivalent to 100 or more kilotons of TNT, dozens of times more powerful than the atomic bomb dropped on Hiroshima, and broke glass in the city of Chelyabinsk.",
+  "The wave disk engine is a pistonless rotary engine that uses shock waves to transfer energy from a high-energy fluid to a low-energy fluid.",
+  "Type IV shock–shock interference could yield a 17 times heating increase at vehicle surface."
+ ],
+ "entities": [
+  {
+   "name": "Prandtl–Meyer expansion fan",
+   "type": "event",
+   "role": "expansion wave in supersonic flows that may collide with and recombine with the shock wave"
+  },
+  {
+   "name": "Ernst Mach and Peter Salcher",
+   "type": "person",
+   "role": "published the 1887 schlieren photograph of a detached shock on a bullet in supersonic flight"
+  },
+  {
+   "name": "Trinity explosion",
+   "type": "event",
+   "role": "example of a shock wave propagating into a stationary medium, made visible by the shadow effect"
+  },
+  {
+   "name": "Tunguska event",
+   "type": "event",
+   "role": "well-documented evidence of a shock wave produced by a massive meteoroid"
+  },
+  {
+   "name": "2013 Russian meteor event",
+   "type": "event",
+   "role": "well-documented meteor shock wave that broke glass in Chelyabinsk and neighbouring areas"
+  },
+  {
+   "name": "Chelyabinsk",
+   "type": "place",
+   "role": "city where multiple instances of broken glass occurred due to the 2013 meteor's shock wave"
+  },
+  {
+   "name": "Hiroshima",
+   "type": "place",
+   "role": "city whose atomic bomb is used as a comparison for the energy of the 2013 meteor"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "took its first schlieren photograph of shock waves interacting between two aircraft in 2019"
+  },
+  {
+   "name": "Apollo",
+   "type": "product",
+   "role": "example of a space return vehicle with a detached bow shock"
+  },
+  {
+   "name": "Space shuttle",
+   "type": "product",
+   "role": "example of a space return vehicle with a detached bow shock"
+  },
+  {
+   "name": "Wave disk engine",
+   "type": "product",
+   "role": "pistonless rotary engine that uses shock waves to transfer energy between fluids"
+  },
+  {
+   "name": "TNT",
+   "type": "product",
+   "role": "high explosive with a detonation velocity of 6,900 m/s that creates supersonic shock waves"
+  },
+  {
+   "name": "Cherenkov radiation",
+   "type": "event",
+   "role": "analogous phenomenon outside fluid mechanics where charged particles create visible shock effects in a refractive medium"
+  },
+  {
+   "name": "Sonic boom",
+   "type": "event",
+   "role": "sound wave produced by constructive interference, associated with supersonic aircraft passage"
+  }
+ ],
+ "tags": [
+  "fluid mechanics",
+  "shock waves",
+  "supersonic flow",
+  "aerodynamics",
+  "acoustics",
+  "physics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8035,
+  "output_tokens": 1680
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "summary": "This is a reference page for the TO_DOUBLE conversion function, which converts an expression to a double-precision floating-point number and returns NULL for NULL input. It covers the syntax, the accepted argument types (numeric, character, or variant), usage notes on how strings, fixed-point values, Boolean and JSON null variant values are converted, and a caveat about decimal-to-binary precision loss. A short example creates a table with DECIMAL, VARCHAR and VARIANT columns and shows the converted outputs. The surrounding navigation and footer text is boilerplate and was ignored.",
+ "one_line": "Reference page for the TO_DOUBLE function, which converts numeric, string, or variant expressions to double-precision floating-point numbers.",
+ "key_facts": [
+  "TO_DOUBLE converts an expression to a double-precision floating-point number.",
+  "For NULL input, the TO_DOUBLE result is NULL.",
+  "Syntax is TO_DOUBLE( <expr> [, '<format>' ] ).",
+  "The <expr> argument must be an expression of a numeric, character, or variant type.",
+  "Fixed-point numbers are converted to floating point, and this conversion cannot fail but might lose precision.",
+  "Strings are converted as decimal integer or fractional numbers, and scientific notation and the special values nan, inf and infinity are accepted.",
+  "For VARIANT input holding a fixed-point value, numeric conversion is performed.",
+  "For VARIANT input holding a floating-point value, the value is preserved unchanged.",
+  "For VARIANT input holding a Boolean value, the result is 0 for false and 1 for true.",
+  "For VARIANT input holding a JSON null value, the output is NULL.",
+  "Conversion of decimal fractions to binary and back is not precise, so printing a converted floating-point number might show a slightly different number.",
+  "If precise representation of decimal fractions is required, the note recommends using fixed-point numbers.",
+  "The example creates table double_demo with columns d DECIMAL(7, 2), v VARCHAR and o VARIANT.",
+  "In the example, TO_DOUBLE applied to d = 1.1, v = '2.2' and o = TO_VARIANT(3.14) returns 1.1, 2.2 and 3.14 respectively."
+ ],
+ "entities": [
+  {
+   "name": "TO_DOUBLE",
+   "type": "program",
+   "role": "conversion function that converts an expression to a double-precision floating-point number"
+  },
+  {
+   "name": "double_demo",
+   "type": "other",
+   "role": "example table with columns d (DECIMAL(7, 2)), v (VARCHAR) and o (VARIANT)"
+  }
+ ],
+ "tags": [
+  "sql",
+  "data-types",
+  "type-conversion",
+  "floating-point",
+  "reference",
+  "snowflake"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2019,
+  "output_tokens": 891
+ }
+}

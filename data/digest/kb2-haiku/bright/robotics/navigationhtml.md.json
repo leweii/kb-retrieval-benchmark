@@ -1,0 +1,110 @@
+{
+ "summary": "This TurtleBot 4 User Manual tutorial explains how to navigate a robot using localization on an existing map, as opposed to SLAM, which builds the map while navigating. It covers launching the Nav2 navigation stack on a physical TurtleBot 4 and in the Ignition simulator for both Galactic and Humble ROS 2 distributions, and describes the Rviz2 navigation tools: 2D Pose Estimate, Publish Point and Nav2 Goal. The page also includes navigation and documentation boilerplate that was ignored.",
+ "one_line": "Tutorial on localizing and navigating a TurtleBot 4 on an existing map using the Nav2 stack, launch commands, and Rviz2 tools.",
+ "key_facts": [
+  "SLAM generates a map as the robot navigates and is useful for unknown or dynamic environments, but cannot see areas it has not yet discovered.",
+  "Localization uses an existing map along with live odometry and laserscan data to determine the robot's position on the map.",
+  "Localization does not update the map when the environment changes, but the robot can still avoid new obstacles, giving more repeatable navigation results.",
+  "The TurtleBot 4 uses the Nav2 stack for navigation.",
+  "On a physical TurtleBot 4 in Galactic, navigation is launched with nav_bringup.launch.py using slam:=off localization:=true map:=office.yaml.",
+  "In the Ignition simulator in Galactic, the default world is depot and uses the existing depot.yaml map file.",
+  "In Humble, the physical robot localization is launched with localization.launch.py map:=office.yaml and then nav2.launch.py is launched in another terminal.",
+  "In Humble, the simulator defaults to the warehouse world and uses the warehouse.yaml map file.",
+  "When using multiple robots through the namespacing method, a namespace parameter such as namespace:=/robot1 must be passed to both the Localization and Nav2 launch files.",
+  "An initial pose is required before navigation can begin.",
+  "Rviz is launched on the physical robot with ros2 launch turtlebot4_viz view_robot.launch.py.",
+  "The 2D Pose Estimate tool sets the approximate initial pose of the robot on the map, which Nav2 needs to start localizing.",
+  "The Publish Point tool publishes clicked map coordinates to the /clicked_point topic.",
+  "The Nav2 Goal tool sets a goal pose; Nav2 plans a path and drives the robot there, and the initial pose should be set first."
+ ],
+ "entities": [
+  {
+   "name": "TurtleBot 4",
+   "type": "product",
+   "role": "robot that the tutorial navigates using the Nav2 stack"
+  },
+  {
+   "name": "Nav2",
+   "type": "program",
+   "role": "navigation stack used by the TurtleBot 4 for navigation"
+  },
+  {
+   "name": "SLAM",
+   "type": "program",
+   "role": "mapping method that generates a map while the robot navigates"
+  },
+  {
+   "name": "Localization",
+   "type": "program",
+   "role": "method that uses an existing map with odometry and laserscan data to find the robot's position"
+  },
+  {
+   "name": "Nav Bringup",
+   "type": "program",
+   "role": "launch file used to start navigation in Galactic (nav_bringup.launch.py)"
+  },
+  {
+   "name": "turtlebot4_navigation",
+   "type": "program",
+   "role": "package used to launch navigation in Humble"
+  },
+  {
+   "name": "Rviz",
+   "type": "program",
+   "role": "visualization tool used to view the map and interact with navigation"
+  },
+  {
+   "name": "turtlebot4_simulator package",
+   "type": "program",
+   "role": "simulation package providing Ignition worlds and launch files"
+  },
+  {
+   "name": "depot",
+   "type": "place",
+   "role": "default Ignition simulation world in Galactic"
+  },
+  {
+   "name": "warehouse",
+   "type": "place",
+   "role": "default Ignition simulation world in Humble"
+  },
+  {
+   "name": "office.yaml",
+   "type": "product",
+   "role": "example map file used for localization on a physical robot"
+  },
+  {
+   "name": "2D Pose Estimate",
+   "type": "product",
+   "role": "Rviz tool used to set the approximate initial pose of the robot on the map"
+  },
+  {
+   "name": "Publish Point",
+   "type": "product",
+   "role": "Rviz tool that publishes clicked map coordinates to /clicked_point"
+  },
+  {
+   "name": "Nav2 Goal",
+   "type": "product",
+   "role": "Rviz tool used to set a goal pose for the robot to drive to"
+  },
+  {
+   "name": "Multiple robots",
+   "type": "program",
+   "role": "tutorial covering namespacing for multiple robots, requiring a namespace parameter in launch files"
+  }
+ ],
+ "tags": [
+  "turtlebot4",
+  "ros2",
+  "navigation",
+  "nav2",
+  "localization",
+  "rviz"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6483,
+  "output_tokens": 1498
+ }
+}

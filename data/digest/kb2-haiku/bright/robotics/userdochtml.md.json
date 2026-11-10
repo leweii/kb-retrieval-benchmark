@@ -1,0 +1,91 @@
+{
+ "summary": "This note is the Humble-version user documentation for the ros2_control joint_trajectory_controller, which executes joint-space trajectories on a group of joints by interpolating between waypoints. It describes supported command and state interface combinations, other features such as real-time safety and wrapping-joint handling, a sample YAML configuration, and the preemption policy. It also documents the controller's action, topic, publisher and service interfaces and links to trajectory and parameter references.",
+ "one_line": "User documentation for ROS 2's joint_trajectory_controller, covering trajectory execution, interface types, configuration and the controller's action, topic and service interfaces.",
+ "key_facts": [
+  "The joint_trajectory_controller executes joint-space trajectories on a group of joints and interpolates in time between waypoints so their distance can be arbitrary.",
+  "Even trajectories with only one point are accepted by the joint_trajectory_controller.",
+  "Supported command interface combinations include position; position and velocity; position, velocity and acceleration; velocity; and effort.",
+  "For velocity and effort command interfaces, the position+velocity trajectory following error is mapped to commands through a PID loop if configured.",
+  "With command interface effort, state interfaces must include position and velocity.",
+  "The velocity state interface cannot be used if the position interface is missing.",
+  "The controller expects at least position feedback from the hardware; joint velocities and accelerations are optional.",
+  "The controller is realtime-safe and handles wrapping (continuous) joints properly.",
+  "Only one action goal can be active at any moment, or none if the topic interface is used.",
+  "Sending an empty trajectory message from the topic interface overrides the current action goal and does not abort the action.",
+  "The action interface is <controller_name>/follow_joint_trajectory with type control_msgs::action::FollowJointTrajectory.",
+  "The topic interface is <controller_name>/joint_trajectory with type trajectory_msgs::msg::JointTrajectory and is a fire-and-forget alternative.",
+  "The controller_state publisher uses control_msgs::msg::JointTrajectoryControllerState and publishes at the controller manager's update rate.",
+  "The query_state service is <controller_name>/query_state with type control_msgs::srv::QueryTrajectoryState and queries controller state at any future time.",
+  "The sample YAML configuration sets state_publish_rate to 50.0, action_monitor_rate to 20.0, allow_partial_joints_goal to false and open_loop_control to true.",
+  "The documentation is for ROS 2 Humble, and Iron is listed as the latest version."
+ ],
+ "entities": [
+  {
+   "name": "joint_trajectory_controller",
+   "type": "program",
+   "role": "Controller for executing joint-space trajectories on a group of joints, the subject of this documentation"
+  },
+  {
+   "name": "ros2_control",
+   "type": "program",
+   "role": "Framework whose documentation and hardware interface types this controller uses"
+  },
+  {
+   "name": "ros2_controllers",
+   "type": "program",
+   "role": "Package containing the generic joint_trajectory_controller implementation"
+  },
+  {
+   "name": "Adolfo Rodriguez",
+   "type": "person",
+   "role": "Author credited with the ROS 1 wiki page from which parts of the documentation were originally published"
+  },
+  {
+   "name": "ROS 1 wiki",
+   "type": "other",
+   "role": "Original publication of parts of this documentation under CC BY 3.0 license"
+  },
+  {
+   "name": "control_msgs::action::FollowJointTrajectory",
+   "type": "product",
+   "role": "Action type of the controller's action server for commanding trajectories"
+  },
+  {
+   "name": "trajectory_msgs::msg::JointTrajectory",
+   "type": "product",
+   "role": "Message type used to specify trajectories via action or topic"
+  },
+  {
+   "name": "control_msgs::msg::JointTrajectoryControllerState",
+   "type": "product",
+   "role": "Message type of the controller_state topic publishing internal states"
+  },
+  {
+   "name": "control_msgs::srv::QueryTrajectoryState",
+   "type": "product",
+   "role": "Service type used to query controller state at any future time"
+  },
+  {
+   "name": "Iron",
+   "type": "program",
+   "role": "Latest ROS 2 release, to which readers of the Humble documentation are referred"
+  },
+  {
+   "name": "Read the Docs",
+   "type": "organization",
+   "role": "Provider of the Sphinx theme used to build the documentation page"
+  }
+ ],
+ "tags": [
+  "ros2_control",
+  "joint trajectory controller",
+  "robot control",
+  "ros2",
+  "trajectory execution"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5647,
+  "output_tokens": 1421
+ }
+}

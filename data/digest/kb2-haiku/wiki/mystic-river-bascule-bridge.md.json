@@ -1,0 +1,47 @@
+{
+ "summary": "The note describes the Mystic River Bascule Bridge, a bascule (lifting) bridge that crosses the Mystic River in Mystic, Connecticut, USA. It carries both vehicle and foot traffic into the town's tourist district via Main Street, which is U.S. Route 1. The note is very brief and gives no further details such as construction date or dimensions.",
+ "one_line": "The Mystic River Bascule Bridge is a bascule bridge in Mystic, Connecticut that carries vehicles and pedestrians into the town's tourist district via Route 1.",
+ "key_facts": [
+  "The Mystic River Bascule Bridge is a bascule bridge.",
+  "The bridge spans the Mystic River in Mystic, Connecticut, United States.",
+  "The bridge carries vehicle and foot traffic.",
+  "The bridge carries traffic directly into the tourist district of Mystic.",
+  "Traffic reaches the tourist district via Main Street.",
+  "Main Street is U.S. Route 1 at this location.",
+  "The source is a Wikipedia article."
+ ],
+ "entities": [
+  {
+   "name": "Mystic River Bascule Bridge",
+   "type": "place",
+   "role": "bascule bridge spanning the Mystic River in Mystic, Connecticut, carrying vehicle and foot traffic into the tourist district"
+  },
+  {
+   "name": "Mystic River",
+   "type": "place",
+   "role": "river spanned by the Mystic River Bascule Bridge"
+  },
+  {
+   "name": "Mystic, Connecticut",
+   "type": "place",
+   "role": "town in the United States where the bridge is located and whose tourist district it serves"
+  },
+  {
+   "name": "Main Street (U.S. Route 1)",
+   "type": "place",
+   "role": "road that carries traffic over the bridge into the tourist district"
+  }
+ ],
+ "tags": [
+  "bridges",
+  "connecticut",
+  "mystic",
+  "transportation",
+  "infrastructure"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1082,
+  "output_tokens": 600
+ }
+}

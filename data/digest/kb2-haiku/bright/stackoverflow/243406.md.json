@@ -1,0 +1,72 @@
+{
+ "summary": "A Jetson TX2 forum thread in which user Houber asked why calling OpenCV's imshow() inside a VPI (Vision Programming Interface 1.1) C++ program failed, while imread() and imwrite() worked. NVIDIA's AastaLLL replied that cv::imshow works in their environment, recommended ssh -X for window forwarding, and provided a diff to the VPI 01-convolve_2d sample that links opencv_highgui and adds cv::imshow and cv::waitKey calls. Houber reported the problem was solved, and the topic was closed automatically in March 2023.",
+ "one_line": "NVIDIA forum thread on a Jetson TX2 failing to show OpenCV imshow() output inside a VPI 1.1 C++ program, resolved with ssh -X and highgui linking.",
+ "key_facts": [
+  "The thread was posted on February 20, 2023 in the NVIDIA Developer Forums Jetson TX2 category.",
+  "The user Houber was using VPI version 1.1 on a Jetson TX2 platform with C++.",
+  "imread() and imwrite() worked in the user's VPI program, but adding imshow() from OpenCV caused an error.",
+  "The user's base code was the VPI sample program 01-convolve_2d (2D Image Convolution).",
+  "The user added the include <opencv2/highgui.hpp> and called imshow(\"img\", cvOut) after imwrite(\"edges_\" + strBackend + \".png\", cvOut).",
+  "AastaLLL from NVIDIA stated that cv::imshow works well in their environment.",
+  "AastaLLL advised connecting with ssh -X (for example, ssh -X nvidia@[IP]) to allow window forwarding when linked over SSH.",
+  "The suggested CMakeLists.txt change modifies the non-legacy OpenCV branch to link opencv_imgcodecs and opencv_highgui.",
+  "The suggested main.cpp change adds an include of opencv2/highgui/highgui.hpp and calls cv::imshow(\"output\", cvOut) followed by cv::waitKey(0).",
+  "Houber replied on February 20, 2023 at 6:13am that the problem was solved.",
+  "The topic was automatically closed on March 6, 2023, 14 days after the last reply."
+ ],
+ "entities": [
+  {
+   "name": "NVIDIA Developer Forums",
+   "type": "organization",
+   "role": "forum hosting the discussion thread"
+  },
+  {
+   "name": "Houber",
+   "type": "person",
+   "role": "original poster who asked about imshow() failing in a VPI program"
+  },
+  {
+   "name": "AastaLLL",
+   "type": "person",
+   "role": "NVIDIA responder who said cv::imshow works in their environment and provided the sample diff"
+  },
+  {
+   "name": "yingliu",
+   "type": "person",
+   "role": "forum participant who moved the topic to the TX2 forum"
+  },
+  {
+   "name": "VPI - Vision Programming Interface",
+   "type": "product",
+   "role": "NVIDIA library used in the program, version 1.1"
+  },
+  {
+   "name": "Jetson TX2",
+   "type": "product",
+   "role": "hardware platform the user ran the program on"
+  },
+  {
+   "name": "OpenCV",
+   "type": "product",
+   "role": "computer vision library whose imshow() and imread()/imwrite() functions were used"
+  },
+  {
+   "name": "01-convolve_2d sample",
+   "type": "program",
+   "role": "VPI 2D image convolution sample program that the user modified"
+  }
+ ],
+ "tags": [
+  "opencv",
+  "vpi",
+  "jetson-tx2",
+  "imshow",
+  "cuda",
+  "ssh-x-forwarding"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3634,
+  "output_tokens": 1147
+ }
+}

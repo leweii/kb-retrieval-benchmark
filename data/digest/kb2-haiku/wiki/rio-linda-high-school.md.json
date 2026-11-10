@@ -1,0 +1,49 @@
+{
+ "summary": "The note is a short encyclopedic entry on Rio Linda High School, a high school in Rio Linda, Sacramento, California. It reports the school's enrollment of 2,035 students. It notes the school is part of the Twin Rivers Unified School District and was formerly part of the Grant Unified School District.",
+ "one_line": "Rio Linda High School is a 2,035-student high school in Rio Linda, Sacramento, California, in the Twin Rivers Unified School District.",
+ "key_facts": [
+  "Rio Linda High School is a high school located in Rio Linda, Sacramento, CA.",
+  "Rio Linda High School has an enrollment of 2,035 students.",
+  "Rio Linda High School is part of the Twin Rivers Unified School District.",
+  "Rio Linda High School was formerly part of the Grant Unified School District."
+ ],
+ "entities": [
+  {
+   "name": "Rio Linda High School",
+   "type": "organization",
+   "role": "high school located in Rio Linda, Sacramento, CA, with an enrollment of 2,035 students"
+  },
+  {
+   "name": "Rio Linda",
+   "type": "place",
+   "role": "community where Rio Linda High School is located"
+  },
+  {
+   "name": "Sacramento, CA",
+   "type": "place",
+   "role": "city or area in which Rio Linda is located, as stated in the note"
+  },
+  {
+   "name": "Twin Rivers Unified School District",
+   "type": "organization",
+   "role": "school district that Rio Linda High School is currently part of"
+  },
+  {
+   "name": "Grant Unified School District",
+   "type": "organization",
+   "role": "former school district of Rio Linda High School"
+  }
+ ],
+ "tags": [
+  "education",
+  "high school",
+  "sacramento",
+  "california",
+  "school district"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1067,
+  "output_tokens": 525
+ }
+}

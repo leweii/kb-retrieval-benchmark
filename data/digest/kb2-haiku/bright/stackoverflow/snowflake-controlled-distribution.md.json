@@ -1,0 +1,80 @@
+{
+ "summary": "This Snowflake SQL reference page covers the Controlled Distribution data generation functions NORMAL, ZIPF, and the sequence functions SEQ1, SEQ2, SEQ4, and SEQ8. It explains each function's syntax, arguments, and return behavior, and it compares NORMAL with RANDOM. Examples show typical output, constant output when the generator is a fixed seed, and sequence wrap-around. Navigation menus and footer boilerplate are ignored.",
+ "one_line": "Snowflake SQL reference for the NORMAL, ZIPF, and SEQ1/SEQ2/SEQ4/SEQ8 data generation functions, with syntax, usage notes and examples.",
+ "key_facts": [
+  "NORMAL(<mean>, <stddev>, <gen>) generates a normally-distributed pseudo-random floating point number with a specified mean and standard deviation.",
+  "For NORMAL with mean 0.0 and standard deviation 1.0, approximately 68.2% of returned values from multiple calls are between -1.0 and +1.0.",
+  "For NORMAL with mean 5.0 and standard deviation 2, approximately 68.2% of values are between 3.0 and 7.0.",
+  "The gen argument of NORMAL is an expression that serves as a raw source of uniform random numbers, typically the RANDOM function.",
+  "RANDOM generates random 64-bit integers in a uniform distribution and accepts an optional seed that allows random sequences to be repeated.",
+  "When NORMAL is called with a constant gen argument such as 1234, the output is a constant; SELECT normal(0, 1, 1234) returned -0.6604156716 on every row.",
+  "SEQ1, SEQ2, SEQ4 and SEQ8 return a sequence of monotonically increasing integers with wrap-around, after the largest representable integer of a 1, 2, 4, or 8 byte integer width.",
+  "The SEQ functions do not necessarily produce a gap-free sequence; the page suggests the ROW_NUMBER window function if a fully ordered, gap-free sequence is required.",
+  "The optional sign argument of SEQ functions defaults to 0, which continues the sequence at 0 after wrap-around; a sign argument of 1 continues at the smallest representable number for the integer width.",
+  "In the SEQ2(0) and SEQ1(1) example over 132 rows, SEQ1 wraps from 127 to -128 at row 128 while SEQ2 continues to 128.",
+  "ZIPF(<s>, <N>, <gen>) returns a Zipf-distributed integer for N elements and characteristic exponent s.",
+  "The argument N for ZIPF is limited to the inclusive range [1, 16777215], and its memory cost is linear in N while its computational cost is logarithmic.",
+  "The first two arguments of ZIPF (s and N) must be constants.",
+  "With ZIPF(1, 10, 1234), every one of the 10 rows returned the value 4."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake Inc.",
+   "type": "organization",
+   "role": "Company that publishes the Snowflake documentation page, with copyright notice '© 2024 Snowflake, Inc.'"
+  },
+  {
+   "name": "NORMAL",
+   "type": "program",
+   "role": "Data generation function that returns normally-distributed pseudo-random floating point numbers given a mean and standard deviation"
+  },
+  {
+   "name": "ZIPF",
+   "type": "program",
+   "role": "Data generation function that returns a Zipf-distributed integer for N elements and characteristic exponent s"
+  },
+  {
+   "name": "RANDOM",
+   "type": "program",
+   "role": "Function that generates random 64-bit integers in a uniform distribution and is typically used as the gen argument of NORMAL and ZIPF"
+  },
+  {
+   "name": "SEQ1",
+   "type": "program",
+   "role": "Sequence function returning monotonically increasing 1-byte integers with wrap-around"
+  },
+  {
+   "name": "SEQ2",
+   "type": "program",
+   "role": "Sequence function returning monotonically increasing 2-byte integers with wrap-around"
+  },
+  {
+   "name": "SEQ4",
+   "type": "program",
+   "role": "Sequence function returning monotonically increasing 4-byte integers with wrap-around"
+  },
+  {
+   "name": "SEQ8",
+   "type": "program",
+   "role": "Sequence function returning monotonically increasing 8-byte integers with wrap-around"
+  },
+  {
+   "name": "ROW_NUMBER",
+   "type": "program",
+   "role": "Window function suggested for generating a fully ordered, gap-free sequence"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql functions",
+  "random number generation",
+  "probability distributions",
+  "sequences",
+  "data generation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14693,
+  "output_tokens": 2437
+ }
+}

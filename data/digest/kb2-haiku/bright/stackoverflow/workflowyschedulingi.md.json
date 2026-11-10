@@ -1,0 +1,69 @@
+{
+ "summary": "Luke Merrett describes why he uses Workflowy for brainstorming but needs scheduling, repeating tasks and reminders that it lacks, so he built a Selenium script in Python that logs in, finds items tagged with today's date, and adds a #Focus tag so he can search for daily work. The script runs automatically when he logs in to his machine. He also outlines two planned extensions: duplicating repeating items and sending email or Slack notifications for reminders, and invites contributions on GitHub.",
+ "one_line": "Luke Merrett's Selenium-based Python script that automatically tags Workflowy items with today's date as #Focus, adding scheduling to the outlining tool.",
+ "key_facts": [
+  "Workflowy is described as an outlining tool that allows users to create large hierarchies of bullet points.",
+  "Workflowy lacks scheduled items, repeating tasks, and reminders, which the author considers essential for task management.",
+  "Workflowy does not expose any API, so the author turned to Selenium to automate the process.",
+  "The script launches Firefox, logs in to Workflowy, finds items with a tag matching today's date (e.g. #2016-02-18), and gives each a #Focus tag.",
+  "The author schedules the script to run as a scheduled task when he logs in to his machine.",
+  "The author previously used NirvanaHQ and Todoist as primary task apps alongside Workflowy for brainstorming.",
+  "The script's wait helper uses WebDriverWait with a 10-second timeout until a CSS selector element appears.",
+  "The script sends the END key before appending the tag so the cursor moves to the end of the existing text.",
+  "The first planned extension is to find and duplicate repeating items tagged #Repeating, such as #DailyAt17:00.",
+  "The second planned extension is to notify the user by email or Slack when an item reminder is triggered.",
+  "The author notes that Workflowy bullet points have static links, so an email could link directly to the item.",
+  "The article was published on February 18, 2016 and takes about 3 minutes to read.",
+  "The script code is hosted on GitHub at lukemerrett/Workflowy-Automation."
+ ],
+ "entities": [
+  {
+   "name": "Workflowy",
+   "type": "product",
+   "role": "outlining tool the author uses for personal management and brainstorming, lacking scheduling, repeating tasks and reminders"
+  },
+  {
+   "name": "Luke Merrett",
+   "type": "person",
+   "role": "author of the post and creator of the Workflowy scheduling script"
+  },
+  {
+   "name": "Selenium",
+   "type": "program",
+   "role": "browser automation tool used to drive Workflowy through Firefox"
+  },
+  {
+   "name": "Firefox",
+   "type": "product",
+   "role": "browser launched by the script via webdriver.Firefox()"
+  },
+  {
+   "name": "NirvanaHQ",
+   "type": "product",
+   "role": "task management app the author previously used as a primary to-do app"
+  },
+  {
+   "name": "Todoist",
+   "type": "product",
+   "role": "task management app the author previously used as a primary to-do app"
+  },
+  {
+   "name": "Workflowy-Automation",
+   "type": "program",
+   "role": "GitHub repository containing the scheduling script"
+  }
+ ],
+ "tags": [
+  "workflowy",
+  "python",
+  "selenium",
+  "task scheduling",
+  "automation",
+  "productivity"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4209,
+  "output_tokens": 1023
+ }
+}

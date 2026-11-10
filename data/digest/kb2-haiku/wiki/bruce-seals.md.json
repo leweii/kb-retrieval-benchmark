@@ -1,0 +1,49 @@
+{
+ "summary": "A short Wikipedia-style note on basketball player Bruce Seals. It says he was drafted in the first round by the Utah Stars, played two seasons in the ABA, was then drafted in the second round of the NBA by the Seattle SuperSonics in 1975, and played three seasons in the NBA.",
+ "one_line": "Bruce Seals is a basketball player whose career spanned the ABA with the Utah Stars and the NBA after a 1975 draft by the Seattle SuperSonics.",
+ "key_facts": [
+  "Bruce Seals was drafted in the first round by the Utah Stars.",
+  "Bruce Seals played two seasons in the ABA.",
+  "Bruce Seals was drafted into the NBA in the second round by the Seattle SuperSonics in 1975.",
+  "Bruce Seals played three seasons in the NBA."
+ ],
+ "entities": [
+  {
+   "name": "Bruce Seals",
+   "type": "person",
+   "role": "basketball player whose ABA and NBA career is described in the note"
+  },
+  {
+   "name": "Utah Stars",
+   "type": "organization",
+   "role": "ABA team that drafted Seals in the first round"
+  },
+  {
+   "name": "Seattle SuperSonics",
+   "type": "organization",
+   "role": "NBA team that drafted Seals in the second round in 1975"
+  },
+  {
+   "name": "ABA",
+   "type": "organization",
+   "role": "professional basketball league where Seals played two seasons"
+  },
+  {
+   "name": "NBA",
+   "type": "organization",
+   "role": "professional basketball league where Seals was drafted and played three seasons"
+  }
+ ],
+ "tags": [
+  "basketball",
+  "aba",
+  "nba",
+  "sports drafts",
+  "bruce seals"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1061,
+  "output_tokens": 520
+ }
+}

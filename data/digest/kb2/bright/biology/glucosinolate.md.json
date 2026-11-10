@@ -1,0 +1,90 @@
+{
+ "summary": "Glucosinolates are sulfur- and nitrogen-containing secondary metabolites found mainly in Brassicales plants such as mustard, cabbage and horseradish. When plant tissue is damaged, the enzyme myrosinase hydrolyzes them into pungent isothiocyanates (mustard oils), nitriles or thiocyanates that defend the plant. The note covers their chemistry, biosynthesis from amino acids, effects on mammals and insects, and induced production.",
+ "one_line": "Glucosinolates are sulfur-containing plant compounds in Brassicales that myrosinase converts into pungent mustard oils for defense, affecting taste, mammals and insects.",
+ "key_facts": [
+  "Glucosinolates occur as secondary metabolites of almost all plants of the order Brassicales, including Brassicaceae, Capparaceae and Caricaceae.",
+  "Outside Brassicales, the genera Drypetes and Putranjiva in the family Putranjivaceae are the only other known occurrence of glucosinolates.",
+  "Glucosinolates are water-soluble anions derived from glucose and an amino acid, containing sulfur and nitrogen, and they belong to the glucosides.",
+  "Different side groups on the central carbon account for the variation in biological activities of glucosinolates.",
+  "Sinigrin was the first glucosinolate isolated, in 1839 as its potassium salt; its structure was established by 1930, and X-ray crystallography in 1963 settled that it has the Z form.",
+  "All natural glucosinolates are of Z form, although both Z and E forms can be made in the laboratory.",
+  "About 132 different glucosinolates are known to occur naturally in plants, biosynthesized from amino acids such as methionine, tryptophan, phenylalanine and tyrosine.",
+  "Glucoraphanin is derived from dihomomethionine, which is methionine chain-elongated twice, and is the precursor of sulforaphane.",
+  "Biosynthesis, studied in the cress Arabidopsis thaliana, uses seven enzyme-catalysed steps, with sulfur incorporated from glutathione (GSH).",
+  "Myrosinase and glucosinolates are stored in separate cell compartments or different cells and come together mainly under physical injury.",
+  "Sinigrin is responsible for the bitterness of cooked cauliflower and Brussels sprouts; dietary amounts are not toxic to humans given normal iodine intake, though high doses act as goitrogens in livestock.",
+  "A 2017 review found insufficient clinical evidence that consuming isothiocyanates in cruciferous vegetables is beneficial against cancer.",
+  "Large white, small white and orange tip butterflies use nitrile specifier protein to divert hydrolysis toward nitriles, while the diamondback moth uses glucosinolate sulfatase to desulfate glucosinolates.",
+  "Plants produce glucosinolates in response to the degree of herbivory, and the effect of atmospheric CO2 on production is complex."
+ ],
+ "entities": [
+  {
+   "name": "Brassicales",
+   "type": "other",
+   "role": "plant order in which almost all plants produce glucosinolates"
+  },
+  {
+   "name": "Brassicaceae",
+   "type": "other",
+   "role": "economically important plant family containing glucosinolates"
+  },
+  {
+   "name": "Putranjivaceae",
+   "type": "other",
+   "role": "family (genera Drypetes and Putranjiva) with glucosinolates outside Brassicales"
+  },
+  {
+   "name": "Myrosinase",
+   "type": "product",
+   "role": "enzyme that hydrolyzes glucosinolates to isothiocyanates and other products"
+  },
+  {
+   "name": "Sinigrin",
+   "type": "product",
+   "role": "allylglucosinolate, first glucosinolate isolated (1839), causes bitterness"
+  },
+  {
+   "name": "Glucoraphanin",
+   "type": "product",
+   "role": "glucosinolate that is the precursor of sulforaphane"
+  },
+  {
+   "name": "Progoitrin",
+   "type": "product",
+   "role": "glucosinolate leading to goitrin"
+  },
+  {
+   "name": "Arabidopsis thaliana",
+   "type": "other",
+   "role": "cress used to study the glucosinolate biosynthetic pathway"
+  },
+  {
+   "name": "Diamondback moth",
+   "type": "other",
+   "role": "pest of cruciferous plants that uses glucosinolates to find hosts and detoxifies them via glucosinolate sulfatase"
+  },
+  {
+   "name": "Large white butterfly",
+   "type": "other",
+   "role": "insect that lays eggs on glucosinolate plants and uses nitrile specifier protein"
+  },
+  {
+   "name": "Lossen rearrangement",
+   "type": "other",
+   "role": "reaction type to which the non-enzymatic rearrangement to isothiocyanate is compared"
+  }
+ ],
+ "tags": [
+  "glucosinolates",
+  "plant defense",
+  "brassicales",
+  "myrosinase",
+  "isothiocyanates",
+  "plant-insect interactions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4550,
+  "output_tokens": 1582
+ }
+}

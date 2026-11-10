@@ -1,0 +1,44 @@
+{
+ "summary": "This note is the Chapter 17 page of the online textbook Matrix Algebra for Educational Scientists, which is marked under construction. It introduces linear forms, bilinear forms, and the quadratic form x'Ax of a k×k matrix, works a 2×2 example, and defines positive definite matrices. The navigation menu and cookie-style boilerplate are ignored.",
+ "one_line": "Chapter 17 of an educational-statistics matrix algebra text covering linear, bilinear, and quadratic forms and positive definite matrices.",
+ "key_facts": [
+  "The chapter is titled Quadratic Form of a Matrix and is part of the book Matrix Algebra for Educational Scientists.",
+  "The page is marked UNDER CONSTRUCTION.",
+  "A linear form of a matrix is written f(x) = a_1x_1 + a_2x_2 + ... + a_nx_n, or equivalently f(x) = a'x.",
+  "A bilinear form is written f(x,y) = x'Ay, where x and y are vectors and A is a matrix.",
+  "The quadratic form is a special case of the bilinear form in which x = y.",
+  "For a k×k matrix A and k×1 vector x, the expression x'Ax is referred to as the quadratic transformation or the quadratic form of A.",
+  "The example matrix is A = [[-3, 5], [4, -2]].",
+  "For that example, x'Ax simplifies to -3x_1^2 + 9x_1x_2 - 2x_2^2.",
+  "The note states that the quadratic form comes up often in statistical applications, and that the sum of squares, SSCP, covariance matrix, and correlation matrix can be expressed in quadratic form.",
+  "A symmetric matrix is positive definite if all of its eigenvalues are positive.",
+  "An alternative definition: a symmetric matrix A is positive definite if v'Av > 0 for any vector v.",
+  "The note states that nonsingular correlation matrices and covariance matrices are positive definite matrices.",
+  "The two definitions of positive definiteness are stated to be equivalent."
+ ],
+ "entities": [
+  {
+   "name": "Matrix Algebra for Educational Scientists",
+   "type": "product",
+   "role": "online textbook whose Chapter 17 this note is taken from"
+  },
+  {
+   "name": "Quadratic Form of a Matrix",
+   "type": "other",
+   "role": "chapter title and main topic of the note"
+  }
+ ],
+ "tags": [
+  "matrix algebra",
+  "quadratic form",
+  "bilinear form",
+  "positive definite matrices",
+  "linear algebra",
+  "statistics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11441,
+  "output_tokens": 822
+ }
+}

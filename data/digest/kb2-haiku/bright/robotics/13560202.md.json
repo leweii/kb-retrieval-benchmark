@@ -1,0 +1,94 @@
+{
+ "summary": "An SAP Community blog post by SAP Commerce Cloud team (posted 06-15-2023 by PhilippeS) urging customers to upgrade to Composable Storefront 6 or later and Node.js 18 to stay current and avoid build errors. It explains that third-party dependencies with high-severity security issues (CVSS 7 or higher) in end-of-life versions such as Node.js 14 can lead to withdrawn support on short notice, and that non-current versions will fail builds from 2024 onward. It also points to SAP's release policy, dependency matrix and terms for further details.",
+ "one_line": "SAP blog urging customers to upgrade to Composable Storefront 6 or later and Node.js 18 to avoid build errors and lost support.",
+ "key_facts": [
+  "The SAP Commerce Cloud team blog post 'Staying current with Commerce Cloud and Composable Storefront' was posted on 06-15-2023 by PhilippeS.",
+  "The post urges customers to upgrade to Composable Storefront 6 (or later) and/or Node.js 18 now.",
+  "Versions of Composable Storefront that are not current will result in build errors, and new code cannot be deployed.",
+  "Composable Storefront / Spartacus depends on third-party libraries.",
+  "If a high security issue is found in end-of-life third-party dependencies such as Node.js 14, support will be withdrawn from Commerce Cloud with short notice (1-2 weeks).",
+  "A 'high security issue' is defined as a vulnerability with a CVSSv3 score of 7 or higher.",
+  "The enforcement of current versions applies starting in 2024 or upon the event described above, whichever comes first.",
+  "According to the SAP Commerce Cloud Supplemental Terms and Conditions, customers must run a current version of SAP Commerce Cloud.",
+  "The customer organization is responsible for installing new releases and upgrading SAP Commerce Cloud software.",
+  "The Update Release Policy and Publication Frequency for Composable Storefront Libraries describes which Composable Storefront versions are current and which Commerce Cloud backends are supported.",
+  "The Composable Storefront Dependencies Matrix shows which Composable Storefront updates work with which versions of Node.js and Angular.",
+  "The post is tagged with Product Updates, angular, composable storefront, Spartacus, and SAP managed tags Digital Technologies, Node.js and SAP Commerce Cloud.",
+  "Questions should be directed to the customer's account team."
+ ],
+ "entities": [
+  {
+   "name": "SAP Commerce Cloud",
+   "type": "product",
+   "role": "e-commerce platform whose current version customers must run and upgrade"
+  },
+  {
+   "name": "Composable Storefront",
+   "type": "product",
+   "role": "SAP Commerce Cloud storefront whose version 6 or later is recommended, also known as Spartacus"
+  },
+  {
+   "name": "Node.js",
+   "type": "product",
+   "role": "runtime whose version 18 is recommended and whose end-of-life version 14 is cited as an example of risky dependency"
+  },
+  {
+   "name": "PhilippeS",
+   "type": "person",
+   "role": "SAP employee who posted the blog article"
+  },
+  {
+   "name": "SAP Commerce Cloud Team",
+   "type": "organization",
+   "role": "signatory of the blog post"
+  },
+  {
+   "name": "SAP Commerce Cloud Supplemental Terms and Conditions",
+   "type": "program",
+   "role": "agreement requiring customers to run a current version of SAP Commerce Cloud"
+  },
+  {
+   "name": "Update Release Policy and Publication Frequency for Composable Storefront Libraries",
+   "type": "program",
+   "role": "SAP documentation describing current Composable Storefront versions and supported backends"
+  },
+  {
+   "name": "Composable Storefront Dependencies Matrix",
+   "type": "program",
+   "role": "SAP documentation mapping Composable Storefront updates to Node.js and Angular versions"
+  },
+  {
+   "name": "Release notes for SAP Commerce Cloud JS storefront hosting",
+   "type": "program",
+   "role": "reference document listed in the post"
+  },
+  {
+   "name": "Manifest components reference",
+   "type": "program",
+   "role": "reference document listed in the post"
+  },
+  {
+   "name": "CVSS v3",
+   "type": "other",
+   "role": "vulnerability scoring system used to define high security issues"
+  },
+  {
+   "name": "Angular",
+   "type": "product",
+   "role": "framework whose versions are matched to Composable Storefront updates in the dependencies matrix"
+  }
+ ],
+ "tags": [
+  "sap commerce cloud",
+  "composable storefront",
+  "node.js",
+  "spartacus",
+  "software upgrades",
+  "security vulnerabilities"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9371,
+  "output_tokens": 1465
+ }
+}

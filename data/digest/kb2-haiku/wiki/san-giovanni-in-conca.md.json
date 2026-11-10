@@ -1,0 +1,38 @@
+{
+ "summary": "This note describes San Giovanni in Conca, a crypt that is the remains of a former basilica church in Milan, northern Italy. The crypt is now located in the centre of Piazza Missori. The note is very brief and gives no further history or details.",
+ "one_line": "San Giovanni in Conca is a crypt in Milan, northern Italy, remaining from a former basilica church and now located in Piazza Missori.",
+ "key_facts": [
+  "San Giovanni in Conca is a crypt of a former basilica church.",
+  "San Giovanni in Conca is located in Milan, northern Italy.",
+  "San Giovanni in Conca is now located in the centre of Piazza Missori."
+ ],
+ "entities": [
+  {
+   "name": "San Giovanni in Conca",
+   "type": "place",
+   "role": "crypt of a former basilica church, located in the centre of Piazza Missori in Milan"
+  },
+  {
+   "name": "Piazza Missori",
+   "type": "place",
+   "role": "square in Milan where the San Giovanni in Conca crypt is now located"
+  },
+  {
+   "name": "Milan",
+   "type": "place",
+   "role": "city in northern Italy where San Giovanni in Conca is located"
+  }
+ ],
+ "tags": [
+  "milan",
+  "italy",
+  "churches",
+  "crypts",
+  "architecture"
+ ],
+ "category": "religion & culture",
+ "usage": {
+  "input_tokens": 1041,
+  "output_tokens": 400
+ }
+}

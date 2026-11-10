@@ -1,0 +1,43 @@
+{
+ "summary": "This note documents the ATAN2 function, which computes the inverse tangent of the ratio of its two arguments, giving the angle between the positive X axis and the ray from the origin to the point (X, Y). It covers syntax (ATAN2(<y>, <x>), noting the Y coordinate comes first), argument types, the return value in radians within [-pi, pi], usage notes on type conversion and NULL handling, and an example where ATAN2(5, 5) returns 0.7853981634. The page is a clipped reference page with navigation boilerplate, which was ignored.",
+ "one_line": "Reference for the ATAN2 function, which returns the arc tangent angle in radians of a point's Y and X coordinates.",
+ "key_facts": [
+  "ATAN2 computes the inverse tangent (arc tangent) of the ratio of its two arguments.",
+  "If x > 0, the expression ATAN2(y, x) is equivalent to ATAN(y/x).",
+  "The arc tangent is the angle between the X axis and the ray from the point (0,0) to the point (X, Y), where X and Y are not both 0.",
+  "The syntax is ATAN2( <y> , <x> ), and the first parameter is the Y coordinate, not the X coordinate.",
+  "Both arguments are of data type DOUBLE, and the Y coordinate is the parameter <y>.",
+  "The returned value is of data type DOUBLE.",
+  "The returned value is in radians, not degrees.",
+  "The returned value is a number in the interval [-pi, pi].",
+  "If an argument is a numeric data type other than DOUBLE, the value is converted to DOUBLE.",
+  "If an argument is a string, the value is converted to DOUBLE if possible.",
+  "If an argument is of any other data type, the function returns an error.",
+  "If either argument is NULL, the returned value is NULL.",
+  "The example SELECT ATAN2(5, 5); returns 0.7853981634."
+ ],
+ "entities": [
+  {
+   "name": "ATAN2",
+   "type": "product",
+   "role": "Function that computes the inverse tangent of the ratio of its two arguments, documented on this page"
+  },
+  {
+   "name": "ATAN",
+   "type": "product",
+   "role": "Arc tangent function to which ATAN2(y, x) is equivalent when x > 0"
+  }
+ ],
+ "tags": [
+  "atan2",
+  "trigonometry",
+  "sql-function",
+  "arc-tangent",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1736,
+  "output_tokens": 763
+ }
+}

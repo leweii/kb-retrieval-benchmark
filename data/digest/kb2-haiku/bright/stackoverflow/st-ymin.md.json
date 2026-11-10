@@ -1,0 +1,68 @@
+{
+ "summary": "This page documents the ST_YMIN geospatial function, which returns the minimum latitude (Y coordinate) of all points in a GEOGRAPHY or GEOMETRY expression, returning a REAL value. It notes that the function accounts for the curvature of edges toward the poles. An example creates a table of point and linestring geographies and compares ST_XMIN, ST_XMAX, ST_YMIN and ST_YMAX results across them.",
+ "one_line": "Reference for the ST_YMIN function, which returns the minimum latitude of a geography or geometry, accounting for pole-ward edge curvature.",
+ "key_facts": [
+  "ST_YMIN returns the minimum latitude (Y coordinate) of all points contained in a geography or geometry object.",
+  "The syntax is ST_YMIN( <geography_or_geometry_expression> ).",
+  "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+  "ST_YMIN returns a REAL value.",
+  "The function takes into account the curvature of the edges toward the poles.",
+  "The example table extreme_point_collection has columns id INTEGER and g GEOGRAPHY.",
+  "In the example, POINT(-180 0) has ST_YMIN of 0.",
+  "In the example, LINESTRING(-60 30, 60 30) has ST_XMIN of -60 and ST_XMAX of 60.",
+  "In the example, LINESTRING(-60 -30, 60 -30) has ST_YMIN of -49.106605351 and ST_YMAX of -30.",
+  "In the example, LINESTRING(-60 30, 60 30) has ST_YMIN of 30 and ST_YMAX of 49.106605351.",
+  "The example LINESTRING(-179 0, 179 0) has ST_YMIN of approximately -6.883275617e-14 and ST_YMAX of approximately 6.883275617e-14.",
+  "The page lists related functions ST_XMIN, ST_XMAX and ST_YMAX in the same example."
+ ],
+ "entities": [
+  {
+   "name": "ST_YMIN",
+   "type": "program",
+   "role": "geospatial function documented on this page that returns the minimum latitude of a geography or geometry"
+  },
+  {
+   "name": "ST_XMIN",
+   "type": "program",
+   "role": "geospatial function used alongside ST_YMIN in the example to return minimum longitude"
+  },
+  {
+   "name": "ST_XMAX",
+   "type": "program",
+   "role": "geospatial function used in the example to return maximum longitude"
+  },
+  {
+   "name": "ST_YMAX",
+   "type": "program",
+   "role": "geospatial function used in the example to return maximum latitude"
+  },
+  {
+   "name": "extreme_point_collection",
+   "type": "other",
+   "role": "example table holding id and GEOGRAPHY values for the ST_XMIN/ST_YMIN demonstration"
+  },
+  {
+   "name": "GEOGRAPHY",
+   "type": "other",
+   "role": "data type accepted as an argument to ST_YMIN"
+  },
+  {
+   "name": "GEOMETRY",
+   "type": "other",
+   "role": "data type accepted as an argument to ST_YMIN"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "geospatial",
+  "sql-functions",
+  "geography",
+  "geometry",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2138,
+  "output_tokens": 1028
+ }
+}

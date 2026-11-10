@@ -1,0 +1,109 @@
+{
+ "summary": "This note is the GitHub repository page for ros2_serial_interface, an MIT-licensed ROS2 project by AnrdyShmrdy that provides a serial communication bridge between a serial server (typically a ROS2-running device such as a Raspberry Pi) and a serial client (typically a non-ROS device such as a microcontroller). The client performs a pre-defined action when it receives a specific input from the server, and the project is presented as a modifiable framework rather than a finished application. The page lists the repository's Python scripts, the ros2 run/launch commands for each, and a pointer to testing_instructions.md, with the file descriptions left marked as in progress; the note also shows the repository's Python (70.7%) and C++ (28.7%) language split.",
+ "one_line": "A GitHub repo providing a ROS2 serial communication bridge between a ROS2 server device and a non-ROS serial client microcontroller.",
+ "key_facts": [
+  "The ros2_serial_interface repository is owned by the GitHub user AnrdyShmrdy and is licensed under the MIT license.",
+  "The serial server is the device used to indirectly control the serial client via ROS2 and serial communication.",
+  "The serial client is the device that listens for serial communication from the serial server and performs a pre-defined action based on what it receives.",
+  "The project expects the serial server to be a device that runs ROS2, such as a Raspberry Pi, while the serial client is a device that does not run ROS2, such as a microcontroller.",
+  "The note gives the example that if the serial server sends the character 'w' to the serial client, the serial client must be programmed to listen for the character 'w'.",
+  "The project's main intention is to provide a basic framework that anyone can use and modify, and the programs are meant to demonstrate what one CAN do rather than what one SHOULD do.",
+  "The repository includes Python scripts predef_timed_pub.py, pynput_key_pub.py, serial_server.py, serial_server_launch.py, terminal_key_pub.py, virtual_serial_client.py, virtual_serial_server.py and virtual_serial_setup.py.",
+  "The command 'ros2 run ros2_serial_interface serial_server' runs serial_server.py, and 'ros2 launch ros2_serial_interface serial_server_launch.py' runs the launch file.",
+  "Testing instructions for the files are provided in testing_instructions.md.",
+  "The repository has 14 stars, 3 forks, 1 open issue, and 0 pull requests at the time of the snapshot.",
+  "The repository's languages are Python at 70.7%, C++ at 28.7%, and Shell at 0.6%.",
+  "The repository contains folders named ArduinoSketches, launch, resource, ros2_serial_interface, and test, and the commit history shows 28 commits on main.",
+  "No releases or packages are published for the repository."
+ ],
+ "entities": [
+  {
+   "name": "ros2_serial_interface",
+   "type": "program",
+   "role": "ROS2 Serial communication interface repository designed as a serial communication bridge between a serial server and a serial client"
+  },
+  {
+   "name": "AnrdyShmrdy",
+   "type": "person",
+   "role": "GitHub user and owner of the ros2_serial_interface repository"
+  },
+  {
+   "name": "serial server",
+   "type": "other",
+   "role": "device used to indirectly control the serial client via ROS2 and serial communication, expected to be a device running ROS2 such as a Raspberry Pi"
+  },
+  {
+   "name": "serial client",
+   "type": "other",
+   "role": "device that listens for serial communication from the serial server and performs a pre-defined action, expected to be a device not running ROS2 such as a microcontroller"
+  },
+  {
+   "name": "Raspberry Pi",
+   "type": "product",
+   "role": "example of a device that runs ROS2 and would act as the serial server"
+  },
+  {
+   "name": "predef_timed_pub.py",
+   "type": "program",
+   "role": "script in the repository run with ros2 run ros2_serial_interface predef_timed_pub"
+  },
+  {
+   "name": "pynput_key_pub.py",
+   "type": "program",
+   "role": "script in the repository run with ros2 run ros2_serial_interface pynput_key_pub"
+  },
+  {
+   "name": "serial_server.py",
+   "type": "program",
+   "role": "script in the repository run with ros2 run ros2_serial_interface serial_server"
+  },
+  {
+   "name": "serial_server_launch.py",
+   "type": "program",
+   "role": "launch file in the repository run with ros2 launch ros2_serial_interface serial_server_launch.py"
+  },
+  {
+   "name": "terminal_key_pub.py",
+   "type": "program",
+   "role": "script in the repository run with ros2 run ros2_serial_interface terminal_key_pub"
+  },
+  {
+   "name": "virtual_serial_client.py",
+   "type": "program",
+   "role": "script in the repository run with ros2 run ros2_serial_interface virtual_serial_client"
+  },
+  {
+   "name": "virtual_serial_server.py",
+   "type": "program",
+   "role": "script in the repository run with ros2 run ros2_serial_interface virtual_serial_server"
+  },
+  {
+   "name": "virtual_serial_setup.py",
+   "type": "program",
+   "role": "script in the repository run with ros2 run ros2_serial_interface virtual_serial_setup"
+  },
+  {
+   "name": "testing_instructions.md",
+   "type": "other",
+   "role": "file containing instructions for testing the repository's files"
+  },
+  {
+   "name": "MIT license",
+   "type": "other",
+   "role": "license under which the repository is published"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "serial-communication",
+  "robotics",
+  "raspberry-pi",
+  "microcontroller",
+  "github-repository"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6765,
+  "output_tokens": 1760
+ }
+}

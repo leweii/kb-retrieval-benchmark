@@ -1,0 +1,60 @@
+{
+ "summary": "This note is a clipped section of the TypeScript Handbook covering basic types: boolean, number, string, array, tuple, enum, unknown, any, void, null/undefined, never, and object. It explains each type with short code examples and notes on behavior such as template strings, tuple index errors, enum reverse mapping, and the difference between unknown and any. It closes with type assertions, a note on preferring let over var, and a warning against using the wrapper types Number, String, Boolean, Symbol and Object.",
+ "one_line": "TypeScript Handbook overview of its basic built-in types and type assertions, with code examples.",
+ "key_facts": [
+  "TypeScript calls the true/false value type boolean, as in let isDone: boolean = false;",
+  "Floating point numbers get the type number, while BigIntegers get the type bigint.",
+  "TypeScript supports binary and octal literals introduced in ECMAScript 2015, such as 0b1010 and 0o744.",
+  "Template strings are surrounded by the backtick character and embedded expressions take the form ${expr}.",
+  "A tuple type such as [string, number] expresses an array with a fixed number of elements whose types are known.",
+  "Accessing a tuple index outside the known indices fails, such as x[3] on a tuple of length 2 giving error 2493.",
+  "An enum is described as a way of giving more friendly names to sets of numeric values, similar to C#.",
+  "Enums begin numbering members at 0 by default, and Color[2] can map a numeric value back to its name 'Green' when Red = 1.",
+  "The unknown type is used for values that could be anything, such as dynamic user content, and must be narrowed with typeof checks or comparisons before use.",
+  "The any type opts out of type checking, and unlike unknown it allows arbitrary property access such as looselyTyped.toFixed().",
+  "The void type is commonly used as the return type of functions that do not return a value.",
+  "By default null and undefined are subtypes of all other types, but strictNullChecks limits their assignability.",
+  "The never type represents values that never occur, such as the return type of a function that always throws an exception.",
+  "The object type represents the non-primitive type, meaning anything that is not number, string, boolean, bigint, symbol, null, or undefined.",
+  "Type assertions have two forms: the as-syntax and the angle-bracket syntax such as (<string>someValue).length, and only as-style assertions are allowed with JSX."
+ ],
+ "entities": [
+  {
+   "name": "TypeScript",
+   "type": "product",
+   "role": "programming language whose basic datatypes are described in this note"
+  },
+  {
+   "name": "JavaScript",
+   "type": "product",
+   "role": "language that TypeScript builds on, sharing boolean, number and string types"
+  },
+  {
+   "name": "ECMAScript 2015",
+   "type": "program",
+   "role": "standard that introduced binary and octal literals"
+  },
+  {
+   "name": "C#",
+   "type": "product",
+   "role": "language referenced as having enums similar to TypeScript's"
+  },
+  {
+   "name": "strictNullChecks",
+   "type": "program",
+   "role": "compiler flag that restricts null and undefined assignability"
+  }
+ ],
+ "tags": [
+  "typescript",
+  "types",
+  "programming",
+  "handbook",
+  "javascript"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11358,
+  "output_tokens": 1004
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "summary": "A Stack Overflow question asking for existing practical tools or methods to compress correlated floating-point time-series data, ideally beating gzip while staying comparable in speed, with a controlled, bounded precision reduction acceptable. The page includes several answers: XOR-based differencing with mantissa/exponent splitting, truncating low-order mantissa bits (with a C and Python example), HDF5-style byte shuffling and float16 conversion, the zfp, TurboTranspose/TurboPFor and icapp tools, and a zstd tar command. Navigation and site boilerplate are ignored.",
+ "one_line": "Stack Overflow question and answers on lossless and controlled-precision compression of correlated floating-point time-series data, compared against gzip.",
+ "key_facts": [
+  "The question was asked on Dec 25, 2011 and last modified about 1 year, 2 months before the snapshot, with 37k views.",
+  "The asker works with large data files that are series of correlated doubles describing a function of time.",
+  "The asker wants a controlled way to bound how many digits are kept, and says a tool comparable to gzip in speed would be excellent.",
+  "The asker says they are looking for existing practical tools rather than a paper describing how to implement something.",
+  "One answer notes that 1.2345 is stored as 0x3ff3c083126e978d in binary double precision.",
+  "Zeroing the least significant 24 bits of 1.2345 gives 0x3ff3c08312000000, still accurate to about 9 decimal digits, with a difference of 1.6e-9.",
+  "For single-precision floats there are 23 fraction bits, of which up to 22 can be zeroed; for double precision there are 52, of which up to 51 can be zeroed.",
+  "One answer recommends the HDF5 technique of shuffling, which groups each byte of N floating point values together.",
+  "Another answer reports that converting data to float16 and back to float32 can shrink gzipped file sizes by around 40-60 per cent.",
+  "That answer notes the maximum float16 value is 65504, so data may need scaling first, and reports a maximum fractional difference of about 0.00048.",
+  "An answer recommends the zfp tool as an existing option for compressing floating-point data.",
+  "A later answer lists the TurboTranspose, TurboPFor and icapp tools and says icapp can test these methods on linux and windows.",
+  "A zstd-based answer gives tar commands using --use-compress-program=zstd to compress, decompress and list archives."
+ ],
+ "entities": [
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "website hosting the question and its answers"
+  },
+  {
+   "name": "gzip",
+   "type": "product",
+   "role": "baseline compression method the asker wants to outperform in compression ratio"
+  },
+  {
+   "name": "zfp",
+   "type": "product",
+   "role": "existing tool suggested for compressing floating-point data"
+  },
+  {
+   "name": "TurboTranspose",
+   "type": "product",
+   "role": "implementation of floating point compression via transpose and lz77 in one answer"
+  },
+  {
+   "name": "TurboPFor",
+   "type": "product",
+   "role": "implementation of predictor plus integer encoding for floating point compression"
+  },
+  {
+   "name": "icapp",
+   "type": "product",
+   "role": "tool for testing the compression methods on linux and windows"
+  },
+  {
+   "name": "HDF5",
+   "type": "product",
+   "role": "data format whose shuffling technique is mentioned in an answer"
+  },
+  {
+   "name": "Logluv-compressed TIFF",
+   "type": "product",
+   "role": "format suggested as a possible option for this data"
+  },
+  {
+   "name": "zstd",
+   "type": "product",
+   "role": "compression algorithm recommended with tar in a later answer"
+  },
+  {
+   "name": "FPC Double-Precision Floating-Point Compression Algorithm",
+   "type": "program",
+   "role": "Martin Burtscher paper cited as a resource"
+  },
+  {
+   "name": "Martin Burtscher",
+   "type": "person",
+   "role": "author of papers on floating-point compression cited in an answer"
+  },
+  {
+   "name": "Holt's Exponential smoothing algorithm",
+   "type": "program",
+   "role": "prediction-based method suggested for compressing time-series data"
+  },
+  {
+   "name": "Szabolcs",
+   "type": "person",
+   "role": "asker of the question"
+  }
+ ],
+ "tags": [
+  "floating-point",
+  "compression",
+  "time-series",
+  "gzip",
+  "lossy-compression",
+  "numpy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7641,
+  "output_tokens": 1366
+ }
+}

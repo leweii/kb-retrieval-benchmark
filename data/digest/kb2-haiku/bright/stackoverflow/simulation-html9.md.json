@@ -1,0 +1,95 @@
+{
+ "summary": "This R lesson introduces random number simulation using sample(), rbinom(), rnorm(), rpois() and replicate(). It shows sampling with and without replacement, simulating an unfair coin with prob weights, and simulating normal and Poisson draws. It ends by noting that column means of Poisson samples look nearly normal, which the note attributes to the Central Limit Theorem. The closing request to submit the lesson log to Google Forms for Simon is administrative boilerplate.",
+ "one_line": "A tutorial on simulating random numbers in R with sample, rbinom, rnorm, rpois and replicate, including a Central Limit Theorem preview.",
+ "key_facts": [
+  "The sample() function draws random numbers; sample(1:6, 4, replace = TRUE) simulates rolling four six-sided dice.",
+  "The probability of rolling the exact same result of four six-sided dice twice in a row is (1/6)^4 = 0.00077, according to the note.",
+  "Sampling with replacement means each number is replaced after selection, so the same number can appear more than once.",
+  "LETTERS is a predefined R variable containing a vector of all 26 letters of the English alphabet.",
+  "When the 'size' argument to sample() is not specified, R takes a sample equal in size to the vector being sampled, so sample(LETTERS) permutes all 26 letters.",
+  "An unfair two-sided coin with a 0.3 probability of tails and 0.7 probability of heads is simulated with sample(c(0,1), 100, replace = TRUE, prob = c(0.3, 0.7)).",
+  "The note expects about 70 heads in 100 flips of the unfair coin; the first simulated run produced sum(flips) = 70 and a second rbinom run produced 66.",
+  "rbinom(1, size = 100, prob = 0.7) generates a single binomial random variable counting heads in 100 flips, and only the success probability needs to be specified.",
+  "Each probability distribution in R has r*** (random), d*** (density), p*** (probability) and q*** (quantile) functions.",
+  "rnorm(10) generates 10 numbers from the standard normal distribution with mean 0 and standard deviation 1, while rnorm(10, 100, 25) uses mean 100 and standard deviation 25.",
+  "rpois(5, 10) generates 5 random values from a Poisson distribution with mean 10.",
+  "replicate(100, rpois(5, 10)) repeats the Poisson operation 100 times and returns a matrix in which each column holds 5 values.",
+  "colMeans(my_pois) computes the mean of each column, and hist(cm) plots the distribution of those column means, which looks almost normal.",
+  "The note says the near-normal shape of the column means is the Central Limit Theorem at work, a topic deferred to another lesson.",
+  "The note lists exponential (rexp()), chi-squared (rchisq()) and gamma (rgamma()) as other built-in random generators."
+ ],
+ "entities": [
+  {
+   "name": "R",
+   "type": "product",
+   "role": "statistical programming language whose tools for simulating random numbers are highlighted in the lesson"
+  },
+  {
+   "name": "sample()",
+   "type": "program",
+   "role": "function used to draw random samples with or without replacement and to permute vectors"
+  },
+  {
+   "name": "rbinom()",
+   "type": "program",
+   "role": "function that simulates binomial random variables, such as the number of heads in coin flips"
+  },
+  {
+   "name": "rnorm()",
+   "type": "program",
+   "role": "function that generates random numbers from a normal distribution with specified mean and standard deviation"
+  },
+  {
+   "name": "rpois()",
+   "type": "program",
+   "role": "function that generates random values from a Poisson distribution with a given mean"
+  },
+  {
+   "name": "replicate()",
+   "type": "program",
+   "role": "function used to repeat an operation many times, such as 100 Poisson draws, and store the results in a matrix"
+  },
+  {
+   "name": "colMeans()",
+   "type": "program",
+   "role": "function that computes the mean of each column of a matrix, applied to my_pois"
+  },
+  {
+   "name": "hist()",
+   "type": "program",
+   "role": "function used to plot a histogram of the column means cm"
+  },
+  {
+   "name": "LETTERS",
+   "type": "other",
+   "role": "predefined R variable holding a vector of the 26 letters of the English alphabet"
+  },
+  {
+   "name": "Central Limit Theorem",
+   "type": "other",
+   "role": "concept the note cites as the reason the column means look almost normally distributed"
+  },
+  {
+   "name": "Simon",
+   "type": "person",
+   "role": "instructor who will evaluate the learner's progress from the submitted lesson log"
+  },
+  {
+   "name": "Google Forms",
+   "type": "product",
+   "role": "form tool to which the lesson log is to be submitted"
+  }
+ ],
+ "tags": [
+  "r programming",
+  "simulation",
+  "random numbers",
+  "probability distributions",
+  "statistics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6226,
+  "output_tokens": 1737
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "summary": "This is a reference page for the AS_TIME function, which casts a VARIANT value to a time value and does not convert from timestamps. It gives the syntax AS_TIME( variant_expr ), which takes a single VARIANT expression as its argument. An example creates a table multiple_types with VARIANT columns, inserts a TO_TIME('12:34:56') value wrapped in TO_VARIANT, and selects AS_TIME(time1), returning 12:34:56.",
+ "one_line": "Reference for the AS_TIME function, which casts a VARIANT value to a time value, with a worked example.",
+ "key_facts": [
+  "AS_TIME casts a VARIANT value to a time value.",
+  "AS_TIME does not convert from timestamps.",
+  "The syntax of AS_TIME is AS_TIME( <variant_expr> ).",
+  "The argument variant_expr is an expression that evaluates to a value of type VARIANT.",
+  "The example creates a table named multiple_types with columns binary1, date1, decimal1, time1, and timestamp1, all of type VARIANT.",
+  "The example inserts TO_VARIANT(TO_BINARY('F0A5')) into binary1.",
+  "The example inserts TO_VARIANT(TO_DATE('2018-10-10')) into date1.",
+  "The example inserts TO_VARIANT(TO_DECIMAL(1.23, 6, 3)) into decimal1.",
+  "The example inserts TO_VARIANT(TO_TIME('12:34:56')) into time1.",
+  "The example inserts TO_VARIANT(TO_TIMESTAMP_NTZ('2018-10-10 12:34:56')) into timestamp1.",
+  "The query SELECT AS_TIME(time1) AS \"Time\" FROM multiple_types returns the value 12:34:56.",
+  "The function is listed under the Cast category and the semistructured data function group."
+ ],
+ "entities": [
+  {
+   "name": "AS_TIME",
+   "type": "program",
+   "role": "function that casts a VARIANT value to a time value; does not convert from timestamps"
+  },
+  {
+   "name": "multiple_types",
+   "type": "other",
+   "role": "example table with VARIANT columns binary1, date1, decimal1, time1, and timestamp1"
+  }
+ ],
+ "tags": [
+  "sql",
+  "variant",
+  "type-casting",
+  "time",
+  "semistructured-data",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1755,
+  "output_tokens": 757
+ }
+}

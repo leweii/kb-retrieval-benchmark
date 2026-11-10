@@ -1,0 +1,77 @@
+{
+ "summary": "This page documents the ROS 2 interfaces of the iRobot Create® 3 robot, which exposes its user-facing APIs through ROS 2 topics, services, actions and parameters. It lists the topics, services, actions and parameters the robot provides, with notes on commands it subscribes to, key parameters, and its fused odometry and coordinate system. The page is part of the Create® 3 Docs site and is based on ROS 2.",
+ "one_line": "Overview of the iRobot Create® 3 robot's ROS 2 topics, services, actions, parameters and coordinate system.",
+ "key_facts": [
+  "The Create® 3 robot is based on ROS 2 and exposes all its user-facing APIs through ROS 2 entities: topics, services, actions and parameters.",
+  "The robot uses standard ROS 2 messages when available and implements custom messages in irobot_create_msgs for data not represented by standard messages.",
+  "The Create® 3 robot subscribes to /cmd_audio to play specified notes from the robot speaker.",
+  "The Create® 3 robot subscribes to /cmd_lightring to change the color of the light ring.",
+  "The Create® 3 robot subscribes to /cmd_vel to command velocities in the robot reference frame.",
+  "The Create® 3 robot exposes nine ROS 2 action servers, including /dock, /undock, /drive_arc, /drive_distance, /rotate_angle, /navigate_to_position, /wall_follow, /led_animation and /audio_note_sequence.",
+  "The read-only morphology parameters wheel_base and wheels_encoder_resolution can be used to implement estimation or motion control algorithms.",
+  "The wheel_accel_limit parameter sets acceleration limits in units of mm·s^-2, an int between 1 and 900 inclusive, with default 900.",
+  "The lightring_led_brightness parameter is an int between 10 and 100 inclusive, with default 15.",
+  "The publish_odom_tfs parameter enables transformations from odom (boolean, default true) and cannot be set at runtime.",
+  "The Create® 3 robot produces a fused odometry combining its wheel encoders, IMU, and ground optical flow sensor.",
+  "The robot's coordinate system is right-handed, with x forward, y left, and z up.",
+  "The base_link frame is defined to be at the center of rotation of the robot with z height intersecting the floor.",
+  "The base_footprint frame is the 2D planar representation of base_link with the pitch and roll factors removed from the transform.",
+  "The /odom publication contains the same position and orientation as base_link in the form of a nav_msgs/msg/Odometry message with velocity additionally populated.",
+  "If topics are not visible via ros2 topic list, the robot's RMW_IMPLEMENTATION should match the one on the user's machine, and the command can be run with --no-daemon --spin-time 10 to avoid stale cached discovery information."
+ ],
+ "entities": [
+  {
+   "name": "Create® 3 robot",
+   "type": "product",
+   "role": "robot whose ROS 2 APIs (topics, services, actions, parameters) are documented on this page"
+  },
+  {
+   "name": "ROS 2",
+   "type": "program",
+   "role": "robotics middleware on which the Create® 3 robot is based and whose entities expose its APIs"
+  },
+  {
+   "name": "Open Robotics",
+   "type": "organization",
+   "role": "governs ROS 2, per the footnote"
+  },
+  {
+   "name": "irobot_create_msgs",
+   "type": "program",
+   "role": "custom ROS 2 messages implemented by the robot for data not represented by standard messages"
+  },
+  {
+   "name": "iRobot Corporation",
+   "type": "organization",
+   "role": "copyright holder of the Create® 3 Docs (Copyright © 2021-2024)"
+  },
+  {
+   "name": "Material for MkDocs",
+   "type": "program",
+   "role": "tool used to build the documentation site"
+  },
+  {
+   "name": "Network Configuration",
+   "type": "other",
+   "role": "documentation section referenced for information about RMW configuration"
+  },
+  {
+   "name": "Fast DDS Discovery Server",
+   "type": "program",
+   "role": "setup page listed in the site navigation"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "irobot create 3",
+  "robotics",
+  "topics and services",
+  "odometry",
+  "coordinate frames"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8565,
+  "output_tokens": 1358
+ }
+}

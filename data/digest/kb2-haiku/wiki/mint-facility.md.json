@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short excerpt from a wiki article on mints, the facilities that manufacture coins. It states that coins and mints appeared independently in China around the same time and then spread to Korea and Japan. It also notes that Roman coin manufacture, dating from about the 4th century BC, strongly influenced the later development of coin minting in Europe.",
+ "one_line": "Brief overview of the origins of coin minting in China, Korea, Japan, and the Roman Empire.",
+ "key_facts": [
+  "Coins and mints appeared independently in China at about the same time.",
+  "Coin minting spread from China to Korea and Japan.",
+  "The manufacture of coins in the Roman Empire dates from about the 4th century BC.",
+  "Roman coin manufacture significantly influenced the later development of coin minting in Europe."
+ ],
+ "entities": [
+  {
+   "name": "Roman Empire",
+   "type": "place",
+   "role": "civilization whose coin manufacture, dating from about the 4th century BC, significantly influenced later coin minting in Europe"
+  },
+  {
+   "name": "China",
+   "type": "place",
+   "role": "location where coins and mints appeared independently, spreading later to Korea and Japan"
+  },
+  {
+   "name": "Korea",
+   "type": "place",
+   "role": "region to which coins and mints spread from China"
+  },
+  {
+   "name": "Japan",
+   "type": "place",
+   "role": "country to which coins and mints spread from China"
+  }
+ ],
+ "tags": [
+  "mints",
+  "coins",
+  "numismatics",
+  "ancient history",
+  "coin minting"
+ ],
+ "category": "history & politics",
+ "usage": {
+  "input_tokens": 1062,
+  "output_tokens": 469
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "summary": "This note describes the Nigerian naira, Nigeria's currency, introduced in 1973 to replace the pound. It covers the conversion rate at introduction, the claim that Nigeria was the last country to abandon the £sd system, a suspended 2008 redenomination plan, and the currency sign.",
+ "one_line": "Overview of the Nigerian naira, its 1973 introduction replacing the pound, a suspended 2008 redenomination plan, and its currency sign.",
+ "key_facts": [
+  "The naira was introduced on 1 January 1973.",
+  "The naira replaced the pound at a rate of 2 naira = 1 pound.",
+  "The note states that Nigeria was the last country to abandon the £sd currency system.",
+  "A plan to redenominate the naira at 1 new naira = 100 old naira was made in 2008.",
+  "The 2008 redenomination plan was suspended.",
+  "The currency sign of the naira is U+20A6 ₦ (Naira sign)."
+ ],
+ "entities": [
+  {
+   "name": "Nigerian naira",
+   "type": "product",
+   "role": "currency introduced on 1 January 1973 that replaced the pound in Nigeria"
+  },
+  {
+   "name": "Nigeria",
+   "type": "place",
+   "role": "country whose currency is the naira and which was described as the last country to abandon the £sd system"
+  },
+  {
+   "name": "£sd currency system",
+   "type": "other",
+   "role": "pre-decimal pounds, shillings and pence system that Nigeria was the last country to abandon"
+  }
+ ],
+ "tags": [
+  "currency",
+  "nigeria",
+  "naira",
+  "monetary history",
+  "redenomination"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1109,
+  "output_tokens": 509
+ }
+}

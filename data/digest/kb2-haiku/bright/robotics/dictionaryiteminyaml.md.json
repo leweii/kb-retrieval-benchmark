@@ -1,0 +1,67 @@
+{
+ "summary": "A ROS Answers forum thread (question 310626, asked 2018-12-13 by user poonam1120) about how to express a dictionary-style filter configuration in ROS 2 YAML, specifically a TransferFunction block with filter coefficients a and b. Commenter tfoote replied that YAML syntax has not changed and that the snippet resembles an old nodelet config replaced by components. The accepted-style answer posted 2018-12-20 provides a working LowPass example using the MultiChannelTransferFunctionFilter<double> type with name transferfunction_test, showing the params layout is unchanged.",
+ "one_line": "ROS Answers thread on writing a nodelet-style transfer function filter dictionary in ROS 2 YAML, with a working LowPass example.",
+ "key_facts": [
+  "The ROS Answers question 310626 'Dictionary item in yaml in ros2' was asked on 2018-12-13 13:09:07 -0500 by user poonam1120.",
+  "The original question tagged ros2 and bouncy sought to convert a TransferFunction YAML block into ROS 2 YAML.",
+  "The original TransferFunction block used type filters/MultiChannelTransferFunctionFilterDouble with params a: [1.0, -1.760041880343169, 1.182893262037831].",
+  "The original TransferFunction block's params also included b: [0.018098933007514, 0.054296799022543, 0.054296799022543, 0.018098933007514].",
+  "User tfoote commented on 2018-12-14 that YAML syntax has not changed in ROS 2.",
+  "tfoote stated the snippet looks like a nodelet YAML config, which has been replaced by the concept of components.",
+  "The answer was posted 2018-12-20 12:48:18 -0500 by poonam1120, who said the code was working and that the params declaration had not changed.",
+  "The working answer uses a LowPass block with name transferfunction_test and type MultiChannelTransferFunctionFilter<double>.",
+  "The working LowPass example uses params a: [1.0, -0.509525449494429] and b: [0.245237275252786, 0.245237275252786].",
+  "The question had 939 views and was last updated Dec 20 '18.",
+  "ROS Answers announced as deprecated as of August 11, 2023, in favor of robotics.stackexchange.com."
+ ],
+ "entities": [
+  {
+   "name": "poonam1120",
+   "type": "person",
+   "role": "asker of the question and author of the answer that worked"
+  },
+  {
+   "name": "tfoote",
+   "type": "person",
+   "role": "commenter who said YAML syntax has not changed and that nodelet configs were replaced by components"
+  },
+  {
+   "name": "ROS Answers",
+   "type": "organization",
+   "role": "Q&A site hosting the thread, deprecated as of August 11, 2023"
+  },
+  {
+   "name": "Robotics Stack Exchange",
+   "type": "organization",
+   "role": "successor site to ROS Answers for new questions"
+  },
+  {
+   "name": "MultiChannelTransferFunctionFilter<double>",
+   "type": "product",
+   "role": "filter type used in the working LowPass YAML example"
+  },
+  {
+   "name": "filters/MultiChannelTransferFunctionFilterDouble",
+   "type": "product",
+   "role": "filter type named in the original nodelet-style YAML"
+  },
+  {
+   "name": "ROS 2",
+   "type": "product",
+   "role": "robotics framework the question is about"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "yaml",
+  "parameters",
+  "transfer-function",
+  "ros-answers",
+  "bouncy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4204,
+  "output_tokens": 1117
+ }
+}

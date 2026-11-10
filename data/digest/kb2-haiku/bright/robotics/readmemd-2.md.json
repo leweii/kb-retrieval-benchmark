@@ -1,0 +1,97 @@
+{
+ "summary": "This note is the README for the Intel RealSense ROS wrapper, which exposes RealSense depth cameras as ROS2 nodes. It covers supported ROS2 distributions and Ubuntu/Windows installation steps, camera naming and namespaces, runtime and launch-time parameters, coordinate conventions, extrinsics, published topics, RGBD and metadata topics, and post-processing filters. The page is cut off partway through the HDR section.",
+ "one_line": "README for the Intel RealSense ROS2 wrapper covering installation, camera parameters, coordinate frames, published topics and post-processing filters.",
+ "key_facts": [
+  "The Intel RealSense ROS1 Wrapper is no longer supported because the developers focus on the ROS2 distro; the ROS1 wrapper is in the ros1-legacy branch.",
+  "In the ros2-development parameters, \"stereo_module\" and \"l500_depth_sensor\" are replaced by \"depth_module\".",
+  "The ROS2 wrapper's \"filters\" parameter is removed; all filters are enabled or disabled using \"<filter>.enable\".",
+  "Supported ROS2 distributions listed for installation are Iron and Humble on Ubuntu 22.04 and Foxy on Ubuntu 20.04.",
+  "The wrapper is not meant to be supported on Windows by the RealSense team, since ROS2 is not fully supported over Windows.",
+  "The default camera namespace is \"camera\" and the default camera name is \"camera\".",
+  "The ROS2 coordinate system is X: Forward, Y: Left, Z: Up, while the Camera Optical Coordinate System is X: Right, Y: Down, Z: Forward.",
+  "In RealSense cameras, the origin point (0,0,0) is taken from the left IR (infra1) position and named the \"camera_link\" frame.",
+  "For the D435i example, the depth sensor is on the right of the RGB sensor by 0.0148m (1.48cm) in the optical X coordinate.",
+  "The extrinsic message contains float64[9] rotation as a column-major 3x3 rotation matrix and float64[3] translation in meters.",
+  "The parameter serial_no requires an underscore prefix, for example serial_no:=_831612073525.",
+  "The reconnect_timeout parameter sets the retry timeout in seconds when the driver cannot connect to the device.",
+  "The unite_imu_method parameter value 0 means none, 1 means copy, and 2 means linear_interpolation.",
+  "The default value of tf_publish_rate is 0.0 Hz, which means no dynamic TF is published.",
+  "The pointcloud filter is unordered by default and can be set ordered with pointcloud.ordered_pc; pointcloud.allow_no_texture_points colors regions beyond the texture with zeros.",
+  "The GPU-accelerated GLSL processing for PointCloud and Colorizer filters requires building with -DBUILD_ACCELERATE_GPU_WITH_GLSL=ON."
+ ],
+ "entities": [
+  {
+   "name": "Intel RealSense",
+   "type": "organization",
+   "role": "maker of the RealSense cameras and SDK 2.0 that the ROS wrapper supports"
+  },
+  {
+   "name": "realsense-ros",
+   "type": "program",
+   "role": "ROS wrapper for Intel RealSense cameras described by this README"
+  },
+  {
+   "name": "librealsense2",
+   "type": "program",
+   "role": "Intel RealSense SDK 2.0 library that the ROS2 wrapper depends on"
+  },
+  {
+   "name": "ROS2 Iron",
+   "type": "program",
+   "role": "ROS2 distribution supported on Ubuntu 22.04 and Windows"
+  },
+  {
+   "name": "ROS2 Humble",
+   "type": "program",
+   "role": "ROS2 distribution supported on Ubuntu 22.04 and Windows"
+  },
+  {
+   "name": "ROS2 Foxy",
+   "type": "program",
+   "role": "ROS2 distribution supported on Ubuntu 20.04, not supported by debian package option"
+  },
+  {
+   "name": "realsense2_camera",
+   "type": "program",
+   "role": "ROS2 package containing the camera node and rs_launch.py launch file"
+  },
+  {
+   "name": "REP-0103",
+   "type": "other",
+   "role": "ROS reference cited for coordinate frame conventions"
+  },
+  {
+   "name": "REP-0105",
+   "type": "other",
+   "role": "ROS reference cited for coordinate frames"
+  },
+  {
+   "name": "D435i",
+   "type": "product",
+   "role": "RealSense camera model used as the example for extrinsics and static TFs"
+  },
+  {
+   "name": "D455",
+   "type": "product",
+   "role": "camera model used in the example camera name D455_1"
+  },
+  {
+   "name": "camera_link",
+   "type": "other",
+   "role": "TF frame at the origin, taken from the left IR (infra1) position"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "intel realsense",
+  "robotics",
+  "camera drivers",
+  "depth sensing",
+  "installation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14003,
+  "output_tokens": 1577
+ }
+}

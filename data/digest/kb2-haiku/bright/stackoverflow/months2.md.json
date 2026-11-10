@@ -1,0 +1,95 @@
+{
+ "summary": "A timeanddate.com article by Vigdis Hocken explaining that the Gregorian calendar has 12 months of 28 to 31 days, and how months originated from the Moon's orbit. It covers the month lengths (4 months of 30 days, 7 of 31, February 28 or 29), the Roman calendar's earlier 10-month form, and old Roman month names such as Quintilis and Sextilis. Most of the page is site navigation, a country list and related links, which were ignored.",
+ "one_line": "Explains the 12 months of the Gregorian calendar, their lengths, Moon-based origins, and the history of their Roman names.",
+ "key_facts": [
+  "The Gregorian calendar has 12 months, each between 28 and 31 days long.",
+  "During a common year each month has 28, 30, or 31 days, and the year has 365 days.",
+  "Leap years occur nearly every 4 years, add a Leap Day on 29 February, and are 366 days long.",
+  "The Gregorian calendar has 4 months that are 30 days long and 7 months that are 31 days long.",
+  "February is the only month with 28 days in a common year and 29 days in a leap year.",
+  "The word month is derived from the word Moon.",
+  "Months were first used in Mesopotamia sometime between 500 BCE and 400 BCE to measure the lunar month, or synodic month.",
+  "The Roman calendar initially had only 10 months, with the calendar year starting in March (Martius).",
+  "The Romans named September, October, November and December after their positions as the 7th, 8th, 9th and 10th months of the year.",
+  "Today the 9th month of the year is still called September, though the name means 7th month.",
+  "Quintilis was renamed July in honor of Julius Caesar in 44 BCE.",
+  "Sextilis was renamed August in honor of Roman Emperor Augustus in 8 BCE.",
+  "Mercedonius was an occasional month after February used to realign the Roman calendar; today Leap Day serves this purpose.",
+  "The Islamic, Hebrew and Hindu calendars also use months to divide up the year."
+ ],
+ "entities": [
+  {
+   "name": "Vigdis Hocken",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Gregorian calendar",
+   "type": "other",
+   "role": "modern-day calendar consisting of 12 months"
+  },
+  {
+   "name": "Julian calendar",
+   "type": "other",
+   "role": "predecessor of the Gregorian calendar, also with 12 months"
+  },
+  {
+   "name": "Roman calendar",
+   "type": "other",
+   "role": "ancient calendar from which current month names are derived, initially with 10 months"
+  },
+  {
+   "name": "Mesopotamia",
+   "type": "place",
+   "role": "where months were first used to measure the lunar month"
+  },
+  {
+   "name": "Julius Caesar",
+   "type": "person",
+   "role": "honored by renaming Quintilis as July in 44 BCE"
+  },
+  {
+   "name": "Roman Emperor Augustus",
+   "type": "person",
+   "role": "honored by renaming Sextilis as August in 8 BCE"
+  },
+  {
+   "name": "Islamic calendar",
+   "type": "other",
+   "role": "calendar that also uses months to divide the year"
+  },
+  {
+   "name": "Hebrew calendar",
+   "type": "other",
+   "role": "calendar that also uses months to divide the year"
+  },
+  {
+   "name": "Hindu calendar",
+   "type": "other",
+   "role": "calendar that also uses months to divide the year"
+  },
+  {
+   "name": "Leap Day",
+   "type": "event",
+   "role": "extra intercalary day added on 29 February in leap years"
+  },
+  {
+   "name": "timeanddate.com",
+   "type": "product",
+   "role": "website on which the article is published"
+  }
+ ],
+ "tags": [
+  "calendar",
+  "gregorian calendar",
+  "months",
+  "roman calendar",
+  "moon phases",
+  "calendar history"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5729,
+  "output_tokens": 1175
+ }
+}

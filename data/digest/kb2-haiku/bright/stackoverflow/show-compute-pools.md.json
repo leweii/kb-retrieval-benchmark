@@ -1,0 +1,59 @@
+{
+ "summary": "This note is the Snowflake reference page for the SHOW COMPUTE POOLS command, which lists compute pools the executing role can access. It covers the syntax and the LIKE, STARTS WITH and LIMIT FROM filter parameters, the MONITOR privilege requirement, and the output columns such as state, node counts, instance family, and owner. It also gives usage notes (10K record cap, no running warehouse needed) and examples with sample output.",
+ "one_line": "Reference for Snowflake's SHOW COMPUTE POOLS command, covering its filter parameters, required MONITOR privilege, output columns, and examples.",
+ "key_facts": [
+  "SHOW COMPUTE POOLS is available to all Snowflake accounts in AWS commercial regions except trial accounts.",
+  "The command syntax supports optional LIKE '<pattern>', STARTS WITH '<name_string>', and LIMIT <ROWS> [ FROM '<name-string>' ] clauses.",
+  "The LIKE filter uses case-insensitive pattern matching with SQL wildcards % and _.",
+  "The STARTS WITH filter is case-sensitive, so 'B' and 'b' return different results.",
+  "Objects are returned in lexicographic order by name, so FROM only returns rows with a higher lexicographic value than the STARTS WITH rows.",
+  "The role executing the command needs the MONITOR privilege on the compute pool at a minimum.",
+  "The output column state shows the compute pool's state, and min_nodes and max_nodes show its node limits.",
+  "The auto_suspend_secs column gives the seconds of inactivity after which Snowflake automatically suspends the compute pool.",
+  "The active_nodes column counts nodes with one or more services or jobs running, while idle_nodes counts nodes with no service or job running.",
+  "The command returns a maximum of 10K records for the specified object type, and records above that limit are not returned even with a filter applied.",
+  "The command does not require a running warehouse to execute.",
+  "Columns that start with the prefix is_ return either Y (yes) or N (no).",
+  "The example SHOW COMPUTE POOLS LIKE '%tu%' lists compute pools with names containing 'tu'.",
+  "The sample output shows a compute pool named TUTORIAL_COMPUTE_POOL with state ACTIVE, instance family CPU_X64_XS, and owner ACCOUNTADMIN."
+ ],
+ "entities": [
+  {
+   "name": "SHOW COMPUTE POOLS",
+   "type": "program",
+   "role": "SQL command documented on this page that lists compute pools the role can access"
+  },
+  {
+   "name": "MONITOR",
+   "type": "other",
+   "role": "minimum privilege required on a compute pool to run the command"
+  },
+  {
+   "name": "TUTORIAL_COMPUTE_POOL",
+   "type": "product",
+   "role": "compute pool shown in the sample output, with state ACTIVE and instance family CPU_X64_XS"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "owner role of TUTORIAL_COMPUTE_POOL in the sample output"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the SHOW COMPUTE POOLS command and the documentation page"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "compute-pools",
+  "sql-commands",
+  "show-command",
+  "access-control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3880,
+  "output_tokens": 1086
+ }
+}

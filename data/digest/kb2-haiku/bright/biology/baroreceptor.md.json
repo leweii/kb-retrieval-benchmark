@@ -1,0 +1,91 @@
+{
+ "summary": "This note describes baroreceptors, stretch-sensitive mechanoreceptor neurons in the carotid sinus and aortic arch that sense blood pressure and relay it to the brainstem's solitary nucleus to maintain stable pressure via the baroreflex. It divides them into high-pressure arterial baroreceptors and low-pressure (cardiopulmonary or volume) receptors, which regulate blood volume and renal salt and water retention. The note also covers how baroreceptor responses diminish over time, changes in essential hypertension, and dysfunction causing hypersensitivity, bradycardia and syncope.",
+ "one_line": "Baroreceptors are pressure-sensing stretch receptors in the carotid sinus, aortic arch and low-pressure vessels that drive the baroreflex to regulate blood pressure.",
+ "key_facts": [
+  "Baroreceptors (or archaically, pressoreceptors) are located in the carotid sinus and in the aortic arch.",
+  "The carotid sinus is at the bifurcation of the common carotid artery into external and internal carotids.",
+  "Baroreceptors are a type of mechanoreceptor sensory neuron that are excited by a stretch of the blood vessel.",
+  "Baroreceptors act immediately as part of a negative feedback system called the baroreflex, returning pressure toward a normal level.",
+  "The solitary nucleus in the medulla oblongata recognizes changes in the firing rate of action potentials from baroreceptors.",
+  "Baroreceptors are divided into high-pressure arterial baroreceptors and low-pressure baroreceptors (also known as cardiopulmonary or volume receptors).",
+  "Signals from the carotid baroreceptors are sent via the glossopharyngeal nerve (cranial nerve IX).",
+  "Signals from the aortic baroreceptors travel through the vagus nerve (cranial nerve X).",
+  "Carotid sinus baroreceptors respond to both increases and decreases in arterial pressure, while aortic arch baroreceptors respond only to increases.",
+  "If blood pressure falls, as in orthostatic hypotension or hypovolaemic shock, baroreceptor firing rate decreases and reflexes act to increase heart rate.",
+  "Baroreceptor responses diminish with time and are most effective for conveying short-term changes in blood pressure.",
+  "In people with essential hypertension, baroreceptors and their reflexes change to maintain the elevated blood pressure as if it were normal, and the receptors become less sensitive to change.",
+  "Electrical stimulation of baroreceptors reduces sympathetic tone and blood pressure in patients with resistant hypertension.",
+  "Low-pressure baroreceptors are found in large systemic veins, pulmonary vessels, and the walls of the right atrium and ventricles, and are involved in regulating blood volume.",
+  "When baroreceptors are not working, blood pressure continues to increase, but within an hour it returns to normal as other regulatory systems take over.",
+  "Carotid baroreceptors can become oversensitive, usually in older males, leading to bradycardia, dizziness and fainting (syncope) from touching the neck, often whilst shaving."
+ ],
+ "entities": [
+  {
+   "name": "Baroreceptor",
+   "type": "other",
+   "role": "Stretch-sensitive mechanoreceptor sensory neurons that sense blood pressure and relay it to the brain"
+  },
+  {
+   "name": "Carotid sinus",
+   "type": "other",
+   "role": "Location of baroreceptors at the bifurcation of the common carotid artery into external and internal carotids"
+  },
+  {
+   "name": "Aortic arch",
+   "type": "other",
+   "role": "Location of aortic baroreceptors that respond only to increases in arterial pressure"
+  },
+  {
+   "name": "Baroreflex",
+   "type": "other",
+   "role": "Negative feedback system through which baroreceptors return blood pressure toward normal"
+  },
+  {
+   "name": "Solitary nucleus",
+   "type": "other",
+   "role": "Region in the medulla oblongata that receives baroreceptor signals and influences cardiac output and vascular resistance"
+  },
+  {
+   "name": "Glossopharyngeal nerve (cranial nerve IX)",
+   "type": "other",
+   "role": "Nerve carrying signals from the carotid baroreceptors"
+  },
+  {
+   "name": "Vagus nerve (cranial nerve X)",
+   "type": "other",
+   "role": "Nerve carrying signals from the aortic baroreceptors"
+  },
+  {
+   "name": "Essential hypertension",
+   "type": "other",
+   "role": "Condition in which baroreceptors and their reflexes change to maintain elevated blood pressure"
+  },
+  {
+   "name": "Resistant hypertension",
+   "type": "other",
+   "role": "Condition in which electrical stimulation of baroreceptors has been found to reduce blood pressure"
+  },
+  {
+   "name": "Orthostatic hypotension",
+   "type": "other",
+   "role": "Example of a fall in blood pressure that decreases baroreceptor firing rate"
+  },
+  {
+   "name": "Hypovolaemic shock",
+   "type": "other",
+   "role": "Example of a fall in blood pressure that decreases baroreceptor firing rate"
+  }
+ ],
+ "tags": [
+  "physiology",
+  "cardiovascular",
+  "blood pressure",
+  "neurology",
+  "reflexes"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 2774,
+  "output_tokens": 1681
+ }
+}

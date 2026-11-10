@@ -1,0 +1,46 @@
+{
+ "summary": "This is a reference page for the SHOW TRANSACTIONS command, which lists all running transactions. It can show transactions for the current user or, with the IN ACCOUNT parameter, for all users in the account. The page also lists usage notes about Y/N columns, warehouse independence, and a 10K record limit.",
+ "one_line": "Reference for the SHOW TRANSACTIONS command, which lists running transactions for the current user or the whole account.",
+ "key_facts": [
+  "SHOW TRANSACTIONS lists all running transactions.",
+  "The command can show transactions for the current user or for all users in the account.",
+  "The syntax is SHOW TRANSACTIONS [ IN ACCOUNT ].",
+  "The IN ACCOUNT parameter shows all transactions across all users in the account.",
+  "Only users with the ACCOUNTADMIN role (account administrators) can use the IN ACCOUNT parameter.",
+  "Columns that start with the prefix is_ return either Y (yes) or N (no).",
+  "The SHOW TRANSACTIONS command does not require a running warehouse to execute.",
+  "The command returns a maximum of 10K records for the specified object type.",
+  "Records above the 10K limit are not returned, even when a filter is applied.",
+  "The maximum record limit is dictated by the access privileges of the role used to execute the command.",
+  "To view results for which more than 10K records exist, the page directs users to query the corresponding view (link not included in the note)."
+ ],
+ "entities": [
+  {
+   "name": "SHOW TRANSACTIONS",
+   "type": "program",
+   "role": "Command that lists all running transactions for the current user or all users in the account"
+  },
+  {
+   "name": "IN ACCOUNT",
+   "type": "program",
+   "role": "Optional parameter that shows transactions across all users in the account; restricted to ACCOUNTADMIN"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "Role required to use the IN ACCOUNT parameter, i.e. account administrators"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql commands",
+  "transactions",
+  "account administration",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1401,
+  "output_tokens": 669
+ }
+}

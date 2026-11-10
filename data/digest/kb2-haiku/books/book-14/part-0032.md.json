@@ -1,0 +1,96 @@
+{
+ "summary": "The narrator describes a fast online crowd effort that began after they uploaded three pictures of a bank-robbing, weapon-carrying fraudster for facial recognition, with people quickly building shared dossiers on the people the search returned. The narrator then explains the invite-only community called the Group: it uses Tor, encrypts member conversations, has no written rules or administrators, and bans criminal or political attacks. The excerpt ends with the Group collecting information on the Joint Terrorist Task Force in Minneapolis, and ferret posting preliminary pattern results after three hours.",
+ "one_line": "A narrator's invite-only, Tor-based online community, the Group, rapidly compiles dossiers and analyzes data on the Joint Terrorist Task Force in Minneapolis.",
+ "key_facts": [
+  "The narrator uploaded three pictures of a bank-robbing weapon-toting fraudster, which started a race to find information about the people the facial recognition returned.",
+  "Within minutes of the upload, the group was filling dossiers set up for sharing data.",
+  "The Group's actual name changes every day and is a randomly-generated word, so members usually call it the Group for short.",
+  "The Group uses a Tor onion router and encrypts the conversations between members.",
+  "The narrator first learned of the Group while on Sourcerer, helping troubleshoot a chat program, when Mattitude sent his public key.",
+  "Somebody has to let you in to the Group; it is not totally exclusive and is not a huge secret, but it is not like Reddit or Slashdot.",
+  "DoDec regularly reminded members that law enforcement might be monitoring the Group.",
+  "Even joking about using the Group for criminal purposes could get a member kicked out, fast and forever.",
+  "Faistaff was called out instantly for his joke about launching a distributed denial of service attack on the Department of Justice.",
+  "The Group has no administrators and no written rules, only a few basic protocols.",
+  "Some older members say the Group is like the internet used to be before it got commercial.",
+  "The narrator says this was the first time they asked the Group for help that was not about code or hardware.",
+  "Someone started collecting information on the Joint Terrorist Task Force in Minneapolis, and the file started to fill fast.",
+  "ferret started a new thread where people brainstormed how to find patterns in the collected data.",
+  "Three hours after starting the analysis, ferret posted preliminary results with the words \"Okay, it's preliminary, but our best guess\"."
+ ],
+ "entities": [
+  {
+   "name": "The Group",
+   "type": "organization",
+   "role": "Invite-only online community whose members are smart, funny, and get things done; it uses Tor, encrypts member conversations, and has no administrators or written rules."
+  },
+  {
+   "name": "Tor",
+   "type": "program",
+   "role": "Onion router used by the Group to encrypt conversations between members."
+  },
+  {
+   "name": "Sourcerer",
+   "type": "product",
+   "role": "Online platform where the narrator was helping troubleshoot a chat program when they first learned of the Group."
+  },
+  {
+   "name": "Mattitude",
+   "type": "person",
+   "role": "Member who sent the narrator his public key and asked if they wanted to join the Group."
+  },
+  {
+   "name": "DoDec",
+   "type": "person",
+   "role": "Member who regularly reminded the group that law enforcement might be monitoring it."
+  },
+  {
+   "name": "Faistaff",
+   "type": "person",
+   "role": "Member who was instantly called out for his crack about launching a distributed denial of service attack on the Department of Justice."
+  },
+  {
+   "name": "ferret",
+   "type": "person",
+   "role": "Member who is very good with data sets and visualization, started a thread to find patterns, and posted the preliminary results."
+  },
+  {
+   "name": "Joint Terrorist Task Force in Minneapolis",
+   "type": "organization",
+   "role": "Target of the Group's information collection, which began filling a file quickly."
+  },
+  {
+   "name": "Department of Justice",
+   "type": "organization",
+   "role": "Government agency that Faistaff joked about attacking with a distributed denial of service attack, which was forbidden in the Group."
+  },
+  {
+   "name": "Reddit",
+   "type": "product",
+   "role": "Website the note compares to the Group in terms of exclusivity."
+  },
+  {
+   "name": "Slashdot",
+   "type": "product",
+   "role": "Website the note compares to the Group in terms of exclusivity."
+  },
+  {
+   "name": "Wikipedia",
+   "type": "product",
+   "role": "Collaborative encyclopedia the note contrasts with the Group, since its invested members get bossy and use rules to exclude people."
+  }
+ ],
+ "tags": [
+  "fiction",
+  "hacking",
+  "online community",
+  "anonymity",
+  "surveillance",
+  "data analysis"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1874,
+  "output_tokens": 1898
+ }
+}

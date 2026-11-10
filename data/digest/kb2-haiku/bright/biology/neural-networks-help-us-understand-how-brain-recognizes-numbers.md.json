@@ -1,0 +1,85 @@
+{
+ "summary": "A Stanford HAI news article reports on research by Vinod Menon and Percy Mistry, who trained a deep neural network to recognize numbers to test whether human number sense is innate or learned. They tested whether 'spontaneous number neurons' in an object-recognition network help with number learning and found they did not, suggesting an innate number sense may be less important than proposed. The network also developed number-line representations resembling those in children, and the team plans to use it to study dyscalculia.",
+ "one_line": "Stanford researchers used a deep neural network to test whether human number sense is innate or learned, with implications for understanding dyscalculia.",
+ "key_facts": [
+  "Vinod Menon is a Stanford professor of psychiatry and behavioral sciences and a member of Stanford HAI and the Wu Tsai Neurosciences Institute.",
+  "Percy Mistry is a research scholar in Menon's lab.",
+  "The research results were published in Nature Communications.",
+  "A previous study found that some neurons in a deep neural network trained to recognize images were sensitive to numbers, responding strongly to pictures of a particular number of objects.",
+  "Mistry, Menon, and colleagues found that the spontaneous number neurons did not help the network learn number tasks.",
+  "Most neurons that started out number-sensitive either lost that sensitivity during training or became sensitive to a different number.",
+  "Removing the number-sensitive neurons during the learning process had no effect on the network's final performance.",
+  "The starting object-recognition network had previously been shown to resemble parts of the monkey visual system.",
+  "The network used two strategies to tell numbers apart: a linear number line where 1 and 9 were easy to distinguish, and a midpoint-based strategy where 4, 5, and 6 were perceived as very different from each other.",
+  "Children also start sensitive to low and high numbers and later use the midpoint of the number line as a reference point.",
+  "Menon has spent years studying dyscalculia, a disability that affects numerical and mathematical skills.",
+  "Mistry described the model as 'a very, very simple approximation of what the brain is doing, even with all its complexity.'",
+  "Mistry said of the model: 'We can use this model as a sandbox.'",
+  "The article is written by Grace Huckins and dated July 13, 2023."
+ ],
+ "entities": [
+  {
+   "name": "Vinod Menon",
+   "type": "person",
+   "role": "Stanford professor of psychiatry and behavioral sciences and member of Stanford HAI and the Wu Tsai Neurosciences Institute; co-led the study"
+  },
+  {
+   "name": "Percy Mistry",
+   "type": "person",
+   "role": "research scholar in Menon's lab; co-led the study"
+  },
+  {
+   "name": "Grace Huckins",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Anthony Strock",
+   "type": "person",
+   "role": "postdoctoral fellow contributor to the study"
+  },
+  {
+   "name": "Ruizhe Liu",
+   "type": "person",
+   "role": "postdoctoral fellow contributor to the study"
+  },
+  {
+   "name": "Griffin Young",
+   "type": "person",
+   "role": "coterm student contributor to the study"
+  },
+  {
+   "name": "Stanford HAI",
+   "type": "organization",
+   "role": "Stanford institute that Menon is a member of and that publishes the article"
+  },
+  {
+   "name": "Wu Tsai Neurosciences Institute",
+   "type": "organization",
+   "role": "institute of which Menon is a member"
+  },
+  {
+   "name": "Nature Communications",
+   "type": "program",
+   "role": "journal in which the study was published"
+  },
+  {
+   "name": "Learning-induced reorganization of number neurons and emergence of numerical representations in a biologically inspired neural network",
+   "type": "event",
+   "role": "title of the study published in Nature Communications"
+  }
+ ],
+ "tags": [
+  "neuroscience",
+  "artificial intelligence",
+  "number sense",
+  "neural networks",
+  "dyscalculia",
+  "cognitive science"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4274,
+  "output_tokens": 1223
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "summary": "This is a LangChain documentation page on text embedding models, which the Embeddings class provides a standard interface for across many providers such as OpenAI and Cohere. It explains that embeddings turn text into vectors that enable semantic search, and that the base class offers separate methods for embedding documents and embedding queries. The page walks through setup for OpenAI and Cohere (installing partner packages, setting API keys, initializing embedding objects) and shows example calls to embed_documents and embed_query, with the resulting vector dimensions and sample values.",
+ "one_line": "LangChain docs page introducing the Embeddings class for text embedding models, with OpenAI and Cohere setup and embed_documents/embed_query examples.",
+ "key_facts": [
+  "The LangChain Embeddings class is designed to provide a standard interface for text embedding model providers such as OpenAI, Cohere, and Hugging Face.",
+  "Embeddings create a vector representation of a piece of text, enabling semantic search over pieces of text that are most similar in the vector space.",
+  "The base Embeddings class provides two methods: one for embedding documents and one for embedding a query.",
+  "The reason for separate document and query methods is that some embedding providers use different embedding methods for documents (to be searched over) versus queries.",
+  "To use OpenAI embeddings, the note says to install the langchain-openai partner package with pip install langchain-openai.",
+  "OpenAI access requires an API key, which can be set via the OPENAI_API_KEY environment variable or passed as the api_key parameter to OpenAIEmbeddings.",
+  "To use Cohere embeddings, the note says to install the langchain-cohere package with pip install langchain-cohere.",
+  "Cohere access requires an API key, which can be set via the COHERE_API_KEY environment variable or passed as the cohere_api_key parameter to CohereEmbeddings.",
+  "The embed_documents example embeds a list of five texts, including \"Hi there!\" and \"Hello World!\", and returns 5 embeddings of length 1536.",
+  "The embed_query method embeds a single piece of text for comparison with other embedded texts, using the example query \"What was the name mentioned in the conversation?\".",
+  "The example embed_query output shows the first five values of the embedded query vector, beginning with 0.0053587136790156364."
+ ],
+ "entities": [
+  {
+   "name": "LangChain",
+   "type": "product",
+   "role": "framework whose documentation page describes the text embedding models interface"
+  },
+  {
+   "name": "Embeddings class",
+   "type": "other",
+   "role": "standard LangChain class for interfacing with text embedding models"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "embedding model provider; set up via langchain-openai and OpenAIEmbeddings"
+  },
+  {
+   "name": "Cohere",
+   "type": "organization",
+   "role": "embedding model provider; set up via langchain-cohere and CohereEmbeddings"
+  },
+  {
+   "name": "Hugging Face",
+   "type": "organization",
+   "role": "embedding model provider listed as an example alongside OpenAI and Cohere"
+  },
+  {
+   "name": "OpenAIEmbeddings",
+   "type": "product",
+   "role": "LangChain class for OpenAI text embeddings, initialized with an optional api_key"
+  },
+  {
+   "name": "CohereEmbeddings",
+   "type": "product",
+   "role": "LangChain class for Cohere text embeddings, initialized with an optional cohere_api_key"
+  },
+  {
+   "name": "langchain-openai",
+   "type": "program",
+   "role": "OpenAI partner package installed with pip to use OpenAI embeddings"
+  },
+  {
+   "name": "langchain-cohere",
+   "type": "program",
+   "role": "Cohere SDK partner package installed with pip to use Cohere embeddings"
+  }
+ ],
+ "tags": [
+  "langchain",
+  "embeddings",
+  "text-embeddings",
+  "openai",
+  "cohere",
+  "vector-search"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3897,
+  "output_tokens": 1224
+ }
+}

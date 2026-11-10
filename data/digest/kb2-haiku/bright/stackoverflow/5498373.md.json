@@ -1,0 +1,74 @@
+{
+ "summary": "Gustavo Del Vechio asks on the Adobe Photoshop community forum whether text in a JavaScript (ExtendScript) dialog's statictext or an alert can contain a clickable hyperlink, such as a website or mailto e-mail address. Davide (DBarranca) replies that alerts cannot do this, but a dialog's statictext can get a click event listener that writes and executes a temporary .url shortcut file; he marks this as the correct answer. JJMack suggests writing a local HTML file with a redirect or mailto link and executing it so the default browser opens, and Gustavo and another user thank the responders.",
+ "one_line": "Forum thread asking whether ExtendScript dialog text or alerts in Photoshop scripts can contain clickable hyperlinks, with workarounds.",
+ "key_facts": [
+  "The thread is titled \"Hyperlink in the scripts's UI\" on the Adobe Community Photoshop ecosystem discussions board, posted September 13, 2013.",
+  "Gustavo Del Vechio asked whether a statictext in a JavaScript dialog or a portion of text in an alert pop-up could be a hyperlink.",
+  "Gustavo's example code created a dialog with dlg.add(\"statictext\") containing www.mysite.com and a button whose onClick called alert().",
+  "DBarranca (Davide Barranca) replied that as far as he knows it is not possible within an Alert.",
+  "DBarranca suggested attaching an eventListener to the dialog's statictext (dlg.myText.addEventListener('click', ...)) that writes a temporary _shortcut.url file with an [InternetShortcut] URL entry and executes it.",
+  "DBarranca's shortcut approach calls $.sleep(4000) and then shortcut.remove(), and he described it as \"Not very much elegant\" but working.",
+  "DBarranca's answer was marked as the correct answer and has 0 upvotes.",
+  "JJMack, a Community Expert, suggested writing an HTML file to Folder.temp and executing it so the user's default browser opens.",
+  "JJMack said the HTML file could include a meta REFRESH redirect to a web site and a mailto link, and could be kept local so no internet connection is required.",
+  "JJMack said the script keeps running and is not stopped by the alert when the browser window opens.",
+  "Gustavo replied on September 16, 2013 that he would try this approach, thanking Davide and JJMack.",
+  "matias.kiviniemi, an Enthusiast, replied on October 03, 2014 that the JJMack suggestion saved his day.",
+  "The thread has 4 replies and about 1.2K views, and is filed under the TOPICS category 'Actions and scripting'."
+ ],
+ "entities": [
+  {
+   "name": "Gustavo Del Vechio",
+   "type": "person",
+   "role": "Advocate who posted the question about hyperlinks in the script's UI and thanked the responders"
+  },
+  {
+   "name": "DBarranca",
+   "type": "person",
+   "role": "Advocate (Davide Barranca) who replied that alerts cannot hold hyperlinks and proposed the event listener and shortcut-file workaround"
+  },
+  {
+   "name": "JJMack",
+   "type": "person",
+   "role": "Community Expert who suggested writing and executing a local HTML file to open the default browser"
+  },
+  {
+   "name": "matias.kiviniemi",
+   "type": "person",
+   "role": "Enthusiast who replied in October 2014 that the JJMack suggestion saved his day"
+  },
+  {
+   "name": "Adobe Community",
+   "type": "organization",
+   "role": "Adobe's online community forum hosting the thread"
+  },
+  {
+   "name": "Photoshop",
+   "type": "product",
+   "role": "Adobe application for which the scripts were written; the thread is in its ecosystem discussions board"
+  },
+  {
+   "name": "JavaScript Tools guide",
+   "type": "other",
+   "role": "Documentation Gustavo said he consulted without finding information on hyperlinks"
+  },
+  {
+   "name": "PhotoCollageToolkit.html",
+   "type": "other",
+   "role": "Example HTML help file that JJMack's help dialog button writes to the temp folder and executes"
+  }
+ ],
+ "tags": [
+  "photoshop",
+  "javascript",
+  "extendscript",
+  "scripting",
+  "hyperlink",
+  "adobe-community"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8413,
+  "output_tokens": 1355
+ }
+}

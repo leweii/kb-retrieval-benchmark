@@ -1,0 +1,71 @@
+{
+ "summary": "This ECMWF Confluence page (from the EMOSLIB documentation) explains Gaussian and reduced Gaussian grids. A Gaussian grid is a latitude/longitude grid with irregular but Equator-symmetric latitude spacing, and it is referred to by its number N, the count of latitude lines between a Pole and the Equator. In a regular grid each latitude has 4*N longitude points, while a reduced grid specifies a variable number per latitude, with ECMWF choosing counts of the form 2^p * 3^q * 5^r so the east-west grid length stays roughly constant. The page also notes that custom grids can be supplied via the 'g_lats' and 'g_pts' options, and it lists common N values from N32 to N640. The page notes that EMOSLIB is now deprecated.",
+ "one_line": "Explains Gaussian and reduced Gaussian latitude/longitude grids used by ECMWF, including point-count rules and custom grid options in EMOSLIB.",
+ "key_facts": [
+  "A Gaussian grid is a latitude/longitude grid whose latitude spacing is irregular but symmetrical about the Equator.",
+  "A Gaussian grid has no latitude line at either Pole or at the Equator.",
+  "A Gaussian grid is usually referred to by its number N, which is the number of lines of latitude between a Pole and the Equator.",
+  "In a regular Gaussian grid, the number of longitude points along a latitude is 4*N.",
+  "In a reduced Gaussian grid, the number of longitude points along each latitude is specified and may differ between latitudes.",
+  "A reduced Gaussian grid may also be called a quasi-regular Gaussian grid.",
+  "In ECMWF reduced grids, the number of points on each latitude row is chosen so the local east-west grid length remains approximately constant for all latitudes.",
+  "ECMWF point counts must be suitable for the Fast Fourier Transform, meaning number = 2^p * 3^q * 5^r.",
+  "The FFT is used to interpolate spectral fields to grid point fields.",
+  "The gaussian latitude values can be supplied as an array using the option 'g_lats'.",
+  "The number of points along each latitude line can be supplied as an array using the option 'g_pts'.",
+  "A custom grid definition is allowed as long as the resulting grid definition is self-consistent.",
+  "The page lists standard Gaussian grid numbers including N32, N48, N80, N128, N160, N200, N256, N320, N400, N512 and N640.",
+  "The page was created by Unknown User (mas) and last modified by Umberto Modigliani on Jan 20, 2013.",
+  "The EMOSLIB space is marked as deprecated (\"Emoslib is now deprecated\")."
+ ],
+ "entities": [
+  {
+   "name": "ECMWF",
+   "type": "organization",
+   "role": "Organization whose reduced Gaussian grids are described; it chooses point counts per latitude row suited to FFT."
+  },
+  {
+   "name": "EMOSLIB",
+   "type": "program",
+   "role": "Software library whose Confluence space hosts this reference page; now deprecated."
+  },
+  {
+   "name": "Fast Fourier Transform",
+   "type": "other",
+   "role": "Method used to interpolate spectral fields to grid point fields; constrains allowed point counts."
+  },
+  {
+   "name": "Umberto Modigliani",
+   "type": "person",
+   "role": "Last modified the Confluence page on Jan 20, 2013."
+  },
+  {
+   "name": "Unknown User (mas)",
+   "type": "person",
+   "role": "Created the Confluence page."
+  },
+  {
+   "name": "INTIN",
+   "type": "program",
+   "role": "Option/reference where Gaussian grid definition options are described."
+  },
+  {
+   "name": "INTOUT",
+   "type": "program",
+   "role": "Option/reference where Gaussian grid definition options are described."
+  }
+ ],
+ "tags": [
+  "gaussian grid",
+  "reduced grid",
+  "numerical weather prediction",
+  "ecmwf",
+  "emoslib",
+  "grid definition"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2088,
+  "output_tokens": 1265
+ }
+}

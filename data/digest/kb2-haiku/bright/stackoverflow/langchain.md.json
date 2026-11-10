@@ -1,0 +1,81 @@
+{
+ "summary": "This note is a clipped collection of LangChain documentation pages (with site navigation boilerplate removed). It covers the Time-weighted vector store retriever, which scores documents by semantic similarity plus a time decay based on hours since last access, with examples of low and high decay rates and virtual time mocking. It also covers the LangChain indexing API, which uses a record manager to avoid duplicate writes and clean up stale vector store content across None, incremental and full deletion modes, and a Providers page listing LangChain's partner and featured community integrations.",
+ "one_line": "LangChain documentation covering the time-weighted vector store retriever, the indexing API with deletion modes, and the list of integrated providers.",
+ "key_facts": [
+  "The time-weighted retriever scores documents as semantic_similarity + (1.0 - decay_rate) ^ hours_passed.",
+  "In the time-weighted retriever, hours_passed refers to hours since the object was last accessed, not since it was created.",
+  "A decay rate of 0 means memories never be forgotten, making the retriever equivalent to the vector lookup.",
+  "With a decay rate of 0.999 in the example, \"hello world\" is mostly forgotten and \"hello foo\" is returned first.",
+  "LangChain indexing uses a record manager (RecordManager) that tracks document writes into the vector store.",
+  "The record manager stores the document hash, write time, and the source id for each indexed document.",
+  "The indexing API deletion modes are None, incremental and full.",
+  "In full mode, documents not passed into the indexing function but present in the vectorstore will be deleted.",
+  "The incremental mode does not delete source documents that have been deleted, while full mode does.",
+  "The indexing API requires vectorstores that support add_documents with ids and delete by ids.",
+  "The indexing API should not be used with a store pre-populated independently of the indexing API.",
+  "The record manager relies on a time-based mechanism, and the docs say the RecordManager uses higher resolution timestamps.",
+  "The Providers page lists partner packages including AI21, Anthropic, Cohere, Groq, MistralAI, Nvidia, OpenAI and Pinecone.",
+  "Featured community providers listed are AWS, Hugging Face and Microsoft.",
+  "The page footer states Copyright © 2024 LangChain, Inc."
+ ],
+ "entities": [
+  {
+   "name": "LangChain",
+   "type": "product",
+   "role": "open-source framework whose documentation pages make up this note"
+  },
+  {
+   "name": "TimeWeightedVectorStoreRetriever",
+   "type": "program",
+   "role": "retriever combining semantic similarity with a time decay based on last access"
+  },
+  {
+   "name": "RecordManager",
+   "type": "program",
+   "role": "component that tracks document writes into the vector store for indexing"
+  },
+  {
+   "name": "FAISS",
+   "type": "product",
+   "role": "vector store used in the time-weighted retriever example"
+  },
+  {
+   "name": "OpenAIEmbeddings",
+   "type": "product",
+   "role": "embedding model used in the retriever and indexing examples"
+  },
+  {
+   "name": "ElasticsearchStore",
+   "type": "product",
+   "role": "vector store used in the indexing quickstart example"
+  },
+  {
+   "name": "SQLRecordManager",
+   "type": "program",
+   "role": "record manager initialized with a sqlite database in the indexing quickstart"
+  },
+  {
+   "name": "CharacterTextSplitter",
+   "type": "program",
+   "role": "text splitter used to split documents into chunks in the indexing source example"
+  },
+  {
+   "name": "mock_now",
+   "type": "program",
+   "role": "LangChain utility used to mock the time component in virtual time examples"
+  }
+ ],
+ "tags": [
+  "langchain",
+  "vector-store",
+  "retrieval",
+  "indexing",
+  "embeddings",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14688,
+  "output_tokens": 1170
+ }
+}

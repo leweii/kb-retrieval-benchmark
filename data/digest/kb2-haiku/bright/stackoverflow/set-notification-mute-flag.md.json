@@ -1,0 +1,57 @@
+{
+ "summary": "This note documents the budget method <budget_name>!SET_NOTIFICATION_MUTE_FLAG, which turns email notifications for a budget on or off. It gives the syntax, a TRUE/FALSE argument (default FALSE), the return message, access control requirements for custom and account budgets, and two CALL examples. The method is noted as unavailable for Trial Accounts.",
+ "one_line": "Reference for the budget method that enables or disables email notifications via a TRUE/FALSE mute flag.",
+ "key_facts": [
+  "The method <budget_name>!SET_NOTIFICATION_MUTE_FLAG sets the notification mute flag for a budget.",
+  "The single argument accepts TRUE or FALSE.",
+  "Passing TRUE disables email notifications.",
+  "Passing FALSE enables email notifications.",
+  "The default value of the argument is FALSE.",
+  "The method returns the message 'The notification mute flag has been updated to <true | false>.'",
+  "For custom budgets, executing the method requires a role granted the USAGE privilege on the database and schema that contains the budget instance.",
+  "The method is not available for Trial Accounts.",
+  "The related method <budget_name>!GET_NOTIFICATION_INTEGRATION_NAME is listed under See also.",
+  "Example: CALL budget_db.budget_schema.my_budget!SET_NOTIFICATION_MUTE_FLAG(TRUE); disables email notifications for budget my_budget in schema budget_db.budget_schema.",
+  "Example: CALL snowflake.local.account_root_budget!SET_NOTIFICATION_MUTE_FLAG(FALSE); enables email notifications for the account budget.",
+  "The account budget has its own access control requirements, covered by application roles described in the budgets guide."
+ ],
+ "entities": [
+  {
+   "name": "<budget_name>!SET_NOTIFICATION_MUTE_FLAG",
+   "type": "program",
+   "role": "budget method that sets the email notification mute flag"
+  },
+  {
+   "name": "<budget_name>!GET_NOTIFICATION_INTEGRATION_NAME",
+   "type": "program",
+   "role": "related budget method listed under See also"
+  },
+  {
+   "name": "budget_db.budget_schema.my_budget",
+   "type": "product",
+   "role": "custom budget named my_budget in schema budget_db.budget_schema, used in the disable example"
+  },
+  {
+   "name": "snowflake.local.account_root_budget",
+   "type": "product",
+   "role": "account budget used in the enable example"
+  },
+  {
+   "name": "Trial Accounts",
+   "type": "other",
+   "role": "account type for which this feature is not currently available"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "budgets",
+  "notifications",
+  "stored-procedures",
+  "access-control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1654,
+  "output_tokens": 869
+ }
+}

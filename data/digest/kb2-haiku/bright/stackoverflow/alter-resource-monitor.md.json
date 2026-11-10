@@ -1,0 +1,65 @@
+{
+ "summary": "This note is the Snowflake reference page for the ALTER RESOURCE MONITOR command, which modifies an existing resource monitor's credit quota, scheduling (frequency, start and end timestamps), notification users, and triggers. It documents the syntax and parameters, usage notes on suspending warehouses and replacing triggers, and two examples. Web navigation and footer boilerplate were ignored.",
+ "one_line": "Snowflake reference for the ALTER RESOURCE MONITOR command, covering credit quota, scheduling, notifications and triggers.",
+ "key_facts": [
+  "ALTER RESOURCE MONITOR modifies the properties and triggers for an existing resource monitor.",
+  "CREDIT_QUOTA specifies the number of credits allocated to the resource monitor per frequency interval.",
+  "When total usage for all warehouses assigned to the monitor reaches the credit quota, the monitor is considered to be at 100% of quota.",
+  "FREQUENCY accepts MONTHLY, DAILY, WEEKLY, YEARLY or NEVER, and sets the interval at which credit usage resets to 0.",
+  "If NEVER is specified for frequency, the credit usage for the warehouse does not reset.",
+  "START_TIMESTAMP accepts a timestamp or IMMEDIATELY; if a time is set without a time zone, UTC is used as the default.",
+  "END_TIMESTAMP is the date and time when the resource monitor suspends the assigned warehouses.",
+  "NOTIFY_USERS specifies the list of users to receive email notifications, and each listed user must have a verified email address.",
+  "Non-administrator users cannot create resource monitors and cannot receive notifications about account level resource monitors.",
+  "TRIGGERS accepts ON threshold PERCENT DO SUSPEND, SUSPEND_IMMEDIATE or NOTIFY; threshold values larger than 100 are supported.",
+  "The TRIGGERS parameter is not additive: it removes all existing triggers and replaces them with the specified triggers.",
+  "The credit usage reset time is 12:00 AM UTC regardless of the time specified in start_timestamp.",
+  "The notification list for non-administrator users is limited to a maximum of 5 users.",
+  "In the first example, the command sets CREDIT_QUOTA=2000 on the monitor limiter and replaces its triggers with ON 80 PERCENT DO NOTIFY and ON 100 PERCENT DO SUSPEND_IMMEDIATE."
+ ],
+ "entities": [
+  {
+   "name": "ALTER RESOURCE MONITOR",
+   "type": "program",
+   "role": "SQL command documented on this page that modifies an existing resource monitor"
+  },
+  {
+   "name": "limiter",
+   "type": "product",
+   "role": "example resource monitor whose quota and triggers are altered in the examples"
+  },
+  {
+   "name": "JDOE",
+   "type": "other",
+   "role": "example user name listed in NOTIFY_USERS in the second example"
+  },
+  {
+   "name": "Jane Smith",
+   "type": "person",
+   "role": "example user name enclosed in double quotes in NOTIFY_USERS because it contains a space"
+  },
+  {
+   "name": "John Doe",
+   "type": "person",
+   "role": "example user name enclosed in double quotes in NOTIFY_USERS in the second example"
+  },
+  {
+   "name": "UTC",
+   "type": "other",
+   "role": "default time zone used when a timestamp is set without a time zone"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "resource-monitor",
+  "credit-quota",
+  "reference",
+  "warehouse"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3809,
+  "output_tokens": 1138
+ }
+}

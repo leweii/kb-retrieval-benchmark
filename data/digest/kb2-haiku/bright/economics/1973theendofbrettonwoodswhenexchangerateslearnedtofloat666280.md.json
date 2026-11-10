@@ -1,0 +1,75 @@
+{
+ "summary": "This note is a clipped Deutsche Bundesbank web page whose title refers to 1973, the end of Bretton Woods and the switch to floating exchange rates, but the body text of that article is not present. The captured content is almost entirely site navigation, with a few teaser blurbs: Green Finance, a Money Museum exhibition in Frankfurt on money in caricature and satire, and a description of the digital euro. The note therefore does not support any claims about Bretton Woods itself.",
+ "one_line": "Clipped Bundesbank web page titled after 1973's end of Bretton Woods, but containing only site navigation and teasers, not the article.",
+ "key_facts": [
+  "The note's title is '1973 the end of Bretton Woods when exchange rates learned to float', but the captured body contains no article text on that topic.",
+  "The page is a clipped page from the Deutsche Bundesbank website, with navigation menus and boilerplate that make up most of the captured text.",
+  "The Bundesbank's Green Finance teaser states: 'Climate change poses huge challenges for the financial sector, too.'",
+  "The Bundesbank Green Finance teaser says the Bundesbank 'supports the transition to a low-carbon economy.'",
+  "The Money Museum exhibition 'Money in caricature and satire' runs from 20.09.2022 to 04.05.2024 in Frankfurt am Main.",
+  "The exhibition 'Money in caricature and satire' takes a different approach to money: from the perspective of caricature and satire.",
+  "The digital euro is described as 'a digital form of central bank money, specifically the euro' that the general public could use much as cash, only in virtual form.",
+  "The site navigation lists Executive Board members Dr Joachim Nagel, Burkhard Balz and Dr Sabine Mauderer.",
+  "The site navigation lists the Bundesbank's international cooperation bodies, including the IMF, BIS, FSB, G20 and G7."
+ ],
+ "entities": [
+  {
+   "name": "Deutsche Bundesbank",
+   "type": "organization",
+   "role": "German central bank whose website the note was clipped from"
+  },
+  {
+   "name": "Money Museum",
+   "type": "place",
+   "role": "Bundesbank museum showing the 'Money in caricature and satire' exhibition in Frankfurt am Main"
+  },
+  {
+   "name": "Exhibition: \"Money in caricature and satire\"",
+   "type": "event",
+   "role": "Special exhibition at the Money Museum from 20.09.2022 to 04.05.2024"
+  },
+  {
+   "name": "Digital euro",
+   "type": "product",
+   "role": "Proposed digital form of central bank money for the general public, described as cash in virtual form"
+  },
+  {
+   "name": "Eurosystem",
+   "type": "organization",
+   "role": "Would supply households with the digital euro alongside cash, per the note"
+  },
+  {
+   "name": "Dr Joachim Nagel",
+   "type": "person",
+   "role": "Member of the Bundesbank Executive Board listed in site navigation"
+  },
+  {
+   "name": "Burkhard Balz",
+   "type": "person",
+   "role": "Member of the Bundesbank Executive Board listed in site navigation"
+  },
+  {
+   "name": "Dr Sabine Mauderer",
+   "type": "person",
+   "role": "Member of the Bundesbank Executive Board listed in site navigation"
+  },
+  {
+   "name": "Bretton Woods",
+   "type": "event",
+   "role": "Monetary system whose end in 1973 is named in the note title only; body text not included"
+  }
+ ],
+ "tags": [
+  "bretton woods",
+  "exchange rates",
+  "central banking",
+  "bundesbank",
+  "digital euro",
+  "web clipping"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 15532,
+  "output_tokens": 1939
+ }
+}

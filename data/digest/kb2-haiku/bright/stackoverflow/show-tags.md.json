@@ -1,0 +1,65 @@
+{
+ "summary": "This note is the Snowflake documentation page for the SHOW TAGS command, which lists tag information. It covers the syntax, the optional LIKE pattern filter (case-insensitive, supports % and _ wildcards), and the IN scope options (ACCOUNT, DATABASE, SCHEMA) with their defaults. It also lists the required privileges (USAGE on the schema containing the tag, APPLY TAG on the account), usage notes such as the 10000-row LIMIT cap and no need for a running warehouse, and an example output for SHOW TAGS IN SCHEMA. The feature requires Snowflake Enterprise Edition or higher.",
+ "one_line": "Snowflake reference for the SHOW TAGS command, which lists tag objects with optional LIKE filtering and account, database, or schema scoping.",
+ "key_facts": [
+  "SHOW TAGS lists tag information and requires Snowflake Enterprise Edition or higher.",
+  "The optional LIKE '<pattern>' parameter filters output by object name using case-insensitive pattern matching.",
+  "The LIKE filter supports SQL wildcard characters % and _.",
+  "The IN clause scope options are ACCOUNT, DATABASE, DATABASE <database_name>, SCHEMA, SCHEMA <schema_name>, and <schema_name>.",
+  "If no database is in use, the default scope for SHOW TAGS is ACCOUNT.",
+  "If a database is in use, the default scope for SHOW TAGS is DATABASE.",
+  "Running SHOW TAGS requires USAGE privilege on the schema containing the tag and APPLY TAG privilege on the account.",
+  "Operating on any object in a schema also requires USAGE privilege on the parent database and schema.",
+  "The command does not require a running warehouse to execute.",
+  "The value for LIMIT rows cannot exceed 10000.",
+  "If LIMIT rows is omitted and the result set exceeds 10K rows, the command results in an error.",
+  "The example 'SHOW TAGS IN SCHEMA my_db.my_schema;' returns tags such as CLASSIFICATION and COST_CENTER.",
+  "The CLASSIFICATION tag in the example has the comment 'secure information' and is owned by ACCOUNTADMIN.",
+  "The COST_CENTER tag in the example has the comment 'cost_center tag' and is owned by ACCOUNTADMIN."
+ ],
+ "entities": [
+  {
+   "name": "SHOW TAGS",
+   "type": "program",
+   "role": "SQL command documented on this page that lists tag information"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact for inquiring about upgrading to Enterprise Edition"
+  },
+  {
+   "name": "CLASSIFICATION",
+   "type": "product",
+   "role": "example tag in the SHOW TAGS IN SCHEMA output, with comment 'secure information'"
+  },
+  {
+   "name": "COST_CENTER",
+   "type": "product",
+   "role": "example tag in the SHOW TAGS IN SCHEMA output, with comment 'cost_center tag'"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "program",
+   "role": "owner role of the example tags shown in the output"
+  },
+  {
+   "name": "my_db.my_schema",
+   "type": "place",
+   "role": "schema used in the example command SHOW TAGS IN SCHEMA"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "show-tags",
+  "data-governance",
+  "access-control",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2804,
+  "output_tokens": 1120
+ }
+}

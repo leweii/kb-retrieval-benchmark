@@ -1,0 +1,135 @@
+{
+ "summary": "This article, an author-manuscript version of a J Breath Res paper by Pleil, Geer Wallace, Davis and Matty, explains the physics and physiology of human breathing across normal, on-demand, and ventilator conditions. It covers tidal volume, minute ventilation, oxygen saturation, altitude effects on partial pressure of oxygen, CO2 tolerance in artificial atmospheres such as spacecraft and submarines, respirators and masks, high-flow oxygen therapy, and extreme breath-holding. The note is truncated before its on-demand and SCUBA sections are complete.",
+ "one_line": "A physics-focused overview of human breathing parameters, oxygen and CO2 levels, altitude, protective masks and medical oxygen support across different environments.",
+ "key_facts": [
+  "At complete rest, the typical adult male exchanges approximately 0.5 L of air per breath at 12 breaths per minute, a minute ventilation of about 6 L per minute.",
+  "The first 0.15 L of each breath, referred to as the tracheal dead volume, does not participate in O2/CO2 exchange.",
+  "Pulse oximetry readings of SpO2 between 95 and 100% are considered normal; 90% or below indicates hypoxemia.",
+  "At sea level, the partial pressure of oxygen (ppO2) is 0.21 atmospheres; Mexico City at 7,350 feet has ppO2 of 0.16 atm, about 60% of sea-level O2 density.",
+  "Commercial airliner cabins are pressurized to an equivalent altitude of about 8,000 feet (0.16 ppO2 atm) as mandated by Federal Regulation 14 CFR 25.831.",
+  "FAA general aviation guidelines require supplemental O2 if cabin pressure drops to 12,500 feet equivalent (0.13 ppO2 atm) for more than 30 minutes and always above 14,000 feet cabin altitude (0.12 ppO2 atm).",
+  "The article states that the altitude tipping point for unassisted breathing in very fit individuals is around 26,000 feet.",
+  "ASHRAE standard for CO2 in offices is 800 ppm (0.08%), though levels of 4,000 to 5,000 ppm have been measured.",
+  "CO2 concentrations of 100,000 ppm and above can cause loss of consciousness and asphyxiation.",
+  "NASA's spacecraft maximum allowable concentrations (SMACs) for CO2 for 1-h and 24-h exposure were set at 13,000 ppm; the CO2 SMAC was later removed.",
+  "The highest recorded spacecraft CO2 level was 14.9 mmHg on Apollo 13.",
+  "Low-flow oxygen therapy delivers up to 15 liters per minute and can deliver up to about 80% fraction of inspired oxygen.",
+  "High-flow nasal cannula (HFNC) can deliver up to 60 LPM and range up to 100% O2.",
+  "Free divers without prior oxygen loading can routinely hold their breath for 10 minutes or more and dive unassisted to 300 feet.",
+  "The human record for breath holding with O2 loading is 24 minutes 37 seconds, achieved by Budimir Šobat in Sisak, Croatia in March 2021."
+ ],
+ "entities": [
+  {
+   "name": "Joachim D. Pleil",
+   "type": "person",
+   "role": "first-listed author of the article on the physics of human breathing"
+  },
+  {
+   "name": "M. Ariel Geer Wallace",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Michael D. Davis",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Christopher M. Matty",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "J Breath Res",
+   "type": "organization",
+   "role": "journal in which the article was published"
+  },
+  {
+   "name": "NASA Pilot Breathing Assessment (PBA) study",
+   "type": "program",
+   "role": "study of jet fighter pilots showing oxygen transport losses despite 100% O2 breathing gas"
+  },
+  {
+   "name": "U.S. Environmental Protection Agency (EPA)",
+   "type": "organization",
+   "role": "published statistical analyses of human breathing and the Exposure Factors Handbook"
+  },
+  {
+   "name": "Federal Aviation Administration (FAA)",
+   "type": "organization",
+   "role": "regulator setting airliner cabin pressurization and general aviation supplemental O2 guidelines"
+  },
+  {
+   "name": "American Society of Heating and Air-Conditioning Engineers (ASHRAE)",
+   "type": "organization",
+   "role": "sets the acceptable CO2 standard for offices at 800 ppm"
+  },
+  {
+   "name": "National Research Council",
+   "type": "organization",
+   "role": "source of CO2 inhalation exposure recommendations for submarines and spacecraft"
+  },
+  {
+   "name": "International Space Station (ISS)",
+   "type": "place",
+   "role": "closed environment with about 950 cubic meters interior volume and a crew of seven astronauts used as an example"
+  },
+  {
+   "name": "Mexico City, Mexico",
+   "type": "place",
+   "role": "large city at 7,350 feet elevation used as an altitude comparison with ppO2 of 0.16 atm"
+  },
+  {
+   "name": "Denali Summit, AK, USA",
+   "type": "place",
+   "role": "mountain summit at about 20,208 feet listed in the altitude table"
+  },
+  {
+   "name": "Mount Everest Summit, Nepal",
+   "type": "place",
+   "role": "summit at about 29,000 feet; very few climbers have summited without supplemental O2"
+  },
+  {
+   "name": "Apollo 13",
+   "type": "event",
+   "role": "spacecraft mission with the highest recorded CO2 level of 14.9 mmHg"
+  },
+  {
+   "name": "Budimir Šobat",
+   "type": "person",
+   "role": "holder of the human breath-holding record with O2 loading, 24 minutes 37 seconds"
+  },
+  {
+   "name": "Deep: Freediving, Renegade Science, and What the Ocean Tells Us about Ourselves",
+   "type": "product",
+   "role": "book describing extreme human adaptation and freediving, cited by Nestor 2014"
+  },
+  {
+   "name": "N-95 mask",
+   "type": "product",
+   "role": "standard medical protection mask with a tight fit and negligible inhalation restriction"
+  },
+  {
+   "name": "High-flow nasal cannula (HFNC)",
+   "type": "product",
+   "role": "non-invasive respiratory support delivering up to 60 LPM of oxygen"
+  },
+  {
+   "name": "Sisak, Croatia",
+   "type": "place",
+   "role": "location where the O2-loaded breath-holding record was achieved in March 2021"
+  }
+ ],
+ "tags": [
+  "human breathing",
+  "respiratory physiology",
+  "oxygen saturation",
+  "altitude adaptation",
+  "carbon dioxide exposure"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 12266,
+  "output_tokens": 2183
+ }
+}

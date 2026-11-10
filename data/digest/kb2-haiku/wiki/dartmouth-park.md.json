@@ -1,0 +1,49 @@
+{
+ "summary": "This note is a short encyclopedia-style entry describing Dartmouth Park, a district in north London. It places the area within the London Borough of Camden, on the slope rising toward Highgate from Kentish Town, and notes that it borders Parliament Hill Fields on its west side.",
+ "one_line": "Dartmouth Park is a north London district in the London Borough of Camden, on the Highgate slope near Kentish Town.",
+ "key_facts": [
+  "Dartmouth Park is a district of north London.",
+  "Dartmouth Park is located in the London Borough of Camden.",
+  "Dartmouth Park lies on the slope of the hill that rises up to Highgate from Kentish Town.",
+  "Dartmouth Park borders Parliament Hill Fields on its west side."
+ ],
+ "entities": [
+  {
+   "name": "Dartmouth Park",
+   "type": "place",
+   "role": "district of north London in the London Borough of Camden, on the slope rising to Highgate from Kentish Town"
+  },
+  {
+   "name": "London Borough of Camden",
+   "type": "place",
+   "role": "borough in which Dartmouth Park is located"
+  },
+  {
+   "name": "Highgate",
+   "type": "place",
+   "role": "hill/area that Dartmouth Park's slope rises up to"
+  },
+  {
+   "name": "Kentish Town",
+   "type": "place",
+   "role": "area from which the slope rising to Highgate begins"
+  },
+  {
+   "name": "Parliament Hill Fields",
+   "type": "place",
+   "role": "open space bordering Dartmouth Park on its west side"
+  }
+ ],
+ "tags": [
+  "london",
+  "camden",
+  "geography",
+  "districts",
+  "north london"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1056,
+  "output_tokens": 501
+ }
+}

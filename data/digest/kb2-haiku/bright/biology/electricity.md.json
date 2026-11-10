@@ -1,0 +1,145 @@
+{
+ "summary": "This note is an overview of electricity as a set of physical phenomena tied to electric charge and its motion, linked to magnetism through electromagnetism. It covers the history from ancient observations of electric fish and static electricity through Franklin, Faraday, Maxwell, and the transistor, then explains core concepts: charge, current, electric fields, potential, electromagnets, circuits, power, and electronics. The text is truncated mid-section on electromagnetic waves.",
+ "one_line": "Overview of electricity: its history from ancient static and electric fish to modern electronics, and its core physical concepts of charge, current, fields, and circuits.",
+ "key_facts": [
+  "Electricity is the set of physical phenomena associated with the presence and motion of matter possessing an electric charge.",
+  "Thales of Miletus made observations on static electricity around 600 BCE.",
+  "William Gilbert wrote De Magnete in 1600 and coined the Neo-Latin word electricus from the Greek elektron meaning amber.",
+  "Benjamin Franklin's kite experiment in June 1752 showed that lightning was electrical in nature.",
+  "Alessandro Volta's voltaic pile of 1800 was made from alternating layers of zinc and copper.",
+  "Michael Faraday invented the electric motor in 1821.",
+  "Georg Ohm mathematically analysed the electrical circuit in 1827.",
+  "James Clerk Maxwell linked electricity, magnetism and light in 'On Physical Lines of Force' in 1861 and 1862.",
+  "The first working transistor, a germanium-based point-contact transistor, was invented by John Bardeen and Walter Houser Brattain at Bell Labs in 1947.",
+  "Coulomb's law determines the force between electric charges and has an inverse-square relation to the distance between them.",
+  "By convention, the charge carried by electrons is deemed negative, a custom that originated with the work of Benjamin Franklin.",
+  "Air tends to arc across small gaps at electric field strengths exceeding 30 kV per centimetre.",
+  "The voltage of a large lightning cloud may be as high as 100 MV and have discharge energies as great as 250 kWh.",
+  "The ohm is the resistance that produces a potential difference of one volt in response to a current of one amp.",
+  "Electric power P equals IV, where I is current in amperes and V is voltage in volts."
+ ],
+ "entities": [
+  {
+   "name": "Thales of Miletus",
+   "type": "person",
+   "role": "made a series of observations on static electricity around 600 BCE and wrongly believed the attraction was magnetic"
+  },
+  {
+   "name": "Benjamin Franklin",
+   "type": "person",
+   "role": "conducted extensive 18th-century research on electricity and flew a kite in a storm in June 1752"
+  },
+  {
+   "name": "William Gilbert",
+   "type": "person",
+   "role": "English scientist who wrote De Magnete in 1600 and coined the word electricus"
+  },
+  {
+   "name": "Joseph Priestley",
+   "type": "person",
+   "role": "author of History and Present Status of Electricity (1767), with whom Franklin corresponded"
+  },
+  {
+   "name": "Michael Faraday",
+   "type": "person",
+   "role": "invented the electric motor in 1821, invented the first electrical generator in 1831, and introduced the concept of the electric field"
+  },
+  {
+   "name": "Hans Christian Ørsted",
+   "type": "person",
+   "role": "discovered in 1820 that a current-carrying wire disturbs a magnetic compass needle, establishing electromagnetism"
+  },
+  {
+   "name": "André-Marie Ampère",
+   "type": "person",
+   "role": "investigated electromagnetism and showed parallel current-carrying wires attract or repel depending on current direction"
+  },
+  {
+   "name": "Georg Ohm",
+   "type": "person",
+   "role": "mathematically analysed the electrical circuit in 1827; the ohm unit is named after him"
+  },
+  {
+   "name": "James Clerk Maxwell",
+   "type": "person",
+   "role": "linked electricity, magnetism and light, and analysed electromagnetic waves theoretically in 1864"
+  },
+  {
+   "name": "Alessandro Volta",
+   "type": "person",
+   "role": "created the voltaic pile battery of 1800"
+  },
+  {
+   "name": "Luigi Galvani",
+   "type": "person",
+   "role": "published in 1791 his discovery of bioelectromagnetics"
+  },
+  {
+   "name": "Albert Einstein",
+   "type": "person",
+   "role": "explained the photoelectric effect in 1905 and received the 1921 Nobel Prize in Physics for it"
+  },
+  {
+   "name": "Heinrich Hertz",
+   "type": "person",
+   "role": "discovered in 1887 that electrodes illuminated with ultraviolet light create sparks more easily"
+  },
+  {
+   "name": "John Bardeen",
+   "type": "person",
+   "role": "co-inventor of the first working transistor at Bell Labs in 1947"
+  },
+  {
+   "name": "Walter Houser Brattain",
+   "type": "person",
+   "role": "co-inventor of the first working transistor at Bell Labs in 1947"
+  },
+  {
+   "name": "Charles-Augustin de Coulomb",
+   "type": "person",
+   "role": "investigated charge in the late eighteenth century and deduced that charge manifests in two opposing forms"
+  },
+  {
+   "name": "Michael Faraday",
+   "type": "person",
+   "role": "also gave the farad unit of capacitance its name"
+  },
+  {
+   "name": "Bell Labs",
+   "type": "organization",
+   "role": "institution where the first working transistor was invented in 1947"
+  },
+  {
+   "name": "Joseph Henry",
+   "type": "person",
+   "role": "contemporary of Faraday after whom the henry unit of inductance is named"
+  },
+  {
+   "name": "Nicholson and Carlisle",
+   "type": "person",
+   "role": "discovered in 1800 that water could be decomposed by current from a voltaic pile"
+  },
+  {
+   "name": "Lightning conductor",
+   "type": "product",
+   "role": "device whose sharp spike encourages lightning to strike it rather than the building it protects"
+  },
+  {
+   "name": "Baghdad Battery",
+   "type": "product",
+   "role": "artifact discovered in 1936 that resembles a galvanic cell, possibly linked to Parthian electroplating"
+  }
+ ],
+ "tags": [
+  "electricity",
+  "electromagnetism",
+  "history of physics",
+  "electrical circuits",
+  "electronics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10588,
+  "output_tokens": 1961
+ }
+}

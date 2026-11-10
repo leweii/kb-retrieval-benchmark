@@ -1,0 +1,44 @@
+{
+ "summary": "This is a reference page for the ST_MAKEGEOMPOINT geospatial function, which returns a GEOMETRY object representing a Point with a given longitude and latitude. It documents the syntax, the two REAL arguments, and the return type. The page notes that ST_GEOM_POINT is an alias for this function. The examples section is empty in the clipped note.",
+ "one_line": "Reference for the ST_MAKEGEOMPOINT geospatial function, which builds a GEOMETRY point from longitude and latitude, with alias ST_GEOM_POINT.",
+ "key_facts": [
+  "ST_MAKEGEOMPOINT returns a GEOMETRY object that represents a Point with the specified longitude and latitude.",
+  "The syntax is ST_MAKEGEOMPOINT( <longitude> , <latitude> ).",
+  "The longitude argument is a REAL that represents the longitude.",
+  "The latitude argument is a REAL that represents the latitude.",
+  "The function returns a value of type GEOMETRY.",
+  "ST_GEOM_POINT is an alias for ST_MAKEGEOMPOINT.",
+  "The page is listed under the geospatial function category.",
+  "The page's Categories section lists Conversion, Input, Parsing; Conversion, Output, Formatting; Constructor; Accessor; Relationship and Measurement; Transformation; Utility; and H3.",
+  "The Examples section of the note contains no content in the clipped text."
+ ],
+ "entities": [
+  {
+   "name": "ST_MAKEGEOMPOINT",
+   "type": "program",
+   "role": "geospatial function that returns a GEOMETRY Point from longitude and latitude"
+  },
+  {
+   "name": "ST_GEOM_POINT",
+   "type": "program",
+   "role": "alias for ST_MAKEGEOMPOINT"
+  },
+  {
+   "name": "GEOMETRY",
+   "type": "other",
+   "role": "return data type of the function"
+  }
+ ],
+ "tags": [
+  "geospatial",
+  "sql functions",
+  "geometry",
+  "point",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1448,
+  "output_tokens": 646
+ }
+}

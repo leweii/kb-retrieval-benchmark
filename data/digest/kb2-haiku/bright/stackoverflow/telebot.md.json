@@ -1,0 +1,101 @@
+{
+ "summary": "This is an API reference page for the pyTelegramBotAPI (telebot) Python library, documenting the TeleBot main class and related classes such as ExceptionHandler and Handler. It covers the TeleBot constructor parameters with defaults, and many bot methods such as add_custom_filter, add_data, add_sticker_to_set, answer_callback_query, answer_inline_query, ban_chat_member, copy_message, and create_chat_invite_link, plus decorator handlers like callback_query_handler and channel_post_handler. The note is truncated partway through create_forum_topic.",
+ "one_line": "API reference for the Python telebot library's TeleBot class, its constructor parameters, handler decorators, and bot methods.",
+ "key_facts": [
+  "The telebot.ExceptionHandler class is used for handling exceptions while Polling and has a handle(exception) method.",
+  "The telebot.Handler class is described as a class for (next step|reply) handlers and takes callback, *args and **kwargs.",
+  "telebot.REPLY_MARKUP_TYPES is a Union of InlineKeyboardMarkup, ReplyKeyboardMarkup, ReplyKeyboardRemove and ForceReply.",
+  "The TeleBot constructor takes a token parameter of type str, which should be obtained from @BotFather.",
+  "TeleBot's threaded parameter defaults to True and num_threads defaults to 2.",
+  "TeleBot's skip_pending parameter defaults to False and skips pending updates when True.",
+  "TeleBot's use_class_middlewares parameter defaults to False and colorful_logs requires the coloredlogs module.",
+  "The sticker-set documentation states emoji sticker sets can have up to 200 stickers, animated and video sticker sets up to 50, and static sticker sets up to 120.",
+  "The answer_inline_query method allows no more than 50 results per query.",
+  "The answer_callback_query text parameter is 0-200 characters and cache_time defaults to 0.",
+  "The approve_chat_join_request method requires the bot to be an administrator with the can_invite_users right.",
+  "The ban_chat_member until_date parameter treats a ban longer than 366 days or shorter than 30 seconds from the current time as a permanent ban.",
+  "The close method returns error 429 during the first 10 minutes after the bot is launched.",
+  "The close_general_forum_topic method requires the bot to have can_manage_topics administrator rights.",
+  "The copy_messages method skips messages that cannot be found or copied and keeps album grouping for copied messages.",
+  "The create_chat_invite_link name parameter is 0-32 characters and creates_join_request cannot be combined with member_limit."
+ ],
+ "entities": [
+  {
+   "name": "TeleBot",
+   "type": "program",
+   "role": "main synchronous class for Bot, allowing handlers to be added for different kinds of updates"
+  },
+  {
+   "name": "ExceptionHandler",
+   "type": "program",
+   "role": "class for handling exceptions while Polling"
+  },
+  {
+   "name": "Handler",
+   "type": "program",
+   "role": "class for (next step|reply) handlers"
+  },
+  {
+   "name": "REPLY_MARKUP_TYPES",
+   "type": "program",
+   "role": "alias of a Union of InlineKeyboardMarkup, ReplyKeyboardMarkup, ReplyKeyboardRemove and ForceReply"
+  },
+  {
+   "name": "@BotFather",
+   "type": "organization",
+   "role": "source from which the bot token should be obtained"
+  },
+  {
+   "name": "coloredlogs",
+   "type": "program",
+   "role": "module to install to specify colorful_logs=True"
+  },
+  {
+   "name": "StateMemoryStorage",
+   "type": "program",
+   "role": "default state storage for TeleBot's state_storage parameter"
+  },
+  {
+   "name": "InlineKeyboardMarkup",
+   "type": "product",
+   "role": "reply markup type included in REPLY_MARKUP_TYPES"
+  },
+  {
+   "name": "ReplyKeyboardMarkup",
+   "type": "product",
+   "role": "reply markup type included in REPLY_MARKUP_TYPES"
+  },
+  {
+   "name": "ReplyKeyboardRemove",
+   "type": "product",
+   "role": "reply markup type included in REPLY_MARKUP_TYPES"
+  },
+  {
+   "name": "ForceReply",
+   "type": "product",
+   "role": "reply markup type included in REPLY_MARKUP_TYPES"
+  },
+  {
+   "name": "ChatInviteLink",
+   "type": "product",
+   "role": "return type of create_chat_invite_link"
+  },
+  {
+   "name": "ForumTopic",
+   "type": "product",
+   "role": "return type of create_forum_topic"
+  }
+ ],
+ "tags": [
+  "telebot",
+  "python",
+  "telegram-bot-api",
+  "api-reference",
+  "bot-development"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14028,
+  "output_tokens": 1488
+ }
+}

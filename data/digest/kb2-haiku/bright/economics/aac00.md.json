@@ -1,0 +1,90 @@
+{
+ "summary": "This note is a Special Data Dissemination Standard Plus metadata page from the IMF Dissemination Standards Bulletin Board for Japan's central bank survey covering the Monetary Base and the Bank of Japan's balance sheet, including domestic claims on government, domestic claims on the private sector, and the external position. It documents the BOJ's legal confidentiality and ethical rules, the definitions and compilation methods of the monetary base and BOJ Accounts, and the periodicity, timeliness, revision, and release practices. Navigation and boilerplate on the IMF page were ignored.",
+ "one_line": "IMF metadata page describing the Bank of Japan's monetary base and balance sheet statistics under the SDDS Plus.",
+ "key_facts": [
+  "The IMF metadata page covers the Japan central bank survey on the Monetary Base and Bank of Japan balance sheet, with last certified Jan 29, 2024, last posted Jan 03, 2023, and last updated Dec 26, 2022.",
+  "Article 29 of the Bank of Japan Act, which took effect as of April 1998, prohibits the Bank's officers and employees from leaking or misappropriating secrets learned in the course of their duties, even after they leave the Bank.",
+  "Article 32 of the Bank of Japan Act requires the Bank to establish rules on service for its officers and employees and report them to the Minister of Finance.",
+  "\"Monetary Base\" is defined as currency in circulation (banknotes and coins, both including holdings of financial institutions) plus current account balances.",
+  "Monetary Base data are expressed in 100 millions of Yen and include a reference series called \"Reserve requirement rate change adjusted Monetary Base\".",
+  "Bank of Japan Accounts data cover total outstanding assets and a sum of liabilities and net assets, based on the BOJ's accounting record at the end of the month.",
+  "Seasonally adjusted Monetary Base data are produced using the Bureau of Census method X-12ARIMA (Version 0.3) and are revised once a year; no seasonally adjusted Bank of Japan Accounts data are available.",
+  "Monetary Base data are compiled monthly and released on the 2nd business day after the end of the reference month, released by BOJ press release at 8:50 a.m. on the release date.",
+  "Bank of Japan Accounts data are compiled monthly and released early in the following month of the reference period.",
+  "March and September figures of Bank of Japan Accounts are released in early April and October on a preliminary basis, with final figures released in early June and December.",
+  "Domestic claims on the government consist of government securities and loans to the Deposit Insurance Corporation.",
+  "Foreign liabilities (Yen-denominated) are deposits from foreign central banks, which are the main item of \"other deposits\" in the Bank of Japan Accounts.",
+  "Major changes in methodology are announced at the time the changes are introduced.",
+  "Dissemination schedule is released in June and December for the following 12 months on the BOJ website, and an advance release calendar gives one-quarter-ahead notice of approximate release dates."
+ ],
+ "entities": [
+  {
+   "name": "International Monetary Fund",
+   "type": "organization",
+   "role": "publisher of the Dissemination Standards Bulletin Board metadata page"
+  },
+  {
+   "name": "Bank of Japan",
+   "type": "organization",
+   "role": "central bank whose monetary base and accounts are described"
+  },
+  {
+   "name": "Bank of Japan Act",
+   "type": "program",
+   "role": "legislation whose Articles 29 and 32 set confidentiality and ethical rules for the BOJ"
+  },
+  {
+   "name": "Rules of Ethical Conduct for Executives and Staff of the Bank of Japan",
+   "type": "program",
+   "role": "ethical conduct rules applied to the work of BOJ statistics (available only in Japanese)"
+  },
+  {
+   "name": "Monetary Base",
+   "type": "product",
+   "role": "statistical series equal to currency in circulation plus current account balances"
+  },
+  {
+   "name": "Bank of Japan Accounts",
+   "type": "product",
+   "role": "statistical series covering all assets and liabilities of the Bank of Japan"
+  },
+  {
+   "name": "Deposit Insurance Corporation",
+   "type": "organization",
+   "role": "recipient of loans included in domestic claims on the government"
+  },
+  {
+   "name": "Bank for International Settlements",
+   "type": "organization",
+   "role": "holder of foreign currency deposits owned by the BOJ"
+  },
+  {
+   "name": "Bureau of Census method X-12ARIMA",
+   "type": "program",
+   "role": "seasonal adjustment method used for monetary base data"
+  },
+  {
+   "name": "Special Data Dissemination Standard Plus",
+   "type": "program",
+   "role": "IMF standard under which Japan's central bank survey is reported"
+  },
+  {
+   "name": "Minister of Finance",
+   "type": "person",
+   "role": "official to whom the BOJ must report its service rules"
+  }
+ ],
+ "tags": [
+  "central banking",
+  "monetary base",
+  "japan",
+  "imf data standards",
+  "balance sheet",
+  "monetary statistics"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 5457,
+  "output_tokens": 1599
+ }
+}

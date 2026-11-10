@@ -1,0 +1,47 @@
+{
+ "summary": "This is a Snowflake documentation page for the system function SYSTEM$LAST_CHANGE_COMMIT_TIME, which returns a token that indicates whether a table or view has changed between two calls. A changed token typically reflects a DML operation such as an INSERT, and for a view it means at least one referenced object changed. The page covers syntax, the NUMBER(scale 0) return type, usage notes stressing it is an approximate UTC nanosecond value meant only as a change indicator, and examples showing the value increasing after an INSERT.",
+ "one_line": "Snowflake system function returning a change-indicator token for a table or view, used to detect DML changes such as INSERTs.",
+ "key_facts": [
+  "SYSTEM$LAST_CHANGE_COMMIT_TIME returns a token that can detect whether a database table or view changed between two calls to the function.",
+  "If the token from one call differs from the token from another call, the table or view changed between those calls, typically due to a DML operation such as an INSERT.",
+  "If the specified database object is a view, the token changes when at least one database object referenced by the view changed.",
+  "The function must be called as a system function, written as SYSTEM$LAST_CHANGE_COMMIT_TIME with the object name in single quotes.",
+  "The syntax is SYSTEM$LAST_CHANGE_COMMIT_TIME('<object_name>') where object_name specifies the table or view.",
+  "The data type of the returned value is NUMBER with a scale of 0.",
+  "For each DML operation performed on the specified table or underlying tables in the specified view, the returned value increases.",
+  "The value is typically an approximation of the time the database object was last changed, expressed as a UTC timestamp in nanoseconds since midnight January 1, 1970.",
+  "Snowflake recommends using this value only as a change indicator and strongly discourages treating it as a timestamp.",
+  "BI tools can use the value to decide whether a dashboard needs updating based on new data in a table.",
+  "In the example, calling SYSTEM$LAST_CHANGE_COMMIT_TIME('mytable') returned 1661920053987000000 and later 1661920118648000000.",
+  "After the statement INSERT INTO mytable VALUES (2,100), (3,300), the function returned 1661920131893000000 for mytable."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$LAST_CHANGE_COMMIT_TIME",
+   "type": "program",
+   "role": "system function documented on this page that returns a change-detection token for a table or view"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "publisher of the documentation and recommender of how the function value should be used"
+  },
+  {
+   "name": "mytable",
+   "type": "other",
+   "role": "example table used to demonstrate the function's return values after an INSERT"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "system-functions",
+  "change-detection",
+  "dml",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2088,
+  "output_tokens": 931
+ }
+}

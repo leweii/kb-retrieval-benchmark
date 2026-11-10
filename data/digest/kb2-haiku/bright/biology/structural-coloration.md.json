@@ -1,0 +1,135 @@
+{
+ "summary": "This Wikipedia-style article explains structural coloration, where microscopic surface structures interfere with visible light to produce colour instead of or alongside pigments. It covers the history from Robert Hooke and Isaac Newton through Thomas Young's wave explanation, the physical principle of iridescence, and the fixed and variable mechanisms found in animals and a few plants. It ends with technological applications such as Lippmann photography, Morphotex fabric, banknote security inks, and moth-eye antireflective surfaces.",
+ "one_line": "An overview of how microscopic structures, rather than pigments, produce bright and iridescent colours in animals, plants, and technology.",
+ "key_facts": [
+  "Structural coloration is the production of colour by microscopically structured surfaces that interfere with visible light instead of pigments, although it often occurs together with pigments.",
+  "Peacock tail feathers are pigmented brown but their microscopic structure also reflects blue, turquoise, and green light.",
+  "Robert Hooke's 1665 book Micrographia contains the first observations of structural colours, describing the 'fantastical' colours of peacock feathers.",
+  "Isaac Newton's 1704 book Opticks attributed peacock feather colours to the thinness of the transparent parts of the feathers.",
+  "Thomas Young showed in 1803 that light could diffract and interfere, and explained iridescence as interference between reflections from thin films.",
+  "Iridescence arises because at certain angles reflections from the film's two surfaces interfere constructively, while at other angles they interfere destructively, so different colours appear at different angles.",
+  "The most intense blue known in nature comes from the spiral cellulose coils in the marble berries of the African herb Pollia condensata, which produce Bragg reflection.",
+  "The bright gloss of buttercup petals is produced by thin-film reflection from the epidermis, supplemented by yellow pigmentation and diffuse scattering from starch cells beneath.",
+  "In Parides sesostris, the emerald-patched cattleheart butterfly, arrays of nano-sized holes about 150 nanometres across create green colour that reflects evenly at different angles rather than iridescently.",
+  "The emerald swallowtail, Papilio palinurus, uses micron-sized bowl-shaped pits lined with chitin layers that reflect yellow from their centres and blue from their sides.",
+  "Parotia lawesii, a bird of paradise, has V-shaped barbules that switch sharply between blue-green and orange-yellow as the male moves during courtship.",
+  "Gabriel Lippmann won the 1908 Nobel Prize in Physics for the Lippmann plate, a structural colour photography method.",
+  "Teijin Fibers' Morphotex is an undyed fabric woven from structurally coloured fibres that mimic Morpho butterfly wing scales.",
+  "Moth-eye nanostructures on the eyes of some moths reduce reflection and could be used to make low-reflectance glass for windows, solar cells, and displays."
+ ],
+ "entities": [
+  {
+   "name": "Robert Hooke",
+   "type": "person",
+   "role": "English scientist who in 1665 published Micrographia and first described structural colours in peacock feathers"
+  },
+  {
+   "name": "Isaac Newton",
+   "type": "person",
+   "role": "English scientist who in 1704 described the mechanism of peacock feather colours in Opticks"
+  },
+  {
+   "name": "Thomas Young",
+   "type": "person",
+   "role": "scientist who extended Newton's particle theory by showing light behaves as a wave and explained iridescence in 1803"
+  },
+  {
+   "name": "Frank Evers Beddard",
+   "type": "person",
+   "role": "author of the 1892 book Animal Coloration who acknowledged structural colours but largely dismissed their importance"
+  },
+  {
+   "name": "Gabriel Lippmann",
+   "type": "person",
+   "role": "Nobel Prize in Physics winner in 1908 for his structural colour photography method"
+  },
+  {
+   "name": "Donna Sgro",
+   "type": "person",
+   "role": "dressmaker who made a dress from Teijin Fibers' Morphotex fabric in 2010"
+  },
+  {
+   "name": "Micrographia",
+   "type": "product",
+   "role": "1665 book by Robert Hooke containing the first observations of structural colours"
+  },
+  {
+   "name": "Opticks",
+   "type": "product",
+   "role": "1704 book by Isaac Newton describing the mechanism of peacock feather colours"
+  },
+  {
+   "name": "Animal Coloration",
+   "type": "product",
+   "role": "1892 book by Frank Evers Beddard that acknowledged structural colours in animals"
+  },
+  {
+   "name": "Pollia condensata",
+   "type": "organization",
+   "role": "African herb whose marble berries show the most intense blue coloration known in nature through cellulose spiral structures"
+  },
+  {
+   "name": "Parotia lawesii",
+   "type": "organization",
+   "role": "bird of paradise whose breast patch barbules switch between blue-green and orange-yellow"
+  },
+  {
+   "name": "Papilio palinurus",
+   "type": "organization",
+   "role": "emerald swallowtail butterfly whose wing scales use bowl-shaped pits to produce green colour"
+  },
+  {
+   "name": "Parides sesostris",
+   "type": "organization",
+   "role": "emerald-patched cattleheart butterfly whose photonic crystals produce non-iridescent green"
+  },
+  {
+   "name": "Morphotex",
+   "type": "product",
+   "role": "undyed structurally coloured fabric from Teijin Fibers mimicking Morpho butterfly wing scales"
+  },
+  {
+   "name": "Morpho butterfly",
+   "type": "organization",
+   "role": "butterflies whose firtree-shaped chitin microstructures produce brilliant colours, cited as less intense than Pollia berries"
+  },
+  {
+   "name": "Aphrodita",
+   "type": "organization",
+   "role": "sea mouse genus whose hollow nanofibre bristles produce aposematic iridescent colours"
+  },
+  {
+   "name": "Doryteuthis pealeii",
+   "type": "organization",
+   "role": "longfin inshore squid whose reflectin proteins switch configuration under electric charge to change colour"
+  },
+  {
+   "name": "Hapalochlaena lunulata",
+   "type": "organization",
+   "role": "greater blue-ringed octopus whose rings flash iridescent blue using muscles controlling iridophores"
+  },
+  {
+   "name": "Ara ararauna",
+   "type": "organization",
+   "role": "blue-and-yellow macaw whose diffuse non-iridescent blue comes from random nanochannels in keratin"
+  },
+  {
+   "name": "Lamprocyphus augustus",
+   "type": "organization",
+   "role": "Brazilian weevil whose scales contain diamond-based crystal lattices giving near-uniform green"
+  }
+ ],
+ "tags": [
+  "structural coloration",
+  "iridescence",
+  "photonic crystals",
+  "biomimicry",
+  "optics",
+  "animal coloration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8234,
+  "output_tokens": 2570
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "summary": "A Bitcraze forum thread in the Developer discussions board where user aesreal asks whether a built-in ROS terminal tool exists to set Crazyflie parameters, noting that listParams is the closest existing tool and that his self-written setParam program compiled but did not work. Maintainer whoenig replies that such a tool would be a useful addition, explains that crazyflie_tools use point-to-point communication so parallel parameter changes are not yet possible, and says crazyflie_cpp can establish a connection in under one second. The user then opens an issue in the crazyflie_ros repository.",
+ "one_line": "Forum thread on setting Crazyflie parameters from a ROS terminal command, with maintainer replies on crazyflie_cpp versus the Python client.",
+ "key_facts": [
+  "The thread is titled 'Setting parameters via terminal [ROS]' and is filed under Firmware/software/electronics on the Bitcraze Forums.",
+  "User aesreal posted the original question on Thu Jun 14, 2018 at 4:49 am.",
+  "aesreal wanted a command such as rosrun crazyflie_tools setParam to change Crazyflie parameters from the terminal, because he uses more than one Crazyflie.",
+  "aesreal said he had searched crazyflie_tools and the closest existing executable was listParams.",
+  "aesreal said his self-written setParam executable compiled but did not work, and that he did not know C++ at all.",
+  "aesreal's setParam.cpp was based on listParams.cpp from whoenig's crazyflie_ros and used boost::program_options with options uri, param and value.",
+  "aesreal said crazyflie.open_link(uri) in the Python client takes more than 2 seconds and establishes a blocking connection.",
+  "whoenig replied on Thu Jun 14, 2018 that a parameter-setting tool would be a great addition and suggested opening an issue in the crazyflie_tools repository.",
+  "whoenig stated that all crazyflie_tools use point-to-point communication, so changing parameters in parallel is not possible yet.",
+  "whoenig stated that the crazyswarm project runs crazyflie_tools in a loop for each Crazyflie, and that parameter changes via broadcast are not yet implemented.",
+  "whoenig stated that crazyflie_cpp has no connection concept like the Python client, but individual commands may fail on timeout.",
+  "whoenig stated that crazyflie_cpp can establish a connection in under 1 second.",
+  "aesreal replied on Fri Jun 15, 2018 that he was extending chooser.py to control LED rings and wanted to add parameter changes, and that he opened an issue at github.com/whoenig/crazyflie_ros/issues/98.",
+  "aesreal concluded that cfclient suits stability, flight statistics and configuration, while crazyflie_cpp suits controlling multiple drones with faster communication."
+ ],
+ "entities": [
+  {
+   "name": "aesreal",
+   "type": "person",
+   "role": "Beginner forum user who asked how to set Crazyflie parameters from a ROS terminal and posted the setParam.cpp code"
+  },
+  {
+   "name": "whoenig",
+   "type": "person",
+   "role": "Expert forum user and maintainer of crazyflie_cpp and crazyflie_ros who replied to the thread"
+  },
+  {
+   "name": "Bitcraze Forums",
+   "type": "organization",
+   "role": "The Bitcraze web forum where the thread was posted"
+  },
+  {
+   "name": "crazyflie_tools",
+   "type": "program",
+   "role": "ROS tools package containing executables such as listParams, which use point-to-point communication"
+  },
+  {
+   "name": "listParams",
+   "type": "program",
+   "role": "Existing crazyflie_tools executable that the user considered the closest to the needed functionality"
+  },
+  {
+   "name": "crazyflie_cpp",
+   "type": "program",
+   "role": "C++ Crazyflie communication library that can establish a connection in under one second"
+  },
+  {
+   "name": "crazyflie_ros",
+   "type": "program",
+   "role": "ROS driver package by whoenig where the parameter-handling code and the GitHub issue #98 are located"
+  },
+  {
+   "name": "crazyswarm",
+   "type": "program",
+   "role": "Project that runs crazyflie_tools in a loop for each Crazyflie through Python scripts"
+  },
+  {
+   "name": "chooser.py",
+   "type": "program",
+   "role": "Script written by whoenig that aesreal was extending to control LED rings and parameters"
+  },
+  {
+   "name": "cfclient",
+   "type": "program",
+   "role": "Crazyflie client application that aesreal considered for configuration and maintenance"
+  },
+  {
+   "name": "Python client",
+   "type": "program",
+   "role": "Crazyflie Python client whose crazyflie.open_link(uri) call is slow and blocking"
+  },
+  {
+   "name": "Crazyflie",
+   "type": "product",
+   "role": "Nano quadcopter whose parameters the user wants to change, using several units at once"
+  }
+ ],
+ "tags": [
+  "crazyflie",
+  "ros",
+  "parameters",
+  "forum",
+  "crazyflie-cpp",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6732,
+  "output_tokens": 1595
+ }
+}

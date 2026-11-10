@@ -1,0 +1,101 @@
+{
+ "summary": "This clipped Oracle web page contains two articles. The first, 'What is SaaS (Software as a Service)?', defines SaaS as a cloud delivery model with pay-as-you-go access, traces its history from 1960s time-sharing through 1990s application service providers to multi-tenant SaaS, lists benefits, and cites a Gartner forecast of SaaS growth. The second, 'What is Python?', describes Python as a beginner-friendly, readable, high-level language, covers its popularity in data science and AI, and sketches its history from its 1989 creation by Guido van Rossum to Django and its role in computer science education. The note is cut off mid-sentence in the Python history section.",
+ "one_line": "Oracle's explainers on Software as a Service (SaaS) history, benefits and forecasts, plus an overview of the Python programming language and its history.",
+ "key_facts": [
+  "SaaS is described as a cloud-based software delivery model in which the cloud provider develops and maintains application software and makes it available via the internet on a pay-as-you-go basis.",
+  "The note says SaaS customers can dramatically lower costs and predict total cost of ownership with greater accuracy.",
+  "The first SaaS solutions emerged in the late 1990s, when the term SaaS was originally coined.",
+  "The application service provider (ASP) model, a forerunner of SaaS, required each customer to have their own version of the software.",
+  "SaaS's multi-tenant architecture allowed a single instance of an application to serve multiple users and even customers.",
+  "In the 1960s, mainframe computers were connected to dumb terminals that shared the mainframe's software, a delivery system known as time-sharing.",
+  "The note states Oracle's SaaS business applications are backed by the billions of dollars Oracle has invested in software development and infrastructure.",
+  "According to a Gartner report cited in the note, sales of SaaS solutions will continue to grow at over 23 percent per year, from US$270 billion in 2020 to over US$332 billion by 2021.",
+  "SaaS capabilities listed include access to new capabilities on a quarterly basis, letting businesses update at the speed of their business rather than a provider's timetable.",
+  "The note claims SaaS deployment can get a business up and running in hours instead of months.",
+  "Python was written by Guido van Rossum in 1989 while he worked at a computer science lab in the Netherlands, and released five and a half years later.",
+  "Python was named after 'Monty Python's Flying Circus,' a British comedy show Guido van Rossum was fond of.",
+  "In 2005 Python released Django, a framework for building web applications, which came to challenge the then-dominant Ruby on Rails framework.",
+  "By 2011, Python was the most taught language in computer science programs across the country, according to the note.",
+  "Peter Norvig, director of research at Google, said: 'Python has been an important part of Google since the beginning, and remains so as the system grows and evolves.'"
+ ],
+ "entities": [
+  {
+   "name": "Oracle",
+   "type": "organization",
+   "role": "Publisher of the clipped pages; provider of the SaaS business applications described and author of the Python overview in its Developer Resource Center"
+  },
+  {
+   "name": "Gartner",
+   "type": "organization",
+   "role": "Research firm whose report is cited for forecast SaaS sales growth"
+  },
+  {
+   "name": "Peter Norvig",
+   "type": "person",
+   "role": "Director of research at Google, quoted endorsing Python"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Company that announced it used Python for many internal processes and where Peter Norvig is director of research"
+  },
+  {
+   "name": "Guido van Rossum",
+   "type": "person",
+   "role": "Creator of Python, who started it in 1989 at a computer science lab in the Netherlands"
+  },
+  {
+   "name": "Python",
+   "type": "product",
+   "role": "Easy-to-read, high-level, open source object-oriented programming language discussed in the note"
+  },
+  {
+   "name": "Django",
+   "type": "product",
+   "role": "Web application framework released by Python in 2005"
+  },
+  {
+   "name": "Ruby on Rails",
+   "type": "product",
+   "role": "Then-dominant web framework that Django came to challenge"
+  },
+  {
+   "name": "Monty Python's Flying Circus",
+   "type": "program",
+   "role": "British comedy show that inspired the name Python"
+  },
+  {
+   "name": "Netherlands",
+   "type": "place",
+   "role": "Location of the computer science lab where Guido van Rossum wrote Python"
+  },
+  {
+   "name": "Slack",
+   "type": "product",
+   "role": "Collaboration app that SaaS applications can be extended to support"
+  },
+  {
+   "name": "Zoom",
+   "type": "product",
+   "role": "Collaboration app that SaaS applications can be extended to support"
+  },
+  {
+   "name": "application service provider (ASP) model",
+   "type": "other",
+   "role": "Earlier web-based hosted software model that preceded SaaS"
+  }
+ ],
+ "tags": [
+  "saas",
+  "cloud computing",
+  "python",
+  "software history",
+  "oracle",
+  "programming languages"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13513,
+  "output_tokens": 2664
+ }
+}

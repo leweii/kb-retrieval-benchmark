@@ -1,0 +1,50 @@
+{
+ "summary": "WCNV is a public radio broadcast station licensed to Heathsville, Virginia, serving the Kilmarnock/Warsaw area. The note states that it is owned and operated by Commonwealth Public Broadcasting Corporation and functions as a repeater of WCVE-FM.",
+ "one_line": "WCNV is a Public Radio station licensed to Heathsville, Virginia, serving Kilmarnock/Warsaw as a repeater of WCVE-FM.",
+ "key_facts": [
+  "WCNV is a Public Radio formatted broadcast radio station.",
+  "WCNV is licensed to Heathsville, Virginia.",
+  "WCNV serves the Kilmarnock/Warsaw area.",
+  "WCNV is owned and operated by Commonwealth Public Broadcasting Corporation.",
+  "WCNV is a repeater station of WCVE-FM."
+ ],
+ "entities": [
+  {
+   "name": "WCNV",
+   "type": "product",
+   "role": "Public Radio formatted broadcast radio station licensed to Heathsville, Virginia, serving the Kilmarnock/Warsaw area"
+  },
+  {
+   "name": "Commonwealth Public Broadcasting Corporation",
+   "type": "organization",
+   "role": "owner and operator of WCNV"
+  },
+  {
+   "name": "WCVE-FM",
+   "type": "product",
+   "role": "station of which WCNV is a repeater"
+  },
+  {
+   "name": "Heathsville, Virginia",
+   "type": "place",
+   "role": "city where WCNV is licensed"
+  },
+  {
+   "name": "Kilmarnock/Warsaw area",
+   "type": "place",
+   "role": "area served by WCNV"
+  }
+ ],
+ "tags": [
+  "radio",
+  "public radio",
+  "virginia",
+  "broadcasting",
+  "media"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1078,
+  "output_tokens": 550
+ }
+}

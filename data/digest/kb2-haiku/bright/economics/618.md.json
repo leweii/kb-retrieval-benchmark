@@ -1,0 +1,53 @@
+{
+ "summary": "This section of a statistics course reviews sampling distributions of the sample mean and introduces bootstrapping, a resampling method for approximating the sampling distribution of a statistic when the underlying distribution is unknown. Bootstrapping resamples with replacement from a single sample to estimate standard errors and build confidence intervals, for example for the median. The note also includes R code for simulating a sampling distribution and bootstrapping a median.",
+ "one_line": "An introduction to bootstrapping, a resampling method that estimates sampling distributions and confidence intervals from a single sample.",
+ "key_facts": [
+  "If the population is Normal or the sample size is large (rule of thumb n>30), the sampling distribution of the sample mean is approximately Normal.",
+  "The sampling distribution of the sample mean has standard deviation σ/√n and estimated standard error s/√n.",
+  "Bootstrapping is a resampling procedure that uses data from one sample to generate a sampling distribution by repeatedly sampling with replacement from that sample.",
+  "The bootstrap steps for the median are: replace the population with the sample, sample with replacement B times, compute each sample median M_i, and obtain the approximate distribution of the sample median.",
+  "The note recommends B to be large, say 1000.",
+  "The standard error of the sample median can be estimated by the standard deviation of M_1,...,M_B.",
+  "Sampling with replacement is essential, because without it every bootstrap sample median would equal the observed sample median.",
+  "For a 90% confidence interval, the 5th and 95th percentiles of the bootstrap sample are used.",
+  "The same bootstrap steps apply to any statistic; only the calculated statistic changes from the median to another statistic.",
+  "The note mentions parametric, nonparametric, and weighted bootstraps as variants, but only introduces the basics.",
+  "The bootstrap.median R function takes a data vector, B = 1000 and confidence = 0.95 as defaults, and reports the percentiles and median of the bootstrap medians.",
+  "The sampling.distribution R function simulates normal data with defaults n = 100, B = 1000, mean = 5, sd = 1 and confidence = 0.95 to approximate the sampling distribution of the median."
+ ],
+ "entities": [
+  {
+   "name": "Bootstrapping",
+   "type": "other",
+   "role": "resampling procedure that uses one sample to generate an approximate sampling distribution by sampling with replacement"
+  },
+  {
+   "name": "Central Limit Theorem",
+   "type": "other",
+   "role": "theory used to justify the approximately Normal sampling distribution of the sample mean"
+  },
+  {
+   "name": "sampling.distribution",
+   "type": "program",
+   "role": "R function in the video code that simulates the sampling distribution of the sample median from normal data"
+  },
+  {
+   "name": "bootstrap.median",
+   "type": "program",
+   "role": "R function in the video code that performs bootstrapping of the sample median and reports percentiles"
+  }
+ ],
+ "tags": [
+  "statistics",
+  "bootstrapping",
+  "resampling",
+  "sampling distribution",
+  "confidence intervals",
+  "standard error"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3169,
+  "output_tokens": 1708
+ }
+}

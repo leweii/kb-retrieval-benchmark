@@ -1,0 +1,39 @@
+{
+ "summary": "The note describes the North Pole as the northernmost point on Earth, diametrically opposite the South Pole. It defines latitude 90° North and the direction of true north, and all directions there point south. The note also explains that longitude converges at the pole and that the pole sits at the center of the Northern Hemisphere.",
+ "one_line": "Describes the North Pole, Earth's northernmost point at latitude 90° North, defining true north and the center of the Northern Hemisphere.",
+ "key_facts": [
+  "The North Pole is the northernmost point on the Earth.",
+  "The North Pole lies diametrically opposite the South Pole.",
+  "The North Pole defines geodetic latitude 90 ° North.",
+  "The North Pole defines the direction of true north.",
+  "At the North Pole all directions point south.",
+  "All lines of longitude converge at the North Pole.",
+  "The longitude of the North Pole can be defined as any degree value.",
+  "Along tight latitude circles, counterclockwise is east and clockwise is west.",
+  "The North Pole is at the center of the Northern Hemisphere."
+ ],
+ "entities": [
+  {
+   "name": "North Pole",
+   "type": "place",
+   "role": "northernmost point on the Earth, diametrically opposite the South Pole, defining latitude 90° North and true north"
+  },
+  {
+   "name": "South Pole",
+   "type": "place",
+   "role": "point on the Earth diametrically opposite the North Pole"
+  }
+ ],
+ "tags": [
+  "geography",
+  "north pole",
+  "latitude",
+  "navigation",
+  "earth science"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1124,
+  "output_tokens": 476
+ }
+}

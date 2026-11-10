@@ -1,0 +1,43 @@
+{
+ "summary": "This clipped documentation page describes the CURRENT_DATE function, which returns the current date of the system. It can be called with or without parentheses, the latter being for ANSI standard compliance, and it takes no arguments. The page includes an example selecting CURRENT_DATE(), CURRENT_TIME() and CURRENT_TIMESTAMP() together, with sample output from 2018-09-28.",
+ "one_line": "Reference page for the CURRENT_DATE function, which returns the system's current date, with syntax, usage notes and an example.",
+ "key_facts": [
+  "CURRENT_DATE returns the current date of the system.",
+  "The CURRENT_DATE function syntax is CURRENT_DATE() or CURRENT_DATE.",
+  "CURRENT_DATE can be called without parentheses to comply with ANSI standards.",
+  "CURRENT_DATE takes no arguments.",
+  "The example query is SELECT CURRENT_DATE(), CURRENT_TIME(), CURRENT_TIMESTAMP();",
+  "In the example output, CURRENT_DATE() returns 2018-09-28.",
+  "In the example output, CURRENT_TIME() returns 17:18:02.",
+  "In the example output, CURRENT_TIMESTAMP() returns 2018-09-28 17:18:02.826 -0700."
+ ],
+ "entities": [
+  {
+   "name": "CURRENT_DATE",
+   "type": "other",
+   "role": "function that returns the current date of the system"
+  },
+  {
+   "name": "CURRENT_TIME",
+   "type": "other",
+   "role": "function shown in the example alongside CURRENT_DATE to return the current time"
+  },
+  {
+   "name": "CURRENT_TIMESTAMP",
+   "type": "other",
+   "role": "function shown in the example alongside CURRENT_DATE to return the current timestamp"
+  }
+ ],
+ "tags": [
+  "sql",
+  "date-time",
+  "reference",
+  "current-date",
+  "database-functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1466,
+  "output_tokens": 611
+ }
+}

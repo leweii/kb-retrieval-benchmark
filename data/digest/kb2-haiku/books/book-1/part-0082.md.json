@@ -1,0 +1,66 @@
+{
+ "summary": "In this excerpt from Cory Doctorow's novel Little Brother (labeled 'Book 1 — part 82'), the narrator Marcus wakes his friend Jolu with repeated calls and then secures a chat over Xnet after learning the radio vans may be watching them. Jolu proposes a cover story: a teenage party at the Sutro Baths, where trusted friends can meet to do a key-signing for a web of trust. The excerpt closes with a passage on handling a spy by feeding him misinformation rather than exposing him.",
+ "one_line": "Marcus and Jolu plan a disguised key-signing party at Sutro Baths to build a trusted encrypted network after suspecting surveillance.",
+ "key_facts": [
+  "The narrator woke Jolu by ringing his cell phone and hanging up after the first ring, three times in a row.",
+  "Jolu was sent to the narrator's blog-post about the radio vans and came back worried, asking 'You sure they're looking for us?'",
+  "The narrator sent Jolu to a quiz, and Jolu responded 'OMG we're doomed.'",
+  "Jolu estimated he could totally vouch for about 20 or 30 people.",
+  "A web of trust is a crypto method that allows trusted people to talk securely without others listening in, but it requires physically meeting the people in the web at least once.",
+  "Jolu suggested disguising the key-signing as a teenage party so there would be a ready-made excuse if anyone asked questions.",
+  "Jolu proposed holding the party at the Sutro Baths.",
+  "The narrator's ARG team were described as his closest friends.",
+  "The narrator says Darryl 'would know' how to organize the meeting, as it was the kind of thing he was great at.",
+  "The passage contrasts denouncing a spy with intercepting his communications and feeding him and his masters misinformation.",
+  "The example given is having the spy follow the narrator around while his masters believe he is gathering information on the narrator's movements."
+ ],
+ "entities": [
+  {
+   "name": "Jolu",
+   "type": "person",
+   "role": "friend of the narrator who is woken by calls, worries about the radio vans, and suggests the Sutro Baths party cover"
+  },
+  {
+   "name": "Darryl",
+   "type": "person",
+   "role": "absent friend the narrator says would know how to organize the key-signing"
+  },
+  {
+   "name": "Sutro baths",
+   "type": "place",
+   "role": "location proposed by Jolu for the disguised key-signing party"
+  },
+  {
+   "name": "Xnet",
+   "type": "program",
+   "role": "secure chat system used by the narrator and Jolu"
+  },
+  {
+   "name": "web of trust",
+   "type": "other",
+   "role": "cryptographic key-exchange method among trusted people that requires an initial physical meeting"
+  },
+  {
+   "name": "radio vans",
+   "type": "other",
+   "role": "vehicles the narrator discussed in a blog post, suspected of looking for the group"
+  },
+  {
+   "name": "ARG team",
+   "type": "organization",
+   "role": "the narrator's closest friends"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "cryptography",
+  "surveillance",
+  "young adult novel",
+  "web of trust"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1756,
+  "output_tokens": 979
+ }
+}

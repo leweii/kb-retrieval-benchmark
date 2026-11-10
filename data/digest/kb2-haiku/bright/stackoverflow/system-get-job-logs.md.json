@@ -1,0 +1,72 @@
+{
+ "summary": "This note is the Snowflake documentation page for the SYSTEM$GET_JOB_LOGS function, which retrieves local logs from a Snowpark Container Services job container. The feature is not in production and is available only to selected accounts. The page covers the syntax, required and optional arguments, return value, a usage note that only the job's creator can access the logs, and a sample query with output.",
+ "one_line": "Snowflake reference for SYSTEM$GET_JOB_LOGS, which retrieves logs from a Snowpark Container Services job container.",
+ "key_facts": [
+  "SYSTEM$GET_JOB_LOGS retrieves local logs from a Snowpark Container Services job container.",
+  "The SYSTEM$GET_JOB_LOGS feature is not in production and is available only to selected accounts.",
+  "The required arguments are job_uuid and container_name.",
+  "job_uuid is the Snowflake-assigned UUID of the job, found using the EXECUTE SERVICE instructions.",
+  "container_name is the container name as specified in the job specification file.",
+  "number_of_most_recent_lines is an optional argument giving the number of most recent log lines to retrieve.",
+  "By default, SYSTEM$GET_JOB_LOGS returns up to 100 KB of the most recent log lines.",
+  "The function returns a string of newline-separated log entries from the specified job container.",
+  "Only the user who created the job can access the logs from the job container.",
+  "The example calls SYSTEM$GET_JOB_LOGS with the job UUID '01acc747-0000-60c0-0000-0e99001fd07a' and the container name 'main'.",
+  "The sample output shows log lines from a job named job-tutorial, including 'Job started' and 'Job finished' entries at INFO level.",
+  "The sample job connected with database TUTORIAL_DB, schema DATA_SCHEMA, warehouse TUTORIAL_WAREHOUSE, and role TEST_ROLE."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$GET_JOB_LOGS",
+   "type": "program",
+   "role": "Snowflake system function that retrieves local logs from a job container"
+  },
+  {
+   "name": "Snowpark Container Services",
+   "type": "product",
+   "role": "Snowflake service in which the job container runs"
+  },
+  {
+   "name": "EXECUTE SERVICE",
+   "type": "program",
+   "role": "Snowflake command whose instructions explain how to find a job's UUID"
+  },
+  {
+   "name": "job-tutorial",
+   "type": "program",
+   "role": "Sample job whose INFO log lines appear in the example output"
+  },
+  {
+   "name": "TUTORIAL_DB",
+   "type": "other",
+   "role": "Database used in the sample job's session context"
+  },
+  {
+   "name": "DATA_SCHEMA",
+   "type": "other",
+   "role": "Schema used in the sample job's session context"
+  },
+  {
+   "name": "TUTORIAL_WAREHOUSE",
+   "type": "other",
+   "role": "Warehouse used in the sample job's session context"
+  },
+  {
+   "name": "TEST_ROLE",
+   "type": "other",
+   "role": "Role used in the sample job's session context"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "snowpark container services",
+  "system functions",
+  "job logs",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2021,
+  "output_tokens": 1014
+ }
+}

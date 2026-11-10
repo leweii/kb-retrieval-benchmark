@@ -1,0 +1,72 @@
+{
+ "summary": "An excerpt from a novel (Book 6, part 32) in which Cas and Checker, a hacker, discuss a pursuing SUV and missing data. Checker suspects the work of a notorious black hat hacker called the Lancer, because information has been wiped in his distinctive style, and he thinks the Lancer may be connected to the people holding Halliday. Cas worries about her own digital footprint amid NSA surveillance, and the two conclude the kidnappers may be close to a solution based on Halliday's proof, which could let them rob the world.",
+ "one_line": "Checker suspects the infamous hacker the Lancer is behind wiped data tied to the kidnappers holding Halliday.",
+ "key_facts": [
+  "Checker has been trying to trace a black SUV since the morning without luck, and says it seems to have popped up out of nowhere.",
+  "Checker hopes Arthur can get him a partial VIN for the SUV.",
+  "Checker says the bad guys stopped out of view of any security cameras, which he believes was deliberate.",
+  "Checker identifies a suspect he calls the Lancer, described as a black hat hacker and a pretty infamous one.",
+  "Checker says the information that has gone missing is wiped in the Lancer's style, which he compares to a shadow.",
+  "Checker says the Lancer left traces this time, unlike Checker's own work, which wipes data cleanly.",
+  "Checker thinks the Lancer may not hold Halliday himself but may be someone close to them or working for them.",
+  "Checker says he cannot trace the Lancer's location because he is too good, but might trace his activities.",
+  "Cas notes that the NSA's spying eyes are now turned toward them.",
+  "Cas says the kidnappers are going to code an algorithm to Halliday's proof and then rob the world blind.",
+  "Cas realizes the men already have half the equation: a computer expert who could do the programming work.",
+  "The European Central Bank is mentioned as being next to where Stuart lives."
+ ],
+ "entities": [
+  {
+   "name": "Checker",
+   "type": "person",
+   "role": "hacker who is tracing the SUV and suspects the Lancer wiped the data"
+  },
+  {
+   "name": "Cas",
+   "type": "person",
+   "role": "narrator who questions Checker and worries about her digital footprint"
+  },
+  {
+   "name": "Arthur",
+   "type": "person",
+   "role": "person who may be able to get a partial VIN for the SUV"
+  },
+  {
+   "name": "Halliday",
+   "type": "person",
+   "role": "person held by the kidnappers whose proof is the target of the plot"
+  },
+  {
+   "name": "Stuart",
+   "type": "person",
+   "role": "person whose home is next to the European Central Bank"
+  },
+  {
+   "name": "the Lancer",
+   "type": "person",
+   "role": "infamous black hat hacker suspected of wiping the data"
+  },
+  {
+   "name": "NSA",
+   "type": "organization",
+   "role": "agency whose spying eyes are turned toward Cas and her group"
+  },
+  {
+   "name": "European Central Bank",
+   "type": "organization",
+   "role": "institution located next to where Stuart lives"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "hacking",
+  "kidnapping",
+  "surveillance",
+  "cybersecurity"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1958,
+  "output_tokens": 990
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "summary": "This note is a clipped page from the University of Washington IVE help documentation explaining how to write output files in netCDF format for loading into IVE. It describes creating a CDL (network Common data form Description Language) text file, converting it to binary netCDF with the ncgen command, and then appending the main data arrays from a FORTRAN program using ncopn, ncvid, ncvpt1 and ncvpt. A complete example FORTRAN program (netCDF_example1) generates a CDL file, converts it, and writes dummy data for variable A and the time coordinate over seven time steps.",
+ "one_line": "Help page on writing netCDF output from FORTRAN for IVE, covering CDL files, ncgen conversion, and a complete example program.",
+ "key_facts": [
+  "All data loaded into IVE must be in netCDF (network Common Data Form) format.",
+  "A CDL (network Common data form Description Language) file is an ASCII description of the binary data in a netCDF file that is designed to be easily read by humans.",
+  "The command ncdump -c sample.nc generates the file sample.cdl containing the file name, dimensions, variable specifications, attributes and coordinate variable data.",
+  "The command ncgen -o sample.nc sample.cdl converts the CDL file sample.cdl to the netCDF file sample.nc.",
+  "The example CDL file is named implicit_grid and has dimensions lon = 101, lat = 101, level = 5, and time = UNLIMITED (7 currently).",
+  "The variable A is declared as float A(time,level,lat,lon) with units \"meters/second\", and level has units \"millibars\".",
+  "The global attributes include x_min = -180.f, x_max = 180.f, y_min = -90.f, y_max = 90.f, with x_label \"longitude\" and y_label \"latitude\".",
+  "The level coordinate values are 1000, 850, 700, 500, 300, and the time coordinate values are 0, 2, 4, 6, 8, 10, 12.",
+  "The FORTRAN example writes the header to a CDL file named my.cdl, converts it with ncgen, and then opens the file with ncopn for further data input.",
+  "The UNLIMITED option for the time dimension allows data to be written at an arbitrary number of output times.",
+  "The data written to A in the FORTRAN example are completely artificial dummy values.",
+  "The FORTRAN example includes netcdf.inc from /usr/local/include, with the path noted as valid for UW Unix machines.",
+  "The page is linked from the IVE Data Format help page, which describes the sample netCDF files used by the default IVE transforms."
+ ],
+ "entities": [
+  {
+   "name": "IVE",
+   "type": "product",
+   "role": "software tool into which netCDF data must be loaded"
+  },
+  {
+   "name": "netCDF",
+   "type": "other",
+   "role": "network Common Data Form file format required for data loaded into IVE"
+  },
+  {
+   "name": "CDL",
+   "type": "other",
+   "role": "network Common data form Description Language, a human-readable ASCII description of netCDF data"
+  },
+  {
+   "name": "ncgen",
+   "type": "program",
+   "role": "command that converts an ASCII CDL file to a binary netCDF file"
+  },
+  {
+   "name": "ncdump",
+   "type": "program",
+   "role": "command that generates a CDL file from a netCDF file"
+  },
+  {
+   "name": "IVE Data Format",
+   "type": "other",
+   "role": "help page describing sample netCDF files used by default IVE transforms"
+  },
+  {
+   "name": "netCDF_example1",
+   "type": "program",
+   "role": "example FORTRAN program that writes a CDL file, converts it with ncgen, and writes data to the netCDF file"
+  },
+  {
+   "name": "ncopn",
+   "type": "program",
+   "role": "netCDF routine used to open the file for further data input"
+  },
+  {
+   "name": "ncvid",
+   "type": "program",
+   "role": "netCDF routine used to get variable IDs for A and time"
+  },
+  {
+   "name": "ncvpt1",
+   "type": "program",
+   "role": "netCDF routine used to write the time coordinate value"
+  },
+  {
+   "name": "ncvpt",
+   "type": "program",
+   "role": "netCDF routine used to write data to variable A"
+  },
+  {
+   "name": "ncclos",
+   "type": "program",
+   "role": "netCDF routine used to close the netCDF file"
+  },
+  {
+   "name": "University of Washington",
+   "type": "organization",
+   "role": "institution hosting the IVE help page (www.atmos.washington.edu) and whose UW Unix machines the include path refers to"
+  }
+ ],
+ "tags": [
+  "netcdf",
+  "fortran",
+  "ive",
+  "data-formats",
+  "cdl",
+  "atmospheric-data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7390,
+  "output_tokens": 1433
+ }
+}

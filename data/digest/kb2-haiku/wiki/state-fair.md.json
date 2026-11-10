@@ -1,0 +1,33 @@
+{
+ "summary": "A short note on state fairs in the United States, comparing attendance figures. It states that the Texas state fair draws the largest total attendance, about 2,000,000 people annually. It also states that the Minnesota State Fair has the largest average daily attendance, just under 200,000 people per day.",
+ "one_line": "Compares US state fairs by attendance, noting Texas has the largest annual total and Minnesota the largest daily average.",
+ "key_facts": [
+  "The largest attendance at a state fair in the USA is in Texas.",
+  "The Texas state fair attracts an estimated 2,000,000 people annually.",
+  "The largest average per day attendance at a US state fair is at the Minnesota State Fair.",
+  "The Minnesota State Fair averages just under 200,000 people per day."
+ ],
+ "entities": [
+  {
+   "name": "Texas",
+   "type": "place",
+   "role": "US state whose state fair has the largest attendance in the USA, estimated at 2,000,000 people annually"
+  },
+  {
+   "name": "Minnesota State Fair",
+   "type": "event",
+   "role": "state fair with the largest average per day attendance, just under 200,000 people per day"
+  }
+ ],
+ "tags": [
+  "state fairs",
+  "attendance",
+  "united states",
+  "events"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1050,
+  "output_tokens": 387
+ }
+}

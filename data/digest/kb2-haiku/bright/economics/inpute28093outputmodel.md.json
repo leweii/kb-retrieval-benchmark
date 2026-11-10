@@ -1,0 +1,121 @@
+{
+ "summary": "The note is a Wikipedia article on the input–output model, a quantitative economic model describing interdependencies between sectors of a national or regional economy. It covers its origins (Quesnay, Walras, Bogdanov, Marx, Leontief), the basic matrix derivation including the Hawkins–Simon condition, a two-good worked example, regional multipliers, and the introduction of transportation via interregional input–output. The captured text is cut off before the technology assumptions section, and the navigation, language links and sidebars are boilerplate.",
+ "one_line": "Wikipedia article explaining the input–output model of inter-sector economic dependencies, its origins, matrix derivation, and regional and transportation extensions.",
+ "key_facts": [
+  "An input–output model is a quantitative economic model that represents the interdependencies between different sectors of a national economy or different regional economies.",
+  "Wassily Leontief (1906–1999) is credited with developing this type of analysis and earned the Nobel Prize in Economics for it.",
+  "François Quesnay developed a cruder version of this technique called the Tableau économique.",
+  "Alexander Bogdanov has been credited with originating the concept in a report delivered to the All Russia Conference on the Scientific Organisation of Labour and Production Processes in January 1921.",
+  "Thomas Remington argued that Bogdanov's and Lev Kritzman's work provided a link between Quesnay's tableau économique and later contributions by Vladimir Groman and Vladimir Bazarov to Gosplan's method of material balance planning.",
+  "Leontief was the first to use a matrix representation of a national (or regional) economy.",
+  "In the inter-industry matrix, column entries typically represent inputs to a sector and row entries represent outputs from a given sector.",
+  "The basic relation is x = Ax + d, so that (I − A)x = d, where x is total output, A the coefficient matrix, and d the final demand vector.",
+  "If the principal minors of I − A are all positive (the Hawkins–Simon condition), the required output vector x is non-negative.",
+  "In the two-good example, A = [[0.5, 0.2], [0.4, 0.1]] and final demand d = [7, 4], giving required output x ≈ [19.19, 12.97].",
+  "Official regional input–output tables are rare, so economists often use location quotients to create regional multipliers from national data.",
+  "Location quotient regionalization has been criticized because there are several techniques and none is universally superior.",
+  "Walter Isard and his student Leon Moses began work in the 1950s on interregional input–output, examining spatial economy and transportation implications.",
+  "Transportation is implicit in inter-industry flows, but transportation costs are often treated as part of the cost of goods, so transportation data can be lost.",
+  "Input–output accounts are part and parcel of more flexible computable general equilibrium models, since changes in relative prices are not readily handled by input–output alone."
+ ],
+ "entities": [
+  {
+   "name": "Wassily Leontief",
+   "type": "person",
+   "role": "credited with developing input–output analysis and earned the Nobel Prize in Economics for it (1906–1999)"
+  },
+  {
+   "name": "François Quesnay",
+   "type": "person",
+   "role": "developed a cruder version of the technique called Tableau économique"
+  },
+  {
+   "name": "Léon Walras",
+   "type": "person",
+   "role": "author of Elements of Pure Economics, a forerunner on general equilibrium theory that generalized Leontief's concept"
+  },
+  {
+   "name": "Alexander Bogdanov",
+   "type": "person",
+   "role": "credited with originating the concept in a January 1921 report"
+  },
+  {
+   "name": "Lev Kritzman",
+   "type": "person",
+   "role": "developed the approach alongside Bogdanov"
+  },
+  {
+   "name": "Thomas Remington",
+   "type": "person",
+   "role": "argued that Bogdanov and Kritzman's work linked Quesnay's tableau to later Gosplan methods"
+  },
+  {
+   "name": "Vladimir Groman",
+   "type": "person",
+   "role": "made subsequent contributions to Gosplan's material balance planning method"
+  },
+  {
+   "name": "Vladimir Bazarov",
+   "type": "person",
+   "role": "made subsequent contributions to Gosplan's material balance planning method"
+  },
+  {
+   "name": "Karl Marx",
+   "type": "person",
+   "role": "classical economist whose economics provided an early outline of a set of tables with two interlinked departments, influencing Leontief"
+  },
+  {
+   "name": "Jean Charles Léonard de Sismondi",
+   "type": "person",
+   "role": "classical economist whose work influenced Leontief's input–output model"
+  },
+  {
+   "name": "Walter Isard",
+   "type": "person",
+   "role": "began work on interregional input–output in the 1950s"
+  },
+  {
+   "name": "Leon Moses",
+   "type": "person",
+   "role": "student of Walter Isard who worked on interregional input–output in the 1950s"
+  },
+  {
+   "name": "All Russia Conference on the Scientific Organisation of Labour and Production Processes",
+   "type": "event",
+   "role": "conference where Bogdanov delivered the report originating the concept in January 1921"
+  },
+  {
+   "name": "Gosplan",
+   "type": "organization",
+   "role": "Soviet planning body whose material balance planning method was influenced by Groman and Bazarov"
+  },
+  {
+   "name": "Tableau économique",
+   "type": "product",
+   "role": "Quesnay's cruder early version of the input–output technique"
+  },
+  {
+   "name": "Hawkins–Simon condition",
+   "type": "other",
+   "role": "condition that principal minors of I − A are positive, ensuring a non-negative required output vector"
+  },
+  {
+   "name": "Computable general equilibrium",
+   "type": "other",
+   "role": "more flexible modelling form that input–output accounts are part of"
+  }
+ ],
+ "tags": [
+  "input-output analysis",
+  "economics",
+  "leontief",
+  "macroeconomic modelling",
+  "regional economics",
+  "economic planning"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 16505,
+  "output_tokens": 1831
+ }
+}

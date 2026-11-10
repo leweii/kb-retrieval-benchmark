@@ -1,0 +1,116 @@
+{
+ "summary": "This LibreTexts page, \"Vision and Light\" from the Biological Chemistry supplemental modules, explains how light triggers molecular change in the eye. It covers the visible spectrum, the conversion of vitamin A (retinol) to retinal, and the isomerization of 11-cis-retinal to all-trans-retinal that starts the visual signal. It then describes how the resulting signal travels as an electrical impulse via rods and cones to the brain, which forms the image.",
+ "one_line": "Explains how light isomerizes retinal in rhodopsin and how rods and cones pass visual signals to the brain.",
+ "key_facts": [
+  "The visible spectrum is 400 nm to 700 nm.",
+  "Vitamin A, also known as retinol, is critical for vision because it is needed by the retina of the eye.",
+  "Retinol can be converted to retinal, and retinal is a chemical necessary for rhodopsin.",
+  "As light enters the eye, 11-cis-retinal is isomerized to the all-trans form.",
+  "The new all-trans-retinal form does not fit as well into the protein, so a series of geometry changes in the protein begins, forming a complex referred to as bathrhodopsin.",
+  "A lysine side-chain from the opsin reacts with 11-cis-retinal to form a linkage called a Schiff base.",
+  "The retina contains 7 million cones, which provide color information and sharpness of images.",
+  "The retina contains 120 million rods, which are extremely sensitive detectors of white light and provide night vision.",
+  "The tops of rods and cones contain membrane-bound discs holding cis-retinal bound to the protein opsin.",
+  "The cis-retinal bound to opsin is called rhodopsin or \"visual purple\".",
+  "As the protein changes geometry, a cascade of biochemical reactions builds a large potential difference across the plasma membrane.",
+  "The potential difference is passed to an adjoining nerve cell as an electrical impulse, which the nerve carries to the brain.",
+  "The brain determines which nerve fibers carried the impulse from activated photoreceptors and creates an image.",
+  "Signal transduction pathway is a mechanism describing the ways cells react and respond to stimulation.",
+  "The page cites L. Stryer's Biochemistry (W.H. Freeman and Co, 1975) and Rodney Cotterill's The Cambridge Guide to the Material World (Cambridge University Press, 1985) as references."
+ ],
+ "entities": [
+  {
+   "name": "Vitamin A",
+   "type": "other",
+   "role": "also known as retinol; a required nutrition needed by the retina for vision"
+  },
+  {
+   "name": "retinol",
+   "type": "other",
+   "role": "form of vitamin A that can be converted to retinal"
+  },
+  {
+   "name": "retinal",
+   "type": "other",
+   "role": "chemical necessary for rhodopsin, formed from retinol"
+  },
+  {
+   "name": "11-cis-retinal",
+   "type": "other",
+   "role": "molecule that isomerizes to all-trans form when light enters the eye"
+  },
+  {
+   "name": "all-trans-retinal",
+   "type": "other",
+   "role": "form of retinal produced by light-induced isomerization that does not fit well into the protein"
+  },
+  {
+   "name": "rhodopsin",
+   "type": "other",
+   "role": "complex of cis-retinal bound to opsin, also called \"visual purple\""
+  },
+  {
+   "name": "opsin",
+   "type": "other",
+   "role": "protein to which cis-retinal is bound in rods and cones"
+  },
+  {
+   "name": "bathrhodopsin",
+   "type": "other",
+   "role": "complex formed after all-trans-retinal causes protein geometry changes"
+  },
+  {
+   "name": "rods",
+   "type": "other",
+   "role": "120 million photoreceptor cells that provide night vision"
+  },
+  {
+   "name": "cones",
+   "type": "other",
+   "role": "7 million photoreceptor cells that provide color information and sharpness"
+  },
+  {
+   "name": "retina",
+   "type": "other",
+   "role": "layer of the eye lined with photoreceptor cells where the light image is mapped"
+  },
+  {
+   "name": "Joshua Halpern",
+   "type": "person",
+   "role": "listed author of the page"
+  },
+  {
+   "name": "Ophardt",
+   "type": "person",
+   "role": "listed contributor to the page"
+  },
+  {
+   "name": "LibreTexts",
+   "type": "organization",
+   "role": "publisher that authored, remixed, and/or curated the page"
+  },
+  {
+   "name": "L. Stryer",
+   "type": "person",
+   "role": "author of the Biochemistry reference (1975)"
+  },
+  {
+   "name": "Rodney Cotterill",
+   "type": "person",
+   "role": "author of The Cambridge Guide to the Material World (1985)"
+  }
+ ],
+ "tags": [
+  "vision",
+  "photoreceptors",
+  "retinal",
+  "rhodopsin",
+  "signal transduction",
+  "light"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5774,
+  "output_tokens": 1483
+ }
+}

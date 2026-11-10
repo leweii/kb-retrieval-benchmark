@@ -31,6 +31,8 @@ Rules:
 products, publications/media outlets, events, programs and places. Do not transliterate them \
 (write "Sarah Johnson", not "莎拉·约翰逊"; "Walmart", not "沃尔玛").
 - Keep numbers and dates exact.
+- The input may be a long forum post: translate all of it and keep its paragraph structure. Leave code, \
+commands, file names, URLs, error messages and identifiers unchanged.
 - Translate the question only; never answer it or add commentary."""
 
 SCHEMA = {
@@ -52,16 +54,27 @@ client = anthropic.Anthropic(max_retries=5)
 
 
 def proper_tokens(text: str) -> set[str]:
-    toks = re.findall(r"\b[A-Z][A-Za-z0-9&'’\-]*[A-Za-z0-9]|\b[A-Z]\b", text)
-    return {t for t in toks if t not in NOT_PROPER and not re.fullmatch(r"[A-Z]", t)}
+    """Capitalized tokens that are likely proper nouns. Sentence-initial capitals are ignored unless the token
+    has internal capitals or digits (ROS1, McKenna) — otherwise long posts flag every 'Running', 'Thanks'."""
+    out = set()
+    for m in re.finditer(r"\b[A-Z][A-Za-z0-9&'’\-]*[A-Za-z0-9]", text):
+        t = m.group(0)
+        if t in NOT_PROPER:
+            continue
+        before = text[: m.start()].rstrip()
+        sentence_start = not before or before[-1] in ".!?:\n\"“(*#-"
+        if sentence_start and not re.search(r"[A-Z0-9]", t[1:]):
+            continue
+        out.add(t)
+    return out
 
 
 def problems(src: str, zh: str) -> list[str]:
     issues = []
     missing = [t for t in proper_tokens(src) if t.rstrip("’'s") not in zh and t not in zh]
     if missing:
-        issues.append(f"missing proper nouns: {missing}")
-    if "\n" in zh or re.search(r"(?i)\btranslat|\bwait\b|原文", zh):
+        issues.append(f"missing proper nouns: {missing[:12]}")
+    if ("\n" in zh and "\n" not in src) or re.search(r"(?i)\btranslat|\bwait\b|原文", zh):
         issues.append("meta chatter")
     if not re.search(r"[一-鿿]", zh):
         issues.append("no Chinese")
@@ -73,7 +86,7 @@ def translate(text: str) -> tuple[str, float, list[str]]:
     for _ in range(MAX_ATTEMPTS):
         resp = client.messages.create(
             model=MODEL,
-            max_tokens=4000,
+            max_tokens=16000,
             system=SYSTEM,
             output_config={"effort": "medium", "format": {"type": "json_schema", "schema": SCHEMA}},
             messages=[{"role": "user", "content": text + feedback}],
@@ -112,6 +125,8 @@ def process(path: Path, force: bool) -> float:
         cost = sum(pool.map(run, todo))
     flagged = 0
     for q in items:
+        if q["lang"] != "zh":
+            q["question"] = q["question_en"]
         if q["lang"] == "zh":
             rec = cache[q["qid"]]
             q["question"] = rec["question"]

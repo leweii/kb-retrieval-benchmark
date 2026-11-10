@@ -1,0 +1,110 @@
+{
+ "summary": "This note is reference documentation for the SQL SELECT command, which works both as a statement that queries the database and retrieves rows and as a clause that defines the columns returned by a query. It covers the syntax for selecting all columns (with ILIKE, EXCLUDE, REPLACE and RENAME modifiers) and for selecting specific columns, the FOR UPDATE locking clause, and usage notes about unordered results and column aliases. It ends with worked examples built on an employee_table and department_table, plus an error case where an alias matches another column name.",
+ "one_line": "Reference documentation for the SQL SELECT statement and clause, covering column selection modifiers, FOR UPDATE locking, and worked examples.",
+ "key_facts": [
+  "SELECT can be used as a statement, where it is the most commonly executed SQL statement that queries the database and retrieves a set of rows.",
+  "As a clause, SELECT defines the set of columns returned by a query.",
+  "The ILIKE pattern in SELECT * matching is case-insensitive and uses _ for a single character and % for any sequence of zero or more characters.",
+  "If no columns match an ILIKE pattern, a compilation error occurs with the code 001080 (42601).",
+  "EXCLUDE cannot be combined with ILIKE in a SELECT * clause, and EXCLUDE must come before RENAME or REPLACE.",
+  "The default for the duplicate handling keyword is ALL, while DISTINCT eliminates duplicate values from the result set.",
+  "The FOR UPDATE clause locks results for future updates, and NOWAIT is the default if neither NOWAIT nor WAIT is specified.",
+  "FOR UPDATE should be the last clause in the SELECT statement, and the WAIT parameter is an integer giving the maximum time in seconds to wait for locks.",
+  "Since hybrid tables support READ COMMITTED isolation level, FOR UPDATE clauses cannot guarantee read stability.",
+  "Without an ORDER BY clause, the results returned by SELECT are an unordered set that may differ in order between runs.",
+  "The example employee_table contains three rows: Pat Montgomery (ID 101, department 1), Terry Levine (ID 102, department 2) and Dana Comstock (ID 103, department 2).",
+  "The example department_table lists Engineering (1), Customer Support (2) and Finance (3).",
+  "The example SELECT $2 FROM employee_table ORDER BY $2 selects a column by its 1-based position and returns the last_name values.",
+  "The example SELECT pi() * 2.0 * 2.0 AS area_of_circle returns 12.566370614, the area of a circle with radius 2.0.",
+  "The error case with GROUP BY prod_id fails with error 001104 (42601) because 'T1.PRODUCT_ID' is neither an aggregate nor in the group by clause."
+ ],
+ "entities": [
+  {
+   "name": "SELECT",
+   "type": "program",
+   "role": "SQL statement and clause that queries the database and defines the set of columns returned by a query"
+  },
+  {
+   "name": "employee_table",
+   "type": "other",
+   "role": "example table with columns employee_ID, last_name, first_name and department_ID used in the examples"
+  },
+  {
+   "name": "department_table",
+   "type": "other",
+   "role": "example table with columns department_ID and department_name used in the join examples"
+  },
+  {
+   "name": "FOR UPDATE clause",
+   "type": "program",
+   "role": "optional clause that locks query results for future updates, with NOWAIT or WAIT options"
+  },
+  {
+   "name": "ORDER BY",
+   "type": "program",
+   "role": "clause that must be used if the order of SELECT results matters"
+  },
+  {
+   "name": "ILIKE",
+   "type": "program",
+   "role": "keyword that filters SELECT * output to columns whose names match a case-insensitive pattern"
+  },
+  {
+   "name": "EXCLUDE",
+   "type": "program",
+   "role": "keyword that removes specified columns from SELECT * results"
+  },
+  {
+   "name": "REPLACE",
+   "type": "program",
+   "role": "keyword that replaces a column's value with an evaluated expression in SELECT *"
+  },
+  {
+   "name": "RENAME",
+   "type": "program",
+   "role": "keyword that assigns column aliases in SELECT * results"
+  },
+  {
+   "name": "Engineering",
+   "type": "other",
+   "role": "department_name with department_ID 1 in department_table"
+  },
+  {
+   "name": "Customer Support",
+   "type": "other",
+   "role": "department_name with department_ID 2 in department_table"
+  },
+  {
+   "name": "Finance",
+   "type": "other",
+   "role": "department_name with department_ID 3 in department_table, with no employees in the examples"
+  },
+  {
+   "name": "Pat Montgomery",
+   "type": "person",
+   "role": "employee with employee_ID 101 in employee_table"
+  },
+  {
+   "name": "Terry Levine",
+   "type": "person",
+   "role": "employee with employee_ID 102 in employee_table"
+  },
+  {
+   "name": "Dana Comstock",
+   "type": "person",
+   "role": "employee with employee_ID 103 in employee_table"
+  }
+ ],
+ "tags": [
+  "sql",
+  "select statement",
+  "query syntax",
+  "database",
+  "reference documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10269,
+  "output_tokens": 1599
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "summary": "A Paklap Tech News how-to article explaining several ways to shut down a laptop: via keyboard shortcuts on Windows 10/11, Windows 7 and Mac OS, via a forced shutdown by holding the power button when frozen, without a mouse (including Terminal's sudo shutdown -h now on Mac), and via the Windows Run command (shutdown -s -t 0). It repeatedly advises saving unsaved work first and reserves forced shutdown for last resort. Website navigation, category menus and recent-post lists were ignored.",
+ "one_line": "Paklap Tech News guide covering keyboard, forced, mouse-free and Run-command methods to shut down Windows and Mac laptops safely.",
+ "key_facts": [
+  "The article is titled \"How To Shut Down Laptop?\" and is published on the Paklap Tech News blog (paklap.pk).",
+  "On Windows 10 and 11, pressing Windows key + X opens the Power User menu, then pressing U opens the Shut Down or sign out submenu, and pressing U again selects Shut Down.",
+  "On Windows 7, pressing Alt + F4, selecting 'Shut down' from the menu, and pressing Enter to confirm powers off the laptop.",
+  "On Mac OS, pressing Control + Option + Command + Eject (or Power on some Macs) powers off the Mac.",
+  "For a frozen laptop on Windows, the article says to hold the power button and count to ten.",
+  "The article describes forced shutdown as a last resort and advises using the hold-power-button shortcut sparingly, only when absolutely necessary.",
+  "To power off a Mac without a mouse via Terminal, one types sudo shutdown -h now after opening Terminal with Command + Spacebar and typing \"Terminal\" in Spotlight.",
+  "On Windows, pressing Windows key + R opens the Run dialog, where typing shutdown -s -t 0 and pressing Enter shuts down immediately.",
+  "In the Run command, -s indicates shut down and -t 0 means the shutdown happens immediately, with -t measured in seconds.",
+  "The Run command to restart the laptop is shutdown -r -t 0, where -r instructs the system to restart.",
+  "The article advises that frequent freezes should be investigated by checking for software updates, running a malware scan, and trimming startup applications.",
+  "The article notes that if a laptop keeps freezing despite these efforts, a hardware glitch may be the cause and a tech professional may be needed.",
+  "The article states that shutting down helps conserve energy, lets the computer clear its memory, and prevents glitches that occur when a computer runs around the clock.",
+  "The article's Windows 10 and 11 keyboard steps and Windows 7 steps are listed separately from the Mac OS steps, and it notes Mac key combinations may vary by model and OS version.",
+  "The post has 0 comments and sits in the \"How To\" category of the blog, which has 77 posts."
+ ],
+ "entities": [
+  {
+   "name": "Paklap",
+   "type": "organization",
+   "role": "online retailer whose blog (Paklap Tech News) publishes the article; site is paklap.pk and is described as deals on laptops, tablets and mobile phones in Pakistan"
+  },
+  {
+   "name": "Paklap Tech News",
+   "type": "program",
+   "role": "blog section of paklap.pk where the how-to article is published"
+  },
+  {
+   "name": "Windows 10",
+   "type": "product",
+   "role": "operating system with keyboard shutdown steps via Power User menu"
+  },
+  {
+   "name": "Windows 11",
+   "type": "product",
+   "role": "operating system covered by the same keyboard shutdown steps as Windows 10"
+  },
+  {
+   "name": "Windows 7",
+   "type": "product",
+   "role": "operating system with Alt + F4 shutdown steps"
+  },
+  {
+   "name": "Mac OS",
+   "type": "product",
+   "role": "operating system with Control + Option + Command + Eject power-off shortcut and Terminal shutdown command"
+  }
+ ],
+ "tags": [
+  "laptop",
+  "shutdown",
+  "windows",
+  "mac os",
+  "keyboard shortcuts",
+  "troubleshooting"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14938,
+  "output_tokens": 1314
+ }
+}

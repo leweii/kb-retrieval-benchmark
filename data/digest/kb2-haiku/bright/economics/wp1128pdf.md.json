@@ -1,0 +1,81 @@
+{
+ "summary": "This IMF working paper (WP/11/28, February 2011) by Samya Beidas-Strom and Tigran Poghosyan estimates a small open economy DSGE model for Jordan with nominal and real rigidities, imperfect competition, habit formation, and explicit oil imports. Bayesian estimation on quarterly Jordanian data is used, and impulse responses to identified shocks assess the pegged exchange rate regime. The paper finds the peg amplifies output, consumption and inflation volatility but offers a relatively low risk premium. The note's visible content covers the introduction, the model structure (households, domestic production) and the paper's main results; the text is cut off mid-section during the discussion of firm price-setting.",
+ "one_line": "IMF working paper estimating a Bayesian DSGE model of the Jordanian economy with oil imports to assess the pegged exchange rate regime.",
+ "key_facts": [
+  "The paper is IMF Working Paper WP/11/28, authored by Samya Beidas-Strom and Tigran Poghosyan, dated February 2011.",
+  "The model is a small open economy DSGE model featuring nominal and real rigidities, imperfect competition and habit formation in consumer utility.",
+  "Oil imports are explicitly modeled in the consumption basket and domestic production.",
+  "Bayesian estimation is applied to quarterly Jordanian data, with the likelihood evaluated via the Kalman filter and the posterior approximated by the Metropolis-Hastings algorithm.",
+  "The paper finds the peg amplifies output, consumption and (price and wage) inflation volatility but offers a relatively low risk premium.",
+  "Estimated Calvo probabilities imply prices are reset optimally every 3.5 quarters, whereas wages are re-optimized every 4 quarters.",
+  "Following Lubik and Schorfheide (2007), the monetary policy reaction function is extended to respond to real exchange rate volatility and includes interest rate smoothing.",
+  "The commodity-exporting sector is meant to characterize the potash and phosphate sector, which accounts for about 4 percent of GDP and 12 percent of total exports.",
+  "The model features a balanced growth path in which labor productivity grows at steady-state rate gy, subject to transitory and permanent productivity shocks.",
+  "Under the current peg, foreign demand shocks raise income and consumption, cause real exchange rate appreciation, and deteriorate the current account.",
+  "Foreign interest rate shocks contract consumption and output, depreciate the real exchange rate and improve the current account.",
+  "International and domestic oil price shocks produce a large negative income effect, depreciate the real exchange rate and improve the current account position.",
+  "A hypothetical flexible exchange rate regime would produce similar responses with much smaller magnitude, potentially lowering consumption and output volatility in Jordan.",
+  "The model omits the fiscal sector, investment (inertia) and capital, as these would entail a larger model.",
+  "The paper argues a staggered wage and price setting creates a trade-off between stabilizing price inflation and output, following Erceg, Henderson and Levin (2000)."
+ ],
+ "entities": [
+  {
+   "name": "Samya Beidas-Strom",
+   "type": "person",
+   "role": "co-author of IMF Working Paper WP/11/28"
+  },
+  {
+   "name": "Tigran Poghosyan",
+   "type": "person",
+   "role": "co-author of IMF Working Paper WP/11/28"
+  },
+  {
+   "name": "International Monetary Fund",
+   "type": "organization",
+   "role": "publisher of the working paper; Middle East and Central Asia Department"
+  },
+  {
+   "name": "Jordan",
+   "type": "place",
+   "role": "small open economy whose quarterly data are used to estimate the DSGE model"
+  },
+  {
+   "name": "Erceg, Henderson, and Levin (2000)",
+   "type": "other",
+   "role": "cited study showing a trade-off between output, price and wage inflation when both wages and prices are staggered"
+  },
+  {
+   "name": "Blanchard and Galí (2005)",
+   "type": "other",
+   "role": "cited work showing marginal costs depend on the real wage gap, creating an output and price inflation trade-off"
+  },
+  {
+   "name": "Lubik and Schorfheide (2007)",
+   "type": "other",
+   "role": "source of the monetary policy rule augmented with real exchange rate response and interest rate smoothing"
+  },
+  {
+   "name": "Central Bank of Jordan",
+   "type": "organization",
+   "role": "co-hosted the joint research workshop where an earlier draft was presented"
+  },
+  {
+   "name": "potash and phosphate sector",
+   "type": "organization",
+   "role": "commodity-exporting sector modeled as the commodity producer, about 4 percent of GDP and 12 percent of exports"
+  }
+ ],
+ "tags": [
+  "dsge",
+  "jordan",
+  "monetary policy",
+  "exchange rate peg",
+  "oil prices",
+  "bayesian estimation"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 13730,
+  "output_tokens": 1556
+ }
+}

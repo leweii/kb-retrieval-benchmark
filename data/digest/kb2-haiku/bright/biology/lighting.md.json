@@ -1,0 +1,78 @@
+{
+ "summary": "This note is a clipped RNIB (Royal National Institute of Blind People) website page whose body is almost entirely site navigation menus, cookie-style boilerplate and repeated appearance toggles. The only lighting-related items are a menu entry titled 'Lighting' under 'Independent living' and a 'Light sensitivity (photophobia)' page under eye conditions. The note contains no substantive lighting guidance, so its informational value is limited to showing how RNIB organises these topics.",
+ "one_line": "Clipped RNIB web navigation page; its only lighting items are a 'Lighting' page under Independent living and a light sensitivity (photophobia) condition page.",
+ "key_facts": [
+  "The note is titled 'lighting' and its source is listed as 'bright' with domain 'biology'.",
+  "The page is a clipped RNIB website page, and most of its text is navigation menus rather than article content.",
+  "RNIB's site menu lists 'Lighting' as a subsection under 'Independent living', alongside 'Help with low vision', 'Practical adaptations', 'Labelling', 'Cooking' and 'Adapting your home'.",
+  "The 'Your eyes' menu lists 'Light sensitivity (photophobia)' as an eye condition page.",
+  "The 'Light sensitivity (photophobia)' page has a sub-page titled 'Five steps to getting the right glasses for light sensitivity'.",
+  "The 'How to keep your eyes healthy' section lists 'Protect your eyes from the sun' as a page.",
+  "The eye conditions menu includes Age-related macular degeneration (AMD), Cataracts, Glaucoma and Colour Vision Deficiency (CVD), also known as colour blindness.",
+  "The 'Independent living' section includes 'Safety at home' and 'Reduce your risk of falls' among its listed pages.",
+  "The 'Living with sight loss' section includes 'Assistive aids and technology' with sub-pages such as 'Smart technology for the home' and 'Navigation technology'.",
+  "The menu lists 'RNIB Helpline' and 'Sight loss counselling' under 'Community connection and wellbeing'.",
+  "The note includes the repeated phrase 'Switch colour mode' with options Light, Dark and Yellow, which is website display boilerplate.",
+  "The note gives no lighting recommendations, measurements or explanations of how lighting affects vision."
+ ],
+ "entities": [
+  {
+   "name": "RNIB",
+   "type": "organization",
+   "role": "charity whose website menus form the clipped page; it lists 'Lighting' under Independent living and the light sensitivity page under eye conditions"
+  },
+  {
+   "name": "Light sensitivity (photophobia)",
+   "type": "other",
+   "role": "eye condition page listed under 'Your eyes' with a sub-page on choosing glasses"
+  },
+  {
+   "name": "Five steps to getting the right glasses for light sensitivity",
+   "type": "other",
+   "role": "sub-page of the light sensitivity (photophobia) page"
+  },
+  {
+   "name": "Lighting",
+   "type": "other",
+   "role": "menu entry under Independent living, the note's most relevant lighting-related heading"
+  },
+  {
+   "name": "Age-related macular degeneration (AMD)",
+   "type": "other",
+   "role": "eye condition listed in the eye conditions menu"
+  },
+  {
+   "name": "Glaucoma",
+   "type": "other",
+   "role": "eye condition listed in the eye conditions menu and in the 'Your eyes' A-Z list"
+  },
+  {
+   "name": "Cataracts",
+   "type": "other",
+   "role": "eye condition listed in the eye conditions menu"
+  },
+  {
+   "name": "Protect your eyes from the sun",
+   "type": "other",
+   "role": "page under 'How to keep your eyes healthy'"
+  },
+  {
+   "name": "RNIB Helpline",
+   "type": "program",
+   "role": "support service listed under 'Community connection and wellbeing'"
+  }
+ ],
+ "tags": [
+  "lighting",
+  "low vision",
+  "light sensitivity",
+  "sight loss",
+  "rnib",
+  "accessibility"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 12271,
+  "output_tokens": 1911
+ }
+}

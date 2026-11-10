@@ -1,0 +1,75 @@
+{
+ "summary": "This is the Microsoft .NET API reference page for the BinaryPrimitives.ReverseEndianness method overloads in the System.Buffers.Binary namespace. It lists overloads that copy spans of primitive values while swapping endianness, and overloads that reverse a single primitive value. The page gives each overload's signature, parameters, return values, and notes that some overloads are not CLS-compliant and that source and destination spans may overlap or be the same span for in-place reversal.",
+ "one_line": "Microsoft .NET reference for BinaryPrimitives.ReverseEndianness overloads that swap byte order of primitive values and spans.",
+ "key_facts": [
+  "The BinaryPrimitives.ReverseEndianness method is in the System.Buffers.Binary namespace.",
+  "The method is contained in the System.Memory.dll assembly and the netstandard.dll assembly.",
+  "The method is available in the System.Memory v4.5.5 package.",
+  "The ReverseEndianness(ReadOnlySpan<Int16>, Span<Int16>) overload copies every primitive value from source to destination, reversing each primitive by performing an endianness swap as part of writing each.",
+  "The span overloads throw an ArgumentException when the destination's length is smaller than that of the source.",
+  "The source and destination spans may overlap, and the same span may be passed as both source and destination to reverse each element's endianness in place.",
+  "Overloads for ReadOnlySpan of UInt16, UInt32, UInt64, and UIntPtr/UIntPtr are marked as not CLS-compliant and carry the CLSCompliant(false) attribute.",
+  "The single-value overload ReverseEndianness(UInt16) takes a ushort value and returns the reversed value.",
+  "The single-value overload ReverseEndianness(SByte) effectively does nothing because an SByte has only one byte.",
+  "The single-value overload ReverseEndianness(Byte) effectively does nothing for a Byte.",
+  "Overloads exist for single values of Int16, Int32, Int64, IntPtr, Int128, UInt16, UInt32, UInt64, UInt128, and UIntPtr.",
+  "Overloads exist for spans of Int16, Int32, Int64, IntPtr, Int128, UInt16, UInt32, UInt64, UInt128, and UIntPtr.",
+  "The page includes an 'Important' notice that some information relates to a prerelease product that may be substantially modified before release.",
+  "The page's API reference examples are shown in C++/CLI, C#, F#, and Visual Basic."
+ ],
+ "entities": [
+  {
+   "name": "BinaryPrimitives",
+   "type": "other",
+   "role": "static class whose ReverseEndianness method is documented on this page"
+  },
+  {
+   "name": "System.Buffers.Binary",
+   "type": "other",
+   "role": "namespace containing the BinaryPrimitives class"
+  },
+  {
+   "name": "System.Memory.dll",
+   "type": "product",
+   "role": "assembly that contains the method"
+  },
+  {
+   "name": "netstandard.dll",
+   "type": "product",
+   "role": "assembly that contains the method"
+  },
+  {
+   "name": "System.Memory v4.5.5",
+   "type": "product",
+   "role": "package that contains the method"
+  },
+  {
+   "name": "Microsoft Edge",
+   "type": "product",
+   "role": "browser recommended by the page's unsupported-browser banner"
+  },
+  {
+   "name": "ReadOnlySpan",
+   "type": "other",
+   "role": "type used as the source parameter of span overloads"
+  },
+  {
+   "name": "Span",
+   "type": "other",
+   "role": "type used as the destination parameter of span overloads"
+  }
+ ],
+ "tags": [
+  "dotnet",
+  "csharp",
+  "endianness",
+  "binary-primitives",
+  "api-reference",
+  "spans"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15840,
+  "output_tokens": 1175
+ }
+}

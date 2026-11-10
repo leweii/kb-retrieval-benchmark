@@ -1,0 +1,90 @@
+{
+ "summary": "A GitHub issue (#834) in the ros2/rviz repository, opened by user trishmapow on Feb 28, 2022, reports that rviz2 running under ROS 2 Foxy on WSL Ubuntu 20.04 shows an empty grey area instead of the 3D grid, and publishing pointcloud data displays nothing. The reporter notes rviz2 works on a dedicated Linux laptop and that Rviz1 works on WSL Ubuntu 18.04 on the same machine; setting LIBGL_ALWAYS_SOFTWARE=true works without acceleration. The note also includes a long rviz2 startup log showing the OGRE 1.12.1 and GL renderer details, with the GL renderer reported as D3D12 (Intel Iris Xe Graphics).",
+ "one_line": "GitHub issue #834 in ros2/rviz: rviz2 on ROS 2 Foxy under WSL and Docker shows an empty grey area instead of the 3D grid.",
+ "key_facts": [
+  "GitHub issue #834 in the ros2/rviz repository was titled 'Empty grey area instead of 3D grid with rviz2 on WSL & Docker'.",
+  "The issue was opened by user trishmapow on Feb 28, 2022.",
+  "The issue carries the label 'backlog' and was open at the time of capture with 7 comments.",
+  "The reporter runs ROS 2 foxy on WSL Ubuntu 20.04 using precompiled packages.",
+  "Running rviz2 shows an empty grey area where the 3D grid should be, and publishing e.g. pointcloud data displays nothing.",
+  "Setting export LIBGL_ALWAYS_INDIRECT=0 and launching rviz2 through an Xrdp session did not fix the problem.",
+  "Setting export LIBGL_ALWAYS_SOFTWARE=true works without acceleration.",
+  "The rviz2 build is reported as RViz version Alpha compiled against Qt 5.12.8, with OGRE version 1.12.1 (Rhagorthua).",
+  "The reporter's host is Windows 11 Pro 21H2 (22000.493) with WSL kernel 5.10.60.1 and Intel Iris Xe graphics driver 30.0.100.9864.",
+  "Rviz2 works fine on the reporter's dedicated Linux laptop.",
+  "Rviz1 works fine on WSL Ubuntu 18.04 on the same computer.",
+  "The log shows GL_VENDOR as Microsoft Corporation and GL_RENDERER as 'D3D12 (Intel(R) Iris(R) Xe Graphics)'.",
+  "The log reports GL_VERSION 3.1.0.0 and 'OpenGl version: 3.1 (GLSL 1.4)'.",
+  "The CPU is an 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz."
+ ],
+ "entities": [
+  {
+   "name": "ros2/rviz",
+   "type": "program",
+   "role": "GitHub repository in which the issue was filed; rviz2 is the 3D visualizer of the project"
+  },
+  {
+   "name": "trishmapow",
+   "type": "person",
+   "role": "author of issue #834 who reported the empty grey area with rviz2 on WSL"
+  },
+  {
+   "name": "rviz2",
+   "type": "program",
+   "role": "ROS 2 3D visualization tool that shows an empty grey area instead of the 3D grid on WSL"
+  },
+  {
+   "name": "ROS 2 Foxy",
+   "type": "program",
+   "role": "ROS 2 distribution the reporter ran, using precompiled packages"
+  },
+  {
+   "name": "WSL Ubuntu 20.04",
+   "type": "product",
+   "role": "Windows Subsystem for Linux environment where the problem occurred"
+  },
+  {
+   "name": "WSL Ubuntu 18.04",
+   "type": "product",
+   "role": "environment where Rviz1 works fine on the same computer"
+  },
+  {
+   "name": "OGRE",
+   "type": "program",
+   "role": "rendering engine used by rviz2, version 1.12.1 (Rhagorthua)"
+  },
+  {
+   "name": "Qt",
+   "type": "program",
+   "role": "GUI framework rviz2 was compiled against, version 5.12.8"
+  },
+  {
+   "name": "Intel Iris Xe Graphics",
+   "type": "product",
+   "role": "graphics hardware on the reporter's Windows machine, reported as the GL renderer via D3D12"
+  },
+  {
+   "name": "Microsoft Corporation",
+   "type": "organization",
+   "role": "reported GL_VENDOR in the rviz2 log"
+  },
+  {
+   "name": "WSLg",
+   "type": "program",
+   "role": "Windows GUI support for WSL whose original demo video reportedly showed rviz2 working"
+  }
+ ],
+ "tags": [
+  "rviz",
+  "ros2",
+  "wsl",
+  "opengl",
+  "graphics",
+  "bug-report"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17897,
+  "output_tokens": 1557
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "summary": "This note is a short encyclopedic entry on Belfast, describing it as the capital and largest city of Northern Ireland and the second largest city on the island of Ireland. It gives the city's location on the River Lagan, its 2015 population, the origin of its Irish name, and the year it was granted city status.",
+ "one_line": "Overview of Belfast, the capital and largest city of Northern Ireland, on the River Lagan.",
+ "key_facts": [
+  "Belfast is the capital and largest city of Northern Ireland.",
+  "Belfast is the second largest city on the island of Ireland.",
+  "Belfast is located on the River Lagan.",
+  "Belfast had a population of 333,871 in 2015.",
+  "Belfast was granted city status in 1888.",
+  "The name Belfast comes from the Irish Béal Feirste.",
+  "The Irish name Béal Feirste means 'rivermouth of the sandbanks'."
+ ],
+ "entities": [
+  {
+   "name": "Belfast",
+   "type": "place",
+   "role": "capital and largest city of Northern Ireland, and second largest on the island of Ireland"
+  },
+  {
+   "name": "Northern Ireland",
+   "type": "place",
+   "role": "region whose capital and largest city is Belfast"
+  },
+  {
+   "name": "River Lagan",
+   "type": "place",
+   "role": "river on which Belfast is located"
+  },
+  {
+   "name": "Béal Feirste",
+   "type": "other",
+   "role": "Irish-language name of Belfast, meaning 'rivermouth of the sandbanks'"
+  }
+ ],
+ "tags": [
+  "belfast",
+  "northern ireland",
+  "cities",
+  "ireland",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1107,
+  "output_tokens": 501
+ }
+}

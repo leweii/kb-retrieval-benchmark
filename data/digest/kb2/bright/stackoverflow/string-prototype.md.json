@@ -1,0 +1,73 @@
+{
+ "summary": "This MDN reference page documents JavaScript's String.prototype.matchAll() method, which returns a non-restartable iterator of all matches of a regular expression against a string, including capturing groups. It covers syntax, the TypeError thrown when the global flag is missing, and examples comparing it to RegExp.exec() loops and String.prototype.match(). It also shows custom matchers via Symbol.matchAll. The note's tail contains the start of a duplicate navigation page for String.prototype.italics(), which is boilerplate.",
+ "one_line": "MDN reference for JavaScript String.prototype.matchAll(), which returns an iterator of all regex matches with capture groups and requires the g flag.",
+ "key_facts": [
+  "String.prototype.matchAll() returns an iterator of all results matching a string against a regular expression, including capturing groups.",
+  "The syntax is matchAll(regexp), where regexp is a RegExp object or any object with a Symbol.matchAll method.",
+  "If regexp is not a RegExp and has no Symbol.matchAll method, it is implicitly converted using new RegExp(regexp, 'g').",
+  "If regexp is a regex without the global (g) flag, matchAll throws a TypeError.",
+  "The return value is an iterable iterator (not restartable) of matches, or an empty iterator if none are found; each value has the same shape as the return value of RegExp.prototype.exec().",
+  "String.prototype.matchAll simply calls the argument's Symbol.matchAll method with the string as the first parameter; the real implementation lives in RegExp.prototype[@@matchAll]().",
+  "For /foo[a-z]*/g on \"table football, foosball\", matches are found at start=6 end=14 (football) and start=16 end=24 (foosball).",
+  "The matchAll iterator is exhausted after a for...of iteration; call matchAll again to get a new iterator, e.g. Array.from(str.matchAll(regexp), (m) => m[0]) gives [\"football\", \"foosball\"].",
+  "matchAll internally clones the regexp, so lastIndex does not change while scanning, but you cannot mutate lastIndex to advance or rewind the regex.",
+  "With the g flag, String.prototype.match() ignores capture groups (str.match(/t(e)(st(\\d?))/g) gives ['test1','test2']), while matchAll gives access to them.",
+  "An object with a Symbol.matchAll method can act as a custom matcher; its return value becomes the return value of matchAll().",
+  "The method is specified in the ECMAScript Language Specification (sec-string.prototype.matchall), and a core-js polyfill exists.",
+  "The page was last modified on Jan 13, 2024 by MDN contributors."
+ ],
+ "entities": [
+  {
+   "name": "String.prototype.matchAll()",
+   "type": "product",
+   "role": "JavaScript method that returns an iterator of all regex matches including capture groups"
+  },
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "publisher of the reference documentation"
+  },
+  {
+   "name": "Mozilla Foundation",
+   "type": "organization",
+   "role": "not-for-profit parent of Mozilla Corporation, named in the footer"
+  },
+  {
+   "name": "RegExp.prototype.exec()",
+   "type": "product",
+   "role": "method whose result shape matches matchAll values and which is used in loops without matchAll"
+  },
+  {
+   "name": "String.prototype.match()",
+   "type": "product",
+   "role": "related method that ignores capture groups with the g flag"
+  },
+  {
+   "name": "Symbol.matchAll",
+   "type": "product",
+   "role": "symbol method enabling custom matchers for matchAll"
+  },
+  {
+   "name": "ECMAScript Language Specification",
+   "type": "other",
+   "role": "standard that specifies matchAll"
+  },
+  {
+   "name": "core-js",
+   "type": "product",
+   "role": "library providing a polyfill of String.prototype.matchAll"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "regular-expressions",
+  "string-methods",
+  "mdn",
+  "web-development"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16741,
+  "output_tokens": 1278
+ }
+}

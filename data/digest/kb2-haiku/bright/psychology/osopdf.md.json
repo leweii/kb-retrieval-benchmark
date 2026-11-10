@@ -1,0 +1,106 @@
+{
+ "summary": "This study, accepted for publication in Organizational Behavior and Human Decision Processes, uses computer algorithms and human coders to track open science and reform practices in 2,234 quantitative empirical articles from four Organizational Behavior journals (AMJ, JAP, OBHDP, Org Sci) published 2011 to 2019. Most articles used none of the practices, but open materials, open data, and pre-registration rose, especially in 2018 and 2019 and especially at OBHDP, while replication and null results remained rare. The authors argue the field could be on the brink of sustained change, though transparency gains must be paired with verification and quality control.",
+ "one_line": "Tracks open science and reform practices such as open data, materials, pre-registration, sample size, replication and null results in four Organizational Behavior journals from 2011 to 2019.",
+ "key_facts": [
+  "The study analyzed 2,234 empirical quantitative articles from 2011 through 2019 across AMJ (n = 643), JAP (n = 731), OBHDP (n = 494), and Org Sci (n = 366).",
+  "Only 2% of published studies (46 instances) claimed open materials across the four journals, with no instances before 2014.",
+  "Open data appeared in 56 instances, representing 2.5% of published studies across the four journals.",
+  "Pre-registration appeared in 18 instances (0.8% of published studies), and 14 of those instances were in OBHDP.",
+  "Replication was found in 7 instances and null results in 13 instances across the four journals, each under 1% occurrence per journal.",
+  "In 2019, 19 articles (8% of articles published that year) had open data, up from 12 articles (4.5%) in 2017.",
+  "In 2019, 11 articles (5% of articles published that year) used pre-registration, compared with 5 articles (2%) in 2018.",
+  "The median sample size of studies across the four journals combined rose from 189.0 in 2011 to 310.63 in 2019.",
+  "A mixed model found an increase in sample size over time reaching significance at the .05 threshold (b = 36.87, t(47.08) = 2.53, p = .015, 95% CI = [7.53, 66.21]).",
+  "Sample sizes were coded by two independent coders who achieved 85.3% agreement, with discrepancies resolved by discussion.",
+  "The journals' Impact Factors were AMJ 7.2, JAP 5.1, OBHDP 2.9, and Org Sci 3.3, and OBHDP led the others in use of these practices despite having the lowest Impact Factor.",
+  "The authors state that the study's analysis plan was pre-registered at https://osf.io/n6hzy and https://osf.io/bmn9u.",
+  "The authors note that the study checked only the presence of authors' statements that materials, data, or pre-registration were available, and did not verify their existence or usability.",
+  "The authors conclude that the field 'could be on the brink of important and sustained change,' while noting current rates of adoption are low.",
+  "The authors cite Christensen et al. (2019) finding that over 80% of social science authors surveyed reported using at least one open science practice by 2017, compared with just over 20% by 2005."
+ ],
+ "entities": [
+  {
+   "name": "Elizabeth R. Tenney",
+   "type": "person",
+   "role": "Corresponding author; Management Department, David Eccles School of Business, University of Utah"
+  },
+  {
+   "name": "Elaine Costa",
+   "type": "person",
+   "role": "Co-author; Management Department, David Eccles School of Business, University of Utah"
+  },
+  {
+   "name": "Aurélien Allard",
+   "type": "person",
+   "role": "Co-author; Department of Psychology, University of California, Davis"
+  },
+  {
+   "name": "Simine Vazire",
+   "type": "person",
+   "role": "Co-author; Department of Psychology, University of Melbourne; grant recipient from the John Templeton Foundation"
+  },
+  {
+   "name": "Academy of Management Journal",
+   "type": "organization",
+   "role": "One of the four flagship Organizational Behavior journals coded (AMJ), Impact Factor 7.2"
+  },
+  {
+   "name": "Journal of Applied Psychology",
+   "type": "organization",
+   "role": "One of the four flagship Organizational Behavior journals coded (JAP), Impact Factor 5.1, published by American Psychological Association"
+  },
+  {
+   "name": "Organizational Behavior and Human Decision Processes",
+   "type": "organization",
+   "role": "One of the four journals coded (OBHDP), Impact Factor 2.9, published by Elsevier; led the others in use of open science practices"
+  },
+  {
+   "name": "Organization Science",
+   "type": "organization",
+   "role": "One of the four journals coded (Org Sci), Impact Factor 3.3, published by INFORMS"
+  },
+  {
+   "name": "Psychological Science",
+   "type": "organization",
+   "role": "Journal that from 2014 awarded badges for posting data, posting materials, or pre-registering a study"
+  },
+  {
+   "name": "Christensen et al. (2019)",
+   "type": "program",
+   "role": "State of Social Science (3S) Survey finding rising open science practice adoption among social scientists"
+  },
+  {
+   "name": "TOP Factor",
+   "type": "program",
+   "role": "Metric for journals' transparency and reproducibility policies, suggested as an alternative to Impact Factor"
+  },
+  {
+   "name": "Open science revolution (credibility revolution)",
+   "type": "event",
+   "role": "Movement calling for greater accountability and accessibility of scientific knowledge, the context for the study"
+  },
+  {
+   "name": "Fraley and Vazire (2014)",
+   "type": "program",
+   "role": "Coding guidelines for sample size used by human coders"
+  },
+  {
+   "name": "John Templeton Foundation",
+   "type": "organization",
+   "role": "Funder; supported the research through grant #60937 to Simine Vazire"
+  }
+ ],
+ "tags": [
+  "open science",
+  "metascience",
+  "organizational behavior",
+  "replication",
+  "pre-registration",
+  "research transparency"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11843,
+  "output_tokens": 1867
+ }
+}

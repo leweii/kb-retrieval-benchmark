@@ -1,0 +1,72 @@
+{
+ "summary": "A 2003 Bytes.com forum thread in which Christoph asks how to return a StringIO containing a complete PIL-altered image (header and pixel data) for use in Zope, since Image.tostring() only returns pixel data. Fredrik Lundh replies with a solution that saves the image to a StringIO buffer in JPEG format and returns getvalue(), which Christoph confirms works. Bengt Richter and JCM briefly debate whether reusing the name 'file' as a variable is advisable, with Richter noting it risks surprises from habit. The thread was closed afterward; the page also contains lots of site boilerplate and unrelated similar-topic listings that were ignored.",
+ "one_line": "Forum thread on returning a complete in-memory JPEG from a PIL image as a StringIO for Zope, answered by saving to a StringIO buffer.",
+ "key_facts": [
+  "The original question was posted by Christoph on a Bytes.com Python forum thread titled 'PIL: how to return a StringIO of an Image'.",
+  "Christoph's script receives an image file from Zope and wants to return a StringIO instance representing the altered image file.",
+  "Christoph tried Image.tostring(), but it only returns the pixel data, not the complete file representation with header.",
+  "Christoph needed the returned data usable in Zope as an image file, mentioning manage_addImage.",
+  "Fredrik Lundh's answer: create file = StringIO(), call image.save(file, \"JPEG\"), then return file.getvalue().",
+  "Christoph replied that the approach was exactly what he wanted and thanked Lundh.",
+  "Bengt Richter questioned Lundh's recommendation to use the name 'file' because it shadows a builtin, citing Fredrik Lundh's post dated 14 Nov 2003.",
+  "JCM argued that shadowing builtins is allowed because Python is block-structured and new builtins can arrive in any release.",
+  "Bengt Richter replied that the main reason to avoid it is to prevent surprises when the habit of using 'file' as a builtin causes errors.",
+  "The thread is marked with posts dated Jul 18 '05 and the thread was closed with replies disabled.",
+  "The original code example defined modify_image(self, my_image) and used Image.open(my_image) before doing PIL processing."
+ ],
+ "entities": [
+  {
+   "name": "Christoph",
+   "type": "person",
+   "role": "original poster who asked how to return a StringIO of a PIL-altered image for use in Zope"
+  },
+  {
+   "name": "Fredrik Lundh",
+   "type": "person",
+   "role": "responder who recommended saving the image to a StringIO with image.save(file, \"JPEG\") and returning file.getvalue()"
+  },
+  {
+   "name": "Bengt Richter",
+   "type": "person",
+   "role": "commenter who objected to using 'file' as a variable name because it shadows a builtin"
+  },
+  {
+   "name": "JCM",
+   "type": "person",
+   "role": "commenter who argued that shadowing builtins is permissible in Python"
+  },
+  {
+   "name": "Zope",
+   "type": "product",
+   "role": "web application server from which the script receives the image file"
+  },
+  {
+   "name": "PIL",
+   "type": "product",
+   "role": "Python Imaging Library used to open, process and save the image"
+  },
+  {
+   "name": "StringIO",
+   "type": "product",
+   "role": "in-memory file-like buffer used to hold the saved image data"
+  },
+  {
+   "name": "Bytes.com",
+   "type": "organization",
+   "role": "software developer community site hosting the forum thread"
+  }
+ ],
+ "tags": [
+  "python",
+  "pil",
+  "stringio",
+  "zope",
+  "image-processing",
+  "forum-thread"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8073,
+  "output_tokens": 1138
+ }
+}

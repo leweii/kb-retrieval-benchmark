@@ -1,0 +1,75 @@
+{
+ "summary": "This Nature Methods 'Points of Significance' column by Anthony Kulesa, Martin Krzywinski, Paul Blainey and Naomi Altman explains sampling distributions and how the bootstrap, a computational resampling method, can estimate the precision (standard error) and bias of estimates when analytic sampling distributions are hard to derive. It illustrates the method with the 1943 Luria-Delbrück fluctuation experiment and the variance-to-mean ratio (VMR), comparing parametric and nonparametric bootstrap on negative binomial and bimodal source samples. The main finding is that the parametric bootstrap fails when the assumed model is wrong, while the nonparametric bootstrap is safer but can underestimate spread for small samples.",
+ "one_line": "Explains sampling distributions and the bootstrap for estimating precision and bias, using the Luria-Delbrück variance-to-mean ratio as an example.",
+ "key_facts": [
+  "The article was published 28 May 2015 in Nature Methods volume 12, pages 477–478, as a Points of Significance column.",
+  "The standard error (s.e.) is defined as the standard deviation of a sampling distribution of a statistic.",
+  "For a normal population with s.d. σ, the sample means form a sampling distribution that is normal with s.d. σ/√n.",
+  "The bootstrap requires only that data are independently sampled from a single source distribution.",
+  "The 1943 Luria-Delbrück experiment studied whether viral resistance mutations in bacteria were induced by virus exposure or occurred spontaneously.",
+  "Under induced mutation, bacterial counts are Poisson distributed so the variance-to-mean ratio (VMR) equals 1; under spontaneous mutation, VMR is much greater than 1.",
+  "The article's example sample had 25 cultures with mean 5.48, variance 55.3 and VMR 10.1.",
+  "Both source distributions were parameterized to have μ = 5 and σ² = 50, giving VMR = 10.",
+  "In the parametric bootstrap, the sample is used to estimate parameters of a model from which further samples are simulated.",
+  "The parametric bootstrap bootstrap s.d. for the negative binomial case matched the true sampling distribution s.d. of 4.58.",
+  "For the bimodal source, the true sampling distribution s.d. was 1.59, while the parametric bootstrap using a negative binomial model overestimated it as 4.35.",
+  "The nonparametric bootstrap resamples with replacement from the observed data to create new samples of the same size.",
+  "The nonparametric bootstrap yielded s.d. values of 2.61 and 1.33 for the negative binomial and bimodal cases, 43% and 16% lower than the true values.",
+  "The authors note that the bootstrap can be applied to complex estimates such as phylogenetic trees or machine learning algorithms."
+ ],
+ "entities": [
+  {
+   "name": "Anthony Kulesa",
+   "type": "person",
+   "role": "graduate student in the Department of Biological Engineering at MIT, first author of the column"
+  },
+  {
+   "name": "Martin Krzywinski",
+   "type": "person",
+   "role": "staff scientist at Canada's Michael Smith Genome Sciences Centre, co-author"
+  },
+  {
+   "name": "Paul Blainey",
+   "type": "person",
+   "role": "Assistant Professor of Biological Engineering at MIT and Core Member of the Broad Institute, co-author"
+  },
+  {
+   "name": "Naomi Altman",
+   "type": "person",
+   "role": "Professor of Statistics at The Pennsylvania State University, co-author"
+  },
+  {
+   "name": "Nature Methods",
+   "type": "organization",
+   "role": "journal in which the Points of Significance column was published"
+  },
+  {
+   "name": "Luria-Delbrück experiment",
+   "type": "event",
+   "role": "1943 experiment by Luria and Delbrück exploring whether bacterial viral resistance mutations were induced or spontaneous"
+  },
+  {
+   "name": "Points of Significance",
+   "type": "program",
+   "role": "column series in Nature Methods in which this article appeared"
+  },
+  {
+   "name": "Statistics for Biologists",
+   "type": "program",
+   "role": "collection in which this article is included"
+  }
+ ],
+ "tags": [
+  "bootstrap",
+  "sampling distribution",
+  "standard error",
+  "statistics",
+  "variance-to-mean ratio",
+  "resampling"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 19047,
+  "output_tokens": 1384
+ }
+}

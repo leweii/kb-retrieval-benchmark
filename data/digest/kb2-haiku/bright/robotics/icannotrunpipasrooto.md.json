@@ -1,0 +1,99 @@
+{
+ "summary": "A Reddit r/learnpython thread in which user Texas_Technician asks why pip fails with a traceback when run as root or via sudo on Ubuntu, with the error caused by an AttributeError in the OpenSSL crypto module. Top replies suggest commenting out line 1573 of OpenSSL/crypto.py and upgrading pyopenssl, advise against running pip as root, and recommend virtual environments, pip install --user, or pip3. Surrounding page navigation, ads and unrelated subreddit listings are ignored.",
+ "one_line": "Reddit thread on a pip-as-root traceback in Ubuntu caused by a broken OpenSSL module, with advice to avoid root pip and use virtualenvs.",
+ "key_facts": [
+  "The original poster asked why pip fails when run as root or as a sudo user on Ubuntu, in the r/learnpython subreddit.",
+  "The traceback ends with AttributeError: module 'lib' has no attribute 'X509_V_FLAG_CB_ISSUER_CHECK'.",
+  "The failing pip is shown as pip==20.0.2 located at /usr/bin/pip.",
+  "The error originates in /usr/lib/python3/dist-packages/OpenSSL/crypto.py at line 1573, in class X509StoreFlags.",
+  "The traceback passes through vendored CacheControl-0.12.6 and requests-2.22.0 wheels under /usr/share/python-wheels/.",
+  "The original poster said they had only tried running sudo apt reinstall python3-pip and used a password-protected ssh key to log in to the server.",
+  "The top-voted reply (8 upvotes, from user Frankelstner) suggested commenting out line 1573 of OpenSSL/crypto.py, then upgrading the pyopenssl package.",
+  "Frankelstner advised using sudo -H pip install as a normal user instead of running pip as root.",
+  "User sgthoppy advised against using pip as root on *nix systems because the system package manager's Python packages could be disturbed.",
+  "User sgthoppy recommended a virtual environment for each project, or pip install --user for global-style installs.",
+  "User danielroseman suggested the openssl package itself likely needs reinstalling or updating.",
+  "User woooee suggested using pip3 instead of pip.",
+  "The thread had 6 comments and a score of 1 upvote at the time of capture."
+ ],
+ "entities": [
+  {
+   "name": "r/learnpython",
+   "type": "organization",
+   "role": "Python Education subreddit where the question was posted, described as for questions and general advice about Python code"
+  },
+  {
+   "name": "Texas_Technician",
+   "type": "person",
+   "role": "original poster who asked why pip fails as root or sudo on Ubuntu"
+  },
+  {
+   "name": "Frankelstner",
+   "type": "person",
+   "role": "commenter whose top reply suggested commenting out line 1573 in OpenSSL/crypto.py and upgrading pyopenssl"
+  },
+  {
+   "name": "sgthoppy",
+   "type": "person",
+   "role": "commenter who advised against running pip as root and recommended virtual envs or pip install --user"
+  },
+  {
+   "name": "danielroseman",
+   "type": "person",
+   "role": "commenter who asked why the user wanted root installs and suggested updating openssl"
+  },
+  {
+   "name": "woooee",
+   "type": "person",
+   "role": "commenter who suggested using pip3 instead of pip"
+  },
+  {
+   "name": "eleqtriq",
+   "type": "person",
+   "role": "commenter who said not to pip as root"
+  },
+  {
+   "name": "pip",
+   "type": "program",
+   "role": "Python package installer whose version 20.0.2 fails with the traceback at /usr/bin/pip"
+  },
+  {
+   "name": "pyopenssl",
+   "type": "program",
+   "role": "package the top reply recommended upgrading to fix the offending OpenSSL import"
+  },
+  {
+   "name": "OpenSSL/crypto.py",
+   "type": "program",
+   "role": "file at /usr/lib/python3/dist-packages/OpenSSL/crypto.py where the AttributeError occurs at line 1573"
+  },
+  {
+   "name": "CacheControl-0.12.6",
+   "type": "program",
+   "role": "vendored wheel in the pip traceback import chain"
+  },
+  {
+   "name": "requests-2.22.0",
+   "type": "program",
+   "role": "wheel in the pip traceback import chain that imports urllib3 with pyopenssl"
+  },
+  {
+   "name": "apport",
+   "type": "program",
+   "role": "Ubuntu crash-reporting hook that also failed with the same OpenSSL error in the excepthook"
+  }
+ ],
+ "tags": [
+  "python",
+  "pip",
+  "ubuntu",
+  "openssl",
+  "troubleshooting",
+  "virtualenv"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7931,
+  "output_tokens": 1467
+ }
+}

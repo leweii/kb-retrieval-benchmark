@@ -1,0 +1,63 @@
+{
+ "summary": "The note is an infobox-style summary of the Red River Showdown, the college football rivalry between the Oklahoma Sooners and Texas Longhorns. It lists the first and latest meetings, the next scheduled meeting in 2018, the Cotton Bowl venue in Dallas, and the Golden Hat trophy. It also gives all-time statistics, including the series record, largest victory, and win streaks.",
+ "one_line": "Summary of the Red River Showdown football rivalry between the Oklahoma Sooners and Texas Longhorns, with series history, venue, trophy and statistics.",
+ "key_facts": [
+  "The Red River Showdown is a football rivalry between the Oklahoma Sooners and the Texas Longhorns.",
+  "The first meeting was on October 10, 1900, and Texas won 28-2.",
+  "The latest meeting in the note was on October 14, 2017, and Oklahoma won 29-24.",
+  "The next meeting is scheduled for 2018.",
+  "The rivalry game is played at the Cotton Bowl in Dallas, Texas.",
+  "The trophy for the rivalry is the Golden Hat.",
+  "The two teams have met 112 times in total.",
+  "The all-time series is led by Texas, 61 wins, 46 losses and 5 ties.",
+  "Oklahoma's largest victory was 65-13 in 2003.",
+  "Texas holds the longest win streak at 8 games, from 1940 to 1947 and from 1958 to 1965.",
+  "Oklahoma holds the current win streak at 2 games, from 2016 to the present.",
+  "The rivalry's sport is college football."
+ ],
+ "entities": [
+  {
+   "name": "Red River Showdown",
+   "type": "event",
+   "role": "football rivalry between the Oklahoma Sooners and Texas Longhorns"
+  },
+  {
+   "name": "Oklahoma Sooners",
+   "type": "organization",
+   "role": "football team in the rivalry; won the 2017 meeting 29-24 and holds the largest victory (65-13, 2003) and current two-game win streak"
+  },
+  {
+   "name": "Texas Longhorns",
+   "type": "organization",
+   "role": "football team in the rivalry; won the first meeting in 1900 and leads the all-time series 61-46-5 and holds the longest win streak of 8 games"
+  },
+  {
+   "name": "Cotton Bowl",
+   "type": "place",
+   "role": "stadium where the rivalry is played"
+  },
+  {
+   "name": "Dallas, Texas",
+   "type": "place",
+   "role": "city where the Cotton Bowl is located"
+  },
+  {
+   "name": "Golden Hat",
+   "type": "product",
+   "role": "trophy awarded in the rivalry"
+  }
+ ],
+ "tags": [
+  "college football",
+  "rivalry",
+  "oklahoma sooners",
+  "texas longhorns",
+  "cotton bowl",
+  "sports statistics"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1225,
+  "output_tokens": 1425
+ }
+}

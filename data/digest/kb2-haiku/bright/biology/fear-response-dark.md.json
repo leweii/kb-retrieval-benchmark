@@ -1,0 +1,84 @@
+{
+ "summary": "This brief report by Grillon and colleagues tests whether acute social stress increases anxiety in humans, using fear-potentiated startle measured in the dark. Twenty healthy volunteers were tested in a stress session (speech plus backward counting) and a control session. Startle was facilitated by darkness, and this facilitation was larger after the social stressor, alongside increases in cortisol, α-amylase, blood pressure, heart rate and subjective distress. The authors conclude that stress potentiates anxiety and suggest a glucocorticoid and CRH mechanism in limbic structures.",
+ "one_line": "Study showing that an acute social stressor potentiates startle-measured anxiety in healthy humans tested in darkness.",
+ "key_facts": [
+  "The study was published as a Brief Report titled 'Acute Stress Potentiates Anxiety in Humans' with authors Christian Grillon, Roman Duncko, Matthew F. Covington, Lori Kopperman and Mitchel A. Kling.",
+  "Participants were 20 medically and psychiatrically healthy volunteers, 9 of them men, with an average age of 28.1 years (SD = 8.3 years).",
+  "The social stressor was a 10-min task consisting of delivering a speech followed by a backward counting task.",
+  "The study used a between-subject design counterbalanced across subjects, with one session after the social stressor (stress) and one after no stressor (control), a week apart.",
+  "The FSD test started 25 min after the stressor ended.",
+  "Startle was significantly facilitated in the dark, and this facilitation was potentiated by prior exposure to the social stressor.",
+  "The Illumination main effect was F(1,18) = 15.9, p < .0009, and the Stress Condition × Illumination interaction was F(1,18) = 6.4, p < .02.",
+  "Significant fear-potentiated startle (FSD) was found in the control condition [F(1,19) = 6.8, p < .02] and in the stress condition [F(1,19) = 18.5, p < .0009].",
+  "The social stressor induced increases in salivary cortisol and α-amylase, as well as increases in blood pressure, heart rate, and subjective distress.",
+  "The authors state this is the first report showing that unconditioned anxiety is enhanced by prior stress in humans.",
+  "The authors suggest the effect may be mediated by glucocorticoid effects on corticotropin-releasing hormone in limbic structures.",
+  "The light-enhanced startle effect in the rat is mediated by CRH in the BNST, suggesting the darkness effect on startle in humans is also mediated by CRH acting on BNST receptors.",
+  "The Background notes that stress is an important factor in the development and maintenance of anxiety disorders."
+ ],
+ "entities": [
+  {
+   "name": "Christian Grillon",
+   "type": "person",
+   "role": "first author of the brief report, listed with affiliation a"
+  },
+  {
+   "name": "Roman Duncko",
+   "type": "person",
+   "role": "co-author of the brief report, listed with affiliation b"
+  },
+  {
+   "name": "Matthew F. Covington",
+   "type": "person",
+   "role": "co-author of the brief report"
+  },
+  {
+   "name": "Lori Kopperman",
+   "type": "person",
+   "role": "co-author of the brief report, listed with affiliation a"
+  },
+  {
+   "name": "Mitchel A. Kling",
+   "type": "person",
+   "role": "co-author of the brief report, listed with affiliation c"
+  },
+  {
+   "name": "Acute Stress Potentiates Anxiety in Humans",
+   "type": "event",
+   "role": "title of the brief report studying stress-potentiated anxiety in humans"
+  },
+  {
+   "name": "social stressor",
+   "type": "event",
+   "role": "10-min speech followed by a backward counting task used to induce stress"
+  },
+  {
+   "name": "fear-potentiated startle (FSD)",
+   "type": "program",
+   "role": "measure of anxiety, startle facilitation in the dark, used as the outcome"
+  },
+  {
+   "name": "BNST",
+   "type": "place",
+   "role": "brain structure in which CRH mediates the light-enhanced startle effect in rats"
+  },
+  {
+   "name": "corticotropin-releasing hormone",
+   "type": "other",
+   "role": "hormone proposed as mediator of stress-potentiated anxiety in limbic structures"
+  }
+ ],
+ "tags": [
+  "stress",
+  "anxiety",
+  "startle response",
+  "human psychophysiology",
+  "cortisol",
+  "fear-potentiated startle"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 2072,
+  "output_tokens": 1397
+ }
+}

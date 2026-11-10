@@ -1,0 +1,43 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Pedrola, a municipality in Spain. It places the municipality in the province of Zaragoza in Aragon and gives its population from the 2004 INE census.",
+ "one_line": "Pedrola is a municipality in the province of Zaragoza, Aragon, Spain, with 2,906 inhabitants in the 2004 census.",
+ "key_facts": [
+  "Pedrola is a municipality located in the province of Zaragoza.",
+  "Pedrola is located in Aragon, Spain.",
+  "According to the 2004 census (INE), the municipality of Pedrola has a population of 2,906 inhabitants."
+ ],
+ "entities": [
+  {
+   "name": "Pedrola",
+   "type": "place",
+   "role": "municipality located in the province of Zaragoza, Aragon, Spain, with 2,906 inhabitants according to the 2004 census"
+  },
+  {
+   "name": "Zaragoza",
+   "type": "place",
+   "role": "province in which Pedrola is located"
+  },
+  {
+   "name": "Aragon",
+   "type": "place",
+   "role": "autonomous region in Spain where the province of Zaragoza, and therefore Pedrola, is located"
+  },
+  {
+   "name": "INE",
+   "type": "organization",
+   "role": "source of the 2004 census figure giving Pedrola's population of 2,906"
+  }
+ ],
+ "tags": [
+  "spain",
+  "aragon",
+  "zaragoza",
+  "municipality",
+  "demographics"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1043,
+  "output_tokens": 450
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "summary": "This page documents the HLL aggregate and window function, which uses HyperLogLog to return an approximation of the distinct cardinality of its input, equivalent in intent to COUNT(DISTINCT ...). It gives the aggregate and window syntax, describes the expression and optional partition arguments, and notes that the return type is INTEGER. Usage notes say DISTINCT has no effect and that the window form does not support ORDER BY in OVER() or window frames. An example compares COUNT(DISTINCT i) with APPROX_COUNT_DISTINCT(i) and HLL(i) on a 1024-row sequence_demo table, where the approximation returned 1007.",
+ "one_line": "Documents the HLL function, which approximates distinct value counts using HyperLogLog as an aggregate or window function.",
+ "key_facts": [
+  "HLL uses HyperLogLog to return an approximation of the distinct cardinality of its input.",
+  "HLL(col1, col2, ...) returns an approximation of COUNT(DISTINCT col1, col2, ...).",
+  "The aggregate function syntax is HLL( [ DISTINCT ] <expr1> [ , ... ] ) or HLL(*).",
+  "The window function syntax adds OVER ( [ PARTITION BY <expr2> ] ) to the aggregate forms.",
+  "The argument expr1 is the expression for which you want to know the number of distinct values.",
+  "The argument expr2 is an optional expression used to group rows into partitions.",
+  "The data type of the returned value is INTEGER.",
+  "DISTINCT can be included as an argument but has no effect.",
+  "When used as a window function, HLL does not support the ORDER BY sub-clause in the OVER() clause.",
+  "When used as a window function, HLL does not support window frames.",
+  "The example query selected COUNT(i), COUNT(DISTINCT i), APPROX_COUNT_DISTINCT(i) and HLL(i) from sequence_demo.",
+  "In the example, COUNT(DISTINCT I) returned 1024 while APPROX_COUNT_DISTINCT(I) and HLL(I) returned 1007.",
+  "The example notes that exact output might vary because APPROX_COUNT_DISTINCT() returns an approximation."
+ ],
+ "entities": [
+  {
+   "name": "HLL",
+   "type": "program",
+   "role": "Aggregate and window function that returns an approximate distinct count using HyperLogLog"
+  },
+  {
+   "name": "HyperLogLog",
+   "type": "other",
+   "role": "Probabilistic algorithm used by HLL to estimate the number of distinct values"
+  },
+  {
+   "name": "APPROX_COUNT_DISTINCT",
+   "type": "program",
+   "role": "Alias of HLL, shown in the example returning an approximate distinct count"
+  },
+  {
+   "name": "sequence_demo",
+   "type": "other",
+   "role": "Table used in the example query on column i"
+  }
+ ],
+ "tags": [
+  "sql",
+  "aggregate functions",
+  "approximation",
+  "cardinality estimation",
+  "hyperloglog"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2091,
+  "output_tokens": 963
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "summary": "This clipped Snowflake documentation page describes the DROP MODEL command, which removes a machine learning model from the current or specified schema. It gives the command syntax and explains the name parameter, including quoting rules for identifiers with spaces or special characters and how unqualified names are resolved against the session's current schema. The page notes the command is available to all Snowflake accounts; navigation and boilerplate were ignored.",
+ "one_line": "Snowflake reference for the DROP MODEL command, which removes a machine learning model from a schema, with name parameter rules.",
+ "key_facts": [
+  "The DROP MODEL command removes a machine learning model from the current or specified schema in Snowflake.",
+  "DROP MODEL is available to all Snowflake accounts.",
+  "The syntax for the command is: DROP MODEL <name>",
+  "The name parameter specifies the identifier for the model to drop.",
+  "If a model identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "A fully-qualified model name takes the form db_name.schema_name.model_name.",
+  "A partially qualified model name takes the form schema_name.model_name.",
+  "If the model identifier is not fully-qualified, the command looks for the model in the current schema for the session."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "cloud data platform whose accounts can use the DROP MODEL command"
+  },
+  {
+   "name": "DROP MODEL",
+   "type": "program",
+   "role": "command that removes a machine learning model from a schema"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "machine learning",
+  "ddl",
+  "schema management"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1330,
+  "output_tokens": 546
+ }
+}

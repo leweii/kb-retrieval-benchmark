@@ -1,0 +1,40 @@
+{
+ "summary": "This is a Snowflake documentation page for the system function SYSTEM$GENERATE_SCIM_ACCESS_TOKEN. The function returns a new SCIM access token valid for six months, given the name of a security integration whose TYPE is SCIM. The page covers syntax, arguments, output, and a single example that retrieves a token for an integration named OKTA_PROVISIONING.",
+ "one_line": "Documents the Snowflake system function that generates a six-month SCIM access token for a SCIM security integration.",
+ "key_facts": [
+  "SYSTEM$GENERATE_SCIM_ACCESS_TOKEN returns a new SCIM access token that is valid for six months.",
+  "The function syntax is SYSTEM$GENERATE_SCIM_ACCESS_TOKEN('<integration_name>').",
+  "The integration_name argument must be the name of a security integration where TYPE = SCIM.",
+  "The integration name is case-sensitive, must be uppercase, and must be enclosed in single quotes.",
+  "The function returns the SCIM access token as a string.",
+  "The page's example retrieves the SCIM access token for an integration named OKTA_PROVISIONING.",
+  "The example query is SELECT SYSTEM$GENERATE_SCIM_ACCESS_TOKEN('OKTA_PROVISIONING');",
+  "The function belongs to the Snowflake documentation category Information, under Query Information.",
+  "The page's Usage notes section has no content in the clipped text."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$GENERATE_SCIM_ACCESS_TOKEN",
+   "type": "program",
+   "role": "system function that returns a new SCIM access token valid for six months"
+  },
+  {
+   "name": "OKTA_PROVISIONING",
+   "type": "program",
+   "role": "example security integration name used in the page's example query"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "scim",
+  "access-token",
+  "security-integration",
+  "system-functions",
+  "okta"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1465,
+  "output_tokens": 633
+ }
+}

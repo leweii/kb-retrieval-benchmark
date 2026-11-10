@@ -1,0 +1,62 @@
+{
+ "summary": "This note is the header file component_parser.hpp from the ros2_control hardware_interface package, copyright 2020 ros2_control Development Team and licensed under Apache License 2.0. It declares a single function, parse_control_resources_from_urdf, which takes a URDF string and returns a vector of HardwareInfo describing the robot's control resources. The function throws std::runtime_error if a required robot attribute or tag is missing.",
+ "one_line": "Header declaring parse_control_resources_from_urdf, which extracts ros2_control hardware resource info from a robot URDF string.",
+ "key_facts": [
+  "The file is hardware_interface/component_parser.hpp, from the ros2_control project.",
+  "Copyright is held by the ros2_control Development Team, dated 2020.",
+  "The file is licensed under the Apache License, Version 2.0.",
+  "The header declares the function parse_control_resources_from_urdf inside namespace hardware_interface.",
+  "parse_control_resources_from_urdf takes a const std::string reference named urdf containing the robot's URDF.",
+  "The function returns a std::vector of HardwareInfo describing the robot's control resources.",
+  "The function is marked HARDWARE_INTERFACE_PUBLIC, making it exported from the library.",
+  "The documented behavior is to throw std::runtime_error if a robot attribute or tag is not found.",
+  "The header includes hardware_interface/hardware_info.hpp and hardware_interface/visibility_control.h.",
+  "The header uses the include guard HARDWARE_INTERFACE__COMPONENT_PARSER_HPP_.",
+  "The doc comment describes the function as searching an XML snippet from URDF for information about a control component."
+ ],
+ "entities": [
+  {
+   "name": "ros2_control Development Team",
+   "type": "organization",
+   "role": "copyright holder of the component_parser.hpp file"
+  },
+  {
+   "name": "Apache License, Version 2.0",
+   "type": "other",
+   "role": "license under which the file is distributed"
+  },
+  {
+   "name": "component_parser.hpp",
+   "type": "product",
+   "role": "header file declaring the URDF parsing function"
+  },
+  {
+   "name": "parse_control_resources_from_urdf",
+   "type": "program",
+   "role": "function that returns control resource information parsed from a URDF string"
+  },
+  {
+   "name": "HardwareInfo",
+   "type": "product",
+   "role": "type returned in a vector by parse_control_resources_from_urdf"
+  },
+  {
+   "name": "hardware_interface",
+   "type": "program",
+   "role": "namespace containing the declared function"
+  }
+ ],
+ "tags": [
+  "ros2_control",
+  "urdf",
+  "robotics",
+  "hardware-interface",
+  "c++",
+  "header-file"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1538,
+  "output_tokens": 834
+ }
+}

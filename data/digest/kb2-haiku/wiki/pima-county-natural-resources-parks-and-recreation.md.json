@@ -1,0 +1,43 @@
+{
+ "summary": "The note is a brief encyclopedia-style entry describing Pima County Natural Resources, Parks and Recreation, an agency within Pima County, Arizona. It states the agency manages natural resources, parks, and recreation offerings across Pima County, including the Tucson area. The note contains no further detail on structure, history, or programs.",
+ "one_line": "Pima County Natural Resources, Parks and Recreation is the Arizona county agency managing natural resources, parks, and recreation in Pima County and Tucson.",
+ "key_facts": [
+  "Pima County Natural Resources, Parks and Recreation is an agency within Pima County, Arizona.",
+  "The agency manages the natural resources within Pima County.",
+  "The agency manages the parks within Pima County.",
+  "The agency manages the recreation offerings within Pima County.",
+  "The agency's responsibilities include Tucson, AZ.",
+  "Pima County is located in Arizona.",
+  "The note describes the agency only in one sentence and gives no founding date.",
+  "The note does not list specific parks, programs, or facilities run by the agency."
+ ],
+ "entities": [
+  {
+   "name": "Pima County Natural Resources, Parks and Recreation",
+   "type": "organization",
+   "role": "agency within Pima County, Arizona that manages natural resources, parks, and recreation offerings"
+  },
+  {
+   "name": "Pima County",
+   "type": "place",
+   "role": "county in Arizona whose natural resources, parks, and recreation the agency manages"
+  },
+  {
+   "name": "Tucson, AZ",
+   "type": "place",
+   "role": "city included within the area the agency manages"
+  }
+ ],
+ "tags": [
+  "pima county",
+  "arizona",
+  "parks and recreation",
+  "natural resources",
+  "local government"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 1076,
+  "output_tokens": 534
+ }
+}

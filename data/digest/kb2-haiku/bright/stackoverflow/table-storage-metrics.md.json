@@ -1,0 +1,61 @@
+{
+ "summary": "This note is the documentation page for Snowflake's TABLE_STORAGE_METRICS Account Usage view, which reports table-level storage utilization used to calculate per-table storage billing, including dropped tables still incurring storage costs. It breaks billed bytes into active, Time Travel, Fail-safe, and retained-for-clone categories, lists the view's columns with descriptions, and gives usage notes on latency, ID and clone group behavior, dropped tables, and zero-day Time Travel retention.",
+ "one_line": "Snowflake Account Usage view reporting per-table storage bytes (active, Time Travel, Fail-safe, clone-retained) used for storage billing.",
+ "key_facts": [
+  "The TABLE_STORAGE_METRICS view is an Account Usage view that displays table-level storage utilization used to calculate storage billing for each table in the account.",
+  "The view includes tables that have been dropped but are still incurring storage costs.",
+  "Snowflake breaks billed bytes into active bytes and deleted bytes, and deleted bytes are sub-categorized into Time Travel, Fail-safe, and bytes retained for clones.",
+  "ACTIVE_BYTES is bytes owned by and billed to the table that are in the active state, representing data that can be queried.",
+  "TIME_TRAVEL_BYTES covers bytes still within the Time Travel retention period for the table, meaning recently deleted data.",
+  "FAILSAFE_BYTES covers deleted bytes past the Time Travel retention period but within the Fail-safe period for the table.",
+  "RETAINED_FOR_CLONE_BYTES covers deleted bytes no longer in Time Travel or Fail-safe that are still retained because clones of the table reference them.",
+  "CLONE_GROUP_ID is the unique identifier for the oldest clone ancestor of a table and is the same as ID if the table is not a clone.",
+  "IS_TRANSIENT is 'YES' if the table is transient or temporary, and transient and temporary tables have no Fail-safe period.",
+  "The DELETED column is TRUE if the table has been purged from storage.",
+  "Dropped tables in Fail-safe (TABLE_ENTERED_FAILSAFE is not NULL) will potentially display NULL values in most columns, and these tables cannot be restored using UNDROP.",
+  "Storage bytes are always owned by and billed to the table where the bytes were initially added, and cloned tables do not inherit those initial bytes' metrics.",
+  "Latency for the view may be up to 90 minutes.",
+  "When data is deleted from a table with a Time Travel retention period of 0 days, TIME_TRAVEL_BYTES may contain a non-zero value briefly while background processes complete.",
+  "Any data in the DELETED column prior to August 2018 may not be accurate."
+ ],
+ "entities": [
+  {
+   "name": "TABLE_STORAGE_METRICS",
+   "type": "product",
+   "role": "Account Usage view displaying table-level storage utilization and billed bytes for each table"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the TABLE_STORAGE_METRICS view and the storage billing model described"
+  },
+  {
+   "name": "UNDROP",
+   "type": "program",
+   "role": "command used to restore dropped tables within the Time Travel retention period, not usable for tables in Fail-safe"
+  },
+  {
+   "name": "Time Travel",
+   "type": "program",
+   "role": "retention state holding recently deleted table bytes that can still be restored"
+  },
+  {
+   "name": "Fail-safe",
+   "type": "program",
+   "role": "period after Time Travel during which deleted table bytes are still retained and billed"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "storage billing",
+  "account usage",
+  "time travel",
+  "fail-safe",
+  "data retention"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3674,
+  "output_tokens": 1212
+ }
+}

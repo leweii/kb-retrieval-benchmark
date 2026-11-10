@@ -1,0 +1,101 @@
+{
+ "summary": "This is the Python 3.12 standard library documentation page for the typing module, which provides runtime support for type hints. It explains that the runtime does not enforce annotations, which are used by external tools such as type checkers, and covers type aliases (the type statement and TypeAlias), NewType, Callable annotations, generics with type parameter syntax, tuple and class-object annotations, Any versus object, and structural versus nominal subtyping. The excerpt ends partway through the Never special type and does not include the rest of the module contents.",
+ "one_line": "Python 3.12 standard library documentation for the typing module, covering runtime support for type hints, generics, aliases, and special types.",
+ "key_facts": [
+  "The typing module was introduced in Python 3.5 and provides runtime support for type hints.",
+  "The Python runtime does not enforce function and variable type annotations; they are used by third-party tools such as type checkers, IDEs, and linters.",
+  "A type alias created with the type statement creates an instance of TypeAliasType, introduced in Python 3.12.",
+  "The type statement is new in Python 3.12, while type aliases can also be created by simple assignment or marked with TypeAlias for backwards compatibility.",
+  "NewType was introduced in Python 3.5.2, and at runtime Derived = NewType('Derived', Base) makes Derived a callable that returns whatever parameter is passed to it.",
+  "Changed in version 3.10: NewType is now a class rather than a function; in Python 3.11 the performance of calling NewType was restored to its level in Python 3.9.",
+  "Callable[[int], str] signifies a function that takes a single int parameter and returns a str.",
+  "Changed in version 3.10: Callable now supports ParamSpec and Concatenate, as described in PEP 612.",
+  "Syntactic support for generics is new in Python 3.12, and generic functions can be parameterized with type parameter syntax such as def first[T](l: Sequence[T]) -> T.",
+  "The tuple type accepts any number of type arguments, and tuple[T, ...] denotes a tuple of any length whose elements all have type T.",
+  "type[C] accepts the class object of C itself, and type[C] is covariant.",
+  "A static type checker treats every type as compatible with Any and Any as compatible with every type.",
+  "Every type is a subtype of object, but object is not a subtype of every other type, so a type checker rejects most operations on an object-typed value.",
+  "PEP 544 introduced structural subtyping, allowing a class such as Bucket to be treated as a subtype of Sized and Iterable[int] without explicit base classes.",
+  "AnyStr is defined as TypeVar('AnyStr', str, bytes) and is meant for functions that accept str or bytes but cannot allow the two to mix.",
+  "LiteralString was added in Python 3.11 and includes only literal strings, as specified in PEP 675, which helps guard against SQL injection."
+ ],
+ "entities": [
+  {
+   "name": "typing",
+   "type": "program",
+   "role": "Python standard library module that provides support for type hints, described as the subject of this documentation page"
+  },
+  {
+   "name": "typing_extensions",
+   "type": "program",
+   "role": "PyPI package that provides backports of new typing features to older versions of Python"
+  },
+  {
+   "name": "mypy",
+   "type": "program",
+   "role": "Static type checker whose documentation hosts the typing cheat sheet and Type System Reference cited as related resources"
+  },
+  {
+   "name": "PEP 484",
+   "type": "program",
+   "role": "Python Enhancement Proposal that initially defined the Python static type system as using nominal subtyping"
+  },
+  {
+   "name": "PEP 544",
+   "type": "program",
+   "role": "Python Enhancement Proposal that allows structural subtyping through protocols"
+  },
+  {
+   "name": "PEP 612",
+   "type": "program",
+   "role": "Python Enhancement Proposal referenced for ParamSpec and Concatenate support in Callable"
+  },
+  {
+   "name": "PEP 675",
+   "type": "program",
+   "role": "Python Enhancement Proposal referenced for details of LiteralString"
+  },
+  {
+   "name": "Protocol",
+   "type": "program",
+   "role": "Special typing class that users subclass to define custom protocols for structural subtyping"
+  },
+  {
+   "name": "NewType",
+   "type": "program",
+   "role": "typing helper used to create distinct types that static type checkers treat as subclasses of the original type"
+  },
+  {
+   "name": "AnyStr",
+   "type": "program",
+   "role": "Constrained type variable defined as TypeVar('AnyStr', str, bytes) for functions that accept str or bytes but not a mix"
+  },
+  {
+   "name": "Any",
+   "type": "program",
+   "role": "Special type indicating an unconstrained type that is compatible with every type"
+  },
+  {
+   "name": "LiteralString",
+   "type": "program",
+   "role": "Special type that includes only literal strings, added in Python 3.11"
+  },
+  {
+   "name": "Generic",
+   "type": "program",
+   "role": "Base class from which generic classes implicitly inherit, also usable for explicit inheritance for compatibility with Python 3.11 and lower"
+  }
+ ],
+ "tags": [
+  "python",
+  "type-hints",
+  "typing",
+  "static-typing",
+  "python-3.12"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13340,
+  "output_tokens": 1613
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "summary": "This is a reference page for the TO_JSON function, which converts a VARIANT value into a VARCHAR string containing its JSON representation, returning NULL for NULL input. The page explains that TO_JSON and PARSE_JSON are almost reciprocal but not exactly, because key order is unpredictable, whitespace can differ, and empty strings are not round-tripped. It includes examples showing NULL handling, a round-trip with a table, and how PARSE_JSON differs from TO_VARIANT when converting a string to a VARIANT.",
+ "one_line": "Reference for the TO_JSON function, which converts a VARIANT to its JSON string and explains how it relates to PARSE_JSON.",
+ "key_facts": [
+  "TO_JSON converts a VARIANT value to a string containing the JSON representation of the value.",
+  "If the input to TO_JSON is NULL, the result is also NULL.",
+  "The return type of TO_JSON is VARCHAR.",
+  "A JSON object is an unordered set of key-value pairs, so the order of key-value pairs produced by TO_JSON is not predictable.",
+  "TO_JSON and PARSE_JSON are described as (almost) converse or reciprocal functions.",
+  "The return value of PARSE_JSON('') is NULL, but the return value of TO_JSON(NULL) is not ''.",
+  "The string produced by TO_JSON can have less whitespace than the string passed to PARSE_JSON.",
+  "The example '{\"pi\":3.14,\"e\":2.71}' = TO_JSON(PARSE_JSON('{\"pi\":3.14,\"e\":2.71}')) is given as conceptually true.",
+  "In the NULL handling example, TO_JSON(NULL) returns NULL and PARSE_JSON(NULL) returns NULL, while PARSE_JSON('null') returns null.",
+  "In the short example, a table jdemo1 with a VARIANT column holding {\"food\":\"bard\"} yields TO_JSON(v) of {\"food\":\"bard\"}.",
+  "In the comparison example, TO_JSON(PARSE_JSON('{\"b\":1,\"a\":2}')) returns {\"a\":2,\"b\":1}, so it does not equal the input string '{\"b\":1,\"a\":2}'.",
+  "PARSE_JSON and TO_VARIANT both take a string and return a variant but are not equivalent.",
+  "In the TO_VARIANT comparison, the VARIANT2 column produced by TO_VARIANT holds the string \"{\\\"PI\\\":3.14}\" with escaped quotation marks, and VARIANT1 = VARIANT2 is False.",
+  "The page lists categories JSON and XML Parsing, Array/Object Creation and Manipulation, Map Creation and Manipulation, Extraction, Conversion/Casting, and Type Predicates."
+ ],
+ "entities": [
+  {
+   "name": "TO_JSON",
+   "type": "program",
+   "role": "Function that converts a VARIANT value to a VARCHAR string containing its JSON representation, documented on this page"
+  },
+  {
+   "name": "PARSE_JSON",
+   "type": "program",
+   "role": "Function that parses a JSON string into a VARIANT; described as almost the converse of TO_JSON"
+  },
+  {
+   "name": "TO_VARIANT",
+   "type": "program",
+   "role": "Function that takes a string and returns a variant; compared with PARSE_JSON and found not equivalent"
+  },
+  {
+   "name": "jdemo1",
+   "type": "other",
+   "role": "Example table with a single VARIANT column v used to demonstrate TO_JSON and PARSE_JSON"
+  },
+  {
+   "name": "jdemo2",
+   "type": "other",
+   "role": "Example table with VARCHAR, and two VARIANT columns used to compare PARSE_JSON and TO_VARIANT"
+  }
+ ],
+ "tags": [
+  "sql",
+  "json",
+  "snowflake",
+  "variant",
+  "type-conversion",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4229,
+  "output_tokens": 1274
+ }
+}

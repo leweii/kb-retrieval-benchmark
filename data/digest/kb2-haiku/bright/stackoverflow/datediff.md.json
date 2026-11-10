@@ -1,0 +1,48 @@
+{
+ "summary": "This note is the reference page for the Snowflake-style DATEDIFF function, which calculates the difference between two date, time, or timestamp expressions in a requested unit such as year, month, day, hour or nanosecond. It explains that the result is the second argument minus the first, that the minus sign can subtract dates (always returning days), and that smaller units are truncated rather than rounded. The page includes syntax, argument and return descriptions, usage rules for each date/time type, and worked examples with output tables.",
+ "one_line": "Reference for the DATEDIFF function, which returns the signed count of a chosen date or time unit between two date, time, or timestamp values.",
+ "key_facts": [
+  "DATEDIFF calculates the difference between two date, time, or timestamp expressions based on the date or time part requested.",
+  "The DATEDIFF function returns the result of subtracting the second argument from the third argument.",
+  "The syntax is DATEDIFF( <date_or_time_part>, <date_or_time_expr1>, <date_or_time_expr2> ).",
+  "The minus sign can also be used to subtract dates, and for that form the units are always days.",
+  "Output values can be negative, for example, -12 days.",
+  "The function supports units of years, quarters, months, weeks, days, hours, minutes, seconds, milliseconds, microseconds, and nanoseconds.",
+  "Smaller units are not used, so values are not rounded; DATEDIFF(month, '2021-01-01'::DATE, '2021-02-28'::DATE) returns one month even though the dates are closer to two months.",
+  "For a TIME value, DATEDIFF(milliseconds, '00:00:00', '00:00:01.1239') returns 1.123 seconds, not 1.124 seconds.",
+  "Calculating the difference in years between '2010-04-09 14:39:20' and '2013-05-08 23:39:20' returns 3.",
+  "Calculating the difference in hours between '2013-05-08T23:39:20.123-07:00' and that timestamp plus two years returns 17520.",
+  "For the minus sign form, date_expr1 and date_expr2 must both be dates; times and timestamps are not allowed.",
+  "In the date example, DATEDIFF(day, '2016-01-01', '2017-12-31') returns 730 and DATEDIFF(month, '2016-01-01', '2017-12-31') returns 23.",
+  "In the timestamp example, DATEDIFF(second, '2016-01-01 01:00:00', '2016-01-01 01:59:00') returns 3540 while DATEDIFF(minute, ...) returns 59."
+ ],
+ "entities": [
+  {
+   "name": "DATEDIFF",
+   "type": "program",
+   "role": "Function that calculates the difference between two date, time, or timestamp expressions in a requested unit"
+  },
+  {
+   "name": "Supported Date and Time Parts",
+   "type": "other",
+   "role": "Reference list of valid unit values for the date_or_time_part argument"
+  },
+  {
+   "name": "Calendar Weekdays",
+   "type": "other",
+   "role": "Linked resource explaining how week-based units depend on the week start session parameter"
+  }
+ ],
+ "tags": [
+  "sql",
+  "date-time",
+  "datediff",
+  "snowflake",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4400,
+  "output_tokens": 1028
+ }
+}

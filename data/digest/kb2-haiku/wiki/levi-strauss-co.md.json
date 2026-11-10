@@ -1,0 +1,52 @@
+{
+ "summary": "The note covers two closures in the history of Levi Strauss & Co. In 2002 the company shut its Valencia Street plant in San Francisco, which had opened the same year as the city's April 1906 earthquake. By the end of 2003 its last U.S. factory, in San Antonio, closed, ending 150 years of jeans made in the USA. Production of some higher-end, more expensive jeans later resumed in the US several years afterward.",
+ "one_line": "Covers Levi Strauss & Co.'s closure of its Valencia Street plant in 2002 and its last U.S. factory in San Antonio in 2003.",
+ "key_facts": [
+  "In 2002, Levi Strauss & Co. closed its Valencia Street plant in San Francisco.",
+  "The Valencia Street plant had opened in the same year as the city's April 1906 earthquake.",
+  "By the end of 2003, the closure of Levi's last U.S. factory in San Antonio ended 150 years of jeans made in the USA.",
+  "Levi's last U.S. factory was located in San Antonio.",
+  "Production of a few higher-end, more expensive styles of jeans resumed in the US several years after the factory closures.",
+  "The Valencia Street plant was in San Francisco."
+ ],
+ "entities": [
+  {
+   "name": "Levi Strauss & Co.",
+   "type": "organization",
+   "role": "company whose Valencia Street plant and San Antonio factory closed, ending US jeans production"
+  },
+  {
+   "name": "Valencia Street plant",
+   "type": "place",
+   "role": "San Francisco plant of Levi Strauss & Co. closed in 2002 that had opened in the year of the April 1906 earthquake"
+  },
+  {
+   "name": "San Antonio factory",
+   "type": "place",
+   "role": "Levi's last U.S. factory, whose closure by the end of 2003 ended 150 years of jeans made in the USA"
+  },
+  {
+   "name": "San Francisco",
+   "type": "place",
+   "role": "city where the Valencia Street plant was located"
+  },
+  {
+   "name": "April 1906 earthquake",
+   "type": "event",
+   "role": "San Francisco earthquake that occurred the same year the Valencia Street plant opened"
+  }
+ ],
+ "tags": [
+  "levi strauss",
+  "jeans manufacturing",
+  "plant closures",
+  "offshoring",
+  "san francisco",
+  "business history"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1113,
+  "output_tokens": 729
+ }
+}

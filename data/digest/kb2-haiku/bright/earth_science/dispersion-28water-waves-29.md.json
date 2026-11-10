@@ -1,0 +1,85 @@
+{
+ "summary": "This Wikipedia-style note explains frequency dispersion of water waves, where waves of different wavelengths travel at different phase speeds. It covers linear theory for gravity waves (phase and group velocity, the dispersion relation for deep, shallow and intermediate water), surface tension effects on gravity-capillary waves, interfacial waves between two fluid layers, and nonlinear amplitude dispersion (solitary waves, Stokes waves), along with a brief history of the theory.",
+ "one_line": "Explains how water waves of different wavelengths travel at different speeds, covering gravity and capillary waves, group velocity, and nonlinear effects.",
+ "key_facts": [
+  "Frequency dispersion means waves of different wavelengths travel at different phase speeds; water with a free surface is generally considered a dispersive medium.",
+  "For surface gravity waves, the dispersion relation according to linear theory is ω² = g k tanh(k h), where g is gravity, k the wavenumber and h the water depth.",
+  "In shallow water, the phase speed is c_p = √(gh), independent of wavelength, so shallow water waves do not have frequency dispersion.",
+  "In deep water (h > ½ λ), the phase speed is c_p = √(gλ/2π) = (g/2π)T, and the deep-water group velocity is half the phase velocity (c_g = ½ c_p).",
+  "In shallow water, for wavelengths larger than twenty times the water depth, the group velocity equals the phase velocity.",
+  "Capillary waves, forced only by surface tension, propagate faster for shorter wavelengths, unlike gravity waves.",
+  "For a water–air interface (σ = 0.074 N/m, ρ = 1000 kg/m³), waves are approximated as pure capillary waves for wavelengths less than 0.4 cm and as pure surface gravity waves above 7 cm.",
+  "The group velocity is the energy transport velocity for a narrow-band wave field.",
+  "The number of waves in a wave group measured in space divided by the number measured in time equals c_g / c_p.",
+  "The full linear dispersion relation was first found by Pierre-Simon Laplace, though his solution had some errors.",
+  "The complete theory for linear water waves, including dispersion, was derived by George Biddell Airy and published in about 1840.",
+  "The shallow water limit ω = √(gh) k was derived by Joseph Louis Lagrange.",
+  "The single soliton solution of the Korteweg–de Vries equation travels with velocity c = √(g(h+H)), so higher waves travel faster than lower waves.",
+  "To third order in deep water, ω² = gk[1+(ka)²], so large waves travel faster than small ones of the same frequency, noticeable when wave steepness ka is large."
+ ],
+ "entities": [
+  {
+   "name": "Pierre-Simon Laplace",
+   "type": "person",
+   "role": "found the full linear dispersion relation for water waves, though with some errors in his solution"
+  },
+  {
+   "name": "George Biddell Airy",
+   "type": "person",
+   "role": "derived the complete theory for linear water waves, including dispersion, published in about 1840"
+  },
+  {
+   "name": "Philip Kelland",
+   "type": "person",
+   "role": "found a similar equation at around the same time as Airy, making some mistakes in his derivation"
+  },
+  {
+   "name": "Joseph Louis Lagrange",
+   "type": "person",
+   "role": "derived the shallow water limit ω = √(gh) k"
+  },
+  {
+   "name": "Korteweg–de Vries equation",
+   "type": "program",
+   "role": "equation whose single soliton solution gives the speed of a solitary wave in shallow water"
+  },
+  {
+   "name": "Stokes wave",
+   "type": "other",
+   "role": "nonlinear wave theory referenced for deep-water nonlinear dispersion"
+  },
+  {
+   "name": "Reynolds",
+   "type": "person",
+   "role": "author of a 1877 Nature paper on the rate of progression of groups of waves"
+  },
+  {
+   "name": "Lord Rayleigh (J. W. Strutt)",
+   "type": "person",
+   "role": "author of a 1877 paper 'On progressive waves' cited in the notes"
+  },
+  {
+   "name": "Pond, S.; Pickard, G.L.",
+   "type": "person",
+   "role": "authors of Introductory dynamic oceanography (1978), cited in the notes"
+  },
+  {
+   "name": "Whitham",
+   "type": "person",
+   "role": "cited author (1974) in the notes on dispersion theory"
+  }
+ ],
+ "tags": [
+  "water waves",
+  "fluid dynamics",
+  "frequency dispersion",
+  "group velocity",
+  "surface gravity waves",
+  "capillary waves"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11907,
+  "output_tokens": 1459
+ }
+}

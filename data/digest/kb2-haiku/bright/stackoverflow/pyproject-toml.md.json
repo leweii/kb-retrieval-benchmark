@@ -1,0 +1,85 @@
+{
+ "summary": "This is the Python Packaging User Guide's formal specification of the pyproject.toml file, which serves as a configuration file for packaging-related and other tools. It defines the [build-system] table (with the mandatory requires key), the [project] table holding core metadata (name as the only always-required key, with version required but static or dynamic), the [tool] table for arbitrary tool configuration, and the history of its approval through PEP 518 (May 2016) and PEP 621 (November 2020). The page is a technical spec, not a user-friendly guide.",
+ "one_line": "Formal PyPA specification of the pyproject.toml file's [build-system], [project], and [tool] tables, originally defined in PEP 518 and PEP 621.",
+ "key_facts": [
+  "The pyproject.toml file is written in TOML and acts as a configuration file for packaging-related tools as well as other tools.",
+  "The specification was originally defined in PEP 518 and PEP 621.",
+  "Three tables are currently specified: [build-system], [project] and [tool]; other tables are reserved for future use.",
+  "The [build-system] table's only valid key is requires, which is mandatory and must be a list of strings representing build system dependencies.",
+  "The example [build-system] table for a project built with setuptools sets requires = [\"setuptools\"].",
+  "If the pyproject.toml file exists but lacks the [build-system] table, the default values specified should be used; if the table is specified but missing required fields, the tool should consider it an error.",
+  "The only key required to be statically defined in the [project] table is name.",
+  "The version key is required but may be specified either statically or listed as dynamic.",
+  "Tools SHOULD normalize the project name as soon as it is read for internal consistency.",
+  "If the readme key is a string, it is a path relative to pyproject.toml to a text file; files ending in .md are assumed to be text/markdown and files ending in .rst are assumed to be text/x-rst.",
+  "A build back-end MUST raise an error if the metadata specifies name in dynamic.",
+  "Build back-ends MUST raise an error if the metadata defines a [project.entry-points.console_scripts] or [project.entry-points.gui_scripts] table.",
+  "A project can use the subtable tool.$NAME if, and only if, they own the entry for $NAME in the Cheeseshop/PyPI.",
+  "In May 2016, PEP 518 approved the initial specification with a [build-system] table containing a requires key and a [tool] table; in November 2020, PEP 621 approved the [project] table."
+ ],
+ "entities": [
+  {
+   "name": "pyproject.toml",
+   "type": "product",
+   "role": "configuration file for packaging-related tools and other tools, written in TOML"
+  },
+  {
+   "name": "PEP 518",
+   "type": "program",
+   "role": "original specification that approved the pyproject.toml file with the [build-system] table, in May 2016"
+  },
+  {
+   "name": "PEP 621",
+   "type": "program",
+   "role": "specification that approved the [project] table, in November 2020"
+  },
+  {
+   "name": "PyPA",
+   "type": "organization",
+   "role": "copyright holder of the specification (Copyright © 2013–2020, PyPA)"
+  },
+  {
+   "name": "TOML",
+   "type": "product",
+   "role": "file format in which pyproject.toml is written"
+  },
+  {
+   "name": "setuptools",
+   "type": "product",
+   "role": "example build system whose [build-system] table requires setuptools"
+  },
+  {
+   "name": "flit",
+   "type": "product",
+   "role": "example tool that would store its configuration in [tool.flit]"
+  },
+  {
+   "name": "PyPI",
+   "type": "product",
+   "role": "Cheeseshop/PyPI, where a project must own the entry for $NAME to use the tool.$NAME subtable"
+  },
+  {
+   "name": "Python Packaging User Guide",
+   "type": "other",
+   "role": "site hosting this specification page"
+  },
+  {
+   "name": "Furo",
+   "type": "product",
+   "role": "Sphinx theme used to build the page"
+  }
+ ],
+ "tags": [
+  "pyproject.toml",
+  "python packaging",
+  "build system",
+  "pypa specification",
+  "configuration",
+  "toml"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10186,
+  "output_tokens": 1266
+ }
+}

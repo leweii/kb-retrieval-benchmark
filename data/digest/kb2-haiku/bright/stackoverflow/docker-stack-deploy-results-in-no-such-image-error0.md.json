@@ -1,0 +1,97 @@
+{
+ "summary": "A Stack Overflow question asks why 'docker stack deploy' fails with 'No such image: myuser/myrepo:mytag' for a private Docker Hub image, while 'docker-compose up' works. The accepted answer (by the asker, ice_chrysler) explains that the stack was deployed to a swarm worker node lacking registry credentials, fixed by using --with-registry-auth or deploying to a node holding the image. The page also includes several other answers listing additional causes: insecure registry settings not applied on all nodes, expired CI registry tokens, full disk space on a node, corporate VPN/proxy issues, and a private registry run as a container instead of a service.",
+ "one_line": "Stack Overflow thread on why docker stack deploy reports 'No such image' for a private registry image, with causes and fixes from several answers.",
+ "key_facts": [
+  "The question asks why 'docker stack deploy -c docker-compose.yml myapp' fails with \"No such image: myuser/myrepo:mytag\" while 'docker-compose up' works.",
+  "The question was asked on Nov 24, 2017 and was viewed about 32k times.",
+  "The asker had successfully run 'docker pull myuser/myrepo:mytag' before deploying and tried 'docker system prune' without success.",
+  "The accepted answer states the swarm stack was deployed to a worker node rather than the manager node the asker expected.",
+  "The accepted answer says the worker had no credentials to pull the image from the private repository.",
+  "The accepted answer suggests passing the flag --with-registry-auth to push repository credentials to the worker node.",
+  "A 2020 answer notes that deploying to an insecure registry fails if daemon.json is not edited on the server pulling the image.",
+  "A 2023 answer reports that a GitLab registry token valid for deploying to master was not valid for workers because the GitLab job had ended.",
+  "A 2023 answer reports that a swarm node running out of disk space produced the same error as an opaque message.",
+  "A 2022 answer reports that creating a service without a compose file using the same image URL worked, after which compose-file deployments also worked.",
+  "A 2023 answer says a private registry must be run as a SERVICE rather than just a container on the swarm manager node.",
+  "Konrad's comment describes intermittent failures using --prune, --with-registry-auth and --resolve-image=always with a private registry."
+ ],
+ "entities": [
+  {
+   "name": "Docker Swarm",
+   "type": "program",
+   "role": "orchestration mode in which the asker deploys a service via docker stack deploy"
+  },
+  {
+   "name": "docker-compose",
+   "type": "program",
+   "role": "tool whose compose file is used with docker stack deploy and which works with docker-compose up"
+  },
+  {
+   "name": "myuser/myrepo:mytag",
+   "type": "product",
+   "role": "custom image the asker pushed to a private Docker Hub repository"
+  },
+  {
+   "name": "Docker-Hub",
+   "type": "organization",
+   "role": "registry where the asker deployed the custom image to a private repository"
+  },
+  {
+   "name": "ice_chrysler",
+   "type": "person",
+   "role": "asker of the question who also wrote the accepted answer"
+  },
+  {
+   "name": "Konrad",
+   "type": "person",
+   "role": "commenter reporting intermittent image pull failures with a private registry"
+  },
+  {
+   "name": "Curious Sam",
+   "type": "person",
+   "role": "answer author who described the insecure registry daemon.json scenario"
+  },
+  {
+   "name": "Alexander Abramov",
+   "type": "person",
+   "role": "answer author who found GitLab authorization tokens invalid for worker nodes"
+  },
+  {
+   "name": "Gazza",
+   "type": "person",
+   "role": "answer author who found a swarm node out of disk space caused the error"
+  },
+  {
+   "name": "wintel-warrior",
+   "type": "person",
+   "role": "answer author who resolved the error by creating a service without a compose file"
+  },
+  {
+   "name": "padu",
+   "type": "person",
+   "role": "answer author who advised running a private register as a SERVICE on the swarm manager"
+  },
+  {
+   "name": "Portainer",
+   "type": "product",
+   "role": "tool used by wintel-warrior to update the stack"
+  },
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "Q&A website hosting the question and answers"
+  }
+ ],
+ "tags": [
+  "docker",
+  "docker-swarm",
+  "docker-compose",
+  "private-registry",
+  "troubleshooting"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5942,
+  "output_tokens": 1364
+ }
+}

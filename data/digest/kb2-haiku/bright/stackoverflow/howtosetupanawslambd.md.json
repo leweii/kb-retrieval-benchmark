@@ -1,0 +1,126 @@
+{
+ "summary": "A step-by-step tutorial by Adam Bertram (article written by Michael Soule) on building an AWS Lambda PowerShell function that provisions IAM roles from configuration templates stored in an S3 bucket. It covers prerequisites, creating the S3 bucket with public access blocked, creating an IAM role and policies, writing and publishing the Lambda script, configuring an hourly CloudWatch Events trigger, uploading test role JSON files, and manually invoking the function to verify the role was created.",
+ "one_line": "Tutorial on building an AWS Lambda PowerShell function that reads IAM role templates from S3 and creates IAM roles automatically.",
+ "key_facts": [
+  "The tutorial was published on January 14, 2021 on the Adam the Automator (ATA) blog and was written by Michael Soule, a frequent contributor, with Adam Bertram credited as the blog author.",
+  "Prerequisites include PowerShell Core 6.0, .NET Core 2.1 SDK, the AWSPowerShell.NetCore 4.0.1.1 and AWSLambdaPSCore 1.2.0.0 PowerShell modules, and an AWS CLI profile with the default region set to us-east-1.",
+  "The example S3 bucket is named awslambdapowershelldemo1, and S3 bucket names must be globally unique and lowercase.",
+  "The S3 bucket is created with public access block settings set to true for BlockPublicAcl, BlockPublicPolicy, IgnorePublicAcl and RestrictPublicBucket.",
+  "The IAM role created for the Lambda function is named ROLE-RoleManager and its trust policy allows the lambda.amazonaws.com service to assume it.",
+  "The inline policy POLICY-ROLE-RoleManager is written to ROLE-RoleManager, and the AWS managed policy arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole is registered to it.",
+  "The example custom policy allows any IAM action against any resource, and the article advises limiting actions and resources in a production deployment.",
+  "The Lambda script is named FUNCTION-RoleManager-1.ps1 and is created with the New-AWSPowerShellLambda cmdlet using the Basic template.",
+  "The Lambda function is published with the Publish-AWSPowerShellLambda cmdlet, which zips the script and uploads it to the AWS Lambda service.",
+  "The CloudWatch Event rule is named RULE-CronHourly and uses the schedule expression rate(1 hour) with state ENABLED.",
+  "The Lambda function reads object keys in the form ACCOUNT-OR-SERVICE/ROLE-NAME/POLICY-NAME.json, where a 12-digit entity is treated as an AWS account number and any other entity is treated as an AWS service name.",
+  "Files named managed.json contain a list of AWS managed policy ARNs under the key arn, and other JSON files are attached as inline customer managed policies named after the file.",
+  "The test role example uses the managed policy arn:aws:iam::aws:policy/AdministratorAccess and an inline policy file named POLICY-FullAdmin.json under the ROLE-Name role.",
+  "The function is manually invoked with Invoke-LMFunction, and the new role is verified with Get-IAMRole -RoleName ROLE-Name.",
+  "The full code is available in a GitHub repository at Snozzberries/AWS-Role-Manager."
+ ],
+ "entities": [
+  {
+   "name": "Adam the Automator (ATA)",
+   "type": "organization",
+   "role": "blog where the article was published, described as a site for how-to posts on cloud computing, system administration, IT, and DevOps"
+  },
+  {
+   "name": "Adam Bertram",
+   "type": "person",
+   "role": "author credited on the blog post by Hashnode profile"
+  },
+  {
+   "name": "Michael Soule",
+   "type": "person",
+   "role": "author of the article, described as a frequent contributor to the Adam the Automator blog"
+  },
+  {
+   "name": "PowerShell Core",
+   "type": "product",
+   "role": "PowerShell version 6.0 required on the local machine for developing the Lambda function"
+  },
+  {
+   "name": ".NET Core 2.1 SDK",
+   "type": "product",
+   "role": "software development kit required on the local machine"
+  },
+  {
+   "name": "AWSPowerShell.NetCore",
+   "type": "product",
+   "role": "PowerShell module version 4.0.1.1 required as a prerequisite"
+  },
+  {
+   "name": "AWSLambdaPSCore",
+   "type": "product",
+   "role": "PowerShell module version 1.2.0.0 required as a prerequisite"
+  },
+  {
+   "name": "AWS Lambda",
+   "type": "product",
+   "role": "service where the PowerShell function is published and run"
+  },
+  {
+   "name": "AWS Identity and Access Management (IAM)",
+   "type": "program",
+   "role": "AWS service that controls authentication and access, including IAM roles"
+  },
+  {
+   "name": "Amazon S3",
+   "type": "product",
+   "role": "storage service where configuration files for Lambda are stored in the awslambdapowershelldemo1 bucket"
+  },
+  {
+   "name": "awslambdapowershelldemo1",
+   "type": "product",
+   "role": "example S3 bucket that stores role configuration files read by the Lambda function"
+  },
+  {
+   "name": "ROLE-RoleManager",
+   "type": "product",
+   "role": "IAM role created for the Lambda function to run under"
+  },
+  {
+   "name": "FUNCTION-RoleManager-1",
+   "type": "product",
+   "role": "name of the Lambda PowerShell function and its script file"
+  },
+  {
+   "name": "RULE-CronHourly",
+   "type": "product",
+   "role": "CloudWatch Event rule that runs the function every hour"
+  },
+  {
+   "name": "CloudWatch Events",
+   "type": "program",
+   "role": "AWS service used to create the hourly scheduled trigger for the Lambda function"
+  },
+  {
+   "name": "AWSLambdaBasicExecutionRole",
+   "type": "product",
+   "role": "AWS managed policy attached to ROLE-RoleManager"
+  },
+  {
+   "name": "AdministratorAccess",
+   "type": "product",
+   "role": "AWS managed policy used as an example in the test role managed.json file"
+  },
+  {
+   "name": "GitHub Snozzberries/AWS-Role-Manager",
+   "type": "product",
+   "role": "repository where the code can be downloaded"
+  }
+ ],
+ "tags": [
+  "aws lambda",
+  "powershell",
+  "iam",
+  "s3",
+  "cloudwatch",
+  "automation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8752,
+  "output_tokens": 2049
+ }
+}

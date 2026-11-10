@@ -1,0 +1,96 @@
+{
+ "summary": "This National Geographic Education encyclopedic entry explains wind energy, also called wind power, which uses a wind turbine to convert the wind's kinetic energy into electricity. It describes the two main turbine types (HAWTs and VAWTs), turbine sizes and output, how electricity is used or stored, and the U.S. turbine count. It closes with the Walney Extension, described as the largest offshore wind farm in the world.",
+ "one_line": "National Geographic encyclopedic entry on how wind turbines convert wind's kinetic energy into electricity, turbine types, sizes, storage, and the Walney Extension offshore farm.",
+ "key_facts": [
+  "Wind energy, or wind power, is created using a wind turbine, a device that channels the power of the wind to generate electricity.",
+  "The wind blows the blades of the turbine, which are attached to a rotor; the rotor then spins a generator to create electricity.",
+  "There are two types of wind turbines: horizontal-axis wind turbines (HAWTs) and vertical-axis wind turbines (VAWTs).",
+  "HAWTs are the most common type of wind turbine and usually have two or three long, thin blades that look like an airplane propeller.",
+  "VAWTs have shorter, wider curved blades that resemble the beaters used in an electric mixer.",
+  "Small, individual wind turbines can produce 100 kilowatts of power, enough to power a home.",
+  "Slightly larger wind turbines sit on towers as tall as 80 meters (260 feet) with rotor blades extending approximately 40 meters (130 feet) long and can generate 1.8 megawatts of power.",
+  "Even larger wind turbines stand on towers 240 meters (787 feet) tall with rotor blades more than 162 meters (531 feet) long and can generate anywhere from 4.8 to 9.5 megawatts of power.",
+  "The United States Department of Energy is working with the National Laboratories to develop technologies such as batteries and pumped-storage hydropower to store excess wind energy.",
+  "Companies like General Electric install batteries along with their wind turbines so that electricity can be stored right away as it is generated.",
+  "According to the U.S. Geological Survey, there are 57,000 wind turbines in the United States, both on land and offshore.",
+  "A wind farm is a cluster of wind turbines and can generate enough electricity to power thousands of homes.",
+  "The Walney Extension is the largest offshore wind farm in the world, located in the Irish Sea approximately 19 kilometers (11 miles) west of the northwest coast of England.",
+  "The Walney Extension covers 149 square kilometers (56 square miles) and has a grid of 87 wind turbines standing 195 meters (640 feet) tall.",
+  "The Walney Extension has the potential to generate 659 megawatts of power, enough to supply 600,000 homes in the United Kingdom."
+ ],
+ "entities": [
+  {
+   "name": "National Geographic Society",
+   "type": "organization",
+   "role": "publisher and author of the encyclopedic entry on wind energy"
+  },
+  {
+   "name": "United States Department of Energy",
+   "type": "organization",
+   "role": "agency working with the National Laboratories to develop batteries and pumped-storage hydropower for storing wind energy"
+  },
+  {
+   "name": "National Laboratories",
+   "type": "organization",
+   "role": "research institutions working with the Department of Energy on storage technologies"
+  },
+  {
+   "name": "General Electric",
+   "type": "organization",
+   "role": "company that installs batteries along with its wind turbines"
+  },
+  {
+   "name": "U.S. Geological Survey",
+   "type": "organization",
+   "role": "source of the count of 57,000 wind turbines in the United States"
+  },
+  {
+   "name": "Walney Extension",
+   "type": "place",
+   "role": "largest offshore wind farm in the world, located in the Irish Sea off northwest England"
+  },
+  {
+   "name": "Irish Sea",
+   "type": "place",
+   "role": "body of water where the Walney Extension is located"
+  },
+  {
+   "name": "San Francisco, California",
+   "type": "place",
+   "role": "city the Walney Extension's area is compared to as being bigger than"
+  },
+  {
+   "name": "Manhattan",
+   "type": "place",
+   "role": "island in New York the Walney Extension's area is compared to as being bigger than"
+  },
+  {
+   "name": "United Kingdom",
+   "type": "place",
+   "role": "country whose 600,000 homes the Walney Extension could supply with electricity"
+  },
+  {
+   "name": "wind turbine",
+   "type": "product",
+   "role": "device that channels the power of the wind to generate electricity"
+  },
+  {
+   "name": "wind farm",
+   "type": "other",
+   "role": "cluster of wind turbines that can generate electricity to power thousands of homes"
+  }
+ ],
+ "tags": [
+  "wind energy",
+  "renewable energy",
+  "wind turbines",
+  "offshore wind",
+  "electricity generation",
+  "energy storage"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3927,
+  "output_tokens": 1510
+ }
+}

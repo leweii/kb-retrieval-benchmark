@@ -1,0 +1,38 @@
+{
+ "summary": "The note is a short entry on Daybreak Northern Ireland, formerly titled GMTV Northern Ireland. It describes the programme as the regional news strand for Northern Ireland within the ITV breakfast service, ITV Breakfast. The note gives no further details on dates, presenters or scheduling.",
+ "one_line": "Daybreak Northern Ireland, formerly GMTV Northern Ireland, was the Northern Ireland regional news strand for ITV Breakfast.",
+ "key_facts": [
+  "Daybreak Northern Ireland was previously titled GMTV Northern Ireland.",
+  "Daybreak Northern Ireland was the regional news strand for Northern Ireland.",
+  "Daybreak Northern Ireland was provided for the ITV breakfast station ITV Breakfast."
+ ],
+ "entities": [
+  {
+   "name": "Daybreak Northern Ireland",
+   "type": "program",
+   "role": "regional news strand for Northern Ireland, previously titled GMTV Northern Ireland"
+  },
+  {
+   "name": "GMTV Northern Ireland",
+   "type": "program",
+   "role": "previous title of Daybreak Northern Ireland"
+  },
+  {
+   "name": "ITV Breakfast",
+   "type": "program",
+   "role": "ITV breakfast station for which the Northern Ireland strand was provided"
+  }
+ ],
+ "tags": [
+  "television",
+  "regional news",
+  "northern ireland",
+  "itv",
+  "broadcasting"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 1059,
+  "output_tokens": 473
+ }
+}

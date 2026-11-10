@@ -1,0 +1,65 @@
+{
+ "summary": "This note describes the 2016 World Series, the championship series of Major League Baseball's 2016 season and the 112th edition of the series. It was a best-of-seven playoff between the National League champion Chicago Cubs and the American League champion Cleveland Indians, the first postseason meeting of those franchises. The Indians had home-field advantage because the AL won the 2016 All-Star Game, which was the last World Series to use that rule. The note's two passages give different end dates for the series (November 3 and November 2).",
+ "one_line": "Overview of the 2016 World Series, the MLB championship between the Chicago Cubs and Cleveland Indians, the first postseason meeting of those franchises.",
+ "key_facts": [
+  "The 2016 World Series was the championship series of Major League Baseball's (MLB) 2016 season.",
+  "It was the 112th edition of the World Series.",
+  "It was a best-of-seven playoff between the National League (NL) champion Chicago Cubs and the American League (AL) champion Cleveland Indians.",
+  "The 2016 World Series was the first meeting of the Chicago Cubs and Cleveland Indians in postseason history.",
+  "The series was played between October 25 and November 3, according to the first passage of the note.",
+  "The second passage of the note gives the series end date as November 2 instead of November 3.",
+  "The Indians had home-field advantage because the American League had won the 2016 All-Star Game.",
+  "The 2016 World Series was the last World Series to have home-field advantage determined by All-Star Game results.",
+  "Since 2017, home-field advantage in the World Series is awarded to the team with the better record."
+ ],
+ "entities": [
+  {
+   "name": "2016 World Series",
+   "type": "event",
+   "role": "Championship series of Major League Baseball's 2016 season, the 112th edition of the World Series"
+  },
+  {
+   "name": "Major League Baseball (MLB)",
+   "type": "organization",
+   "role": "Professional baseball league whose championship series is the World Series"
+  },
+  {
+   "name": "Chicago Cubs",
+   "type": "organization",
+   "role": "National League (NL) champion that played in the 2016 World Series"
+  },
+  {
+   "name": "Cleveland Indians",
+   "type": "organization",
+   "role": "American League (AL) champion that played in the 2016 World Series and had home-field advantage"
+  },
+  {
+   "name": "National League (NL)",
+   "type": "organization",
+   "role": "MLB league whose champion was the Chicago Cubs"
+  },
+  {
+   "name": "American League (AL)",
+   "type": "organization",
+   "role": "MLB league whose champion was the Cleveland Indians and which won the 2016 All-Star Game"
+  },
+  {
+   "name": "2016 All-Star Game",
+   "type": "event",
+   "role": "Game whose result gave the American League home-field advantage in the 2016 World Series"
+  }
+ ],
+ "tags": [
+  "baseball",
+  "mlb",
+  "world series",
+  "chicago cubs",
+  "cleveland indians",
+  "2016"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1374,
+  "output_tokens": 1040
+ }
+}

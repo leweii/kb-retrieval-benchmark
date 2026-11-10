@@ -1,0 +1,59 @@
+{
+ "summary": "This is Snowflake's reference page for the CREATE CONNECTION SQL command, which creates a connection in an account and requires Business Critical Edition or higher. It gives the syntax for a primary connection and a secondary (replica) connection, the name rules, the optional COMMENT parameter, and the access requirement that only ACCOUNTADMIN users can run it. Two examples show creating a connection for account myaccount1 in organization myorg and creating a replica of that primary connection.",
+ "one_line": "Snowflake reference for the CREATE CONNECTION command, which creates primary or replica connections for account failover and redirection.",
+ "key_facts": [
+  "CREATE CONNECTION requires Business Critical Edition (or higher).",
+  "Creates a new connection in the account.",
+  "The name must start with an alphabetic character and may only contain letters, decimal digits (0-9), and underscores (_).",
+  "For a primary connection, the name must be unique across connection names and account names in the organization.",
+  "For a secondary connection, the name must match the name of its primary connection.",
+  "The AS REPLICA OF clause specifies the primary connection as organization_name.account_name.name.",
+  "The COMMENT parameter is optional and defaults to no value.",
+  "Only account administrators (users with the ACCOUNTADMIN role) can execute this SQL command.",
+  "Customers should ensure no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata.",
+  "The syntax for creating a primary connection is CREATE CONNECTION [ IF NOT EXISTS ] <name> [ COMMENT = '<string_literal>' ].",
+  "Example: CREATE CONNECTION IF NOT EXISTS myconnection; creates a connection for account myaccount1 in organization myorg.",
+  "Example: CREATE CONNECTION myconnection AS REPLICA OF myorg.myaccount1.myconnection; creates a secondary connection as a replica of its primary connection.",
+  "The page is listed under Replication, Failover/Failback, and Client Redirect topics."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the service whose SQL command reference this page documents"
+  },
+  {
+   "name": "CREATE CONNECTION",
+   "type": "program",
+   "role": "SQL command that creates a primary or secondary connection in an account"
+  },
+  {
+   "name": "myaccount1",
+   "type": "other",
+   "role": "Account for which the example creates a connection, in organization myorg"
+  },
+  {
+   "name": "myorg",
+   "type": "organization",
+   "role": "Organization containing account myaccount1 in the examples"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "Role required to execute the CREATE CONNECTION command"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "replication",
+  "failover",
+  "client-redirect",
+  "database-administration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2056,
+  "output_tokens": 924
+ }
+}

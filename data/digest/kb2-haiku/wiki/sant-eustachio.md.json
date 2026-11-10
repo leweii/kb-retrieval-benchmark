@@ -1,0 +1,63 @@
+{
+ "summary": "The note describes Sant'Eustachio, a Roman Catholic titular church and minor basilica in Rome dedicated to the martyr Saint Eustace. It sits on Via di Sant'Eustachio in the rione of the same name, close to several notable Roman landmarks.",
+ "one_line": "Sant'Eustachio is a Roman Catholic titular church and minor basilica in Rome named for Saint Eustace, located in its namesake rione.",
+ "key_facts": [
+  "Sant'Eustachio is a Roman Catholic titular church and minor basilica in Rome.",
+  "The church is named for the martyr Saint Eustace.",
+  "Sant'Eustachio is located on Via di Sant'Eustachio.",
+  "The church stands in the rione Sant'Eustachio.",
+  "Sant'Eustachio is located a block west of the Pantheon.",
+  "Sant'Eustachio is located a block west of via della Rotonda.",
+  "Sant'Eustachio is located a block east of Sant'Ivo alla Sapienza.",
+  "Sant'Eustachio is located a block east of the Via della Dogana Vecchia."
+ ],
+ "entities": [
+  {
+   "name": "Sant'Eustachio",
+   "type": "place",
+   "role": "Roman Catholic titular church and minor basilica in Rome, named for the martyr Saint Eustace"
+  },
+  {
+   "name": "Saint Eustace",
+   "type": "person",
+   "role": "martyr for whom the church is named"
+  },
+  {
+   "name": "Via di Sant'Eustachio",
+   "type": "place",
+   "role": "street on which the church is located"
+  },
+  {
+   "name": "Pantheon",
+   "type": "place",
+   "role": "landmark a block east of the church"
+  },
+  {
+   "name": "via della Rotonda",
+   "type": "place",
+   "role": "street a block east of the church"
+  },
+  {
+   "name": "Sant'Ivo alla Sapienza",
+   "type": "place",
+   "role": "landmark a block west of the church"
+  },
+  {
+   "name": "Via della Dogana Vecchia",
+   "type": "place",
+   "role": "street a block west of the church"
+  }
+ ],
+ "tags": [
+  "rome",
+  "churches",
+  "catholic",
+  "architecture",
+  "rione sant'eustachio"
+ ],
+ "category": "religion & culture",
+ "usage": {
+  "input_tokens": 1119,
+  "output_tokens": 675
+ }
+}

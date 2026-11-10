@@ -1,0 +1,69 @@
+{
+ "summary": "This is a GitHub issue (#21) in the gazebo-web/gazebosim-web-frontend repository, opened by j-rivero on March 21, 2023, proposing that the tutorials listed on each gz library's main doxygen page be displayed on the main tutorials page of the Gazebo documentation website. The stated goal is greater visibility of available tutorials and easier discovery by search engines and documentation searchers. The issue was later mentioned by azeey in a December 2023 issue in the gazebosim/docs repository about using a static site generator for gazebosim.org. Navigation, sign-in and footer boilerplate was ignored.",
+ "one_line": "GitHub issue #21 proposing that tutorials from each gz library's doxygen main page be listed on the Gazebo documentation's main tutorials page.",
+ "key_facts": [
+  "GitHub issue #21 is titled 'List all tutorials contained on each of the main doxygen pages of the gz libraries in the main tutorials page' in the gazebo-web/gazebosim-web-frontend repository.",
+  "The issue was opened by j-rivero on Mar 21, 2023.",
+  "The issue's status is Open.",
+  "The stated goal is to gain more visibility on all the tutorials available and facilitate the work of the search engines and searchers of documentation in general.",
+  "The proposal is to display the list of tutorials from each library's doxygen main page inside the main documentation pages of the webpage.",
+  "An example doxygen tutorials page cited is https://gazebosim.org/api/math/7/tutorials.html.",
+  "An example main documentation tutorials page cited is https://gazebosim.org/docs/garden/tutorials.",
+  "j-rivero noted on Mar 21, 2023 that they cannot assign the issue to people in this repo and tagged @nkoenig for that reason.",
+  "The issue title was changed by j-rivero on Mar 21, 2023 from 'List all tutorials contained on each main doxygen page of the libraries in the main tutorials page' to its current wording.",
+  "On Dec 5, 2023, azeey mentioned this issue in gazebosim/docs issue #412, 'Use a static site generator for gazebosim.org'.",
+  "The issue has no assignees, labels, projects, milestone, or linked branches or pull requests.",
+  "The repository gazebo-web/gazebosim-web-frontend had 6 open issues and 1 pull request at the time of capture, and 4 forks and 0 stars.",
+  "The issue has one participant and one comment thread."
+ ],
+ "entities": [
+  {
+   "name": "j-rivero",
+   "type": "person",
+   "role": "author who opened issue #21 and proposed listing library doxygen tutorials on the main tutorials page"
+  },
+  {
+   "name": "nkoenig",
+   "type": "person",
+   "role": "GitHub user tagged by j-rivero in the issue because j-rivero could not assign the issue"
+  },
+  {
+   "name": "azeey",
+   "type": "person",
+   "role": "user who mentioned this issue in the gazebosim/docs repository on Dec 5, 2023"
+  },
+  {
+   "name": "gazebo-web/gazebosim-web-frontend",
+   "type": "program",
+   "role": "GitHub repository where issue #21 was filed"
+  },
+  {
+   "name": "gazebosim/docs",
+   "type": "program",
+   "role": "repository containing issue #412, 'Use a static site generator for gazebosim.org', which mentioned this issue"
+  },
+  {
+   "name": "gz libraries",
+   "type": "program",
+   "role": "set of libraries whose doxygen main pages contain tutorials to be listed"
+  },
+  {
+   "name": "gazebosim.org",
+   "type": "program",
+   "role": "website hosting the Gazebo documentation and the main tutorials page"
+  }
+ ],
+ "tags": [
+  "gazebo",
+  "documentation",
+  "tutorials",
+  "doxygen",
+  "github-issue",
+  "web-frontend"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4618,
+  "output_tokens": 1219
+ }
+}

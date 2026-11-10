@@ -1,0 +1,38 @@
+{
+ "summary": "The note is a short encyclopedic entry on the Malchiostro Annunciation, a painting by the Italian Renaissance artist Titian. It states the work was completed around 1520 and is housed in the Cathedral of Treviso in northern Italy.",
+ "one_line": "Titian's Malchiostro Annunciation, c. 1520, is a painting housed in the Cathedral of Treviso, northern Italy.",
+ "key_facts": [
+  "Malchiostro Annunciation is a painting by the Italian Renaissance artist Titian.",
+  "The Malchiostro Annunciation was completed around 1520.",
+  "The Malchiostro Annunciation is housed in the Cathedral of Treviso, northern Italy."
+ ],
+ "entities": [
+  {
+   "name": "Malchiostro Annunciation",
+   "type": "product",
+   "role": "painting by Titian, completed around 1520, housed in the Cathedral of Treviso"
+  },
+  {
+   "name": "Titian",
+   "type": "person",
+   "role": "Italian Renaissance artist who painted the Malchiostro Annunciation"
+  },
+  {
+   "name": "Cathedral of Treviso",
+   "type": "place",
+   "role": "location in northern Italy where the painting is housed"
+  }
+ ],
+ "tags": [
+  "titian",
+  "renaissance painting",
+  "religious art",
+  "italian art",
+  "treviso"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1053,
+  "output_tokens": 421
+ }
+}

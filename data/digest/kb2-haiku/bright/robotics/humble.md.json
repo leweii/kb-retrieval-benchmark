@@ -1,0 +1,110 @@
+{
+ "summary": "This is the GitHub README page for the humble branch of the gazebosim/ros_gz repository, which provides integration between ROS (1 and 2) and Gazebo simulation. It lists the repository's packages (ros_gz metapackage, ros_gz_image, ros_gz_bridge, ros_gz_sim, ros_gz_sim_demos, ros_gz_point_cloud), a compatibility table of ROS 2 and Gazebo versions, and instructions for installing binaries or building from source for ROS Humble. Page navigation and site boilerplate were ignored.",
+ "one_line": "README for the ros_gz humble branch, covering ROS Humble and Gazebo integration packages, version compatibility, and install steps.",
+ "key_facts": [
+  "The ros_gz repository, maintained under the gazebosim organization, is described as integration between ROS (1 and 2) and Gazebo simulation.",
+  "The humble branch supports ROS Humble.",
+  "Humble binaries are available for Fortress and are hosted at https://packages.ros.org.",
+  "Binary install uses the command: sudo apt install ros-humble-ros-gz.",
+  "The ros_gz_bridge package is a bidirectional transport bridge between Gazebo Transport and ROS.",
+  "The ros_gz_image package is a unidirectional transport bridge for images from Gazebo Transport to ROS using image_transport.",
+  "The ros_gz_sim package provides convenient launch files and executables for using Gazebo Sim with ROS.",
+  "The ros_gz_point_cloud package provides plugins for publishing point clouds to ROS from Gazebo Sim simulations.",
+  "The compatibility table lists Humble paired with Fortress, Garden and Harmonic Gazebo versions.",
+  "The ros_ign prefixed packages are shim packages that redirect to their ros_gz counterpart.",
+  "To build from source, the GZ_VERSION environment variable is set to the Gazebo version to compile against, such as edifice.",
+  "The README warns that ros_gz makes heavy use of templates, which can make compilers consume a lot of memory; building with colcon build --parallel-workers=1 --executor sequential is suggested.",
+  "The repository is Apache-2.0 licensed and had 184 stars, 118 forks and 36 open issues at the time of capture.",
+  "The repository was tagged as a ROS 2 integration repository with topics including ros2, robotics-simulation and gazebo, and was presented as having a ROSCon 2022 video."
+ ],
+ "entities": [
+  {
+   "name": "gazebosim/ros_gz",
+   "type": "program",
+   "role": "GitHub repository providing integration between ROS (1 and 2) and Gazebo simulation; this page is its humble branch"
+  },
+  {
+   "name": "ROS Humble",
+   "type": "program",
+   "role": "ROS 2 distribution supported by this branch"
+  },
+  {
+   "name": "Gazebo",
+   "type": "program",
+   "role": "simulation environment that ros_gz integrates with ROS"
+  },
+  {
+   "name": "ros_gz",
+   "type": "program",
+   "role": "metapackage that provides all the other packages"
+  },
+  {
+   "name": "ros_gz_bridge",
+   "type": "program",
+   "role": "bidirectional transport bridge between Gazebo Transport and ROS"
+  },
+  {
+   "name": "ros_gz_image",
+   "type": "program",
+   "role": "unidirectional transport bridge for images from Gazebo Transport to ROS using image_transport"
+  },
+  {
+   "name": "ros_gz_sim",
+   "type": "program",
+   "role": "launch files and executables for using Gazebo Sim with ROS"
+  },
+  {
+   "name": "ros_gz_sim_demos",
+   "type": "program",
+   "role": "demos using the ROS-Gazebo integration"
+  },
+  {
+   "name": "ros_gz_point_cloud",
+   "type": "program",
+   "role": "plugins for publishing point clouds to ROS from Gazebo Sim simulations"
+  },
+  {
+   "name": "ros_ign",
+   "type": "program",
+   "role": "shim packages that redirect to their ros_gz counterpart"
+  },
+  {
+   "name": "Gazebo Transport",
+   "type": "program",
+   "role": "transport library that ros_gz_bridge and ros_gz_image connect to ROS"
+  },
+  {
+   "name": "image_transport",
+   "type": "program",
+   "role": "ROS image transport library used by ros_gz_image"
+  },
+  {
+   "name": "Fortress",
+   "type": "program",
+   "role": "Gazebo version for which Humble binaries are provided"
+  },
+  {
+   "name": "packages.ros.org",
+   "type": "organization",
+   "role": "host of the ROS binary packages"
+  },
+  {
+   "name": "ROSCon 2022",
+   "type": "event",
+   "role": "event featured by a video on the page"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "robotics",
+  "gazebo",
+  "simulation",
+  "humble",
+  "ros-gazebo-integration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10355,
+  "output_tokens": 1513
+ }
+}

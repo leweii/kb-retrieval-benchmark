@@ -1,0 +1,62 @@
+{
+ "summary": "A fiction excerpt (apparently from a Cory Doctorow-style novel, though the author isn't named) in which Mr Gonzales, a venture capital franchisee, pitches funding to Diana, a 60-year-old engineer in Calvinia who turns shipping-container junk into new products using 3D printing and evolutionary design. She rejects his $300,000 minimum angel round, arguing she can grow organically and that his gigafund's structure can't deploy capital efficiently.",
+ "one_line": "In a fiction excerpt, a sixty-year-old Calvinia engineer who recycles container junk into printed products rebuffs a gigafund VC's oversized investment offer.",
+ "key_facts": [
+  "After the WTO, the Chinese spent 25 years brute-forcing the problem-space of all possible 3D plastic objects that an American might pay money for.",
+  "Much of that plastic stuff sits on container ships in international waters, waiting for someone to pay the carbon taxes to land it.",
+  "Diana is an engineer living in Calvinia who imports junk electronics, chassis and parts and prints the actuators, controllers and wires herself.",
+  "Her design process: tumble parts to scan them, run an evolutionary algorithm to fit them together, and cull the ugly mutants while cultivating the pretty ones.",
+  "Diana can produce fifty original designs in a day and uses more than 80 percent of any container's payload; the rest goes to feedstockers to be eaten by bacteria.",
+  "She says manufacturing is easy 'monkey labor' because every kid, especially girls, takes shop class nowadays.",
+  "She made sub-micro solar cars for her parents' anniversary, saying no one wants to drive a truck anymore.",
+  "To double her operation she would need about 60 grand, and Gonzales's franchise's smallest angel round is three hundred kay ($300,000).",
+  "Gonzales offers to roll her round up with five or six similar firms; Diana says this would increase her communications and bureaucracy overhead by 3,000 percent.",
+  "Diana is growing organically, putting her best contractors on the payroll, and says at sixty she doesn't need to 'grow like a tumor anymore.'",
+  "Diana can turn 60 grand into 600 in six months, but says she can't turn a million into ten million in six years.",
+  "Gonzales's franchise is a gigafund (a billion dollars), and Diana points out it will still be sitting on three quarters of it by the time the fund cashes out when investing in $300,000 increments."
+ ],
+ "entities": [
+  {
+   "name": "Diana",
+   "type": "person",
+   "role": "60-year-old engineer in Calvinia who turns imported junk into printed products and declines venture funding"
+  },
+  {
+   "name": "Mr Gonzales",
+   "type": "person",
+   "role": "venture capital franchisee who pitches an angel round to Diana"
+  },
+  {
+   "name": "Calvinia",
+   "type": "place",
+   "role": "town where Diana lives and runs her operation"
+  },
+  {
+   "name": "WTO",
+   "type": "organization",
+   "role": "World Trade Organization, after which China spent 25 years exploring plastic object designs"
+  },
+  {
+   "name": "China",
+   "type": "place",
+   "role": "source of the mass-produced 3D plastic objects and junk electronics (referred to as 'the Chinese')"
+  },
+  {
+   "name": "Gonzales's franchise gigafund",
+   "type": "organization",
+   "role": "billion-dollar venture fund whose smallest franchisee investment is $300,000"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "venture capital",
+  "3d printing",
+  "evolutionary design",
+  "recycling"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1963,
+  "output_tokens": 1146
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "summary": "This Snowflake documentation page covers the DROP FAILOVER GROUP command, which removes a failover group from an account and requires Business Critical Edition or higher. It explains the syntax with an optional IF EXISTS clause, who may run the command (ACCOUNTADMIN or the group owner with OWNERSHIP), and the rules for dropping primary and secondary groups. It also notes how databases in a group behave after the group is dropped, and gives one example that drops a failover group named myfg in the source account.",
+ "one_line": "Snowflake reference for the DROP FAILOVER GROUP command, covering syntax, required privileges, and effects on included databases.",
+ "key_facts": [
+  "DROP FAILOVER GROUP requires Business Critical Edition (or higher) in Snowflake.",
+  "The command syntax is DROP FAILOVER GROUP [ IF EXISTS ] <name>.",
+  "Only an account administrator (user with the ACCOUNTADMIN role) or the group owner (role with the OWNERSHIP privilege on the group) can execute DROP FAILOVER GROUP.",
+  "A primary failover group can only be successfully dropped if no linked secondary failover groups exist.",
+  "A database included in a failover group is not dropped when the failover group is dropped.",
+  "If a secondary failover group is dropped, any database previously included in the group loses read-only protection and becomes writable.",
+  "If a secondary failover group is re-created from the same primary failover group as before, the databases in the group are overwritten by the databases in the primary failover group during the first refresh.",
+  "Databases overwritten by a re-created secondary failover group during the first refresh are read-only.",
+  "The example drops a failover group named myfg in the source account using DROP FAILOVER GROUP IF EXISTS myfg;.",
+  "The name parameter specifies the identifier for the failover group."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the database platform whose DROP FAILOVER GROUP command is documented"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "account administrator role allowed to execute DROP FAILOVER GROUP"
+  },
+  {
+   "name": "Business Critical Edition",
+   "type": "product",
+   "role": "Snowflake edition required to use failover groups"
+  },
+  {
+   "name": "DROP FAILOVER GROUP",
+   "type": "program",
+   "role": "SQL command that removes a failover group from the account"
+  },
+  {
+   "name": "myfg",
+   "type": "other",
+   "role": "failover group dropped in the example in the source account"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "failover groups",
+  "replication",
+  "sql commands",
+  "database administration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1598,
+  "output_tokens": 856
+ }
+}

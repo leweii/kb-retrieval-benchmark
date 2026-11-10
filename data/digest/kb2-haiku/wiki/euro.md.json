@@ -1,0 +1,48 @@
+{
+ "summary": "The note describes how the euro is governed and administered. The Frankfurt-based European Central Bank (ECB) and the Eurosystem, made up of the central banks of eurozone countries, manage it. The ECB alone sets monetary policy as an independent central bank, while the Eurosystem handles printing, minting and distribution of notes and coins and operation of eurozone payment systems.",
+ "one_line": "Describes the institutions that manage the euro: the Frankfurt-based ECB and the Eurosystem of eurozone central banks.",
+ "key_facts": [
+  "The euro is managed and administered by the Frankfurt-based European Central Bank (ECB).",
+  "The euro is also administered by the Eurosystem, which is composed of the central banks of the eurozone countries.",
+  "As an independent central bank, the European Central Bank has sole authority to set monetary policy for the euro.",
+  "The Eurosystem participates in the printing of euro notes in all member states.",
+  "The Eurosystem participates in the minting of euro coins in all member states.",
+  "The Eurosystem participates in the distribution of euro notes and coins in all member states.",
+  "The Eurosystem operates the eurozone payment systems.",
+  "The European Central Bank is based in Frankfurt."
+ ],
+ "entities": [
+  {
+   "name": "European Central Bank (ECB)",
+   "type": "organization",
+   "role": "Frankfurt-based central bank that manages and administers the euro and has sole authority to set monetary policy"
+  },
+  {
+   "name": "Eurosystem",
+   "type": "organization",
+   "role": "Composed of the central banks of the eurozone countries; participates in printing, minting and distribution of notes and coins and operation of eurozone payment systems"
+  },
+  {
+   "name": "Frankfurt",
+   "type": "place",
+   "role": "Location of the European Central Bank"
+  },
+  {
+   "name": "Euro",
+   "type": "product",
+   "role": "Currency managed and administered by the ECB and the Eurosystem"
+  }
+ ],
+ "tags": [
+  "euro",
+  "european central bank",
+  "monetary policy",
+  "eurozone",
+  "currency"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1103,
+  "output_tokens": 646
+ }
+}

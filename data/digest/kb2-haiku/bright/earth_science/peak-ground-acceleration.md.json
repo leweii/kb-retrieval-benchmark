@@ -1,0 +1,181 @@
+{
+ "summary": "This note explains peak ground acceleration (PGA), the maximum ground acceleration recorded at a site during an earthquake, and how it is measured, split into horizontal and vertical components, and used in seismic engineering and hazard mapping. It contrasts PGA, an instrumental measure of how much the ground shakes at a point, with magnitude scales and the felt-based Mercalli intensity scale. It also includes a USGS instrumental intensity table correlating acceleration and velocity with perceived shaking and damage, and a table of notable earthquakes with their maximum recorded PGA values.",
+ "one_line": "Peak ground acceleration (PGA) is the maximum ground acceleration recorded at a site during an earthquake, used in engineering and seismic hazard mapping.",
+ "key_facts": [
+  "PGA is equal to the amplitude of the largest absolute acceleration recorded on an accelerogram at a site during a particular earthquake.",
+  "Unlike the Richter and moment magnitude scales, PGA is not a measure of the total energy of an earthquake but of how much the earth shakes at a given geographic point.",
+  "The peak horizontal acceleration (PHA) is the most commonly used type of ground acceleration in engineering applications.",
+  "For moderate earthquakes, PGA is a reasonably good determinant of damage; in severe earthquakes, damage is more often correlated with peak ground velocity.",
+  "Shallow-focused earthquakes generate stronger shaking (acceleration) than intermediate and deep quakes, since the energy is released closer to the surface.",
+  "1 g = 9.81 m/s, and 1 Gal is equal to 0.01 m/s (1 g = 981 Gal).",
+  "In seismic engineering, the effective peak acceleration (EPA) tends to be ⅔ – ¾ the PGA.",
+  "Generally, 0.001 g is perceptible by people, 0.02 g causes people to lose their balance, and 0.50 g is very high, where well-designed buildings can survive if the duration is short.",
+  "The United States Geological Survey developed an Instrumental Intensity scale that maps peak ground acceleration and peak ground velocity on an intensity scale similar to the felt Mercalli scale.",
+  "In the 7-class Japan Meteorological Agency seismic intensity scale, the highest intensity, Shindo 7, covers accelerations greater than 4 m/s (0.41 g).",
+  "In India, areas with expected PGA values higher than 0.36 g are classed as \"Zone 5\", or \"Very High Damage Risk Zone\".",
+  "The highest recorded single-direction PGA in the note is 4.36 g, from the 2008 Iwate–Miyagi Nairiku earthquake (magnitude 6.9, depth 8 km, 12 fatalities).",
+  "The 2016 Kaikōura earthquake (magnitude 7.8, depth 15 km) recorded a single-direction PGA of 3.23 g, with 2 fatalities.",
+  "The 2011 Tōhoku earthquake and tsunami (magnitude 9.1, depth 30 km, 19,759 fatalities) recorded a single-direction PGA of 2.7 g and a vector-sum PGA of 2.99 g.",
+  "The 2023 Turkey–Syria earthquake (magnitude 7.8, depth 10 km) had 57,658 fatalities and a recorded PGA of 1.62 g."
+ ],
+ "entities": [
+  {
+   "name": "Peak ground acceleration",
+   "type": "other",
+   "role": "Maximum ground acceleration recorded at a site during earthquake shaking, the central topic of the note"
+  },
+  {
+   "name": "Peak horizontal acceleration (PHA)",
+   "type": "other",
+   "role": "Most commonly used type of ground acceleration in engineering applications"
+  },
+  {
+   "name": "Effective peak acceleration (EPA)",
+   "type": "other",
+   "role": "Maximum ground acceleration to which a building responds, used in seismic engineering"
+  },
+  {
+   "name": "Peak ground velocity (PGV)",
+   "type": "other",
+   "role": "Greatest speed reached by the ground, correlated with damage in severe earthquakes"
+  },
+  {
+   "name": "Mercalli intensity scale",
+   "type": "other",
+   "role": "Scale using personal reports and observations to measure earthquake intensity"
+  },
+  {
+   "name": "Richter and moment magnitude scales",
+   "type": "other",
+   "role": "Scales measuring the total energy (magnitude) of an earthquake, contrasted with PGA"
+  },
+  {
+   "name": "United States Geological Survey",
+   "type": "organization",
+   "role": "Developed the Instrumental Intensity scale that maps PGA and PGV to an intensity scale"
+  },
+  {
+   "name": "Japan Meteorological Agency seismic intensity scale",
+   "type": "other",
+   "role": "7-class scale whose highest intensity, Shindo 7, covers accelerations greater than 0.41 g"
+  },
+  {
+   "name": "Maximum considered earthquake (MCE)",
+   "type": "event",
+   "role": "Earthquake level key identified structures such as hospitals, bridges and power plants must survive"
+  },
+  {
+   "name": "2016 Kaikōura earthquake",
+   "type": "event",
+   "role": "Magnitude 7.8 earthquake with recorded single-direction PGA of 3.23 g"
+  },
+  {
+   "name": "1960 Valdivia earthquake",
+   "type": "event",
+   "role": "Magnitude 9.5 earthquake with recorded PGA of 2.93 g (single direction) and 3.54 g (vector sum)"
+  },
+  {
+   "name": "2011 Tōhoku earthquake and tsunami",
+   "type": "event",
+   "role": "Magnitude 9.1 earthquake with 19,759 fatalities and recorded PGA of 2.7 g single direction"
+  },
+  {
+   "name": "2008 Iwate–Miyagi Nairiku earthquake",
+   "type": "event",
+   "role": "Magnitude 6.9 earthquake with highest recorded single-direction PGA in the note, 4.36 g"
+  },
+  {
+   "name": "2024 Noto Peninsula Earthquake",
+   "type": "event",
+   "role": "Magnitude 7.5 earthquake with recorded PGA of 2.88 g and 78 fatalities"
+  },
+  {
+   "name": "1999 Jiji earthquake",
+   "type": "event",
+   "role": "Magnitude 7.7 earthquake with recorded PGA of 1.92 g and 2,415 fatalities"
+  },
+  {
+   "name": "1994 Northridge earthquake",
+   "type": "event",
+   "role": "Magnitude 6.7 earthquake with recorded PGA of 1.82 g and 57 fatalities"
+  },
+  {
+   "name": "2023 Turkey–Syria earthquake",
+   "type": "event",
+   "role": "Magnitude 7.8 earthquake with 57,658 fatalities and recorded PGA of 1.62 g"
+  },
+  {
+   "name": "February 2011 Christchurch earthquake",
+   "type": "event",
+   "role": "Magnitude 6.2 earthquake with recorded PGA of 1.51 g and 185 fatalities"
+  },
+  {
+   "name": "2010 Canterbury earthquake",
+   "type": "event",
+   "role": "Magnitude 7.1 earthquake with recorded PGA of 1.26 g and no fatalities"
+  },
+  {
+   "name": "1971 Sylmar earthquake",
+   "type": "event",
+   "role": "Magnitude 6.6 earthquake with recorded PGA of 1.25 g"
+  },
+  {
+   "name": "2007 Chūetsu offshore earthquake",
+   "type": "event",
+   "role": "Magnitude 6.6 earthquake with recorded PGA of 1.04 g and 11 fatalities"
+  },
+  {
+   "name": "2020 Aegean Sea earthquake",
+   "type": "event",
+   "role": "Magnitude 7.0 earthquake with recorded PGA of 0.98 g and 118 fatalities"
+  },
+  {
+   "name": "1995 Great Hanshin earthquake",
+   "type": "event",
+   "role": "Magnitude 6.9 earthquake with recorded PGA of 0.91 g and 5,502–6,434 fatalities"
+  },
+  {
+   "name": "2013 Bohol earthquake",
+   "type": "event",
+   "role": "Magnitude 7.2 earthquake with recorded PGA of 0.8 g and 222 fatalities"
+  },
+  {
+   "name": "1989 Loma Prieta earthquake",
+   "type": "event",
+   "role": "Magnitude 6.9 earthquake with recorded PGA of 0.65 g and 63 fatalities"
+  },
+  {
+   "name": "2010 Haiti earthquake",
+   "type": "event",
+   "role": "Magnitude 7.0 earthquake with recorded PGA of 0.5 g and 100,000–316,000 fatalities"
+  },
+  {
+   "name": "2006 Yogyakarta earthquake",
+   "type": "event",
+   "role": "Magnitude 6.4 earthquake with recorded PGA of 0.34 g and 5,778 fatalities"
+  },
+  {
+   "name": "1964 Alaska earthquake",
+   "type": "event",
+   "role": "Magnitude 9.2 earthquake with recorded PGA of 0.18 g and 131 fatalities"
+  },
+  {
+   "name": "India",
+   "type": "place",
+   "role": "Country where areas with expected PGA above 0.36 g are classed as Zone 5, Very High Damage Risk Zone"
+  }
+ ],
+ "tags": [
+  "earthquakes",
+  "seismology",
+  "peak ground acceleration",
+  "earthquake engineering",
+  "seismic hazard",
+  "intensity scales"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4186,
+  "output_tokens": 3024
+ }
+}

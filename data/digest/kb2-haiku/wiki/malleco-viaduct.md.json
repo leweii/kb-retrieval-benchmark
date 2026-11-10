@@ -1,0 +1,58 @@
+{
+ "summary": "The note describes the Malleco Viaduct, a railway bridge in central Chile that crosses the Malleco River valley south of Collipulli in the Araucania Region. President José Manuel Balmaceda opened it on October 26, 1890, when it was the highest such bridge in the world. The Panamerican Highway runs right beside it.",
+ "one_line": "The Malleco Viaduct is a 1890 railway bridge over the Malleco River valley near Collipulli, Chile, once the world's highest of its kind.",
+ "key_facts": [
+  "The Malleco Viaduct is a railway bridge located in central Chile.",
+  "The Malleco Viaduct passes over the Malleco River valley.",
+  "The Malleco Viaduct is located south of Collipulli in the Araucania Region.",
+  "President José Manuel Balmaceda opened the Malleco Viaduct.",
+  "The Malleco Viaduct was opened on October 26, 1890.",
+  "When it opened, the Malleco Viaduct was the highest such bridge in the world.",
+  "The Panamerican Highway passes right next to the Malleco Viaduct."
+ ],
+ "entities": [
+  {
+   "name": "Malleco Viaduct",
+   "type": "place",
+   "role": "railway bridge in central Chile passing over the Malleco River valley, south of Collipulli in the Araucania Region"
+  },
+  {
+   "name": "Malleco River",
+   "type": "place",
+   "role": "river whose valley the viaduct passes over"
+  },
+  {
+   "name": "Collipulli",
+   "type": "place",
+   "role": "town north of the viaduct's location in the Araucania Region"
+  },
+  {
+   "name": "Araucania Region",
+   "type": "place",
+   "role": "region in which the viaduct is located"
+  },
+  {
+   "name": "José Manuel Balmaceda",
+   "type": "person",
+   "role": "President who opened the viaduct"
+  },
+  {
+   "name": "Panamerican Highway",
+   "type": "program",
+   "role": "highway that passes right next to the viaduct"
+  }
+ ],
+ "tags": [
+  "chile",
+  "railway bridge",
+  "infrastructure",
+  "viaduct",
+  "araucania region",
+  "19th century engineering"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1105,
+  "output_tokens": 655
+ }
+}

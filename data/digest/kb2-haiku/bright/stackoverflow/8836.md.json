@@ -1,0 +1,94 @@
+{
+ "summary": "This is a closed GitHub issue (#883) in the cfug/dio Flutter HTTP client repository, titled \"type '_OneByteString' is not a subtype of type 'Map<String, dynamic>'\". The original poster reports the error appearing only sporadically in release mode when parsing a Dio response body into a JSON map, and the issue thread collects many follow-up comments from users hitting similar type-cast errors. Maintainers and users suggest the error usually means a map key holds a value of an unexpected type, such as a string where a bool, int, or Map is expected, and one user notes a fix was already merged.",
+ "one_line": "GitHub issue in the dio Flutter HTTP package about a sporadic release-mode '_OneByteString' type-cast error when parsing JSON responses.",
+ "key_facts": [
+  "The GitHub issue is numbered #883 in the cfug/dio repository and is titled \"type '_OneByteString' is not a subtype of type 'Map<String, dynamic>'\".",
+  "The issue was opened by user easazade on Aug 4, 2020, and was later closed.",
+  "The original poster reports the error occurs only in release mode, at about 5% of the time, on Android 8.0 with dio version 3.0.9.",
+  "The original poster's code was: Response response = await _dio.get('user/info'); Map<String, dynamic> json = jsonDecode(jsonEncode(response.data));",
+  "The original poster says the error does not cause a crash but keeps recurring for repeated requests until the app is quit and restarted.",
+  "A stale bot marked the issue stale on Sep 4, 2020 and closed it on Oct 17, 2020; the original poster commented that the issue was still present.",
+  "User RalphNoel reported that clearing the application cache made the problem go away for them.",
+  "User Maged12 reported the same error type with SharedPreferences, where a null getBool value fell back to the string \"true\" instead of a bool.",
+  "User IguJl15 found the cause was an API returning the string \"true\" instead of the boolean true, and solved it with a custom parser.",
+  "User nullskill reported a related error type '_OneByteString' is not a subtype of type 'Value<String?>' when using the http and drift packages, fixed by casting with 'as String'.",
+  "User WiRight advised checking the first 10 lines of the stack trace, and wrapping runApp with runZonedGuarded or try/catch.",
+  "Maintainer AlexV525 stated the issue should be fixed already in commit cce167e.",
+  "The issue thread shows 16 thumbs-up reactions on the original post and 25 participants."
+ ],
+ "entities": [
+  {
+   "name": "cfug/dio",
+   "type": "program",
+   "role": "GitHub repository hosting the issue; the dio Flutter HTTP client package"
+  },
+  {
+   "name": "easazade",
+   "type": "person",
+   "role": "original poster who opened issue #883 on Aug 4, 2020"
+  },
+  {
+   "name": "AlexV525",
+   "type": "person",
+   "role": "project member who said the issue should be fixed already in commit cce167e"
+  },
+  {
+   "name": "RalphNoel",
+   "type": "person",
+   "role": "commenter who said clearing the cache fixed the problem for them"
+  },
+  {
+   "name": "Maged12",
+   "type": "person",
+   "role": "commenter who reported the same error type with SharedPreferences getBool"
+  },
+  {
+   "name": "IguJl15",
+   "type": "person",
+   "role": "commenter whose API returned the string \"true\" instead of a boolean, and who wrote a custom parser"
+  },
+  {
+   "name": "nullskill",
+   "type": "person",
+   "role": "commenter who reported a '_OneByteString' to 'Value<String?>' error with http and drift packages"
+  },
+  {
+   "name": "WiRight",
+   "type": "person",
+   "role": "commenter who advised checking the stack trace and wrapping runApp with runZonedGuarded"
+  },
+  {
+   "name": "stale bot",
+   "type": "other",
+   "role": "automated bot that marked the issue stale and closed it"
+  },
+  {
+   "name": "Firebase",
+   "type": "product",
+   "role": "crash reporting service where the original poster saw the error reported"
+  },
+  {
+   "name": "Crashlytics",
+   "type": "product",
+   "role": "crash reporting console where several users saw the error"
+  },
+  {
+   "name": "Sentry",
+   "type": "product",
+   "role": "error monitoring console where user maxzod saw the error"
+  }
+ ],
+ "tags": [
+  "flutter",
+  "dart",
+  "dio",
+  "json-parsing",
+  "type-cast-error",
+  "github-issue"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7640,
+  "output_tokens": 1405
+ }
+}

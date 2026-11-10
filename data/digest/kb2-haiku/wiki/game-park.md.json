@@ -1,0 +1,47 @@
+{
+ "summary": "The note describes Game Park, a South Korean company founded in 1996 that went bankrupt in March 2007. It is credited with creating the GP32 handheld and the never-released XGP. The note also says GamePark Holdings was founded in 2005 by former Game Park employees.",
+ "one_line": "Game Park was a South Korean company (1996–2007) that created the GP32 handheld and the unreleased XGP.",
+ "key_facts": [
+  "Game Park was a South Korean company.",
+  "Game Park was founded in 1996.",
+  "Game Park went bankrupt in March 2007.",
+  "Game Park is responsible for creating the GP32.",
+  "Game Park is responsible for creating the never-released XGP.",
+  "GamePark Holdings was founded in 2005.",
+  "GamePark Holdings was founded by former employees of Game Park."
+ ],
+ "entities": [
+  {
+   "name": "Game Park",
+   "type": "organization",
+   "role": "South Korean company founded in 1996 that went bankrupt in March 2007; created the GP32 and the never-released XGP"
+  },
+  {
+   "name": "GP32",
+   "type": "product",
+   "role": "product created by Game Park"
+  },
+  {
+   "name": "XGP",
+   "type": "product",
+   "role": "never-released product created by Game Park"
+  },
+  {
+   "name": "GamePark Holdings",
+   "type": "organization",
+   "role": "company founded in 2005 by former employees of Game Park"
+  }
+ ],
+ "tags": [
+  "video games",
+  "handheld consoles",
+  "south korea",
+  "company history",
+  "bankruptcy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1059,
+  "output_tokens": 469
+ }
+}

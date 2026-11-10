@@ -1,0 +1,130 @@
+{
+ "summary": "The note is a Wikipedia-style overview of the Cricket World Cup, covering the record of host nations and the teams that have done best or worst while co-hosting. It also explains the tournament's qualification structure, the number of teams and editions, the list of past winners, and its standing among world sporting events.",
+ "one_line": "Overview of the Cricket World Cup, covering host-nation results, qualification, past winners, and its ranking among world sporting events.",
+ "key_facts": [
+  "Sri Lanka, as co-host of the 1996 Cricket World Cup, was the first host to win the tournament, though the final was held in Pakistan.",
+  "India won the 2011 tournament as host and was the first team to win a final played in their own country.",
+  "Australia repeated the feat of winning as host in 2015.",
+  "England is the only other host to have made the final, in 1979.",
+  "New Zealand achieved their best World Cup result while co-hosting in 2015 as finalists.",
+  "Zimbabwe reached the Super Six while co-hosting in 2003, and Kenya reached the semi-finals in 2003 while co-hosting.",
+  "In 1987, co-hosts India and Pakistan both reached the semi-finals, but were eliminated by Australia and England respectively.",
+  "Australia in 1992, England in 1999, South Africa in 2003, and Bangladesh in 2011 were host teams eliminated in the first round.",
+  "The World Cup is open to all members of the International Cricket Council (ICC), although the highest-ranking teams receive automatic qualification.",
+  "The remaining teams are determined via the World Cricket League and the ICC World Cup Qualifier.",
+  "A total of twenty teams have competed in the eleven editions of the tournament.",
+  "Fourteen teams competed in the 2015 edition, and the 2019 edition will have only ten teams.",
+  "Australia has won the tournament five times, while the West Indies, India (twice each), Pakistan and Sri Lanka (once each) have also won it.",
+  "The best performance by a non-full-member team came when Kenya made the semi-finals of the 2003 tournament.",
+  "The tournament is the world's 4th biggest sporting event, behind the FIFA World Cup, Summer Olympics and Rugby World Cup."
+ ],
+ "entities": [
+  {
+   "name": "Cricket World Cup",
+   "type": "event",
+   "role": "The tournament the note describes, with editions, hosts, winners and qualification"
+  },
+  {
+   "name": "1996 Cricket World Cup",
+   "type": "event",
+   "role": "Tournament co-hosted by Sri Lanka, whose final was held in Pakistan"
+  },
+  {
+   "name": "Sri Lanka",
+   "type": "place",
+   "role": "Co-host of the 1996 Cricket World Cup and the first host to win the tournament; a past winner once"
+  },
+  {
+   "name": "Pakistan",
+   "type": "place",
+   "role": "Co-host of the 1987 tournament with India; venue for the 1996 final; past winner once"
+  },
+  {
+   "name": "India",
+   "type": "place",
+   "role": "Host that won the 2011 tournament and co-hosted 1987; past winner twice"
+  },
+  {
+   "name": "Australia",
+   "type": "place",
+   "role": "Host that repeated the host win in 2015; eliminated co-host India in 1987; past winner five times"
+  },
+  {
+   "name": "England",
+   "type": "place",
+   "role": "Only other host to have made the final, in 1979; eliminated co-host Pakistan in 1987"
+  },
+  {
+   "name": "New Zealand",
+   "type": "place",
+   "role": "Co-host that reached the final in 2015, equalling its best World Cup result"
+  },
+  {
+   "name": "Zimbabwe",
+   "type": "place",
+   "role": "Co-host that reached the Super Six in 2003"
+  },
+  {
+   "name": "Kenya",
+   "type": "place",
+   "role": "Co-host that reached the semi-finals in 2003; the best performance by a non-full-member team"
+  },
+  {
+   "name": "South Africa",
+   "type": "place",
+   "role": "Host eliminated in the first round in 2003"
+  },
+  {
+   "name": "Bangladesh",
+   "type": "place",
+   "role": "Host eliminated in the first round in 2011"
+  },
+  {
+   "name": "West Indies",
+   "type": "place",
+   "role": "Past tournament winner, once"
+  },
+  {
+   "name": "International Cricket Council",
+   "type": "organization",
+   "role": "Governing body whose members are all eligible to enter the World Cup (ICC)"
+  },
+  {
+   "name": "World Cricket League",
+   "type": "organization",
+   "role": "Body through which the remaining teams are determined for the World Cup"
+  },
+  {
+   "name": "ICC World Cup Qualifier",
+   "type": "event",
+   "role": "Qualifying competition used to determine the remaining World Cup teams"
+  },
+  {
+   "name": "FIFA World Cup",
+   "type": "event",
+   "role": "Sporting event ranked above the Cricket World Cup as the world's biggest"
+  },
+  {
+   "name": "Summer Olympics",
+   "type": "event",
+   "role": "Sporting event ranked above the Cricket World Cup as the world's biggest"
+  },
+  {
+   "name": "Rugby World Cup",
+   "type": "event",
+   "role": "Sporting event ranked above the Cricket World Cup as the world's biggest"
+  }
+ ],
+ "tags": [
+  "cricket",
+  "world cup",
+  "international cricket council",
+  "host nations",
+  "tournament history"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1537,
+  "output_tokens": 2011
+ }
+}

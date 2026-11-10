@@ -1,0 +1,49 @@
+{
+ "summary": "The note describes Pernigotti, one of the oldest and most traditional Italian manufacturers of chocolate and nougat candy. The company was founded in 1860 in Novi Ligure, Piedmont. In 2013 it was sold to the Istanbul-based Toksoz company.",
+ "one_line": "Pernigotti is a traditional Italian chocolate and nougat maker founded in 1860 in Novi Ligure, later sold to Turkey's Toksoz in 2013.",
+ "key_facts": [
+  "Pernigotti is one of the oldest and most traditional manufacturers of chocolate and nougat candy in Italy.",
+  "Pernigotti was founded in 1860.",
+  "Pernigotti was founded in the town of Novi Ligure, Piedmont.",
+  "In 2013, Pernigotti was sold to the Toksoz company of Istanbul."
+ ],
+ "entities": [
+  {
+   "name": "Pernigotti",
+   "type": "organization",
+   "role": "one of the oldest and most traditional Italian manufacturers of chocolate and nougat candy, founded in 1860 in Novi Ligure, Piedmont"
+  },
+  {
+   "name": "Novi Ligure",
+   "type": "place",
+   "role": "town in Piedmont where Pernigotti was founded in 1860"
+  },
+  {
+   "name": "Piedmont",
+   "type": "place",
+   "role": "Italian region containing the town of Novi Ligure, where Pernigotti was founded"
+  },
+  {
+   "name": "Toksoz",
+   "type": "organization",
+   "role": "company of Istanbul that bought Pernigotti in 2013"
+  },
+  {
+   "name": "Istanbul",
+   "type": "place",
+   "role": "city where the Toksoz company is based"
+  }
+ ],
+ "tags": [
+  "chocolate",
+  "nougat",
+  "italian confectionery",
+  "company history",
+  "food manufacturing"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1066,
+  "output_tokens": 574
+ }
+}

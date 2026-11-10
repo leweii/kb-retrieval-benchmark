@@ -1,0 +1,79 @@
+{
+ "summary": "Ore Run is a stream described as a tributary of Sullivan Branch in Sullivan County, Pennsylvania, United States. It is roughly long, flows through Davidson Township, and has a low pH and poor water quality. The note also lists the main rock formations and soil associations in the surrounding area.",
+ "one_line": "Ore Run is a short tributary of Sullivan Branch in Davidson Township, Sullivan County, Pennsylvania, with low pH and poor water quality.",
+ "key_facts": [
+  "Ore Run is a tributary of Sullivan Branch in Sullivan County, Pennsylvania, in the United States.",
+  "Ore Run is approximately long, though the note does not state the numeric length.",
+  "Ore Run flows through Davidson Township.",
+  "The watershed of Ore Run has an area given in the note, but the numeric value is not stated.",
+  "Ore Run has a low pH and poor water quality.",
+  "The main rock formations in the area of Ore Run are the Huntley Mountain Formation and the Burgoon Sandstone.",
+  "The main soil associations in the vicinity of Ore Run are the Deep-Wellsboro-Oquaga association and the Oquaga association.",
+  "The note leaves the length and watershed area of Ore Run blank, so those figures are unavailable from this source."
+ ],
+ "entities": [
+  {
+   "name": "Ore Run",
+   "type": "place",
+   "role": "tributary of Sullivan Branch that flows through Davidson Township and has a low pH and poor water quality"
+  },
+  {
+   "name": "Sullivan Branch",
+   "type": "place",
+   "role": "stream into which Ore Run flows as a tributary"
+  },
+  {
+   "name": "Sullivan County",
+   "type": "place",
+   "role": "county in Pennsylvania where Ore Run is located"
+  },
+  {
+   "name": "Pennsylvania",
+   "type": "place",
+   "role": "U.S. state containing Sullivan County and Ore Run"
+  },
+  {
+   "name": "United States",
+   "type": "place",
+   "role": "country containing Pennsylvania"
+  },
+  {
+   "name": "Davidson Township",
+   "type": "place",
+   "role": "township through which Ore Run flows"
+  },
+  {
+   "name": "Huntley Mountain Formation",
+   "type": "other",
+   "role": "main rock formation in the area of Ore Run"
+  },
+  {
+   "name": "Burgoon Sandstone",
+   "type": "other",
+   "role": "main rock formation in the area of Ore Run"
+  },
+  {
+   "name": "Deep-Wellsboro-Oquaga association",
+   "type": "other",
+   "role": "main soil association in the vicinity of Ore Run"
+  },
+  {
+   "name": "Oquaga association",
+   "type": "other",
+   "role": "main soil association in the vicinity of Ore Run"
+  }
+ ],
+ "tags": [
+  "pennsylvania",
+  "sullivan county",
+  "streams",
+  "watersheds",
+  "geology",
+  "soils"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1143,
+  "output_tokens": 1407
+ }
+}

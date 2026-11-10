@@ -1,0 +1,75 @@
+{
+ "summary": "A forum thread on the NVIDIA Developer Forums where user andrew.cra2019 asks why running the dustynv ROS2 Galactic Docker image on a Jetson Nano 4GB (JetPack 4.6.3) printed only setup output and dropped into a container shell without the usual download. Dusty_nv replies that the container was already running or already cached, so nothing was re-fetched. The user also tried building from source with jetson-containers, which failed because the base image nvcr.io/nvidia/l4t-base:r32.7.3 was not found; they suspected a premature upgrade from r32.7.1 to r32.7.3 caused the problem. The topic was auto-closed in January 2023.",
+ "one_line": "Forum thread on a Jetson Nano failing to run the ROS2 Galactic Docker image after a JetPack upgrade, with a missing L4T base image.",
+ "key_facts": [
+  "The user runs a Jetson Nano 4GB, Model B01, on JetPack-SDK-4.6.3, upgraded from 4.6.1.",
+  "The user ran docker_run.sh with CONTAINER_IMAGE set to dustynv/ros:galactic-pytorch-l4t-r32.7.1.",
+  "The docker_run.sh output ended at root@rosnet:/# followed by exit, with no download step shown.",
+  "The user noticed that the usual download and fetch did not happen when running the image.",
+  "Building from source with sudo ./scripts/docker_build_ros.sh --distro galactic --package desktop --with-pytorch reported L4T BSP Version R32.7.3.",
+  "The source build failed at Step 2/35 with the error: manifest for nvcr.io/nvidia/l4t-base:r32.7.3 not found: manifest unknown.",
+  "The user believed the update from r32.7.1 to r32.7.3 was premature and broke the setup.",
+  "Dusty_nv replied on December 16, 2022 that the container was already running or already downloaded, which explained why nothing was fetched.",
+  "The thread was automatically closed on January 4, 2023, 14 days after the last reply."
+ ],
+ "entities": [
+  {
+   "name": "NVIDIA Developer Forums",
+   "type": "organization",
+   "role": "forum hosting the discussion thread"
+  },
+  {
+   "name": "andrew.cra2019",
+   "type": "person",
+   "role": "forum user who posted the question about running the ROS Galactic Docker image"
+  },
+  {
+   "name": "dusty_nv",
+   "type": "person",
+   "role": "forum user who replied that the container was already present or running"
+  },
+  {
+   "name": "Jetson Nano 4GB",
+   "type": "product",
+   "role": "device the user ran the Docker image on, Model B01 running JetPack-SDK-4.6.3"
+  },
+  {
+   "name": "JetPack-SDK-4.6.3",
+   "type": "product",
+   "role": "software version on the Jetson Nano, upgraded from 4.6.1"
+  },
+  {
+   "name": "dustynv/ros:galactic-pytorch-l4t-r32.7.1",
+   "type": "product",
+   "role": "Docker image tag the user tried to run for ROS2 Galactic"
+  },
+  {
+   "name": "ROS2 Galactic",
+   "type": "program",
+   "role": "ROS distribution whose Docker image the user tried to run"
+  },
+  {
+   "name": "jetson-containers",
+   "type": "program",
+   "role": "repository the user cloned and used to build the ROS container from source"
+  },
+  {
+   "name": "nvcr.io/nvidia/l4t-base:r32.7.3",
+   "type": "product",
+   "role": "base image the source build failed to find, reported as manifest unknown"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "docker",
+  "jetson nano",
+  "nvidia jetson",
+  "jetpack",
+  "container troubleshooting"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4371,
+  "output_tokens": 1188
+ }
+}

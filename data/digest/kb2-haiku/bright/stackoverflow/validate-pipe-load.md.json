@@ -1,0 +1,53 @@
+{
+ "summary": "This note is the Snowflake documentation page for the VALIDATE_PIPE_LOAD table function, which returns details about errors Snowpipe encountered when loading data files into Snowflake tables. It covers the syntax with required PIPE_NAME and START_TIME and optional END_TIME arguments, the privileges needed (pipe ownership, MONITOR, or MONITOR EXECUTION, plus stage and table privileges), and the output columns such as ERROR, FILE, LINE, and REJECTED_RECORD. Key limits are that it only covers the last 14 days, returns nothing when no errors occurred, and returns a user error for pipes using COPY transformations. The note also includes a one-hour example query.",
+ "one_line": "Snowflake table function VALIDATE_PIPE_LOAD that returns error details for Snowpipe data loads over the last 14 days.",
+ "key_facts": [
+  "VALIDATE_PIPE_LOAD is a table function used to validate data files processed by Snowpipe.",
+  "The function returns details about any errors encountered during an attempted data load into Snowflake tables.",
+  "The function returns pipe activity within the last 14 days.",
+  "The syntax requires PIPE_NAME => '<string>' and START_TIME => <constant_expr>, with END_TIME as an optional argument.",
+  "START_TIME and END_TIME are timestamps in TIMESTAMP_LTZ format and must be within the last 14 days.",
+  "Results are returned only for the pipe owner or a role with the OWNERSHIP privilege on the pipe, or a role with MONITOR on the pipe or the global MONITOR EXECUTION privilege.",
+  "If Snowpipe encountered no errors within the specified time range, the function returns no results.",
+  "If the COPY statement in the pipe includes a COPY transformation, the function currently returns a user error.",
+  "If the specified date range falls outside the last 15 days, an error is returned.",
+  "Output columns include ERROR, FILE, LINE, CHARACTER, BYTE_OFFSET, CATEGORY, CODE, SQL_STATE, COLUMN_NAME, ROW_NUMBER, ROW_START_LINE and REJECTED_RECORD.",
+  "The ERROR column shows the first error in the source file, and FILE gives the name of the source file where the error was encountered.",
+  "The example validates loads for the MY_DB.PUBLIC.MYPIPE pipe within the previous hour using dateadd(hour, -1, current_timestamp()).",
+  "USAGE on an external stage or READ on an internal stage is needed in the pipe definition, along with SELECT and INSERT on the target table."
+ ],
+ "entities": [
+  {
+   "name": "VALIDATE_PIPE_LOAD",
+   "type": "program",
+   "role": "table function that returns error details for Snowpipe data loads, the subject of this documentation page"
+  },
+  {
+   "name": "Snowpipe",
+   "type": "product",
+   "role": "Snowflake service whose processed data files this function validates"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "company whose documentation page this note is clipped from, and whose tables receive the loaded data"
+  },
+  {
+   "name": "MY_DB.PUBLIC.MYPIPE",
+   "type": "product",
+   "role": "example pipe used in the usage example to validate loads from the previous hour"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "snowpipe",
+  "data-loading",
+  "error-handling",
+  "sql-table-functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2735,
+  "output_tokens": 1121
+ }
+}
