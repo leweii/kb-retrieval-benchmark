@@ -23,29 +23,62 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from harness.llm import Conversation  # noqa: E402
+from harness.llm import Conversation, Tool  # noqa: E402
 from harness.tools import CONFIGS, KB  # noqa: E402
 
 MAX_STEPS = 12
 QFILE = ROOT / "questions_v2/questions.jsonl"
 
-BASE_RULES = """- Use only information from the knowledge base. Questions may need facts from several documents.
-- If the knowledge base does not contain the information needed to answer, say clearly that it is not in the \
-knowledge base (in the user's language). Do not answer from general knowledge.
+BASE_RULES = """Answering rules:
+- The specific facts in your answer must come from the knowledge base. Questions may need facts from several \
+documents.
+- You may use general knowledge to interpret and connect what the knowledge base says (for example, which city a \
+landmark is in, or what a term means), but not to supply facts the knowledge base lacks.
+- If the knowledge base does not contain the facts needed, say clearly that it is not in the knowledge base (in \
+the user's language). Do not fill the gap from general knowledge.
 - Answer in the same language as the question. Give the answer first, concisely.
 - End with a line "Sources:" listing the file paths you used."""
 
+SEARCH_STRATEGY = """Search strategy (the knowledge base is in English):
+1. Search for the question's key terms. For a question in another language, also search with English keywords.
+2. If nothing relevant comes back, think of associations — synonyms, related entities, what a place, landmark or \
+term implies (e.g. a landmark -> its city), broader or narrower concepts — and search again with those.
+3. If the question has several parts or steps, search for each missing piece in turn, using what you found.
+4. Only when these searches still turn up nothing relevant, conclude that the knowledge base does not contain it."""
+
 SYSTEM_A1 = "You are a knowledge-base assistant. Answer the user's question using the tools to search and read " \
-            "the knowledge base.\n" + BASE_RULES
+            "the knowledge base.\n\n" + SEARCH_STRATEGY + "\n\n" + BASE_RULES
 WIKI_HINT = ("\nThe knowledge base is an LLM-maintained wiki. Start by reading index.md. Wiki links like "
              "[[sources/topic/page|Title]] point to files: append .md to the path. Source pages summarize a note and "
              "give its raw note path under raw/ — open it when you need details the summary lacks.")
 SYSTEM_A0 = "You are a knowledge-base assistant. Answer the user's question using the retrieved knowledge-base " \
-            "passages provided with it.\n" + BASE_RULES
+            "passages provided with it.\n\n" + BASE_RULES
+
+
+SYSTEM_A2 = """You are a knowledge-base assistant. The user's question comes with passages retrieved from the \
+knowledge base (which is in English).
+
+If the passages contain what is needed, answer. If they don't, call search_again ONCE with 1-3 new queries built \
+from associations: English keywords for a non-English question, synonyms, related entities, what a place, \
+landmark or term implies (e.g. a landmark -> its city), or the missing piece of a multi-step question. After that \
+second search, answer from what you have — or, if it is still missing, say that the knowledge base does not \
+contain it.
+
+""" + BASE_RULES
+
+SEARCH_AGAIN = Tool("search_again", "Run one additional knowledge-base search (allowed once) with new queries.",
+                    {"type": "object", "properties": {"queries": {"type": "array", "items": {"type": "string"},
+                                                                  "description": "1-3 new search queries"}},
+                     "required": ["queries"]})
+
+
+def passages_block(passages: list[dict]) -> str:
+    return "\n\n".join(f"<passage path=\"{p['path']}\">\n{p['text']}\n</passage>" for p in passages)
 
 
 def load_questions(scale: int, sample: int | None) -> list[dict]:
-    qs = [q for q in map(json.loads, QFILE.read_text().splitlines()) if not q["excluded"] and scale in q["scales"]]
+    qs = [q for q in map(json.loads, QFILE.read_text().splitlines())
+          if not q["excluded"] and scale in q.get("valid_scales", q["scales"])]
     if sample:  # stratified by category, deterministic
         by = {}
         for q in sorted(qs, key=lambda q: hashlib.sha1(q["qid"].encode()).hexdigest()):
@@ -64,10 +97,36 @@ def run_one(model: str, mode: str, config: str, scale: int, q: dict) -> dict:
     try:
         if mode == "A0":
             passages = kb.retrieve(q["question"], 8)
-            ctx = "\n\n".join(f"<passage path=\"{p['path']}\">\n{p['text']}\n</passage>" for p in passages)
             conv = Conversation(model, SYSTEM_A0, [])
-            turn = conv.user(f"{ctx}\n\nQuestion: {q['question']}")
+            turn = conv.user(f"{passages_block(passages)}\n\nQuestion: {q['question']}")
             steps = 1
+        elif mode == "A2":  # retrieve -> (if insufficient) one associative re-search -> answer or abstain
+            passages = kb.retrieve(q["question"], 8)
+            conv = Conversation(model, SYSTEM_A2, [SEARCH_AGAIN])
+            turn = conv.user(f"{passages_block(passages)}\n\nQuestion: {q['question']}")
+            steps = 1
+            searched = False
+            while turn.stop == "tool_use" and turn.tool_calls and steps < 3:
+                results = []
+                for tc in turn.tool_calls:
+                    if searched:
+                        results.append((tc, "[No more searches allowed. Answer now or say it is not in the knowledge base.]"))
+                        continue
+                    seen = {p["path"] + p["text"][:50] for p in passages}
+                    new = []
+                    for query in (tc.args.get("queries") or [])[:3]:
+                        for p in kb.retrieve(str(query), 5):
+                            if p["path"] + p["text"][:50] not in seen:
+                                seen.add(p["path"] + p["text"][:50])
+                                new.append(p)
+                    searched = True
+                    kb.ev.tool_calls += 1
+                    results.append((tc, (passages_block(new) or "No new passages found.")
+                                    + "\n\nThis was your one additional search. Answer now, or say the knowledge "
+                                      "base does not contain it."))
+                turn = conv.tool_results(results)
+                steps += 1
+            rec["re_searched"] = searched
         else:
             system = SYSTEM_A1 + (WIKI_HINT if CONFIGS[config]["root"] == "wiki" else "")
             conv = Conversation(model, system, kb.tools())
@@ -110,7 +169,9 @@ def main() -> None:
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument("--budget", type=float, required=True, help="USD cap for this run")
     ap.add_argument("--out", required=True)
+    ap.add_argument("--categories", default=None, help="comma list; filter applied after sampling (same questions)")
     a = ap.parse_args()
+    cats = set(a.categories.split(",")) if a.categories else None
 
     out = ROOT / a.out
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -122,11 +183,11 @@ def main() -> None:
             spent += r.get("cost", 0)
     jobs = []
     for scale in map(int, a.scales.split(",")):
-        qs = load_questions(scale, a.sample)
+        qs = [q for q in load_questions(scale, a.sample) if not cats or q["category"] in cats]
         for mc in a.configs.split(","):
             mode, config = mc.split(":")
-            if mode == "A0" and "search" not in CONFIGS[config]["tools"]:
-                raise SystemExit(f"{config} has no retriever; A0 only works with R2/R3/R4")
+            if mode in ("A0", "A2") and "search" not in CONFIGS[config]["tools"]:
+                raise SystemExit(f"{config} has no retriever; {mode} only works with search-based configs")
             for q in qs:
                 if (q["qid"], config, mode, scale, a.model) not in done:
                     jobs.append((a.model, mode, config, scale, q))

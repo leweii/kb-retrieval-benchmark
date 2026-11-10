@@ -29,9 +29,12 @@ def pct(xs: list[float], p: float) -> float:
 def summarize(rs: list[dict], qs: dict) -> dict:
     ans = [r for r in rs if qs[r["qid"]]["answerable"]]
     gold_rs = [r for r in ans if qs[r["qid"]]["gold_paths"]]
-    short = [r for r in ans if r["category"] in ("musique_ans", "nolima") and r["judge"]["correct"] is not None]
+    # answer accuracy: MuSiQue only. NoLiMa is graded on retrieval (its accuracy mostly reflects whether a model is
+    # willing to infer "lives next to X" -> "has been to X's city"); see nolima_acc for the record.
+    short = [r for r in ans if r["category"] == "musique_ans" and r["judge"]["correct"] is not None]
+    nol = [r for r in ans if r["category"] == "nolima" and r["judge"]["correct"] is not None]
     unans = [r for r in rs if not qs[r["qid"]]["answerable"] and r["judge"]["abstained"] is not None]
-    judged_ans = [r for r in ans if r["judge"]["abstained"] is not None]
+    judged_ans = [r for r in ans if r["judge"]["abstained"] is not None and r["category"] != "nolima"]
 
     def found(r, mode):
         gold = set(qs[r["qid"]]["gold_paths"])
@@ -44,6 +47,7 @@ def summarize(rs: list[dict], qs: dict) -> dict:
         "recall_any": mean([found(r, "any") for r in gold_rs]),
         "recall_all": mean([found(r, "all") for r in gold_rs]),
         "acc": mean([r["judge"]["correct"] for r in short]),
+        "nolima_acc": mean([r["judge"]["correct"] for r in nol]),
         "false_refusal": mean([r["judge"]["abstained"] for r in judged_ans]),
         "refusal_ok": mean([r["judge"]["abstained"] for r in unans]),
         "halluc": mean([not r["judge"]["abstained"] for r in unans]),
@@ -69,7 +73,7 @@ if __name__ == "__main__":
             if r["qid"] in qs and not qs[r["qid"]]["excluded"]:
                 k = (r["model"], r["mode"], r["config"], r["scale"]) + ((r[by],) if by else ())
                 groups[k].append(r)
-    cols = ["n", "recall_any", "recall_all", "acc", "false_refusal", "refusal_ok", "halluc",
+    cols = ["n", "recall_any", "recall_all", "acc", "nolima_acc", "false_refusal", "refusal_ok", "halluc",
             "lat_p50", "lat_p95", "cost_per_q", "steps", "raw_drill", "errors"]
     head = "model    mode config          scale" + (f" {by:8s}" if by else "") + " " + " ".join(f"{c:>9s}" for c in cols)
     print(head)
