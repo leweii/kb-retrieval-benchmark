@@ -84,6 +84,11 @@ class Data:
         ok = lambda k: k[0] in self.qs and not self.qs[k[0]]["excluded"] and k[4] in self.qs[k[0]].get("valid_scales", self.qs[k[0]]["scales"])  # noqa: E731
         self.raw = {k: v for k, v in self.raw.items() if ok(k)}
         self.judged = {k: v for k, v in self.judged.items() if ok(k)}
+        # MuSiQue questions any model answers closed-book (Sonnet ones were filtered at build time; Haiku and
+        # DeepSeek were checked afterwards) are left out of accuracy so memory doesn't count as retrieval.
+        self.memorized = set()
+        for f in (ROOT / "report").glob("closed_book_*_musique.json"):
+            self.memorized |= {r["qid"] for r in json.loads(f.read_text()) if r["correct"]}
         self.g_raw, self.g_jud = defaultdict(list), defaultdict(list)
         for k, r in self.raw.items():
             self.g_raw[k[1:]].append(r)
@@ -103,7 +108,8 @@ class Data:
         mus = [r for r in raw if r["category"] == "musique_ans"]
         bri = [r for r in raw if r["category"] == "bright_ans"]
         nol = [r for r in raw if r["category"] == "nolima"]
-        jm = [r for r in jud if r["category"] == "musique_ans" and r["judge"]["correct"] is not None]
+        jm = [r for r in jud if r["category"] == "musique_ans" and r["judge"]["correct"] is not None
+              and r["qid"] not in self.memorized]
         jans = [r for r in jud if r["category"] in ("musique_ans", "bright_ans") and r["judge"]["abstained"] is not None]
         jun = [r for r in jud if not q[r["qid"]]["answerable"] and r["judge"]["abstained"] is not None]
         mean = lambda xs: (sum(xs) / len(xs)) if xs else None  # noqa: E731

@@ -1,5 +1,15 @@
 # KB Baseline 实验计划（v2）
 
+## 结果（2026-11-10，完整报告：`report.html`）
+
+- **推荐（三档一致）：DeepSeek V4.1 Flash + 智能体 · grep**。S3000：MuSiQue 准确率 70%、说不知道 78%、$0.0044/题；
+  S300 时 LLM-wiki 导航与 grep 持平（78% / 77%）。
+- 关键对比（S3000，168 道干净题，配对 McNemar）：DeepSeek grep 70% vs Sonnet grep 62%（p=0.015）、vs Haiku grep 46%
+  （p<0.001）；智能体 grep 70% vs 单次混合 39%、两轮混合 60%、智能体混合 62%（均 p≤0.011）；grep vs LLM-wiki 导航无差别。
+- DeepSeek 领先的原因是搜得更彻底（找全多跳证据的比例比 Sonnet 高 15–20 个百分点），不是记忆：任一模型闭卷可答的 32 道题已剔除。
+- 规模：3 个模型 × 11 种配置 × 三档体量，31,713 条全部评分。花费：Claude 约 $791，DeepSeek API $61。千问未参与（OpenRouter 额度）。
+- 复现：带评分的结果归档在 `data/results/p2_judged.tar.gz`；`harness/build_html.py` 生成 `report.html`。
+
 ## 0. 要回答的问题
 
 > 知识库有 300 / 900 / 3000 篇文章时，**用什么检索方式、配什么模型、要不要接智能体、要不要先 digest 成 LLM-wiki**？

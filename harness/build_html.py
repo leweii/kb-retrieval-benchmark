@@ -88,7 +88,7 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 <h2>推荐</h2><div class="recs" id="recs"></div>
 <h2 id="h-core">核心指标</h2>
 <div class="grid2">
- <div class="panel"><h3>MuSiQue 准确率</h3><div class="sub">越高越好 · 多跳问答，短答案</div><div id="p-acc"></div></div>
+ <div class="panel"><h3>MuSiQue 准确率</h3><div class="sub">越高越好 · 多跳问答，短答案 · 已剔除任一模型不查库就能答对的题</div><div id="p-acc"></div></div>
  <div class="panel"><h3>找全证据</h3><div class="sub">越高越好 · 多跳题的所有证据都被检索到或读到</div><div id="p-all"></div></div>
  <div class="panel"><h3>误拒</h3><div class="sub">越低越好 · 库里有答案却说"没有"</div><div id="p-fr"></div></div>
  <div class="panel"><h3>说"不知道"</h3><div class="sub">越高越好 · 库里没有答案时正确拒答</div><div id="p-ro"></div></div>
