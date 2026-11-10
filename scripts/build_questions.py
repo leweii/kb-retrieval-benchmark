@@ -176,7 +176,7 @@ def write(items: list[dict], path: Path) -> None:
     with open(path, "w", encoding="utf-8") as f:
         for q in items:
             t = tcache.get(q["qid"])
-            q["question"] = q["question_en"] if q["lang"] == "en" else (t["question"] if t else None)
+            q["question"] = (t["question"] if t else None) if q["lang"] == "zh" else q["question_en"]
             if q["lang"] == "zh" and t and t.get("translation_issues"):
                 q["translation_issues"] = t["translation_issues"]
             if q["qid"] in vcache:
@@ -208,6 +208,29 @@ def apply_validation(q: dict, v: dict) -> None:
             q["gold_paths"] = sorted(set(q["gold_paths"]) | set(alt))
 
 
+VAGUE_CACHE = ROOT / "questions/vague_cache.jsonl"
+
+
+def vague_variants(main: list[dict]) -> list[dict]:
+    """answerable_vague items: latest non-excluded rewrite (scripts/build_vague.py) of each English answerable
+    question. Paired with the original via source_qid."""
+    if not VAGUE_CACHE.exists():
+        return []
+    latest: dict[str, dict] = {}
+    for r in map(json.loads, VAGUE_CACHE.read_text().splitlines()):
+        latest[r["source_qid"]] = r  # attempts are appended in order
+    out = []
+    for q in main:
+        r = latest.get(q["qid"])
+        if q["category"] != "answerable" or q["lang"] != "en" or not r or r["qid"] in EXCLUDED:
+            continue
+        out.append({**{k: q[k] for k in ("track", "answerable", "scales", "answer", "long_answer", "gold_doc_ids",
+                                         "gold_paths", "source_doc_id")},
+                    "qid": r["qid"], "category": "answerable_vague", "lang": "en_vague",
+                    "question_en": r["question"], "source_qid": q["qid"]})
+    return out
+
+
 def seed_caches_from(path: Path) -> None:
     """One-off migration: move translations/validations embedded in an existing question file into the caches."""
     if not path.exists():
@@ -228,6 +251,7 @@ if __name__ == "__main__":
     main, side = build_main(rng), build_side(rng)
     assign_lang(main)
     assign_lang(side)
+    main += vague_variants(main)
     write(main, ROOT / "questions/main.jsonl")
     write(side, ROOT / "questions/side.jsonl")
     for name, items in (("main", main), ("side", side)):

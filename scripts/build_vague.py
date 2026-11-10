@@ -39,9 +39,10 @@ Rewrite the question so that:
 descriptive references taken from the document (role, kind of organization, type of place, what it does, \
 roughly when) — e.g. "the founder of the indoor-plant café" instead of "Jessica Morrison";
 - it remains answerable by the document with the same answer, and is specific enough that the document is the \
-only plausible match among many documents on the same topic (include 2-3 distinguishing details);
+only plausible match among many documents on the same topic — use the 1-2 most distinguishing details, not more;
 - it does not reveal the answer;
-- it sounds natural, in English, one sentence."""
+- it sounds like something a person would actually type: one sentence, at most 30 words, in English. Referring \
+to "that article/post about ..." is fine occasionally, but don't make it the default."""
 
 SCHEMA = {
     "type": "object",
