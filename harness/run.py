@@ -147,6 +147,8 @@ def run_one(model: str, mode: str, config: str, scale: int, q: dict) -> dict:
         rec.update({"answer": "", "stop": "error", "error": f"{type(e).__name__}: {e}"[:500],
                     "steps": locals().get("steps", 0)})
         conv = locals().get("conv")
+    if kb.ev.infra_errors and rec.get("stop") != "error":  # a retrieval backend failed mid-run: invalid, rerun
+        rec.update({"stop": "error", "error": "infra: " + "; ".join(kb.ev.infra_errors)[:500]})
     u = conv.usage if conv else None
     rec.update({
         "latency": round(time.time() - t0, 2),
@@ -177,8 +179,13 @@ def main() -> None:
     out.parent.mkdir(parents=True, exist_ok=True)
     done = set()
     spent = 0.0
-    if out.exists():
-        for r in map(json.loads, out.read_text().splitlines()):
+    if out.exists():  # errored records are transient failures (API, credits, backends): drop them and rerun
+        recs = [json.loads(l) for l in out.read_text().splitlines()]
+        kept = [r for r in recs if r.get("stop") != "error"]
+        if len(kept) < len(recs):
+            out.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in kept))
+            print(f"dropped {len(recs) - len(kept)} errored records for rerun", flush=True)
+        for r in kept:
             done.add((r["qid"], r["config"], r["mode"], r["scale"], r["model"]))
             spent += r.get("cost", 0)
     jobs = []

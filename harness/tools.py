@@ -54,6 +54,12 @@ TOOL_SPECS = {
 }
 
 
+import anthropic  # noqa: E402
+import httpx  # noqa: E402
+import openai  # noqa: E402
+
+INFRA_ERRORS = (openai.APIError, anthropic.APIError, httpx.HTTPError, ConnectionError, TimeoutError)
+
 _cache: dict = {}
 _lock = threading.Lock()
 
@@ -108,6 +114,7 @@ class Evidence:
     read_raw: list[str] = field(default_factory=list)  # raw notes opened directly (wiki configs: drill-down)
     tool_calls: int = 0
     retrieval_cost: float = 0.0
+    infra_errors: list[str] = field(default_factory=list)
 
     def _add(self, lst: list[str], p: str | None) -> None:
         if p and p not in lst:
@@ -165,7 +172,10 @@ class KB:
             return getattr(self, f"_t_{name}")(**{k: v for k, v in args.items() if not k.startswith("_")})
         except TypeError as e:
             return f"[error] bad arguments for {name}: {e}"
-        except Exception as e:  # tool errors go back to the model
+        except INFRA_ERRORS as e:  # API/network failure of a retrieval backend: the run is invalid, not the model
+            self.ev.infra_errors.append(f"{name}: {type(e).__name__}: {str(e)[:200]}")
+            return f"[error] search backend unavailable: {type(e).__name__}"
+        except Exception as e:  # model-caused tool errors (bad path, invalid regex) go back to the model
             return f"[error] {type(e).__name__}: {e}"
 
     def _t_search(self, query: str, k: int = 8) -> str:
