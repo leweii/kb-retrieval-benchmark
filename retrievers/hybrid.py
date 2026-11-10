@@ -30,6 +30,21 @@ EXPANSION_MODEL = "claude-haiku-5-5"
 EXPANSION_PRICE = (0.10, 0.50)
 RERANK_MODEL = "qwen/qwen3-reranker-8b"
 RERANK_PROVIDER = "Fireworks"
+# P2 uses the Haiku LLM reranker (OpenRouter credits ran out; ~10x cheaper than qwen3-reranker at $0.20/M tokens).
+RERANKER = "haiku"  # "haiku" | "api" (OpenRouter /rerank with RERANK_MODEL)
+RERANK_PASSAGE_CHARS = 1500
+RERANK_SYSTEM = """You rerank search results. For each passage, rate how useful it is for answering the query \
+(the query may be in Chinese; passages are in English): 10 = directly contains the answer or the key fact needed, \
+7 = clearly relevant and helpful, 4 = same topic but not helpful for this query, 0 = unrelated. Rate every \
+passage independently, ignoring its position in the list."""
+RERANK_SCHEMA = {
+    "type": "object",
+    "properties": {"scores": {"type": "array", "items": {
+        "type": "object", "properties": {"id": {"type": "integer"}, "score": {"type": "integer"}},
+        "required": ["id", "score"], "additionalProperties": False}}},
+    "required": ["scores"],
+    "additionalProperties": False,
+}
 
 
 @dataclass
@@ -94,11 +109,34 @@ class EnhancedHybrid(Hybrid):
     """R4: QMD-style expansion + RRF + rerank + position-aware blend. Flags allow P1 ablations."""
 
     def __init__(self, corpus: str, expand: bool = True, rerank: bool = True,
-                 bm25: BM25Index | None = None, dense: DenseIndex | None = None):
+                 bm25: BM25Index | None = None, dense: DenseIndex | None = None, reranker: str | None = None):
         super().__init__(corpus, bm25, dense)
         self.expand, self.rerank_on = expand, rerank
+        self.reranker = reranker or RERANKER
         self.claude = anthropic.Anthropic(max_retries=5)
         self.http = httpx.Client(timeout=60)
+
+    def rerank(self, query: str, chunks: list[Chunk]) -> tuple[list[float], float]:
+        return self.rerank_haiku(query, chunks) if self.reranker == "haiku" else self.rerank_api(query, chunks)
+
+    def rerank_haiku(self, query: str, chunks: list[Chunk]) -> tuple[list[float], float]:
+        """LLM reranker (QMD's reranker is an LLM judging relevance): Claude Haiku 5.5 scores every candidate
+        0-10 in one structured call; passages are cut to RERANK_PASSAGE_CHARS. Scores are scaled to 0-1."""
+        passages = "\n\n".join(f'<passage id="{i}">\n{c.text[:RERANK_PASSAGE_CHARS]}\n</passage>'
+                               for i, c in enumerate(chunks))
+        resp = self.claude.messages.create(
+            model=EXPANSION_MODEL,
+            max_tokens=4000,
+            system=RERANK_SYSTEM,
+            output_config={"effort": "low", "format": {"type": "json_schema", "schema": RERANK_SCHEMA}},
+            messages=[{"role": "user", "content": f"{passages}\n\nQuery: {query}"}],
+        )
+        cost = (resp.usage.input_tokens * EXPANSION_PRICE[0] + resp.usage.output_tokens * EXPANSION_PRICE[1]) / 1e6
+        scores = [0.0] * len(chunks)
+        for item in json.loads(next(b.text for b in resp.content if b.type == "text"))["scores"]:
+            if 0 <= item["id"] < len(chunks):
+                scores[item["id"]] = max(0.0, min(10.0, float(item["score"]))) / 10
+        return scores, cost
 
     def expansion(self, query: str) -> tuple[dict, float]:
         resp = self.claude.messages.create(
@@ -111,7 +149,7 @@ class EnhancedHybrid(Hybrid):
         cost = (resp.usage.input_tokens * EXPANSION_PRICE[0] + resp.usage.output_tokens * EXPANSION_PRICE[1]) / 1e6
         return json.loads(next(b.text for b in resp.content if b.type == "text")), cost
 
-    def rerank(self, query: str, chunks: list[Chunk]) -> tuple[list[float], float]:
+    def rerank_api(self, query: str, chunks: list[Chunk]) -> tuple[list[float], float]:
         for attempt in range(6):
             r = self.http.post(
                 "https://openrouter.ai/api/v1/rerank",
