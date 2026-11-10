@@ -1,0 +1,3172 @@
+{
+ "summary": {
+  "model": "claude-haiku-5-5",
+  "musique_closed_book_correct": 0.19,
+  "musique_said_unknown": 0.473,
+  "musique_correct_by_hops": {
+   "2": 0.24,
+   "3": 0.17,
+   "4": 0.07
+  },
+  "bright_closed_book_verdicts": {
+   "yes": 59,
+   "no": 13,
+   "partial": 78
+  },
+  "cost_usd": 0.173
+ },
+ "musique": [
+  {
+   "id": "3hop1__791757_15840_36002",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "built on 16-bit architectures and offered improved graphics and sound",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__38738_73181_68042",
+   "hops": 3,
+   "pred": "**2022** (the Republicans took the House in the 2022 midterms, with the new majority seated January 3, 2023)",
+   "gold": "the 2010 election",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__562154_69048",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Honorable Justice Abiodun Smith",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__593633_82341",
+   "hops": 2,
+   "pred": "Taylor County",
+   "gold": "in Northern Florida",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__540585_568433_47686",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Toronto Coach Terminal",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__725233_150107",
+   "hops": 2,
+   "pred": "ACM (Association for Computing Machinery)",
+   "gold": "Association for Computing Machinery",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__29367_29376",
+   "hops": 2,
+   "pred": "The death of Joseph Lyons in April 1939.",
+   "gold": "Lyons' death in 1939",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__818422_160545_60577",
+   "hops": 3,
+   "pred": "The Beach was not filmed in Germany, where Beatrice Heuser was born. It was shot in Thailand (the Phi Phi Islands) and at Pinewood Studios in the UK.",
+   "gold": "Ko Phi Phi Leh",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__669837_31270",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "45",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__109113_720914_41132",
+   "hops": 3,
+   "pred": "About 20 times (Titian died in Venice, where plague recurred many times; this count is approximate).",
+   "gold": "22",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__91678_90098_10557",
+   "hops": 3,
+   "pred": "**Medieval Latin**",
+   "gold": "Medieval Latin",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__669456_108549",
+   "hops": 2,
+   "pred": "Jerry Siegel, who co-created Superman with Joe Shuster and wrote the stories in which Jimmy Olsen works at the Daily Planet.",
+   "gold": "Alfred Gough",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__158010_58067",
+   "hops": 2,
+   "pred": "A. P. J. Abdul Kalam, who received the Bharat Ratna in 1997, before he became President in 2002.",
+   "gold": "A.P.J. Abdul Kalam",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__53147_7298",
+   "hops": 2,
+   "pred": "Michael Bublé",
+   "gold": "Michael Bublé",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__41865_55331_34700",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Caesar",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__516535_834494_34099",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "four-year",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__635099_131926_89261",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "the Mississippi River Delta",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__813285_774554_124169",
+   "hops": 3,
+   "pred": "1944",
+   "gold": "1952",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop1__88342_49853_128008_67954",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Alex Bregman",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__132957_379231_40768",
+   "hops": 3,
+   "pred": "Honda (maker of the Acura Legend) opened its Marysville, Ohio plant in 1982. Nissan opened its Smyrna, Tennessee plant in 1983. Toyota (maker of the Scion xD) opened its Georgetown, Kentucky plant in 1988, after its 1984 NUMMI joint venture with GM in California.",
+   "gold": "1981",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__401538_132457_47686",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Toronto Coach Terminal",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__640171_228453_86925",
+   "hops": 3,
+   "pred": "**Fleur-de-lis**",
+   "gold": "fleur - de-lis",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__619265_45326",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "12",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__847684_339990_54675",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Tualatin Mountains",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__87184_92991_76291",
+   "hops": 3,
+   "pred": "January 3, 2025",
+   "gold": "January 2015",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__374495_68633",
+   "hops": 2,
+   "pred": "Avery Brundage was a member of the International Olympic Committee, which is presided over by Kirsty Coventry (president since 2025).\n\nNote: Brundage was himself IOC president (1952–1972), but the question's organization, read as the IOC, is currently led by Kirsty Coventry.",
+   "gold": "Thomas Bach",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__76873_69814_64554",
+   "hops": 3,
+   "pred": "Soviet Union",
+   "gold": "Union of Soviet Socialist Republics",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__365934_87694_64412",
+   "hops": 3,
+   "pred": "**11 February 1929** (the Lateran Treaty; it took effect 7 June 1929)",
+   "gold": "11 February 1929",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__617062_127905_48717",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Josh Beckett",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__445963_6063",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "4,255",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__655505_110949",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "11 September 1962",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__274110_413723",
+   "hops": 2,
+   "pred": "Ernie Watts, the jazz saxophonist, was born in Hollywood... Let me be careful: he was born in Ernest Watts in Hollywood? I'm not certain of the district.\n\nErnie Watts (saxophonist) was born in Los Angeles, and I don't reliably know the specific district.\n\nunknown",
+   "gold": "West Berkshire",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__726561_132457_47686",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Toronto Coach Terminal",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__37765_85990",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "anti-slavery activists, modernizers, ex Whigs and ex Free Soilers",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__398344_54166",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "seven",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__264443_49925_13759_736921",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Saxony-Anhalt",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__203437_152093",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Fair Trade Services",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__107238_64918",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "President McKinley",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__275261_443779_52195",
+   "hops": 3,
+   "pred": "**Xanana Gusmão**",
+   "gold": "Francisco Guterres",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__59612_42352",
+   "hops": 2,
+   "pred": "London broil comes from the **flank steak** (sometimes top round). The population of the British colonies isn't a single figure, so I can't give a number without a specific colony or year. **Unknown** for that part.",
+   "gold": "2 million",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__257831_123283",
+   "hops": 2,
+   "pred": "Clifton College (John Houseman, producer of the 1953 *Julius Caesar* film)",
+   "gold": "Clifton College",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "4hop3__270458_88460_30152_20999",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "The dynasty regrouped and defeated the Portuguese",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__199881_378185_282674_759393",
+   "hops": 4,
+   "pred": "Oshkosh",
+   "gold": "Green Bay",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__761225_831637_91775",
+   "hops": 3,
+   "pred": "Sea, Air, and Land.",
+   "gold": "Sea, Air, and Land",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__563476_61845",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Mido",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__568951_567566_84283",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Warner Music Group",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__123145_66723",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "James Howard Meredith",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__60880_87295",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Queen dowager Clarisse Renaldi",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop3__813358_24325_125104_10557",
+   "hops": 4,
+   "pred": "**Romance**",
+   "gold": "Medieval Latin",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__31995_24918_24939",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Pope John Paul II",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__749581_443779_52195",
+   "hops": 3,
+   "pred": "**Xanana Gusmão**",
+   "gold": "Francisco Guterres",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__278222_42197_18397",
+   "hops": 3,
+   "pred": "**Beijing**",
+   "gold": "the Politburo",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__140194_49541_51068",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Jenna - Louise Coleman",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__846600_153080_159767_81096",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Mario Andretti",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__147135_159767_81096",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Mario Andretti",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__603558_87694_124169",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "1952",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__105688_17130_70784_79935",
+   "hops": 4,
+   "pred": "1921",
+   "gold": "1930",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__590631_110882",
+   "hops": 2,
+   "pred": "May 16, 1966 (Janet Jackson, who recorded \"Unbreakable\")",
+   "gold": "1 January 1986",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__256336_714772",
+   "hops": 2,
+   "pred": "Lisa Rinna (spouse of Harry Hamlin, who starred in *King of the Mountain*)",
+   "gold": "Lisa Rinna",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "4hop3__220945_88460_30152_20999",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "The dynasty regrouped and defeated the Portuguese",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__864201_80026",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Julie Dawn Cole",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__84553_90098_10557",
+   "hops": 3,
+   "pred": "**Medieval Latin**",
+   "gold": "Medieval Latin",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "4hop2__71753_261673_70784_79935",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "1930",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__61714_89309",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "October 8, 2009",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__284789_52835",
+   "hops": 2,
+   "pred": "John D. Loudermilk",
+   "gold": "John D. Loudermilk",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__498251_126089",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Johan Remkes",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__529164_567566_84283",
+   "hops": 3,
+   "pred": "Warner Music Group",
+   "gold": "Warner Music Group",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__24973_5674",
+   "hops": 2,
+   "pred": "**Boris Yeltsin**",
+   "gold": "Yeltsin",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__216535_370666",
+   "hops": 2,
+   "pred": "Alain Lascoux was a French mathematician who worked at the CNRS (Centre National de la Recherche Scientifique), at the Institut Gaspard Monge in Marne-la-Vallée... more precisely, he was at the Université de Marne-la-Vallée and the Institut Gaspard Monge, and earlier at the Université Paris VII / Institut de Recherche Mathématique Avancée in Strasbourg. His main long-term affiliation was the CNRS laboratory in Marne-la-Vallée.\n\nAnswer: Marne-la-Vallée",
+   "gold": "Tianjin",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop1__726391_153080_33952_34053",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "1905",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__132957_52222_40768",
+   "hops": 3,
+   "pred": "Honda opened its Marysville, Ohio plant in 1982, and Nissan opened its Smyrna, Tennessee plant in 1983. (Honda is not the world's biggest automaker; Toyota holds that position.)",
+   "gold": "1981",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__38738_78276_68042",
+   "hops": 3,
+   "pred": "**January 2007** (Democrats took control of the House in the 2006 midterms, effective January 3, 2007)",
+   "gold": "the 2010 election",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__156700_63853",
+   "hops": 2,
+   "pred": "The Drakensberg mountains in Lesotho (the Orange River's source).",
+   "gold": "Thaba Putsoa",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__109422_720914_41132",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "22",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__88372_83837",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Karen Fairchild",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop3__524186_219173_128875_72134",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "1839",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__639445_567836",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Adams County",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__158247_71142",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Abu Ubaidah",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__390673_228453_10972",
+   "hops": 3,
+   "pred": "1967",
+   "gold": "1970s",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__635185_141338",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "City University of New York",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__147225_30587_83479",
+   "hops": 3,
+   "pred": "**Cutting off Britain's Atlantic supply lines** by sinking Allied merchant shipping.",
+   "gold": "to stem the flow of merchant shipping that enabled Britain to keep fighting",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__642686_7292",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "George Benson",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__103871_20335_9331",
+   "hops": 3,
+   "pred": "Abolition of serfdom",
+   "gold": "March Constitution of Poland",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__6735_6733",
+   "hops": 2,
+   "pred": "Eastern Catalan (Central Catalan dialect basis)... The question: \"To what division does the language that comprises the standard pronunciation of Catalan belong?\" Standard pronunciation of Catalan is based on Central Catalan, which belongs to the Eastern division (Oriental) of Catalan dialects.\n\nEastern Catalan",
+   "gold": "Eastern block",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop1__696484_49925_13759_736921",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Saxony-Anhalt",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__310112_88165",
+   "hops": 2,
+   "pred": "**Keturah**",
+   "gold": "Keturah",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__857_846_7887",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "thousands",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop2__105527_14670_8987_8974",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Alfredo Stroessner's Paraguay",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__156702_51769",
+   "hops": 2,
+   "pred": "10–12 years",
+   "gold": "average lifespan at 9.4 years",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__152229_604644",
+   "hops": 2,
+   "pred": "Sony Music Entertainment",
+   "gold": "429 Records",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__160292_23241",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "48.8 percent",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__998_25839",
+   "hops": 2,
+   "pred": "500 mA",
+   "gold": "five unit loads",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__31094_31122",
+   "hops": 2,
+   "pred": "Alciphron was written by George Berkeley, who lived in the 18th century (1685–1753). The work was published in 1732.\n\nAnswer: 18th century",
+   "gold": "18th",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__13353_17738",
+   "hops": 2,
+   "pred": "**French Flanders**",
+   "gold": "French Flanders",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "4hop1__444892_32392_823060_610794",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Richland County",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__450600_158262",
+   "hops": 2,
+   "pred": "February 23, 1847 (the Battle of Buena Vista)",
+   "gold": "1848",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__602329_792411_51423",
+   "hops": 3,
+   "pred": "Liverpool Castle",
+   "gold": "Casa Loma",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__821368_14251",
+   "hops": 2,
+   "pred": "**\"Archibald, certainly not!\"**",
+   "gold": "\"Archibald, certainly not!\"",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__136083_87694_124169",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "1952",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__94629_1110",
+   "hops": 2,
+   "pred": "**2005**",
+   "gold": "2005",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__773338_42197_18397",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "the Politburo",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__44259_747874",
+   "hops": 2,
+   "pred": "Jamie Murray",
+   "gold": "Jamie Murray",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__136129_87694_64412",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "11 February 1929",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__857_846_7794",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "8.005 million",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__796649_720914_27537",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "for the conclave in Rome",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__20536_96912",
+   "hops": 2,
+   "pred": "University of Cambridge (the Adam Smith Prize). This is a best guess: I'm reading \"argued that colonies were redundant\" as Adam Smith's critique of empire in *The Wealth of Nations*, and I'm not fully certain of that link.",
+   "gold": "University of Cambridge",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__534450_831637_91775",
+   "hops": 3,
+   "pred": "**Sea, Air, and Land**",
+   "gold": "Sea, Air, and Land",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__6750_6733",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Eastern block",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__802394_153080_33897_81096",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Mario Andretti",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__398344_439882",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Rebecca Sugar",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__271272_508773_85832_745702",
+   "hops": 4,
+   "pred": "**Sebastian Cabot**",
+   "gold": "Sebastian Cabot",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__556426_9237",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "September 2012",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__30384_30351",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "the Austrian government",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__518354_67465",
+   "hops": 2,
+   "pred": "Blue Slide Park was released by Mac Miller in November 2011. \"Best Day Ever\" is a song from that album, but the question asks when the performer released \"Best Day Ever.\" It appears on Blue Slide Park, which came out November 8, 2011.\n\nAnswer: November 8, 2011",
+   "gold": "March 11, 2011",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__849312_503371_21711",
+   "hops": 3,
+   "pred": "**Early 15th century (begun around 1403)**",
+   "gold": "built in the 15th century",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__17508_17335",
+   "hops": 2,
+   "pred": "323 BC",
+   "gold": "323 BC",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__74084_75184",
+   "hops": 2,
+   "pred": "Elisabeth Shue. She played Jennifer Parker, Marty McFly's girlfriend, and Michael J. Fox, who voiced Chance, played Marty.",
+   "gold": "Claudia Wells",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__28287_89399",
+   "hops": 2,
+   "pred": "Doug Lawrence voices Plankton.",
+   "gold": "Mr. Lawrence",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop3__754156_88460_30152_20999",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "The dynasty regrouped and defeated the Portuguese",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop2__103790_39078_8987_8529",
+   "hops": 4,
+   "pred": "**Unknown**\n\nI can't identify Ivo Werner or the countries in this chain with confidence, so I can't determine Country B's anthem or when \"Slavs\" appeared in it.",
+   "gold": "1943–1992",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__626214_503371_21711",
+   "hops": 3,
+   "pred": "**1403** (construction began then; the Gothic building was largely completed in the 15th century)",
+   "gold": "built in the 15th century",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__120881_2053_5289",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Oriole Records.",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__73760_712629",
+   "hops": 2,
+   "pred": "Camilla, Queen Consort",
+   "gold": "Philip Mountbatten",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop1__562740_49925_13759_736921",
+   "hops": 4,
+   "pred": "**Prague (Old Town district, Bethlehem Chapel area)**\n\nI'm not certain of this. The reformer is most likely Jan Hus, but I can't confirm the Marian sermon detail.",
+   "gold": "Saxony-Anhalt",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__75207_365216",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Talca Province",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__846921_160249",
+   "hops": 2,
+   "pred": "**280–275 BC** (the Pyrrhic War against Rome)",
+   "gold": "323–272 BC",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__518381_709625_84283",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Warner Music Group",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__326964_464925_7713",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "about 400 years",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__38242_92991_76291",
+   "hops": 3,
+   "pred": "January 3, 1953, when the Republicans took majorities in both chambers at the start of the 83rd Congress.",
+   "gold": "January 2015",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__96096_78606",
+   "hops": 2,
+   "pred": "Maya Rudolph",
+   "gold": "Joyce Van Patten",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__250030_7298",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Michael Bublé",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__767417_624859_355213_203322",
+   "hops": 4,
+   "pred": "**Queens County** (New York), assuming the song is Cyndi Lauper's \"Change of Heart.\" She was born in Brooklyn (Kings County), which shares a land border with Queens.",
+   "gold": "Cabarrus County",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__694534_160088_85460",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "$59,039",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__157602_21567",
+   "hops": 2,
+   "pred": "**Philippe de Vitry**",
+   "gold": "John Kukuzelis",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__748615_123956",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "15 February 1942",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__836115_49925_13759_736921",
+   "hops": 4,
+   "pred": "Telšiai District Municipality, Lithuania (Varniai). This is a low-confidence answer: I'm inferring that the reformer is Bishop Motiejus Valančius, which I haven't verified.",
+   "gold": "Saxony-Anhalt",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__446612_160545_60577",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Ko Phi Phi Leh",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__132957_76377_40768",
+   "hops": 3,
+   "pred": "1983 (Smyrna, Tennessee). The Acura Legend was made by Honda, not Nissan, and Nissan isn't the top-selling brand.",
+   "gold": "1981",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__131820_59747_48534",
+   "hops": 3,
+   "pred": "Ulysses S. Grant",
+   "gold": "Lemuel P. Grant, a successful engineer and businessman",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__857_846_7798",
+   "hops": 3,
+   "pred": "**Han Chinese**",
+   "gold": "Han nationality",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__33845_42197_18397",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "the Politburo",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__603365_120259",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "918",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop3__312119_132409_371500_35031",
+   "hops": 4,
+   "pred": "**Fourth** (San Diego, among California's top five urban areas)",
+   "gold": "third-largest",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__30152_105895_20999",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "The dynasty regrouped and defeated the Portuguese",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__655849_467331_162182",
+   "hops": 3,
+   "pred": "North Central Coast",
+   "gold": "South Central Coast",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__617062_127905_86588",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "582 feet (177 m)",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop3__160230_470287_345497_72134",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "1839",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__194006_42197_18397",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "the Politburo",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__96177_62765",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Dathan",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__87053_319330",
+   "hops": 2,
+   "pred": "Woodrow Wilson had three daughters: Margaret, Jessie, and Eleanor Wilson.",
+   "gold": "Jessie Woodrow Wilson",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__286268_97805",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Winter War",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__847420_720378_15538",
+   "hops": 3,
+   "pred": "**1973** (Texas; this assumes Elmo, Texas, which is ambiguous since several places share the name)",
+   "gold": "1984",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__44652_165532",
+   "hops": 2,
+   "pred": "**Virginia Chapman** (James Arness, who played Zeb Macahan in the 1977 TV series)",
+   "gold": "Sherry Boucher",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__62311_62279",
+   "hops": 2,
+   "pred": "**19 January 1915**",
+   "gold": "10 July -- 31 October 1940",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__280583_229757",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Will Arnett",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__808562_72813",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "a Western District uniformed officer",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__417937_158105",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "ease of use and enhanced support for Plug and Play",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__58939_213732",
+   "hops": 2,
+   "pred": "Meghan McCain is one of John McCain's children, the opponent in Obama's 2008 presidential election. He had seven children in total.",
+   "gold": "Meghan McCain",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "4hop2__161602_426860_88460_21057",
+   "hops": 4,
+   "pred": "**Teak**",
+   "gold": "75% of the world's teak",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__27650_27628",
+   "hops": 2,
+   "pred": "Luis de Guindos, assuming you mean the European Central Bank. The question is ambiguous, so this is a guess.",
+   "gold": "Vitor Constâncio",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__684287_78303",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Cordell Walker",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__136067_160249",
+   "hops": 2,
+   "pred": "Pyrrhus of Epirus. His wars with Rome occurred 280–275 BC (the Pyrrhic War). Broader conflicts he fought in included wars against Macedon, Sparta, and Argos; the Pyrrhic War itself is commonly dated 280–275 BC.\n\n**280–275 BC**",
+   "gold": "323–272 BC",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop3__839787_88460_30152_20999",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "The dynasty regrouped and defeated the Portuguese",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__326964_811351_7713",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "about 400 years",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__657913_88628",
+   "hops": 2,
+   "pred": "Rooster Cogburn",
+   "gold": "U.S. Marshal Rooster Cogburn",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__469478_15840_36014",
+   "hops": 3,
+   "pred": "**5** games per year (the NES limit).",
+   "gold": "five",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__622637_120171",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "1986",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__233551_746883",
+   "hops": 2,
+   "pred": "William the Conqueror. William Clito's father, Robert Curthose, succeeded him as Duke of Normandy.",
+   "gold": "William the Conqueror",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__194532_57594",
+   "hops": 2,
+   "pred": "Colt Single Action Army revolver",
+   "gold": "LeMat revolver",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__10017_18974",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Chen Zheng",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__377943_650651_7262",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Walter Sabo",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__71715_50429",
+   "hops": 2,
+   "pred": "About 11 million (Georgia, 2020 census: 10,711,908)",
+   "gold": "10,310,371 (2016 est.)",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__84887_538202_84283",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Warner Music Group",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__95673_62765",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Dathan",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__341176_711757",
+   "hops": 2,
+   "pred": "Gmina Kartuzy",
+   "gold": "Gmina Ryki",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop3__507819_88460_30152_20999",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "The dynasty regrouped and defeated the Portuguese",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop3__316459_41402_146281_13584",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "two cities",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__326964_573858_7713",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "about 400 years",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__599396_19320",
+   "hops": 2,
+   "pred": "Javier Barros Sierra worked at the National Autonomous University of Mexico (UNAM). It has ranked roughly 90th to 100th in the QS World University Rankings in recent editions, but I'm not certain of the exact figure for a given year.",
+   "gold": "74th",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop2__161602_474028_88460_20999",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "The dynasty regrouped and defeated the Portuguese",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__304722_238553_63959",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "1 December 2010",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__68802_89752_75165",
+   "hops": 3,
+   "pred": "About 1.36 million (Maine, the largest New England state by area, per the 2020 census).",
+   "gold": "1,335,907",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__242938_18803",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "trying to find a potential buyer for all of its operations in Finland",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__864101_135373",
+   "hops": 2,
+   "pred": "St. Matthew Island is in the Bering Sea. The Bering Sea is named after Vitus Bering, the Danish navigator who explored the region for the Russian Empire.\n\nAnswer: Vitus Bering",
+   "gold": "Vitus Bering",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__34495_85544",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "38",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__75781_512508",
+   "hops": 2,
+   "pred": "**The Manhattan Project.** James Chadwick, whose 1932 experiments provided the evidence for the neutron, later headed the British mission to Los Alamos during the project.",
+   "gold": "Manhattan Project",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "4hop1__638988_17130_70784_79935",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "1930",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__199513_13732",
+   "hops": 2,
+   "pred": "Traditionally about 12 to 14 years old, though the Bible does not state her age.",
+   "gold": "12–14 years old",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__72487_510545",
+   "hops": 2,
+   "pred": "Paul Bettany plays Vision in Avengers: Age of Ultron. His spouse is Jennifer Connelly.",
+   "gold": "Jennifer Connelly",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__403580_37168",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "551-600",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__53433_59035",
+   "hops": 2,
+   "pred": "6 February 1840",
+   "gold": "6 February 1840",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__857_846_7769",
+   "hops": 3,
+   "pred": "About 2,540 square miles (Nanjing, roughly 6,600 km²). I'm not certain which edict and recipient you mean, so this assumes Nanjing.",
+   "gold": "2,548 sq mi",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__463353_66723",
+   "hops": 2,
+   "pred": "Swayze Field is the football stadium of the University of South Alabama, in Mobile. The first Black student admitted to the University of South Alabama was Stan Hall? I'm not certain of this. Let me reason: South Alabama integrated in 1963 with the admission of Mrs. Mary Jane Hunter? I don't reliably know the name.\n\nunknown",
+   "gold": "James Howard Meredith",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__253612_110882",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "1 January 1986",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__20256_71302",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Vito Corleone",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__88342_49853_128008_48717",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Josh Beckett",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__29349_92763",
+   "hops": 2,
+   "pred": "Approximately 17,000 students (University of Miami)",
+   "gold": "16,801",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__169494_42197_18397",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "the Politburo",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__239036_15840_36002",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "built on 16-bit architectures and offered improved graphics and sound",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__395211_503371_21711",
+   "hops": 3,
+   "pred": "**Answer:** Begun in 1403 (Gothic core, 15th century)\n\nI'm not certain of the chain here. I took \"Martin\" to be Martin I of Aragon, who died in Barcelona, so the city is Barcelona, where the Palau de la Generalitat is located. I couldn't verify where Mianos is.",
+   "gold": "built in the 15th century",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "4hop3__131820_29339_508306_70744",
+   "hops": 4,
+   "pred": "**Ohio State University**\n\nI'm not certain of the chain: I couldn't confirm which state has Fort Hill or WEKL, so this assumes Ohio for Fort Hill and that Edwards's primary win points to South Carolina.",
+   "gold": "University of South Carolina",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__152052_141308",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Apple Corps",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__68981_91191_156667",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Khawlah bint Ja'far",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop3__439878_88460_30152_20999",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "The dynasty regrouped and defeated the Portuguese",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__159728_91191_156667",
+   "hops": 3,
+   "pred": "**Muhammad**",
+   "gold": "Khawlah bint Ja'far",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__809962_89048_66294",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Lawrence Hilton - Jacobs",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__69814_76873_64554",
+   "hops": 3,
+   "pred": "The Soviet Union",
+   "gold": "Union of Soviet Socialist Republics",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__326964_734214_7713",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "about 400 years",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__857_846_7849",
+   "hops": 3,
+   "pred": "**Peking opera and Kunqu opera** (in Beijing, the likely city). I'm not certain which edict and city you mean, so this is a best guess.",
+   "gold": "Suzhou pingtan, spoken theatre and puppet theatre",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__451574_120065",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "1738",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__460091_405771",
+   "hops": 2,
+   "pred": "Ommatidae is part of the suborder Archostemata, order Coleoptera (beetles), class Insecta.",
+   "gold": "Coleoptera",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__439614_349102",
+   "hops": 2,
+   "pred": "Giant panda.",
+   "gold": "panda",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__462960_160545_34754",
+   "hops": 3,
+   "pred": "**Japanese coercion** (the US viewed Thailand's cooperation with Japan as forced by Japanese pressure).",
+   "gold": "blackmail",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__363216_787353",
+   "hops": 2,
+   "pred": "The 1st Combat Communication Squadron is headquartered at Hurlburt Field, Florida.",
+   "gold": "Ramstein-Miesenbach",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__9285_5188_63702",
+   "hops": 3,
+   "pred": "**1941**, after Germany invaded the Soviet Union in June 1941.",
+   "gold": "June 1941",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__22930_23241",
+   "hops": 2,
+   "pred": "About 50%",
+   "gold": "48.8 percent",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__507722_124896",
+   "hops": 2,
+   "pred": "Francis Bacon wrote Novum Organum. His father was Sir Nicholas Bacon.\n\nSir Nicholas Bacon",
+   "gold": "Nicholas Bacon",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__89403_122023",
+   "hops": 2,
+   "pred": "Albert Einstein explained the photoelectric effect in 1905. He studied at the Swiss Federal Polytechnic in Zurich (ETH Zurich), where he earned his diploma in 1900.\n\nAnswer: ETH Zurich (Swiss Federal Polytechnic)",
+   "gold": "Luitpold Gymnasium",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__2682_577502",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Maria Shriver",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__719184_55227",
+   "hops": 2,
+   "pred": "**Maria Bello**",
+   "gold": "Maria Bello",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__132957_132798_40768",
+   "hops": 3,
+   "pred": "Honda opened its Marysville, Ohio auto plant in **1982**, Nissan opened its Smyrna, Tennessee plant in **1983**, and Toyota opened its Georgetown, Kentucky plant in **1988** (after its 1984 NUMMI joint venture).",
+   "gold": "1981",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__579562_629431_64412",
+   "hops": 3,
+   "pred": "**1929** (Vatican City, where John XXIII died, became a sovereign state under the Lateran Treaty on February 11, 1929)",
+   "gold": "11 February 1929",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__132969_417697",
+   "hops": 2,
+   "pred": "Nissan Sentra",
+   "gold": "Nissan Altima",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__203955_25719",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "406",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__156044_57816",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "100",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop3__322354_466199_695123_72134",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "1839",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__839126_472799",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Eurovision Song Contest 1991",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__273571_834494_34088",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Tucson Raceway Park",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__557496_57594",
+   "hops": 2,
+   "pred": "Colt Single Action Army revolver",
+   "gold": "LeMat revolver",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__536452_15840_36002",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "built on 16-bit architectures and offered improved graphics and sound",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__107195_160713_77246",
+   "hops": 3,
+   "pred": "**Indian** (i.e., a native of India, or a follower of Hinduism)",
+   "gold": "the country of India",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__846844_47134",
+   "hops": 2,
+   "pred": "Goss Stadium at Coleman Field is home to the Willamette University Bearcats. The school's mascot is the Bearcat.",
+   "gold": "Benny Beaver",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__358853_339990_54675",
+   "hops": 3,
+   "pred": "Mount Hood",
+   "gold": "Tualatin Mountains",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__140554_2053_52946",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "February 7, 2018",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__857_846_7770",
+   "hops": 3,
+   "pred": "The Yangtze flows along the northern and western edges of Nanjing, the city likely meant here.",
+   "gold": "past the west side and then north side",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__668732_223623_162182",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "South Central Coast",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop3__373866_5189_276146_86687",
+   "hops": 4,
+   "pred": "**July 1990** (Gorbachev's agreement with Kohl, 16 July 1990)",
+   "gold": "May 1990",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "4hop3__661103_698586_91248_54362",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Confederate Gen. John Bell Hood",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__671542_651917_47686",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Toronto Coach Terminal",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__433694_20273",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "1572",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__829944_474097_84283",
+   "hops": 3,
+   "pred": "**Universal Music Group**",
+   "gold": "Warner Music Group",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__28476_14777_9331",
+   "hops": 3,
+   "pred": "**World War I**",
+   "gold": "March Constitution of Poland",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__477492_240386",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "TML Entertainment",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__464479_70131",
+   "hops": 2,
+   "pred": "Former World War I soldiers, mainly demobilized veterans and former officers.",
+   "gold": "consisting largely of World War I veterans",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__635099_131926_13165",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Treaty of Paris",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__57186_89048_66294",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Lawrence Hilton - Jacobs",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__458916_665330_47686",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Toronto Coach Terminal",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__3737_13529",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "June 1982",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__851134_613770_7713",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "about 400 years",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__723101_150107",
+   "hops": 2,
+   "pred": "Association for Computing Machinery (ACM)",
+   "gold": "Association for Computing Machinery",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__239036_15840_36014",
+   "hops": 3,
+   "pred": "Five games per year.",
+   "gold": "five",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__346416_831637_91775",
+   "hops": 3,
+   "pred": "**Sea, Air and Land**",
+   "gold": "Sea, Air, and Land",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__825727_584042",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "K-League",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__329676_119915",
+   "hops": 2,
+   "pred": "1065",
+   "gold": "1065",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__860241_766393",
+   "hops": 2,
+   "pred": "Prix Goncourt",
+   "gold": "Nobel Prize in Literature",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__609313_20273",
+   "hops": 2,
+   "pred": "The author of \"History of the Reformation in Scotland\" was John Knox, who died in 1572.",
+   "gold": "1572",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__671664_646310",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Albemarle",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__38326_92991_76291",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "January 2015",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__370564_71701",
+   "hops": 2,
+   "pred": "**1938**",
+   "gold": "November 5",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__857_846_7795",
+   "hops": 3,
+   "pred": "About 8 million (Nanjing). This is from memory and I'm not certain of the exact figure or of the edict's recipient.",
+   "gold": "8.11 million",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__82270_177869",
+   "hops": 2,
+   "pred": "Anna Murray Douglass",
+   "gold": "Helen Pitts Douglass",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__743797_443779_52195",
+   "hops": 3,
+   "pred": "**Xanana Gusmão**",
+   "gold": "Francisco Guterres",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__32254_84601",
+   "hops": 2,
+   "pred": "Voyager 2 crossed the heliopause, the boundary of the solar system, on November 5, 2018.",
+   "gold": "August 30, 2007",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop3__773800_152874_161616_77103",
+   "hops": 4,
+   "pred": "**1839**\n\nI'm not certain of this chain. I believe the answer is Austin, which became the capital of Texas in 1839, but I couldn't verify the 2010 Sony Ericsson Open men's singles winner's hometown or which \"Knowles\" is meant.",
+   "gold": "1839",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__95794_55227",
+   "hops": 2,
+   "pred": "**Maria Bello** (as Sally, Eric Lamonsoff's wife, played by Kevin James)",
+   "gold": "Maria Bello",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__35137_22901",
+   "hops": 2,
+   "pred": "Ibn Sina (Avicenna) is generally thought to have been an Ismaili Shia (Ismaili) Muslim.\n\nAnswer: Ismaili Shia (Ismailism)",
+   "gold": "Sunni",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__222979_133099_40768",
+   "hops": 3,
+   "pred": "Nissan opened its Smyrna, Tennessee plant in 1983, and Toyota (the Scion parent) opened its Georgetown, Kentucky plant in 1988. I couldn't confirm which company makes the Comstar wheel, so I can't give its plant date.",
+   "gold": "1981",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__815205_590407",
+   "hops": 2,
+   "pred": "Bethesda, Maryland",
+   "gold": "Bethesda",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__135668_561444",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Dovber Schneuri",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__742464_15840_36002",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "built on 16-bit architectures and offered improved graphics and sound",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__36852_613770_7713",
+   "hops": 3,
+   "pred": "**About 70 years**, since 1953, when Nanjing became the capital of Jiangsu Province. This assumes the 1853 city is Nanjing and Guangling District is in Jiangsu, and I haven't verified the dates.",
+   "gold": "about 400 years",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__34595_160249",
+   "hops": 2,
+   "pred": "**280–275 BC**",
+   "gold": "323–272 BC",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__389955_132457_51423",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "Casa Loma",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop2__14777_8533_9331",
+   "hops": 3,
+   "pred": "**The Partitions of Poland**",
+   "gold": "March Constitution of Poland",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__461639_83837",
+   "hops": 2,
+   "pred": "**Karen Fairchild**, who sang it with Luke Bryan. I'm not fully certain of this.",
+   "gold": "Karen Fairchild",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__800166_156034",
+   "hops": 2,
+   "pred": "Nelson River",
+   "gold": "Hudson's Bay",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__132929_120537",
+   "hops": 2,
+   "pred": "1999",
+   "gold": "30 November 1999",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop1__823336_228453_10972",
+   "hops": 3,
+   "pred": "1983",
+   "gold": "1970s",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__696442_51329",
+   "hops": 2,
+   "pred": "Lauren Bacall's spouse was Humphrey Bogart, who won his only Academy Award for *The African Queen* (1951).",
+   "gold": "The African Queen",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__6870_16335",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "inter-marriage and conversions in the time of the Roman Empire",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__31085_23241",
+   "hops": 2,
+   "pred": "**49.3%**",
+   "gold": "48.8 percent",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__94507_654855",
+   "hops": 2,
+   "pred": "Socialist Party of America",
+   "gold": "Socialist Party of America",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__132472_120537",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "30 November 1999",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop2__71753_729371_70784_79935",
+   "hops": 4,
+   "pred": "1902",
+   "gold": "1930",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__252311_366220",
+   "hops": 2,
+   "pred": "UHF (1989), starring \"Weird Al\" Yankovic, was distributed by Orion Pictures.\n\nOrion Pictures was founded in 1978 by Eric Pleskow, Arthur Krim, Robert Benjamin, and former United Artists executives.\n\nShort answer: Eric Pleskow, Arthur Krim, and Robert Benjamin.",
+   "gold": "Mike Medavoy",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "3hop2__106842_30645_84681",
+   "hops": 3,
+   "pred": "unknown",
+   "gold": "13 December 1642",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__857585_14251",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "\"Archibald, certainly not!\"",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop2__161602_474028_88460_18966",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Han Chinese emigrants",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__794999_113442",
+   "hops": 2,
+   "pred": "13 August 1896 (John Everett Millais, painter of *Christ in the House of His Parents*)",
+   "gold": "13 August 1896",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__68590_27619",
+   "hops": 2,
+   "pred": "The European Central Bank (ECB) is headquartered in Frankfurt am Main, Germany.",
+   "gold": "Article 2 of the Statute of the ECB",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__747894_135844",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Palmiro Togliatti",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__632870_22402",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "nearly 25,000",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "3hop1__639955_834494_34109",
+   "hops": 3,
+   "pred": "WVPB",
+   "gold": "KUAT-TV 6",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "2hop__157251_556157",
+   "hops": 2,
+   "pred": "**Limpopo River**",
+   "gold": "Limpopo River",
+   "correct": true,
+   "abstained": false
+  },
+  {
+   "id": "2hop__58168_1783",
+   "hops": 2,
+   "pred": "**John P. O'Brien**, who was mayor in 1933, when U.S. unemployment peaked during the Great Depression.",
+   "gold": "Fiorello La Guardia",
+   "correct": false,
+   "abstained": false
+  },
+  {
+   "id": "4hop1__463635_624859_355213_203322",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Cabarrus County",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__216959_204037",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Daniel Darc",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__409166_152023",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "Kicking Mule Records",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "2hop__80_59409",
+   "hops": 2,
+   "pred": "unknown",
+   "gold": "three different relationships he had in the past",
+   "correct": false,
+   "abstained": true
+  },
+  {
+   "id": "4hop1__399219_765799_282674_759393",
+   "hops": 4,
+   "pred": "unknown",
+   "gold": "Green Bay",
+   "correct": false,
+   "abstained": true
+  }
+ ],
+ "bright": [
+  {
+   "id": "psychology/80",
+   "verdict": "yes",
+   "reason": "The accepted answer points to categorization and prototype theory as the key terms. The response names categorization as the main term and explicitly lists prototype theory, along with related concepts, so it conveys the accepted answer's core points."
+  },
+  {
+   "id": "robotics/55",
+   "verdict": "no",
+   "reason": "The accepted answer says the fix was installing all package dependencies with rosdep, following the ros2_control demos tutorial. The response instead attributes the error to a missing xacro executable and recommends installing ros-humble-xacro and re-sourcing the shell. It never mentions rosdep or installing dependencies, so it misses the key point of the accepted answer."
+  },
+  {
+   "id": "psychology/89",
+   "verdict": "partial",
+   "reason": "The accepted answer's key point is 'active learning' as the term for engaged learning where the learner actively contributes. The response does mention active learning, but only as a secondary 'related term' and leads with generation effect and generative learning instead. It captures the active-contribution concept and correctly rejects social memory, but does not clearly give the accepted term as the primary answer."
+  },
+  {
+   "id": "robotics/24",
+   "verdict": "yes",
+   "reason": "The response identifies the Nav2 Collision Monitor package as the recommended solution for stopping the robot when an obstacle enters a front zone, which matches the accepted answer's key point. It also points to the tutorial and package sources, though it adds extra alternatives and some unverified details such as the cmd_vel_smoothed output and the 'Configuring the Collision Monitor' tutorial title."
+  },
+  {
+   "id": "robotics/48",
+   "verdict": "no",
+   "reason": "The accepted answer's fix is to switch the client code from ROSLIB.ActionClient/ROSLIB.Goal with 'control_msgs/action/FollowJointTrajectory' to the ROS2-specific ROSLIB.Action and ROSLIB.ActionGoal with actionType 'control_msgs/FollowJointTrajectory'. The response never mentions this change. It instead blames rosbridge's type resolution and suggests Python import checks, pinning commits, and testing with Fibonacci, none of which is the accepted solution."
+  },
+  {
+   "id": "stackoverflow/107",
+   "verdict": "yes",
+   "reason": "The response states the key point that Chromium's desktop audio capture is limited, which is the core of the accepted answer. It goes further with workarounds and corrections, but it does not contradict the accepted answer. It does not mention Electron's docs caveat, which is a minor omission."
+  },
+  {
+   "id": "sustainable_living/40",
+   "verdict": "partial",
+   "reason": "The response covers reuse/donation, using crushed ceramics as fill or aggregate, and the glaze/lead concern with testing options, which overlaps with the accepted answer's points on reuse, filler use, and local drop-off. However, it omits the accepted answer's key point that ceramics can be crushed and remelted into new tiles or ceramic objects via specialized businesses, its mention of the glass-like recycling paths, and the artistic mosaic/mural value is only briefly touched. It also suggests the municipality may prohibit curbside recycling without noting the tip-sorting route, so it captures some but not all key points."
+  },
+  {
+   "id": "economics/68",
+   "verdict": "yes",
+   "reason": "The response identifies the same key point as the accepted answer: the quadratic-in-age model is a restricted special case (nested within) the dummy-variable model, so a likelihood-ratio-type test (here framed as a partial F-test, which is equivalent for linear regression) is appropriate. It also correctly notes the dummy model always fits at least as well in-sample, and that testing beta coefficients being zero does not answer the question. The accepted answer mentions a likelihood ratio test while the response uses an F-test, a minor difference in test choice that does not conflict with the core conclusion."
+  },
+  {
+   "id": "sustainable_living/44",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: heat reuse is possible and done in some places (though it cites Odense, Helsinki and Stockholm rather than the NREL example), and data centers are often sited far from homes and offices because land and power are cheap. It omits the accepted answer's specifics like workforce needs, telecom access and co-siting with renewables, but the core points are covered."
+  },
+  {
+   "id": "earth_science/75",
+   "verdict": "no",
+   "reason": "The accepted answer gives the total depth increase as x = h1 + h1·ρw/(ρm−ρw) ≈ 287 m, where the 200 m sea-level rise is added to the isostatic subsidence. The response instead gets 87 m by treating x as subsidence alone and dismisses 287 m as a possible convention difference, so it misses the key point and gives the wrong answer."
+  },
+  {
+   "id": "sustainable_living/42",
+   "verdict": "partial",
+   "reason": "The response captures the key point that food in landfills decomposes anaerobically into methane, a potent greenhouse gas, and that this is worse than composting. It also notes that burning is less harmful than landfilling, and suggests reducing food waste and advocating for local compost options, which align with the accepted answer. However, it omits the energy/resource embodied in food production (water, oil), the point that landfill gas can be captured or flared, and the comparison of composting being better than waste-to-energy, and it gives a methane potency figure rather than the accepted answer's framing. It also adds some extra content (bokashi, leachate, microplastics) not in the accepted answer."
+  },
+  {
+   "id": "psychology/71",
+   "verdict": "partial",
+   "reason": "The response captures the accepted answer's key point that adult IQ/general intelligence is not meaningfully changed by early-childhood-style gains and that semantic knowledge can hold steady or grow with age, and it notes that decline is gradual. However, it omits the accepted answer's central distinction that IQ is not the same as working memory and that g is the preferred term, it does not state the education effect (about one point per year), it does not clearly say cognitive decline is unavoidable once basic conditions are met, and it leans on exercise and health advice and working memory training that the accepted answer does not endorse. It also warns against unvalidated products only implicitly, not explicitly."
+  },
+  {
+   "id": "stackoverflow/112",
+   "verdict": "no",
+   "reason": "The accepted answer identifies ESLint 9 deprecating eslintrc-style config, so the config is not used; the fix is migrating to flat config, setting ESLINT_USE_FLAT_CONFIG=false, or downgrading ESLint. The response instead attributes the problem to a relative extends path and ignorePatterns, and only mentions flat config as a side check (point 5) without recognizing it as the core cause or offering the listed remedies."
+  },
+  {
+   "id": "economics/59",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: games can be coordination/team games with perfectly aligned interests and no opposition, and the difficulty lies in coordinating without knowing others' choices (simultaneous moves/uncertainty). It additionally covers Bayesian/incomplete-information extensions and focal points, which go beyond but do not contradict the accepted answer."
+  },
+  {
+   "id": "biology/101",
+   "verdict": "yes",
+   "reason": "The accepted answer identifies computer vision syndrome, with the eye's focusing (accommodation) muscles strained by close screen distance, reduced blinking causing dryness, and the 20-20-20 rule as a remedy. The response covers the ciliary (focusing) muscles, dry eyes from reduced blinking, and the 20-20-20 rule, matching the key points. It adds an eyelid-muscle point not in the accepted answer, but this does not contradict it."
+  },
+  {
+   "id": "earth_science/89",
+   "verdict": "partial",
+   "reason": "The response captures the core accepted point that cooling the ocean surface is impractical for hurricanes due to scale and the required effort, and it adds plausible concerns about dispersal and environmental effects. However, it misses the accepted answer's central argument about water's large thermal capacity meaning surface cooling from a short-lived albedo change would not have time to take effect before the storm passes. It also omits the later point that cooling one area does not stop cyclones forming elsewhere, and the newer cold-water pumping and aerosol injection alternatives. Its claim that the storm churns up cool water is accurate but is not the accepted reasoning."
+  },
+  {
+   "id": "economics/1",
+   "verdict": "yes",
+   "reason": "The response identifies first-order stochastic dominance as the key concept, which is the point the accepted answer directs the reader to. It shows F1(x) < F2(x) for all x > 0 because λ1 < λ2, then uses the survival-function integral to show any increasing utility ranks lottery 1 higher, so the answer does not depend on a specific utility function. This matches the accepted answer's emphasis on a general VNM argument via stochastic dominance."
+  },
+  {
+   "id": "biology/35",
+   "verdict": "yes",
+   "reason": "The response captures the accepted answer's key points: hair color comes from melanin produced by melanocytes in the follicle, greying occurs as melanocyte production declines due to depletion of the stem-cell pool with age, and onset timing is largely genetic/heritable. It adds extra details (tyrosinase, hydrogen peroxide, IRF4, ethnicity, smoking) that are plausible and don't contradict the accepted answer, though it doesn't explicitly mention the lack of selection pressure against greying."
+  },
+  {
+   "id": "psychology/37",
+   "verdict": "no",
+   "reason": "The accepted answer points to Kamping et al. (2016), showing masochists have reduced pain intensity and unpleasantness only in the masochistic context, with attenuated parietal operculum connectivity with insula and related regions, favoring a top-down, context-dependent modulation explanation over neurochemical (endorphin/dopamine) accounts. The response instead centers on opioid-dopamine disinhibition as the best-supported mechanism, does not mention this study or the top-down/parietal operculum finding, and does not convey the accepted answer's key points."
+  },
+  {
+   "id": "sustainable_living/3",
+   "verdict": "yes",
+   "reason": "The response answers yes, that the crust holds far more lithium than a four-month winter's storage would need, and it notes that extraction and logistics make this impractical, which matches the accepted answer's core points. Its specific figures differ (20 ppm rather than the midpoint, 1.5% lithium in cells rather than 7%, and electricity only rather than total energy), but the conclusion is the same."
+  },
+  {
+   "id": "sustainable_living/80",
+   "verdict": "partial",
+   "reason": "The response covers drainage and cross-fall (crowning), which match the accepted answer's key point about providing slope for water to drain away and draining water from the road sides. It also mentions maintenance and cost-effective repair, loosely matching the accepted answer's emphasis on managing the asset. However, it omits the accepted answer's points about limiting traffic speed over wet roads (including the narrow-lane psychological trick), the mechanism of tyres forcing water into the surface, and the idea of recording measurements/asset management as the first step. It adds unrelated detail on cross drains, vegetation, and stabilization that the accepted answer does not address."
+  },
+  {
+   "id": "psychology/54",
+   "verdict": "partial",
+   "reason": "The response conveys that IQ and EQ are separate and that EQ won't convert back to IQ, which matches the accepted answer's point that there's no direct correlation between the two. It also notes cognitive decline with age and the role of stress and disuse, echoing the answer's points about deterioration and maintenance. However, it omits the accepted answer's key ideas about multiple intelligences (Gardner), the caveat that IQ itself is a contested measure, and the emphasis on emotional stress and recognizing emotions as a prerequisite for stability. It also adds claims not in the accepted answer, such as emotional skills improving through the 30s and knowledge persisting."
+  },
+  {
+   "id": "biology/19",
+   "verdict": "partial",
+   "reason": "The response covers the main idea that kissing has a natural/biological basis with cultural shaping, and mentions primate parallels (bonobos) and grooming-like contact. However, it omits the accepted answer's key points about evolutionary precursors like grooming and nose-touching across species, the feeding-behavior origin (pre-chewed food passed to young in birds), and the explicit acknowledgment that it is undecided whether kissing is learned or instinctive. It also adds claims (Jankowiak 2015 survey, 90% figure) not in the accepted answer, and leans toward a definite conclusion where the accepted answer stays agnostic."
+  },
+  {
+   "id": "biology/76",
+   "verdict": "partial",
+   "reason": "The response covers the distinction between memory types, identifies autobiographical/episodic memory, and mentions self-awareness-like preconditions (sense of self), which matches part of the accepted answer. However, it omits the key accepted points: the mirror test, the ~18-month passing age, the 21-24 month development of the cognitive self, and the explicit link to infantile amnesia ending. It instead emphasizes hippocampal development and language, and gives the age of earliest memories as 3-4 rather than tying it to self-awareness timing."
+  },
+  {
+   "id": "robotics/90",
+   "verdict": "partial",
+   "reason": "The response covers the core idea of a custom byte dataframe with a bridge to the Arduino, and notes the need for framing/flags. However, it omits the key accepted point that rosserial can be used over Serial to send commands to the Arduino, and it does not mention that the nRF24L01 uses SPI so the Arduino acts as a bridge between serial and the transceiver. It instead suggests rosserial/micro-ROS only as an alternative, and it partially addresses the framing point via header and checksum."
+  },
+  {
+   "id": "stackoverflow/69",
+   "verdict": "partial",
+   "reason": "The response gives a different, awk-based solution rather than the accepted pure-batch method using set /p to write without a line ending. It does achieve the goal of joining lines with semicolons and no trailing CRLF, but the awk command's escaped quotes (\\\"\\\") are not valid in cmd.exe and would likely break, so it is not a working equivalent."
+  },
+  {
+   "id": "biology/40",
+   "verdict": "partial",
+   "reason": "The response covers that fruit sugar is absorbed differently due to fiber, that juice strips fiber so it acts like a sugar delivery system, and that the body treats 11 g the same regardless of source. However, it omits the glycemic index framing, the key point that added sugar increases glycemic impact with nothing to slow it, and the note that labeling rules can be gamed (e.g., apple juice concentrate counted as non-added). It also mischaracterizes the labels somewhat by suggesting the 'added' juice may be a different juice entirely, and says 'Your body doesn't have a special pathway' without the glycemic nuance."
+  },
+  {
+   "id": "psychology/85",
+   "verdict": "yes",
+   "reason": "The response captures the accepted answer's key points: the behavior is avoidance driven by fear of illness, it is not itself a disorder, it is not a subtype of hypochondria (health anxiety/illness anxiety disorder is the related concept), and it becomes problematic when it harms the person or maintains anxiety. It adds reasonable extra context on phobia-like avoidance and cultural factors, without contradicting the accepted answer. It omits the explicit negative-reinforcement mechanism, but the core conclusion matches."
+  },
+  {
+   "id": "stackoverflow/98",
+   "verdict": "yes",
+   "reason": "The response identifies the same root cause as the accepted answer: yielding the class itself as a validator fails because Pydantic cannot inspect the builtin signature. It gives the same fix, a classmethod validator yielded from __get_validators__ that converts numeric input via cls(milliseconds=...). It also explains that subclassing already makes the type a timedelta. The extra v2 note and the isinstance-timedelta branch go beyond the accepted answer but do not contradict it."
+  },
+  {
+   "id": "robotics/28",
+   "verdict": "partial",
+   "reason": "The accepted answer identifies the root cause as a version mismatch: the apt-installed ros_gz bridge was built for Gazebo Fortress while the system actually had Gazebo Garden, and the fix was building ros_gz from source. The response mentions version mismatch as item 3 among several possibilities, but treats it as secondary to transport/partition and pausing issues and does not identify the specific Fortress-vs-Garden mismatch or the fix of installing matching ros_gz from source."
+  },
+  {
+   "id": "sustainable_living/76",
+   "verdict": "partial",
+   "reason": "The response covers some key points from the accepted answer: additives (plasticizers leaching, hazardous substances), dioxin formation when incinerated, and general environmental concerns. However, it omits the accepted answer's central points about recycling feasibility (melting/downcycling, collection systems, VinylPlus, pyrolysis), landfill behavior of hard versus soft PVC, and the German drinking water regulation. It also doesn't mention BPA specifically, instead focusing on phthalates and vinyl chloride monomer, which diverges from the accepted answer's content."
+  },
+  {
+   "id": "robotics/37",
+   "verdict": "yes",
+   "reason": "The accepted answer says it is possible to create a BT plugin in a separate package, with nothing special about nav2_behavior_tree, citing an example. The response confirms this, stating no Nav2 source build is needed, and gives a concrete separate-package workflow (dependencies, node registration, shared library, plugin_lib_names config). It captures the key point, though it adds some details beyond the brief accepted answer and includes a slightly muddled mention of the navigation2_tutorials pattern."
+  },
+  {
+   "id": "economics/26",
+   "verdict": "partial",
+   "reason": "The response reaches the same bottom line as the accepted answer (inheritance splitting does not overturn Piketty's conclusion), but it misses the accepted answer's central point: Piketty's model concerns the capital vs. labor income share, not inequality between individuals, so the splitting critique is largely beside the point. Instead it frames the argument in terms of individual dynasties and adds unsupported empirical claims about assortative mating and inheritance's rising share."
+  },
+  {
+   "id": "biology/7",
+   "verdict": "partial",
+   "reason": "The response covers the core mechanism (gas bubble cavitation in synovial fluid, with ligament/tendon snapping mentioned) and the conclusion that cracking does not cause arthritis, matching key points. However, it presents the cavitation explanation as settled rather than noting the mechanism is unclear, omits the other listed causes (ligament stretching, adhesion breaking, crepitus from rough surfaces), and adds claims about forceful cracking straining ligaments and no mention that cracking has no known benefits, which the accepted answer addresses."
+  },
+  {
+   "id": "stackoverflow/33",
+   "verdict": "yes",
+   "reason": "The response gives the same core solution as the accepted answer: replace the per-row loop with a vectorized rolling-window max over the High column, then divide by the Low column. It also handles the 'don't create a separate column first' concern by computing the window directly. It adds a groupby per Symbol and a forward-looking indexer rather than the accepted answer's closed='left' backward window, but both produce the same forward-looking 3-day high divided by the current day's low."
+  },
+  {
+   "id": "earth_science/48",
+   "verdict": "partial",
+   "reason": "The response captures the core accepted-answer point that ice thickness is controlled by a balance of accumulation and outflow (flow to coast, calving, melt, sublimation), so the sheet is in steady state rather than growing indefinitely. It also notes slow interior flow allowing old ice to persist. However, it omits the accepted answer's specifics: ice flowing toward lower elevation until the base floats to form ice shelves/icebergs, the role of subglacial topography and basal melting in varying flow velocities, the river analogy, and the surface-versus-basal velocity distinction with the MEaSUREs flow-velocity evidence. Its claims about cubic deformation scaling and bedrock depression are additional reasoning not in the accepted answer."
+  },
+  {
+   "id": "biology/96",
+   "verdict": "partial",
+   "reason": "The response captures the key accepted point that accommodation is found by trial and error from blur (hill-climbing, reversing when blur worsens), which matches the accepted answer's mechanism 1. It also mentions priors and tonic focus, loosely related to the near response's depth cues. However, it omits the accepted answer's core points about visual cortex/association area processing, the neural pathway to the ciliary muscles, the vergence/retinal disparity mechanism, and the near response driven by perceived depth cues. It adds chromatic aberration, which is not in the accepted answer, and frames priors more loosely than the accepted answer's depth cues."
+  },
+  {
+   "id": "economics/97",
+   "verdict": "no",
+   "reason": "The accepted answer's key point is that Wolfram Alpha can be used by specifying the decision variable explicitly in the Maximize function, e.g. maximize[{expr, {q}}]. The response instead dismisses Wolfram Alpha's widget as awkward and recommends other tools (SymPy, Mathematica, MATLAB, Maple), never mentioning that the variable can be specified in Wolfram Alpha itself. It therefore does not convey the accepted answer's main point, though it offers alternative valid suggestions."
+  },
+  {
+   "id": "earth_science/91",
+   "verdict": "partial",
+   "reason": "The accepted answer explains soundscape ecology: sounds from biophony, geophony, and anthrophony; how they interact across scales; ecological effects on organisms; and that anthropogenic noise harms wildlife and soundscape preservation is a conservation goal. It also mentions remote sensing via acoustic inverse problems. The response covers biodiversity monitoring, noise pollution effects on wildlife, and ecosystem change, which overlap with key points. However, it omits the explicit biophony/geophony/anthrophony framework, the inverse-problem/remote-sensing principle, and the idea of soundscape preservation as a conservation goal, so it captures only some of the key points."
+  },
+  {
+   "id": "robotics/42",
+   "verdict": "partial",
+   "reason": "The response correctly identifies that Gazebo communicates via gz-transport and that a separate app needs that library, and it gives a practical build approach. However, it omits the accepted answer's points about plugins (system/sensor plugins, writing your own) and the note that the user only needs to add include paths. It also introduces unverified specifics such as gz-transport14 and gz-msgs10 versions, which may be incorrect for Harmonic (gz-transport13 is the version referenced in the accepted answer), and it asserts Visual Studio WSL/CMake steps that are not in the accepted answer."
+  },
+  {
+   "id": "psychology/57",
+   "verdict": "no",
+   "reason": "The accepted answer points to two review sources (Jackson, Choi & Gelfand 2019 multilevel review of revenge; Lambert et al. 2019 on anger and judgment/behavior) as the key resources. The response does not mention either of them, and instead offers a different set of citations and claims. It does address the innate-versus-acquired question in general terms, but it does not convey the accepted answer's key points, which are the specific reviews to consult on revenge and anger."
+  },
+  {
+   "id": "biology/3",
+   "verdict": "partial",
+   "reason": "The response correctly affirms that animals, including cats, show behavioral lateralization (handedness/pawedness), matching the accepted answer's core point. It also addresses the user's escape-positioning concern. However, it omits the accepted answer's broader points such as lateralization across fish, reptiles, birds and invertebrates in depth, the note that preference vs. proficiency differ, the evolutionary hypotheses, and that right-handedness is not always dominant. It also makes specific population claims (e.g., cats roughly balanced, dogs/horses/parrots) without the cited support, and does not mention Wells & Millsopp 2009."
+  },
+  {
+   "id": "psychology/56",
+   "verdict": "no",
+   "reason": "The accepted answer identifies the specific exercise as the Forest Test, a relational psychoanalytic projective test. The response explicitly says it does not know the specific exercise and instead suggests generic guided imagery and active imagination techniques, never mentioning the Forest Test or its name, so it misses the key point."
+  },
+  {
+   "id": "earth_science/67",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key point: Newton and Kepler derived their chronologies from biblical and historical sources rather than physical measurement, similar to Ussher's biblically based estimate. It adds extra details (king lists, astronomy, Kepler's 3992 BCE figure) that go beyond the accepted answer but do not contradict it."
+  },
+  {
+   "id": "earth_science/35",
+   "verdict": "partial",
+   "reason": "The response captures the accepted answer's core caveat that a single sensor cannot determine magnitude without distance, and it suggests peak ground acceleration as a simpler alternative. However, it misses the accepted answer's central recommendation: that the locally measured quantity should be expressed as a seismic intensity (e.g., Mercalli) via PGA-to-intensity tables. Instead it leads with a Richter-style ML formula that the response itself admits requires an unknown distance, which contradicts the accepted answer's point that magnitude cannot be estimated from one station."
+  },
+  {
+   "id": "stackoverflow/60",
+   "verdict": "yes",
+   "reason": "The response identifies the cause (console.log always outputs a newline), builds the string in the loop with +=, and logs it once after the loop, which matches the accepted answer's key point. The added trim, i+1 simplification, and printed output are reasonable extras that do not contradict the accepted answer."
+  },
+  {
+   "id": "robotics/19",
+   "verdict": "partial",
+   "reason": "The accepted answer points to the ros2_control component_parser (component_parser.hpp) as the tool to reuse in the node. The response instead recommends hardware_interface::parse_control_resources_from_urdf, which is a plausible but different and unverified API name, and never mentions component_parser.hpp. It does capture the core idea of reusing ros2_control's own parser rather than writing one from scratch, and it offers tinyxml2 as a fallback, which the question itself raised."
+  },
+  {
+   "id": "stackoverflow/18",
+   "verdict": "yes",
+   "reason": "The response identifies the key point of the accepted answer: the buffer's position is at the end after writing, so seek(0) is needed before Image.open reads it. It provides the seek(0) fix with matching code, and additionally offers valid extras like BytesIO for Python 3."
+  },
+  {
+   "id": "biology/50",
+   "verdict": "partial",
+   "reason": "The response captures the key point that mycotoxins such as aflatoxin (named in the accepted answer) are the main cause of illness, and it notes that the mould's chemicals rather than the body are responsible. It also covers the bacteria question and the practical advice to discard soft mouldy food. However, it does not mention aflatoxin's specific liver damage (acute necrosis, hepatic failure, carcinogenicity) in detail, and it lists other mechanisms and mycotoxin types that go beyond the accepted answer's focus. It only partially conveys the accepted answer's key points."
+  },
+  {
+   "id": "sustainable_living/70",
+   "verdict": "yes",
+   "reason": "The response covers the accepted answer's key points: banana peels are valuable for high potassium and minerals (good for roses and fruiting plants), they break down slowly when buried, pre-composting speeds release, there is a nitrogen issue that needs addressing, and peels alone are not a full substitute for store-bought fertilizer. It omits the citrus peel and spray/powder details, but those are secondary to the core question."
+  },
+  {
+   "id": "sustainable_living/92",
+   "verdict": "partial",
+   "reason": "The accepted answer focuses on producing fresh water from seawater via solar stills (with yield figures), addressing root causes like upstream forest restoration, and recommending household water reduction and greywater reuse. The response covers greywater reuse and mentions desalination generally, and it gives practical seawater uses, but it omits solar stills, the yield details, and the upstream/river-flow investigation, and it does not present a sustainable home-scale desalination method beyond saying it requires equipment and authorities."
+  },
+  {
+   "id": "robotics/4",
+   "verdict": "yes",
+   "reason": "The accepted answer identifies the missing #include <pthread.h> as the cause of the pthread_mutex errors and the fix is to include that header. The response correctly identifies the missing <pthread.h> include and instructs adding it to log_module.cpp, matching the key point. It omits the note that the header is commented out in log_module.h, but the core fix is conveyed."
+  },
+  {
+   "id": "psychology/90",
+   "verdict": "partial",
+   "reason": "The response covers Kohlberg's three levels and his structural scoring method, and correctly notes self-assessment is unreliable. However, it omits the accepted answer's key point that Kohlberg's theory cannot assign a single stage because people reason inconsistently across dilemmas, and it does not mention the DIT as a validated test or the self-serving bias findings. It instead presents a confident stage placement (Stage 5 with Stage 6 features) that the accepted answer would reject as unsupported."
+  },
+  {
+   "id": "stackoverflow/41",
+   "verdict": "yes",
+   "reason": "The response lays out the same priority order as the accepted answer: data descriptor first, then instance __dict__, then non-data descriptor, then plain class attributes, then __getattr__ or AttributeError. Its example demonstrates the key point that a data descriptor beats the instance dict while a non-data descriptor does not. It omits the detailed MRO walk and metaclass note, but those are not essential to the core answer."
+  },
+  {
+   "id": "economics/31",
+   "verdict": "partial",
+   "reason": "The response correctly points to HonestDiD (Rambachan and Roth) as applicable to pre-treatment violations and notes that the bias at T=0 depends on the trend difference between the base and treatment periods. However, it does not mention the accepted answer's key points: that bias arises without parallel trends in expectation, the option of modeling a known functional form (e.g., linear trend in logs) to achieve parallel trends, the approach of testing pre-period trend differences, or synthetic control/synthetic cohort methods. It also omits Lechner's common-trend-in-expectation idea, so it only partially conveys the accepted answer."
+  },
+  {
+   "id": "economics/11",
+   "verdict": "partial",
+   "reason": "The response identifies the same underlying mechanism (first movers bear costs while copiers reap similar returns, so innovation is underprovided) but names a different concept, the appropriability problem, and never mentions the Volunteer's Dilemma, which is the accepted answer's key term. It also omits the accepted answer's point that the Tragedy of the Commons and Volunteer's Dilemma are not moral hazard."
+  },
+  {
+   "id": "stackoverflow/64",
+   "verdict": "yes",
+   "reason": "The response explains that a HashMap cannot be written as a comma-separated key/value pair in a struct field and shows building the map with HashMap::new() and insert(), which matches the accepted answer's guidance to use the HashMap methods. It also offers HashMap::from as an inline alternative and notes the needed import."
+  },
+  {
+   "id": "stackoverflow/74",
+   "verdict": "yes",
+   "reason": "The response identifies that standard hasProperty only works with getters and recommends a custom FeatureMatcher that calls p.name() and matches the result, which is the accepted answer's key approach. It also offers a reusable helper and mentions AssertJ as an alternative, though it omits the accepted answer's note about the improved failure diagnostics."
+  },
+  {
+   "id": "sustainable_living/106",
+   "verdict": "yes",
+   "reason": "The response captures the accepted answer's key points: the recommendation to use life-cycle assessment covering extraction, manufacturing, use, and disposal; the note that newer hybrids and battery technologies have improved; the importance of assumptions like grid mix and driving distance; and the discussion of battery recycling and toxicity concerns. It omits the historical Hummer debunking and the explicit point that results depend on how 'better' is defined, but conveys the substance of the accepted answer."
+  },
+  {
+   "id": "biology/18",
+   "verdict": "yes",
+   "reason": "The response conveys the key point of the accepted answer: the terminal A-run is a genuine poly(A) tail, a biological feature of coronavirus RNA, not an artifact or padding. It also notes the tail's role in replication and its variable length, though it omits the accepted answer's details on poly(A) binding protein, translation initiation, and the cited studies."
+  },
+  {
+   "id": "sustainable_living/33",
+   "verdict": "no",
+   "reason": "The accepted answer says the cans do carry a deposit (often stamped on the top) and cites NY DEC's FAQ confirming sparkling and mineral water are covered by the Bottle Bill. The response instead assumes plain sparkling/mineral water is likely not covered, suggests the cans are unmarked and not returnable, and does not convey the key points that the deposit exists and the DEC explicitly includes these beverages."
+  },
+  {
+   "id": "stackoverflow/72",
+   "verdict": "partial",
+   "reason": "The response covers the per-script fix (Read-Host prompt) and the one-time -NoExit fix, both matching the accepted answer. It omits the global fix of changing the registry keys to add -NoExit, which is one of the three key points."
+  },
+  {
+   "id": "biology/74",
+   "verdict": "yes",
+   "reason": "The response captures the accepted answer's key point: white bark reflects sunlight to prevent rapid overheating of the cambium and sunscald, especially after frost and in winter sun. Its additional UV and maturing-bark points extend beyond the accepted answer but don't contradict it."
+  },
+  {
+   "id": "biology/82",
+   "verdict": "partial",
+   "reason": "The response captures the accepted answer's core point that snakes have vestibular/inner-ear fluid systems similar in basic function, and that they likely experience something different from human dizziness. However, it concludes more firmly that snakes are not disoriented, whereas the accepted answer tentatively hypothesizes they can get dizzy in some form. It also omits the vertigo mechanism explanation and the lighthearted caution about animal welfare, and adds unsupported claims about eye structure and gripping bodies."
+  },
+  {
+   "id": "robotics/23",
+   "verdict": "partial",
+   "reason": "The response does not reference the accepted answer's topic_based_ros2_control example, but it covers the core point that the hardware-interface node must be spun to receive messages. It omits the accepted answer's key caution that using a node inside a hardware interface is not recommended for realtime requirements and that a realtime-safe custom controller is preferable; instead it proposes a spinning thread as the fix."
+  },
+  {
+   "id": "sustainable_living/32",
+   "verdict": "partial",
+   "reason": "The response captures the core idea that one tree's effect is small and that survival matters, and it notes that many planted trees die. However, it gives a much lower lifetime figure (about 1 tonne of CO2) than the accepted answer's roughly 3.67 tonnes of CO2 (1 tonne of carbon) for a 20-year-old tree. It also omits the key point that about twelve seedlings are typically needed to get one healthy mature tree, and the comparison to a UK or US person's annual footprint differs too."
+  },
+  {
+   "id": "sustainable_living/57",
+   "verdict": "partial",
+   "reason": "The response captures the core points: small rooftop head is too low, energy per cubic metre is small, round-trip efficiency is poor at small scale, and batteries are more practical. However, it omits the accepted answer's key quantitative analysis (about 40 m³ needed for 10 kWh at 100 m head, pump efficiency problems, the need for large volume and head) and its point that water loss is not the issue. It also adds claims not in the accepted answer, such as examples of existing systems and micro-hydro replacing pressure-reducing valves, and says round-trip efficiency is 50-65% rather than the accepted 70-80% for large systems."
+  },
+  {
+   "id": "earth_science/52",
+   "verdict": "yes",
+   "reason": "The response identifies the coefficients as the Tetens equation's empirical constants for saturation vapour pressure of water, which is the accepted answer's core point. It gives the functional form and units, and its ice-coefficient and kPa-variant notes are accurate. It omits the Magnus/August-Roche attribution and the Wikipedia formula, but these are supporting context rather than the key answer."
+  },
+  {
+   "id": "biology/61",
+   "verdict": "partial",
+   "reason": "The response captures the key accepted-answer points: the network is mycorrhizal fungi rather than electrical impulses through roots, fungi exchange nutrients and chemicals, and there is no brain or nervous-system-like processing. However, it omits the accepted answer's specific evidence (Song et al. disease resistance, Babikova et al. aphid early-warning, Barto et al. allelochemical transport) and wrongly implies electrical signals in plants are a real feature of the mycorrhizal network context while also introducing claims about Simard's 1997 work and the New Yorker that are not in the accepted answer."
+  },
+  {
+   "id": "robotics/86",
+   "verdict": "yes",
+   "reason": "The response identifies the key point of the accepted answer: rosbag::MessageInstance::instantiate<T>() performs the deserialization into the generated ROS message class, so no manual deserialization is needed. It also correctly points out the std_msgs::String mismatch and shows a working example with sensor_msgs::CameraInfo. The extra notes about linking and raw bytes are accurate additions."
+  },
+  {
+   "id": "stackoverflow/15",
+   "verdict": "yes",
+   "reason": "The response matches the accepted answer's core points: a nested per-row scan is still needed, the speedup should come from NumPy rather than iterrows, and each row should record the first time the price moves more than 100 up or down. Its Numba loop differs in mechanics from the accepted apply/argmax approach, but it reaches the same expected output."
+  },
+  {
+   "id": "stackoverflow/97",
+   "verdict": "yes",
+   "reason": "The response covers both key points of the accepted answer: it handles single page numbers without a hyphen (the cause of the unpacking error) and handles reversed ranges like 18-12 by swapping start and end. It also produces the expected outputs 4, 8, and 10. The extra strip() call is a harmless robustness improvement."
+  },
+  {
+   "id": "stackoverflow/24",
+   "verdict": "yes",
+   "reason": "The response identifies the key point of the accepted answer: use protobuf's MessageToDict (json_format) on the response's underlying protobuf message to convert it to JSON-compatible Python structures, rather than ParseDict, and notes this matches the user's working edit. It also adds MessageToJson and proto-plus alternatives, which are extra but not contradictory."
+  },
+  {
+   "id": "stackoverflow/111",
+   "verdict": "yes",
+   "reason": "The response identifies the key issue that the loop calls setCurrentDeck repeatedly on a stale copy so only the last update applies, and that splice mutates state directly. It recommends building the new deck with local copies using plain JavaScript and calling each setter once at the end, which matches the accepted answer's core advice. It also drops the useEffect, aligning with the accepted answer's point about not relying on effects."
+  },
+  {
+   "id": "robotics/80",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: the variables are set by /opt/ros/humble/setup.bash, the setup script should be sourced in ~/.bashrc so it applies to every new terminal, and the user should source it in the current shell or open a new terminal. It adds troubleshooting steps but does not contradict the accepted answer."
+  },
+  {
+   "id": "robotics/59",
+   "verdict": "partial",
+   "reason": "The response correctly explains the three clock types (system wall clock, monotonic steady clock, ROS time following /clock when use_sim_time is set) and correctly identifies why the user's code printed identical values. It also gives a working way to read the steady clock directly. However, it omits the accepted answer's key points about node clock type being selectable via NodeOptions, and the suggestion to use create_wall_timer for a steady timer, and it does not address the user's question about getting steady time from node->now() in the context of the node's own clock configuration."
+  },
+  {
+   "id": "psychology/24",
+   "verdict": "partial",
+   "reason": "The accepted answer's key points are that one should not argue, confront, or challenge delusional beliefs, nor affirm them, and that arguing tends to entrench the belief and provoke defensiveness, with guidance from NSW and Queensland government resources. The response does touch on the core idea that counterarguments get absorbed and debate backfires, and it mentions clinicians shifting away from debating content, which overlaps with the accepted answer's point. However, it does not state the advice against feeding into the delusion, does not give the direct guidance on not judging content, and instead answers the asker's question about nonfiction accounts with books the accepted answer never mentions. It therefore captures only part of the accepted answer's key points."
+  },
+  {
+   "id": "earth_science/53",
+   "verdict": "yes",
+   "reason": "The response covers the accepted answer's key points: sediment supply (little sediment infill because the trench is far from continents), lithosphere age (old, cold, dense crust subsiding and sinking), and narrow/rollback slab behavior producing steep dip (trench rollback, steep slab). It captures the same mechanisms, though it frames them in its own words and adds slab pull and back-arc extension."
+  },
+  {
+   "id": "economics/57",
+   "verdict": "partial",
+   "reason": "The response correctly says the first approach is valid and the second is flawed, and it notes the horizon-dependence issue. However, it misdiagnoses the flaw: the accepted answer identifies that the formula x(t)=r/365·t/365 makes the effective annual rate scale with the number of years (yielding (1+r·years/365)^years, a mismatch with the intended 1+r), and that the formula is written with a mistaken expression. The response instead says elapsed time is counted twice and gives a different fix (a piecewise simple-interest formula), omitting the key point that the expected yearly result is PV(1+r) and that the broken formula's annual rate is wrong. It captures the conclusion but not the core reasoning."
+  },
+  {
+   "id": "earth_science/54",
+   "verdict": "partial",
+   "reason": "The response correctly says clinoptilolite is not the only zeolite linked to siliceous precursors and that work has continued since 1989. However, it omits the accepted answer's specific key points: Kastner (1999) noting clinoptilolite and heulandite occur in Si-rich diagenetic settings, and Karpoff et al. (2007) showing clinoptilolite precipitates from biogenic silica dissolution reacting with clay, with quantitative modeling. It names no specific recent studies and instead defers to reviews, so it captures only part of the answer."
+  },
+  {
+   "id": "psychology/39",
+   "verdict": "partial",
+   "reason": "The accepted answer frames thoughts as attractors in a dynamical network that destabilize and transition (chaotic itinerancy, attractor instability, attention and stimulus causing destabilization, neurons continuing firing). The response does not mention attractor dynamics or chaotic itinerancy, but it does cover related key points: competition between assemblies, adaptation/fatigue causing patterns to weaken, attention and new input interrupting activity, and stability being temporary. It captures the general gist of transitions via dynamics, though it misses the attractor framing and the formal concepts central to the accepted answer."
+  },
+  {
+   "id": "economics/75",
+   "verdict": "partial",
+   "reason": "The response captures the key idea from the accepted answer: work at the commodity/product level using BEA Use and Supply tables rather than mixing the CES with industry-level data, and recognizing that a product category (e.g., farm products) can be purchased by households even when its industry has no direct final demand. However, it omits the specific Use table reference to Personal Consumption Expenditures by product category, the concrete example (vegetable and melon farming, farm machinery purchases), and the caveat that commodity output and industry production differ and need the Supply table to map them. It also introduces a Leontief inverse procedure and PCE bridge details that go beyond the accepted answer and are not confirmed by it."
+  },
+  {
+   "id": "economics/86",
+   "verdict": "no",
+   "reason": "The accepted answer points to a single reference: Arnold Faden's 1977 book 'The Economics of Space and Time' (with Hal Varian's review). The response never mentions Faden or that book. It offers a long list of different references, so it does not convey the accepted answer's key point, though it is a broadly relevant reading list."
+  },
+  {
+   "id": "sustainable_living/14",
+   "verdict": "partial",
+   "reason": "The response captures two of the accepted answer's key points: it recommends EPA eGRID for the regional emissions factor and NREL PVWatts for solar estimates. However, it omits BEopt, the central recommendation, a physics-based tool built for single-family homes that compares cost, energy, and carbon across multiple upgrades in one run. It instead suggests DOE Home Energy Saver, Rewiring America, and audit reports, which are related but are not the main answer."
+  },
+  {
+   "id": "sustainable_living/1",
+   "verdict": "partial",
+   "reason": "The accepted answer recommends C (offering to outdoor store staff) as the best option, with D rejected for destroying a usable product and E dismissed because the user already decided not to use it. The response instead ranks E as best and D as the right disposal route, directly contradicting the accepted answer's ranking. It does agree C is the next best option and that A is poor, but its core recommendation diverges."
+  },
+  {
+   "id": "biology/9",
+   "verdict": "partial",
+   "reason": "The response captures the accepted answer's core point that humans are best adapted to photopic (daylight) conditions and that the evolutionary claim is weaker than assumed, and it supports light mode via legibility studies. However, it omits the accepted answer's key evolutionary arguments: humans are diurnal, the retina's cone density concentrated at the fovea favors photopic vision, and trichromacy evolved for fruit detection in daylight. Instead it dismisses the evolutionary argument and calls the claim opinion, which diverges from the accepted answer's reasoning."
+  },
+  {
+   "id": "biology/72",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: muscle growth is mainly due to individual fibers getting bigger (hypertrophy via more myofibrils and sarcomeres), adult humans essentially do not gain new muscle fibers, satellite cells fuse to existing fibers rather than creating new ones, and the Anatomy Trains claim about adding cells to bridge stretched muscle is not supported. It adds a nuance about possible fiber splitting in animal studies, which is compatible with the accepted answer's emphasis on limited cell-number growth."
+  },
+  {
+   "id": "biology/69",
+   "verdict": "partial",
+   "reason": "The response captures the accepted answer's point that separating larval and adult stages reduces competition and suits different roles, and it mentions protection during the vulnerable pupal stage. However, it omits the evolutionary framing (holometaboly evolved once and is highly successful in species richness), the hemimetabolous vs holometabolous contrast, and the point that the pupa's protection is tied to caterpillars being nutritious prey with defensive adaptations. It also adds a different main explanation (body design and egg food limits) that is not in the accepted answer, though it is plausible."
+  },
+  {
+   "id": "earth_science/87",
+   "verdict": "yes",
+   "reason": "The response matches the accepted answer's key point: fogbows lack color mainly because of the droplet size, with diffraction smearing the colors. It also correctly says droplet properties, not geometry, are the primary cause. Its specific size figures (fog droplets ~10-20 micrometers) are slightly different from the accepted answer's bound (<0.05 mm, i.e. under 50 micrometers), but are consistent with it as small droplets."
+  },
+  {
+   "id": "stackoverflow/0",
+   "verdict": "partial",
+   "reason": "The response correctly states Snowflake has no dedicated melt command and that UNPIVOT needs a column list, and its Option 1 (OBJECT_CONSTRUCT(*) with LATERAL FLATTEN) matches the accepted answer's core technique. However, it omits the ORDER BY/data-type detail and the explanation of the JSON transformation step, and its Option 2 (generating a dynamic UNPIVOT) is a different, less direct approach. It captures the key idea but not the full answer."
+  },
+  {
+   "id": "biology/100",
+   "verdict": "partial",
+   "reason": "The response covers the accepted answer's point that green light (roughly 500-600 nm) is poorly absorbed and reflected, and that monitor light is weaker than sunlight. However, it frames the 500-620 nm gap as only a weak absorption range that plants partly use, rather than the main range where chlorophyll doesn't work. It also centers its list of unusable light on far-red, infrared, and UV, which the accepted answer doesn't address."
+  },
+  {
+   "id": "sustainable_living/69",
+   "verdict": "yes",
+   "reason": "The response clearly says no to relying on tea tree oil alone, matching the accepted answer's core point that tea tree oil is toxic if swallowed and should not be used regularly or as a toothbrushing substitute. It adds fluoride and abrasion reasoning and alternatives, which are extra but consistent with the answer's conclusion. It does not explicitly mention that adverse effects can accumulate over time, and it suggests a drop of tea tree oil in toothpaste, which slightly diverges from the accepted answer's strong advice against any intake."
+  },
+  {
+   "id": "psychology/46",
+   "verdict": "partial",
+   "reason": "The accepted answer says time perception is highly distributed across frontal cortex, parietal cortex, basal ganglia, cerebellum and hippocampus, with no single place-cell analogue, and points to a review (Fontes et al. 2016) and Moser et al. 2015. The response instead answers 'yes' with time cells, which conflicts with the accepted answer's emphasis on distributed encoding, though it does mention the hippocampus and prefrontal cortex and offers references on time cells that the accepted answer does not cover. It captures only part of the key points, and its confident 'yes' framing and unverified citation details are at odds with the accepted answer."
+  },
+  {
+   "id": "sustainable_living/29",
+   "verdict": "partial",
+   "reason": "The response agrees that solar cars are not yet practical and cites limited roof area, which matches the core conclusion. It omits the accepted answer's quantitative case: the 8 kW peak versus 92 kW engine, the roughly 2.2 kW real average, and the 62 hours of sun needed to match a tank of gasoline. It also calls solar cars a 'promising idea' and gives vague range figures instead of those numbers."
+  },
+  {
+   "id": "psychology/38",
+   "verdict": "yes",
+   "reason": "The response identifies 'analysis paralysis' as the key term, matching the accepted answer, and explains it as overanalyzing options to seek the perfect solution so the task never gets done. The extra related terms (perfectionism, maximizing vs. satisficing) are accurate context and do not contradict the accepted answer."
+  },
+  {
+   "id": "biology/60",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: blue is a structural color from light scattering (Rayleigh scattering in the iris stroma), not a pigment; shorter wavelengths scatter more, like the sky; and melanin amount determines the rest of the color. It adds extra claims about green and red that go beyond the accepted answer but do not contradict its core explanation."
+  },
+  {
+   "id": "earth_science/62",
+   "verdict": "partial",
+   "reason": "The response correctly identifies Ground-Penetrating Radar and explains that reflections from property boundaries reveal subsurface layers. However, it omits the accepted answer's key points: GPR is typically limited to shallow depths (archaeology, forensics, civil engineering), and the alternative method of reflection seismic surveys using sound waves, which reaches the upper crust and is used in oil exploration. It also does not mention that attenuation in brackish groundwater is the depth-limiting factor, though it does note saline groundwater and clay absorb the signal. The response is partially aligned but misses the seismic alternative and the context of depth scales."
+  },
+  {
+   "id": "biology/38",
+   "verdict": "yes",
+   "reason": "The response confirms the core accepted-answer points: bacteriophages are the viruses that target bacteria, phage therapy is an active research area as an antibiotic alternative, and it is practical but with risks such as bacterial resistance (the accepted answer cites mutations). It also addresses the self-amplification idea from the question, though it adds extra detail and a more cautious conclusion than the accepted answer's optimistic tone."
+  },
+  {
+   "id": "stackoverflow/75",
+   "verdict": "yes",
+   "reason": "The accepted answer says to write a custom comparator that compares the numeric parts of the strings instead of their ASCII order. The response gives a comparator that does this (Intl.Collator with numeric: true), covers mixed text and numbers, and mentions a manual digit-chunk comparison as a fallback. The method differs from the accepted answer's extractNumberFrom approach, but the key points are conveyed."
+  },
+  {
+   "id": "robotics/83",
+   "verdict": "partial",
+   "reason": "The response correctly identifies the chaining mechanism and the local_setup.bash alternative, and notes the workaround for the second case. However, it omits the key point that setup.bash chains to prefixes present in COLCON_PREFIX_PATH at build time, and the best practice of building in a clean terminal with only needed workspaces sourced. It also cites ROS 2 concept pages rather than the specific colcon environment documentation, and its suggestion to keep the environment clean is only loosely stated."
+  },
+  {
+   "id": "economics/62",
+   "verdict": "partial",
+   "reason": "The response captures the accepted answer's core point that default is a debatable legal/contractual concept, not automatically triggered by a missed payment, and notes the grace-period nuance and that agency judgments differ from formal findings. However, it does not reference the accepted answer's broader framing about default being a legal concept with debatable status (e.g., the Greece example), and it adds specific claims (30-day grace, S&P/Fitch downgrades) not in the accepted answer, so it only partially matches the key points."
+  },
+  {
+   "id": "psychology/87",
+   "verdict": "no",
+   "reason": "The accepted answer says 'No': synesthesia is coupled to vision and hearing, not motor functions, and complex abstract associations like these are unlikely to be synesthetic. The response instead answers 'Yes,' calling the experience synesthesia-like and suggesting kinetic synesthesia is a recognized category, which contradicts the accepted answer's core conclusion. It does offer alternative explanations (embodied cognition, motor imagery), which partially overlap with the accepted view that this is not synesthesia, but its headline answer is opposite."
+  },
+  {
+   "id": "earth_science/58",
+   "verdict": "partial",
+   "reason": "The response gives a valid method for computing Gaussian latitudes (Gauss-Legendre nodes, arcsine conversion) and lists publicly available functions, which covers the core idea of the accepted answer. However, it omits the NCL gaus function that the accepted answer names as the direct solution, and it does not mention the per-hemisphere convention (N/2 points) or the Gaussian weights as output of that function. Its suggestions (numpy, scipy, MATLAB, SPHEREPACK) are alternative valid routes rather than the accepted answer's key point."
+  },
+  {
+   "id": "biology/33",
+   "verdict": "partial",
+   "reason": "The response captures that humans have a biological tendency toward pair bonding and that culture shapes arrangements, and it notes flexibility and that lifelong exclusive monogamy is less universal. However, it omits the accepted answer's central claim that humans are mostly serial monogamists, with a meaningful rate (~15%) of hidden cheating and male tendencies toward multiple partners, and it does not address the comparison with other animals where exclusive monogamy is rare."
+  },
+  {
+   "id": "earth_science/3",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key point: the inner core is solid because the enormous pressure (~330-360 GPa) raises iron's melting point well above the core temperature, so the high temperature alone does not imply liquidity. It also gives the same pressure figures and the phase-boundary reasoning. Minor differences include stating a melting point of ~6,000 K and temperatures of 5,200-5,500 K, and adding light-element remarks, but these do not contradict the accepted answer's core explanation."
+  },
+  {
+   "id": "economics/19",
+   "verdict": "yes",
+   "reason": "The response gives the same mathematical steps as the accepted answer: it uses d ln x = dx/x (via the chain rule) to convert the log derivatives, applies the chain rule with dK_t/d ln K_t = K_t, and arrives at the stated identity. It also explains that the expression is the elasticity of K_(t+1) with respect to K_t, matching the accepted answer's key point. The accepted answer's reference to 'elasticity of substitution' is loosely named, but the response's elasticity interpretation is the same substantive idea."
+  },
+  {
+   "id": "psychology/45",
+   "verdict": "partial",
+   "reason": "The response correctly distinguishes recurrent (within-stage/layer, self-feedback) from feedback (top-down, across hierarchy) connections, which matches the core of the accepted answer. However, it defines recurrent connections by within-area lateral/convolutional self-loops rather than the accepted answer's histological basis (layer 2/3 pyramidal cells projecting back to source in a tight positive feedback loop), and it omits the laminar identification of feedforward and feedback connections (FF from superficial layers to layer 4, FB avoiding layer 4) that the accepted answer emphasizes."
+  },
+  {
+   "id": "stackoverflow/27",
+   "verdict": "partial",
+   "reason": "The response correctly identifies that the matrix can be written row by row without densifying the whole thing, which matches the accepted answer's first approach. However, it misses the key points of the accepted answer: the Harwell-Boeing (hb_write) and Matrix Market (mmwrite) plain-text formats that store the sparse matrix directly, and the simple data/indices/indptr saving approach. It also incorrectly suggests that writing a full dense text file is the main path, which the question sought to avoid for sparse data, and the coordinate-format option only partially covers the sparse-storage idea."
+  },
+  {
+   "id": "economics/37",
+   "verdict": "partial",
+   "reason": "The response captures the core idea that IOR is restricted to depository institutions with reserve accounts, while ON RRP reaches a broader set of counterparties. It does not mention the accepted answer's specific point about non-member banks being outside member-bank requirements and reporting rules, though it adds relevant points on the subsidy trade-off and the temporary nature of repo transactions."
+  },
+  {
+   "id": "psychology/96",
+   "verdict": "partial",
+   "reason": "The response confirms that overburdening yourself is possible and lists symptoms, which matches the question's core. However, it does not mention burnout as the outcome, its definition (chronic stress leading to exhaustion, cynicism, and ineffectiveness), or the key remedy that stress relief must be built into daily routine. It frames the issue around rumination and anxiety instead of the accepted answer's burnout framework."
+  },
+  {
+   "id": "earth_science/100",
+   "verdict": "partial",
+   "reason": "The response captures the accepted answer's key point that aquatic organisms, including algae, are highly productive oxygen producers and that the user's leafy, low-trunk intuition is partly right. However, it never explicitly mentions the accepted answer's central fact that algae produce more oxygen than all land plants combined, instead focusing on per-weight comparisons and land plants like sugarcane and grasses."
+  },
+  {
+   "id": "earth_science/95",
+   "verdict": "yes",
+   "reason": "The response gives a cumulative consumption figure of about 1.3 trillion barrels, which matches the accepted answer's 1.36 trillion through end 2017 once the roughly two years of production after 2015 are subtracted. It also answers the most-or-small question by saying most has been used in recent decades but not all of it, consistent with the accepted answer's framing."
+  },
+  {
+   "id": "stackoverflow/13",
+   "verdict": "yes",
+   "reason": "The response identifies pd.factorize as the solution requiring no extra library, matching the accepted answer's key point. It explains that factorize returns codes and uniques (lookup table), and notes NaN handling via the sentinel (use_na_sentinel=False to keep NaN as a code, matching the accepted answer's option). It also adds useful context about category codes and SQL Server columnstore, though it slightly misstates the default NaN behavior as mapping to -1 in the same way, which is accurate."
+  },
+  {
+   "id": "robotics/10",
+   "verdict": "partial",
+   "reason": "The accepted answer points to image_proc and Python module import tutorials (plus a gist for importing nodes into Python). The response doesn't mention those specific resources and doesn't address importing/reusing the node in Python. It does convey the core idea of processing outside RViz via a node that subscribes, processes, and republishes images, and it suggests cv_bridge and image_transport, which overlaps with the image_proc suggestion. Coverage of the key points is therefore partial."
+  },
+  {
+   "id": "biology/80",
+   "verdict": "yes",
+   "reason": "The response covers the key points of the accepted answer: adenosine accumulates during waking from heavy energy use and ATP breakdown (ATP to ADP to AMP to adenosine), it acts on A1 receptors (especially in the basal forebrain) to inhibit wake-promoting neurons and induce sleepiness, and adenosine is cleared during sleep by enzymatic breakdown. It goes beyond the accepted answer with the ectonucleotidase/extracellular ATP route, which is consistent with the accepted answer's broader account and does not contradict it."
+  },
+  {
+   "id": "psychology/10",
+   "verdict": "partial",
+   "reason": "The accepted answer identifies the concept as confirmation bias (interpreting evidence to confirm what one already believes) and advises against pathologizing it as dementia or psychosis. The response does not name confirmation bias and instead offers mind-reading, jumping to conclusions, illusion of transparency, and ideas of reference. It does correctly say the behavior isn't necessarily a sign of dementia, paranoia, or psychosis, and that most people do it sometimes, which matches the accepted answer's non-pathological point. It misses the core key point of confirmation bias, so it only partially matches."
+  },
+  {
+   "id": "economics/5",
+   "verdict": "partial",
+   "reason": "The response reaches the same core conclusion as the accepted answer: aid alone would not make Gaza one of the richest Mediterranean states, and institutions and policy matter beyond capital. It also questions the Marshall Plan comparison. However, it omits the accepted answer's key nuance that Gaza could in principle become rich under pro-growth policies, that aid effects are non-linear and depend on institutional quality, and it relies on a somewhat different framing (one-time investment) and unsourced figures rather than the literature-based reasoning."
+  },
+  {
+   "id": "earth_science/115",
+   "verdict": "yes",
+   "reason": "The accepted answer's key point is that the file must be named exactly `.cdsapirc` without a `.txt` extension, since Python cannot find a text-type file. The response's first point covers this directly, explaining that Windows may save it as `.cdsapirc.txt` and telling the user to enable file extensions and rename it to `.cdsapirc`. It also adds advice on the URL, key format and licence acceptance, which the accepted answer does not mention but which does not contradict it."
+  },
+  {
+   "id": "robotics/91",
+   "verdict": "yes",
+   "reason": "The response matches the accepted answer's key points: a stamped custom message with a Header and float array (replacing Floats) lets numpy_msg work and provide the timestamp, and it mentions the allow_headerless=True alternative for when accurate timestamps aren't needed. It omits the explanation that numpy_msg() is a conversion function and the discussion of serialize_numpy, but the core solution is conveyed."
+  },
+  {
+   "id": "biology/41",
+   "verdict": "partial",
+   "reason": "The response captures some key points: body size can evolve in either direction, Cope's rule is mentioned as a variable tendency, and a large common ancestor can give rise to small descendants (birds example). However, it omits the accepted answer's central methodological point that inferring an ancestor's size depends on parsimony across the tree and that ancestor identification is difficult (autapomorphies), and it doesn't cover the experimental evolution evidence showing body size can change rapidly within few generations. It also lacks the nuance that many results depend on methods."
+  },
+  {
+   "id": "sustainable_living/13",
+   "verdict": "yes",
+   "reason": "The response identifies the concept as xeriscaping, matching the accepted answer's key point, and describes its core principles of drought-adapted plants, mulch, and gravel instead of lawn. It also mentions the Denver water-authority origin indirectly via Denver utility programs and provides real examples, covering the substance of the accepted answer's points about local climate-appropriate, often native plants (via Theodore Payne native plants). It lacks the explicit 1981 Denver coinage detail but conveys the essential points."
+  },
+  {
+   "id": "sustainable_living/36",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: uncontrolled/open burning is the worst option, releasing dioxins, particulates, and CO that expose the burner and neighbours; landfilling is better than open burning; and controlled incineration with pollution controls is far cleaner and preferable to open burning. It also adds relevant extra context on the plastic problem and advice for local conversations, without contradicting the accepted answer. It omits the explicit note that open burning is illegal in most of the U.S., a minor gap."
+  },
+  {
+   "id": "stackoverflow/21",
+   "verdict": "partial",
+   "reason": "The accepted answer content is not visible (the page is a removed-question stub), so the comparison is uncertain. The response correctly identifies the root cause: the URL string is indexed as if it were an array, yielding a single character. It also notes the API returns an array. The response's fixes are plausible, but without the accepted answer's specific points it cannot be confirmed that the key points match."
+  },
+  {
+   "id": "sustainable_living/98",
+   "verdict": "partial",
+   "reason": "The accepted answer recommends boric acid mixed with powdered sugar or salt as the key solution. The response does not mention boric acid, but it does recommend a borax and sugar bait, which is closely related (borax is a sodium salt of boric acid) and works by the same mechanism. It also raises the non-toxic question implicitly by noting borax is not harmless, and offers additional useful options. It captures the core idea but misses the boric acid specifics and the clarification question about toxicity targets."
+  },
+  {
+   "id": "biology/21",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: biological immortality means no age-related increase in mortality from senescence, organisms like hydra, Turritopsis jellyfish, and planarians exemplify it, and such organisms can still die from injury, predators, or disease. It adds an extra example (aspen clones) and caveats, but covers the core content of the accepted answer."
+  },
+  {
+   "id": "psychology/55",
+   "verdict": "yes",
+   "reason": "The response identifies 'sour grapes' from Aesop's fable as the core term, matching the accepted answer's main point. It also covers cognitive dissonance reduction, which the accepted answer cites as the modern framework, and links it to the user's teen example. It omits the broader 'rationalization' label and the note that defense mechanisms are a dated Freudian construct, but the key answer is conveyed."
+  },
+  {
+   "id": "robotics/82",
+   "verdict": "no",
+   "reason": "The accepted answer says stock dynamic_reconfigure supports multiple sets of parameters by creating a separate dynamic_reconfigure::Server per namespace path (e.g., private_nh with a relative name), reusing the same .cfg class. The response instead claims stock dynamic_reconfigure cannot do this and never mentions creating multiple Server objects per namespace, missing the key solution and steering the user toward third-party or workaround approaches."
+  },
+  {
+   "id": "robotics/66",
+   "verdict": "partial",
+   "reason": "The accepted answer points to the built-in wait_for_service() and wait_for_action_server() methods on clients, which the response never mentions, instead claiming no built-in exists. The response offers a custom graph-polling alternative that does work (checking the action's /_action/send_goal service name and fully qualified names), and it addresses the user's request for helper functions without typed clients, so it captures part of the answer but misses the key built-in approach."
+  },
+  {
+   "id": "sustainable_living/11",
+   "verdict": "partial",
+   "reason": "The response confirms the arithmetic and the order of magnitude, and notes that the 400 TWh includes non-car transport, which is a valid point. However, it does not convey the accepted answer's key points: the Jacobson 2021 benchmark of about 171 TWh for full transport electrification by 2050, the explanation of the gap versus 120 TWh (existing EVs and electric rail/buses, broader transport definition, growth to 2050). Instead it asserts a car-only figure of 25-35% without support and says the conclusion is 'somewhat overstated', which runs somewhat against the accepted answer's view that the estimate is reasonable."
+  },
+  {
+   "id": "robotics/29",
+   "verdict": "partial",
+   "reason": "The response captures the ownership rationale and correctly explains why non-const & is rejected and const& is safe, matching key points. However, it misstates the reasoning for shared_ptr: it lists shared_ptr by value as accepted and says shared_ptr& and const shared_ptr& are unsupported 'even though they look harmless', missing the accepted answer's guideline that smart pointers shouldn't be passed as parameters unless ownership is being manipulated, and that the new signatures aim for explicit ownership. It also omits the deprecation of non-const shared_ptr<Msg> and the intraprocess copy-count details."
+  },
+  {
+   "id": "sustainable_living/85",
+   "verdict": "partial",
+   "reason": "The response captures the low rolling resistance of steel rail and the benefit of lighter weight, which overlap with the accepted answer's points. However, it omits the key points about steady-speed travel, the energy-chain efficiency disadvantage of a truck versus a train, and the quantitative rolling-resistance comparison (0.001-0.0024 vs 0.010-0.015). It also gives no fuel-per-distance estimate and instead deflects to other sources, and some of its specific claims (e.g., manufacturer names) are unverified."
+  },
+  {
+   "id": "economics/67",
+   "verdict": "partial",
+   "reason": "The response is not provided; there is no answer to compare against the accepted answer's key points (checking alternating signs of all leading principal minors of the bordered Hessian, and solving the Kuhn-Tucker conditions for x, y, z as functions of prices and income). Since no response was given, it conveys none of these points."
+  },
+  {
+   "id": "biology/56",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: the bilayer is held together by the hydrophobic effect, which is entropy-driven because water is forced into cage-like arrangements around exposed hydrophobic tails, and clustering frees those waters. It also explains that polar head groups interact with water, keeping the bilayer surface stable. It adds reasonable elaboration about the heads not drifting away, consistent with the accepted answer's point that polar heads allow water interaction and prevent a blob from forming."
+  },
+  {
+   "id": "economics/3",
+   "verdict": "partial",
+   "reason": "The response answers yes to the core question and correctly notes Lebanon defaulted on its Eurobonds in March 2020 and that capital controls/withdrawal limits were separate, which matches the accepted answer's key points. However, it does not mention the accepted answer's central explanation that governments default only under economic difficulty because default raises borrowing costs and causes capital flight, nor that capital controls are a typical pre-default tool. It also adds unsourced claims (e.g., Zimbabwe and Venezuela defaulting on international bonds, Soviet 1918 repudiation as domestic debt default) that go beyond the accepted answer's framing."
+  },
+  {
+   "id": "stackoverflow/22",
+   "verdict": "no",
+   "reason": "The accepted answer attributes the crash to memory fragmentation/OOM and suggests profiling memory and periodically bouncing the service. The response never mentions memory or OOM; it focuses on finding the underlying exception, try/catch in onReceive, receiver registration flags, Samsung battery settings, and reporting to Samsung. Its point about the wrapper hiding a real error and a process being killed loosely overlaps with the knock-on idea, but it does not convey the key memory-profiling point or the service-restart suggestion."
+  },
+  {
+   "id": "earth_science/11",
+   "verdict": "yes",
+   "reason": "The response conveys the accepted answer's key points: a cloud is a mixture of liquid water droplets and solid ice particles suspended in air containing invisible water vapor and dry air, not a single phase, and the website's 'liquid, solid, and gas' claim is a misleading way to describe the mixture. It also covers the compressibility point. It omits the mention of cloud condensation nuclei, a minor detail, and its final compressibility remark is slightly loose, but the core answer matches."
+  },
+  {
+   "id": "economics/98",
+   "verdict": "partial",
+   "reason": "The response captures the key point that the problem is time-varying effects rather than their direction, and recommends event-study or heterogeneity-robust estimators (Callaway & Sant'Anna, Sun & Abraham), matching the accepted answer. However, it omits the accepted answer's clear point that with a single treatment timing an event-study unbiasedly recovers the treatment path, and it adds claims (sign of bias, negative weights) not in the accepted answer, and cites de Chaisemartin and Borusyak and Gardner less precisely."
+  },
+  {
+   "id": "psychology/77",
+   "verdict": "partial",
+   "reason": "The accepted answer identifies the 'sandwich technique' (criticism between two positives) as the name for this behavior, noting its recency-effect problem. The response does mention 'sandwiching' as the most common term and correctly distinguishes it from the abusive variant, so it covers the core term. However, it frames sandwiching as neutral/well-meaning and pivots to other terms like backhanded compliment, gaslighting, and psychological abuse, which the accepted answer does not include, and it omits the recency-effect point that explains why the technique is criticized."
+  },
+  {
+   "id": "earth_science/112",
+   "verdict": "partial",
+   "reason": "The response covers the accepted answer's core points: Jezero crater and ancient lakebeds/deltas as targets, sample caching by Perseverance for later return, and the goal of finding fossils or ancient life. It omits the accepted answer's specifics: the Hesperian epoch timeframe (about 3-3.5 billion years ago), iron-rich lacustrine mudstone as a preservation medium, and the distinction between extinct and extant life. It also adds material not in the accepted answer, such as methane, subsurface ice, and isotopes, and it does not clearly address the question's premise about multicellular life."
+  },
+  {
+   "id": "robotics/52",
+   "verdict": "yes",
+   "reason": "The response covers the accepted answer's key points: Foxglove (foxglove.dev) as a browser-based option and rosbridge_suite as the custom web-page route, with ROS 2 Humble-specific install steps. It goes beyond the accepted answer with additional options (foxglove_bridge, web_video_server), which is acceptable and does not contradict it."
+  },
+  {
+   "id": "psychology/53",
+   "verdict": "partial",
+   "reason": "The accepted answer identifies the 'illusion of causality' as the key term for wrongly relating unrelated events that occur close together in time. The response never mentions 'illusion of causality' and instead offers apophenia, clustering illusion, coincidence fallacy, illusory correlation, and post hoc reasoning. It does capture the core idea that temporal coincidence is mistaken for a causal or meaningful connection, and the post hoc reasoning point is related to the accepted answer's constipation example, but it misses the central term and includes several less accurate candidates."
+  },
+  {
+   "id": "biology/11",
+   "verdict": "yes",
+   "reason": "The response captures the key points of the accepted answer: the three holes are germination pores, the number three comes from the three carpels typical of palms (Arecaceae), only one pore is functional while the other two are closed, and the shoot emerges through the functional pore. Minor differences in wording (e.g., calling them eyes and describing them as thinner endocarp areas) do not contradict the accepted answer."
+  },
+  {
+   "id": "stackoverflow/104",
+   "verdict": "yes",
+   "reason": "The response identifies the core issue (write() does not indent by default), gives the ET.indent() solution used in the accepted answer, and also provides the minidom alternative, matching the key points of the accepted answer."
+  },
+  {
+   "id": "earth_science/74",
+   "verdict": "yes",
+   "reason": "The response confirms the user's reasoning that the integral of S(ω) gives variance in m², so S(ω) has m²/(rad/s) units, and explains the physical meaning as variance density across frequency. It covers the key points of the accepted answer (variance of elevation η in m², spectrum as density per unit angular frequency). It adds extra material (amplitude matching, significant wave height) that is consistent with the topic and does not contradict the accepted answer."
+  },
+  {
+   "id": "economics/52",
+   "verdict": "partial",
+   "reason": "The response correctly states the textbook result that the long-run Phillips curve is vertical under standard assumptions and identifies hysteresis as the main challenge, which matches the accepted answer's distinction. However, it misses the accepted answer's central empirical point that studies (e.g., Benati 2015) find essentially no support for a non-vertical long-run tradeoff, and it leans toward saying the empirical evidence suggests the answer is 'at least partly yes', contrary to the accepted answer's conclusion. It also omits the hysteresis-versus-tradeoff distinction the accepted answer emphasizes."
+  },
+  {
+   "id": "biology/25",
+   "verdict": "partial",
+   "reason": "The response covers the general idea that mental fatigue is not simply slowed neurons and involves regulatory/motivational signaling, which overlaps with the accepted answer's inhibition-system theory. However, it omits the accepted answer's core points: the inhibition/facilitation systems and directed attention fatigue, the alternating attention-distraction states, and the link from mental fatigue to reduced physical muscle drive via serotonin. It instead emphasizes glutamate/adenosine, metabolic cost, and cost-benefit models, which are different mechanisms."
+  },
+  {
+   "id": "psychology/63",
+   "verdict": "yes",
+   "reason": "The response captures the accepted answer's key point: the brain generates predictions and deviations produce prediction errors that make unexpected things salient, while expected things go unnoticed. It explicitly names predictive processing with the sunglasses example, matching the accepted answer's core explanation. It adds extra material (visual search asymmetry, schema theory, Gestalt) not in the accepted answer, but the central points are conveyed."
+  },
+  {
+   "id": "stackoverflow/96",
+   "verdict": "partial",
+   "reason": "The response recommends ThreadPoolExecutor and creating all camera objects before launching requests, both of which match the accepted answer. It also mentions requests.Session, but only as one session per telescope rather than the single shared session the accepted answer uses, and it does not identify reopening connections on every request as the cause. It attributes the slowdown mainly to telescope-side encoding and network limits, which the accepted answer does not mention."
+  },
+  {
+   "id": "earth_science/83",
+   "verdict": "partial",
+   "reason": "The response correctly identifies the CMIP6 Data Reference Syntax (DRS) document as the authoritative source for variant_label and names the r/i/p/f format. However, it does not state what the realization, initialization, physics, and forcing indices mean, which the accepted answer spells out. It also points to the CV repository and experiment documentation as explaining the indices, which the accepted answer does not support, and it omits the Participation Guide link."
+  },
+  {
+   "id": "stackoverflow/25",
+   "verdict": "yes",
+   "reason": "The response explains the core problem (constexpr objects can't be written after initialisation, and std::generate returns void) and offers a working compile-time approach via a constexpr lambda that fills a local array with std::generate and returns it, matching the accepted answer's idea of building the array at compile time. It also gives an index_sequence alternative for C++17, which mirrors the accepted answer's technique, so the key points are conveyed."
+  }
+ ]
+}

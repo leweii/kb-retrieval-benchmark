@@ -1,0 +1,16 @@
+[
+ {
+  "dataset": "BRIGHT(StackExchange)",
+  "queries": 100,
+  "corpus": 3000,
+  "doc_chars_p50": 12882,
+  "gold_per_q": 1.3,
+  "overlap_p50": 0.57,
+  "bm25_recall10_any": 0.45,
+  "bm25_recall10_all": 0.19,
+  "dense_recall10_any": 0.86,
+  "dense_recall10_all": 0.62,
+  "dense_chunks": 62780,
+  "embed_cost": 0.5422
+ }
+]

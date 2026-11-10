@@ -28,8 +28,9 @@ class Chunk:
 
 
 def approx_tokens(text: str) -> int:
+    """Word-based estimate, floored by chars/4 so space-less text (JSON, URLs, minified code) isn't undercounted."""
     cjk = len(re.findall(r"[一-鿿]", text))
-    return int(len(re.findall(r"\S+", text)) * 1.3 + cjk)
+    return int(max(len(re.findall(r"\S+", text)) * 1.3 + cjk, len(text) / 4))
 
 
 def split_frontmatter(md: str) -> tuple[dict, str]:
@@ -53,7 +54,7 @@ def sections(body: str) -> list[tuple[str, str]]:
     out, heading, buf = [], "", []
     for line in body.splitlines():
         m = re.match(r"^(#{1,3})\s+(.*)", line)
-        if m:
+        if m and len(line) <= 200:  # long '#' lines are code comments / junk, not headings
             if buf and "".join(buf).strip():
                 out.append((heading, "\n".join(buf).strip()))
             buf = []
@@ -65,10 +66,24 @@ def sections(body: str) -> list[tuple[str, str]]:
     return out
 
 
+MAX_CHARS = 6000  # hard cap per piece: guards against huge paragraphs without blank lines (code, logs, tables)
+
+
+def split_para(para: str) -> list[str]:
+    """Split one oversized paragraph into word windows of ~MAX_TOKENS, then hard-cap by characters."""
+    if approx_tokens(para) <= MAX_TOKENS and len(para) <= MAX_CHARS:
+        return [para]
+    words = para.split(" ")
+    step = max(1, int(MAX_TOKENS / 1.3))
+    windows = [" ".join(words[i : i + step]) for i in range(0, len(words), step)]
+    return [w[i : i + MAX_CHARS] for w in windows for i in range(0, len(w), MAX_CHARS)]
+
+
 def split_long(text: str) -> list[str]:
     parts, cur = [], []
-    for para in re.split(r"\n\s*\n", text):
-        if cur and approx_tokens("\n\n".join(cur + [para])) > MAX_TOKENS:
+    for para in (p for raw in re.split(r"\n\s*\n", text) for p in split_para(raw)):
+        joined = "\n\n".join(cur + [para])
+        if cur and (approx_tokens(joined) > MAX_TOKENS or len(joined) > MAX_CHARS):
             parts.append("\n\n".join(cur))
             cur = []
         cur.append(para)
@@ -82,12 +97,13 @@ def chunk_doc(rel_path: str, md: str) -> list[Chunk]:
     title = meta.get("title") or Path(rel_path).stem
     pieces: list[tuple[str, str]] = []
     for heading, text in sections(body):
-        for part in split_long(text) if approx_tokens(text) > MAX_TOKENS else [text]:
+        for part in split_long(text) if approx_tokens(text) > MAX_TOKENS or len(text) > MAX_CHARS else [text]:
             pieces.append((heading, part))
 
     merged: list[tuple[list[str], list[str]]] = []
     for heading, text in pieces:
-        if merged and approx_tokens("\n\n".join(merged[-1][1] + [text])) <= TARGET_TOKENS:
+        joined = "\n\n".join(merged[-1][1] + [text]) if merged else ""
+        if merged and approx_tokens(joined) <= TARGET_TOKENS and len(joined) <= MAX_CHARS:
             merged[-1][0].append(heading)
             merged[-1][1].append(f"## {heading}\n{text}" if heading else text)
         else:

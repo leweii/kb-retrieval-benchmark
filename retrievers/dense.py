@@ -65,7 +65,7 @@ def embed(texts: list[str], model: str = DEFAULT_MODEL) -> tuple[np.ndarray, flo
                     raise
                 time.sleep(min(60, 2 ** (attempt + 1)))
 
-    with ThreadPoolExecutor(max_workers=4) as pool:
+    with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(one, batches))
     mat = np.array([v for vecs, _ in results for v in vecs], dtype=np.float32)
     mat /= np.linalg.norm(mat, axis=1, keepdims=True)
