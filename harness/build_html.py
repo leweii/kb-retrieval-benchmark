@@ -19,7 +19,7 @@ sys.path.insert(0, str(ROOT))
 from build_report import CONFIGS, MODEL_LABEL, MODELS, SCALES, TOTAL_PER_SCALE, Data, recommend  # noqa: E402
 from stats import significance, threshold_sensitivity  # noqa: E402
 from report_appendix import appendix_html  # noqa: E402
-from report_params import params_html  # noqa: E402
+from report_params import cache_html, params_html  # noqa: E402
 
 MEMORIZED: set[str] = set()  # filled by collect(); used by the appendix
 
@@ -141,6 +141,7 @@ def render_html(data: dict, lang: str) -> str:
     appx = appendix_html(lang, MEMORIZED, data["judged"], rob)
     head, _, tail = appx.rpartition("</section>")  # run parameters go last inside the appendix section
     html = html.replace("{{appendix}}", head + params_html(lang) + "</section>" + tail)
+    html = html.replace("{{cache}}", cache_html(lang))
     data = {k: v for k, v in data.items() if k != "robustness"}  # appendix only; keep it out of the page data
     return (html.replace("__DATA__", json.dumps(localize(data, lang), ensure_ascii=False))
                 .replace("__T__", json.dumps(S["js"], ensure_ascii=False)))
@@ -271,7 +272,8 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 .appx h3{font-size:14px;color:var(--text-primary);margin:22px 0 8px}.appx h4{font-size:13px;color:var(--text-primary);margin:14px 0 6px}
 .appx table{font-size:12.5px;margin:4px 0 8px}.appx td,.appx th{white-space:normal;text-align:left;vertical-align:top}
 .appx td.num,.appx th.num{text-align:right;white-space:nowrap}.appx ul{margin:4px 0 8px;padding-left:20px}.appx li{margin:2px 0}
-.appx .muted{color:var(--text-muted);font-size:11.5px}.appx a{color:var(--s1)}.appx code{font-size:12px;background:var(--surface-2);padding:0 4px;border-radius:3px}
+#cache table{margin-top:4px}ul.notes{margin:8px 0 0;padding-left:18px;font-size:12.5px;color:var(--text-secondary)}ul.notes li{margin:3px 0}
+.sub{font-size:12px;color:var(--text-muted)}.appx .muted{color:var(--text-muted);font-size:11.5px}.appx a{color:var(--s1)}.appx code{font-size:12px;background:var(--surface-2);padding:0 4px;border-radius:3px}
 @media (max-width:900px){.grid2,.recs{grid-template-columns:1fr}}
 </style></head>
 <body><div class="viz-root">
@@ -297,6 +299,7 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
  <div class="panel"><h3>{{lat_t}}</h3><div class="sub">{{lat_s}}</div><div id="p-lat"></div></div>
 </div>
 <h2>{{table_h}}</h2><div id="tbl"></div>
+{{cache}}
 {{appendix}}
 <div id="tip"></div>
 </div>
