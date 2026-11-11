@@ -97,8 +97,8 @@ TXT = {
             "评分：Claude Opus 5.5，<code>effort: low</code>，JSON schema 输出，Message Batches。",
             "耗时是多线程并发跑的时候测的（默认 8 个线程），只能大致对比。",
         ],
-        "cache_h": "提示缓存命中（实测）",
-        "cache_intro": "命中率 = 缓存读 token ÷ 全部提示 token。‘相对不缓存的提示费用’：同样的 token 按不开缓存计价，实际花了多少比例。统计全部运行过的回答（包括审计后剔除的题），所以回答数比上面的评分数多。",
+        "cache_h": "提示缓存命中",
+        "cache_intro": "命中率 = 缓存读 token ÷ 全部提示 token。‘相对不缓存的提示费用’：同样的 token 按不开缓存计价，实际花了多少比例。统计全部运行过的回答（包括审计后剔除的题），所以回答数比页首的评分数多。",
         "cache_head": ["模型", "模式", "回答数", "提示 token / 题", "缓存命中", "缓存写入", "输出 token / 题", "相对不缓存的提示费用"],
         "modes": {"A0": "单次", "A2": "两轮", "A1": "智能体"},
         "cache_notes": [
@@ -136,10 +136,10 @@ TXT = {
             "Grader: Claude Opus 5.5, <code>effort: low</code>, JSON-schema output, Message Batches.",
             "Latency was measured with concurrent workers (8 by default), so it is only roughly comparable.",
         ],
-        "cache_h": "Prompt cache hits (measured)",
+        "cache_h": "Prompt cache hits",
         "cache_intro": "Hit rate = cache-read tokens ÷ all prompt tokens. 'Prompt cost vs no cache': what was actually paid "
                        "for prompt tokens as a share of the price without caching. Counts every answer that was run, including questions "
-                       "later removed by the audit, so the totals exceed the graded count above.",
+                       "later removed by the audit, so the totals exceed the graded count at the top.",
         "cache_head": ["Model", "Mode", "Answers", "Prompt tokens / q", "Cache hit", "Cache write", "Output tokens / q",
                        "Prompt cost vs no cache"],
         "modes": {"A0": "Single-shot", "A2": "Two-round", "A1": "Agent"},
@@ -157,7 +157,18 @@ TXT = {
 LABEL = {"haiku": "Haiku 5.5", "sonnet": "Sonnet 5.5", "deepseek": "DeepSeek V4.1 Flash"}
 
 
+def _li(xs: list[str], cls: str = "") -> str:
+    return f'<ul{f" class={cls!r}" if cls else ""}>' + "".join(f"<li>{x}</li>" for x in xs) + "</ul>"
+
+
 def params_html(lang: str) -> str:
+    """Appendix D: run parameters per model."""
+    t = TXT[lang]
+    return f'<h3>{t["h"]}</h3><p>{t["intro"]}</p>' + _table(t["head"], t["rows"](), set()) + _li(t["common"])
+
+
+def cache_html(lang: str) -> str:
+    """Main-body section (below the data table): measured prompt-cache hits per model x mode."""
     t, st = TXT[lang], cache_stats()
     rows = []
     for m in ORDER:
@@ -167,10 +178,8 @@ def params_html(lang: str) -> str:
                 continue
             rows.append([LABEL[m], t["modes"][mode], f"{s['n']:,}", f"{s['prompt_per_q']:,.0f}", f"{s['hit']:.0%}",
                          f"{s['write']:.0%}", f"{s['output_per_q']:,.0f}", f"{s['cost_ratio']:.0%}"])
-    li = lambda xs: "<ul>" + "".join(f"<li>{x}</li>" for x in xs) + "</ul>"  # noqa: E731
-    return (f'<h3>{t["h"]}</h3><p>{t["intro"]}</p>' + _table(t["head"], t["rows"](), set()) + li(t["common"]) +
-            f'<h4>{t["cache_h"]}</h4><p>{t["cache_intro"]}</p>' + _table(t["cache_head"], rows, {2, 3, 4, 5, 6, 7}) +
-            li(t["cache_notes"]))
+    return (f'<h2>{t["cache_h"]}</h2><div class="sub">{t["cache_intro"]}</div>'
+            f'<div id="cache">{_table(t["cache_head"], rows, {2, 3, 4, 5, 6, 7})}</div>' + _li(t["cache_notes"], "notes"))
 
 
 if __name__ == "__main__":
