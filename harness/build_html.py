@@ -40,17 +40,18 @@ STRINGS = {
         "ro_t": "说\"不知道\"", "ro_s": "越高越好 · 库里没有答案时正确拒答",
         "value_h": "性价比", "cost_t": "准确率 vs 单题花费", "cost_s": "横轴对数刻度 · 左上角最好",
         "lat_t": "准确率 vs 耗时（p50）", "lat_s": "左上角最好 · 并发运行下测得，跨模型通道仅供参考",
-        "table_h": "数据表", "k_w": 88,
+        "table_h": "数据表",
+        "recs_s": "质量首选：准确率最高（正确拒答 ≥ 70%，已评分 ≥ 30 题）· 性价比：准确率差 5 个百分点以内最便宜 · Flash 级：只在 Haiku / DeepSeek 里按同样规则选",
         "rounds_h": "轮询次数", "steps_t": "平均轮次（模型调用次数）",
         "steps_s": "越少越快越省 · 单次 = 1；两轮 ≤ 3；智能体 ≤ 12 轮（用满后再强制作答 1 次）",
         "tools_t": "平均工具调用次数", "tools_s": "搜索 / grep / 读文件等调用总数 · 智能体一轮可并行调用多个工具",
         "js": {"docs": "篇", "acc": "准确率", "full": "找全证据", "fr": "误拒", "ro": "说不知道", "per_q": "/题",
                "generated": "生成于", "judged": "已评分", "incomplete": "（数据未完整，空缺处不显示）",
                "rec_names": {"best": "质量首选", "value": "性价比", "flash": "Flash 级首选"},
-               "rec_acc": "准确", "rec_ref": "拒答", "nodata": "数据不足", "no_graded": "暂无已评分数据",
+               "rec_cost": "$/题", "rec_show": "在图表和数据表里看这个体量", "rec_shown": "图表显示中", "nodata": "数据不足", "no_graded": "暂无已评分数据",
                "f_model": "模型", "f_all": "全部", "running": "进行中", "core_h": "核心指标", "label_w": 150,
                "steps": "轮次", "tools": "工具调用", "cap": "用满步数", "better": "更好", "higher": "越高越好", "lower": "越低越好", "f_scale": "知识库体量", "reset": "重置",
-               "shown": "显示 {n} 个组合", "no_match": "没有符合筛选条件的组合",
+               "shown": "显示 {n} / {t} 个组合", "multi": "可多选", "no_match": "没有符合筛选条件的组合",
                "fg": {"model": "模型", "mode": "模式", "method": "检索方法", "wiki": "知识库形态"},
                "fv": {"mode": {"A0": "单次", "A2": "两轮", "A1": "智能体"},
                       "method": {"grep": "grep", "bm25": "BM25", "hybrid": "混合", "enhanced": "增强混合", "nav": "wiki 导航"},
@@ -68,7 +69,8 @@ STRINGS = {
         "value_h": "Cost and speed", "cost_t": "Accuracy vs cost per question", "cost_s": "Log-scale x axis · top-left is best",
         "lat_t": "Accuracy vs latency (p50)",
         "lat_s": "Top-left is best · measured under concurrent load; compare across API providers with care",
-        "table_h": "Data table", "k_w": 104,
+        "table_h": "Data table",
+        "recs_s": "Best quality: highest accuracy (correct refusal ≥ 70%, ≥ 30 graded questions) · Best value: cheapest within 5 points of it · Best Flash-tier: the same rule among Haiku / DeepSeek",
         "rounds_h": "Rounds", "steps_t": "Average rounds (model calls)",
         "steps_s": "Fewer is faster and cheaper · single-shot = 1; two-round ≤ 3; agent ≤ 12 rounds (+1 forced answer at the cap)",
         "tools_t": "Average tool calls", "tools_s": "Search / grep / read calls in total · an agent may call several tools per round",
@@ -76,10 +78,10 @@ STRINGS = {
                "per_q": "/question", "generated": "Generated", "judged": "graded",
                "incomplete": " (incomplete — missing cells are hidden)",
                "rec_names": {"best": "Best quality", "value": "Best value", "flash": "Best Flash-tier"},
-               "rec_acc": "acc", "rec_ref": "refusal", "nodata": "insufficient data", "no_graded": "No graded data yet",
+               "rec_cost": "$/question", "rec_show": "Show this KB size in the charts and the table", "rec_shown": "shown below", "nodata": "insufficient data", "no_graded": "No graded data yet",
                "f_model": "Model", "f_all": "All", "running": "running", "core_h": "Core metrics", "label_w": 215,
                "steps": "rounds", "tools": "tool calls", "cap": "hit step cap", "better": "better", "higher": "higher is better", "lower": "lower is better", "f_scale": "KB size", "reset": "Reset",
-               "shown": "{n} combinations shown", "no_match": "No combination matches the filters",
+               "shown": "{n} of {t} combinations", "multi": "multi-select", "no_match": "No combination matches the filters",
                "fg": {"model": "Model", "mode": "Mode", "method": "Retrieval", "wiki": "KB form"},
                "fv": {"mode": {"A0": "Single-shot", "A2": "Two-round", "A1": "Agent"},
                       "method": {"grep": "grep", "bm25": "BM25", "hybrid": "Hybrid", "enhanced": "Enhanced hybrid", "nav": "Wiki navigation"},
@@ -168,14 +170,28 @@ HTML = r"""<!doctype html>
  padding:24px 28px 48px;min-height:100vh}
 h1{font-size:20px;margin:0 0 4px}.head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
 .links{display:flex;gap:8px;font-size:13px;color:var(--text-muted)}.links a{color:var(--text-secondary);text-decoration:none;border-bottom:1px solid var(--grid)}.links a:hover{color:var(--text-primary);border-color:var(--text-muted)}h2{font-size:15px;margin:28px 0 10px}.meta{color:var(--text-secondary);font-size:12px}
-.bar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:16px 0 4px;position:sticky;top:0;background:var(--surface-1);padding:8px 0;z-index:2}
+.bar{margin:14px 0 0;position:sticky;top:0;background:var(--surface-1);padding:8px 0;z-index:3}
 .seg button{border:1px solid var(--grid);background:var(--surface-2);color:var(--text-primary);padding:5px 12px;cursor:pointer;font:inherit}
 .seg button:first-child{border-radius:6px 0 0 6px}.seg button:last-child{border-radius:0 6px 6px 0}
 .seg button.on{background:var(--text-primary);color:var(--surface-1);border-color:var(--text-primary)}
 .legend{display:flex;gap:14px;color:var(--text-secondary);font-size:13px}.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
 .recs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.card{background:var(--surface-2);border-radius:8px;padding:12px 14px}.card b{font-size:13px}.card div{font-size:12.5px;color:var(--text-secondary);margin-top:6px}
-.card .k{color:var(--text-muted);display:inline-block;width:{{k_w}}px}
+/* recommendations: one card per KB size; one entry per winning combination, its picks as badges */
+.recs-sub{font-size:12px;color:var(--text-muted);margin:-6px 0 12px}
+.rc{background:var(--surface-2);border-radius:10px;padding:14px 16px 12px;border:1px solid transparent;cursor:pointer;transition:border-color .12s}
+.rc:hover{border-color:var(--grid)}.rc.on{border-color:var(--text-muted)}
+.rc-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.rc-h b{font-size:14px}.rc-h span{font-size:11.5px;color:var(--text-muted)}
+.pick{padding-top:12px;border-radius:6px}.pick+.pick{border-top:1px solid var(--grid);margin-top:12px}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.badge{font-size:11px;font-weight:600;line-height:18px;padding:0 8px;border-radius:999px;color:var(--text-secondary);box-shadow:inset 0 0 0 1px var(--grid);background:var(--surface-1)}
+.badge.best{background:var(--text-primary);color:var(--surface-1);box-shadow:none}
+.combo{display:flex;gap:8px;align-items:flex-start}.combo i{flex:none;width:9px;height:9px;border-radius:50%;margin-top:5px}
+.combo b{display:block;font-size:13.5px;font-weight:600}.combo span{display:block;font-size:12.5px;color:var(--text-secondary)}
+.pick.hl .combo b{text-decoration:underline;text-decoration-color:var(--rowc);text-decoration-thickness:2px;text-underline-offset:3px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:10px}
+.stat .v{display:block;font-size:17px;font-weight:620;line-height:1.25;font-variant-numeric:tabular-nums;color:var(--text-primary)}
+.stat .l{display:block;font-size:11px;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rc .nodata{font-size:12.5px;color:var(--text-muted);padding-top:12px}
 .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px}
 .panel h3{font-size:13px;margin:0 0 2px}.panel .sub{font-size:12px;color:var(--text-muted);margin-bottom:4px}
 svg text{fill:var(--text-secondary);font-size:11.5px}svg .ax{fill:var(--text-muted);font-size:10.5px}svg .better{fill:var(--text-muted);font-size:10.5px}
@@ -194,9 +210,24 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 #tbl tbody tr:hover td{background:color-mix(in srgb,var(--rowc) 17%,transparent)}
 #tbl tbody tr.hl td{background:color-mix(in srgb,var(--rowc) 28%,transparent)}
 #tbl tbody tr.hl td:first-child,#tbl tbody tr:hover td:first-child{box-shadow:inset 3px 0 0 var(--rowc)}
-/* global filter bar */
-.bar .grp{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.bar .lbl{color:var(--text-muted);font-size:12px;margin-right:2px}
-.bar .shown{color:var(--text-muted);font-size:12px}.bar .reset{border:none;background:none;color:var(--text-secondary);font:inherit;font-size:12.5px;cursor:pointer;text-decoration:underline;padding:0}
+/* global filter bar: one panel, each dimension a labelled segmented track; multi-select = raised pills, KB size = ink pill */
+.fpanel{display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px 16px;padding:10px 14px 11px;border:1px solid var(--grid);border-radius:12px;
+ background:var(--surface-1);box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.fg{display:flex;flex-direction:column;gap:5px;min-width:0}.fl{font-size:11px;color:var(--text-muted);letter-spacing:.02em;padding-left:2px}
+.fl em{font-style:normal;opacity:.7}
+.sc{display:inline-flex;flex-wrap:wrap;gap:2px;padding:2px;background:var(--surface-2);border-radius:8px}
+.opt{display:inline-flex;align-items:center;gap:6px;border:0;background:transparent;color:var(--text-muted);font:inherit;font-size:12.5px;line-height:18px;
+ padding:4px 8px;border-radius:6px;cursor:pointer;white-space:nowrap;transition:background-color .12s,color .12s,box-shadow .12s}
+.opt:hover{color:var(--text-primary)}
+.opt[aria-pressed="true"]{background:var(--surface-1);color:var(--text-primary);font-weight:560;box-shadow:0 1px 2px rgba(0,0,0,.1),0 0 0 .5px var(--grid)}
+.opt.one[aria-pressed="true"]{background:var(--text-primary);color:var(--surface-1);box-shadow:none}
+.opt i{width:8px;height:8px;border-radius:50%;flex:none;box-shadow:inset 0 0 0 1.5px var(--text-muted)}
+.opt[aria-pressed="true"] i{box-shadow:none}
+.opt:focus-visible{outline:2px solid var(--text-secondary);outline-offset:1px}
+.fmeta{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:5px;font-size:11px;color:var(--text-muted);white-space:nowrap}
+.fmeta b{color:var(--text-primary);font-weight:600;font-variant-numeric:tabular-nums}
+.reset{border:1px solid var(--grid);background:transparent;color:var(--text-secondary);font:inherit;font-size:12px;line-height:18px;padding:3px 12px;border-radius:6px;cursor:pointer}
+.reset:hover:not(:disabled){color:var(--text-primary);border-color:var(--text-muted)}.reset:disabled{opacity:.4;cursor:default}
 .nomatch{color:var(--text-muted);font-size:12.5px;padding:18px 0}
 /* table model filter: toggle chips */
 .tfilter{display:flex;gap:8px;align-items:center;margin:0 0 10px;flex-wrap:wrap}
@@ -222,7 +253,7 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 <div class="head"><h1>{{h1}}</h1><nav class="links"><a href="{{other_href}}" hreflang="{{other_lang}}">{{other_label}}</a><span>·</span><a href="https://github.com/leweii/kb-retrieval-benchmark" target="_blank" rel="noopener">GitHub</a></nav></div>
 <div class="meta" id="meta"></div>
 <div class="bar" id="filters"></div>
-<h2>{{recs_h}}</h2><div class="recs" id="recs"></div>
+<h2>{{recs_h}}</h2><div class="recs-sub">{{recs_s}}</div><div class="recs" id="recs"></div>
 <h2 id="h-core">{{core_h}}</h2>
 <div class="grid2">
  <div class="panel"><h3>{{acc_t}}</h3><div class="sub">{{acc_s}}</div><div id="p-acc"></div></div>
@@ -304,14 +335,17 @@ const F={}; function resetF(){F.scale=D.scales[D.scales.length-1]; GROUPS.forEac
 const visCfg=()=>META.filter(c=>F.mode.has(c.mode)&&F.method.has(c.method)&&F.wiki.has(c.wiki)).map(c=>c.label);
 function visCells(){const vc=new Set(visCfg()); return D.cells.filter(c=>c.scale===F.scale&&F.model.has(c.model)&&vc.has(c.config));}
 function filters(){
-  const seg=`<div class="grp"><span class="lbl">${T.f_scale}</span><div class="seg">${D.scales.map(s=>`<button data-scale="${s}" class="${s===F.scale?"on":""}">${s} ${T.docs}</button>`).join("")}</div></div>`;
-  const grp=GROUPS.map(([g,vals])=>`<div class="grp"><span class="lbl">${T.fg[g]}</span>${vals.map(v=>`<button class="chip" data-g="${g}" data-v="${v}" aria-pressed="${F[g].has(v)}">${g==="model"?`<i style="background:${COL[v]}"></i>${D.labels[v]}`:T.fv[g][v]}</button>`).join("")}</div>`).join("");
-  const n=visCfg().length*F.model.size;
-  document.getElementById("filters").innerHTML=seg+grp+`<span class="shown">${T.shown.replace("{n}",n)}</span><button class="reset">${T.reset}</button>`;
+  const fg=(label,opts,multi)=>`<div class="fg" role="group" aria-label="${label}"><span class="fl">${label}${multi?` <em>· ${T.multi}</em>`:""}</span><div class="sc">${opts}</div></div>`;
+  const seg=fg(T.f_scale, D.scales.map(s=>`<button class="opt one" data-scale="${s}" aria-pressed="${s===F.scale}">${s} ${T.docs}</button>`).join(""), false);
+  const grp=GROUPS.map(([g,vals])=>fg(T.fg[g], vals.map(v=>`<button class="opt" data-g="${g}" data-v="${v}" aria-pressed="${F[g].has(v)}">${
+    g==="model"?`<i style="${F[g].has(v)?`background:${COL[v]}`:""}"></i>${D.labels[v]}`:T.fv[g][v]}</button>`).join(""), true)).join("");
+  const n=visCfg().length*F.model.size, tot=META.length*D.models.length;
+  const dflt=F.scale===D.scales[D.scales.length-1]&&GROUPS.every(([g,vals])=>F[g].size===vals.length);
+  document.getElementById("filters").innerHTML=`<div class="fpanel">${seg}${grp}<div class="fmeta"><span>${T.shown.replace("{n}",`<b>${n}</b>`).replace("{t}",tot)}</span><button class="reset"${dflt?" disabled":""}>${T.reset}</button></div></div>`;
   document.documentElement.style.setProperty("--barh", document.getElementById("filters").offsetHeight+"px");
 }
 document.getElementById("filters").addEventListener("click",e=>{
-  const sb=e.target.closest("[data-scale]"), ch=e.target.closest(".chip"), rs=e.target.closest(".reset");
+  const sb=e.target.closest("[data-scale]"), ch=e.target.closest(".opt[data-g]"), rs=e.target.closest(".reset:not(:disabled)");
   if(sb) F.scale=+sb.dataset.scale;
   else if(ch){const set=F[ch.dataset.g], v=ch.dataset.v; if(set.has(v)){ if(set.size>1) set.delete(v); } else set.add(v);}  // keep >= 1
   else if(rs) resetF(); else return;
@@ -319,12 +353,26 @@ document.getElementById("filters").addEventListener("click",e=>{
 });
 
 function recs(){
-  const names=T.rec_names;
+  // one entry per winning combination: when a combination wins several picks, its picks are badges on one entry
+  const names=T.rec_names, stat=(v,l)=>`<div class="stat"><span class="v">${v}</span><span class="l" title="${l}">${l}</span></div>`;
   document.getElementById("recs").innerHTML = D.scales.map(s=>{
-    const r=D.recs[s]||{};
-    const rows=Object.keys(names).map(k=>{const v=r[k];return `<div><span class="k">${names[k]}</span>${v?`${D.labels[v.model]} + ${v.config} · ${T.rec_acc} ${pct(v.acc)} · ${T.rec_ref} ${pct(v.refusal_ok)} · ${usd(v.cost)}`:T.nodata}</div>`;}).join("");
-    return `<div class="card"><b>${s} ${T.docs}</b>${rows}</div>`;}).join("");
+    const r=D.recs[s]||{}, groups=[];
+    Object.keys(names).forEach(k=>{const v=r[k]; if(!v) return;
+      const key=keyOf({scale:s,config:v.config,model:v.model}); let g=groups.find(x=>x.key===key);
+      if(!g) groups.push(g={key,v,picks:[]}); g.picks.push(k);});
+    const body=groups.length ? groups.map(({key,v,picks})=>`<div class="pick" data-key="${key}" style="--rowc:${COL[v.model]}">
+      <div class="badges">${picks.map(k=>`<span class="badge${k==="best"?" best":""}">${names[k]}</span>`).join("")}</div>
+      <div class="combo"><i style="background:${COL[v.model]}"></i><div><b>${D.labels[v.model]}</b><span>${v.config}</span></div></div>
+      <div class="stats">${stat(pct(v.acc),T.acc)}${stat(pct(v.refusal_ok),T.ro)}${stat(usd(v.cost),T.rec_cost)}${stat(sec(v.lat50),"p50")}</div></div>`).join("")
+      : `<div class="nodata">${T.nodata}</div>`;
+    const on=s===F.scale;
+    return `<div class="rc${on?" on":""}" data-scale="${s}" title="${T.rec_show}"><div class="rc-h"><b>${s} ${T.docs}</b>${on?`<span>${T.rec_shown}</span>`:""}</div>${body}</div>`;}).join("");
 }
+// a card switches the KB size of the charts and the table; an entry lights up its points and row
+const recsEl=document.getElementById("recs");
+recsEl.addEventListener("click",e=>{const c=e.target.closest(".rc"); if(c&&+c.dataset.scale!==F.scale){F.scale=+c.dataset.scale; render();}});
+recsEl.addEventListener("mouseover",e=>{const p=e.target.closest(".pick");if(p&&!p.contains(e.relatedTarget))highlight(p.dataset.key,true);});
+recsEl.addEventListener("mouseout",e=>{const p=e.target.closest(".pick");if(p&&!p.contains(e.relatedTarget))highlight(p.dataset.key,false);});
 
 function dotplot(id, metric, maxv){  // maxv: count axis (0..maxv); default = percentage axis
   const host=document.getElementById(id); host.innerHTML="";
