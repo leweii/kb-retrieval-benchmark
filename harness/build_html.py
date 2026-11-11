@@ -86,6 +86,15 @@ tbody td{background:color-mix(in srgb,var(--rowc) 7%,transparent);transition:bac
 tbody tr:hover td{background:color-mix(in srgb,var(--rowc) 17%,transparent)}
 tbody tr.hl td{background:color-mix(in srgb,var(--rowc) 28%,transparent)}
 tbody tr.hl td:first-child,tbody tr:hover td:first-child{box-shadow:inset 3px 0 0 var(--rowc)}
+/* table model filter: toggle chips */
+.tfilter{display:flex;gap:8px;align-items:center;margin:0 0 10px;flex-wrap:wrap}
+.tfilter .lbl{color:var(--text-muted);font-size:12px;margin-right:2px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--grid);background:var(--surface-2);color:var(--text-primary);
+ border-radius:999px;padding:4px 11px;font:inherit;font-size:12.5px;cursor:pointer;transition:opacity .12s,background-color .12s}
+.chip i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.chip[aria-pressed="false"]{opacity:.45;background:transparent}
+.chip[aria-pressed="false"] i{background:transparent!important;box-shadow:inset 0 0 0 1.5px var(--text-muted)}
+.chip:hover{border-color:var(--text-muted)}
 /* chart points: linked highlight from table rows / other charts */
 .pt{cursor:pointer}.pt .mark{transition:r .12s,stroke .12s}
 .pt.hl .mark{r:8px;stroke:var(--text-primary);stroke-width:2px}
@@ -108,7 +117,7 @@ tbody tr.hl td:first-child,tbody tr:hover td:first-child{box-shadow:inset 3px 0 
  <div class="panel"><h3>准确率 vs 单题花费</h3><div class="sub">横轴对数刻度 · 左上角最好</div><div id="p-cost"></div></div>
  <div class="panel"><h3>准确率 vs 耗时（p50）</h3><div class="sub">左上角最好 · 并发运行下测得，跨模型通道仅供参考</div><div id="p-lat"></div></div>
 </div>
-<h2>数据表</h2><div id="tbl"></div>
+<h2>数据表</h2><div class="tfilter" id="tfilter"></div><div id="tbl"></div>
 <div id="tip"></div>
 </div>
 <script>
@@ -178,7 +187,7 @@ function scatter(id, xkey, logx, xfmt){
   if(!cs.length){const t=el("text",{x:W/2,y:H/2,"text-anchor":"middle"},svg);t.textContent="暂无已评分数据";return;}
   const xv=c=>logx?Math.log10(c[xkey]):c[xkey];
   let lo=Math.min(...cs.map(xv)), hi=Math.max(...cs.map(xv)); if(hi-lo<1e-9){lo-=1;hi+=1;}
-  const pad=(hi-lo)*.06; lo-=pad; hi+=pad;
+  const pad=(hi-lo)*.06; lo-=pad; hi+=pad; if(!logx) lo=Math.max(0,lo);  // latency axis never below 0
   const x=v=>L+(v-lo)/(hi-lo)*(W-L-R), y=v=>T+(1-v)*(H-T-B);
   [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:L,x2:W-R,y1:y(t),y2:y(t),class:"gl"},svg);const tx=el("text",{x:L-6,y:y(t)+4,"text-anchor":"end",class:"ax"},svg);tx.textContent=Math.round(t*100)+"%";});
   const ticks=[]; if(logx){for(let p=Math.ceil(lo);p<=Math.floor(hi);p++)ticks.push(p);} else {const st=(hi-lo)/4;for(let i=0;i<=4;i++)ticks.push(lo+st*i);}
@@ -186,8 +195,25 @@ function scatter(id, xkey, logx, xfmt){
   cs.forEach(c=>point(svg, c, x(xv(c)), y(c.acc)));
 }
 
+// table model filter (table only; charts always show every model)
+const tableModels=new Set(D.models);
+function tfilter(){
+  const host=document.getElementById("tfilter");
+  const all=tableModels.size===D.models.length;
+  host.innerHTML=`<span class="lbl">模型</span><button class="chip" data-m="*" aria-pressed="${all}">全部</button>`+
+    D.models.map(m=>`<button class="chip" data-m="${m}" aria-pressed="${tableModels.has(m)}"><i style="background:${COL[m]}"></i>${D.labels[m]}</button>`).join("");
+}
+document.getElementById("tfilter").addEventListener("click",e=>{
+  const b=e.target.closest(".chip"); if(!b) return;
+  const m=b.dataset.m;
+  if(m==="*") D.models.forEach(x=>tableModels.add(x));
+  else if(tableModels.has(m)){ if(tableModels.size>1) tableModels.delete(m); }  // keep at least one model
+  else tableModels.add(m);
+  tfilter(); table();
+});
+
 function table(){
-  const cs=D.cells.filter(c=>c.scale===scale);
+  const cs=D.cells.filter(c=>c.scale===scale&&tableModels.has(c.model));
   const rows=D.configs.flatMap(cfg=>D.models.map(m=>cs.find(c=>c.config===cfg&&c.model===m)).filter(Boolean));
   document.getElementById("tbl").innerHTML = `<table><thead><tr><th>配置</th><th>模型</th><th>准确率</th><th>找全证据</th><th>误拒</th><th>说不知道</th><th>p50</th><th>$/题</th><th>已评分</th></tr></thead><tbody>`+
     rows.map(c=>`<tr class="m-${c.model}" data-key="${keyOf(c)}"><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td><td>${pct(c.acc)}</td><td>${pct(c.mus_all)}</td><td>${pct(c.false_ref)}</td><td>${pct(c.refusal_ok)}</td><td>${sec(c.lat50)}</td><td>${usd(c.cost)}</td><td>${c.coverage<0.9?"进行中 "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
@@ -202,7 +228,7 @@ function render(){
   [...seg.children].forEach(b=>b.classList.toggle("on", +b.dataset.s===scale));
   document.getElementById("h-core").textContent=`核心指标 · ${scale} 篇`;
   recs(); dotplot("p-acc","acc"); dotplot("p-all","mus_all"); dotplot("p-fr","false_ref"); dotplot("p-ro","refusal_ok");
-  scatter("p-cost","cost",true,v=>"$"+(v<0.01?v.toFixed(3):v.toFixed(2))); scatter("p-lat","lat50",false,v=>v.toFixed(0)+"s"); table();
+  scatter("p-cost","cost",true,v=>"$"+(v<0.01?v.toFixed(3):v.toFixed(2))); scatter("p-lat","lat50",false,v=>v.toFixed(0)+"s"); tfilter(); table();
 }
 render(); addEventListener("resize", render);
 </script></body></html>
