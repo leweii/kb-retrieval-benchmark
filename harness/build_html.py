@@ -49,7 +49,7 @@ STRINGS = {
                "rec_names": {"best": "质量首选", "value": "性价比", "flash": "Flash 级首选"},
                "rec_acc": "准确", "rec_ref": "拒答", "nodata": "数据不足", "no_graded": "暂无已评分数据",
                "f_model": "模型", "f_all": "全部", "running": "进行中", "core_h": "核心指标", "label_w": 150,
-               "steps": "轮次", "tools": "工具调用", "cap": "用满步数",
+               "steps": "轮次", "tools": "工具调用", "cap": "用满步数", "better": "更好", "higher": "越高越好", "lower": "越低越好",
                "th": ["配置", "模型", "准确率", "找全证据", "误拒", "说不知道", "轮次", "工具调用", "p50", "$/题", "已评分"]},
     },
     "en": {
@@ -73,7 +73,7 @@ STRINGS = {
                "rec_names": {"best": "Best quality", "value": "Best value", "flash": "Best Flash-tier"},
                "rec_acc": "acc", "rec_ref": "refusal", "nodata": "insufficient data", "no_graded": "No graded data yet",
                "f_model": "Model", "f_all": "All", "running": "running", "core_h": "Core metrics", "label_w": 215,
-               "steps": "rounds", "tools": "tool calls", "cap": "hit step cap",
+               "steps": "rounds", "tools": "tool calls", "cap": "hit step cap", "better": "better", "higher": "higher is better", "lower": "lower is better",
                "th": ["Configuration", "Model", "Accuracy", "Full evidence", "False refusal", "Says not in KB", "Rounds",
                       "Tool calls", "p50", "$/question", "Graded"]},
     },
@@ -163,7 +163,9 @@ h1{font-size:20px;margin:0 0 4px}.head{display:flex;justify-content:space-betwee
 .card .k{color:var(--text-muted);display:inline-block;width:{{k_w}}px}
 .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px}
 .panel h3{font-size:13px;margin:0 0 2px}.panel .sub{font-size:12px;color:var(--text-muted);margin-bottom:4px}
-svg text{fill:var(--text-secondary);font-size:11.5px}svg .ax{fill:var(--text-muted);font-size:10.5px}
+svg text{fill:var(--text-secondary);font-size:11.5px}svg .ax{fill:var(--text-muted);font-size:10.5px}svg .better{fill:var(--text-muted);font-size:10.5px}
+th .dir{color:var(--text-muted);font-weight:500}#tbl td.m{min-width:66px}#tbl td.best span{font-weight:650;color:var(--text-primary)}
+.track{display:block;height:3px;background:var(--grid);border-radius:2px;margin-top:3px;overflow:hidden}.fill{display:block;height:100%;background:var(--text-secondary);opacity:.55;border-radius:2px;margin-left:auto}
 .gl{stroke:var(--grid);stroke-width:1}
 #tip{position:fixed;pointer-events:none;background:var(--surface-1);border:1px solid var(--grid);border-radius:6px;padding:7px 9px;font-size:12px;
  box-shadow:0 2px 10px rgba(0,0,0,.12);display:none;z-index:9;max-width:280px}#tip .t{font-weight:600;margin-bottom:3px}
@@ -239,6 +241,26 @@ function cell(c){return `<div class="t">${c.config}</div>${D.labels[c.model]} ·
 const NS="http://www.w3.org/2000/svg";
 function el(tag, attrs, parent){const n=document.createElementNS(NS,tag);for(const k in attrs)n.setAttribute(k,attrs[k]);if(parent)parent.appendChild(n);return n;}
 const keyOf = c => `${c.scale}|${c.config}|${c.model}`;
+// +1 = higher is better, -1 = lower is better
+const DIR = {acc:1, mus_all:1, refusal_ok:1, false_ref:-1, steps:-1, tool_calls:-1, lat50:-1, cost:-1};
+let gid = 0;
+// neutral (ink, not status colour) band that darkens toward the better end of an axis; colour stays reserved for models
+function betterBand(svg, x0, x1, y0, y1, dir){
+  const id="bz"+(gid++), defs=el("defs",{},svg), g=el("linearGradient",{id,x1:"0",x2:"1",y1:"0",y2:"0"},defs);
+  el("stop",{offset:"0",style:`stop-color:var(--text-primary);stop-opacity:${dir>0?0:0.085}`},g);
+  el("stop",{offset:"1",style:`stop-color:var(--text-primary);stop-opacity:${dir>0?0.085:0}`},g);
+  el("rect",{x:x0,y:y0,width:x1-x0,height:y1-y0,fill:`url(#${id})`},svg);
+  const t=el("text",{x:dir>0?x1:x0,y:y0-5,"text-anchor":dir>0?"end":"start",class:"better"},svg);
+  t.textContent=dir>0?`${T.better} →`:`← ${T.better}`;
+}
+// radial band in the top-left corner of accuracy-vs-cost/latency scatters (high accuracy, low cost/latency)
+function cornerBand(svg, x0, x1, y0, y1){
+  const id="bz"+(gid++), defs=el("defs",{},svg), g=el("radialGradient",{id,cx:"0",cy:"0",r:"1"},defs);
+  el("stop",{offset:"0",style:"stop-color:var(--text-primary);stop-opacity:0.1"},g);
+  el("stop",{offset:"1",style:"stop-color:var(--text-primary);stop-opacity:0"},g);
+  el("rect",{x:x0,y:y0,width:x1-x0,height:y1-y0,fill:`url(#${id})`},svg);
+  const t=el("text",{x:x0+6,y:y0+13,"text-anchor":"start",class:"better"},svg); t.textContent=`↖ ${T.better}`;
+}
 // linked highlight: the table row and every chart point of one (scale, config, model) light up together
 function highlight(key, on){
   document.querySelectorAll(`[data-key="${CSS.escape(key)}"]`).forEach(n=>n.classList.toggle("hl", on));
@@ -270,9 +292,10 @@ function recs(){
 
 function dotplot(id, metric, maxv){  // maxv: count axis (0..maxv); default = percentage axis
   const host=document.getElementById(id); host.innerHTML="";
-  const W=host.clientWidth||520, L=T.label_w, R=14, rowH=28, TP=8, H=TP+D.configs.length*rowH+22;
+  const W=host.clientWidth||520, L=T.label_w, R=14, rowH=28, TP=20, H=TP+D.configs.length*rowH+22;
   const svg=el("svg",{width:W,height:H,role:"img"},host);
   const span=maxv||1, x=v=>L+(v/span)*(W-L-R);
+  betterBand(svg, L, W-R, TP, H-20, DIR[metric]);
   [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:x(t*span),x2:x(t*span),y1:TP,y2:H-20,class:"gl"},svg);const tx=el("text",{x:x(t*span),y:H-6,"text-anchor":"middle",class:"ax"},svg);tx.textContent=maxv?(t*span).toFixed(t*span%1?1:0):Math.round(t*100)+"%";});
   D.configs.forEach((cfg,i)=>{
     const y=TP+i*rowH+rowH/2;
@@ -294,6 +317,7 @@ function scatter(id, xkey, logx, xfmt){
   let lo=Math.min(...cs.map(xv)), hi=Math.max(...cs.map(xv)); if(hi-lo<1e-9){lo-=1;hi+=1;}
   const pad=(hi-lo)*.06; lo-=pad; hi+=pad; if(!logx) lo=Math.max(0,lo);  // latency axis never below 0
   const x=v=>L+(v-lo)/(hi-lo)*(W-L-R), y=v=>TP+(1-v)*(H-TP-B);
+  cornerBand(svg, L, W-R, TP, H-B);
   [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:L,x2:W-R,y1:y(t),y2:y(t),class:"gl"},svg);const tx=el("text",{x:L-6,y:y(t)+4,"text-anchor":"end",class:"ax"},svg);tx.textContent=Math.round(t*100)+"%";});
   const ticks=[]; if(logx){for(let p=Math.ceil(lo);p<=Math.floor(hi);p++)ticks.push(p);} else {const st=(hi-lo)/4;for(let i=0;i<=4;i++)ticks.push(lo+st*i);}
   ticks.forEach(t=>{const tx=el("text",{x:x(t),y:H-12,"text-anchor":"middle",class:"ax"},svg);tx.textContent=xfmt(logx?Math.pow(10,t):t);});
@@ -320,8 +344,15 @@ document.getElementById("tfilter").addEventListener("click",e=>{
 function table(){
   const cs=D.cells.filter(c=>c.scale===scale&&tableModels.has(c.model));
   const rows=D.configs.flatMap(cfg=>D.models.map(m=>cs.find(c=>c.config===cfg&&c.model===m)).filter(Boolean));
-  document.getElementById("tbl").innerHTML = `<table><thead><tr>${T.th.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>`+
-    rows.map(c=>`<tr class="m-${c.model}" data-key="${keyOf(c)}"><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td><td>${pct(c.acc)}</td><td>${pct(c.mus_all)}</td><td>${pct(c.false_ref)}</td><td>${pct(c.refusal_ok)}</td><td>${num(c.steps)}</td><td>${num(c.tool_calls)}</td><td>${sec(c.lat50)}</td><td>${usd(c.cost)}</td><td>${c.coverage<0.9?T.running+" "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
+  // goodness bar per metric cell: longer = better in every column (direction from DIR), relative to the visible rows
+  const COLS=[["acc",pct],["mus_all",pct],["false_ref",pct],["refusal_ok",pct],["steps",num],["tool_calls",num],["lat50",sec],["cost",usd]];
+  const rng={}; COLS.forEach(([k])=>{const v=rows.map(c=>c[k]).filter(x=>x!=null); rng[k]=[Math.min(...v),Math.max(...v)];});
+  const mcell=(c,k,f)=>{const v=c[k]; if(v==null) return `<td class="m">–</td>`; const [lo,hi]=rng[k];
+    const g=hi>lo?(DIR[k]>0?(v-lo)/(hi-lo):(hi-v)/(hi-lo)):1;
+    return `<td class="m${g>0.999?" best":""}"><span>${f(v)}</span><i class="track"><i class="fill" style="width:${Math.round(g*100)}%"></i></i></td>`;};
+  const dirs=[0,0,...COLS.map(([k])=>DIR[k]),0];
+  document.getElementById("tbl").innerHTML = `<table><thead><tr>${T.th.map((h,i)=>`<th>${h}${dirs[i]?` <span class="dir" title="${dirs[i]>0?T.higher:T.lower}">${dirs[i]>0?"↑":"↓"}</span>`:""}</th>`).join("")}</tr></thead><tbody>`+
+    rows.map(c=>`<tr class="m-${c.model}" data-key="${keyOf(c)}"><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td>${COLS.map(([k,f])=>mcell(c,k,f)).join("")}<td>${c.coverage<0.9?T.running+" "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
 }
 
 // table row hover -> highlight the same entity's points in every chart (event delegation; table is re-rendered)
