@@ -1,8 +1,9 @@
-"""report.html — core-metric comparison (no external libraries; data embedded).
+"""report.html / report.en.html — core-metric comparison (no external libraries; data embedded).
 
 Metrics per model x configuration x scale: MuSiQue accuracy, full-evidence recall, false refusal, correct refusal on
 unanswerable questions, p50 latency, cost per question. Reuses build_report.Data / recommend().
-  uv run python -I harness/build_html.py   -> report.html
+  uv run python -I harness/build_html.py   -> report.html (Chinese) and report.en.html (English)
+All page text comes from STRINGS[lang]: {{key}} placeholders in the HTML, the T object in the script.
 """
 
 from __future__ import annotations
@@ -16,6 +17,82 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "harness"))
 sys.path.insert(0, str(ROOT))
 from build_report import CONFIGS, MODEL_LABEL, MODELS, SCALES, TOTAL_PER_SCALE, Data, recommend  # noqa: E402
+
+
+CONFIG_EN = {
+    "单次 · BM25": "Single-shot · BM25", "单次 · 混合": "Single-shot · Hybrid",
+    "单次 · 增强混合(QMD式)": "Single-shot · Enhanced hybrid (QMD)",
+    "两轮 · BM25": "Two-round · BM25", "两轮 · 混合": "Two-round · Hybrid",
+    "智能体 · grep": "Agent · grep", "智能体 · BM25": "Agent · BM25", "智能体 · 混合": "Agent · Hybrid",
+    "智能体 · 增强混合": "Agent · Enhanced hybrid", "智能体 · LLM-wiki 导航": "Agent · LLM-wiki navigation",
+    "智能体 · LLM-wiki+混合": "Agent · LLM-wiki + hybrid",
+}
+
+STRINGS = {
+    "zh": {
+        "lang": "zh", "title": "知识库方案评测", "h1": "知识库方案评测 · 核心指标", "recs_h": "推荐", "core_h": "核心指标",
+        "acc_t": "MuSiQue 准确率", "acc_s": "越高越好 · 多跳问答，短答案 · 已剔除任一模型不查库就能答对的题",
+        "all_t": "找全证据", "all_s": "越高越好 · 多跳题的所有证据都被检索到或读到",
+        "fr_t": "误拒", "fr_s": "越低越好 · 库里有答案却说\"没有\"",
+        "ro_t": "说\"不知道\"", "ro_s": "越高越好 · 库里没有答案时正确拒答",
+        "value_h": "性价比", "cost_t": "准确率 vs 单题花费", "cost_s": "横轴对数刻度 · 左上角最好",
+        "lat_t": "准确率 vs 耗时（p50）", "lat_s": "左上角最好 · 并发运行下测得，跨模型通道仅供参考",
+        "table_h": "数据表", "k_w": 88,
+        "js": {"docs": "篇", "acc": "准确率", "full": "找全证据", "fr": "误拒", "ro": "说不知道", "per_q": "/题",
+               "generated": "生成于", "judged": "已评分", "incomplete": "（数据未完整，空缺处不显示）",
+               "rec_names": {"best": "质量首选", "value": "性价比", "flash": "Flash 级首选"},
+               "rec_acc": "准确", "rec_ref": "拒答", "nodata": "数据不足", "no_graded": "暂无已评分数据",
+               "f_model": "模型", "f_all": "全部", "running": "进行中", "core_h": "核心指标", "label_w": 150,
+               "th": ["配置", "模型", "准确率", "找全证据", "误拒", "说不知道", "p50", "$/题", "已评分"]},
+    },
+    "en": {
+        "lang": "en", "title": "Knowledge-base retrieval benchmark", "h1": "Knowledge-base retrieval benchmark · core metrics",
+        "recs_h": "Recommendations", "core_h": "Core metrics",
+        "acc_t": "MuSiQue accuracy",
+        "acc_s": "Higher is better · multi-hop QA, short answers · questions any model answers without the KB are excluded",
+        "all_t": "Full evidence found", "all_s": "Higher is better · every evidence document of a multi-hop question was retrieved or read",
+        "fr_t": "False refusal", "fr_s": "Lower is better · says \"not in the KB\" although the answer is there",
+        "ro_t": "Says \"not in the KB\"", "ro_s": "Higher is better · correct refusal when the KB lacks the answer",
+        "value_h": "Cost and speed", "cost_t": "Accuracy vs cost per question", "cost_s": "Log-scale x axis · top-left is best",
+        "lat_t": "Accuracy vs latency (p50)",
+        "lat_s": "Top-left is best · measured under concurrent load; compare across API providers with care",
+        "table_h": "Data table", "k_w": 104,
+        "js": {"docs": "docs", "acc": "Accuracy", "full": "Full evidence", "fr": "False refusal", "ro": "Says not in KB",
+               "per_q": "/question", "generated": "Generated", "judged": "graded",
+               "incomplete": " (incomplete — missing cells are hidden)",
+               "rec_names": {"best": "Best quality", "value": "Best value", "flash": "Best Flash-tier"},
+               "rec_acc": "acc", "rec_ref": "refusal", "nodata": "insufficient data", "no_graded": "No graded data yet",
+               "f_model": "Model", "f_all": "All", "running": "running", "core_h": "Core metrics", "label_w": 215,
+               "th": ["Configuration", "Model", "Accuracy", "Full evidence", "False refusal", "Says not in KB", "p50",
+                      "$/question", "Graded"]},
+    },
+}
+
+
+def localize(data: dict, lang: str) -> dict:
+    """Swap configuration labels for the target language (data is collected with the Chinese labels)."""
+    if lang == "zh":
+        return data
+    tr = lambda s: CONFIG_EN.get(s, s)  # noqa: E731
+    out = json.loads(json.dumps(data))
+    out["configs"] = [tr(c) for c in out["configs"]]
+    for c in out["cells"]:
+        c["config"] = tr(c["config"])
+    for rec in out["recs"].values():
+        for v in rec.values():
+            if v:
+                v["config"] = tr(v["config"])
+    return out
+
+
+def render_html(data: dict, lang: str) -> str:
+    S = STRINGS[lang]
+    html = HTML
+    for k, v in S.items():
+        if k != "js":
+            html = html.replace("{{" + k + "}}", str(v))
+    return (html.replace("__DATA__", json.dumps(localize(data, lang), ensure_ascii=False))
+                .replace("__T__", json.dumps(S["js"], ensure_ascii=False)))
 
 
 def collect() -> dict:
@@ -49,8 +126,8 @@ def collect() -> dict:
 
 
 HTML = r"""<!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>知识库方案评测</title>
+<html lang="{{lang}}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title>
 <style>
 .viz-root{color-scheme:light;--surface-1:#fcfcfb;--surface-2:#f3f2ef;--text-primary:#0b0b0b;--text-secondary:#52514e;
  --text-muted:#8a8984;--grid:#e6e5e1;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a}
@@ -69,7 +146,7 @@ h1{font-size:20px;margin:0 0 4px}h2{font-size:15px;margin:28px 0 10px}.meta{colo
 .legend{display:flex;gap:14px;color:var(--text-secondary);font-size:13px}.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
 .recs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .card{background:var(--surface-2);border-radius:8px;padding:12px 14px}.card b{font-size:13px}.card div{font-size:12.5px;color:var(--text-secondary);margin-top:6px}
-.card .k{color:var(--text-muted);display:inline-block;width:88px}
+.card .k{color:var(--text-muted);display:inline-block;width:{{k_w}}px}
 .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px}
 .panel h3{font-size:13px;margin:0 0 2px}.panel .sub{font-size:12px;color:var(--text-muted);margin-bottom:4px}
 svg text{fill:var(--text-secondary);font-size:11.5px}svg .ax{fill:var(--text-muted);font-size:10.5px}
@@ -101,27 +178,28 @@ tbody tr.hl td:first-child,tbody tr:hover td:first-child{box-shadow:inset 3px 0 
 @media (max-width:900px){.grid2,.recs{grid-template-columns:1fr}}
 </style></head>
 <body><div class="viz-root">
-<h1>知识库方案评测 · 核心指标</h1>
+<h1>{{h1}}</h1>
 <div class="meta" id="meta"></div>
 <div class="bar"><div class="seg" id="seg"></div><div class="legend" id="legend"></div></div>
-<h2>推荐</h2><div class="recs" id="recs"></div>
-<h2 id="h-core">核心指标</h2>
+<h2>{{recs_h}}</h2><div class="recs" id="recs"></div>
+<h2 id="h-core">{{core_h}}</h2>
 <div class="grid2">
- <div class="panel"><h3>MuSiQue 准确率</h3><div class="sub">越高越好 · 多跳问答，短答案 · 已剔除任一模型不查库就能答对的题</div><div id="p-acc"></div></div>
- <div class="panel"><h3>找全证据</h3><div class="sub">越高越好 · 多跳题的所有证据都被检索到或读到</div><div id="p-all"></div></div>
- <div class="panel"><h3>误拒</h3><div class="sub">越低越好 · 库里有答案却说"没有"</div><div id="p-fr"></div></div>
- <div class="panel"><h3>说"不知道"</h3><div class="sub">越高越好 · 库里没有答案时正确拒答</div><div id="p-ro"></div></div>
+ <div class="panel"><h3>{{acc_t}}</h3><div class="sub">{{acc_s}}</div><div id="p-acc"></div></div>
+ <div class="panel"><h3>{{all_t}}</h3><div class="sub">{{all_s}}</div><div id="p-all"></div></div>
+ <div class="panel"><h3>{{fr_t}}</h3><div class="sub">{{fr_s}}</div><div id="p-fr"></div></div>
+ <div class="panel"><h3>{{ro_t}}</h3><div class="sub">{{ro_s}}</div><div id="p-ro"></div></div>
 </div>
-<h2>性价比</h2>
+<h2>{{value_h}}</h2>
 <div class="grid2">
- <div class="panel"><h3>准确率 vs 单题花费</h3><div class="sub">横轴对数刻度 · 左上角最好</div><div id="p-cost"></div></div>
- <div class="panel"><h3>准确率 vs 耗时（p50）</h3><div class="sub">左上角最好 · 并发运行下测得，跨模型通道仅供参考</div><div id="p-lat"></div></div>
+ <div class="panel"><h3>{{cost_t}}</h3><div class="sub">{{cost_s}}</div><div id="p-cost"></div></div>
+ <div class="panel"><h3>{{lat_t}}</h3><div class="sub">{{lat_s}}</div><div id="p-lat"></div></div>
 </div>
-<h2>数据表</h2><div class="tfilter" id="tfilter"></div><div id="tbl"></div>
+<h2>{{table_h}}</h2><div class="tfilter" id="tfilter"></div><div id="tbl"></div>
 <div id="tip"></div>
 </div>
 <script>
 const D = __DATA__;
+const T = __T__;
 const COL = {haiku:"var(--s1)", sonnet:"var(--s2)", deepseek:"var(--s3)"};
 const pct = v => v==null ? "–" : Math.round(v*100)+"%";
 const usd = v => v==null ? "–" : "$"+(v<0.01 ? v.toFixed(4) : v.toFixed(3));
@@ -130,7 +208,7 @@ let scale = D.scales[D.scales.length-1];
 const tip = document.getElementById("tip");
 function showTip(e, html){tip.innerHTML=html;tip.style.display="block";const x=Math.min(e.clientX+14, innerWidth-300);tip.style.left=x+"px";tip.style.top=(e.clientY+14)+"px";}
 function hideTip(){tip.style.display="none";}
-function cell(c){return `<div class="t">${c.config}</div>${D.labels[c.model]} · ${c.scale} 篇<br>准确率 ${pct(c.acc)} (n=${c.acc_n}) · 找全证据 ${pct(c.mus_all)}<br>误拒 ${pct(c.false_ref)} · 说不知道 ${pct(c.refusal_ok)}<br>p50 ${sec(c.lat50)} · ${usd(c.cost)}/题`;}
+function cell(c){return `<div class="t">${c.config}</div>${D.labels[c.model]} · ${c.scale} ${T.docs}<br>${T.acc} ${pct(c.acc)} (n=${c.acc_n}) · ${T.full} ${pct(c.mus_all)}<br>${T.fr} ${pct(c.false_ref)} · ${T.ro} ${pct(c.refusal_ok)}<br>p50 ${sec(c.lat50)} · ${usd(c.cost)}${T.per_q}`;}
 const NS="http://www.w3.org/2000/svg";
 function el(tag, attrs, parent){const n=document.createElementNS(NS,tag);for(const k in attrs)n.setAttribute(k,attrs[k]);if(parent)parent.appendChild(n);return n;}
 const keyOf = c => `${c.scale}|${c.config}|${c.model}`;
@@ -150,27 +228,27 @@ function point(svg, c, cx, cy){
 }
 
 document.getElementById("meta").textContent =
-  `生成于 ${D.generated} · 已评分 ${D.judged} / ${D.expected} 条` + (D.judged < D.expected*0.98 ? "（数据未完整，空缺处不显示）" : "");
+  `${T.generated} ${D.generated} · ${T.judged} ${D.judged} / ${D.expected}` + (D.judged < D.expected*0.98 ? T.incomplete : "");
 const seg=document.getElementById("seg");
-D.scales.forEach(s=>{const b=document.createElement("button");b.textContent=s+" 篇";b.onclick=()=>{scale=s;render();};b.dataset.s=s;seg.appendChild(b);});
+D.scales.forEach(s=>{const b=document.createElement("button");b.textContent=s+" "+T.docs;b.onclick=()=>{scale=s;render();};b.dataset.s=s;seg.appendChild(b);});
 document.getElementById("legend").innerHTML = D.models.map(m=>`<span><i style="background:${COL[m]}"></i>${D.labels[m]}</span>`).join("");
 
 function recs(){
-  const names={best:"质量首选",value:"性价比",flash:"Flash 级首选"};
+  const names=T.rec_names;
   document.getElementById("recs").innerHTML = D.scales.map(s=>{
     const r=D.recs[s]||{};
-    const rows=Object.keys(names).map(k=>{const v=r[k];return `<div><span class="k">${names[k]}</span>${v?`${D.labels[v.model]} + ${v.config} · 准确 ${pct(v.acc)} · 拒答 ${pct(v.refusal_ok)} · ${usd(v.cost)}`:"数据不足"}</div>`;}).join("");
-    return `<div class="card"><b>${s} 篇</b>${rows}</div>`;}).join("");
+    const rows=Object.keys(names).map(k=>{const v=r[k];return `<div><span class="k">${names[k]}</span>${v?`${D.labels[v.model]} + ${v.config} · ${T.rec_acc} ${pct(v.acc)} · ${T.rec_ref} ${pct(v.refusal_ok)} · ${usd(v.cost)}`:T.nodata}</div>`;}).join("");
+    return `<div class="card"><b>${s} ${T.docs}</b>${rows}</div>`;}).join("");
 }
 
 function dotplot(id, metric){
   const host=document.getElementById(id); host.innerHTML="";
-  const W=host.clientWidth||520, L=150, R=14, rowH=28, T=8, H=T+D.configs.length*rowH+22;
+  const W=host.clientWidth||520, L=T.label_w, R=14, rowH=28, TP=8, H=TP+D.configs.length*rowH+22;
   const svg=el("svg",{width:W,height:H,role:"img"},host);
   const x=v=>L+v*(W-L-R);
-  [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:x(t),x2:x(t),y1:T,y2:H-20,class:"gl"},svg);const tx=el("text",{x:x(t),y:H-6,"text-anchor":"middle",class:"ax"},svg);tx.textContent=Math.round(t*100)+"%";});
+  [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:x(t),x2:x(t),y1:TP,y2:H-20,class:"gl"},svg);const tx=el("text",{x:x(t),y:H-6,"text-anchor":"middle",class:"ax"},svg);tx.textContent=Math.round(t*100)+"%";});
   D.configs.forEach((cfg,i)=>{
-    const y=T+i*rowH+rowH/2;
+    const y=TP+i*rowH+rowH/2;
     const lb=el("text",{x:L-8,y:y+4,"text-anchor":"end"},svg); lb.textContent=cfg;
     const cs=D.cells.filter(c=>c.scale===scale&&c.config===cfg&&c[metric]!=null);
     if(cs.length>1){const xs=cs.map(c=>x(c[metric]));el("line",{x1:Math.min(...xs),x2:Math.max(...xs),y1:y,y2:y,stroke:"var(--grid)","stroke-width":2},svg);}
@@ -181,14 +259,14 @@ function dotplot(id, metric){
 
 function scatter(id, xkey, logx, xfmt){
   const host=document.getElementById(id); host.innerHTML="";
-  const W=host.clientWidth||520, H=300, L=44, R=16, T=10, B=34;
+  const W=host.clientWidth||520, H=300, L=44, R=16, TP=10, B=34;
   const svg=el("svg",{width:W,height:H,role:"img"},host);
   const cs=D.cells.filter(c=>c.scale===scale&&c.acc!=null&&c[xkey]!=null);
-  if(!cs.length){const t=el("text",{x:W/2,y:H/2,"text-anchor":"middle"},svg);t.textContent="暂无已评分数据";return;}
+  if(!cs.length){const t=el("text",{x:W/2,y:H/2,"text-anchor":"middle"},svg);t.textContent=T.no_graded;return;}
   const xv=c=>logx?Math.log10(c[xkey]):c[xkey];
   let lo=Math.min(...cs.map(xv)), hi=Math.max(...cs.map(xv)); if(hi-lo<1e-9){lo-=1;hi+=1;}
   const pad=(hi-lo)*.06; lo-=pad; hi+=pad; if(!logx) lo=Math.max(0,lo);  // latency axis never below 0
-  const x=v=>L+(v-lo)/(hi-lo)*(W-L-R), y=v=>T+(1-v)*(H-T-B);
+  const x=v=>L+(v-lo)/(hi-lo)*(W-L-R), y=v=>TP+(1-v)*(H-TP-B);
   [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:L,x2:W-R,y1:y(t),y2:y(t),class:"gl"},svg);const tx=el("text",{x:L-6,y:y(t)+4,"text-anchor":"end",class:"ax"},svg);tx.textContent=Math.round(t*100)+"%";});
   const ticks=[]; if(logx){for(let p=Math.ceil(lo);p<=Math.floor(hi);p++)ticks.push(p);} else {const st=(hi-lo)/4;for(let i=0;i<=4;i++)ticks.push(lo+st*i);}
   ticks.forEach(t=>{const tx=el("text",{x:x(t),y:H-12,"text-anchor":"middle",class:"ax"},svg);tx.textContent=xfmt(logx?Math.pow(10,t):t);});
@@ -200,7 +278,7 @@ const tableModels=new Set(D.models);
 function tfilter(){
   const host=document.getElementById("tfilter");
   const all=tableModels.size===D.models.length;
-  host.innerHTML=`<span class="lbl">模型</span><button class="chip" data-m="*" aria-pressed="${all}">全部</button>`+
+  host.innerHTML=`<span class="lbl">${T.f_model}</span><button class="chip" data-m="*" aria-pressed="${all}">${T.f_all}</button>`+
     D.models.map(m=>`<button class="chip" data-m="${m}" aria-pressed="${tableModels.has(m)}"><i style="background:${COL[m]}"></i>${D.labels[m]}</button>`).join("");
 }
 document.getElementById("tfilter").addEventListener("click",e=>{
@@ -215,8 +293,8 @@ document.getElementById("tfilter").addEventListener("click",e=>{
 function table(){
   const cs=D.cells.filter(c=>c.scale===scale&&tableModels.has(c.model));
   const rows=D.configs.flatMap(cfg=>D.models.map(m=>cs.find(c=>c.config===cfg&&c.model===m)).filter(Boolean));
-  document.getElementById("tbl").innerHTML = `<table><thead><tr><th>配置</th><th>模型</th><th>准确率</th><th>找全证据</th><th>误拒</th><th>说不知道</th><th>p50</th><th>$/题</th><th>已评分</th></tr></thead><tbody>`+
-    rows.map(c=>`<tr class="m-${c.model}" data-key="${keyOf(c)}"><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td><td>${pct(c.acc)}</td><td>${pct(c.mus_all)}</td><td>${pct(c.false_ref)}</td><td>${pct(c.refusal_ok)}</td><td>${sec(c.lat50)}</td><td>${usd(c.cost)}</td><td>${c.coverage<0.9?"进行中 "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
+  document.getElementById("tbl").innerHTML = `<table><thead><tr>${T.th.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>`+
+    rows.map(c=>`<tr class="m-${c.model}" data-key="${keyOf(c)}"><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td><td>${pct(c.acc)}</td><td>${pct(c.mus_all)}</td><td>${pct(c.false_ref)}</td><td>${pct(c.refusal_ok)}</td><td>${sec(c.lat50)}</td><td>${usd(c.cost)}</td><td>${c.coverage<0.9?T.running+" "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
 }
 
 // table row hover -> highlight the same entity's points in every chart (event delegation; table is re-rendered)
@@ -226,7 +304,7 @@ tbl.addEventListener("mouseout",e=>{const tr=e.target.closest("tr[data-key]");if
 
 function render(){
   [...seg.children].forEach(b=>b.classList.toggle("on", +b.dataset.s===scale));
-  document.getElementById("h-core").textContent=`核心指标 · ${scale} 篇`;
+  document.getElementById("h-core").textContent=`${T.core_h} · ${scale} ${T.docs}`;
   recs(); dotplot("p-acc","acc"); dotplot("p-all","mus_all"); dotplot("p-fr","false_ref"); dotplot("p-ro","refusal_ok");
   scatter("p-cost","cost",true,v=>"$"+(v<0.01?v.toFixed(3):v.toFixed(2))); scatter("p-lat","lat50",false,v=>v.toFixed(0)+"s"); tfilter(); table();
 }
@@ -237,5 +315,8 @@ render(); addEventListener("resize", render);
 
 if __name__ == "__main__":
     data = collect()
-    (ROOT / "report.html").write_text(HTML.replace("__DATA__", json.dumps(data, ensure_ascii=False)), encoding="utf-8")
-    print(f"wrote report.html ({len(data['cells'])} cells, judged {data['judged']}/{data['expected']})")
+    for lang, name in (("zh", "report.html"), ("en", "report.en.html")):
+        html = render_html(data, lang)
+        assert "{{" not in html, f"unfilled placeholder in {name}"
+        (ROOT / name).write_text(html, encoding="utf-8")
+        print(f"wrote {name} ({len(data['cells'])} cells, judged {data['judged']}/{data['expected']})")
