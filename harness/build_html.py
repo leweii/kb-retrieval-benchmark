@@ -33,7 +33,7 @@ CONFIG_EN = {
 
 STRINGS = {
     "zh": {
-        "lang": "zh", "title": "知识库方案评测", "h1": "知识库方案评测 · 核心指标", "recs_h": "推荐", "core_h": "核心指标",
+        "lang": "zh", "other_href": "report.en.html", "other_lang": "en", "other_label": "English", "title": "知识库方案评测", "h1": "知识库方案评测 · 核心指标", "recs_h": "推荐", "core_h": "核心指标",
         "acc_t": "MuSiQue 准确率", "acc_s": "越高越好 · 多跳问答，短答案 · 已剔除任一模型不查库就能答对的题",
         "all_t": "找全证据", "all_s": "越高越好 · 多跳题的所有证据都被检索到或读到",
         "fr_t": "误拒", "fr_s": "越低越好 · 库里有答案却说\"没有\"",
@@ -53,7 +53,7 @@ STRINGS = {
                "th": ["配置", "模型", "准确率", "找全证据", "误拒", "说不知道", "轮次", "工具调用", "p50", "$/题", "已评分"]},
     },
     "en": {
-        "lang": "en", "title": "Knowledge-base retrieval benchmark", "h1": "Knowledge-base retrieval benchmark · core metrics",
+        "lang": "en", "other_href": "report.html", "other_lang": "zh", "other_label": "中文", "title": "Knowledge-base retrieval benchmark", "h1": "Knowledge-base retrieval benchmark · core metrics",
         "recs_h": "Recommendations", "core_h": "Core metrics",
         "acc_t": "MuSiQue accuracy",
         "acc_s": "Higher is better · multi-hop QA, short answers · questions any model answers without the KB are excluded",
@@ -151,7 +151,8 @@ HTML = r"""<!doctype html>
 *{box-sizing:border-box}body{margin:0}
 .viz-root{background:var(--surface-1);color:var(--text-primary);font:14px/1.45 -apple-system,BlinkMacSystemFont,"PingFang SC","Segoe UI",sans-serif;
  padding:24px 28px 48px;min-height:100vh}
-h1{font-size:20px;margin:0 0 4px}h2{font-size:15px;margin:28px 0 10px}.meta{color:var(--text-secondary);font-size:12px}
+h1{font-size:20px;margin:0 0 4px}.head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+.links{display:flex;gap:8px;font-size:13px;color:var(--text-muted)}.links a{color:var(--text-secondary);text-decoration:none;border-bottom:1px solid var(--grid)}.links a:hover{color:var(--text-primary);border-color:var(--text-muted)}h2{font-size:15px;margin:28px 0 10px}.meta{color:var(--text-secondary);font-size:12px}
 .bar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:16px 0 4px;position:sticky;top:0;background:var(--surface-1);padding:8px 0;z-index:2}
 .seg button{border:1px solid var(--grid);background:var(--surface-2);color:var(--text-primary);padding:5px 12px;cursor:pointer;font:inherit}
 .seg button:first-child{border-radius:6px 0 0 6px}.seg button:last-child{border-radius:0 6px 6px 0}
@@ -197,7 +198,7 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 @media (max-width:900px){.grid2,.recs{grid-template-columns:1fr}}
 </style></head>
 <body><div class="viz-root">
-<h1>{{h1}}</h1>
+<div class="head"><h1>{{h1}}</h1><nav class="links"><a href="{{other_href}}" hreflang="{{other_lang}}">{{other_label}}</a><span>·</span><a href="https://github.com/leweii/kb-retrieval-benchmark" target="_blank" rel="noopener">GitHub</a></nav></div>
 <div class="meta" id="meta"></div>
 <div class="bar"><div class="seg" id="seg"></div><div class="legend" id="legend"></div></div>
 <h2>{{recs_h}}</h2><div class="recs" id="recs"></div>
