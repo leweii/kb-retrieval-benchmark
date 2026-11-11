@@ -49,7 +49,12 @@ STRINGS = {
                "rec_names": {"best": "质量首选", "value": "性价比", "flash": "Flash 级首选"},
                "rec_acc": "准确", "rec_ref": "拒答", "nodata": "数据不足", "no_graded": "暂无已评分数据",
                "f_model": "模型", "f_all": "全部", "running": "进行中", "core_h": "核心指标", "label_w": 150,
-               "steps": "轮次", "tools": "工具调用", "cap": "用满步数", "better": "更好", "higher": "越高越好", "lower": "越低越好",
+               "steps": "轮次", "tools": "工具调用", "cap": "用满步数", "better": "更好", "higher": "越高越好", "lower": "越低越好", "f_scale": "知识库体量", "reset": "重置",
+               "shown": "显示 {n} 个组合", "no_match": "没有符合筛选条件的组合",
+               "fg": {"model": "模型", "mode": "模式", "method": "检索方法", "wiki": "知识库形态"},
+               "fv": {"mode": {"A0": "单次", "A2": "两轮", "A1": "智能体"},
+                      "method": {"grep": "grep", "bm25": "BM25", "hybrid": "混合", "enhanced": "增强混合", "nav": "wiki 导航"},
+                      "wiki": {"raw": "原文", "wiki": "LLM-wiki"}},
                "th": ["配置", "模型", "准确率", "找全证据", "误拒", "说不知道", "轮次", "工具调用", "p50", "$/题", "已评分"]},
     },
     "en": {
@@ -73,7 +78,12 @@ STRINGS = {
                "rec_names": {"best": "Best quality", "value": "Best value", "flash": "Best Flash-tier"},
                "rec_acc": "acc", "rec_ref": "refusal", "nodata": "insufficient data", "no_graded": "No graded data yet",
                "f_model": "Model", "f_all": "All", "running": "running", "core_h": "Core metrics", "label_w": 215,
-               "steps": "rounds", "tools": "tool calls", "cap": "hit step cap", "better": "better", "higher": "higher is better", "lower": "lower is better",
+               "steps": "rounds", "tools": "tool calls", "cap": "hit step cap", "better": "better", "higher": "higher is better", "lower": "lower is better", "f_scale": "KB size", "reset": "Reset",
+               "shown": "{n} combinations shown", "no_match": "No combination matches the filters",
+               "fg": {"model": "Model", "mode": "Mode", "method": "Retrieval", "wiki": "KB form"},
+               "fv": {"mode": {"A0": "Single-shot", "A2": "Two-round", "A1": "Agent"},
+                      "method": {"grep": "grep", "bm25": "BM25", "hybrid": "Hybrid", "enhanced": "Enhanced hybrid", "nav": "Wiki navigation"},
+                      "wiki": {"raw": "Raw notes", "wiki": "LLM-wiki"}},
                "th": ["Configuration", "Model", "Accuracy", "Full evidence", "False refusal", "Says not in KB", "Rounds",
                       "Tool calls", "p50", "$/question", "Graded"]},
     },
@@ -87,6 +97,8 @@ def localize(data: dict, lang: str) -> dict:
     tr = lambda s: CONFIG_EN.get(s, s)  # noqa: E731
     out = json.loads(json.dumps(data))
     out["configs"] = [tr(c) for c in out["configs"]]
+    for m in out["config_meta"]:
+        m["label"] = tr(m["label"])
     for c in out["cells"]:
         c["config"] = tr(c["config"])
     for rec in out["recs"].values():
@@ -133,7 +145,10 @@ def collect() -> dict:
                                            "lat50": v[2]["lat50"]}) for k, v in r.items()} if r else {}
     judged = sum(c["n_judged"] for c in cells)
     expected = sum(TOTAL_PER_SCALE[s] for s in SCALES) * len(CONFIGS) * len(MODELS)
-    return {"cells": cells, "recs": recs, "configs": [c[2] for c in CONFIGS], "models": MODELS,
+    method = {"R1_grep": "grep", "R2_bm25": "bm25", "R3_hybrid": "hybrid", "R4_enhanced": "enhanced", "R5_wiki_nav": "nav", "R6_wiki_hybrid": "hybrid"}
+    meta = [{"label": label, "mode": mode, "method": method[cfg], "wiki": "wiki" if cfg.startswith(("R5", "R6")) else "raw"}
+            for mode, cfg, label in CONFIGS]
+    return {"cells": cells, "recs": recs, "configs": [c[2] for c in CONFIGS], "config_meta": meta, "models": MODELS,
             "labels": MODEL_LABEL, "scales": SCALES, "judged": judged, "expected": expected,
             "generated": f"{datetime.now():%Y-%m-%d %H:%M}"}
 
@@ -170,7 +185,7 @@ th .dir{color:var(--text-muted);font-weight:500}#tbl td.m{min-width:66px}#tbl td
 #tip{position:fixed;pointer-events:none;background:var(--surface-1);border:1px solid var(--grid);border-radius:6px;padding:7px 9px;font-size:12px;
  box-shadow:0 2px 10px rgba(0,0,0,.12);display:none;z-index:9;max-width:280px}#tip .t{font-weight:600;margin-bottom:3px}
 table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{padding:5px 8px;border-bottom:1px solid var(--grid);text-align:right;white-space:nowrap}
-#tbl th{position:sticky;top:44px}th{color:var(--text-secondary);font-weight:600;background:var(--surface-1)}td:first-child,th:first-child,td:nth-child(2),th:nth-child(2){text-align:left}
+#tbl th{position:sticky;top:var(--barh,44px)}th{color:var(--text-secondary);font-weight:600;background:var(--surface-1)}td:first-child,th:first-child,td:nth-child(2),th:nth-child(2){text-align:left}
 td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
 /* rows tinted by model; hover deepens; .hl = linked from a chart point */
 #tbl tbody tr{--rowc:var(--s1);cursor:default}
@@ -179,6 +194,10 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 #tbl tbody tr:hover td{background:color-mix(in srgb,var(--rowc) 17%,transparent)}
 #tbl tbody tr.hl td{background:color-mix(in srgb,var(--rowc) 28%,transparent)}
 #tbl tbody tr.hl td:first-child,#tbl tbody tr:hover td:first-child{box-shadow:inset 3px 0 0 var(--rowc)}
+/* global filter bar */
+.bar .grp{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.bar .lbl{color:var(--text-muted);font-size:12px;margin-right:2px}
+.bar .shown{color:var(--text-muted);font-size:12px}.bar .reset{border:none;background:none;color:var(--text-secondary);font:inherit;font-size:12.5px;cursor:pointer;text-decoration:underline;padding:0}
+.nomatch{color:var(--text-muted);font-size:12.5px;padding:18px 0}
 /* table model filter: toggle chips */
 .tfilter{display:flex;gap:8px;align-items:center;margin:0 0 10px;flex-wrap:wrap}
 .tfilter .lbl{color:var(--text-muted);font-size:12px;margin-right:2px}
@@ -202,7 +221,7 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 <body><div class="viz-root">
 <div class="head"><h1>{{h1}}</h1><nav class="links"><a href="{{other_href}}" hreflang="{{other_lang}}">{{other_label}}</a><span>·</span><a href="https://github.com/leweii/kb-retrieval-benchmark" target="_blank" rel="noopener">GitHub</a></nav></div>
 <div class="meta" id="meta"></div>
-<div class="bar"><div class="seg" id="seg"></div><div class="legend" id="legend"></div></div>
+<div class="bar" id="filters"></div>
 <h2>{{recs_h}}</h2><div class="recs" id="recs"></div>
 <h2 id="h-core">{{core_h}}</h2>
 <div class="grid2">
@@ -221,7 +240,7 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
  <div class="panel"><h3>{{cost_t}}</h3><div class="sub">{{cost_s}}</div><div id="p-cost"></div></div>
  <div class="panel"><h3>{{lat_t}}</h3><div class="sub">{{lat_s}}</div><div id="p-lat"></div></div>
 </div>
-<h2>{{table_h}}</h2><div class="tfilter" id="tfilter"></div><div id="tbl"></div>
+<h2>{{table_h}}</h2><div id="tbl"></div>
 {{appendix}}
 <div id="tip"></div>
 </div>
@@ -278,9 +297,26 @@ function point(svg, c, cx, cy){
 
 document.getElementById("meta").textContent =
   `${T.generated} ${D.generated} · ${T.judged} ${D.judged} / ${D.expected}` + (D.judged < D.expected*0.98 ? T.incomplete : "");
-const seg=document.getElementById("seg");
-D.scales.forEach(s=>{const b=document.createElement("button");b.textContent=s+" "+T.docs;b.onclick=()=>{scale=s;render();};b.dataset.s=s;seg.appendChild(b);});
-document.getElementById("legend").innerHTML = D.models.map(m=>`<span><i style="background:${COL[m]}"></i>${D.labels[m]}</span>`).join("");
+// ---- global filters: KB size (single), model / mode / retrieval method / KB form (multi, at least one each)
+const META=D.config_meta;
+const GROUPS=[["model",D.models],["mode",["A0","A2","A1"]],["method",["grep","bm25","hybrid","enhanced","nav"]],["wiki",["raw","wiki"]]];
+const F={}; function resetF(){F.scale=D.scales[D.scales.length-1]; GROUPS.forEach(([g,vals])=>F[g]=new Set(vals));} resetF();
+const visCfg=()=>META.filter(c=>F.mode.has(c.mode)&&F.method.has(c.method)&&F.wiki.has(c.wiki)).map(c=>c.label);
+function visCells(){const vc=new Set(visCfg()); return D.cells.filter(c=>c.scale===F.scale&&F.model.has(c.model)&&vc.has(c.config));}
+function filters(){
+  const seg=`<div class="grp"><span class="lbl">${T.f_scale}</span><div class="seg">${D.scales.map(s=>`<button data-scale="${s}" class="${s===F.scale?"on":""}">${s} ${T.docs}</button>`).join("")}</div></div>`;
+  const grp=GROUPS.map(([g,vals])=>`<div class="grp"><span class="lbl">${T.fg[g]}</span>${vals.map(v=>`<button class="chip" data-g="${g}" data-v="${v}" aria-pressed="${F[g].has(v)}">${g==="model"?`<i style="background:${COL[v]}"></i>${D.labels[v]}`:T.fv[g][v]}</button>`).join("")}</div>`).join("");
+  const n=visCfg().length*F.model.size;
+  document.getElementById("filters").innerHTML=seg+grp+`<span class="shown">${T.shown.replace("{n}",n)}</span><button class="reset">${T.reset}</button>`;
+  document.documentElement.style.setProperty("--barh", document.getElementById("filters").offsetHeight+"px");
+}
+document.getElementById("filters").addEventListener("click",e=>{
+  const sb=e.target.closest("[data-scale]"), ch=e.target.closest(".chip"), rs=e.target.closest(".reset");
+  if(sb) F.scale=+sb.dataset.scale;
+  else if(ch){const set=F[ch.dataset.g], v=ch.dataset.v; if(set.has(v)){ if(set.size>1) set.delete(v); } else set.add(v);}  // keep >= 1
+  else if(rs) resetF(); else return;
+  render();
+});
 
 function recs(){
   const names=T.rec_names;
@@ -292,15 +328,17 @@ function recs(){
 
 function dotplot(id, metric, maxv){  // maxv: count axis (0..maxv); default = percentage axis
   const host=document.getElementById(id); host.innerHTML="";
-  const W=host.clientWidth||520, L=T.label_w, R=14, rowH=28, TP=20, H=TP+D.configs.length*rowH+22;
+  const cfgs=visCfg(), vis=visCells();
+  if(!cfgs.length){host.innerHTML=`<div class="nomatch">${T.no_match}</div>`; return;}
+  const W=host.clientWidth||520, L=T.label_w, R=14, rowH=28, TP=20, H=TP+cfgs.length*rowH+22;
   const svg=el("svg",{width:W,height:H,role:"img"},host);
   const span=maxv||1, x=v=>L+(v/span)*(W-L-R);
   betterBand(svg, L, W-R, TP, H-20, DIR[metric]);
   [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:x(t*span),x2:x(t*span),y1:TP,y2:H-20,class:"gl"},svg);const tx=el("text",{x:x(t*span),y:H-6,"text-anchor":"middle",class:"ax"},svg);tx.textContent=maxv?(t*span).toFixed(t*span%1?1:0):Math.round(t*100)+"%";});
-  D.configs.forEach((cfg,i)=>{
+  cfgs.forEach((cfg,i)=>{
     const y=TP+i*rowH+rowH/2;
     const lb=el("text",{x:L-8,y:y+4,"text-anchor":"end"},svg); lb.textContent=cfg;
-    const cs=D.cells.filter(c=>c.scale===scale&&c.config===cfg&&c[metric]!=null);
+    const cs=vis.filter(c=>c.config===cfg&&c[metric]!=null);
     if(cs.length>1){const xs=cs.map(c=>x(c[metric]));el("line",{x1:Math.min(...xs),x2:Math.max(...xs),y1:y,y2:y,stroke:"var(--grid)","stroke-width":2},svg);}
     // per-model vertical offset: identical values (single-shot recall is model-independent) stay visible
     cs.forEach(c=>point(svg, c, x(c[metric]), y+(D.models.indexOf(c.model)-1)*6));
@@ -311,8 +349,8 @@ function scatter(id, xkey, logx, xfmt){
   const host=document.getElementById(id); host.innerHTML="";
   const W=host.clientWidth||520, H=300, L=44, R=16, TP=10, B=34;
   const svg=el("svg",{width:W,height:H,role:"img"},host);
-  const cs=D.cells.filter(c=>c.scale===scale&&c.acc!=null&&c[xkey]!=null);
-  if(!cs.length){const t=el("text",{x:W/2,y:H/2,"text-anchor":"middle"},svg);t.textContent=T.no_graded;return;}
+  const cs=visCells().filter(c=>c.acc!=null&&c[xkey]!=null);
+  if(!cs.length){const t=el("text",{x:W/2,y:H/2,"text-anchor":"middle"},svg);t.textContent=visCfg().length&&F.model.size?T.no_graded:T.no_match;return;}
   const xv=c=>logx?Math.log10(c[xkey]):c[xkey];
   let lo=Math.min(...cs.map(xv)), hi=Math.max(...cs.map(xv)); if(hi-lo<1e-9){lo-=1;hi+=1;}
   const pad=(hi-lo)*.06; lo-=pad; hi+=pad; if(!logx) lo=Math.max(0,lo);  // latency axis never below 0
@@ -324,26 +362,11 @@ function scatter(id, xkey, logx, xfmt){
   cs.forEach(c=>point(svg, c, x(xv(c)), y(c.acc)));
 }
 
-// table model filter (table only; charts always show every model)
-const tableModels=new Set(D.models);
-function tfilter(){
-  const host=document.getElementById("tfilter");
-  const all=tableModels.size===D.models.length;
-  host.innerHTML=`<span class="lbl">${T.f_model}</span><button class="chip" data-m="*" aria-pressed="${all}">${T.f_all}</button>`+
-    D.models.map(m=>`<button class="chip" data-m="${m}" aria-pressed="${tableModels.has(m)}"><i style="background:${COL[m]}"></i>${D.labels[m]}</button>`).join("");
-}
-document.getElementById("tfilter").addEventListener("click",e=>{
-  const b=e.target.closest(".chip"); if(!b) return;
-  const m=b.dataset.m;
-  if(m==="*") D.models.forEach(x=>tableModels.add(x));
-  else if(tableModels.has(m)){ if(tableModels.size>1) tableModels.delete(m); }  // keep at least one model
-  else tableModels.add(m);
-  tfilter(); table();
-});
 
 function table(){
-  const cs=D.cells.filter(c=>c.scale===scale&&tableModels.has(c.model));
-  const rows=D.configs.flatMap(cfg=>D.models.map(m=>cs.find(c=>c.config===cfg&&c.model===m)).filter(Boolean));
+  const cs=visCells();
+  const rows=visCfg().flatMap(cfg=>D.models.map(m=>cs.find(c=>c.config===cfg&&c.model===m)).filter(Boolean));
+  if(!rows.length){document.getElementById("tbl").innerHTML=`<div class="nomatch">${T.no_match}</div>`; return;}
   // goodness bar per metric cell: longer = better in every column (direction from DIR), relative to the visible rows
   const COLS=[["acc",pct],["mus_all",pct],["false_ref",pct],["refusal_ok",pct],["steps",num],["tool_calls",num],["lat50",sec],["cost",usd]];
   const rng={}; COLS.forEach(([k])=>{const v=rows.map(c=>c[k]).filter(x=>x!=null); rng[k]=[Math.min(...v),Math.max(...v)];});
@@ -361,10 +384,10 @@ tbl.addEventListener("mouseover",e=>{const tr=e.target.closest("tr[data-key]");i
 tbl.addEventListener("mouseout",e=>{const tr=e.target.closest("tr[data-key]");if(tr&&!tr.contains(e.relatedTarget))highlight(tr.dataset.key,false);});
 
 function render(){
-  [...seg.children].forEach(b=>b.classList.toggle("on", +b.dataset.s===scale));
+  scale=F.scale; filters();
   document.getElementById("h-core").textContent=`${T.core_h} · ${scale} ${T.docs}`;
   const mx=k=>Math.ceil(Math.max(...D.cells.map(c=>c[k]||0))); recs(); dotplot("p-steps","steps",mx("steps")); dotplot("p-tools","tool_calls",mx("tool_calls")); dotplot("p-acc","acc"); dotplot("p-all","mus_all"); dotplot("p-fr","false_ref"); dotplot("p-ro","refusal_ok");
-  scatter("p-cost","cost",true,v=>"$"+(v<0.01?v.toFixed(3):v.toFixed(2))); scatter("p-lat","lat50",false,v=>v.toFixed(0)+"s"); tfilter(); table();
+  scatter("p-cost","cost",true,v=>"$"+(v<0.01?v.toFixed(3):v.toFixed(2))); scatter("p-lat","lat50",false,v=>v.toFixed(0)+"s"); table();
 }
 render(); addEventListener("resize", render);
 </script></body></html>
