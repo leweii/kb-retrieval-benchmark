@@ -41,12 +41,16 @@ STRINGS = {
         "value_h": "性价比", "cost_t": "准确率 vs 单题花费", "cost_s": "横轴对数刻度 · 左上角最好",
         "lat_t": "准确率 vs 耗时（p50）", "lat_s": "左上角最好 · 并发运行下测得，跨模型通道仅供参考",
         "table_h": "数据表", "k_w": 88,
+        "rounds_h": "轮询次数", "steps_t": "平均轮次（模型调用次数）",
+        "steps_s": "越少越快越省 · 单次 = 1；两轮 ≤ 3；智能体 ≤ 12 轮（用满后再强制作答 1 次）",
+        "tools_t": "平均工具调用次数", "tools_s": "搜索 / grep / 读文件等调用总数 · 智能体一轮可并行调用多个工具",
         "js": {"docs": "篇", "acc": "准确率", "full": "找全证据", "fr": "误拒", "ro": "说不知道", "per_q": "/题",
                "generated": "生成于", "judged": "已评分", "incomplete": "（数据未完整，空缺处不显示）",
                "rec_names": {"best": "质量首选", "value": "性价比", "flash": "Flash 级首选"},
                "rec_acc": "准确", "rec_ref": "拒答", "nodata": "数据不足", "no_graded": "暂无已评分数据",
                "f_model": "模型", "f_all": "全部", "running": "进行中", "core_h": "核心指标", "label_w": 150,
-               "th": ["配置", "模型", "准确率", "找全证据", "误拒", "说不知道", "p50", "$/题", "已评分"]},
+               "steps": "轮次", "tools": "工具调用", "cap": "用满步数",
+               "th": ["配置", "模型", "准确率", "找全证据", "误拒", "说不知道", "轮次", "工具调用", "p50", "$/题", "已评分"]},
     },
     "en": {
         "lang": "en", "title": "Knowledge-base retrieval benchmark", "h1": "Knowledge-base retrieval benchmark · core metrics",
@@ -60,14 +64,18 @@ STRINGS = {
         "lat_t": "Accuracy vs latency (p50)",
         "lat_s": "Top-left is best · measured under concurrent load; compare across API providers with care",
         "table_h": "Data table", "k_w": 104,
+        "rounds_h": "Rounds", "steps_t": "Average rounds (model calls)",
+        "steps_s": "Fewer is faster and cheaper · single-shot = 1; two-round ≤ 3; agent ≤ 12 rounds (+1 forced answer at the cap)",
+        "tools_t": "Average tool calls", "tools_s": "Search / grep / read calls in total · an agent may call several tools per round",
         "js": {"docs": "docs", "acc": "Accuracy", "full": "Full evidence", "fr": "False refusal", "ro": "Says not in KB",
                "per_q": "/question", "generated": "Generated", "judged": "graded",
                "incomplete": " (incomplete — missing cells are hidden)",
                "rec_names": {"best": "Best quality", "value": "Best value", "flash": "Best Flash-tier"},
                "rec_acc": "acc", "rec_ref": "refusal", "nodata": "insufficient data", "no_graded": "No graded data yet",
                "f_model": "Model", "f_all": "All", "running": "running", "core_h": "Core metrics", "label_w": 215,
-               "th": ["Configuration", "Model", "Accuracy", "Full evidence", "False refusal", "Says not in KB", "p50",
-                      "$/question", "Graded"]},
+               "steps": "rounds", "tools": "tool calls", "cap": "hit step cap",
+               "th": ["Configuration", "Model", "Accuracy", "Full evidence", "False refusal", "Says not in KB", "Rounds",
+                      "Tool calls", "p50", "$/question", "Graded"]},
     },
 }
 
@@ -112,9 +120,9 @@ def collect() -> dict:
                 cov = c["n_raw"] / TOTAL_PER_SCALE[s]
                 vals = {k: (round(c[k], 4) if isinstance(c[k], float) else c[k])
                         for k in ("acc", "acc_n", "mus_all", "false_ref", "refusal_ok", "lat50", "cost",
-                                  "n_raw", "n_judged")}
+                                  "n_raw", "n_judged", "steps", "tool_calls", "cap_hit")}
                 if cov < 0.9:  # still running: partial numbers would mislead
-                    vals.update({k: None for k in ("acc", "mus_all", "false_ref", "refusal_ok", "lat50", "cost")})
+                    vals.update({k: None for k in ("acc", "mus_all", "false_ref", "refusal_ok", "lat50", "cost", "steps", "tool_calls", "cap_hit")})
                 elif c["n_judged"] < 0.9 * c["n_raw"]:  # run done, grading not yet: hide grader-based metrics
                     vals.update({k: None for k in ("acc", "false_ref", "refusal_ok")})
                 cells.append({"scale": s, "config": label, "model": m, "coverage": round(cov, 3), **vals})
@@ -200,6 +208,11 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
  <div class="panel"><h3>{{fr_t}}</h3><div class="sub">{{fr_s}}</div><div id="p-fr"></div></div>
  <div class="panel"><h3>{{ro_t}}</h3><div class="sub">{{ro_s}}</div><div id="p-ro"></div></div>
 </div>
+<h2>{{rounds_h}}</h2>
+<div class="grid2">
+ <div class="panel"><h3>{{steps_t}}</h3><div class="sub">{{steps_s}}</div><div id="p-steps"></div></div>
+ <div class="panel"><h3>{{tools_t}}</h3><div class="sub">{{tools_s}}</div><div id="p-tools"></div></div>
+</div>
 <h2>{{value_h}}</h2>
 <div class="grid2">
  <div class="panel"><h3>{{cost_t}}</h3><div class="sub">{{cost_s}}</div><div id="p-cost"></div></div>
@@ -216,11 +229,12 @@ const COL = {haiku:"var(--s1)", sonnet:"var(--s2)", deepseek:"var(--s3)"};
 const pct = v => v==null ? "–" : Math.round(v*100)+"%";
 const usd = v => v==null ? "–" : "$"+(v<0.01 ? v.toFixed(4) : v.toFixed(3));
 const sec = v => v==null ? "–" : v.toFixed(v<10?1:0)+"s";
+const num = v => v==null ? "–" : v.toFixed(1);
 let scale = D.scales[D.scales.length-1];
 const tip = document.getElementById("tip");
 function showTip(e, html){tip.innerHTML=html;tip.style.display="block";const x=Math.min(e.clientX+14, innerWidth-300);tip.style.left=x+"px";tip.style.top=(e.clientY+14)+"px";}
 function hideTip(){tip.style.display="none";}
-function cell(c){return `<div class="t">${c.config}</div>${D.labels[c.model]} · ${c.scale} ${T.docs}<br>${T.acc} ${pct(c.acc)} (n=${c.acc_n}) · ${T.full} ${pct(c.mus_all)}<br>${T.fr} ${pct(c.false_ref)} · ${T.ro} ${pct(c.refusal_ok)}<br>p50 ${sec(c.lat50)} · ${usd(c.cost)}${T.per_q}`;}
+function cell(c){return `<div class="t">${c.config}</div>${D.labels[c.model]} · ${c.scale} ${T.docs}<br>${T.acc} ${pct(c.acc)} (n=${c.acc_n}) · ${T.full} ${pct(c.mus_all)}<br>${T.fr} ${pct(c.false_ref)} · ${T.ro} ${pct(c.refusal_ok)}<br>${T.steps} ${num(c.steps)} · ${T.tools} ${num(c.tool_calls)}${c.cap_hit!=null?` · ${T.cap} ${pct(c.cap_hit)}`:""}<br>p50 ${sec(c.lat50)} · ${usd(c.cost)}${T.per_q}`;}
 const NS="http://www.w3.org/2000/svg";
 function el(tag, attrs, parent){const n=document.createElementNS(NS,tag);for(const k in attrs)n.setAttribute(k,attrs[k]);if(parent)parent.appendChild(n);return n;}
 const keyOf = c => `${c.scale}|${c.config}|${c.model}`;
@@ -253,12 +267,12 @@ function recs(){
     return `<div class="card"><b>${s} ${T.docs}</b>${rows}</div>`;}).join("");
 }
 
-function dotplot(id, metric){
+function dotplot(id, metric, maxv){  // maxv: count axis (0..maxv); default = percentage axis
   const host=document.getElementById(id); host.innerHTML="";
   const W=host.clientWidth||520, L=T.label_w, R=14, rowH=28, TP=8, H=TP+D.configs.length*rowH+22;
   const svg=el("svg",{width:W,height:H,role:"img"},host);
-  const x=v=>L+v*(W-L-R);
-  [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:x(t),x2:x(t),y1:TP,y2:H-20,class:"gl"},svg);const tx=el("text",{x:x(t),y:H-6,"text-anchor":"middle",class:"ax"},svg);tx.textContent=Math.round(t*100)+"%";});
+  const span=maxv||1, x=v=>L+(v/span)*(W-L-R);
+  [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:x(t*span),x2:x(t*span),y1:TP,y2:H-20,class:"gl"},svg);const tx=el("text",{x:x(t*span),y:H-6,"text-anchor":"middle",class:"ax"},svg);tx.textContent=maxv?(t*span).toFixed(t*span%1?1:0):Math.round(t*100)+"%";});
   D.configs.forEach((cfg,i)=>{
     const y=TP+i*rowH+rowH/2;
     const lb=el("text",{x:L-8,y:y+4,"text-anchor":"end"},svg); lb.textContent=cfg;
@@ -306,7 +320,7 @@ function table(){
   const cs=D.cells.filter(c=>c.scale===scale&&tableModels.has(c.model));
   const rows=D.configs.flatMap(cfg=>D.models.map(m=>cs.find(c=>c.config===cfg&&c.model===m)).filter(Boolean));
   document.getElementById("tbl").innerHTML = `<table><thead><tr>${T.th.map(h=>`<th>${h}</th>`).join("")}</tr></thead><tbody>`+
-    rows.map(c=>`<tr class="m-${c.model}" data-key="${keyOf(c)}"><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td><td>${pct(c.acc)}</td><td>${pct(c.mus_all)}</td><td>${pct(c.false_ref)}</td><td>${pct(c.refusal_ok)}</td><td>${sec(c.lat50)}</td><td>${usd(c.cost)}</td><td>${c.coverage<0.9?T.running+" "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
+    rows.map(c=>`<tr class="m-${c.model}" data-key="${keyOf(c)}"><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td><td>${pct(c.acc)}</td><td>${pct(c.mus_all)}</td><td>${pct(c.false_ref)}</td><td>${pct(c.refusal_ok)}</td><td>${num(c.steps)}</td><td>${num(c.tool_calls)}</td><td>${sec(c.lat50)}</td><td>${usd(c.cost)}</td><td>${c.coverage<0.9?T.running+" "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
 }
 
 // table row hover -> highlight the same entity's points in every chart (event delegation; table is re-rendered)
@@ -317,7 +331,7 @@ tbl.addEventListener("mouseout",e=>{const tr=e.target.closest("tr[data-key]");if
 function render(){
   [...seg.children].forEach(b=>b.classList.toggle("on", +b.dataset.s===scale));
   document.getElementById("h-core").textContent=`${T.core_h} · ${scale} ${T.docs}`;
-  recs(); dotplot("p-acc","acc"); dotplot("p-all","mus_all"); dotplot("p-fr","false_ref"); dotplot("p-ro","refusal_ok");
+  const mx=k=>Math.ceil(Math.max(...D.cells.map(c=>c[k]||0))); recs(); dotplot("p-steps","steps",mx("steps")); dotplot("p-tools","tool_calls",mx("tool_calls")); dotplot("p-acc","acc"); dotplot("p-all","mus_all"); dotplot("p-fr","false_ref"); dotplot("p-ro","refusal_ok");
   scatter("p-cost","cost",true,v=>"$"+(v<0.01?v.toFixed(3):v.toFixed(2))); scatter("p-lat","lat50",false,v=>v.toFixed(0)+"s"); tfilter(); table();
 }
 render(); addEventListener("resize", render);

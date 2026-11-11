@@ -73,7 +73,9 @@ def appendix_html(lang: str, memorized: set[str], n_judged: int) -> str:
         ["误拒", "MuSiQue / BRIGHT 可回答题，回答\"知识库里没有\"的比例"],
         ["说\"不知道\"", "不可回答题中明确表示知识库没有的比例；直接给出答案算幻觉"],
         ["p50 耗时", "从提问到最终答案的端到端时间中位数，多进程并发负载下测得"],
-        ["单题花费", "模型调用 + 检索 API（embedding、R4 的查询扩展和重排）按各家实际价格计算"]])}
+        ["单题花费", "模型调用 + 检索 API（embedding、R4 的查询扩展和重排）按各家实际价格计算"],
+        ["轮次", "每道题调用被测模型的次数：单次 = 1；两轮 = 1–3；智能体每轮一次调用，最多 12 轮，用满后再强制作答 1 次（因此最多 13）。\"用满步数\"= 达到 12 轮上限的比例"],
+        ["工具调用次数", "每道题调用搜索 / grep / 列目录 / 读文件等工具的总次数（两轮模式的\"再搜一次\"算 1 次）；智能体一轮可以并行调用多个工具"]])}
 <ul>
 <li>评分：Claude Opus 5.5（不在被测模型之列），Message Batches；共 {n_judged:,} 条回答全部评分。BRIGHT 是开放问题、NoLiMa 主要考联想检索，这两组只评检索和拒答，不评答案准确率。</li>
 <li>推荐规则：只在\"说不知道 ≥ 70% 且已评分 MuSiQue ≥ 30 题\"的组合中比较；质量首选 = 准确率最高；性价比 = 与首选差距 ≤ 5 个百分点中最便宜；Flash 级 = 只在 Haiku / DeepSeek 中选。</li>
@@ -133,7 +135,9 @@ def appendix_html(lang: str, memorized: set[str], n_judged: int) -> str:
         ["False refusal", "Share of MuSiQue / BRIGHT answerable questions answered with \"not in the KB\""],
         ["Says \"not in the KB\"", "Share of unanswerable questions where the answer clearly states the KB lacks it; answering anyway counts as hallucination"],
         ["p50 latency", "Median end-to-end time from question to final answer, measured under concurrent load"],
-        ["Cost per question", "Model calls + retrieval APIs (embeddings, R4 expansion and reranking) at each provider's actual prices"]])}
+        ["Cost per question", "Model calls + retrieval APIs (embeddings, R4 expansion and reranking) at each provider's actual prices"],
+        ["Rounds", "Calls to the tested model per question: single-shot = 1; two-round = 1–3; agent = one call per round, up to 12 rounds plus one forced answer at the cap (max 13). \"Hit step cap\" = share reaching the 12-round cap"],
+        ["Tool calls", "Total search / grep / list / read calls per question (the two-round extra search counts as 1); an agent may call several tools per round"]])}
 <ul>
 <li>Grader: Claude Opus 5.5 (not a tested model), via Message Batches; all {n_judged:,} answers graded. BRIGHT is open-ended and NoLiMa mainly tests associative retrieval, so these two are graded on retrieval and refusal only.</li>
 <li>Recommendation rule: among combinations with ≥ 70% correct refusals and ≥ 30 graded MuSiQue questions — best quality = highest accuracy; best value = cheapest within 5 points of it; Flash-tier = Haiku / DeepSeek only.</li>

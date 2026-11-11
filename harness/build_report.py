@@ -126,6 +126,8 @@ class Data:
             "lat95": sorted(r["latency"] for r in raw)[int(0.95 * (len(raw) - 1))] if raw else None,
             "cost": mean([r["cost"] for r in raw]),
             "steps": mean([r["steps"] for r in raw]),
+            "tool_calls": mean([r["tool_calls"] for r in raw]),
+            "cap_hit": mean([r["steps"] >= 13 for r in raw]) if mode == "A1" else None,  # 12-step cap + forced answer
             "raw_drill": mean([bool(r.get("read_raw")) for r in raw]) if config.startswith(("R5", "R6")) else None,
         }
 
