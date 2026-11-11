@@ -79,6 +79,16 @@ svg text{fill:var(--text-secondary);font-size:11.5px}svg .ax{fill:var(--text-mut
 table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{padding:5px 8px;border-bottom:1px solid var(--grid);text-align:right;white-space:nowrap}
 th{color:var(--text-secondary);font-weight:600;position:sticky;top:44px;background:var(--surface-1)}td:first-child,th:first-child,td:nth-child(2),th:nth-child(2){text-align:left}
 td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+/* rows tinted by model; hover deepens; .hl = linked from a chart point */
+tbody tr{--rowc:var(--s1);cursor:default}
+tbody tr.m-haiku{--rowc:var(--s1)}tbody tr.m-sonnet{--rowc:var(--s2)}tbody tr.m-deepseek{--rowc:var(--s3)}
+tbody td{background:color-mix(in srgb,var(--rowc) 7%,transparent);transition:background-color .12s}
+tbody tr:hover td{background:color-mix(in srgb,var(--rowc) 17%,transparent)}
+tbody tr.hl td{background:color-mix(in srgb,var(--rowc) 28%,transparent)}
+tbody tr.hl td:first-child,tbody tr:hover td:first-child{box-shadow:inset 3px 0 0 var(--rowc)}
+/* chart points: linked highlight from table rows / other charts */
+.pt{cursor:pointer}.pt .mark{transition:r .12s,stroke .12s}
+.pt.hl .mark{r:8px;stroke:var(--text-primary);stroke-width:2px}
 @media (max-width:900px){.grid2,.recs{grid-template-columns:1fr}}
 </style></head>
 <body><div class="viz-root">
@@ -114,6 +124,21 @@ function hideTip(){tip.style.display="none";}
 function cell(c){return `<div class="t">${c.config}</div>${D.labels[c.model]} · ${c.scale} 篇<br>准确率 ${pct(c.acc)} (n=${c.acc_n}) · 找全证据 ${pct(c.mus_all)}<br>误拒 ${pct(c.false_ref)} · 说不知道 ${pct(c.refusal_ok)}<br>p50 ${sec(c.lat50)} · ${usd(c.cost)}/题`;}
 const NS="http://www.w3.org/2000/svg";
 function el(tag, attrs, parent){const n=document.createElementNS(NS,tag);for(const k in attrs)n.setAttribute(k,attrs[k]);if(parent)parent.appendChild(n);return n;}
+const keyOf = c => `${c.scale}|${c.config}|${c.model}`;
+// linked highlight: the table row and every chart point of one (scale, config, model) light up together
+function highlight(key, on){
+  document.querySelectorAll(`[data-key="${CSS.escape(key)}"]`).forEach(n=>n.classList.toggle("hl", on));
+}
+// one chart point: invisible hit target + visible mark; hover = tooltip + linked highlight, click = jump to its row
+function point(svg, c, cx, cy){
+  const g=el("g",{class:"pt","data-key":keyOf(c)},svg);
+  el("circle",{cx,cy,r:12,fill:"transparent"},g);
+  el("circle",{cx,cy,r:5,class:"mark",fill:COL[c.model],stroke:"var(--surface-1)","stroke-width":2},g);
+  g.addEventListener("mouseenter",()=>highlight(keyOf(c),true));
+  g.addEventListener("mousemove",e=>showTip(e,cell(c)));
+  g.addEventListener("mouseleave",()=>{hideTip();highlight(keyOf(c),false);});
+  g.addEventListener("click",()=>{const row=document.querySelector(`tr[data-key="${CSS.escape(keyOf(c))}"]`);if(row)row.scrollIntoView({behavior:"smooth",block:"center"});});
+}
 
 document.getElementById("meta").textContent =
   `生成于 ${D.generated} · 已评分 ${D.judged} / ${D.expected} 条` + (D.judged < D.expected*0.98 ? "（数据未完整，空缺处不显示）" : "");
@@ -140,13 +165,8 @@ function dotplot(id, metric){
     const lb=el("text",{x:L-8,y:y+4,"text-anchor":"end"},svg); lb.textContent=cfg;
     const cs=D.cells.filter(c=>c.scale===scale&&c.config===cfg&&c[metric]!=null);
     if(cs.length>1){const xs=cs.map(c=>x(c[metric]));el("line",{x1:Math.min(...xs),x2:Math.max(...xs),y1:y,y2:y,stroke:"var(--grid)","stroke-width":2},svg);}
-    cs.forEach(c=>{
-      const g=el("g",{},svg);
-      const yy=y+(D.models.indexOf(c.model)-1)*6;  // per-model vertical offset: identical values (A0 recall) stay visible
-      el("circle",{cx:x(c[metric]),cy:yy,r:12,fill:"transparent"},g);
-      el("circle",{cx:x(c[metric]),cy:yy,r:5,fill:COL[c.model],stroke:"var(--surface-1)","stroke-width":2},g);
-      g.addEventListener("mousemove",e=>showTip(e,cell(c)));g.addEventListener("mouseleave",hideTip);
-    });
+    // per-model vertical offset: identical values (single-shot recall is model-independent) stay visible
+    cs.forEach(c=>point(svg, c, x(c[metric]), y+(D.models.indexOf(c.model)-1)*6));
   });
 }
 
@@ -163,20 +183,20 @@ function scatter(id, xkey, logx, xfmt){
   [0,.25,.5,.75,1].forEach(t=>{el("line",{x1:L,x2:W-R,y1:y(t),y2:y(t),class:"gl"},svg);const tx=el("text",{x:L-6,y:y(t)+4,"text-anchor":"end",class:"ax"},svg);tx.textContent=Math.round(t*100)+"%";});
   const ticks=[]; if(logx){for(let p=Math.ceil(lo);p<=Math.floor(hi);p++)ticks.push(p);} else {const st=(hi-lo)/4;for(let i=0;i<=4;i++)ticks.push(lo+st*i);}
   ticks.forEach(t=>{const tx=el("text",{x:x(t),y:H-12,"text-anchor":"middle",class:"ax"},svg);tx.textContent=xfmt(logx?Math.pow(10,t):t);});
-  cs.forEach(c=>{
-    const g=el("g",{},svg);
-    el("circle",{cx:x(xv(c)),cy:y(c.acc),r:12,fill:"transparent"},g);
-    el("circle",{cx:x(xv(c)),cy:y(c.acc),r:5,fill:COL[c.model],stroke:"var(--surface-1)","stroke-width":2},g);
-    g.addEventListener("mousemove",e=>showTip(e,cell(c)));g.addEventListener("mouseleave",hideTip);
-  });
+  cs.forEach(c=>point(svg, c, x(xv(c)), y(c.acc)));
 }
 
 function table(){
   const cs=D.cells.filter(c=>c.scale===scale);
   const rows=D.configs.flatMap(cfg=>D.models.map(m=>cs.find(c=>c.config===cfg&&c.model===m)).filter(Boolean));
   document.getElementById("tbl").innerHTML = `<table><thead><tr><th>配置</th><th>模型</th><th>准确率</th><th>找全证据</th><th>误拒</th><th>说不知道</th><th>p50</th><th>$/题</th><th>已评分</th></tr></thead><tbody>`+
-    rows.map(c=>`<tr><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td><td>${pct(c.acc)}</td><td>${pct(c.mus_all)}</td><td>${pct(c.false_ref)}</td><td>${pct(c.refusal_ok)}</td><td>${sec(c.lat50)}</td><td>${usd(c.cost)}</td><td>${c.coverage<0.9?"进行中 "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
+    rows.map(c=>`<tr class="m-${c.model}" data-key="${keyOf(c)}"><td>${c.config}</td><td><span class="dot" style="background:${COL[c.model]}"></span>${D.labels[c.model]}</td><td>${pct(c.acc)}</td><td>${pct(c.mus_all)}</td><td>${pct(c.false_ref)}</td><td>${pct(c.refusal_ok)}</td><td>${sec(c.lat50)}</td><td>${usd(c.cost)}</td><td>${c.coverage<0.9?"进行中 "+Math.round(c.coverage*100)+"%":c.n_judged+"/"+c.n_raw}</td></tr>`).join("")+`</tbody></table>`;
 }
+
+// table row hover -> highlight the same entity's points in every chart (event delegation; table is re-rendered)
+const tbl=document.getElementById("tbl");
+tbl.addEventListener("mouseover",e=>{const tr=e.target.closest("tr[data-key]");if(tr&&!tr.contains(e.relatedTarget))highlight(tr.dataset.key,true);});
+tbl.addEventListener("mouseout",e=>{const tr=e.target.closest("tr[data-key]");if(tr&&!tr.contains(e.relatedTarget))highlight(tr.dataset.key,false);});
 
 function render(){
   [...seg.children].forEach(b=>b.classList.toggle("on", +b.dataset.s===scale));
