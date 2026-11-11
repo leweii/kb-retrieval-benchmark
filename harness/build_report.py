@@ -80,6 +80,10 @@ class Data:
                 self.judged.update(load(RES / f"p2_{m}{suf}.judged.jsonl", cfgs))
                 if suf == "":  # first-batch judged records may live in a filtered *_main file
                     self.judged.update(load(RES / f"p2_{m}_main.judged.jsonl", cfgs))
+        # judged records carry every raw field: without the raw run logs (e.g. only data/results/p2_judged.tar.gz
+        # unpacked into results/), fall back to them
+        for k, r in self.judged.items():
+            self.raw.setdefault(k, r)
         # keep only questions that are live at that scale
         ok = lambda k: k[0] in self.qs and not self.qs[k[0]]["excluded"] and k[4] in self.qs[k[0]].get("valid_scales", self.qs[k[0]]["scales"])  # noqa: E731
         self.raw = {k: v for k, v in self.raw.items() if ok(k)}
