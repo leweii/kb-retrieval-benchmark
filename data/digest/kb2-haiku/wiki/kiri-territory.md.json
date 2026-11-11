@@ -1,0 +1,50 @@
+{
+ "summary": "The note is a short encyclopedia-style entry describing Kiri Territory, an administrative region in the Democratic Republic of the Congo. It places the territory within Mai-Ndombe District of Bandundu Province and names Kiri as its headquarters town.",
+ "one_line": "Kiri Territory is an administrative region in Mai-Ndombe District, Bandundu Province, Democratic Republic of the Congo, headquartered in Kiri.",
+ "key_facts": [
+  "Kiri Territory is an administrative region.",
+  "Kiri Territory is located in the Mai-Ndombe District.",
+  "Mai-Ndombe District is part of Bandundu Province.",
+  "Kiri Territory is located in the Democratic Republic of the Congo.",
+  "The headquarters of Kiri Territory is the town of Kiri."
+ ],
+ "entities": [
+  {
+   "name": "Kiri Territory",
+   "type": "place",
+   "role": "administrative region in the Mai-Ndombe District of Bandundu Province, Democratic Republic of the Congo"
+  },
+  {
+   "name": "Mai-Ndombe District",
+   "type": "place",
+   "role": "district containing Kiri Territory within Bandundu Province"
+  },
+  {
+   "name": "Bandundu Province",
+   "type": "place",
+   "role": "province containing Mai-Ndombe District"
+  },
+  {
+   "name": "Democratic Republic of the Congo",
+   "type": "place",
+   "role": "country in which Kiri Territory is located"
+  },
+  {
+   "name": "Kiri",
+   "type": "place",
+   "role": "town serving as the headquarters of Kiri Territory"
+  }
+ ],
+ "tags": [
+  "democratic republic of the congo",
+  "administrative regions",
+  "bandundu province",
+  "mai-ndombe district",
+  "kiri"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1046,
+  "output_tokens": 542
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "summary": "The note is the Wikipedia article on the likelihood-ratio test, a statistical method that compares the goodness of fit of two competing models by the ratio of their likelihoods, with a constrained model (the null hypothesis) against an unconstrained one. It explains the test statistic λLR = −2 ln(sup over Θ0 of L / sup over Θ of L), notes that the test is also called Wilks test and is the oldest of the three classical tests alongside the Lagrange multiplier and Wald tests, and covers the simple-hypothesis case justified by the Neyman–Pearson lemma. It also gives a worked normal-mean example yielding a t-statistic relation and states Wilks' theorem, under which the statistic is asymptotically chi-squared with degrees of freedom equal to the difference in dimensionality of the parameter spaces.",
+ "one_line": "Wikipedia article on the likelihood-ratio test, a statistical method comparing goodness of fit of nested models via their likelihood ratio, asymptotically chi-squared under Wilks' theorem.",
+ "key_facts": [
+  "The likelihood-ratio test assesses the goodness of fit of two competing statistical models, one found by maximization over the entire parameter space and another found after imposing a constraint.",
+  "The likelihood-ratio test is also known as Wilks test and is the oldest of the three classical approaches to hypothesis testing, together with the Lagrange multiplier test and the Wald test.",
+  "The likelihood ratio test statistic is λLR = −2 ln[sup over θ in Θ0 of L(θ) / sup over θ in Θ of L(θ)].",
+  "As all likelihoods are positive and the constrained maximum cannot exceed the unconstrained maximum, the likelihood ratio is bounded between zero and one.",
+  "The Neyman–Pearson lemma justifies the likelihood-ratio test for comparing two models with no unknown parameters and shows the test has the highest power among all competitors.",
+  "The likelihood-ratio test requires that the models be nested, meaning the more complex model can be transformed into the simpler model by imposing constraints on its parameters.",
+  "Under Wilks' theorem, assuming the null hypothesis is true, λLR converges asymptotically to a chi-squared distribution as sample size approaches infinity, if the null lies strictly within the interior of the parameter space.",
+  "The chi-squared degrees of freedom equal the difference in dimensionality of the parameter spaces Θ and Θ0.",
+  "The finite-sample distributions of likelihood-ratio statistics are generally unknown.",
+  "Many common test statistics, including the Z-test, F-test, G-test, and Pearson's chi-squared test, are tests for nested models and can be phrased as log-likelihood ratios or approximations thereof.",
+  "In the simple-vs-simple case, the likelihood ratio Λ(x) = L(θ0 | x) / L(θ1 | x) is small when the alternative model is better than the null model.",
+  "In the normal-population example with unknown mean and standard deviation, the likelihood ratio is λ = (1 + t²/(n−1))^(−n/2), where t is the t-statistic with n−1 degrees of freedom.",
+  "The example is adapted and abridged from Stuart, Ord & Arnold (1999, §22.2).",
+  "The article cites Neyman and Pearson (1933) for the problem of the most efficient tests of statistical hypotheses, published in Philosophical Transactions of the Royal Society of London A."
+ ],
+ "entities": [
+  {
+   "name": "Wilks' theorem",
+   "type": "other",
+   "role": "result stating that the likelihood-ratio statistic is asymptotically chi-squared distributed under the null hypothesis"
+  },
+  {
+   "name": "Neyman–Pearson lemma",
+   "type": "other",
+   "role": "lemma justifying the likelihood-ratio test as the most powerful test for simple hypotheses"
+  },
+  {
+   "name": "Samuel S. Wilks",
+   "type": "person",
+   "role": "author of the fundamental result on the asymptotic chi-squared distribution of the likelihood-ratio statistic"
+  },
+  {
+   "name": "Lagrange multiplier test",
+   "type": "program",
+   "role": "one of the three classical hypothesis testing approaches, asymptotically equivalent to the likelihood-ratio test"
+  },
+  {
+   "name": "Wald test",
+   "type": "program",
+   "role": "one of the three classical hypothesis testing approaches, asymptotically equivalent to the likelihood-ratio test"
+  },
+  {
+   "name": "Gary King",
+   "type": "person",
+   "role": "author of Unifying Political Methodology: The Likelihood Theory of Statistical Inference (1989), cited as a reference"
+  },
+  {
+   "name": "Jerzy Neyman",
+   "type": "person",
+   "role": "co-author with Egon Pearson of the 1933 paper on the most efficient tests of statistical hypotheses"
+  },
+  {
+   "name": "Egon Pearson",
+   "type": "person",
+   "role": "co-author with Jerzy Neyman of the 1933 paper on the most efficient tests of statistical hypotheses"
+  },
+  {
+   "name": "Stuart, Ord & Arnold (1999)",
+   "type": "other",
+   "role": "source adapted and abridged for the normal-mean example (§22.2)"
+  },
+  {
+   "name": "G. S. Maddala",
+   "type": "person",
+   "role": "author of Introduction to Econometrics, cited as a reference"
+  },
+  {
+   "name": "Philosophical Transactions of the Royal Society of London A",
+   "type": "organization",
+   "role": "journal in which Neyman and Pearson's 1933 paper was published"
+  }
+ ],
+ "tags": [
+  "statistics",
+  "hypothesis testing",
+  "likelihood ratio",
+  "wilks theorem",
+  "goodness of fit",
+  "statistical inference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17463,
+  "output_tokens": 1851
+ }
+}

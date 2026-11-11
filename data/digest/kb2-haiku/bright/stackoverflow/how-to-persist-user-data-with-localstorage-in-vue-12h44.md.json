@@ -1,0 +1,72 @@
+{
+ "summary": "A DEV Community tutorial by Alexander Opalic on persisting user settings such as a dark mode preference with LocalStorage in Vue. It shows a basic component that saves and loads a darkMode value via localStorage.setItem and JSON parsing, then lists problems with that approach (type safety, decoupling, error handling, synchronization, serialization). It proposes a typed LocalStorageHandler utility class and a useDarkMode composable as solutions. A reader comment notes the author uses Pinia on Vue 3 instead.",
+ "one_line": "Tutorial on using LocalStorage in Vue for persisting dark mode and other user settings, with typed utility and composable patterns.",
+ "key_facts": [
+  "LocalStorage is a web storage API that stores data in the browser indefinitely and the data remains across browser sessions.",
+  "LocalStorage uses a key-value store model where both the key and the value are strings.",
+  "The LocalStorage methods covered are setItem, getItem, removeItem and clear.",
+  "The example dark mode component stores the preference under the key 'darkMode' using JSON.stringify.",
+  "The example component applies CSS custom properties --background-color and --text-color to document.documentElement.",
+  "The article lists five challenges: type safety and key validation, decoupling from LocalStorage, error handling, synchronization across components, and serialization constraints.",
+  "The article suggests a types file defining LocalStorageValues with darkMode as boolean, userSettings as UserSettings, and lastLogin as Date.",
+  "The LocalStorageHandler utility class exposes static getItem, setItem, removeItem and clear methods wrapped in try/catch blocks.",
+  "The useDarkMode composable creates a ref from LocalStorageHandler.getItem('darkMode') and uses a watch to call setItem when the value changes.",
+  "The article was posted on Apr 21 by Alexander Opalic and tagged webdev, vue, beginners and tutorial.",
+  "A top comment by richardev says 'Nice article. I use Pinia on Vue 3 tho'.'"
+ ],
+ "entities": [
+  {
+   "name": "Alexander Opalic",
+   "type": "person",
+   "role": "Author of the DEV Community article, a full stack software engineer working with node and Vue"
+  },
+  {
+   "name": "LocalStorage",
+   "type": "product",
+   "role": "Browser web storage API used to persist dark mode and user settings"
+  },
+  {
+   "name": "LocalStorageHandler",
+   "type": "product",
+   "role": "Utility class proposed to manage all LocalStorage operations with type-safe get, set, remove and clear methods"
+  },
+  {
+   "name": "useDarkMode",
+   "type": "program",
+   "role": "Vue composable proposed to encapsulate dark mode state persisted to LocalStorage"
+  },
+  {
+   "name": "DEV Community",
+   "type": "organization",
+   "role": "Website on which the article was published"
+  },
+  {
+   "name": "richardev",
+   "type": "person",
+   "role": "Commenter who noted they use Pinia on Vue 3 instead"
+  },
+  {
+   "name": "Vue",
+   "type": "product",
+   "role": "JavaScript framework in which the dark mode component is built"
+  },
+  {
+   "name": "Pinia",
+   "type": "product",
+   "role": "State management library mentioned by commenter richardev as used on Vue 3"
+  }
+ ],
+ "tags": [
+  "vue",
+  "localstorage",
+  "typescript",
+  "dark-mode",
+  "state-management",
+  "web-storage"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5793,
+  "output_tokens": 1070
+ }
+}

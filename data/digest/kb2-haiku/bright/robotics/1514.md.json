@@ -1,0 +1,105 @@
+{
+ "summary": "A GitHub issue (ros2/ros2 #1514) opened by CraigBuilds on January 26, 2024, requesting a supported way to deploy ROS2 applications as standalone, self-contained packages on Windows, analogous to Snap on Linux. The author describes using pyinstaller and a virtual machine workaround, and rejects Docker due to cost and usability for non-developers. Maintainers and commenters discuss Robostack, colcon-bundle, msix_ros, and whether ROS2 is suitable for interoperating with closed vendor software given RMW and distro compatibility concerns.",
+ "one_line": "GitHub issue requesting a Snap-like standalone deployment method for ROS2 applications on Windows, with discussion of pyinstaller, Robostack, and RMW interoperability.",
+ "key_facts": [
+  "GitHub issue #1514 in the ros2/ros2 repository was opened by CraigBuilds on Jan 26, 2024 and had 13 comments.",
+  "CraigBuilds stated that deploying a ROS2 application as a standalone package on Windows is difficult and asked for a Snap equivalent for Windows.",
+  "The current workaround described by CraigBuilds was to send a whole virtual machine, or a physical computer, with the software installed to the user.",
+  "CraigBuilds reported that pyinstaller successfully ran rclpy.init() on the user's computer but failed during Node creation because it could not find the licence for RTI Connext.",
+  "CraigBuilds rejected Docker for Windows partly because Docker Desktop requires a paid subscription for companies with more than 250 employees.",
+  "CraigBuilds said the target users for deployment include robot operators such as a welding and cutting engineer or a crane operator, who should not need to know the software uses ROS2.",
+  "clalancette, a Contributor, said installing ROS 2 on Windows is very long, tedious, and error-prone, and suggested switching to Robostack as the most promising option.",
+  "clalancette noted that only about 30-50% of packages currently build on Robostack, and that Robostack supports only Humble at the moment.",
+  "mjcarroll suggested extending colcon-bundle, which he believed really only works on Linux, to other operating systems for runtime deployment.",
+  "CraigBuilds pointed to the msix_ros project (github.com/ms-iot/msix_ros) as another potential solution for deploying ROS2 on Windows.",
+  "traversaro argued that different ROS 2 versions or RMW implementations may not communicate appropriately, and that protocols like MQTT or OPC UA are typically used for integrating closed components.",
+  "gavanderhoorn wrote that it is too easy for ROS 2 nodes to embed implicit assumptions about a particular RMW, making a switch to another RMW non-trivial.",
+  "CraigBuilds stated that his team's standard is ROS2-Given-RTI-Given-Humble and that they plan to maintain a fork of Humble and the RTI RMW for long-term maintenance of about 50 years.",
+  "fujitatomoya questioned whether the Docker approach could start a ROS 2 application with a single command line, using the example docker run --rm ros:humble ros2 topic pub."
+ ],
+ "entities": [
+  {
+   "name": "ros2/ros2",
+   "type": "product",
+   "role": "GitHub repository where issue #1514 was filed"
+  },
+  {
+   "name": "CraigBuilds",
+   "type": "person",
+   "role": "issue author who requested a Snap-like Windows deployment method for ROS2"
+  },
+  {
+   "name": "fujitatomoya",
+   "type": "person",
+   "role": "commenter who questioned the need to avoid Docker and asked why users could not run it with one command"
+  },
+  {
+   "name": "clalancette",
+   "type": "person",
+   "role": "Contributor who acknowledged Windows installation difficulty and proposed Robostack"
+  },
+  {
+   "name": "mjcarroll",
+   "type": "person",
+   "role": "Member who suggested extending colcon-bundle to other operating systems"
+  },
+  {
+   "name": "traversaro",
+   "type": "person",
+   "role": "commenter who argued ROS 2 is not appropriate for interoperating with closed vendor software"
+  },
+  {
+   "name": "gavanderhoorn",
+   "type": "person",
+   "role": "commenter who noted nodes often embed implicit assumptions about a specific RMW"
+  },
+  {
+   "name": "Robostack",
+   "type": "program",
+   "role": "suggested package-distribution approach for providing the ROS ecosystem on Windows"
+  },
+  {
+   "name": "colcon-bundle",
+   "type": "program",
+   "role": "existing tool that mjcarroll suggested extending for runtime deployment bundles"
+  },
+  {
+   "name": "msix_ros",
+   "type": "program",
+   "role": "project noted by CraigBuilds as a potential solution for deploying ROS2 on Windows"
+  },
+  {
+   "name": "pyinstaller",
+   "type": "program",
+   "role": "tool CraigBuilds used to bundle a Python ROS2 node into a folder for distribution"
+  },
+  {
+   "name": "RTI Connext",
+   "type": "product",
+   "role": "DDS middleware whose licence was not found on the user's computer when running the bundled node"
+  },
+  {
+   "name": "Docker Desktop",
+   "type": "product",
+   "role": "software that CraigBuilds said requires a paid subscription for companies with more than 250 employees"
+  },
+  {
+   "name": "ROS Industrial",
+   "type": "organization",
+   "role": "organization whose representatives participated in a course CraigBuilds's team attended to assess ROS2 TRL"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "windows deployment",
+  "packaging",
+  "pyinstaller",
+  "rmw",
+  "robostack"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13121,
+  "output_tokens": 1782
+ }
+}

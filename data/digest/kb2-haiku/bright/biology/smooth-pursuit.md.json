@@ -1,0 +1,126 @@
+{
+ "summary": "The note explains smooth pursuit, the voluntary eye movement that keeps the eyes fixated on a moving object, and contrasts it with saccades, the vestibulo-ocular reflex, and related tracking movements. It covers how pursuit is measured (search coils and eye trackers), the neural circuitry involved (cortex, superior colliculus, pons, cerebellum), and its two stages of open-loop and closed-loop pursuit. It also reviews pursuit deficits associated with schizophrenia, autism, trauma, alcohol and drugs, and very preterm birth.",
+ "one_line": "Smooth pursuit is the voluntary eye movement that keeps gaze fixed on a moving target, its measurement, neural basis, and related deficits.",
+ "key_facts": [
+  "Smooth pursuit is a type of eye movement in which the eyes remain fixated on a moving object, and it is one of two ways visual animals can voluntarily shift gaze, the other being saccadic eye movements.",
+  "The vestibulo-ocular reflex occurs only during head movements and serves to stabilize gaze on a stationary object, which distinguishes it from smooth pursuit.",
+  "The pursuit of targets moving at velocities greater than 30°/s tends to require catch-up saccades.",
+  "Most humans and primates are better at horizontal than vertical smooth pursuit, and most humans are better at downward than upward pursuit.",
+  "The search coil technique is most common in primate research and is extremely accurate, while the eye tracker is non-invasive and often used in human psychophysics.",
+  "Saccadic eye movements differ from the smooth pursuit component by their very high initial acceleration and deceleration, and peak velocity.",
+  "The pontine nuclei project to the cerebellum, specifically the vermis and the paraflocculus, and these neurons code for target velocity.",
+  "Open-loop pursuit is the visual system's first response to a moving object and typically lasts ~100 ms, making this stage ballistic.",
+  "Pursuit eye movements are initiated within 90-150 ms, while typical latencies for voluntary saccades are in the order of 200-250 ms.",
+  "The ocular following response was discovered in 1986 by Miles, Kawano, and Optican and is a transient ocular tracking response to full-field motion.",
+  "Performing smooth pursuit without a moving visual stimulus is difficult and typically results in a series of saccades.",
+  "Lack of Smooth Pursuit is a scorable clue on the NHTSA's standardized field sobriety tests and may be used with others to determine impairment by alcohol and/or drugs.",
+  "People with schizophrenia tend to have trouble pursuing very fast targets, and the greatest deficits occur when tracking objects of predictable velocity that begin moving at a predictable time.",
+  "Children with autism show reduced velocity of smooth pursuit compared to controls during ongoing tracking, although pursuit latency is similar to controls, and the deficit appears only after middle adolescence.",
+  "Children born very preterm show smooth pursuit deficits compared to paired controls born at full term, and this delay has been linked to later neurodevelopment in toddlerhood."
+ ],
+ "entities": [
+  {
+   "name": "Smooth pursuit",
+   "type": "other",
+   "role": "eye movement in which the eyes remain fixated on a moving object, the subject of the note"
+  },
+  {
+   "name": "Saccadic eye movements",
+   "type": "other",
+   "role": "other way visual animals voluntarily shift gaze, with very high initial acceleration and peak velocity"
+  },
+  {
+   "name": "Vestibulo-ocular reflex",
+   "type": "other",
+   "role": "reflex occurring during head movements that stabilizes gaze on a stationary object"
+  },
+  {
+   "name": "Optokinetic nystagmus",
+   "type": "other",
+   "role": "tracking eye movement whose slow phase is hard to separate clearly from smooth pursuit"
+  },
+  {
+   "name": "Ocular following response",
+   "type": "other",
+   "role": "transient ocular tracking response to full-field motion, discovered in 1986 by Miles, Kawano, and Optican"
+  },
+  {
+   "name": "Miles, Kawano, and Optican",
+   "type": "person",
+   "role": "researchers who discovered the ocular following response in 1986"
+  },
+  {
+   "name": "Lateral geniculate nucleus",
+   "type": "other",
+   "role": "brain structure through which retinal signals ascend to primary visual cortex"
+  },
+  {
+   "name": "Primary visual cortex",
+   "type": "other",
+   "role": "cortical area that receives signals from the lateral geniculate nucleus and sends target information to middle temporal visual cortex"
+  },
+  {
+   "name": "Middle temporal visual cortex",
+   "type": "other",
+   "role": "area that responds very selectively to directions of movement and provides the motion signal necessary for pursuit"
+  },
+  {
+   "name": "Frontal pursuit area",
+   "type": "other",
+   "role": "frontal lobe region that responds to pursuit vectors and can be electrically stimulated to induce pursuit"
+  },
+  {
+   "name": "Superior colliculus",
+   "type": "other",
+   "role": "structure that responds during smooth pursuit and helps provide the go-signal and select the target"
+  },
+  {
+   "name": "Dorsolateral pontine nuclei",
+   "type": "other",
+   "role": "pontine nucleus receiving the go-signal from cortex and superior colliculus"
+  },
+  {
+   "name": "Nucleus reticularis tegmenti pontis",
+   "type": "other",
+   "role": "pontine nucleus receiving the go-signal from cortex and superior colliculus"
+  },
+  {
+   "name": "Cerebellum",
+   "type": "other",
+   "role": "structure, especially the vestibulo-cerebellum, involved in online correction of pursuit velocity and projecting to optic motoneurons"
+  },
+  {
+   "name": "Frontal eye field",
+   "type": "other",
+   "role": "area whose reduced activation correlates with pursuit impairment in schizophrenia"
+  },
+  {
+   "name": "NHTSA standardized field sobriety tests",
+   "type": "program",
+   "role": "tests on which lack of smooth pursuit is a scorable clue for impairment"
+  },
+  {
+   "name": "Phencyclidine",
+   "type": "other",
+   "role": "dissociative anesthetic cited as a drug causing lack of smooth pursuit"
+  },
+  {
+   "name": "Ketamine",
+   "type": "other",
+   "role": "dissociative anesthetic cited as a drug causing lack of smooth pursuit"
+  }
+ ],
+ "tags": [
+  "vision",
+  "eye movement",
+  "neuroscience",
+  "oculomotor",
+  "pursuit",
+  "clinical deficits"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 4259,
+  "output_tokens": 2073
+ }
+}

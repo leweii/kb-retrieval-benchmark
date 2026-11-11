@@ -1,0 +1,41 @@
+{
+ "summary": "The note describes Jolly Jack's Lost Mine, a legend about a hidden placer mine said to lie in British Columbia's Boundary Country. Local historians and various magazines have written about it, and many people have searched for the mine. The note presents it as a local legend of that region.",
+ "one_line": "A local legend of a hidden placer mine supposedly located in British Columbia's Boundary Country.",
+ "key_facts": [
+  "Jolly Jack's Lost Mine is a legend about a hidden placer mine.",
+  "The hidden placer mine is supposed to be located in the Boundary Country of British Columbia.",
+  "The mine has been written about by local historians.",
+  "The mine has been written about by various magazines.",
+  "Many people have searched for the lost placer mine of Jolly Jack.",
+  "Jolly Jack's Lost Mine is a local legend in the Boundary Country."
+ ],
+ "entities": [
+  {
+   "name": "Jolly Jack's Lost Mine",
+   "type": "event",
+   "role": "legend about a hidden placer mine supposedly located in the Boundary Country of British Columbia"
+  },
+  {
+   "name": "Boundary Country",
+   "type": "place",
+   "role": "region of British Columbia where the lost placer mine is supposed to be located"
+  },
+  {
+   "name": "British Columbia",
+   "type": "place",
+   "role": "Canadian province containing the Boundary Country"
+  }
+ ],
+ "tags": [
+  "legend",
+  "lost mine",
+  "british columbia",
+  "placer mining",
+  "folklore"
+ ],
+ "category": "history & politics",
+ "usage": {
+  "input_tokens": 1101,
+  "output_tokens": 464
+ }
+}

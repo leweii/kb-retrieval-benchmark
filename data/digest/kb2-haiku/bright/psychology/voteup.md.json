@@ -1,0 +1,90 @@
+{
+ "summary": "This is a clipped Mathematics Stack Exchange help page explaining the 'vote up' privilege, which is awarded at 15 reputation and lets users indicate useful questions, answers and comments. It describes when to vote up and when not to (no voting for specific people), how to vote and undo votes, the reputation and daily vote limits, and the badges tied to voting. Navigation, sign-up prompts and footer boilerplate were ignored.",
+ "one_line": "Mathematics Stack Exchange help page explaining the vote up privilege, its rules, daily vote limits, reputation effects and voting badges.",
+ "key_facts": [
+  "The vote up privilege is awarded at 15 reputation on Mathematics Stack Exchange.",
+  "Voting up indicates which questions and answers are most useful and appropriate, and comments may also be voted up.",
+  "Users have a limited number of votes per day and are advised to use them wisely.",
+  "Posts should be voted on based on their content rather than the person who wrote them.",
+  "Repeatedly upvoting several of a user's posts to say thanks for one great answer should be avoided.",
+  "Voting patterns that appear targeted are likely to be reversed, causing a loss of reputation earned from these votes.",
+  "Undoing a vote is done by clicking the same button used to vote, and votes can only be changed for a short period of time.",
+  "By default, answers are sorted by number of votes, except the accepted answer, which appears first unless the asker wrote it.",
+  "An upvote on a question gives the asker +10 reputation.",
+  "An upvote on an answer gives the answerer +10 reputation.",
+  "Users can vote on posts 30 times per UTC day, plus 10 more times on questions only.",
+  "Upvotes on comments award the comment author no reputation, and comment votes are limited to 30 per UTC day, separate from post upvotes.",
+  "The bronze Supporter badge is earned with a first upvote, and the bronze Suffrage badge for using 30 votes in a day.",
+  "The silver Civic Duty badge is earned by voting 300 or more times, and the gold Electorate badge by voting on 600 questions with 25% or more of total votes on questions."
+ ],
+ "entities": [
+  {
+   "name": "Mathematics Stack Exchange",
+   "type": "program",
+   "role": "Q&A community site where this vote up help page appears"
+  },
+  {
+   "name": "Stack Exchange Network",
+   "type": "organization",
+   "role": "network of 183 Q&A communities of which Mathematics Stack Exchange is part"
+  },
+  {
+   "name": "Stack Overflow",
+   "type": "program",
+   "role": "largest Stack Exchange community, for developers, linked from the network description"
+  },
+  {
+   "name": "Stack Exchange Inc",
+   "type": "organization",
+   "role": "company that holds the site design and logo copyright"
+  },
+  {
+   "name": "Supporter",
+   "type": "product",
+   "role": "bronze badge earned with a first upvote"
+  },
+  {
+   "name": "Suffrage",
+   "type": "product",
+   "role": "bronze badge earned by using 30 votes in a day"
+  },
+  {
+   "name": "Vox Populi",
+   "type": "product",
+   "role": "bronze badge earned by using the maximum 40 votes in a day"
+  },
+  {
+   "name": "Civic Duty",
+   "type": "product",
+   "role": "silver badge earned by voting 300 or more times"
+  },
+  {
+   "name": "Sportsmanship",
+   "type": "product",
+   "role": "silver badge earned by upvoting 100 competing answers"
+  },
+  {
+   "name": "Electorate",
+   "type": "product",
+   "role": "gold badge earned by voting on 600 questions with 25% or more of votes on questions"
+  },
+  {
+   "name": "vote up privilege",
+   "type": "product",
+   "role": "moderation privilege awarded at 15 reputation to indicate useful questions and answers"
+  }
+ ],
+ "tags": [
+  "stack exchange",
+  "voting",
+  "reputation",
+  "online community",
+  "badges",
+  "mathematics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4445,
+  "output_tokens": 1207
+ }
+}

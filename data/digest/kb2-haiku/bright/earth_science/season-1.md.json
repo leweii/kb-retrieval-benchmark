@@ -1,0 +1,31 @@
+{
+ "summary": "The note titled \"season 1\" (source: bright, domain: earth_science) contains no substantive content about a TV season. It is a clipped IMDb-style web page made of tracking scripts, Amazon Copilot loader code, and a site navigation menu with Movies, TV Shows and Watch categories. The title and metadata are the only topical signals, and the domain label \"earth_science\" does not match the page's apparent film and television subject.",
+ "one_line": "A clipped IMDb page titled \"season 1\" that holds only site navigation and scripts, with no real episode or season content.",
+ "key_facts": [
+  "The note is titled \" season 1\" and its listed source is \"bright\".",
+  "The note's metadata lists the domain as \"earth_science\", which does not match the page's film and television navigation.",
+  "The clipped page includes an IMDb header with a navigation drawer labeled \"Menu\".",
+  "The navigation drawer has a Movies category with links such as Release Calendar, Top 250 Movies, Most Popular Movies and Top Box Office.",
+  "The navigation drawer has a TV Shows category with links such as What's on TV & Streaming, Top 250 TV Shows and Most Popular TV Shows.",
+  "The navigation drawer has a Watch category, which is the last category visible before the note is cut off.",
+  "The rest of the note is JavaScript for analytics, the Amazon Copilot session loader and the csa event library, which is boilerplate and not content about the season."
+ ],
+ "entities": [
+  {
+   "name": "IMDb",
+   "type": "organization",
+   "role": "The website whose header and navigation drawer appear in the clipped page"
+  }
+ ],
+ "tags": [
+  "imdb",
+  "navigation-boilerplate",
+  "tv-season",
+  "web-clipping"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 18683,
+  "output_tokens": 1219
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "summary": "This note is a short biographical entry on Juan José Barros, a footballer. It gives his full name, birth date and birthplace, nationality, and his current club as Unión Comercio in the Torneo Descentralizado.",
+ "one_line": "Juan José Barros Araujo is a Peruvian footballer born in Barranquilla, Colombia, who currently plays for Unión Comercio.",
+ "key_facts": [
+  "Juan José Barros Araujo was born on 24 June 1989.",
+  "Juan José Barros Araujo was born in Barranquilla, Colombia.",
+  "Juan José Barros is described as a Peruvian footballer.",
+  "Juan José Barros currently plays for Unión Comercio.",
+  "Unión Comercio competes in the Torneo Descentralizado."
+ ],
+ "entities": [
+  {
+   "name": "Juan José Barros Araujo",
+   "type": "person",
+   "role": "Peruvian footballer born 24 June 1989 in Barranquilla, Colombia, who currently plays for Unión Comercio"
+  },
+  {
+   "name": "Barranquilla",
+   "type": "place",
+   "role": "Colombian city where Juan José Barros Araujo was born"
+  },
+  {
+   "name": "Unión Comercio",
+   "type": "organization",
+   "role": "football club for which Juan José Barros currently plays"
+  },
+  {
+   "name": "Torneo Descentralizado",
+   "type": "event",
+   "role": "league competition in which Unión Comercio plays"
+  }
+ ],
+ "tags": [
+  "football",
+  "peru",
+  "sports biography",
+  "unión comercio",
+  "torneo descentralizado"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1056,
+  "output_tokens": 489
+ }
+}

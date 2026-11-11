@@ -1,0 +1,125 @@
+{
+ "summary": "This ROS Wiki page documents rosserial, a point-to-point version of ROS communications over serial, mainly used to connect low-cost microcontrollers such as Arduino to ROS. It describes the suite's client libraries, PC-side bridge nodes (rosserial_python and rosserial_server), example tutorials, and limitations such as buffer sizes, the lack of 64-bit floats, string and array handling. It also details the packet format and topic negotiation protocol, plus per-distribution package and build status from electric through noetic.",
+ "one_line": "rosserial is a ROS wiki package suite that wraps ROS messages over serial links to connect microcontrollers like Arduino to ROS.",
+ "key_facts": [
+  "ROS Serial is a point-to-point version of ROS communications over serial, primarily for integrating low-cost microcontrollers (Arduino) into ROS.",
+  "rosserial consists of a general p2p protocol, libraries for use with Arduino, and nodes for the PC/Tablet side, currently in both Python and Java.",
+  "The package is maintained by Michael Ferguson and Adam Stambler and is licensed under BSD.",
+  "The number of Publishers and Subscribers for rosserial_client is limited to 25 by default, and buffer sizes are limited to 512 bytes by default.",
+  "For rosserial_arduino, the ATMEGA168 has 150/150 byte input/output buffers and 6/6 publishers/subscribers.",
+  "The ATMEGA328P has 280/280 byte input/output buffers and 25/25 publishers/subscribers.",
+  "The Arduino does not support 64-bit float datatypes, so make_library automatically converts 64-bit floats into 32-bit datatypes with possible loss of precision.",
+  "Messages larger than the buffer size are not transmitted, and a ROS error message is relayed.",
+  "Topic IDs 0-100 are reserved for system functions, as defined in the rosserial_msgs/TopicInfo message.",
+  "The packet format begins with a sync flag of 0xff, followed by a protocol version byte, message length bytes, a length checksum, a topic ID, serialized data, and a data checksum.",
+  "The protocol version byte was 0xff on ROS Groovy and 0xfe on ROS Hydro, Indigo, and Jade.",
+  "rosserial_python is described as a Python-based implementation recommended for PC usage, while rosserial_server is a C++ implementation recommended for high-performance applications.",
+  "Before data transfer, the PC/Tablet side queries the embedded device for topic names and types using topic ID 0.",
+  "The page's rosserial_arduino support covers boards including UNO, Leonardo, MEGA, DUE, Teensy 3.x and LC, Spark, STM32F1, STM32Duino, ESP8266 and ESP32."
+ ],
+ "entities": [
+  {
+   "name": "rosserial",
+   "type": "program",
+   "role": "point-to-point ROS serial communication protocol and package suite for wrapping ROS messages over serial or network links"
+  },
+  {
+   "name": "rosserial_arduino",
+   "type": "program",
+   "role": "client library providing support for Arduino compatible boards"
+  },
+  {
+   "name": "rosserial_client",
+   "type": "program",
+   "role": "ANSI C++ client library that the client ports are based on, with default limits of 25 publishers/subscribers and 512-byte buffers"
+  },
+  {
+   "name": "rosserial_embeddedlinux",
+   "type": "program",
+   "role": "client library providing support for Embedded Linux systems such as routers"
+  },
+  {
+   "name": "rosserial_python",
+   "type": "program",
+   "role": "Python-based ROS-side interface implementation recommended for PC usage"
+  },
+  {
+   "name": "rosserial_server",
+   "type": "program",
+   "role": "C++ ROS-side interface implementation based on the ShapeShifter message, recommended for high-performance applications"
+  },
+  {
+   "name": "rosserial_xbee",
+   "type": "program",
+   "role": "tools for creating sensor networks using XBEE devices and Arduino"
+  },
+  {
+   "name": "rosserial_mbed",
+   "type": "program",
+   "role": "client library providing support for mbed platforms"
+  },
+  {
+   "name": "rosserial_tivac",
+   "type": "program",
+   "role": "client library providing support for TI's Launchpad boards, TM4C123GXL and TM4C1294XL"
+  },
+  {
+   "name": "rosserial_msgs",
+   "type": "program",
+   "role": "package defining the rosserial_msgs/TopicInfo message used for system topics"
+  },
+  {
+   "name": "Michael Ferguson",
+   "type": "person",
+   "role": "maintainer and author of rosserial"
+  },
+  {
+   "name": "Adam Stambler",
+   "type": "person",
+   "role": "maintainer of rosserial"
+  },
+  {
+   "name": "Paul Bouchier",
+   "type": "person",
+   "role": "maintainer of rosserial metapackage in hydro through noetic distributions"
+  },
+  {
+   "name": "Mike Purvis",
+   "type": "person",
+   "role": "maintainer of rosserial metapackage in hydro through noetic distributions"
+  },
+  {
+   "name": "kingfisher",
+   "type": "program",
+   "role": "package listed as using rosserial in fuerte"
+  },
+  {
+   "name": "elevator",
+   "type": "program",
+   "role": "package listed as using rosserial in hydro"
+  },
+  {
+   "name": "forte_rc_driver",
+   "type": "program",
+   "role": "package listed as using rosserial in indigo"
+  },
+  {
+   "name": "Open Robotics",
+   "type": "organization",
+   "role": "organization that brought the ROS wiki site"
+  }
+ ],
+ "tags": [
+  "ros",
+  "rosserial",
+  "arduino",
+  "serial-communication",
+  "microcontrollers",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14957,
+  "output_tokens": 1772
+ }
+}

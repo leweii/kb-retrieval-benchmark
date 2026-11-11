@@ -1,0 +1,52 @@
+{
+ "summary": "The note is a fragment of a Wikipedia article on the India–Pakistan cricket rivalry, consisting only of a table of tournament wins. It records how many times India and Pakistan have won the World Cup, World Twenty20 and Champions Trophy, with the years of each title. No narrative about the rivalry is included.",
+ "one_line": "Tally of India and Pakistan cricket tournament titles across the World Cup, World Twenty20 and Champions Trophy.",
+ "key_facts": [
+  "India has won the Cricket World Cup 2 times, in 1983 and 2011.",
+  "Pakistan has won the Cricket World Cup 1 time, in 1992.",
+  "India has won the World Twenty20 1 time, in 2007.",
+  "Pakistan has won the World Twenty20 1 time, in 2009.",
+  "India has won the Champions Trophy 2 times, in 2002 and 2013.",
+  "Pakistan has won the Champions Trophy 1 time, in 2017.",
+  "The note lists tournament wins only and contains no narrative about the rivalry.",
+  "The table is organized in columns for tournament, India and Pakistan, with each cell giving the count and years of titles."
+ ],
+ "entities": [
+  {
+   "name": "India",
+   "type": "place",
+   "role": "cricket team with 2 World Cup titles (1983, 2011), 1 World Twenty20 title (2007) and 2 Champions Trophy titles (2002, 2013)"
+  },
+  {
+   "name": "Pakistan",
+   "type": "place",
+   "role": "cricket team with 1 World Cup title (1992), 1 World Twenty20 title (2009) and 1 Champions Trophy title (2017)"
+  },
+  {
+   "name": "World Cup",
+   "type": "event",
+   "role": "cricket tournament in which India won in 1983 and 2011 and Pakistan won in 1992"
+  },
+  {
+   "name": "World Twenty20",
+   "type": "event",
+   "role": "cricket tournament in which India won in 2007 and Pakistan won in 2009"
+  },
+  {
+   "name": "Champions Trophy",
+   "type": "event",
+   "role": "cricket tournament in which India won in 2002 and 2013 and Pakistan won in 2017"
+  }
+ ],
+ "tags": [
+  "cricket",
+  "india-pakistan rivalry",
+  "icc tournaments",
+  "sports statistics"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1076,
+  "output_tokens": 726
+ }
+}

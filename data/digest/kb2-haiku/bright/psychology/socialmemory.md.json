@@ -1,0 +1,130 @@
+{
+ "summary": "A Harvard Medical School news article (December 8, 2017) reports a mouse study published in Nature Communications showing that social recognition is regulated by oxytocin-sensitive neurons in the dentate gyrus-CA3 (DG-CA3) circuit of the hippocampus. When oxytocin is present, this circuit, which normally separates similar object memories, also regulates social recognition; the signals are relayed via the posterior hippocampus to the nucleus accumbens. The researchers suggest that disruptions in this circuit may relate to autism-spectrum disorders and to PTSD-like overgeneralization of fear.",
+ "one_line": "Harvard Medical School study in mice finds oxytocin switches a hippocampal memory-separation circuit to regulate social recognition.",
+ "key_facts": [
+  "The study was described December 8, 2017 in Nature Communications and conducted in mice by regenerative neuroscientists at Harvard Medical School, the Harvard Stem Cell Institute and Massachusetts General Hospital.",
+  "Social recognition is regulated by a lattice of oxytocin-sensitive neurons in a part of the hippocampus, a seahorse-shaped structure responsible for memory formation.",
+  "Computation of social stimuli takes place in the dentate gyrus-CA3 (DG-CA3) circuit, a subunit of the hippocampus thought to file similar memories in distinct folders.",
+  "In the absence of oxytocin, the DG-CA3 circuit regulates object recognition; oxytocin acts as a critical catalyst that switches the circuit's functional mode.",
+  "Tara Raam, a graduate student in neuroscience at Harvard University, was the study's first author.",
+  "Amar Sahay, a Harvard Medical School associate professor, was the senior investigator; he is at the Center for Regenerative Medicine and the Department of Psychiatry at Massachusetts General Hospital.",
+  "When oxytocin receptors were deleted in the DG-CA3 circuit, mice could still tell old from new objects but could no longer distinguish familiar mice from unknown mice in social situations.",
+  "Optogenetics revealed a neural pathway from DG-CA3 to the posterior hippocampus, then to the nucleus accumbens in the forebrain, which relays social signals.",
+  "Sahay said of the mechanism: \"Nature is thrifty, it's parsimonious... It repurposes existing ones.\"",
+  "The researchers suggest that disruptions in hippocampal activity may underlie social behavior anomalies in autism-spectrum disorders and other neurodevelopmental, psychiatric and neurologic conditions.",
+  "Sahay gave an example of a soldier with PTSD who perceives a benign object resembling an improvised explosive device as a threat, describing it as an overgeneralization of fear.",
+  "Oxytocin is known for its role in bonding, empathy and sexual pleasure.",
+  "Funding came from NIH BRAINS award 1-R01MH104175, NIH-NIA 1R01AG048908-01, NIH-NIMH 1R01MH111729-01, the Ellison Medical Foundation, the Whitehall Foundation, Inscopix DECODE, NARSAD, the Blue Guitar Fund and the Harvard Neuro Discovery Center.",
+  "Co-investigators included Kathleen McAvoy, Antoine Besnard and Alexa Veenema."
+ ],
+ "entities": [
+  {
+   "name": "Harvard Medical School",
+   "type": "organization",
+   "role": "institution whose regenerative neuroscientists conducted the mouse study and published the news article"
+  },
+  {
+   "name": "Harvard Stem Cell Institute",
+   "type": "organization",
+   "role": " co-institution of the researchers conducting the study"
+  },
+  {
+   "name": "Massachusetts General Hospital",
+   "type": "organization",
+   "role": "hospital where senior investigator Amar Sahay works in the Department of Psychiatry and where the study was conducted"
+  },
+  {
+   "name": "Nature Communications",
+   "type": "product",
+   "role": "journal in which the experiments were described on Dec. 8"
+  },
+  {
+   "name": "Tara Raam",
+   "type": "person",
+   "role": "graduate student in neuroscience at Harvard University and study first author"
+  },
+  {
+   "name": "Amar Sahay",
+   "type": "person",
+   "role": "senior investigator; Harvard Medical School associate professor at the Center for Regenerative Medicine and Department of Psychiatry at Massachusetts General Hospital"
+  },
+  {
+   "name": "Kathleen McAvoy",
+   "type": "person",
+   "role": "co-investigator"
+  },
+  {
+   "name": "Antoine Besnard",
+   "type": "person",
+   "role": "co-investigator"
+  },
+  {
+   "name": "Alexa Veenema",
+   "type": "person",
+   "role": "co-investigator"
+  },
+  {
+   "name": "dentate gyrus-CA3 (DG-CA3) circuit",
+   "type": "other",
+   "role": "hippocampal circuit where social stimuli are computed and where oxytocin switches function from object to social recognition"
+  },
+  {
+   "name": "hippocampus",
+   "type": "other",
+   "role": "seahorse-shaped brain structure responsible for memory formation, containing the DG-CA3 circuit"
+  },
+  {
+   "name": "nucleus accumbens",
+   "type": "other",
+   "role": "forebrain area that governs social behaviors and plays a role in reward, aversion, addiction and pleasure, receiving social signals from the hippocampus"
+  },
+  {
+   "name": "National Institutes of Health",
+   "type": "organization",
+   "role": "funder of the study through BRAINS and other grants"
+  },
+  {
+   "name": "Ellison Medical Foundation",
+   "type": "organization",
+   "role": "funder via New Scholar in Aging Award"
+  },
+  {
+   "name": "Whitehall Foundation",
+   "type": "organization",
+   "role": "funder of the study"
+  },
+  {
+   "name": "Inscopix",
+   "type": "organization",
+   "role": "funder via DECODE award"
+  },
+  {
+   "name": "Blue Guitar Fund",
+   "type": "organization",
+   "role": "funder of the study"
+  },
+  {
+   "name": "Harvard Neuro Discovery Center",
+   "type": "organization",
+   "role": "funder of the study"
+  },
+  {
+   "name": "optogenetics",
+   "type": "other",
+   "role": "technique used to map the neural route by making neurons light-sensitive"
+  }
+ ],
+ "tags": [
+  "oxytocin",
+  "hippocampus",
+  "social recognition",
+  "memory",
+  "neuroscience",
+  "PTSD"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8099,
+  "output_tokens": 2034
+ }
+}

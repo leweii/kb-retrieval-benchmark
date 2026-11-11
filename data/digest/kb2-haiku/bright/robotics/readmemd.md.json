@@ -1,0 +1,100 @@
+{
+ "summary": "This README describes the Nav2 Map Server, which supplies maps to the rest of the Nav2 system through topic and service interfaces. It covers the architecture (map_server, map_saver, and the map_io library), command-line usage with YAML map files and ROS2 parameters, the map_saver_cli tool, the supported occupancy grid map type, and the load_map and save_map services with example calls.",
+ "one_line": "Nav2 Map Server README covering its architecture, parameter-based map loading, map saving, the map_io library, and load/save map services.",
+ "key_facts": [
+  "The Nav2 Map Server provides maps to the rest of the Nav2 system using both topic and service interfaces.",
+  "The Nav2 map server divides into three parts: map_server, map_saver, and the map_io library.",
+  "The map_server component is responsible for loading a map from a file through the command-line interface or service requests.",
+  "The map_io library is designed to be object-independent so it can save and load maps from external code by calling its functions.",
+  "The map_io library currently contains OccupancyGrid saving and loading functions moved from the rest of the map server code.",
+  "The Nav2 map server retains the map YAML file format from ROS1 Nav1 but uses the ROS2 parameter mechanism to get the YAML filename, specified by the yaml_filename parameter.",
+  "The yaml_filename parameter must be set for the initial map, but an empty string can be used if no initial map should be loaded.",
+  "In ROS1, the map_saver tool was renamed to map_saver_cli in Nav2 and is invoked with ros2 run nav2_map_server map_saver_cli.",
+  "The only currently supported map type is Occupancy grid (nav_msgs/msg/OccupancyGrid).",
+  "The map_server node provides a \"map\" service to get the map, described in the nav_msgs/srv/GetMap.srv file.",
+  "NEW in ROS2 Eloquent, map_server provides a \"load_map\" service and map_saver provides a \"save_map\" service, defined in nav2_msgs/srv/LoadMap.srv and nav2_msgs/srv/SaveMap.srv.",
+  "To use the load_map and save_map services, map_server or map_saver should be launched as a continuously running nav2::LifecycleNode.",
+  "The nav2_map_server/launch/map_saver_server.launch.py launch file can be used to run Map Saver in server mode.",
+  "The MapIO library API in map_io.hpp includes loadMapYaml(), loadMapFromFile(), loadMapFromYaml(), and saveMapToFile()."
+ ],
+ "entities": [
+  {
+   "name": "Map Server",
+   "type": "program",
+   "role": "Composable ROS2 node that provides maps to the rest of the Nav2 system via topic and service interfaces"
+  },
+  {
+   "name": "map_server",
+   "type": "program",
+   "role": "Architecture component responsible for loading the map from a file via command line or service requests; default executable instancing the Map Server node"
+  },
+  {
+   "name": "map_saver",
+   "type": "program",
+   "role": "Architecture component that saves the map into a file via command line or the save_map service"
+  },
+  {
+   "name": "map_io",
+   "type": "program",
+   "role": "Map input-output library used by map_loader and map_saver, containing OccupancyGrid saving/loading functions"
+  },
+  {
+   "name": "map_saver_cli",
+   "type": "program",
+   "role": "Command-line executable name for map_saver, renamed from map_saver in Nav2"
+  },
+  {
+   "name": "ROS1 navigation map server",
+   "type": "program",
+   "role": "Original map server in ROS1 navigation, whose YAML format and command-line usage Nav2 partly retains"
+  },
+  {
+   "name": "load_map",
+   "type": "program",
+   "role": "Service provided by map_server to load and publish a map at run-time, defined in nav2_msgs/srv/LoadMap.srv"
+  },
+  {
+   "name": "save_map",
+   "type": "program",
+   "role": "Service provided by map_saver to save the map to a file, defined in nav2_msgs/srv/SaveMap.srv"
+  },
+  {
+   "name": "map",
+   "type": "program",
+   "role": "Service provided by map_server to get the map, defined in nav_msgs/srv/GetMap.srv"
+  },
+  {
+   "name": "map_saver_server.launch.py",
+   "type": "program",
+   "role": "Launch file in nav2_map_server/launch used to run Map Saver in server mode"
+  },
+  {
+   "name": "ROS2 Eloquent",
+   "type": "event",
+   "role": "ROS2 release in which the load_map and save_map services were introduced"
+  },
+  {
+   "name": "nav2::LifecycleNode",
+   "type": "other",
+   "role": "Node type in which map_server or map_saver must run to use the load and save services"
+  },
+  {
+   "name": "OccupancyGrid",
+   "type": "product",
+   "role": "Map type currently supported, nav_msgs/msg/OccupancyGrid"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "nav2",
+  "navigation",
+  "map-server",
+  "robotics",
+  "map-io"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2908,
+  "output_tokens": 1568
+ }
+}

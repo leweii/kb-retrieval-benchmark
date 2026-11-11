@@ -1,0 +1,116 @@
+{
+ "summary": "This note is a flattened Wikipedia table listing Oceanian countries by nominal GDP. It gives 2014 CIA estimates of nominal GDP and GDP per capita, and IMF estimates of GDP (PPP) and GDP (PPP) per capita. Several rows have fewer values than the column headers, so the figures for some countries cannot be matched to specific columns with certainty. Australia has the largest economy listed, at 1,444,000 million USD nominal.",
+ "one_line": "A table comparing nominal and PPP GDP figures for Oceanian countries, using 2014 CIA and IMF estimates.",
+ "key_facts": [
+  "Australia's 2014 CIA nominal GDP is listed as 1,444,000 million USD, with a GDP per capita of 46,400 USD.",
+  "Australia's IMF PPP GDP estimate is listed as 1,188,764 million USD, with a PPP GDP per capita of 47,644.363 USD.",
+  "New Zealand's 2014 CIA nominal GDP is listed as 198,100 million USD, with a GDP per capita of 35,200 USD.",
+  "New Zealand's IMF PPP GDP estimate is listed as 174,845 million USD, with a PPP GDP per capita of 37,108.005 USD.",
+  "Papua New Guinea's 2014 CIA nominal GDP is listed as 16,060 million USD, with a GDP per capita of 2,400 USD.",
+  "Papua New Guinea's IMF PPP GDP estimate is listed as 28,022 million USD, with a PPP GDP per capita of 3,542.097 USD.",
+  "Fiji's figures in the note are 4,212 and 8,200 (CIA), and 8,374 and 9,353.390 (IMF).",
+  "Nauru's only listed figure is a nominal GDP of 5,000 million USD, marked as a 2005 estimate.",
+  "Palau's figures in the note are 16,300 and 276 (CIA), and 15,260.417 (IMF).",
+  "Samoa's figures in the note are 826 and 5,200 (CIA), and 1,046 and 5,368.510 (IMF).",
+  "Tonga's figures in the note are 454 and 4,900 (CIA), and 557 and 5,332.190 (IMF).",
+  "Vanuatu's figures in the note are 812 and 3,300 (CIA), and 723 and 2,631.360 (IMF).",
+  "Tuvalu's figures in the note are 3,300 and 39 (CIA), and 3,566.816 (IMF), with one value missing.",
+  "Solomon Islands' figures in the note are 1,155 and 1,900 (CIA), and 1,198 and 1,995.697 (IMF).",
+  "The note lists Federated States of Micronesia's figures as 3,000, 314 and 3,032.615 without clear column labels.",
+  "The note lists Kiribati's figures as 1,700, 211 and 1,820.750, and the Marshall Islands' figures as 3,300, 180 and 3,239.708, with the column alignment unclear."
+ ],
+ "entities": [
+  {
+   "name": "Australia",
+   "type": "place",
+   "role": "Oceanian country listed with the largest nominal GDP in the table (1,444,000 million USD, CIA 2014)"
+  },
+  {
+   "name": "New Zealand",
+   "type": "place",
+   "role": "Oceanian country listed with nominal GDP of 198,100 million USD (CIA 2014)"
+  },
+  {
+   "name": "Papua New Guinea",
+   "type": "place",
+   "role": "Oceanian country listed with nominal GDP of 16,060 million USD (CIA 2014)"
+  },
+  {
+   "name": "Federated States of Micronesia",
+   "type": "place",
+   "role": "Oceanian country listed in the table with incomplete column alignment"
+  },
+  {
+   "name": "Fiji",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "Kiribati",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "Marshall Islands",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "Nauru",
+   "type": "place",
+   "role": "Oceanian country listed with a nominal GDP of 5,000 million USD (2005 estimate)"
+  },
+  {
+   "name": "Palau",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "Samoa",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "Solomon Islands",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "Tonga",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "Tuvalu",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "Vanuatu",
+   "type": "place",
+   "role": "Oceanian country listed in the table"
+  },
+  {
+   "name": "CIA",
+   "type": "organization",
+   "role": "Source of the 2014 nominal GDP and GDP per capita estimates in the table"
+  },
+  {
+   "name": "IMF",
+   "type": "organization",
+   "role": "Source of the GDP (PPP) estimates in the table"
+  }
+ ],
+ "tags": [
+  "gdp",
+  "oceania",
+  "economics",
+  "country comparison",
+  "statistics"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1394,
+  "output_tokens": 2552
+ }
+}

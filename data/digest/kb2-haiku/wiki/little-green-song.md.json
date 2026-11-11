@@ -1,0 +1,39 @@
+{
+ "summary": "This note is a short stub about \"Little Green\", a song written and performed by Joni Mitchell. It is the third track on her 1971 album \"Blue\". The note gives no further details about the song's composition, lyrics, or reception.",
+ "one_line": "Joni Mitchell's song \"Little Green\", the third track on her 1971 album \"Blue\".",
+ "key_facts": [
+  "\"Little Green\" is a song composed and performed by Joni Mitchell.",
+  "\"Little Green\" is the third track on Joni Mitchell's 1971 album \"Blue\".",
+  "The album \"Blue\" was released in 1971.",
+  "Joni Mitchell both composed and performed \"Little Green\"."
+ ],
+ "entities": [
+  {
+   "name": "Joni Mitchell",
+   "type": "person",
+   "role": "composer and performer of the song \"Little Green\""
+  },
+  {
+   "name": "Blue",
+   "type": "product",
+   "role": "1971 album by Joni Mitchell that includes the song \"Little Green\" as its third track"
+  },
+  {
+   "name": "Little Green",
+   "type": "product",
+   "role": "song composed and performed by Joni Mitchell, third track on the album \"Blue\""
+  }
+ ],
+ "tags": [
+  "joni mitchell",
+  "music",
+  "song",
+  "1971 album",
+  "blue"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1026,
+  "output_tokens": 406
+ }
+}

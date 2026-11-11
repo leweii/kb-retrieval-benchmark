@@ -1,0 +1,96 @@
+{
+ "summary": "This TreasuryDirect FAQ page, maintained by the Bureau of the Fiscal Service, answers common questions about the U.S. federal public debt. It explains the difference between debt and deficit, how Treasury borrows to cover deficits, the difference between Public Debt Outstanding and Public Debt Subject to Limit, why debt is accounted for daily, who holds the debt, and how the Civil Service Retirement and Disability Fund and the G Fund are affected by debt limit impasses.",
+ "one_line": "TreasuryDirect FAQ explaining U.S. public debt concepts, debt ownership, financing, and how debt limit impasses affect the CSRDF and G Fund.",
+ "key_facts": [
+  "The Bureau of the Fiscal Service accounts for and reports on the public debt and does not have decision-making authority for public policy about the budget or the debt.",
+  "The deficit is the fiscal year difference between government receipts (taxes and other revenues) and outlays (spending).",
+  "The Public Debt Subject to Limit is the maximum amount of money the Government is allowed to borrow without receiving additional authority from Congress.",
+  "The Public Debt Outstanding is produced daily by Treasury's accounting system, and the figure for the previous day is posted to the website by 3 PM on the following business day.",
+  "The Federal Financing Bank was created by Congress in 1973 under the general supervision of the Secretary of the Treasury to centralize and reduce the cost of federal borrowing.",
+  "Federal Financing Bank obligations are limited to $15 billion unless otherwise authorized by the Appropriations Acts.",
+  "The Public Debt Outstanding goes down when the total amount of Treasury securities cashed in is more than the total amount of Treasury securities bought.",
+  "The Civil Service Retirement and Disability Fund (CSRDF) provides defined benefits to retired and disabled Federal employees covered by the Civil Service Retirement System.",
+  "In 1986, Congress provided Treasury statutory authority to declare a 'debt issuance suspension period' and redeem certain CSRDF investments and suspend new investments.",
+  "The G Fund is a money market defined-contribution retirement fund for Federal employees.",
+  "In 1987, Congress granted Treasury statutory authority to suspend reinvestment of all or part of the G Fund balance when the debt limit cannot be exceeded.",
+  "Treasury used these extraordinary measures for the CSRDF and G Fund during debt limit impasses in 1996, 2002, 2003, 2004, 2006, 2011, 2012, 2013, 2014, and 2015.",
+  "The Debt Held by the Public is federal debt held outside the U.S. Government, less Federal Financing Bank securities.",
+  "Intragovernmental Holdings are Government Account Series securities held by government trust funds, revolving funds, and special funds, plus Federal Financing Bank securities.",
+  "The Monthly Statement of the Public Debt (MSPD) lists the types of Treasury securities issued, their maturity dates, and amounts outstanding."
+ ],
+ "entities": [
+  {
+   "name": "Bureau of the Fiscal Service",
+   "type": "organization",
+   "role": "Government bureau that accounts for and reports on the public debt and maintains this FAQ"
+  },
+  {
+   "name": "U.S. Department of the Treasury",
+   "type": "organization",
+   "role": "Parent department of the Bureau of the Fiscal Service, operating TreasuryDirect"
+  },
+  {
+   "name": "Federal Financing Bank",
+   "type": "organization",
+   "role": "Government corporation created by Congress in 1973 to centralize and reduce the cost of federal borrowing"
+  },
+  {
+   "name": "Civil Service Retirement and Disability Fund (CSRDF)",
+   "type": "program",
+   "role": "Fund providing defined benefits to retired and disabled Federal employees under the Civil Service Retirement System"
+  },
+  {
+   "name": "Government Securities Investment Fund (G Fund)",
+   "type": "program",
+   "role": "Money market defined-contribution retirement fund for Federal employees"
+  },
+  {
+   "name": "Federal Reserve Banks",
+   "type": "organization",
+   "role": "Reporting entities that report Treasury security information to Treasury at the end of each day"
+  },
+  {
+   "name": "Congress",
+   "type": "organization",
+   "role": "Granted Treasury statutory authority in 1986 and 1987 to act during debt limit impasses and authorizes additional borrowing"
+  },
+  {
+   "name": "Monthly Statement of the Public Debt (MSPD)",
+   "type": "product",
+   "role": "Report listing types of Treasury securities issued, maturity dates, and amounts outstanding"
+  },
+  {
+   "name": "Monthly Treasury Statement of Receipts and Outlays of the United States Government (MTS)",
+   "type": "product",
+   "role": "Report on the government's receipts and outlays, used for deficit information"
+  },
+  {
+   "name": "Treasury Bulletin",
+   "type": "product",
+   "role": "Publication categorizing ownership of U.S. Government securities by types of investors"
+  },
+  {
+   "name": "Government Printing Office",
+   "type": "organization",
+   "role": "Source of information about the 'Budget of the United States'"
+  },
+  {
+   "name": "Pay.gov",
+   "type": "program",
+   "role": "Online platform where individuals can contribute to reduce the debt"
+  }
+ ],
+ "tags": [
+  "public debt",
+  "federal deficit",
+  "debt limit",
+  "treasury securities",
+  "CSRDF",
+  "G Fund"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 7493,
+  "output_tokens": 1734
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "summary": "This clipped documentation page describes the HAVING clause in SQL. It shows the clause's syntax as following GROUP BY and taking a boolean predicate, and gives one example that finds departments with fewer than 10 employees by grouping employees by department_id and filtering on count(*). Navigation and page boilerplate are omitted; the usage notes section contains only a stub about constants.",
+ "one_line": "Documentation for the SQL HAVING clause, which filters grouped results with a boolean predicate, with an example counting employees per department.",
+ "key_facts": [
+  "The HAVING clause is documented under the category HAVING in a predicate reference.",
+  "The syntax places HAVING after SELECT, FROM and GROUP BY clauses in a query.",
+  "The HAVING clause takes a predicate, defined on the page as a boolean expression.",
+  "The page's Usage Notes section lists only a bullet point about constants.",
+  "The example finds departments that have fewer than 10 employees.",
+  "The example query selects department_id from the employees table.",
+  "The example query groups results by department_id.",
+  "The example filters groups with the condition count(*) < 10.",
+  "The page lists three sections on this page: Syntax, Usage Notes and Examples.",
+  "The page's language is English."
+ ],
+ "entities": [
+  {
+   "name": "HAVING",
+   "type": "other",
+   "role": "SQL clause documented on this page, takes a boolean predicate to filter groups"
+  },
+  {
+   "name": "employees",
+   "type": "other",
+   "role": "table used in the example query, grouped by department_id"
+  }
+ ],
+ "tags": [
+  "sql",
+  "having clause",
+  "group by",
+  "aggregate functions",
+  "database reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1255,
+  "output_tokens": 516
+ }
+}

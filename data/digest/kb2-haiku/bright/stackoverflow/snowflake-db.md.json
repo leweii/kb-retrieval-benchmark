@@ -1,0 +1,93 @@
+{
+ "summary": "This note describes the system-defined, read-only SNOWFLAKE database, which holds metadata and historical usage data about objects in an organization and its accounts. It lists the schemas inside the database, including ACCOUNT_USAGE, ORGANIZATION_USAGE, DATA_SHARING_USAGE and READER_ACCOUNT_USAGE, and notes that the database is visible to all users while many of its objects require explicit access grants by an ACCOUNTADMIN.",
+ "one_line": "Describes Snowflake's read-only SNOWFLAKE database, its schemas of usage and metadata views, and its access rules.",
+ "key_facts": [
+  "Snowflake provides a system-defined, read-only shared database named SNOWFLAKE that contains metadata and historical usage data about the objects in an organization and its accounts.",
+  "In each account, the SNOWFLAKE database contains read-only schemas including ACCOUNT_USAGE, ALERT, CORE, DATA_PRIVACY, DATA_SHARING_USAGE, INFORMATION_SCHEMA, ORGANIZATION_USAGE, READER_ACCOUNT_USAGE and ML.",
+  "The ACCOUNT_USAGE schema contains views that display object metadata and usage metrics for an account.",
+  "The CORE schema contains views and other schema objects used in select Snowflake features and currently only contains the system tags used by data objects.",
+  "The DATA_SHARING_USAGE schema contains views that display object metadata and usage metrics related to listings published in the Snowflake Marketplace or a data exchange.",
+  "The INFORMATION_SCHEMA schema is automatically created in all databases; in a shared database such as SNOWFLAKE, it doesn't serve a purpose and can be disregarded.",
+  "The ORGANIZATION_USAGE schema contains views that display historical usage data across all the accounts in an organization.",
+  "The READER_ACCOUNT_USAGE schema is similar to ACCOUNT_USAGE but only contains views relevant to the reader accounts provisioned for the account.",
+  "Some SNOWFLAKE schemas include classes, which are extensible object types that encapsulate object data and code.",
+  "By default, the SNOWFLAKE database is visible to all users, but this does not mean all objects within it are accessible to all users.",
+  "Objects not meant to be accessible by default remain inaccessible unless access is explicitly granted by a user with the ACCOUNTADMIN role, including access to the ACCOUNT_USAGE, READER_ACCOUNT_USAGE, ORGANIZATION_USAGE, and DATA_SHARING_USAGE schemas.",
+  "Privileges to perform other actions on these views can be granted to other roles in the account."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the system-defined, read-only SNOWFLAKE database"
+  },
+  {
+   "name": "SNOWFLAKE",
+   "type": "product",
+   "role": "system-defined, read-only shared database containing metadata and historical usage data"
+  },
+  {
+   "name": "ACCOUNT_USAGE",
+   "type": "program",
+   "role": "schema of views displaying object metadata and usage metrics for an account"
+  },
+  {
+   "name": "ALERT",
+   "type": "program",
+   "role": "schema in the SNOWFLAKE database related to alerts"
+  },
+  {
+   "name": "CORE",
+   "type": "program",
+   "role": "schema containing views and objects used in select Snowflake features, currently only system tags"
+  },
+  {
+   "name": "DATA_PRIVACY",
+   "type": "program",
+   "role": "schema in the SNOWFLAKE database related to data classification"
+  },
+  {
+   "name": "DATA_SHARING_USAGE",
+   "type": "program",
+   "role": "schema of views on listings published in the Snowflake Marketplace or a data exchange"
+  },
+  {
+   "name": "INFORMATION_SCHEMA",
+   "type": "program",
+   "role": "schema automatically created in all databases that serves no purpose in the shared SNOWFLAKE database"
+  },
+  {
+   "name": "ORGANIZATION_USAGE",
+   "type": "program",
+   "role": "schema of views displaying historical usage data across all accounts in an organization"
+  },
+  {
+   "name": "READER_ACCOUNT_USAGE",
+   "type": "program",
+   "role": "schema similar to ACCOUNT_USAGE but containing only views relevant to reader accounts"
+  },
+  {
+   "name": "ML",
+   "type": "program",
+   "role": "schema in the SNOWFLAKE database described as a suite of analysis tools built by Snowflake"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "program",
+   "role": "role that can explicitly grant access to restricted objects in the SNOWFLAKE database"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "database",
+  "metadata",
+  "usage-metrics",
+  "access-control",
+  "schemas"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1853,
+  "output_tokens": 1551
+ }
+}

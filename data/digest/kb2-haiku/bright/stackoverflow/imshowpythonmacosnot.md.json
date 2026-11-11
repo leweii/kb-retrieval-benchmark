@@ -1,0 +1,82 @@
+{
+ "summary": "A Stack Overflow question from January 2019 in which AnnaMP, a beginner, reports that cv2.imshow() on macOS Mojave with Python 3.6 and OpenCV 4.0.1 opens an empty window even though cv2.imread loads the butterfly.jpg image correctly. Attempts such as absolute paths, startWindowThread, and namedWindow did not help. Commenters asked for build information and suggested a related OpenCV GitHub issue. The asker later answered that the cause was an installation conflict: Python 3.6 and 3.7 coexisted, and OpenCV was built against 3.7, so running brew link python to the 3.7 installation fixed it.",
+ "one_line": "Beginner's Stack Overflow question about an empty imshow window on macOS, resolved as a Python 3.6 versus 3.7 OpenCV installation conflict.",
+ "key_facts": [
+  "The question was asked on 2019-01-23 by user AnnaMP on the OpenCV answers forum (Stack Overflow-style site).",
+  "The asker's code used cv2.imread('butterfly.jpg', 0) followed by cv2.imshow('Butterfly', img) and cv2.waitKey(0).",
+  "The imshow window opened with the correct measurements for the image but displayed no image content.",
+  "The asker confirmed the image was loaded correctly because print(img) showed the correct array and cv2.imwrite saved a black-and-white copy.",
+  "The asker used Python 3.6 on macOS (Mojave) with cv2 version 4.0.1.",
+  "Attempts that failed included using an absolute path, adding cv2.startWindowThread() and cv2.namedWindow('Butterfly'), and adding cv2.namedWindow('Butterfly', cv2.WINDOW_NORMAL).",
+  "The build information showed an interpreter at /usr/local/opt/python/bin/python3 with version 3.7.2, while the asker believed they were using Python 3.6.",
+  "The asker had installed OpenCV with 'brew install opencv', which placed it under python3.7 site-packages, and had manually symlinked a cv2 .so file.",
+  "Commenter LBerger identified the root cause of the mismatch between Python versions as the source of the problem.",
+  "A linked GitHub issue (opencv #8885) was considered but judged different because those users saw only the window title bar.",
+  "The accepted answer, posted 2019-01-29 by AnnaMP, says the problem was an installation problem fixed by uninstalling Python 3.6 and running brew link python to the 3.7 installation.",
+  "The question was viewed 13,560 times and had 1 follower at the time of capture."
+ ],
+ "entities": [
+  {
+   "name": "AnnaMP",
+   "type": "person",
+   "role": "asker of the question and author of the accepted answer, a beginner using OpenCV on macOS"
+  },
+  {
+   "name": "LBerger",
+   "type": "person",
+   "role": "commenter who suggested checking the image for None, requested build information, and identified the Python version mismatch as the root cause"
+  },
+  {
+   "name": "OpenCV",
+   "type": "product",
+   "role": "computer vision library whose cv2 imshow and imread functions are used in the question"
+  },
+  {
+   "name": "OpenCV answers",
+   "type": "organization",
+   "role": "Q&A site hosting the question, powered by Askbot"
+  },
+  {
+   "name": "butterfly.jpg",
+   "type": "product",
+   "role": "image file loaded with cv2.imread in the example code"
+  },
+  {
+   "name": "Homebrew",
+   "type": "product",
+   "role": "package manager used to install OpenCV (brew install opencv) and to link python"
+  },
+  {
+   "name": "Python 3.6",
+   "type": "product",
+   "role": "Python version the asker believed they were running, which co-existed with Python 3.7"
+  },
+  {
+   "name": "Python 3.7",
+   "type": "product",
+   "role": "Python installation to which OpenCV was built and linked, identified as the root cause"
+  },
+  {
+   "name": "macOS Mojave",
+   "type": "product",
+   "role": "operating system the asker was using"
+  },
+  {
+   "name": "opencv issue #8885",
+   "type": "event",
+   "role": "closed GitHub issue on the OpenCV repository that a commenter suggested as possibly related"
+  }
+ ],
+ "tags": [
+  "opencv",
+  "python",
+  "macos",
+  "imshow",
+  "installation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7859,
+  "output_tokens": 1362
+ }
+}

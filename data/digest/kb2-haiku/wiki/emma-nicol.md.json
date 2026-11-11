@@ -1,0 +1,35 @@
+{
+ "summary": "A short biographical note about Emma Nicol, who was born in 1800 as the first of four daughters of Sarah Bezra Nicol and her husband. The note states that the daughters went on to become actresses. The note is very brief and gives no further details about her life or career.",
+ "one_line": "Biographical note on Emma Nicol, born 1800, eldest of four daughters of Sarah Bezra Nicol, who became actresses.",
+ "key_facts": [
+  "Emma Nicol was born in 1800.",
+  "Emma Nicol was the first of four daughters.",
+  "Emma Nicol's mother was Sarah Bezra Nicol.",
+  "Emma Nicol's daughters were to become actresses.",
+  "The note does not name Emma Nicol's father beyond referring to him as Sarah Bezra Nicol's husband."
+ ],
+ "entities": [
+  {
+   "name": "Emma Nicol",
+   "type": "person",
+   "role": "subject of the note; born in 1800 as the first of four daughters"
+  },
+  {
+   "name": "Sarah Bezra Nicol",
+   "type": "person",
+   "role": "mother of Emma Nicol, whose daughters became actresses"
+  }
+ ],
+ "tags": [
+  "biography",
+  "actresses",
+  "theatre",
+  "family",
+  "19th century"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1034,
+  "output_tokens": 393
+ }
+}

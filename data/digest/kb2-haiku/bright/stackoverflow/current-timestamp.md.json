@@ -1,0 +1,54 @@
+{
+ "summary": "This is a reference page for the Snowflake SQL function CURRENT_TIMESTAMP, which returns the current system timestamp in the local time zone. It covers the optional fract_sec_precision argument (0-9, default 9), notes that fractional seconds display only if set in the session timestamp format, and explains usage cautions about concurrent query ordering and how the SYSTIMESTAMP and GETDATE aliases differ. Examples show setting TIMESTAMP_OUTPUT_FORMAT and selecting timestamps at precisions 2, 4 and the default.",
+ "one_line": "Reference for the CURRENT_TIMESTAMP SQL function, which returns the system's local current time with optional fractional-second precision.",
+ "key_facts": [
+  "CURRENT_TIMESTAMP returns the current timestamp for the system in the local time zone.",
+  "The optional argument fract_sec_precision indicates the precision with which to report the time; for example, a value of 3 means milliseconds.",
+  "The default fract_sec_precision is 9, which corresponds to nanoseconds.",
+  "Valid values for fract_sec_precision range from 0 to 9.",
+  "Most platforms do not support true nanosecond precision, and precision is usually approximately milliseconds (3 digits) at most.",
+  "Fractional seconds are only displayed if they have been explicitly set in the session parameter, such as 'YYYY-MM-DD HH24:MI:SS.FF'.",
+  "Do not use the returned value of CURRENT_TIMESTAMP for precise time ordering between concurrent queries processed by the same virtual warehouse, because the queries might be serviced by different compute resources.",
+  "To comply with ANSI standards, CURRENT_TIMESTAMP can be called without parentheses.",
+  "The aliases SYSTIMESTAMP and GETDATE do not support the fract_sec_precision argument.",
+  "The aliases SYSTIMESTAMP and GETDATE must be called with parentheses.",
+  "The example SELECT CURRENT_TIMESTAMP(2) returns a value such as 2017-04-26 22:37:22.83.",
+  "The example SELECT CURRENT_TIMESTAMP(4) returns a value such as 2017-04-26 22:37:25.3530.",
+  "The example SELECT CURRENT_TIMESTAMP returns a value such as 2017-04-26 22:37:28.188000000 at the default precision of 9."
+ ],
+ "entities": [
+  {
+   "name": "CURRENT_TIMESTAMP",
+   "type": "product",
+   "role": "SQL function documented on this page that returns the current system timestamp in the local time zone"
+  },
+  {
+   "name": "SYSTIMESTAMP",
+   "type": "product",
+   "role": "alias of CURRENT_TIMESTAMP that does not support the fract_sec_precision argument and must be called with parentheses"
+  },
+  {
+   "name": "GETDATE",
+   "type": "product",
+   "role": "alias of CURRENT_TIMESTAMP that does not support the fract_sec_precision argument and must be called with parentheses"
+  },
+  {
+   "name": "TIMESTAMP_OUTPUT_FORMAT",
+   "type": "product",
+   "role": "session parameter set in the example to control time output format as 'YYYY-MM-DD HH24:MI:SS.FF'"
+  }
+ ],
+ "tags": [
+  "sql",
+  "timestamp",
+  "date-time",
+  "snowflake",
+  "reference",
+  "functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2267,
+  "output_tokens": 1101
+ }
+}

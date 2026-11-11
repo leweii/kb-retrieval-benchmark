@@ -1,0 +1,47 @@
+{
+ "summary": "A short biographical note on David Lin, describing his education. He earned a bachelor and master of commerce degree from National Chengchi University in Taiwan, and a master of science degree from Georgetown University in the United States.",
+ "one_line": "David Lin's educational background: commerce degrees from National Chengchi University in Taiwan and a master of science from Georgetown University.",
+ "key_facts": [
+  "David Lin graduated with a bachelor of commerce degree from National Chengchi University in Taiwan.",
+  "David Lin graduated with a master of commerce degree from National Chengchi University in Taiwan.",
+  "David Lin earned a master of science degree from Georgetown University in the United States."
+ ],
+ "entities": [
+  {
+   "name": "David Lin",
+   "type": "person",
+   "role": "subject of the note; graduate of National Chengchi University and Georgetown University"
+  },
+  {
+   "name": "National Chengchi University",
+   "type": "organization",
+   "role": "Taiwanese university where David Lin earned bachelor and master of commerce degrees"
+  },
+  {
+   "name": "Georgetown University",
+   "type": "organization",
+   "role": "United States university where David Lin earned a master of science degree"
+  },
+  {
+   "name": "Taiwan",
+   "type": "place",
+   "role": "location of National Chengchi University"
+  },
+  {
+   "name": "United States",
+   "type": "place",
+   "role": "location of Georgetown University"
+  }
+ ],
+ "tags": [
+  "biography",
+  "education",
+  "taiwan",
+  "georgetown university"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1037,
+  "output_tokens": 447
+ }
+}

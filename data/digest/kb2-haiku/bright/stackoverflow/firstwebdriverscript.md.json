@@ -1,0 +1,89 @@
+{
+ "summary": "A Guru99 tutorial by Krishna Rungta, updated March 16, 2024, that teaches basic Selenium WebDriver Java scripting. It walks through a first script that opens the Mercury Tours homepage, checks its title against \"Welcome: Mercury Tours\", prints the result, and closes the browser, then covers locating elements, common WebDriver commands (get, navigate, close vs quit), frames, alerts, waits and conditions. The page is mostly navigation boilerplate, and the note ends abruptly at isSelected().",
+ "one_line": "Guru99 tutorial showing a first Selenium WebDriver Java script that checks the Mercury Tours homepage title, plus core WebDriver commands.",
+ "key_facts": [
+  "The first Selenium WebDriver Java example fetches the Mercury Tours homepage, verifies its title, prints the result, and closes the browser.",
+  "The expected title in the sample script is \"Welcome: Mercury Tours\" and the base URL is http://demo.guru99.com/test/newtours/.",
+  "The sample script uses FirefoxDriver by default and notes that Chrome requires changing three lines of code.",
+  "The note warns that starting with Firefox 35, the gecko driver created by Mozilla is needed to use WebDriver.",
+  "The note advises downgrading to Firefox version 47 or below if the code does not work.",
+  "WebDriver's get() method launches a new browser session and directs it to the URL given as its parameter.",
+  "getTitle() obtains the title of the currently loaded page, with leading and trailing white spaces trimmed.",
+  "The close() method closes only the browser window WebDriver is currently controlling, while quit() closes all windows WebDriver has opened.",
+  "By.cssSelector() does not support the \"contains\" feature, so a test that passed in Selenium IDE generated an error in WebDriver.",
+  "The click() method takes no parameters, waits automatically for a new page to load if applicable, and requires the element to be visible.",
+  "Implicit waits set a default waiting time throughout the program, while explicit waits use WebDriverWait and ExpectedConditions for a particular instance.",
+  "The explicit wait example waits up to 10 seconds for an element whose id is \"username\" to become visible.",
+  "Using driver.switchTo().frame(\"classFrame\") focuses WebDriver on a frame so its elements can be accessed.",
+  "The alert example uses switchTo().alert() to read the message with getText() and closes the alert with accept()."
+ ],
+ "entities": [
+  {
+   "name": "Guru99",
+   "type": "organization",
+   "role": "website publishing the tutorial and hosting the note's navigation menus"
+  },
+  {
+   "name": "Krishna Rungta",
+   "type": "person",
+   "role": "author of the tutorial, listed as the 'By' author"
+  },
+  {
+   "name": "Mercury Tours",
+   "type": "organization",
+   "role": "demo site whose homepage the first WebDriver script fetches and whose title it verifies"
+  },
+  {
+   "name": "Selenium WebDriver",
+   "type": "program",
+   "role": "browser automation framework used in the example scripts"
+  },
+  {
+   "name": "FirefoxDriver",
+   "type": "program",
+   "role": "Firefox-specific driver class instantiated by default in the sample code"
+  },
+  {
+   "name": "ChromeDriver",
+   "type": "program",
+   "role": "Chrome-specific driver class that can be swapped in by changing three lines of code"
+  },
+  {
+   "name": "geckodriver",
+   "type": "program",
+   "role": "Mozilla gecko driver required to use WebDriver with Firefox 35 and later"
+  },
+  {
+   "name": "Eclipse IDE",
+   "type": "program",
+   "role": "IDE in which the Java sample code is run"
+  },
+  {
+   "name": "Selenium IDE",
+   "type": "program",
+   "role": "recorder tool whose locators and exported code are compared with WebDriver scripts"
+  },
+  {
+   "name": "WebDriverWait",
+   "type": "program",
+   "role": "class used for explicit waits in WebDriver"
+  },
+  {
+   "name": "ExpectedConditions",
+   "type": "program",
+   "role": "class used together with WebDriverWait for explicit waits"
+  }
+ ],
+ "tags": [
+  "selenium",
+  "webdriver",
+  "java",
+  "test automation",
+  "browser testing"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15129,
+  "output_tokens": 1330
+ }
+}

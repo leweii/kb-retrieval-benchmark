@@ -1,0 +1,111 @@
+{
+ "summary": "A Qode Interactive tutorial (June 2, 2021, by Sasa Stojanovic) explaining how to enqueue custom JavaScript and CSS in WordPress using wp_enqueue_script and wp_enqueue_style, with hooks, parameters, path functions, and examples for frontend, backend, and conditional loading. It also covers inline additions via wp_add_inline_script and wp_add_inline_style and notes the method suits advanced users. The article ends with a reader comment about a missing parenthesis in an example, which the author fixed.",
+ "one_line": "Tutorial on enqueueing custom JavaScript and CSS in WordPress, covering hooks, parameters, frontend/backend loading, conditional enqueueing, and inline code.",
+ "key_facts": [
+  "The article 'How to Enqueue Custom Scripts and Style Sheets in WordPress' was published June 2, 2021, by Sasa Stojanovic.",
+  "The wp_enqueue_script function has five parameters: $handle, $src, $deps, $ver, and $in_footer, and only $handle is mandatory.",
+  "The default value of $ver is false, which sets it to the current WordPress version; when set to null, no version is added.",
+  "The default value of $in_footer is 'false', meaning the script loads in the head; 'true' loads it before the closing body tag.",
+  "The wp_enqueue_style function also has five arguments, and its $media argument defaults to 'all'.",
+  "The wp_enqueue_scripts hook is intended for scripts and stylesheets affecting the frontend, while admin_enqueue_scripts is for the admin dashboard.",
+  "Filters edit the argument they are given and always need to return a value, whereas actions don't need to return a value.",
+  "get_template_directory_uri() returns the parent theme directory path without the trailing slash, and get_stylesheet_directory_uri() returns the child theme directory path.",
+  "plugins_url() accepts up to two parameters: the extra path and the full relative path of the file, noted by including __FILE__ as the second parameter.",
+  "wp_register_script only registers a script, while wp_enqueue_script both registers and enqueues it.",
+  "In the conditional example, the comment-reply script is enqueued only if is_singular(), comments_open(), and get_option('thread_comments') are all true, using the && operator.",
+  "wp_deregister_style is used to deregister a previously registered stylesheet so a new one can be enqueued under the same handle.",
+  "wp_add_inline_script takes three arguments, of which $handle and $data are required, and $position defaults to 'after'.",
+  "wp_add_inline_style takes two arguments, $handle and $data, and the stylesheet must be enqueued before it is used.",
+  "The article states that enqueueing is best for adding larger custom scripts and stylesheets but is an advanced-user method."
+ ],
+ "entities": [
+  {
+   "name": "Qode Interactive",
+   "type": "organization",
+   "role": "publisher of the tutorial and seller of WordPress themes"
+  },
+  {
+   "name": "Sasa Stojanovic",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "wp_enqueue_script",
+   "type": "product",
+   "role": "WordPress function that registers and loads a custom JavaScript file"
+  },
+  {
+   "name": "wp_enqueue_style",
+   "type": "product",
+   "role": "WordPress function that registers and loads a custom stylesheet"
+  },
+  {
+   "name": "wp_enqueue_scripts",
+   "type": "product",
+   "role": "default WordPress hook for loading frontend scripts and stylesheets"
+  },
+  {
+   "name": "admin_enqueue_scripts",
+   "type": "product",
+   "role": "default WordPress hook for loading scripts and stylesheets in the admin dashboard"
+  },
+  {
+   "name": "wp_add_inline_script",
+   "type": "product",
+   "role": "function for adding small inline JS code to an enqueued script"
+  },
+  {
+   "name": "wp_add_inline_style",
+   "type": "product",
+   "role": "function for adding small inline CSS code to an enqueued stylesheet"
+  },
+  {
+   "name": "wp_register_script",
+   "type": "product",
+   "role": "function that only registers a script, used to delay enqueueing"
+  },
+  {
+   "name": "wp_deregister_style",
+   "type": "product",
+   "role": "function that deregisters a previously registered stylesheet"
+  },
+  {
+   "name": "get_template_directory_uri()",
+   "type": "product",
+   "role": "function returning the parent theme directory path"
+  },
+  {
+   "name": "get_stylesheet_directory_uri()",
+   "type": "product",
+   "role": "function returning the child theme directory path"
+  },
+  {
+   "name": "plugins_url()",
+   "type": "product",
+   "role": "function returning the path to a plugins directory"
+  },
+  {
+   "name": "is_multisite()",
+   "type": "product",
+   "role": "conditional function that checks whether a site is multisite"
+  },
+  {
+   "name": "Bridge",
+   "type": "product",
+   "role": "Qode WordPress theme listed in the Top Picks section"
+  }
+ ],
+ "tags": [
+  "wordpress",
+  "javascript",
+  "css",
+  "enqueue",
+  "hooks",
+  "tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8225,
+  "output_tokens": 1585
+ }
+}

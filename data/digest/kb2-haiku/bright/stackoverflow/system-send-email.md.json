@@ -1,0 +1,67 @@
+{
+ "summary": "This note documents the Snowflake stored procedure SYSTEM$SEND_EMAIL, which sends email notifications to specified recipients from the no-reply@snowflake.net address via a notification integration. It covers the syntax, required arguments (integration name, recipient addresses, subject, and content), the optional MIME type (text/plain by default or text/html), and the return value. It also notes that all Snowflake customers can use the feature, that messages are processed through AWS Simple Email Service and content may be retained up to thirty days.",
+ "one_line": "Reference for Snowflake's SYSTEM$SEND_EMAIL stored procedure, which sends email notifications through a notification integration.",
+ "key_facts": [
+  "SYSTEM$SEND_EMAIL sends email messages to the specified recipients from no-reply@snowflake.net.",
+  "All Snowflake customers can send email messages using this feature.",
+  "Email messages sent from the Notifications System Stored Procedure are processed through Snowflake's Amazon Web Services (AWS) deployments, using AWS Simple Email Service (SES).",
+  "The content of an email message sent using AWS may be retained by Snowflake for up to thirty days to manage delivery; after this period the content is deleted.",
+  "The syntax is CALL SYSTEM$SEND_EMAIL('<integration_name>', '<email_address_1> [ , ... <email_address_N> ]', '<email_subject>', '<email_content>', [ '<mime_type>' ]).",
+  "The integration_name argument is the notification integration used to send the email message.",
+  "Recipient addresses are specified as unquoted email addresses in a comma-separated string.",
+  "If the ALLOWED_RECIPIENTS property of the notification integration is set and any email address is not in that list, no email notifications are sent.",
+  "The email_subject and email_content arguments cannot be empty strings.",
+  "The optional mime_type defaults to text/plain; text/html is specified when email_content is HTML.",
+  "The content of a text/html message is not validated as well-formed HTML.",
+  "The procedure returns TRUE if it executes successfully."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$SEND_EMAIL",
+   "type": "program",
+   "role": "Stored procedure documented in this note that sends email notifications to specified recipients."
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the stored procedure; its customers can use the feature and its AWS deployments process messages."
+  },
+  {
+   "name": "no-reply@snowflake.net",
+   "type": "other",
+   "role": "Sender address from which the email notifications are sent."
+  },
+  {
+   "name": "Amazon Web Services (AWS)",
+   "type": "organization",
+   "role": "Cloud provider whose deployments process email messages sent from the Notifications System Stored Procedure."
+  },
+  {
+   "name": "AWS Simple Email Service (SES)",
+   "type": "product",
+   "role": "Service used to deliver email messages sent through the procedure."
+  },
+  {
+   "name": "Notifications System Stored Procedure",
+   "type": "program",
+   "role": "Stored procedure whose sent email messages are processed through AWS."
+  },
+  {
+   "name": "notification integration",
+   "type": "program",
+   "role": "Integration object specified by integration_name, whose ALLOWED_RECIPIENTS property can restrict recipients."
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "stored-procedures",
+  "email-notifications",
+  "sql",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1891,
+  "output_tokens": 1090
+ }
+}

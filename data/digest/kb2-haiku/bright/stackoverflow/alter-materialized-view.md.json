@@ -1,0 +1,70 @@
+{
+ "summary": "This is Snowflake's reference page for the ALTER MATERIALIZED VIEW command, which changes an existing materialized view in the current or specified schema. It lists supported actions (rename, suspend/resume maintenance, cluster, drop clustering key, suspend/resume reclustering, set/unset secure and comment) with the syntax, parameter explanations, usage notes and examples. The page notes that materialized views require Enterprise Edition and that renaming a view does not update dependent views.",
+ "one_line": "Snowflake reference for the ALTER MATERIALIZED VIEW command, covering renaming, suspending/resuming, clustering and secure/comment settings.",
+ "key_facts": [
+  "Materialized views require Snowflake Enterprise Edition.",
+  "ALTER MATERIALIZED VIEW alters a materialized view in the current or specified schema.",
+  "RENAME TO new_name can also move the object to a different database and/or schema using a qualified new name.",
+  "The destination database and/or schema must already exist, and an object with the same name cannot already exist in the new location.",
+  "Moving an object to a managed access schema is prohibited unless the object owner also owns the target schema.",
+  "Renaming a materialized view does not update references to it; a view V1 built on it becomes out of date.",
+  "CLUSTER BY (expr) clusters the materialized view to improve performance for queries filtering on the clustering key expressions.",
+  "SUSPEND suspends maintenance and use of the materialized view; updates to the base table are not propagated while suspended.",
+  "Suspending a clustered materialized view implicitly suspends its reclustering.",
+  "RESUME resumes use and maintenance of the view and, if clustered, implicitly resumes reclustering.",
+  "SET SECURE turns the view into a secure view, and SET COMMENT = 'string' sets a comment with no effect on behavior.",
+  "UNSET supports SECURE, TAG tag_name [, tag_name ...], and COMMENT.",
+  "Example: ALTER MATERIALIZED VIEW table1_MV RENAME TO my_mv;",
+  "Example: ALTER MATERIALIZED VIEW my_mv SUSPEND RECLUSTER; suspends clustering but not use of the view."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the database service whose ALTER MATERIALIZED VIEW command is documented"
+  },
+  {
+   "name": "ALTER MATERIALIZED VIEW",
+   "type": "product",
+   "role": "SQL command that alters an existing materialized view"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact for inquiring about upgrading to Enterprise Edition"
+  },
+  {
+   "name": "table1_MV",
+   "type": "product",
+   "role": "example materialized view renamed to my_mv"
+  },
+  {
+   "name": "my_mv",
+   "type": "product",
+   "role": "example materialized view used in clustering, suspend and resume examples"
+  },
+  {
+   "name": "mv1",
+   "type": "product",
+   "role": "example materialized view set to secure and given a comment"
+  },
+  {
+   "name": "V1",
+   "type": "product",
+   "role": "example view built on a materialized view that becomes out of date after renaming"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "materialized-views",
+  "ddl",
+  "clustering",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3675,
+  "output_tokens": 1056
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "summary": "The note describes lacrosse as a demonstration sport at the 1932 Summer Olympics in Los Angeles. Teams from Canada and the United States played three games, and the United States won the series 2 games to 1. The games were held in the new Los Angeles Memorial Coliseum before large crowds.",
+ "one_line": "Overview of lacrosse as a demonstration sport at the 1932 Los Angeles Summer Olympics, where the United States beat Canada 2-1 in a three-game series.",
+ "key_facts": [
+  "Lacrosse was a demonstration sport at the 1932 Summer Olympics in Los Angeles.",
+  "Teams from Canada and the United States played three games at the 1932 Summer Olympics lacrosse event.",
+  "The team from the United States won the lacrosse series 2 games to 1 over Canada.",
+  "The lacrosse games were played in the new Los Angeles Memorial Coliseum.",
+  "The games at the Los Angeles Memorial Coliseum were attended by large crowds."
+ ],
+ "entities": [
+  {
+   "name": "Lacrosse at the 1932 Summer Olympics",
+   "type": "event",
+   "role": "Demonstration sport at the 1932 Summer Olympics in Los Angeles, contested by Canada and the United States"
+  },
+  {
+   "name": "1932 Summer Olympics",
+   "type": "event",
+   "role": "Multi-sport Olympic Games in Los Angeles where lacrosse was a demonstration sport"
+  },
+  {
+   "name": "Los Angeles Memorial Coliseum",
+   "type": "place",
+   "role": "New venue where the lacrosse games were played before large crowds"
+  },
+  {
+   "name": "Canada",
+   "type": "organization",
+   "role": "Team that played three lacrosse games against the United States and lost the series 2-1"
+  },
+  {
+   "name": "United States",
+   "type": "organization",
+   "role": "Team that played three lacrosse games against Canada and won the series 2-1"
+  }
+ ],
+ "tags": [
+  "lacrosse",
+  "olympics",
+  "1932 olympics",
+  "demonstration sports",
+  "los angeles"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1108,
+  "output_tokens": 648
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "summary": "This is a clipped Hong Kong Observatory page for its 9-day weather forecast, mostly navigation and template placeholders with few concrete values. The substantive content is an explanation of how to read the forecast: temperature and humidity ranges based on 1991-2020 climate data, and the Probability of Significant Rain (PSR) categories. It also states how forecast accuracy declines with lead time and varies by season and weather system.",
+ "one_line": "Hong Kong Observatory page explaining its 9-day forecast, the Probability of Significant Rain categories, and forecast accuracy by lead time.",
+ "key_facts": [
+  "The 9-day Weather Forecast provides general indications of the trends in weather for the coming 9 days.",
+  "For detailed description of today's weather forecast, users should refer to the Local Weather Forecast.",
+  "The middle 50% range (between 25th and 75th percentiles) is calculated from maximum/minimum temperature and relative humidity data within a 5-day period centred on that day in the 30 years from 1991 to 2020.",
+  "The Probability of Significant Rain (PSR) forecast indicates the probability that accumulated rainfall generally over Hong Kong reaches 10 mm or more on that day.",
+  "10 mm is described as around the mean daily rainfall in rainy season.",
+  "PSR category 'High' is 70% or above.",
+  "PSR category 'Medium High' is 55-69%.",
+  "PSR category 'Medium' is 45-54%.",
+  "PSR category 'Medium Low' is 30-44%.",
+  "PSR category 'Low' is below 30%.",
+  "For forecast elements other than PSR, average accuracy for the next one to three days is about 90%.",
+  "For forecast elements other than PSR, average accuracy for the four to seven days is about 85%, and for the eight to nine days about 80%.",
+  "The errors of PSR forecast in the next one to six days are within around 10%, and within around 20% for seven to nine days.",
+  "Weather in spring and summer, such as fog, tropical cyclones and severe convective weather, is more changeable, resulting in higher forecast uncertainty."
+ ],
+ "entities": [
+  {
+   "name": "Hong Kong Observatory (HKO)",
+   "type": "organization",
+   "role": "publisher of the 9-day Weather Forecast for Hong Kong page"
+  },
+  {
+   "name": "9-day Weather Forecast",
+   "type": "product",
+   "role": "forecast product giving general weather trends for the coming 9 days"
+  },
+  {
+   "name": "Local Weather Forecast",
+   "type": "product",
+   "role": ">referenced product giving a detailed description of today's weather"
+  },
+  {
+   "name": "Probability of Significant Rain (PSR) forecast",
+   "type": "product",
+   "role": "forecast indicating probability of accumulated rainfall reaching 10 mm or more over Hong Kong"
+  },
+  {
+   "name": "Hong Kong",
+   "type": "place",
+   "role": "location the 9-day forecast covers"
+  },
+  {
+   "name": "Pearl River Delta Region",
+   "type": "place",
+   "role": "area covered by the Automatic Regional Weather Forecast"
+  }
+ ],
+ "tags": [
+  "weather forecast",
+  "hong kong",
+  "meteorology",
+  "rainfall probability",
+  "climate data",
+  "forecast accuracy"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 2326,
+  "output_tokens": 1028
+ }
+}

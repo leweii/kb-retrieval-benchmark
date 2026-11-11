@@ -1,0 +1,70 @@
+{
+ "summary": "This clipped MuleSoft documentation page describes the DataWeave 2.6 function eval in the dw::Runtime module, which evaluates a script with a given file set, inputs and configuration and returns either an EvalSuccess or ExecutionFailure. It is marked experimental and subject to change. The page includes an example showing eval's behavior with a permission-denied grant, a library call, a timeout, an execution failure, a parse failure, a writer failure, a custom output mime type, and a custom logger service. Website navigation, menus and footer boilerplate were ignored.",
+ "one_line": "MuleSoft DataWeave 2.6 reference page for dw::Runtime's experimental eval function, with a worked example of its outputs.",
+ "key_facts": [
+  "The eval function in DataWeave 2.6's dw::Runtime module evaluates a script with the specified context and returns the result of that evaluation.",
+  "The eval function's signature takes fileToExecute: String, fs: Dictionary<String>, readerInputs, inputValues, and configuration: RuntimeExecutionConfiguration, and returns EvalSuccess | ExecutionFailure.",
+  "The page labels eval as an experimental feature that is subject to change or removal from future versions of DataWeave.",
+  "The fileToExecute parameter is described as the name of the file to execute.",
+  "The fs parameter is described as an object that contains the file to evaluate.",
+  "The example's grant case calls eval with a securityManager that returns false, and the output reports that the required permission Resource is not being granted.",
+  "The example's timeout case evaluates an expression over (1 to 1000000000000) with timeOut set to 2, and its success field is reported as true.",
+  "The execFail case calls dw::Runtime::fail('My Bad'), and the output message is 'My Bad' with a trace at fail.",
+  "The parseFail case with the script '(1 + ' returns success false with the message Invalid input \"1 + \", expected parameter or parenEnd (line 1, column 2).",
+  "The writerFail case uses output application/xml with the value 2, and the output reports success true with value 2.",
+  "The defaultOutput case sets outputMimeType to application/csv with writerProperties separator \"|\", and the output value is a parsed object with name Mariano and lastName achaval.",
+  "The customLogger case supplies a loggerService with initialize and log functions, and the output value is 1234.",
+  "The page is sourced from the mulesoft/docs-dataweave repository at version v2.6, file dw-runtime-functions-eval.adoc.",
+  "The copyright notice on the page reads © Copyright 2024 Salesforce, Inc."
+ ],
+ "entities": [
+  {
+   "name": "DataWeave",
+   "type": "product",
+   "role": "the scripting language whose version 2.6 documentation contains the eval function reference"
+  },
+  {
+   "name": "dw::Runtime",
+   "type": "program",
+   "role": "DataWeave module containing the eval function, documented under DataWeave Reference"
+  },
+  {
+   "name": "eval",
+   "type": "program",
+   "role": "experimental function that evaluates a script with specified context and returns the result"
+  },
+  {
+   "name": "MuleSoft",
+   "type": "organization",
+   "role": "publisher of the documentation page and owner of the Anypoint Platform"
+  },
+  {
+   "name": "Salesforce, Inc.",
+   "type": "organization",
+   "role": "copyright holder shown in the page footer"
+  },
+  {
+   "name": "Mariano",
+   "type": "person",
+   "role": "name used as the payload value in the example's JSON inputs"
+  },
+  {
+   "name": "GitHub",
+   "type": "organization",
+   "role": "host of the docs-dataweave source file for the page"
+  }
+ ],
+ "tags": [
+  "mulesoft",
+  "dataweave",
+  "dw-runtime",
+  "eval",
+  "documentation",
+  "scripting"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15006,
+  "output_tokens": 1191
+ }
+}

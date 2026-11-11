@@ -1,0 +1,57 @@
+{
+ "summary": "The note is a clipped web page from The Royal Society's website, titled \"basic of climate change\". Apart from the title, it contains only site navigation menus (Fellows, Events, Journals, Current topics, Grants) and no article body on climate change. The only climate-related item is a menu link, \"Climate change and biodiversity\", under Current topics.",
+ "one_line": "A truncated Royal Society web clipping titled \"basic of climate change\" that contains only site navigation, with no climate article text.",
+ "key_facts": [
+  "The note is titled \"basic of climate change\" and lists its source as \"bright\" and its domain as \"earth_science\".",
+  "The clipped page is from The Royal Society, as shown by the header logo alt text \"The Royal Society\".",
+  "The Royal Society is described on the page as a self-governing Fellowship made up of many of the world's most eminent scientists, engineers, and technologists.",
+  "The Events section describes discovering events, scientific meetings and exhibitions held by the Royal Society, plus access to videos of past events and venue information.",
+  "The Journals section describes the Royal Society's international, high impact journals and calls it a not-for-profit society publisher.",
+  "The Journals section mentions the Society's support for open science and its commitment to improving inclusion and diversity within science publishing.",
+  "The Current topics menu includes a link titled \"Climate change and biodiversity\", described as an area of current topical interest to the Royal Society.",
+  "The Current topics menu also lists AI and data, Education and skills, Equality, diversity and inclusion, Genetic technologies, Health, History of science, Innovation, New technologies, and Research culture and funding.",
+  "The Grants section says the Royal Society provides grant schemes to support the UK scientific community and foster collaboration between UK based and overseas scientists.",
+  "The Fellows menu links to the Fellows Directory, a search for past Fellows, information about elections, and Biographical Memoirs.",
+  "The Events menu lists Public events, the Summer Science Exhibition, Scientific meetings, past event videos on YouTube, and Venue hire.",
+  "The note contains no body text explaining basic concepts of climate change; the clipped content ends partway through the Grants navigation menu."
+ ],
+ "entities": [
+  {
+   "name": "The Royal Society",
+   "type": "organization",
+   "role": "Publisher of the clipped web page; described as a self-governing Fellowship of eminent scientists, engineers, and technologists"
+  },
+  {
+   "name": "Fellows Directory",
+   "type": "program",
+   "role": "Royal Society search directory linked from the Fellows menu"
+  },
+  {
+   "name": "Biographical Memoirs",
+   "type": "product",
+   "role": "Royal Society publication linked from the Fellows menu"
+  },
+  {
+   "name": "Summer Science Exhibition",
+   "type": "event",
+   "role": "Royal Society exhibition listed in the Events menu"
+  },
+  {
+   "name": "Climate change and biodiversity",
+   "type": "other",
+   "role": "Royal Society current topic linked from the Current topics menu"
+  }
+ ],
+ "tags": [
+  "climate change",
+  "royal society",
+  "web clipping",
+  "navigation boilerplate",
+  "science funding"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8287,
+  "output_tokens": 2078
+ }
+}

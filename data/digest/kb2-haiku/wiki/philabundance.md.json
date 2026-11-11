@@ -1,0 +1,43 @@
+{
+ "summary": "This note is a short encyclopedia-style entry on Philabundance, a non-profit food bank. It states that the organization serves the Philadelphia and Delaware Valley region of Pennsylvania in the United States and is the largest food bank of its kind in that region.",
+ "one_line": "Philabundance is the largest non-profit food bank serving Philadelphia and the Delaware Valley region of Pennsylvania.",
+ "key_facts": [
+  "Philabundance is a non-profit food bank.",
+  "Philabundance serves the Philadelphia and Delaware Valley region of Pennsylvania, United States.",
+  "Philabundance is the largest such organization in the Philadelphia and Delaware Valley region."
+ ],
+ "entities": [
+  {
+   "name": "Philabundance",
+   "type": "organization",
+   "role": "non-profit food bank serving the Philadelphia and Delaware Valley region of Pennsylvania, United States; the largest such organization in the region"
+  },
+  {
+   "name": "Philadelphia",
+   "type": "place",
+   "role": "city in Pennsylvania within the area served by Philabundance"
+  },
+  {
+   "name": "Delaware Valley",
+   "type": "place",
+   "role": "regional area served by Philabundance"
+  },
+  {
+   "name": "Pennsylvania",
+   "type": "place",
+   "role": "U.S. state where Philabundance serves the Philadelphia and Delaware Valley region"
+  }
+ ],
+ "tags": [
+  "food bank",
+  "non-profit",
+  "philadelphia",
+  "pennsylvania",
+  "charity"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1038,
+  "output_tokens": 468
+ }
+}

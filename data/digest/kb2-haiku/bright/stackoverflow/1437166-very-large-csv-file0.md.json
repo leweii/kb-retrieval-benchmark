@@ -1,0 +1,84 @@
+{
+ "summary": "A Statalist forum thread from 2018 and 2021 in which users discuss importing and summarizing very large CSV files in Stata. Beckie Garvin asks how to analyze a 58-million-observation CSV, and Clyde Schechter suggests chunking it with runby but argues that analyzing the whole file is simpler. Leonardo Guizzetti reports that Stata can handle such files, citing a dummy-data test that imported 58M observations in a few minutes. In 2021 Shadi Shad reports that importing 1.5 GB CSV files takes hours and crashes Stata.",
+ "one_line": "Statalist thread on handling and importing very large CSV files (up to 58 million observations) in Stata.",
+ "key_facts": [
+  "Beckie Garvin's 2018 post describes a very large .csv file with 58 million observations and 24 variables.",
+  "Clyde Schechter's largest dataset at the time had 14,342,307 observations and 10 numeric variables.",
+  "Clyde Schechter reported that Stata took 37 seconds to calculate descriptive statistics on all 10 variables of that dataset.",
+  "Clyde Schechter's code uses the runby command, written by Robert Picard and Clyde Schechter and available from SSC, to split a CSV into chunks.",
+  "Clyde Schechter's example creates 6 chunks of about 10,000,000 observations each, saved as chunk1.dta through chunk6.dta.",
+  "Clyde Schechter argued that re-combining descriptive statistics from chunks could cost more time and risk errors than analyzing the whole dataset.",
+  "Leonardo Guizzetti noted that Stata/IC can have about 2 billion observations.",
+  "Leonardo Guizzetti wrote a 58-million-observation, 2-variable test file of about 1.0 GB that took about 10 minutes to export.",
+  "Leonardo Guizzetti reported that importing the 58-million-observation test file took a few minutes on his machine.",
+  "Leonardo Guizzetti reported that summ x, detail took about a minute on the 58-million-observation dataset.",
+  "In September 2021, Shadi Shad reported that a 1.53 GB CSV file took 2 hours to import and Stata stopped responding before the import completed.",
+  "Shadi Shad's 2021 post describes CSV files of 500 MB to 2 GB, with over 50 files in total in the directory E:/Comtradet1.",
+  "Shadi Shad's smallest file, 280 MB, imported successfully, while a 1.50 GB file kept Stata running for hours before it crashed."
+ ],
+ "entities": [
+  {
+   "name": "Beckie Garvin",
+   "type": "person",
+   "role": "Forum poster from April 2018 who asked how to analyze a 58-million-observation CSV file in Stata"
+  },
+  {
+   "name": "Clyde Schechter",
+   "type": "person",
+   "role": "Statalist contributor who advised saving the whole dataset or chunking it with runby, and co-wrote runby"
+  },
+  {
+   "name": "Leonardo Guizzetti",
+   "type": "person",
+   "role": "Statalist contributor who tested importing a 58-million-observation dummy dataset and found no technical barrier"
+  },
+  {
+   "name": "Shadi Shad",
+   "type": "person",
+   "role": "Forum poster from September 2021 who reported hours-long imports and crashes with 1.5 GB CSV files"
+  },
+  {
+   "name": "Robert Picard",
+   "type": "person",
+   "role": "Co-author of the runby command"
+  },
+  {
+   "name": "Statalist",
+   "type": "organization",
+   "role": "Forum where the thread was posted, hosted by StataCorp LLC"
+  },
+  {
+   "name": "StataCorp LLC",
+   "type": "organization",
+   "role": "Copyright holder of the Statalist site"
+  },
+  {
+   "name": "Stata",
+   "type": "product",
+   "role": "Statistical software discussed for importing and analyzing large CSV files"
+  },
+  {
+   "name": "runby",
+   "type": "program",
+   "role": "Stata command from SSC, written by Robert Picard and Clyde Schechter, used to run a program by group in the chunking example"
+  },
+  {
+   "name": "Stata/IC",
+   "type": "product",
+   "role": "Stata edition mentioned as allowing about 2 billion observations"
+  }
+ ],
+ "tags": [
+  "stata",
+  "large datasets",
+  "csv import",
+  "data chunking",
+  "statalist",
+  "performance"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4566,
+  "output_tokens": 1379
+ }
+}

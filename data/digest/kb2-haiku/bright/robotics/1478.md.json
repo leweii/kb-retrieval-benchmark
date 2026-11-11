@@ -1,0 +1,88 @@
+{
+ "summary": "This is a closed GitHub issue (#1478) in the ros2/ros2 repository, opened by RnoldR on Aug 28, 2023, reporting that installing ROS 2 Humble dependencies via rosdep as sudo causes a Python module import failure. The reporter's robot uses Adafruit and Sparkfun sensors; installing Adafruit-Blinka with sudo pip led to 'No module named hid' when running a VL53L1X distance sensor publisher node. Maintainer gavanderhoorn explained that rosdep runs installers as root by default and suggested '--as-root pip:no', which the reporter confirmed resolved the issue, and the issue was closed as completed.",
+ "one_line": "GitHub issue #1478 in ros2/ros2: rosdep installing Adafruit-Blinka via sudo pip causes a missing 'hid' module error, fixed with --as-root pip:no.",
+ "key_facts": [
+  "GitHub issue #1478 in the ros2/ros2 repository was titled 'Rosdep - installing as sudo results in dependency errors'.",
+  "RnoldR opened the issue on Aug 28, 2023 and it was closed as completed the same day.",
+  "The reporter was using Ubuntu 22.04 with ROS2 Humble and rosdep version 0.22.2.",
+  "The reporter's robot needed Adafruit and Sparkfun sensors and the reporter was experimenting with installing new drivers via a forked and modified rosdistro python.yaml.",
+  "Running the sensor_vl53l1x talker node failed with 'ModuleNotFoundError: No module named hid' when Adafruit-Blinka had been installed with sudo pip.",
+  "The reporter stated that installing as a normal user worked fine, while installing as sudo caused the error.",
+  "The reporter's package.xml listed python3-adafruit-blinka-pip and python3-adafruit-circuitpython-bno055-pip as exec_depend entries.",
+  "The traceback showed board.py importing adafruit_blinka and adafruit_platformdetect, which then failed on 'import hid'.",
+  "gavanderhoorn stated that rosdep installs as the super user by default because most of the installers it coordinates, such as apt, require it.",
+  "gavanderhoorn suggested passing the command line argument '--as-root pip:no' to make rosdep not use sudo for pip installers.",
+  "The reporter replied 'I was looking for that, thank you very much!' after the suggestion.",
+  "The reporter noted that pip warns against installing as root during installation."
+ ],
+ "entities": [
+  {
+   "name": "RnoldR",
+   "type": "person",
+   "role": "Reporter and author of issue #1478 who opened the bug report on Aug 28, 2023"
+  },
+  {
+   "name": "gavanderhoorn",
+   "type": "person",
+   "role": "Commenter who explained rosdep's default sudo behavior and suggested the --as-root pip:no workaround"
+  },
+  {
+   "name": "ros2/ros2",
+   "type": "program",
+   "role": "GitHub repository in which issue #1478 was filed"
+  },
+  {
+   "name": "rosdep",
+   "type": "program",
+   "role": "Dependency installer tool that ran pip installs as sudo by default, causing the reported error"
+  },
+  {
+   "name": "Adafruit-Blinka",
+   "type": "program",
+   "role": "Python library installed with sudo pip that caused the 'hid' module import failure"
+  },
+  {
+   "name": "adafruit_platformdetect",
+   "type": "program",
+   "role": "Library in the traceback whose chip.py id function imports hid"
+  },
+  {
+   "name": "sensor_vl53l1x",
+   "type": "program",
+   "role": "Reporter's ROS2 package containing the VL53L1X distance sensor publisher node (talker)"
+  },
+  {
+   "name": "ROS2 Humble",
+   "type": "program",
+   "role": "ROS 2 installation the reporter was using on Ubuntu 22.04"
+  },
+  {
+   "name": "Ubuntu 22.04",
+   "type": "product",
+   "role": "Operating system used by the reporter"
+  },
+  {
+   "name": "Sparkfun",
+   "type": "organization",
+   "role": "Sensor vendor whose sensors the reporter's robot needed alongside Adafruit sensors"
+  },
+  {
+   "name": "Adafruit",
+   "type": "organization",
+   "role": "Sensor vendor whose sensors the reporter's robot needed"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "rosdep",
+  "python",
+  "pip",
+  "sudo",
+  "sensors"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7058,
+  "output_tokens": 1411
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "summary": "This note explains the bell siphon, a passive drainage component used in ebb and flow (flood and drain) aquaponics systems to move water from plant grow beds into the lower fish tank. It covers how the siphon works using hydrostatic pressure and suction, its benefits for root oxygenation and automatic cycling, and setup and troubleshooting tips such as keeping the standpipe level and checking for blockages. The surrounding navigation, related-post links, and cookie notice are boilerplate and were ignored.",
+ "one_line": "Explains how a bell siphon automatically drains flood-and-drain aquaponics grow beds into the fish tank, with setup and troubleshooting tips.",
+ "key_facts": [
+  "A bell siphon is a critical component of an ebb and flow aquaponics system, also known as a flood and drain system.",
+  "In an ebb and flow system, hydroponic plant beds are filled with water to cover the roots and then drained, leaving roots temporarily exposed to oxygen.",
+  "The bell siphon is used for the drainage portion of ebb and flow systems and moves water from the plant bed into the lower tank where the fish grow.",
+  "The standpipe is the main pipe connecting the aquaponic grow beds to the fish tank below, and its height determines how high the water level gets during the flood phase.",
+  "The size of the bell determines how much water is moved through the system with each cycle and can affect how quickly grow beds drain.",
+  "A bell siphon's parts include the bell, accelerator, standpipe, water break, and in some cases a media filter.",
+  "The note describes the siphon as working on hydro-static pressure, air pressure changes, and a little gravity, similar to starting a gas siphon by suction.",
+  "Once water fills the bell and removes all the air, the pressure change lets water drain through the standpipe; when the siphon pulls in air instead, the filling process starts over.",
+  "One of the most obvious benefits of a bell siphon is improved oxygenation to plant roots as draining water draws oxygen through the root length.",
+  "The main selling point of the bell siphon is that it works automatically, requiring no timer, no manual draining, and no additional drainage equipment.",
+  "Setup tip: ensure the standpipe is level, since too much tilt causes the system to drain too quickly or too slowly.",
+  "Setup tip: the preferred siphon placement is either in the center or farther from the point where water enters the bed.",
+  "Setup tip: weigh down the bell so rising water or debris does not cause it to rise too high over the standpipe.",
+  "Troubleshooting tip: check routinely for blockage from grow bed media, sludge build-up, and foreign objects, and watch root growth that can clog the media guard, bell, or media filter."
+ ],
+ "entities": [
+  {
+   "name": "Aquaponics Exposed",
+   "type": "organization",
+   "role": "website publishing the blog post about bell siphons for aquaponics"
+  },
+  {
+   "name": "Bell Siphon",
+   "type": "product",
+   "role": "drainage device that moves water from the aquaponic grow bed into the lower fish tank in ebb and flow systems"
+  },
+  {
+   "name": "Ebb and Flow System",
+   "type": "program",
+   "role": "aquaponics/hydroponics setup where grow beds are flooded and drained, also called flood and drain systems"
+  },
+  {
+   "name": "Standpipe",
+   "type": "product",
+   "role": "main pipe connecting the aquaponic grow beds to the fish tank below; its height sets the flood water level"
+  },
+  {
+   "name": "Media Guard",
+   "type": "product",
+   "role": "optional cover over the bell that roots or media can be drawn into and clog"
+  },
+  {
+   "name": "Media Filter",
+   "type": "product",
+   "role": "optional inner siphon component that further prevents grow bed material from flowing into the lower tank"
+  }
+ ],
+ "tags": [
+  "aquaponics",
+  "bell siphon",
+  "ebb and flow",
+  "hydroponics",
+  "water drainage",
+  "sustainable living"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3606,
+  "output_tokens": 1247
+ }
+}

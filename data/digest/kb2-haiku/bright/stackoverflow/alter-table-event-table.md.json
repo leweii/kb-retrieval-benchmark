@@ -1,0 +1,81 @@
+{
+ "summary": "This is Snowflake's reference page for the ALTER TABLE command as applied to event tables. It documents the syntax for renaming an event table (including moving it to another database or schema), setting and unsetting properties such as DATA_RETENTION_TIME_IN_DAYS, MAX_DATA_EXTENSION_TIME_IN_DAYS, CHANGE_TRACKING and COMMENT, and managing tags, row access policies, clustering keys and search optimization. It also covers usage notes such as ownership requirements and examples of renaming, reclustering and adding or dropping row access policies.",
+ "one_line": "Snowflake reference for ALTER TABLE on event tables: renaming, properties, tags, row access policies, clustering and search optimization.",
+ "key_facts": [
+  "ALTER TABLE (Event Tables) modifies the properties, columns, or constraints for an existing event table.",
+  "The RENAME TO clause renames an event table to a new identifier not used by any other event table in the schema.",
+  "DATA_RETENTION_TIME_IN_DAYS is an object-level parameter that modifies the Time Travel retention period for the event table.",
+  "In Standard Edition, DATA_RETENTION_TIME_IN_DAYS accepts the values 0 or 1.",
+  "In Enterprise Edition, DATA_RETENTION_TIME_IN_DAYS accepts 0 to 90 for permanent event tables and 0 or 1 for temporary and transient event tables.",
+  "Setting CHANGE_TRACKING = TRUE adds a pair of hidden columns to the source event table to store change tracking metadata.",
+  "Setting CHANGE_TRACKING = FALSE drops the pair of hidden columns from the event table.",
+  "The tag value is always a string, and the maximum number of characters for a tag value is 256.",
+  "To alter an event table, the user must be using a role that has ownership privilege on the event table.",
+  "A table or view can only be protected by one row access policy at a time.",
+  "Changes to an event table are not automatically propagated to views created on that event table.",
+  "Clustering keys are not intended or recommended for all event tables; they typically benefit very large (i.e. multi-terabyte) event tables.",
+  "If you try to add search optimization on a materialized view, Snowflake returns an error message.",
+  "When an event table is altered to enable change tracking, the event table is locked for the duration of the operation.",
+  "The example renames event table t1 to tt1 using ALTER TABLE t1 RENAME TO tt1."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "the data platform whose ALTER TABLE syntax for event tables is documented"
+  },
+  {
+   "name": "event table",
+   "type": "other",
+   "role": "the table type that the ALTER TABLE statement modifies"
+  },
+  {
+   "name": "Time Travel",
+   "type": "program",
+   "role": "feature controlled by DATA_RETENTION_TIME_IN_DAYS for the event table"
+  },
+  {
+   "name": "Automatic Clustering",
+   "type": "program",
+   "role": "service that maintains the clustering key columns or expressions on the event table"
+  },
+  {
+   "name": "CHANGES clause",
+   "type": "program",
+   "role": "clause used to query change tracking metadata on an event table"
+  },
+  {
+   "name": "search optimization",
+   "type": "program",
+   "role": "property that can be added to or dropped from an event table, for the entire table or specific columns"
+  },
+  {
+   "name": "row access policy",
+   "type": "program",
+   "role": "policy that can be added to or dropped from an event table on specified columns"
+  },
+  {
+   "name": "Enterprise Edition",
+   "type": "product",
+   "role": "Snowflake edition that allows 0 to 90 days of retention for permanent event tables and the ON clause preview feature"
+  },
+  {
+   "name": "Standard Edition",
+   "type": "product",
+   "role": "Snowflake edition that allows retention values of 0 or 1"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "alter-table",
+  "event-table",
+  "data-governance",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9456,
+  "output_tokens": 1266
+ }
+}

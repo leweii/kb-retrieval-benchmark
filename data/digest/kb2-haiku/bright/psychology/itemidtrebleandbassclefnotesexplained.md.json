@@ -1,0 +1,90 @@
+{
+ "summary": "A ToneGym blog article (June 21, 2023) explaining music clefs, focusing on the treble and bass clefs and how their lines and spaces map to notes. It covers which instruments read each clef, ledger lines, mnemonics, the grand staff joining the two clefs at middle C, and the alto, tenor and soprano clefs, plus the 8va marking. Reader comments and site boilerplate are ignored.",
+ "one_line": "ToneGym article explaining treble and bass clefs, their note lines and spaces, ledger lines, mnemonics, the grand staff, and other clefs.",
+ "key_facts": [
+  "The music staff always contains five lines and four spaces, each representing a different note in the musical alphabet.",
+  "Treble clef is used to notate musical notes above middle C and is sometimes called the G clef because its swirl circles the line for the note G.",
+  "Instruments that read in treble clef include guitar, violin, and trumpet.",
+  "Bass clef is shaped like the letter F and is sometimes nicknamed the F clef because its two dots enclose the F line.",
+  "Instruments that read in bass clef include bass guitars, double bass, timpani, and trombone.",
+  "In treble clef, the lines from bottom to top are E4, G4, B4, D5, and F5.",
+  "In treble clef, the spaces from bottom to top are F4, A4, C5, and E5.",
+  "In bass clef, the lines from bottom to top are G2, B2, D3, F3, and A3.",
+  "In bass clef, the spaces from bottom to top are A2, C3, E3, and G3.",
+  "The treble and bass clefs are separated by only one ledger line, which is middle C (C4).",
+  "The piano typically has 88 keys, which span seven octaves in whole or in part.",
+  "Alto clef places middle C on the middle line of the staff and is used by viola, mandola, and alto trombone.",
+  "The piccolo is notated in treble clef but sounds one whole octave higher than written.",
+  "The 8va marking above the staff indicates that the written notes should be played one octave higher than written."
+ ],
+ "entities": [
+  {
+   "name": "ToneGym",
+   "type": "organization",
+   "role": "publisher of the blog article and ear-training website"
+  },
+  {
+   "name": "Treble clef",
+   "type": "other",
+   "role": "clef used to notate musical notes above middle C, also called the G clef"
+  },
+  {
+   "name": "Bass clef",
+   "type": "other",
+   "role": "clef used to notate pitches below middle C, also called the F clef"
+  },
+  {
+   "name": "Alto clef",
+   "type": "other",
+   "role": "clef used by chamber instruments such as mandola, viola and alto trombone, with middle C on the middle line"
+  },
+  {
+   "name": "Tenor clef",
+   "type": "other",
+   "role": "clef that can be used by the cello, although cellists still use bass clef more often"
+  },
+  {
+   "name": "Soprano clef",
+   "type": "other",
+   "role": "clef that moves middle C up a full line, typically used only for soprano vocals"
+  },
+  {
+   "name": "Grand staff",
+   "type": "other",
+   "role": "compound staff typically used by the piano to score music across a wide register"
+  },
+  {
+   "name": "Piccolo",
+   "type": "product",
+   "role": "instrument notated in treble clef that sounds one octave higher than written"
+  },
+  {
+   "name": "Beethoven's 7th",
+   "type": "product",
+   "role": "example piece referenced in a cheeky bass clef mnemonic joke about years between 1812 and 1815"
+  },
+  {
+   "name": "Roger Shepard",
+   "type": "person",
+   "role": "commenter on the article"
+  },
+  {
+   "name": "Mark Phillip Marphy Horch",
+   "type": "person",
+   "role": "commenter who suggested adding mnemonics for sharps and flats"
+  }
+ ],
+ "tags": [
+  "music theory",
+  "clefs",
+  "treble clef",
+  "bass clef",
+  "music notation",
+  "ear training"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 7564,
+  "output_tokens": 1195
+ }
+}

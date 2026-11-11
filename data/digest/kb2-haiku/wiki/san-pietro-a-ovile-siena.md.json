@@ -1,0 +1,43 @@
+{
+ "summary": "San Pietro a Ovile is described as a medieval Roman Catholic church located on Via del Giglio in Siena, in the Region of Tuscany, Italy. The note is very brief and gives only this basic identification and location.",
+ "one_line": "A medieval Roman Catholic church on Via del Giglio in Siena, Tuscany, Italy.",
+ "key_facts": [
+  "San Pietro a Ovile is a medieval Roman Catholic church.",
+  "San Pietro a Ovile is located in Via del Giglio in Siena.",
+  "San Pietro a Ovile is located in the Region of Tuscany, Italy."
+ ],
+ "entities": [
+  {
+   "name": "San Pietro a Ovile",
+   "type": "place",
+   "role": "medieval Roman Catholic church located in Via del Giglio in Siena, Tuscany, Italy"
+  },
+  {
+   "name": "Via del Giglio",
+   "type": "place",
+   "role": "street in Siena where San Pietro a Ovile is located"
+  },
+  {
+   "name": "Siena",
+   "type": "place",
+   "role": "city in the Region of Tuscany, Italy, where San Pietro a Ovile is located"
+  },
+  {
+   "name": "Tuscany",
+   "type": "place",
+   "role": "region of Italy in which Siena lies"
+  }
+ ],
+ "tags": [
+  "churches",
+  "siena",
+  "tuscany",
+  "italy",
+  "medieval architecture"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1049,
+  "output_tokens": 432
+ }
+}

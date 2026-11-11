@@ -1,0 +1,49 @@
+{
+ "summary": "The note is a short fragment from the Wikipedia list of European Cup and UEFA Champions League finals. Its visible content is an infobox-style summary: the competition was founded in 1955, is run by UEFA for Europe, has 32 teams in the group stage and 2 finalists, and Real Madrid is both the current champion with its 12th title and the most successful club with 12 titles. The page also references the 2017-18 UEFA Champions League season. The rest of the list of finals is not included in the note.",
+ "one_line": "Infobox summary of the European Cup and UEFA Champions League finals list, covering the competition's 1955 founding, format, and Real Madrid's record of 12 titles.",
+ "key_facts": [
+  "The European Cup / Champions League trophy belongs to a competition founded in 1955.",
+  "The competition's region is Europe, governed by UEFA.",
+  "The Champions League group stage has 32 teams.",
+  "The final is contested by 2 teams (finalists).",
+  "The current champions of the competition are Real Madrid, which won its 12th title.",
+  "Real Madrid is the most successful club in the competition, with 12 titles.",
+  "The note references the 2017-18 UEFA Champions League season.",
+  "The note is a Wikipedia list titled 'List of European Cup and UEFA Champions League finals'."
+ ],
+ "entities": [
+  {
+   "name": "European Cup",
+   "type": "event",
+   "role": "original name of the competition, whose trophy is shown in the infobox"
+  },
+  {
+   "name": "UEFA Champions League",
+   "type": "event",
+   "role": "competition whose finals are listed; the 2017-18 season is referenced"
+  },
+  {
+   "name": "UEFA",
+   "type": "organization",
+   "role": "governing body for the competition's region of Europe"
+  },
+  {
+   "name": "Real Madrid",
+   "type": "organization",
+   "role": "current champion with its 12th title and most successful club with 12 titles"
+  }
+ ],
+ "tags": [
+  "football",
+  "uefa champions league",
+  "european cup",
+  "real madrid",
+  "club competitions",
+  "europe"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1125,
+  "output_tokens": 947
+ }
+}

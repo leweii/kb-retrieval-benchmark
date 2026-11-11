@@ -1,0 +1,38 @@
+{
+ "summary": "A short note about the song \"Cry\" (titled \"Song Cry\" in the note). It reports that Jay-Z, in an interview with Bill Maher, said the song was inspired by three different past relationships. He wrote about each of these experiences in separate verses.",
+ "one_line": "Note on the song \"Cry\", whose inspiration Jay-Z described in an interview with Bill Maher.",
+ "key_facts": [
+  "The note is titled \"Song Cry\" and is sourced from Wikipedia.",
+  "Jay-Z stated in an interview with Bill Maher that the song was inspired by three different relationships he had in the past.",
+  "Jay-Z wrote about his different experiences together in different verses of the song."
+ ],
+ "entities": [
+  {
+   "name": "Jay-Z",
+   "type": "person",
+   "role": "rapper who stated in an interview with Bill Maher that the song was inspired by three past relationships"
+  },
+  {
+   "name": "Bill Maher",
+   "type": "person",
+   "role": "interviewer who spoke with Jay-Z about the song"
+  },
+  {
+   "name": "Song Cry",
+   "type": "product",
+   "role": "song whose inspiration is discussed in the note"
+  }
+ ],
+ "tags": [
+  "jay-z",
+  "song",
+  "music",
+  "songwriting",
+  "bill maher"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1040,
+  "output_tokens": 417
+ }
+}

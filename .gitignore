@@ -1,0 +1,12 @@
+# downloaded datasets and generated artifacts (reproducible via scripts/)
+data/raw/
+corpora/
+indexes/
+/results/
+.qmd/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# kept in git: data/digest/ — LLM-wiki map outputs (cost ~$77 to regenerate)

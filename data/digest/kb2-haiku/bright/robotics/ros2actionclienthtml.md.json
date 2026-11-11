@@ -1,0 +1,68 @@
+{
+ "summary": "This note is an HTML example page from the RosLib project showing a ROS 2 action client written in JavaScript. It connects to rosbridge at ws://localhost:9090, updates status indicators for connecting, connected, error and closed states, and sends a Fibonacci action goal with order 5 to the /fibonacci action of type action_tutorials_interfaces/Fibonacci. Results and feedback are printed to the browser console, and the page lists the terminal commands needed to run the rosbridge server and the Fibonacci action server.",
+ "one_line": "A browser-based RosLib example that sends a Fibonacci action goal to a ROS 2 action server through rosbridge.",
+ "key_facts": [
+  "The page connects to rosbridge at the URL ws://localhost:9090 using ROSLIB.Ros.",
+  "The ActionClient is created with name '/fibonacci' and actionType 'action_tutorials_interfaces/Fibonacci'.",
+  "The example sends a goal with order 5 using fibonacciClient.sendGoal.",
+  "The result callback logs result.result.sequence to the JavaScript console.",
+  "The feedback callback logs feedback.partial_sequence to the JavaScript console.",
+  "On a backend error, the ros 'error' event hides the connecting, connected and closed indicators and shows the error indicator.",
+  "On a successful connection, the 'connection' event shows the element with id 'connected' and hides the others.",
+  "When the connection closes, the 'close' event shows the element with id 'closed'.",
+  "The first setup step is to run 'ros2 launch rosbridge_server rosbridge_websocket_launch.xml' in the terminal.",
+  "The second setup step is to run 'ros2 run action_tutorials_py fibonacci_action_server' in the terminal.",
+  "The page loads eventemitter3 from unpkg and the RosLib UMD build from ../dist/RosLib.umd.cjs.",
+  "The page title is 'Fibonacci ActionClient Example' and the user is told to refresh the page after starting the commands and check the JavaScript console for output."
+ ],
+ "entities": [
+  {
+   "name": "rosbridge_server",
+   "type": "program",
+   "role": "ROS 2 package whose websocket launch file is run to start the rosbridge server the page connects to"
+  },
+  {
+   "name": "fibonacci_action_server",
+   "type": "program",
+   "role": "ROS 2 action server from action_tutorials_py that the page's action client sends goals to"
+  },
+  {
+   "name": "action_tutorials_interfaces/Fibonacci",
+   "type": "product",
+   "role": "action type used by the /fibonacci action client"
+  },
+  {
+   "name": "/fibonacci",
+   "type": "product",
+   "role": "name of the ROS action the client sends goals to"
+  },
+  {
+   "name": "RosLib",
+   "type": "program",
+   "role": "JavaScript library loaded from ../dist/RosLib.umd.cjs that provides ROSLIB.Ros and ROSLIB.Action"
+  },
+  {
+   "name": "eventemitter3",
+   "type": "program",
+   "role": "event emitter library loaded from unpkg as a dependency of the page"
+  },
+  {
+   "name": "ws://localhost:9090",
+   "type": "place",
+   "role": "websocket address of the rosbridge server the page connects to"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "rosbridge",
+  "javascript",
+  "action-client",
+  "robotics",
+  "fibonacci"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2051,
+  "output_tokens": 1065
+ }
+}

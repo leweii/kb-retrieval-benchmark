@@ -1,0 +1,37 @@
+{
+ "summary": "This note is a documentation page for the UNDROP command, which restores a previously dropped object to the system. It gives the general syntax UNDROP <object_type> <identifier> and points to separate reference sections for Organization, Account and Database objects. It notes that not every DROP command has a corresponding UNDROP, and gives one example restoring a database named mydb.",
+ "one_line": "Reference page for the UNDROP command, which restores dropped objects, with its syntax, usage note, and a database example.",
+ "key_facts": [
+  "The UNDROP command restores the specified object to the system.",
+  "The general syntax is UNDROP <object_type> <identifier>.",
+  "Reference sections are provided for Organization Objects, Account Objects, and Database Objects.",
+  "A general usage note states that not all DROP commands have a corresponding UNDROP.",
+  "The example UNDROP DATABASE mydb; restores a database named mydb.",
+  "The page's On this page section lists three headings: Syntax, General Usage Notes, and Examples.",
+  "The page language is English."
+ ],
+ "entities": [
+  {
+   "name": "UNDROP",
+   "type": "program",
+   "role": "SQL command that restores the specified object to the system"
+  },
+  {
+   "name": "mydb",
+   "type": "other",
+   "role": "database name used in the UNDROP example"
+  }
+ ],
+ "tags": [
+  "sql",
+  "undrop",
+  "database",
+  "documentation",
+  "restore"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1248,
+  "output_tokens": 437
+ }
+}

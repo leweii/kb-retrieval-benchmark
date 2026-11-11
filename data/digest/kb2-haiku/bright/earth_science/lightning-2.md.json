@@ -1,0 +1,95 @@
+{
+ "summary": "The note is the Wikipedia article on lightning, describing it as an electrostatic discharge that neutralizes charge between regions in the atmosphere or between atmosphere and ground, releasing roughly 200 megajoules to 7 gigajoules of energy. It covers the main types of lightning (intra-cloud, cloud-to-cloud, cloud-to-ground), how thunderstorm electrification and leader/return-stroke processes work, global frequency and distribution, and related effects such as thunder, fires, and air chemistry. The excerpt ends partway through the Types section, so later sections on effects, science, and culture are not included.",
+ "one_line": "Wikipedia overview of lightning as an electrostatic discharge, covering its types, charging mechanisms, leaders, return strokes, and global frequency.",
+ "key_facts": [
+  "Lightning is a natural phenomenon formed by electrostatic discharges that temporarily neutralize charged regions, releasing an average of between 200 megajoules and 7 gigajoules of energy depending on the type.",
+  "Lightning causes thunder, a sound from the shock wave that develops as gases near the discharge experience a sudden increase in pressure.",
+  "The three main kinds of lightning are intra-cloud, cloud-to-cloud, and cloud-to-ground, with cloud-to-ground called a lightning strike.",
+  "The first known photograph of lightning is from 1847, by Thomas Martin Easterly.",
+  "The first surviving photograph of lightning is from 1882, by William Nicholson Jennings.",
+  "The fear of lightning is called astraphobia.",
+  "In a thunderstorm's central updraft area, temperatures range from −15 to −25 °C (5 to −13 °F), and the upper cloud becomes positively charged while the middle to lower cloud becomes negatively charged.",
+  "Lightning frequency on Earth is approximately 44 (± 5) times per second, or nearly 1.4 billion flashes per year.",
+  "About 70% of lightning occurs over land in the tropics, where atmospheric convection is greatest.",
+  "In the tropics only 10% of lightning flashes are cloud-to-ground, while at the latitude of Norway around 50% of lightning is cloud-to-ground.",
+  "The place where lightning occurs most often is over Lake Maracaibo, where the Catatumbo lightning phenomenon produces 250 bolts of lightning a day.",
+  "On April 29, 2020, a bolt 768 km (477.2 mi) long was observed in the southern U.S., according to the World Meteorological Organization.",
+  "The return stroke current averages 30 kiloamperes for a typical negative CG flash, and travels at around 100,000 km/s (one-third of the speed of light).",
+  "The core temperature of the plasma during the return stroke may exceed 27,800 °C (50,000 °F).",
+  "Most negative CG lightning flashes are made up of 3 or 4 individual strokes, though there may be as many as 30."
+ ],
+ "entities": [
+  {
+   "name": "Thomas Martin Easterly",
+   "type": "person",
+   "role": "photographer credited with the first known photograph of lightning, from 1847"
+  },
+  {
+   "name": "William Nicholson Jennings",
+   "type": "person",
+   "role": "photographer who took the first surviving photograph of lightning, from 1882, and spent half his life capturing lightning"
+  },
+  {
+   "name": "Heinz Kasemir",
+   "type": "person",
+   "role": "first theorized the upward streamer process"
+  },
+  {
+   "name": "William Thomson (Lord Kelvin)",
+   "type": "person",
+   "role": "demonstrated charge separation in water at Earth's surface and developed a continuous electric field measuring device"
+  },
+  {
+   "name": "World Meteorological Organization",
+   "type": "organization",
+   "role": "reported the 768 km long bolt observed on April 29, 2020"
+  },
+  {
+   "name": "NASA's Optical Transient Detector",
+   "type": "program",
+   "role": "space-based sensor whose data from April 1995 to February 2003 depicted the uneven distribution of worldwide lightning"
+  },
+  {
+   "name": "Lake Maracaibo",
+   "type": "place",
+   "role": "location where lightning occurs most often, with the Catatumbo lightning phenomenon"
+  },
+  {
+   "name": "Kifuka",
+   "type": "place",
+   "role": "village in the mountains of eastern Democratic Republic of the Congo with the second most lightning density"
+  },
+  {
+   "name": "Lightning Alley",
+   "type": "place",
+   "role": "lightning hotspot in Central Florida"
+  },
+  {
+   "name": "Canyonlands National Park",
+   "type": "place",
+   "role": "location of a four-second video of a lightning strike"
+  },
+  {
+   "name": "Gulf Stream",
+   "type": "place",
+   "role": "warm ocean current that partially explains elevated lightning frequency in the Southeast United States"
+  },
+  {
+   "name": "LOFAR",
+   "type": "program",
+   "role": "observational instrument whose data favored a streamer avalanche model during storms"
+  }
+ ],
+ "tags": [
+  "lightning",
+  "thunderstorms",
+  "atmospheric electricity",
+  "weather",
+  "electrostatic discharge"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12030,
+  "output_tokens": 1616
+ }
+}

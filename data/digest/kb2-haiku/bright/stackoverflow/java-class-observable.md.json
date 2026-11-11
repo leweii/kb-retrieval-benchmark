@@ -1,0 +1,70 @@
+{
+ "summary": "This note is the API reference page for the Java class java.util.Observable from the Java Platform Standard Edition 7 documentation. It explains that Observable represents an observable object in the model-view paradigm, whose observers are notified via their update method after a change. The page lists the class's constructor and methods, such as addObserver, deleteObserver, notifyObservers, setChanged, clearChanged and hasChanged, along with their behavior.",
+ "one_line": "Oracle's Java SE 7 API reference page for the java.util.Observable class and its observer-notification methods.",
+ "key_facts": [
+  "The Observable class is in the java.util package and was introduced in JDK1.0.",
+  "Observable represents an observable object, or \"data\" in the model-view paradigm.",
+  "An observer may be any object that implements the Observer interface.",
+  "After an observable instance changes, calling notifyObservers causes all observers to be notified by a call to their update method.",
+  "The order in which notifications are delivered is unspecified; the default implementation notifies observers in the order they registered interest.",
+  "The notification mechanism has nothing to do with threads and is completely separate from the wait and notify mechanism of class Object.",
+  "When an observable object is newly created, its set of observers is empty.",
+  "Two observers are considered the same if and only if the equals method returns true for them.",
+  "The public constructor Observable() constructs an Observable with zero Observers.",
+  "addObserver throws a NullPointerException if the parameter o is null.",
+  "deleteObserver called with null has no effect.",
+  "setChanged is protected and marks the object as changed so that hasChanged returns true.",
+  "clearChanged is protected, is called automatically by the notifyObservers methods, and makes hasChanged return false.",
+  "countObservers returns the number of observers of this Observable object.",
+  "The page is copyright 1993, 2020, Oracle and/or its affiliates."
+ ],
+ "entities": [
+  {
+   "name": "Observable",
+   "type": "product",
+   "role": "Java class in java.util that represents an observable object in the model-view paradigm; the subject of this API page"
+  },
+  {
+   "name": "Observer",
+   "type": "product",
+   "role": "Java interface in java.util implemented by objects that observe an Observable and receive update calls"
+  },
+  {
+   "name": "Object",
+   "type": "product",
+   "role": "Java base class (java.lang.Object) that Observable extends; its wait and notify mechanism is separate from observer notification"
+  },
+  {
+   "name": "Java Platform Standard Ed. 7",
+   "type": "product",
+   "role": "Version of the Java platform documentation that this API page belongs to"
+  },
+  {
+   "name": "Oracle",
+   "type": "organization",
+   "role": "Copyright holder of the Java API documentation page"
+  },
+  {
+   "name": "NullPointerException",
+   "type": "product",
+   "role": "Exception thrown by addObserver when the observer parameter is null"
+  },
+  {
+   "name": "Objects",
+   "type": "product",
+   "role": "Previous class in the java.util package navigation, linked from this page"
+  }
+ ],
+ "tags": [
+  "java",
+  "api-reference",
+  "observer-pattern",
+  "java-util",
+  "design-pattern"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5554,
+  "output_tokens": 956
+ }
+}

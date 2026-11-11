@@ -1,0 +1,88 @@
+{
+ "summary": "The note describes the languages spoken or historically spoken in the United States. It says English (American English) is the de facto national language and Spanish is the second most common since the 1965 Immigration Act, and that the U.S. has no official language, though some states recognize specific ones. The note contains two versions of its text that disagree on key figures: one says over 500 languages are used and that some states recognize French or Spanish, while the other says over 350 languages, 32 of 50 states have declared English official, and Puerto Rico operates almost entirely in Spanish.",
+ "one_line": "Overview of the many languages used in the United States, including English as de facto national language, Spanish, state-level official languages, and indigenous languages.",
+ "key_facts": [
+  "Today over 500 languages are used by the U.S. population (first version of the note).",
+  "Today over 350 languages are used by the U.S. population (second version of the note).",
+  "American English is the most commonly used language and is the de facto national language of the United States.",
+  "Since the 1965 Immigration Act, Spanish is the second most common language in the country.",
+  "The United States does not have an official language, according to the note.",
+  "In the second version, 32 state governments out of 50 have declared English to be one, or the only, official language.",
+  "The government of Louisiana offers services and most documents in both English and French (second version); the first version says services and documents in French.",
+  "The government of New Mexico offers services and documents in English and Spanish (second version); the first version says Spanish.",
+  "The government of Puerto Rico, a U.S. territory, operates almost entirely in Spanish, even though its official languages are Spanish and English (second version only).",
+  "Hawaiian, although having few native speakers, is an official language along with English of the state of Hawaii.",
+  "Alaska officializes English and twenty native languages.",
+  "Many languages indigenous to North America or to U.S. states or holdings in the Pacific region are spoken in the United States."
+ ],
+ "entities": [
+  {
+   "name": "United States",
+   "type": "place",
+   "role": "country whose population uses over 350 or 500 languages, depending on the version, and which has no official language"
+  },
+  {
+   "name": "American English",
+   "type": "other",
+   "role": "most commonly used language in the United States and its de facto national language"
+  },
+  {
+   "name": "Spanish",
+   "type": "other",
+   "role": "second most common language in the country since the 1965 Immigration Act; official language of Puerto Rico and recognized in New Mexico"
+  },
+  {
+   "name": "French",
+   "type": "other",
+   "role": "language in which the government of Louisiana offers services and documents"
+  },
+  {
+   "name": "Hawaiian",
+   "type": "other",
+   "role": "language with few native speakers that is an official language along with English of the state of Hawaii"
+  },
+  {
+   "name": "1965 Immigration Act",
+   "type": "event",
+   "role": "event after which Spanish became the second most common language in the country"
+  },
+  {
+   "name": "Louisiana",
+   "type": "place",
+   "role": "state whose government offers services and documents in French (and English in the second version)"
+  },
+  {
+   "name": "New Mexico",
+   "type": "place",
+   "role": "state whose government offers services and documents in Spanish (and English in the second version)"
+  },
+  {
+   "name": "Puerto Rico",
+   "type": "place",
+   "role": "U.S. territory whose government operates almost entirely in Spanish, though its official languages are Spanish and English"
+  },
+  {
+   "name": "Hawaii",
+   "type": "place",
+   "role": "state where Hawaiian is an official language along with English"
+  },
+  {
+   "name": "Alaska",
+   "type": "place",
+   "role": "state that officializes English and twenty native languages"
+  }
+ ],
+ "tags": [
+  "languages",
+  "linguistics",
+  "united states",
+  "official languages",
+  "indigenous languages",
+  "multilingualism"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1519,
+  "output_tokens": 1436
+ }
+}

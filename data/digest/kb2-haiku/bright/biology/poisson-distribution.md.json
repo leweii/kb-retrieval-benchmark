@@ -1,0 +1,70 @@
+{
+ "summary": "The note is a encyclopedic overview of the Poisson distribution, a discrete probability distribution giving the probability of a number of independent events occurring in a fixed interval at a known constant mean rate. It covers the probability mass function, the named history from de Moivre and Poisson through Bortkiewicz's horse-kick data, and worked examples such as overflow floods, World Cup goals and meteorite hits. It also covers assumptions and violations, statistical properties, and related distributions including the binomial limit, normal and chi-squared approximations, and multivariate extensions.",
+ "one_line": "Overview of the Poisson distribution: its definition, history, worked examples, assumptions, properties and related distributions.",
+ "key_facts": [
+  "The Poisson distribution is a discrete probability distribution expressing the probability of a given number of events in a fixed interval when events occur at a known constant mean rate and independently of the time since the last event.",
+  "The Poisson distribution is named after French mathematician Siméon Denis Poisson (1781–1840).",
+  "Poisson published the distribution in his 1837 work Recherches sur la probabilité des jugements en matière criminelle et en matière civile.",
+  "Abraham de Moivre gave the result in 1711 in De Mensura Sortis, which makes it an example of Stigler's law.",
+  "In 1898 Ladislaus Bortkiewicz showed that accidental deaths of soldiers in the Prussian army from horse kicks could be well modeled by a Poisson distribution.",
+  "The probability mass function is f(k;λ) = λ^k e^(−λ) / k!, where λ is both the expected value and the variance.",
+  "For a call center receiving an average of λ = 3 calls per minute, receiving 1 to 4 calls has a probability of about 0.77, while 0 or at least 5 calls has a probability of about 0.23.",
+  "On a river where overflow floods occur once every 100 years on average, the probability of 0 overflow floods in a 100-year interval is about 0.368.",
+  "The average number of goals in a World Cup soccer match is approximately 2.5, and the probability of 0 goals in a match is about 0.082.",
+  "The probability of no large meteorite hits in the next 100 years, when the average is one per 100 years, is roughly 0.37.",
+  "The Poisson distribution is a good approximation of the binomial distribution if n is at least 20 and p is smaller than or equal to 0.05, and an excellent approximation if n ≥ 100 and np ≤ 10.",
+  "For λ greater than about 10, the normal distribution with mean λ and variance λ is a good approximation if a continuity correction is applied.",
+  "The coefficient of variation is λ^(-1/2) and the index of dispersion is 1.",
+  "If X_i are independent Poisson variables with means λ_i, their sum is Poisson distributed with mean equal to the sum of the λ_i.",
+  "If the number of arrivals in [0, t] is Poisson with mean λt, the inter-arrival times are independent and identically distributed exponential random variables with mean 1/λ."
+ ],
+ "entities": [
+  {
+   "name": "Siméon Denis Poisson",
+   "type": "person",
+   "role": "French mathematician after whom the Poisson distribution is named; first introduced the distribution, publishing it in 1837 (1781–1840)"
+  },
+  {
+   "name": "Abraham de Moivre",
+   "type": "person",
+   "role": "mathematician who gave the result in 1711 in De Mensura Sortis, which some authors argue should bear his name"
+  },
+  {
+   "name": "Simon Newcomb",
+   "type": "person",
+   "role": "fitted the Poisson distribution to the number of stars found in a unit of space in 1860"
+  },
+  {
+   "name": "Ladislaus Bortkiewicz",
+   "type": "person",
+   "role": "showed in 1898 that Prussian army soldiers' accidental horse-kick deaths could be modeled by a Poisson distribution"
+  },
+  {
+   "name": "Recherches sur la probabilité des jugements en matière criminelle et en matière civile",
+   "type": "event",
+   "role": "1837 work by Poisson in which the distribution was published, theorizing about wrongful convictions"
+  },
+  {
+   "name": "De Mensura Sortis",
+   "type": "event",
+   "role": "work by Abraham de Moivre in which the result was given in 1711"
+  },
+  {
+   "name": "Stigler's law",
+   "type": "other",
+   "role": "principle that the Poisson distribution is an example of, given the de Moivre result"
+  }
+ ],
+ "tags": [
+  "probability",
+  "statistics",
+  "poisson distribution",
+  "discrete distributions",
+  "probability theory"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16773,
+  "output_tokens": 1465
+ }
+}

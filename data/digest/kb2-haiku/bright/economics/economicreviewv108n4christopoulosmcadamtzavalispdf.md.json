@@ -1,0 +1,105 @@
+{
+ "summary": "This Kansas City Fed Economic Review article by Dimitris Christopoulos, Peter McAdam, and Elias Tzavalis asks whether the effects of U.S. monetary policy, represented by the federal funds rate, depend on whether the economy is in a high- or low-inflation regime. Using a threshold vector autoregression (TVAR) with a 20-month moving average of inflation as a proxy for expected inflation, they estimate a threshold of 4.05 percent. They find the economy responds more slowly and volatilely to a rate increase in the high-inflation state, so rates must be held higher for longer to bring inflation down. The article also reviews U.S. monetary policy regimes from the 1970s to 2021 and offers theoretical reasons such as price stickiness and unanchored expectations.",
+ "one_line": "Study using a threshold VAR finding that U.S. monetary policy works more slowly and volatilely when expected inflation exceeds about 4 percent.",
+ "key_facts": [
+  "Inflation as measured by the 12-month change in the consumer price index fell from a peak of 9 percent in June 2022 to 3.7 percent in August 2023.",
+  "The FOMC's longer-run inflation objective of 2 percent had not been met since February 2021.",
+  "The threshold value estimated by the TVAR model for expected inflation is 4.05 percent.",
+  "The economy is in a high-inflation state when expected inflation is above 4.05 percent and in a low-inflation state otherwise.",
+  "The threshold variable in the TVAR is a 20-month moving average of inflation rates, used as a measure of inflation expectations.",
+  "High-inflation states represent around 40 percent of the 1970–2021 sample.",
+  "In the high-inflation state, the economy reacts more slowly and with more volatility to a change in monetary policy than in the low-inflation state.",
+  "In the high-inflation state, interest rates must be held higher for longer to bring inflation back down relative to a low-inflation state.",
+  "Under a one-standard-deviation federal funds rate increase, industrial output growth in the low-inflation state falls below zero three months after the shock at around −1.5 percent and reverts quickly.",
+  "The federal funds rate reached a peak of around 20 percent in 1980–81 during the Volcker disinflation.",
+  "The zero lower bound period ran from 2009 until around 2015, when the federal funds rate was reduced to around zero.",
+  "Since March 2022, the FOMC engaged in a rapid upward movement of the federal funds rate.",
+  "The article's monetary policy regimes include the Great Inflation, Volcker disinflation, Great Moderation, global financial crisis and zero lower bound, and COVID-19 and global disruptions.",
+  "The authors argue high inflation reduces real interest rates, influences demand for investment, durable goods and housing, and may cause long-run inflation expectations to become unanchored."
+ ],
+ "entities": [
+  {
+   "name": "Dimitris Christopoulos",
+   "type": "person",
+   "role": "professor of economics at the Athens University of Economics and Business and co-author of the article"
+  },
+  {
+   "name": "Peter McAdam",
+   "type": "person",
+   "role": "senior research and policy advisor at the Federal Reserve Bank of Kansas City and co-author of the article"
+  },
+  {
+   "name": "Elias Tzavalis",
+   "type": "person",
+   "role": "professor of economics at the Athens University of Economics and Business and co-author of the article"
+  },
+  {
+   "name": "Federal Reserve Bank of Kansas City",
+   "type": "organization",
+   "role": "publisher of the Economic Review in which the article appears"
+  },
+  {
+   "name": "Federal Open Market Committee",
+   "type": "organization",
+   "role": "monetary policy committee whose 2 percent longer-run inflation objective is cited"
+  },
+  {
+   "name": "Paul Volcker",
+   "type": "person",
+   "role": "then-Federal Reserve Chair who worked to bring down inflation during the Volcker disinflation"
+  },
+  {
+   "name": "Volcker disinflation",
+   "type": "event",
+   "role": "period of high and volatile federal funds rate and two deep recessions aimed at controlling the Great Inflation"
+  },
+  {
+   "name": "Great Inflation",
+   "type": "event",
+   "role": "1960s to 1982 period of historic double-digit inflation and four recessions"
+  },
+  {
+   "name": "Great Moderation",
+   "type": "event",
+   "role": "long period of macroeconomic stability from the mid-1980s until just before the 2007 global financial crisis"
+  },
+  {
+   "name": "Global financial crisis",
+   "type": "event",
+   "role": "2007–09 crisis characterized by very low inflation and accommodative policy"
+  },
+  {
+   "name": "Bretton Woods system",
+   "type": "program",
+   "role": "fixed exchange rate system whose breakdown contributed to high inflation in the 1970s"
+  },
+  {
+   "name": "threshold vector autoregression model (TVAR)",
+   "type": "program",
+   "role": "statistical model used to estimate high- and low-inflation regimes and monetary policy responses"
+  },
+  {
+   "name": "Federal Reserve",
+   "type": "organization",
+   "role": "central bank whose monetary policy framework changed from responding to exchange rates and money supply to targeting inflation"
+  },
+  {
+   "name": "U.S. Bureau of Labor Statistics",
+   "type": "organization",
+   "role": "source of inflation data used in the charts"
+  }
+ ],
+ "tags": [
+  "monetary policy",
+  "inflation regimes",
+  "federal funds rate",
+  "threshold var",
+  "monetary transmission",
+  "federal reserve"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 9554,
+  "output_tokens": 1737
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "summary": "Seasonal lag is the delay between peak insolation (solstices) and peak or minimum air temperature, caused largely by water's high latent heat and related to thermal inertia. The note explains how the lag length varies by climate, from 15-20 days in polar and continental areas to 2-3 months in oceanic locales, with examples such as San Francisco, East Asia and Eastern Canada. It also covers why equinoxes and solstices do not align with temperature, and notes that other planets show different lags, with Mars negligible and Venus and Mercury showing none.",
+ "one_line": "Seasonal lag is the delay between solar insolation peaks and the warmest or coldest air temperatures, varying with climate and water influence.",
+ "key_facts": [
+  "Seasonal lag is the delay of the date of maximum average air temperature until some time after the date of maximum insolation, the summer solstice.",
+  "Earth's seasonal lag is largely caused by the presence of large amounts of water, which has a high latent heat of freezing and of condensation.",
+  "Seasonal lag extremes range from 15–20 days for polar regions in summer and continental interiors such as Fairbanks, Alaska, to 2–3 months in oceanic locales.",
+  "In mid-latitude continental climates, seasonal lag is approximately 20–25 days in winter and 25–35 days in summer.",
+  "In most Northern Hemisphere regions, February is usually colder than November despite February having significantly later sunsets and more daylight overall.",
+  "San Francisco has an exceptionally long seasonal lag in summer, with average daily temperatures peaking in September, and very little seasonal lag in winter.",
+  "In Western Europe the seasonal lag is usually around a month.",
+  "In eastern Canada, February and August are the coldest and warmest months, respectively, because the seasonal lag is consistent in summer and winter.",
+  "Due to seasonal lag, the autumnal equinox (around September 22) is considerably warmer than the vernal equinox (around March 20) in most Northern Hemisphere regions.",
+  "Contrary to popular belief, there is no meteorological reason for designating the equinoxes and solstices as the first days of their respective seasons.",
+  "An analogous temperature lag occurs in diurnal variation, where maximum daily temperature occurs after noon.",
+  "Both seasonal and diurnal lag are manifestations of the general physical phenomenon of thermal inertia.",
+  "Jupiter, Saturn, Uranus and Saturn's moon Titan have substantial seasonal lags equivalent to between two and three months in Earth terms.",
+  "Mars has negligible seasonal lag of no more than a few days.",
+  "No seasonal lag would be detected on Venus or Mercury, which undergo no seasons in the sense used on Earth."
+ ],
+ "entities": [
+  {
+   "name": "Fairbanks, Alaska",
+   "type": "place",
+   "role": "continental interior example where annual average warmest temperatures occur in early July"
+  },
+  {
+   "name": "Miami, Florida",
+   "type": "place",
+   "role": "low-latitude oceanic example of a 2–3 month seasonal lag"
+  },
+  {
+   "name": "Kuril Islands",
+   "type": "place",
+   "role": "higher-latitude oceanic example where at Simushir annual average temperatures peak in late August"
+  },
+  {
+   "name": "Cape Sable Island",
+   "type": "place",
+   "role": "location in Nova Scotia, Canada, where September is on average the year's warmest month by a slight margin"
+  },
+  {
+   "name": "Røst",
+   "type": "place",
+   "role": "ultra-maritime area north of the Arctic Circle where August can be the narrowly warmest month"
+  },
+  {
+   "name": "Jan Mayen",
+   "type": "place",
+   "role": "offshore island in Norway cited as an example of high-latitude summer lag"
+  },
+  {
+   "name": "Bear Island",
+   "type": "place",
+   "role": "offshore island in Norway at 74°N cited as an example of high-latitude summer lag"
+  },
+  {
+   "name": "San Francisco",
+   "type": "place",
+   "role": "city with exceptionally long summer seasonal lag, surrounded by Bay Area water on three sides"
+  },
+  {
+   "name": "Vladivostok",
+   "type": "place",
+   "role": "Russian city cited as a nearby area with stronger summer than winter lag in Japan, Korea and nearby areas"
+  },
+  {
+   "name": "Japan",
+   "type": "place",
+   "role": "East Asian country where January is the coldest month and August the warmest"
+  },
+  {
+   "name": "Korea",
+   "type": "place",
+   "role": "East Asian country where January is the coldest month and August the warmest"
+  },
+  {
+   "name": "Eastern Canada",
+   "type": "place",
+   "role": "region where seasonal lag is consistent in summer and winter"
+  },
+  {
+   "name": "Western Europe",
+   "type": "place",
+   "role": "region where seasonal lag is usually around a month despite the Atlantic coastline"
+  },
+  {
+   "name": "Jupiter",
+   "type": "place",
+   "role": "gas giant with substantial seasonal lag of two to three Earth months"
+  },
+  {
+   "name": "Saturn",
+   "type": "place",
+   "role": "gas giant with substantial seasonal lag of two to three Earth months"
+  },
+  {
+   "name": "Uranus",
+   "type": "place",
+   "role": "gas giant with substantial seasonal lag of two to three Earth months"
+  },
+  {
+   "name": "Titan",
+   "type": "place",
+   "role": "Saturn's moon with substantial seasonal lag of two to three Earth months"
+  },
+  {
+   "name": "Mars",
+   "type": "place",
+   "role": "planet with negligible seasonal lag of no more than a few days"
+  },
+  {
+   "name": "Venus",
+   "type": "place",
+   "role": "planet with no detectable seasonal lag because it undergoes no seasons"
+  },
+  {
+   "name": "Mercury",
+   "type": "place",
+   "role": "planet with no seasonal lag due to negligible atmosphere and almost instantaneous heating and cooling"
+  },
+  {
+   "name": "Gulf Stream",
+   "type": "event",
+   "role": "current whose moderation enables high-latitude summer lag in places such as Jan Mayen and Bear Island"
+  }
+ ],
+ "tags": [
+  "earth science",
+  "climate",
+  "seasons",
+  "thermal inertia",
+  "insolation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4500,
+  "output_tokens": 1926
+ }
+}

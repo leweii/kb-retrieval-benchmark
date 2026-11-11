@@ -1,0 +1,75 @@
+{
+ "summary": "This Snowflake documentation page describes the TO_XML function, which converts a VARIANT/semi-structured value into a VARCHAR containing its XML representation and returns NULL for NULL input. It explains the usage scenarios, including regenerating originally inserted XML and converting JSON-like values to XML-compatible form, and the type attributes Snowflake adds to generated tags for OBJECT and ARRAY values. Several examples show TO_XML applied to parsed XML, a constructed OBJECT, a constructed ARRAY, and parsed JSON.",
+ "one_line": "Snowflake's TO_XML function converts a semi-structured value into an XML-formatted VARCHAR, with type attributes on generated tags.",
+ "key_facts": [
+  "TO_XML(<expression>) converts a value to a VARCHAR that contains an XML representation of the value.",
+  "If the input to TO_XML is NULL, the result is also NULL.",
+  "The data type of the value returned by TO_XML is VARCHAR.",
+  "TO_XML can regenerate a string matching an originally inserted XML-formatted value.",
+  "For a value that did not originate as XML, Snowflake generates XML-compatible tags that may include a type attribute giving the Snowflake data type of the tag's contents.",
+  "The outermost tag for an OBJECT is similar to <SnowflakeData type=\"OBJECT\"></SnowflakeData>.",
+  "For an OBJECT, each key-value pair's tags are based on the key, for example <key1 type=\"VARCHAR\">value1</key1>.",
+  "For an ARRAY, each element is in a tag pair similar to <e type=\"VARCHAR\"></e>.",
+  "The example of TO_XML on the parsed XML note '<note> <body>Sample XML</body> </note>' returns <note><body>Sample XML</body></note>.",
+  "Calling TO_XML on the OBJECT created by OBJECT_CONSTRUCT('key1', 'value1', 'key2', 'value2') returns <SnowflakeData type=\"OBJECT\"><key1 type=\"VARCHAR\">value1</key1><key2 type=\"VARCHAR\">value2</key2></SnowflakeData>.",
+  "Calling TO_XML on the ARRAY created by ARRAY_CONSTRUCT('v1', 'v2') returns <SnowflakeData type=\"ARRAY\"><e type=\"VARCHAR\">v1</e><e type=\"VARCHAR\">v2</e></SnowflakeData>.",
+  "Calling TO_XML on the JSON parsed from { \"key1\": [\"a1\", \"a2\"] } returns an OBJECT tag containing a key1 tag with type=\"ARRAY\" and e elements a1 and a2.",
+  "The page lists TO_XML under the Snowflake function categories including JSON and XML Parsing and Conversion/Casting.",
+  "The function is enabled for all accounts."
+ ],
+ "entities": [
+  {
+   "name": "TO_XML",
+   "type": "product",
+   "role": "Function that converts a semi-structured value into an XML-formatted VARCHAR"
+  },
+  {
+   "name": "TO_VARCHAR",
+   "type": "product",
+   "role": "Function used alongside TO_XML in the first example to show the text form of a value"
+  },
+  {
+   "name": "TO_JSON",
+   "type": "product",
+   "role": "Function used in the JSON example to show the JSON text of a value"
+  },
+  {
+   "name": "PARSE_XML",
+   "type": "product",
+   "role": "Function used to parse an XML-formatted string into an OBJECT in the first example"
+  },
+  {
+   "name": "PARSE_JSON",
+   "type": "product",
+   "role": "Function used to parse a JSON string into a VARIANT in the JSON example"
+  },
+  {
+   "name": "OBJECT_CONSTRUCT",
+   "type": "product",
+   "role": "Function used to build a simple OBJECT with key1 and key2 values"
+  },
+  {
+   "name": "ARRAY_CONSTRUCT",
+   "type": "product",
+   "role": "Function used to build a simple ARRAY with values v1 and v2"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Vendor whose data platform generates the XML-compatible tags and provides the function"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql function",
+  "xml",
+  "json",
+  "semi-structured data",
+  "type conversion"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3819,
+  "output_tokens": 1402
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "summary": "This is Snowflake's reference page for the CREATE AGGREGATION POLICY command, which creates or replaces an aggregation policy in the current or specified schema. The page gives the syntax, explains the name and body parameters, and describes the NO_AGGREGATION_CONSTRAINT and AGGREGATION_CONSTRAINT internal functions, including how MIN_GROUP_SIZE values of 0 and 1 differ for outer joins. It also lists access control requirements, a usage note on metadata, and two examples. The feature requires Snowflake Enterprise Edition or higher.",
+ "one_line": "Snowflake reference for the CREATE AGGREGATION POLICY command, its syntax, parameters, MIN_GROUP_SIZE constraint functions, and examples.",
+ "key_facts": [
+  "CREATE AGGREGATION POLICY requires Snowflake Enterprise Edition (or higher).",
+  "The command syntax is CREATE [ OR REPLACE ] AGGREGATION POLICY [ IF NOT EXISTS ] <name> AS () RETURNS AGGREGATION_CONSTRAINT -> <body> [ COMMENT = '<string_literal>' ].",
+  "The name parameter must start with an alphabetic character and is case-sensitive only when enclosed in double quotes.",
+  "The body parameter is a SQL expression that determines the restrictions of an aggregation policy.",
+  "NO_AGGREGATION_CONSTRAINT is called without an argument and lets queries return unaggregated data from an aggregation-constrained table or view.",
+  "AGGREGATION_CONSTRAINT(MIN_GROUP_SIZE => <integer_expression>) requires queries to aggregate data, with MIN_GROUP_SIZE specifying how many records each aggregation group must include.",
+  "Passing 1 as MIN_GROUP_SIZE requires each aggregation group to contain at least one record from the aggregation-constrained table, so outer joins need at least one matching record from an unprotected table.",
+  "Passing 0 as MIN_GROUP_SIZE allows groups that consist entirely of records from the unprotected table in outer joins.",
+  "The body of a policy cannot reference user-defined functions, tables, or views.",
+  "The COMMENT parameter adds or overwrites a comment for the aggregation policy.",
+  "Executing CREATE AGGREGATION POLICY requires the CREATE AGGREGATION POLICY privilege on the schema, plus USAGE on the parent database and schema.",
+  "The first example creates a policy named my_policy that returns AGGREGATION_CONSTRAINT(MIN_GROUP_SIZE => 5), requiring groups of five or more rows.",
+  "The second example uses CURRENT_ROLE() = 'ADMIN' in a CASE expression to return NO_AGGREGATION_CONSTRAINT() for the admin role and AGGREGATION_CONSTRAINT(MIN_GROUP_SIZE => 5) for all other roles.",
+  "A usage note warns customers not to enter personal data (other than for a User object), sensitive, export-controlled, or other regulated data as metadata."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the service; the page's publisher and the source of Enterprise Edition and Snowflake Support"
+  },
+  {
+   "name": "CREATE AGGREGATION POLICY",
+   "type": "program",
+   "role": "SQL command documented on this page for creating or replacing an aggregation policy"
+  },
+  {
+   "name": "NO_AGGREGATION_CONSTRAINT",
+   "type": "program",
+   "role": "internal function that lets queries return unaggregated results from an aggregation-constrained table or view"
+  },
+  {
+   "name": "AGGREGATION_CONSTRAINT",
+   "type": "program",
+   "role": "internal function that requires queries to aggregate data, using the MIN_GROUP_SIZE argument"
+  },
+  {
+   "name": "MIN_GROUP_SIZE",
+   "type": "program",
+   "role": "argument of AGGREGATION_CONSTRAINT specifying how many records each aggregation group must include"
+  },
+  {
+   "name": "my_policy",
+   "type": "product",
+   "role": "example aggregation policy name used in both examples"
+  },
+  {
+   "name": "CURRENT_ROLE",
+   "type": "program",
+   "role": "function used in the second example to check whether the role is ADMIN"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact for inquiries about upgrading to Enterprise Edition"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "aggregation-policy",
+  "sql",
+  "data-governance",
+  "access-control",
+  "ddl"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2956,
+  "output_tokens": 1513
+ }
+}

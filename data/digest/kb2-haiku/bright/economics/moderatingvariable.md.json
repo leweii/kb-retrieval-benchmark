@@ -1,0 +1,79 @@
+{
+ "summary": "This Statistics How To page defines a moderating variable (moderator), a variable that changes the strength or direction of the effect between an independent (predictor) variable x and a dependent (criterion) variable y. It explains that moderators can be qualitative (such as sex or race) or quantitative (such as age or weight), gives examples involving stress and health status and socioeconomic status and breast self-exams, and notes that moderators are found by running multiple regression analysis, with SPSS and Stata guidance linked. The page also lists three references, though the surrounding site navigation and article listings are boilerplate.",
+ "one_line": "Defines moderating variables (moderators) that change the strength or direction of the relationship between two variables, and how to find them with regression.",
+ "key_facts": [
+  "A moderating variable, also called a moderator variable or simply M, changes the strength or direction of an effect between two variables x and y.",
+  "A moderating variable affects the relationship between the independent variable or predictor variable and a dependent variable or criterion variable.",
+  "A moderating variable can be qualitative (non-numerical values like race, socioeconomic class or sex) or quantitative (numerical values like weight, reward level or age).",
+  "According to the American Psychological Association, stress has a bigger impact on men than women.",
+  "Sex is a qualitative variable that moderates the strength of an effect between stress and health status.",
+  "Age is possibly a numerical moderating variable in the relationship between socioeconomic status and how often women perform breast self-exams.",
+  "In correlation studies, the moderating variable is defined as a third variable, z, that affects the correlation between two variables x and y.",
+  "A statistically significant moderating variable can amplify or weaken the correlation between x and y.",
+  "The moderating variable is technically another predictor variable, so multiple regression analysis is used to find moderating variables.",
+  "Some software calls the analysis run within regression a moderator analysis.",
+  "Laerd.com has step-by-step SPSS instructions for moderator analysis.",
+  "Baron and Kenny (1986) wrote on the moderator-mediator variable distinction in Journal of Personality and Social Psychology, volume 51, pages 1173-1182.",
+  "Hayes (2013) published Introduction to Mediation, Moderation, and Conditional Process Analysis: A Regression-Based Approach with Guilford Press."
+ ],
+ "entities": [
+  {
+   "name": "American Psychological Association",
+   "type": "organization",
+   "role": "source cited for the finding that stress has a bigger impact on men than women"
+  },
+  {
+   "name": "Laerd.com",
+   "type": "organization",
+   "role": "provider of thorough SPSS steps for moderator analysis"
+  },
+  {
+   "name": "SPSS",
+   "type": "product",
+   "role": "statistical software in which moderator analysis is performed following Laerd.com steps"
+  },
+  {
+   "name": "Stata",
+   "type": "product",
+   "role": "statistical software for which a guideline is found on the UCLA website"
+  },
+  {
+   "name": "UCLA website",
+   "type": "other",
+   "role": "source of a Stata guideline for finding moderating variables"
+  },
+  {
+   "name": "Baron, R. M., & Kenny, D. A. (1986)",
+   "type": "other",
+   "role": "reference on the moderator-mediator variable distinction in social psychological research"
+  },
+  {
+   "name": "Hayes, A.F. (2013)",
+   "type": "other",
+   "role": "reference on mediation, moderation, and conditional process analysis via regression"
+  },
+  {
+   "name": "Guilford Press",
+   "type": "organization",
+   "role": "publisher of Hayes (2013)"
+  },
+  {
+   "name": "Statistics How To",
+   "type": "organization",
+   "role": "website hosting the moderating variable page"
+  }
+ ],
+ "tags": [
+  "moderating variable",
+  "moderator analysis",
+  "regression",
+  "statistics",
+  "variables",
+  "correlation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2183,
+  "output_tokens": 1187
+ }
+}

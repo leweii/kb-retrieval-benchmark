@@ -1,0 +1,59 @@
+{
+ "summary": "This is a documentation page for the AS_ family of Snowflake-style functions, which perform strict casting of VARIANT values to specific data types such as AS_REAL, AS_DATE and similar. It states that a type mismatch returns NULL and that NULL input yields NULL. An example creates a table vartab with a VARIANT column populated from JSON strings, shows which values convert to real numbers, and computes an average of the numeric values, which is 99.106666667.",
+ "one_line": "Documentation for the AS_ casting functions that strictly convert VARIANT values to typed values, with an example averaging numeric variants.",
+ "key_facts": [
+  "The AS_ family of functions performs strict casting of VARIANT values to other data types.",
+  "If the type of value in the VARIANT argument does not match the output value, NULL is returned.",
+  "AS_DATE() returns NULL when passed a VARIANT value that does not contain a DATE.",
+  "If the input to an AS_ function is NULL, the output is NULL.",
+  "The example table vartab is created with columns n NUMBER(2) and v VARIANT.",
+  "The example loads nine rows into vartab using PARSE_JSON on column2 values.",
+  "The row with n = 4 has v value '-17' and typeof INTEGER.",
+  "The row with n = 5 has v value '123.12' and typeof DECIMAL.",
+  "The row with n = 6 has v value '1.912e2' and typeof DOUBLE, which AS_REAL returns as 191.2.",
+  "The row with n = 8 is an ARRAY and the row with n = 9 is an OBJECT; AS_REAL returns NULL for both.",
+  "The row with n = 7 is a VARCHAR, and AS_REAL returns NULL for it.",
+  "The query select avg(as_real(v)) from vartab returns 99.106666667.",
+  "The page lists related function categories including JSON and XML Parsing, Conversion/Casting, and Type Predicates."
+ ],
+ "entities": [
+  {
+   "name": "AS_REAL",
+   "type": "product",
+   "role": "casting function used in the example to convert VARIANT values to real numbers"
+  },
+  {
+   "name": "AS_DATE",
+   "type": "product",
+   "role": "casting function cited as an example that returns NULL when the VARIANT does not contain a DATE"
+  },
+  {
+   "name": "vartab",
+   "type": "product",
+   "role": "example table with NUMBER and VARIANT columns used to demonstrate casting"
+  },
+  {
+   "name": "PARSE_JSON",
+   "type": "product",
+   "role": "function used to convert JSON text strings into VARIANT values when loading vartab"
+  },
+  {
+   "name": "VARIANT",
+   "type": "product",
+   "role": "semi-structured data type that the AS_ functions cast from"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "variant",
+  "type-casting",
+  "sql",
+  "json",
+  "semi-structured-data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2143,
+  "output_tokens": 899
+ }
+}

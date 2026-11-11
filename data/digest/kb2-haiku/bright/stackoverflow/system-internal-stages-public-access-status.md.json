@@ -1,0 +1,77 @@
+{
+ "summary": "This Snowflake documentation page describes the system function SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS, which checks whether public IP addresses are allowed to access the internal stage of the current Snowflake account on Microsoft Azure. The function takes no arguments and returns one of two status messages, indicating whether public access is blocked or unblocked. It requires Business Critical edition or higher, can only be run by ACCOUNTADMIN users, may take a few minutes to execute, and is not supported on AWS or Google Cloud Platform.",
+ "one_line": "Snowflake system function that reports whether public IP addresses can reach the internal stage on Azure accounts.",
+ "key_facts": [
+  "SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS checks whether public IP addresses are allowed to access the internal stage of the current Snowflake account on Microsoft Azure.",
+  "The function requires Business Critical (or higher) Snowflake edition.",
+  "The function takes no arguments; its syntax is SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS().",
+  "One possible return message is 'Public Access to internal stages is blocked', indicating Azure settings block all public IP addresses.",
+  "A second possible return message is 'Public Access to internal stages is unblocked', indicating at least some public IP addresses can access the internal stage.",
+  "Only account administrators (users with the ACCOUNTADMIN role) can execute SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS.",
+  "The function can take a few minutes to finish executing.",
+  "The function can be used with Snowflake accounts on Azure only; AWS and Google Cloud Platform are not supported.",
+  "The documentation's example runs USE ROLE accountadmin; followed by SELECT SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS();.",
+  "The example output is 'Public Access to internal stages is blocked'.",
+  "Related functions are SYSTEM$BLOCK_INTERNAL_STAGES_PUBLIC_ACCESS and SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS",
+   "type": "program",
+   "role": "system function that checks whether public IP addresses can access the internal stage of the current Snowflake account on Azure"
+  },
+  {
+   "name": "SYSTEM$BLOCK_INTERNAL_STAGES_PUBLIC_ACCESS",
+   "type": "program",
+   "role": "related system function listed under 'See also'"
+  },
+  {
+   "name": "SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS",
+   "type": "program",
+   "role": "related system function listed under 'See also'"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the data platform whose system function and support team are described"
+  },
+  {
+   "name": "Microsoft Azure",
+   "type": "product",
+   "role": "cloud platform on which the function checks public access to internal stages; the only supported platform"
+  },
+  {
+   "name": "Business Critical",
+   "type": "product",
+   "role": "Snowflake edition required to use the function"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "program",
+   "role": "role required to execute the function"
+  },
+  {
+   "name": "Amazon Web Services (AWS)",
+   "type": "product",
+   "role": "cloud platform not supported by the function"
+  },
+  {
+   "name": "Google Cloud Platform",
+   "type": "product",
+   "role": "cloud platform not supported by the function"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "azure",
+  "internal stages",
+  "access control",
+  "system functions",
+  "security"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1794,
+  "output_tokens": 1263
+ }
+}

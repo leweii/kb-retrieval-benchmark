@@ -1,0 +1,75 @@
+{
+ "summary": "This Microsoft Learn article explains how to use Visual C++ code snippets in Visual Studio to insert or surround code quickly and reliably. It covers how to view the snippet list via the Code Snippets Manager, how to insert expansion snippets and surround selected code with #if 0 blocks, and what specific default snippets such as class, classi, for, forr, rfor and the destructor snippet (~) generate.",
+ "one_line": "Microsoft's guide to Visual C++ code snippets in Visual Studio, covering insertion, surround-with usage, and default snippets like class, for and destructor.",
+ "key_facts": [
+  "In Visual Studio, code snippets add commonly used code to C++ code files and can make writing program code quicker, easier, and more reliable.",
+  "Code snippets work much the same way in C++ and C#, but the set of default code snippets is different.",
+  "The C++ snippet list is viewed by selecting Tools > Code Snippets Manager or by pressing Ctrl + K, B and then selecting Visual C++ from the Language dropdown menu.",
+  "To insert a snippet, one can right-click and select Insert Snippet, select Edit > IntelliSense > Insert Snippet, or press Ctrl + K, X.",
+  "To surround selected code, one can right-click and select Surround With, select Edit > IntelliSense > Surround With, or press Ctrl + K, S.",
+  "The #if snippet inserts '#if 0' and '#endif // 0', and the 0 must be replaced with the correct condition.",
+  "The class snippet defines MyClass with its default constructor and destructor declared inside the class and defined outside it.",
+  "The classi snippet also defines MyClass but defines the default constructor and destructor inside the class definition.",
+  "The rfor snippet provides a range-based for loop, which the article says is preferred over index-based for loops.",
+  "The for snippet provides a for loop whose condition is based on the length of an object in size_t.",
+  "The forr snippet provides a reverse for loop whose condition is based on the length of an object in integers, starting at length - 1 and decrementing.",
+  "Inside a class, the destructor snippet (~) provides a destructor for that class; outside a class, it provides a destructor with the placeholder name TypeNamePlaceholder.",
+  "The article is dated 04/09/2024 and lists 9 contributors.",
+  "Related content links to the Code snippets and Code snippets schema reference pages."
+ ],
+ "entities": [
+  {
+   "name": "Visual Studio",
+   "type": "product",
+   "role": "IDE in which the C++ code snippets are used via the menu bar and shortcuts"
+  },
+  {
+   "name": "Visual C++",
+   "type": "program",
+   "role": "language whose default code snippets are listed in the Code Snippets Manager"
+  },
+  {
+   "name": "Code Snippets Manager",
+   "type": "product",
+   "role": "Visual Studio tool, opened from Tools menu, that lists available C++ code snippets"
+  },
+  {
+   "name": "Microsoft Edge",
+   "type": "product",
+   "role": "browser recommended in the page's browser-support banner"
+  },
+  {
+   "name": "MyClass",
+   "type": "other",
+   "role": "placeholder class name used in the class and classi snippet definitions"
+  },
+  {
+   "name": "SomeClass",
+   "type": "other",
+   "role": "example class name used to show the destructor snippet inside a class"
+  },
+  {
+   "name": "TypeNamePlaceholder",
+   "type": "other",
+   "role": "placeholder name the destructor snippet uses when inserted outside a class"
+  },
+  {
+   "name": "pch.h",
+   "type": "other",
+   "role": "header file used as the example selected line in the surround-with snippet example"
+  }
+ ],
+ "tags": [
+  "visual studio",
+  "c++",
+  "code snippets",
+  "ide",
+  "intellisense",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3815,
+  "output_tokens": 1178
+ }
+}

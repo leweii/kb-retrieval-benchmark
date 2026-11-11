@@ -1,0 +1,87 @@
+{
+ "summary": "The note describes the Lake District, a mountainous region in North West England entirely within Cumbria, famous for its lakes, forests and fells and its literary associations. It notes that all English land above 3,000 feet lies within the National Park, including Scafell Pike, and that Wast Water and Windermere are England's deepest and longest lakes. The park was established in 1951, extended slightly in 2016, and designated a UNESCO World Heritage Site in 2017. The text repeats its geographic opening paragraph almost verbatim, with a small difference in the height conversion (910 m vs 914 m).",
+ "one_line": "A mountainous North West England region in Cumbria known for its lakes, fells, Lake Poets and a 2017 UNESCO World Heritage designation.",
+ "key_facts": [
+  "The Lake District is located entirely within the county of Cumbria.",
+  "All the land in England higher than 3,000 feet (910 m) above sea level lies within the Lake District National Park.",
+  "Scafell Pike is the highest mountain in England.",
+  "Wast Water is the deepest body of water in England.",
+  "Windermere is the longest body of water in England.",
+  "The Lake District is also known as the Lakes or Lakeland.",
+  "The Lake District is a mountainous region in North West England famous for its lakes, forests and mountains (or fells).",
+  "The region is associated with the early 19th century writings of William Wordsworth and the other Lake Poets, Beatrix Potter, and John Ruskin.",
+  "A National Park was established in the Lake District in 1951.",
+  "Following a minor extension in 2016, the National Park covers an area of approximately 2,362 square kilometres.",
+  "The Lake District was designated a UNESCO World Heritage Site in 2017."
+ ],
+ "entities": [
+  {
+   "name": "Lake District",
+   "type": "place",
+   "role": "mountainous region in North West England, also known as the Lakes or Lakeland, entirely within Cumbria"
+  },
+  {
+   "name": "Cumbria",
+   "type": "place",
+   "role": "county entirely containing the Lake District"
+  },
+  {
+   "name": "Scafell Pike",
+   "type": "place",
+   "role": "highest mountain in England, lying within the National Park"
+  },
+  {
+   "name": "Wast Water",
+   "type": "place",
+   "role": "deepest body of water in England"
+  },
+  {
+   "name": "Windermere",
+   "type": "place",
+   "role": "longest body of water in England"
+  },
+  {
+   "name": "William Wordsworth",
+   "type": "person",
+   "role": "early 19th century writer associated with the Lake Poets"
+  },
+  {
+   "name": "Lake Poets",
+   "type": "other",
+   "role": "group of writers, including William Wordsworth, associated with the region's early 19th century writings"
+  },
+  {
+   "name": "Beatrix Potter",
+   "type": "person",
+   "role": "writer associated with the Lake District"
+  },
+  {
+   "name": "John Ruskin",
+   "type": "person",
+   "role": "writer associated with the Lake District"
+  },
+  {
+   "name": "Lake District National Park",
+   "type": "place",
+   "role": "National Park established in 1951, extended minorly in 2016, covering about 2,362 square kilometres"
+  },
+  {
+   "name": "UNESCO World Heritage Site",
+   "type": "program",
+   "role": "designation the Lake District received in 2017"
+  }
+ ],
+ "tags": [
+  "lake district",
+  "england",
+  "national parks",
+  "world heritage",
+  "english literature",
+  "cumbria"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1359,
+  "output_tokens": 1035
+ }
+}

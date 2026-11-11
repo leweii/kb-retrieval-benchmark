@@ -1,0 +1,41 @@
+{
+ "summary": "This is a reference page for the OCTET_LENGTH function, which returns the length of a string or binary value in bytes. For ASCII strings the result equals LENGTH, while for strings containing Unicode code points it is greater than LENGTH; for binary values it always equals LENGTH. The page gives the syntax, a single argument description, and an example query showing results for a 3-character ASCII string, a Greek capital beta character, and a binary literal.",
+ "one_line": "Reference for the OCTET_LENGTH function, which returns the byte length of a string or binary value.",
+ "key_facts": [
+  "OCTET_LENGTH returns the length of a string or binary value in bytes.",
+  "For ASCII strings, OCTET_LENGTH is the same as LENGTH.",
+  "For strings using Unicode code points, OCTET_LENGTH is greater than LENGTH.",
+  "For binary values, OCTET_LENGTH is always the same as LENGTH.",
+  "The syntax is OCTET_LENGTH(<string_or_binary>).",
+  "The single argument is string_or_binary, the string or binary value for which the length is returned.",
+  "The example OCTET_LENGTH('abc') returns 3.",
+  "The example OCTET_LENGTH('\\u0392') returns 2.",
+  "The example OCTET_LENGTH(X'A1B2') returns 2.",
+  "The examples are shown in a single SELECT statement with three result columns.",
+  "The page lists the function under categories including Encoding/Decoding and String Manipulation-related groups such as General Manipulation and Case Conversion."
+ ],
+ "entities": [
+  {
+   "name": "OCTET_LENGTH",
+   "type": "program",
+   "role": "function that returns the length of a string or binary value in bytes"
+  },
+  {
+   "name": "LENGTH",
+   "type": "program",
+   "role": "function whose result OCTET_LENGTH matches for ASCII strings and is less than for Unicode strings"
+  }
+ ],
+ "tags": [
+  "sql",
+  "string-functions",
+  "octet-length",
+  "unicode",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1573,
+  "output_tokens": 645
+ }
+}

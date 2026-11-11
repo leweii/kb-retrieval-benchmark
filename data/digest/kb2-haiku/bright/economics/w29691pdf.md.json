@@ -1,0 +1,100 @@
+{
+ "summary": "This NBER working paper survey by Clément de Chaisemartin and Xavier D'Haultfœuille reviews the literature showing that two-way fixed effects (TWFE) regressions with group and period fixed effects can produce misleading estimates of policy effects when treatment effects are heterogeneous across groups or over time. It explains that TWFE coefficients may not identify a convex combination of treatment effects, that some weights can be negative, and that the problem stems from 'forbidden comparisons' in staggered designs and non-binary or non-staggered treatments. The paper also covers decompositions for other TWFE coefficients and dynamic (event-study) TWFE regressions, and points to heterogeneity-robust alternative estimators and Stata/R commands.",
+ "one_line": "A survey showing that two-way fixed effects regressions can mislead policy evaluation under heterogeneous treatment effects, and reviewing robust alternative estimators.",
+ "key_facts": [
+  "The survey is NBER Working Paper No. 29691, dated January 2022, with JEL codes C21 and C23.",
+  "26 of the 100 most cited American Economic Review papers from 2015 to 2019 estimate linear regressions with period and group fixed effects.",
+  "Under parallel trends, DID equals the average treatment effect on the treated group s at period 2 in the two-group, two-period design.",
+  "TWFE regressions are unbiased for the ATT under parallel trends alone only in a staggered binary design with no variation in treatment timing among treated groups, which is seldom met in practice.",
+  "In the minimum wage example, a TWFE coefficient could equal 3 × (-0.05) − (2 × −0.2) = 0.25 even though the effect is negative in both counties.",
+  "With a binary treatment, a weight on a cell is strictly negative only if 1 + D.,. < Dg,. + D.,t.",
+  "Jakiela (2021) proposed dropping the last periods of staggered data, when the average treatment across groups is highest, to mitigate negative weights.",
+  "In the Gentzkow et al. (2011) and Enikolopov et al. (2011) papers, more than half of the TWFE weights are negative, with sums of negative weights of -0.53 and -2.26 respectively.",
+  "Goodman-Bacon (2021) shows that in a binary staggered design the TWFE coefficient is a weighted average of two-group DIDs, with non-negative weights summing to one.",
+  "In the three-period Borusyak and Jaravel (2017) example, the TWFE coefficient equals (DID e,ℓ,1,2 + DID ℓ,e,2,3)/2, and the second DID uses a group treated at both dates as control.",
+  "With two groups and two periods, the TWFE coefficient equals the Wald-DID estimator: the outcome difference divided by the difference in treatment changes.",
+  "In the non-staggered example with group m going from 0 to 2 and group ℓ going from 0 to 1, the TWFE coefficient converges to 2δm − δℓ, which weights group ℓ's effect negatively.",
+  "Sun and Abraham (2021) show that dynamic TWFE (event-study) coefficients for ℓ ≥ 0 can be biased by effects of other exposure lengths, under parallel trends.",
+  "The twowayfeweights Stata command computes the weights in the TWFE decomposition, and bacondecomp computes Goodman-Bacon's DID decomposition."
+ ],
+ "entities": [
+  {
+   "name": "Clément de Chaisemartin",
+   "type": "person",
+   "role": "co-author of the survey, affiliated with University of California at Santa Barbara and NBER"
+  },
+  {
+   "name": "Xavier D'Haultfœuille",
+   "type": "person",
+   "role": "co-author of the survey, affiliated with CREST"
+  },
+  {
+   "name": "American Economic Review",
+   "type": "organization",
+   "role": "journal whose 100 most cited papers from 2015 to 2019 were surveyed, 26 of which estimate TWFE regressions"
+  },
+  {
+   "name": "National Bureau of Economic Research",
+   "type": "organization",
+   "role": "publisher of NBER Working Paper No. 29691"
+  },
+  {
+   "name": "Goodman-Bacon (2021)",
+   "type": "other",
+   "role": "paper showing that the binary staggered TWFE coefficient is a weighted average of two-group DIDs"
+  },
+  {
+   "name": "Borusyak and Jaravel (2017)",
+   "type": "other",
+   "role": "paper that coined the term 'forbidden comparisons' and studied a binary staggered design with duration effects"
+  },
+  {
+   "name": "de Chaisemartin and D'Haultfœuille (2020)",
+   "type": "other",
+   "role": "paper deriving the decomposition of the TWFE coefficient into weighted treatment effects"
+  },
+  {
+   "name": "Sun and Abraham (2021)",
+   "type": "other",
+   "role": "paper studying dynamic TWFE (event-study) regressions in staggered designs"
+  },
+  {
+   "name": "Gentzkow et al. (2011)",
+   "type": "other",
+   "role": "study of the effect of newspapers on turnout in presidential elections, using a non-binary treatment"
+  },
+  {
+   "name": "Jakiela (2021)",
+   "type": "other",
+   "role": "author who proposed dropping the last periods of staggered data to mitigate negative weights"
+  },
+  {
+   "name": "Stevenson and Wolfers (2006)",
+   "type": "other",
+   "role": "source of data used by Goodman-Bacon (2021) in his empirical application"
+  },
+  {
+   "name": "twowayfeweights",
+   "type": "program",
+   "role": "Stata and R commands that compute the TWFE weights"
+  },
+  {
+   "name": "bacondecomp",
+   "type": "program",
+   "role": "Stata and R commands that compute the DID decomposition weights of Goodman-Bacon"
+  }
+ ],
+ "tags": [
+  "econometrics",
+  "difference-in-differences",
+  "two-way fixed effects",
+  "heterogeneous treatment effects",
+  "policy evaluation",
+  "survey"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13615,
+  "output_tokens": 1906
+ }
+}

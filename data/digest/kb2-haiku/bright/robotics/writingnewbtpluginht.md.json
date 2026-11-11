@@ -1,0 +1,61 @@
+{
+ "summary": "This clipped note is a Nav2 documentation page, but only its navigation menu was captured, so the tutorial body is missing. The visible outline is for the tutorial 'Writing a New Behavior Tree Plugin', with sections Overview, Requirements, and Tutorial Steps (creating a BT plugin, exporting the planner plugin, adding the plugin library name to config, and running the custom plugin). The rest of the note is site navigation for Nav2 guides, concepts, configuration, and related tutorials. The note's content cannot be summarized beyond this outline.",
+ "one_line": "Outline of the Nav2 tutorial on writing a new behavior tree plugin, captured from a navigation-only web clip.",
+ "key_facts": [
+  "The note's title is 'writingnewbtpluginht' and it comes from the source 'bright' in the robotics domain.",
+  "The clipped page belongs to the Nav2 documentation site, with the header 'Nav2' and a 'latest' version label.",
+  "The Plugin Tutorials section of the navigation lists 'Writing a New Behavior Tree Plugin' as a tutorial entry.",
+  "The outline for 'Writing a New Behavior Tree Plugin' lists the sections Overview, Requirements, and Tutorial Steps.",
+  "The tutorial steps listed are '1- Creating a new BT Plugin', '2- Exporting the planner plugin', '3- Add plugin library name to config', and '4- Run Your Custom plugin'.",
+  "The step '2- Exporting the planner plugin' in the BT plugin outline reuses the wording of the planner plugin tutorial, which suggests the exporting step may be copied from it.",
+  "Sibling plugin tutorials in the same section are 'Writing a New Costmap2D Plugin', 'Writing a New Planner Plugin', 'Writing a New Controller Plugin', 'Writing a New Behavior Plugin', and 'Writing a New Navigator Plugin'.",
+  "The navigation includes a 'Behavior Tree XML Nodes' configuration page that lists action plugins such as Wait, Spin, BackUp, FollowPath, and NavigateToPose.",
+  "A separate tutorial, 'Groot - Interacting with Behavior Trees', is listed under General Tutorials, with sections on visualizing and editing behavior trees.",
+  "The note's body content, beyond the navigation menu and the tutorial outline, was truncated and is not present."
+ ],
+ "entities": [
+  {
+   "name": "Nav2",
+   "type": "program",
+   "role": "navigation stack whose documentation site the page belongs to"
+  },
+  {
+   "name": "Writing a New Behavior Tree Plugin",
+   "type": "program",
+   "role": "Nav2 plugin tutorial whose outline appears in the note"
+  },
+  {
+   "name": "Writing a New Planner Plugin",
+   "type": "program",
+   "role": "sibling Nav2 plugin tutorial in the Plugin Tutorials section"
+  },
+  {
+   "name": "Writing a New Behavior Plugin",
+   "type": "program",
+   "role": "sibling Nav2 plugin tutorial listed in the Plugin Tutorials section"
+  },
+  {
+   "name": "Groot - Interacting with Behavior Trees",
+   "type": "product",
+   "role": "general tutorial on visualizing and editing behavior trees"
+  },
+  {
+   "name": "Behavior Tree XML Nodes",
+   "type": "other",
+   "role": "configuration page listing action and condition plugins for behavior trees"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "nav2",
+  "ros 2",
+  "behavior trees",
+  "plugins",
+  "tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15155,
+  "output_tokens": 1737
+ }
+}

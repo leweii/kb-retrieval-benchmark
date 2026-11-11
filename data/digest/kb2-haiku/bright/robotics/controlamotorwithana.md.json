@@ -1,0 +1,74 @@
+{
+ "summary": "This All About Circuits project article by Tim Youngblood (July 7, 2018) explains how to control a DC motor's speed and direction using an L298 H-Bridge IC driven by an Arduino Mega2560. It describes the H-bridge concept, the L298 pin connections and direction truth table, and provides Arduino sketch code that runs the motor clockwise for 3 seconds, brakes, then runs counter-clockwise for 3 seconds. Website navigation, related-content links and reader comments are boilerplate and were ignored.",
+ "one_line": "A tutorial on driving a DC motor clockwise and counter-clockwise with an L298 H-Bridge IC and an Arduino.",
+ "key_facts": [
+  "The article 'How To Control a DC Motor with an Arduino' was written by Tim Youngblood and dated July 07, 2018.",
+  "A DC motor normally has two leads, and connecting them directly to a battery makes the motor rotate; switching the leads reverses rotation.",
+  "An H-bridge is an electronic circuit that can drive a motor in both directions and uses four transistors arranged so the schematic looks like an 'H'.",
+  "The L298 can control the speed and direction of DC motors and stepper motors and can control two motors simultaneously.",
+  "The L298 has a current rating of 2A for each motor, and heat sinks are needed at these currents.",
+  "The hardware list for the tutorial includes one L298 bridge IC, one DC motor, one Arduino Mega2560, one breadboard and ten jumper wires.",
+  "In the tutorial, IN1 is connected to Arduino pin 8, IN2 to pin 9, and Enable1 (EN1) to PWM pin 2.",
+  "The truth table shows IN1=1, IN2=0 gives FORWARD, IN1=0, IN2=1 gives BACKWARD, and IN1=0, IN2=0 or IN1=1, IN2=1 gives BRAKE.",
+  "The sketch uses digitalWrite() for pins 8 and 9 and analogWrite() on pin 2 with a value of 255 to set motor speed.",
+  "The motor runs clockwise for 3 seconds, brakes for 1 second, runs counter-clockwise for 3 seconds, then brakes for 1 second.",
+  "The setup instructions say to connect the IC's 5V and ground to the Arduino's 5V and ground, and to connect SENS A of the IC to ground.",
+  "The article notes that the L298 datasheet is available at http://www.tech.dmu.ac.uk/~mgongora/Resources/L298N.pdf.",
+  "A commenter asked how to adapt the design to control a treadmill motor, and another commenter warned that the article does not specify the IC's motor supply voltage (Vs)."
+ ],
+ "entities": [
+  {
+   "name": "All About Circuits",
+   "type": "organization",
+   "role": "website publishing the project article"
+  },
+  {
+   "name": "Tim Youngblood",
+   "type": "person",
+   "role": "author of the project article, dated July 07, 2018"
+  },
+  {
+   "name": "L298 H-Bridge IC",
+   "type": "product",
+   "role": "motor driver chip used to control the DC motor's speed and direction"
+  },
+  {
+   "name": "Arduino Mega2560",
+   "type": "product",
+   "role": "microcontroller board that drives the L298 IC in the tutorial"
+  },
+  {
+   "name": "H-Bridge",
+   "type": "other",
+   "role": "circuit that drives a motor in both directions, used to control motors in robots"
+  },
+  {
+   "name": "Arduino IDE",
+   "type": "product",
+   "role": "software used to upload the program to the Arduino"
+  },
+  {
+   "name": "Arduino Web Editor",
+   "type": "product",
+   "role": "alternative software for uploading the program to the Arduino"
+  },
+  {
+   "name": "onsemi",
+   "type": "organization",
+   "role": "sponsor of the featured white paper on advanced industrial motor control"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "dc motor",
+  "arduino",
+  "h-bridge",
+  "motor control",
+  "l298"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4350,
+  "output_tokens": 1277
+ }
+}

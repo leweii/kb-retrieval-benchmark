@@ -1,0 +1,105 @@
+{
+ "summary": "Black Coffee Robotics, author Leander D'Souza, shares five practical methods to speed up Gazebo simulations that run slowly and are computationally heavy. The methods cover downscaling meshes in Blender with the Collapse decimate option, enabling GPU hardware acceleration in Docker, using the Gazebo WorldPlugin for efficient spawning and deletion of models, reducing lighting sources and disabling shadows, and other tweaks such as saving the camera pose and matching sensor hardware specs. The article notes that each optimization trades off some collision accuracy, sensor fidelity or aesthetics, so users should choose methods matching their use case.",
+ "one_line": "Five practical methods, including mesh downscaling, Docker GPU acceleration and lighting reduction, to speed up slow Gazebo robot simulations.",
+ "key_facts": [
+  "Black Coffee Robotics has simulated drones, boats, robot arms, and fleets of 100+ AMRs in Gazebo.",
+  "The article lists four downsides of slow Gazebo simulation, including unstable time-sensitive control at low real-time factor and difficulty scaling to multiple robots.",
+  "Meshes from SolidWorks, Fusion360, 3dWarehouse and GrabCAD have a very high face count and are not optimised for launch in Gazebo.",
+  "Blender's Decimate Modifier has three methods, and the Collapse function, which reduces meshes depending upon a ratio, is the ideal method for the author's use case.",
+  "Robot and design meshes can have face counts in the range of millions, so significant ratio reduction often produces virtually no change in appearance.",
+  "The Collapse method introduces a slight tradeoff in collision checking, so the ratio should not be reduced significantly if an algorithm depends on accurate object contours.",
+  "Black Coffee Robotics develops in Docker because it works on varying ROS and ROS2 distros simultaneously.",
+  "For Nvidia systems, the article recommends configuring the Nvidia Container Toolkit and running the container with the --runtime=nvidia flag.",
+  "For Intel systems, the article recommends installing libgl1-mesa-glx and libgl1-mesa-dri and passing --device=/dev/dri:/dev/dri to the container.",
+  "The WorldPlugin provided by Gazebo removes the cooldown when spamming the ROS spawn or delete services and allows instantly generating and deleting all models.",
+  "Disabling shadows boosts rendering FPS, especially in CPU-only modes, by setting shadows to 0 and grid and origin_visual to false in the scene attributes.",
+  "For LiDAR sensors, the article suggests reducing maximum range and update rate and setting angular resolution ideally to 1 degree.",
+  "The LiDAR example downscales the sample count from 361 to 91 samples over the maximum angular range.",
+  "The article's conclusion states that most optimizations are weighed against sensor accuracy and aesthetic design, so methods must be chosen to match the use case."
+ ],
+ "entities": [
+  {
+   "name": "Black Coffee Robotics",
+   "type": "organization",
+   "role": "robotics company whose team wrote the article and works extensively with Gazebo"
+  },
+  {
+   "name": "Leander D'Souza",
+   "type": "person",
+   "role": "author of the blog post, dated July 22, 2023"
+  },
+  {
+   "name": "Gazebo",
+   "type": "product",
+   "role": "robot simulator whose slowness the article addresses with five optimizations"
+  },
+  {
+   "name": "Blender",
+   "type": "product",
+   "role": "open-source 3D creation suite whose Decimate Modifier is used to downscale meshes"
+  },
+  {
+   "name": "Decimate Modifier",
+   "type": "product",
+   "role": "Blender function used to reduce the number of faces in robotic meshes, with Collapse as the ideal method"
+  },
+  {
+   "name": "Docker",
+   "type": "product",
+   "role": "container platform in which the team does all development and where GPU acceleration is configured"
+  },
+  {
+   "name": "Nvidia Container Toolkit",
+   "type": "product",
+   "role": "toolkit configured with Docker to enable Nvidia GPU support in containers"
+  },
+  {
+   "name": "WorldPlugin",
+   "type": "product",
+   "role": "Gazebo plugin giving direct access to all models in the scene for instant spawning and deletion"
+  },
+  {
+   "name": "SolidWorks",
+   "type": "product",
+   "role": "CAD software used to create robot designs and URDFs"
+  },
+  {
+   "name": "Fusion360",
+   "type": "product",
+   "role": "CAD software used to create robot designs and URDFs"
+  },
+  {
+   "name": "3dWarehouse",
+   "type": "organization",
+   "role": "free model library from which design meshes are imported"
+  },
+  {
+   "name": "GrabCAD",
+   "type": "organization",
+   "role": "free model library from which design meshes are imported"
+  },
+  {
+   "name": "ROS",
+   "type": "program",
+   "role": "robot software framework whose Docker hardware acceleration tutorial is referenced"
+  },
+  {
+   "name": "Rviz",
+   "type": "product",
+   "role": "visualization tool that benefits from GPU support when run in Docker"
+  }
+ ],
+ "tags": [
+  "gazebo",
+  "simulation performance",
+  "robotics",
+  "docker gpu acceleration",
+  "mesh optimization",
+  "ros"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8822,
+  "output_tokens": 1658
+ }
+}

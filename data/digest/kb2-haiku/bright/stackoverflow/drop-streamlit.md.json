@@ -1,0 +1,49 @@
+{
+ "summary": "This is a reference page for the Snowflake SQL command DROP STREAMLIT, which removes a specified Streamlit object from the current or specified schema. It gives the syntax with an optional IF EXISTS clause and a single required name parameter. The page notes that the feature is available only to accounts on AWS and Microsoft Azure commercial regions, and explains how identifiers with spaces, special characters, or mixed case must be quoted and how unqualified names are resolved against the session's current schema.",
+ "one_line": "Reference for the DROP STREAMLIT SQL command, which removes a Streamlit object from a schema.",
+ "key_facts": [
+  "DROP STREAMLIT removes the specified Streamlit object from the current or specified schema.",
+  "The feature is available to accounts in AWS and Microsoft Azure commercial regions.",
+  "The command syntax is DROP STREAMLIT [IF EXISTS] <name>.",
+  "The required parameter name specifies the identifier for the Streamlit object to drop.",
+  "If an identifier contains spaces, special characters, or mixed-case characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive, for example \"My  Object\".",
+  "If the Streamlit object identifier is not fully-qualified, the command looks for the object in the current schema for the session.",
+  "A fully-qualified identifier takes the form db_name.schema_name.streamlit_name or schema_name.streamlit_name."
+ ],
+ "entities": [
+  {
+   "name": "DROP STREAMLIT",
+   "type": "program",
+   "role": "SQL command that removes the specified Streamlit object from a schema"
+  },
+  {
+   "name": "Streamlit",
+   "type": "product",
+   "role": "object type that the DROP STREAMLIT command removes"
+  },
+  {
+   "name": "AWS",
+   "type": "organization",
+   "role": "cloud provider whose commercial regions support this feature"
+  },
+  {
+   "name": "Microsoft Azure",
+   "type": "organization",
+   "role": "cloud provider whose commercial regions support this feature"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "ddl",
+  "streamlit",
+  "drop-command",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1430,
+  "output_tokens": 692
+ }
+}

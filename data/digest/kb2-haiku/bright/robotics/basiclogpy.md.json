@@ -1,0 +1,69 @@
+{
+ "summary": "This note is the source code for basiclogpy, a Python example from Bitcraze's Crazyflie Nano Quadcopter client (GPL-licensed, Copyright 2014 Bitcraze AB). It scans for the first Crazyflie found, connects to it, and configures a log of the Stabilizer roll, pitch and yaw variables at a 10 ms period, printing the data to the console. The example disconnects after a timer, with the docstring saying 5 seconds in the class and 10 seconds in the module header.",
+ "one_line": "Python example that connects to the first Crazyflie quadcopter found and logs its Stabilizer roll, pitch and yaw to the console.",
+ "key_facts": [
+  "basiclogpy is a Simple example from the Crazyflie Nano Quadcopter client, Copyright (C) 2014 Bitcraze AB, licensed under the GNU General Public License.",
+  "The example connects to the first Crazyflie found, logs the Stabilizer and prints it to the console.",
+  "The module docstring states that after 10s the application disconnects and exits.",
+  "The LoggingExample class docstring states that it disconnects after 5s.",
+  "The LogConfig is named 'Stabilizer' with period_in_ms=10.",
+  "The logged variables are stabilizer.roll, stabilizer.pitch and stabilizer.yaw, each of type 'float'.",
+  "The disconnect timer is created with Timer(5, self._cf.close_link).",
+  "logging.basicConfig is set to level=logging.ERROR so only errors from the logging framework are output.",
+  "In the connected callback, a KeyError from a missing TOC variable prints 'Could not start log configuration' and an AttributeError prints 'Could not add Stabilizer log config, bad configuration.'",
+  "The _stab_log_data callback prints the timestamp, logconf name and data for each received log packet.",
+  "The main block calls cflib.crtp.init_drivers(enable_debug_driver=False) and then cflib.crtp.scan_interfaces().",
+  "If no Crazyflies are found, the script prints 'No Crazyflies found, cannot run example'.",
+  "The main loop waits with time.sleep(1) while le.is_connected remains true."
+ ],
+ "entities": [
+  {
+   "name": "Bitcraze AB",
+   "type": "organization",
+   "role": "Copyright holder of the Crazyflie Nano Quadcopter client source code (2014)"
+  },
+  {
+   "name": "Crazyflie Nano Quadcopter client",
+   "type": "product",
+   "role": "Software client to which this basiclogpy example belongs"
+  },
+  {
+   "name": "Crazyflie",
+   "type": "product",
+   "role": "Quadcopter connected to by the example, the first one found is used"
+  },
+  {
+   "name": "LoggingExample",
+   "type": "program",
+   "role": "Example class that logs the Stabilizer from a supplied link URI and disconnects after 5s"
+  },
+  {
+   "name": "Stabilizer",
+   "type": "program",
+   "role": "Log configuration named 'Stabilizer' that records roll, pitch and yaw"
+  },
+  {
+   "name": "cflib",
+   "type": "program",
+   "role": "Crazyflie library used for crtp drivers, Crazyflie class and LogConfig"
+  },
+  {
+   "name": "GNU General Public License",
+   "type": "other",
+   "role": "License under which the program is distributed, version 2 or later"
+  }
+ ],
+ "tags": [
+  "crazyflie",
+  "quadcopter",
+  "python",
+  "logging",
+  "robotics",
+  "bitcraze"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3125,
+  "output_tokens": 1099
+ }
+}

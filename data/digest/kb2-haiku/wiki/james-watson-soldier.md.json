@@ -1,0 +1,42 @@
+{
+ "summary": "This note is a short encyclopedic entry on James Watson, an American soldier born in 1850. He served in Custer's battalion at the time of the Battle of Little Big Horn but did not take part in the fighting. He was unable to keep up because his horse gave out, which is why he survived the battle.",
+ "one_line": "James Watson (born 1850) was an American soldier in Custer's battalion who survived Little Big Horn after his horse gave out.",
+ "key_facts": [
+  "James Watson was born in 1850.",
+  "James Watson was an American soldier.",
+  "James Watson was in Custer's battalion at the time of the battle of Little BigHorn.",
+  "James Watson did not participate in the battle of Little BigHorn.",
+  "James Watson was unable to keep up with the battalion because his horse gave out.",
+  "James Watson survived the battle of Little BigHorn as a result of being unable to keep up."
+ ],
+ "entities": [
+  {
+   "name": "James Watson (soldier)",
+   "type": "person",
+   "role": "American soldier born in 1850 who was in Custer's battalion and survived the Little BigHorn battle by not taking part in it"
+  },
+  {
+   "name": "Custer's battalion",
+   "type": "organization",
+   "role": "military unit that James Watson was part of at the time of the battle of Little BigHorn"
+  },
+  {
+   "name": "Little BigHorn",
+   "type": "event",
+   "role": "battle during which James Watson was in Custer's battalion but did not participate"
+  }
+ ],
+ "tags": [
+  "american history",
+  "military history",
+  "little bighorn",
+  "custer",
+  "biography",
+  "us army"
+ ],
+ "category": "history & politics",
+ "usage": {
+  "input_tokens": 1064,
+  "output_tokens": 490
+ }
+}

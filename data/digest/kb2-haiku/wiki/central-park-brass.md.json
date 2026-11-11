@@ -1,0 +1,40 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Central Park Brass, a brass quintet formed in 2002. Its purpose is to perform an annual series of brass chamber music concerts in New York City's Central Park. The note is brief and contains no further details on membership, history or repertoire.",
+ "one_line": "Central Park Brass is a brass quintet formed in 2002 that performs an annual brass chamber music concert series in New York City's Central Park.",
+ "key_facts": [
+  "Central Park Brass is a performing quintet.",
+  "Central Park Brass was formed in 2002.",
+  "Central Park Brass was formed to play an annual series of brass chamber music concerts.",
+  "The concerts of Central Park Brass take place in New York City's Central Park.",
+  "The note describes Central Park Brass as a brass chamber music ensemble."
+ ],
+ "entities": [
+  {
+   "name": "Central Park Brass",
+   "type": "organization",
+   "role": "performing brass quintet formed in 2002 to play an annual series of brass chamber music concerts in New York City's Central Park"
+  },
+  {
+   "name": "Central Park",
+   "type": "place",
+   "role": "location in New York City where Central Park Brass holds its annual brass chamber music concerts"
+  },
+  {
+   "name": "New York City",
+   "type": "place",
+   "role": "city containing Central Park, where Central Park Brass performs"
+  }
+ ],
+ "tags": [
+  "brass quintet",
+  "chamber music",
+  "central park",
+  "new york city",
+  "classical music concerts"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1034,
+  "output_tokens": 460
+ }
+}

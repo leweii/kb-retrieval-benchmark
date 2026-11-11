@@ -1,0 +1,130 @@
+{
+ "summary": "A hands-on tutorial slide deck from Open Robotics (Mabel M. Zhang) for the ICRA 2023 workshop MT28 'All about ROS 2 and the new Gazebo', held 29 May 2023. It walks attendees through setting up a Docker environment with Gazebo Garden, then covers the gz command line interface, the gz sim GUI with example worlds, dynamic level-of-detail loading, a lidar sensor tutorial, writing a Gazebo system plugin via the Entity Component System concept, and a Turtlebot 4 ROS interoperability case study, ending with community involvement resources.",
+ "one_line": "Hands-on ICRA 2023 tutorial slides teaching Gazebo Garden's CLI, GUI, sensors, plugins and ROS 2 integration.",
+ "key_facts": [
+  "The tutorial was ICRA 2023 tutorial MT28 'All about ROS 2 and the new Gazebo', held 29 May 2023, and was presented by Mabel M. Zhang, Ph.D. of the Open Robotics team at Intrinsic.",
+  "The recommended setup is an Ubuntu Jammy (22.04) system with some kind of GPU, with Gazebo Garden installed in advance or via the Docker image of about 2 GB.",
+  "The demo Docker image is started with ./run.bash osrf/icra2023_ros2_gz_tutorial:tutorial_nvidia from the cloned icra2023_ros2_gz_tutorial/docker directory.",
+  "The tutorial slides recommend that conference attendees avoid downloading the 2 GB Docker image over conference WiFi and instead pass a USB stick between pairs.",
+  "The gz topic command with -l lists topics, -e -t echoes a topic, and -i -t gives topic info.",
+  "Gazebo's default physics engine is DART (gz-physics-dartsim-plugin) and its default render engine is OGRE2 (ogre2).",
+  "The gz sim option -v takes a verbosity level from 0 to 4, and -r runs the simulation on start.",
+  "Dynamic level-of-detail loading is described as a concept for large worlds that load models based on distance from the robot, and it was used in DARPA SubT.",
+  "In the levels.sdf tutorial, the blue vehicle is commanded with linear x of 4.0 and the red vehicle with linear x of 2.0 through gz topic cmd_vel messages.",
+  "The sensors tutorial's lidar_node.cc subscribes to /lidar and publishes gz.msgs.Twist messages to /cmd_vel with linear x set to 0.5, so the robot turns as it detects a wall.",
+  "The CMakeLists.txt for the lidar example finds gz-transport12 and links the lidar_node executable against gz-transport12::core.",
+  "Gazebo system plugins implement interfaces including ISystemConfigure (once, at load), ISystemPreUpdate (before each physics step), ISystemUpdate, ISystemPostUpdate (after each physics step, ECM read-only), and ISystemReset.",
+  "The thermal camera example sets a model temperature of 285.0 via the gz::sim::systems::Thermal plugin and a thermal sensor with min_temp 253.15, max_temp 673.15 and resolution 3.0.",
+  "The Turtlebot 4 case study uses the third-party turtlebot4_simulator package, which is based on ROS 2 Humble and Gazebo Fortress rather than Garden."
+ ],
+ "entities": [
+  {
+   "name": "Mabel M. Zhang, Ph.D.",
+   "type": "person",
+   "role": "presenter of the tutorial slides, from the Open Robotics team at Intrinsic"
+  },
+  {
+   "name": "Open Robotics",
+   "type": "organization",
+   "role": "team to which the presenter belongs, described as the Open Robotics team at Intrinsic"
+  },
+  {
+   "name": "Intrinsic",
+   "type": "organization",
+   "role": "company where the Open Robotics team sits, per the presenter's affiliation"
+  },
+  {
+   "name": "ICRA 2023 tutorial MT28 'All about ROS 2 and the new Gazebo'",
+   "type": "event",
+   "role": "tutorial session where the slides were presented on 29 May 2023"
+  },
+  {
+   "name": "Gazebo Garden",
+   "type": "product",
+   "role": "Gazebo version used for the tutorial environment and setup"
+  },
+  {
+   "name": "gz sim",
+   "type": "program",
+   "role": "Gazebo simulator command run to launch simulations and the GUI"
+  },
+  {
+   "name": "Docker image osrf/icra2023_ros2_gz_tutorial:tutorial_nvidia",
+   "type": "product",
+   "role": "demo Docker environment for the tutorial, started with run.bash"
+  },
+  {
+   "name": "Nao",
+   "type": "product",
+   "role": "robot whose joint control is demonstrated in the GUI tutorial"
+  },
+  {
+   "name": "Panda",
+   "type": "product",
+   "role": "robot arm whose joint control is demonstrated in the GUI tutorial"
+  },
+  {
+   "name": "Tugbot",
+   "type": "product",
+   "role": "robot demonstrated in a warehouse world with panels and control options"
+  },
+  {
+   "name": "Prius on Sonoma Raceway",
+   "type": "product",
+   "role": "vehicle world demonstrated with camera display and button/keyboard control"
+  },
+  {
+   "name": "DARPA SubT",
+   "type": "event",
+   "role": "program where dynamic level-of-detail loading was used"
+  },
+  {
+   "name": "Turtlebot 4",
+   "type": "product",
+   "role": "robot used as a third-party case study for ROS interoperability"
+  },
+  {
+   "name": "DART (gz-physics-dartsim-plugin)",
+   "type": "program",
+   "role": "default Gazebo physics engine plugin"
+  },
+  {
+   "name": "OGRE2 (ogre2)",
+   "type": "program",
+   "role": "default Gazebo rendering engine plugin"
+  },
+  {
+   "name": "Fuel",
+   "type": "program",
+   "role": "online model data set from which example worlds are sourced and downloaded by name"
+  },
+  {
+   "name": "ROS Answers",
+   "type": "program",
+   "role": "community Q&A forum for ROS, migrating to Robotics Stack Exchange"
+  },
+  {
+   "name": "Gazebo Answers",
+   "type": "program",
+   "role": "hands-on community Q&A forum for Gazebo"
+  },
+  {
+   "name": "ROSCon",
+   "type": "event",
+   "role": "annual conference with diversity scholarships and talks on ROS 2"
+  }
+ ],
+ "tags": [
+  "gazebo",
+  "ros 2",
+  "robotics simulation",
+  "tutorial",
+  "sensors",
+  "plugins"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10710,
+  "output_tokens": 2103
+ }
+}

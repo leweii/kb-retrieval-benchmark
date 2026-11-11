@@ -1,0 +1,41 @@
+{
+ "summary": "The Eastern Mediterranean Health Journal is a healthcare journal published by the Eastern Mediterranean Regional Office of the World Health Organization. It covers public health research and related biomedical or technical subjects with particular relevance to the Eastern Mediterranean region. Founded in 1995, it publishes articles in Arabic, English, or French.",
+ "one_line": "A WHO Eastern Mediterranean Regional Office journal, founded in 1995, publishing public health research in Arabic, English, or French.",
+ "key_facts": [
+  "The Eastern Mediterranean Health Journal is a healthcare journal.",
+  "The journal is published by the Eastern Mediterranean Regional office of the World Health Organization.",
+  "The journal covers research in the area of public health and related biomedical or technical subjects.",
+  "The journal has particular relevance to the Eastern Mediterranean region.",
+  "The Eastern Mediterranean Health Journal was established in 1995.",
+  "Articles in the Eastern Mediterranean Health Journal are published in Arabic, English, or French."
+ ],
+ "entities": [
+  {
+   "name": "Eastern Mediterranean Health Journal",
+   "type": "product",
+   "role": "healthcare journal covering public health research with relevance to the Eastern Mediterranean region"
+  },
+  {
+   "name": "World Health Organization",
+   "type": "organization",
+   "role": "parent organization whose Eastern Mediterranean Regional office publishes the journal"
+  },
+  {
+   "name": "Eastern Mediterranean Regional office of World Health Organisation",
+   "type": "organization",
+   "role": "publisher of the Eastern Mediterranean Health Journal"
+  }
+ ],
+ "tags": [
+  "public health",
+  "journal",
+  "world health organization",
+  "eastern mediterranean",
+  "medical research"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 1125,
+  "output_tokens": 560
+ }
+}

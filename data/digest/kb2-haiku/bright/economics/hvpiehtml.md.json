@@ -1,0 +1,96 @@
+{
+ "summary": "This Destatis web page explains the Harmonised Index of Consumer Prices (HICP) for Germany, which the Federal Statistical Office has calculated since 1997 with time series from January 1995 for European inflation comparisons. It covers the index's purpose, its methodology based on COICOP and the German CPI, how it differs in coverage from the German CPI, and its publication schedule. The page also lists related price indices published by Destatis.",
+ "one_line": "Explains Germany's Harmonised Index of Consumer Prices (HICP), its methodology, coverage differences from the German CPI, and publication schedule.",
+ "key_facts": [
+  "The Federal Statistical Office has calculated a Harmonised Index of Consumer Prices (HICP) for Germany since 1997.",
+  "For the HICP, time series from January 1995 are available.",
+  "The HICP is used to measure inflation in international, mostly inner-European comparisons.",
+  "The HICP serves, among other things, to measure the convergence criterion of 'price stability' for judging whether a Member State can participate in European economic and monetary union.",
+  "The HICP is calculated for EU Member States, Norway, Iceland and Switzerland.",
+  "The European Central Bank uses the MUICP (Monetary Union Index of Consumer Prices) to judge price stability within the euro zone.",
+  "The HICP is based on the international Classification of Individual Consumption by Purpose (COICOP) and is largely derived from the German CPI.",
+  "The prices collected for the German CPI are also used to calculate the German HICP.",
+  "The HICP is a Laspeyres price index which, in formal terms, is calculated as a chain index.",
+  "A key difference is that the German CPI includes owner-occupied residential property, which the German HICP does not.",
+  "The HICP for Germany does not include games of chance, unlike the German CPI.",
+  "Up to December 2009, motor vehicle tax and registration charge were not included in the German HICP.",
+  "A provisional result of the German HICP is usually published two working days before the end of the reference month.",
+  "The final result for the German HICP is released around the middle of the subsequent month.",
+  "Eurostat also publishes the European HICP."
+ ],
+ "entities": [
+  {
+   "name": "Federal Statistical Office",
+   "type": "organization",
+   "role": "Calculates and publishes the Harmonised Index of Consumer Prices for Germany (Destatis, Statistisches Bundesamt)"
+  },
+  {
+   "name": "Harmonised Index of Consumer Prices",
+   "type": "product",
+   "role": "Index used to measure inflation for European comparisons and to assess price stability convergence criterion"
+  },
+  {
+   "name": "Consumer Price Index for Germany",
+   "type": "product",
+   "role": "National consumer price index against which the HICP is compared; the HICP is largely derived from it"
+  },
+  {
+   "name": "Classification of Individual Consumption by Purpose",
+   "type": "program",
+   "role": "International classification (COICOP) on which the HICP is based"
+  },
+  {
+   "name": "Monetary Union Index of Consumer Prices",
+   "type": "product",
+   "role": "Aggregate HICP for the euro zone, used by the European Central Bank for monetary policy"
+  },
+  {
+   "name": "European Index of Consumer Prices",
+   "type": "product",
+   "role": "Aggregate HICP for the European Union (EICP)"
+  },
+  {
+   "name": "European Economic Area Index of Consumer Prices",
+   "type": "product",
+   "role": "Aggregate HICP for the European Economic Area (EEAICP)"
+  },
+  {
+   "name": "European Central Bank",
+   "type": "organization",
+   "role": "Uses the MUICP in its monetary policy to judge price stability within the euro zone"
+  },
+  {
+   "name": "Eurostat",
+   "type": "organization",
+   "role": "Publishes the European HICP"
+  },
+  {
+   "name": "European Commission",
+   "type": "organization",
+   "role": "Issued regulations laying down the methodology for calculating the HICP"
+  },
+  {
+   "name": "European Union",
+   "type": "place",
+   "role": "Member States for which the HICP is calculated"
+  },
+  {
+   "name": "Retail Prices Index",
+   "type": "product",
+   "role": "Index published alongside the CPI for Germany by the Federal Statistical Office"
+  }
+ ],
+ "tags": [
+  "inflation",
+  "consumer prices",
+  "hicp",
+  "germany",
+  "price statistics",
+  "monetary policy"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 4285,
+  "output_tokens": 1344
+ }
+}

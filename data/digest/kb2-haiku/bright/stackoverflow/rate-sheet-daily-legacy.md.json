@@ -1,0 +1,54 @@
+{
+ "summary": "This note documents the legacy version of the RATE_SHEET_DAILY view in Snowflake's ORGANIZATION_USAGE schema, which returns effective rates in the organization currency for credits used across all Snowflake accounts in an organization. It lists the view's columns with data types and descriptions, and gives usage notes on latency, month-end adjustments, reseller contracts, and retention. It also notes that a newer upgraded version with extra columns, such as BILLING_TYPE, exists and can be requested from Snowflake Support.",
+ "one_line": "Reference for the legacy Snowflake RATE_SHEET_DAILY view in ORGANIZATION_USAGE, covering its columns and usage notes.",
+ "key_facts": [
+  "The RATE_SHEET_DAILY view in the ORGANIZATION_USAGE schema returns the effective rates used for calculating usage in the organization currency based on credits used for all Snowflake accounts in your organization.",
+  "The note describes the legacy version of the RATE_SHEET_DAILY view.",
+  "If a RATE_SHEET_DAILY view contains additional columns not described in the topic, such as BILLING_TYPE, the organization is using the upgraded version of the view.",
+  "The upgraded version of the view is designed to help with billing reconciliation and can be obtained by contacting Snowflake Support.",
+  "The DATE column is of type DATE and gives the date, in the UTC time zone, for the effective price.",
+  "The EFFECTIVE_RATE column is of type NUMBER(38, 2) and is the rate after applying any applicable discounts per the contract for the organization.",
+  "The CURRENCY column is of type VARCHAR and gives the currency of the EFFECTIVE_RATE.",
+  "The SERVICE_TYPE column is of type VARCHAR and can be one of compute or storage.",
+  "The USAGE_TYPE column is of type VARCHAR and can be one of Compute, Storage, Materialized Views, etc.",
+  "The SERVICE_LEVEL column gives the service level of the Snowflake account, such as Standard, Enterprise, or Business Critical.",
+  "Data latency for the view may be up to 24 hours.",
+  "Until month close, data for a given day can change to account for end-of-month adjustments/credits, mid-month contract amendments, or Snowflake account transfers between organizations.",
+  "Customers who signed a contract through a Snowflake reseller cannot access data in this view.",
+  "Data in the view is retained indefinitely."
+ ],
+ "entities": [
+  {
+   "name": "RATE_SHEET_DAILY",
+   "type": "product",
+   "role": "Legacy Snowflake view in the ORGANIZATION_USAGE schema that returns effective usage rates in the organization currency"
+  },
+  {
+   "name": "ORGANIZATION_USAGE",
+   "type": "program",
+   "role": "Snowflake schema containing the RATE_SHEET_DAILY view"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "Contact point for upgrading to the latest version of the RATE_SHEET_DAILY view"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the accounts, contracts, and view described in the note"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "billing",
+  "usage views",
+  "rate sheet",
+  "legacy documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1924,
+  "output_tokens": 1077
+ }
+}

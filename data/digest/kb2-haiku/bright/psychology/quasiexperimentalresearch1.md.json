@@ -1,0 +1,61 @@
+{
+ "summary": "This QuestionPro blog article explains quasi-experimental research, which tries to show cause and effect like a true experiment but does not use random assignment, so groups are formed from pre-existing non-random characteristics. It contrasts quasi-experiments with true experiments and correlational research, outlines three main designs (non-equivalent groups, regression discontinuity, natural experiments) with examples, notes that the method is quantitative, and describes how QuestionPro's survey tools can support such studies. The surrounding navigation, language menus, sidebars and footer links are boilerplate and were ignored.",
+ "one_line": "Explains quasi-experimental research, which mimics experiments without random assignment, covering its designs, examples, and quantitative nature.",
+ "key_facts": [
+  "Quasi-experimental research tries to demonstrate a cause-and-effect link between a dependent and an independent variable, but it does not depend on random assignment.",
+  "The article states that quasi-experimental research is research that appears to be experimental but is not.",
+  "Quasi-experiments fall somewhere between correlational research and actual experiments in terms of internal consistency.",
+  "The key component of a true experiment is randomly allocated groups, giving each person an equivalent chance of being assigned to the experimental or control group.",
+  "The article's psychotherapy example uses pre-existing groups in hospitals instead of random allocation, because doctors consider leaving one group untreated unethical.",
+  "Quasi-experimental designs are useful when randomization is not possible or ethical, and they can use data already gathered by others, often the government.",
+  "The article says quasi-experimental designs have higher external validity than most genuine experiments and higher internal validity than other non-experimental research.",
+  "Quasi-experimental research is described as a quantitative research method that involves numerical data collection and statistical analysis.",
+  "Three popular quasi-experimental designs are described: design of non-equivalent groups, discontinuity in regression, and natural experiments.",
+  "The non-equivalent group design is described as the most prevalent sort of quasi-experimental design.",
+  "In the regression discontinuity example, students who barely pass a selective high school entrance test are extremely similar to those who fail by a razor-thin margin.",
+  "The article's natural experiment example is the Oregon Health Study, in which Oregon voted in 2008 to increase the number of low-income people enrolled in Medicaid.",
+  "Because Oregon could not afford to pay everyone who qualified for Medicaid, it used a random lottery to distribute slots.",
+  "The article states that natural experiments are not actual experiments since they are observational, even though some employ random assignments.",
+  "QuestionPro features mentioned for quasi-experimental research include survey design, randomizing question and answer order, periodic surveys with reminders, cross-tabulation and statistical analysis, and team collaboration."
+ ],
+ "entities": [
+  {
+   "name": "QuestionPro",
+   "type": "organization",
+   "role": "survey software company whose blog article describes how its tools can help in quasi-experimental research"
+  },
+  {
+   "name": "Fabyio Villegas",
+   "type": "person",
+   "role": "author of the article, listed in the 'About the author' section"
+  },
+  {
+   "name": "Oregon Health Study",
+   "type": "event",
+   "role": "well-known natural experiment example in which Oregon distributed Medicaid slots by random lottery after a 2008 vote"
+  },
+  {
+   "name": "Medicaid",
+   "type": "program",
+   "role": "America's low-income public health care program that Oregon voted to expand enrollment in during 2008"
+  },
+  {
+   "name": "InsightsHub",
+   "type": "product",
+   "role": "unified hub for data management that lets users organize and explore research data in one repository"
+  }
+ ],
+ "tags": [
+  "quasi-experimental research",
+  "research design",
+  "causal inference",
+  "survey methodology",
+  "natural experiments",
+  "external validity"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14752,
+  "output_tokens": 1207
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "summary": "This note is a Nav2 configuration file in YAML, setting parameters for the navigation stack's servers and plugins. It covers the behavior tree navigator, the controller server with a DWB local planner and goal checkers, local and global costmaps, the NavFn grid-based planner, the simple smoother, behavior server, waypoint follower, and velocity smoother. Most nodes use simulation time and a shared robot base frame, with a robot radius of 0.175 and a maximum forward velocity of 0.26.",
+ "one_line": "A Nav2 ROS 2 navigation stack YAML configuration covering behavior tree, controller, costmaps, planner, smoother and velocity settings.",
+ "key_facts": [
+  "The bt_navigator uses global_frame map, robot_base_frame base_link, odom_topic odom, bt_loop_duration 10, and default_server_timeout 20.",
+  "The bt_navigator plugin_lib_names list includes nav2_compute_path_to_pose_action_bt_node and nav2_spin_action_bt_node among many others.",
+  "The controller_server sets controller_frequency to 20.0 and uses the progress_checker plugin with required_movement_radius 0.5 and movement_time_allowance 10.0.",
+  "The general_goal_checker uses nav2_controller::SimpleGoalChecker with xy_goal_tolerance 0.25 and yaw_goal_tolerance 0.25.",
+  "The FollowPath controller uses dwb_core::DWBLocalPlanner with max_vel_x 0.26, max_vel_theta 1.0, and sim_time 1.7.",
+  "The DWB critics include RotateToGoal, Oscillation, BaseObstacle, GoalAlign, PathAlign, PathDist, and GoalDist.",
+  "The local_costmap uses a 3 by 3 rolling window with resolution 0.06, robot_radius 0.175, update_frequency 5.0, and global_frame odom.",
+  "The local_costmap voxel_layer sets z_resolution 0.05, z_voxels 16, and max_obstacle_height 2.0.",
+  "The global_costmap uses update_frequency 1.0, global_frame map, track_unknown_space true, and inflation_radius 0.45 with cost_scaling_factor 4.0.",
+  "The planner_server uses the nav2_navfn_planner/NavfnPlanner GridBased plugin with tolerance 0.5, use_astar false, and allow_unknown true.",
+  "The smoother_server uses nav2_smoother::SimpleSmoother with tolerance 1.0e-10, max_its 1000, and do_refinement True.",
+  "The behavior_server lists spin, backup, drive_on_heading, assisted_teleop, and wait behavior plugins with cycle_frequency 10.0.",
+  "The waypoint_follower uses nav2_waypoint_follower::WaitAtWaypoint with waypoint_pause_duration 200 and loop_rate 20.",
+  "The velocity_smoother has smoothing_frequency 20.0, feedback OPEN_LOOP, max_velocity [0.26, 0.0, 1.0], and velocity_timeout 1.0."
+ ],
+ "entities": [
+  {
+   "name": "nav2_navfn_planner/NavfnPlanner",
+   "type": "program",
+   "role": "GridBased global planner plugin configured in planner_server"
+  },
+  {
+   "name": "dwb_core::DWBLocalPlanner",
+   "type": "program",
+   "role": "local planner plugin used by the FollowPath controller"
+  },
+  {
+   "name": "nav2_controller::SimpleGoalChecker",
+   "type": "program",
+   "role": "goal checker plugin used by general_goal_checker"
+  },
+  {
+   "name": "nav2_controller::SimpleProgressChecker",
+   "type": "program",
+   "role": "progress checker plugin for the controller server"
+  },
+  {
+   "name": "nav2_smoother::SimpleSmoother",
+   "type": "program",
+   "role": "smoother plugin configured in smoother_server"
+  },
+  {
+   "name": "nav2_waypoint_follower::WaitAtWaypoint",
+   "type": "program",
+   "role": "waypoint task executor plugin that pauses at waypoints"
+  },
+  {
+   "name": "nav2_costmap_2d::InflationLayer",
+   "type": "program",
+   "role": "inflation layer plugin used in local and global costmaps"
+  },
+  {
+   "name": "nav2_costmap_2d::VoxelLayer",
+   "type": "program",
+   "role": "voxel layer plugin used in the local costmap"
+  },
+  {
+   "name": "nav2_costmap_2d::StaticLayer",
+   "type": "program",
+   "role": "static layer plugin used in local and global costmaps"
+  },
+  {
+   "name": "nav2_costmap_2d::ObstacleLayer",
+   "type": "program",
+   "role": "obstacle layer plugin used in the global costmap"
+  },
+  {
+   "name": "bt_navigator",
+   "type": "program",
+   "role": "behavior tree navigator node with plugin_lib_names and frame settings"
+  },
+  {
+   "name": "controller_server",
+   "type": "program",
+   "role": "server node configured with progress checker, goal checkers and FollowPath controller"
+  },
+  {
+   "name": "planner_server",
+   "type": "program",
+   "role": "server node configured with the GridBased planner"
+  },
+  {
+   "name": "smoother_server",
+   "type": "program",
+   "role": "server node configured with the simple_smoother plugin"
+  },
+  {
+   "name": "behavior_server",
+   "type": "program",
+   "role": "server node providing spin, backup, drive_on_heading, assisted_teleop and wait behaviors"
+  },
+  {
+   "name": "waypoint_follower",
+   "type": "program",
+   "role": "node configured with wait_at_waypoint executor plugin"
+  },
+  {
+   "name": "velocity_smoother",
+   "type": "program",
+   "role": "node that smooths velocity commands with OPEN_LOOP feedback"
+  },
+  {
+   "name": "robot_state_publisher",
+   "type": "program",
+   "role": "node configured with use_sim_time True"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "nav2",
+  "robotics",
+  "configuration",
+  "navigation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5271,
+  "output_tokens": 1913
+ }
+}

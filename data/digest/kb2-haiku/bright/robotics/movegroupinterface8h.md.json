@@ -1,0 +1,102 @@
+{
+ "summary": "This note is the annotated source listing of the MoveIt header file move_group_interface.h, a C++ API for the MoveGroup planning interface. It contains the BSD license header (SRI International 2014, Willow Garage 2012; authors Ioan Sucan and Sachin Chitta), the MoveItErrorCode wrapper class, and the MoveGroupInterface class with its Options and Plan structs. The class exposes methods for setting joint, pose and named targets, planning, executing, Cartesian path computation, pick and place, object attach/detach, and path constraints. Navigation boilerplate and cross-reference links from the Doxygen page are ignored.",
+ "one_line": "Doxygen listing of MoveIt's move_group_interface.h, the C++ MoveGroupInterface API for motion planning, execution, pick and place.",
+ "key_facts": [
+  "The file move_group_interface.h is part of the MoveIt planning_interface namespace, namespace moveit::planning_interface.",
+  "The license header lists Copyright (c) 2014 SRI International and Copyright (c) 2012 Willow Garage, Inc., under the BSD License.",
+  "The file's authors are listed as Ioan Sucan and Sachin Chitta.",
+  "MoveItErrorCode derives from moveit_msgs::MoveItErrorCodes and its explicit operator bool returns true when val equals moveit_msgs::MoveItErrorCodes::SUCCESS.",
+  "The ROBOT_DESCRIPTION static constant defaults to 'robot_description', the ROS parameter name from which the robot's URDF is read.",
+  "The nested Options struct takes a group_name, a robot_description (defaulting to ROBOT_DESCRIPTION) and a ros::NodeHandle.",
+  "The nested Plan struct contains start_state_, trajectory_ (a moveit_msgs::RobotTrajectory) and planning_time_.",
+  "The MoveGroupInterface class is non-copyable: its copy constructor and copy assignment operator are declared as delete, while move constructor and move assignment are provided.",
+  "Methods include setPlanningTime, setNumPlanningAttempts, setMaxVelocityScalingFactor and setMaxAccelerationScalingFactor.",
+  "Target-setting methods include setJointValueTarget, setPositionTarget, setRPYTarget, setOrientationTarget, setPoseTarget, setPoseTargets and setNamedTarget.",
+  "Execution methods include asyncMove, move, plan, asyncExecute and execute, all returning MoveItErrorCode except computeCartesianPath, which returns a double.",
+  "computeCartesianPath takes waypoints, an eef_step, a jump_threshold, a RobotTrajectory reference and an avoid_collisions flag that defaults to true.",
+  "Manipulation methods include pick, planGraspsAndPick, and place, which accept object names and optional plan_only flags.",
+  "The class provides attachObject and detachObject methods for attaching and detaching collision objects to and from links.",
+  "The getRememberedJointValues accessor returns a map of names to joint value vectors, and rememberJointValues and forgetJointValues manage it.",
+  "The file's includes come from moveit_core robot_state, moveit_msgs, geometry_msgs, actionlib SimpleActionClient, boost shared_ptr and tf."
+ ],
+ "entities": [
+  {
+   "name": "move_group_interface.h",
+   "type": "other",
+   "role": "header file being documented; defines the MoveGroupInterface API"
+  },
+  {
+   "name": "MoveIt",
+   "type": "program",
+   "role": "the motion planning framework to which the header belongs, as shown by the moveit namespace and documentation links"
+  },
+  {
+   "name": "MoveGroupInterface",
+   "type": "other",
+   "role": "main class providing the C++ interface for planning, executing and manipulating a move group"
+  },
+  {
+   "name": "MoveItErrorCode",
+   "type": "other",
+   "role": "class wrapping moveit_msgs::MoveItErrorCodes that reports operation success via operator bool"
+  },
+  {
+   "name": "SRI International",
+   "type": "organization",
+   "role": "copyright holder (2014) listed in the BSD license header"
+  },
+  {
+   "name": "Willow Garage, Inc.",
+   "type": "organization",
+   "role": "copyright holder (2012) listed in the BSD license header; named in the license's no-endorsement clause"
+  },
+  {
+   "name": "Ioan Sucan",
+   "type": "person",
+   "role": "listed author of the file"
+  },
+  {
+   "name": "Sachin Chitta",
+   "type": "person",
+   "role": "listed author of the file"
+  },
+  {
+   "name": "ROBOT_DESCRIPTION",
+   "type": "other",
+   "role": "static default ROS parameter name 'robot_description' for reading the robot's URDF"
+  },
+  {
+   "name": "MoveGroupInterface::Options",
+   "type": "other",
+   "role": "struct specifying options (group name, robot description, node handle) for constructing MoveGroupInterface"
+  },
+  {
+   "name": "MoveGroupInterface::Plan",
+   "type": "other",
+   "role": "struct holding start state, trajectory and planning time of a plan"
+  },
+  {
+   "name": "moveit_msgs::MoveGroupAction",
+   "type": "other",
+   "role": "action type whose SimpleActionClient is returned by getMoveGroupClient"
+  },
+  {
+   "name": "ROS",
+   "type": "program",
+   "role": "Robot Operating System whose ros::NodeHandle, WallDuration and Duration types are used by the interface"
+  }
+ ],
+ "tags": [
+  "moveit",
+  "motion planning",
+  "c++ api",
+  "robotics",
+  "ros",
+  "doxygen source"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16422,
+  "output_tokens": 1789
+ }
+}

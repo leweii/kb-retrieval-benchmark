@@ -1,0 +1,75 @@
+{
+ "summary": "This note is a clipped copy of Javadoc API documentation for the Hamcrest Java library. It covers the org.hamcrest.collection.IsArrayWithSize class, which matches arrays by length using a nested matcher, plus its static factory methods arrayWithSize(int), arrayWithSize(Matcher) and emptyArray(). The note also includes part of the org.hamcrest.Matchers class index, listing factory methods such as allOf, anyOf, array, arrayContaining, arrayContainingInAnyOrder, closeTo, contains and containsString. Navigation and boilerplate were ignored.",
+ "one_line": "Javadoc reference for Hamcrest's IsArrayWithSize matcher and related array and collection matcher factory methods.",
+ "key_facts": [
+  "IsArrayWithSize is a public class in the package org.hamcrest.collection.",
+  "IsArrayWithSize<E> extends org.hamcrest.FeatureMatcher<E[], java.lang.Integer>.",
+  "The class description reads: Matches if array size satisfies a nested matcher.",
+  "The constructor IsArrayWithSize(Matcher<? super java.lang.Integer> sizeMatcher) takes a matcher for the array size.",
+  "The static method arrayWithSize(int size) creates a matcher that matches when the length of the array equals the specified size.",
+  "The example for arrayWithSize(int) is assertThat(new String[]{\"foo\", \"bar\"}, arrayWithSize(2)).",
+  "The static method arrayWithSize(Matcher<? super java.lang.Integer> sizeMatcher) creates a matcher that matches when the array length satisfies the specified matcher.",
+  "The example for arrayWithSize(Matcher) uses arrayWithSize(equalTo(2)) on a two-element String array.",
+  "The static method emptyArray() creates a matcher for arrays whose length is zero, shown with assertThat(new String[0], emptyArray()).",
+  "The protected method featureValueOf(E[] actual) returns java.lang.Integer and is specified by FeatureMatcher.",
+  "The org.hamcrest.Matchers class has a public no-argument constructor and lists factory methods such as allOf, anyOf and arrayContainingInAnyOrder.",
+  "The Matchers method containsInAnyOrder(org.hamcrest.Matcher) is deprecated; the note says to use contains(Matcher itemMatcher) instead.",
+  "The Matchers method any(Class<T> type) matches when the examined object is an instance of the specified type, determined by Class.isInstance(Object).",
+  "The Matchers method closeTo(double operand, double error) matches Doubles within a range of +/- error of the operand."
+ ],
+ "entities": [
+  {
+   "name": "IsArrayWithSize",
+   "type": "other",
+   "role": "Hamcrest class in org.hamcrest.collection that matches arrays whose size satisfies a nested matcher"
+  },
+  {
+   "name": "org.hamcrest.collection",
+   "type": "other",
+   "role": "package containing the IsArrayWithSize class"
+  },
+  {
+   "name": "org.hamcrest.FeatureMatcher",
+   "type": "other",
+   "role": "superclass of IsArrayWithSize that extracts a feature value for matching"
+  },
+  {
+   "name": "org.hamcrest.Matchers",
+   "type": "other",
+   "role": "Hamcrest class whose static methods create matchers such as allOf, anyOf, arrayContaining and closeTo"
+  },
+  {
+   "name": "org.hamcrest.BaseMatcher",
+   "type": "other",
+   "role": "base class in the Hamcrest inheritance chain of IsArrayWithSize"
+  },
+  {
+   "name": "org.hamcrest.TypeSafeDiagnosingMatcher",
+   "type": "other",
+   "role": "class in the Hamcrest inheritance chain of IsArrayWithSize"
+  },
+  {
+   "name": "org.hamcrest.Matcher",
+   "type": "other",
+   "role": "interface implemented by IsArrayWithSize for arrays of E"
+  },
+  {
+   "name": "org.hamcrest.SelfDescribing",
+   "type": "other",
+   "role": "interface implemented by IsArrayWithSize"
+  }
+ ],
+ "tags": [
+  "hamcrest",
+  "java",
+  "unit testing",
+  "matchers",
+  "javadoc",
+  "arrays"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16153,
+  "output_tokens": 1379
+ }
+}

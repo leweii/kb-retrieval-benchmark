@@ -1,0 +1,95 @@
+{
+ "summary": "Martin Cook describes a new OptionsFunc property he added to the RenderMudSelectAttribute and RenderMudSelect-related attributes in his CG.Blazor.Forms._MudBlazor NuGet package. The property lets a MudSelect dropdown be populated at runtime from a named method on the view-model, instead of only a static comma-separated Options list. The article walks through the attribute's source, including ToAttributes, Generate, and the TryOptionsFunc reflection lookup that compiles the method into a callable func.",
+ "one_line": "Explains the OptionsFunc property that lets a MudSelect dropdown in CG.Blazor.Forms._MudBlazor be populated from a view-model method at runtime.",
+ "key_facts": [
+  "Martin Cook added a property called OptionsFunc to the MudSelectAttribute and MudRadioGroupAttribute attributes in his CG.Blazor.Forms._MudBlazor NuGet package.",
+  "The article posted November 21, 2021 focuses on the RenderMudSelectAttribute class.",
+  "The example view-model ExampleVM has a property Foo decorated with [RenderMudSelect(OptionsFunc = \"GetOptions\")].",
+  "The GetOptions method in the example takes no parameters and returns Task<IEnumerable<string>> with the values \"Item A\" and \"Item B\".",
+  "The Options property can be set to a comma separated list of hard coded options for a static list.",
+  "RenderMudSelectAttribute derives from MudBlazorAttribute, which derives from FormGeneratorAttribute.",
+  "The ToAttributes method wraps non-default property values into a dictionary to pass to the MudSelect component, and deliberately does not add the options.",
+  "The Generate method only renders a MudSelect when the property type is string; otherwise it logs a debug message and skips rendering.",
+  "Generate sets Label to the property name when no label is specified, and sets the T attribute to the string type name.",
+  "TryOptionsFunc searches for the named method first on the view-model and then on the property parent (model), using public, non-public and instance binding flags.",
+  "If the OptionsFunc method is not found or the property is empty, Generate falls back to splitting the Options property on commas.",
+  "Each option is rendered as a MudSelectItem<string> child component inside the MudSelect.",
+  "Martin Cook says he has yet to add OptionsFunc to the equivalent HTML attributes and intends to also add it to the Syncfusion attributes where applicable.",
+  "The article's author is Martin Cook, who has been working with computers professionally since the late 1980s."
+ ],
+ "entities": [
+  {
+   "name": "CG.Blazor.Forms._MudBlazor",
+   "type": "product",
+   "role": "NuGet package authored by Martin that the OptionsFunc property was added to"
+  },
+  {
+   "name": "RenderMudSelectAttribute",
+   "type": "other",
+   "role": "attribute class whose source and behavior the article explains, rendering a MudSelect control"
+  },
+  {
+   "name": "OptionsFunc",
+   "type": "other",
+   "role": "new property naming a view-model method that supplies dropdown options at runtime"
+  },
+  {
+   "name": "MudSelect",
+   "type": "product",
+   "role": "MudBlazor dropdown control rendered by the attribute"
+  },
+  {
+   "name": "MudSelectItem",
+   "type": "product",
+   "role": "MudBlazor child component created for each option"
+  },
+  {
+   "name": "MudBlazor",
+   "type": "product",
+   "role": "Blazor component library that the attributes target"
+  },
+  {
+   "name": "ExampleVM",
+   "type": "other",
+   "role": "example view-model class containing the decorated Foo property and GetOptions method"
+  },
+  {
+   "name": "GetOptions",
+   "type": "other",
+   "role": "example view-model method returning the options list for the dropdown"
+  },
+  {
+   "name": "TryOptionsFunc",
+   "type": "other",
+   "role": "method that searches for the named options method using reflection and builds a compiled func"
+  },
+  {
+   "name": "Martin Cook",
+   "type": "person",
+   "role": "author of the article and developer of the CG.Blazor.Forms._MudBlazor package"
+  },
+  {
+   "name": "CodeGator",
+   "type": "organization",
+   "role": "website publishing the blog post"
+  },
+  {
+   "name": "Syncfusion",
+   "type": "organization",
+   "role": "component library whose attributes the author intends to possibly extend with OptionsFunc"
+  }
+ ],
+ "tags": [
+  "blazor",
+  "mudblazor",
+  "c#",
+  "form generation",
+  "reflection",
+  "dropdown options"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10541,
+  "output_tokens": 1417
+ }
+}

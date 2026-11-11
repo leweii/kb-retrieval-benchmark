@@ -1,0 +1,105 @@
+{
+ "summary": "A ROS Answers question (asked 2014-07-15 by user rnunziata) reports the error 'No valid hardware interface element found in joint' when loading the gazebo_ros_control simulation interface after moving from ROS Hydro to Ubuntu 14 / ROS Indigo. The asker shares the error log, Gazebo joint and plugin XML, a xacro transmission definition, and a YAML controller config for the rrbot example. An accepted answer by lockandfire (2014-07-20) explains that the Indigo version of the ros_control transmission parser requires a <hardwareInterface> tag inside both the <joint> and <actuator> sections, and that adding it to the joint fixes the error. Comments note a related ros_control bug report and a later fix in gazebo_ros_demos.",
+ "one_line": "ROS Answers thread on fixing 'No valid hardware interface element found in joint' errors with gazebo_ros_control in ROS Indigo by adding hardwareInterface tags to transmission joints.",
+ "key_facts": [
+  "The question 'No valid hardware interface element found in joint' was asked on 2014-07-15 by user rnunziata on ROS Answers.",
+  "The asker reported that the gazebo ros simulation interface worked in ROS Hydro but produced these errors after moving to Ubuntu 14 with ROS Indigo.",
+  "The error log reports 'No valid hardware interface element found in joint 'joint1'' and 'No valid hardware interface element found in joint 'joint2''.",
+  "The log also reports 'Failed to load joints for transmission 'tran1'' and 'Failed to load joints for transmission 'tran2''.",
+  "The controller initialization error reads: Could not find resource 'joint1' in 'hardware_interface::EffortJointInterface'.",
+  "The asker's Gazebo plugin was libgazebo_ros_control.so with robotNamespace /rrbot and robotSimType gazebo_ros_control/DefaultRobotHWSim.",
+  "The asker's xacro transmission tran2 used transmission_interface/SimpleTransmission with a hardwareInterface of EffortJointInterface inside the actuator section only.",
+  "The accepted answer by lockandfire was posted on 2014-07-20 and was described as the cause of the error in the Indigo version of ros_control transmission_interface transmission parser.",
+  "According to the answer, the parser checks for <hardwareinterface> tags in both the <joint> and <actuator> sections, while rrbot and other gazebo examples only had the tag in <actuator>.",
+  "The fix is to add <hardwareInterface>EffortJointInterface</hardwareInterface> inside the <joint name=\"joint1\"> element of the transmission.",
+  "A commenter noted the change appears in the Indigo version of the ros_control package and suggested it is a ROS issue, and lockandfire filed an issue in the ros_control bug tracker (issue 177).",
+  "A comment dated 2014-08-02 marked the question as a duplicate of a gazebo answers thread and stated it was fixed by Kei Okada in the gazebo_ros_demos pull request 4.",
+  "The question had 9,457 views and was last updated on 2014-07-20 according to the page stats.",
+  "ROS Answers is licensed under Creative Commons Attribution Share Alike 3.0 and has been deprecated in favor of robotics.stackexchange.com as of August 11, 2023."
+ ],
+ "entities": [
+  {
+   "name": "ROS Answers",
+   "type": "program",
+   "role": "question-and-answer site where the question was posted, deprecated as of August 11, 2023 in favor of Robotics Stack Exchange"
+  },
+  {
+   "name": "rnunziata",
+   "type": "person",
+   "role": "asker of the question, who was running gazebo ros simulation on Ubuntu 14 with ROS Indigo"
+  },
+  {
+   "name": "lockandfire",
+   "type": "person",
+   "role": "answerer who identified the transmission parser tag requirement and provided the fix"
+  },
+  {
+   "name": "gvdhoorn",
+   "type": "person",
+   "role": "commenter who suggested making the question title more descriptive"
+  },
+  {
+   "name": "Arn-O",
+   "type": "person",
+   "role": "commenter who marked the question as a duplicate and linked a gazebo answers thread"
+  },
+  {
+   "name": "Dave Coleman",
+   "type": "person",
+   "role": "commenter who added a comment on 2015-01-10"
+  },
+  {
+   "name": "Kei Okada",
+   "type": "person",
+   "role": "contributor credited with the fix in the gazebo_ros_demos pull request 4"
+  },
+  {
+   "name": "ros_control",
+   "type": "program",
+   "role": "ROS package whose Indigo transmission_interface parser checks for hardwareInterface tags in both joint and actuator sections"
+  },
+  {
+   "name": "gazebo_ros_control",
+   "type": "program",
+   "role": "Gazebo plugin (libgazebo_ros_control.so) that loads the robot hardware simulation interface"
+  },
+  {
+   "name": "gazebo_ros_demos",
+   "type": "program",
+   "role": "repository where the fix was submitted as pull request 4"
+  },
+  {
+   "name": "rrbot",
+   "type": "product",
+   "role": "example robot whose Gazebo and YAML configuration the asker used, with namespace /rrbot"
+  },
+  {
+   "name": "ROS Indigo",
+   "type": "product",
+   "role": "ROS version on Ubuntu 14 where the error occurred and the parser change was present"
+  },
+  {
+   "name": "ROS Hydro",
+   "type": "product",
+   "role": "earlier ROS version where the asker's simulation interface had worked"
+  },
+  {
+   "name": "Robotics Stack Exchange",
+   "type": "organization",
+   "role": "site to which ROS Answers questions were migrated and where new questions are asked"
+  }
+ ],
+ "tags": [
+  "ros",
+  "gazebo",
+  "ros-control",
+  "transmission-interface",
+  "indigo",
+  "troubleshooting"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6866,
+  "output_tokens": 1874
+ }
+}

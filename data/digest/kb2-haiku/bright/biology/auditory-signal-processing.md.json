@@ -1,0 +1,81 @@
+{
+ "summary": "This Wikibooks page from the Sensory Systems book explains how the auditory system turns sound pressure waves into neural signals and perception. It covers the effect of the head and pinna on localization, impedance matching in the middle ear, frequency analysis by the basilar membrane in the cochlea, hair cell transduction, the ascending auditory pathway through the superior olivary complex and inferior colliculus, and processing in the primary auditory cortex and higher-order language areas.",
+ "one_line": "Explains how the ear and brain convert sound waves into neural signals, covering cochlear frequency analysis, hair cell transduction, sound localization, and the auditory pathway to cortex.",
+ "key_facts": [
+  "Sound waves with wavelengths shorter than the head produce a sound shadow on the far ear; longer wavelengths diffract so both ears receive roughly equal intensity.",
+  "The external auditory canal amplifies sounds between 3 and 12 kHz, a range crucial for human communication.",
+  "On transition from air to water, 99.9% of incoming sound energy is reflected, given Z_air = 414 kg m^-2 s^-1 and Z_water = 1.48*10^6 kg m^-2 s^-1.",
+  "The stapedius muscle, described as the smallest muscle in the human body, protects the inner ear from loud sounds by changing middle ear impedance when contracted.",
+  "The speed of waves along the basilar membrane changes from about 100 m/s near the oval window to 10 m/s near the apex.",
+  "Frequencies are scaled along the basilar membrane with high frequencies at the base and low frequencies at the apex, a mapping called tonotopic encoding.",
+  "Action potentials are limited to a maximum frequency of about 500 Hz, which is why tonotopic encoding is needed to represent higher frequencies.",
+  "Each organ of Corti contains about 16,000 hair cells innervated by about 30,000 afferent nerve fibers.",
+  "Most afferent innervation comes from inner hair cells, while most efferent innervation goes to outer hair cells.",
+  "Without functioning outer hair cells, sensitivity decreases by approximately 50 dB.",
+  "Inner hair cells do not fire action potentials themselves; they release neurotransmitters after calcium influx that triggers action potentials in the auditory nerve.",
+  "Fibers with high spontaneous rates (> 18 per second) tend to be more sensitive to sound stimulation than other fibers.",
+  "ILD cues work for high frequencies over 1.6 kHz, while ITD cues work very precisely for frequencies below 800 Hz.",
+  "Humans can detect timing differences between the left and right ear down to 10 μs, corresponding to about 1 degree of sound location.",
+  "The primary auditory cortex (Brodmann areas 41 and 42) is the first relay involved in conscious perception of sound and is tonotopically organized."
+ ],
+ "entities": [
+  {
+   "name": "Superior olivary complex",
+   "type": "other",
+   "role": "small mass of gray substance believed to be involved in localizing sounds in the azimuthal plane"
+  },
+  {
+   "name": "Organ of Corti",
+   "type": "other",
+   "role": "structure along the basilar membrane containing the hair cells"
+  },
+  {
+   "name": "Basilar membrane",
+   "type": "other",
+   "role": "membrane in the cochlea whose properties separate sound frequencies, with a traveling wave producing maximal displacement at a frequency-specific point"
+  },
+  {
+   "name": "Medial geniculate nucleus",
+   "type": "other",
+   "role": "auditory nucleus of the thalamus that transfers information to the primary auditory cortex"
+  },
+  {
+   "name": "Inferior colliculus",
+   "type": "other",
+   "role": "integrates auditory information before sending it to the thalamus and auditory cortex"
+  },
+  {
+   "name": "Primary auditory cortex",
+   "type": "other",
+   "role": "region of the temporal lobe (Brodmann areas 41 and 42) that is the first relay in conscious perception of sound"
+  },
+  {
+   "name": "Wernicke's area",
+   "type": "other",
+   "role": "higher order auditory area (Brodmann area 22) involved in understanding written and spoken language"
+  },
+  {
+   "name": "Broca's area",
+   "type": "other",
+   "role": "area (Brodmann areas 44 and 45) linked to the production of sound in verbal expression"
+  },
+  {
+   "name": "Stapedius muscle",
+   "type": "other",
+   "role": "smallest muscle in the human body that gates the middle ear to protect the inner ear from loud sounds"
+  }
+ ],
+ "tags": [
+  "auditory system",
+  "cochlea",
+  "hearing",
+  "sound localization",
+  "neuroscience",
+  "sensory systems"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7774,
+  "output_tokens": 1486
+ }
+}

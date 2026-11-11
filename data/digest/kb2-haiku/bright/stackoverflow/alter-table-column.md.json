@@ -1,0 +1,63 @@
+{
+ "summary": "This is a Snowflake documentation page for the ALTER TABLE ... ALTER COLUMN command, which modifies column properties such as defaults, nullability, data types, comments, masking policies, projection policies and object tagging. It includes a table of supported and unsupported actions, the syntax, usage notes on restrictions (such as default-dropping limits, NOT NULL checks, and precision changes affecting Time Travel), and examples that set up a table, change columns, and apply or unset masking policies.",
+ "one_line": "Snowflake reference for the ALTER TABLE ... ALTER COLUMN command, covering column defaults, nullability, types, comments and policies.",
+ "key_facts": [
+  "ALTER TABLE ... ALTER COLUMN can drop the default for a column, except when the column and default were defined by an ALTER TABLE command.",
+  "Changing the default for a column to a non-sequence default is unsupported; only changing the default sequence is supported for columns that already have a sequence.",
+  "Setting a column to NOT NULL fails with an error and applies no changes if the column contains NULL values.",
+  "Columns using semi-structured data types (ARRAY, OBJECT, VARIANT) cannot be set to NOT NULL when the table contains rows.",
+  "For text data types, TYPE can be used only to increase the length of the column, for example VARCHAR(50) to VARCHAR(100).",
+  "For the NUMBER data type, decreasing precision is allowed only if the new precision is sufficient to hold all values currently in the column.",
+  "A column can support up to 20 tags, and the maximum number of characters for a tag string value is 256.",
+  "A single ALTER TABLE statement can modify multiple columns, and the ALTER or MODIFY keyword initiates the list of clauses.",
+  "If a column was added with a DEFAULT value via ALTER TABLE, dropping that default later causes an error, and this also applies to clones of the table.",
+  "If the precision of a column is decreased below the maximum precision of data retained in Time Travel, the table cannot be restored without first increasing the precision.",
+  "The examples apply a Column-level Security masking policy named mask_empl_id to the empl_id column of the empl_info table using MODIFY COLUMN ... SET MASKING POLICY.",
+  "The page warns customers not to enter personal, sensitive, export-controlled or other regulated data as metadata such as the COMMENT field."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "service whose ALTER TABLE ... ALTER COLUMN command is documented on this page"
+  },
+  {
+   "name": "mask_empl_id",
+   "type": "program",
+   "role": "masking policy applied to the empl_id column in the example"
+  },
+  {
+   "name": "mask_empl_dob",
+   "type": "program",
+   "role": "masking policy applied to the empl_dob column in the multiple-column example"
+  },
+  {
+   "name": "empl_info",
+   "type": "other",
+   "role": "example table whose columns receive masking policies"
+  },
+  {
+   "name": "seq1",
+   "type": "other",
+   "role": "example sequence used as the default for column c3 in the setup"
+  },
+  {
+   "name": "seq5",
+   "type": "other",
+   "role": "example sequence set as the new default for column c3"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "alter table",
+  "column properties",
+  "data types",
+  "masking policy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5799,
+  "output_tokens": 1061
+ }
+}

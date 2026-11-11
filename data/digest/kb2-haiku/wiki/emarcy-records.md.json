@@ -1,0 +1,46 @@
+{
+ "summary": "EmArcy Records is a jazz record label founded in 1954 by Mercury Records. The note states it is today a European jazz label owned by Universal Music Group. Its name is a phonetic spelling of \"MRC\", the initials for Mercury Record Company.",
+ "one_line": "EmArcy Records is a jazz label founded by Mercury Records in 1954, now a European jazz label owned by Universal Music Group.",
+ "key_facts": [
+  "EmArcy Records is a jazz record label.",
+  "EmArcy Records was founded in 1954 by Mercury Records.",
+  "EmArcy Records is today a European jazz label.",
+  "EmArcy Records is owned by Universal Music Group.",
+  "The name EmArcy is a phonetic spelling of \"MRC\".",
+  "MRC stands for the initials of Mercury Record Company."
+ ],
+ "entities": [
+  {
+   "name": "EmArcy Records",
+   "type": "organization",
+   "role": "jazz record label founded in 1954 by Mercury Records and today a European jazz label owned by Universal Music Group"
+  },
+  {
+   "name": "Mercury Records",
+   "type": "organization",
+   "role": "company that founded EmArcy Records in 1954"
+  },
+  {
+   "name": "Universal Music Group",
+   "type": "organization",
+   "role": "company that owns EmArcy Records today"
+  },
+  {
+   "name": "Mercury Record Company",
+   "type": "organization",
+   "role": "company whose initials MRC the name EmArcy phonetically spells"
+  }
+ ],
+ "tags": [
+  "jazz",
+  "record label",
+  "mercury records",
+  "universal music group",
+  "music industry"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1063,
+  "output_tokens": 494
+ }
+}

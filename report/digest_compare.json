@@ -1,0 +1,443 @@
+{
+ "summary": {
+  "by_track": {
+   "musique": {
+    "sonnet": {
+     "yes": 15,
+     "no": 4,
+     "partial": 1
+    },
+    "haiku": {
+     "yes": 16,
+     "no": 1,
+     "partial": 3
+    },
+    "better": {
+     "tie": 10,
+     "sonnet": 5,
+     "haiku": 5
+    }
+   },
+   "bright": {
+    "sonnet": {
+     "partial": 5,
+     "yes": 14,
+     "no": 1
+    },
+    "haiku": {
+     "partial": 6,
+     "yes": 13,
+     "no": 1
+    },
+    "better": {
+     "tie": 6,
+     "haiku": 4,
+     "sonnet": 10
+    }
+   }
+  },
+  "judge_cost": 1.39
+ },
+ "items": [
+  {
+   "qid": "musique_ans-9faf4f61dd",
+   "track": "musique",
+   "doc": "wiki/the-right-stuff-records.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "Both digests keep the facts this document contributes: the label was part of EMI, EMI is now owned by Universal Music Group, and the label is based in Santa Monica, California. Their content is essentially identical. X adds only a filler sentence about the note being brief.",
+   "cost": 0.007476
+  },
+  {
+   "qid": "musique_ans-cd7ac4b664",
+   "track": "musique",
+   "doc": "wiki/israel.md",
+   "sonnet": "no",
+   "haiku": "no",
+   "better": "sonnet",
+   "reason": "This document's contribution is that Lebanon borders Israel to the north. Neither digest states this: X gives Israel's location but not its borders, and Y mentions borders only vaguely in its summary. X's key facts are somewhat more consolidated and informative overall, so X is slightly more useful.",
+   "cost": 0.041784
+  },
+  {
+   "qid": "musique_ans-5865b7cc91",
+   "track": "musique",
+   "doc": "wiki/avicenna.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "The document's contribution is that George Sarton called Avicenna one of the greatest thinkers. The earthquake and mountain link comes from another source. Both digests keep Sarton's quote and identify him as author of The History of Science. Coverage is otherwise comparable: X lists more entities in the madhab debate, while Y adds family, education and legacy details.",
+   "cost": 0.035796
+  },
+  {
+   "qid": "musique_ans-0616262302",
+   "track": "musique",
+   "doc": "wiki/ottoman-empire.md",
+   "sonnet": "partial",
+   "haiku": "partial",
+   "better": "haiku",
+   "reason": "The document's contribution is that the Ajuran Empire issued Ottoman-pattern coinage to proclaim economic independence from the Portuguese. Neither digest mentions the coinage. Both do link Ajuran to opposing the Portuguese economic monopoly, so the Portuguese can be inferred. X is slightly better: it says Ajuran 'defied the Portuguese economic monopoly in the Indian Ocean' and adds the Ottoman-Portuguese naval wars fact.",
+   "cost": 0.045204
+  },
+  {
+   "qid": "musique_ans-d80a7c9127",
+   "track": "musique",
+   "doc": "wiki/dissolution-of-the-soviet-union.md",
+   "sonnet": "no",
+   "haiku": "yes",
+   "better": "haiku",
+   "reason": "The question hinges on the 10-year bilateral pact that Kravchuk and Yeltsin signed on November 19, 1990. X keeps this in its entity entry for Kravchuk. Y omits the pact entirely and does not mention Kravchuk at all.",
+   "cost": 0.037612
+  },
+  {
+   "qid": "musique_ans-c93627093c",
+   "track": "musique",
+   "doc": "wiki/golestan-province.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "haiku",
+   "reason": "Both digests keep what this document contributes to the question: that Golestan Province is in the north-east of Iran, south of the Caspian Sea. The source never mentions Voshmgir District, so the link has to come from another document, most likely one tying Voshmgir to a county in Golestan. Y lists all twelve counties as separate entities, which makes that cross-document link easier to find. X lists only Gonbad-e Qabus as an entity, though it does name all twelve counties in its key facts.",
+   "cost": 0.014352
+  },
+  {
+   "qid": "musique_ans-be76a1ea8c",
+   "track": "musique",
+   "doc": "wiki/canonization-of-pope-john-xxiii-and-pope-john-paul-ii.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "The document's contribution is that John XXIII, the encyclical's author, was pope and sovereign of Vatican City (1958–1963) and died on 3 June 1963. Both digests keep all of this. They are near-identical in coverage and usefulness: X additionally lists the Roman Catholic Church as an entity, and Y gives slightly richer entity descriptions.",
+   "cost": 0.016032
+  },
+  {
+   "qid": "musique_ans-fdf22cf95a",
+   "track": "musique",
+   "doc": "wiki/hyderabad.md",
+   "sonnet": "no",
+   "haiku": "partial",
+   "better": "haiku",
+   "reason": "The question depends on the passage saying that Indian enterprises, including DRDO (the maker of Agni-V), were established in Hyderabad from the 1950s to the 1970s. X leaves out that sentence entirely. Y keeps the 1950s–1970s establishment era, but only through BHEL, and never names DRDO, so it is partial. Y is also more detailed overall.",
+   "cost": 0.035436
+  },
+  {
+   "qid": "musique_ans-0cf7d75f35",
+   "track": "musique",
+   "doc": "wiki/delta-hardware.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "This document's contribution is that Charlie Musselwhite performed Delta Hardware. It is the first hop of the question, and the label answer comes from another document. Both digests clearly preserve the artist identity and the rest of the facts. They are essentially equivalent.",
+   "cost": 0.009408
+  },
+  {
+   "qid": "musique_ans-d8a668cf78",
+   "track": "musique",
+   "doc": "wiki/alexey-brodovitch.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "The document's role in the question is to establish that Brodovitch was born in the Russian Empire, in Ogolichi, now Belarus. Both digests state this clearly. They are otherwise near-identical in coverage and quality.",
+   "cost": 0.012196
+  },
+  {
+   "qid": "musique_ans-0c4c925865",
+   "track": "musique",
+   "doc": "wiki/getting-away-with-murder-song.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "For this question, the document's only job is to identify the song's performer, and both digests state that the song is by Papa Roach. X labels the song a 2004 single, which the source never says, but that does not affect the answer. Otherwise the two digests are equivalent.",
+   "cost": 0.013172
+  },
+  {
+   "qid": "musique_ans-454604c703",
+   "track": "musique",
+   "doc": "wiki/one-last-time-ariana-grande-song.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "Both digests state that Matt Bennett stars in the video. Y is slightly more complete because it keeps the producer details (Yacoub, Falk) that X leaves out. Y is also more concise. However, Y adds the unsupported claim that the video was 'directed with input from Max Landis'. X has a similar inference, calling Landis the 'creator of the concept'.",
+   "cost": 0.018544
+  },
+  {
+   "qid": "musique_ans-d3de79b2c9",
+   "track": "musique",
+   "doc": "wiki/dodgers-yankees-rivalry.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "Both digests keep the key fact that the Yankees and Dodgers have not met in the World Series since 1981, and both place the Yankees in the AL East. X adds that the Yankees won 8 of the 11 meetings and is slightly more concise. Y is a little more thorough, including the AL and NL league entities. Overall they are about equally useful.",
+   "cost": 0.01872
+  },
+  {
+   "qid": "musique_ans-462e7a1386",
+   "track": "musique",
+   "doc": "wiki/hassan-hanafi.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "This document's contribution to the question is that Hasan Hanafi's employer is Cairo University. Both digests keep that fact, along with the rest of the content. They are essentially equivalent; Y is only slightly more verbose.",
+   "cost": 0.00794
+  },
+  {
+   "qid": "musique_ans-b0d7cddb3c",
+   "track": "musique",
+   "doc": "wiki/girlfriend-bobby-brown-song.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "The document's contribution is identifying Bobby Brown as the performer of 'Girlfriend', and both digests keep that link. Y says the same things more concisely. X adds facts that repeat what it already states.",
+   "cost": 0.008996
+  },
+  {
+   "qid": "musique_ans-cc39e6231c",
+   "track": "musique",
+   "doc": "wiki/houston.md",
+   "sonnet": "no",
+   "haiku": "partial",
+   "better": "haiku",
+   "reason": "Neither digest keeps the key fact that Houston's geology formed from river deposits eroded from the Rocky Mountains. X at least preserves the link to college graduates through Forbes' Best Cities for College Graduates ranking. Y keeps neither the graduate-retention link nor the Rocky Mountains origin, only mentioning subsidence. X is more useful overall.",
+   "cost": 0.044364
+  },
+  {
+   "qid": "musique_ans-3d638a6f2e",
+   "track": "musique",
+   "doc": "wiki/nintendo-entertainment-system.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "The document's contribution is identifying the console as the NES, an 8-bit system, which sets up the Genesis's 16-bit advantage; both digests state this clearly. Y is slightly more useful overall: it covers more of the article (third-party policy, Coleco details, controller microphone tricks, dongle circumvention) in a more concise form, while X mostly pads its entity list.",
+   "cost": 0.034432
+  },
+  {
+   "qid": "musique_ans-7d8300010a",
+   "track": "musique",
+   "doc": "wiki/daihatsu-charmant.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "The document contributes only the link that the Charmant was built by Daihatsu, which ties it to Toyota through its basis on the Corolla and its Toyota engines. Both digests keep this information. They are essentially equivalent; X additionally lists Japan as an entity, which is a trivial difference.",
+   "cost": 0.010356
+  },
+  {
+   "qid": "musique_ans-06a81df080",
+   "track": "musique",
+   "doc": "wiki/nanjing.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "Both digests keep the 2013 GDP per capita figure, RMB 98,174 (US$16041). Y also keeps the 11% growth and adds more structured historical detail, such as the capital periods and Jiankang. X has a typo (\"Yangyshan\") but adds some entities. Overall Y is slightly richer and more accurate.",
+   "cost": 0.035772
+  },
+  {
+   "qid": "musique_ans-2ad27e07f9",
+   "track": "musique",
+   "doc": "wiki/heinrich-gross-rabbi.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "This document's contribution is that Gross was born in Szenicz, now Senica, Slovakia. The Senica District link comes from other evidence. Both digests preserve the birthplace and the Szenicz=Senica identification, and they carry essentially the same facts.",
+   "cost": 0.00898
+  },
+  {
+   "qid": "bright_ans-c721ead2d3",
+   "track": "bright",
+   "doc": "bright/biology/phosphene-2.md",
+   "sonnet": "partial",
+   "haiku": "partial",
+   "better": "tie",
+   "reason": "The key passage is the one on 'seeing stars' from a sneeze, coughing, a blow to the head or low blood pressure, which may involve low oxygenation or lack of glucose stimulating the visual system. Neither digest includes it. Both keep the definition of a phosphene and its general mechanism (normal visual-system activity triggered by a non-light stimulus), so each is only partial. Otherwise the two are comparable: X mentions random firing and disease causes, while Y lists Ivabradine. Neither has a clear edge.",
+   "cost": 0.031752
+  },
+  {
+   "qid": "bright_ans-9f0c38aa9c",
+   "track": "bright",
+   "doc": "bright/biology/l-gulonolactone-oxidase.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "haiku",
+   "reason": "Both digests keep the key fact: GULO activity was lost about 63 million years ago at the Haplorhini/Strepsirrhini split. X also states outright that the haplorhines include tarsiers and simians (apes, monkeys and humans), which is the link needed to place neanderthals in the group that cannot make vitamin C. Y says only 'tarsiers and simians', mentioning humans in its summary. Y covers a few more peripheral facts (CAMP regulation, Pauling), but X is slightly clearer on the point this question depends on.",
+   "cost": 0.031756
+  },
+  {
+   "qid": "bright_ans-c2b621593f",
+   "track": "bright",
+   "doc": "bright/robotics/networkconfig.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "Both digests keep the key fact the answer relies on: shared/NAT VM networking blocks ROS 2 communication with the Create 3, and a bridged connection is recommended. X adds the advice to restart the VM after network changes. Y covers Option 4 and gives slightly more structure. Neither mentions the advice to disable multicasting if bridging still fails. They are roughly equivalent.",
+   "cost": 0.038772
+  },
+  {
+   "qid": "bright_ans-f79253f03c",
+   "track": "bright",
+   "doc": "bright/sustainable_living/energystarstrategicvisionandguidingprinciplespdf.md",
+   "sonnet": "yes",
+   "haiku": "partial",
+   "better": "sonnet",
+   "reason": "The answer works through the six guiding principles one by one. Y names all six in its summary (savings, performance, cost recovery, availability from multiple manufacturers, testability, label visibility) and gives details on cost recovery and the single-manufacturer rule. X mentions that there are six principles but spells out only the cost-recovery and manufacturer ones. It omits the performance, testability and differentiation principles the answer relies on.",
+   "cost": 0.041356
+  },
+  {
+   "qid": "bright_ans-20fe26d3d4",
+   "track": "bright",
+   "doc": "bright/stackoverflow/telebot.md",
+   "sonnet": "partial",
+   "haiku": "partial",
+   "better": "sonnet",
+   "reason": "For this question, the document's contribution is that the TeleBot class exists, that it registers handlers for different kinds of updates, and that a channel_post_handler decorator exists. Both digests mention channel_post_handler, though only in passing. Neither keeps details about content_types or delete_message, and the visible source text does not show those either. X explicitly says TeleBot lets you add handlers for different kinds of updates and shows how to instantiate it, which slightly better supports the handler-based answer. Y spends more space on peripheral items such as REPLY_MARKUP_TYPES. The two are roughly comparable, with X slightly more focused.",
+   "cost": 0.038948
+  },
+  {
+   "qid": "bright_ans-7c80cffd98",
+   "track": "bright",
+   "doc": "bright/biology/glucosinolate.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "Both digests keep the facts the question needs. Glucosinolates are sulfur- and nitrogen-containing compounds made from glucose and an amino acid. When tissue is damaged, myrosinase breaks them down into isothiocyanates, nitriles or thiocyanates, which act as plant defence. Sinigrin causes bitterness in cooked cauliflower and Brussels sprouts. X's summary names all three breakdown products and the defence role. Y mentions only the isothiocyanate product, though its summary explicitly points to vegetable bitterness and covers plant defence. X is slightly richer overall, so it edges out Y.",
+   "cost": 0.03756
+  },
+  {
+   "qid": "bright_ans-09b8f6e61e",
+   "track": "bright",
+   "doc": "bright/sustainable_living/solublesalts.md",
+   "sonnet": "yes",
+   "haiku": "partial",
+   "better": "sonnet",
+   "reason": "The question is whether reusing saucer water is harmful. The key point from this document is that drained water carries washed-out salts, and letting it be reabsorbed puts those salts back into the soil. Y keeps that reabsorption detail explicitly. X keeps the salt-accumulation facts and the advice to empty the saucer, but drops the reason, which is the actual link to reusing the water. Y is also slightly more complete on the remaining details.",
+   "cost": 0.020712
+  },
+  {
+   "qid": "bright_ans-04b294b05b",
+   "track": "bright",
+   "doc": "bright/sustainable_living/lcihtmlutmmediumpagemoveutmsourceanalysisutmcampaignlci.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "Both digests keep what the answer relies on. They describe the USLCI database as a researcher-oriented resource built for LCA practitioners, holding inventories of energy and material flows for materials, components and assemblies in the U.S. That supports the answer's point that the database is US-specific and aimed at researchers. X is slightly more complete: it includes all the project goals, the full citation with its URL, and the FLCAC's public-access goal. Y is nearly identical but drops a few goals and the URL.",
+   "cost": 0.032952
+  },
+  {
+   "qid": "bright_ans-65ef3d145c",
+   "track": "bright",
+   "doc": "bright/robotics/setupassistanttutori.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "The answer cites this doc only as a reference for configuring move groups, meaning which joints and links go into planning groups and how the gripper or end effector is set up. Both digests keep the planning group joint selection, the hand group with no solver, and the end effector labeling. Y is slightly more complete and accurate: it has the launch command, the collision criteria and the next steps, and it adds no unsupported claims like X's Gazebo spawn details.",
+   "cost": 0.042112
+  },
+  {
+   "qid": "bright_ans-3d69b4bf95",
+   "track": "bright",
+   "doc": "bright/economics/householddebt.md",
+   "sonnet": "partial",
+   "haiku": "partial",
+   "better": "haiku",
+   "reason": "The answer cites US household debt at about 78% of GDP in Q2 2021. Neither digest gives the Q2 2021 value, but both show the series ID and that the ratio sat in the mid-70s to about 80 around 2020–2021, which supports the point that household debt is a large component of total debt. X is cleaner and accurate. Y contains a garbled figure (\"74.16 in Q1 2021 (74.415)\").",
+   "cost": 0.028468
+  },
+  {
+   "qid": "bright_ans-ccab7c6f30",
+   "track": "bright",
+   "doc": "bright/earth_science/five-largest-iron-ore-mines-indonesia-2020.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "Both digests keep the full top-five list with locations, owners, outputs, and operating dates, including the Gag Island Project in West Papua, which is the part the answer relies on. X adds the observation that Indonesia Asahan Aluminium owns three of the five mines. Y includes the article title. Overall they are essentially equivalent.",
+   "cost": 0.036876
+  },
+  {
+   "qid": "bright_ans-aa98151330",
+   "track": "bright",
+   "doc": "bright/stackoverflow/string-prototype.md",
+   "sonnet": "no",
+   "haiku": "no",
+   "better": "tie",
+   "reason": "The source is an MDN page on String.prototype.matchAll. The visible portion shows mostly navigation, where split() appears only as a sidebar link. The answer relies on String.prototype.split(), and neither digest mentions split, so neither preserves anything useful for the question. Both digests describe matchAll with near-identical content. Y adds a few details on iterator exhaustion, and X lists slightly more entities. For later retrieval they are essentially equivalent.",
+   "cost": 0.042812
+  },
+  {
+   "qid": "bright_ans-f42cd3b603",
+   "track": "bright",
+   "doc": "bright/sustainable_living/cost.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "This document supports the answer's point that installation and extras more than double the hardware cost. Both digests keep the typical system costs and the split between materials, business costs and labour, so both preserve what is needed. X edges ahead because it ties the £7,026 figure explicitly to a 3.5 kWp system and gives a per-kWp cost (£2,007), which makes the comparison to 4 kWp pricing easier. It is also more compact.",
+   "cost": 0.045268
+  },
+  {
+   "qid": "bright_ans-b0c9f3250d",
+   "track": "bright",
+   "doc": "bright/economics/businessmodelcanvastemplate.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "The answer cites this page only as a reference for building a business model canvas, so a digest needs to carry the canvas concept and its nine blocks. Both digests do, including the Cost Structure and Revenue Streams blocks, which matter most for pricing. Y is slightly richer: it explains cost-driven vs. value-driven cost structures, defines revenue streams more clearly, and adds guiding questions and supporting detail for several blocks. That makes it marginally more useful.",
+   "cost": 0.041536
+  },
+  {
+   "qid": "bright_ans-0ddb24f831",
+   "track": "bright",
+   "doc": "bright/psychology/dejareve.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "haiku",
+   "reason": "Both digests name the phenomenon as déjà rêvé ('already dreamed'). Both say it is common and less common with age, cite the 2018 EBS study and its three types, and contrast it with déjà vu. X adds the 2018 study's conclusion that déjà rêvé differs from déjà vu, plus the medial temporal lobe and dream-memory-system details. However, X omits Ellis's conclusion that these experiences are normal and common. Without that, its line about possible temporal lobe dysfunction could suggest abnormality. Y keeps the 'within the realm of normal, even common' statement, which directly answers the asker's 'normal or abnormal?' concern, so Y is slightly more useful.",
+   "cost": 0.048284
+  },
+  {
+   "qid": "bright_ans-6ab48b84f4",
+   "track": "bright",
+   "doc": "bright/robotics/1240.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "Both digests capture the key point: PR #1240 is open (not yet merged) and adds std::variant support so handles can hold types other than double. They also both record that custom unlisted interfaces can be exported and that the export functions are made virtual. X is slightly more compact and includes the set_state example and the map storage. Y includes the review counts. The two are essentially equivalent in usefulness.",
+   "cost": 0.039616
+  },
+  {
+   "qid": "bright_ans-78637ad3a8",
+   "track": "bright",
+   "doc": "bright/earth_science/seismic-intensity-scales-2.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "Both digests keep the key contribution: intensity scales measure local shaking and differ from magnitude scales. Both also give Richter's PGA–intensity relation, log a = I/3 − 0.5, and name the Modified Mercalli scale. Y additionally lists all the factors that control shaking and gives a more complete country-to-scale mapping, so it is slightly more useful for later lookup.",
+   "cost": 0.03572
+  },
+  {
+   "qid": "bright_ans-941e254be2",
+   "track": "bright",
+   "doc": "bright/robotics/writingasimplecpppub.md",
+   "sonnet": "partial",
+   "haiku": "partial",
+   "better": "tie",
+   "reason": "The source only loosely relates to the question: it is a general ROS 2 C++ publisher tutorial covering package.xml dependencies and the start of the CMakeLists.txt setup. Neither digest can capture a fix for the octomap include error, because the page doesn't contain one. Both keep the same useful material: the rclcpp/std_msgs dependencies, the ament_cmake package setup and the MinimalPublisher structure. Their coverage is essentially equivalent.",
+   "cost": 0.047692
+  },
+  {
+   "qid": "bright_ans-de2eea27cb",
+   "track": "bright",
+   "doc": "bright/earth_science/seismic-intensity-scales.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "Both digests keep the core points the question needs: intensity measures shaking at a given location, magnitude measures the earthquake's overall strength, and intensity depends on distance, depth and local geology. X spells out the intensity-versus-magnitude distinction more directly in its key facts. It also lists the full set of intensity factors as a fact and includes Richter's formula linking intensity to peak ground acceleration. That makes X slightly more useful.",
+   "cost": 0.040588
+  },
+  {
+   "qid": "bright_ans-b6c2f75487",
+   "track": "bright",
+   "doc": "bright/sustainable_living/teatreeoil.md",
+   "sonnet": "partial",
+   "haiku": "yes",
+   "better": "haiku",
+   "reason": "The question needs two points: tea tree oil is poisonous if swallowed, and it should not be used in or around the mouth. X states it is poisonous if swallowed and gives the coma case, but it omits the explicit warning against mouth use, including mouthwash and toothache uses. That warning is the part most directly relevant to brushing teeth. Y states both points clearly. Y is somewhat more cluttered because it lists the reference authors, but it is still the more useful digest.",
+   "cost": 0.037408
+  }
+ ]
+}

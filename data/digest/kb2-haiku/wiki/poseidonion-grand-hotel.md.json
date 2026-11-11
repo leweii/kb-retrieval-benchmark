@@ -1,0 +1,40 @@
+{
+ "summary": "The note describes the Poseidonion Grand Hotel, a luxury hotel in Greece that is considered one of the most luxurious in southeastern Europe. It sits on the island of Spetses, where it has been a landmark for nearly a century. Its architecture is noted for echoing hotels in the Côte d'Azur style.",
+ "one_line": "The Poseidonion Grand Hotel is a luxury landmark hotel on the Greek island of Spetses, known for its Côte d'Azur-style architecture.",
+ "key_facts": [
+  "The Poseidonion Grand Hotel is a luxury hotel in Greece.",
+  "The Poseidonion Grand Hotel is considered one of the most luxurious hotels in southeastern Europe.",
+  "The Poseidonion Grand Hotel is located on the island of Spetses.",
+  "The Poseidonion Grand Hotel has been a landmark on the Spetses skyline for nearly a century.",
+  "The architecture of the Poseidonion Grand Hotel echoes hotels of Côte d'Azur style."
+ ],
+ "entities": [
+  {
+   "name": "Poseidonion Grand Hotel",
+   "type": "place",
+   "role": "luxury hotel in Greece, located on the island of Spetses and considered one of the most luxurious in southeastern Europe"
+  },
+  {
+   "name": "Spetses",
+   "type": "place",
+   "role": "Greek island where the Poseidonion Grand Hotel is located and where the hotel is a skyline landmark"
+  },
+  {
+   "name": "Côte d'Azur",
+   "type": "place",
+   "role": "region whose hotel architectural style the Poseidonion Grand Hotel's architecture echoes"
+  }
+ ],
+ "tags": [
+  "hotels",
+  "greece",
+  "spetses",
+  "architecture",
+  "luxury travel"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1101,
+  "output_tokens": 567
+ }
+}

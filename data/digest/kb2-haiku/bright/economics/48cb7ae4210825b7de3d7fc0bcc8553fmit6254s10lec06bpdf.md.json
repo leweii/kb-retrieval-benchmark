@@ -1,0 +1,95 @@
+{
+ "summary": "Lecture 6 of MIT 6.254 (Game Theory with Engineering Applications, Asu Ozdaglar, Feb 23 2010) covers continuous games and discontinuous games. It proves Glicksberg's theorem that every continuous game has a mixed strategy Nash equilibrium by approximating the game with essentially finite games, applying Nash's theorem, and taking limits under the weak topology. It then gives discontinuous-game examples (Bertrand competition with capacity constraints, Hotelling competition) and gives conditions for uniqueness of pure strategy Nash equilibrium via diagonal strict concavity (Rosen's framework, KKT conditions, Proposition 4 on negative definite symmetric Jacobian).",
+ "one_line": "MIT lecture on continuous and discontinuous games, covering Glicksberg's existence theorem, Bertrand and Hotelling examples, and conditions for unique pure Nash equilibrium.",
+ "key_facts": [
+  "Glicksberg's Theorem states that every continuous game has a mixed strategy Nash equilibrium.",
+  "A continuous game is defined with a finite player set I, nonempty compact metric strategy spaces Si, and continuous utility functions ui.",
+  "An epsilon-equilibrium is a mixed strategy σ such that ui(si, σ−i) ≤ ui(σi, σ−i) + ε for all players i and strategies si in Si.",
+  "Proposition 2 states that if G' is an α-approximation to G and σ is an ε-equilibrium of G', then σ is an (ε + 2α)-equilibrium of G.",
+  "Proposition 3 states that for any continuous game G and any α > 0, there exists an essentially finite game that is an α-approximation to G.",
+  "The proof of Glicksberg's Theorem uses a scalar sequence αk decreasing to 0, Nash's Theorem for each essentially finite approximation, and compactness of Σ to extract a convergent subsequence.",
+  "In the Bertrand example with capacity constraints of 2/3 each, there is no pure strategy Nash equilibrium because either firm can raise its price and still sell 1/3 units.",
+  "In the capacity-constrained Bertrand example, the symmetric mixed strategy CDF is F(p) = 0 for 0 ≤ p ≤ 1/2, F(p) = 2 − 1/p for 1/2 ≤ p ≤ 1, and F(p) = 1 for p ≥ 1.",
+  "In the Hotelling example with n = 3 candidates, the lecture shows there is no pure strategy Nash equilibrium and asks for a mixed strategy equilibrium.",
+  "Example 3 has payoffs u1 = s1s2 − s1²/2 and u2 = s1s2 − s2²/2 on [0,1] for both players, and every profile (x, x) with x in [0,1] is a pure strategy Nash equilibrium.",
+  "Theorem 4 states that if strategy sets are given by concave constraints hi(xi) ≥ 0 with a strictly feasible point, and payoffs are diagonally strictly concave, then the game has a unique pure strategy Nash equilibrium.",
+  "Diagonally strictly concave means that for all x*, x̄ in S, (x̄ − x*)^T ∇u(x*) + (x* − x̄)^T ∇u(x̄) > 0.",
+  "Proposition 4 states that if the symmetric matrix U(x) + U^T(x) is negative definite for all x in S, then the payoff functions are diagonally strictly concave.",
+  "The lecture credits the uniqueness result to Rosen's 1965 Econometrica paper on existence and uniqueness of equilibrium points for concave N-person games.",
+  "Myerson's Game Theory: Analysis of Conflict (1991), pp. 140-148, is the lecture's main source for the development of continuous games."
+ ],
+ "entities": [
+  {
+   "name": "Asu Ozdaglar",
+   "type": "person",
+   "role": "lecturer of 6.254 Lecture 6"
+  },
+  {
+   "name": "Glicksberg's theorem",
+   "type": "other",
+   "role": "result stating every continuous game has a mixed strategy Nash equilibrium"
+  },
+  {
+   "name": "Nash's Theorem",
+   "type": "other",
+   "role": "used to produce an equilibrium for each finite approximation game"
+  },
+  {
+   "name": "Myerson",
+   "type": "person",
+   "role": "author of Game Theory: Analysis of Conflict, whose development of continuous games the lecture follows"
+  },
+  {
+   "name": "Rosen",
+   "type": "person",
+   "role": "author of classical 1965 paper on existence and uniqueness of equilibrium for concave N-person games"
+  },
+  {
+   "name": "Dasgupta and Maskin",
+   "type": "person",
+   "role": "authors of 1986 papers on existence of equilibrium in discontinuous economic games"
+  },
+  {
+   "name": "Fudenberg and Tirole",
+   "type": "person",
+   "role": "authors of textbook whose Chapters 12.2 and 12.3 cover discontinuous games"
+  },
+  {
+   "name": "Bertrand Competition with Capacity Constraints",
+   "type": "event",
+   "role": "Example 1 in which two firms charge prices in [0,1] with capacity limits of 2/3"
+  },
+  {
+   "name": "Hotelling Competition",
+   "type": "event",
+   "role": "Example 2 in which candidates choose positions on [0,1] to win citizen votes"
+  },
+  {
+   "name": "Karush-Kuhn-Tucker conditions",
+   "type": "program",
+   "role": "necessary optimality conditions for inequality-constrained optimization, Theorem 2"
+  },
+  {
+   "name": "Rudin",
+   "type": "person",
+   "role": "author of Principles of Mathematical Analysis, cited for metric space background"
+  },
+  {
+   "name": "MIT OpenCourseWare",
+   "type": "organization",
+   "role": "publisher of the course materials"
+  }
+ ],
+ "tags": [
+  "game theory",
+  "continuous games",
+  "mixed strategy equilibrium",
+  "discontinuous games",
+  "equilibrium uniqueness"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12018,
+  "output_tokens": 1951
+ }
+}

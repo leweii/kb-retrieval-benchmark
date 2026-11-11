@@ -1,0 +1,91 @@
+{
+ "summary": "This Wikipedia article describes sedimentation as a water treatment process in which gravity removes suspended solids from water, using settling basins and clarifiers. It covers basic principles such as limit settling velocity, overflow rate and Stokes' law, tank design recommendations, the four sedimentation types (discrete, flocculent, zone/hindered, compression), and applications in potable water and wastewater treatment.",
+ "one_line": "Overview of sedimentation in water treatment, covering gravity settling principles, clarifier and settling basin design, sedimentation types, and potable and wastewater applications.",
+ "key_facts": [
+  "Sedimentation in water treatment uses gravity to remove suspended solids from water.",
+  "Settling basins are ponds constructed to remove entrained solids by sedimentation, while clarifiers are mechanically equipped tanks for continuous solids removal.",
+  "Clarification does not remove dissolved solids.",
+  "Colloids are particles between 1 nm and 1 µm in size and are not likely to settle naturally because Brownian motion and electrostatic forces balance gravity.",
+  "Stokes' law states that under specific conditions the particle settling rate is directly proportional to the square of particle diameter and inversely proportional to liquid viscosity.",
+  "Overflow rate is calculated as flow of water (Q, m3/s) divided by surface area of the settling basin (A, m2).",
+  "Recommended overflow rates are 9.4 mm per second for quiescent zones, 4.0 mm per second for full-flow basins, and 0.46 mm per second for off-line basins.",
+  "Because flow surges, wind shear, scour and turbulence reduce settling effectiveness, it is recommended to double the area calculated by the overflow equation.",
+  "Sedimentation efficiency does not depend on tank depth, provided forward velocity is low enough that settled material does not re-suspend from the tank floor.",
+  "There are four types of sedimentation: Type 1 (dilute, non-flocculent, free-settling), Type 2 (dilute, flocculent), Type 3 (concentrated, zone or hindered settling) and Type 4 (concentrated, compression).",
+  "In general, a suspension with total suspended solids below 500 mg/L is considered discrete sedimentation.",
+  "All continuous flow settling basins are divided into four parts: inlet zone, settling zone, sludge zone and outlet zone.",
+  "Tanks are usually made 3–6 m deep with retention times of a few hours to avoid hydraulic short-circuiting.",
+  "In potable water treatment, sedimentation generally follows chemical coagulation and flocculation, which group particles into larger flocs.",
+  "Primary clarifiers in wastewater treatment remove floating and settleable solids, while secondary clarifiers remove biological flocs from methods such as activated sludge, trickling filters and rotating biological contactors."
+ ],
+ "entities": [
+  {
+   "name": "Settling basin",
+   "type": "place",
+   "role": "ponds constructed for removing entrained solids by sedimentation"
+  },
+  {
+   "name": "Clarifier",
+   "type": "place",
+   "role": "mechanically equipped tanks for continuous removal of solids deposited by sedimentation"
+  },
+  {
+   "name": "Imhoff cone",
+   "type": "product",
+   "role": "apparatus used to measure settleable solids as visible volume after one hour of settling"
+  },
+  {
+   "name": "Stokes' law",
+   "type": "other",
+   "role": "explains the relationship between settling rate and particle diameter"
+  },
+  {
+   "name": "Navier–Stokes equations",
+   "type": "other",
+   "role": "referenced alongside Newton's second law as the basis of gravitational settling theory"
+  },
+  {
+   "name": "Wastewater treatment",
+   "type": "program",
+   "role": "main article linked for sewage and wastewater treatment processes that use sedimentation"
+  },
+  {
+   "name": "Activated sludge",
+   "type": "program",
+   "role": "secondary treatment method that creates biological flocs removed by secondary clarifiers"
+  },
+  {
+   "name": "Trickling filters",
+   "type": "product",
+   "role": "secondary treatment method whose biological growth is removed by secondary clarifiers"
+  },
+  {
+   "name": "Rotating biological contactors",
+   "type": "product",
+   "role": "secondary treatment method whose biological growth is removed by secondary clarifiers"
+  },
+  {
+   "name": "Dissolved air flotation",
+   "type": "program",
+   "role": "related separation process listed in See also"
+  },
+  {
+   "name": "API oil-water separator",
+   "type": "product",
+   "role": "related separation device listed in See also"
+  }
+ ],
+ "tags": [
+  "water treatment",
+  "sedimentation",
+  "clarifier",
+  "settling basin",
+  "wastewater treatment",
+  "separation processes"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8526,
+  "output_tokens": 1476
+ }
+}

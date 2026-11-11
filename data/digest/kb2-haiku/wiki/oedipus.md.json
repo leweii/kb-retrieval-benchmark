@@ -1,0 +1,70 @@
+{
+ "summary": "The note retells the opening of the Oedipus myth. Laius and Jocasta, king and queen of Thebes, consulted the Oracle of Apollo at Delphi after being childless for some time, and were told any son born to Laius would kill him. When Jocasta bore a son, Laius had the infant's ankles pierced and tethered so he could not crawl, and ordered him exposed on a nearby mountain. A servant instead passed the baby on to a Corinthian shepherd, who gave him to another shepherd.",
+ "one_line": "Summarizes the birth of Oedipus, the prophecy of Apollo's Oracle at Delphi, and the infant's exposure on a mountain near Thebes.",
+ "key_facts": [
+  "Oedipus was the son of Laius and Jocasta, king and queen of Thebes.",
+  "Laius and Jocasta had been childless for some time before Laius consulted the Oracle of Apollo at Delphi.",
+  "The Oracle prophesied that any son born to Laius would kill him.",
+  "When Jocasta bore a son, Laius had the baby's ankles pierced and tethered together so that he could not crawl.",
+  "Jocasta gave the boy to a servant to be exposed on the nearby mountain.",
+  "Laius intended for the child to die of exposure.",
+  "The servant did not leave the child to die of exposure as Laius intended.",
+  "The servant passed the baby on to a shepherd from Corinth.",
+  "That Corinthian shepherd gave the child to another shepherd."
+ ],
+ "entities": [
+  {
+   "name": "Oedipus",
+   "type": "person",
+   "role": "son of Laius and Jocasta, the infant whose exposure is described"
+  },
+  {
+   "name": "Laius",
+   "type": "person",
+   "role": "king of Thebes and father of Oedipus, who had the infant's ankles tethered and ordered him exposed"
+  },
+  {
+   "name": "Jocasta",
+   "type": "person",
+   "role": "queen of Thebes and mother of Oedipus, who gave the boy to a servant to abandon"
+  },
+  {
+   "name": "Thebes",
+   "type": "place",
+   "role": "city whose king and queen were Laius and Jocasta"
+  },
+  {
+   "name": "Oracle of Apollo at Delphi",
+   "type": "other",
+   "role": "oracle Laius consulted, which prophesied that any son of Laius would kill him"
+  },
+  {
+   "name": "Apollo",
+   "type": "other",
+   "role": "god whose oracle at Delphi gave the prophecy"
+  },
+  {
+   "name": "Delphi",
+   "type": "place",
+   "role": "location of the Oracle of Apollo that Laius consulted"
+  },
+  {
+   "name": "Corinth",
+   "type": "place",
+   "role": "origin of the shepherd who received the baby from the servant"
+  }
+ ],
+ "tags": [
+  "greek mythology",
+  "oedipus",
+  "prophecy",
+  "oracle",
+  "thebes",
+  "myth"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1214,
+  "output_tokens": 1513
+ }
+}

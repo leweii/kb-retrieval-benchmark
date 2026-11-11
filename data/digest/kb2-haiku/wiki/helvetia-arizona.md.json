@@ -1,0 +1,39 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Helvetia, Arizona, a populated place in Pima County, Arizona. It states the settlement was founded in 1891 and abandoned in the early 1920s. It also notes that Helvetia is an ancient name for Switzerland.",
+ "one_line": "Helvetia, Arizona is a former settlement in Pima County, founded in 1891 and abandoned in the early 1920s.",
+ "key_facts": [
+  "Helvetia is a populated place in Pima County, Arizona.",
+  "Helvetia, Arizona was settled in 1891.",
+  "Helvetia, Arizona was abandoned in the early 1920s.",
+  "Helvetia is an ancient name for Switzerland."
+ ],
+ "entities": [
+  {
+   "name": "Helvetia, Arizona",
+   "type": "place",
+   "role": "populated place in Pima County, Arizona that was settled in 1891 and abandoned in the early 1920s"
+  },
+  {
+   "name": "Pima County",
+   "type": "place",
+   "role": "county in Arizona where Helvetia is located"
+  },
+  {
+   "name": "Switzerland",
+   "type": "place",
+   "role": "country whose ancient name is Helvetia"
+  }
+ ],
+ "tags": [
+  "arizona",
+  "pima county",
+  "ghost town",
+  "helvetia",
+  "switzerland"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1052,
+  "output_tokens": 412
+ }
+}

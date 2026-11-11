@@ -1,0 +1,58 @@
+{
+ "summary": "A Python Morsels screencast by Trey Hunner explaining how square-bracket subscript notation works on objects through the __getitem__ method, covering both list indexing and dictionary key lookups. It demonstrates a ForgivingIndexer class that converts string and float indexes to integers, and notes that implementing __getitem__ is how sequence-like and mapping-like objects support square brackets. It is part of the Dunder Methods series.",
+ "one_line": "Explains how implementing __getitem__ lets custom Python objects support square-bracket index and key lookups.",
+ "key_facts": [
+  "Python lists support indexing with square brackets, e.g. colors[1] returns 'blue' from [\"purple\", \"blue\", \"green\", \"pink\"].",
+  "Python dictionaries support key lookups with square brackets, e.g. fruit_counts[\"pear\"] returns 2.",
+  "Subscript notation with square brackets is powered by the __getitem__ method.",
+  "Any object implementing a __getitem__ method can be used with subscript notation.",
+  "The ForgivingIndexer class defines __init__ to store a sequence and __getitem__ that returns self.sequence[int(index)].",
+  "ForgivingIndexer converts the string \"2\" to an integer, so colors[\"2\"] returns 'green'.",
+  "ForgivingIndexer converts the float 3.2 to an integer, so colors[3.2] returns 'pink'.",
+  "You most often implement __getitem__ in list-like objects (sequences) or dictionary-like objects (mappings).",
+  "The screencast is 1 minute 25 seconds long and is part of the Dunder Methods series.",
+  "The article is written by Trey Hunner, published Jan. 31, 2022, and applies to Python 3.8 through 3.12.",
+  "The series description states that overloading operators, protocols, and functionality is done by implementing dunder methods.",
+  "The next video in the series is 'Making the len function work on your Python objects', which requires a __len__ method."
+ ],
+ "entities": [
+  {
+   "name": "Trey Hunner",
+   "type": "person",
+   "role": "author and presenter of the Python Morsels screencast"
+  },
+  {
+   "name": "Python Morsels",
+   "type": "organization",
+   "role": "publisher of the article, screencast and exercises site"
+  },
+  {
+   "name": "ForgivingIndexer",
+   "type": "product",
+   "role": "example class that implements __getitem__ and converts indexes to integers"
+  },
+  {
+   "name": "Dunder Methods",
+   "type": "program",
+   "role": "screencast series this video belongs to"
+  },
+  {
+   "name": "__getitem__",
+   "type": "other",
+   "role": "dunder method that powers subscript notation with square brackets"
+  }
+ ],
+ "tags": [
+  "python",
+  "dunder methods",
+  "__getitem__",
+  "subscript notation",
+  "sequences",
+  "mappings"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4020,
+  "output_tokens": 891
+ }
+}

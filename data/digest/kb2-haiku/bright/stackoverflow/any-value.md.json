@@ -1,0 +1,52 @@
+{
+ "summary": "This note is a documentation page for the ANY_VALUE function in a SQL-style query language. It explains that ANY_VALUE returns some non-deterministic value of an expression from a group, and gives aggregate and window function syntax. It notes that DISTINCT has no effect and that window usage does not support ORDER BY in OVER() or window frames. It also shows how ANY_VALUE simplifies GROUP BY queries compared with adding columns to GROUP BY or using MIN.",
+ "one_line": "Documentation for the ANY_VALUE aggregate and window function, which returns a non-deterministic value from a group and simplifies GROUP BY queries.",
+ "key_facts": [
+  "ANY_VALUE returns some value of the expression from the group.",
+  "The result of ANY_VALUE is non-deterministic.",
+  "Aggregate syntax is ANY_VALUE( [ DISTINCT ] <expr1> ).",
+  "Window syntax is ANY_VALUE( [ DISTINCT ] <expr1> ) OVER ( [ PARTITION BY <expr2> ] ).",
+  "The DISTINCT keyword can be specified for ANY_VALUE but it does not have any effect.",
+  "When used as a window function, ANY_VALUE does not support the ORDER BY sub-clause in the OVER() clause.",
+  "When used as a window function, ANY_VALUE does not support window frames.",
+  "Without ANY_VALUE, a GROUP BY query can only select expressions used in the GROUP BY clause or results of aggregate functions.",
+  "ANY_VALUE can simplify and optimize the performance of GROUP BY queries.",
+  "Using MIN(customer.name) instead of ANY_VALUE still requires computing the MIN aggregate.",
+  "The example query with ANY_VALUE groups only by customer.id while selecting ANY_VALUE(customer.name) and SUM(orders.value).",
+  "The page lists the function under the Aggregation category, and the page language is English."
+ ],
+ "entities": [
+  {
+   "name": "ANY_VALUE",
+   "type": "program",
+   "role": "aggregate and window function that returns some non-deterministic value of an expression from a group"
+  },
+  {
+   "name": "GROUP BY",
+   "type": "other",
+   "role": "SQL clause whose use ANY_VALUE can simplify and optimize"
+  },
+  {
+   "name": "MIN",
+   "type": "program",
+   "role": "aggregate function shown as an alternative to ANY_VALUE that still requires computation"
+  },
+  {
+   "name": "SUM",
+   "type": "program",
+   "role": "aggregate function used in the example queries to sum orders.value"
+  }
+ ],
+ "tags": [
+  "sql",
+  "aggregate functions",
+  "window functions",
+  "group by",
+  "query optimization"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1974,
+  "output_tokens": 864
+ }
+}

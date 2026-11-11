@@ -1,0 +1,40 @@
+{
+ "summary": "Issues and Answers was a once-weekly television news program broadcast by the American Broadcasting Company network from November 1960 to November 1981. The series was distributed to ABC affiliate stations on Sunday afternoons, to be carried either live or videotaped for later broadcast.",
+ "one_line": "Issues and Answers was an ABC weekly TV news program that aired from November 1960 to November 1981.",
+ "key_facts": [
+  "Issues and Answers was a once-weekly TV news program.",
+  "Issues and Answers was telecast by the American Broadcasting Company network.",
+  "Issues and Answers was telecast from November 1960 to November 1981.",
+  "The series was distributed to ABC affiliate stations on Sunday afternoons.",
+  "Affiliate stations could carry Issues and Answers either live or videotaped for later broadcast."
+ ],
+ "entities": [
+  {
+   "name": "Issues and Answers",
+   "type": "program",
+   "role": "once-weekly TV news program telecast by ABC from November 1960 to November 1981"
+  },
+  {
+   "name": "American Broadcasting Company",
+   "type": "organization",
+   "role": "television network that telecast Issues and Answers"
+  },
+  {
+   "name": "ABC affiliate stations",
+   "type": "organization",
+   "role": "stations that received the Issues and Answers series on Sunday afternoons for live or later broadcast"
+  }
+ ],
+ "tags": [
+  "television",
+  "news program",
+  "abc",
+  "broadcasting history",
+  "american television"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 1076,
+  "output_tokens": 456
+ }
+}

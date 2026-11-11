@@ -1,0 +1,141 @@
+{
+ "summary": "This PNAS research article reports 22 mature δ-hexatoxin (δ-HXTX) sequences from 10 Australian funnel-web spider species and argues that these toxins, which are lethal to humans, evolved as a defense against vertebrate predators rather than for prey capture. The authors find strong sequence conservation of δ-HXTXs (low omega values) despite an origin roughly 150 to 200 million years ago, and show that the toxin Ar1a from the Sydney funnel-web spider Atrax robustus induces pain in mice, potentiates human NaV1.1, NaV1.2, NaV1.3 and NaV1.6 channels, and paralyzes blowflies and inhibits inactivation of cockroach NaV channels. The human lethality is described as an unfortunate evolutionary coincidence, since primates never lived in Australia during the toxins' evolution.",
+ "one_line": "Study finds Australian funnel-web spider lethal δ-hexatoxins are highly conserved and likely evolved to deter vertebrate predators, with human lethality a coincidence.",
+ "key_facts": [
+  "The study identified 22 mature δ-HXTX sequences from 10 funnel-web spider species by profiling venom-gland transcriptomes.",
+  "δ-HXTXs are the toxin family responsible for the human envenomation syndrome of Australian funnel-web spiders.",
+  "The δ-HXTXs originated in funnel-web spiders roughly 150 to 200 million years ago (MYA), before primates existed in Australia.",
+  "Only three positively selected sites (2.6% of sites) were identified by the Bayesian approaches, while 15.6% of sites were under pervasive negative selection.",
+  "δ-HXTX-Ar1a (Ar1a) was isolated from the venom of the Sydney funnel-web spider Atrax robustus using RP-HPLC.",
+  "Ar1a had no effect on NaV1.4, NaV1.5, NaV1.7 and NaV1.8 at concentrations up to 150 nM.",
+  "Ar1a potentiated NaV1.1 (EC50 30.2 nM), NaV1.2 (EC50 38.9 nM), NaV1.3 (EC50 38.9 nM) and NaV1.6 (EC50 91.2 nM).",
+  "Intraplantar injection of Ar1a (100 nM, 20 µL) into male C57BL/6 mice produced mild, transient nocifensive responses, peaking at 10.5 ± 1.5 flinches per 5 min at 15 minutes.",
+  "Injection of Ar1a into sheep blowflies (Lucilia cuprina) caused contractile paralysis with a PD50 of 319 ± 42 pmol/g at 1 h, and flies recovered within 24 h.",
+  "Ar1a completely inhibited fast inactivation of the German cockroach BgNaV1 channel at 100 nM.",
+  "The δ-HXTXs usually contain eight Cys residues, whereas the related U-BATXs and μ-HXTX-Mg1c have only six.",
+  "Funnel-web envenomations are mostly inflicted by male spiders wandering from their burrows in search of females during the mating season.",
+  "The authors argue that male spider venom is more potent than female venom, consistent with increased δ-HXTX expression in males.",
+  "Macrothele spiders encode nearly all Cys residues (except Cys-2) predominantly with TGC, unlike Atrax and Hadronyche, which favor TGT.",
+  "The study was published in PNAS in September 2020 (vol. 117, no. 40, pages 24920-24928) by Volker Herzig, Kartik Sunagar, David T. R. Wilson and Bryan G. Fry."
+ ],
+ "entities": [
+  {
+   "name": "Australian funnel-web spider",
+   "type": "other",
+   "role": "Venomous spiders whose venom δ-hexatoxins cause human fatalities; arguably the world's deadliest spider"
+  },
+  {
+   "name": "δ-hexatoxins (δ-HXTXs)",
+   "type": "product",
+   "role": "Venom peptide family responsible for the human envenomation syndrome; studied for ecological role and evolution"
+  },
+  {
+   "name": "δ-HXTX-Ar1a (Ar1a)",
+   "type": "product",
+   "role": "Lethal toxin isolated from Atrax robustus venom; induces pain in mice and inhibits NaV channel inactivation"
+  },
+  {
+   "name": "Atrax robustus",
+   "type": "other",
+   "role": "Sydney funnel-web spider; source of the Ar1a toxin"
+  },
+  {
+   "name": "Atrax sutherlandi",
+   "type": "other",
+   "role": "Funnel-web species whose δ-HXTX sequences were sequenced via RACE"
+  },
+  {
+   "name": "Hadronyche infensa",
+   "type": "other",
+   "role": "Funnel-web species with the most δ-HXTX sequences; its venom was analyzed by mass spectrometry"
+  },
+  {
+   "name": "Macrothele gigas",
+   "type": "other",
+   "role": "Source of μ-HXTX sequence included in the dataset"
+  },
+  {
+   "name": "Trittame loki",
+   "type": "other",
+   "role": "Barychelid spider whose homologous U-BATXs were identified in the study"
+  },
+  {
+   "name": "Missulena bradleyi",
+   "type": "other",
+   "role": "Australian mouse spider whose venom contains a homologous δ-actinopoditoxin (δ-AOTX)"
+  },
+  {
+   "name": "Blattella germanica",
+   "type": "other",
+   "role": "German cockroach whose BgNaV1 channel was expressed in Xenopus oocytes for testing Ar1a"
+  },
+  {
+   "name": "Lucilia cuprina",
+   "type": "other",
+   "role": "Sheep blowfly injected with Ar1a to measure paralytic dose"
+  },
+  {
+   "name": "NaV1.1 to NaV1.8",
+   "type": "other",
+   "role": "Human voltage-gated sodium channel subtypes tested for Ar1a potentiation; NaV1.1, NaV1.2, NaV1.3 and NaV1.6 were affected"
+  },
+  {
+   "name": "Magi 4 (δ-HXTX-Mg1a)",
+   "type": "product",
+   "role": "Toxin from a Japanese funnel-web spider that potentiates NaV1.1 and NaV1.6; compared with Ar1a"
+  },
+  {
+   "name": "Australian Reptile Park",
+   "type": "organization",
+   "role": "Supplied milked lyophilized A. robustus venom for the study"
+  },
+  {
+   "name": "Queensland Animal Ethics Committee (University of Queensland Animal Ethics Committee)",
+   "type": "organization",
+   "role": "Approved the in vivo experiments on mice"
+  },
+  {
+   "name": "PNAS",
+   "type": "organization",
+   "role": "Journal in which the article was published (vol. 117, no. 40)"
+  },
+  {
+   "name": "Volker Herzig",
+   "type": "person",
+   "role": "Lead author of the study"
+  },
+  {
+   "name": "Bryan G. Fry",
+   "type": "person",
+   "role": "Co-author of the study"
+  },
+  {
+   "name": "Kartik Sunagar",
+   "type": "person",
+   "role": "Co-author of the study"
+  },
+  {
+   "name": "David T. R. Wilson",
+   "type": "person",
+   "role": "Co-author of the study; collected several spider specimens"
+  },
+  {
+   "name": "David M. Hillis",
+   "type": "person",
+   "role": "Editor of the article at The University of Texas at Austin"
+  }
+ ],
+ "tags": [
+  "venom",
+  "spiders",
+  "sodium channels",
+  "evolution",
+  "toxins",
+  "predator defense"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 13639,
+  "output_tokens": 2418
+ }
+}

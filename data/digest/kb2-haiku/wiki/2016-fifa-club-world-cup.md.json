@@ -1,0 +1,55 @@
+{
+ "summary": "The note describes the 2016 FIFA Club World Cup, the 13th edition of the FIFA-organised international club football tournament, hosted by Japan. It was contested by the champion clubs from the six continental confederations plus the host country's national league champion. Real Madrid won their second Club World Cup by defeating hosts Kashima Antlers in the final.",
+ "one_line": "The 2016 FIFA Club World Cup, the 13th edition, was hosted by Japan and won by Real Madrid over Kashima Antlers.",
+ "key_facts": [
+  "The 2016 FIFA Club World Cup was the 13th edition of the FIFA Club World Cup.",
+  "The tournament was officially known as the FIFA Club World Cup Japan 2016 presented by Alibaba YunOS Auto for sponsorship reasons.",
+  "The 2016 FIFA Club World Cup was organised by FIFA.",
+  "The tournament was hosted by Japan.",
+  "The tournament featured the champion clubs from each of the six continental confederations.",
+  "The tournament also included the national league champion from the host country.",
+  "Real Madrid won their second Club World Cup.",
+  "Real Madrid defeated hosts Kashima Antlers in the final.",
+  "Kashima Antlers were the host country's representative in the tournament."
+ ],
+ "entities": [
+  {
+   "name": "FIFA",
+   "type": "organization",
+   "role": "organiser of the FIFA Club World Cup tournament"
+  },
+  {
+   "name": "FIFA Club World Cup Japan 2016 presented by Alibaba YunOS Auto",
+   "type": "event",
+   "role": "official name of the 2016 tournament, given for sponsorship reasons"
+  },
+  {
+   "name": "Real Madrid",
+   "type": "organization",
+   "role": "winner of the tournament, winning their second Club World Cup in the final"
+  },
+  {
+   "name": "Kashima Antlers",
+   "type": "organization",
+   "role": "host country club that lost to Real Madrid in the final"
+  },
+  {
+   "name": "Japan",
+   "type": "place",
+   "role": "host country of the 2016 tournament"
+  }
+ ],
+ "tags": [
+  "football",
+  "fifa club world cup",
+  "club football",
+  "japan",
+  "real madrid",
+  "sports tournaments"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1173,
+  "output_tokens": 690
+ }
+}

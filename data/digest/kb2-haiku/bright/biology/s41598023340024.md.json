@@ -1,0 +1,90 @@
+{
+ "summary": "This Scientific Reports article (2023) compares respiratory arousal threshold (AT) between patients with isolated obstructive sleep apnea (OSA-only) and patients with comorbid insomnia and OSA (COMISA). Participants referred for suspected OSA completed a home type 3 sleep study, the Insomnia Severity Index and the Epworth Sleepiness Scale, and low AT was scored from three polysomnography variables. The authors found a similar proportion of low AT in both groups (29% vs 33%), suggesting that respiratory arousal threshold may not explain the increased arousability seen in insomnia.",
+ "one_line": "Study finding that low respiratory arousal threshold occurs at similar rates in isolated sleep apnea and comorbid insomnia-sleep apnea (COMISA) patients.",
+ "key_facts": [
+  "The study was published in Scientific Reports, volume 13, article 7638, on 11 May 2023.",
+  "The study hypothesized that a low respiratory arousal threshold is more common among COMISA patients than among OSA patients without insomnia.",
+  "Participants were referred for OSA diagnosis and underwent a type 3 sleep study using an Apnealink Plus monitor (Resmed, San Diego, CA) at home.",
+  "Insomnia was defined as an Insomnia Severity Index (ISI) score of 15 or higher; sleep apnea was defined as an apnea hypopnea index (AHI) of 15 events/h or higher.",
+  "Low arousal threshold was determined with a previously validated score giving one point each for AHI below 30 events/h, nadir SpO2 above 82.5%, and hypopnea proportion above 58.3%; a score of 2 or more defined low AT.",
+  "The final study sample comprised 51 OSA-only participants and 52 COMISA participants, randomly selected from a database of 490 such patients.",
+  "OSA-only and COMISA groups had similar age (61 vs 60 years), body-mass index (31.3 vs 32.2 kg/m2) and OSA severity (40.2 vs 37.55 events/h), with all p values not significant.",
+  "The OSA-only group had significantly more males than the COMISA group (58% vs 33%, p = 0.013).",
+  "The proportion of participants with low AT was 29% in the OSA-only group and 33% in the COMISA group, which was not significantly different.",
+  "In COMISA patients, ISI scores were 19 (18–22) in the low AT group and 18 (16–21) in the high AT group (p = 0.34).",
+  "Middle insomnia was the most common insomnia subtype among COMISA participants, observed in 65.4% of them.",
+  "Depression was more prevalent among COMISA participants than among OSA-only participants (p = 0.04).",
+  "The authors conclude that the respiratory arousal threshold may not be related to the increased arousability of insomnia, and that respiratory arousals may work through different mechanisms than spontaneous insomnia arousals.",
+  "The authors note that COMISA subjects tended to have milder OSA, which may bias AT comparisons because low AT patients tend to have milder OSA."
+ ],
+ "entities": [
+  {
+   "name": "Marcela Yanagimori",
+   "type": "person",
+   "role": "first author of the study, affiliated with the first institution listed"
+  },
+  {
+   "name": "Pedro R. Genta",
+   "type": "person",
+   "role": "author of the study listed last among the authors"
+  },
+  {
+   "name": "Geraldo Lorenzi-Filho",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Bradley Edwards",
+   "type": "person",
+   "role": "author of the study, affiliated with a second institution"
+  },
+  {
+   "name": "Scientific Reports",
+   "type": "organization",
+   "role": "journal in which the article was published"
+  },
+  {
+   "name": "Apnealink Plus",
+   "type": "product",
+   "role": "type 3 home sleep monitor used for the sleep studies"
+  },
+  {
+   "name": "Insomnia Severity Index (ISI)",
+   "type": "program",
+   "role": "questionnaire used to define insomnia (score of 15 or higher) and insomnia subtypes"
+  },
+  {
+   "name": "Epworth Sleepiness Scale (ESS)",
+   "type": "program",
+   "role": "questionnaire used to assess daytime sleepiness; score of 11 or higher defines excessive daytime sleepiness"
+  },
+  {
+   "name": "American Academy of Sleep Medicine (AASM) Manual for Scoring Sleep and Associated events",
+   "type": "program",
+   "role": "scoring guideline used to review all sleep studies"
+  },
+  {
+   "name": "Comissão de Ética e Pesquisa (CEP) from FMUSP",
+   "type": "organization",
+   "role": "ethics committee that approved all study protocols"
+  },
+  {
+   "name": "IBM SPSS Statistics 20",
+   "type": "product",
+   "role": "software used for statistical analysis"
+  }
+ ],
+ "tags": [
+  "sleep apnea",
+  "insomnia",
+  "arousal threshold",
+  "COMISA",
+  "sleep disorders",
+  "polysomnography"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 14630,
+  "output_tokens": 1602
+ }
+}

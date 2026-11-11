@@ -1,0 +1,67 @@
+{
+ "summary": "This is a reference page for the ST_COLLECT geospatial function, which combines GEOGRAPHY objects into one. It has a scalar form taking two GEOGRAPHY arguments and an aggregate form taking one column. The page gives usage rules for result types and three worked examples using a small geo3 table of points.",
+ "one_line": "Reference for the ST_COLLECT geospatial function, which combines GEOGRAPHY objects via scalar or aggregate forms.",
+ "key_facts": [
+  "ST_COLLECT has two forms: a scalar form taking two GEOGRAPHY expressions and an aggregate form taking one GEOGRAPHY expression.",
+  "ST_COLLECT combines all the GEOGRAPHY objects in a column into one GEOGRAPHY object in its aggregate form.",
+  "The function returns a value of type GEOGRAPHY.",
+  "If both inputs are Point objects, the result is a MultiPoint object containing the two Points.",
+  "If both inputs are LineString objects, the result is a MultiLineString object.",
+  "If the inputs are different geospatial types, or at least one input is a collection (e.g. MultiLineString, GeometryCollection, or FeatureCollection), the result is a GeometryCollection containing both input objects.",
+  "The examples create a table named geo3 with columns g1 and g2 of type GEOGRAPHY.",
+  "The geo3 table is loaded with rows (POINT(-180 -90), POINT(-45 -45)), (POINT(0 0), POINT(-60 -60)), and (POINT(+180 +90), POINT(+45 +45)).",
+  "The scalar example SELECT ST_COLLECT(g1, g2) FROM geo3 returns a MultiPoint for each row containing both points.",
+  "The aggregate example SELECT ST_COLLECT(g1), ST_COLLECT(g2) FROM geo3 returns one MultiPoint per column containing all points in that column.",
+  "The nested example SELECT ST_COLLECT(ST_COLLECT(g1), ST_COLLECT(g2)) FROM geo3 returns a hierarchical GeometryCollection of the two MultiPoint values.",
+  "The page's nested example result is a GeometryCollection whose geometries are two MultiPoint objects."
+ ],
+ "entities": [
+  {
+   "name": "ST_COLLECT",
+   "type": "program",
+   "role": "Geospatial function that combines GEOGRAPHY objects into one, in scalar and aggregate forms, documented on this page"
+  },
+  {
+   "name": "geo3",
+   "type": "other",
+   "role": "Example table with GEOGRAPHY columns g1 and g2 used in the examples"
+  },
+  {
+   "name": "GEOGRAPHY",
+   "type": "other",
+   "role": "Data type of the function arguments and return value"
+  },
+  {
+   "name": "MultiPoint",
+   "type": "other",
+   "role": "Result type when both inputs are Point objects"
+  },
+  {
+   "name": "MultiLineString",
+   "type": "other",
+   "role": "Result type when both inputs are LineString objects"
+  },
+  {
+   "name": "GeometryCollection",
+   "type": "other",
+   "role": "Result type when inputs differ in type or include a collection"
+  },
+  {
+   "name": "FeatureCollection",
+   "type": "other",
+   "role": "Example of a collection type that triggers a GeometryCollection result"
+  }
+ ],
+ "tags": [
+  "geospatial",
+  "sql-function",
+  "geography",
+  "st-collect",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3545,
+  "output_tokens": 1089
+ }
+}

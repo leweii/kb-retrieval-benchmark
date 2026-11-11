@@ -1,0 +1,71 @@
+{
+ "summary": "Hunts Run is a stream in Sullivan County, Pennsylvania, described as a tributary of Sullivan Branch that flows through Davidson Township. The note says its watershed has a low pH and poor water quality. It also lists the main local rock formations and soil associations.",
+ "one_line": "Hunts Run is a Pennsylvania stream, a tributary of Sullivan Branch in Sullivan County, with poor water quality.",
+ "key_facts": [
+  "Hunts Run is a tributary of Sullivan Branch in Sullivan County, Pennsylvania, United States.",
+  "Hunts Run flows through Davidson Township.",
+  "The stream has a low pH and poor water quality.",
+  "The main rock formations in the area of Hunts Run are the Huntley Mountain Formation and the Burgoon Sandstone.",
+  "The main soil associations near Hunts Run are the Deep-Wellsboro-Oquaga association, the Morris association, and the Oquaga association."
+ ],
+ "entities": [
+  {
+   "name": "Hunts Run",
+   "type": "place",
+   "role": "tributary of Sullivan Branch that flows through Davidson Township in Sullivan County, Pennsylvania"
+  },
+  {
+   "name": "Sullivan Branch",
+   "type": "place",
+   "role": "stream into which Hunts Run flows as a tributary"
+  },
+  {
+   "name": "Sullivan County",
+   "type": "place",
+   "role": "county in Pennsylvania where Hunts Run is located"
+  },
+  {
+   "name": "Davidson Township",
+   "type": "place",
+   "role": "township through which Hunts Run flows"
+  },
+  {
+   "name": "Huntley Mountain Formation",
+   "type": "place",
+   "role": "main rock formation in the area of the stream"
+  },
+  {
+   "name": "Burgoon Sandstone",
+   "type": "place",
+   "role": "main rock formation in the area of the stream"
+  },
+  {
+   "name": "Deep-Wellsboro-Oquaga association",
+   "type": "other",
+   "role": "main soil association in the vicinity of the stream"
+  },
+  {
+   "name": "Morris association",
+   "type": "other",
+   "role": "main soil association in the vicinity of the stream"
+  },
+  {
+   "name": "Oquaga association",
+   "type": "other",
+   "role": "main soil association in the vicinity of the stream"
+  }
+ ],
+ "tags": [
+  "pennsylvania",
+  "sullivan county",
+  "streams",
+  "hydrology",
+  "geology",
+  "soil"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1153,
+  "output_tokens": 736
+ }
+}

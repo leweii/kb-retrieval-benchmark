@@ -1,0 +1,94 @@
+{
+ "summary": "This note is a collection of excerpts from a Wikipedia article on the steam engine. It covers James Watt's rotary steam engine of 1781 and its role in the Industrial Revolution, the earlier atmospheric engine of Thomas Newcomen, cooling methods for steam power plant condensers, the steam engine indicator used to measure cylinder pressure, and working fluids used in Rankine cycle systems. Some passages repeat the same Watt paragraph in slightly different wording.",
+ "one_line": "Overview of steam engine history, from Newcomen's atmospheric engine and Watt's rotary engine to condensers, indicators and Rankine-cycle working fluids.",
+ "key_facts": [
+  "In 1781 James Watt patented a steam engine that produced continuous rotary motion.",
+  "Watt's ten-horsepower engines enabled a wide range of manufacturing machinery to be powered.",
+  "By 1883, engines that could provide 10,000 hp had become feasible.",
+  "The first commercially successful true engine was the atmospheric engine, invented by Thomas Newcomen around 1712.",
+  "Newcomen's atmospheric engine was an improvement over Savery's steam pump, using a piston as proposed by Papin.",
+  "Newcomen's engine was relatively inefficient and in most cases was used for pumping water.",
+  "The atmospheric engine created a partial vacuum by condensing steam under a piston within a cylinder.",
+  "A dry type cooling tower is similar to an automobile radiator and is used in locations where water is costly.",
+  "A 700 megawatt coal-fired power plant may use about 3600 cubic metres of make-up water every hour for evaporative cooling.",
+  "The steam engine indicator traces on paper the pressure in the cylinder throughout the cycle.",
+  "The most successful steam engine indicator was developed for Charles Porter by Charles Richard and exhibited at London Exhibition in 1862.",
+  "Water is normally the fluid of choice for a Rankine cycle due to its non-toxic and unreactive chemistry, abundance, low cost, and thermodynamic properties.",
+  "Mercury is the working fluid in the mercury vapor turbine.",
+  "Low boiling hydrocarbons can be used in a binary cycle."
+ ],
+ "entities": [
+  {
+   "name": "James Watt",
+   "type": "person",
+   "role": "Scottish engineer who patented a steam engine producing continuous rotary motion in 1781"
+  },
+  {
+   "name": "Thomas Newcomen",
+   "type": "person",
+   "role": "inventor of the atmospheric engine around 1712"
+  },
+  {
+   "name": "Savery",
+   "type": "person",
+   "role": "creator of the steam pump that Newcomen's engine improved upon"
+  },
+  {
+   "name": "Papin",
+   "type": "person",
+   "role": "proposed using a piston, which Newcomen's engine employed"
+  },
+  {
+   "name": "Charles Porter",
+   "type": "person",
+   "role": "high speed engine inventor and manufacturer for whom the most successful indicator was developed"
+  },
+  {
+   "name": "Charles Richard",
+   "type": "person",
+   "role": "developed the most successful steam engine indicator, exhibited in 1862"
+  },
+  {
+   "name": "London Exhibition",
+   "type": "event",
+   "role": "1862 exhibition where the most successful steam engine indicator was shown"
+  },
+  {
+   "name": "Industrial Revolution",
+   "type": "event",
+   "role": "period in which the stationary steam engine was a key component, letting factories locate away from water power"
+  },
+  {
+   "name": "Rankine cycle",
+   "type": "program",
+   "role": "thermodynamic cycle whose working fluid may be closed loop or open loop"
+  },
+  {
+   "name": "mercury vapor turbine",
+   "type": "product",
+   "role": "turbine using mercury as its working fluid"
+  },
+  {
+   "name": "steam engine indicator",
+   "type": "product",
+   "role": "instrument for analyzing steam engine performance by tracing cylinder pressure"
+  },
+  {
+   "name": "traction engines",
+   "type": "product",
+   "role": "vehicles to which high pressure steam engines were applied"
+  }
+ ],
+ "tags": [
+  "steam engine",
+  "industrial revolution",
+  "thermodynamics",
+  "power generation",
+  "engineering history"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2412,
+  "output_tokens": 1307
+ }
+}

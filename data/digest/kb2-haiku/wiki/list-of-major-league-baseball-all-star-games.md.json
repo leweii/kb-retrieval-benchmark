@@ -1,0 +1,45 @@
+{
+ "summary": "This note is a list-style overview of the Major League Baseball All-Star Games, which have been played 89 times since the inaugural game in 1933. It tracks the head-to-head record of the American League (AL) and National League (NL), including the AL's lead in total wins, the two tied games, and the winning and unbeaten streaks. It also describes the eras when each league dominated the series, ending with the AL's 2018 move into the lead for the first time since 1963.",
+ "one_line": "Overview of the 89 Major League Baseball All-Star Games since 1933, covering AL and NL win totals, streaks and dominant eras.",
+ "key_facts": [
+  "Eighty-nine Major League Baseball All-Star Games have been played since the inaugural one in 1933.",
+  "The American League (AL) leads the All-Star Game series with 44 victories.",
+  "Two Major League Baseball All-Star Games ended in ties.",
+  "The National League (NL) holds the longest winning streak in the series, 11 games from 1972 to 1982.",
+  "The American League held a 13-game unbeaten streak from 1997 to 2009, which included a tie in 2002.",
+  "The American League dominated from 1933 to 1949, winning 12 of the first 16 games.",
+  "The National League dominated from 1950 to 1987, winning 33 of 42 games with 1 tie.",
+  "The National League won 19 of 20 All-Star Games from 1963 to 1982.",
+  "Since 1988 the American League has won 24 of 31 All-Star Games, with one tie.",
+  "In 2018 the American League took its first lead in the All-Star Game series since 1963."
+ ],
+ "entities": [
+  {
+   "name": "Major League Baseball All-Star Game",
+   "type": "event",
+   "role": "annual exhibition game series whose 89 editions since 1933 are listed in the note"
+  },
+  {
+   "name": "American League",
+   "type": "organization",
+   "role": "league that leads the All-Star Game series with 44 victories and dominated 1933-1949 and since 1988"
+  },
+  {
+   "name": "National League",
+   "type": "organization",
+   "role": "league with the series' longest winning streak of 11 games (1972-1982) and that dominated 1950-1987"
+  }
+ ],
+ "tags": [
+  "baseball",
+  "mlb all-star game",
+  "sports history",
+  "american league",
+  "national league"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1266,
+  "output_tokens": 1056
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "summary": "The note describes OVATION, a project that aims to create a standard for auroral oval size, position, and precipitation intensity. It provides historical data back to December 1983 and real-time nowcasting, with only University of Alaska, Fairbanks MSP data currently available in real time. Data sets must be long-running and cross-calibrated to previously defined DMSP boundaries, and the project is sponsored by UPOS and supported by NSF grants and research from NSF, AFOSR and NASA.",
+ "one_line": "OVATION is a project creating a standard for auroral oval size, position and precipitation intensity, with historical and real-time nowcasting data.",
+ "key_facts": [
+  "OVATION stands for Auroral Oval Variation, Assessment, Tracking, Intensity, and Online Nowcasting.",
+  "The goal of the OVATION project is to create a \"standard\" for the auroral oval size, position, and intensity of precipitation.",
+  "OVATION includes historical data back to December 1983.",
+  "Only data from the University of Alaska, Fairbanks, MSP is currently available in real time.",
+  "SuperDARN radar-determined boundaries and other real-time data should soon be included in OVATION.",
+  "All data sets incorporated into OVATION must be long-running and cross-calibrated to previously defined DMSP boundaries, using specific procedures.",
+  "The OVATION project welcomes additional data sources; contact Patrick Newell or Thomas Sotirelis for more information.",
+  "OVATION is sponsored by UPOS (University Partnering for Operational Support).",
+  "OVATION includes results of research sponsored by NSF, AFOSR and NASA.",
+  "Work on OVATION has been conducted at The Johns Hopkins University Applied Physics Laboratory, the University of Alaska, Fairbanks, and the Air Force Research Laboratory.",
+  "OVATION is supported by NSF grant ATM-0222411 (P. Newell) and NSF grant ATM-0004365 (T. Sotirelis).",
+  "The OVATION page links to pages for plotting historical auroral oval position, viewing real-time plots, data sets, technical background, guidelines, and funding."
+ ],
+ "entities": [
+  {
+   "name": "OVATION",
+   "type": "program",
+   "role": "project to create a standard for auroral oval size, position, and precipitation intensity, with historical and real-time nowcasting data"
+  },
+  {
+   "name": "UPOS (University Partnering for Operational Support)",
+   "type": "organization",
+   "role": "sponsor of OVATION"
+  },
+  {
+   "name": "NSF",
+   "type": "organization",
+   "role": "sponsor of research included in OVATION and supporter via grants ATM-0222411 and ATM-0004365"
+  },
+  {
+   "name": "AFOSR",
+   "type": "organization",
+   "role": "sponsor of research included in OVATION"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "sponsor of research included in OVATION"
+  },
+  {
+   "name": "The Johns Hopkins University Applied Physics Laboratory",
+   "type": "organization",
+   "role": "conducted work on OVATION"
+  },
+  {
+   "name": "University of Alaska, Fairbanks",
+   "type": "organization",
+   "role": "conducted work on OVATION and provides MSP data, the only real-time data currently available"
+  },
+  {
+   "name": "Air Force Research Laboratory",
+   "type": "organization",
+   "role": "conducted work on OVATION"
+  },
+  {
+   "name": "Patrick Newell",
+   "type": "person",
+   "role": "contact for additional data sources; NSF grant ATM-0222411 supported his work"
+  },
+  {
+   "name": "Thomas Sotirelis",
+   "type": "person",
+   "role": "contact for additional data sources and science questions; NSF grant ATM-0004365 supported his work"
+  },
+  {
+   "name": "SuperDARN",
+   "type": "program",
+   "role": "radar system whose determined boundaries should soon be included in OVATION real-time data"
+  },
+  {
+   "name": "DMSP",
+   "type": "program",
+   "role": "previously defined boundaries to which OVATION data sets must be cross-calibrated"
+  }
+ ],
+ "tags": [
+  "aurora",
+  "auroral oval",
+  "space weather",
+  "nowcasting",
+  "geophysics data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1624,
+  "output_tokens": 1311
+ }
+}

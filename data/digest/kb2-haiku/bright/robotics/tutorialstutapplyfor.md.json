@@ -1,0 +1,67 @@
+{
+ "summary": "This Gazebo-classic tutorial (version 6.0+) explains how to apply force and torque to models during simulation through the graphical user interface. It walks through examples using a Simple Arm model and a box, covering applying force and torque to links and applying force with a offset application point. It also describes the dialog fields (XYZ, Mag, Clear, Application point, Apply Force, Apply Torque, Apply All) and the rotation tool, and notes that forces applied while paused accumulate.",
+ "one_line": "A Gazebo-classic tutorial on applying force, torque, and wrenches to models and links through the GUI dialog.",
+ "key_facts": [
+  "The tutorial applies to Gazebo-classic, version 6.0+, and the note warns that Gazebo-classic has been superseded by Gazebo.",
+  "To apply force to a link, the user right-clicks 'arm_wrist_lift' in the World tree of the Simple Arm model and chooses 'Apply Force/Torque'.",
+  "Entering '100 N' in the Y field under Force applies the force for a single time-step, which is in the order of milliseconds, hence the need for a large force.",
+  "To apply torque, the user selects 'arm_elbow_pan' under 'Apply to link' and writes '100 Nm' in the Z field under Torque, then presses 'Apply Torque' a few times.",
+  "To apply force with an offset to the box, the user types '1000 N' in the X field under Force and raises the Y field under Application point to '1 m'.",
+  "If force or torque is applied while the simulation is paused, the forces accumulate and are applied all at once when the simulation is unpaused.",
+  "The Mag field gives the Euclidean norm of the XYZ force components, and changing Mag scales the XYZ fields proportionally while keeping the direction.",
+  "By default, force is applied to the link's center of mass, and the Application point fields can offset it relative to the link's origin in the link's frame.",
+  "Torque is always applied about the center of mass.",
+  "Apply All applies force and torque at the same time, i.e. a wrench, and holding enter or clicking repeatedly applies it multiple times.",
+  "The pink circles in the scene can be dragged to change the direction of the highlighted arrow, and the direction can also be changed by editing the XYZ numbers in the dialog.",
+  "Right-clicking a model and choosing View -> Center of mass shows its center-of-mass position."
+ ],
+ "entities": [
+  {
+   "name": "Gazebo",
+   "type": "program",
+   "role": "Open-source robotics simulator; the note is a documentation page for its classic version, which has been superseded by Gazebo"
+  },
+  {
+   "name": "Simple Arm",
+   "type": "product",
+   "role": "Example model inserted from the Insert tab to demonstrate applying force and torque"
+  },
+  {
+   "name": "arm_wrist_lift",
+   "type": "other",
+   "role": "Link of the Simple Arm model to which force is applied"
+  },
+  {
+   "name": "arm_elbow_pan",
+   "type": "other",
+   "role": "Link of the Simple Arm model to which torque is applied"
+  },
+  {
+   "name": "Apply Force/Torque",
+   "type": "program",
+   "role": "Context menu option that opens the dialog for applying force and torque"
+  },
+  {
+   "name": "Open Source Robotics Foundation",
+   "type": "organization",
+   "role": "Copyright holder (©2014) of the Gazebo documentation"
+  },
+  {
+   "name": "Apache 2.0",
+   "type": "other",
+   "role": "Open-source license under which Gazebo is licensed"
+  }
+ ],
+ "tags": [
+  "gazebo",
+  "simulation",
+  "force-torque",
+  "robotics",
+  "tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3446,
+  "output_tokens": 1146
+ }
+}

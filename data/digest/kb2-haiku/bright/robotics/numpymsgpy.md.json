@@ -1,0 +1,74 @@
+{
+ "summary": "This note is the source of the rospy numpy_msg module, a ROS Python library file that lets rospy messages use numpy arrays for numerical data. It carries a BSD license from Willow Garage, Inc. (2009) and a docstring with listener and publisher usage examples. The code defines serialize and deserialize wrappers that pass the numpy module into generated message methods, and a numpy_msg() factory that builds and caches a subclass named Numpy_ plus the message type name with slashes replaced by double underscores.",
+ "one_line": "Source code for rospy's numpy_msg module, which lets ROS Python publishers and subscribers exchange numpy arrays as message data.",
+ "key_facts": [
+  "The file is licensed under the BSD License and its copyright is held by Willow Garage, Inc., dated 2009.",
+  "The module's docstring says that tutorials are at http://wiki.ros.org/rospy_tutorials/Tutorials/numpy.",
+  "The listener example imports numpy_msg from rospy.numpy_msg and subscribes with rospy.Subscriber(\"mytopic\", numpy_msg(TopicType)).",
+  "The publisher example creates pub = rospy.Publisher('mytopic', numpy_msg(TopicType), queue_size=10).",
+  "The publisher example builds the array numpy.array([1.0, 2.1, 3.2, 4.3, 5.4, 6.5], dtype=numpy.float32) and publishes it with pub.publish(a).",
+  "The _serialize_numpy wrapper returns self.serialize_numpy(buff, numpy), passing the numpy module in to avoid an import in auto-generated code.",
+  "The _deserialize_numpy wrapper returns self.deserialize_numpy(str, numpy) and follows the same pattern.",
+  "A code comment notes a TODO: a new type structure with little-endian specified must be generated and passed into the *_numpy calls.",
+  "The numpy_msg(msg_type) function returns a cached class from the _numpy_msg_types dictionary when one exists.",
+  "numpy_msg() builds a classdict copying __slots__, _slot_types, _md5sum, _type, _has_header and _full_text from the message type.",
+  "The generated class name is \"Numpy_%s\" with '/' in the message type replaced by '__'.",
+  "The new class is created with type(msg_type_name, (msg_type,), classdict), so it subclasses the original message type.",
+  "The docstring marks the msg_type parameter as the message class passed into a Publisher or Subscriber call and the return value as a Message class."
+ ],
+ "entities": [
+  {
+   "name": "Willow Garage, Inc.",
+   "type": "organization",
+   "role": "copyright holder named in the BSD License header of the file"
+  },
+  {
+   "name": "rospy",
+   "type": "program",
+   "role": "ROS Python client library that the module belongs to and whose Publisher and Subscriber calls use numpy_msg"
+  },
+  {
+   "name": "numpy",
+   "type": "program",
+   "role": "numerical library whose arrays are passed to the message serialize and deserialize methods"
+  },
+  {
+   "name": "numpy_msg",
+   "type": "program",
+   "role": "factory function that returns a numpy-enabled message type for a given message class"
+  },
+  {
+   "name": "_serialize_numpy",
+   "type": "program",
+   "role": "wrapper that calls serialize_numpy on a message and passes the numpy module in"
+  },
+  {
+   "name": "_deserialize_numpy",
+   "type": "program",
+   "role": "wrapper that calls deserialize_numpy on a message and passes the numpy module in"
+  },
+  {
+   "name": "_numpy_msg_types",
+   "type": "other",
+   "role": "module-level dictionary that caches generated numpy message types"
+  },
+  {
+   "name": "http://wiki.ros.org/rospy_tutorials/Tutorials/numpy",
+   "type": "other",
+   "role": "tutorial link given in the module docstring"
+  }
+ ],
+ "tags": [
+  "ros",
+  "rospy",
+  "numpy",
+  "python",
+  "message-serialization",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2754,
+  "output_tokens": 1268
+ }
+}

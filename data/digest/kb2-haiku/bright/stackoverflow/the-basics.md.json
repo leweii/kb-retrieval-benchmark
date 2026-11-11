@@ -1,0 +1,86 @@
+{
+ "summary": "This TypeScript Handbook page, \"The Basics,\" explains why static type checking helps catch bugs that JavaScript only reveals at runtime. It walks through the tsc compiler, explicit type annotations, type erasure, downleveling to older ECMAScript targets, and the strictness flags noImplicitAny and strictNullChecks. The surrounding navigation, footer, and contributor boilerplate were ignored.",
+ "one_line": "TypeScript Handbook introduction to the basics of static type checking, the tsc compiler, type erasure, downleveling, and strictness flags.",
+ "key_facts": [
+  "JavaScript only provides dynamic typing, meaning code must be run to see what happens with a given value.",
+  "Calling the string message as a function in JavaScript fails with the error \"TypeError: message is not a function\".",
+  "TypeScript reports \"This expression is not callable. Type 'String' has no call signatures.\" for message() when message is a string.",
+  "Accessing user.location on an object without that property returns undefined in JavaScript but produces a TypeScript error: Property 'location' does not exist on type '{ name: string; age: number; }'.",
+  "The tsc command installed via npm with \"npm install -g typescript\" compiles hello.ts into hello.js.",
+  "Calling greet(\"Brendan\") on a function declared with two parameters produces the error \"Expected 2 arguments, but got 1.\"",
+  "By default tsc emits JavaScript even when type errors exist; the --noEmitOnError flag prevents output on errors.",
+  "In JavaScript, calling Date() returns a string, while new Date() constructs a Date object.",
+  "Type annotations never change the runtime behavior of a program and are erased during compilation.",
+  "By default TypeScript targets ES3; the --target es2015 option changes the output target to ECMAScript 2015.",
+  "The page states that the great majority of current browsers support ES2015.",
+  "The strict flag in the CLI or \"strict\": true in tsconfig.json turns on all strictness checks at once.",
+  "The noImplicitAny flag issues an error on variables whose type is implicitly inferred as any.",
+  "The strictNullChecks flag makes handling of null and undefined more explicit; null-related mistakes are called a \"billion dollar mistake\" in the page.",
+  "Template strings are a feature from ECMAScript 2015 (ES6), and downleveling rewrites them as concatenations for older targets."
+ ],
+ "entities": [
+  {
+   "name": "TypeScript",
+   "type": "product",
+   "role": "static type-checker and language whose handbook basics page this note digests"
+  },
+  {
+   "name": "tsc",
+   "type": "product",
+   "role": "the TypeScript compiler, installed via the typescript npm package, used to type-check and compile .ts files"
+  },
+  {
+   "name": "ECMAScript specification",
+   "type": "other",
+   "role": "specification that defines explicit JavaScript runtime behavior for unexpected situations"
+  },
+  {
+   "name": "ECMAScript 2015",
+   "type": "other",
+   "role": "version of ECMAScript (also ES6, ES2015) that introduced template strings"
+  },
+  {
+   "name": "noImplicitAny",
+   "type": "program",
+   "role": "strictness compiler flag that errors on variables implicitly inferred as any"
+  },
+  {
+   "name": "strictNullChecks",
+   "type": "program",
+   "role": "strictness compiler flag that makes null and undefined handling explicit"
+  },
+  {
+   "name": "noEmitOnError",
+   "type": "program",
+   "role": "compiler option that stops tsc from emitting output when errors occur"
+  },
+  {
+   "name": "Daniel",
+   "type": "person",
+   "role": "name of the user object in the example showing a nonexistent location property"
+  },
+  {
+   "name": "Maddison",
+   "type": "person",
+   "role": "name passed as the person argument in the greet function examples"
+  },
+  {
+   "name": "Brendan",
+   "type": "person",
+   "role": "name passed to greet in the example that omits the date argument"
+  }
+ ],
+ "tags": [
+  "typescript",
+  "javascript",
+  "static-typing",
+  "tsc",
+  "compiler-options",
+  "handbook"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16124,
+  "output_tokens": 1273
+ }
+}

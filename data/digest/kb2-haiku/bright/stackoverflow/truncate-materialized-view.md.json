@@ -1,0 +1,64 @@
+{
+ "summary": "This Snowflake documentation page covers the TRUNCATE MATERIALIZED VIEW command, which removes all rows from a materialized view while keeping the view, its privileges and constraints intact. It notes that Snowflake no longer supports truncating materialized views, suggesting CREATE OR REPLACE MATERIALIZED VIEW ... COPY GRANTS as the closest alternative. The page also explains that the background maintenance service refreshes the view automatically and that truncating is generally not recommended because letting the view catch up naturally is usually more efficient.",
+ "one_line": "Snowflake's documentation on TRUNCATE MATERIALIZED VIEW, an obsolete command that empties a materialized view and suggests CREATE OR REPLACE as an alternative.",
+ "key_facts": [
+  "Snowflake no longer supports truncation of materialized views.",
+  "The closest alternative to truncating a materialized view, without dropping it, is CREATE OR REPLACE MATERIALIZED VIEW <name> COPY GRANTS.",
+  "The CREATE OR REPLACE MATERIALIZED VIEW command executes as a foreground statement and requires a warehouse.",
+  "Materialized views require Enterprise Edition.",
+  "TRUNCATE MATERIALIZED VIEW removes all rows from a materialized view but leaves the view intact, including all privileges and constraints on it.",
+  "The syntax is TRUNCATE MATERIALIZED VIEW <name>.",
+  "The name parameter specifies the identifier for the materialized view to truncate.",
+  "Identifiers enclosed in double quotes are case-sensitive, for example \"My Object\".",
+  "If the materialized view identifier is not fully qualified, the command looks for the view in the current schema for the session.",
+  "If a materialized view is truncated, the background maintenance service automatically updates it.",
+  "Queries on a view being updated after truncation still return consistent results by retrieving rows from the base table as needed.",
+  "Truncating a materialized view uses computing resources, so it is usually more efficient to let an out-of-date view catch up naturally over time.",
+  "Snowflake does not generally recommend truncating a materialized view.",
+  "This feature has been obsoleted."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "the data platform whose documentation describes the TRUNCATE MATERIALIZED VIEW command and its obsolescence"
+  },
+  {
+   "name": "TRUNCATE MATERIALIZED VIEW",
+   "type": "program",
+   "role": "obsoleted SQL command that removes all rows from a materialized view while leaving the view intact"
+  },
+  {
+   "name": "CREATE OR REPLACE MATERIALIZED VIEW",
+   "type": "program",
+   "role": "suggested closest alternative to truncation, used with COPY GRANTS, which executes as a foreground statement and requires a warehouse"
+  },
+  {
+   "name": "Enterprise Edition",
+   "type": "product",
+   "role": "Snowflake edition required to use materialized views"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact point for inquiring about upgrading to Enterprise Edition"
+  },
+  {
+   "name": "background maintenance service",
+   "type": "program",
+   "role": "Snowflake service that automatically updates a materialized view after it is truncated"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "materialized-views",
+  "sql-commands",
+  "database",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2026,
+  "output_tokens": 1099
+ }
+}

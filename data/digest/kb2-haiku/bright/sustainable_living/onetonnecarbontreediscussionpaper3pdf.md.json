@@ -1,0 +1,50 @@
+{
+ "summary": "Ecometrica, an Edinburgh-based organisation, answers the common question of how many trees store one tonne of carbon by locating a mature sycamore (Acer pseudoplatanus) near its office that stores exactly one tonne of carbon. The note explains the measurements used to estimate the stem volume, wood density, and the biomass of roots, branches and leaves, and assumes carbon is about 50% of biomass. It also explains how trees sequester carbon and that one tonne of carbon equals about 3.67 tonnes of carbon dioxide when released.",
+ "one_line": "Ecometrica describes a mature Edinburgh sycamore that stores exactly one tonne of carbon and how its carbon was estimated.",
+ "key_facts": [
+  "Ecometrica found a mature sycamore (Acer pseudoplatanus) close to its office in Edinburgh that stores exactly one tonne of carbon.",
+  "The one tonne carbon tree has a diameter of 52 cm and a stem height of 12 m.",
+  "The stem radius at 1.3 m above the ground was 26 cm (r1), and at the top of the stem it was 20 cm (r2).",
+  "Stem volume was estimated using the equation for the volume of a truncated cone and came to 2.0 m3.",
+  "The wood density of sycamore is approximately 620 kg/m3.",
+  "The stem biomass was 1243 kg, or approximately 1.2 tonnes.",
+  "The roots, branches and leaves of a sycamore are known to be around 26%, 11% and 1% of total biomass respectively.",
+  "The total biomass of the one tonne carbon tree is 2 tonnes.",
+  "The carbon content of woody matter (stem, branches and roots) and leaves is approximately 50% of their biomass.",
+  "Each tonne of carbon is converted to about 3.67 tonnes of carbon dioxide when it returns to the atmosphere.",
+  "A one tonne carbon tree therefore locks up around 3.67 tonnes of carbon dioxide from the atmosphere.",
+  "Trees photosynthesise by combining atmospheric carbon dioxide with water and nutrients from the ground to form carbohydrates that make up their biomass.",
+  "Carbon release from dead trees can be slowed by reducing decomposition, for example by using timber to create long-lived wood products.",
+  "Biomass is defined in the note as the mass of living matter, excluding the mass of water in plant tissues."
+ ],
+ "entities": [
+  {
+   "name": "Ecometrica",
+   "type": "organization",
+   "role": "organisation whose office in Edinburgh is near the one tonne carbon tree, and which tracked down the tree and wrote the discussion paper"
+  },
+  {
+   "name": "Edinburgh",
+   "type": "place",
+   "role": "city where Ecometrica's office is located and near which the one tonne carbon tree was found"
+  },
+  {
+   "name": "Acer pseudoplatanus",
+   "type": "other",
+   "role": "scientific name of the sycamore species of the one tonne carbon tree"
+  }
+ ],
+ "tags": [
+  "carbon sequestration",
+  "trees",
+  "sycamore",
+  "biomass",
+  "carbon accounting",
+  "forestry"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2296,
+  "output_tokens": 1010
+ }
+}

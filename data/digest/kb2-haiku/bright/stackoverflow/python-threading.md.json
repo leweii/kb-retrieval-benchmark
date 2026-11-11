@@ -1,0 +1,105 @@
+{
+ "summary": "This is the Python 3.12 documentation page for the threading module, which builds higher-level thread-based parallelism on top of the low-level _thread module. It covers module-level functions (active_count, current_thread, enumerate, stack_size, settrace/setprofile variants), the thread-local data class, the Thread class and its methods, and the primitive Lock, RLock, and Condition synchronization objects. The page notes that in CPython the Global Interpreter Lock means only one thread runs Python code at a time, so multiprocessing or ProcessPoolExecutor is suggested for CPU-bound work while threading suits I/O-bound tasks. The text is truncated before the Semaphore, Event, Timer, and Barrier sections.",
+ "one_line": "Python 3.12 documentation for the threading module: thread-based parallelism, Thread objects, locks, RLocks, and condition variables.",
+ "key_facts": [
+  "The threading module constructs higher-level threading interfaces on top of the lower-level _thread module.",
+  "Changed in version 3.7: the threading module used to be optional and is now always available.",
+  "In CPython, due to the Global Interpreter Lock, only one thread can execute Python code at once.",
+  "For better multi-core use, the note advises multiprocessing or concurrent.futures.ProcessPoolExecutor; threading remains appropriate for multiple I/O-bound tasks.",
+  "The threading module is not available on WebAssembly platforms wasm32-emscripten and wasm32-wasi.",
+  "threading.stack_size() must be 0 or a positive integer of at least 32,768 (32 KiB); 4 KiB multiples are suggested.",
+  "threading.TIMEOUT_MAX is the maximum timeout value for blocking functions; exceeding it raises OverflowError (new in version 3.2).",
+  "threading.get_native_id() returns the kernel-assigned thread ID and is available since version 3.8.",
+  "Thread.join() raises RuntimeError if an attempt is made to join the current thread or a thread not yet started.",
+  "Thread.daemon must be set before start() is called, otherwise RuntimeError is raised; the main thread is not a daemon thread.",
+  "Lock.acquire(blocking=True, timeout=-1): a timeout of -1 specifies an unbounded wait, and specifying a timeout when blocking is False is forbidden.",
+  "RLock must be released by the thread that acquired it, once for each acquisition; only the outermost release resets it to unlocked.",
+  "Condition.notify() and notify_all() do not release the lock; awakened threads return from wait() only after the notifying thread relinquishes the lock.",
+  "The threading.excepthook() function was new in version 3.8 and handles uncaught exceptions raised by Thread.run(); SystemExit is silently ignored.",
+  "Camel-case names such as activeCount and currentThread are deprecated as of Python 3.10 but still supported."
+ ],
+ "entities": [
+  {
+   "name": "threading",
+   "type": "program",
+   "role": "Python module that constructs higher-level thread-based parallelism interfaces, the subject of this page"
+  },
+  {
+   "name": "_thread",
+   "type": "program",
+   "role": "low-level threading API module on which threading is built"
+  },
+  {
+   "name": "concurrent.futures.ThreadPoolExecutor",
+   "type": "program",
+   "role": "higher-level interface for pushing tasks to a background thread and retrieving results"
+  },
+  {
+   "name": "queue",
+   "type": "program",
+   "role": "module providing a thread-safe interface for exchanging data between running threads"
+  },
+  {
+   "name": "asyncio",
+   "type": "program",
+   "role": "alternative approach to task-level concurrency without multiple operating system threads"
+  },
+  {
+   "name": "multiprocessing",
+   "type": "program",
+   "role": "process-based parallelism module recommended for better use of multi-core machines"
+  },
+  {
+   "name": "concurrent.futures.ProcessPoolExecutor",
+   "type": "program",
+   "role": "process-pool executor recommended for better use of multi-core machine resources"
+  },
+  {
+   "name": "Global Interpreter Lock",
+   "type": "other",
+   "role": "CPython mechanism allowing only one thread to execute Python code at once"
+  },
+  {
+   "name": "Thread",
+   "type": "other",
+   "role": "class representing an activity run in a separate thread of control"
+  },
+  {
+   "name": "Lock",
+   "type": "other",
+   "role": "primitive lock synchronization object, implemented directly by the _thread module"
+  },
+  {
+   "name": "RLock",
+   "type": "other",
+   "role": "reentrant lock that may be acquired multiple times by the same thread"
+  },
+  {
+   "name": "Condition",
+   "type": "other",
+   "role": "condition variable object associated with a lock, letting threads wait until notified"
+  },
+  {
+   "name": "local",
+   "type": "other",
+   "role": "class representing thread-local data, defined in threading"
+  },
+  {
+   "name": "_threading_local",
+   "type": "program",
+   "role": "module whose documentation string contains more details and examples on thread-local data"
+  }
+ ],
+ "tags": [
+  "python",
+  "threading",
+  "concurrency",
+  "synchronization",
+  "stdlib-docs"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12641,
+  "output_tokens": 1586
+ }
+}

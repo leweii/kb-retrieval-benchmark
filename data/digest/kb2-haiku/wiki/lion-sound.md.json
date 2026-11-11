@@ -1,0 +1,67 @@
+{
+ "summary": "Lion Sound is a small passage in the Palmer Archipelago, Antarctica, lying between Lion Island and the southeast coast of Anvers Island. The Belgian Antarctic Expedition of 1897–99 under Gerlache discovered it. Its name appears on a map based on a 1927 survey by Discovery Investigations personnel aboard the Discovery, and it is named for its association with Lion Island.",
+ "one_line": "Lion Sound is a small Antarctic passage in the Palmer Archipelago between Lion Island and Anvers Island.",
+ "key_facts": [
+  "Lion Sound is a small passage between Lion Island and the southeast coast of Anvers Island.",
+  "Lion Sound is located in the Palmer Archipelago, Antarctica.",
+  "Lion Sound was discovered by the Belgian Antarctic Expedition, 1897–99.",
+  "The Belgian Antarctic Expedition of 1897–99 was led by Gerlache.",
+  "The name Lion Sound appears on a map based on a 1927 survey.",
+  "The 1927 survey was conducted by Discovery Investigations personnel on the Discovery.",
+  "Lion Sound is named for its association with Lion Island."
+ ],
+ "entities": [
+  {
+   "name": "Lion Sound",
+   "type": "place",
+   "role": "small passage between Lion Island and the southeast coast of Anvers Island in the Palmer Archipelago, Antarctica"
+  },
+  {
+   "name": "Lion Island",
+   "type": "place",
+   "role": "island on one side of Lion Sound, with which the sound is associated"
+  },
+  {
+   "name": "Anvers Island",
+   "type": "place",
+   "role": "island whose southeast coast borders Lion Sound"
+  },
+  {
+   "name": "Palmer Archipelago",
+   "type": "place",
+   "role": "archipelago in Antarctica where Lion Sound is located"
+  },
+  {
+   "name": "Belgian Antarctic Expedition, 1897–99",
+   "type": "event",
+   "role": "expedition that discovered Lion Sound"
+  },
+  {
+   "name": "Gerlache",
+   "type": "person",
+   "role": "leader of the Belgian Antarctic Expedition, 1897–99"
+  },
+  {
+   "name": "Discovery Investigations",
+   "type": "organization",
+   "role": "group whose personnel conducted a 1927 survey on the Discovery, on which the map showing the name is based"
+  },
+  {
+   "name": "Discovery",
+   "type": "product",
+   "role": "ship used by Discovery Investigations personnel for the 1927 survey"
+  }
+ ],
+ "tags": [
+  "antarctica",
+  "palmer archipelago",
+  "geography",
+  "place names",
+  "belgian antarctic expedition"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1119,
+  "output_tokens": 863
+ }
+}

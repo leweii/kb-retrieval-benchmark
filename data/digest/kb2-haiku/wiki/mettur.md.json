@@ -1,0 +1,44 @@
+{
+ "summary": "This note describes Mettur, a town in India's Tamil Nadu state, located in the Salem district. It is described as both an industrial and a tourism town and is best known for the Mettur Dam. The note is very brief and gives no further detail.",
+ "one_line": "Mettur is an industrial and tourism town in Salem district, Tamil Nadu, India, best known for the Mettur Dam.",
+ "key_facts": [
+  "Mettur is an industrial and tourism town.",
+  "Mettur is located in the Salem district.",
+  "Mettur is located in the state of Tamil Nadu, India.",
+  "Mettur is best known for the Mettur Dam."
+ ],
+ "entities": [
+  {
+   "name": "Mettur",
+   "type": "place",
+   "role": "industrial and tourism town located in the Salem district in Tamil Nadu, India"
+  },
+  {
+   "name": "Mettur Dam",
+   "type": "place",
+   "role": "landmark for which Mettur is best known"
+  },
+  {
+   "name": "Salem district",
+   "type": "place",
+   "role": "district in which Mettur is located"
+  },
+  {
+   "name": "Tamil Nadu",
+   "type": "place",
+   "role": "Indian state in which Mettur is located"
+  }
+ ],
+ "tags": [
+  "mettur",
+  "tamil nadu",
+  "india",
+  "dams",
+  "salem district"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1029,
+  "output_tokens": 419
+ }
+}

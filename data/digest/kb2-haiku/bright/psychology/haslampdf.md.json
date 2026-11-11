@@ -1,0 +1,116 @@
+{
+ "summary": "This Perspectives on Psychological Science article by Nick Haslam, Ekaterina Vylomova, Sean C. Murphy, and Sarah J. Wilson charts the rising presence of neuroscientific terms in psychology research from 1965 to 2016. Using a corpus of nearly 800,000 psychology journal abstracts and a dictionary of 522 neuroscience terms, the authors find the share of abstracts containing such terms rose from 9.15% to 16.45%, with \"neur-\" terms rising faster, and that the trend differs sharply across psychology subdisciplines. The authors conclude neuroscience is gaining traction but is far from a dominant paradigm in psychology.",
+ "one_line": "A corpus study of 798,402 psychology abstracts (1965–2016) charting how neuroscience terms increasingly appear in psychology research across subfields.",
+ "key_facts": [
+  "The study examined a corpus of 798,402 psychology journal articles published from 1965 to 2016.",
+  "The percentage of abstracts containing at least one neuro-term grew from 9.15% to 16.45% over the study period.",
+  "The percentage of abstracts containing a \"neur-\" prefixed term rose from 2.30% to 10.06%.",
+  "The dictionary contained 522 uniquely neuroscience-related terms, with 199 terms carrying the \"neur-\" prefix.",
+  "Two judges agreed on 89.0% of terms with a Cohen's kappa of .714, and 522 of 761 candidate terms (68.6%) were included.",
+  "From the mid-1970s the growing representation of neuroscience in psychology was linear, after a decline in the 1970s.",
+  "Neuropsychology/physiological psychology and behavioral neuroscience journal groups both peaked in 2014 at more than 55% of abstracts containing neuro-terms.",
+  "Social psychology abstracts were consistently the least likely to contain neuro-terms, with rates from 0.4% in the 1970s to 3.4% at the end of the study period.",
+  "Clinical psychology's rate of abstracts containing a neuro-term quadrupled from the 1970s to the 2010s.",
+  "The authors estimate the rise equates to a 2% (compounding) annual rise in the full term set and a 4.6% annual increase for \"neur-\" terms.",
+  "At the end of the study period, 83.5% of article abstracts contained no mention of a single neuro-term.",
+  "The authors note that the study's corpus combined abstracts from PubMed and Crossref, and that the 2017 data were incomplete.",
+  "Table 1 shows that terms beginning with \"neur-\" composed nine of the top 20 terms from 2005 through 2016, up from four or five from 1965 through 1994.",
+  "The fMRI term reached a peak in 2014 when it appeared in just over 1.0% of psychology abstracts.",
+  "The authors cite the founding of the Society for Neuroscience in 1969 and the 1990s \"Decade of the Brain\" as context for the rise."
+ ],
+ "entities": [
+  {
+   "name": "Nick Haslam",
+   "type": "person",
+   "role": "corresponding author and lead author of the study, School of Psychological Sciences, University of Melbourne"
+  },
+  {
+   "name": "Ekaterina Vylomova",
+   "type": "person",
+   "role": "co-author of the study"
+  },
+  {
+   "name": "Sean C. Murphy",
+   "type": "person",
+   "role": "co-author of the study"
+  },
+  {
+   "name": "Sarah J. Wilson",
+   "type": "person",
+   "role": "co-author of the study"
+  },
+  {
+   "name": "The University of Melbourne",
+   "type": "organization",
+   "role": "institution of the authors, School of Psychological Sciences"
+  },
+  {
+   "name": "Perspectives on Psychological Science",
+   "type": "product",
+   "role": "journal in which the article was published (2022, Vol. 17(2))"
+  },
+  {
+   "name": "Decade of the Brain",
+   "type": "event",
+   "role": "American initiative promoting neuroscience research, cited as the 1990s period of neuroscience growth"
+  },
+  {
+   "name": "PubMed",
+   "type": "product",
+   "role": "database from which the first set of psychology abstracts was downloaded"
+  },
+  {
+   "name": "Crossref",
+   "type": "product",
+   "role": "text-mining API used to gather abstracts for the corpus"
+  },
+  {
+   "name": "SCImago",
+   "type": "product",
+   "role": "database used to classify 1,095 journals as psychology and by subdiscipline"
+  },
+  {
+   "name": "Society for Neuroscience",
+   "type": "organization",
+   "role": "neuroscience society founded in 1969, cited as an emergence milestone of the field"
+  },
+  {
+   "name": "Society for Psychophysiological Research",
+   "type": "organization",
+   "role": "society founded in 1960, cited as a precursor to neuroscience's emergence"
+  },
+  {
+   "name": "Purves et al. (2001)",
+   "type": "product",
+   "role": "neuroscience survey textbook whose glossary was searched to build the candidate term list"
+  },
+  {
+   "name": "SpaCy",
+   "type": "product",
+   "role": "software used to case-fold and lemmatize the corpus text"
+  },
+  {
+   "name": "Miller and Keller (2000)",
+   "type": "other",
+   "role": "authors who argued the Decade of the Brain fostered a naively reductionist view"
+  },
+  {
+   "name": "Schwartz et al. (2016)",
+   "type": "other",
+   "role": "authors who contended the rise of neuroscience will deflect focus from social influences on behavior"
+  }
+ ],
+ "tags": [
+  "neuroscience",
+  "psychology",
+  "bibliometrics",
+  "history of science",
+  "research trends",
+  "neuroimaging"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12448,
+  "output_tokens": 1763
+ }
+}

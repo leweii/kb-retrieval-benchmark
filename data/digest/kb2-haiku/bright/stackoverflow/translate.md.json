@@ -1,0 +1,40 @@
+{
+ "summary": "This Snowflake reference page documents the TRANSLATE() string function, which replaces characters in a subject string by mapping each character in a source alphabet to the corresponding character in a target alphabet. Characters in the subject that are absent from the source alphabet pass through unchanged, and source characters with no counterpart in a shorter target alphabet are removed. The page gives the syntax, argument definitions, a note that collation specifications are unsupported, a truncation error for over-long target alphabets, and two examples.",
+ "one_line": "Snowflake reference for the TRANSLATE() string function, which substitutes or removes characters by mapping a source alphabet to a target alphabet.",
+ "key_facts": [
+  "TRANSLATE() replaces characters in a string; given a subject, a sourceAlphabet and a targetAlphabet, it makes the specified substitutions.",
+  "Syntax is TRANSLATE( <subject>, <sourceAlphabet>, <targetAlphabet> ).",
+  "If a character in subject is not contained in sourceAlphabet, the character is added to the result without any translation.",
+  "Each character in sourceAlphabet is translated to the corresponding character in targetAlphabet or omitted in the result if targetAlphabet has no corresponding character.",
+  "targetAlphabet with fewer characters than sourceAlphabet causes the unmatched source characters to be omitted from the result.",
+  "If targetAlphabet is longer than sourceAlphabet, Snowflake reports the error 'String '(target alphabet)' is too long and would be truncated.'",
+  "Arguments with collation specifications are currently not supported.",
+  "Example: SELECT TRANSLATE('peña','ñ','n') returns 'pena'.",
+  "Example: SELECT TRANSLATE('❄a❄bX❄dYZ❄','XYZ❄','cef') returns 'abcdef'.",
+  "In the second example, X maps to c, Y maps to e, Z maps to f, and the ❄ character is removed because the target alphabet has no counterpart for it."
+ ],
+ "entities": [
+  {
+   "name": "TRANSLATE()",
+   "type": "program",
+   "role": "string function that replaces characters in a string using source and target alphabets"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "database platform that reports the target alphabet truncation error"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "string-functions",
+  "character-replacement",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2063,
+  "output_tokens": 786
+ }
+}

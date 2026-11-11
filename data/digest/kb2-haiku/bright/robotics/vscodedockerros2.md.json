@@ -1,0 +1,90 @@
+{
+ "summary": "Allison Thackston's guide explains how to set up a ROS2 development environment using VSCode and Docker, aimed at developers familiar with coding but maybe not ROS. It covers the base and development ROS2 Docker images, a folder structure, a .devcontainer config with Dockerfile and extensions, C++ IntelliSense settings, colcon build and test tasks, and launch configurations for Python and C++ gdb debugging. The page is a clipped blog post with navigation and related-post boilerplate, which was ignored.",
+ "one_line": "A guide by Allison Thackston to setting up ROS2 development in VSCode using Docker dev containers, with tasks and debugger configuration.",
+ "key_facts": [
+  "The guide is written by Allison Thackston and dated Dec 29, 2019.",
+  "The guide is intended for people familiar with coding and software development but maybe not ROS.",
+  "ROS2 is described as the next generation of software libraries for robotics development.",
+  "The author maintains ROS2 Docker images on dockerhub under althack/ros2, with a base version and a development version.",
+  "The base ROS2 image has the minimal dependencies needed to run ROS2 and is suited to deploying code without writing new code.",
+  "The development image is based on the base version and adds the dependencies needed to compile and create new packages.",
+  "The recommended folder structure places .devcontainer, .vscode and src directories in the folder opened in VSCode, with ROS2 packages inside src.",
+  "The example Dockerfile starts with FROM althack/ros2:foxy-dev.",
+  "The devcontainer.json sets remoteUser to \"ros\" and runArgs include --cap-add=SYS_PTRACE and --security-opt seccomp=unconfined to support gdb debugging.",
+  "The c_cpp_properties.json includes /opt/ros/foxy/include and uses cppStandard c++17 with cStandard c11.",
+  "The tasks.json defines a build task running colcon build with -DCMAKE_BUILD_TYPE=Debug and a test task running colcon test && colcon test-result.",
+  "The C++ gdb launch configuration uses type cppdbg with MIMode gdb and prompts for package and program names via inputs.",
+  "The Python launch configuration uses type python with program set to ${file} and console set to integratedTerminal.",
+  "The recommended devcontainer extensions include ms-iot.vscode-ros, ms-vscode.cpptools, ms-python.python and ms-azuretools.vscode-docker."
+ ],
+ "entities": [
+  {
+   "name": "Allison Thackston",
+   "type": "person",
+   "role": "author of the guide, an avid ROS user who wrote the VSCode, Docker, and ROS2 article"
+  },
+  {
+   "name": "ROS2",
+   "type": "product",
+   "role": "the next generation of software libraries for robotics development, described as a software development kit rather than an operating system"
+  },
+  {
+   "name": "ROS",
+   "type": "product",
+   "role": "Robot Operating System, the predecessor the author used avidly"
+  },
+  {
+   "name": "VSCode",
+   "type": "product",
+   "role": "the code editor the workspace is opened in, configured with a devcontainer and extensions"
+  },
+  {
+   "name": "Docker",
+   "type": "product",
+   "role": "container platform used to run the ROS2 development environment"
+  },
+  {
+   "name": "althack/ros2",
+   "type": "product",
+   "role": "ROS2 Docker image on dockerhub maintained by the author, with base and development versions"
+  },
+  {
+   "name": "althack/ros2:foxy-dev",
+   "type": "product",
+   "role": "development Docker image referenced in the example Dockerfile"
+  },
+  {
+   "name": "colcon",
+   "type": "program",
+   "role": "build tool invoked by the build and test tasks"
+  },
+  {
+   "name": "gdb",
+   "type": "program",
+   "role": "debugger supported by the devcontainer runArgs and the C++ launch configuration"
+  },
+  {
+   "name": "ms-iot.vscode-ros",
+   "type": "program",
+   "role": "VSCode extension listed among the ROS2 extensions"
+  },
+  {
+   "name": "My Values",
+   "type": "other",
+   "role": "related post listed at the bottom of the page"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "vscode",
+  "docker",
+  "devcontainer",
+  "robotics",
+  "debugging"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5502,
+  "output_tokens": 1333
+ }
+}

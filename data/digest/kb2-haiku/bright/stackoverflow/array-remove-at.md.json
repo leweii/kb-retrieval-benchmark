@@ -1,0 +1,36 @@
+{
+ "summary": "This note is a documentation page for the ARRAY_REMOVE_AT function, which returns a copy of an ARRAY with the element at a given zero-based position removed. It covers the syntax, arguments (array and position, where negative positions count from the back), return behavior including NULL handling, and a usage note about out-of-range positions. Three examples show removing the first element, removing the last element with -1, and passing a position greater than the array length, which returns the array unchanged.",
+ "one_line": "Documents the ARRAY_REMOVE_AT function, which returns an array with the element at a given zero-based position removed.",
+ "key_facts": [
+  "ARRAY_REMOVE_AT takes an array and a position and returns an ARRAY with the element at the specified position removed.",
+  "The position argument is zero-based, so position 0 refers to the first element.",
+  "ARRAY_REMOVE_AT([2, 5, 7], 0) returns [5, 7].",
+  "A negative position is interpreted as an index from the back of the array, so -1 removes the last element.",
+  "ARRAY_REMOVE_AT([2, 5, 7], -1) returns [2, 5].",
+  "If the absolute value of the position exceeds the length of the array, the function returns the array without any elements removed.",
+  "ARRAY_REMOVE_AT([2, 5, 7], 10) returns [2, 5, 7] unchanged.",
+  "If the position argument is NULL, the function returns NULL.",
+  "The syntax is ARRAY_REMOVE_AT( <array> , <position> ).",
+  "The page is categorized under Semistructured Data functions, specifically Array/Object functions.",
+  "The page lists related function groups including JSON and XML Parsing, Array/Object Creation and Manipulation, Map Creation and Manipulation, Extraction, Conversion/Casting, and Type Predicates."
+ ],
+ "entities": [
+  {
+   "name": "ARRAY_REMOVE_AT",
+   "type": "product",
+   "role": "function documented in the note that returns an array with the element at a specified position removed"
+  }
+ ],
+ "tags": [
+  "sql",
+  "array functions",
+  "semistructured data",
+  "documentation",
+  "bigquery-style functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2060,
+  "output_tokens": 694
+ }
+}

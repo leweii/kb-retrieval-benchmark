@@ -1,0 +1,41 @@
+{
+ "summary": "The note describes Veoh, an Internet television company based in San Diego, California. It offers users access to major studio content, independent productions, and user-generated material. The company is described as a subsidiary of the Israeli start-up Qlipso.",
+ "one_line": "Veoh is a San Diego-based Internet television company offering studio, independent, and user-generated video, owned by Israeli start-up Qlipso.",
+ "key_facts": [
+  "Veoh is an Internet television company.",
+  "Veoh is based in San Diego, California.",
+  "Veoh allows users to find and watch major studio content.",
+  "Veoh allows users to find and watch independent productions.",
+  "Veoh allows users to find and watch user-generated material.",
+  "Veoh is a subsidiary of the Israeli start-up Qlipso."
+ ],
+ "entities": [
+  {
+   "name": "Veoh",
+   "type": "organization",
+   "role": "Internet television company based in San Diego, California, offering major studio content, independent productions and user-generated material"
+  },
+  {
+   "name": "Qlipso",
+   "type": "organization",
+   "role": "Israeli start-up of which Veoh is a subsidiary"
+  },
+  {
+   "name": "San Diego, California",
+   "type": "place",
+   "role": "location where Veoh is based"
+  }
+ ],
+ "tags": [
+  "internet television",
+  "streaming video",
+  "online video",
+  "company",
+  "san diego"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1047,
+  "output_tokens": 416
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "summary": "This note is the Snowflake Account Usage reference page for the PIPES view, which displays one row for each pipe defined in the account. It lists the view's columns (identifiers, names, schema and database, auto-ingest status, notification channel, owner, COPY-statement definition, timestamps, comment, pattern and owner role type) and usage notes about latency, access privileges, MANAGE GRANTS and LAST_ALTERED updates. It also gives an example query joining PIPES with PIPE_USAGE_HISTORY to show credits used per pipe for the current month.",
+ "one_line": "Reference for Snowflake's Account Usage PIPES view, listing each account pipe's columns, usage notes and an example join with PIPE_USAGE_HISTORY.",
+ "key_facts": [
+  "The PIPES view in SNOWFLAKE.ACCOUNT_USAGE displays a row for each pipe defined in the account.",
+  "The PIPE_NAME column is a TEXT field holding the name of the pipe.",
+  "The DEFINITION column holds the COPY statement used to load data from queued files into a Snowflake table.",
+  "The IS_AUTOINGEST_ENABLED column indicates whether AUTO-INGEST is enabled for the pipe and represents future functionality.",
+  "The NOTIFICATION_CHANNEL_NAME column holds the Amazon Resource Name of the Amazon SQS queue for the stage named in the DEFINITION column and represents future functionality.",
+  "The PIPE_OWNER column gives the name of the role that owns the pipe.",
+  "The CREATED column is a TIMESTAMP_LTZ giving the creation time of the pipe.",
+  "The DELETED column is a TIMESTAMP_LTZ giving the date and time when the pipe was deleted.",
+  "The OWNER_ROLE_TYPE column is either ROLE or DATABASE_ROLE, or APPLICATION if a Snowflake Native App owns the object.",
+  "Snowflake returns NULL for OWNER_ROLE_TYPE if the object was deleted because a deleted object does not have an owner role.",
+  "Latency for the view may be up to 180 minutes (3 hours).",
+  "The view only displays objects for which the current role for the session has been granted access privileges.",
+  "The view does not recognize the MANAGE GRANTS privilege and may show less information than a SHOW command run by a user holding that privilege.",
+  "The LAST_ALTERED column is updated by DDL operations, DML operations (for tables only), and background maintenance operations on metadata performed by Snowflake.",
+  "The example query joins PIPES with PIPE_USAGE_HISTORY on pipe_id and filters on START_TIME greater than date_trunc(month, current_date) to report CREDITS_USED per pipe."
+ ],
+ "entities": [
+  {
+   "name": "SNOWFLAKE.ACCOUNT_USAGE.PIPES",
+   "type": "product",
+   "role": "Account Usage view that displays a row for each pipe defined in the account"
+  },
+  {
+   "name": "PIPE_USAGE_HISTORY",
+   "type": "product",
+   "role": "Account Usage view joined with PIPES in the example to get CREDITS_USED for each pipe"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the Account Usage views and the pipe feature described in the note"
+  },
+  {
+   "name": "Amazon SQS",
+   "type": "product",
+   "role": "Amazon queue whose Amazon Resource Name is stored in NOTIFICATION_CHANNEL_NAME"
+  },
+  {
+   "name": "Amazon Resource Name",
+   "type": "other",
+   "role": "Identifier of the Amazon SQS queue for the stage named in the DEFINITION column"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account-usage",
+  "pipes",
+  "snowpipe",
+  "data-loading",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2362,
+  "output_tokens": 1244
+ }
+}

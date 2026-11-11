@@ -1,0 +1,71 @@
+{
+ "summary": "This note is the Snowflake documentation page for the DESCRIBE RESULT command, which describes the columns of a previously executed query's result. Snowflake persists query results for a limited, non-adjustable period, so the command works for queries from the current or any other session within that window. The page covers the syntax, the query_id or LAST_QUERY_ID() parameter, ways to find query IDs, and two examples, one using a specific query ID and one using LAST_QUERY_ID() on a boston_sales query.",
+ "one_line": "Snowflake reference for DESCRIBE RESULT, which lists the column metadata of a recently executed query's persisted result.",
+ "key_facts": [
+  "DESCRIBE RESULT describes the columns in the result of a query.",
+  "DESCRIBE can be abbreviated to DESC.",
+  "Snowflake persists the result of a query for a period of time, after which the result is purged.",
+  "The query can be from the current session or any other session, including past sessions, as long as the limited period has not elapsed.",
+  "The period during which query results persist is not adjustable.",
+  "The syntax is DESC[RIBE] RESULT { '<query_id>' | LAST_QUERY_ID() }.",
+  "The query_id parameter specifies the ID for a query executed within the last 24 hours.",
+  "LAST_QUERY_ID() returns the ID for a query within the current session.",
+  "The History page in the web interface lists the query ID along with each query.",
+  "Query IDs can also be retrieved with the QUERY_HISTORY and QUERY_HISTORY_BY_* functions, but only for queries the user executed.",
+  "SELECT LAST_QUERY_ID(-2) is equivalent to using LAST_QUERY_ID() as the input for DESC RESULT.",
+  "The first example runs DESC RESULT 'f2f07bdb-6a08-4689-9ad8-a1ba968a44b6' to describe a query from any session within the previous 24 hours.",
+  "The second example runs DESC RESULT LAST_QUERY_ID() after SELECT * FROM boston_sales to describe that most recent query's columns.",
+  "The boston_sales output columns are CITY, ZIP, STATE, SQ__FT, TYPE, SALE_DATE and PRICE.",
+  "In the DESC RESULT output, CITY, ZIP, STATE and TYPE are VARCHAR(16777216), SQ__FT and PRICE are NUMBER(38,0), and SALE_DATE is DATE."
+ ],
+ "entities": [
+  {
+   "name": "DESCRIBE RESULT",
+   "type": "program",
+   "role": "Snowflake command that describes the columns in the result of a query"
+  },
+  {
+   "name": "LAST_QUERY_ID()",
+   "type": "program",
+   "role": "Function that returns the ID of a query within the current session, used as input to DESC RESULT"
+  },
+  {
+   "name": "QUERY_HISTORY",
+   "type": "program",
+   "role": "Function listed as a way to retrieve query IDs for queries the user executed"
+  },
+  {
+   "name": "QUERY_HISTORY_BY_*",
+   "type": "program",
+   "role": "Family of functions listed as a way to retrieve query IDs for queries the user executed"
+  },
+  {
+   "name": "History page",
+   "type": "product",
+   "role": "Web interface page that lists query IDs along with each query"
+  },
+  {
+   "name": "boston_sales",
+   "type": "other",
+   "role": "Table queried in the second example whose result columns are described by DESC RESULT LAST_QUERY_ID()"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Vendor whose documentation this note reproduces and which persists query results for a limited period"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "query-results",
+  "metadata",
+  "documentation",
+  "database"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2677,
+  "output_tokens": 1191
+ }
+}

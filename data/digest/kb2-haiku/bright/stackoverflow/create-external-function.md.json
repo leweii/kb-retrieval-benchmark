@@ -1,0 +1,75 @@
+{
+ "summary": "This Snowflake documentation page describes the CREATE EXTERNAL FUNCTION command, which creates a function that calls a remote service through a proxy service such as Amazon API Gateway or Azure API Management. It covers the syntax, required parameters (name, arguments, RETURNS, API_INTEGRATION, AS URL), and optional parameters such as SECURE, NULL handling, VOLATILE/IMMUTABLE, HEADERS, CONTEXT_HEADERS, MAX_BATCH_ROWS, COMPRESSION, and translators. It also lists access control requirements, usage notes, and a simple example.",
+ "one_line": "Snowflake reference for the CREATE EXTERNAL FUNCTION command, which calls remote services through a proxy such as API Gateway.",
+ "key_facts": [
+  "CREATE EXTERNAL FUNCTION requires the RETURNS, API_INTEGRATION, and AS clauses; the AS clause specifies the invocation URL of the proxy service and resource.",
+  "The API_INTEGRATION parameter names the API integration object used to authenticate the call to the proxy service.",
+  "The SECURE keyword hides the URL, HTTP headers, and context headers from all users who are not owners of the function.",
+  "The default for NULL handling is NULL, meaning the function can return NULL values.",
+  "The default null-input behavior is CALLED ON NULL INPUT; RETURNS NULL ON NULL INPUT (synonym STRICT) skips calling the function when any input is null.",
+  "The default volatility is VOLATILE, and Snowflake recommends setting VOLATILE or IMMUTABLE explicitly; IMMUTABLE behavior is not checked or guaranteed by Snowflake.",
+  "Snowflake prepends the prefix “sf-custom-” to each name specified in HEADERS before sending them as HTTP headers.",
+  "The sum of the sizes of header names and header values for an external function must be less than or equal to 8 KB.",
+  "CONTEXT_HEADERS binds supported context functions such as CURRENT_USER() or CURRENT_TIMESTAMP() to HTTP headers prefixed with “sf-context”.",
+  "MAX_BATCH_ROWS sets a maximum number of rows per batch sent to the proxy service and is not a performance tuning parameter; Snowflake recommends leaving it unset unless needed.",
+  "COMPRESSION valid values are NONE, GZIP, DEFLATE, and AUTO; the default is AUTO, which is GZIP on AWS and NONE on Azure and GCP.",
+  "The argument types and the return type cannot be GEOGRAPHY.",
+  "Creating an external function requires the CREATE EXTERNAL FUNCTION privilege on the schema, plus USAGE on the parent database and schema, and either OWNERSHIP or USAGE on the API integration.",
+  "CREATE OR REPLACE statements are atomic: the old object is deleted and the new object is created in a single transaction.",
+  "The example creates local_echo(string_col VARCHAR) returning VARIANT through the API integration demonstration_external_api_integration_01 with an Amazon API Gateway URL."
+ ],
+ "entities": [
+  {
+   "name": "CREATE EXTERNAL FUNCTION",
+   "type": "program",
+   "role": "Snowflake SQL command documented on this page for creating a function that calls a remote service via a proxy"
+  },
+  {
+   "name": "API integration",
+   "type": "other",
+   "role": "Object used to authenticate the call to the proxy service, referenced by API_INTEGRATION"
+  },
+  {
+   "name": "Amazon API Gateway",
+   "type": "product",
+   "role": "Example proxy service; automatically compresses and decompresses requests, and is the basis of the usage example"
+  },
+  {
+   "name": "Azure API Management",
+   "type": "product",
+   "role": "Example of a proxy service (API Management service) through which Snowflake calls the remote service"
+  },
+  {
+   "name": "local_echo",
+   "type": "program",
+   "role": "Example external function name in the CREATE OR REPLACE example"
+  },
+  {
+   "name": "demonstration_external_api_integration_01",
+   "type": "program",
+   "role": "API integration name used in the example"
+  },
+  {
+   "name": "CURRENT_STATEMENT()",
+   "type": "program",
+   "role": "Context function example whose output is sent in the sf-context-current-statement header"
+  },
+  {
+   "name": "Categorize Your Function as Volatile or Immutable",
+   "type": "other",
+   "role": "Linked documentation on VOLATILE vs. IMMUTABLE external functions"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "external-functions",
+  "api-integration",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6690,
+  "output_tokens": 1497
+ }
+}

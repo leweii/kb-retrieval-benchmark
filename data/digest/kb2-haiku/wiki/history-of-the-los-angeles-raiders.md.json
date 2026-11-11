@@ -1,0 +1,45 @@
+{
+ "summary": "The note is a brief introduction to the history of the Los Angeles Raiders, the professional American football team now known as the Oakland Raiders. It states that the team played in Los Angeles, California from 1982 to 1994 before moving back to Oakland, and that the article covers its history during the Los Angeles period.",
+ "one_line": "Introduction to the Los Angeles Raiders, the NFL team that played in Los Angeles from 1982 to 1994 before returning to Oakland.",
+ "key_facts": [
+  "The professional American football team now known as the Oakland Raiders played in Los Angeles, California from 1982 to 1994.",
+  "The team relocated back to Oakland after its time in Los Angeles.",
+  "The article chronicles the team's history during their time as the Los Angeles Raiders.",
+  "The team is now known as the Oakland Raiders.",
+  "The Los Angeles period of the team's history spans 1982 to 1994."
+ ],
+ "entities": [
+  {
+   "name": "Oakland Raiders",
+   "type": "organization",
+   "role": "Professional American football team now known by this name, which previously played as the Los Angeles Raiders"
+  },
+  {
+   "name": "Los Angeles Raiders",
+   "type": "organization",
+   "role": "Name under which the football team played in Los Angeles from 1982 to 1994; subject of the article"
+  },
+  {
+   "name": "Los Angeles, California",
+   "type": "place",
+   "role": "City where the team played from 1982 to 1994"
+  },
+  {
+   "name": "Oakland",
+   "type": "place",
+   "role": "City to which the team relocated after its Los Angeles period"
+  }
+ ],
+ "tags": [
+  "american football",
+  "nfl",
+  "los angeles raiders",
+  "oakland raiders",
+  "sports history"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1072,
+  "output_tokens": 530
+ }
+}

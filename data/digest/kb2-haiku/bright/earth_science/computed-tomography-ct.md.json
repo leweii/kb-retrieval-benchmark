@@ -1,0 +1,62 @@
+{
+ "summary": "This NIBIB science education page explains computed tomography (CT), describing how CT scanners produce cross-sectional and 3D images using rotating x-ray sources and digital detectors. It covers common clinical uses, contrast agents (iodine-based IV and barium-based oral), and radiation and kidney risks, especially for children and pregnant patients. It closes with three examples of NIBIB-funded CT projects on stroke imaging, metal artifact reduction, and AI for COVID-19.",
+ "one_line": "NIBIB educational overview of computed tomography (CT), covering how scans work, clinical uses, contrast agents, risks, and NIBIB-funded CT research.",
+ "key_facts": [
+  "CT is a computerized x-ray imaging procedure in which a narrow beam of x-rays is aimed at a patient and quickly rotated around the body to generate cross-sectional images called slices.",
+  "Unlike a conventional x-ray, a CT scanner uses a motorized x-ray source that rotates around the circular opening of a donut-shaped structure called a gantry.",
+  "CT scanners use special digital x-ray detectors located directly opposite the x-ray source instead of film.",
+  "The thickness of tissue represented in each CT image slice usually ranges from 1-10 millimeters, depending on the machine used.",
+  "Stacked CT slices can be digitally combined by the computer to generate a 3D image of the patient.",
+  "CT has become a useful screening tool for detecting possible tumors or lesions within the abdomen.",
+  "A CT scan is particularly useful when imaging complex bone fractures, severely eroded joints, or bone tumors since it usually produces more detail than a conventional x-ray.",
+  "For the circulatory system, an intravenous (IV) contrast agent based on iodine is injected into the bloodstream to help illuminate blood vessels.",
+  "Oral contrast agents, such as barium-based compounds, are used for imaging the digestive system, including the esophagus, stomach, and gastrointestinal (GI) tract.",
+  "CT scans use x-rays, and all x-rays produce ionizing radiation, a risk that increases with the number of exposures added up over the life of an individual.",
+  "IV contrast agents should not be administered to patients with abnormal kidney function since they may induce a further reduction of kidney function, which may sometimes become permanent.",
+  "Because children are more sensitive to ionizing radiation and have a longer life expectancy, they have a higher relative risk for developing cancer from such radiation compared with adults.",
+  "If imaging of the abdomen and pelvis is needed, doctors prefer exams that do not use radiation, such as magnetic resonance imaging (MRI) or ultrasound.",
+  "NIBIB-funded researchers developed an image reconstruction technique to more efficiently triage patients who present with stroke symptoms, ruling out hemorrhage and finding the site of a blood clot.",
+  "NIBIB-funded researchers developed an algorithm to reduce metal artifacts in CT imaging without requiring knowledge of the implant material, with a potential application to prostate cancer radiation therapy planning for patients with hip prostheses.",
+  "NIBIB created the Medical Imaging and Data Resource Center (MIDRC) during the COVID-19 pandemic, which collected and analyzed thousands of CT images from patients with COVID-19."
+ ],
+ "entities": [
+  {
+   "name": "National Institute of Biomedical Imaging and Bioengineering (NIBIB)",
+   "type": "organization",
+   "role": "NIH institute whose science education page presents this CT overview and which funded the described CT projects"
+  },
+  {
+   "name": "National Institutes of Health",
+   "type": "organization",
+   "role": "parent agency of NIBIB, shown in the site header and footer"
+  },
+  {
+   "name": "Medical Imaging and Data Resource Center (MIDRC)",
+   "type": "program",
+   "role": "collaborative imaging initiative created by NIBIB during the COVID-19 pandemic that collected and analyzed CT images from COVID-19 patients"
+  },
+  {
+   "name": "Medical Imaging App",
+   "type": "product",
+   "role": "NIBIB games, apps and media resource listed on the page"
+  },
+  {
+   "name": "Design by Biomedical Undergraduate Teams (DEBUT) Challenge",
+   "type": "program",
+   "role": "resource listed under Science Education resources"
+  }
+ ],
+ "tags": [
+  "computed tomography",
+  "medical imaging",
+  "radiation safety",
+  "contrast agents",
+  "stroke imaging",
+  "artificial intelligence"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6259,
+  "output_tokens": 1453
+ }
+}

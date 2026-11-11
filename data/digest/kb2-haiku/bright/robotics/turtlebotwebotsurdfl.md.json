@@ -1,0 +1,84 @@
+{
+ "summary": "This note is a URDF/XML robot description for a TurtleBot3 Burger model built for the Webots simulator with ROS 2 integration. It configures a LDS-01 lidar publishing to /scan at 5 Hz, an IMU plugin publishing to /imu at 20 Hz with inertial unit, gyro and accelerometer devices, and a ros2_control system with two wheel motor joints using velocity command interfaces. It also references a placeholder example plugin class in the webots_ros2_turtlebot package.",
+ "one_line": "URDF/XML description of a TurtleBot3 Burger robot for Webots with ROS 2 lidar, IMU and wheel control configuration.",
+ "key_facts": [
+  "The robot is named \"TurtleBot3 Burger Webots\" in the URDF robot tag.",
+  "The LDS-01 lidar device is enabled with an updateRate of 5 and publishes to the topic /scan.",
+  "The LDS-01 lidar uses the frame name LDS-01 and has alwaysOn set to false.",
+  "The IMU plugin type is webots_ros2_driver::Ros2IMU with an updateRate of 20.",
+  "The IMU plugin publishes to the topic /imu with frame name imu_link.",
+  "The IMU plugin uses devices named inertial_unit, gyro and accelerometer.",
+  "A plugin of type webots_ros2_control::Ros2Control is included in the webots section.",
+  "The example plugin comment specifies the format type=\"package_name.file_name.class_name\".",
+  "The example plugin is webots_ros2_turtlebot.plugin_example.PluginExample with a parameterExample set to someValue.",
+  "The ros2_control block is named WebotsControl and has type system.",
+  "The hardware plugin is webots_ros2_control::Ros2ControlSystem.",
+  "The right wheel motor joint exposes a position state interface and a velocity command interface.",
+  "The left wheel motor joint exposes a position state interface and a velocity command interface."
+ ],
+ "entities": [
+  {
+   "name": "TurtleBot3 Burger Webots",
+   "type": "product",
+   "role": "robot model named in the URDF robot tag"
+  },
+  {
+   "name": "Webots",
+   "type": "product",
+   "role": "simulator the robot description is written for"
+  },
+  {
+   "name": "LDS-01",
+   "type": "product",
+   "role": "lidar device publishing to /scan"
+  },
+  {
+   "name": "webots_ros2_driver::Ros2IMU",
+   "type": "program",
+   "role": "IMU plugin publishing to /imu"
+  },
+  {
+   "name": "webots_ros2_control::Ros2Control",
+   "type": "program",
+   "role": "ros2_control plugin in the webots section"
+  },
+  {
+   "name": "webots_ros2_control::Ros2ControlSystem",
+   "type": "program",
+   "role": "hardware plugin for the WebotsControl system"
+  },
+  {
+   "name": "webots_ros2_turtlebot.plugin_example.PluginExample",
+   "type": "program",
+   "role": "example custom plugin class referenced in the note"
+  },
+  {
+   "name": "WebotsControl",
+   "type": "program",
+   "role": "name of the ros2_control system block"
+  },
+  {
+   "name": "right wheel motor",
+   "type": "product",
+   "role": "joint with position state and velocity command interfaces"
+  },
+  {
+   "name": "left wheel motor",
+   "type": "product",
+   "role": "joint with position state and velocity command interfaces"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "ros2",
+  "webots",
+  "urdf",
+  "turtlebot3",
+  "simulation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1615,
+  "output_tokens": 1098
+ }
+}

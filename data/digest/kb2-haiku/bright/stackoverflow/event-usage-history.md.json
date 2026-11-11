@@ -1,0 +1,50 @@
+{
+ "summary": "This clipped Snowflake documentation page describes the EVENT_USAGE_HISTORY view, which shows the history of data loaded into Snowflake event tables over the last 365 days for an entire account. It lists four columns: START_TIME, END_TIME, CREDITS_USED, and BYTES_INGESTED, each with its data type and meaning. The usage note says the view may lag by up to 180 minutes. Navigation and boilerplate text from the web page were ignored.",
+ "one_line": "Reference for Snowflake's EVENT_USAGE_HISTORY view, which tracks event table data loads, credits billed, and bytes ingested over the past year.",
+ "key_facts": [
+  "The EVENT_USAGE_HISTORY view can be used to query the history of data loaded into Snowflake event tables within the last 365 days (1 year).",
+  "The view displays the history of data loaded and credits billed for the entire Snowflake account.",
+  "START_TIME is a TIMESTAMP_LTZ column giving the start of the time range (in the UTC time zone) in which data loading took place.",
+  "END_TIME is a TIMESTAMP_LTZ column giving the end of the time range (in the UTC time zone) in which data loading took place.",
+  "CREDITS_USED is a NUMBER column giving the number of credits billed for loading data into the event table during the START_TIME and END_TIME window.",
+  "BYTES_INGESTED is a NUMBER column giving the number of bytes of data loaded during the START_TIME and END_TIME window.",
+  "Latency for the EVENT_USAGE_HISTORY view may be up to 180 minutes (3 hours).",
+  "The page refers readers to 'Setting up an Event Table' for more information about event tables.",
+  "The page refers readers to 'Logging and Tracing' for more information about logging and tracing."
+ ],
+ "entities": [
+  {
+   "name": "EVENT_USAGE_HISTORY",
+   "type": "product",
+   "role": "Snowflake view that reports event table data loading history and credits billed over the last 365 days"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "Data platform whose account-level event table loading history is queried through the view"
+  },
+  {
+   "name": "Setting up an Event Table",
+   "type": "program",
+   "role": "Referenced documentation page for more information about event tables"
+  },
+  {
+   "name": "Logging and Tracing",
+   "type": "program",
+   "role": "Referenced documentation page for more information about logging and tracing"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "event-tables",
+  "usage-history",
+  "billing",
+  "sql-views",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1461,
+  "output_tokens": 827
+ }
+}

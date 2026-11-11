@@ -1,0 +1,112 @@
+{
+ "summary": "This note is a general overview of infection and infectious disease. It defines infection as pathogen invasion, multiplication, and host reaction, and covers how infections arise, persist, and spread, including the difference between colonization and infection. It also describes primary, opportunistic, secondary, and mixed infections, and surveys diagnostic methods such as culture, microscopy, serology, PCR, and metagenomic sequencing. The clipped text ends mid-sentence while discussing hygiene and prevention.",
+ "one_line": "An overview of infections and infectious diseases, covering pathogens, transmission, persistence, classification, and diagnostic methods.",
+ "key_facts": [
+  "An infection is the invasion of tissues by pathogens, their multiplication, and the reaction of host tissues to the infectious agent and the toxins they produce.",
+  "Infectious diseases resulted in 9.2 million deaths in 2013, about 17% of all deaths.",
+  "Viral infections cannot be cured by antibiotics, whereas bacterial infections can, so distinguishing the two is important.",
+  "Clostridium tetani releases a toxin that paralyzes muscles.",
+  "Less than 5% of individuals infected with polio develop disease.",
+  "The prion causing mad cow disease and Creutzfeldt-Jakob disease invariably kills all animals and people that are infected.",
+  "The herpes virus tends to hide in nerves and become reactivated when specific circumstances arise.",
+  "In children, the presence of cyanosis, rapid breathing, poor peripheral perfusion, or a petechial rash increases the risk of a serious infection by greater than 5 fold.",
+  "Koch's postulates were first proposed by Robert Koch and were first used in the discovery that Mycobacteria species cause tuberculosis.",
+  "Treponema pallidum, the causative spirochete of syphilis, cannot be cultured in vitro but can be cultured in rabbit testes.",
+  "In xenodiagnosis for Chagas disease, an uninfected triatomine bug takes a blood meal from a suspected patient and is later inspected for growth of Trypanosoma cruzi in its gut.",
+  "Strep throat is often diagnosed within minutes by detecting antigens made by S. pyogenes in a throat swab.",
+  "More than half of cases of encephalitis remain undiagnosed despite extensive testing using the standard of care and state-of-the-art clinical laboratory methods.",
+  "Appendicitis is an example of a mixed infection caused by Bacteroides fragilis and Escherichia coli.",
+  "The Gram stain identifies the bacterial groups Bacillota and Actinomycetota, while the acid-fast stain identifies the genera Mycobacterium and Nocardia.",
+  "Infectious diseases are called contagious when they are easily transmitted by contact with an ill person or their secretions, such as influenza."
+ ],
+ "entities": [
+  {
+   "name": "Robert Koch",
+   "type": "person",
+   "role": "first proposed Koch's postulates for proving that a disease is infectious"
+  },
+  {
+   "name": "Clostridium tetani",
+   "type": "other",
+   "role": "bacterium whose toxin paralyzes muscles"
+  },
+  {
+   "name": "staphylococcus",
+   "type": "other",
+   "role": "bacteria that live harmlessly on skin but release toxins producing shock and sepsis when in sterile spaces"
+  },
+  {
+   "name": "Treponema pallidum",
+   "type": "other",
+   "role": "causative spirochete of syphilis that cannot be cultured in vitro"
+  },
+  {
+   "name": "Trypanosoma cruzi",
+   "type": "other",
+   "role": "causative agent of Chagas disease detected by xenodiagnosis"
+  },
+  {
+   "name": "S. pyogenes",
+   "type": "other",
+   "role": "causative agent of strep throat, detected by antigen tests"
+  },
+  {
+   "name": "Mycobacterium leprae",
+   "type": "other",
+   "role": "bacterium that can be grown in animals"
+  },
+  {
+   "name": "Bacteroides fragilis",
+   "type": "other",
+   "role": "one of two pathogens causing appendicitis as a mixed infection"
+  },
+  {
+   "name": "Escherichia coli",
+   "type": "other",
+   "role": "one of two pathogens causing appendicitis as a mixed infection"
+  },
+  {
+   "name": "Chagas disease",
+   "type": "other",
+   "role": "illness whose diagnosis is aided by xenodiagnosis"
+  },
+  {
+   "name": "Journal of the American Medical Association",
+   "type": "organization",
+   "role": "published a Rational Clinical Examination Series review of chronic wounds"
+  },
+  {
+   "name": "HIV",
+   "type": "other",
+   "role": "virus whose appearance in communities was monitored in the early 1980s and whose detection enabled hypotheses about transmission and origin"
+  },
+  {
+   "name": "AZT",
+   "type": "product",
+   "role": "treatment for AIDS that had not yet appeared in the early 1980s"
+  },
+  {
+   "name": "mad cow disease",
+   "type": "other",
+   "role": "disease caused by a prion that invariably kills infected animals and people"
+  },
+  {
+   "name": "Creutzfeldt-Jakob disease",
+   "type": "other",
+   "role": "disease caused by a prion that invariably kills infected people"
+  }
+ ],
+ "tags": [
+  "infectious disease",
+  "microbiology",
+  "pathogens",
+  "diagnosis",
+  "epidemiology",
+  "transmission"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 10685,
+  "output_tokens": 2625
+ }
+}

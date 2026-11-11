@@ -1,0 +1,35 @@
+{
+ "summary": "This note documents the ALL_USER_NAMES() function, which returns all user names in the current account as an ARRAY. It takes no arguments. The usage notes say any active role can retrieve the list, but knowing usernames alone does not let a role act on those users, since user management requires a minimum set of privileges. The example shows a select all_user_names(); query returning a bracketed array of usernames.",
+ "one_line": "Reference for the ALL_USER_NAMES() function, which returns an array of all user names in the current account.",
+ "key_facts": [
+  "ALL_USER_NAMES() returns all user names in the current account.",
+  "The function takes no arguments (Arguments: None).",
+  "The data type of the returned value is ARRAY.",
+  "Users with any active role can retrieve the list of all usernames in the current account.",
+  "Knowing the usernames does not allow a role the ability to perform further actions on the users.",
+  "User management requires a minimum set of privileges.",
+  "The example query is: select all_user_names();",
+  "The example output is shown as [ \"user1\", \"user2\", ... ].",
+  "The page's navigation sections include Syntax, Arguments, Returns, Usage Notes and Examples.",
+  "The page is listed under the Session Object and Alert navigation groups among others, with General and Session as top-level groups."
+ ],
+ "entities": [
+  {
+   "name": "ALL_USER_NAMES",
+   "type": "product",
+   "role": "function documented in the note that returns all user names in the current account as an ARRAY"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql functions",
+  "user management",
+  "session functions",
+  "account administration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1417,
+  "output_tokens": 503
+ }
+}

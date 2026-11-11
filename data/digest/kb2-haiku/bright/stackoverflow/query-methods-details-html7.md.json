@@ -1,0 +1,72 @@
+{
+ "summary": "This Spring Data JPA 3.2.5 reference page explains how repository query methods are derived from method names and how they are resolved, covering query lookup strategies, query creation keywords, property traversal, and return types. It also covers Streamable and Vavr collection return types, Stream and asynchronous results, paging, slicing, sorting, and limiting with Top/First keywords. Boilerplate navigation, footer and trademark text is ignored.",
+ "one_line": "Spring Data JPA 3.2.5 reference on defining repository query methods: lookup strategies, name-based query creation, return types, paging, sorting and limiting.",
+ "key_facts": [
+  "The repository proxy has two ways to derive a store-specific query from the method name: deriving the query from the method name directly, or using a manually defined query.",
+  "The CREATE query lookup strategy attempts to construct a store-specific query from the query method name.",
+  "The USE_DECLARED_QUERY lookup strategy throws an exception if it cannot find a declared query, and the repository fails at bootstrap time if none is found.",
+  "CREATE_IF_NOT_FOUND is the default lookup strategy and combines CREATE and USE_DECLARED_QUERY by looking up a declared query first.",
+  "With Java configuration, the lookup strategy is set through the queryLookupStrategy attribute of the EnableJpaRepositories annotation.",
+  "In query method names, the first 'By' acts as a delimiter indicating the start of the actual criteria predicate.",
+  "Within a method name, the Distinct keyword sets a distinct flag on the query, and Top or First limit query results.",
+  "To resolve property traversal ambiguity, an underscore can be used in the method name, as in findByAddress_ZipCode; the page recommends standard Java camel-case property names instead of underscores.",
+  "Streamable is a custom extension of Iterable that provides access to a non-parallel Stream and supports combining results with and(...).",
+  "A custom Streamable wrapper type such as Products can be used directly as a query method return type if it implements Streamable and exposes a constructor or a static factory method named of(...) or valueOf(...) taking a Streamable.",
+  "Vavr Seq maps to io.vavr.collection.List, Vavr Set maps to io.vavr.collection.LinkedHashSet, and Vavr Map maps to io.vavr.collection.LinkedHashMap.",
+  "A Stream<T> return type must be closed after usage, either by calling close() or in a try-with-resources block.",
+  "Asynchronous query methods can return java.util.concurrent.Future or java.util.concurrent.CompletableFuture and run in a Spring TaskExecutor; the page states asynchronous queries differ from reactive queries and should not be mixed.",
+  "A Page triggers a count query to know the total number of elements and pages, whereas a Slice only knows whether a next Slice is available.",
+  "Sort, Pageable and Limit parameters expect non-null values; use Sort.unsorted(), Pageable.unpaged() and Limit.unlimited() to apply none.",
+  "The Top keyword used with Pageable defines the total maximum of results, and the Pageable parameter may reduce this number."
+ ],
+ "entities": [
+  {
+   "name": "Spring Data JPA",
+   "type": "program",
+   "role": "Spring Data module whose 3.2.5 reference documentation this page is"
+  },
+  {
+   "name": "Spring Data Commons",
+   "type": "program",
+   "role": "Spring Data module listed with version 3.2.5 as current in the version selector"
+  },
+  {
+   "name": "Streamable",
+   "type": "other",
+   "role": "Spring Data's custom extension of Iterable usable as a query method return type"
+  },
+  {
+   "name": "Vavr",
+   "type": "program",
+   "role": "Library embracing functional programming concepts in Java whose collection types can be query return types"
+  },
+  {
+   "name": "EnableJpaRepositories",
+   "type": "other",
+   "role": "Annotation whose queryLookupStrategy attribute configures the lookup strategy in Java configuration"
+  },
+  {
+   "name": "TaskExecutor",
+   "type": "other",
+   "role": "Spring component to which asynchronous repository queries are submitted"
+  },
+  {
+   "name": "VMware, Inc.",
+   "type": "organization",
+   "role": "Copyright holder of the Spring documentation page"
+  }
+ ],
+ "tags": [
+  "spring data jpa",
+  "query methods",
+  "repository",
+  "paging",
+  "sorting",
+  "query lookup"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10114,
+  "output_tokens": 1406
+ }
+}

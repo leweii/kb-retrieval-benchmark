@@ -1,0 +1,61 @@
+{
+ "summary": "The note states that Technicolor, formerly known as Thomson Consumer Electronics, claims to control MP3 licensing of the Layer 3 patents in many countries. These countries include the United States, Japan, Canada and EU member states. The note adds that Technicolor has been actively enforcing these patents.",
+ "one_line": "Technicolor, formerly Thomson Consumer Electronics, claims control of MP3 Layer 3 patent licensing in many countries and actively enforces them.",
+ "key_facts": [
+  "Technicolor was formerly called Thomson Consumer Electronics.",
+  "Technicolor claims to control MP3 licensing of the Layer 3 patents.",
+  "Technicolor's claimed MP3 Layer 3 patent licensing covers many countries.",
+  "Countries named in the note include the United States, Japan, Canada and EU countries.",
+  "Technicolor has been actively enforcing the MP3 Layer 3 patents."
+ ],
+ "entities": [
+  {
+   "name": "Technicolor",
+   "type": "organization",
+   "role": "Company, formerly called Thomson Consumer Electronics, that claims to control MP3 licensing of the Layer 3 patents and has been actively enforcing them"
+  },
+  {
+   "name": "Thomson Consumer Electronics",
+   "type": "organization",
+   "role": "Former name of Technicolor"
+  },
+  {
+   "name": "Layer 3",
+   "type": "product",
+   "role": "MP3 audio coding standard whose patents Technicolor claims to license"
+  },
+  {
+   "name": "United States",
+   "type": "place",
+   "role": "Country where Technicolor claims MP3 Layer 3 licensing control"
+  },
+  {
+   "name": "Japan",
+   "type": "place",
+   "role": "Country where Technicolor claims MP3 Layer 3 licensing control"
+  },
+  {
+   "name": "Canada",
+   "type": "place",
+   "role": "Country where Technicolor claims MP3 Layer 3 licensing control"
+  },
+  {
+   "name": "EU countries",
+   "type": "place",
+   "role": "Countries where Technicolor claims MP3 Layer 3 licensing control"
+  }
+ ],
+ "tags": [
+  "mp3",
+  "patents",
+  "licensing",
+  "technicolor",
+  "audio codecs",
+  "intellectual property"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1061,
+  "output_tokens": 687
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "summary": "This is a reference page for the Snowflake system function SYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES, which takes no arguments and returns a VARCHAR containing an array of objects describing the currently available behavior change bundles. Each object gives the bundle name, whether it is enabled by default (isDefault), and whether it is actually enabled for the current account (isEnabled). The page includes a basic SELECT example and a FLATTEN/PARSE_JSON query that presents the bundle information as a table, with the example showing bundles 2023_08 and 2024_01.",
+ "one_line": "Reference for the SYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES function, which lists behavior change bundles and their default and actual enabled states.",
+ "key_facts": [
+  "SYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES returns an array of the currently available behavior change release bundles, the default state of each bundle, and the actual state of the bundle for the current account.",
+  "The function syntax is SYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES() and it takes no arguments.",
+  "The function returns a VARCHAR value containing an array of objects representing the currently available behavior change bundles.",
+  "Each returned object contains the keys name, isDefault and isEnabled.",
+  "The name key gives the name of the behavior change bundle.",
+  "The isDefault key is true if the associated bundle should be enabled by default for the current account, and false otherwise.",
+  "The isEnabled key is true if the associated bundle is actually enabled by default for the current account, and false otherwise.",
+  "The example output lists a bundle named 2023_08 with isDefault true and isEnabled true.",
+  "The example output lists a bundle named 2024_01 with isDefault false and isEnabled true.",
+  "The related functions listed on the page are SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE and SYSTEM$DISABLE_BEHAVIOR_CHANGE_BUNDLE.",
+  "The page's example uses TABLE(FLATTEN(input => PARSE_JSON(...))) to convert the returned JSON array into rows with bundle_name, is_enabled_by_default and is_actually_enabled_in_account columns.",
+  "The page's Usage Notes section is empty."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES",
+   "type": "program",
+   "role": "system function that returns the currently available behavior change bundles and their default and actual states for the current account"
+  },
+  {
+   "name": "SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE",
+   "type": "program",
+   "role": "related system function listed in the See also section"
+  },
+  {
+   "name": "SYSTEM$DISABLE_BEHAVIOR_CHANGE_BUNDLE",
+   "type": "program",
+   "role": "related system function listed in the See also section"
+  },
+  {
+   "name": "2023_08",
+   "type": "product",
+   "role": "example behavior change bundle, default enabled and actually enabled in the example output"
+  },
+  {
+   "name": "2024_01",
+   "type": "product",
+   "role": "example behavior change bundle, not enabled by default but actually enabled in the example output"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "system functions",
+  "behavior change bundles",
+  "sql reference",
+  "feature flags"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2230,
+  "output_tokens": 1157
+ }
+}

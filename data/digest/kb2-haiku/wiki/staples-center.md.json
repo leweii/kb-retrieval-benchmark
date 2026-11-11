@@ -1,0 +1,52 @@
+{
+ "summary": "The note describes Staples Center, a multi-purpose sports arena in Downtown Los Angeles. It sits adjacent to the L.A. Live development, next to the Los Angeles Convention Center complex along Figueroa Street. The arena opened on October 17, 1999, and ranks among the major sporting facilities in the Greater Los Angeles Area.",
+ "one_line": "Staples Center is a Downtown Los Angeles multi-purpose sports arena that opened on October 17, 1999, beside L.A. Live.",
+ "key_facts": [
+  "Staples Center is officially stylized as STAPLES Center.",
+  "Staples Center is a multi-purpose sports arena in Downtown Los Angeles.",
+  "Staples Center is adjacent to the L.A. Live development.",
+  "Staples Center is located next to the Los Angeles Convention Center complex.",
+  "Staples Center is located along Figueroa Street.",
+  "Staples Center opened on October 17, 1999.",
+  "Staples Center is one of the major sporting facilities in the Greater Los Angeles Area."
+ ],
+ "entities": [
+  {
+   "name": "STAPLES Center",
+   "type": "place",
+   "role": "Multi-purpose sports arena in Downtown Los Angeles that opened on October 17, 1999"
+  },
+  {
+   "name": "L.A. Live",
+   "type": "place",
+   "role": "development adjacent to Staples Center"
+  },
+  {
+   "name": "Los Angeles Convention Center",
+   "type": "place",
+   "role": "convention complex located next to Staples Center"
+  },
+  {
+   "name": "Figueroa Street",
+   "type": "place",
+   "role": "street along which Staples Center is located"
+  },
+  {
+   "name": "Greater Los Angeles Area",
+   "type": "place",
+   "role": "region where Staples Center is one of the major sporting facilities"
+  }
+ ],
+ "tags": [
+  "los angeles",
+  "sports arena",
+  "venues",
+  "downtown los angeles",
+  "l.a. live"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1108,
+  "output_tokens": 600
+ }
+}

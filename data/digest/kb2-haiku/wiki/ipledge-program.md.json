@@ -1,0 +1,34 @@
+{
+ "summary": "The note describes the iPLEDGE program, an FDA requirement that took effect on March 1, 2006. Under it, patients, doctors and pharmacists must register and use a web site to receive, prescribe or dispense the medication. The note says the program has reduced pregnant women's exposure to the drug but has been criticized as overly complicated.",
+ "one_line": "iPLEDGE is an FDA-mandated web-based registration program, effective March 1, 2006, for patients, doctors and pharmacists handling a restricted medication.",
+ "key_facts": [
+  "iPLEDGE patients, their doctors and their pharmacists are required by the FDA to register and use a web site to receive, prescribe or dispense the medication.",
+  "The iPLEDGE registration requirement took effect as of March 1, 2006.",
+  "The iPLEDGE program has reduced exposure of pregnant women to the drug.",
+  "The iPLEDGE program has been criticized for being overly complicated."
+ ],
+ "entities": [
+  {
+   "name": "iPLEDGE program",
+   "type": "program",
+   "role": "FDA-required web site registration program for patients, doctors and pharmacists dealing with the medication"
+  },
+  {
+   "name": "FDA",
+   "type": "organization",
+   "role": "regulator that requires iPLEDGE registration and use of the web site"
+  }
+ ],
+ "tags": [
+  "iPLEDGE",
+  "FDA",
+  "drug regulation",
+  "pregnancy safety",
+  "medication program"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 1085,
+  "output_tokens": 462
+ }
+}

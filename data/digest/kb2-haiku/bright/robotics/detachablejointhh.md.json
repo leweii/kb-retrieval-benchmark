@@ -1,0 +1,90 @@
+{
+ "summary": "This note is the header file for the DetachableJoint system in Open Source Robotics Foundation's Gazebo simulator (gz-sim), licensed under Apache License 2.0 and copyright 2019. The system initially attaches two models with a fixed joint, then lets them be detached and re-attached during simulation via transport topics, and publishes the detachment state on an output topic. The header's doc comment lists its configurable parameters: parent_link, child_model, child_link, and optional topic, detach_topic, attach_topic, output_topic, and suppress_child_warning.",
+ "one_line": "Gazebo (gz-sim) header for the DetachableJoint system, which attaches two models with a fixed joint that can be detached and re-attached via topics.",
+ "key_facts": [
+  "DetachableJoint is a system that initially attaches two models via a fixed joint.",
+  "The models can be detached during simulation via a topic and re-attached during simulation via a topic.",
+  "The status of the detached state can be monitored via a topic.",
+  "The parameter <parent_link> names the link in the parent model used to create a fixed joint with a link in the child model.",
+  "The parameter <child_model> names the model to which this model will be connected.",
+  "The parameter <child_link> names the link in the child model used to create a fixed joint with a link in the parent model.",
+  "The optional parameter <detach_topic> sets the topic for detaching connections and is preferred over <topic>.",
+  "If multiple detachable plugins are used in one model, detach_topic is REQUIRED to detach child models individually.",
+  "The optional parameter <attach_topic> sets the topic for attaching connections.",
+  "The optional parameter <output_topic> sets the topic for publishing the state of the detachment.",
+  "The optional parameter <suppress_child_warning> defaults to false, meaning a warning is printed if a child model does not exist yet.",
+  "The header is copyright (C) 2019 Open Source Robotics Foundation and licensed under the Apache License, Version 2.0.",
+  "The class DetachableJoint inherits from System, ISystemConfigure, and ISystemPreUpdate and implements Configure and PreUpdate.",
+  "The private member detachRequested defaults to false and attachRequested defaults to true, while isAttached defaults to false."
+ ],
+ "entities": [
+  {
+   "name": "Open Source Robotics Foundation",
+   "type": "organization",
+   "role": "copyright holder of the source file (2019)"
+  },
+  {
+   "name": "DetachableJoint",
+   "type": "product",
+   "role": "system class that attaches two models via a fixed joint and allows detaching and re-attaching them during simulation"
+  },
+  {
+   "name": "Apache License, Version 2.0",
+   "type": "program",
+   "role": "license under which the file is distributed"
+  },
+  {
+   "name": "gz::sim::systems",
+   "type": "program",
+   "role": "namespace containing the DetachableJoint class"
+  },
+  {
+   "name": "parent_link",
+   "type": "other",
+   "role": "configuration parameter naming the parent model link used for the fixed joint"
+  },
+  {
+   "name": "child_model",
+   "type": "other",
+   "role": "configuration parameter naming the model to which this model will be connected"
+  },
+  {
+   "name": "child_link",
+   "type": "other",
+   "role": "configuration parameter naming the child model link used for the fixed joint"
+  },
+  {
+   "name": "detach_topic",
+   "type": "other",
+   "role": "optional configuration parameter for the topic used to detach connections"
+  },
+  {
+   "name": "attach_topic",
+   "type": "other",
+   "role": "optional configuration parameter for the topic used to attach connections"
+  },
+  {
+   "name": "output_topic",
+   "type": "other",
+   "role": "optional configuration parameter for the topic publishing detachment state"
+  },
+  {
+   "name": "suppress_child_warning",
+   "type": "other",
+   "role": "optional configuration parameter that suppresses the warning when a child model does not exist yet"
+  }
+ ],
+ "tags": [
+  "gazebo",
+  "robotics",
+  "simulation",
+  "fixed-joint",
+  "software-license",
+  "cpp-header"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2947,
+  "output_tokens": 1232
+ }
+}

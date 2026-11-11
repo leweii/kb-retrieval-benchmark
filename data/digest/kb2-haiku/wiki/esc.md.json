@@ -1,0 +1,51 @@
+{
+ "summary": "The note is a short encyclopedia-style entry about Escó, a village in Aragon, Spain. It describes Escó as an almost deserted village in the Jacetania region of Zaragoza province, located next to the Yesa Reservoir. The entry gives its local Aragonese name as Esco.",
+ "one_line": "Escó is an almost deserted village in Jacetania, Zaragoza province, Aragon, Spain, beside the Yesa Reservoir.",
+ "key_facts": [
+  "Escó is an almost deserted village in Spain.",
+  "Escó is also called Esco in local Aragonese.",
+  "Escó is located in the region of Jacetania.",
+  "Escó is in the province of Zaragoza.",
+  "Escó is in the autonomous community of Aragon.",
+  "Escó is located next to the Yesa Reservoir."
+ ],
+ "entities": [
+  {
+   "name": "Escó",
+   "type": "place",
+   "role": "almost deserted village in the region of Jacetania, province of Zaragoza, Aragon, Spain, located next to the Yesa Reservoir"
+  },
+  {
+   "name": "Jacetania",
+   "type": "place",
+   "role": "region in which Escó is located"
+  },
+  {
+   "name": "Zaragoza",
+   "type": "place",
+   "role": "province in which Escó is located"
+  },
+  {
+   "name": "Aragon",
+   "type": "place",
+   "role": "region of Spain in which Escó is located"
+  },
+  {
+   "name": "Yesa Reservoir",
+   "type": "place",
+   "role": "reservoir located next to Escó"
+  }
+ ],
+ "tags": [
+  "aragon",
+  "spain",
+  "village",
+  "reservoir",
+  "jacetania"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1043,
+  "output_tokens": 501
+ }
+}

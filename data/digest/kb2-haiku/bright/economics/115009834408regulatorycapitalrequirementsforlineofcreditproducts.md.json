@@ -1,0 +1,60 @@
+{
+ "summary": "This PrecisionLender support article explains how Basel III regulatory capital requirements apply to Line of Credit products. Capital is held on both the funded (utilized) and unfunded (committed but unused) portions of a loan, with the unfunded portion weighted by a Credit Conversion Factor based on loan duration. It also describes the Unconditionally Cancelable (Demand) LOC, which holds no capital on the unfunded portion, and gives worked examples for both cases.",
+ "one_line": "Explains how Basel III capital rules apply to funded and unfunded Line of Credit balances in PrecisionLender, including the cancelable LOC exception.",
+ "key_facts": [
+  "Basel III introduced capital requirements that affect different types of Line of Credit products.",
+  "When pricing a Line of Credit, capital must be held on both the outstanding (utilized) balance and the committed but unfunded (non-utilized) portion.",
+  "In PrecisionLender, the only exception to holding capital on the unfunded portion is when a Line of Credit product is marked as an Unconditionally Cancelable LOC.",
+  "The required capital is based on a risk-weighted assets percentage (RWA), which in most cases is 100%.",
+  "The Credit Conversion Factor (CCF) is 20% if the loan duration is 12 months or less.",
+  "The Credit Conversion Factor (CCF) is 50% if the loan duration is greater than 12 months.",
+  "Under US regulatory requirements, a bank's tier 1 and tier 2 capital must be at least 8% of its risk-weighted assets for an adequately capitalized institution.",
+  "The standard capital formula is (Commitment Funded * RWA + Commitment Unfunded * RWA * CCF) * Regulatory Capital %.",
+  "For a $1,000,000 LOC with 12 months duration and 60% utilization, the required capital is $54,400.",
+  "For a $1,000,000 LOC with 36 months duration and 60% utilization, the required capital is $64,000.",
+  "An Unconditionally Cancelable (Demand) LOC is enabled by checking the Is Cancelable LOC box on the Product page, where payment type is LOC, in the Administration section.",
+  "For an Unconditionally Cancelable LOC, the formula is Commitment Funded * RWA * Regulatory Capital %, ignoring the unfunded portion.",
+  "For a $1,000,000 Unconditionally Cancelable LOC with 60% utilization, the required capital is $48,000 regardless of whether the term is 12 or 36 months.",
+  "The article notes that loan products with special regulatory capital requirements, meaning non-100% RWA, are covered in a separate article."
+ ],
+ "entities": [
+  {
+   "name": "Basel III",
+   "type": "program",
+   "role": "Regulatory standard that introduced capital requirements impacting Line of Credit products"
+  },
+  {
+   "name": "PrecisionLender",
+   "type": "product",
+   "role": "Loan pricing software in which the Line of Credit capital calculations are applied"
+  },
+  {
+   "name": "Unconditionally Cancelable LOC",
+   "type": "product",
+   "role": "Line of Credit type that holds no capital on the committed but unfunded portion"
+  },
+  {
+   "name": "Credit Conversion Factor (CCF)",
+   "type": "other",
+   "role": "Factor based on loan duration applied to the unfunded portion of a loan in capital calculations"
+  },
+  {
+   "name": "Q2 Software, Inc.",
+   "type": "organization",
+   "role": "Copyright holder of the PrecisionLender support center content"
+  }
+ ],
+ "tags": [
+  "basel iii",
+  "line of credit",
+  "regulatory capital",
+  "risk-weighted assets",
+  "precisionlender",
+  "credit conversion factor"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 2408,
+  "output_tokens": 1600
+ }
+}

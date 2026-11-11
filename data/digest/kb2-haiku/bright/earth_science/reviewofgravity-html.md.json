@@ -1,0 +1,85 @@
+{
+ "summary": "This educational note reviews Newton's Law of Universal Gravitation, explaining how the apple story led to the idea that gravity extends to the Moon's orbit, how mass and weight differ, and how the inverse square law works with worked examples. It then covers Kepler's three laws of planetary motion, the cause of the seasons (Earth's 23.5 degree axial tilt rather than distance from the Sun), and ocean tides, including differential forces and spring and neap tides caused by the Moon and Sun.",
+ "one_line": "An educational review of Newton's law of gravitation, Kepler's laws, the causes of seasons, and ocean tides.",
+ "key_facts": [
+  "Newton's law states that the gravitational force between two objects is directly proportional to the mass of each object and inversely proportional to the square of the distance between their centers.",
+  "The note calls the universal gravitational constant G 'universal' because it is thought to be the same at all places and all times.",
+  "Weight is the gravitational force exerted on an object of a certain mass, while mass is constant for an object, so weight depends on location.",
+  "The measured gravitational acceleration at the Earth's surface is about 980 cm/second/second.",
+  "The gravitational acceleration on the Moon's surface is a factor of 6 less than at the surface of the Earth, so an object weighs much less there.",
+  "If the distance between two attracting objects is doubled, the force of attraction becomes one fourth; if tripled, the force decreases by a factor of nine.",
+  "Kepler's Second Law (Law of Areas) states that the line joining the Sun and a planet sweeps out equal areas in equal times, so the planet moves fastest near perihelion.",
+  "Mercury, the innermost planet, takes only 88 days to orbit the Sun, while Pluto requires 248 years.",
+  "The primary cause of the seasons is the 23.5 degree tilt of the Earth's rotation axis with respect to the plane of the ecliptic.",
+  "The Earth is at its closest approach to the Sun (perihelion) on about January 4 of each year, which is during the Northern Hemisphere winter.",
+  "On both equinoxes, all locations on Earth receive exactly 12 hours of daylight and 12 hours of night.",
+  "Jupiter is more than 300 times as massive as Earth, but a body on its surface would weigh only about three times as much as on Earth because its radius is about 10 times Earth's.",
+  "Tides occur because gravitational forces from the Moon are not uniform across the Earth, producing differential forces that distort the body, with the fluid ocean deforming most easily.",
+  "Spring tides occur when the Sun and Moon line up with the Earth at new and full Moon phases, while neap tides occur when the Moon is at first or last quarter phase."
+ ],
+ "entities": [
+  {
+   "name": "Sir Isaac Newton",
+   "type": "person",
+   "role": "Discoverer of the Universal Law of Gravitation, whose key insight was that gravity is universal and extends to the Moon's orbit"
+  },
+  {
+   "name": "Johannes Kepler",
+   "type": "person",
+   "role": "German astronomer who discovered three important laws of planetary motion that preceded Newton's law of gravitation"
+  },
+  {
+   "name": "Universal Law of Gravitation",
+   "type": "other",
+   "role": "Newton's law stating that all objects attract each other with a gravitational force dependent on their masses and inversely proportional to the square of their separation"
+  },
+  {
+   "name": "Universal gravitational constant G",
+   "type": "other",
+   "role": "Constant of proportionality in Newton's gravitation law, thought to be the same at all places and times"
+  },
+  {
+   "name": "Kepler's Three Laws",
+   "type": "other",
+   "role": "Laws of planetary motion covering orbits, areas, and periods"
+  },
+  {
+   "name": "Mercury",
+   "type": "place",
+   "role": "Innermost planet, which takes only 88 days to orbit the Sun"
+  },
+  {
+   "name": "Pluto",
+   "type": "place",
+   "role": "Outermost planet cited, which requires 248 years to orbit the Sun"
+  },
+  {
+   "name": "Jupiter",
+   "type": "place",
+   "role": "Planet more than 300 times as massive as Earth, with a radius about 10 times Earth's, used as an example of surface weight"
+  },
+  {
+   "name": "Moon",
+   "type": "place",
+   "role": "Earth's satellite whose orbit is explained by gravity and whose gravity causes tides on Earth"
+  },
+  {
+   "name": "Sun",
+   "type": "place",
+   "role": "Star at one focus of each planet's elliptical orbit; its differential gravitational force influences Earth's tides to a lesser degree than the Moon"
+  }
+ ],
+ "tags": [
+  "gravity",
+  "newton",
+  "kepler",
+  "planetary motion",
+  "seasons",
+  "tides"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7178,
+  "output_tokens": 1502
+ }
+}

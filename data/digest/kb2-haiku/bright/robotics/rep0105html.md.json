@@ -1,0 +1,76 @@
+{
+ "summary": "REP 105 is an informational ROS standard by Wim Meeussen (Active, created 27-Oct-2010) that defines naming conventions and semantic meaning for coordinate frames of mobile platforms. It specifies the frames base_link, odom, map and earth, their parent-child tree relationships, which software component is the authority for each transform, and how to handle map transitions and odom frame consistency. It is compliant with REP 103 and places the document in the public domain.",
+ "one_line": "REP 105 defines ROS coordinate frame naming and semantics for mobile platforms, covering base_link, odom, map and earth frames and their tf tree.",
+ "key_facts": [
+  "REP 105, titled Coordinate Frames for Mobile Platforms, was authored by Wim Meeussen and has status Active.",
+  "REP 105 is of type Informational and was created on 27-Oct-2010.",
+  "The base_link frame is rigidly attached to the mobile robot base and can be attached in any arbitrary position or orientation.",
+  "The odom frame is a world-fixed frame whose pose can drift over time without any bounds, but its pose is guaranteed to be continuous.",
+  "The map frame is a world fixed frame with its Z-axis pointing upwards, and its pose should not significantly drift over time.",
+  "The map frame is not continuous, meaning the pose of a mobile platform in the map frame can change in discrete jumps at any time.",
+  "For earth-referenced maps, the default is to align the x-axis east, y-axis north, and the z-axis up at the origin of the coordinate frame.",
+  "If there is no other reference, the default position of the z-axis should be zero at the height of the WGS84 ellipsoid.",
+  "In structured environments such as office buildings, aligning the map with the building is recommended, and indoors it is recommended to align the map at floor level.",
+  "The earth frame is the origin of ECEF (Earth Centered, Earth Fixed) and allows the interaction of multiple robots in different map frames.",
+  "Each coordinate frame in the tree has exactly one parent frame and any number of child frames; the map frame is the parent of odom, and odom is the parent of base_link.",
+  "The transform from odom to base_link is computed and broadcast by one of the odometry sources.",
+  "The localization component does not broadcast the map to base_link transform; it broadcasts the map to odom transform instead.",
+  "The maximum distance to the odom frame is approximately 83km if centimeter level accuracy is required.",
+  "This REP depends on and is compliant with REP 103, and the document has been placed in the public domain."
+ ],
+ "entities": [
+  {
+   "name": "Wim Meeussen",
+   "type": "person",
+   "role": "author of REP 105"
+  },
+  {
+   "name": "REP 103",
+   "type": "program",
+   "role": "standard specifying units of measure and coordinate conventions, with a preferred frame orientation that REP 105 is compliant with"
+  },
+  {
+   "name": "REP 105",
+   "type": "program",
+   "role": "the ROS standard specifying coordinate frame conventions for mobile platforms"
+  },
+  {
+   "name": "EGM1996",
+   "type": "program",
+   "role": "gravity model cited as a reference for Mean Sea Level in map conventions"
+  },
+  {
+   "name": "Mean Sea Level",
+   "type": "other",
+   "role": "example application-specific reference position for the z position of the map frame"
+  },
+  {
+   "name": "WGS84 ellipsoid",
+   "type": "other",
+   "role": "reference height for the default z-axis position when no other reference exists"
+  },
+  {
+   "name": "ECEF",
+   "type": "other",
+   "role": "Earth Centered, Earth Fixed coordinate system whose origin is the earth frame"
+  },
+  {
+   "name": "Pressure Altitude",
+   "type": "other",
+   "role": "approximation of altitude based on barometric pressure, an example additional frame for flying vehicles"
+  }
+ ],
+ "tags": [
+  "ros",
+  "coordinate frames",
+  "tf",
+  "robotics",
+  "localization",
+  "mobile robots"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6493,
+  "output_tokens": 1241
+ }
+}

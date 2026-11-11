@@ -1,0 +1,45 @@
+{
+ "summary": "KVCK (1450 AM) is a radio station serving the Wolf Point, Montana area with a classic hits format. The station is owned by WolfTrax Broadcasting, LLC and carries programming from ABC Radio. The note is a brief encyclopedia-style entry covering only these basic facts.",
+ "one_line": "KVCK (1450 AM) is a classic hits radio station in Wolf Point, Montana, owned by WolfTrax Broadcasting and carrying ABC Radio programming.",
+ "key_facts": [
+  "KVCK is a radio station broadcasting on 1450 AM.",
+  "KVCK broadcasts a classic hits format.",
+  "KVCK serves the Wolf Point, Montana, United States, area.",
+  "KVCK is owned by WolfTrax Broadcasting, LLC.",
+  "KVCK features programming from ABC Radio."
+ ],
+ "entities": [
+  {
+   "name": "KVCK (1450 AM)",
+   "type": "product",
+   "role": "radio station broadcasting a classic hits format to the Wolf Point, Montana area"
+  },
+  {
+   "name": "WolfTrax Broadcasting, LLC",
+   "type": "organization",
+   "role": "owner of radio station KVCK"
+  },
+  {
+   "name": "ABC Radio",
+   "type": "organization",
+   "role": "provider of programming for KVCK"
+  },
+  {
+   "name": "Wolf Point, Montana",
+   "type": "place",
+   "role": "area served by radio station KVCK"
+  }
+ ],
+ "tags": [
+  "radio",
+  "broadcasting",
+  "montana",
+  "classic hits",
+  "abc radio"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1067,
+  "output_tokens": 495
+ }
+}

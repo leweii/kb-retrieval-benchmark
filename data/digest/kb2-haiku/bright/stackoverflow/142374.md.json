@@ -1,0 +1,90 @@
+{
+ "summary": "This is a GitHub Discussions Q&A thread from the vitejs/vite repository, titled 'RollupError: Could not resolve #14237', started by user zfreiter on Aug 30, 2023. The poster's React TypeScript project built and ran locally, but the build failed on GitHub Actions deployment because Rollup could not resolve CSS imports. The accepted explanation from commenter Errorname is a case-sensitivity mismatch: Linux build systems are case-sensitive while macOS is not, so import casing must match the actual filename, and the thread records several similar fixes using git's core.ignorecase setting.",
+ "one_line": "GitHub Q&A thread on a Vite RollupError where CSS imports fail to resolve in GitHub Actions builds, traced to file-name casing mismatches.",
+ "key_facts": [
+  "The GitHub Discussions thread is titled 'RollupError: Could not resolve #14237' and was asked by zfreiter on Aug 30, 2023 in the vitejs/vite repository.",
+  "zfreiter reported that the project works locally but breaks when built and deployed through GitHub, with a RollupError that it cannot resolve CSS files in a React TypeScript file.",
+  "samhirtarif asked whether the command 'npm run build' works on the local machine, and zfreiter answered yes with no errors.",
+  "zfreiter found that committing out the CSS imports made the build work but removed all styling.",
+  "zfreiter eventually created a new Vite project, copied everything over, and followed a different deployment example, after which everything worked.",
+  "The thread's vite config set base to '/profile/' and used the plugins array with react() from '@vitejs/plugin-react'.",
+  "Errorname wrote that after three hours they found the import casing did not match the file name: import \"./Button.css\" versus a file named button.css.",
+  "Errorname explained that macOS file systems are case insensitive, so the issue did not appear locally, while Linux used by GitHub Actions or Docker is case sensitive.",
+  "Errorname's suggested fixes were to correct the import casing or rename the file, for example with git mv path/to/button.css path/to/Button.css.",
+  "hangrybear666 fixed the problem by running git config core.ignorecase false, then committing and pushing the code.",
+  "flaviovich reported that a folder in the import path was lowercase, for example './components/Bar' instead of './Components/Bar'.",
+  "hangrybear666 explained that the file was named test_File.jsx in the IDE but test_FILE.jsx in GitHub, causing imports not to resolve.",
+  "Errorname's comment received 27 votes for thumbs up and 6 hearts, the most endorsed comment in the thread.",
+  "The thread lists 10 comments and 19 replies with 19 participants, and the question is marked Unanswered."
+ ],
+ "entities": [
+  {
+   "name": "zfreiter",
+   "type": "person",
+   "role": "original poster who asked the question about the RollupError and CSS imports failing in GitHub deployment"
+  },
+  {
+   "name": "samhirtarif",
+   "type": "person",
+   "role": "commenter who asked whether npm run build works locally and requested the GitHub Action file"
+  },
+  {
+   "name": "Errorname",
+   "type": "person",
+   "role": "commenter who identified the case-sensitivity mismatch between import paths and file names as the cause"
+  },
+  {
+   "name": "hangrybear666",
+   "type": "person",
+   "role": "commenter who fixed the issue by setting git config core.ignorecase false"
+  },
+  {
+   "name": "flaviovich",
+   "type": "person",
+   "role": "commenter who reported a lowercase folder in an import path as the problem"
+  },
+  {
+   "name": "romhenri",
+   "type": "person",
+   "role": "commenter who reported the same problem while deploying with Vercel"
+  },
+  {
+   "name": "vitejs/vite",
+   "type": "organization",
+   "role": "open-source project repository hosting the discussion thread"
+  },
+  {
+   "name": "RollupError: Could not resolve #14237",
+   "type": "event",
+   "role": "discussion thread title describing the build error under investigation"
+  },
+  {
+   "name": "GitHub Actions",
+   "type": "program",
+   "role": "CI service on Linux where the build ran and failed due to case-sensitive file resolution"
+  },
+  {
+   "name": "Vercel",
+   "type": "product",
+   "role": "deployment platform where some commenters encountered the same import failures"
+  },
+  {
+   "name": "Vite",
+   "type": "product",
+   "role": "build tool whose config file the original poster shared, with base set to '/profile/' and the React plugin"
+  }
+ ],
+ "tags": [
+  "vite",
+  "rollup",
+  "github-actions",
+  "case-sensitivity",
+  "css-imports",
+  "deployment"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6886,
+  "output_tokens": 1458
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "summary": "This is a MathWorks Simulink Real-Time help page for the Byte Reversal/Change Endianess block, which reverses little-endian data for communication with big-endian processors. The page explains that Intel 80x86-compatible processors are little-endian, so the block is inserted before the Pack block and after the Unpack block. It also documents the block's parameters (number of input ports, machine word length of Byte, Word or Double Word, and number of inputs for the Byte Reversal block), lists related ASCII and binary encoding/decoding loopback examples, notes C/C++ code generation support, and gives the version history as introduced in R2006a. Navigation, language and footer boilerplate was ignored.",
+ "one_line": "MathWorks Simulink Real-Time help page describing the Byte Reversal/Change Endianess block for big-endian and little-endian data exchange.",
+ "key_facts": [
+  "The Byte Reversal/Change Endianess block is used for communication between a Simulink Real-Time system and a system running a big-endian processor.",
+  "Processors compatible with the Intel 80x86 family are little-endian.",
+  "For little-endian to big-endian communication, a Byte Reversal/Change Endianess block is inserted before the Pack block and another just after the Unpack block.",
+  "The Byte Reversal/Change Endianess block is found in the Simulink Real-Time / Utilities library.",
+  "The Change Endianess block parameter 'Number of input ports' defaults to 1 and its programmatic name is numInp.",
+  "The number of outputs of the Change Endianess block is equal to the number of its inputs.",
+  "The 'Machine word length' parameter selects the word length for conversion, with options Byte (default), Word and Double Word.",
+  "The Byte Reversal block parameter 'Number of inputs' defaults to 1 and its programmatic name is numInp.",
+  "The page lists six related examples, including ASCII and Binary Encoding/Decoding Loopback and Resync Loopback tests over a serial link.",
+  "The ASCII Encoding/Decoding Resync Loopback Test uses the ability of the FIFO Read HDRS block to resynchronize after being repeatedly disabled.",
+  "The Binary Encoding/Decoding Resync Loopback Test uses the FIFO Read BINARY block to handle messages that are interrupted and only partially complete.",
+  "The block supports C and C++ code generation using Simulink Coder.",
+  "The block was introduced in R2006a.",
+  "The page copyright notice reads © 1994-2024 The MathWorks, Inc."
+ ],
+ "entities": [
+  {
+   "name": "Byte Reversal/Change Endianess",
+   "type": "product",
+   "role": "Simulink Real-Time block used to reverse little-endian data for a big-endian processor"
+  },
+  {
+   "name": "Simulink Real-Time",
+   "type": "product",
+   "role": "system whose communication with a big-endian processor uses the Byte Reversal/Change Endianess block"
+  },
+  {
+   "name": "Simulink Coder",
+   "type": "product",
+   "role": "product used to generate C and C++ code for the block"
+  },
+  {
+   "name": "Pack",
+   "type": "product",
+   "role": "block before which a Byte Reversal/Change Endianess block is inserted"
+  },
+  {
+   "name": "Unpack",
+   "type": "product",
+   "role": "block after which a Byte Reversal/Change Endianess block is inserted"
+  },
+  {
+   "name": "Intel 80x86 family",
+   "type": "product",
+   "role": "processor family whose compatible processors are little-endian"
+  },
+  {
+   "name": "Simple ASCII Encoding/Decoding Loopback Test (with Baseboard Blocks)",
+   "type": "program",
+   "role": "example that converts a single floating point number to ASCII and transmits it over a serial link"
+  },
+  {
+   "name": "ASCII Encoding/Decoding Loopback Test",
+   "type": "program",
+   "role": "example that sends ASCII data over a serial link"
+  },
+  {
+   "name": "ASCII Encoding/Decoding Resync Loopback Test",
+   "type": "program",
+   "role": "example that uses the FIFO Read HDRS block to resynchronize after repeated disabling"
+  },
+  {
+   "name": "Binary Encoding/Decoding Loopback Test",
+   "type": "program",
+   "role": "example that sends Binary data over a serial link"
+  },
+  {
+   "name": "Binary Encoding/Decoding Resync Loopback Test",
+   "type": "program",
+   "role": "example that uses the FIFO Read BINARY block to handle interrupted messages"
+  },
+  {
+   "name": "FIFO Read HDRS",
+   "type": "product",
+   "role": "block whose resynchronization ability is used in an ASCII example"
+  },
+  {
+   "name": "FIFO Read BINARY",
+   "type": "product",
+   "role": "block used to handle interrupted and partially complete messages in a binary example"
+  },
+  {
+   "name": "MathWorks",
+   "type": "organization",
+   "role": "publisher of the help page and copyright holder"
+  }
+ ],
+ "tags": [
+  "simulink real-time",
+  "endianness",
+  "byte reversal",
+  "serial communication",
+  "matlab documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8126,
+  "output_tokens": 1580
+ }
+}

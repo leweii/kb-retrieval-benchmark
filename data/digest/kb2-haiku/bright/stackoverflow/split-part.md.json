@@ -1,0 +1,53 @@
+{
+ "summary": "This note is the Snowflake reference page for the SPLIT_PART string function, which splits a string at a specified delimiter and returns the requested part. It covers the syntax and arguments, usage notes on out-of-range, negative, and zero part numbers, empty delimiters, and collation restrictions, followed by several examples showing the behavior.",
+ "one_line": "Snowflake reference for the SPLIT_PART string function, which returns a chosen part of a delimiter-split string.",
+ "key_facts": [
+  "SPLIT_PART(<string>, <delimiter>, <partNumber>) splits a given string at a specified character and returns the requested part.",
+  "If any parameter of SPLIT_PART is NULL, NULL is returned.",
+  "The partNumber argument is 1-based, and a negative partNumber counts parts backward from the end of the string.",
+  "If partNumber is out of range, SPLIT_PART returns an empty string.",
+  "If partNumber is 0, it is treated as 1, and Snowflake recommends avoiding 0 as a synonym for 1.",
+  "If the separator is an empty string, the returned value is the input string because the string is not split.",
+  "SPLIT_PART does not support the pi (punctuation-insensitive) collation specification or the cs-ai (case-sensitive, accent-insensitive) collation specification.",
+  "Using SPLIT_PART with a column that has the upper or lower collation specifiers requires enabling the 2024_02 behavior change bundle via SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE('2024_02').",
+  "SPLIT_PART('11.22.33', '.', 2) returns 22, and SPLIT_PART('11.22.33', '.', -1) returns 33.",
+  "SPLIT_PART('127.0.0.1', '.', 1) returns 127 and SPLIT_PART('127.0.0.1', '.', -1) returns 1.",
+  "For SPLIT_PART('|a|b|c|', '|', 1) the result is an empty string, because the leading separator makes an empty first element.",
+  "SPLIT_PART('aaa--bbb-BBB--ccc', '--', 2) returns bbb-BBB, showing a multi-character separator.",
+  "If the string starts or ends with the delimiter, the empty space before or after it counts as a valid part of the split result."
+ ],
+ "entities": [
+  {
+   "name": "SPLIT_PART",
+   "type": "program",
+   "role": "Snowflake string function that splits a string at a delimiter and returns the requested part, the subject of this reference page"
+  },
+  {
+   "name": "SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE",
+   "type": "program",
+   "role": "system function used to enable the 2024_02 behavior change bundle so SPLIT_PART works with upper or lower collation columns"
+  },
+  {
+   "name": "2024_02 behavior change bundle",
+   "type": "program",
+   "role": "behavior change bundle that must be enabled to use SPLIT_PART with columns having upper or lower collation specifiers"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "publisher of the SPLIT_PART reference documentation, whose page footer reads Inc. All Rights Reserved"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "string-functions",
+  "split-part",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3333,
+  "output_tokens": 1079
+ }
+}

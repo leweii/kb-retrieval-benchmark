@@ -1,0 +1,82 @@
+{
+ "summary": "This note is a documentation page for the APPROX_PERCENTILE_ACCUMULATE aggregate function, which returns the internal t-Digest state as a JSON object at the end of aggregation instead of a final percentile value. The state can be merged with other states from related batches or exported to external tools, and later used with APPROX_PERCENTILE_ESTIMATE to compute percentiles. The page gives the syntax, one argument (a numeric expression), a usage note that input must be numeric or castable to numeric, and two examples showing accumulate, estimate, and combine used together on test tables.",
+ "one_line": "Documentation for APPROX_PERCENTILE_ACCUMULATE, which returns the mergeable t-Digest state for approximate percentile estimation.",
+ "key_facts": [
+  "APPROX_PERCENTILE_ACCUMULATE returns the internal representation of the t-Digest state as a JSON object at the end of aggregation.",
+  "APPROX_PERCENTILE_ACCUMULATE does not return a percentile value; it returns the algorithm state itself.",
+  "The intermediate state can be combined (merged) with other intermediate states from separate but related batches of data.",
+  "The intermediate state can be exported to external tools.",
+  "The syntax is APPROX_PERCENTILE_ACCUMULATE( <expr> ), where expr is a valid expression that evaluates to a numeric value.",
+  "Percentile works only on numeric values, so expr should produce values that are numbers or can be cast to numbers.",
+  "In the first example, a table resultstate is created with approx_percentile_accumulate(c1) from testtable, and approx_percentile_estimate(s, 0.015) and approx_percentile_estimate(s, 0.2) are used to compute the 1.5th and 20th percentiles.",
+  "In the extended example, test_table1 contains the values 1, 2, 3, 4 and the estimated median from its state is 2.5.",
+  "test_table2 contains the values 5, 6, 7, 8, and its accumulated state is stored separately in resultstate2.",
+  "Combining the two states with approx_percentile_combine and estimating the median (0.5) returns 4.5.",
+  "The documented usage pattern is to keep intermediate state when estimating incremental percentiles during bulk loading.",
+  "The page is listed under the Percentile Estimation category, alongside Count Distinct Values, Cardinality Estimation, and Frequency Estimation."
+ ],
+ "entities": [
+  {
+   "name": "APPROX_PERCENTILE_ACCUMULATE",
+   "type": "program",
+   "role": "Aggregate function that returns the internal t-Digest state as a JSON object at the end of aggregation"
+  },
+  {
+   "name": "APPROX_PERCENTILE_ESTIMATE",
+   "type": "program",
+   "role": "Function used with the accumulated state to compute an approximate percentile value"
+  },
+  {
+   "name": "APPROX_PERCENTILE_COMBINE",
+   "type": "program",
+   "role": "Function that merges multiple intermediate t-Digest states from separate batches of data"
+  },
+  {
+   "name": "t-Digest",
+   "type": "program",
+   "role": "Algorithm whose internal state is returned by APPROX_PERCENTILE_ACCUMULATE"
+  },
+  {
+   "name": "testTable",
+   "type": "other",
+   "role": "Example table whose c1 column is accumulated in the basic example"
+  },
+  {
+   "name": "test_table1",
+   "type": "other",
+   "role": "Example table holding values 1, 2, 3, 4 in column c1 for the extended example"
+  },
+  {
+   "name": "test_table2",
+   "type": "other",
+   "role": "Example table holding values 5, 6, 7, 8 in column c1 representing a second batch of data"
+  },
+  {
+   "name": "resultstate1",
+   "type": "other",
+   "role": "Table storing the accumulated t-Digest state for test_table1"
+  },
+  {
+   "name": "resultstate2",
+   "type": "other",
+   "role": "Table storing the accumulated t-Digest state for test_table2"
+  },
+  {
+   "name": "combined_resultstate",
+   "type": "other",
+   "role": "Table storing the combined t-Digest state from both batches"
+  }
+ ],
+ "tags": [
+  "sql",
+  "aggregate-functions",
+  "approximate-percentile",
+  "t-digest",
+  "data-warehousing"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3289,
+  "output_tokens": 1395
+ }
+}

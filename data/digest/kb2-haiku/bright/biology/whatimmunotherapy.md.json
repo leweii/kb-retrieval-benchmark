@@ -1,0 +1,105 @@
+{
+ "summary": "This Cancer.Net (ASCO) article explains immunotherapy, a cancer treatment that uses substances made by the body or in a laboratory to boost the immune system and help it find and destroy cancer cells. It describes the main types: monoclonal antibodies and immune checkpoint inhibitors, non-specific immunotherapies (cytokines and BCG), oncolytic virus therapy, T-cell therapy, and cancer vaccines. It also lists questions patients can ask their health care team.",
+ "one_line": "Cancer.Net overview of immunotherapy types, including checkpoint inhibitors, cytokines, BCG, oncolytic viruses, CAR T-cell therapy and cancer vaccines.",
+ "key_facts": [
+  "Immunotherapy is a type of cancer treatment that uses substances made by the body or in a laboratory to boost the immune system.",
+  "Immunotherapy can be used alone or in combination with chemotherapy and/or other cancer treatments.",
+  "Checkpoint inhibitors commonly affect the PD-1/PD-L1 and CTLA-4 pathways.",
+  "Examples of immune checkpoint inhibitors listed include atezolizumab (Tecentriq), nivolumab (Opdivo) and pembrolizumab (Keytruda).",
+  "Pembrolizumab (Keytruda) is approved to treat tumors anywhere in the body with microsatellite instability-high (MSI-H) or DNA mismatch repair deficiency (dMMR).",
+  "Interferon alpha is the most common interferon used in cancer treatment.",
+  "Interleukin-2 (IL-2), also called aldesleukin (Proleukin), can treat kidney cancer and melanoma.",
+  "Bacillus Calmette-Guerin (BCG) is placed directly into the bladder through a catheter to treat bladder cancer.",
+  "Talimogene laherparepvec (Imlygic) or T-VEC is a modified herpes simplex virus approved to treat advanced melanoma that cannot be treated with surgery.",
+  "In T-cell therapy, T cells are removed from the blood, given receptors that recognize cancer cells, and returned to the body; this is called chimeric antigen receptor (CAR) T-cell therapy.",
+  "CAR T-cell therapy is used to treat certain blood cancers.",
+  "Gardasil is a cancer prevention vaccine that protects against the human papillomavirus (HPV).",
+  "Spuleucel-T (Provenge) is a treatment vaccine for advanced prostate cancer that does not respond to hormone therapy.",
+  "The article was approved by the Cancer.Net Editorial Board in 05/2022."
+ ],
+ "entities": [
+  {
+   "name": "Cancer.Net",
+   "type": "organization",
+   "role": "publisher of the article, a patient information website"
+  },
+  {
+   "name": "American Society of Clinical Oncology (ASCO)",
+   "type": "organization",
+   "role": "organization that produces Cancer.Net and is described as the voice of the world's oncology professionals"
+  },
+  {
+   "name": "Atezolizumab (Tecentriq)",
+   "type": "product",
+   "role": "immune checkpoint inhibitor example"
+  },
+  {
+   "name": "Nivolumab (Opdivo)",
+   "type": "product",
+   "role": "immune checkpoint inhibitor example"
+  },
+  {
+   "name": "Pembrolizumab (Keytruda)",
+   "type": "product",
+   "role": "immune checkpoint inhibitor approved for tumors with MSI-H or dMMR"
+  },
+  {
+   "name": "Ipilimumab (Yervoy)",
+   "type": "product",
+   "role": "immune checkpoint inhibitor example"
+  },
+  {
+   "name": "Dostarlimab (Jemperli)",
+   "type": "product",
+   "role": "immune checkpoint inhibitor usable for advanced cancer with dMMR"
+  },
+  {
+   "name": "Aldesleukin (Proleukin)",
+   "type": "product",
+   "role": "lab-made interleukin-2 used to treat kidney cancer and melanoma"
+  },
+  {
+   "name": "Bacillus Calmette-Guerin (BCG)",
+   "type": "product",
+   "role": "immunotherapy placed into the bladder to treat bladder cancer"
+  },
+  {
+   "name": "Talimogene laherparepvec (Imlygic) or T-VEC",
+   "type": "product",
+   "role": "oncolytic virus therapy approved for advanced melanoma that cannot be treated with surgery"
+  },
+  {
+   "name": "Gardasil",
+   "type": "product",
+   "role": "cancer prevention vaccine against human papillomavirus"
+  },
+  {
+   "name": "Spuleucel-T (Provenge)",
+   "type": "product",
+   "role": "treatment vaccine for advanced prostate cancer not responding to hormone therapy"
+  },
+  {
+   "name": "Human papillomavirus (HPV)",
+   "type": "other",
+   "role": "virus that can cause specific types of cancer"
+  },
+  {
+   "name": "Food and Drug Administration (FDA)",
+   "type": "organization",
+   "role": "approves many checkpoint inhibitors for specific cancers"
+  }
+ ],
+ "tags": [
+  "immunotherapy",
+  "cancer treatment",
+  "checkpoint inhibitors",
+  "cancer vaccines",
+  "car t-cell therapy",
+  "oncology"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 11404,
+  "output_tokens": 1661
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "summary": "A short note on vitamin B12 (cobalamin) chemistry and environmental mercury poisoning. It explains that methylcobalamin can react with Hg(II) to form the more toxic methylmercury ion, CH3Hg+, which occurs naturally in sediments but is greatly worsened by human mercury release. It recounts the Minamata Bay disaster in Japan, where a chemical company's dumping caused methylmercury poisoning through contaminated fish, and notes a later mercury problem among gold miners on Amazon tributaries.",
+ "one_line": "Explains how vitamin B12 chemistry produces toxic methylmercury and recounts the Minamata Bay poisoning disaster and later Amazon gold-mining mercury contamination.",
+ "key_facts": [
+  "Methyl-cobalamin, one of the cobalamin compounds, can react with less poisonous Hg(II) to generate the more poisonous ion CH3Hg+.",
+  "Humans can greatly worsen the mercury problem by releasing mercury and organomercurials into the environment.",
+  "There is a natural level of methylmercury formed by conversion of Hg(II) into CH3Hg+ in sediments.",
+  "Anyone eating fish is likely to have an increased level of methylmercurials in their body.",
+  "Wood proposed in 1968 that methylmercury could form from methylcobalamin, following model reactions of MeCo(CN)5 3+ and Hg(II) by Halpern and Maher.",
+  "The cyanocobaltates were among the first cobalamin models, discovered slightly before the cobaloximes studied by Schrauzer.",
+  "The worst episode of methylmercury poisoning occurred in Minamata Bay in Japan, devastating local fishermen and their families.",
+  "From the 1930's to the 1960's, a chemical company dumped tons of mercury into Minamata Bay in Japan.",
+  "Thousands of people living around Minamata Bay developed methylmercury poisoning through eating contaminated fish.",
+  "The disorder caused by Minamata poisoning became known as Minamata Disease.",
+  "Minamata Disease symptoms may include tingling sensations, muscle weakness, unsteady gait, tunnel vision, slurred speech, hearing loss, and abnormal behaviour such as sudden fits of laughter.",
+  "The note recommends reading the statement from the Tokyo Exposition of 1996 by Saburo Horikawa.",
+  "Mercury poisoning problems are currently occurring with gold miners working on tributaries of the Amazon."
+ ],
+ "entities": [
+  {
+   "name": "Minamata Bay",
+   "type": "place",
+   "role": "Bay in Japan where a chemical company dumped tons of mercury, causing methylmercury poisoning through contaminated fish"
+  },
+  {
+   "name": "Minamata Disease",
+   "type": "event",
+   "role": "Severe neurological disorder caused by methylmercury poisoning from contaminated fish around Minamata Bay"
+  },
+  {
+   "name": "Wood",
+   "type": "person",
+   "role": "Proposed in 1968 that methylmercurials form from methylcobalamin"
+  },
+  {
+   "name": "Halpern and Maher",
+   "type": "person",
+   "role": "Researchers whose model reactions of MeCo(CN)5 3+ and Hg(II) supported the methylcobalamin mechanism"
+  },
+  {
+   "name": "Schrauzer",
+   "type": "person",
+   "role": "Researcher associated with the cobaloximes, cobalamin models discovered slightly after the cyanocobaltates"
+  },
+  {
+   "name": "Jennifer Pepall",
+   "type": "person",
+   "role": "Author quoted describing the symptoms and history of Minamata Disease"
+  },
+  {
+   "name": "Saburo Horikawa",
+   "type": "person",
+   "role": "Author of a statement issued at the Tokyo Exposition of 1996 on Minamata, recommended for reading"
+  },
+  {
+   "name": "Tokyo Exposition of 1996",
+   "type": "event",
+   "role": "Event where Saburo Horikawa's statement on Minamata was presented"
+  },
+  {
+   "name": "Amazon tributaries",
+   "type": "place",
+   "role": "Waterways where gold miners are currently facing mercury poisoning problems"
+  }
+ ],
+ "tags": [
+  "vitamin b12",
+  "mercury poisoning",
+  "methylmercury",
+  "minamata disease",
+  "environmental contamination",
+  "bioinorganic chemistry"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 1908,
+  "output_tokens": 1398
+ }
+}

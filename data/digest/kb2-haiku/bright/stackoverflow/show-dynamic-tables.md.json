@@ -1,0 +1,54 @@
+{
+ "summary": "This is a Snowflake documentation page for the SHOW DYNAMIC TABLES command, which lists dynamic tables for the current or specified database or schema, or across the whole account. It explains the command's syntax and optional clauses (LIKE, IN, STARTS WITH, LIMIT with FROM cursor), the privilege and usage limits, and the columns returned in the output. It ends with one example that lists tables whose names start with product_ in mydb.myschema.",
+ "one_line": "Snowflake reference for the SHOW DYNAMIC TABLES command, covering its syntax, filters, pagination, privileges, and output columns.",
+ "key_facts": [
+  "The SHOW DYNAMIC TABLES command can list dynamic tables for the current or specified database or schema, or across the entire account.",
+  "To SHOW a dynamic table, the role used must have MONITOR privilege on the table.",
+  "The SHOW DYNAMIC TABLES command does not require a running warehouse to execute.",
+  "The LIMIT rows value cannot exceed 10000.",
+  "If LIMIT rows is omitted, the command results in an error if the result set is larger than 10K rows.",
+  "The LIKE parameter filters output by object name using case-insensitive pattern matching with % and _ wildcards.",
+  "The STARTS WITH parameter filters by beginning characters of the object name and is case-sensitive.",
+  "Objects are returned in lexicographic order by name, so the FROM clause only returns rows with a higher lexicographic value than the rows returned by STARTS WITH.",
+  "The output column target_lag shows the maximum duration that the dynamic table's content should lag behind real time.",
+  "The refresh_mode output column shows INCREMENTAL if the dynamic table uses incremental refreshes, or FULL if it recomputes the whole table on every refresh.",
+  "The scheduling_state output column displays RUNNING for dynamic tables actively scheduling refreshes and SUSPENDED for suspended dynamic tables.",
+  "The bytes output column is the number of bytes scanned if the entire dynamic table is scanned in a query, which may differ from actual physical bytes stored on-disk.",
+  "The owner_role_type output column is ROLE, DATABASE_ROLE, or APPLICATION for objects owned by a Snowflake Native App, and NULL for deleted objects.",
+  "The example SHOW DYNAMIC TABLES LIKE 'product_%' IN SCHEMA mydb.myschema; lists dynamic tables whose names start with product_ in the mydb.myschema schema."
+ ],
+ "entities": [
+  {
+   "name": "SHOW DYNAMIC TABLES",
+   "type": "program",
+   "role": "Snowflake command documented on this page that lists dynamic tables"
+  },
+  {
+   "name": "MONITOR privilege",
+   "type": "other",
+   "role": "privilege required on a dynamic table to run SHOW DYNAMIC TABLES against it"
+  },
+  {
+   "name": "Snowflake Information Schema",
+   "type": "other",
+   "role": "corresponding view that can be queried to view results for more than 10K records"
+  },
+  {
+   "name": "mydb.myschema",
+   "type": "place",
+   "role": "schema used in the example to filter dynamic tables"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "dynamic tables",
+  "show command",
+  "database metadata"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4069,
+  "output_tokens": 1067
+ }
+}

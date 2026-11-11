@@ -1,0 +1,58 @@
+{
+ "summary": "A Testbook web page presents a multiple-choice C question from the ISRO Scientist CS 2017 paper about a for loop that declares a shadowing local variable i inside its body. The loop variable i runs 0 to 4, but the inner int i = 10 is re-initialized on every pass, so the program prints 10 five times, with the answer marked as option 2 (10 10 10 10 10). The rest of the page is site navigation, exam listings, related question lists, and contact details, which are boilerplate.",
+ "one_line": "Testbook quiz on C scoping: a loop body's local int i = 10 shadows the loop counter, so the program prints 10 five times.",
+ "key_facts": [
+  "The question asks for the output of a C program with a for loop running i from 0 while i<5.",
+  "Inside the for loop body, the code declares a new variable 'int i = 10;' which shadows the loop counter.",
+  "The program calls printf(\"%d\", i) inside the loop body, printing the local i.",
+  "The local i is incremented by i++ after printing, but it is re-declared and reset to 10 on each iteration.",
+  "The loop body runs 5 times, so the printed output is 10 10 10 10 10.",
+  "The question was previously asked in the ISRO Scientist CS 2017 Official Paper - I.",
+  "The answer options are: 10 11 12 13 14; 10 10 10 10 10; 0 1 2 3 4; and Compilation error.",
+  "The correct answer is Option 2: 10 10 10 10 10.",
+  "The solution explains that the local variable i is inside the for loop, so its values are not the loop counter values 0 through 4.",
+  "The page is hosted by Testbook Edu Solutions Pvt. Ltd. and is listed under the Programming in C topic, While Loop subtopic.",
+  "The page notes that the ISRO Scientist CS 2022 notification was scheduled for November 29, 2022, with applications from November 29 to December 19, 2022.",
+  "The solution text describes the ISRO Scientist CS recruitment as requiring B.E./B.Tech. graduates in computer science and engineering."
+ ],
+ "entities": [
+  {
+   "name": "ISRO Scientist CS 2017 Official Paper - I",
+   "type": "event",
+   "role": "exam paper in which this question was previously asked"
+  },
+  {
+   "name": "Indian Space Research Organization (ISRO)",
+   "type": "organization",
+   "role": "issuer of the official notification for the ISRO Scientist CS 2022 recruitment"
+  },
+  {
+   "name": "ISRO Scientist CS 2022",
+   "type": "event",
+   "role": "recruitment cycle with 14 new vacancies, applications from November 29 to December 19, 2022"
+  },
+  {
+   "name": "Testbook Edu Solutions Pvt. Ltd.",
+   "type": "organization",
+   "role": "company that operates the website and publishes the question page"
+  },
+  {
+   "name": "Programming in C",
+   "type": "program",
+   "role": "subject category under which the question is listed"
+  }
+ ],
+ "tags": [
+  "c programming",
+  "variable scope",
+  "for loop",
+  "shadowing",
+  "competitive exams",
+  "isro"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7285,
+  "output_tokens": 984
+ }
+}

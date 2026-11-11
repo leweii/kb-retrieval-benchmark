@@ -1,0 +1,43 @@
+{
+ "summary": "The note is a brief entry on The Open Championship, the golf major. It states that Jordan Spieth is the current champion, having won the 146th Open at Royal Birkdale in 2017 with a score of 268. The note contains no further detail about the tournament's history or format.",
+ "one_line": "Golf's Open Championship, with Jordan Spieth as champion after winning the 146th Open at Royal Birkdale in 2017.",
+ "key_facts": [
+  "The Open Championship's current champion is Jordan Spieth, according to the note.",
+  "Jordan Spieth won the 146th Open at Royal Birkdale in 2017.",
+  "Jordan Spieth's winning score at the 146th Open was 268.",
+  "The 146th Open was held at Royal Birkdale."
+ ],
+ "entities": [
+  {
+   "name": "The Open Championship",
+   "type": "event",
+   "role": "golf tournament whose current champion is Jordan Spieth"
+  },
+  {
+   "name": "Jordan Spieth",
+   "type": "person",
+   "role": "current champion who won the 146th Open with a score of 268"
+  },
+  {
+   "name": "146th Open",
+   "type": "event",
+   "role": "edition of The Open Championship won by Jordan Spieth in 2017"
+  },
+  {
+   "name": "Royal Birkdale",
+   "type": "place",
+   "role": "venue where the 146th Open was held in 2017"
+  }
+ ],
+ "tags": [
+  "golf",
+  "sports tournaments",
+  "the open championship",
+  "jordan spieth"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1026,
+  "output_tokens": 456
+ }
+}

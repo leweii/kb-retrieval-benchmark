@@ -1,0 +1,48 @@
+{
+ "summary": "The note traces early history of the television remote control. Zenith Radio Corporation developed the first remote intended for televisions in 1950, a wired device called \"Lazy Bones\". In 1955 Eugene Polley developed the Flashmatic, the first wireless TV remote, which used a light beam onto a photoelectric cell but had notable limitations.",
+ "one_line": "Early history of television remote controls, from Zenith's wired Lazy Bones (1950) to Eugene Polley's light-based Flashmatic (1955).",
+ "key_facts": [
+  "The first remote intended to control a television was developed by Zenith Radio Corporation in 1950.",
+  "Zenith's 1950 television remote was called \"Lazy Bones\".",
+  "The Lazy Bones remote was connected to the television by a wire.",
+  "A wireless remote control for television, the Flashmatic, was developed in 1955.",
+  "Eugene Polley developed the Flashmatic wireless remote control in 1955.",
+  "The Flashmatic worked by shining a beam of light onto a photoelectric cell.",
+  "The photoelectric cell in the Flashmatic did not distinguish between light from the remote and light from other sources.",
+  "The Flashmatic had to be pointed very precisely at the receiver in order to work."
+ ],
+ "entities": [
+  {
+   "name": "Zenith Radio Corporation",
+   "type": "organization",
+   "role": "developer of the first remote intended to control a television, the Lazy Bones, in 1950"
+  },
+  {
+   "name": "Lazy Bones",
+   "type": "product",
+   "role": "wired television remote control developed by Zenith Radio Corporation in 1950"
+  },
+  {
+   "name": "Flashmatic",
+   "type": "product",
+   "role": "wireless television remote control developed in 1955 that used a beam of light and a photoelectric cell"
+  },
+  {
+   "name": "Eugene Polley",
+   "type": "person",
+   "role": "developer of the Flashmatic wireless remote control in 1955"
+  }
+ ],
+ "tags": [
+  "remote control",
+  "television history",
+  "consumer electronics",
+  "zenith",
+  "flashmatic"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1145,
+  "output_tokens": 655
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "summary": "This note is a clipped Wikipedia article on the function key, a programmable key on computer and terminal keyboards that can trigger operating system or application actions. It covers the history of function keys from early Flexowriter, HP and IBM terminals through IBM PC keyboards, the layouts used on various keyboards and machines, and how macOS and Windows/MS-DOS assign default actions to F-keys. Navigation, language links and maintenance banners were ignored.",
+ "one_line": "Wikipedia article describing function keys: their history, keyboard layouts across machines, and default actions on macOS and Windows.",
+ "key_facts": [
+  "A function key is a key on a computer or terminal keyboard that can be programmed to cause the operating system or an application program to perform certain actions, a form of soft key.",
+  "The Singer/Friden 2201 Flexowriter Programmatic, introduced in 1965, had a cluster of 13 function keys labeled F1 to F13.",
+  "The HP 9830A (1972) had a 5×2 grid of 10 function keys at top left.",
+  "The IBM 3277 (1972) had 12 programmed function (PF) keys in a 3×4 matrix at the right of the keyboard.",
+  "The original IBM PC keyboard (PC/XT, 1981) had 10 function keys (F1–F10) in a 2×5 matrix at the left of the keyboard.",
+  "The Model M keyboard ('Enhanced', 1984) replaced the PC/XT function key layout with 12 keys in 3 blocks of 4 at the top of the keyboard.",
+  "NEC's PC-8001, introduced in 1979, featured five function keys at the top of the keyboard.",
+  "The HP 2640 (1975) used screen-labeled function keys, placing the keys close to the screen where labels could be displayed.",
+  "Under MS-DOS, F3 copied words from the previous command to the current command prompt.",
+  "Under Windows, the F1 key gradually became universally associated with Help in most early Windows programs.",
+  "F5 is commonly used as a reload key in many web browsers, while F11 activates full screen or kiosk mode on most browsers.",
+  "Alt+F4 is commonly used to quit an application, while Ctrl+F4 will often close a portion of the application, such as a document or tab.",
+  "In the classic Mac OS, the function keys could be configured by the user with the Function Keys control panel to start a program or run an AppleScript.",
+  "On Boot Camp, function keys F13 to F15 are mapped to the corresponding IBM PC keys Print Screen, Scroll Lock and Pause.",
+  "As of 2016, Apple has replaced the individual function keys with the touchbar on certain models of MacBook Pro."
+ ],
+ "entities": [
+  {
+   "name": "Flexowriter",
+   "type": "product",
+   "role": "electromechanical typewriter with a cluster of 13 function keys, primarily a stand-alone word processing system"
+  },
+  {
+   "name": "HP 9830A",
+   "type": "product",
+   "role": "early desktop computer (1972) with a 5×2 grid of 10 function keys"
+  },
+  {
+   "name": "IBM 3277",
+   "type": "product",
+   "role": "IBM terminal (1972) with 12 programmed function keys in a 3×4 matrix"
+  },
+  {
+   "name": "IBM PC/XT",
+   "type": "product",
+   "role": "original IBM PC keyboard (1981) with 10 function keys in a 2×5 matrix on the left"
+  },
+  {
+   "name": "Model M keyboard",
+   "type": "product",
+   "role": "Enhanced IBM keyboard (1984) with 12 function keys in 3 blocks of 4"
+  },
+  {
+   "name": "NEC PC-8001",
+   "type": "product",
+   "role": "computer introduced in 1979 with five function keys at the top of the keyboard"
+  },
+  {
+   "name": "HP 2640",
+   "type": "product",
+   "role": "terminal (1975) using screen-labeled function keys"
+  },
+  {
+   "name": "IBM 3270",
+   "type": "product",
+   "role": "mainframe terminal line probably origin of function keys on keyboards, circa 1972"
+  },
+  {
+   "name": "Microsoft Office",
+   "type": "program",
+   "role": "Windows programs that list F1 as the key for Help in the Help menu"
+  },
+  {
+   "name": "Internet Explorer",
+   "type": "program",
+   "role": "browser in Windows that does not list F1 in its help menu but still responds with a help window"
+  },
+  {
+   "name": "Visual Studio",
+   "type": "program",
+   "role": "application that supports Control+F3 for searching the currently highlighted text"
+  },
+  {
+   "name": "Boot Camp",
+   "type": "program",
+   "role": "software on which F13 to F15 are mapped to Print Screen, Scroll Lock and Pause keys"
+  },
+  {
+   "name": "MS-DOS",
+   "type": "program",
+   "role": "operating system where individual programs decided what each function key meant"
+  },
+  {
+   "name": "Classic Mac OS",
+   "type": "program",
+   "role": "operating system whose function keys could be configured with the Function Keys control panel"
+  },
+  {
+   "name": "macOS",
+   "type": "program",
+   "role": "operating system that assigns default functionality to almost all function keys F1 to F12"
+  },
+  {
+   "name": "Macintosh Human Interface Guidelines",
+   "type": "other",
+   "role": "guidelines reserving Mac function keys for customization by the user"
+  },
+  {
+   "name": "IBM Common User Access",
+   "type": "other",
+   "role": "guidelines that led the F1 key to become associated with Help in early Windows programs"
+  },
+  {
+   "name": "Northgate OmniKey/102",
+   "type": "product",
+   "role": "IBM compatible keyboard with function keys on the left"
+  },
+  {
+   "name": "Apple Extended Keyboard",
+   "type": "product",
+   "role": "keyboard introduced with the Macintosh II that featured function keys"
+  }
+ ],
+ "tags": [
+  "computing",
+  "keyboards",
+  "function keys",
+  "user interface",
+  "operating systems",
+  "history of computing"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15560,
+  "output_tokens": 1842
+ }
+}

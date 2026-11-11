@@ -1,0 +1,70 @@
+{
+ "summary": "This note is a clipped Snowflake reference page for the [ NOT ] LIKE string function, which performs case-sensitive matching of a subject string against an SQL wildcard pattern. It covers syntax, arguments (subject, pattern, optional escape), return values with NULL handling, usage notes on wildcards and escape characters, collation support, and several worked examples using a like_ex table. Navigation boilerplate has been ignored.",
+ "one_line": "Snowflake reference for the case-sensitive LIKE and NOT LIKE functions, covering SQL wildcards, ESCAPE clauses, NULL behavior and examples.",
+ "key_facts": [
+  "LIKE performs a case-sensitive comparison to determine whether a string matches a specified pattern.",
+  "For case-insensitive matching, the note says to use ILIKE instead.",
+  "RLIKE uses POSIX ERE (Extended Regular Expression) syntax instead of the SQL pattern syntax used by LIKE and ILIKE.",
+  "Syntax is <subject> [ NOT ] LIKE <pattern> [ ESCAPE <escape> ] or LIKE( <subject> , <pattern> [ , <escape> ] ).",
+  "In a pattern, an underscore (_) matches any single character and a percent sign (%) matches any sequence of zero or more characters.",
+  "LIKE pattern matching covers the entire string; to match a sequence anywhere within a string, the pattern must start and end with %.",
+  "NULL does not match NULL: if the subject and pattern are both NULL, that is not considered a match.",
+  "There is no default escape character.",
+  "Only the upper, lower, and trim collation specifications are supported, along with combinations such as upper-trim and lower-trim, except for locale combinations such as en-upper.",
+  "Using the function with a column that has upper, lower, or trim collation requires enabling the 2024_02 behavior change bundle via SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE('2024_02').",
+  "In an example, WHERE name LIKE '100^%' ESCAPE '^' matches only the literal value '100%'.",
+  "When the backslash is the escape character, it must be escaped in both the ESCAPE clause and the expression, as in LIKE '100\\%' ESCAPE '\\'.",
+  "The NOT LIKE example WHERE name NOT LIKE '' returns all rows except the empty string, excluding NULL.",
+  "The page notes that search optimization service can improve performance of queries that call this function."
+ ],
+ "entities": [
+  {
+   "name": "LIKE",
+   "type": "program",
+   "role": "case-sensitive string pattern matching function described in the note"
+  },
+  {
+   "name": "NOT LIKE",
+   "type": "program",
+   "role": "variant of LIKE that returns TRUE when there is no match"
+  },
+  {
+   "name": "ILIKE",
+   "type": "program",
+   "role": "case-insensitive pattern matching function recommended for case-insensitive matching"
+  },
+  {
+   "name": "RLIKE",
+   "type": "program",
+   "role": "function that uses POSIX ERE regular expression syntax instead of SQL pattern syntax"
+  },
+  {
+   "name": "search optimization service",
+   "type": "program",
+   "role": "service that can improve performance of queries calling this function"
+  },
+  {
+   "name": "SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE",
+   "type": "program",
+   "role": "statement used to enable the 2024_02 behavior change bundle for collation support"
+  },
+  {
+   "name": "like_ex",
+   "type": "other",
+   "role": "example table used to demonstrate LIKE, NOT LIKE and ESCAPE queries"
+  }
+ ],
+ "tags": [
+  "sql",
+  "string-functions",
+  "pattern-matching",
+  "like-operator",
+  "wildcards",
+  "snowflake"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3999,
+  "output_tokens": 1211
+ }
+}

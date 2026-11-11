@@ -1,0 +1,50 @@
+{
+ "summary": "This is a Snowflake SQL command reference page for CREATE CUSTOM_CLASSIFIER, which creates a new custom classification instance or replaces an existing one in the current or specified schema. It covers the fully qualified name SNOWFLAKE.DATA_PRIVACY.CUSTOM_CLASSIFIER, the syntax with OR REPLACE and IF NOT EXISTS options, identifier rules, and the access requirement of the CLASSIFICATION_ADMIN database role. The page notes that Custom Classification requires Enterprise Edition or higher and that the name is defined and maintained by Snowflake; much of the rest of the scraped text is navigation and boilerplate.",
+ "one_line": "Snowflake reference for the CREATE CUSTOM_CLASSIFIER command, which creates or replaces a custom classification instance (Enterprise Edition required).",
+ "key_facts": [
+  "The fully qualified name of the object is SNOWFLAKE.DATA_PRIVACY.CUSTOM_CLASSIFIER.",
+  "Custom Classification requires Enterprise Edition (or higher) of Snowflake.",
+  "The command creates a new custom classification instance or replaces an existing one in the current or specified schema.",
+  "The syntax is CREATE [ OR REPLACE ] SNOWFLAKE.DATA_PRIVACY.CUSTOM_CLASSIFIER [ IF NOT EXISTS ] <custom_classifier_name>().",
+  "The custom_classifier_name must be unique for the schema in which the object is created.",
+  "The parentheses at the end of the identifier are required when creating the object.",
+  "The identifier must start with an alphabetic character and cannot contain spaces or special characters unless enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "The command takes no arguments; the page lists Arguments as 'None.'",
+  "The account role that creates the object must be granted the CLASSIFICATION_ADMIN database role.",
+  "The CLASSIFICATION_ADMIN database role exists in the shared SNOWFLAKE database.",
+  "Operating on any object in a schema also requires the USAGE privilege on the parent database and schema.",
+  "SNOWFLAKE.DATA_PRIVACY.CUSTOM_CLASSIFIER is a name that Snowflake defines and maintains, so this object name must be used each time an instance is created.",
+  "The page's Examples section refers to a representative custom classification example, but no example code is included in the note."
+ ],
+ "entities": [
+  {
+   "name": "SNOWFLAKE.DATA_PRIVACY.CUSTOM_CLASSIFIER",
+   "type": "program",
+   "role": "Snowflake-defined and maintained name of the custom classifier class used to create classification instances"
+  },
+  {
+   "name": "CLASSIFICATION_ADMIN",
+   "type": "program",
+   "role": "database role required by the account role that creates the custom classifier object, existing in the shared SNOWFLAKE database"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "company whose SQL command reference documents CREATE CUSTOM_CLASSIFIER and whose Enterprise Edition is required for custom classification"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "data-privacy",
+  "classification",
+  "access-control",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2083,
+  "output_tokens": 1090
+ }
+}

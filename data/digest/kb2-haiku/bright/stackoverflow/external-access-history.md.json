@@ -1,0 +1,45 @@
+{
+ "summary": "This note documents the EXTERNAL_ACCESS_HISTORY Account Usage view, which records external access performed by procedure or UDF handler code over the last 365 days. It is not supported in the Gov region. The note lists the view's columns (query ID, hostnames, status, IP, source and target cloud and region, and sent and received bytes) and usage notes about rows per IP address and view latency.",
+ "one_line": "Schema reference for the EXTERNAL_ACCESS_HISTORY Account Usage view, which logs procedure and UDF external network access over the past year.",
+ "key_facts": [
+  "The EXTERNAL_ACCESS_HISTORY view is not supported in the Gov region.",
+  "The view can be used to query the history of external access performed by procedure or UDF handler code within the last 365 days (1 year).",
+  "QUERY_ID is the ID of the query or job that called the UDF or procedure performing external access.",
+  "HOSTNAMES is the name of the hosts accessed.",
+  "STATUS is 'Success' if the connection was successful and 'Deny' if the connection was denied.",
+  "IP is the IP address for the external network location and has data type VARCHAR.",
+  "SOURCE_CLOUD is the name of the cloud provider where the data transfer originated, one of 'aws', 'gcp', or 'azure'.",
+  "TARGET_CLOUD is the name of the cloud provider to which data was sent, one of 'aws', 'gcp', 'azure', or 'internet' (for regions not on a cloud provider).",
+  "TARGET_REGION is the region to which data was sent, and is 'internet' for regions not on a cloud provider.",
+  "SENT_BYTES is the number of bytes sent to the external endpoint and has data type VARIANT.",
+  "RECEIVED_BYTES is the number of bytes received from the external endpoint and has data type VARIANT.",
+  "Each row in the view represents a single IP address that the procedure or UDF accesses, so multiple rows can share the same query ID.",
+  "Multiple hostnames can map to the same IP address in the view.",
+  "Latency for the view might be up to 180 minutes (3 hours)."
+ ],
+ "entities": [
+  {
+   "name": "EXTERNAL_ACCESS_HISTORY",
+   "type": "product",
+   "role": "Account Usage view that records the history of external access performed by procedure or UDF handler code"
+  },
+  {
+   "name": "Gov region",
+   "type": "place",
+   "role": "region in which external access is not supported"
+  }
+ ],
+ "tags": [
+  "account usage",
+  "external access",
+  "udf",
+  "stored procedures",
+  "schema reference",
+  "data transfer"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1796,
+  "output_tokens": 830
+ }
+}

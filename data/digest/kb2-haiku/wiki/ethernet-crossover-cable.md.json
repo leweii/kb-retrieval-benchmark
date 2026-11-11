@@ -1,0 +1,46 @@
+{
+ "summary": "The note defines the Ethernet crossover cable, a cable used to connect computing devices directly to each other. It is most often used to join two devices of the same type, such as two computers via their network interface controllers or two switches. The note contrasts it with patch or straight-through cables, which connect devices of different types, such as a computer to a network switch or Ethernet hub.",
+ "one_line": "Defines the Ethernet crossover cable, used to directly connect two devices of the same type, unlike straight-through patch cables.",
+ "key_facts": [
+  "An Ethernet crossover cable is a crossover cable for Ethernet used to connect computing devices together directly.",
+  "Ethernet crossover cables are most often used to connect two devices of the same type.",
+  "Two computers can be connected via their network interface controllers using an Ethernet crossover cable.",
+  "Two switches can be connected to each other using an Ethernet crossover cable.",
+  "Patch cables or straight through cables are used to connect devices of different types.",
+  "A computer is connected to a network switch with a patch cable or straight through cable rather than a crossover cable.",
+  "A computer is connected to an Ethernet hub with a patch cable or straight through cable rather than a crossover cable."
+ ],
+ "entities": [
+  {
+   "name": "Ethernet crossover cable",
+   "type": "product",
+   "role": "crossover cable for Ethernet used to connect computing devices together directly"
+  },
+  {
+   "name": "network interface controllers",
+   "type": "product",
+   "role": "hardware through which two computers can be connected by a crossover cable"
+  },
+  {
+   "name": "network switch",
+   "type": "product",
+   "role": "device of a different type than a computer, connected to it with a patch or straight through cable"
+  },
+  {
+   "name": "Ethernet hub",
+   "type": "product",
+   "role": "device of a different type than a computer, connected to it with a patch or straight through cable"
+  }
+ ],
+ "tags": [
+  "ethernet",
+  "networking",
+  "cabling",
+  "network hardware"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1113,
+  "output_tokens": 605
+ }
+}

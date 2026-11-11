@@ -1,0 +1,50 @@
+{
+ "summary": "This clipped documentation page describes the H3_COVERAGE geospatial function, which returns an ARRAY of INTEGER H3 cell IDs forming the minimal set of cells that completely cover a GEOGRAPHY input shape. It covers the syntax, the arguments (a GEOGRAPHY expression and a target resolution from 0 to 15), the return value, a usage note that cells are included when their boundary intersects the shape, and one example that covers a polygon at resolution 8. Navigation and boilerplate on the page were ignored.",
+ "one_line": "Reference for the H3_COVERAGE function, which returns the minimal set of H3 cell IDs covering a geography shape at a given resolution.",
+ "key_facts": [
+  "H3_COVERAGE returns an ARRAY of INTEGER values identifying the minimal set of H3 cells that completely cover a specified GEOGRAPHY object.",
+  "The syntax is H3_COVERAGE( <geography_expression> , <target_resolution> ).",
+  "The geography_expression argument must be a GEOGRAPHY object.",
+  "The target_resolution argument must be an INTEGER between 0 and 15 (inclusive), specifying the H3 resolution of the returned cells.",
+  "Specifying any INTEGER value outside the 0 to 15 range results in an error.",
+  "A cell is included in the result set if its boundary intersects the input shape.",
+  "The example passes a Polygon with corners at (-122.481889 37.826683), (-122.479487 37.808548), (-122.474150 37.808904) and (-122.476510 37.826935) to H3_COVERAGE at resolution 8.",
+  "The example polygon's H3_COVERAGE result at resolution 8 contains six cell IDs, starting with 613196571542028287.",
+  "The example query aliases the result column as set_of_h3_cells_covering_polygon.",
+  "The page is categorized under the Geospatial functions group, with related sections on Conversion, Constructor, Accessor, Relationship and Measurement, Transformation, Utility and H3."
+ ],
+ "entities": [
+  {
+   "name": "H3_COVERAGE",
+   "type": "program",
+   "role": "geospatial function that returns the minimal set of H3 cell IDs covering an input shape"
+  },
+  {
+   "name": "GEOGRAPHY",
+   "type": "product",
+   "role": "data type of the geography_expression argument"
+  },
+  {
+   "name": "TO_GEOGRAPHY",
+   "type": "program",
+   "role": "function used in the example to convert a WKT string into a GEOGRAPHY Polygon"
+  },
+  {
+   "name": "H3",
+   "type": "program",
+   "role": "hierarchical hexagonal geospatial indexing system whose cells are returned by the function"
+  }
+ ],
+ "tags": [
+  "geospatial",
+  "h3",
+  "sql functions",
+  "reference documentation",
+  "polygon coverage"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1838,
+  "output_tokens": 909
+ }
+}

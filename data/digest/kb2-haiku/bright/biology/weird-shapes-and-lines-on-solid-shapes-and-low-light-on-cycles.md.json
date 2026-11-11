@@ -1,0 +1,89 @@
+{
+ "summary": "A Blender Stack Exchange question asked by a new user (Maxspeed7) about two render problems in Cycles: weird low lighting in renders, and solid objects showing glitchy random lines and shapes, which the user believed came from unconnected vertices but could not fix by remaking the object. Commenters asked for clarification and advised keeping one question per post. Two answers were given: one identifies the glitch as Z-fighting caused by overlapping geometry and suggests moving the object or using Remove Doubles, while the other suggests adjusting scene clipping values and world settings, a suggestion another commenter called questionable.",
+ "one_line": "A new Blender Cycles user asks about low render lighting and Z-fighting-like glitches on solid objects, with answers on Remove Doubles and clipping.",
+ "key_facts": [
+  "The question was asked on Blender Stack Exchange and was tagged cycles-render-engine.",
+  "The question was asked on August 8, 2017 and had been viewed 532 times at the time of capture.",
+  "The original poster, Maxspeed7, described being new to Blender and using Blender Cycles.",
+  "The poster reported that lighting in the render was weird and low.",
+  "The poster reported that solid shapes showed random lines and shapes, and believed the cause was not connecting all vertices.",
+  "The poster said remaking the object did not solve the glitching.",
+  "A commenter, Duarte Farrajota Ramos, asked the poster to keep only one question per post.",
+  "The first answer, by SilverWolf, said the glitching looked like Z-fighting, which occurs when two objects or faces occupy the same space.",
+  "The first answer recommended selecting all vertices in Edit mode and pressing W > Remove Doubles to fix duplicate vertices.",
+  "The first answer noted that canceling a Shift+D can create duplicate vertices in the same spot.",
+  "The second answer, by j.akshat, suggested the lines might come from the scene clipping value and suggested clipping values of 10 cm and 100 km.",
+  "A commenter, Mr Zak, said 10 cm and 100 km were unusual clipping values for almost any scene.",
+  "A commenter, user1853, said clipping range should fit the scene, since an extremely large range reduces precision and can cause Z-fighting."
+ ],
+ "entities": [
+  {
+   "name": "Blender",
+   "type": "product",
+   "role": "3D software community whose Stack Exchange site hosts the question"
+  },
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "Q&A site whose network hosts the Blender community, described as the largest online community for developers"
+  },
+  {
+   "name": "Maxspeed7",
+   "type": "person",
+   "role": "original poster who asked the question, new to Blender"
+  },
+  {
+   "name": "SilverWolf",
+   "type": "person",
+   "role": "answerer who identified the glitch as Z-fighting and suggested Remove Doubles"
+  },
+  {
+   "name": "j.akshat",
+   "type": "person",
+   "role": "answerer who suggested adjusting scene clipping values and world settings"
+  },
+  {
+   "name": "Duarte Farrajota Ramos",
+   "type": "person",
+   "role": "commenter who asked the poster to clarify the issue and keep one question per post"
+  },
+  {
+   "name": "Mr Zak",
+   "type": "person",
+   "role": "commenter who said 10 cm and 100 km clipping values are unusual"
+  },
+  {
+   "name": "user1853",
+   "type": "person",
+   "role": "commenter who said clipping range should fit the scene to avoid Z-fighting"
+  },
+  {
+   "name": "Cycles",
+   "type": "program",
+   "role": "render engine used by the poster, tagged cycles-render-engine"
+  },
+  {
+   "name": "Z-fighting",
+   "type": "event",
+   "role": "rendering artifact described as the likely cause of the glitching shapes"
+  },
+  {
+   "name": "Remove Doubles",
+   "type": "program",
+   "role": "Blender Edit mode operation suggested to remove duplicate vertices"
+  }
+ ],
+ "tags": [
+  "blender",
+  "cycles",
+  "rendering",
+  "z-fighting",
+  "lighting",
+  "stack-exchange"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4057,
+  "output_tokens": 1271
+ }
+}

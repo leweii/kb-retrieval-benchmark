@@ -1,0 +1,80 @@
+{
+ "summary": "This is the MathWorks Navigation Toolbox documentation page for the controllerTEB step function, which computes linear and angular velocity commands and an optimized path for a robot's current pose and velocity using the Timed Elastic Band (TEB) algorithm. It documents the syntax, input and output arguments (including the extraInfo fields and ExitFlag codes 0 to 5), and version history (introduced in R2023a, ExitFlag added in R2023b). The page includes an example that plans a route with RRT* in a parking lot occupancy map and then tracks it with controllerTEB in a simulation loop. Website navigation and boilerplate are ignored.",
+ "one_line": "MATLAB Navigation Toolbox documentation for the controllerTEB step function, which computes velocity commands and optimal trajectories using the Timed Elastic Band algorithm.",
+ "key_facts": [
+  "The controllerTEB step function computes linear and angular velocity commands, timestamps, and an optimized path for the specified current pose and velocity of a robot.",
+  "The step function syntax is [velcmds,timestamps,optPath] = step(controller,curState,curVel), with an optional extraInfo output.",
+  "The step function was introduced in R2023a.",
+  "In R2023b, the extraInfo output argument was updated to return an additional field, ExitFlag, that specifies more information about the velocity commands, timestamps, and path.",
+  "The curState input is a three-element vector of the form [x y theta], with position in meters and orientation in radians.",
+  "The curVel input is a two-element vector of the form [v w], with linear velocity in meters per second and angular velocity in radians per second.",
+  "The velcmds output is an N-by-2 matrix whose first column is linear velocity in meters per second and second column is angular velocity in radians per second.",
+  "ExitFlag value 0 indicates that the step function returned feasible velocity commands and trajectory.",
+  "ExitFlag value 5 indicates that the robot will not reach the reference path within a specified look-ahead time even if it travels at a maximum linear velocity from its current position.",
+  "The example sets the occupancyMap resolution to 3 cells per meter for a parking lot map.",
+  "The example's RRT* planner uses MaxConnectionDistance of 0.2, with start state [2 9 0] and goal state [27 18 -pi/2].",
+  "In the example, the controllerTEB LookAheadTime is set to 10 seconds and ObstacleSafetyMargin to 0.4 meters.",
+  "In the example, the CostWeights.Time property is set to 100 to generate time-optimal trajectories.",
+  "The example's simulation loop runs while the goal is not reached and simtime is below 200 seconds, with a timestep of 0.1 seconds."
+ ],
+ "entities": [
+  {
+   "name": "controllerTEB",
+   "type": "product",
+   "role": "TEB controller object passed as the controller input to the step function, with properties such as LookAheadTime, ObstacleSafetyMargin, ReferenceDeltaTime and CostWeights"
+  },
+  {
+   "name": "step",
+   "type": "product",
+   "role": "function that computes velocity commands and optimal trajectory for subsequent time steps"
+  },
+  {
+   "name": "Timed Elastic Band algorithm",
+   "type": "program",
+   "role": "algorithm used by controllerTEB to compute velocity commands and optimized trajectory"
+  },
+  {
+   "name": "occupancyMap",
+   "type": "product",
+   "role": "object created from the parking lot map to represent the environment at a 3 cells per meter resolution"
+  },
+  {
+   "name": "validatorOccupancyMap",
+   "type": "product",
+   "role": "state validator using the stateSpaceSE2 definition and the map, with a validation distance of 0.1"
+  },
+  {
+   "name": "plannerRRTStar",
+   "type": "product",
+   "role": "RRT* path planner used to plan the global route with MaxConnectionDistance set to 0.2"
+  },
+  {
+   "name": "stateSpaceSE2",
+   "type": "product",
+   "role": "state space definition used by the validator in the example"
+  },
+  {
+   "name": "MathWorks",
+   "type": "organization",
+   "role": "publisher of the MATLAB documentation page"
+  },
+  {
+   "name": "Navigation Toolbox",
+   "type": "product",
+   "role": "MathWorks toolbox under which the step function documentation appears"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "motion planning",
+  "trajectory optimization",
+  "timed elastic band",
+  "matlab",
+  "navigation toolbox"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10091,
+  "output_tokens": 1412
+ }
+}

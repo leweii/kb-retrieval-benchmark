@@ -1,0 +1,54 @@
+{
+ "summary": "The note is not an article but a blocked-access page from PubMed Central (PMC) for article PMC2606692. PMC blocked the request because it was made by an automated process using the user agent python-requests/2.31.0, in violation of the PMC Copyright Notice. The page gives the blocked URL, a message ID and a timestamp, and asks that users email PMC to request unblocking. No scientific content from the article itself is present.",
+ "one_line": "A PubMed Central access-block page for article PMC2606692, triggered by automated python-requests retrieval.",
+ "key_facts": [
+  "PubMed Central blocked access to article PMC2606692 because the request used an automated process to retrieve content.",
+  "The blocking reason given was automated retrieval by user agent \"python-requests/2.31.0\".",
+  "The blocked URL was https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2606692/.",
+  "The block message ID was 2017817534.",
+  "The block was logged at 2024/03/16 00:31:33.",
+  "PMC states that use of its content is free but must comply with the terms of its Copyright Notice.",
+  "To request unblocking, the note says the user must email pubmedcentral@nih.gov and include all information in the block message box.",
+  "The page is served by the National Library of Medicine at 8600 Rockville Pike, Bethesda, MD 20894.",
+  "The page contains no article text, abstract or scientific findings from PMC2606692."
+ ],
+ "entities": [
+  {
+   "name": "PubMed Central (PMC)",
+   "type": "program",
+   "role": "NCBI full-text archive that blocked automated access to article PMC2606692"
+  },
+  {
+   "name": "PMC2606692",
+   "type": "other",
+   "role": "article identifier whose page was blocked"
+  },
+  {
+   "name": "National Library of Medicine",
+   "type": "organization",
+   "role": "institution that operates PMC and whose address appears on the page"
+  },
+  {
+   "name": "NCBI",
+   "type": "organization",
+   "role": "National Center for Biotechnology Information, which hosts the blocked page"
+  },
+  {
+   "name": "python-requests/2.31.0",
+   "type": "product",
+   "role": "user agent string that triggered the automated-retrieval block"
+  }
+ ],
+ "tags": [
+  "pubmed central",
+  "web access",
+  "copyright notice",
+  "automated retrieval",
+  "ncbi"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2965,
+  "output_tokens": 730
+ }
+}

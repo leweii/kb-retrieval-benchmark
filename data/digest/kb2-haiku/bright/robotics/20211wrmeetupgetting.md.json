@@ -1,0 +1,112 @@
+{
+ "summary": "A slide deck from the WR Meetup #13 (7 Oct 2021) by Bence Magyar and Denis Štogl introducing ros2_control, a robot-agnostic control framework for ROS2. It covers why a control framework is needed, the history from pr2_controller_manager through ros_control to ros2_control, the shortcomings of ros(1)_control, the ros2_control architecture (\"everything is an interface\"), the URDF <ros2_control> tag, lifecycle, real-world use cases, and code examples for a system hardware interface and forwarding controllers using the RRBot example.",
+ "one_line": "Slide deck introducing ros2_control, a robot-agnostic ROS2 control framework, comparing it with ros_control and showing URDF tags and code examples.",
+ "key_facts": [
+  "The talk is WR Meetup #13 held on 7 Oct. 2021 and is titled \"ros2_control - a robot-agnostic control framework for ROS2\".",
+  "Bence Magyar is a PhD in Robotics, Lead Software Engineer at FiveAI, and a ros_control and ros2_control maintainer.",
+  "Denis Štogl is a Control Engineer and Roboticist, Robotics Consultant at Stogl Robotics Consulting, and a ros2_control maintainer.",
+  "The history timeline lists pr2_controller_manager (pr2_mechanism) in 2009, ros_control in 2012/2013, and ros2_control in 2017/2021.",
+  "In ros(1)_control, joint interfaces were limited to \"position\", \"velocity\", and \"effort\".",
+  "In ros2_control, interface types are strings, making them fully flexible, and the framework distinguishes Actuator, Sensor, and System hardware types.",
+  "ros2_control provides a default \"ros2_control_node\", removing the need to implement a control node for each hardware.",
+  "Hardware interfaces in ros2_control are always plugins with a lifecycle, so a robot cell can be created via plug-and-play.",
+  "Standard interface names in ros2_control are \"position\", \"velocity\", \"acceleration\", and \"effort\".",
+  "In the URDF <ros2_control> tag, <hardware> defines the plugin and its parameters, <joint> describes 1 DoF, <sensor> covers sensing not related to a joint, and <gpio> covers everything else.",
+  "The slides state that all interfaces internally have type double.",
+  "To use ros2_control, one writes the <ros2_control> tag (tip: as a xacro macro), implements a hardware interface (Actuator for 1 DoF motors, Sensor for sensors, System for multi-DoF robots), and configures controllers and the controller manager.",
+  "The UR driver is described as the first open-source driver with ros2_control integration.",
+  "The Dynamixel use case (youtalk/dynamixel_control) uses multiple servos and is a reference implementation for ROBOTIS OpenManipulator-X.",
+  "The RRBot example's test command publishes to /rrbot_controller/commands with joint displacements of 0.5 and 0.5 for two joints.",
+  "The references include the ros_control paper in the Journal of Open Source Software and the site https://control.ros.org."
+ ],
+ "entities": [
+  {
+   "name": "ros2_control",
+   "type": "program",
+   "role": "robot-agnostic control framework for ROS2 presented in the talk"
+  },
+  {
+   "name": "ros_control",
+   "type": "program",
+   "role": "predecessor control framework for ROS(1), released around 2012/2013"
+  },
+  {
+   "name": "pr2_controller_manager",
+   "type": "program",
+   "role": "earliest predecessor (pr2_mechanism) dated 2009 in the history timeline"
+  },
+  {
+   "name": "WR Meetup #13",
+   "type": "event",
+   "role": "meetup on 7 Oct. 2021 where the talk was given"
+  },
+  {
+   "name": "Bence Magyar",
+   "type": "person",
+   "role": "presenter; PhD in Robotics, Lead Software Engineer at FiveAI, ros_control and ros2_control maintainer"
+  },
+  {
+   "name": "Denis Štogl",
+   "type": "person",
+   "role": "presenter; Control Engineer and Roboticist, Robotics Consultant at Stogl Robotics Consulting, ros2_control maintainer"
+  },
+  {
+   "name": "FiveAI",
+   "type": "organization",
+   "role": "employer of Bence Magyar as Lead Software Engineer"
+  },
+  {
+   "name": "Stogl Robotics Consulting",
+   "type": "organization",
+   "role": "employer of Denis Štogl as Robotics Consultant"
+  },
+  {
+   "name": "MoveIt",
+   "type": "program",
+   "role": "example high-level task control node that uses standardized ros2_control interfaces"
+  },
+  {
+   "name": "UR driver",
+   "type": "program",
+   "role": "Universal Robots ROS2 driver, the first open-source driver with ros2_control integration"
+  },
+  {
+   "name": "Dynamixel",
+   "type": "product",
+   "role": "multi-servo use case (youtalk/dynamixel_control) and reference implementation for ROBOTIS OpenManipulator-X"
+  },
+  {
+   "name": "ROBOTIS OpenManipulator-X",
+   "type": "product",
+   "role": "robot for which the Dynamixel control package is a reference implementation"
+  },
+  {
+   "name": "ros2_control_demos",
+   "type": "program",
+   "role": "repository of demo examples including tool changing and RRBot with FTS sensor"
+  },
+  {
+   "name": "RRBot",
+   "type": "product",
+   "role": "example robot used for the hardware interface and forwarding controller code examples"
+  },
+  {
+   "name": "ros2_control_node",
+   "type": "program",
+   "role": "default control node in ros2_control, removing the need for per-hardware boilerplate"
+  }
+ ],
+ "tags": [
+  "ros2_control",
+  "ros2",
+  "robot control",
+  "hardware abstraction",
+  "urdf",
+  "robotics frameworks"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6804,
+  "output_tokens": 1865
+ }
+}

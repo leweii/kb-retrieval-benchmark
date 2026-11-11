@@ -1,0 +1,44 @@
+{
+ "summary": "The note describes the Lorain City School District, a public school district serving the city of Lorain, Ohio, located 25 miles west of Cleveland. It states that the district is the tenth largest urban school district in Ohio. The note is very brief and gives no further details.",
+ "one_line": "Overview of the Lorain City School District, the public school district serving Lorain, Ohio.",
+ "key_facts": [
+  "The Lorain City School District is a public school district.",
+  "The Lorain City School District serves the city of Lorain, Ohio.",
+  "Lorain, Ohio is located 25 miles west of Cleveland.",
+  "The Lorain City School District is the tenth largest urban school district in the State of Ohio."
+ ],
+ "entities": [
+  {
+   "name": "Lorain City School District",
+   "type": "organization",
+   "role": "public school district serving the city of Lorain, Ohio"
+  },
+  {
+   "name": "Lorain, Ohio",
+   "type": "place",
+   "role": "city served by the Lorain City School District, located 25 miles west of Cleveland"
+  },
+  {
+   "name": "Cleveland",
+   "type": "place",
+   "role": "city used as a reference point for the location of Lorain, Ohio"
+  },
+  {
+   "name": "State of Ohio",
+   "type": "place",
+   "role": "state in which the Lorain City School District ranks as the tenth largest urban school district"
+  }
+ ],
+ "tags": [
+  "education",
+  "school district",
+  "ohio",
+  "lorain",
+  "public schools"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1051,
+  "output_tokens": 439
+ }
+}

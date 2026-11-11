@@ -1,0 +1,75 @@
+{
+ "summary": "This is a GitHub pull request page (ros-controls/ros2_control PR #1240) titled '[HW Interface] Change creation, exportation and storing of Command-/StateInterface + Support for variant'. The PR, opened by mamueluth, moves creation of Command/StateInterfaces from hardware components to the framework via on_export_state_interface() and on_export_command_interface(), stores values directly in handles using std::variant, and adds set_state/get_state and set_command/get_command functions. Reviews from destogl and saikishor request changes around deprecation handling, testing of custom-exported interfaces, and naming, and the author responds with updates.",
+ "one_line": "GitHub pull request #1240 in ros2_control moving Command/StateInterface creation to the framework and adding std::variant handle support.",
+ "key_facts": [
+  "GitHub pull request #1240 in the ros-controls/ros2_control repository is titled '[HW Interface] Change creation, exportation and storing of Command-/StateInterface + Support for variant'.",
+  "The pull request was opened by mamueluth and proposes merging 22 commits from the StoglRobotics-forks:change_interface_export_variant branch into ros-controls:master.",
+  "The pull request shows +2,735 and -216 changes across 25 files, with 127 conversation items and 11 checks.",
+  "mamueluth's December 20, 2023 comment states the concept is fully backward compatible, has been tested, and that the example_1 in the ros2_control_demos repository (PR 396) was adapted to showcase the changes.",
+  "The creation of Command-/StateInterface is no longer handled by the hardware component (user) but by the Framework, which creates them from interface definitions parsed from the URDF.",
+  "An InterfaceDescription encapsulates interface information parsed from the URDF, including data_type, default_values, min and max.",
+  "The Command-/StateInterface now store the value directly in the handle, and the value is of type std::variant so handles can support datatypes other than double.",
+  "The export_command/state_interfaces_2() function is planned to be renamed to export_command/state_interfaces() once the deprecated version is removed.",
+  "Codecov reported patch coverage of 55.21472% with 146 lines missing coverage, and project coverage changed from 75.51% on master to 48.20% at the PR head.",
+  "On January 22, 2024, destogl requested changes, suggesting the deprecated approach be abstracted at the component level rather than in the ResourceManager, so that on_export_* methods are not needed inside components.",
+  "destogl also noted that a test with a custom component exporting a manually defined interface not defined in the URDF is missing, and that this functionality should be kept and tested.",
+  "mamueluth explained that the added URDF test assets mimic the hardware in test_component_interfaces.cpp so the same test can cover both the old and new export versions without regression.",
+  "On January 23, 2024, saikishor suggested changes including a shorter return type for on_export_state_interfaces using a StateInterfaceSharedPtr alias.",
+  "mamueluth responded on January 23, 2024 that on_export_function is now virtual and the states and commands are protected instead of private to allow overriding and adding custom interfaces."
+ ],
+ "entities": [
+  {
+   "name": "ros2_control",
+   "type": "program",
+   "role": "repository (ros-controls/ros2_control) where pull request #1240 was opened"
+  },
+  {
+   "name": "mamueluth",
+   "type": "person",
+   "role": "author of pull request #1240 and contributor who made the changes"
+  },
+  {
+   "name": "destogl",
+   "type": "person",
+   "role": "reviewer (Member) who requested changes on January 22, 2024"
+  },
+  {
+   "name": "saikishor",
+   "type": "person",
+   "role": "reviewer (Member) who suggested changes on January 23, 2024"
+  },
+  {
+   "name": "codecov",
+   "type": "organization",
+   "role": "bot that posted the coverage report on the pull request"
+  },
+  {
+   "name": "ros2_control_demos",
+   "type": "program",
+   "role": "demos repository where example_1 was adapted in PR 396 to showcase the changes"
+  },
+  {
+   "name": "StoglRobotics-forks",
+   "type": "organization",
+   "role": "fork owning the change_interface_export_variant source branch"
+  },
+  {
+   "name": "github-actions",
+   "type": "other",
+   "role": "bot that requested reviews from several maintainers"
+  }
+ ],
+ "tags": [
+  "ros2_control",
+  "hardware interface",
+  "robotics",
+  "pull request",
+  "code review",
+  "std::variant"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15842,
+  "output_tokens": 1424
+ }
+}

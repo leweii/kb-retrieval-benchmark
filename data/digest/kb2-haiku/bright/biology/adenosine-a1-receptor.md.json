@@ -1,0 +1,130 @@
+{
+ "summary": "The note describes the adenosine A1 receptor (A1AR), a G protein-coupled receptor activated by adenosine, covering its biochemistry, signaling pathways, inhibitory effects, and known pharmacological ligands. It explains the receptor's role in sleep promotion and vascular smooth muscle, and its effects in the heart, including slowing heart rate, which makes adenosine useful for tachyarrhythmias but potentially harmful in hypoperfusion. It also covers metabolic effects and changes in receptor expression in cardiac hypertrophy and heart failure.",
+ "one_line": "Overview of the adenosine A1 receptor, a G protein-coupled receptor covering its signaling, pharmacological ligands, and cardiac and metabolic roles.",
+ "key_facts": [
+  "The adenosine A1 receptor (A1AR) is one member of the adenosine receptor group of G protein-coupled receptors with adenosine as endogenous ligand.",
+  "A1 receptors are implicated in sleep promotion by inhibiting wake-promoting cholinergic neurons in the basal forebrain.",
+  "Activation of the adenosine A1 receptor by an agonist causes binding of Gi1/2/3 or Go protein.",
+  "Binding of Gi1/2/3 causes an inhibition of adenylate cyclase and, therefore, a decrease in the cAMP concentration.",
+  "Several types of potassium channels are activated, while N-, P-, and Q-type calcium channels are inhibited by A1 receptor signaling.",
+  "Caffeine, as well as theophylline, has been found to antagonize both A1 and A2A receptors in the brain.",
+  "Benzyloxy-cyclopentyladenosine (BnOCPA) is an A1R selective agonist.",
+  "Capadenoson is listed as an A1 receptor agonist with the code BAY68-4986.",
+  "In the heart, adenosine binding to A1 receptors inhibits impulses generated in supraventricular tissue (SA node, AV node) and the Bundle of His/Purkinje system, leading to negative chronotropy.",
+  "A1 receptor activation inhibits release of norepinephrine from cardiac nerves.",
+  "This cardiac effect makes adenosine a useful medication for treating and diagnosing tachyarrhythmias, or excessively fast heart rates.",
+  "A brief moment of cardiac standstill occurs when adenosine is administered as a rapid IV push during cardiac resuscitation, due to a momentary myocardial stunning effect.",
+  "In altered cardiac function such as hypoperfusion caused by hypotension, adenosine can prevent compensatory increases in heart rate and blood pressure that maintain cerebral perfusion.",
+  "A1AR activation partially inhibits glycolysis, slowing its rate to align with oxidative metabolism, which limits post-ischemic damage through reduced H generation.",
+  "Excess A1AR expression can induce cardiomyopathy, cardiac dilatation, and cardiac hypertrophy."
+ ],
+ "entities": [
+  {
+   "name": "Adenosine A1 receptor (A1AR)",
+   "type": "product",
+   "role": "G protein-coupled receptor, one member of the adenosine receptor group, with adenosine as endogenous ligand; subject of the note"
+  },
+  {
+   "name": "Gi1/2/3",
+   "type": "other",
+   "role": "G proteins that bind the A1 receptor after agonist activation, inhibiting adenylate cyclase"
+  },
+  {
+   "name": "Go protein",
+   "type": "other",
+   "role": "G protein that binds the A1 receptor after agonist activation"
+  },
+  {
+   "name": "Basal forebrain",
+   "type": "place",
+   "role": "brain region where A1 receptors inhibit wake-promoting cholinergic neurons to promote sleep"
+  },
+  {
+   "name": "Caffeine",
+   "type": "product",
+   "role": "non-selective antagonist of A1 and A2A receptors in the brain"
+  },
+  {
+   "name": "Theophylline",
+   "type": "product",
+   "role": "non-selective antagonist of A1 and A2A receptors in the brain"
+  },
+  {
+   "name": "2-Chloro-N(6)-cyclopentyladenosine (CCPA)",
+   "type": "product",
+   "role": "A1 receptor agonist"
+  },
+  {
+   "name": "Tecadenoson",
+   "type": "product",
+   "role": "A1 receptor agonist"
+  },
+  {
+   "name": "Selodenoson",
+   "type": "product",
+   "role": "A1 receptor agonist"
+  },
+  {
+   "name": "Capadenoson (BAY68-4986)",
+   "type": "product",
+   "role": "A1 receptor agonist"
+  },
+  {
+   "name": "Benzyloxy-cyclopentyladenosine (BnOCPA)",
+   "type": "product",
+   "role": "A1R selective agonist"
+  },
+  {
+   "name": "CGS-15943",
+   "type": "product",
+   "role": "non-selective antagonist"
+  },
+  {
+   "name": "8-Cyclopentyl-1,3-dimethylxanthine (CPX / 8-cyclopentyltheophylline)",
+   "type": "product",
+   "role": "selective A1 receptor antagonist"
+  },
+  {
+   "name": "8-Cyclopentyl-1,3-dipropylxanthine (DPCPX)",
+   "type": "product",
+   "role": "selective A1 receptor antagonist"
+  },
+  {
+   "name": "Rolofylline (KW-3902)",
+   "type": "product",
+   "role": "selective A1 receptor antagonist"
+  },
+  {
+   "name": "SA node",
+   "type": "other",
+   "role": "supraventricular cardiac tissue whose impulses are inhibited by A1 receptor activation"
+  },
+  {
+   "name": "AV node",
+   "type": "other",
+   "role": "supraventricular cardiac tissue whose impulses are inhibited by A1 receptor activation"
+  },
+  {
+   "name": "Bundle of His/Purkinje system",
+   "type": "other",
+   "role": "cardiac conduction tissue whose impulses are inhibited by A1 receptor activation"
+  },
+  {
+   "name": "Atrial natriuretic peptide",
+   "type": "product",
+   "role": "hormone whose secretion from atrial myocytes is increased by A1AR activation, compensating for heart failure"
+  }
+ ],
+ "tags": [
+  "adenosine",
+  "gpcr",
+  "pharmacology",
+  "cardiology",
+  "neuroscience"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 3137,
+  "output_tokens": 1988
+ }
+}

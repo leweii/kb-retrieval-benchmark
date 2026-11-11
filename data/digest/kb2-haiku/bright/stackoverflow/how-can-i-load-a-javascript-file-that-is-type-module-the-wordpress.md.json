@@ -1,0 +1,93 @@
+{
+ "summary": "A WordPress Stack Overflow question asking how to load a JavaScript file with type=\"module\" (needed to import axios) while still registering scripts in functions.php. The asker first tried a script_loader_tag filter that produced two type attributes, which the accepted-style answer identified as the cause; the asker then posted a working filter that sets type=\"module\" and a later answer notes that WordPress 6.5 added native script module support via wp_register_script_module and wp_enqueue_script_module.",
+ "one_line": "Stack Overflow question on loading an ES module JavaScript file with type=\"module\" in WordPress via functions.php instead of page template tags.",
+ "key_facts": [
+  "The asker was trying to import axios in a theme JavaScript file and got the error \"Uncaught SyntaxError: Cannot use import statement outside a module\".",
+  "The asker's first filter added type=\"text/javascript\" and type=\"module\" to the same script tag, and a commenter noted a script tag can only have one type attribute.",
+  "The asker's workaround was adding script tags with type=\"module\" in page.php just above get_footer(), which they disliked because they wanted to register scripts in functions.php.",
+  "The question was asked May 8, 2020 and was last modified 29 days before the captured page date.",
+  "The question had been viewed 9k times and was tagged functions and wp-register-script.",
+  "The asker's final working code registers 'my-script' with get_theme_file_uri('/js/script.js') and dependency ['axios'], then uses a script_loader_tag filter that outputs a script tag with type=\"module\".",
+  "The accepted-style answer by Robbiegod was posted November 4, 2021 and suggests that replacing the duplicate type attribute was the fix.",
+  "A commenter suggested replacing the regex approach with preg_replace to insert type=\"module\" without removing tag parameters added by other plugins.",
+  "Another commenter suggested using str_replace('text/javascript', 'module', $tag) as an alternative.",
+  "A later answer states that JavaScript modules have first-class support in WordPress as of version 6.5.",
+  "The 6.5 answer shows wp_register_script_module('@myplugin/axios', ...) and wp_enqueue_script_module('@myplugin/ajaxloadmore', ..., array('@myplugin/axios'), '1.0').",
+  "A comment on the 6.5 answer notes that wp_localize_script did not work with script module handles.",
+  "The answer author Jon Surrell replied that Script Modules do not support wp_localize_script or wp_add_inline_script."
+ ],
+ "entities": [
+  {
+   "name": "Stack Overflow",
+   "type": "product",
+   "role": "Q&A site hosting the question, part of the Stack Exchange Network"
+  },
+  {
+   "name": "WordPress Development Stack Exchange",
+   "type": "organization",
+   "role": "Stack Exchange community where the question was posted"
+  },
+  {
+   "name": "Robbiegod",
+   "type": "person",
+   "role": "asker of the question who later posted the working filter solution"
+  },
+  {
+   "name": "Jon Surrell",
+   "type": "person",
+   "role": "author of the answer describing wp_register_script_module support in WordPress 6.5"
+  },
+  {
+   "name": "user141080",
+   "type": "person",
+   "role": "commenter who pointed out a script tag can only have one type attribute"
+  },
+  {
+   "name": "Simon Arnold",
+   "type": "person",
+   "role": "commenter who asked whether the duplicate type attribute was the issue"
+  },
+  {
+   "name": "axios",
+   "type": "product",
+   "role": "JavaScript library the asker tried to import in a theme script"
+  },
+  {
+   "name": "WordPress 6.5",
+   "type": "product",
+   "role": "WordPress version that added first-class JavaScript module support"
+  },
+  {
+   "name": "functions.php",
+   "type": "program",
+   "role": "theme file where the asker wanted to register and enqueue scripts"
+  },
+  {
+   "name": "page.php",
+   "type": "program",
+   "role": "theme template where the asker temporarily added script tags above get_footer()"
+  },
+  {
+   "name": "script_loader_tag",
+   "type": "program",
+   "role": "WordPress filter used to modify the generated script tag"
+  },
+  {
+   "name": "wp_register_script_module",
+   "type": "program",
+   "role": "WordPress function for registering a script module in version 6.5"
+  }
+ ],
+ "tags": [
+  "wordpress",
+  "javascript",
+  "es-modules",
+  "wp-enqueue-script",
+  "script-loader"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5469,
+  "output_tokens": 1382
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "summary": "This Wikipedia article explains solar-cell efficiency, the fraction of sunlight energy a solar cell converts to electricity, and how output depends on location, climate and cell design. It covers the theoretical limits (Shockley–Queisser, the infinite-stack limit), key measurement parameters such as quantum efficiency, maximum power point and fill factor, and comparisons of cell types, concentrator systems and energy payback time. The note is cut off partway through a section on technical methods of improving efficiency, so later methods are not included.",
+ "one_line": "Wikipedia overview of solar-cell efficiency: how much sunlight a cell converts to electricity, the theoretical limits, key metrics, and energy payback.",
+ "key_facts": [
+  "A solar panel with 20% efficiency and an area of 1 m² produces 200 kWh/yr at Standard Test Conditions when exposed to 1000 W/m² for 2.74 hours a day.",
+  "Central Colorado receives annual insolation of 2000 kWh/m²/year, where a panel is expected to produce 400 kWh of energy per year.",
+  "In Michigan, which receives 1400 kWh/m²/year, the annual energy yield of the same panel drops to 280 kWh.",
+  "As of 2024, the world record for solar cell efficiency is 47.6%, set in May 2022 by Fraunhofer ISE with a III-V four-junction CPV cell.",
+  "The Shockley–Queisser paper by William Shockley and Hans Queisser in 1961 expounded the factors affecting energy conversion efficiency.",
+  "Traditional single-junction cells with an optimal band gap have a maximum theoretical efficiency of 33.16%, the Shockley–Queisser limit.",
+  "Shockley and Queisser's calculated maximum for a stack of an infinite number of cells, using concentrated sunlight, is 86.8%; for radiation from an area the size of the sun it drops to 68.7%.",
+  "The fill factor is the available power at the maximum power point divided by the open-circuit voltage and the short-circuit current.",
+  "Typical fill factors range from 50% to 82%, and the fill factor for a normal silicon PV cell is 80%.",
+  "A high quality monocrystalline silicon cell at 25 °C may produce 0.60 V open-circuit, and about 0.55 V per cell when the cell temperature in full sunlight is close to 45 °C.",
+  "Solar cell efficiencies vary from 6% for amorphous silicon-based cells to 44.0% with multiple-junction production cells.",
+  "Commercially available multicrystalline Si solar cells have energy conversion efficiencies of around 14–19%.",
+  "Concentrator systems using a light intensity of 6–400 times the sun can increase the efficiency of a one sun GaAs cell from 31% to 35%.",
+  "The energy payback time for a modern photovoltaic module was estimated in 2008 to be from 1 to 4 years, against a typical lifetime of 20 to 30 years.",
+  "Undoped crystalline silicon devices are approaching the theoretical limiting efficiency of 29.43%."
+ ],
+ "entities": [
+  {
+   "name": "William Shockley",
+   "type": "person",
+   "role": "co-author with Hans Queisser of the 1961 landmark paper on factors affecting energy conversion efficiency"
+  },
+  {
+   "name": "Hans Queisser",
+   "type": "person",
+   "role": "co-author with William Shockley of the 1961 landmark paper on factors affecting energy conversion efficiency"
+  },
+  {
+   "name": "Alexis de Vos",
+   "type": "person",
+   "role": "co-author with Herman Pauwels who showed in 1981 that the thermodynamic limit is achievable with an infinite stack of cells"
+  },
+  {
+   "name": "Herman Pauwels",
+   "type": "person",
+   "role": "co-author with Alexis de Vos who showed in 1981 that the thermodynamic limit is achievable with an infinite stack of cells"
+  },
+  {
+   "name": "Fraunhofer ISE",
+   "type": "organization",
+   "role": "set the 47.6% world record solar cell efficiency in May 2022 with a III-V four-junction CPV cell"
+  },
+  {
+   "name": "National Renewable Energy Laboratory (NREL)",
+   "type": "organization",
+   "role": "developed multi-junction concentrator cells in Golden, Colorado that set a 47.1% record in 2019, and holds the real-world record with triple junction cells at 39.5%"
+  },
+  {
+   "name": "Shockley–Queisser limit",
+   "type": "other",
+   "role": "theoretical efficiency limit of about 33.16% for a single-junction solar cell with an optimal band gap"
+  },
+  {
+   "name": "IEC standard 61215",
+   "type": "program",
+   "role": "standard used to compare cell performance under standard test conditions"
+  },
+  {
+   "name": "Central Colorado",
+   "type": "place",
+   "role": "high-yield solar area receiving 2000 kWh/m²/year of insolation"
+  },
+  {
+   "name": "Michigan",
+   "type": "place",
+   "role": "US location receiving 1400 kWh/m²/year, yielding 280 kWh per year for the same panel"
+  },
+  {
+   "name": "Southern England",
+   "type": "place",
+   "role": "European location where the same panel yields 175 kWh annually"
+  },
+  {
+   "name": "Solar cell",
+   "type": "product",
+   "role": "device whose conversion efficiency the article describes"
+  }
+ ],
+ "tags": [
+  "solar energy",
+  "photovoltaics",
+  "solar cell efficiency",
+  "energy payback",
+  "renewable energy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14332,
+  "output_tokens": 1759
+ }
+}

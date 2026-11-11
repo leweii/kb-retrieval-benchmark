@@ -1,0 +1,51 @@
+{
+ "summary": "This note is a short biographical entry on Bob Lyon, an American politician who is a former Kansas State Senator from the city of Winchester. It also notes that he is a civil engineer and a graduate of the University of Virginia and George Washington University.",
+ "one_line": "Bob Lyon is a former Kansas State Senator from Winchester who is also a civil engineer.",
+ "key_facts": [
+  "Bob Lyon is an American politician.",
+  "Bob Lyon is a former Kansas State Senator.",
+  "Bob Lyon is from the city of Winchester.",
+  "Bob Lyon is a civil engineer.",
+  "Bob Lyon is a graduate of the University of Virginia.",
+  "Bob Lyon is a graduate of George Washington University."
+ ],
+ "entities": [
+  {
+   "name": "Bob Lyon",
+   "type": "person",
+   "role": "American politician, former Kansas State Senator from Winchester, civil engineer"
+  },
+  {
+   "name": "Kansas State Senate",
+   "type": "organization",
+   "role": "legislative body in which Bob Lyon served as a senator"
+  },
+  {
+   "name": "Winchester",
+   "type": "place",
+   "role": "city Bob Lyon is from"
+  },
+  {
+   "name": "University of Virginia",
+   "type": "organization",
+   "role": "university from which Bob Lyon graduated"
+  },
+  {
+   "name": "George Washington University",
+   "type": "organization",
+   "role": "university from which Bob Lyon graduated"
+  }
+ ],
+ "tags": [
+  "politics",
+  "kansas",
+  "civil engineering",
+  "biography",
+  "united states"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 1049,
+  "output_tokens": 472
+ }
+}

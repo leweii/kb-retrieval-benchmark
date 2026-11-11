@@ -1,0 +1,56 @@
+{
+ "summary": "This is a Snowflake documentation page for the SHOW SHARES IN FAILOVER GROUP command, which lists the shares in a failover group. The command requires Business Critical Edition or higher and a role with OWNERSHIP or MONITOR privilege on the failover group. Results are returned only for a role holding the MONITOR privilege on a share, and an example lists the shares in a failover group named myrg.",
+ "one_line": "Snowflake reference for the SHOW SHARES IN FAILOVER GROUP command, which lists shares in a failover group.",
+ "key_facts": [
+  "The SHOW SHARES IN FAILOVER GROUP command lists shares in a failover group.",
+  "The command requires Business Critical Edition (or higher).",
+  "Syntax is SHOW SHARES IN FAILOVER GROUP <name>.",
+  "The name parameter specifies the identifier for the failover group.",
+  "Executing SHOW SHARES IN FAILOVER GROUP requires a role with either the OWNERSHIP or MONITOR privilege on the failover group.",
+  "The command returns results only for a role with the MONITOR privilege on a share.",
+  "The example command SHOW SHARES IN FAILOVER GROUP myrg; lists the shares in the failover group myrg.",
+  "To upgrade to Business Critical Edition, users are directed to contact Snowflake Support.",
+  "The page is listed under the Replication section, within the Failover/Failback subsection, and the Client Redirect subsection.",
+  "The page includes a 'Was this page helpful?' feedback prompt, which is page boilerplate and not content."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the database platform whose documentation this page is part of; contact point Snowflake Support for upgrades"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "Contact for inquiring about upgrading to Business Critical Edition"
+  },
+  {
+   "name": "Business Critical Edition",
+   "type": "product",
+   "role": "Snowflake edition required to run the SHOW SHARES IN FAILOVER GROUP command"
+  },
+  {
+   "name": "SHOW SHARES IN FAILOVER GROUP",
+   "type": "program",
+   "role": "Command that lists shares in a failover group"
+  },
+  {
+   "name": "myrg",
+   "type": "other",
+   "role": "Example failover group name used in the command example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "failover group",
+  "replication",
+  "shares",
+  "sql commands",
+  "access privileges"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1432,
+  "output_tokens": 803
+ }
+}

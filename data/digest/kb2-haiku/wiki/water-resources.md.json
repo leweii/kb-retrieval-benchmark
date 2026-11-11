@@ -1,0 +1,43 @@
+{
+ "summary": "The note explains desalination, the artificial conversion of saline water (generally sea water) into fresh water. It names distillation and reverse osmosis as the most common processes. It notes that desalination is currently expensive relative to most alternative water sources and supplies only a very small fraction of human use, so it is usually economical only for high-value household and industrial uses in arid areas. It also mentions growing agricultural use and highly populated areas such as Singapore and California, with the most extensive use in the Persian Gulf.",
+ "one_line": "Overview of desalination, converting sea water to fresh water by distillation or reverse osmosis, its high cost, and where it is used.",
+ "key_facts": [
+  "Desalination is an artificial process by which saline water (generally sea water) is converted to fresh water.",
+  "The most common desalination processes are distillation and reverse osmosis.",
+  "Desalination is currently expensive compared to most alternative sources of water.",
+  "Only a very small fraction of total human use is satisfied by desalination.",
+  "Desalination is usually only economically practical for high-valued uses, such as household and industrial uses, in arid areas.",
+  "There is growth in desalination for agricultural use.",
+  "Highly populated areas such as Singapore or California are noted as places where desalination is growing.",
+  "The most extensive use of desalination is in the Persian Gulf."
+ ],
+ "entities": [
+  {
+   "name": "Singapore",
+   "type": "place",
+   "role": "highly populated area where desalination is growing, per the note"
+  },
+  {
+   "name": "California",
+   "type": "place",
+   "role": "highly populated area where desalination is growing, per the note"
+  },
+  {
+   "name": "Persian Gulf",
+   "type": "place",
+   "role": "region with the most extensive use of desalination"
+  }
+ ],
+ "tags": [
+  "desalination",
+  "water resources",
+  "reverse osmosis",
+  "fresh water",
+  "arid regions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1160,
+  "output_tokens": 579
+ }
+}

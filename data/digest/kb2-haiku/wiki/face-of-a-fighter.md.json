@@ -1,0 +1,39 @@
+{
+ "summary": "This note describes Face of a Fighter, an album by country singer Willie Nelson. The album was recorded in 1961 but was not released until 1978, the year Nelson founded his own label company, Lone Star Records.",
+ "one_line": "Face of a Fighter is a Willie Nelson album recorded in 1961 and released in 1978 on his own label, Lone Star Records.",
+ "key_facts": [
+  "Face of a Fighter is an album by country singer Willie Nelson.",
+  "Face of a Fighter was recorded in 1961.",
+  "Face of a Fighter was released in 1978.",
+  "The album was released in 1978 when Willie Nelson founded his own label company, Lone Star Records."
+ ],
+ "entities": [
+  {
+   "name": "Willie Nelson",
+   "type": "person",
+   "role": "country singer who is the artist on the album Face of a Fighter"
+  },
+  {
+   "name": "Face of a Fighter",
+   "type": "product",
+   "role": "album recorded in 1961 and released in 1978"
+  },
+  {
+   "name": "Lone Star Records",
+   "type": "organization",
+   "role": "label company founded by Willie Nelson in 1978, the year Face of a Fighter was released"
+  }
+ ],
+ "tags": [
+  "willie nelson",
+  "country music",
+  "album",
+  "lone star records",
+  "1978"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1047,
+  "output_tokens": 417
+ }
+}

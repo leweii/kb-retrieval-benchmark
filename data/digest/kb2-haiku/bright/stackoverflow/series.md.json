@@ -1,0 +1,84 @@
+{
+ "summary": "This is a clipped pandas 2.2.2 API reference page for Series.dt.tz_localize, which localizes tz-naive datetime Series/Index objects to tz-aware ones (or removes timezone info by passing tz=None) without changing the underlying time. It documents the parameters tz, ambiguous and nonexistent, the return and error behavior (TypeError when already tz-aware and tz is not None), and gives examples using US/Eastern, CET and Europe/Warsaw, including DST handling. Navigation menus, repeated site headers and footer boilerplate were ignored.",
+ "one_line": "pandas 2.2.2 API reference page describing Series.dt.tz_localize for converting tz-naive datetimes to tz-aware ones and handling DST ambiguity.",
+ "key_facts": [
+  "The pandas method Series.dt.tz_localize localizes tz-naive Datetime Array/Index to tz-aware Datetime Array/Index without moving the time to another time zone.",
+  "Passing tz=None to tz_localize removes time zone information while preserving local time.",
+  "The ambiguous parameter defaults to 'raise' and accepts 'infer', 'NaT', or a bool array, where True signifies a DST time.",
+  "The nonexistent parameter defaults to 'raise' and accepts 'shift_forward', 'shift_backward', 'NaT', or a timedelta object.",
+  "The method raises a TypeError if the Datetime Array/Index is tz-aware and tz is not None.",
+  "The documented page is for pandas version 2.2.2, copyright 2024.",
+  "In the example, tz_naive = pd.date_range('2018-03-01 09:00', periods=3) localized to US/Eastern gives times such as '2018-03-01 09:00:00-05:00'.",
+  "In Central European Time (UTC+01), local time 02:30:00 on the DST fall-back day occurs both at 00:30:00 UTC and at 01:30:00 UTC.",
+  "Using ambiguous='infer' on the CET example series assigns +02:00 to the first 02:00 and +01:00 to the second 02:00 on 2018-10-28.",
+  "Using nonexistent='shift_forward' on Europe/Warsaw shifts 2015-03-29 02:30:00 to 03:00:00+02:00.",
+  "Using nonexistent='shift_backward' on Europe/Warsaw shifts 2015-03-29 02:30:00 to 01:59:59.999999999+01:00.",
+  "Using nonexistent=pd.Timedelta('1h') on Europe/Warsaw shifts 2015-03-29 02:30:00 to 03:30:00+02:00.",
+  "The See also section points to DatetimeIndex.tz_convert, which converts tz-aware DatetimeIndex from one time zone to another.",
+  "The page was built with Sphinx 7.2.6 and the PyData Sphinx Theme 0.14.4."
+ ],
+ "entities": [
+  {
+   "name": "pandas",
+   "type": "product",
+   "role": "Python data analysis library whose 2.2.2 documentation contains this page"
+  },
+  {
+   "name": "Series.dt.tz_localize",
+   "type": "product",
+   "role": "pandas method documented on this page that localizes tz-naive datetimes to tz-aware"
+  },
+  {
+   "name": "DatetimeIndex.tz_convert",
+   "type": "product",
+   "role": "related pandas method listed under See also for converting tz-aware DatetimeIndex between time zones"
+  },
+  {
+   "name": "NumFOCUS, Inc.",
+   "type": "organization",
+   "role": "organization credited in the page footer for pandas"
+  },
+  {
+   "name": "OVHcloud",
+   "type": "organization",
+   "role": "host of the pandas documentation site per the footer"
+  },
+  {
+   "name": "Sphinx",
+   "type": "product",
+   "role": "documentation tool used to create the page (version 7.2.6)"
+  },
+  {
+   "name": "PyData Sphinx Theme",
+   "type": "product",
+   "role": "theme used to build the page (version 0.14.4)"
+  },
+  {
+   "name": "US/Eastern",
+   "type": "place",
+   "role": "time zone used in the example to localize a DatetimeIndex"
+  },
+  {
+   "name": "Central European Time (UTC+01)",
+   "type": "place",
+   "role": "time zone used to illustrate an ambiguous DST transition in the ambiguous parameter description"
+  },
+  {
+   "name": "Europe/Warsaw",
+   "type": "place",
+   "role": "time zone used in examples of nonexistent times during a DST transition"
+  }
+ ],
+ "tags": [
+  "pandas",
+  "datetime",
+  "timezone",
+  "api-reference",
+  "dst"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16740,
+  "output_tokens": 1464
+ }
+}

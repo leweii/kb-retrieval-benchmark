@@ -1,0 +1,50 @@
+{
+ "summary": "A Magne is described as a village in south-eastern Laos located near the border with Vietnam. The note places it within Sa Mouay District of Saravane Province. The note is very brief and gives no further details.",
+ "one_line": "A Magne is a village in south-eastern Laos near the Vietnam border, in Sa Mouay District, Saravane Province.",
+ "key_facts": [
+  "A Magne is a village in south-eastern Laos.",
+  "A Magne is located near the border with Vietnam.",
+  "A Magne is located in Sa Mouay District.",
+  "Sa Mouay District is part of Saravane Province.",
+  "A Magne is situated in Saravane Province."
+ ],
+ "entities": [
+  {
+   "name": "A Magne",
+   "type": "place",
+   "role": "village in south-eastern Laos near the border with Vietnam, located in Sa Mouay District"
+  },
+  {
+   "name": "Sa Mouay District",
+   "type": "place",
+   "role": "district in which A Magne is located"
+  },
+  {
+   "name": "Saravane Province",
+   "type": "place",
+   "role": "province containing Sa Mouay District and A Magne"
+  },
+  {
+   "name": "Vietnam",
+   "type": "place",
+   "role": "country whose border lies near A Magne"
+  },
+  {
+   "name": "Laos",
+   "type": "place",
+   "role": "country in which A Magne is a village in the south-east"
+  }
+ ],
+ "tags": [
+  "laos",
+  "village",
+  "saravane province",
+  "geography",
+  "southeast asia"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1025,
+  "output_tokens": 441
+ }
+}

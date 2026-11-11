@@ -1,0 +1,64 @@
+{
+ "summary": "This clipped note is a set of MudBlazor documentation pages, mainly API reference tables for the MudSelect<T> and MudSimpleTable components. The MudSelect<T> section lists its properties (data, validation, behavior, appearance, list settings), event callbacks and methods, while MudSimpleTable lists its Behavior and Appearance parameters such as Bordered, Dense, FixedHeader, Hover, Striped and Square. Most of the rest is repeated navigation menus, footers and an unhandled-error banner, which were ignored.",
+ "one_line": "MudBlazor API reference notes covering the MudSelect<T> and MudSimpleTable component properties, events and methods.",
+ "key_facts": [
+  "MudSelect<T> API page lists properties grouped into Data, Validation, Behavior, Appearance, List behavior, List appearance and Common.",
+  "MudSelect<T> property MultiSelection defaults to False and, when true, shows multiple values selectable via checkboxes in the dropdown.",
+  "MudSelect<T> property MaxLength defaults to 524288, the maximum number of characters the input accepts.",
+  "MudSelect<T> property RequiredError defaults to \"Required\" and is the error text shown when a required input is empty.",
+  "MudSelect<T> property TextUpdateSuppression defaults to True and solves issue #1012: Textfield swallowing chars when typing rapidly.",
+  "MudSelect<T> property MaxHeight defaults to 300 and sets the maximum height the Select can have when open.",
+  "MudSelect<T> property SelectAllText defaults to \"Select all\" and defines the text of the Select All option.",
+  "MudSelect<T> property Adornment defaults to Adornment.End.",
+  "MudSelect<T> event OnClose is fired when the dropdown closes, and OnOpen is fired when the dropdown opens.",
+  "MudSelect<T> method Clear() clears the selection and ResetAsync() resets the value and the validation.",
+  "MudSimpleTable properties Bordered, Dense, FixedHeader, Hover, Outlined, Square and Striped all default to False.",
+  "MudSimpleTable property Elevation defaults to 1.",
+  "MudSimpleTable property FixedHeader: when true the header stays in place on scroll; set Height to make the table scrollable.",
+  "The site footer reads 'Copyright © 2020-2024 MudBlazor' and 'Powered by .NET 8.0.3'."
+ ],
+ "entities": [
+  {
+   "name": "MudBlazor",
+   "type": "product",
+   "role": "Blazor component library whose documentation is clipped in this note"
+  },
+  {
+   "name": "MudSelect<T>",
+   "type": "product",
+   "role": "Select component whose API properties, events and methods are listed"
+  },
+  {
+   "name": "MudSimpleTable",
+   "type": "product",
+   "role": "Simple table component whose API properties are listed"
+  },
+  {
+   "name": "Select",
+   "type": "product",
+   "role": "Component page linked from the MudSelect<T> API section"
+  },
+  {
+   "name": "Simple Table",
+   "type": "product",
+   "role": "Component page linked from the MudSimpleTable API section"
+  },
+  {
+   "name": ".NET 8.0.3",
+   "type": "product",
+   "role": "Framework the MudBlazor documentation site is powered by"
+  }
+ ],
+ "tags": [
+  "mudblazor",
+  "blazor",
+  "dotnet",
+  "ui-components",
+  "api-reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15430,
+  "output_tokens": 1085
+ }
+}

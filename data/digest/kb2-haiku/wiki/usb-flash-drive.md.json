@@ -1,0 +1,70 @@
+{
+ "summary": "The note describes USB flash drives and their compatibility. They use the USB mass storage device class, which modern operating systems such as Windows, Linux, macOS and other Unix-like systems support natively, as well as many BIOS boot ROMs. USB 2.0 drives can hold more data and transfer faster than much larger optical discs such as CD-RW or DVD-RW, and many other devices can read them, including game consoles, DVD players, car entertainment systems and handheld devices, though SD cards are better suited to handhelds.",
+ "one_line": "Overview of USB flash drives, their native OS support, and their compatibility with consoles, players and handheld devices.",
+ "key_facts": [
+  "USB flash drives use the USB mass storage device class standard.",
+  "Modern operating systems such as Windows, Linux, macOS and other Unix-like systems support the USB mass storage device class natively.",
+  "Many BIOS boot ROMs support USB flash drives.",
+  "USB drives with USB 2.0 support can store more data than much larger optical disc drives like CD-RW or DVD-RW drives.",
+  "USB drives with USB 2.0 support can transfer data faster than much larger optical disc drives like CD-RW or DVD-RW drives.",
+  "USB flash drives can be read by the Xbox 360.",
+  "USB flash drives can be read by the PlayStation 3.",
+  "USB flash drives can be read by DVD players and automobile entertainment systems.",
+  "USB flash drives can be read by a number of handheld devices such as smartphones and tablet computers.",
+  "The electronically similar SD card is better suited for handheld devices than USB flash drives, according to the note."
+ ],
+ "entities": [
+  {
+   "name": "Windows",
+   "type": "product",
+   "role": "modern operating system that natively supports the USB mass storage device class"
+  },
+  {
+   "name": "Linux",
+   "type": "product",
+   "role": "modern operating system that natively supports the USB mass storage device class"
+  },
+  {
+   "name": "macOS",
+   "type": "product",
+   "role": "modern operating system that natively supports the USB mass storage device class"
+  },
+  {
+   "name": "Xbox 360",
+   "type": "product",
+   "role": "game console that can read USB flash drives"
+  },
+  {
+   "name": "PlayStation 3",
+   "type": "product",
+   "role": "game console that can read USB flash drives"
+  },
+  {
+   "name": "CD-RW",
+   "type": "product",
+   "role": "optical disc format that USB 2.0 drives outperform in storage and transfer speed"
+  },
+  {
+   "name": "DVD-RW",
+   "type": "product",
+   "role": "optical disc format that USB 2.0 drives outperform in storage and transfer speed"
+  },
+  {
+   "name": "SD card",
+   "type": "product",
+   "role": "electronically similar storage card described as better suited for handheld devices"
+  }
+ ],
+ "tags": [
+  "usb",
+  "flash storage",
+  "data storage",
+  "device compatibility",
+  "operating systems"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1183,
+  "output_tokens": 892
+ }
+}

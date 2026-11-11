@@ -1,0 +1,74 @@
+{
+ "summary": "NASA's Mars 2020 Perseverance rover page describes a mission that seeks signs of ancient microbial life on Mars and collects rock and regolith core samples for possible future return to Earth. The rover launched July 30, 2020 and landed February 18, 2021 in Jezero Crater, chosen after study of more than 60 candidate sites. The page also covers the Ingenuity Mars Helicopter, which was carried on the rover and completed 72 flights, and the rover's four science objectives.",
+ "one_line": "NASA's Perseverance rover, which landed in Jezero Crater in 2021, searches for ancient Martian microbial life and collects rock samples for possible Earth return.",
+ "key_facts": [
+  "The Mars 2020 Perseverance rover searches for signs of ancient microbial life to advance NASA's quest to explore the past habitability of Mars.",
+  "Perseverance launched July 30, 2020 and landed February 18, 2021.",
+  "The rover's target is Jezero Crater, Mars.",
+  "Jezero Crater is 28 miles (45 kilometers) wide and located on the western edge of a flat plain called Isidis Planitia, just north of the Martian equator.",
+  "NASA chose Jezero Crater as the landing site after a five-year study of more than 60 candidate locations.",
+  "More than 3.5 billion years ago, river channels spilled over the Jezero crater wall and created a lake.",
+  "The landing site is about 2,300 miles (3,700 kilometers) from Curiosity's landing site in Gale Crater.",
+  "The rover is collecting core samples of Martian rock and soil for potential pickup by a future mission that would bring them to Earth.",
+  "The rover's mission has four science objectives: Studying Mars' Habitability, Seeking Signs of Past Microbial Life, Collecting and Caching Samples, and Preparing for Future Human Missions.",
+  "The Mars Helicopter, Ingenuity, was strapped to the rover's belly for the journey to Mars.",
+  "Ingenuity completed 72 historic flights, making it the first aircraft to achieve powered, controlled flight on another planet.",
+  "Perseverance's rock collection also includes samples of Mars atmosphere and loose surface material.",
+  "The Comet Geyser sample was Perseverance's 21st rock core, according to a related story listed on the page."
+ ],
+ "entities": [
+  {
+   "name": "Perseverance",
+   "type": "product",
+   "role": "Mars 2020 rover searching for signs of ancient microbial life and collecting samples in Jezero Crater"
+  },
+  {
+   "name": "Jezero Crater",
+   "type": "place",
+   "role": "landing site on Mars once flooded with water and home to an ancient river delta"
+  },
+  {
+   "name": "Isidis Planitia",
+   "type": "place",
+   "role": "flat plain on which Jezero Crater lies, just north of the Martian equator"
+  },
+  {
+   "name": "Gale Crater",
+   "type": "place",
+   "role": "location of Curiosity's landing site, about 2,300 miles from Jezero Crater"
+  },
+  {
+   "name": "Ingenuity Mars Helicopter",
+   "type": "product",
+   "role": "technology demonstration strapped to the rover's belly that completed 72 flights"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "agency that operates the Perseverance mission and explores the unknown in air and space"
+  },
+  {
+   "name": "Mars Sample Return",
+   "type": "program",
+   "role": "proposed mission that could deliver the rover's samples to Earth for detailed study"
+  },
+  {
+   "name": "Curiosity",
+   "type": "product",
+   "role": "Mars rover whose landing site is in Gale Crater"
+  }
+ ],
+ "tags": [
+  "mars",
+  "perseverance rover",
+  "astrobiology",
+  "jezero crater",
+  "mars sample return",
+  "space exploration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4081,
+  "output_tokens": 1209
+ }
+}

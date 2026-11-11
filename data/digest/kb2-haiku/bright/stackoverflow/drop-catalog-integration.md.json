@@ -1,0 +1,53 @@
+{
+ "summary": "This is a Snowflake SQL reference page for the DROP CATALOG INTEGRATION command, which removes a catalog integration (an Iceberg catalog integration) from the account. It covers the syntax, the name parameter and its quoting rules, the OWNERSHIP privilege required to run the command, and a usage note that dropped integrations cannot be recovered. Two examples show dropping an integration with and without the IF EXISTS clause. Navigation and boilerplate from the clipped page were ignored.",
+ "one_line": "Reference for the Snowflake SQL command DROP CATALOG INTEGRATION, which removes a catalog integration, including its syntax, privileges and examples.",
+ "key_facts": [
+  "The DROP CATALOG INTEGRATION command is available to all accounts.",
+  "The syntax is DROP CATALOG INTEGRATION [ IF EXISTS ] <name>.",
+  "The name parameter specifies the identifier for the catalog integration to drop.",
+  "If the identifier contains spaces, special characters, or mixed-case characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive, for example \"My Catalog\".",
+  "The role used to execute the command must have the OWNERSHIP privilege on the catalog integration object at a minimum.",
+  "OWNERSHIP is a special privilege automatically granted to the role that created the object, and it can be transferred using the role with the MANAGE GRANTS privilege.",
+  "Dropped catalog integrations cannot be recovered; they must be recreated.",
+  "The example DROP CATALOG INTEGRATION myInt; drops the catalog integration named myInt.",
+  "The example DROP CATALOG INTEGRATION IF EXISTS myInt; drops the integration without raising an error if it does not exist.",
+  "The page refers to Iceberg catalog integration definitions as the related catalog integration topic.",
+  "The page is listed under the Catalog section of the documentation navigation, within the External access and Security areas."
+ ],
+ "entities": [
+  {
+   "name": "DROP CATALOG INTEGRATION",
+   "type": "program",
+   "role": "SQL command that drops a catalog integration from the account"
+  },
+  {
+   "name": "myInt",
+   "type": "other",
+   "role": "example catalog integration name used in the drop examples"
+  },
+  {
+   "name": "OWNERSHIP",
+   "type": "other",
+   "role": "special privilege required on the catalog integration to run the command"
+  },
+  {
+   "name": "MANAGE GRANTS",
+   "type": "other",
+   "role": "privilege of a role that can transfer OWNERSHIP of an object"
+  }
+ ],
+ "tags": [
+  "sql",
+  "snowflake",
+  "catalog-integration",
+  "iceberg",
+  "access-control",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1799,
+  "output_tokens": 876
+ }
+}

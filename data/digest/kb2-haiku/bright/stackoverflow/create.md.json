@@ -1,0 +1,43 @@
+{
+ "summary": "This is a clipped Snowflake documentation page for the generic CREATE command, which creates a new object of a specified type. It gives the basic syntax (CREATE [OR REPLACE] <object_type> [IF NOT EXISTS] <object_name> with optional type-specific properties, params, and a COMMENT) and two general usage notes: OR REPLACE and IF NOT EXISTS are mutually exclusive, and CREATE OR REPLACE is atomic. The lists of linked object-specific pages (account, database, and class objects) were lost in the clipping, so only the general syntax and notes are usable.",
+ "one_line": "Snowflake reference page for the generic CREATE command, covering its syntax and general usage notes for creating objects.",
+ "key_facts": [
+  "The CREATE command creates a new object of the specified type.",
+  "The basic syntax is CREATE [ OR REPLACE ] <object_type> [ IF NOT EXISTS ] <object_name>, followed by optional object_type_properties, object_type_params, and COMMENT = '<string_literal>'.",
+  "The object_type_properties and object_type_params placeholders are specific to each object type.",
+  "The OR REPLACE and IF NOT EXISTS clauses are mutually exclusive and cannot both be used in the same statement.",
+  "CREATE OR REPLACE statements are atomic: when an object is replaced, the old object is deleted and the new object is created in a single transaction.",
+  "The page points readers to object-specific syntax pages for account objects, database objects, and classes.",
+  "Class examples named on the page include CREATE CUSTOM_CLASSIFIER and CREATE SNOWFLAKE.ML.ANOMALY_DETECTION.",
+  "The page has a 'Was this page helpful?' feedback prompt, and its language is English."
+ ],
+ "entities": [
+  {
+   "name": "CREATE",
+   "type": "program",
+   "role": "SQL command that creates a new object of the specified type, documented on this page"
+  },
+  {
+   "name": "CREATE CUSTOM_CLASSIFIER",
+   "type": "program",
+   "role": "object-specific CREATE command for classes, linked from the Classes section"
+  },
+  {
+   "name": "CREATE SNOWFLAKE.ML.ANOMALY_DETECTION",
+   "type": "program",
+   "role": "object-specific CREATE command for classes, linked from the Classes section"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "create statement",
+  "database objects",
+  "reference documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1616,
+  "output_tokens": 798
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "summary": "This Snowflake SQL reference page documents the multi-table INSERT statement, which inserts rows produced by a subquery into one or more target tables. It covers unconditional inserts (INSERT ALL) and conditional inserts using WHEN and ELSE clauses with FIRST or ALL, plus the optional OVERWRITE keyword, column lists, and VALUES options (source column, DEFAULT, NULL). The page also includes usage rules about aliases and data type compatibility, and worked examples showing how ALL and FIRST differ.",
+ "one_line": "Snowflake reference for multi-table INSERT statements, covering unconditional and conditional inserts, OVERWRITE, and VALUES clauses.",
+ "key_facts": [
+  "A multi-table INSERT updates multiple tables by inserting one or more rows with column values taken from a query, and supports both unconditional and conditional inserts.",
+  "In an unconditional multi-table insert, the ALL keyword specifies that each row executes every INTO clause.",
+  "Specifying FIRST in an unconditional multi-table insert, or omitting ALL, causes Snowflake to return a syntax error.",
+  "In a conditional multi-table insert, FIRST specifies that each row executes only the first WHEN clause whose condition evaluates to TRUE.",
+  "In a conditional multi-table insert, ALL specifies that each row executes all WHEN clauses whose conditions are TRUE.",
+  "A conditional multi-table insert must contain at least one WHEN clause, and to always execute a WHEN clause one can use WHEN 1=1 THEN.",
+  "The optional OVERWRITE keyword truncates the target tables before inserting while retaining access control privileges on the tables.",
+  "INSERT statements with OVERWRITE can be processed within the scope of the current transaction, avoiding DDL statements such as DROP TABLE and CREATE TABLE AS SELECT that commit a transaction.",
+  "Each VALUES item can be a source column name, DEFAULT (inserts the target column's default value), or NULL (inserts a NULL value).",
+  "The number of values in a VALUES clause must match the number of columns specified for the target table.",
+  "Expressions in WHEN and VALUES clauses can only reference the subquery via an alias, which must be a default alias or a positional alias such as $1, $2.",
+  "In each subquery row, the source column value must be compatible with the data type of the target column, even for rows filtered out by a WHEN condition.",
+  "In the ALL example with an ELSE clause on table src with n1 values 1, 11, and 101, t1 receives 101 twice and 11 once, while t2 receives 101, 11, and 1.",
+  "In the FIRST example with the same data, the row with n1 = 101 is inserted into t1 only once, and t2 receives only 11 and 1."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "publisher of the SQL reference documentation describing the multi-table INSERT syntax"
+  },
+  {
+   "name": "INSERT ALL",
+   "type": "program",
+   "role": "unconditional or conditional multi-table insert form in which every matching INTO clause executes for each row"
+  },
+  {
+   "name": "INSERT FIRST",
+   "type": "program",
+   "role": "conditional multi-table insert form in which only the first WHEN clause that evaluates to TRUE executes for each row"
+  },
+  {
+   "name": "OVERWRITE",
+   "type": "program",
+   "role": "optional keyword that truncates target tables before inserting while retaining access control privileges"
+  },
+  {
+   "name": "src",
+   "type": "other",
+   "role": "example source table whose column n1 (values 1, 11, 101) feeds the insert examples"
+  },
+  {
+   "name": "t1",
+   "type": "other",
+   "role": "example target table receiving rows in the multi-table insert examples"
+  },
+  {
+   "name": "t2",
+   "type": "other",
+   "role": "example target table receiving rows in the multi-table insert examples"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "insert",
+  "multi-table-insert",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5505,
+  "output_tokens": 1285
+ }
+}

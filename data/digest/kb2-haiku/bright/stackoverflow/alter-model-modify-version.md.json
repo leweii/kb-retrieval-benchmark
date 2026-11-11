@@ -1,0 +1,42 @@
+{
+ "summary": "This note is a Snowflake documentation page for the ALTER MODEL … MODIFY VERSION command, which changes a model version's comment or metadata. It gives the command syntax with optional IF EXISTS, the COMMENT and METADATA clauses, and parameter descriptions for the model name and version name. Identifier rules are noted: names with spaces or special characters need double quotes, and such identifiers are case-sensitive. Navigation and boilerplate text from the web page is ignored.",
+ "one_line": "Snowflake reference for the ALTER MODEL … MODIFY VERSION command, which sets a model version's comment or JSON metadata.",
+ "key_facts": [
+  "The ALTER MODEL … MODIFY VERSION command is available to all Snowflake accounts.",
+  "The command modifies a version of a model, changing the version's comment or metadata.",
+  "The syntax is ALTER MODEL [ IF EXISTS ] <name> MODIFY VERSION <version_name> SET [ COMMENT = '<string_literal>' ] [ METADATA = '<json_metadata>'].",
+  "The COMMENT clause sets the comment of the version.",
+  "The METADATA clause sets the metadata of the version as a JSON object.",
+  "Metadata is a JSON object that stores key-value pairs of the user's choosing.",
+  "If the model name contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "The version_name must be unique within the model.",
+  "Version names that contain spaces or are case sensitive must be enclosed in double quotes.",
+  "The SET clause specifies one or more model version properties to be set."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "platform whose accounts can use the ALTER MODEL … MODIFY VERSION command, as stated in the page header 'Available to all Snowflake accounts'"
+  },
+  {
+   "name": "ALTER MODEL … MODIFY VERSION",
+   "type": "program",
+   "role": "SQL command documented on this page that modifies a model version's comment or metadata"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "ddl",
+  "model-versioning",
+  "metadata",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1534,
+  "output_tokens": 725
+ }
+}

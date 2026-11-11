@@ -1,0 +1,48 @@
+{
+ "summary": "This clipped Snowflake documentation page describes the METERING_DAILY_HISTORY view in the ACCOUNT_USAGE schema, which returns daily credit usage and a cloud services rebate for an account over the last 365 days. It lists the view's columns, notes up to 180 minutes of latency, and gives an example query that shows how much cloud services consumption was actually billed per day. Navigation, cookie and footer boilerplate were ignored.",
+ "one_line": "Snowflake ACCOUNT_USAGE view METERING_DAILY_HISTORY, which reports daily credit usage and cloud services rebates for the past year.",
+ "key_facts": [
+  "The METERING_DAILY_HISTORY view in the ACCOUNT_USAGE schema returns daily credit usage and a cloud services rebate for an account within the last 365 days (1 year).",
+  "CREDITS_USED_COMPUTE is the number of credits billed for warehouses and serverless compute resources in the day.",
+  "CREDITS_USED_CLOUD_SERVICES is the number of credits billed for cloud services in the day.",
+  "CREDITS_USED is the sum of CREDITS_USED_COMPUTE and CREDITS_USED_CLOUD_SERVICES.",
+  "CREDITS_ADJUSTMENT_CLOUD_SERVICES is a negative value representing the cloud services rebate, for example -9.",
+  "CREDITS_BILLED is the total number of credits billed for the account in the day, the sum of CREDITS_USED_COMPUTE, CREDITS_USED_CLOUD_SERVICES, and CREDITS_ADJUSTMENT_CLOUD_SERVICES.",
+  "USAGE_DATE is the date when the usage took place and has the DATE data type.",
+  "Latency for the view may be up to 180 minutes (3 hours).",
+  "Cloud services are billed only if the daily consumption of cloud services exceeds 10% of the daily usage of virtual warehouses.",
+  "The example query selects usage_date, credits_used_cloud_services, credits_adjustment_cloud_services and their sum as billed_cloud_services, filtered to the last month with credits_used_cloud_services greater than 0.",
+  "The example query orders results by the fourth column, billed_cloud_services, in descending order to show the highest billed amounts first.",
+  "The usage notes suggest running ALTER SESSION SET TIMEZONE = UTC before querying the view."
+ ],
+ "entities": [
+  {
+   "name": "METERING_DAILY_HISTORY",
+   "type": "product",
+   "role": "View in the ACCOUNT_USAGE schema that returns daily credit usage and a cloud services rebate for an account"
+  },
+  {
+   "name": "ACCOUNT_USAGE",
+   "type": "program",
+   "role": "Schema containing the METERING_DAILY_HISTORY view"
+  },
+  {
+   "name": "snowflake.account_usage.metering_daily_history",
+   "type": "product",
+   "role": "Fully qualified name of the view used in the example query"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "account usage",
+  "credits",
+  "cloud services",
+  "billing",
+  "sql view"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1984,
+  "output_tokens": 1018
+ }
+}

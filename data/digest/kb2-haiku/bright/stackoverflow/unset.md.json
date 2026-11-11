@@ -1,0 +1,46 @@
+{
+ "summary": "This note is a documentation page for the UNSET command, which drops session variables. It shows the two syntax forms (single variable or a parenthesized list), describes the var parameter as the identifier of the variable to drop, and gives examples. Usage notes say the command supports multiple variables in one statement and does not require a running warehouse.",
+ "one_line": "Reference page for the UNSET command, which drops one or more variables and needs no running warehouse.",
+ "key_facts": [
+  "UNSET drops a variable identified by the var parameter.",
+  "Syntax form one is UNSET <var>.",
+  "Syntax form two is UNSET ( <var> [ , <var> ... ] ).",
+  "The command supports dropping multiple variables in the same statement.",
+  "The command does not require a running warehouse to execute.",
+  "Example: UNSET V1; drops the variable V1.",
+  "Example: UNSET V2; drops the variable V2.",
+  "Example: UNSET (V1, V2); drops V1 and V2 in one statement.",
+  "The page's on-page sections are Syntax, Parameters, Usage Notes and Examples.",
+  "The page is listed under the Variables section of the documentation navigation.",
+  "The page language is English."
+ ],
+ "entities": [
+  {
+   "name": "UNSET",
+   "type": "program",
+   "role": "SQL command documented on this page that drops variables"
+  },
+  {
+   "name": "V1",
+   "type": "other",
+   "role": "example variable dropped by UNSET in the examples"
+  },
+  {
+   "name": "V2",
+   "type": "other",
+   "role": "example variable dropped by UNSET in the examples"
+  }
+ ],
+ "tags": [
+  "sql",
+  "unset",
+  "variables",
+  "snowflake",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1286,
+  "output_tokens": 517
+ }
+}

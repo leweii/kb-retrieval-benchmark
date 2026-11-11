@@ -1,0 +1,45 @@
+{
+ "summary": "Fort Logan National Cemetery is a United States National Cemetery located in Denver, Colorado. The note says it is named after Union General John A. Logan, who commanded US Volunteer forces during the American Civil War. It had over 122,000 interments as of 2014 and was listed on the National Register of Historic Places in 2016.",
+ "one_line": "Fort Logan National Cemetery is a U.S. National Cemetery in Denver, Colorado, named for Union General John A. Logan and listed on the National Register of Historic Places in 2016.",
+ "key_facts": [
+  "Fort Logan National Cemetery is a United States National Cemetery in Denver, Colorado.",
+  "Fort Logan National Cemetery was named after Union General John A. Logan.",
+  "John A. Logan was commander of US Volunteer forces during the American Civil War.",
+  "Fort Logan National Cemetery contained over 122,000 interments as of 2014.",
+  "Fort Logan National Cemetery was listed on the National Register of Historic Places in 2016."
+ ],
+ "entities": [
+  {
+   "name": "Fort Logan National Cemetery",
+   "type": "place",
+   "role": "United States National Cemetery in Denver, Colorado, named after John A. Logan"
+  },
+  {
+   "name": "John A. Logan",
+   "type": "person",
+   "role": "Union General and commander of US Volunteer forces during the American Civil War; namesake of Fort Logan National Cemetery"
+  },
+  {
+   "name": "National Register of Historic Places",
+   "type": "program",
+   "role": "Register in which Fort Logan National Cemetery was listed in 2016"
+  },
+  {
+   "name": "Denver, Colorado",
+   "type": "place",
+   "role": "City and state where Fort Logan National Cemetery is located"
+  }
+ ],
+ "tags": [
+  "cemetery",
+  "denver",
+  "american civil war",
+  "national cemetery",
+  "historic places"
+ ],
+ "category": "history & politics",
+ "usage": {
+  "input_tokens": 1104,
+  "output_tokens": 588
+ }
+}

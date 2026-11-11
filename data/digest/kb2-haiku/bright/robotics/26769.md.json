@@ -1,0 +1,88 @@
+{
+ "summary": "A ROS Discourse announcement from August 3, 2022 by user tnajjar that ros2_controllers gained a new Tricycle Controller for robots with a two-rear-wheel, one-front-wheel base, where the front wheel handles traction and steering. The controller converts Twist messages to AckermannDrive, publishes odometry, and supports rate limiting for traction and steering. The post was sponsored by Pixel Robotics, and the thread includes brief replies noting the merge and availability in ros2_controllers 2.11.0 for Humble and Rolling.",
+ "one_line": "Announcement of the ROS 2 ros2_controllers Tricycle Controller for front-steered tricycle robot bases, sponsored by Pixel Robotics.",
+ "key_facts": [
+  "The ROS Discourse post titled 'ROS2 Tricycle Controller' was made by user tnajjar on August 3, 2022.",
+  "The new Tricycle Controller was added as a family member of ros2_controllers.",
+  "The Tricycle Controller is aimed at robots with a tricycle base configuration of two wheels in the back and one in the front.",
+  "In the tricycle base, traction and steering are done by the front wheel.",
+  "The Tricycle Controller converts Twist to AckermannDrive.",
+  "The Tricycle Controller publishes odometry.",
+  "The Tricycle Controller supports rate limiting for speed, acceleration, and similar parameters for traction and steering.",
+  "A demo for the controller was in the gazebo_ros2_control pull request #145 and was on the verge of being merged.",
+  "The work was sponsored by Pixel Robotics.",
+  "Replies state that the controller was merged and would be available with ros2_controllers 2.11.0 in Humble and Rolling.",
+  "The thread was automatically closed on September 3, 2022, 30 days after the last reply.",
+  "The post is tagged ros2_controllers, ros2_control, and ros2."
+ ],
+ "entities": [
+  {
+   "name": "ros2_controllers",
+   "type": "program",
+   "role": "ROS 2 controllers package to which the Tricycle Controller was added"
+  },
+  {
+   "name": "Tricycle Controller",
+   "type": "program",
+   "role": "new controller for robots with a tricycle base configuration, announced in this post"
+  },
+  {
+   "name": "tnajjar",
+   "type": "person",
+   "role": "author of the announcement post"
+  },
+  {
+   "name": "Pixel Robotics",
+   "type": "organization",
+   "role": "sponsor of the Tricycle Controller work"
+  },
+  {
+   "name": "gazebo_ros2_control",
+   "type": "program",
+   "role": "package containing the demo pull request #145"
+  },
+  {
+   "name": "Arne",
+   "type": "person",
+   "role": "replied that the controller got finally merged and is a good addition"
+  },
+  {
+   "name": "bmagyar",
+   "type": "person",
+   "role": "replied that the controller would be available with ros2_controllers 2.11.0 in Humble and Rolling"
+  },
+  {
+   "name": "ROS Discourse",
+   "type": "organization",
+   "role": "forum where the announcement was posted"
+  },
+  {
+   "name": "AckermannDrive",
+   "type": "product",
+   "role": "message type that Twist is converted to by the controller"
+  },
+  {
+   "name": "Humble",
+   "type": "program",
+   "role": "ROS 2 distribution where the controller would be available"
+  },
+  {
+   "name": "Rolling",
+   "type": "program",
+   "role": "ROS 2 development distribution where the controller would be available"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "ros2_control",
+  "robot-controllers",
+  "tricycle-robot",
+  "mobile-robotics",
+  "ros-announcement"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2954,
+  "output_tokens": 1121
+ }
+}

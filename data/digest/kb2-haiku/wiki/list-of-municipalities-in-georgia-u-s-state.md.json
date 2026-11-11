@@ -1,0 +1,51 @@
+{
+ "summary": "This note is a short overview of the municipalities of Georgia (U.S. state), highlighting extremes in population and land area. It names Atlanta as the most populous municipality and Edge Hill as the least populous, and identifies Augusta as the largest by land area and Edge Hill and Santa Claus as the smallest by land area.",
+ "one_line": "Overview of Georgia's municipalities, noting the largest and smallest by population and by land area.",
+ "key_facts": [
+  "The largest municipality by population in Georgia is Atlanta, with 420,003 residents.",
+  "The smallest municipality by population in Georgia is Edge Hill, with 24 residents.",
+  "The largest municipality by land area in Georgia is Augusta, a consolidated city-county.",
+  "Augusta spans 302.47 sq mi (783.4 km).",
+  "Edge Hill and Santa Claus are tied for the smallest municipality by land area in Georgia.",
+  "Edge Hill and Santa Claus each cover 0.18 sq mi (0.47 km)."
+ ],
+ "entities": [
+  {
+   "name": "Georgia (U.S. state)",
+   "type": "place",
+   "role": "U.S. state whose municipalities are listed in the note"
+  },
+  {
+   "name": "Atlanta",
+   "type": "place",
+   "role": "largest municipality in Georgia by population, with 420,003 residents"
+  },
+  {
+   "name": "Edge Hill",
+   "type": "place",
+   "role": "smallest municipality in Georgia by population (24 residents) and tied for smallest by land area (0.18 sq mi)"
+  },
+  {
+   "name": "Augusta",
+   "type": "place",
+   "role": "largest municipality in Georgia by land area, a consolidated city-county spanning 302.47 sq mi"
+  },
+  {
+   "name": "Santa Claus",
+   "type": "place",
+   "role": "municipality in Georgia tied with Edge Hill for smallest by land area at 0.18 sq mi"
+  }
+ ],
+ "tags": [
+  "georgia",
+  "municipalities",
+  "u.s. states",
+  "population",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1143,
+  "output_tokens": 635
+ }
+}

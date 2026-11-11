@@ -1,0 +1,114 @@
+{
+ "summary": "Despite its title, this clipped cppreference.com page is the reference index for the C++ Concurrency support library (since C++11), not the Ranges library. It lists the library's components grouped into threads, atomic operations, mutual exclusion, condition variables, semaphores, latches and barriers, futures, and safe reclamation, with the C++ standard version each one was introduced in. The page is mostly navigation and tables, and it gives only a brief overview of the library's purpose.",
+ "one_line": "Reference index of the C++ Concurrency support library, covering threads, atomics, mutexes, condition variables, semaphores, futures and safe reclamation.",
+ "key_facts": [
+  "The Concurrency support library is marked as (since C++11) on the cppreference.com page.",
+  "The page states that C++ includes built-in support for threads, atomic operations, mutual exclusion, condition variables, and futures.",
+  "The std::thread class (C++11) manages a separate thread, and threads enable programs to execute across several processor cores.",
+  "The std::jthread class (C++20) is std::thread with support for auto-joining and cancellation.",
+  "The stop_token, stop_source and stop_callback types (all C++20) are designed to enable thread cancellation for std::jthread.",
+  "The stop_token, stop_source and stop_callback types can also be used independently of std::jthread, for example to interrupt std::condition_variable_any waiting functions.",
+  "The hardware_destructive_interference_size constant (C++17) gives the minimum offset to avoid false sharing, and hardware_constructive_interference_size gives the maximum offset to promote true sharing.",
+  "The this_thread namespace functions yield, get_id, sleep_for and sleep_until are all marked C++11.",
+  "The atomic class template (C++11) provides specializations for bool, integral, floating-point (since C++20) and pointer types, and atomic_ref (C++20) provides atomic operations on non-atomic objects.",
+  "The atomic_wait and atomic_notify_one/atomic_notify_all function templates are C++20 additions for blocking a thread until an atomic value changes.",
+  "Mutual exclusion types include mutex and timed_mutex (C++11), shared_mutex (C++17) and shared_timed_mutex (C++14), all defined in the mutex and shared_mutex headers.",
+  "The generic mutex management types include lock_guard (C++11), scoped_lock (C++17), unique_lock (C++11) and shared_lock (C++14).",
+  "The counting_semaphore and binary_semaphore types are C++20, and the latch and barrier types are also C++20.",
+  "The Safe Reclamation section lists read-copy-update (RCU) and hazard pointer components marked C++26, and their pages are shown as not existing on the site."
+ ],
+ "entities": [
+  {
+   "name": "cppreference.com",
+   "type": "organization",
+   "role": "website hosting the page, which is a C++ reference wiki"
+  },
+  {
+   "name": "Concurrency support library",
+   "type": "program",
+   "role": "the C++ standard library section covered by the page, introduced in C++11"
+  },
+  {
+   "name": "std::thread",
+   "type": "product",
+   "role": "class that manages a separate thread (C++11)"
+  },
+  {
+   "name": "std::jthread",
+   "type": "product",
+   "role": "thread class with auto-joining and cancellation support (C++20)"
+  },
+  {
+   "name": "stop_token",
+   "type": "product",
+   "role": "interface for querying whether a cancellation request has been made (C++20)"
+  },
+  {
+   "name": "stop_source",
+   "type": "product",
+   "role": "class representing a request to stop one or more std::jthread objects (C++20)"
+  },
+  {
+   "name": "stop_callback",
+   "type": "product",
+   "role": "interface for registering callbacks on std::jthread cancellation (C++20)"
+  },
+  {
+   "name": "hardware_destructive_interference_size",
+   "type": "product",
+   "role": "constant giving the minimum offset to avoid false sharing (C++17)"
+  },
+  {
+   "name": "std::atomic",
+   "type": "product",
+   "role": "atomic class template for atomic operations on bool, integral, floating-point and pointer types (C++11)"
+  },
+  {
+   "name": "atomic_ref",
+   "type": "product",
+   "role": "class template providing atomic operations on non-atomic objects (C++20)"
+  },
+  {
+   "name": "std::condition_variable_any",
+   "type": "product",
+   "role": "condition variable whose waiting functions can be interrupted by stop_token (C++11)"
+  },
+  {
+   "name": "shared_mutex",
+   "type": "product",
+   "role": "class providing a shared mutual exclusion facility (C++17)"
+  },
+  {
+   "name": "counting_semaphore",
+   "type": "product",
+   "role": "semaphore type in the Semaphores section (C++20)"
+  },
+  {
+   "name": "binary_semaphore",
+   "type": "product",
+   "role": "semaphore type in the Semaphores section (C++20)"
+  },
+  {
+   "name": "latch",
+   "type": "product",
+   "role": "synchronization type in the Latches and Barriers section (C++20)"
+  },
+  {
+   "name": "barrier",
+   "type": "product",
+   "role": "synchronization type in the Latches and Barriers section (C++20)"
+  }
+ ],
+ "tags": [
+  "c++",
+  "concurrency",
+  "threads",
+  "atomics",
+  "standard-library"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17004,
+  "output_tokens": 2412
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "summary": "This is the reference page for the VAR_POP function, which returns the population variance of non-NULL numeric values in a group. It can be used as an aggregate or a window function, with optional DISTINCT (not allowed in window form), PARTITION BY and ORDER BY clauses. The page also covers the NUMBER return type, implicit casting of VARCHAR input to floating point, implied cumulative window frames when ORDER BY is used, and a worked example grouping a small table by k.",
+ "one_line": "Reference for the VAR_POP SQL function, which computes population variance of non-NULL values as an aggregate or window function.",
+ "key_facts": [
+  "VAR_POP returns the population variance of non-NULL records in a group.",
+  "If all records inside a group are NULL, VAR_POP returns NULL.",
+  "The expr1 argument of VAR_POP should evaluate to one of the numeric data types.",
+  "The return data type of VAR_POP is NUMBER(<precision>, <scale>), and the scale depends upon the values being processed.",
+  "When passed a VARCHAR expression, VAR_POP implicitly casts the input to floating point values, and returns an error if the cast cannot be performed.",
+  "When VAR_POP is called as a window function with an ORDER BY subclause and no explicit window frame, the ORDER BY implies a cumulative window frame: RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW.",
+  "Using the keyword DISTINCT inside the VAR_POP window function is prohibited and results in a compile-time error.",
+  "The example table aggr is created with columns k int, v decimal(10,2), and v2 decimal(10,2).",
+  "In the example, group k=1 has v values of 10 and v2 of null, so VAR_POP(v) is 0.0000000000 and VAR_POP(v2) is NULL.",
+  "In the example, group k=2 has v values 10, 20, 25, 30, so VAR_POP(v) is 54.6875000000.",
+  "In the example, group k=2 has non-null v2 values 11, 22, 35, so VAR_POP(v2) is 96.2222222222."
+ ],
+ "entities": [
+  {
+   "name": "VAR_POP",
+   "type": "program",
+   "role": "Aggregate and window SQL function that returns the population variance of non-NULL numeric values in a group"
+  },
+  {
+   "name": "aggr",
+   "type": "program",
+   "role": "Example table created and filled to demonstrate VAR_POP"
+  }
+ ],
+ "tags": [
+  "sql",
+  "aggregate-function",
+  "window-function",
+  "variance",
+  "statistics",
+  "snowflake"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2306,
+  "output_tokens": 836
+ }
+}

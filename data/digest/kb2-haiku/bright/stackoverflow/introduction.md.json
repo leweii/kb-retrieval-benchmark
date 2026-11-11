@@ -1,0 +1,121 @@
+{
+ "summary": "This is the introduction to William Vincent's book 'Django for Beginners', a project-based beginner tutorial for the Django 4.2 web framework and Python 3.11. It explains that the book builds five progressively complex apps (Hello World, Pages, Message Board, Blog, Newspaper) and covers Django's history, its batteries-included philosophy compared with Flask, the Django 4.2 LTS release and its async progress, the 17-chapter structure, code conventions, advice on getting unstuck, and the Django community.",
+ "one_line": "Introduction to William Vincent's beginner-friendly book teaching Django 4.2 and Python 3.11 through five project-based web apps.",
+ "key_facts": [
+  "Django for Beginners is written for Django 4.2 and Python 3.11.",
+  "The book builds five progressively more complex web applications: Hello, World; Pages; Message Board; Blog; and Newspaper.",
+  "Django was first released in 2005.",
+  "Websites named as using Django include Instagram, Pinterest, Bitbucket, and Disqus.",
+  "Django 4.2 was released in April 2023 and has official support for Python 3.8, 3.9, 3.10, and 3.11.",
+  "Django 4.2 is an LTS (Long Term Support) release that will receive security updates for at least three years after its release.",
+  "Django 3.2 is the previous LTS release, and its support ends in April 2024.",
+  "Django 3.0 added ASGI (Asynchronous Server Gateway Interface).",
+  "Django's release schedule includes monthly security/bug fixes and a major new release every eight months.",
+  "The author wrote the book because Django has incredible documentation but needs more beginner-friendly tutorials.",
+  "Flask is described as a microframework that provides only the bare minimum and requires adding a dozen or more third-party packages.",
+  "Django adopts an MVT (Model-View-Template) approach, slightly different from the dominant MVC (Model-View-Controller) pattern.",
+  "Chapter 3 introduces templates and class-based views and deploys the Pages app to Fly.io.",
+  "Chapter 4 builds a Message Board app and Chapter 5 deploys it.",
+  "Chapter 10 covers a custom user model, which the author calls a Django best practice rarely addressed in tutorials.",
+  "The Conclusion is followed by a note that the next chapter is Chapter 1: Initial Set Up."
+ ],
+ "entities": [
+  {
+   "name": "Django for Beginners",
+   "type": "program",
+   "role": "the book introduced by this note, a Python and Django tutorial for beginners"
+  },
+  {
+   "name": "Django",
+   "type": "product",
+   "role": "free, open-source web framework written in Python, first released in 2005, which the book teaches"
+  },
+  {
+   "name": "William Vincent",
+   "type": "person",
+   "role": "author of Django for Beginners, copyright holder of the book"
+  },
+  {
+   "name": "Flask",
+   "type": "product",
+   "role": "microframework contrasted with Django for providing only the bare minimum and maximum flexibility"
+  },
+  {
+   "name": "Instagram",
+   "type": "organization",
+   "role": "one of the large websites named as powered by Django"
+  },
+  {
+   "name": "Pinterest",
+   "type": "organization",
+   "role": "one of the large websites named as powered by Django"
+  },
+  {
+   "name": "Bitbucket",
+   "type": "organization",
+   "role": "one of the large websites named as powered by Django"
+  },
+  {
+   "name": "Disqus",
+   "type": "organization",
+   "role": "one of the large websites named as powered by Django"
+  },
+  {
+   "name": "Rails",
+   "type": "product",
+   "role": "web framework in Ruby, cited as an example of frameworks in other languages"
+  },
+  {
+   "name": "Laravel",
+   "type": "product",
+   "role": "web framework in PHP, cited as an example of frameworks in other languages"
+  },
+  {
+   "name": "Fly.io",
+   "type": "organization",
+   "role": "platform-as-a-service provider to which the Pages app is deployed in Chapter 3"
+  },
+  {
+   "name": "Django Software Foundation",
+   "type": "organization",
+   "role": "non-profit that oversees Django"
+  },
+  {
+   "name": "DjangoCon",
+   "type": "event",
+   "role": "annual Django conferences"
+  },
+  {
+   "name": "Django Forum",
+   "type": "program",
+   "role": "official online forum where the Django community asks and answers questions"
+  },
+  {
+   "name": "Django Users Google Group",
+   "type": "program",
+   "role": "online group where the Django community asks and answers questions"
+  },
+  {
+   "name": "GitHub",
+   "type": "organization",
+   "role": "code repository host where the official source code of the book is available and where the Chapter 2 project is uploaded"
+  },
+  {
+   "name": "Chapter 1: Initial Set Up",
+   "type": "event",
+   "role": "next chapter, where readers learn to set up their computer and create their first Django project"
+  }
+ ],
+ "tags": [
+  "django",
+  "python",
+  "web-development",
+  "beginners-guide",
+  "book-introduction"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5523,
+  "output_tokens": 1512
+ }
+}

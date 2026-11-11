@@ -1,0 +1,85 @@
+{
+ "summary": "A DigitalOcean Community tutorial by Pankaj explaining the difference between Java heap space and stack memory, using a simple sample program to trace how primitives, object references and objects are placed in each during execution. It concludes with a list of eight differences covering access scope, memory management, lifetime, JVM options, error types and speed. The page's navigation, comments and marketing boilerplate are ignored.",
+ "one_line": "Pankaj's DigitalOcean tutorial explaining Java heap versus stack memory allocation, with a worked example and a list of key differences.",
+ "key_facts": [
+  "The tutorial was published on August 3, 2022 and is authored by Pankaj.",
+  "Java heap space is used by the Java runtime to allocate memory to objects and JRE classes.",
+  "Garbage Collection runs on the heap memory to free memory used by objects that have no reference.",
+  "Java stack memory is used for the execution of a thread and is referenced in LIFO (Last-In-First-Out) order.",
+  "Whenever a method is invoked, a new block is created in the stack memory to hold local primitive values and references.",
+  "In the sample program, the string created in line 7 goes in the String Pool in the heap space, with a reference in the foo() stack block.",
+  "Heap memory is used by all parts of the application, whereas stack memory is used only by one thread of execution.",
+  "Stack memory only contains local primitive variables and reference variables to objects in heap space.",
+  "The JVM options -Xms and -Xmx define the startup and maximum size of heap memory, and -Xss defines the stack memory size.",
+  "When stack memory is full, Java runtime throws java.lang.StackOverFlowError.",
+  "When heap memory is full, Java runtime throws java.lang.OutOfMemoryError: Java Heap Space.",
+  "Stack memory is very fast compared to heap memory because of the simplicity of LIFO allocation.",
+  "Heap memory is divided into Young-Generation and Old-Generation, among others.",
+  "The article references https://en.wikipedia.org/wiki/Java_memory_model."
+ ],
+ "entities": [
+  {
+   "name": "Pankaj",
+   "type": "person",
+   "role": "author of the tutorial, who previously wrote posts about Java Garbage Collection and Java is Pass by Value"
+  },
+  {
+   "name": "DigitalOcean Community",
+   "type": "organization",
+   "role": "publisher of the tutorial"
+  },
+  {
+   "name": "Java Heap Space",
+   "type": "other",
+   "role": "JVM memory area used to allocate memory to objects and JRE classes and subject to garbage collection"
+  },
+  {
+   "name": "Java Stack Memory",
+   "type": "other",
+   "role": "memory used for thread execution holding method-specific values and references, referenced in LIFO order"
+  },
+  {
+   "name": "String Pool",
+   "type": "other",
+   "role": "area in the heap space where the string created at line 7 of the sample program is stored"
+  },
+  {
+   "name": "com.journaldev.test.Memory",
+   "type": "program",
+   "role": "sample Java program used to illustrate heap and stack usage"
+  },
+  {
+   "name": "java.lang.StackOverFlowError",
+   "type": "other",
+   "role": "error thrown by the Java runtime when stack memory is full"
+  },
+  {
+   "name": "java.lang.OutOfMemoryError: Java Heap Space",
+   "type": "other",
+   "role": "error thrown by the Java runtime when heap memory is full"
+  },
+  {
+   "name": "Java Garbage Collection",
+   "type": "program",
+   "role": "process that runs on heap memory to free unreferenced objects, with more details in a linked article"
+  },
+  {
+   "name": "Java memory model",
+   "type": "other",
+   "role": "subject of the Wikipedia reference cited at the end of the tutorial"
+  }
+ ],
+ "tags": [
+  "java",
+  "memory management",
+  "heap",
+  "stack",
+  "garbage collection",
+  "tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7808,
+  "output_tokens": 1195
+ }
+}

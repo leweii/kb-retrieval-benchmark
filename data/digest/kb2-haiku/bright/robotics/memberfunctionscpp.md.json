@@ -1,0 +1,72 @@
+{
+ "summary": "This note is the source code of a minimal ROS 2 action client written in C++ with rclcpp and rclcpp_action, licensed under Apache 2.0 by the Open Source Robotics Foundation (2019). The MinimalActionClient node creates a client for the \"fibonacci\" action, and a 500 ms wall timer triggers send_goal, which waits up to 10 seconds for the action server and then sends a Fibonacci goal with order 10. Callbacks log goal acceptance or rejection, each feedback value in the sequence, and the final result; main spins the node until the goal is done.",
+ "one_line": "A minimal ROS 2 C++ action client that sends a Fibonacci goal (order 10) to the \"fibonacci\" action server and logs feedback and results.",
+ "key_facts": [
+  "The source code is copyright 2019 Open Source Robotics Foundation, Inc. and licensed under the Apache License, Version 2.0.",
+  "The node class is named MinimalActionClient and inherits from rclcpp::Node.",
+  "The node is named \"minimal_action_client\".",
+  "The action client is created with rclcpp_action::create_client<Fibonacci> on the action name \"fibonacci\".",
+  "The action type used is example_interfaces::action::Fibonacci.",
+  "A wall timer with a period of 500 milliseconds is created and bound to send_goal.",
+  "send_goal waits up to 10 seconds for the action server using wait_for_action_server.",
+  "If the action server is not available after waiting, the client logs \"Action server not available after waiting\" and sets goal_done_ to true.",
+  "The goal message sets goal_msg.order to 10.",
+  "Feedback is logged as \"Next number in sequence received:\" followed by feedback->sequence.back().",
+  "The result_callback handles SUCCEEDED, ABORTED and CANCELED result codes and logs each number in the result sequence on success.",
+  "The main function calls rclcpp::init, spins the node with rclcpp::spin_some while the goal is not done, and then calls rclcpp::shutdown."
+ ],
+ "entities": [
+  {
+   "name": "Open Source Robotics Foundation, Inc.",
+   "type": "organization",
+   "role": "copyright holder of the source code (2019)"
+  },
+  {
+   "name": "Apache License, Version 2.0",
+   "type": "other",
+   "role": "license under which the code is licensed"
+  },
+  {
+   "name": "MinimalActionClient",
+   "type": "program",
+   "role": "C++ rclcpp::Node class that implements the Fibonacci action client"
+  },
+  {
+   "name": "minimal_action_client",
+   "type": "program",
+   "role": "name of the node passed to the Node base constructor"
+  },
+  {
+   "name": "fibonacci",
+   "type": "program",
+   "role": "name of the action the client connects to"
+  },
+  {
+   "name": "example_interfaces::action::Fibonacci",
+   "type": "product",
+   "role": "action type whose goal, feedback and result the client uses"
+  },
+  {
+   "name": "rclcpp",
+   "type": "product",
+   "role": "ROS 2 C++ client library used for the node, timers, logging and spinning"
+  },
+  {
+   "name": "rclcpp_action",
+   "type": "product",
+   "role": "ROS 2 C++ action library used to create the client and handle goal callbacks"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "action-client",
+  "c++",
+  "rclcpp",
+  "fibonacci"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2956,
+  "output_tokens": 1054
+ }
+}

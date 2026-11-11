@@ -1,0 +1,64 @@
+{
+ "summary": "This FRED page presents the quarterly series Household Debt to GDP for the United States (HDTGPDUSQ163N), sourced from the International Monetary Fund's Financial Soundness Indicators, measuring resident household debt (mainly consumer loans and mortgages) as a ratio to GDP. The series runs from Q1 2005 to Q3 2023 in a not seasonally adjusted ratio format, with the latest observation at 75.24092 in Q3 2023. The ratio peaked near 100.5 in Q4 2007 and declined to the mid-70s by 2019 and again in 2023, with a temporary rise to 81.57 in Q4 2020.",
+ "one_line": "FRED page with quarterly IMF data on U.S. household debt as a percentage of GDP from 2005 to 2023.",
+ "key_facts": [
+  "The series is Household Debt to GDP for United States, FRED series ID HDTGPDUSQ163N.",
+  "The data are sourced from the International Monetary Fund, Release: Financial Soundness Indicators.",
+  "The series is quarterly, measured in ratio units, and not seasonally adjusted.",
+  "The latest observation shown is Q3 2023 at 75.24092.",
+  "The series was last updated on Jan 2, 2024 at 7:02 AM CST.",
+  "The series starts at 86.7951868212774 in Q1 2005.",
+  "The highest value in the data is 100.512710503135 in Q4 2007.",
+  "The lowest value in the data is 74.0593436350386 in Q1 2023.",
+  "The value was 81.5707356680413 in Q4 2020, while Q1 2021 fell to 74.4150340498583.",
+  "The IMF notes that the data comprise debt incurred by resident households of the economy only.",
+  "The Financial Soundness Indicator measures overall household indebtedness, commonly related to consumer loans and mortgages, as a share of GDP.",
+  "The copyright for the IMF data is held by the International Monetary Fund, 2016, reprinted with permission on FRED.",
+  "Shaded areas on the chart indicate U.S. recessions."
+ ],
+ "entities": [
+  {
+   "name": "Federal Reserve Bank of St. Louis",
+   "type": "organization",
+   "role": "operator of FRED, publisher of the economic data page and suggested citation source"
+  },
+  {
+   "name": "International Monetary Fund",
+   "type": "organization",
+   "role": "source of the Household Debt to GDP data via its Financial Soundness Indicators release"
+  },
+  {
+   "name": "Federal Reserve Economic Data (FRED)",
+   "type": "product",
+   "role": "online economic data platform hosting the Household Debt to GDP series"
+  },
+  {
+   "name": "Household Debt to GDP for United States",
+   "type": "program",
+   "role": "quarterly ratio series (HDTGPDUSQ163N) of resident household debt as a share of GDP"
+  },
+  {
+   "name": "Financial Soundness Indicators",
+   "type": "program",
+   "role": "IMF release from which the household debt series is drawn"
+  },
+  {
+   "name": "ALFRED Vintage Series",
+   "type": "product",
+   "role": "related content suggestion listed on the page"
+  }
+ ],
+ "tags": [
+  "household debt",
+  "gdp",
+  "united states",
+  "macroeconomics",
+  "federal reserve data",
+  "imf data"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 3317,
+  "output_tokens": 1039
+ }
+}

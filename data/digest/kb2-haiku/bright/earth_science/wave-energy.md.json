@@ -1,0 +1,58 @@
+{
+ "summary": "This Energyland page (a Hong Kong energy-efficiency education site) explains wave energy. It describes how wind creates ocean waves, how waves carry kinetic and potential energy, and two main ways to harness them: air pushed through a turbine pipe, or waves channeled into a catch basin or used directly on turbines. It notes that small on-shore sites have the best near-term potential, especially if they also protect beaches and harbours. The rest of the page is navigation, menus, and a sidebar listing other renewable energy topics.",
+ "one_line": "Explains how wave energy is formed from wind over oceans, its kinetic and potential energy, and methods to harness it for electricity.",
+ "key_facts": [
+  "Waves are formed by the wind blowing over the surface of the ocean.",
+  "In many areas of the world, the wind blows with enough consistency and force to provide continuous waves.",
+  "Waves contain both kinetic and potential energies.",
+  "The kinetic energy of waves is related to the velocity of the movement of water.",
+  "The potential energy of waves is a function of the amount of water displaced from the mean sea level.",
+  "One way to harness wave energy is to use the motion of the waves to push and pull air through a pipe, where the air spins a turbine producing electricity.",
+  "Another way to produce wave energy is to bend or focus the waves into a narrow channel, increasing their power and size.",
+  "Channeled waves can be fed into a catch basin, like tidal plants, or used directly to spin turbines.",
+  "Some wave-energy devices power the lights and whistles on buoys.",
+  "Small, on-shore sites have the best potential for the immediate future.",
+  "On-shore wave energy sites could also be used to protect beaches and harbours.",
+  "Wave energy sites could produce enough energy to power local communities.",
+  "The illustration caption states that a tapered channel reservoir stores the water from waves and exploits the potential energy of water to generate electricity."
+ ],
+ "entities": [
+  {
+   "name": "Energyland",
+   "type": "program",
+   "role": "energy education website whose wave energy page this note is taken from"
+  },
+  {
+   "name": "Energy",
+   "type": "other",
+   "role": "parent section of the site under which New and Renewable Energy is listed"
+  },
+  {
+   "name": "New and Renewable Energy",
+   "type": "other",
+   "role": "section containing the wave energy page and related renewable topics"
+  },
+  {
+   "name": "Wave Energy",
+   "type": "other",
+   "role": "subject of the note, a renewable energy source formed by wind-driven ocean waves"
+  },
+  {
+   "name": "Tidal Energy",
+   "type": "other",
+   "role": "related renewable energy topic listed in the navigation table; tidal plants are mentioned as a comparison for catch basins"
+  }
+ ],
+ "tags": [
+  "wave energy",
+  "renewable energy",
+  "ocean energy",
+  "energy harvesting",
+  "hong kong energy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13839,
+  "output_tokens": 893
+ }
+}

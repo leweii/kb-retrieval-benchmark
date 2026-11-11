@@ -1,0 +1,35 @@
+{
+ "summary": "This clipped documentation page describes the MOD function, a numeric function that returns the remainder of expr1 divided by expr2, equivalent to the expression expr1 % expr2. It gives the syntax MOD(<expr1>, <expr2>), notes that both arguments must be numeric but need not be integers, and says the return is either an integer or a fixed-point decimal. A short example shows MOD(3, 2) returning 1 and MOD(4.5, 1.2) returning 0.9. Navigation and feedback boilerplate on the page was ignored.",
+ "one_line": "Reference page for the MOD numeric function, which returns the remainder of one numeric expression divided by another.",
+ "key_facts": [
+  "MOD returns the remainder of input expr1 divided by input expr2.",
+  "MOD(expr1, expr2) is equivalent to the expression expr1 % expr2.",
+  "The syntax is MOD( <expr1> , <expr2> ).",
+  "Both expr1 and expr2 must be numeric expressions.",
+  "The arguments are not required to be integers.",
+  "MOD returns either an integer or a fixed-point decimal number.",
+  "The page lists MOD under the Arithmetic category among numeric functions.",
+  "Example: SELECT MOD(3, 2) AS mod1 returns 1.",
+  "Example: MOD(4.5, 1.2) returns 0.9 in the same query.",
+  "The example output table has column headers MOD1 and MOD2."
+ ],
+ "entities": [
+  {
+   "name": "MOD",
+   "type": "program",
+   "role": "numeric function that returns the remainder of expr1 divided by expr2"
+  }
+ ],
+ "tags": [
+  "sql",
+  "numeric functions",
+  "modulo",
+  "arithmetic",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1561,
+  "output_tokens": 554
+ }
+}

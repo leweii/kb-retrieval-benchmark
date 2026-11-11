@@ -1,0 +1,173 @@
+[
+ {
+  "category": "bright_ans",
+  "scale": 300,
+  "bm25": {
+   "any": 0.9,
+   "all": 0.85,
+   "n": 40
+  },
+  "dense": {
+   "any": 1.0,
+   "all": 1.0,
+   "n": 40
+  },
+  "hybrid": {
+   "any": 1.0,
+   "all": 1.0,
+   "n": 40
+  }
+ },
+ {
+  "category": "bright_ans",
+  "scale": 900,
+  "bm25": {
+   "any": 0.79,
+   "all": 0.73,
+   "n": 120
+  },
+  "dense": {
+   "any": 0.99,
+   "all": 0.98,
+   "n": 120
+  },
+  "hybrid": {
+   "any": 0.97,
+   "all": 0.95,
+   "n": 120
+  }
+ },
+ {
+  "category": "bright_ans",
+  "scale": 3000,
+  "bm25": {
+   "any": 0.68,
+   "all": 0.62,
+   "n": 120
+  },
+  "dense": {
+   "any": 0.92,
+   "all": 0.89,
+   "n": 120
+  },
+  "hybrid": {
+   "any": 0.89,
+   "all": 0.87,
+   "n": 120
+  }
+ },
+ {
+  "category": "musique_ans",
+  "scale": 300,
+  "bm25": {
+   "any": 1.0,
+   "all": 0.4,
+   "n": 60
+  },
+  "dense": {
+   "any": 0.98,
+   "all": 0.75,
+   "n": 60
+  },
+  "hybrid": {
+   "any": 1.0,
+   "all": 0.58,
+   "n": 60
+  }
+ },
+ {
+  "category": "musique_ans",
+  "scale": 900,
+  "bm25": {
+   "any": 0.97,
+   "all": 0.32,
+   "n": 200
+  },
+  "dense": {
+   "any": 0.99,
+   "all": 0.67,
+   "n": 200
+  },
+  "hybrid": {
+   "any": 0.99,
+   "all": 0.56,
+   "n": 200
+  }
+ },
+ {
+  "category": "musique_ans",
+  "scale": 3000,
+  "bm25": {
+   "any": 0.93,
+   "all": 0.24,
+   "n": 200
+  },
+  "dense": {
+   "any": 0.98,
+   "all": 0.53,
+   "n": 200
+  },
+  "hybrid": {
+   "any": 0.98,
+   "all": 0.41,
+   "n": 200
+  }
+ },
+ {
+  "category": "nolima",
+  "scale": 300,
+  "bm25": {
+   "any": 0.0,
+   "all": 0.0,
+   "n": 8
+  },
+  "dense": {
+   "any": 0.5,
+   "all": 0.5,
+   "n": 8
+  },
+  "hybrid": {
+   "any": 0.25,
+   "all": 0.25,
+   "n": 8
+  }
+ },
+ {
+  "category": "nolima",
+  "scale": 900,
+  "bm25": {
+   "any": 0.0,
+   "all": 0.0,
+   "n": 20
+  },
+  "dense": {
+   "any": 0.5,
+   "all": 0.5,
+   "n": 20
+  },
+  "hybrid": {
+   "any": 0.4,
+   "all": 0.4,
+   "n": 20
+  }
+ },
+ {
+  "category": "nolima",
+  "scale": 3000,
+  "bm25": {
+   "any": 0.0,
+   "all": 0.0,
+   "n": 20
+  },
+  "dense": {
+   "any": 0.25,
+   "all": 0.25,
+   "n": 20
+  },
+  "hybrid": {
+   "any": 0.1,
+   "all": 0.1,
+   "n": 20
+  }
+ }
+]

@@ -1,0 +1,62 @@
+{
+ "summary": "A GitHub issue (#7357) in the pydantic repository, opened by AlphaGit on Sep 6, 2023, reports that numeric strings such as '100' fail to validate as timedelta in Pydantic V2 (version 2.3.0), while integers succeed as seconds. Maintainer sydney-runkle explains that Pydantic interprets integers as seconds but expects strings to be ISO8601 durations, and suggests a field_validator workaround that converts the value to int before validation. The issue was labeled as a question and closed as completed the same day.",
+ "one_line": "GitHub issue in pydantic where numeric strings fail to parse as timedelta in Pydantic V2, with a maintainer workaround using a before-validator.",
+ "key_facts": [
+  "GitHub issue #7357 in the pydantic repository is titled 'Timedelta as numeric string unparseable?'.",
+  "The issue was opened by AlphaGit on Sep 6, 2023.",
+  "The reporter was using pydantic version 2.3.0 with pydantic-core version 2.6.3.",
+  "The reporter upgraded a FastAPI application to pydantic 2 and found it strict in ways that exposed inconsistencies in their code.",
+  "MyClass.model_validate({'t': 100}) succeeds and yields t=datetime.timedelta(seconds=100).",
+  "MyClass.model_validate({'t': '100'}) fails with 'day identifier in duration not correctly formatted'.",
+  "MyClass.model_validate_json('{\"t\": \"100\"}') also fails with a time_delta_parsing error.",
+  "Maintainer sydney-runkle stated that an int given for a timedelta field is interpreted as the number of seconds.",
+  "Maintainer sydney-runkle stated that a str given for a timedelta field is assumed to be in ISO8601 format.",
+  "The suggested workaround is a field_validator in mode 'before' that returns int(v) and raises ValueError('t must be an int value in seconds') on failure.",
+  "The issue was labeled 'question' and the maintainer closed it as completed on Sep 6, 2023.",
+  "The issue had one comment and three participants, and the reporter reacted with a thumbs up to the maintainer's reply."
+ ],
+ "entities": [
+  {
+   "name": "pydantic",
+   "type": "product",
+   "role": "Python data validation library whose repository hosts issue #7357"
+  },
+  {
+   "name": "AlphaGit",
+   "type": "person",
+   "role": "reporter who opened issue #7357 and experienced the timedelta parsing failure"
+  },
+  {
+   "name": "sydney-runkle",
+   "type": "person",
+   "role": "pydantic maintainer who answered the issue, explained the behavior, and closed it"
+  },
+  {
+   "name": "FastAPI",
+   "type": "product",
+   "role": "web framework the reporter's application was built on, which was upgraded to pydantic 2"
+  },
+  {
+   "name": "Pydantic V2 migration guide",
+   "type": "program",
+   "role": "documentation containing a table on how Pydantic converts data during validation"
+  },
+  {
+   "name": "ISO8601",
+   "type": "other",
+   "role": "format that Pydantic assumes for string input to a timedelta field"
+  }
+ ],
+ "tags": [
+  "pydantic",
+  "timedelta",
+  "validation",
+  "github-issue",
+  "python"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4288,
+  "output_tokens": 1040
+ }
+}

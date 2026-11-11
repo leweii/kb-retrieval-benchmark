@@ -1,0 +1,61 @@
+{
+ "summary": "This is a Snowflake reference page for the HEX_DECODE_STRING function, which decodes a hex-encoded string into a string (VARCHAR). It shows the syntax, notes that hex digits A-F may be uppercase or lowercase, and gives examples decoding 536E6F77666C616B65 to 'Snowflake' and a table example that round-trips 'HELLO' through binary storage. The surrounding navigation and feedback boilerplate is ignored.",
+ "one_line": "Snowflake reference for HEX_DECODE_STRING, which decodes a hex-encoded string into a VARCHAR, with examples.",
+ "key_facts": [
+  "HEX_DECODE_STRING decodes a hex-encoded string to a string.",
+  "The syntax is HEX_DECODE_STRING(<input>), where input is a hex-encoded string expression.",
+  "The function returns a string (VARCHAR).",
+  "SELECT HEX_DECODE_STRING('536E6F77666C616B65') returns 'Snowflake'.",
+  "The hexadecimal digits A-F can be uppercase or lowercase.",
+  "SELECT HEX_DECODE_STRING('536e6f77666c616b65') with lowercase letters produces the same result, 'Snowflake'.",
+  "The page example creates a table named binary_table with columns v VARCHAR and b BINARY.",
+  "The example inserts 'HELLO' using HEX_DECODE_BINARY(HEX_ENCODE('HELLO')) into binary_table.",
+  "The binary value for 'HELLO' is shown as 48454C4C4F.",
+  "SELECT HEX_DECODE_STRING(TO_VARCHAR(b)) on binary_table returns 'HELLO'.",
+  "The page lists HEX_ENCODE as the function that typically creates the hex-encoded input."
+ ],
+ "entities": [
+  {
+   "name": "HEX_DECODE_STRING",
+   "type": "program",
+   "role": "function that decodes a hex-encoded string to a string (VARCHAR)"
+  },
+  {
+   "name": "HEX_DECODE_BINARY",
+   "type": "program",
+   "role": "function used in the table example to convert hex into binary"
+  },
+  {
+   "name": "HEX_ENCODE",
+   "type": "program",
+   "role": "function that creates hex-encoded input, used in the table example"
+  },
+  {
+   "name": "TO_VARCHAR",
+   "type": "program",
+   "role": "function used to convert the binary column to a string before decoding"
+  },
+  {
+   "name": "binary_table",
+   "type": "other",
+   "role": "example table with columns v VARCHAR and b BINARY"
+  },
+  {
+   "name": "Snowflake",
+   "type": "other",
+   "role": "word produced by decoding the example hex string 536E6F77666C616B65"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "hex-encoding",
+  "string-functions",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2016,
+  "output_tokens": 904
+ }
+}

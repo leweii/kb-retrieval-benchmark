@@ -1,0 +1,79 @@
+{
+ "summary": "This clipped Department of Energy (energy.gov) page introduces nuclear power as the use of sustained nuclear fission to generate heat and electricity, noting it supplies nearly 20 percent of US electricity. It describes the Office of Nuclear Energy's mission to advance nuclear power as a low-carbon, secure energy resource and lists linked articles on reactors, facilities, and nuclear history. Navigation and footer boilerplate were ignored.",
+ "one_line": "U.S. Department of Energy overview of nuclear power's role in American electricity, the Office of Nuclear Energy's mission, and related reactor and facility articles.",
+ "key_facts": [
+  "Nuclear power is the use of sustained nuclear fission to generate heat and electricity.",
+  "Nuclear power contributes nearly 20 percent of the electricity generated in America.",
+  "The United States has used nuclear power for more than 60 years to produce reliable, low-carbon energy and to support national defense activities.",
+  "The Energy Department's Office of Nuclear Energy's primary mission is to advance nuclear power as a resource capable of making major contributions to the nation's energy supply, environmental, and energy security needs.",
+  "The Office of Nuclear Energy (NE) supports the Administration's goals of providing domestic sources of secure energy, reducing greenhouse gases, and enhancing national security.",
+  "A typical nuclear reactor produces 1 gigawatt of power per plant on average.",
+  "The Hot Fuel Examination Facility at Idaho National Laboratory is one of the best places in the world to conduct radioactive materials research.",
+  "The Idaho Operations Office oversees nuclear facility contract activities in accordance with DOE directives.",
+  "The Transient Reactor Test Facility at Idaho National Laboratory is back online after more than 2 decades of dormancy.",
+  "The article 'National Lab Test Reactor Resumes Operations after 23-Year Hiatus' covers the Transient Reactor Test Facility's return to service.",
+  "The article '10 Intriguing Facts About the World's First Nuclear Chain Reaction' covers the world's first controlled release of nuclear energy.",
+  "Advanced small modular reactors are discussed in the article '4 Key Benefits of Advanced Small Modular Reactors'.",
+  "The page lists the Department of Energy's headquarters address as 1000 Independence Ave. SW, Washington DC 20585."
+ ],
+ "entities": [
+  {
+   "name": "U.S. Department of Energy",
+   "type": "organization",
+   "role": "federal agency (energy.gov) publishing the page on nuclear energy"
+  },
+  {
+   "name": "Office of Nuclear Energy",
+   "type": "organization",
+   "role": "Energy Department office whose primary mission is advancing nuclear power; abbreviated NE"
+  },
+  {
+   "name": "Idaho National Laboratory",
+   "type": "place",
+   "role": "national lab hosting the Hot Fuel Examination Facility and Transient Reactor Test Facility"
+  },
+  {
+   "name": "Hot Fuel Examination Facility",
+   "type": "program",
+   "role": "facility at Idaho National Laboratory described as one of the best places for radioactive materials research"
+  },
+  {
+   "name": "Transient Reactor Test Facility",
+   "type": "program",
+   "role": "test facility at Idaho National Laboratory back online after more than 2 decades of dormancy"
+  },
+  {
+   "name": "Idaho Operations Office",
+   "type": "organization",
+   "role": "office that oversees nuclear facility contract activities in accordance with DOE directives"
+  },
+  {
+   "name": "Nuclear Reactor Technologies",
+   "type": "program",
+   "role": "linked section providing information on nuclear reactor technologies"
+  },
+  {
+   "name": "Nuclear Facilities",
+   "type": "program",
+   "role": "linked section on nuclear facility operations"
+  },
+  {
+   "name": "Advanced Small Modular Reactors",
+   "type": "product",
+   "role": "reactor design discussed in a linked article on its key benefits"
+  }
+ ],
+ "tags": [
+  "nuclear energy",
+  "nuclear power",
+  "energy policy",
+  "reactors",
+  "low-carbon energy",
+  "department of energy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4843,
+  "output_tokens": 1307
+ }
+}

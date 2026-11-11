@@ -1,0 +1,83 @@
+{
+ "summary": "This note is API documentation for the handler_backends module of the telebot (pyTelegramBotAPI) library. It covers the BaseMiddleware base class for class-based middleware, including the update_sensitive flag and pre/post-process hooks, and the control-flow classes CancelUpdate, ContinueHandling and SkipHandler. It also describes the State and StatesGroup classes used for conversation state, with short code examples.",
+ "one_line": "Reference docs for telebot's handler_backends module: middleware base class, flow-control classes, and state classes.",
+ "key_facts": [
+  "telebot.handler_backends.BaseMiddleware is a base class for middleware and inherits from object.",
+  "Middleware classes should be inherited from BaseMiddleware.",
+  "Setting update_sensitive=True lets a middleware receive different updates on different functions, such as pre_process_message for message updates.",
+  "To use middleware, use_class_middlewares=True must be set in the TeleBot instance.",
+  "BaseMiddleware.update_sensitive has the type bool and defaults to False.",
+  "Returning an instance of CancelUpdate from middleware skips the update, including the handler and post_process in middlewares.",
+  "Returning an instance of ContinueHandling from a handler lets processing continue to the next handler.",
+  "Returning an instance of SkipHandler from middleware skips the handler, but the update still goes to post_process.",
+  "State represents a state; in the example, my_state = State() returns the string my_state:State.",
+  "StatesGroup is a class representing common states, and state_list is a property of it.",
+  "The example class MyMiddleware sets self.update_types to ['message', 'edited_message'].",
+  "The example start handler sends 'Hello World!' and returns ContinueHandling() so that start2 sends 'Hello World2!'."
+ ],
+ "entities": [
+  {
+   "name": "telebot",
+   "type": "product",
+   "role": "Python library whose handler_backends module is documented"
+  },
+  {
+   "name": "telebot.handler_backends",
+   "type": "program",
+   "role": "module containing the documented middleware, flow-control and state classes"
+  },
+  {
+   "name": "BaseMiddleware",
+   "type": "program",
+   "role": "base class from which middleware should be inherited"
+  },
+  {
+   "name": "CancelUpdate",
+   "type": "program",
+   "role": "class returned in middleware to skip an update"
+  },
+  {
+   "name": "ContinueHandling",
+   "type": "program",
+   "role": "class returned in handlers to continue processing"
+  },
+  {
+   "name": "SkipHandler",
+   "type": "program",
+   "role": "class returned in middleware to skip a handler"
+  },
+  {
+   "name": "State",
+   "type": "program",
+   "role": "class representing a single state"
+  },
+  {
+   "name": "StatesGroup",
+   "type": "program",
+   "role": "class representing a group of common states"
+  },
+  {
+   "name": "TeleBot",
+   "type": "product",
+   "role": "bot instance in which use_class_middlewares=True must be set to use middleware"
+  },
+  {
+   "name": "MyMiddleware",
+   "type": "program",
+   "role": "example class-based middleware subclassing BaseMiddleware"
+  }
+ ],
+ "tags": [
+  "telebot",
+  "telegram-bot",
+  "middleware",
+  "python-api",
+  "state-management",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2022,
+  "output_tokens": 985
+ }
+}

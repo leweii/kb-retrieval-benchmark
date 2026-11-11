@@ -1,0 +1,37 @@
+{
+ "summary": "A short biographical note about Pratapnarayan, whose parents were Rudranarayan and Bhavashankari. It states that he was their only child and that his father died when he was five years old. The note is very brief and gives no further details about his life or career.",
+ "one_line": "Brief biographical note on Pratapnarayan, only child of Rudranarayan and Bhavashankari, whose father died when he was five.",
+ "key_facts": [
+  "Pratapnarayan was the only child of Rudranarayan and Bhavashankari.",
+  "Pratapnarayan's father died when Pratapnarayan was just five years of age.",
+  "Rudranarayan is listed as the father of Pratapnarayan.",
+  "Bhavashankari is listed as the mother of Pratapnarayan."
+ ],
+ "entities": [
+  {
+   "name": "Pratapnarayan",
+   "type": "person",
+   "role": "subject of the note; only child of Rudranarayan and Bhavashankari"
+  },
+  {
+   "name": "Rudranarayan",
+   "type": "person",
+   "role": "father of Pratapnarayan, who died when Pratapnarayan was five"
+  },
+  {
+   "name": "Bhavashankari",
+   "type": "person",
+   "role": "mother of Pratapnarayan"
+  }
+ ],
+ "tags": [
+  "biography",
+  "family",
+  "genealogy"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1028,
+  "output_tokens": 406
+ }
+}

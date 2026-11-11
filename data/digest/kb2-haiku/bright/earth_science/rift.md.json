@@ -1,0 +1,207 @@
+{
+ "summary": "This note explains rifts in geology: linear zones where the lithosphere is pulled apart through extensional tectonics, typically forming graben or half-graben structures. It covers rift geometry and accommodation zones, the stages of rift development from initiation to break-up and seafloor spreading, magmatism, the economic importance of rifts for minerals and hydrocarbons, and a list of example rifts worldwide.",
+ "one_line": "Overview of geological rifts: extensional zones where lithosphere is pulled apart, their geometry, development to break-up, magmatism, resources, and examples.",
+ "key_facts": [
+  "In geology, a rift is a linear zone where the lithosphere is being pulled apart, an example of extensional tectonics.",
+  "Typical rift features are a central linear downfaulted depression called a graben, or more commonly a half-graben with normal faulting and rift-flank uplifts mainly on one side.",
+  "Major rifts occur along the central axis of most mid-ocean ridges, where new oceanic crust and lithosphere is created along a divergent plate boundary.",
+  "Failed rifts typically develop at a triple junction where three converging rifts meet over a hotspot; the third ultimately fails, becoming an aulacogen.",
+  "Segment lengths of rifts vary with the elastic thickness of the lithosphere: the Baikal Rift has segment lengths in excess of 80 km, while in warmer thin lithosphere they may be less than 30 km.",
+  "Accommodation zones are segment boundary zones that generally cross the rift axis at a high angle and accommodate differences in fault displacement between segments.",
+  "Rift shoulders are typically about 70 km wide.",
+  "Elevated passive continental margins such as the Brazilian Highlands, the Scandinavian Mountains and India's Western Ghats are not rift shoulders, contrary to what was previously thought.",
+  "The amount of post-rift subsidence is related to the beta factor, defined as initial crustal thickness divided by final crustal thickness.",
+  "The North Sea rift shows evidence of several separate rift phases from the Permian through to the Earliest Cretaceous, a period of over 100 million years.",
+  "Alkali basalts and bimodal volcanism are common products of rift-related magmatism.",
+  "SedEx mineral deposits are found mainly in continental rift settings and form within post-rift sequences when hydrothermal fluids associated with magmatic activity are expelled at the seabed.",
+  "Thirty percent of giant oil and gas fields are found within continental rift settings.",
+  "In 1999 it was estimated that there were 200 billion barrels of recoverable oil reserves hosted in rifts.",
+  "Just over half of estimated oil reserves are found in rifts containing marine syn-rift and post-rift sequences.",
+  "The bottom of Lake Baikal is the deepest continental rift on the earth."
+ ],
+ "entities": [
+  {
+   "name": "Malawi Lake",
+   "type": "place",
+   "role": "lake whose topographic profile illustrates a rift"
+  },
+  {
+   "name": "Baikal Rift",
+   "type": "place",
+   "role": "thick cold lithosphere rift with segment lengths over 80 km; bottom of Lake Baikal is the deepest continental rift"
+  },
+  {
+   "name": "Gulf of Suez rift",
+   "type": "place",
+   "role": "rift where the Zaafarana accommodation zone lies; site of significant oil and gas accumulations"
+  },
+  {
+   "name": "Zaafarana accommodation zone",
+   "type": "place",
+   "role": "accommodation zone where a shear zone in the Arabian-Nubian Shield meets the Gulf of Suez rift"
+  },
+  {
+   "name": "Arabian-Nubian Shield",
+   "type": "place",
+   "role": "crustal structure intersected by the Zaafarana accommodation zone"
+  },
+  {
+   "name": "Brazilian Highlands",
+   "type": "place",
+   "role": "elevated passive continental margin, not a rift shoulder"
+  },
+  {
+   "name": "Scandinavian Mountains",
+   "type": "place",
+   "role": "elevated passive continental margin, not a rift shoulder"
+  },
+  {
+   "name": "Western Ghats",
+   "type": "place",
+   "role": "elevated passive continental margin in India, not a rift shoulder"
+  },
+  {
+   "name": "North Sea rift",
+   "type": "event",
+   "role": "rift showing several rift phases from the Permian to the Earliest Cretaceous"
+  },
+  {
+   "name": "Reykjanes Peninsula",
+   "type": "place",
+   "role": "Iceland location with volcano-tectonic landforms connected to rifting"
+  },
+  {
+   "name": "Viking Graben",
+   "type": "place",
+   "role": "continental rift with significant oil and gas accumulations"
+  },
+  {
+   "name": "McKenzie model",
+   "type": "program",
+   "role": "simple model of rifting treating rifting stage as instantaneous, providing a first-order estimate of crustal thinning"
+  },
+  {
+   "name": "flexural cantilever model",
+   "type": "program",
+   "role": "model that has generally replaced the McKenzie model, accounting for rift fault geometry and flexural isostasy"
+  },
+  {
+   "name": "Asunción Rift",
+   "type": "place",
+   "role": "rift in Eastern Paraguay"
+  },
+  {
+   "name": "Canadian Arctic Rift System",
+   "type": "place",
+   "role": "rift system in northern North America"
+  },
+  {
+   "name": "East African Rift",
+   "type": "place",
+   "role": "example rift"
+  },
+  {
+   "name": "West and Central African Rift System",
+   "type": "place",
+   "role": "example rift system"
+  },
+  {
+   "name": "Red Sea Rift",
+   "type": "place",
+   "role": "example rift"
+  },
+  {
+   "name": "Gulf of California",
+   "type": "place",
+   "role": "example rift"
+  },
+  {
+   "name": "Basin and Range Province",
+   "type": "place",
+   "role": "example rift region in North America"
+  },
+  {
+   "name": "Rio Grande Rift",
+   "type": "place",
+   "role": "example rift in the southwestern US"
+  },
+  {
+   "name": "Gulf of Corinth",
+   "type": "place",
+   "role": "contained in a rift zone in Greece"
+  },
+  {
+   "name": "Reelfoot Rift",
+   "type": "place",
+   "role": "ancient buried failed rift underlying the New Madrid Seismic Zone"
+  },
+  {
+   "name": "Rhine Rift",
+   "type": "place",
+   "role": "rift in south western Germany, the Upper Rhine valley, part of the European Cenozoic Rift System"
+  },
+  {
+   "name": "Taupō Volcanic Zone",
+   "type": "place",
+   "role": "rift in the north east North Island of New Zealand"
+  },
+  {
+   "name": "Oslo Graben",
+   "type": "place",
+   "role": "example rift in Norway"
+  },
+  {
+   "name": "Ottawa-Bonnechere Graben",
+   "type": "place",
+   "role": "example graben in Ontario and Quebec"
+  },
+  {
+   "name": "Northern Cordilleran Volcanic Province",
+   "type": "place",
+   "role": "example volcanic province in British Columbia, Yukon and Alaska"
+  },
+  {
+   "name": "West Antarctic Rift System",
+   "type": "place",
+   "role": "example rift in Antarctica"
+  },
+  {
+   "name": "Midcontinent Rift System",
+   "type": "event",
+   "role": "late Precambrian rift in central North America"
+  },
+  {
+   "name": "Midland Valley",
+   "type": "place",
+   "role": "example rift in Scotland"
+  },
+  {
+   "name": "Fundy Basin",
+   "type": "place",
+   "role": "Triassic rift basin in southeastern Canada"
+  },
+  {
+   "name": "Cambay, Kachchh, and Narmada rifts",
+   "type": "place",
+   "role": "rifts in northwestern Deccan volcanic province of India"
+  },
+  {
+   "name": "Wilson Cycle",
+   "type": "event",
+   "role": "related concept listed under see also"
+  }
+ ],
+ "tags": [
+  "geology",
+  "tectonics",
+  "rift",
+  "lithosphere",
+  "plate tectonics",
+  "petroleum geology"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4427,
+  "output_tokens": 2428
+ }
+}

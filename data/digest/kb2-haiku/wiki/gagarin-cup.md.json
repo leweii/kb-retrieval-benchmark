@@ -1,0 +1,40 @@
+{
+ "summary": "The Gagarin Cup is the trophy awarded to the winner of the Kontinental Hockey League (KHL) playoffs. It is named after cosmonaut Yuri Gagarin, the first human in space. According to the note, the naming is supposedly linked to the inaugural KHL season's final possible game falling on April 12, the anniversary of Gagarin's flight.",
+ "one_line": "The Gagarin Cup is the trophy for the Kontinental Hockey League playoff champion, named after cosmonaut Yuri Gagarin.",
+ "key_facts": [
+  "The Gagarin Cup is the trophy presented to the winner of the Kontinental Hockey League (KHL) playoffs.",
+  "The Gagarin Cup is named after cosmonaut Yuri Gagarin, the first human in space.",
+  "The Cup was supposedly named after Yuri Gagarin because the last possible game of the inaugural KHL season would take place on April 12.",
+  "April 12 is the anniversary date of Yuri Gagarin's flight.",
+  "The naming explanation is described in the note as supposed, not confirmed."
+ ],
+ "entities": [
+  {
+   "name": "Gagarin Cup",
+   "type": "product",
+   "role": "Trophy presented to the winner of the Kontinental Hockey League (KHL) playoffs"
+  },
+  {
+   "name": "Kontinental Hockey League",
+   "type": "organization",
+   "role": "Professional ice hockey league whose playoff winner receives the Gagarin Cup"
+  },
+  {
+   "name": "Yuri Gagarin",
+   "type": "person",
+   "role": "Cosmonaut, the first human in space, after whom the Cup is named"
+  }
+ ],
+ "tags": [
+  "ice hockey",
+  "kontinental hockey league",
+  "trophy",
+  "yuri gagarin",
+  "playoffs"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1112,
+  "output_tokens": 573
+ }
+}

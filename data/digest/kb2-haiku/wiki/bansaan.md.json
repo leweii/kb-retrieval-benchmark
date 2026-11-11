@@ -1,0 +1,40 @@
+{
+ "summary": "Bansaan is a small boomerang-shaped island off the mid-northern coast of Bohol Island in the Philippines. The note states that it forms part of the municipality of Talibon. The note is very brief and gives no further detail on size, population, or history.",
+ "one_line": "Bansaan is a boomerang-shaped island off the mid-northern coast of Bohol, part of the municipality of Talibon.",
+ "key_facts": [
+  "Bansaan is a boomerang-shaped island.",
+  "Bansaan is located off the mid-northern coast of Bohol Island.",
+  "Bansaan is part of the municipality of Talibon.",
+  "The note describes Bansaan as part of Talibon but does not name the province in the text provided.",
+  "The note gives no information on the island's area, population, or history."
+ ],
+ "entities": [
+  {
+   "name": "Bansaan",
+   "type": "place",
+   "role": "boomerang-shaped island off the mid-northern coast of Bohol Island, part of the municipality of Talibon"
+  },
+  {
+   "name": "Bohol Island",
+   "type": "place",
+   "role": "island off whose mid-northern coast Bansaan is located"
+  },
+  {
+   "name": "Talibon",
+   "type": "place",
+   "role": "municipality of which Bansaan is a part"
+  }
+ ],
+ "tags": [
+  "bohol",
+  "talibon",
+  "islands",
+  "philippines",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1034,
+  "output_tokens": 444
+ }
+}

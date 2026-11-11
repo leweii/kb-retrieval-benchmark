@@ -1,0 +1,106 @@
+{
+ "summary": "This ECB Working Paper (No 1275, December 2010) by Marta Bańbura, Domenico Giannone and Lucrezia Reichlin defines nowcasting as predicting the present, very near future and very recent past, and proposes a dynamic factor model in state space form, estimated by maximum likelihood with the Kalman filter, to handle jagged/ragged-edge and mixed-frequency data. The model links the news in consecutive data releases to revisions of the nowcast, illustrated with euro area GDP for Q4 2008 and annual inflation in 2008. The excerpt covers the abstract, introduction, problem definition, and the econometric framework including the monthly factor model and the treatment of quarterly GDP following Mariano and Murasawa (2003).",
+ "one_line": "Working paper proposing a state-space dynamic factor model that nowcasts euro area GDP by linking data-release news to forecast revisions.",
+ "key_facts": [
+  "The working paper is ECB Working Paper Series No 1275, dated December 2010, by Marta Bańbura, Domenico Giannone and Lucrezia Reichlin.",
+  "Nowcasting is defined as the prediction of the present, the very near future and the very recent past.",
+  "Euro area GDP is released six weeks after the close of the quarter.",
+  "The paper illustrates the method by nowcasting euro area GDP in the fourth quarter of 2008 and presents results for annual inflation in 2008.",
+  "The model follows Giannone, Reichlin, and Small (2008), with extensions from Bańbura and Modugno (2010), and is estimated by maximum likelihood.",
+  "The jagged or ragged edge problem and mixed frequency are translated into a problem of missing data, with Kalman filter techniques used for projections.",
+  "The forecast revision is expressed as a weighted sum of news from released variables, with weights bj,t,v+1 quantifying each variable's relevance for the target.",
+  "In March 2010 the authors only had information up to the last quarter of 2009 and had to wait until mid-May for a first estimate of Q1 2010.",
+  "Monthly euro area industrial production for January is released in mid-March.",
+  "Surveys measure expectations of economic activity and are typically available shortly before the end of the month they refer to.",
+  "The monthly factor model assumes factors follow a VAR of order p with i.i.d. N(0, Q) innovations, and idiosyncratic components follow an AR(1) process.",
+  "The factors are partitioned into mutually independent global, real and nominal factors.",
+  "Quarterly GDP is linked to unobserved monthly GDP using the approximation yQ_t = yt + 2yt-1 + 3yt-2 + 2yt-3 + yt-4 from Mariano and Murasawa (2003).",
+  "The paper notes that Giannone, Reichlin, and Small (2008) found the automatic procedure performs as well as the nowcast published in the Greenbooks.",
+  "The paper's JEL classification codes are E52, C53 and C33."
+ ],
+ "entities": [
+  {
+   "name": "Marta Bańbura",
+   "type": "person",
+   "role": "author; affiliated with the European Central Bank"
+  },
+  {
+   "name": "Domenico Giannone",
+   "type": "person",
+   "role": "author; affiliated with Université libre de Bruxelles, ECARES, and CEPR"
+  },
+  {
+   "name": "Lucrezia Reichlin",
+   "type": "person",
+   "role": "author; affiliated with London Business School and CEPR"
+  },
+  {
+   "name": "European Central Bank",
+   "type": "organization",
+   "role": "institution of the authors Bańbura and Reichlin's affiliation and publisher of the working paper series"
+  },
+  {
+   "name": "Université libre de Bruxelles, ECARES",
+   "type": "organization",
+   "role": "affiliation of co-author Domenico Giannone"
+  },
+  {
+   "name": "London Business School",
+   "type": "organization",
+   "role": "affiliation of co-author Lucrezia Reichlin"
+  },
+  {
+   "name": "Giannone, Reichlin, and Small (2008)",
+   "type": "other",
+   "role": "seminal paper whose approach the model is based on"
+  },
+  {
+   "name": "Bańbura and Modugno (2010)",
+   "type": "other",
+   "role": "source of the maximum likelihood estimation approach and extensions used in the paper"
+  },
+  {
+   "name": "Mariano and Murasawa (2003)",
+   "type": "other",
+   "role": "source of the approximation linking quarterly GDP to monthly unobserved growth"
+  },
+  {
+   "name": "Evans (2005)",
+   "type": "other",
+   "role": "one of two seminal papers that formalized the nowcasting process in statistical models"
+  },
+  {
+   "name": "Doz, Giannone, and Reichlin (2006a)",
+   "type": "other",
+   "role": "showed maximum likelihood is feasible and robust for large scale factor models"
+  },
+  {
+   "name": "Euro area GDP",
+   "type": "other",
+   "role": "key target variable nowcast in the illustrative application, for Q4 2008"
+  },
+  {
+   "name": "Federal Reserve Board of Governors",
+   "type": "organization",
+   "role": "institution where the model was first implemented in a project starting in 2003"
+  },
+  {
+   "name": "Greenbooks",
+   "type": "product",
+   "role": "Federal Reserve publication whose nowcast Giannone, Reichlin, and Sala (2004) found the automatic procedure performs as well as"
+  }
+ ],
+ "tags": [
+  "nowcasting",
+  "gdp forecasting",
+  "factor models",
+  "kalman filter",
+  "mixed frequency",
+  "central banking"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 12290,
+  "output_tokens": 1742
+ }
+}

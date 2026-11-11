@@ -1,0 +1,48 @@
+{
+ "summary": "The note describes the yearly Battle of Hastings reenactment held at Battle Abbey in Battle, East Sussex, UK, which draws participants from around the world. It takes place on the weekend nearest 14 October, on the site of the historical battle. The note adds that the reenactment is often arranged across the hill rather than up it, to account for fewer participants and the need for spectators.",
+ "one_line": "Annual reenactment of the Battle of Hastings at Battle Abbey in East Sussex, held on the weekend nearest 14 October.",
+ "key_facts": [
+  "The Battle of Hastings reenactment is a yearly reenactment of the Battle of Hastings.",
+  "The reenactment is held at Battle Abbey in Battle, East Sussex, UK.",
+  "Participants in the Battle of Hastings reenactment come from around the world.",
+  "The reenactment takes place every year on the weekend nearest 14 October.",
+  "The reenactment takes place on the site of the historical battle.",
+  "The reenactment is often arranged across the hill rather than up it.",
+  "The across-the-hill arrangement takes account of the smaller number of participants.",
+  "The across-the-hill arrangement takes account of the need for spectators."
+ ],
+ "entities": [
+  {
+   "name": "Battle Abbey",
+   "type": "place",
+   "role": "venue where the yearly Battle of Hastings reenactment is held"
+  },
+  {
+   "name": "Battle",
+   "type": "place",
+   "role": "town in East Sussex, UK, where Battle Abbey is located"
+  },
+  {
+   "name": "East Sussex",
+   "type": "place",
+   "role": "county in the UK containing Battle, where the reenactment is held"
+  },
+  {
+   "name": "Battle of Hastings",
+   "type": "event",
+   "role": "historical battle that the yearly reenactment commemorates"
+  }
+ ],
+ "tags": [
+  "battle of hastings",
+  "reenactment",
+  "history",
+  "military history",
+  "east sussex"
+ ],
+ "category": "history & politics",
+ "usage": {
+  "input_tokens": 1126,
+  "output_tokens": 597
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "summary": "The note is a clipped page from the European Commission's Climate Action website, titled \"cause of climate change\" and meant for its causes-of-climate-change section. The captured text contains only cookie banners, EU website notices, language selectors and navigation menus, and it is cut off mid-menu. It does not contain the body text explaining the causes of climate change, so the note offers no substantive explanation of those causes.",
+ "one_line": "Truncated European Commission Climate Action page on the causes of climate change, captured as navigation and boilerplate only.",
+ "key_facts": [
+  "The source page is titled \"cause of climate change\" and its English URL is climate.ec.europa.eu/climate-change/causes-climate-change_en.",
+  "The page belongs to the European Commission's Climate Action site, under the banner \"Energy, Climate change, Environment\".",
+  "The site header of the captured page reads \"Climate Action\" and displays the European Commission logo.",
+  "The language selector lists 24 language versions of the causes-of-climate-change page, including Bulgarian, Irish (Gaeilge), Maltese and Swedish, with English marked as the active language.",
+  "The Climate change menu lists two subpages: \"Causes of climate change\" (marked as current) and \"Consequences of climate change\".",
+  "The EU Action menu lists \"Climate and nature\", \"What is the European Green Deal?\", \"EU competences in the field of climate action\" and \"European Climate Law\".",
+  "The cookie banner offers two options: \"Accept all cookies\" and \"Accept only essential cookies\", and links to the commission's cookies policy page.",
+  "The European Union notice states that \"All official European Union website addresses are in the europa.eu domain.\"",
+  "The captured note ends mid-navigation in the EU Action menu and includes no article body text explaining the causes of climate change."
+ ],
+ "entities": [
+  {
+   "name": "European Commission",
+   "type": "organization",
+   "role": "operator of the website; its logo appears in the site header and its cookie and home links point to commission.europa.eu"
+  },
+  {
+   "name": "Climate Action",
+   "type": "program",
+   "role": "site name shown in the header banner of the page, under the Energy, Climate change, Environment section"
+  },
+  {
+   "name": "Causes of climate change",
+   "type": "other",
+   "role": "current subpage of the Climate change section, the page this note was clipped from"
+  },
+  {
+   "name": "Consequences of climate change",
+   "type": "other",
+   "role": "sibling subpage listed in the Climate change menu"
+  },
+  {
+   "name": "European Climate Law",
+   "type": "program",
+   "role": "EU Action menu link to a climate law page"
+  },
+  {
+   "name": "European Green Deal",
+   "type": "program",
+   "role": "subject of a menu link titled \"What is the European Green Deal?\""
+  },
+  {
+   "name": "Kurt Vandenberghe",
+   "type": "person",
+   "role": "Director General, linked from the About us menu as \"Our Director General\" (name appears only in the link URL)"
+  }
+ ],
+ "tags": [
+  "climate change",
+  "causes of climate change",
+  "european commission",
+  "eu climate policy",
+  "climate action",
+  "web clipping"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14364,
+  "output_tokens": 1859
+ }
+}

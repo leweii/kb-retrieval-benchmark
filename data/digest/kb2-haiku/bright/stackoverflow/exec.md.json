@@ -1,0 +1,90 @@
+{
+ "summary": "This is an MDN Web Docs reference page for the JavaScript method RegExp.prototype.exec(), which executes a search for a match of a regular expression in a specified string and returns a result array or null. The page covers the syntax and parameter (str, coerced to a string), the return value's properties (index, input, groups, and the optional indices array when the d flag is set), and how lastIndex behaves with global or sticky flags. It also gives examples of successive matching and advises when test(), match(), matchAll() or search() are more appropriate; navigation and footer boilerplate were ignored.",
+ "one_line": "MDN reference page describing JavaScript's RegExp.prototype.exec() method, its return value, lastIndex behavior, and examples.",
+ "key_facts": [
+  "RegExp.prototype.exec() executes a search with a regular expression for a match in a specified string and returns a result array, or null.",
+  "The exec(str) parameter is the string to match; all values are coerced to strings, so omitting it or passing undefined searches for the string \"undefined\".",
+  "If the match fails, exec() returns null and sets the regex's lastIndex to 0.",
+  "If the match succeeds, the returned array has the matched text as its first item, followed by one item per capturing group.",
+  "The returned array has an index property, the 0-based index of the match in the string.",
+  "The returned array has an input property holding the original string that was matched against.",
+  "The groups property is a null-prototype object of named capturing groups, or undefined if no named capturing groups were defined.",
+  "The indices property is only present when the d flag (hasIndices) is set, and each entry is a two-element array giving the start and end index of a match or capturing group.",
+  "JavaScript RegExp objects are stateful when the global or sticky flags are set, storing a lastIndex from the previous match.",
+  "When using exec(), the global flag has no effect when the sticky flag is set; the match is always sticky.",
+  "exec() is the primitive method of regexps, and many other regexp methods such as @@replace call exec() internally.",
+  "If only a yes/no match is needed, RegExp.prototype.test() is recommended instead of exec().",
+  "The page's examples use the regex /quick\\s(?<color>brown).+?(jumps)/dgi on the string \"The Quick Brown Fox Jumps Over The Lazy Dog\", giving index 4 and lastIndex 25.",
+  "The page's ECMAScript specification reference is sec-regexp.prototype.exec in the TC39 ECMA-262 specification.",
+  "The page was last modified on Sep 25, 2023."
+ ],
+ "entities": [
+  {
+   "name": "RegExp.prototype.exec()",
+   "type": "program",
+   "role": "JavaScript method that executes a search with a regular expression for a match in a specified string and returns a result array or null"
+  },
+  {
+   "name": "RegExp",
+   "type": "program",
+   "role": "JavaScript built-in object whose instances the exec() method belongs to"
+  },
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "publisher of the web technology reference page"
+  },
+  {
+   "name": "ECMAScript Language Specification",
+   "type": "program",
+   "role": "specification that defines RegExp.prototype.exec() (sec-regexp.prototype.exec)"
+  },
+  {
+   "name": "RegExp.prototype.test()",
+   "type": "program",
+   "role": "alternative method recommended when only whether a regex matches is needed"
+  },
+  {
+   "name": "String.prototype.match()",
+   "type": "program",
+   "role": "method recommended for finding all occurrences of a global regex without capturing group information"
+  },
+  {
+   "name": "String.prototype.matchAll()",
+   "type": "program",
+   "role": "method that simplifies matching multiple parts of a string with capture groups by iterating over matches"
+  },
+  {
+   "name": "String.prototype.search()",
+   "type": "program",
+   "role": "method recommended for finding the index position of a match in a string"
+  },
+  {
+   "name": "String.prototype[@@replace]()",
+   "type": "program",
+   "role": "string-method-invoked regexp method that calls exec() internally"
+  },
+  {
+   "name": "lastIndex",
+   "type": "program",
+   "role": "RegExp property storing the position where the next search starts for global or sticky regexes"
+  },
+  {
+   "name": "Mozilla Corporation",
+   "type": "organization",
+   "role": "not-for-profit parent of Mozilla Foundation, mentioned in the page footer"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "regexp",
+  "web-docs",
+  "mdn",
+  "string-matching"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11702,
+  "output_tokens": 1397
+ }
+}

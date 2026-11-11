@@ -1,0 +1,91 @@
+{
+ "summary": "This NASA image article describes a Mastcam photo from NASA's Curiosity Mars Rover showing an evenly layered rock at the edge of \"Hidden Valley.\" The rock is a thick-laminated, evenly stratified deposit interpreted as lake-floor sediment, possibly part of or in front of a delta, where river sediment settled out of the water. It lies beneath cross-bedded sandstones regarded as ancient river deposits. The page credits JPL, Caltech, and Malin Space Science Systems and links to a related Curiosity water-clues article.",
+ "one_line": "NASA's Curiosity rover imaged evenly layered Martian rock at Hidden Valley, interpreted as an ancient lake-floor sediment deposit near a delta.",
+ "key_facts": [
+  "The image was taken by the Mast Camera (Mastcam) on NASA's Curiosity Mars Rover.",
+  "The scene combines multiple frames taken with Mastcam's right-eye camera on Aug. 7, 2014.",
+  "The Aug. 7, 2014 observation occurred during the 712th Martian day, or sol, of Curiosity's work on Mars.",
+  "The image shows an outcrop at the edge of \"Hidden Valley,\" seen from the valley floor.",
+  "The view spans about 5 feet (1.5 meters) across in the foreground.",
+  "Figure A includes a superimposed scale bar of 50 centimeters (about 20 inches).",
+  "The rock is a thick-laminated, evenly-stratified rock type.",
+  "The layered rock forms stratigraphically beneath cross-bedded sandstones regarded as ancient river deposits.",
+  "The rocks are interpreted to record sedimentation in a lake, as part of or in front of a delta.",
+  "River sediment plumes settled out of the water column and onto the lake floor, according to the interpretation.",
+  "NASA's Jet Propulsion Laboratory, a division of the California Institute of Technology in Pasadena, manages the Mars Science Laboratory Project.",
+  "JPL designed and built the Curiosity rover.",
+  "Malin Space Science Systems, San Diego, built and operates the rover's Mastcam.",
+  "The image credit is NASA/JPL-Caltech/MSSS.",
+  "The page was last updated Dec 08, 2014, and the responsible NASA official is Abigail Bowman."
+ ],
+ "entities": [
+  {
+   "name": "Curiosity Mars Rover",
+   "type": "product",
+   "role": "NASA rover whose Mastcam photographed the layered rock"
+  },
+  {
+   "name": "Mast Camera (Mastcam)",
+   "type": "product",
+   "role": "camera on Curiosity that took the images"
+  },
+  {
+   "name": "Hidden Valley",
+   "type": "place",
+   "role": "valley whose outcrop edge is shown in the image"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "agency that published the image and sponsors the mission"
+  },
+  {
+   "name": "Jet Propulsion Laboratory",
+   "type": "organization",
+   "role": "NASA division that manages the Mars Science Laboratory Project and designed and built Curiosity"
+  },
+  {
+   "name": "California Institute of Technology",
+   "type": "organization",
+   "role": "institution operating JPL, located in Pasadena"
+  },
+  {
+   "name": "Mars Science Laboratory Project",
+   "type": "program",
+   "role": "NASA project managed by JPL for the Science Mission Directorate"
+  },
+  {
+   "name": "Science Mission Directorate",
+   "type": "organization",
+   "role": "NASA directorate, based in Washington, for which the project is managed"
+  },
+  {
+   "name": "Malin Space Science Systems",
+   "type": "organization",
+   "role": "San Diego firm that built and operates the rover's Mastcam"
+  },
+  {
+   "name": "NASA's Curiosity Rover Finds Clues to How Water Helped Shape Martian Landscape",
+   "type": "other",
+   "role": "related article linked from this page"
+  },
+  {
+   "name": "Abigail Bowman",
+   "type": "person",
+   "role": "responsible NASA official for the page"
+  }
+ ],
+ "tags": [
+  "mars",
+  "curiosity rover",
+  "sedimentology",
+  "lakebed",
+  "paleoenvironment",
+  "nasa"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4919,
+  "output_tokens": 1848
+ }
+}

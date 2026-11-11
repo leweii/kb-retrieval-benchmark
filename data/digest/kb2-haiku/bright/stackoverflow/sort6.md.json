@@ -1,0 +1,84 @@
+{
+ "summary": "This is an MDN Web Docs reference page for the JavaScript Array.prototype.sort() method, which sorts array elements in place and returns the same array reference. It covers the default string-based sort order, the compareFn parameter and its required properties, sparse arrays and array-like objects, and stability guaranteed since ECMAScript 2019. Examples include numeric sorting, sorting objects, localeCompare for non-ASCII strings, the map-based sorting pattern, and inconsistent results from malformed comparators across engines. Website navigation and boilerplate are ignored.",
+ "one_line": "MDN reference for JavaScript's Array.prototype.sort() method, covering default string ordering, comparator functions, stability, and examples.",
+ "key_facts": [
+  "Array.prototype.sort() sorts the elements of an array in place and returns the reference to the same array, now sorted.",
+  "The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.",
+  "The page states that Array.prototype.sort() has been Baseline Widely available since July 2015.",
+  "A compareFn returning a negative value indicates that a should come before b; a positive value indicates that a should come after b.",
+  "The expression (a, b) => a - b sorts numbers in ascending order.",
+  "In a default sort, \"80\" comes before \"9\" because numbers are converted to strings and compared in Unicode order.",
+  "All undefined elements are sorted to the end of the array, and sort() preserves empty slots by moving them to the end.",
+  "To sort without mutating the original array, the note recommends using toSorted(), or a shallow copy such as [...numbers].sort().",
+  "Since version 10 (ECMAScript 2019), the specification dictates that Array.prototype.sort is stable.",
+  "V8 and JavaScriptCore would not sort the array [3, 1, 4, 1, 5, 9] with the comparator (a, b) => (a > b ? 1 : 0), while SpiderMonkey returns [1, 1, 3, 4, 5, 9].",
+  "For strings with non-ASCII characters such as accented letters, the page recommends String.prototype.localeCompare().",
+  "The page notes that the compareFn can be invoked multiple times per element, and that the map-based approach can be more efficient; an open source library called mapsort applies this approach.",
+  "The page states that the sort() method reads the length property of this and writes back sorted integer-keyed properties, deleting trailing properties when positions are missing."
+ ],
+ "entities": [
+  {
+   "name": "Array.prototype.sort()",
+   "type": "program",
+   "role": "JavaScript Array instance method that sorts the elements of an array in place and returns the reference to the same array"
+  },
+  {
+   "name": "Array.prototype.toSorted()",
+   "type": "program",
+   "role": "Method recommended for sorting elements without mutating the original array"
+  },
+  {
+   "name": "String.prototype.localeCompare()",
+   "type": "program",
+   "role": "Method recommended for comparing non-ASCII strings so accented characters appear in the right order"
+  },
+  {
+   "name": "mapsort",
+   "type": "program",
+   "role": "Open source library available that applies the map-based sorting approach"
+  },
+  {
+   "name": "V8",
+   "type": "program",
+   "role": "JavaScript engine used by Chrome and Node.js, which does not sort the example array with the malformed comparator"
+  },
+  {
+   "name": "JavaScriptCore",
+   "type": "program",
+   "role": "JavaScript engine used by Safari, which does not sort the example array with the malformed comparator"
+  },
+  {
+   "name": "SpiderMonkey",
+   "type": "program",
+   "role": "JavaScript engine used by Firefox, which returns the example array sorted ascendingly with the malformed comparator"
+  },
+  {
+   "name": "ECMAScript Language Specification",
+   "type": "program",
+   "role": "Specification containing the sec-array.prototype.sort section, which dictates sort stability since ECMAScript 2019"
+  },
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "Publisher of the web technology reference page for Array.prototype.sort()"
+  },
+  {
+   "name": "Mathias Bynens",
+   "type": "person",
+   "role": "Author of the linked article on Array.prototype.sort stability"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "array",
+  "sorting",
+  "mdn",
+  "reference",
+  "comparator"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9546,
+  "output_tokens": 1370
+ }
+}

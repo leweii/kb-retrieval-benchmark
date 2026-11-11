@@ -1,0 +1,33 @@
+{
+ "summary": "This is a documentation page for the LAST_TRANSACTION function, which returns the transaction ID of the most recent transaction that was either committed or rolled back in the current session. The page gives its syntax (no arguments) and a single example showing a SELECT query and a sample output value. The surrounding navigation, feedback prompt and footer are boilerplate and were ignored.",
+ "one_line": "Documents the LAST_TRANSACTION() function, which returns the ID of the last committed or rolled-back transaction in the current session.",
+ "key_facts": [
+  "LAST_TRANSACTION returns the transaction ID of the last transaction that was either committed or rolled back in the current session.",
+  "The LAST_TRANSACTION function takes no arguments.",
+  "Syntax is written as LAST_TRANSACTION().",
+  "The example query is SELECT LAST_TRANSACTION();",
+  "The example output column is labeled LAST_TRANSACTION() and shows the value 1661899308790000000.",
+  "The page's section headings are Syntax, Arguments, and Examples.",
+  "The page is listed under the Session Object section of the documentation navigation, within the General and Alert sections as well.",
+  "The page language is English."
+ ],
+ "entities": [
+  {
+   "name": "LAST_TRANSACTION",
+   "type": "program",
+   "role": "function documented on this page that returns the ID of the last committed or rolled-back transaction in the current session"
+  }
+ ],
+ "tags": [
+  "sql",
+  "transactions",
+  "session",
+  "database functions",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1342,
+  "output_tokens": 478
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "summary": "This note documents the DATABASE_REPLICATION_USAGE_HISTORY view, an Account Usage view for querying database replication history. It lists the view's columns (time window, database name and ID, credits used, bytes transferred) and usage notes on latency and which databases appear in results. Usage data is retained for 365 days.",
+ "one_line": "Reference for the DATABASE_REPLICATION_USAGE_HISTORY Account Usage view, which reports replication credits and bytes transferred per database hour.",
+ "key_facts": [
+  "The DATABASE_REPLICATION_USAGE_HISTORY view is an Account Usage view used to query database replication history.",
+  "The view returns the database name, credits consumed, and bytes transferred for replication.",
+  "Usage data is retained for 365 days (1 year).",
+  "START_TIME is a TIMESTAMP_LTZ value giving the date and beginning of the hour (in the local time zone) in which replication usage took place.",
+  "END_TIME is a TIMESTAMP_LTZ value giving the date and end of the hour (in the local time zone) in which replication usage took place.",
+  "DATABASE_NAME is a TEXT column containing the name of the database.",
+  "DATABASE_ID is a NUMBER column containing the internal/system-generated identifier for the database.",
+  "CREDITS_USED is a NUMBER column giving the total number of credits used for database replication during the START_TIME and END_TIME window.",
+  "BYTES_TRANSFERRED is a NUMBER column giving the number of bytes transferred for database replication during the START_TIME and END_TIME window.",
+  "Latency for the view may be up to 180 minutes (3 hours).",
+  "Results are only returned for secondary databases in the current account, i.e. the target account."
+ ],
+ "entities": [
+  {
+   "name": "DATABASE_REPLICATION_USAGE_HISTORY",
+   "type": "product",
+   "role": "Account Usage view used to query the database replication history, returning database name, credits consumed, and bytes transferred"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "database replication",
+  "account usage",
+  "billing",
+  "metering",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1525,
+  "output_tokens": 686
+ }
+}

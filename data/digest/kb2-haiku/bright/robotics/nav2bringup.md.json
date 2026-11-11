@@ -1,0 +1,94 @@
+{
+ "summary": "This ROS Index page describes the nav2_bringup package from the navigation2 repository, an example bringup system for Nav2 applications with launch scripts and configurations. It explains that the package is meant to be mirrored and modified for specific maps, robots, and hardware, and that dynamically composed bringup (ROS 2 Composition) is used by default to run Nav2 nodes in a single process. The page also covers multi-robot simulation launch options (cloned and unique) and lists versions, maintainers, dependencies and dependant packages across ROS distributions.",
+ "one_line": "ROS Index page for the nav2_bringup package, an example bringup system with launch scripts and configs for the Nav2 navigation stack.",
+ "key_facts": [
+  "nav2_bringup is described as an example bringup system for Nav2 applications.",
+  "The package is intended to be mirrored and modified for specific maps, robots, hardware and worlds.",
+  "Usual robot stacks have a <robot_name>_nav package with config/bringup files, and nav2_bringup serves as the general case to base a specific robot system on.",
+  "Dynamically composed bringup, based on ROS2 Composition, composes all Nav2 nodes in a single process and is used by default.",
+  "Composed bringup can be disabled with the launch argument use_composition:=False.",
+  "Composed bringup is useful for embedded systems users facing harsh resource constraints.",
+  "gazebo should be started with both libgazebo_ros_init.so and libgazebo_ros_factory.so to work correctly.",
+  "The cloned multi-robot simulation launches cloned_multi_tb3_simulation_launch.py, cloning one robot N times at different positions, with parameters loaded from nav2_multirobot_params_all.yaml by default.",
+  "The unique multi-robot simulation launches unique_multi_tb3_simulation_launch.py with two hard-coded robots, each requiring its own params file (nav2_multirobot_params_1.yaml and nav2_multirobot_params_2.yaml).",
+  "The humble package version is 1.1.14 and the iron package version is 1.2.7, both under Apache-2.0 license.",
+  "The nav2_bringup package has AMENT_CMAKE build type and is listed with Use RECOMMENDED.",
+  "Maintainers listed are Michael Jeronimo, Steve Macenski and Carlos Orduno.",
+  "The humble checkout URI is https://github.com/ros-planning/navigation2.git with VCS version humble, last updated 2024-04-04."
+ ],
+ "entities": [
+  {
+   "name": "nav2_bringup",
+   "type": "program",
+   "role": "example bringup system and configurations for Nav2 applications, subject of the page"
+  },
+  {
+   "name": "navigation2",
+   "type": "program",
+   "role": "repository from which the nav2_bringup package comes"
+  },
+  {
+   "name": "Nav2",
+   "type": "program",
+   "role": "navigation stack that nav2_bringup launches and configures"
+  },
+  {
+   "name": "ROS2 Composition",
+   "type": "program",
+   "role": "basis for dynamically composed bringup that runs Nav2 nodes in a single process"
+  },
+  {
+   "name": "gazebo",
+   "type": "program",
+   "role": "simulator that must load libgazebo_ros_init.so and libgazebo_ros_factory.so for nav2_bringup to work"
+  },
+  {
+   "name": "cloned_multi_tb3_simulation_launch.py",
+   "type": "program",
+   "role": "launch script for cloning a single robot N times in multi-robot simulation"
+  },
+  {
+   "name": "unique_multi_tb3_simulation_launch.py",
+   "type": "program",
+   "role": "launch script bringing up two hard-coded unique robots in multi-robot simulation"
+  },
+  {
+   "name": "nav2_multirobot_params_all.yaml",
+   "type": "other",
+   "role": "default parameter file for cloned multi-robot launch"
+  },
+  {
+   "name": "Michael Jeronimo",
+   "type": "person",
+   "role": "maintainer of nav2_bringup"
+  },
+  {
+   "name": "Steve Macenski",
+   "type": "person",
+   "role": "maintainer of nav2_bringup"
+  },
+  {
+   "name": "Carlos Orduno",
+   "type": "person",
+   "role": "maintainer of nav2_bringup"
+  },
+  {
+   "name": "ROS Index",
+   "type": "organization",
+   "role": "website hosting the package listing page"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "navigation",
+  "robotics",
+  "nav2",
+  "simulation",
+  "launch-files"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16874,
+  "output_tokens": 1401
+ }
+}

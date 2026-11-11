@@ -1,0 +1,44 @@
+{
+ "summary": "This is a reference page for the IS_DECIMAL function, a Type Predicate in the semi-structured data functions group. It returns TRUE when its VARIANT argument holds a fixed-point decimal value or an integer, and it takes a single variant_expr argument. The page includes an example that creates a table with mixed VARIANT columns and shows IS_DECIMAL returning True for a DECIMAL and an INTEGER value but False for a DOUBLE value.",
+ "one_line": "Reference page for the IS_DECIMAL function, which tests whether a VARIANT value is a fixed-point decimal or integer.",
+ "key_facts": [
+  "IS_DECIMAL returns TRUE if its VARIANT argument contains a fixed-point decimal value or integer.",
+  "The syntax is IS_DECIMAL( <variant_expr> ).",
+  "The only argument is variant_expr, an expression that evaluates to a value of type VARIANT.",
+  "The function is listed under the Type Predicates category.",
+  "The function appears under the JSON and XML Parsing and Semistructured categories group.",
+  "The example creates a table named multiple_types with nine VARIANT columns.",
+  "The decimal1 column is populated with TO_VARIANT(1.23::DECIMAL(6, 3)).",
+  "The double1 column is populated with TO_VARIANT(3.21::DOUBLE).",
+  "The integer1 column is populated with TO_VARIANT(15).",
+  "The example query runs SELECT IS_DECIMAL(decimal1), IS_DECIMAL(integer1), IS_DECIMAL(double1) FROM multiple_types.",
+  "In the example output, IS_DECIMAL(DECIMAL1) returns True.",
+  "In the example output, IS_DECIMAL(INTEGER1) returns True.",
+  "In the example output, IS_DECIMAL(DOUBLE1) returns False."
+ ],
+ "entities": [
+  {
+   "name": "IS_DECIMAL",
+   "type": "program",
+   "role": "Function that returns TRUE if its VARIANT argument contains a fixed-point decimal value or integer"
+  },
+  {
+   "name": "multiple_types",
+   "type": "other",
+   "role": "Example table with nine VARIANT columns used to demonstrate IS_DECIMAL"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql-functions",
+  "variant",
+  "type-predicates",
+  "decimal",
+  "semi-structured-data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2008,
+  "output_tokens": 774
+ }
+}

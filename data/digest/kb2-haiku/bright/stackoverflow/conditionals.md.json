@@ -1,0 +1,69 @@
+{
+ "summary": "This is the Argo Workflows documentation page on conditionals, which show how to run workflow steps only when a condition holds. Conditional execution uses the govaluate expression library, which supports complex syntax. The page gives a coin-flip example with a steps template, including compound and regex conditions, and a note on handling parameter values that contain quotes by using an expr expression instead.",
+ "one_line": "Argo Workflows documentation on conditional step execution using govaluate-based `when` expressions, including a coin-flip example and nested-quote handling.",
+ "key_facts": [
+  "Argo Workflows supports conditional execution of steps using a syntax implemented by govaluate.",
+  "The govaluate library is referenced from the Argo conditionals page as offering support for complex syntax.",
+  "The coin-flip example's flip-coin step is a script using image python:alpine3.6 that prints either \"heads\" or \"tails\" based on random.randint(0,1).",
+  "The heads step runs when the condition \"{{steps.flip-coin.outputs.result}} == heads\" is true.",
+  "The tails step runs when the condition \"{{steps.flip-coin.outputs.result}} == tails\" is true.",
+  "The complex-condition step calls the heads-tails-or-twice-tails template when the first flip was heads and the second was tails, or both were tails.",
+  "The heads-regex step uses the condition \"{{steps.flip-again.outputs.result}} =~ hea\" to match a regex.",
+  "The tails-regex step uses the condition \"{{steps.flip-again.outputs.result}} =~ tai\" to match a regex.",
+  "The heads and tails templates use image alpine:3.6 and echo \"it was heads\" or \"it was tails\".",
+  "If a parameter value contains quotes, it may invalidate the govaluate expression.",
+  "To handle parameters with quotes, the page recommends embedding an expr expression in the conditional.",
+  "The nested-quotes example is when: \"{{=inputs.parameters['may-contain-quotes'] == 'example'}}\".",
+  "The page is part of the Argo Workflows User Guide walk-through section and is documented in the Argo Workflows docs site built with Material for MkDocs."
+ ],
+ "entities": [
+  {
+   "name": "Argo Workflows",
+   "type": "product",
+   "role": "The workflow engine for Kubernetes whose documentation contains this Conditionals page"
+  },
+  {
+   "name": "govaluate",
+   "type": "program",
+   "role": "Expression syntax library that implements the conditional syntax, offering support for complex syntax"
+  },
+  {
+   "name": "expr",
+   "type": "program",
+   "role": "Expression language embedded in a conditional to handle parameters whose values contain quotes"
+  },
+  {
+   "name": "Material for MkDocs",
+   "type": "product",
+   "role": "Tool used to build the documentation site"
+  },
+  {
+   "name": "coinflip",
+   "type": "program",
+   "role": "Example workflow (generateName coinflip-) with entrypoint coinflip demonstrating conditionals"
+  },
+  {
+   "name": "flip-coin",
+   "type": "program",
+   "role": "Script template that randomly outputs heads or tails using Python"
+  },
+  {
+   "name": "heads-tails-or-twice-tails",
+   "type": "program",
+   "role": "Template run by the complex-condition step when the compound condition is met"
+  }
+ ],
+ "tags": [
+  "argo workflows",
+  "conditionals",
+  "govaluate",
+  "kubernetes",
+  "workflow steps",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7389,
+  "output_tokens": 1083
+ }
+}

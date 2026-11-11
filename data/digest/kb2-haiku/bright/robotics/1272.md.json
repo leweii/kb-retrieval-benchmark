@@ -1,0 +1,73 @@
+{
+ "summary": "This is a GitHub issue (#1272) in the ms-iot/vscode-ros repository, reported by Ryanf55 on January 15, 2024, stating that the ROS distro is not sourced when running colcon build from a tasks.json shell task on ROS 2 Humble. The build fails because ament_package cannot be found, and Ryanf55 says sourcing /opt/ros/humble/setup.bash in bashrc does not help. Maintainer ooeygui replies that VSCode provides no extension hook to modify task environments, so the ROS extension's own build and debug tasks and its ROS-aware launch.json handler should be used instead. Ryanf55 adds that the local workspace also isn't sourced for launch, and that the problem appears only when connecting via SSH from Windows.",
+ "one_line": "GitHub issue reporting that VSCode tasks.json colcon build tasks on ROS 2 Humble do not source the ROS environment when connected via SSH.",
+ "key_facts": [
+  "GitHub issue #1272 in the ms-iot/vscode-ros repository is titled \"[bug] ROS distro not sourced for tasks.json on humble\" and was opened by Ryanf55 on Jan 15, 2024.",
+  "The issue is labeled bug, Building, and help wanted.",
+  "Ryanf55 reported using ROS 2 Humble, plugin v0.9.6 pre-release, Ubuntu 22.04 for the development server, and Windows 10 as the host OS, connected via the VSCode SSH extension.",
+  "Running the task \"colconBuildDebug\" with command \"colcon build --symlink-install --mixin debug\" fails with ModuleNotFoundError: No module named 'ament_package'.",
+  "The expected behavior was that colcon build succeeds after first sourcing /opt/ros/humble/setup.bash.",
+  "Ryanf55 says adding source /opt/ros/humble/setup.bash to bashrc did not fix the problem.",
+  "The workaround of prefixing the command with \"source /opt/ros/humble/setup.bash &&\" works but is not documented.",
+  "ooeygui, a member of the project, stated on Jan 15, 2024 that VSCode does not provide a general pre-execution hook allowing an extension to modify the task execution environment.",
+  "ooeygui stated that the ROS extension has its own task execution for build and debug because sourcing ROS and the overlay is one of its main purposes.",
+  "Ryanf55 noted that the local workspace must be sourced with source install/setup.bash before running ros2 launch, otherwise the error is package <myRos2Pkg> not found.",
+  "On Jan 16, 2024, ooeygui noted that the ROS extension provides a \"ROS Create Terminal\" command that opens a terminal with ROS sourced.",
+  "On Jan 20, 2024, Ryanf55 reported the bug appears only when SSH'ing from Windows and not when accessing the Linux computer directly."
+ ],
+ "entities": [
+  {
+   "name": "Ryanf55",
+   "type": "person",
+   "role": "Issue author who reported the bug and tested the workaround on Ubuntu 22.04 over SSH from Windows 10"
+  },
+  {
+   "name": "ooeygui",
+   "type": "person",
+   "role": "Member of the project who responded to the issue and explained the VSCode task environment limitation"
+  },
+  {
+   "name": "ms-iot/vscode-ros",
+   "type": "product",
+   "role": "GitHub repository (a fork of ajshort/vscode-ros) where issue #1272 was filed"
+  },
+  {
+   "name": "ajshort/vscode-ros",
+   "type": "product",
+   "role": "Upstream repository from which ms-iot/vscode-ros was forked"
+  },
+  {
+   "name": "ROS 2 Humble",
+   "type": "product",
+   "role": "ROS 2 distribution at /opt/ros/humble used in the reported environment"
+  },
+  {
+   "name": "colcon",
+   "type": "program",
+   "role": "Build tool whose build command failed in the task"
+  },
+  {
+   "name": "VSCode",
+   "type": "product",
+   "role": "Editor whose tasks.json and launch.json mechanisms are discussed"
+  },
+  {
+   "name": "ROS Create Terminal",
+   "type": "program",
+   "role": "Command in the VSCode ROS extension that creates a terminal with ROS sourced"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "vscode",
+  "colcon",
+  "environment-sourcing",
+  "bug-report",
+  "ssh"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10870,
+  "output_tokens": 1422
+ }
+}

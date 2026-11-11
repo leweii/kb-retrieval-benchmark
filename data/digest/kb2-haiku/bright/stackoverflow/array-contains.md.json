@@ -1,0 +1,40 @@
+{
+ "summary": "This note is a documentation page for the ARRAY_CONTAINS function, which is classified under semi-structured data functions for Array/Object types. It explains that the function returns TRUE when a specified value is found within a specified ARRAY, and shows the syntax, its two arguments, and its return behavior. Two example queries illustrate a match returning True and a non-match returning False.",
+ "one_line": "Documentation for the ARRAY_CONTAINS function, which returns TRUE if a given value is found in an array.",
+ "key_facts": [
+  "ARRAY_CONTAINS returns TRUE if the specified value is found in the specified ARRAY.",
+  "The syntax of ARRAY_CONTAINS is ARRAY_CONTAINS( <value_expr> , <array> ).",
+  "The first argument, value_expr, is the value to find in the array.",
+  "The second argument, array, is the ARRAY to search.",
+  "The function is listed under the semistructured category as an Array/Object function.",
+  "The page lists related function groups including JSON and XML Parsing, Array/Object Creation and Manipulation, Map Creation and Manipulation, Extraction, Conversion/Casting, and Type Predicates.",
+  "Example: SELECT ARRAY_CONTAINS('hello'::variant, array_construct('hello', 'hi')) returns True.",
+  "Example: SELECT ARRAY_CONTAINS('hello'::variant, array_construct('hola', 'bonjour')) returns False.",
+  "The examples show the value 'hello' being cast to a variant before comparison.",
+  "The function's return value is TRUE when value_expr is present in the array."
+ ],
+ "entities": [
+  {
+   "name": "ARRAY_CONTAINS",
+   "type": "program",
+   "role": "Function documented on this page that returns TRUE if a specified value is found in a specified ARRAY"
+  },
+  {
+   "name": "array_construct",
+   "type": "program",
+   "role": "Function used in the examples to build the arrays searched by ARRAY_CONTAINS"
+  }
+ ],
+ "tags": [
+  "sql",
+  "array-functions",
+  "semi-structured-data",
+  "snowflake",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1739,
+  "output_tokens": 679
+ }
+}

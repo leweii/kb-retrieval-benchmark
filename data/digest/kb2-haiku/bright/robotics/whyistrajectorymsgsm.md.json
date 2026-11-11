@@ -1,0 +1,83 @@
+{
+ "summary": "A ROS Answers question from November 2022 by user GUENNI asks why a publisher declared with the C type name trajectory_msgs__msg__JointTrajectory fails to compile in ROS 2 Humble, producing a static assertion that the message type is not ROS-compatible. The answer by Mike Scheutzow advises using the C++ namespace form trajectory_msgs::msg::JointTrajectory, and a commenter, gvdhoorn, confirms the underscore form is the C type. The asker reports the fix removed most errors, leaving one remaining issue, and the page notes the site is deprecated in favor of Robotics Stack Exchange.",
+ "one_line": "ROS 2 Humble C++ question on why a publisher for trajectory_msgs__msg__JointTrajectory fails, answered by using the C++ namespace form.",
+ "key_facts": [
+  "The question was asked on 2022-11-07 by user GUENNI and tagged ros2, humble, C++, and JointTrajectory.",
+  "Compiling with rclcpp::Publisher<trajectory_msgs__msg__JointTrajectory>::SharedPtr produced a static assertion error that the given message type is not compatible with ROS and cannot be used with a Publisher.",
+  "The error originated in /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp at line 81, where rclcpp::is_ros_compatible_type<MessageT>::value is checked.",
+  "The asker reported that a standard string message type gave no error when used with a publisher.",
+  "Mike Scheutzow answered on 2022-11-07 that the ros2 minimal publisher example declares its publisher_ attribute using C++ namespace syntax.",
+  "Mike Scheutzow suggested using trajectory_msgs::msg::JointTrajectory instead of the underscore form.",
+  "gvdhoorn commented that trajectory_msgs__msg__JointTrajectory is indeed the C type.",
+  "The asker updated the question with corrected code using trajectory_msgs::msg::JointTrajectory and reported that most errors were gone with one error left.",
+  "The asker's node class HardwareCommandPub is named after the ToArduino_command_publisher node and publishes to the topic Joint_Value with queue size 10.",
+  "The hardware interface code sets joint_names for hip, shoulder, elbow, and wrist in on_init and writes command positions in write() before calling publishData.",
+  "The asker asked whether the two notations, the underscore form and the double-colon form, correspond to C and C++ respectively, and this was confirmed.",
+  "The ROS Answers site states it is deprecated as of August 11, 2023, and is read-only, with users directed to robotics.stackexchange.com."
+ ],
+ "entities": [
+  {
+   "name": "GUENNI",
+   "type": "person",
+   "role": "asker of the question, who wrote a ROS 2 hardware interface publishing JointTrajectory messages"
+  },
+  {
+   "name": "Mike Scheutzow",
+   "type": "person",
+   "role": "answerer who suggested using the C++ namespace syntax trajectory_msgs::msg::JointTrajectory"
+  },
+  {
+   "name": "gvdhoorn",
+   "type": "person",
+   "role": "commenter who confirmed that trajectory_msgs__msg__JointTrajectory is the C type"
+  },
+  {
+   "name": "ROS Answers",
+   "type": "organization",
+   "role": "Q&A site hosting the question, now deprecated and read-only"
+  },
+  {
+   "name": "Robotics Stack Exchange",
+   "type": "organization",
+   "role": "successor site where users are directed to ask new robotics questions"
+  },
+  {
+   "name": "trajectory_msgs__msg__JointTrajectory",
+   "type": "other",
+   "role": "C message type name that caused the static assertion failure when used with rclcpp::Publisher"
+  },
+  {
+   "name": "trajectory_msgs::msg::JointTrajectory",
+   "type": "other",
+   "role": "C++ namespace form of the message type recommended as the fix"
+  },
+  {
+   "name": "HardwareCommandPub",
+   "type": "other",
+   "role": "C++ node class in the asker's code that creates the JointTrajectory publisher on topic Joint_Value"
+  },
+  {
+   "name": "ros2 minimal publisher example",
+   "type": "program",
+   "role": "reference example from the ros2 examples repository that uses std_msgs::msg::String with a SharedPtr publisher_"
+  },
+  {
+   "name": "ROS 2 Humble",
+   "type": "program",
+   "role": "ROS distribution in which the compile error occurred, under /opt/ros/humble"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "humble",
+  "cpp",
+  "jointtrajectory",
+  "publisher",
+  "message-types"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6767,
+  "output_tokens": 1493
+ }
+}

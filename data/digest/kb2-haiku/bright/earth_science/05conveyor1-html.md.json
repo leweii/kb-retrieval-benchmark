@@ -1,0 +1,57 @@
+{
+ "summary": "This NOAA National Ocean Service education page, a Currents Tutorial, explains thermohaline circulation, the deep-ocean current system driven by differences in water density. It describes how sea ice formation in polar regions leaves salt behind, making surrounding seawater saltier and denser so it sinks, which initiates the global conveyor belt. The page contrasts these deep currents with wind-driven surface currents in the upper 100 meters. Navigation, boilerplate, and lesson menus were ignored.",
+ "one_line": "NOAA tutorial explaining how polar sea ice formation drives deep-ocean thermohaline circulation and the global conveyor belt.",
+ "key_facts": [
+  "Thermohaline circulation begins in the Earth's polar regions.",
+  "When ocean water in polar areas gets very cold, sea ice forms.",
+  "When sea ice forms, the salt is left behind, so the surrounding seawater gets saltier.",
+  "As seawater gets saltier, its density increases and it starts to sink.",
+  "Surface water is pulled in to replace the sinking water.",
+  "Winds drive ocean currents in the upper 100 meters of the ocean's surface.",
+  "Ocean currents also flow thousands of meters below the surface.",
+  "Deep-ocean currents are driven by differences in water density, which is controlled by temperature (thermo) and salinity (haline).",
+  "The process of density-driven deep currents is known as thermohaline circulation.",
+  "Sinking cold, salty water initiates the deep-ocean currents driving the global conveyer belt.",
+  "The page is part of NOAA's National Ocean Service Currents Tutorial series."
+ ],
+ "entities": [
+  {
+   "name": "National Ocean Service",
+   "type": "organization",
+   "role": "NOAA office that publishes the Currents Tutorial education page"
+  },
+  {
+   "name": "National Oceanic and Atmospheric Administration",
+   "type": "organization",
+   "role": "parent agency of the National Ocean Service"
+  },
+  {
+   "name": "Thermohaline Circulation",
+   "type": "event",
+   "role": "density-driven deep-ocean current process explained on the page"
+  },
+  {
+   "name": "Global Conveyor Belt",
+   "type": "program",
+   "role": "global deep-ocean current system initiated by thermohaline circulation"
+  },
+  {
+   "name": "Currents Tutorial",
+   "type": "program",
+   "role": "NOS education lesson series that includes this page"
+  }
+ ],
+ "tags": [
+  "ocean currents",
+  "thermohaline circulation",
+  "sea ice",
+  "salinity",
+  "ocean density",
+  "global conveyor belt"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2160,
+  "output_tokens": 805
+ }
+}

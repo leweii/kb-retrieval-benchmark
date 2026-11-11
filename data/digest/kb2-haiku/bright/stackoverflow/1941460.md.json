@@ -1,0 +1,75 @@
+{
+ "summary": "A Habr publication, posted June 17, 2023 and rated easy, explaining how to build a custom screen picker dialog for Electron because the desktopCapturer API does not provide one. The UI is left to the reader, and the author walks through wiring IPC channels in preload.js, handlers in main.js, and a getDisplayMedia() function in renderer.js that checks screen access, fetches sources, shows a picker and returns a getUserMedia stream. The full code is said to be on GitHub.",
+ "one_line": "Tutorial on building a custom Electron desktopCapturer screen picker using IPC between preload, main and renderer processes.",
+ "key_facts": [
+  "The article is titled \"How to build an Electron desktopCapturer screen picker dialog\" and is marked with level of difficulty Easy.",
+  "The article was posted Jun 17 2023 at 00:35 and is tagged JavaScript.",
+  "Electron's desktopCapturer API does not provide a desktop picker dialog, so the author implements one.",
+  "The author does not focus on the UI and suggests React, Vue, or similar, with a simple index.html layout available.",
+  "In main.js the modules imported are app, BrowserWindow, ipcMain, systemPreferences, and desktopCapturer from electron, plus electron-util and path.",
+  "In preload.js, contextBridge.exposeInMainWorld exposes an electronApi object whose main methods include isOSX, isWindows, isLinux, openScreenSecurity, getScreenAccess and getScreenSources.",
+  "The article uses ipcRenderer.invoke because only a single response from the main process is needed.",
+  "Three channels are defined: electronMain:openScreenSecurity, electronMain:getScreenAccess, and electronMain:screen:getSources.",
+  "The getScreenSources handler calls desktopCapturer.getSources with types ['window', 'screen'] and adds a thumbnailURL created from source.thumbnail.toDataURL().",
+  "The getScreenAccess handler returns true if not on OSX, otherwise whether systemPreferences.getMediaAccessStatus('screen') equals 'granted'.",
+  "In renderer.js, getDisplayMedia() sets screenPickerOptions.system_preferences to true on OSX before requesting access.",
+  "The renderer requests a stream with getUserMedia using audio false and video mandatory chromeMediaSource 'desktop' with the chosen source id.",
+  "The author states the approach is simple and will work on all platforms.",
+  "The article's tags are electron, electron js, desktopCapturer, screen capture, screen sharing and screen picker."
+ ],
+ "entities": [
+  {
+   "name": "Electron",
+   "type": "product",
+   "role": "framework whose desktopCapturer API lacks a picker dialog, so the author builds one"
+  },
+  {
+   "name": "desktopCapturer",
+   "type": "product",
+   "role": "Electron API used to get window and screen sources"
+  },
+  {
+   "name": "contextBridge",
+   "type": "product",
+   "role": "Electron module used in preload.js to expose the electronApi object"
+  },
+  {
+   "name": "ipcRenderer",
+   "type": "product",
+   "role": "Electron module whose invoke method sends messages to the main process"
+  },
+  {
+   "name": "ipcMain",
+   "type": "product",
+   "role": "Electron module in main.js that registers handlers for renderer messages"
+  },
+  {
+   "name": "electron-util",
+   "type": "product",
+   "role": "module imported in main.js, used for util.openSystemPreferences"
+  },
+  {
+   "name": "Habr",
+   "type": "organization",
+   "role": "website hosting the publication"
+  },
+  {
+   "name": "GitHub",
+   "type": "product",
+   "role": "platform where the author says the complete code is available"
+  }
+ ],
+ "tags": [
+  "electron",
+  "desktopcapturer",
+  "screen capture",
+  "screen sharing",
+  "javascript",
+  "ipc"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2784,
+  "output_tokens": 1202
+ }
+}

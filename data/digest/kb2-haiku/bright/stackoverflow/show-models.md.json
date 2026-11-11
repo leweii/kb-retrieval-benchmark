@@ -1,0 +1,45 @@
+{
+ "summary": "This is Snowflake documentation for the SHOW MODELS command, which lists the machine learning models a user has privileges to access. Results include table metadata and properties, ordered by database, schema, and model name. The page covers the syntax, the LIKE and IN DATABASE/SCHEMA parameters with their default scoping rules, the output columns, and usage notes about pagination when results span multiple schemas.",
+ "one_line": "Snowflake SHOW MODELS command: syntax, parameters, scope rules, output columns, and pagination notes for listing ML models.",
+ "key_facts": [
+  "SHOW MODELS is available to all Snowflake accounts.",
+  "SHOW MODELS lists the machine learning models that the user has privileges to access.",
+  "Output is ordered lexicographically by database, schema, and model name.",
+  "The syntax is SHOW MODELS [ LIKE '<pattern>' ] [ IN { DATABASE [ <db_name> ] | SCHEMA [ <schema_name> ] } ].",
+  "The LIKE filter uses case-insensitive pattern matching with SQL wildcards % and _.",
+  "The keyword ACCOUNT retrieves records for all schemas in all databases of the current account.",
+  "If there is no current database and DATABASE is specified without a name, the command retrieves records for all databases and schemas in the account.",
+  "The default scope is DATABASE when the session has a database in use, and account scope when it has no database.",
+  "The output columns are created_on, name, database_name, schema_name, owner, comment, versions, and default_version_name.",
+  "The versions column is a JSON array listing versions of the model.",
+  "default_version_name is the version used when referring to the model without a version.",
+  "Results sorted by database, schema, then model name can break pagination when a database contains models from multiple schemas.",
+  "To make pagination work as expected, execute SHOW MODELS for a single schema, using IN SCHEMA schema_name or USE SCHEMA first.",
+  "Unqualified schema names with no current database produce the error 'SQL compilation error: Object does not exist, or operation cannot be performed'."
+ ],
+ "entities": [
+  {
+   "name": "SHOW MODELS",
+   "type": "program",
+   "role": "Snowflake command that lists machine learning models the user can access, with table metadata and properties"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "Data platform whose accounts can use the SHOW MODELS command"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "machine-learning",
+  "show-command",
+  "metadata",
+  "pagination"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2540,
+  "output_tokens": 814
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "summary": "The note describes Kalajokilaakso, a name meaning the basin of the Kalajoki river in Ostrobothnia, Finland. It states that the town of Kalajoki sits at the river's mouth and that the river flows into the Gulf of Bothnia of the Baltic Sea.",
+ "one_line": "Kalajokilaakso is the river basin of the Kalajoki river in Ostrobothnia, Finland, ending at the Gulf of Bothnia.",
+ "key_facts": [
+  "Kalajokilaakso stands for the basin of the Kalajoki river.",
+  "Kalajokilaakso is located in Ostrobothnia, Finland.",
+  "The town of Kalajoki lies at the mouth of the Kalajoki river.",
+  "The Kalajoki river runs to the Gulf of Bothnia of the Baltic Sea."
+ ],
+ "entities": [
+  {
+   "name": "Kalajokilaakso",
+   "type": "place",
+   "role": "river basin of the Kalajoki river, located in Ostrobothnia, Finland"
+  },
+  {
+   "name": "Kalajoki",
+   "type": "place",
+   "role": "town at the mouth of the Kalajoki river"
+  },
+  {
+   "name": "Kalajoki river",
+   "type": "place",
+   "role": "river that runs to the Gulf of Bothnia"
+  },
+  {
+   "name": "Ostrobothnia",
+   "type": "place",
+   "role": "region of Finland where Kalajokilaakso is located"
+  },
+  {
+   "name": "Gulf of Bothnia",
+   "type": "place",
+   "role": "arm of the Baltic Sea into which the Kalajoki river runs"
+  },
+  {
+   "name": "Baltic Sea",
+   "type": "place",
+   "role": "sea of which the Gulf of Bothnia is part"
+  }
+ ],
+ "tags": [
+  "kalajoki",
+  "ostrobothnia",
+  "finland",
+  "river basin",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1082,
+  "output_tokens": 583
+ }
+}

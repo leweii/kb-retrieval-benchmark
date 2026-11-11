@@ -1,0 +1,40 @@
+{
+ "summary": "The note describes the Murray Mouth, the place where the River Murray meets the Southern Ocean. It explains that the location of the mouth is changeable, with the outlet channel shifting along the sand dunes over time. According to the note, higher river flow and rough seas erode the dunes to form a new channel, leaving the old one to silt up and disappear.",
+ "one_line": "The Murray Mouth is the changeable outlet where the River Murray meets the Southern Ocean, with its channel shifting over time.",
+ "key_facts": [
+  "Murray Mouth is the point at which the River Murray meets the Southern Ocean.",
+  "The location of the Murray Mouth is changeable.",
+  "Historical records show that the channel out to sea moves along the sand dunes over time.",
+  "At times of greater river flow and rough seas, the two bodies of water erode the sand dunes to create a new channel.",
+  "When a new channel forms, the old channel is left to silt and disappear."
+ ],
+ "entities": [
+  {
+   "name": "Murray Mouth",
+   "type": "place",
+   "role": "point at which the River Murray meets the Southern Ocean; its channel location is changeable"
+  },
+  {
+   "name": "River Murray",
+   "type": "place",
+   "role": "river that meets the Southern Ocean at the Murray Mouth"
+  },
+  {
+   "name": "Southern Ocean",
+   "type": "place",
+   "role": "body of water into which the River Murray flows at the Murray Mouth"
+  }
+ ],
+ "tags": [
+  "murray river",
+  "geography",
+  "coastal landforms",
+  "sand dunes",
+  "river mouth"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1103,
+  "output_tokens": 489
+ }
+}

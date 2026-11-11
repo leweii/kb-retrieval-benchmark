@@ -1,0 +1,141 @@
+{
+ "summary": "John J. McCall's 1965 Journal of Business article examines the economics of information and optimal stopping rules in two settings. In repetitive processes such as equipment maintenance, statistical decision theory is used to judge when to stop buying information about an unknown failure rate, using expected value of perfect and sample information against acquisition cost. In terminating processes such as investment search with a known Markov opportunity structure, dynamic programming and optimal stopping theory are used to value information in investment decisions.",
+ "one_line": "McCall's 1965 paper applies statistical decision theory and optimal stopping rules to value information in equipment replacement and sequential investment decisions.",
+ "key_facts": [
+  "The article 'The Economics of Information and Optimal Stopping Rules' by John J. McCall was published in The Journal of Business, July 1965, Vol. 38, No. 3, pp. 300-317.",
+  "McCall states that the first stopping environment is continuous and repetitive, as in inventory management, process control, and maintenance management, and that statistical decision theory is used to solve it.",
+  "McCall states that the second stopping environment eventually terminates, with examples including house-searching, mate selection, and many kinds of investment decisions, and that dynamic programming is used to solve it.",
+  "In the investment problems, the decision-maker moves between opportunities according to a discrete-parameter Markov chain with known transition probabilities, and the rate of return of each opportunity is a random variable.",
+  "Two costs are present in the investment process: a discounting fee incurred when waiting for another opportunity, and a fixed fee charged whenever an investment is drawn from the rate-of-return distribution.",
+  "The paper analyzes two modes of accumulating investment opportunities: a process with no memory, where rejection is permanent, and a process that remembers the highest rate of return observed.",
+  "McCall describes the theory of optimal stopping and recent work on renewal programming as providing the methods used to calculate the value of information in stochastic-investment problems.",
+  "The replacement analysis assumes exponentially failing equipment, with average in-commission rate G(N, λ) = (1 - e^(-λN)) / (λ(NT+K)), where N is replacement interval, K is downtime, and λ is failure rate.",
+  "Applying a quadratic approximation, the optimal replacement interval reduces to N_λ = sqrt(2K/λ).",
+  "When the failure rate is gamma distributed with parameters r' and t', the adaptive replacement interval solves an equation in r' and t', as shown by Jorgenson and McCall.",
+  "The expected value of perfect information is defined as the expected in-commission rate with perfect information minus the highest expected in-commission rate achievable with available information.",
+  "The decision rule is to purchase perfect information if its expected value exceeds its cost c_x, and not to purchase it if the cost exceeds the expected value.",
+  "When sampling is gamma, the posterior distribution has parameters r'' = r' + r and t'' = t' + t.",
+  "With a linear approximation of the in-commission rate, the expected in-commission rate over the failure-rate distribution equals the in-commission rate evaluated at the mean failure rate.",
+  "The paper's footnote notes that information of value to more than one decision process, such as failure-rate information for both supply and maintenance decisions, should be evaluated accordingly."
+ ],
+ "entities": [
+  {
+   "name": "John J. McCall",
+   "type": "person",
+   "role": "author of the article, affiliated with The RAND Corporation, Santa Monica, California, and a National Science Foundation postdoctoral fellow at the International Center for Management Science of the Netherlands School of Economics when written"
+  },
+  {
+   "name": "The Journal of Business",
+   "type": "organization",
+   "role": "publisher-journal in which the article appeared, July 1965, Vol. 38, No. 3"
+  },
+  {
+   "name": "The University of Chicago Press",
+   "type": "organization",
+   "role": "publisher of The Journal of Business"
+  },
+  {
+   "name": "The RAND Corporation",
+   "type": "organization",
+   "role": "institution with which the author is affiliated; its views are disclaimed in the paper"
+  },
+  {
+   "name": "H. Raiffa",
+   "type": "person",
+   "role": "co-author with Robert Schlaifer of the statistical decision theory methods the paper is based on"
+  },
+  {
+   "name": "Robert Schlaifer",
+   "type": "person",
+   "role": "co-author with H. Raiffa of Applied Statistical Decision Theory (1961)"
+  },
+  {
+   "name": "Applied Statistical Decision Theory",
+   "type": "program",
+   "role": "1961 Harvard Business School book by Raiffa and Schlaifer cited as the source of the methods"
+  },
+  {
+   "name": "D. W. Jorgenson",
+   "type": "person",
+   "role": "co-author with McCall of work on optimal replacement and inspection and a ballistic missile replacement policy"
+  },
+  {
+   "name": "Samuel Karlin",
+   "type": "person",
+   "role": "cited for extending semi-Markov processes to nondegenerate state distributions and for optimal stopping work"
+  },
+  {
+   "name": "William S. Jewell",
+   "type": "person",
+   "role": "author of Markov Renewal Programming I and II, cited as renewal programming work"
+  },
+  {
+   "name": "Leo Breiman",
+   "type": "person",
+   "role": "author of 'Stopping Rule Problems', cited as optimal stopping theory work"
+  },
+  {
+   "name": "George Stigler",
+   "type": "person",
+   "role": "author of 'The Economics of Information' (1961), cited as recent work on information in economics"
+  },
+  {
+   "name": "J. Marschak",
+   "type": "person",
+   "role": "author of 'Problems in Information Economics', cited as recent work on information in economics"
+  },
+  {
+   "name": "Sidney Port",
+   "type": "person",
+   "role": "thanked by the author for comments on earlier drafts"
+  },
+  {
+   "name": "Harry Roberts",
+   "type": "person",
+   "role": "thanked by the author for comments on earlier drafts"
+  },
+  {
+   "name": "Levy and Smith",
+   "type": "person",
+   "role": "credited with first introducing semi-Markov processes"
+  },
+  {
+   "name": "Semi-Markov process",
+   "type": "other",
+   "role": "stochastic process concept used to describe the investment process, extended by Karlin to nondegenerate distributions"
+  },
+  {
+   "name": "Optimal stopping theory",
+   "type": "other",
+   "role": "method used with renewal programming to calculate the value of information in investment problems"
+  },
+  {
+   "name": "Renewal programming",
+   "type": "other",
+   "role": "method, referenced via Jewell, used with optimal stopping to value information in investment problems"
+  },
+  {
+   "name": "Maintenance scheduling of stochastically failing equipment",
+   "type": "event",
+   "role": "example of the repetitive decision process, in which the failure law is not known perfectly"
+  },
+  {
+   "name": "Ballistic missile",
+   "type": "product",
+   "role": "example equipment whose single critical failure rate is uncertain, used to illustrate the choice between a test program and freely available information"
+  }
+ ],
+ "tags": [
+  "information economics",
+  "optimal stopping",
+  "statistical decision theory",
+  "maintenance replacement",
+  "investment decisions",
+  "dynamic programming"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 12688,
+  "output_tokens": 2238
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "summary": "The note defines territories of the United States as sub-national administrative divisions directly overseen by the federal government. It contrasts them with states and Native American tribes, which exercise limited sovereignty, noting that territories have no sovereignty. It states that territories are classified by whether they are incorporated and whether they have an organized government under an Organic Act passed by Congress.",
+ "one_line": "Overview of U.S. territories: federally overseen divisions without sovereignty, classified by incorporation and organized government under Organic Acts.",
+ "key_facts": [
+  "Territories of the United States are sub-national administrative divisions directly overseen by the United States Federal Government.",
+  "Territories of the United States are without sovereignty.",
+  "U.S. states and Native American tribes exercise limited sovereignty alongside the federal government.",
+  "Territories of the United States are classified by whether they are incorporated.",
+  "Territories of the United States are classified by whether they have an organized government.",
+  "An organized government for a territory is established through an Organic Act passed by the U.S. Congress."
+ ],
+ "entities": [
+  {
+   "name": "United States Federal Government",
+   "type": "organization",
+   "role": "federal authority that directly oversees the territories"
+  },
+  {
+   "name": "U.S. Congress",
+   "type": "organization",
+   "role": "body that passes Organic Acts establishing organized territorial governments"
+  },
+  {
+   "name": "Territories of the United States",
+   "type": "place",
+   "role": "sub-national administrative divisions directly overseen by the federal government, without sovereignty"
+  },
+  {
+   "name": "U.S. states",
+   "type": "place",
+   "role": "sub-national divisions that exercise limited sovereignty alongside the federal government"
+  },
+  {
+   "name": "Native American tribes",
+   "type": "organization",
+   "role": "entities that exercise limited sovereignty alongside the federal government"
+  },
+  {
+   "name": "Organic Act",
+   "type": "program",
+   "role": "legislation passed by Congress that establishes a territory's organized government"
+  }
+ ],
+ "tags": [
+  "us-territories",
+  "federal-government",
+  "sovereignty",
+  "organic-act",
+  "administrative-divisions"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 1110,
+  "output_tokens": 643
+ }
+}

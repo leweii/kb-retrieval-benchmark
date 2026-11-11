@@ -1,0 +1,63 @@
+{
+ "summary": "This is a clipped MuleSoft documentation page for the DataWeave 2.6 function entrySet in the dw::core::Objects module. The function returns an array of key-value pairs describing the key, value, and attributes of an input object. The page is marked deprecated, and it points users to dw::Core::entriesOf instead. It includes a parameter description and an example that reads XML, calls entrySet, and shows the JSON output. Navigation, menus, and cookie text were ignored.",
+ "one_line": "MuleSoft DataWeave 2.6 reference for the deprecated entrySet function, which returns an object's keys, values, and attributes as an array.",
+ "key_facts": [
+  "The entrySet function is in the DataWeave 2.6 module dw::core::Objects.",
+  "The signature is entrySet<T <: Object>(obj: T): Array<{| key: Key, value: Any, attributes: Object |}>.",
+  "entrySet returns an array of key-value pairs that describe the key, value, and any attributes in the input object.",
+  "The only parameter is obj, described as \"The Object to describe.\"",
+  "The entrySet function is marked Deprecated.",
+  "The page says to use dw::Core::entriesOf instead of entrySet.",
+  "The example reads the XML string '<xml attr=\"x\"><a>true</a><b>1</b></xml>' with application/xml into the variable myVar.",
+  "The example's source uses output application/json and returns { \"entrySet\" : entrySet(myVar) }.",
+  "For the example input, the output has one entry with key \"xml\".",
+  "In the example output, the entry's value is {\"a\": \"true\", \"b\": \"1\"} and its attributes are {\"attr\": \"x\"}.",
+  "The documentation page is from the DataWeave (2.6) reference, under DataWeave Reference, and is hosted in the mulesoft/docs-dataweave GitHub repository on the v2.6 branch.",
+  "The page footer shows the copyright notice \"© Copyright 2024 Salesforce, Inc.\""
+ ],
+ "entities": [
+  {
+   "name": "DataWeave",
+   "type": "program",
+   "role": "MuleSoft transformation language whose 2.6 reference documents the entrySet function"
+  },
+  {
+   "name": "dw::core::Objects",
+   "type": "program",
+   "role": "DataWeave module that contains the entrySet function"
+  },
+  {
+   "name": "entrySet",
+   "type": "program",
+   "role": "deprecated DataWeave function that returns an object's key, value, and attributes as an array of key-value pairs"
+  },
+  {
+   "name": "dw::Core::entriesOf",
+   "type": "program",
+   "role": "DataWeave function the page recommends using instead of the deprecated entrySet"
+  },
+  {
+   "name": "MuleSoft",
+   "type": "organization",
+   "role": "publisher of the DataWeave documentation page; the site is mulesoft.com"
+  },
+  {
+   "name": "Salesforce, Inc.",
+   "type": "organization",
+   "role": "company named in the copyright notice on the page"
+  }
+ ],
+ "tags": [
+  "dataweave",
+  "mulesoft",
+  "deprecated-functions",
+  "json",
+  "xml",
+  "api-documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15201,
+  "output_tokens": 1498
+ }
+}

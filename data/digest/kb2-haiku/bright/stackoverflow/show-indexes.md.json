@@ -1,0 +1,64 @@
+{
+ "summary": "This note is a documentation page for the Snowflake SQL command SHOW INDEXES, which lists the indexes in an account that the user has access privileges to see. It is currently available only to accounts in select AWS regions, and it excludes trial accounts. The page covers the command syntax, the optional TERSE, LIKE, IN, STARTS WITH and LIMIT ... FROM parameters with their defaults and scoping rules, and the output columns returned.",
+ "one_line": "Documentation for the SHOW INDEXES command, which lists indexes visible to the user, with its filtering, scoping and pagination options.",
+ "key_facts": [
+  "SHOW INDEXES lists all the indexes in your account for which you have access privileges.",
+  "SHOW INDEXES is currently available only to accounts in select AWS regions, excluding trial accounts.",
+  "The syntax is SHOW [ TERSE ] INDEXES with optional LIKE, IN, STARTS WITH and LIMIT clauses.",
+  "TERSE returns only the created_on, name, kind, database_name and schema_name columns.",
+  "The LIKE filter uses case-insensitive pattern matching with SQL wildcards % and _.",
+  "The STARTS WITH filter is case-sensitive and matches characters at the beginning of the object name.",
+  "Objects are returned in lexicographic order by name.",
+  "The default scope is DATABASE when the session has a database in use, and ACCOUNT when it does not.",
+  "The IN ACCOUNT keyword retrieves records for all schemas in all databases of the current account.",
+  "The LIMIT clause optionally caps returned rows, and FROM 'name_string' acts as a case-sensitive cursor for pagination.",
+  "If both STARTS WITH and FROM are used, both conditions must be met or no results are returned.",
+  "Output columns include created_on, name, is_unique, columns, included_columns, table, database_name, schema_name, owner and owner_role_type.",
+  "The is_unique column indicates whether the index is a unique index.",
+  "The included_columns output column lists covered columns."
+ ],
+ "entities": [
+  {
+   "name": "SHOW INDEXES",
+   "type": "program",
+   "role": "Snowflake SQL command documented on this page that lists indexes the user has access privileges for"
+  },
+  {
+   "name": "AWS",
+   "type": "organization",
+   "role": "Cloud provider whose regions currently host the accounts where SHOW INDEXES is available"
+  },
+  {
+   "name": "TERSE",
+   "type": "other",
+   "role": "Optional keyword that limits output to a subset of columns"
+  },
+  {
+   "name": "LIKE",
+   "type": "other",
+   "role": "Optional clause filtering output by object name using case-insensitive pattern matching"
+  },
+  {
+   "name": "STARTS WITH",
+   "type": "other",
+   "role": "Optional case-sensitive clause filtering output by the beginning characters of object names"
+  },
+  {
+   "name": "LIMIT",
+   "type": "other",
+   "role": "Optional clause capping the number of rows returned, with FROM acting as a pagination cursor"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "show-indexes",
+  "database-metadata",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3893,
+  "output_tokens": 991
+ }
+}

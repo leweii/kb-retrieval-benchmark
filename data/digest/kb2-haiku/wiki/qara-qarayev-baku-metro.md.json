@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short wiki entry about Qara Qarayev, a station on the Baku Metro. It states the station opened on November 6, 1972, that it was previously called Avrora, and that it is named after the composer Qara Qarayev. The note is brief and gives no further details about the station's location or design.",
+ "one_line": "Qara Qarayev is a Baku Metro station opened in 1972, formerly named Avrora, and named after Qara Qarayev.",
+ "key_facts": [
+  "Qara Qarayev is a Baku Metro station.",
+  "The Qara Qarayev station was opened on November 6, 1972.",
+  "The station was previously called Avrora.",
+  "The station is named after Qara Qarayev."
+ ],
+ "entities": [
+  {
+   "name": "Qara Qarayev",
+   "type": "person",
+   "role": "person after whom the Baku Metro station is named"
+  },
+  {
+   "name": "Qara Qarayev (Baku Metro)",
+   "type": "place",
+   "role": "Baku Metro station opened on November 6, 1972, previously called Avrora"
+  },
+  {
+   "name": "Avrora",
+   "type": "place",
+   "role": "former name of the Qara Qarayev station"
+  },
+  {
+   "name": "Baku Metro",
+   "type": "program",
+   "role": "metro system to which the station belongs"
+  }
+ ],
+ "tags": [
+  "baku metro",
+  "metro stations",
+  "azerbaijan",
+  "transit",
+  "qara qarayev"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1056,
+  "output_tokens": 438
+ }
+}

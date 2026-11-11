@@ -1,0 +1,58 @@
+{
+ "summary": "This is a Snowflake documentation page for the DROP APPLICATION ROLE command, which removes a specified application role from an application built with the Native App Framework. It gives the syntax (with optional IF EXISTS), describes the name parameter and its quoting and case-sensitivity rules, and lists usage notes. The notes say dropped roles cannot be recovered, must be recreated, and are not versioned, so a role should not be dropped while a running version depends on it. A single example drops the role APP_ROLE. The feature is noted as not supported on Google Cloud Platform.",
+ "one_line": "Snowflake reference for the DROP APPLICATION ROLE command, which removes an application role from a Native App Framework application.",
+ "key_facts": [
+  "The DROP APPLICATION ROLE command removes the specified application role from the system.",
+  "The syntax is DROP APPLICATION ROLE [ IF EXISTS ] <name>.",
+  "This feature is not supported on Google Cloud Platform.",
+  "The command can only be run within the context of an application created using the Native App Framework.",
+  "Dropped application roles cannot be recovered and must be recreated within the application.",
+  "Application roles are not versioned.",
+  "When dropping an application role from a setup script, the user must ensure that no running version of the application relies upon the role being dropped.",
+  "Snowflake recommends either avoiding dropping application roles that may be in use or waiting until the dependent version has also been dropped.",
+  "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "The example DROP APPLICATION ROLE APP_ROLE; drops the application role named APP_ROLE.",
+  "The page sits in the Snowflake documentation under APPLICATION, APPLICATION PACKAGE, APPLICATION ROLE, and Additional Commands."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "publisher of the documentation page describing the DROP APPLICATION ROLE command"
+  },
+  {
+   "name": "Native App Framework",
+   "type": "program",
+   "role": "framework required to create the application in which the command can be run"
+  },
+  {
+   "name": "Google Cloud Platform",
+   "type": "product",
+   "role": "platform on which this feature is not supported"
+  },
+  {
+   "name": "APP_ROLE",
+   "type": "other",
+   "role": "example application role name dropped in the usage example"
+  },
+  {
+   "name": "DROP APPLICATION ROLE",
+   "type": "program",
+   "role": "SQL command documented on this page that removes an application role"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "ddl",
+  "native app framework",
+  "application roles",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1552,
+  "output_tokens": 857
+ }
+}

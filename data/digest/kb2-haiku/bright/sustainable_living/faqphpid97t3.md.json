@@ -1,0 +1,63 @@
+{
+ "summary": "This EIA FAQ page answers the question of how much electricity an American home uses. It reports that in 2022 the average U.S. residential customer purchased 10,791 kWh (about 899 kWh per month), with Louisiana highest and Hawaii lowest. It explains that net-metered rooftop solar can make purchases understate actual household consumption, and cites 2020 RECS figures for Hawaii and Louisiana. Surrounding navigation and footer content is boilerplate.",
+ "one_line": "EIA FAQ on average U.S. home electricity use, with 2022 purchase figures by state and the effect of net-metered solar on consumption.",
+ "key_facts": [
+  "In 2022, the average annual electricity sold to a U.S. residential electric-utility customer was 10,791 kilowatthours (kWh), an average of about 899 kWh per month.",
+  "Louisiana had the highest annual electricity purchases per residential customer at 14,774 kWh.",
+  "Hawaii had the lowest annual electricity purchases per residential customer at 6,178 kWh.",
+  "Electricity purchases may not represent total electricity consumption for some residential customers because a growing number of U.S. households have solar photovoltaic (PV) systems.",
+  "Most residential PV systems in the U.S. are grid-connected net metered PV systems, which effectively reduce electricity purchases.",
+  "In states with many residential net-metered PV systems, household electricity consumption may be a lot higher than household electricity purchases.",
+  "The 2020 Residential Energy Consumption Survey (RECS) estimates annual electricity consumption per household in Hawaii, which has a relatively high number of net-metered PV systems, was 7,976 kWh.",
+  "The 2020 RECS estimates annual electricity consumption per household in Louisiana, which has relatively few residential PV systems, was 14,779 kWh.",
+  "According to the Electric Sales, Revenue, and Average Price report (with data for 2020), total annual electricity purchases per residential customer were 6,446 kWh in Hawaii.",
+  "According to the Electric Sales, Revenue, and Average Price report (with data for 2020), total annual electricity purchases per residential customer were 14,407 kWh in Louisiana.",
+  "The FAQ was last updated January 8, 2024, to correct a typo for U.S. average monthly consumption.",
+  "The U.S. Energy Information Administration is located at 1000 Independence Ave., SW, Washington, DC 20585."
+ ],
+ "entities": [
+  {
+   "name": "U.S. Energy Information Administration",
+   "type": "organization",
+   "role": "publisher of the FAQ and source of the statistics; site describes it as independent statistics and analysis"
+  },
+  {
+   "name": "Residential Energy Consumption Survey (RECS)",
+   "type": "program",
+   "role": "EIA survey that accounts for household-level electricity end use, including consumption from on-site PV systems; 2020 RECS cited"
+  },
+  {
+   "name": "Electric Sales, Revenue, and Average Price",
+   "type": "program",
+   "role": "EIA report with 2020 data on residential electricity purchases per customer by state"
+  },
+  {
+   "name": "Louisiana",
+   "type": "place",
+   "role": "state with the highest residential electricity purchases (14,774 kWh) and relatively few residential PV systems"
+  },
+  {
+   "name": "Hawaii",
+   "type": "place",
+   "role": "state with the lowest residential electricity purchases (6,178 kWh) and a relatively high number of net-metered PV systems"
+  },
+  {
+   "name": "grid-connected net metered PV systems",
+   "type": "product",
+   "role": "rooftop solar photovoltaic systems that effectively reduce household electricity purchases"
+  }
+ ],
+ "tags": [
+  "electricity",
+  "residential energy use",
+  "solar pv",
+  "net metering",
+  "energy statistics",
+  "eia"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14120,
+  "output_tokens": 1219
+ }
+}

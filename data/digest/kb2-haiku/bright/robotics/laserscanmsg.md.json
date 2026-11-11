@@ -1,0 +1,45 @@
+{
+ "summary": "This note is the message definition for LaserScan, a single scan from a planar laser range-finder in the ROS robotics ecosystem. It describes the header timestamp convention, the angular and timing fields (angle_min, angle_max, angle_increment, time_increment, scan_time), the range limits and range array, and the optional intensities array. It also notes that other ranging devices such as sonar arrays should use a different message because applications make laser-specific assumptions.",
+ "one_line": "Defines the LaserScan message format for a single scan from a planar laser range-finder, including angles, timing, ranges and intensities.",
+ "key_facts": [
+  "LaserScan is a single scan from a planar laser range-finder.",
+  "Other ranging devices with different behavior, such as a sonar array, should use a different message because applications make fairly laser-specific assumptions.",
+  "The header timestamp is the acquisition time of the first ray in the scan.",
+  "Angles are measured in the frame given by frame_id, around the positive Z axis (counterclockwise if Z is up), with zero angle being forward along the x axis.",
+  "angle_min is the start angle of the scan in radians.",
+  "angle_max is the end angle of the scan in radians.",
+  "angle_increment is the angular distance between measurements in radians.",
+  "time_increment is the time between measurements in seconds and is used to interpolate 3D point positions if the scanner is moving.",
+  "scan_time is the time between scans in seconds.",
+  "range_min is the minimum range value in meters.",
+  "range_max is the maximum range value in meters.",
+  "The ranges field holds range data in meters.",
+  "Range values less than range_min or greater than range_max should be discarded.",
+  "The intensities field holds intensity data in device-specific units.",
+  "If a device does not provide intensities, the intensities array should be left empty."
+ ],
+ "entities": [
+  {
+   "name": "LaserScan",
+   "type": "product",
+   "role": "message type defining a single scan from a planar laser range-finder"
+  },
+  {
+   "name": "std_msgs/Header",
+   "type": "product",
+   "role": "header type providing the timestamp field of the message"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "laser scanner",
+  "ros messages",
+  "lidar",
+  "sensor data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1421,
+  "output_tokens": 691
+ }
+}

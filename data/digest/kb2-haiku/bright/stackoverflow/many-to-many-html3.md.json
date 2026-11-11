@@ -1,0 +1,96 @@
+{
+ "summary": "This GORM documentation page explains how to define many-to-many associations in Go, using a User and Language example with a join table. It covers back-references, overriding foreign keys and join references, self-referential relations, eager loading with Preload, customizing the join table with SetupJoinTable, foreign key constraints, and composite foreign keys. The page notes that the join table's foreign keys must be composite primary keys or a composite unique index when customized.",
+ "one_line": "GORM documentation on many-to-many associations in Go, covering join tables, foreign key overrides, preloading, custom join tables and constraints.",
+ "key_facts": [
+  "A many-to-many relationship adds a join table between two models, for example users and languages where a user can speak many languages.",
+  "In the basic example, User declares Languages []Language with the tag gorm:\"many2many:user_languages;\", and user_languages is the join table.",
+  "When GORM AutoMigrate creates a table for User, GORM creates the join table automatically.",
+  "For a back-reference, Language declares Users []*User with the tag gorm:\"many2many:user_languages;\" so both sides use the same join table.",
+  "The Preload(\"Languages\") method provides eager loading of languages when retrieving users.",
+  "The tags foreignKey, references, joinForeignKey and joinReferences can override foreign keys, and you can use just one of them.",
+  "Some databases only allow creating database foreign keys that reference a field with a unique index, so the unique index tag is needed when creating foreign keys during migration.",
+  "A self-referential many2many example uses Friends []*User with the tag gorm:\"many2many:user_friends\", creating foreign keys user_id and friend_id that both reference users.id.",
+  "JoinTable can be a full-featured model with soft delete, hooks and additional fields, and is set up with db.SetupJoinTable.",
+  "Customized join table foreign keys are required to be composite primary keys or a composite unique index.",
+  "Foreign key constraints are set up with the constraint tag using OnUpdate and OnDelete options and are created when migrating.",
+  "In the constraint example, the user_speaks join table uses ON DELETE SET NULL and ON UPDATE CASCADE.",
+  "If models use composite primary keys, GORM enables composite foreign keys by default.",
+  "The composite foreign key example defines Blog with Tags, LocaleTags and SharedTags, each using a different join table.",
+  "The page was last updated on 2024-04-23 and is licensed under CC BY 4.0 by Jinzhu."
+ ],
+ "entities": [
+  {
+   "name": "GORM",
+   "type": "program",
+   "role": "Go ORM library whose many-to-many association features are documented on this page"
+  },
+  {
+   "name": "Jinzhu",
+   "type": "person",
+   "role": "copyright holder of the GORM documentation, credited with the 2013~2024 copyright notice"
+  },
+  {
+   "name": "User",
+   "type": "other",
+   "role": "example model with a Languages field that has and belongs to many languages through the user_languages join table"
+  },
+  {
+   "name": "Language",
+   "type": "other",
+   "role": "example model representing a language that users can speak, with Name and back-reference Users fields"
+  },
+  {
+   "name": "user_languages",
+   "type": "other",
+   "role": "join table linking User and Language in the basic many-to-many example"
+  },
+  {
+   "name": "user_profiles",
+   "type": "other",
+   "role": "join table created by the foreign key override example linking User and Profile"
+  },
+  {
+   "name": "user_friends",
+   "type": "other",
+   "role": "join table for the self-referential many2many example on User"
+  },
+  {
+   "name": "user_speaks",
+   "type": "other",
+   "role": "join table used in the FOREIGN KEY Constraints example with ON DELETE SET NULL and ON UPDATE CASCADE"
+  },
+  {
+   "name": "PersonAddress",
+   "type": "other",
+   "role": "customized join table model for Person and Address with composite primary keys, CreatedAt and DeletedAt fields"
+  },
+  {
+   "name": "Blog",
+   "type": "other",
+   "role": "example model in the composite foreign keys section with Tags, LocaleTags and SharedTags relations"
+  },
+  {
+   "name": "Tag",
+   "type": "other",
+   "role": "example model with composite primary keys ID and Locale used by Blog's many2many relations"
+  },
+  {
+   "name": "Composite Primary Keys",
+   "type": "other",
+   "role": "related GORM topic referenced for composite foreign keys and join table requirements"
+  }
+ ],
+ "tags": [
+  "gorm",
+  "golang",
+  "many-to-many",
+  "database",
+  "orm",
+  "join-table"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4980,
+  "output_tokens": 1463
+ }
+}

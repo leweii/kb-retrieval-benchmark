@@ -1,0 +1,51 @@
+{
+ "summary": "Rwang Pam Stadium is a multi-use stadium located in Jos, Nigeria, used mainly for football matches. It serves as the home ground for three Jos-based clubs: JUTH F.C., Plateau United and Mighty Jets. The stadium has a capacity of 15,000 spectators.",
+ "one_line": "Rwang Pam Stadium is a 15,000-capacity multi-use football stadium in Jos, Nigeria, home to JUTH F.C., Plateau United and Mighty Jets.",
+ "key_facts": [
+  "Rwang Pam Stadium is a multi-use stadium in Jos, Nigeria.",
+  "Rwang Pam Stadium is used mostly for football matches.",
+  "Rwang Pam Stadium is the home stadium of Jos team JUTH F.C.",
+  "Rwang Pam Stadium is the home stadium of Jos team Plateau United.",
+  "Rwang Pam Stadium is the home stadium of Jos team Mighty Jets.",
+  "Rwang Pam Stadium has a capacity of 15,000 spectators."
+ ],
+ "entities": [
+  {
+   "name": "Rwang Pam Stadium",
+   "type": "place",
+   "role": "multi-use stadium in Jos, Nigeria, used mostly for football matches"
+  },
+  {
+   "name": "Jos",
+   "type": "place",
+   "role": "city in Nigeria where Rwang Pam Stadium is located"
+  },
+  {
+   "name": "JUTH F.C.",
+   "type": "organization",
+   "role": "Jos team that uses Rwang Pam Stadium as its home stadium"
+  },
+  {
+   "name": "Plateau United",
+   "type": "organization",
+   "role": "Jos team that uses Rwang Pam Stadium as its home stadium"
+  },
+  {
+   "name": "Mighty Jets",
+   "type": "organization",
+   "role": "Jos team that uses Rwang Pam Stadium as its home stadium"
+  }
+ ],
+ "tags": [
+  "stadium",
+  "football",
+  "nigeria",
+  "jos",
+  "sports venue"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1088,
+  "output_tokens": 633
+ }
+}

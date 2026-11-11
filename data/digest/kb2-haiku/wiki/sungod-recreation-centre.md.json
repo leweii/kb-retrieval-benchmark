@@ -1,0 +1,45 @@
+{
+ "summary": "The Sungod Recreation Centre is a recreation facility in Delta, British Columbia. It offers pools, a swirl pool, a sauna, a steam room, a weight room, an aerobic studio, and an ice rink. The centre also runs swimming lessons for kids and teens, along with lifeguard courses, and serves as the home arena for the North Delta Devils.",
+ "one_line": "Sungod Recreation Centre is a Delta, British Columbia facility with pools, an ice rink, fitness amenities, swimming lessons, and home games for the North Delta Devils.",
+ "key_facts": [
+  "The Sungod Recreation Centre is located in Delta, British Columbia.",
+  "The facility contains 4 pools.",
+  "The facility contains a swirl pool.",
+  "The facility contains a sauna and a steam room.",
+  "The facility contains a weight room and an aerobic studio.",
+  "The facility contains an ice rink.",
+  "The Sungod Recreation Centre hosts swimming lessons for kids.",
+  "The Sungod Recreation Centre hosts swimming lessons for teens.",
+  "The Sungod Recreation Centre hosts lifeguard courses.",
+  "The North Delta Devils play their games at the Sungod Recreation Centre."
+ ],
+ "entities": [
+  {
+   "name": "Sungod Recreation Centre",
+   "type": "place",
+   "role": "recreation centre located in Delta, British Columbia, with pools, an ice rink, and fitness facilities"
+  },
+  {
+   "name": "Delta, British Columbia",
+   "type": "place",
+   "role": "city where the Sungod Recreation Centre is located"
+  },
+  {
+   "name": "North Delta Devils",
+   "type": "organization",
+   "role": "team that plays its games at the Sungod Recreation Centre"
+  }
+ ],
+ "tags": [
+  "recreation centre",
+  "delta bc",
+  "swimming",
+  "ice hockey",
+  "fitness facilities"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1112,
+  "output_tokens": 595
+ }
+}

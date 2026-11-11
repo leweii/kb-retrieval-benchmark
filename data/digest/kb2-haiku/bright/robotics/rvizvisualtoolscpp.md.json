@@ -1,0 +1,76 @@
+{
+ "summary": "This note is the BSD-licensed source file rviz_visual_tools.cpp from PickNik Consulting (copyright 2017, authors Dave Coleman and Andy McEvoy), a helper library for publishing basic shape markers to RViz from ROS. It shows how the class loads cached marker templates (arrow, cuboid, line strip, line list, sphere list, block, cylinder, mesh, sphere, text, triangle list), how markers are published singly or in batches, and how colors, scales, random colors, color gradients and orientation normalization are computed. It also includes helpers for cones and XY/XZ/YZ planes, and the note is cut off partway through publishYZPlane.",
+ "one_line": "BSD-licensed ROS C++ source for PickNik's rviz_visual_tools helper class that builds and publishes shape markers to RViz.",
+ "key_facts": [
+  "The source file is copyrighted 2017 by PickNik Consulting under a BSD license.",
+  "The file's author tags name Dave Coleman (dave@picknik.ai) and Andy McEvoy.",
+  "The file's description is 'Helper functions for displaying basic shape markers in Rviz'.",
+  "The file includes rviz_visual_tools/rviz_visual_tools.h and tf2_eigen, tf2_geometry_msgs and tf2 conversion headers.",
+  "The constant LOGNAME is set to \"visual_tools\" and NAME is also \"visual_tools\", with NAME marked deprecated for removal in Melodic.",
+  "ALL_RAND_COLORS is an array of 14 colors: RED, GREEN, BLUE, GREY, DARK_GREY, WHITE, ORANGE, YELLOW, BROWN, PINK, LIME_GREEN, PURPLE, CYAN and MAGENTA.",
+  "The reset marker uses action 3, which the code comments say is meant to become DELETEALL in ROS-J.",
+  "The default marker lifetime is set to ros::Duration(0.0), which the code comments describe as unlimited.",
+  "The getScale function maps size enums to values, for example MEDIUM is 0.01, LARGE is 0.025, XLARGE is 0.05 and XXXXLARGE is 0.5, then multiplies by marker_scale and global_scale_.",
+  "createRandColor draws random RGB components until their sum is at least 1.5, with at most 20 attempts, and the comment says 3 would be white.",
+  "getColorScale maps 0 to RED, 1 to GREEN and 0.5 to YELLOW, interpolating between them with the slerp helper.",
+  "publishMarker appends markers to a batch array and calls trigger() immediately unless batch publishing is enabled.",
+  "publishMarkers normalizes each marker's orientation quaternion, and resets it to identity when its norm is below machine epsilon.",
+  "publishCone builds 32 triangles using DELTA_THETA equal to M_PI/16.",
+  "publishABCDPlane draws a plane with a thin cuboid of height 0.001 positioned from the normal (A,B,C) and offset D."
+ ],
+ "entities": [
+  {
+   "name": "PickNik Consulting",
+   "type": "organization",
+   "role": "copyright holder of the 2017 BSD-licensed source file"
+  },
+  {
+   "name": "Dave Coleman",
+   "type": "person",
+   "role": "author of the file, listed with email dave@picknik.ai"
+  },
+  {
+   "name": "Andy McEvoy",
+   "type": "person",
+   "role": "co-author of the file"
+  },
+  {
+   "name": "Univ of CO, Boulder",
+   "type": "organization",
+   "role": "named in the license as a party whose name may not be used to endorse products"
+  },
+  {
+   "name": "rviz_visual_tools",
+   "type": "program",
+   "role": "the RViz helper library this source file implements, with RvizVisualTools as its main class"
+  },
+  {
+   "name": "RViz",
+   "type": "program",
+   "role": "the ROS visualization tool that receives and displays the published markers"
+  },
+  {
+   "name": "visualization_msgs::Marker",
+   "type": "product",
+   "role": "ROS message type used for the cached marker templates and published shapes"
+  },
+  {
+   "name": "tf2_eigen",
+   "type": "program",
+   "role": "conversion header included for transforms between tf2 and Eigen types"
+  }
+ ],
+ "tags": [
+  "ros",
+  "rviz",
+  "robotics",
+  "c++",
+  "visualization",
+  "markers"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15725,
+  "output_tokens": 1398
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "summary": "This Wikipedia article describes the spring as an elastic mechanical device, typically metal, that stores energy and returns to shape after compression or extension. It covers spring types (tension, compression, torsion, constant, variable, leaf, volute, and others), the spring rate and its units, and a brief history from the bow and Ctesibius of Alexandria to Robert Hooke's 1676 law. It then starts a physics section on Hooke's law and simple harmonic motion, which is cut off mid-equation in the note.",
+ "one_line": "Wikipedia overview of springs: elastic devices that store energy, their common types, spring rate, history, and the physics of Hooke's law.",
+ "key_facts": [
+  "A spring is a device consisting of an elastic but largely rigid material (typically metal) bent or molded into a form, especially a coil, that can return into shape after being compressed or extended.",
+  "Modern springs are typically manufactured from spring steel.",
+  "The English longbow is described as a simple but very powerful spring made of yew, measuring 2 m (6 ft 7 in) long, with a 470 N (105 lbf) draw weight.",
+  "The spring constant, or rate, of a spring is the change in the force it exerts divided by the change in deflection; an extension or compression spring's rate is expressed in units such as N/m or lbf/in.",
+  "A torsion spring's rate is in units of torque divided by angle, such as N·m/rad or ft·lbf/degree.",
+  "If a spring has a rate of 10 N/mm, it has a compliance of 0.1 mm/N, since compliance is the inverse of spring rate.",
+  "Ctesibius of Alexandria developed a method for making springs out of an alloy of bronze with an increased proportion of tin, hardened by hammering after it was cast.",
+  "Coiled springs appeared early in the 15th century in door locks, and the first spring-powered clocks appeared in that century.",
+  "In 1676, British physicist Robert Hooke postulated Hooke's law, which states that the force a spring exerts is proportional to its extension.",
+  "Springs can be classified by how the load is applied: tension/extension, compression, and torsion springs.",
+  "A torsion spring produces a torque proportional to the angle through which it is twisted about its axis.",
+  "A volute spring is a compression coil spring in the form of a cone, so under compression the coils slide over each other, affording longer travel.",
+  "A balance spring, also known as a hairspring, is a delicate spiral spring used in watches and galvanometers.",
+  "A leaf spring is a flat spring used in vehicle suspensions, electrical switches, and bows.",
+  "A belleville washer is a disc-shaped spring commonly used to apply tension to a bolt and in the initiation mechanism of pressure-activated landmines.",
+  "The mainspring is a spiral ribbon-shaped spring used as a power store in clockwork mechanisms such as watches, clocks, music boxes, and windup toys.",
+  "Hooke's law states that the force with which an ideal spring pushes back is linearly proportional to the distance from its equilibrium length, written F = -kx.",
+  "Conical springs with constant pitch have a variable rate, but a constant rate can be achieved with a variable pitch."
+ ],
+ "entities": [
+  {
+   "name": "Robert Hooke",
+   "type": "person",
+   "role": "British physicist who postulated Hooke's law in 1676, stating that spring force is proportional to extension"
+  },
+  {
+   "name": "Ctesibius of Alexandria",
+   "type": "person",
+   "role": "developer of a method for making springs from bronze alloyed with an increased proportion of tin, hardened by hammering after casting"
+  },
+  {
+   "name": "Hooke's law",
+   "type": "other",
+   "role": "physical law stating that a spring's restoring force is linearly proportional to its displacement from equilibrium"
+  },
+  {
+   "name": "English longbow",
+   "type": "product",
+   "role": "example of a simple but very powerful spring made of yew, with a 470 N draw weight"
+  },
+  {
+   "name": "Stuart tank",
+   "type": "product",
+   "role": "vehicle that uses vertical volute springs"
+  },
+  {
+   "name": "Spring steel",
+   "type": "other",
+   "role": "the most common elastic material used to manufacture modern springs"
+  },
+  {
+   "name": "Mainspring",
+   "type": "product",
+   "role": "spiral ribbon-shaped spring used as a power store in clockwork mechanisms"
+  }
+ ],
+ "tags": [
+  "springs",
+  "mechanical engineering",
+  "hooke's law",
+  "elasticity",
+  "physics",
+  "spring types"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16717,
+  "output_tokens": 1797
+ }
+}

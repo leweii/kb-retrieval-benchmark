@@ -1,0 +1,55 @@
+{
+ "summary": "This note documents the SEARCH_OPTIMIZATION_HISTORY view in Snowflake, which requires Enterprise Edition or higher. The view returns search optimization service history, including the service name and credits consumed. It lists the view's columns with data types and descriptions, and gives usage notes on how TABLE_ID and TABLE_NAME differ, how rows are produced, and the view's latency.",
+ "one_line": "Describes Snowflake's SEARCH_OPTIMIZATION_HISTORY view, which reports credits billed for search optimization maintenance per table.",
+ "key_facts": [
+  "The SEARCH_OPTIMIZATION_HISTORY view requires Snowflake Enterprise Edition (or higher).",
+  "The view returns search optimization service history, including the search optimization service name and credits consumed.",
+  "START_TIME and END_TIME are TIMESTAMP_LTZ columns that mark the start and end of the specified time range.",
+  "CREDITS_USED is a TEXT column giving the number of credits billed for the search optimization service during the START_TIME and END_TIME window.",
+  "TABLE_ID is a NUMBER column that is the internal/system-generated identifier for the search optimization service.",
+  "TABLE_NAME is a TEXT column containing a system-generated alias in the form 'SEARCH OPTIMIZATION ON TABLE_ID: <optimized_table_id>'.",
+  "In the example given, if a table named accounts has ID 1200, the TABLE_NAME alias shows 'SEARCH OPTIMIZATION ON TABLE_ID: 1200'.",
+  "The TABLE_ID column and the TABLE_NAME column do not refer to the same database object.",
+  "The output contains one row for each search optimization maintenance operation that is executed, and each operation updates information about one table.",
+  "The view shows only base table IDs, not base table names, so it does not directly show costs by base table name.",
+  "Billing history is not necessarily updated immediately, and the view's latency may be up to 180 minutes (3 hours).",
+  "The view also includes SCHEMA_ID, SCHEMA_NAME, DATABASE_ID and DATABASE_NAME columns identifying the schema and database containing the search optimization service.",
+  "Users can combine aggregate functions and GROUP BY clauses to aggregate costs per table or across all tables.",
+  "The usage notes include the example 'ALTER SESSION SET TIMEZONE = UTC;'."
+ ],
+ "entities": [
+  {
+   "name": "SEARCH_OPTIMIZATION_HISTORY",
+   "type": "product",
+   "role": "Snowflake view that returns search optimization service history and credits consumed"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact for inquiring about upgrading to Enterprise Edition"
+  },
+  {
+   "name": "Snowflake Enterprise Edition",
+   "type": "product",
+   "role": "edition required to use the SEARCH_OPTIMIZATION_HISTORY view"
+  },
+  {
+   "name": "accounts",
+   "type": "other",
+   "role": "example table on which search optimization is enabled, with ID 1200"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "search optimization",
+  "billing",
+  "credits",
+  "database views",
+  "sql"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2078,
+  "output_tokens": 1042
+ }
+}

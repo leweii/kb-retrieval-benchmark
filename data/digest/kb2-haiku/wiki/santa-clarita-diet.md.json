@@ -1,0 +1,52 @@
+{
+ "summary": "A short note from a wiki-style source about the television series Santa Clarita Diet. It describes the character Anne Garcia, played by Natalie Morales, as a sheriff's deputy who is Dan's partner and is very religious. It notes that she becomes romantically involved with Lisa after Dan goes missing.",
+ "one_line": "Overview note on the TV series Santa Clarita Diet, centering on the character Anne Garcia played by Natalie Morales.",
+ "key_facts": [
+  "Santa Clarita Diet is the title of the note's subject.",
+  "Natalie Morales plays the character Anne Garcia.",
+  "Anne Garcia is a sheriff's deputy.",
+  "Anne Garcia is Dan's partner.",
+  "Anne Garcia is described as very religious.",
+  "Anne Garcia becomes romantically involved with Lisa.",
+  "The romantic involvement between Anne Garcia and Lisa begins after Dan goes missing.",
+  "The source is a wiki page from the domain wikipedia."
+ ],
+ "entities": [
+  {
+   "name": "Santa Clarita Diet",
+   "type": "program",
+   "role": "title of the television series that is the subject of the note"
+  },
+  {
+   "name": "Natalie Morales",
+   "type": "person",
+   "role": "actor who plays Anne Garcia"
+  },
+  {
+   "name": "Anne Garcia",
+   "type": "person",
+   "role": "sheriff's deputy, Dan's partner, very religious, becomes romantically involved with Lisa after Dan goes missing"
+  },
+  {
+   "name": "Dan",
+   "type": "person",
+   "role": "Anne Garcia's partner who goes missing"
+  },
+  {
+   "name": "Lisa",
+   "type": "person",
+   "role": "person with whom Anne Garcia becomes romantically involved after Dan goes missing"
+  }
+ ],
+ "tags": [
+  "television",
+  "santa clarita diet",
+  "character profile",
+  "tv series"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 1052,
+  "output_tokens": 585
+ }
+}

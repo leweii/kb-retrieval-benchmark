@@ -1,0 +1,40 @@
+{
+ "summary": "Remire-Montjoly is a suburb located south-east of Cayenne, the capital and largest city of French Guiana. The note is very brief, stating that its residential districts lie along some of the best beaches in the Cayenne area.",
+ "one_line": "Remire-Montjoly is a residential suburb south-east of Cayenne, French Guiana, known for its beaches.",
+ "key_facts": [
+  "Remire-Montjoly is a suburb of Cayenne.",
+  "Cayenne is the capital \"préfecture\" of French Guiana.",
+  "Cayenne is the largest city of French Guiana.",
+  "Remire-Montjoly is located to the south-east of Cayenne.",
+  "Residential districts of Remire-Montjoly are located along some of the best beaches in the Cayenne area."
+ ],
+ "entities": [
+  {
+   "name": "Remire-Montjoly",
+   "type": "place",
+   "role": "suburb located south-east of Cayenne, with residential districts along beaches"
+  },
+  {
+   "name": "Cayenne",
+   "type": "place",
+   "role": "capital \"préfecture\" and largest city of French Guiana; the city Remire-Montjoly is a suburb of"
+  },
+  {
+   "name": "French Guiana",
+   "type": "place",
+   "role": "region whose capital and largest city is Cayenne"
+  }
+ ],
+ "tags": [
+  "french guiana",
+  "cayenne",
+  "suburbs",
+  "beaches",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1069,
+  "output_tokens": 444
+ }
+}

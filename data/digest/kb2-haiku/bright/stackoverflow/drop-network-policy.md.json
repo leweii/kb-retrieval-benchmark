@@ -1,0 +1,46 @@
+{
+ "summary": "This is a reference page for the DROP NETWORK POLICY command, which removes a specified network policy from the system. It explains the syntax (with an optional IF EXISTS clause), the name parameter and its quoting and case-sensitivity rules, and usage notes on ownership, non-recoverability, and assignment restrictions. A single example drops a policy named mypolicy. The surrounding navigation menu and footer boilerplate are ignored.",
+ "one_line": "Reference for the DROP NETWORK POLICY command, which removes a network policy, its privilege requirements, and restrictions.",
+ "key_facts": [
+  "DROP NETWORK POLICY removes the specified network policy from the system.",
+  "Only security administrators (users with the SECURITYADMIN role) can drop network policies.",
+  "The syntax is DROP NETWORK POLICY [ IF EXISTS ] <name>.",
+  "If the name identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "Only the network policy owner (a role with the OWNERSHIP privilege on the network policy) or higher can execute this command.",
+  "Dropped network policies cannot be recovered and must be recreated.",
+  "A network policy cannot be dropped if it is currently assigned to an account, security integration, or user.",
+  "The example DROP NETWORK POLICY mypolicy; drops a network policy named mypolicy.",
+  "The page's On this page sections are Syntax, Parameters, Usage notes, and Examples.",
+  "The page language is English."
+ ],
+ "entities": [
+  {
+   "name": "SECURITYADMIN",
+   "type": "other",
+   "role": "role whose users are the only ones who can drop network policies"
+  },
+  {
+   "name": "OWNERSHIP",
+   "type": "other",
+   "role": "privilege that a role must hold on a network policy to execute DROP NETWORK POLICY"
+  },
+  {
+   "name": "mypolicy",
+   "type": "product",
+   "role": "example network policy name dropped in the example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "network policy",
+  "access control",
+  "sql reference",
+  "security administration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1534,
+  "output_tokens": 681
+ }
+}

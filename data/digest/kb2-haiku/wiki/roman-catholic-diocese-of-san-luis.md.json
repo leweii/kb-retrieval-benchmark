@@ -1,0 +1,48 @@
+{
+ "summary": "The note is a brief entry describing the Roman Catholic Diocese of San Luis. It states that the diocese is located in the city of San Luis, which is the capital of San Luis Province in Argentina's Cuyo region. The note gives no further details such as history, bishops, or parishes.",
+ "one_line": "The Roman Catholic Diocese of San Luis is based in San Luis city, capital of San Luis Province in Argentina's Cuyo region.",
+ "key_facts": [
+  "The Roman Catholic Diocese of San Luis is located in the city of San Luis.",
+  "The city of San Luis is the capital city of San Luis Province.",
+  "San Luis Province is in the Cuyo region of Argentina."
+ ],
+ "entities": [
+  {
+   "name": "Roman Catholic Diocese of San Luis",
+   "type": "organization",
+   "role": "Roman Catholic diocese located in the city of San Luis, Argentina"
+  },
+  {
+   "name": "San Luis",
+   "type": "place",
+   "role": "city that is the seat of the diocese and capital of San Luis Province"
+  },
+  {
+   "name": "San Luis Province",
+   "type": "place",
+   "role": "province whose capital city is San Luis"
+  },
+  {
+   "name": "Cuyo region",
+   "type": "place",
+   "role": "region of Argentina where San Luis Province is located"
+  },
+  {
+   "name": "Argentina",
+   "type": "place",
+   "role": "country containing the Cuyo region and San Luis Province"
+  }
+ ],
+ "tags": [
+  "catholic church",
+  "diocese",
+  "argentina",
+  "san luis",
+  "cuyo region"
+ ],
+ "category": "religion & culture",
+ "usage": {
+  "input_tokens": 1056,
+  "output_tokens": 483
+ }
+}

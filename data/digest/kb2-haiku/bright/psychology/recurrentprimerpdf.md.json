@@ -1,0 +1,107 @@
+{
+ "summary": "This clipped note combines two items: a 1995-era Current Biology Primer by Rodney J. Douglas and Kevan A.C. Martin on recurrent excitation in neocortical circuits, and a book review by Walter Gratzer of David G. Nathan's The Cancer Treatment Revolution. The primer argues that local recurrent positive feedback gives cortical circuits gain, allowing small inputs to be amplified, restored and selected, and that the local circuit is the heart of cortical computation. The review praises Nathan's account of modern, targeted cancer therapies and his lucid writing, and notes that the book is built around three patients.",
+ "one_line": "A Current Biology primer on how recurrent positive feedback in neocortical circuits provides gain and signal restoration, plus a review of a book on modern cancer treatment.",
+ "key_facts": [
+  "The Primer by Rodney J. Douglas and Kevan A.C. Martin appears in Current Biology Vol 17 No 13, pages R496 to R500.",
+  "The note states that the human cortex contains about 10^9 neurons, but its basic architecture can be understood through about 100 types of excitatory and inhibitory neurons.",
+  "The authors state that the brain consumes approximately 20W, whereas a silicon version of the brain built with present-day chip technology would consume 10MW.",
+  "The authors contrast Garry Kasparov's human brain with Deep Blue, the chess-playing computer that evaluates 200 million possible moves per second.",
+  "In visual cortex, synapses from the lateral geniculate nucleus of the thalamus form only 5–10% of the excitatory synapses, even in their main target layer (layer 4) of area 17 in cats and monkeys.",
+  "Nearly 70% of a superficial pyramidal cell's excitatory input is derived from other cells of its own type.",
+  "Figure 1 reports that the total number of synapses between excitatory neurons in area 17 is 13.6 × 10^10.",
+  "The authors propose that positive feedback plays a crucial role in cortical computation by providing gain for active selection and re-combination of the relatively small afferent signals.",
+  "If the loop gain exceeds one, the system is unstable and its output diverges, whereas stability requires the sum of afferent and positive feedback excitatory currents to be less than the total negative current.",
+  "The note describes linear threshold neurons (LTNs) as having continuous valued, non-spiking positive outputs directly proportional to the positive difference between excitation and inhibition they receive.",
+  "Figure 3 lists six functional properties of the recurrent network: linear gain, locus invariance, gain modulation, winner-take-all, signal restoration and bistability.",
+  "The authors state that feedback connections, which target the superficial and deep layers, are usually thought to be too weak to drive the local circuit.",
+  "The pointer-map configuration in Figure 4 inserts a small population of pointer neurons, for example two cells, into the feedback loop to bias feedback gain toward regions of the cortical map.",
+  "The Conclusions state that most of the thousands of synapses on the dendritic tree of any neuron come from neighbouring excitatory neurons in the same cortical area, so the local circuit is the heart of cortical computation.",
+  "Walter Gratzer's book review covers The Cancer Treatment Revolution by David G. Nathan, published by Wiley, New Jersey, in 2007 (ISBN 978-0-471-94654-0).",
+  "Gratzer's review says that chemotherapy of an unsparing kind was likened by David Nathan to carpet-bombing."
+ ],
+ "entities": [
+  {
+   "name": "Rodney J. Douglas",
+   "type": "person",
+   "role": "co-author of the Primer 'Recurrent neuronal circuits in the neocortex'"
+  },
+  {
+   "name": "Kevan A.C. Martin",
+   "type": "person",
+   "role": "co-author of the Primer 'Recurrent neuronal circuits in the neocortex'; affiliated with the Institute of Neuroinformatics, Zurich"
+  },
+  {
+   "name": "Garry Kasparov",
+   "type": "person",
+   "role": "chess player whose human brain the note compares with the computer Deep Blue"
+  },
+  {
+   "name": "Deep Blue",
+   "type": "product",
+   "role": "chess-playing computer that evaluates 200 million possible moves per second"
+  },
+  {
+   "name": "J.J. Hopfield",
+   "type": "person",
+   "role": "cited for showing that recurrent networks of ideal neurons have stable patterns of activation (attractors) that can be viewed as memories"
+  },
+  {
+   "name": "Institute of Neuroinformatics",
+   "type": "organization",
+   "role": "affiliation of Kevan A.C. Martin, located at Winterthurerstrasse 190, 8057 Zurich, Switzerland"
+  },
+  {
+   "name": "Current Biology",
+   "type": "organization",
+   "role": "journal in which the Primer appeared (Vol 17 No 13)"
+  },
+  {
+   "name": "Walter Gratzer",
+   "type": "person",
+   "role": "author of the book review of The Cancer Treatment Revolution"
+  },
+  {
+   "name": "David G. Nathan",
+   "type": "person",
+   "role": "author of The Cancer Treatment Revolution, described as an eminent doctor, researcher and teacher"
+  },
+  {
+   "name": "The Cancer Treatment Revolution – How Smart Drugs and Other Therapies Are Renewing Our Hope and Changing the Face of Medicine",
+   "type": "product",
+   "role": "book reviewed by Walter Gratzer, published by Wiley, New Jersey, 2007"
+  },
+  {
+   "name": "Sir Thomas Browne",
+   "type": "person",
+   "role": "17th-century physician and aphorist quoted on labouring against our own cure"
+  },
+  {
+   "name": "George Bernard Shaw",
+   "type": "person",
+   "role": "quoted on how deaths under early cancer treatment were put down to 'natural causes'"
+  },
+  {
+   "name": "Binzegger et al. (2004)",
+   "type": "event",
+   "role": "source of additional maps of connections from excitatory to inhibitory neurons"
+  },
+  {
+   "name": "DAISY",
+   "type": "program",
+   "role": "EU grant (FP6-2005-015803) that provided financial support for the Primer"
+  }
+ ],
+ "tags": [
+  "neocortex",
+  "recurrent circuits",
+  "neural computation",
+  "positive feedback",
+  "neuroscience",
+  "book review"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9993,
+  "output_tokens": 3192
+ }
+}

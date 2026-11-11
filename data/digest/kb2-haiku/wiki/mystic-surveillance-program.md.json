@@ -1,0 +1,41 @@
+{
+ "summary": "MYSTIC is described as a former secret program used since 2009 by the US National Security Agency (NSA) to collect both metadata and the content of phone calls from several countries. The program was first revealed in March 2014 based on documents leaked by Edward Snowden. The note is a short encyclopedic entry with no further detail.",
+ "one_line": "MYSTIC was a secret NSA program, used from 2009, that collected phone call metadata and content from several countries, revealed in 2014 through Snowden documents.",
+ "key_facts": [
+  "MYSTIC is described as a former secret program.",
+  "MYSTIC has been used since 2009 by the US National Security Agency (NSA).",
+  "MYSTIC was used to collect the metadata as well as the content of phone calls.",
+  "MYSTIC collected phone calls from several countries.",
+  "MYSTIC was first revealed in March 2014.",
+  "The MYSTIC revelation was based upon documents leaked by Edward Snowden."
+ ],
+ "entities": [
+  {
+   "name": "MYSTIC",
+   "type": "program",
+   "role": "former secret program used by the NSA to collect phone call metadata and content from several countries"
+  },
+  {
+   "name": "National Security Agency (NSA)",
+   "type": "organization",
+   "role": "US agency that used the MYSTIC program since 2009"
+  },
+  {
+   "name": "Edward Snowden",
+   "type": "person",
+   "role": "source of the leaked documents that first revealed MYSTIC in March 2014"
+  }
+ ],
+ "tags": [
+  "surveillance",
+  "nsa",
+  "mass surveillance",
+  "edward snowden",
+  "telecommunications"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 1081,
+  "output_tokens": 501
+ }
+}

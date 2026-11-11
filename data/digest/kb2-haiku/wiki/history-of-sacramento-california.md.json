@@ -1,0 +1,55 @@
+{
+ "summary": "The note opens the history of Sacramento, California, stating that the city was founded in 1848 by Samuel Brannan and John Augustus Sutter, Jr. around an embarcadero. That embarcadero had been built by John Sutter, Sr. a few years earlier at the confluence of the American and Sacramento Rivers. The note is a short excerpt and covers only the founding.",
+ "one_line": "Sacramento's history begins with its 1848 founding by Samuel Brannan and John Augustus Sutter, Jr. at a riverside embarcadero.",
+ "key_facts": [
+  "The history of Sacramento, California, began with its founding by Samuel Brannan and John Augustus Sutter, Jr.",
+  "Sacramento was founded in 1848.",
+  "The city was founded around an embarcadero.",
+  "The embarcadero was constructed by John Sutter, Sr. a few years before 1848.",
+  "The embarcadero was located at the confluence of the American and Sacramento Rivers."
+ ],
+ "entities": [
+  {
+   "name": "Samuel Brannan",
+   "type": "person",
+   "role": "co-founder of Sacramento in 1848 with John Augustus Sutter, Jr."
+  },
+  {
+   "name": "John Augustus Sutter, Jr.",
+   "type": "person",
+   "role": "co-founder of Sacramento in 1848 with Samuel Brannan"
+  },
+  {
+   "name": "John Sutter, Sr.",
+   "type": "person",
+   "role": "father of John Augustus Sutter, Jr. who constructed the embarcadero a few years prior to 1848"
+  },
+  {
+   "name": "Sacramento, California",
+   "type": "place",
+   "role": "city founded in 1848 around an embarcadero"
+  },
+  {
+   "name": "American River",
+   "type": "place",
+   "role": "river at whose confluence with the Sacramento River the embarcadero was built"
+  },
+  {
+   "name": "Sacramento River",
+   "type": "place",
+   "role": "river at whose confluence with the American River the embarcadero was built"
+  }
+ ],
+ "tags": [
+  "sacramento",
+  "california history",
+  "founding",
+  "gold rush era",
+  "rivers"
+ ],
+ "category": "history & politics",
+ "usage": {
+  "input_tokens": 1082,
+  "output_tokens": 653
+ }
+}

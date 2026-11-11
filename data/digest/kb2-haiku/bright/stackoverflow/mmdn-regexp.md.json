@@ -1,0 +1,63 @@
+{
+ "summary": "This clipped MDN Web Docs page is mostly site navigation and boilerplate. Its only substantive content is the sidebar table of contents for the JavaScript reference, which lists the standard built-in objects (including RegExp), the Regular expressions syntax pages, and other reference sections. The note contains no article body explaining RegExp itself, and the listing is cut off partway through the Errors section.",
+ "one_line": "MDN sidebar navigation for the JavaScript reference, listing the RegExp built-in object and the regular expression syntax topics.",
+ "key_facts": [
+  "The page is from MDN Web Docs (developer.mozilla.org) and is titled 'Mmdn RegExp' in the note.",
+  "The page's breadcrumb path is References, JavaScript, Reference, Standard built-in objects.",
+  "RegExp is listed among the Standard built-in objects at /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp.",
+  "The 'Regular expressions' section of the JavaScript reference lists 18 topics, from Overview through Word boundary assertion.",
+  "The regular expression topics include Backreference (\\1, \\2), Capturing group (...), and Non-capturing group (?:...).",
+  "The regular expression topics include Lookahead assertion (?=...), (?!...) and Lookbehind assertion (?<=...), (?<!...).",
+  "The regular expression topics include Named capturing group (?<name>...) and Named backreference \\k<name>.",
+  "The regular expression topics include Quantifier (*, +, ?, {n}, {n,}, {n,m}) and Wildcard (.).",
+  "The regular expression topics include Unicode character class escape \\p{...} and \\P{...}.",
+  "The Errors section lists 'SyntaxError: invalid regular expression flag \"x\"' with the Bad_regexp_flag page.",
+  "In the Built-in objects list, escape() and unescape() are marked Deprecated, and InternalError is marked Non-standard.",
+  "The sidebar also lists the JavaScript Guide, including a 'Regular expressions' guide page at /en-US/docs/Web/JavaScript/Guide/Regular_expressions.",
+  "The clipped text ends mid-list at 'TypeError: \\'x\\' is not iterable' in the Errors section, so the rest of the page is missing."
+ ],
+ "entities": [
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "publisher of the clipped web page, shown in the site header as 'MDN Web Docs'"
+  },
+  {
+   "name": "JavaScript",
+   "type": "product",
+   "role": "programming language whose reference navigation the note reproduces"
+  },
+  {
+   "name": "RegExp",
+   "type": "product",
+   "role": "standard built-in object listed under Standard built-in objects in the JavaScript reference"
+  },
+  {
+   "name": "Regular expressions",
+   "type": "program",
+   "role": "section of the JavaScript reference with 18 syntax topic pages"
+  },
+  {
+   "name": "Standard built-in objects",
+   "type": "other",
+   "role": "reference category containing the RegExp page, shown in the breadcrumb"
+  },
+  {
+   "name": "Errors",
+   "type": "other",
+   "role": "JavaScript reference section listing error messages, including the invalid regular expression flag error"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "regular-expressions",
+  "mdn",
+  "web-reference",
+  "navigation-boilerplate"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17022,
+  "output_tokens": 1527
+ }
+}

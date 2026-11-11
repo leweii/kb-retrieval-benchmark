@@ -1,0 +1,86 @@
+{
+ "summary": "This article from the ROS 2 Design wiki, written by William Woodall in September 2019, describes the design of the ROS 2 launch system as the successor to ROS 1's roslaunch. It compares roslaunch's features and goals (static XML descriptions, remote launching via SSH, parameter server, respawning, composition via includes and groups) with the changes ROS 2 requires, such as one-to-many nodes per process, Windows support, node-specific parameters, deterministic startup via managed nodes, and a programmatic API. It then outlines calling conventions for OS processes, ROS nodes and managed nodes, the separation of concerns, and the process shutdown behavior.",
+ "one_line": "A 2019 ROS 2 design article comparing the ROS 1 roslaunch tool with the planned ROS 2 launch system's processes, nodes, parameters, and events.",
+ "key_facts": [
+  "The ROS 2 launch system is responsible for describing system configuration, executing it, and monitoring and reacting to the state of the processes it launched.",
+  "ROS 1 roslaunch was described on the ROS wiki as a tool for easily launching multiple ROS nodes locally and remotely via SSH, and for setting parameters on the Parameter Server.",
+  "roslaunch from ROS 1 takes in one or more XML configuration files with the .launch extension.",
+  "In ROS 1 roslaunch, the require=true attribute causes everything else to shut down if that process exits for any reason.",
+  "In ROS 1 roslaunch, the respawn=true attribute restarts a process with the same settings as startup, and respawn_delay=N sets a delay in seconds between attempts.",
+  "The article states that in ROS 2 Windows has been added as a targeted platform, and as of writing it does not support SSH natively.",
+  "In ROS 1 there was a global parameter server, whereas in ROS 2 parameters are node specific and there are no truly global parameters.",
+  "The ROS 1 wiki states that roslaunch does not guarantee any particular order to the startup of nodes.",
+  "The launch system in ROS 2 aims to allow constraints such as launching an image processing node only after a camera driver node reaches the 'Active' state.",
+  "By default the launch system sends SIGINT to a process on shutdown, then after a short period sends SIGTERM, then after an additional short period sends SIGKILL.",
+  "If the launch system itself receives SIGTERM, it sends SIGKILL to all child processes and exits immediately.",
+  "A managed node enters the Finalized state after passing through the ShuttingDown transition state on termination.",
+  "Managed node state changes are observable via the lifecycle event system, at least through the ROS topic lifecycle_state.",
+  "A process with multiple nodes can configure namespaces separately, for example camera1:__ns:=left camera2:__ns:=right.",
+  "The article notes that $(eval expression) was added in ROS Kinetic and that dynamic features in roslaunch are often done with xacro preprocessing."
+ ],
+ "entities": [
+  {
+   "name": "ROS 2 Launch System",
+   "type": "program",
+   "role": "The launch system for ROS 2 whose design this article describes, successor to the ROS 1 launch system."
+  },
+  {
+   "name": "roslaunch",
+   "type": "program",
+   "role": "The ROS 1 launch tool that launches multiple nodes locally and remotely, sets parameters, and respawns processes; the article's point of comparison."
+  },
+  {
+   "name": "William Woodall",
+   "type": "person",
+   "role": "Author of the article, dated 2019-09."
+  },
+  {
+   "name": "Parameter Server",
+   "type": "program",
+   "role": "The global parameter server in ROS 1 that stored all parameters and was tightly integrated into roslaunch."
+  },
+  {
+   "name": "roscore",
+   "type": "program",
+   "role": "ROS 1 tool referenced as an example of an explicitly invoked global parameter server that ROS 2 may provide as a node."
+  },
+  {
+   "name": "xacro",
+   "type": "program",
+   "role": "An XML preprocessor mentioned as one approach to dynamic behavior in roslaunch launch files."
+  },
+  {
+   "name": "SSH",
+   "type": "program",
+   "role": "Mechanism specified for launching processes on remote machines in ROS 1, which does not natively exist on Windows in ROS 2."
+  },
+  {
+   "name": "Managed ROS Nodes",
+   "type": "other",
+   "role": "ROS nodes with a lifecycle, which the launch system can use to control startup order and track state."
+  },
+  {
+   "name": "rclcpp",
+   "type": "program",
+   "role": "ROS 2 C++ client library whose spin functions and rclcpp::ok() cause most nodes to shut down on SIGINT."
+  },
+  {
+   "name": "ROS 1 nodelet",
+   "type": "other",
+   "role": "ROS 1 feature that emulated multiple nodes per process, using proxy processes run by a NodeletManager."
+  }
+ ],
+ "tags": [
+  "ros2",
+  "roslaunch",
+  "robotics",
+  "launch system",
+  "process management",
+  "lifecycle nodes"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11432,
+  "output_tokens": 1591
+ }
+}

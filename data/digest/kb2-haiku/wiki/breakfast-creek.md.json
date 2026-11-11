@@ -1,0 +1,40 @@
+{
+ "summary": "This note describes Breakfast Creek, a small urban stream in Queensland, Australia. It is a tributary of the Brisbane River and runs through suburban Brisbane in the South East region. The note also gives the Aboriginal name of the creek, Barrambin.",
+ "one_line": "Breakfast Creek is a small urban tributary of the Brisbane River in suburban Brisbane, Queensland, Australia.",
+ "key_facts": [
+  "Breakfast Creek is a small urban stream.",
+  "Breakfast Creek is a tributary of the Brisbane River.",
+  "Breakfast Creek is located in suburban Brisbane.",
+  "Breakfast Creek is located in the South East region of Queensland, Australia.",
+  "The Aboriginal name of Breakfast Creek is Barrambin."
+ ],
+ "entities": [
+  {
+   "name": "Breakfast Creek",
+   "type": "place",
+   "role": "small urban stream and tributary of the Brisbane River, located in suburban Brisbane in the South East region of Queensland, Australia"
+  },
+  {
+   "name": "Brisbane River",
+   "type": "place",
+   "role": "river into which Breakfast Creek flows as a tributary"
+  },
+  {
+   "name": "Barrambin",
+   "type": "other",
+   "role": "Aboriginal name of Breakfast Creek"
+  }
+ ],
+ "tags": [
+  "waterways",
+  "queensland",
+  "brisbane",
+  "rivers",
+  "australia"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1057,
+  "output_tokens": 446
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "summary": "This note describes the topography around Portland, Oregon. Downtown is relatively flat, but the West Hills, part of the Tualatin Mountains, rise in the city's northwest and southwest. It names the high points within and near the city, including Council Crest Park, Mt. Tabor, Powell Butte and Rocky Butte, and notes the surrounding Coast Range, Cascade Range and volcanic peaks visible on clear days.",
+ "one_line": "A geographic overview of Portland, Oregon's hills, high points, and surrounding mountain ranges and volcanoes.",
+ "key_facts": [
+  "Much of downtown Portland is relatively flat.",
+  "The foothills of the Tualatin Mountains, more commonly referred to locally as the West Hills, pierce through the northwest and southwest reaches of Portland.",
+  "Council Crest Park is commonly thought of as the highest point within Portland city limits.",
+  "Council Crest Park is in the West Hills and rises to an elevation of 1,073 feet (327 m).",
+  "The city's actual high point is a little-known and infrequently accessed point at 1,180 feet near Forest Park.",
+  "The highest point east of the river is Mt. Tabor, an extinct volcanic cinder cone, which rises to 636 feet (194 m).",
+  "Powell Butte rises to 614 feet (187 m).",
+  "Rocky Butte rises to 612 feet (187 m).",
+  "To the west of the Tualatin Mountains lies the Oregon Coast Range.",
+  "To the east lies the actively volcanic Cascade Range.",
+  "On clear days, Mt. Hood and Mt. St. Helens dominate the horizon.",
+  "Mt. Adams and Mt. Rainier can also be seen in the distance on clear days."
+ ],
+ "entities": [
+  {
+   "name": "Portland, Oregon",
+   "type": "place",
+   "role": "city whose downtown is relatively flat and whose topography is described in the note"
+  },
+  {
+   "name": "Tualatin Mountains",
+   "type": "place",
+   "role": "mountain range whose foothills, the West Hills, pierce the northwest and southwest of the city"
+  },
+  {
+   "name": "West Hills",
+   "type": "place",
+   "role": "local name for the foothills of the Tualatin Mountains; location of Council Crest Park"
+  },
+  {
+   "name": "Council Crest Park",
+   "type": "place",
+   "role": "park commonly thought of as the highest point within city limits, at 1,073 feet (327 m)"
+  },
+  {
+   "name": "Forest Park",
+   "type": "place",
+   "role": "location near the city's actual, little-known high point of 1,180 feet"
+  },
+  {
+   "name": "Mt. Tabor",
+   "type": "place",
+   "role": "extinct volcanic cinder cone and highest point east of the river, at 636 feet (194 m)"
+  },
+  {
+   "name": "Powell Butte",
+   "type": "place",
+   "role": "nearby butte rising to 614 feet (187 m)"
+  },
+  {
+   "name": "Rocky Butte",
+   "type": "place",
+   "role": "nearby butte rising to 612 feet (187 m)"
+  },
+  {
+   "name": "Oregon Coast Range",
+   "type": "place",
+   "role": "mountain range lying to the west of the Tualatin Mountains"
+  },
+  {
+   "name": "Cascade Range",
+   "type": "place",
+   "role": "actively volcanic mountain range lying to the east of the city"
+  },
+  {
+   "name": "Mt. Hood",
+   "type": "place",
+   "role": "peak that dominates the horizon on clear days"
+  },
+  {
+   "name": "Mt. St. Helens",
+   "type": "place",
+   "role": "peak that dominates the horizon on clear days"
+  },
+  {
+   "name": "Mt. Adams",
+   "type": "place",
+   "role": "peak visible in the distance on clear days"
+  },
+  {
+   "name": "Mt. Rainier",
+   "type": "place",
+   "role": "peak visible in the distance on clear days"
+  }
+ ],
+ "tags": [
+  "portland",
+  "oregon",
+  "geography",
+  "topography",
+  "mountains",
+  "volcanoes"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1342,
+  "output_tokens": 1849
+ }
+}

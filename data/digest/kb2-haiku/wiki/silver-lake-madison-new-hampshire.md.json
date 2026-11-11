@@ -1,0 +1,67 @@
+{
+ "summary": "This note describes Silver Lake, a water body in the town of Madison in Carroll County, eastern New Hampshire. It notes the village of Silver Lake at the lake's north end and traces the outflow path from the lake through the West Branch and the Ossipee Pine Barrens to Ossipee Lake, ultimately reaching the Saco River in Maine.",
+ "one_line": "Silver Lake is a water body in Madison, Carroll County, New Hampshire, whose outflow drains via the West Branch to the Saco River in Maine.",
+ "key_facts": [
+  "Silver Lake is a water body located in Carroll County in eastern New Hampshire, United States.",
+  "Silver Lake is located in the town of Madison.",
+  "The village of Silver Lake within Madison lies at the north end of Silver Lake.",
+  "Water from Silver Lake flows via the West Branch.",
+  "The West Branch carries Silver Lake water through the Ossipee Pine Barrens.",
+  "Water from Silver Lake flows through the Ossipee Pine Barrens to Ossipee Lake.",
+  "Water from Silver Lake ultimately flows to the Saco River in Maine."
+ ],
+ "entities": [
+  {
+   "name": "Silver Lake",
+   "type": "place",
+   "role": "water body in Carroll County, eastern New Hampshire, located in the town of Madison"
+  },
+  {
+   "name": "Madison",
+   "type": "place",
+   "role": "town in which Silver Lake is located"
+  },
+  {
+   "name": "Carroll County",
+   "type": "place",
+   "role": "county in eastern New Hampshire where Silver Lake is located"
+  },
+  {
+   "name": "Village of Silver Lake",
+   "type": "place",
+   "role": "village within Madison lying at the north end of the lake"
+  },
+  {
+   "name": "West Branch",
+   "type": "place",
+   "role": "waterway through which Silver Lake water flows"
+  },
+  {
+   "name": "Ossipee Pine Barrens",
+   "type": "place",
+   "role": "area through which the West Branch flows toward Ossipee Lake"
+  },
+  {
+   "name": "Ossipee Lake",
+   "type": "place",
+   "role": "lake that Silver Lake water reaches via the West Branch and Ossipee Pine Barrens"
+  },
+  {
+   "name": "Saco River",
+   "type": "place",
+   "role": "river in Maine to which Silver Lake water ultimately flows"
+  }
+ ],
+ "tags": [
+  "new hampshire",
+  "lakes",
+  "watersheds",
+  "carroll county",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1127,
+  "output_tokens": 761
+ }
+}

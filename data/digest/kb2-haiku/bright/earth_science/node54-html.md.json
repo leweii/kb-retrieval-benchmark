@@ -1,0 +1,62 @@
+{
+ "summary": "This note introduces the hydrostatic equilibrium of the Earth's atmosphere, treated as a thin vertical slice whose upward pressure force from below is balanced by its weight. Equating the net pressure force with the slice's weight gives the equation of hydrostatic equilibrium. Using the density expressed through molecular weight and the ideal gas law, the equation is rewritten in terms of pressure and height. The note is part of a classical thermodynamics section and leads into the isothermal atmosphere.",
+ "one_line": "Derives the equation of hydrostatic equilibrium for the Earth's atmosphere by balancing pressure forces against the weight of a thin vertical gas slice.",
+ "key_facts": [
+  "The Earth's atmosphere is the gas most familiar in everyday life, and the isothermal and adiabatic gas laws can explain most of its observable features.",
+  "Hydrostatic equilibrium is analyzed using a thin vertical slice of the atmosphere with cross-sectional area starting at height above ground level.",
+  "The upward force on the slice from the gas below is the pressure at that height multiplied by the cross-sectional area.",
+  "The downward force exerted by the gas above the slice is the pressure at the upper height multiplied by the cross-sectional area.",
+  "In equilibrium the net upward pressure force is balanced by the downward weight of the slice, which equals the gas density times the slice volume times the acceleration due to gravity.",
+  "The equation of hydrostatic equilibrium for the atmosphere is obtained by reducing the force balance condition.",
+  "The density of a gas is written in terms of its molecular weight, defined as the mass of one mole of gas particles.",
+  "The molecular weight of Nitrogen gas is 28 grams.",
+  "Combining the density formula with the ideal gas law yields an expression for density in terms of pressure and temperature.",
+  "Substituting this density expression gives a rewritten form of the hydrostatic equilibrium equation.",
+  "The note is titled 'Hydrostatic equilibrium of the atmosphere' and sits in the Classical thermodynamics section.",
+  "The next topic in the sequence is the isothermal atmosphere, and the previous topic is isothermal and adiabatic expansion."
+ ],
+ "entities": [
+  {
+   "name": "Earth's atmosphere",
+   "type": "place",
+   "role": "the gas envelope whose hydrostatic equilibrium is analyzed as the everyday gas example"
+  },
+  {
+   "name": "Nitrogen gas",
+   "type": "other",
+   "role": "example gas with a molecular weight of 28 grams"
+  },
+  {
+   "name": "Richard Fitzpatrick",
+   "type": "person",
+   "role": "author credited with the note's date of 2006-02-02"
+  },
+  {
+   "name": "Classical thermodynamics",
+   "type": "program",
+   "role": "parent section containing this note"
+  },
+  {
+   "name": "The isothermal atmosphere",
+   "type": "event",
+   "role": "next section in the sequence"
+  },
+  {
+   "name": "Isothermal and adiabatic expansion",
+   "type": "event",
+   "role": "previous section in the sequence"
+  }
+ ],
+ "tags": [
+  "atmosphere",
+  "hydrostatic equilibrium",
+  "thermodynamics",
+  "ideal gas law",
+  "molecular weight"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1624,
+  "output_tokens": 1026
+ }
+}

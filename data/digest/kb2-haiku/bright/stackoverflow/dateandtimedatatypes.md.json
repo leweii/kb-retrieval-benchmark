@@ -1,0 +1,100 @@
+{
+ "summary": "This Microsoft Learn reference article documents the Transact-SQL date and time data types and functions used in SQL Server, Azure SQL Database, Azure SQL Managed Instance and Azure Synapse Analytics. It lists the six date/time data types with their formats, ranges, accuracy and storage sizes, and groups the functions into categories such as system date/time values, date parts, constructors from parts, differences, modifications, session format settings and validation. It also links to related articles on formatting, conversion, collations and time zone conversion.",
+ "one_line": "Microsoft reference listing Transact-SQL date and time data types and functions across SQL Server and Azure SQL services.",
+ "key_facts": [
+  "The Transact-SQL date and time data types are time, date, smalldatetime, datetime, datetime2 and datetimeoffset.",
+  "The datetime2 data type has a range of 0001-01-01 00:00:00.0000000 through 9999-12-31 23:59:59.9999999 with 100 nanoseconds accuracy and 6 to 8 bytes storage.",
+  "The smalldatetime data type has a range of 1900-01-01 through 2079-06-06 with 1 minute accuracy and 4 bytes storage.",
+  "The datetime data type has a range of 1753-01-01 through 9999-12-31 with 0.00333 second accuracy and 8 bytes storage.",
+  "The date data type covers 0001-01-01 through 9999-12-31 with 1 day accuracy and 3 bytes storage.",
+  "The datetimeoffset data type stores values in the format YYYY-MM-DD hh:mm:ss[.nnnnnnn] [+|-]hh:mm and uses 8 to 10 bytes of storage.",
+  "The time data type covers 00:00:00.0000000 through 23:59:59.9999999 and uses 3 to 5 bytes of storage.",
+  "The rowversion data type is not a date or time data type, and timestamp is a deprecated synonym for rowversion.",
+  "Since SQL Server 2008 (10.0.x), the Database Engine derives date and time values through the GetSystemTimeAsFileTime() Windows API, which has a precision fixed at 100 nanoseconds.",
+  "SYSDATETIME returns a datetime2(7) value, SYSDATETIMEOFFSET returns a datetimeoffset(7) value, and SYSUTCDATETIME returns a datetime2(7) value in UTC.",
+  "CURRENT_TIMESTAMP, GETDATE and GETUTCDATE return a datetime value and are classed as nondeterministic.",
+  "DATEDIFF returns an int and DATEDIFF_BIG returns a bigint for the number of datepart boundaries crossed between two dates.",
+  "SWITCHOFFSET changes the time zone offset of a DATETIMEOFFSET value and preserves the UTC value.",
+  "ISDATE determines whether a datetime or smalldatetime input expression has a valid date or time value."
+ ],
+ "entities": [
+  {
+   "name": "SQL Server",
+   "type": "product",
+   "role": "database product on whose computer the system date and time values are derived"
+  },
+  {
+   "name": "Azure SQL Database",
+   "type": "product",
+   "role": "Azure service to which the article's functions and types apply"
+  },
+  {
+   "name": "Azure SQL Managed Instance",
+   "type": "product",
+   "role": "Azure service to which the article's functions and types apply"
+  },
+  {
+   "name": "Azure Synapse Analytics",
+   "type": "product",
+   "role": "Azure service to which the article's functions and types apply"
+  },
+  {
+   "name": "Transact-SQL",
+   "type": "other",
+   "role": "language whose date and time data types and functions the article covers"
+  },
+  {
+   "name": "GetSystemTimeAsFileTime()",
+   "type": "product",
+   "role": "Windows API used by the Database Engine to derive date and time values since SQL Server 2008"
+  },
+  {
+   "name": "GetSystemTimeAdjustment()",
+   "type": "product",
+   "role": "Windows API used to determine the accuracy of system date and time values"
+  },
+  {
+   "name": "Coordinated Universal Time",
+   "type": "other",
+   "role": "time standard returned by the UTC functions such as SYSUTCDATETIME and GETUTCDATE"
+  },
+  {
+   "name": "rowversion",
+   "type": "other",
+   "role": "data type that is not a date or time data type; timestamp is its deprecated synonym"
+  },
+  {
+   "name": "CAST and CONVERT (Transact-SQL)",
+   "type": "other",
+   "role": "related article on conversion of date and time values to and from string literals"
+  },
+  {
+   "name": "FORMAT",
+   "type": "other",
+   "role": "related function for locale-aware formatting of date/time and number values as strings"
+  },
+  {
+   "name": "AT TIME ZONE (Transact-SQL)",
+   "type": "other",
+   "role": "related article providing time zone conversion"
+  },
+  {
+   "name": "Microsoft Edge",
+   "type": "product",
+   "role": "browser recommended in the page's upgrade banner, not part of the article content"
+  }
+ ],
+ "tags": [
+  "sql server",
+  "transact-sql",
+  "date and time",
+  "data types",
+  "reference",
+  "azure sql"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9156,
+  "output_tokens": 1618
+ }
+}

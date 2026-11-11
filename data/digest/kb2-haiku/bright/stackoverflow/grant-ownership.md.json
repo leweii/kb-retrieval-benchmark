@@ -1,0 +1,80 @@
+{
+ "summary": "This note is the Snowflake reference page for the GRANT OWNERSHIP command, which transfers ownership of a single object or all objects of a type in a schema or database from one role (or database role) to another. It gives the syntax, required and optional parameters (including REVOKE or COPY CURRENT GRANTS), usage notes on restrictions and blocked object types, and examples. Ownership is a privilege that can be granted but not revoked.",
+ "one_line": "Snowflake reference for the GRANT OWNERSHIP command, covering syntax, REVOKE/COPY CURRENT GRANTS options, usage restrictions, and examples.",
+ "key_facts": [
+  "GRANT OWNERSHIP transfers ownership of an object or all objects of a specified type in a schema from one role to another role.",
+  "OWNERSHIP is a special type of privilege that can only be granted from one role to another role and cannot be revoked.",
+  "The optional REVOKE CURRENT GRANTS clause enforces RESTRICT semantics, requiring removal of all outbound privileges on an object before ownership transfers.",
+  "The optional COPY CURRENT GRANTS clause transfers ownership along with a copy of existing outbound privileges, and the new owner becomes the grantor of those copied privileges.",
+  "COPY CURRENT GRANTS requires that the role executing the command have the MANAGE GRANTS privilege on the account.",
+  "A GRANT OWNERSHIP statement fails if existing outbound privileges on the object are neither revoked nor copied.",
+  "You cannot transfer the OWNERSHIP privilege for APPLICATION ROLE, CONNECTION, SERVICE, or SHARE objects; only the ACCOUNTADMIN role can own a connection.",
+  "A role with the MANAGE GRANTS privilege can transfer ownership to any role, while a role without it can only transfer ownership from itself to a child role in the role hierarchy.",
+  "The transfer of ownership only affects existing objects at the time the command is issued; objects created later are owned by the role in use when created.",
+  "Pipes must be paused and scheduled tasks must be suspended before their ownership can be transferred.",
+  "There is no separate GRANT OWNERSHIP ON MATERIALIZED VIEW statement; materialized views use GRANT OWNERSHIP ON VIEW.",
+  "The REVOKE keyword does not work when granting ownership of future objects of a specified type using GRANT OWNERSHIP ON FUTURE.",
+  "Bulk grants on pipes are not allowed.",
+  "Snowflake prevents the GRANT OWNERSHIP ... REVOKE CURRENT GRANTS command on a shared database."
+ ],
+ "entities": [
+  {
+   "name": "GRANT OWNERSHIP",
+   "type": "program",
+   "role": "SQL command that transfers ownership of objects from one role to another, documented on this page"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "program",
+   "role": "role that is the only role allowed to own a connection object"
+  },
+  {
+   "name": "MANAGE GRANTS",
+   "type": "program",
+   "role": "account-level privilege required to use COPY CURRENT GRANTS and to transfer ownership to any role"
+  },
+  {
+   "name": "mydb",
+   "type": "product",
+   "role": "example database used in the examples, first owned by the manager role and transferred to analyst"
+  },
+  {
+   "name": "manager",
+   "type": "program",
+   "role": "example role that initially owns the mydb database in the roles example"
+  },
+  {
+   "name": "analyst",
+   "type": "program",
+   "role": "example role receiving ownership of mydb and mydb.public.mytable"
+  },
+  {
+   "name": "mydb.dr1",
+   "type": "program",
+   "role": "example database role receiving ownership of tables in the database roles examples"
+  },
+  {
+   "name": "myshare",
+   "type": "product",
+   "role": "share from which usage on the shared database mydb is revoked in the shared database example"
+  },
+  {
+   "name": "r2",
+   "type": "program",
+   "role": "role receiving ownership of the shared database mydb in the shared database example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "access-control",
+  "privileges",
+  "grants",
+  "ownership"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5264,
+  "output_tokens": 1319
+ }
+}

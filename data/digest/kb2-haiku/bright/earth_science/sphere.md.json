@@ -1,0 +1,70 @@
+{
+ "summary": "This Wikipedia article defines a sphere as the set of points in three-dimensional space at a fixed distance (radius) from a center, and covers its basic terminology, equations, and geometric properties. It gives the volume formula V = 4/3 πr³ and surface area formula A = 4πr², with Archimedes credited for the early derivations. It also discusses the sphere's role in mathematics (spherical geometry, differential geometry, topology), curves on spheres, and generalizations such as ellipsoids and n-spheres. The note is truncated before the history, gallery, and remaining sections.",
+ "one_line": "Wikipedia article defining the sphere as a 3D set of points equidistant from a center, with its equations, volume, surface area and geometric properties.",
+ "key_facts": [
+  "A sphere is the set of points that are all at the same distance r from a given point in three-dimensional space, called the center.",
+  "The earliest known mentions of spheres appear in the work of the ancient Greek mathematicians.",
+  "The volume of a sphere is V = 4/3 πr³, which equals π/6 d³ ≈ 0.5236·d³, where d is the diameter.",
+  "Archimedes first derived the sphere volume formula by showing the volume inside a sphere is twice the volume between the sphere and its circumscribed cylinder.",
+  "The surface area of a sphere of radius r is A = 4πr².",
+  "A sphere is uniquely determined by four points that are not coplanar.",
+  "Two spheres intersect in a circle, and the plane containing that circle is called the radical plane.",
+  "The sphere has the smallest surface area of all surfaces enclosing a given volume, and encloses the largest volume among closed surfaces with a given surface area.",
+  "In Riemannian geometry, the filling area conjecture states that the hemisphere is the optimal (least area) isometric filling of the Riemannian circle.",
+  "The sphere has constant Gaussian curvature equal to 1/r² at each point.",
+  "The antipodal quotient of the sphere is the real projective plane.",
+  "In navigation, a rhumb line or loxodrome is an arc crossing all meridians of longitude at the same angle, and loxodromes are straight lines in the Mercator projection.",
+  "Spherical geometry is a form of elliptic geometry, which together with hyperbolic geometry makes up non-Euclidean geometry.",
+  "In spherical trigonometry the sum of the interior angles of a spherical triangle always exceeds 180 degrees.",
+  "An ellipsoid is the image of a sphere under an affine transformation."
+ ],
+ "entities": [
+  {
+   "name": "Archimedes",
+   "type": "person",
+   "role": "First derived the formulas for the volume and surface area of a sphere, as described in the note."
+  },
+  {
+   "name": "David Hilbert and Stephan Cohn-Vossen",
+   "type": "person",
+   "role": "Authors of the book Geometry and the Imagination, which describes eleven properties of the sphere."
+  },
+  {
+   "name": "Apollonius of Perga",
+   "type": "person",
+   "role": "Earlier mathematician with a result for the circle that the note says the sphere's distance-ratio property follows from."
+  },
+  {
+   "name": "Euclid's Elements",
+   "type": "product",
+   "role": "Source of the traditional definition of a sphere as a surface formed by rotating a circle about its diameter."
+  },
+  {
+   "name": "Geometry and the Imagination",
+   "type": "product",
+   "role": "Book by Hilbert and Cohn-Vossen that describes eleven properties of the sphere."
+  },
+  {
+   "name": "Mercator projection",
+   "type": "product",
+   "role": "Map projection in which loxodromes appear as straight lines."
+  },
+  {
+   "name": "Sphere eversion",
+   "type": "event",
+   "role": "Process of turning a sphere inside out in three-dimensional space without creating creases."
+  }
+ ],
+ "tags": [
+  "geometry",
+  "sphere",
+  "mathematics",
+  "spherical geometry",
+  "volume and surface area"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13359,
+  "output_tokens": 1248
+ }
+}

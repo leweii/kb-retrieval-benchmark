@@ -1,0 +1,60 @@
+{
+ "summary": "This is a clipped Hong Kong Observatory page for its 9-day weather forecast, mostly navigation and template placeholders with few concrete values. The substantive content is an explanatory note: the 50% range definitions based on 1991-2020 climate data, the Probability of Significant Rain (PSR) categories, and statements on how forecast accuracy declines with lead time and varies by season and weather system.",
+ "one_line": "Hong Kong Observatory explainer on how its 9-day forecast, temperature/humidity ranges, and Probability of Significant Rain categories work.",
+ "key_facts": [
+  "The 9-day Weather Forecast for Hong Kong is published by the Hong Kong Observatory (HKO) and provides general indications of weather trends for the coming 9 days.",
+  "The middle 50% range (between 25th and 75th percentiles) is calculated from maximum/minimum temperature and relative humidity data within a 5-day period centred on that day in the 30 years from 1991 to 2020.",
+  "For detailed description of today's weather forecast, users are referred to the \"Local Weather Forecast\".",
+  "The Probability of Significant Rain (PSR) forecast indicates the probability of accumulated rainfall generally over Hong Kong reaching 10 mm or more on a given day.",
+  "10 mm is described as around the mean daily rainfall in the rainy season.",
+  "The PSR category \"High\" is defined as 70% or above.",
+  "The PSR category \"Medium High\" is defined as 55-69%.",
+  "The PSR category \"Medium\" is defined as 45-54%.",
+  "The PSR category \"Medium Low\" is defined as 30-44%.",
+  "The PSR category \"Low\" is defined as less than 30%.",
+  "Average forecast accuracy for the next one to three days, four to seven days, and eight to nine days is about 90%, 85% and 80% respectively, for elements other than PSR.",
+  "PSR forecast errors in the next one to six days are within around 10%, and within around 20% for seven to nine days.",
+  "Forecast accuracy generally decreases and error generally increases with forecast period.",
+  "Weather in spring and summer, such as fog, tropical cyclones and severe convective weather, is more changeable, resulting in higher forecast uncertainty."
+ ],
+ "entities": [
+  {
+   "name": "Hong Kong Observatory (HKO)",
+   "type": "organization",
+   "role": "publisher of the 9-day Weather Forecast for Hong Kong"
+  },
+  {
+   "name": "9-day Weather Forecast for Hong Kong",
+   "type": "program",
+   "role": "forecast product giving general weather trends for the coming 9 days"
+  },
+  {
+   "name": "Local Weather Forecast",
+   "type": "program",
+   "role": "HKO product giving detailed description of today's weather forecast"
+  },
+  {
+   "name": "Probability of Significant Rain (PSR) forecast",
+   "type": "program",
+   "role": "forecast indicating likelihood of accumulated rainfall reaching 10 mm or more over Hong Kong"
+  },
+  {
+   "name": "Hong Kong",
+   "type": "place",
+   "role": "location the forecast covers"
+  }
+ ],
+ "tags": [
+  "weather forecast",
+  "hong kong",
+  "meteorology",
+  "rainfall probability",
+  "climate statistics",
+  "forecast accuracy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2326,
+  "output_tokens": 1044
+ }
+}

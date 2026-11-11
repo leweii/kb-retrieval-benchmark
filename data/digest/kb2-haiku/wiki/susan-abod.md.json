@@ -1,0 +1,37 @@
+{
+ "summary": "This short note is a stub about Susan Abod, a musician. It states that she holds a degree in music composition from DePaul University and that she also studied at the Old Town School of Folk Music in Chicago.",
+ "one_line": "Susan Abod is a musician with a music composition degree from DePaul University and folk training at Chicago's Old Town School of Folk Music.",
+ "key_facts": [
+  "Susan Abod has a degree in music composition from DePaul University.",
+  "Susan Abod also studied at the Old Town School of Folk Music in Chicago."
+ ],
+ "entities": [
+  {
+   "name": "Susan Abod",
+   "type": "person",
+   "role": "subject of the note; holds a music composition degree from DePaul University and studied at the Old Town School of Folk Music"
+  },
+  {
+   "name": "DePaul University",
+   "type": "organization",
+   "role": "institution where Susan Abod earned a degree in music composition"
+  },
+  {
+   "name": "Old Town School of Folk Music",
+   "type": "organization",
+   "role": "Chicago school where Susan Abod also studied"
+  }
+ ],
+ "tags": [
+  "music",
+  "music composition",
+  "chicago",
+  "education",
+  "folk music"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1027,
+  "output_tokens": 356
+ }
+}

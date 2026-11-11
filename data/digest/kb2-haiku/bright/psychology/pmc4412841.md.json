@@ -1,0 +1,60 @@
+{
+ "summary": "The note is a PubMed Central error page for article PMC4412841, not the article itself. PMC blocked the request because it was made by an automated process using the user agent python-requests/2.31.0, which violates the PMC Copyright Notice. The page gives a message ID and timestamp, and says access can be restored by emailing PMC with that information. No article content, title, authors or findings are present.",
+ "one_line": "A blocked-access error page from PubMed Central for article PMC4412841, triggered by an automated python-requests retrieval; no article content.",
+ "key_facts": [
+  "The page is titled 'Page not available' and reports that access to PubMed Central was blocked.",
+  "The block was triggered by automated retrieval using the user agent 'python-requests/2.31.0'.",
+  "The blocked URL was https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4412841/.",
+  "The message ID given for the block is 922505476.",
+  "The block was logged at 2024/03/30 17:17:38.",
+  "The page states that use of PMC is free but must comply with the terms of the PMC Copyright Notice.",
+  "To request unblocking, the user must email pubmedcentral@nih.gov and include all information from the block notice.",
+  "The National Library of Medicine address listed on the page is 8600 Rockville Pike, Bethesda, MD 20894.",
+  "The page contains no abstract, title, authors or findings of the article PMC4412841.",
+  "The domain field is labeled 'psychology', but the note's content does not identify the article's subject."
+ ],
+ "entities": [
+  {
+   "name": "PubMed Central (PMC)",
+   "type": "program",
+   "role": "NCBI full-text archive whose site blocked the automated request"
+  },
+  {
+   "name": "National Library of Medicine",
+   "type": "organization",
+   "role": "agency operating PMC, listed at 8600 Rockville Pike, Bethesda, MD 20894"
+  },
+  {
+   "name": "NCBI",
+   "type": "organization",
+   "role": "National Center for Biotechnology Information, host of the PMC site"
+  },
+  {
+   "name": "PMC Copyright Notice",
+   "type": "other",
+   "role": "terms of use that automated retrieval violated"
+  },
+  {
+   "name": "python-requests/2.31.0",
+   "type": "product",
+   "role": "user agent string whose automated retrieval triggered the block"
+  },
+  {
+   "name": "PMC4412841",
+   "type": "other",
+   "role": "article identifier whose page was requested and blocked"
+  }
+ ],
+ "tags": [
+  "pubmed central",
+  "access block",
+  "web scraping",
+  "error page",
+  "ncbi"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2941,
+  "output_tokens": 801
+ }
+}

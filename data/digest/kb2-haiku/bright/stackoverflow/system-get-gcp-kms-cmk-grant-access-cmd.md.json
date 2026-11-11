@@ -1,0 +1,67 @@
+{
+ "summary": "This is a Snowflake documentation page for the system function SYSTEM$GET_GCP_KMS_CMK_GRANT_ACCESS_CMD. The function takes no arguments and returns a Google Cloud gcloud command that retrieves policy information from Google Cloud Key Management Service, used for customer-managed keys and Tri-Secret Secure on Snowflake accounts hosted on Google Cloud Platform. The page notes that only ACCOUNTADMIN users or roles granted the MONITOR SECURITY privilege may call it, and it shows an example output command with placeholder values in angle brackets.",
+ "one_line": "Snowflake system function that returns a gcloud command to grant GCP KMS access for customer-managed keys and Tri-Secret Secure.",
+ "key_facts": [
+  "SYSTEM$GET_GCP_KMS_CMK_GRANT_ACCESS_CMD returns a Google Cloud gcloud command to obtain policy information for Google Cloud Key Management Service.",
+  "The function is used with customer-managed keys and Tri-Secret Secure for Snowflake accounts on Google Cloud Platform.",
+  "The function takes no arguments; its syntax is SYSTEM$GET_GCP_KMS_CMK_GRANT_ACCESS_CMD().",
+  "The function is for use in Snowflake accounts on Google Cloud Platform only.",
+  "Only account administrators (users with the ACCOUNTADMIN role) or a role granted the MONITOR SECURITY privilege can call this function.",
+  "The example query is: select SYSTEM$GET_GCP_KMS_CMK_GRANT_ACCESS_CMD();",
+  "The example returned command begins with 'gcloud kms keys add-iam-policy-binding <key-name> --project <project-id>'.",
+  "The example command includes the options --location <location>, --keyring <key-ring>, and --member serviceAccount:<service-account-email>.",
+  "The example command grants the role roles/cloudkms.cryptoKeyEncrypterDecrypter.",
+  "The example command does not contain real option values; some values are replaced by angle brackets.",
+  "The page is listed under the Information and Query Information categories of the Snowflake documentation, and it refers readers to a security encryption management guide."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$GET_GCP_KMS_CMK_GRANT_ACCESS_CMD",
+   "type": "program",
+   "role": "System function that returns a gcloud command to obtain GCP KMS policy information for customer-managed keys and Tri-Secret Secure"
+  },
+  {
+   "name": "Google Cloud Key Management Service",
+   "type": "product",
+   "role": "Google Cloud service whose policy information the returned gcloud command obtains"
+  },
+  {
+   "name": "Google Cloud Platform",
+   "type": "product",
+   "role": "Cloud platform on which the function is usable, for Snowflake accounts hosted there"
+  },
+  {
+   "name": "Tri-Secret Secure",
+   "type": "program",
+   "role": "Snowflake feature used together with customer-managed keys"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "Role whose users are permitted to call the function"
+  },
+  {
+   "name": "MONITOR SECURITY",
+   "type": "other",
+   "role": "Privilege that, when granted to a role, allows calling the function"
+  },
+  {
+   "name": "gcloud",
+   "type": "product",
+   "role": "Google Cloud command-line tool whose command the function returns"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "gcp",
+  "encryption",
+  "customer-managed keys",
+  "kms",
+  "system functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1742,
+  "output_tokens": 1161
+ }
+}

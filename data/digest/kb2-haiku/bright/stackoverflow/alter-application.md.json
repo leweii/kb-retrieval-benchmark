@@ -1,0 +1,76 @@
+{
+ "summary": "This is Snowflake documentation for the ALTER APPLICATION command, which modifies an installed application in the Native Apps Framework. It covers the syntax for setting or unsetting properties such as COMMENT, DEBUG_MODE, and SHARE_EVENTS_WITH_PROVIDER, setting or unsetting tags, unsetting references, and upgrading an application to a version, patch, or stage path. The page notes that the command is not supported on Google Cloud Platform and lists conditions for enabling debug mode.",
+ "one_line": "Snowflake reference for the ALTER APPLICATION command, which changes an installed Native Apps application's properties, debug mode, tags, references, and version upgrades.",
+ "key_facts": [
+  "ALTER APPLICATION modifies the properties of an installed application in the Native Apps Framework.",
+  "The ALTER APPLICATION command is not supported on Google Cloud Platform.",
+  "ALTER APPLICATION ... UPGRADE USING VERSION <version_name> [ PATCH <patch_num> ] upgrades the application to the specified version; if the patch number is omitted, the latest patch is used.",
+  "The UPGRADE USING VERSION form is only valid for applications installed by specifying a version and patch.",
+  "DEBUG_MODE = TRUE enables debug mode for the installed application, and DEBUG_MODE = FALSE disables it.",
+  "To set DEBUG_MODE, the installed application must be in the same account as the application package.",
+  "To set DEBUG_MODE, the installed application must have been created in development mode, which is installed with an explicit stage, version, or patch.",
+  "To set DEBUG_MODE, the caller must have OWNERSHIP privileges on the installed application and the DEVELOP privilege on the application package used to create it.",
+  "The UPGRADE command may only be used on non-development mode applications, which are installed from a listing or without specifying a stage or version.",
+  "The UPGRADE USING <path_to_stage> clause applies only if the application was installed from a named stage.",
+  "SHARE_EVENTS_WITH_PROVIDER = { TRUE | FALSE } specifies whether to share logs and event data with the provider.",
+  "The tag value is always a string, and its maximum length is 256 characters.",
+  "UNSET REFERENCES with no arguments unsets all persistent references set for the application.",
+  "If optional parameter values are not specified, they are taken from the manifest.yml file, and values given in the command take precedence over the manifest.",
+  "Customers should not enter personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data as metadata in Snowflake."
+ ],
+ "entities": [
+  {
+   "name": "ALTER APPLICATION",
+   "type": "program",
+   "role": "SQL command documented on this page that modifies an installed application in the Native Apps Framework"
+  },
+  {
+   "name": "Native Apps Framework",
+   "type": "program",
+   "role": "framework in which the installed application is modified by the ALTER APPLICATION command"
+  },
+  {
+   "name": "Google Cloud Platform",
+   "type": "organization",
+   "role": "platform on which this feature is not supported"
+  },
+  {
+   "name": "manifest.yml",
+   "type": "other",
+   "role": "file from which values for optional parameters are taken when not specified in the command"
+  },
+  {
+   "name": "DEBUG_MODE",
+   "type": "program",
+   "role": "parameter that enables or disables debug mode for the installed application"
+  },
+  {
+   "name": "SHARE_EVENTS_WITH_PROVIDER",
+   "type": "program",
+   "role": "property specifying whether to share logs and event data with the provider"
+  },
+  {
+   "name": "DEVELOP",
+   "type": "program",
+   "role": "privilege that must be granted on the application package used to create the installed application for debug mode"
+  },
+  {
+   "name": "OWNERSHIP",
+   "type": "program",
+   "role": "privilege required on the installed application to set DEBUG_MODE"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "native-apps",
+  "sql-commands",
+  "application-upgrade",
+  "debug-mode",
+  "sql-reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3188,
+  "output_tokens": 1283
+ }
+}

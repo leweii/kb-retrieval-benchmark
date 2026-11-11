@@ -1,0 +1,91 @@
+{
+ "summary": "This paper by Wolfram Conen and Tuomas Sandholm proposes a progressive, partial-revelation mechanism for combinatorial auctions that determines an efficient allocation and the Vickrey payments while eliciting only part of bidders' preferences. The mechanism is based on a family of algorithms (PAR, MPAR, EBF) that explore the natural lattice of combined rank functions, eliciting bundles from most to least preferred. The authors give analytical bounds on elicitation and feasibility checks, show EBF and MPAR are limit cases for information use, and prove the resulting RANK mechanism is incentive compatible and efficient, with Vickrey payments obtained as a costless by-product.",
+ "one_line": "A partial-revelation VCG-style mechanism for combinatorial auctions that elicits bundle preferences in rank order and computes efficient allocations and Vickrey payments.",
+ "key_facts": [
+  "The paper is titled 'Partial-revelation VCG mechanism for combinatorial auctions' by Wolfram Conen (XONAR GmbH, Velbert, Germany) and Tuomas Sandholm (Carnegie Mellon University).",
+  "Combinatorial auctions with m items have 2^m - 1 bundles, and each agent may need to bid on all of them to fully express preferences.",
+  "A Generalized Vickrey Auction requires each bidder to communicate a value for each of the exponentially many bundles, which the paper calls clearly impractical even for moderate numbers of goods.",
+  "The proposed mechanism elicits preferences in a natural sequence from most preferred towards least preferred bundles, using two allowed questions: give the bundle with the next higher rank number, and give your valuation for a bundle.",
+  "Algorithm PAR (Pareto optimal) determines all Pareto-efficient allocations when utility functions are injective, meaning no agent is indifferent between any two bundles.",
+  "Algorithm EBF (Efficient Best First) always determines a welfare-maximizing allocation, per Proposition 8 of the paper.",
+  "Theorem 11 states there is no admissible, admissibly equipped, deterministic algorithm requiring fewer feasibility checks for every problem instance than every algorithm of the EBF family.",
+  "Theorem 15 states no admissible, admissibly equipped, deterministic algorithm calling the valuation function only for feasible combinations requires fewer calls than the MPAR algorithm.",
+  "Proposition 16 states MPAR requires at most n^m calls to the valuation function, where n is the number of consumers and m the number of goods.",
+  "Proposition 17 states any EBF algorithm requires at most (2^(mn) - n^m)/2 + 1 calls to the valuation function.",
+  "Theorem 18 states no valuation information beyond what EBF already obtains is necessary to determine the Vickrey payments.",
+  "The Vickrey payment of agent i is t(i) = V(E_i) minus the sum over other consumers j of u_j(X_j), where E_i is the economy without i.",
+  "Proposition 20 states a RANK mechanism is incentive compatible and economically efficient.",
+  "The paper notes that winner determination in combinatorial auctions had received significant AI community interest in the last 3 years, and that eliciting bidders' preferences is a separate, less studied difficulty.",
+  "The authors plan future experiments on how effective preference elicitation in combinatorial auctions is in practice, citing Hudson & Sandholm 2002."
+ ],
+ "entities": [
+  {
+   "name": "Wolfram Conen",
+   "type": "person",
+   "role": "co-author of the paper, affiliated with XONAR GmbH in Velbert, Germany"
+  },
+  {
+   "name": "Tuomas Sandholm",
+   "type": "person",
+   "role": "co-author of the paper, affiliated with Carnegie Mellon University Computer Science Department"
+  },
+  {
+   "name": "XONAR GmbH",
+   "type": "organization",
+   "role": "affiliation of Wolfram Conen, located at Wodanstr. 7, 42555 Velbert, Germany"
+  },
+  {
+   "name": "Carnegie Mellon University",
+   "type": "organization",
+   "role": "affiliation of Tuomas Sandholm, Computer Science Department, Pittsburgh, PA"
+  },
+  {
+   "name": "Generalized Vickrey Auction (GVA)",
+   "type": "program",
+   "role": "incentive-compatible mechanism based on eliciting all utilities, described as impractical for moderate numbers of goods"
+  },
+  {
+   "name": "Algorithm PAR (Pareto optimal)",
+   "type": "program",
+   "role": "algorithm that finds all Pareto-efficient allocations when utility functions are injective"
+  },
+  {
+   "name": "Algorithm EBF (Efficient Best First)",
+   "type": "program",
+   "role": "algorithm family that determines a welfare-maximizing allocation"
+  },
+  {
+   "name": "MPAR (maximizing PAR)",
+   "type": "program",
+   "role": "admissible variant of PAR that picks the maximizing Pareto-optimal allocation, limit case for value information"
+  },
+  {
+   "name": "RANK mechanism",
+   "type": "program",
+   "role": "mechanism based on the extended EBF algorithm, incentive compatible and efficient, differing only in tie-breaking rule"
+  },
+  {
+   "name": "AkBA",
+   "type": "program",
+   "role": "auction approach suggested by Wurman & Wellman 2000 using unconstrained anonymous prices"
+  },
+  {
+   "name": "Vickrey payments",
+   "type": "other",
+   "role": "payments determined by the mechanism as a costless by-product of finding an optimal allocation"
+  }
+ ],
+ "tags": [
+  "combinatorial auctions",
+  "mechanism design",
+  "vickrey payments",
+  "preference elicitation",
+  "winner determination",
+  "incentive compatibility"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 12157,
+  "output_tokens": 1854
+ }
+}

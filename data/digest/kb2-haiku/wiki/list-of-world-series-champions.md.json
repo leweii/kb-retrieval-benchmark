@@ -1,0 +1,63 @@
+{
+ "summary": "This note summarizes the overall record of the World Series, the annual championship series of Major League Baseball. It states that 113 Series have been contested, with the National League champion winning 48 and the American League champion winning 65. It then highlights franchise records, especially the New York Yankees' appearances and titles and the St. Louis Cardinals' championship total.",
+ "one_line": "Overview of World Series championship totals by league and franchise, featuring the Yankees, Cardinals, Giants and Dodgers.",
+ "key_facts": [
+  "A total of 113 World Series have been contested.",
+  "The National League (NL) champion has won 48 World Series.",
+  "The American League (AL) champion has won 65 World Series.",
+  "The New York Yankees of the AL have played in 40 World Series through 2017.",
+  "The New York Yankees have won 27 World Series through 2017.",
+  "The New York Yankees have the most Series appearances, victories, and losses (13 losses, shared with the Los Angeles Dodgers) of any Major League Baseball franchise.",
+  "The St. Louis Cardinals represented the NL for a 19th time in 2013.",
+  "The St. Louis Cardinals have won 11 championships.",
+  "The Cardinals' 11 championships are the second-most among all 30 Major League Baseball teams.",
+  "The Cardinals' 11 championships are the most among NL teams.",
+  "The San Francisco Giants have won 23 NL pennants.",
+  "The Los Angeles Dodgers have won 22 NL pennants.",
+  "The Giants and the Dodgers have been NL champions more times than the Cardinals."
+ ],
+ "entities": [
+  {
+   "name": "World Series",
+   "type": "event",
+   "role": "annual championship series contested between the AL and NL champions"
+  },
+  {
+   "name": "New York Yankees",
+   "type": "organization",
+   "role": "AL franchise with 40 Series appearances and 27 wins through 2017, the most of any MLB franchise"
+  },
+  {
+   "name": "St. Louis Cardinals",
+   "type": "organization",
+   "role": "NL franchise that represented the NL for a 19th time in 2013 and has won 11 championships"
+  },
+  {
+   "name": "Los Angeles Dodgers",
+   "type": "organization",
+   "role": "NL franchise with 22 NL pennants, sharing the record of 13 Series losses with the Yankees"
+  },
+  {
+   "name": "San Francisco Giants",
+   "type": "organization",
+   "role": "NL franchise with 23 NL pennants, the most of any NL team"
+  },
+  {
+   "name": "Major League Baseball",
+   "type": "organization",
+   "role": "professional baseball league whose 30 teams are compared in the note"
+  }
+ ],
+ "tags": [
+  "baseball",
+  "world series",
+  "mlb",
+  "championships",
+  "sports statistics"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1216,
+  "output_tokens": 849
+ }
+}

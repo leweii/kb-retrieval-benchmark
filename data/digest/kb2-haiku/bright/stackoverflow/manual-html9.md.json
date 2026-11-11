@@ -1,0 +1,94 @@
+{
+ "summary": "This page is the AWS Lambda \"Manual Copy\" strategy from an AWS disaster recovery workshop. It describes manually exporting Lambda functions (via console or AWS CLI) and importing them into another region, which only transfers source code and requires other settings to be recreated by hand. The page warns this approach is error-prone, recommends keeping source code in version control, and suggests automation with SAM, CloudFormation or the AWS CDK.",
+ "one_line": "Describes the manual strategy of exporting AWS Lambda functions via console or CLI and importing them into another region for disaster recovery.",
+ "key_facts": [
+  "The AWS Lambda Manual Copy strategy involves manually exporting Lambda functions via the console or aws-cli and importing them into another region.",
+  "The page states that the manual Lambda copy strategy is very susceptible to manual errors.",
+  "Only the source code is exported in the manual Lambda copy strategy; Permissions, Memory, Timeout, Environment Variables and other options must be set manually.",
+  "The page advises always keeping Lambda source code in a versioning tool.",
+  "Via the console, a function is exported by going to Services -> Lambda, selecting Functions, clicking the function, and choosing Actions -> Export Function.",
+  "The console export downloads a file that is a zip file without the .zip extension, which must be renamed to .zip.",
+  "The command 'aws lambda list-functions --region=us-east-2' with jq lists Lambda function names in an account.",
+  "The command 'aws lambda get-function --region=us-east-2 --function-name test' returns Code.Location, a URL to the source code on S3, plus Configuration details such as memory and timeout.",
+  "Via the console import, the user selects the new region, clicks Create Role if needed, and uploads the zip via Actions -> Upload a zip file in the Source Code section.",
+  "The CLI import example uses 'aws lambda create-function' with --zip-file, --handler, --runtime and --role parameters.",
+  "The page recommends using SAM (Serverless Application Model) to package source code, settings and dependencies in a single package.",
+  "AWS CloudFormation or the AWS CDK run via command line can provide a diff of current infrastructure to ease multi-region deployment of architecture changes.",
+  "The page is part of the AWS Disaster Recovery workshop, under AWS Services > Compute > AWS Lambda, with the Backup & Restore and Pilot Light strategies listed."
+ ],
+ "entities": [
+  {
+   "name": "AWS Lambda",
+   "type": "product",
+   "role": "serverless compute service whose functions are manually exported and imported between regions in this strategy"
+  },
+  {
+   "name": "AWS CLI",
+   "type": "product",
+   "role": "command-line tool used to list, export and create Lambda functions"
+  },
+  {
+   "name": "SAM (Serverless Application Model)",
+   "type": "program",
+   "role": "suggested tool to package Lambda source code, settings and dependencies into a single package"
+  },
+  {
+   "name": "AWS CloudFormation",
+   "type": "product",
+   "role": "tool suggested for infrastructure deployment and diffing across regions"
+  },
+  {
+   "name": "AWS CDK",
+   "type": "product",
+   "role": "tool mentioned alongside CloudFormation for command-line infrastructure deployment"
+  },
+  {
+   "name": "AWS CodePipeline",
+   "type": "product",
+   "role": "referenced for adding cross-region actions and deploying code across multiple regions"
+  },
+  {
+   "name": "AWS CodeCommit",
+   "type": "product",
+   "role": "referenced in a guide for deploying code across multiple AWS Regions"
+  },
+  {
+   "name": "AWS CodeBuild",
+   "type": "product",
+   "role": "referenced in a guide for deploying code across multiple AWS Regions"
+  },
+  {
+   "name": "Pillars for Resilient Workloads",
+   "type": "other",
+   "role": "architecture guidance the page says should inform the strategy"
+  },
+  {
+   "name": "Infrastructure-as-Code",
+   "type": "other",
+   "role": "pillar described in the workshop material that SAM follows"
+  },
+  {
+   "name": "us-east-2",
+   "type": "place",
+   "role": "AWS region used in the example CLI commands"
+  },
+  {
+   "name": "Amazon S3",
+   "type": "product",
+   "role": "storage location from which the exported Lambda source code can be imported"
+  }
+ ],
+ "tags": [
+  "aws",
+  "lambda",
+  "disaster-recovery",
+  "cross-region",
+  "backup-restore",
+  "serverless"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3962,
+  "output_tokens": 1388
+ }
+}

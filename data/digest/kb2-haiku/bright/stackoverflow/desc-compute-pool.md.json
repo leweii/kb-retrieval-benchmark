@@ -1,0 +1,60 @@
+{
+ "summary": "This is Snowflake's reference page for the DESCRIBE COMPUTE POOL command, which returns properties and metadata for a compute pool used by Snowpark Container Services. It documents the syntax, the name parameter (double quotes needed for special characters and case-sensitive identifiers), and the output columns such as state, node counts, instance family, auto-suspend and auto-resume settings, timestamps, and owner. It also lists the MONITOR privilege required on the compute pool and gives an example describing a compute pool named tutorial_compute_pool with sample output.",
+ "one_line": "Snowflake reference for the DESCRIBE COMPUTE POOL command, covering its syntax, output columns, MONITOR privilege requirement, and an example.",
+ "key_facts": [
+  "DESCRIBE COMPUTE POOL is available to all Snowflake accounts in AWS commercial regions except for trial accounts.",
+  "DESCRIBE can be abbreviated to DESC.",
+  "The syntax is DESC[RIBE] COMPUTE POOL <name>.",
+  "If a compute pool identifier contains spaces or special characters, the entire string must be enclosed in double quotes, and such identifiers are case-sensitive.",
+  "The output column min_nodes shows the minimum number of nodes in the compute pool, and max_nodes shows the maximum.",
+  "The instance_family column specifies the machine type of nodes in the compute pool.",
+  "The num_services column gives the number of services and jobs running on the compute pool, while num_jobs gives the number of jobs running on it.",
+  "The auto_suspend_secs column specifies the number of seconds of inactivity after which the compute pool is automatically suspended.",
+  "The active_nodes column gives the number of nodes in the compute pool with one or more services or jobs running.",
+  "The owner column shows the role that owns the compute pool.",
+  "The MONITOR privilege on a compute pool is the minimum privilege required to execute DESCRIBE COMPUTE POOL.",
+  "The example describes the compute pool named tutorial_compute_pool.",
+  "In the sample output, tutorial_compute_pool has state ACTIVE, min_nodes and max_nodes of 1, instance_family CPU_X64_XS, and owner ACCOUNTADMIN.",
+  "The sample output shows tutorial_compute_pool was created on 2023-05-01 11:42:20.323 -0700 and last updated on 2023-08-27 17:35:52.761 -0700."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the platform whose documentation describes the DESCRIBE COMPUTE POOL command"
+  },
+  {
+   "name": "DESCRIBE COMPUTE POOL",
+   "type": "program",
+   "role": "SQL command that returns properties and metadata of a compute pool"
+  },
+  {
+   "name": "tutorial_compute_pool",
+   "type": "product",
+   "role": "compute pool described in the example, with sample output showing ACTIVE state and CPU_X64_XS instance family"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "owner role of tutorial_compute_pool in the sample output"
+  },
+  {
+   "name": "Snowpark Container Services",
+   "type": "program",
+   "role": "Snowflake feature that uses compute pools, linked from the page as the working-with-compute-pool guide"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "compute pool",
+  "sql commands",
+  "describe",
+  "snowpark container services",
+  "access control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2658,
+  "output_tokens": 1122
+ }
+}

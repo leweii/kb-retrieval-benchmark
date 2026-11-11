@@ -1,0 +1,90 @@
+{
+ "summary": "Arshad Mehmood's Medium tutorial explains how to interactively debug Gazebo plugins and ROS2 code using Microsoft VSCode, with ROS2 Foxy as the example but applicable to any ROS version. It covers Gazebo's client/server architecture, plugin types, compiling with debug symbols, a VSCode launch.json for attaching gdb to gzserver, and two scenarios: attaching to a running server and debugging plugin startup code by blocking it with a wait loop until a debugger attaches.",
+ "one_line": "A tutorial on interactively debugging Gazebo plugins and ROS2 code with VSCode and gdb by attaching to the gzserver process.",
+ "key_facts": [
+  "The tutorial uses ROS2 Foxy but states the method can be used with any ROS version.",
+  "Gazebo runs as a client (gzclient) and server (gzserver); gzserver performs all physics logic and hosts plugin dynamic libraries.",
+  "The gazebo command is a wrapper executable that runs gzserver and gzclient processes.",
+  "Gazebo plugin types include WORLD_PLUGIN, MODEL_PLUGIN, SENSOR_PLUGIN, SYSTEM_PLUGIN, VISUAL_PLUGIN and GUI_PLUGIN.",
+  "System plugins are loaded by gzserver at process start, before any world or model is created.",
+  "Interactive debugging requires debug symbols and minimal optimization; the best build is Debug (-O0 -g) or RelWithDebInfo (-O2 -g -DNDEBUG).",
+  "The colcon build command for debug symbols is: colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Debug.",
+  "The launch.json configuration is named '(gdb) Attach', uses type cppdbg with MIMode gdb, and sets sudo to true.",
+  "The GetPID input runs the command 'pgrep gzserver' to get the gzserver process ID.",
+  "The GetPath input runs 'readlink /proc/$(pgrep gzserver)/exe' to get the executable path needed for gdb attach.",
+  "To debug plugin functions such as Load() or Update(), start Gazebo, set a breakpoint, attach VSCode to gzserver, then import the model with spawn_entity.py.",
+  "Example spawn command: ros2 run gazebo_ros spawn_entity.py -file <path>/model.sdf -entity robot -x 0.0 -y 0.0 -z 0.0.",
+  "For startup code, running 'ros2 launch gazebo_ros gzserver.launch.py gdb:=true' lets gdb trap crashes such as asserts.",
+  "A wait loop at the start of Load() or the constructor can block a plugin until the debugger attaches, ended by creating the file /tmp/go with 'touch /tmp/go' or by changing a variable i from 0."
+ ],
+ "entities": [
+  {
+   "name": "Arshad Mehmood",
+   "type": "person",
+   "role": "author of the tutorial, technical lead at Intel Corporation"
+  },
+  {
+   "name": "Intel Corporation",
+   "type": "organization",
+   "role": "employer of the author, where he is technical lead"
+  },
+  {
+   "name": "Microsoft VSCode",
+   "type": "product",
+   "role": "IDE used to set up interactive debugging of Gazebo plugins"
+  },
+  {
+   "name": "gzserver",
+   "type": "program",
+   "role": "Gazebo server process that runs physics and hosts plugin dynamic libraries; the debugging target"
+  },
+  {
+   "name": "gzclient",
+   "type": "program",
+   "role": "Gazebo client front end that renders physics state on screen"
+  },
+  {
+   "name": "gazebo",
+   "type": "program",
+   "role": "wrapper executable that runs gzserver and gzclient processes"
+  },
+  {
+   "name": "gdb",
+   "type": "program",
+   "role": "debugger attached to gzserver through the VSCode launch.json configuration"
+  },
+  {
+   "name": "ROS2 Foxy",
+   "type": "product",
+   "role": "ROS2 distribution used in the tutorial"
+  },
+  {
+   "name": "colcon",
+   "type": "program",
+   "role": "build tool used with --symlink-install and --cmake-args to build packages with debug symbols"
+  },
+  {
+   "name": "spawn_entity.py",
+   "type": "program",
+   "role": "gazebo_ros script used to import a model containing a plugin into Gazebo"
+  },
+  {
+   "name": "gazebo_ros gzserver.launch.py",
+   "type": "program",
+   "role": "launch file used with gdb:=true to run gzserver under gdb"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "gazebo",
+  "debugging",
+  "vscode",
+  "gdb",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7197,
+  "output_tokens": 1496
+ }
+}

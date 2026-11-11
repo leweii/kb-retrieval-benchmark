@@ -1,0 +1,94 @@
+{
+ "summary": "A ROS Answers question from 2014-06-16 by user xuningy about the /collision_map_out topic (published via mapping_rviz_plugin) not displaying in RViz with octomap_server. The asker had installed and verified mapping_rviz_plugin and changed PLUGINLIB_DEPEND_CLASS to PLUGINLIB_EXPORT_CLASS in init.cpp, but adding the Display CollisionMap produced repeated 'Object::connect: No such slot rviz::Display::...' errors for signals such as changedTopic, changedColor and changedAlpha. The asker included the header collision_map_display.h, which declares the slot methods without Q_OBJECT or Q_SLOTS. A comment from the asker reports the fix: adding Q_OBJECT and Q_SLOTS and passing fixed_frame_ to the MessageFilter in collision_map_display.cpp made it work.",
+ "one_line": "ROS Answers question on why the /collision_map_out topic from mapping_rviz_plugin fails to display in RViz, with Qt slot-connection errors and the asker's eventual fix.",
+ "key_facts": [
+  "The question was asked on 2014-06-16 at 15:13:34 -0500 by user xuningy on ROS Answers.",
+  "The question was tagged collision_map_out, mapping_rviz_plugin, octomap_server, collision_map and arm_navigation_msgs.",
+  "The asker wanted to display the /collision_map_out topic in RViz using the mapping_rviz_plugin.",
+  "The asker changed init.cpp to use PLUGINLIB_EXPORT_CLASS instead of PLUGINLIB_DEPEND_CLASS.",
+  "Adding the Display CollisionMap in RViz produced 'Object::connect: No such slot rviz::Display::changedOverrideColor()' and similar errors.",
+  "The error messages list missing slots changedOverrideColor, changedColor, changedRenderOperation, changedAlpha, changedPointSize and changedTopic.",
+  "The header collision_map_display.h declares the CollisionMapDisplay class with its Q_OBJECT line commented out (//Q_OBJECT).",
+  "The header's CollisionMapDisplay class derives from rviz::Display and uses arm_navigation_msgs::CollisionMap messages.",
+  "The asker's comment on 2014-06-17 says the problem was solved by adding Q_OBJECT and Q_SLOTS arguments.",
+  "The asker also added a fixed_frame_ argument to the MessageFilter in collision_map_display.cpp, after which the plugin worked.",
+  "The page notes that answers.ros.org was deprecated as of August 11, 2023 in favor of robotics.stackexchange.com.",
+  "The question had 101 views recorded at the time of capture... Seen 265 times, with the last update on Jun 16 '14.",
+  "Content on the site is licensed under Creative Commons Attribution Share Alike 3.0."
+ ],
+ "entities": [
+  {
+   "name": "xuningy",
+   "type": "person",
+   "role": "asker of the question who reported the display error and posted the solution comment"
+  },
+  {
+   "name": "ROS Answers",
+   "type": "organization",
+   "role": "Q&A site (answers.ros.org) hosting the question, deprecated as of August 11, 2023"
+  },
+  {
+   "name": "Robotics Stack Exchange",
+   "type": "organization",
+   "role": "successor Q&A site to which users were directed to ask new questions"
+  },
+  {
+   "name": "mapping_rviz_plugin",
+   "type": "program",
+   "role": "RViz plugin whose CollisionMapDisplay was meant to display the /collision_map_out topic"
+  },
+  {
+   "name": "/collision_map_out",
+   "type": "product",
+   "role": "ROS topic that the asker tried to display in RViz"
+  },
+  {
+   "name": "octomap_server",
+   "type": "program",
+   "role": "ROS package tagged on the question as related to the collision map"
+  },
+  {
+   "name": "RViz",
+   "type": "program",
+   "role": "visualization tool where the CollisionMap display was added and produced errors"
+  },
+  {
+   "name": "CollisionMapDisplay",
+   "type": "program",
+   "role": "rviz::Display subclass in the plugin that displays a collision_map::CollisionMap message"
+  },
+  {
+   "name": "arm_navigation_msgs",
+   "type": "program",
+   "role": "message package providing the CollisionMap and OrientedBoundingBox message types"
+  },
+  {
+   "name": "init.cpp",
+   "type": "program",
+   "role": "source file the asker updated to use PLUGINLIB_EXPORT_CLASS"
+  },
+  {
+   "name": "collision_map_display.cpp",
+   "type": "program",
+   "role": "source file where the asker added the fixed_frame_ argument to MessageFilter"
+  },
+  {
+   "name": "collision_map_display.h",
+   "type": "program",
+   "role": "header declaring the CollisionMapDisplay class and its slot methods"
+  }
+ ],
+ "tags": [
+  "ros",
+  "rviz",
+  "octomap",
+  "collision-map",
+  "qt-slots",
+  "mapping-plugin"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5264,
+  "output_tokens": 1604
+ }
+}

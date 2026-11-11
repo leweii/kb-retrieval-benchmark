@@ -1,0 +1,72 @@
+{
+ "summary": "This page documents the Snowflake system function SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS, which allows traffic from public IP addresses to reach the internal stage of the current Snowflake account on Microsoft Azure. It reverses the Azure storage account settings previously changed by SYSTEM$BLOCK_INTERNAL_STAGES_PUBLIC_ACCESS. The function requires Business Critical edition or higher, takes no arguments, and can only be run by account administrators (ACCOUNTADMIN) on Azure accounts, not AWS or Google Cloud Platform.",
+ "one_line": "Snowflake system function that re-allows public IP access to an Azure account's internal stage by reversing a prior block.",
+ "key_facts": [
+  "SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS allows traffic from public IP addresses to access the internal stage of the current Snowflake account on Microsoft Azure.",
+  "The function reverses the Azure settings on the internal stage's Azure storage account that were made when SYSTEM$BLOCK_INTERNAL_STAGES_PUBLIC_ACCESS was executed.",
+  "The function requires Business Critical edition (or higher).",
+  "The function takes no arguments; its syntax is SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS().",
+  "Only account administrators (users with the ACCOUNTADMIN role) can execute this function.",
+  "The function can take a few minutes to finish executing.",
+  "The function can be used only with Snowflake accounts on Azure; AWS and Google Cloud Platform are not supported.",
+  "On success the function returns the message 'Public Access to internal stages is unblocked'.",
+  "If Azure settings cannot be changed, the function returns an Azure error message stating to contact Snowflake support.",
+  "The example runs USE ROLE accountadmin; followed by SELECT SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS();.",
+  "The related functions listed are SYSTEM$BLOCK_INTERNAL_STAGES_PUBLIC_ACCESS and SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS",
+   "type": "program",
+   "role": "Snowflake system function that unblocks public IP access to the Azure internal stage of the current account"
+  },
+  {
+   "name": "SYSTEM$BLOCK_INTERNAL_STAGES_PUBLIC_ACCESS",
+   "type": "program",
+   "role": "Related Snowflake system function whose Azure settings changes are reversed by the unblock function"
+  },
+  {
+   "name": "SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS",
+   "type": "program",
+   "role": "Related Snowflake system function listed under 'See also'"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "Contact for upgrading to Business Critical and for Azure errors during unblocking"
+  },
+  {
+   "name": "Microsoft Azure",
+   "type": "organization",
+   "role": "Cloud platform on which the function works and whose storage account settings are changed"
+  },
+  {
+   "name": "Amazon Web Services (AWS)",
+   "type": "organization",
+   "role": "Cloud platform not supported by the function"
+  },
+  {
+   "name": "Google Cloud Platform",
+   "type": "organization",
+   "role": "Cloud platform not supported by the function"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "program",
+   "role": "Role required to execute the function"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "azure",
+  "internal-stages",
+  "security",
+  "system-functions",
+  "access-control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1918,
+  "output_tokens": 1282
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "summary": "The note describes Google Play as a distribution channel for Android applications, available free or paid. Apps can be downloaded through the Play Store mobile app or deployed to a device from the Google Play website, and can be targeted to devices with specific hardware such as motion sensors or front-facing cameras. It reports over 82 billion downloads in 2016 and over 2.7 million apps published in 2017, and notes repeated security problems in which malicious software was approved and downloaded by users.",
+ "one_line": "Google Play is the Android app store offering free and paid apps, with reported download totals and recurring malware security issues.",
+ "key_facts": [
+  "Applications are available through Google Play either free of charge or at a cost.",
+  "Applications can be downloaded directly on an Android device through the Play Store mobile app.",
+  "Applications can also be deployed to a device from the Google Play website.",
+  "Applications exploiting hardware capabilities can be targeted to users of devices with specific hardware components.",
+  "An example of hardware-targeted app given in the note is a motion-dependent game that requires a motion sensor.",
+  "Another hardware-targeted example is online video calling that requires a front-facing camera.",
+  "The Google Play store had over 82 billion app downloads in 2016.",
+  "The Google Play store reached over 2.7 million apps published in 2017.",
+  "Google Play has been the subject of multiple security issues.",
+  "In these security issues, malicious software was approved and uploaded to the store.",
+  "Malicious software approved for Google Play was downloaded by users.",
+  "The security issues varied in degree of severity."
+ ],
+ "entities": [
+  {
+   "name": "Google Play",
+   "type": "product",
+   "role": "app store through which Android applications are distributed, free or paid, via the Play Store mobile app or the Google Play website"
+  },
+  {
+   "name": "Play Store",
+   "type": "product",
+   "role": "mobile app on Android devices used to download applications from Google Play"
+  }
+ ],
+ "tags": [
+  "android",
+  "app stores",
+  "mobile apps",
+  "software distribution",
+  "cybersecurity"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1204,
+  "output_tokens": 636
+ }
+}

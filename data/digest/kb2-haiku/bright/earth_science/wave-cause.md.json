@@ -1,0 +1,38 @@
+{
+ "summary": "This is a clipped New Scientist web page titled \"What causes waves in the ocean?\", filed under the earth_science domain with the source \"bright\". The captured text is almost entirely page boilerplate (CSS styling rules, consent-banner selectors and scripts), and the cut-off export ends mid-stylesheet before any article body appears. The note therefore records the page's title and origin but does not explain the causes of ocean waves.",
+ "one_line": "A truncated New Scientist web clip titled \"What causes waves in the ocean?\" whose captured text contains only CSS boilerplate, not the article.",
+ "key_facts": [
+  "The note's title is \"wave cause\".",
+  "The clipped page's HTML title is \"What causes waves in the ocean? | New Scientist\".",
+  "The note's source field is \"bright\".",
+  "The note's domain field is \"earth_science\".",
+  "The clipped page is from New Scientist, as shown in its HTML title.",
+  "The captured text is in English, as shown by the page's lang attribute \"en-US\".",
+  "Most of the captured content is CSS stylesheet rules for layout, fonts, buttons and links.",
+  "The captured content includes OneTrust cookie-consent button selectors, which are page boilerplate.",
+  "The captured content includes a Microsoft Clarity analytics script reference, which is page boilerplate.",
+  "The export is cut off mid-stylesheet and does not reach any article body text.",
+  "The note does not state the physical causes of ocean waves.",
+  "The note does not name any scientists, studies or specific wave types."
+ ],
+ "entities": [
+  {
+   "name": "New Scientist",
+   "type": "organization",
+   "role": "publisher of the clipped web page whose title is \"What causes waves in the ocean? | New Scientist\""
+  }
+ ],
+ "tags": [
+  "ocean-waves",
+  "oceanography",
+  "earth-science",
+  "new-scientist",
+  "web-clipping",
+  "incomplete-note"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17465,
+  "output_tokens": 957
+ }
+}

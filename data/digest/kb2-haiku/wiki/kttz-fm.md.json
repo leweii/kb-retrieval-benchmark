@@ -1,0 +1,48 @@
+{
+ "summary": "KTTZ-FM is a public radio station at 89.1 FM in Lubbock, Texas. It is owned by Texas Tech University. The station broadcasts a public radio format featuring classical and jazz music along with programming from National Public Radio.",
+ "one_line": "KTTZ-FM is a Texas Tech University-owned public radio station at 89.1 FM in Lubbock, Texas, airing classical, jazz and NPR programming.",
+ "key_facts": [
+  "KTTZ-FM broadcasts at 89.1 FM.",
+  "KTTZ-FM is a radio station located in Lubbock, Texas, U.S.",
+  "KTTZ-FM broadcasts a public radio format.",
+  "KTTZ-FM is owned by Texas Tech University.",
+  "KTTZ-FM features classical music.",
+  "KTTZ-FM features jazz music.",
+  "KTTZ-FM airs programming from National Public Radio."
+ ],
+ "entities": [
+  {
+   "name": "KTTZ-FM",
+   "type": "product",
+   "role": "public radio station at 89.1 FM in Lubbock, Texas, with a public radio format featuring classical and jazz music and NPR programming"
+  },
+  {
+   "name": "Texas Tech University",
+   "type": "organization",
+   "role": "owner of radio station KTTZ-FM"
+  },
+  {
+   "name": "National Public Radio",
+   "type": "organization",
+   "role": "source of programming broadcast by KTTZ-FM"
+  },
+  {
+   "name": "Lubbock, Texas",
+   "type": "place",
+   "role": "city where KTTZ-FM is located and broadcasts"
+  }
+ ],
+ "tags": [
+  "radio",
+  "public radio",
+  "lubbock texas",
+  "texas tech university",
+  "classical music",
+  "jazz"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1066,
+  "output_tokens": 543
+ }
+}

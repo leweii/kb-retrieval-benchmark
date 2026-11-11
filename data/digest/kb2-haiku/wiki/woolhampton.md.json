@@ -1,0 +1,61 @@
+{
+ "summary": "The note is a short encyclopedic entry describing Woolhampton, a village and civil parish in West Berkshire, England. It covers the village's location on the London to Bath (A4) road between Reading and Newbury and its physical setting relative to the River Kennet and the Berkshire Downs.",
+ "one_line": "Woolhampton is a village and civil parish in West Berkshire, England, sited on the A4 between Reading and Newbury.",
+ "key_facts": [
+  "Woolhampton is a village and civil parish in West Berkshire, England.",
+  "The village straddles the London to Bath (A4) road.",
+  "Woolhampton lies 8 miles from the town of Reading.",
+  "Woolhampton lies 6 miles from the town of Newbury.",
+  "The village homes are clustered on the northern side of the plain of the River Kennet.",
+  "The Berkshire Downs rise through the fields and woods of Woolhampton northwards."
+ ],
+ "entities": [
+  {
+   "name": "Woolhampton",
+   "type": "place",
+   "role": "village and civil parish in West Berkshire, England, straddling the London to Bath (A4) road"
+  },
+  {
+   "name": "West Berkshire",
+   "type": "place",
+   "role": "district in England containing the village of Woolhampton"
+  },
+  {
+   "name": "London to Bath (A4) road",
+   "type": "place",
+   "role": "road that the village straddles"
+  },
+  {
+   "name": "Reading",
+   "type": "place",
+   "role": "town located 8 miles from Woolhampton"
+  },
+  {
+   "name": "Newbury",
+   "type": "place",
+   "role": "town located 6 miles from Woolhampton"
+  },
+  {
+   "name": "River Kennet",
+   "type": "place",
+   "role": "river whose plain lies south of the village's clustered homes"
+  },
+  {
+   "name": "Berkshire Downs",
+   "type": "place",
+   "role": "hills rising through the fields and woods of the village northwards"
+  }
+ ],
+ "tags": [
+  "woolhampton",
+  "west berkshire",
+  "village",
+  "england geography",
+  "berkshire"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1101,
+  "output_tokens": 611
+ }
+}

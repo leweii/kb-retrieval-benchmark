@@ -1,0 +1,51 @@
+{
+ "summary": "This clipped documentation page describes the REGR_VALX function, a NULL-preserving function that returns NULL if the first argument (y) is NULL and otherwise returns the second argument (x). It covers the syntax REGR_VALX(<y>, <x>), the requirement that both arguments be DOUBLE or castable to DOUBLE, and that the function returns a DOUBLE. The examples show basic NULL behavior and contrast REGR_VALX with REGR_VALY using a small table; the page's navigation and footer boilerplate is ignored.",
+ "one_line": "Documents the REGR_VALX function, which returns NULL if its first DOUBLE argument is NULL and otherwise returns the second argument.",
+ "key_facts": [
+  "REGR_VALX returns NULL if the first argument is NULL; otherwise it returns the second argument.",
+  "REGR_VALX is described as a NULL-preserving function.",
+  "The syntax of REGR_VALX is REGR_VALX( <y> , <x> ).",
+  "Both arguments of REGR_VALX must evaluate to type DOUBLE or be castable to DOUBLE.",
+  "REGR_VALX returns a value of type DOUBLE.",
+  "The page includes a warning that the order of arguments matters: y precedes x.",
+  "Example: REGR_VALX(NULL, 10) returns NULL.",
+  "Example: REGR_VALX(1, NULL) returns NULL.",
+  "Example: REGR_VALX(1, 10) returns 10.",
+  "The example creates a table named xy with columns col_x DOUBLE and col_y DOUBLE.",
+  "The xy table rows are (1.0, 2.0), (3.0, NULL), and (NULL, 6.0).",
+  "For the row with col_y 2 and col_x 1, REGR_VALX returns 1 and REGR_VALY returns 2.",
+  "For the row with col_y NULL and col_x 3, both REGR_VALX and REGR_VALY return NULL.",
+  "For the row with col_y 6 and col_x NULL, both REGR_VALX and REGR_VALY return NULL.",
+  "The page notes the example shows the difference between REGR_VALX and REGR_VALY."
+ ],
+ "entities": [
+  {
+   "name": "REGR_VALX",
+   "type": "program",
+   "role": "SQL function documented on the page that returns NULL if the first argument is NULL, otherwise returns the second argument"
+  },
+  {
+   "name": "REGR_VALY",
+   "type": "program",
+   "role": "comparison function used in the example to show how it differs from REGR_VALX"
+  },
+  {
+   "name": "xy",
+   "type": "product",
+   "role": "example table created with columns col_x and col_y of type DOUBLE"
+  }
+ ],
+ "tags": [
+  "sql",
+  "regr_valx",
+  "aggregate functions",
+  "null handling",
+  "documentation",
+  "double"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1996,
+  "output_tokens": 901
+ }
+}

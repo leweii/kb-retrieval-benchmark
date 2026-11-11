@@ -1,0 +1,47 @@
+{
+ "summary": "The note is titled \"klook ad\" and is a clipped web page for a Klook travel activity listing, but the excerpt has almost no readable content. Its only substantive information is in the body's data attribute: activity_id 5504, status published, tagged \"Klook's choice\", with sub-category 15 and leaf category 137. The rest is SVG icon and illustration markup (activity-selling graphics, account icons, arrows), which is boilerplate. The metadata lists the domain as earth_science, which does not match the travel-ad content.",
+ "one_line": "A clipped Klook travel-activity ad page, mostly SVG markup, with metadata for published activity 5504 tagged \"Klook's choice\".",
+ "key_facts": [
+  "The note is titled \"klook ad\" and has the source field \"bright\".",
+  "The note's metadata lists the domain as \"earth_science\", which does not match its travel-ad content.",
+  "The page body's data-spm-page attribute identifies the page as Activity with oid activity_5504.",
+  "The embedded activity_id is 5504 and the page_template_id is 1221.",
+  "The embedded status is \"published\", with sub_category_id 15 and leaf_category_id 137.",
+  "The embedded TagNameList contains the tag \"Klook's choice\" and PackageOptionType is \"attribute\".",
+  "The SVG defines a symbol with id \"desktop-activity-crossing-selling-discount\", a 169 by 116 illustration with a discount-tag graphic.",
+  "The SVG defines a symbol with id \"desktop-activity-crossing-selling-hotel\", a 196 by 116 illustration with a hotel building graphic.",
+  "The SVG includes account icons with ids such as desktop-common-account-bookings, desktop-common-account-coupons and desktop-common-account-wishlist.",
+  "The SVG includes navigation arrow icons, such as desktop-common-arrow-right and desktop-common-arrow-standard-down.",
+  "Apart from the SVG symbols and page attributes, the note contains no readable article text, so no claims about Klook's products or prices can be drawn from it.",
+  "The note is truncated in the middle of an SVG symbol definition (desktop-common-arrow-standard-up-new)."
+ ],
+ "entities": [
+  {
+   "name": "Klook",
+   "type": "organization",
+   "role": "Travel activity platform named in the note title and the \"Klook's choice\" tag context; the ad's brand"
+  },
+  {
+   "name": "Klook's choice",
+   "type": "program",
+   "role": "Tag name in the page's TagNameList attribute marking the activity"
+  },
+  {
+   "name": "Activity oid 5504",
+   "type": "product",
+   "role": "Activity listing identified by activity_id 5504 and status published in the page data"
+  }
+ ],
+ "tags": [
+  "klook",
+  "advertising",
+  "travel-activities",
+  "web-clipping",
+  "svg-markup"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 21211,
+  "output_tokens": 1485
+ }
+}

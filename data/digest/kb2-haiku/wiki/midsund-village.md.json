@@ -1,0 +1,55 @@
+{
+ "summary": "This note describes Midsund, a village in Norway that serves as the administrative center of Midsund Municipality in Møre og Romsdal county. It sits on the western end of the island of Otrøya and is linked to the neighboring island of Midøya by the Midsund Bridge, whose eastern end lies in the village.",
+ "one_line": "Midsund is a Norwegian village on Otrøya that serves as the administrative center of Midsund Municipality.",
+ "key_facts": [
+  "Midsund is the administrative center of Midsund Municipality in Møre og Romsdal county, Norway.",
+  "Midsund is located on the western end of the island of Otrøya.",
+  "The eastern end of the Midsund Bridge is located in the village of Midsund.",
+  "The Midsund Bridge connects the village of Midsund to the neighboring island of Midøya to the west."
+ ],
+ "entities": [
+  {
+   "name": "Midsund",
+   "type": "place",
+   "role": "village and administrative center of Midsund Municipality"
+  },
+  {
+   "name": "Midsund Municipality",
+   "type": "organization",
+   "role": "municipality whose administrative center is the village of Midsund"
+  },
+  {
+   "name": "Møre og Romsdal",
+   "type": "place",
+   "role": "county in which Midsund Municipality is located"
+  },
+  {
+   "name": "Otrøya",
+   "type": "place",
+   "role": "island on whose western end the village of Midsund is located"
+  },
+  {
+   "name": "Midøya",
+   "type": "place",
+   "role": "neighboring island to the west, connected to Midsund by the Midsund Bridge"
+  },
+  {
+   "name": "Midsund Bridge",
+   "type": "product",
+   "role": "bridge whose eastern end is in Midsund and which connects the village to Midøya"
+  }
+ ],
+ "tags": [
+  "norway",
+  "village",
+  "midsund",
+  "otrøya",
+  "møre og romsdal",
+  "bridges"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1084,
+  "output_tokens": 572
+ }
+}

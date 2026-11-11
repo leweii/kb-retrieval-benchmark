@@ -1,0 +1,95 @@
+{
+ "summary": "This is a React documentation page titled 'State: A Component's Memory' from the Adding Interactivity section of the Learn React docs. It explains why regular local variables fail to update the UI in React components, and introduces the useState Hook, which provides a state variable and a setter function. It covers array destructuring, the rules for calling Hooks, how state is isolated per component instance, and includes a sculpture gallery example, a Deep Dive on how React tracks state by call order, a recap, and challenges. The navigation menus and footer boilerplate are ignored.",
+ "one_line": "React docs page explaining component state, the useState Hook, and why local variables do not trigger re-renders.",
+ "key_facts": [
+  "In React, component-specific memory is called state.",
+  "Local variables do not persist between renders, and changes to local variables do not trigger renders.",
+  "The useState Hook provides a state variable to retain data between renders and a state setter function to update it and trigger a re-render.",
+  "The array returned by useState always has exactly two items.",
+  "The only argument to useState is the initial value of the state variable.",
+  "Hooks are functions starting with 'use' and can only be called at the top level of components or custom Hooks, not inside conditions, loops, or nested functions.",
+  "The convention for naming useState pairs is const [something, setSomething].",
+  "Each time a component renders, useState gives an array containing the state variable and the state setter function.",
+  "State is private to the component declaring it, and the parent component cannot change it, unlike props.",
+  "If a component is rendered twice, each copy has completely isolated state.",
+  "React relies on a stable call order of Hooks on every render of the same component to match state pairs, rather than an identifier passed to useState.",
+  "The sculpture gallery example includes Marta Colvin Andrade's 'Homenaje a la Neurocirugía' and Eduardo Catalano's 'Floralis Genérica'.",
+  "The first challenge asks the reader to fix a crash when pressing Next on the last sculpture and to add a Previous button.",
+  "The page recommends the linter plugin eslint-plugin-react-hooks to catch Hook mistakes."
+ ],
+ "entities": [
+  {
+   "name": "React",
+   "type": "product",
+   "role": "JavaScript library whose component state and Hooks are explained in this page"
+  },
+  {
+   "name": "useState",
+   "type": "other",
+   "role": "React Hook that returns a state variable and a state setter function"
+  },
+  {
+   "name": "Gallery",
+   "type": "other",
+   "role": "example component that renders a sculpture image with Next and Show details buttons"
+  },
+  {
+   "name": "Page",
+   "type": "other",
+   "role": "example component that renders two Gallery components to show state isolation"
+  },
+  {
+   "name": "Marta Colvin Andrade",
+   "type": "person",
+   "role": "artist of the sculpture 'Homenaje a la Neurocirugía' in the example data"
+  },
+  {
+   "name": "Eduardo Catalano",
+   "type": "person",
+   "role": "artist of the sculpture 'Floralis Genérica' in the example data"
+  },
+  {
+   "name": "Niki de Saint Phalle",
+   "type": "person",
+   "role": "artist of the sculpture 'Blue Nana' in the example data"
+  },
+  {
+   "name": "Barbara Hepworth",
+   "type": "person",
+   "role": "artist of the sculpture 'Ultimate Form' in the example data"
+  },
+  {
+   "name": "Louise Nevelson",
+   "type": "person",
+   "role": "artist of the sculpture 'Lunar Landscape' in the example data"
+  },
+  {
+   "name": "Yorkshire Sculpture Park",
+   "type": "place",
+   "role": "location of the Hepworth sculpture 'Ultimate Form' as part of The Family of Man series"
+  },
+  {
+   "name": "React Conf",
+   "type": "event",
+   "role": "event announced in the page banner to stream on May 15-16"
+  },
+  {
+   "name": "eslint-plugin-react-hooks",
+   "type": "program",
+   "role": "linter plugin that catches most mistakes with Hooks"
+  }
+ ],
+ "tags": [
+  "react",
+  "hooks",
+  "usestate",
+  "state-management",
+  "frontend",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13077,
+  "output_tokens": 1259
+ }
+}

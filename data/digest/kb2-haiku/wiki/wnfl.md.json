@@ -1,0 +1,71 @@
+{
+ "summary": "WNFL (1440 AM) is a locally owned all-sports radio station in Green Bay, Wisconsin, operated by Midwest Communications, which owns six other stations in Northeast Wisconsin. It is a Fox Sports Radio affiliate carrying much of that network's line-up, and it also airs CBS news updates. Beyond sports talk, WNFL carries Milwaukee Bucks basketball, local high school football and basketball, and weekday Milwaukee Brewers games, with night and weekend Brewers games on sister station WTAQ.",
+ "one_line": "WNFL (1440 AM) is a locally owned all-sports radio station in Green Bay, Wisconsin, affiliated with Fox Sports Radio.",
+ "key_facts": [
+  "WNFL is an American all-sports radio station located in Green Bay, Wisconsin.",
+  "WNFL broadcasts on 1440 AM.",
+  "WNFL is locally owned and operated by Midwest Communications.",
+  "Midwest Communications owns six other stations in Northeast Wisconsin.",
+  "WNFL is an affiliate of Fox Sports Radio and carries much of its line-up.",
+  "WNFL airs one minute news updates from CBS at approximately 45 minutes past the hour.",
+  "WNFL airs Milwaukee Bucks basketball play-by-play.",
+  "WNFL airs local high school football and basketball games.",
+  "Milwaukee Brewers baseball games during the work week are carried on WNFL.",
+  "Night and weekend Milwaukee Brewers games are carried on sister station WTAQ."
+ ],
+ "entities": [
+  {
+   "name": "WNFL",
+   "type": "product",
+   "role": "all-sports radio station (1440 AM) in Green Bay, Wisconsin, affiliated with Fox Sports Radio"
+  },
+  {
+   "name": "Midwest Communications",
+   "type": "organization",
+   "role": "locally owned operator of WNFL, which also owns six other stations in Northeast Wisconsin"
+  },
+  {
+   "name": "Fox Sports Radio",
+   "type": "organization",
+   "role": "network WNFL is affiliated with, carrying much of its line-up"
+  },
+  {
+   "name": "CBS",
+   "type": "organization",
+   "role": "source of one-minute news updates aired on WNFL at approximately 45 minutes past the hour"
+  },
+  {
+   "name": "Milwaukee Bucks",
+   "type": "organization",
+   "role": "basketball team whose play-by-play is aired on WNFL"
+  },
+  {
+   "name": "Milwaukee Brewers",
+   "type": "organization",
+   "role": "baseball team whose weekday games air on WNFL, with night and weekend games on WTAQ"
+  },
+  {
+   "name": "WTAQ",
+   "type": "product",
+   "role": "sister station that carries night and weekend Milwaukee Brewers games"
+  },
+  {
+   "name": "Green Bay, Wisconsin",
+   "type": "place",
+   "role": "location of WNFL"
+  }
+ ],
+ "tags": [
+  "radio",
+  "sports radio",
+  "green bay",
+  "wisconsin",
+  "broadcasting",
+  "fox sports radio"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1206,
+  "output_tokens": 963
+ }
+}

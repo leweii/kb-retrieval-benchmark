@@ -1,0 +1,75 @@
+{
+ "summary": "This note is the source code of the ROS C++ file dwa_planner_ros.cpp, the ROS wrapper for the Dynamic Window Approach (DWA) local planner, licensed under the BSD license and copyright Willow Garage, Inc. It is authored by Eitan Marder-Eppstein. The file registers DWAPlannerROS as a nav_core::BaseLocalPlanner plugin, handles dynamic reconfigure and parameter setup, and implements plan setting, goal checking, local/global plan publishing, and velocity command computation, including switching to a stop-and-rotate controller when the robot is near the goal position.",
+ "one_line": "ROS C++ source for the DWA local planner plugin wrapper (DWAPlannerROS) that computes velocity commands and publishes plans.",
+ "key_facts": [
+  "The file is licensed under the BSD License and its copyright is held by Willow Garage, Inc. in 2009.",
+  "The author listed in the file header is Eitan Marder-Eppstein.",
+  "DWAPlannerROS is registered as a nav_core::BaseLocalPlanner plugin using PLUGINLIB_EXPORT_CLASS.",
+  "The reconfigureCB function copies dynamic reconfigure values into a base_local_planner::LocalPlannerLimits struct and passes them to planner_util_ and dp_.",
+  "In initialize(), the planner advertises the topics global_plan and local_plan as nav_msgs::Path publishers in the private namespace.",
+  "The initialize() function reads an optional parameter named odom_topic and sets it on odom_helper_ via setOdomTopic.",
+  "initialize() warns about renamed parameters, including max_vel_trans to max_trans_vel and theta_stopped_vel to rot_stopped_vel.",
+  "setPlan() resets latching on latchedStopRotateController_ before calling dp_->setPlan, logging 'Got new plan'.",
+  "dwaComputeVelocityCommands() calls dp_->findBestPath and sets cmd_vel.linear.x, linear.y and angular.z from the drive commands.",
+  "If the best path cost is below zero, dwaComputeVelocityCommands publishes an empty local plan and returns false, logging that cost functions discarded all candidates.",
+  "computeVelocityCommands() returns false with the error 'Could not get local plan' if planner_util_.getLocalPlan fails.",
+  "When latchedStopRotateController_.isPositionReached is true, computeVelocityCommands publishes an empty plan and calls computeVelocityCommandsStopRotate.",
+  "The destructor of DWAPlannerROS deletes the dynamic reconfigure server dsrv_.",
+  "The local plan is built by converting each path point to a PoseStamped with z set to 0.0 and orientation from setRPY(0, 0, p_th)."
+ ],
+ "entities": [
+  {
+   "name": "Willow Garage, Inc.",
+   "type": "organization",
+   "role": "copyright holder of the source file under the BSD License"
+  },
+  {
+   "name": "Eitan Marder-Eppstein",
+   "type": "person",
+   "role": "author of the source file"
+  },
+  {
+   "name": "DWAPlannerROS",
+   "type": "other",
+   "role": "ROS wrapper class implemented in the file, registered as a nav_core::BaseLocalPlanner plugin"
+  },
+  {
+   "name": "DWAPlanner",
+   "type": "other",
+   "role": "core planner object (dp_) created in initialize() and used for setPlan, findBestPath and checkTrajectory"
+  },
+  {
+   "name": "nav_core::BaseLocalPlanner",
+   "type": "other",
+   "role": "base class interface the plugin is exported as"
+  },
+  {
+   "name": "base_local_planner::LocalPlannerLimits",
+   "type": "other",
+   "role": "struct filled from dynamic reconfigure config values in reconfigureCB"
+  },
+  {
+   "name": "latchedStopRotateController_",
+   "type": "other",
+   "role": "controller that handles goal latching and stop-and-rotate behavior"
+  },
+  {
+   "name": "odom_helper_",
+   "type": "other",
+   "role": "odometry helper initialized with the topic 'odom' and optionally set from the odom_topic parameter"
+  }
+ ],
+ "tags": [
+  "ros",
+  "dwa planner",
+  "local planner",
+  "robotics",
+  "navigation",
+  "c++"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6443,
+  "output_tokens": 1379
+ }
+}

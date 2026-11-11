@@ -1,0 +1,100 @@
+{
+ "summary": "This is the Python 3.12.3 documentation page for the unittest module, the standard library unit testing framework inspired by JUnit. It covers core concepts (test fixture, test case, test suite, test runner), a basic example, command-line usage and options, test discovery, organizing test code with setUp and tearDown, reusing old test functions, skipping tests and expected failures, subtests, and the TestCase API. The excerpt ends partway through the TestCase method descriptions.",
+ "one_line": "Python 3.12 standard library documentation for the unittest unit testing framework, covering test cases, the CLI, discovery, skipping, and subtests.",
+ "key_facts": [
+  "The unittest unit testing framework was originally inspired by JUnit.",
+  "A test case is the individual unit of testing and unittest provides the base class TestCase to create new test cases.",
+  "A test suite is a collection of test cases, test suites, or both, used to aggregate tests executed together.",
+  "A test runner orchestrates the execution of tests and provides the outcome to the user.",
+  "Test methods are named starting with the letters test, and this naming convention informs the test runner which methods represent tests.",
+  "Running python -m unittest discover is the basic command-line usage for test discovery, and python -m unittest is the equivalent shortcut.",
+  "The discover sub-command default pattern for test files is test*.py, and the default start directory is '.'.",
+  "The -k option matches test names; patterns containing a wildcard are matched with fnmatch.fnmatchcase(), otherwise simple case-sensitive substring matching is used.",
+  "The --durations N option, new in version 3.12, shows the N slowest test cases (N=0 for all).",
+  "Changed in version 3.11: unittest dropped namespace packages support, which had been broken since Python 3.7.",
+  "The subTest() context manager, new in version 3.4, distinguishes test iterations using parameters such as i=i.",
+  "The skip() decorator, skipIf(), skipUnless(), and expectedFailure() decorators implement test skipping and expected failures; SkipTest is the exception raised to skip a test.",
+  "setUp() runs before each test method and tearDown() runs after each test method, and a new TestCase instance is created for each individual test method.",
+  "Changed in version 3.11, returning a value from a test method (other than None) is deprecated.",
+  "Recommended continuous integration systems for driving tests in production include Buildbot, Jenkins, GitHub Actions, and AppVeyor."
+ ],
+ "entities": [
+  {
+   "name": "unittest",
+   "type": "program",
+   "role": "Python standard library unit testing framework documented on this page"
+  },
+  {
+   "name": "TestCase",
+   "type": "other",
+   "role": "base class provided by unittest used to create new test cases"
+  },
+  {
+   "name": "TestSuite",
+   "type": "other",
+   "role": "unittest class representing a collection of test cases used to group tests"
+  },
+  {
+   "name": "doctest",
+   "type": "program",
+   "role": "another test-support module with a very different flavor, documented as the previous topic"
+  },
+  {
+   "name": "unittest.mock",
+   "type": "program",
+   "role": "mock object library documented as the next topic"
+  },
+  {
+   "name": "pytest",
+   "type": "program",
+   "role": "third-party unittest framework with a lighter-weight syntax for writing tests"
+  },
+  {
+   "name": "JUnit",
+   "type": "program",
+   "role": "testing framework that originally inspired unittest"
+  },
+  {
+   "name": "Buildbot",
+   "type": "program",
+   "role": "continuous integration system recommended for driving tests in production environments"
+  },
+  {
+   "name": "Jenkins",
+   "type": "program",
+   "role": "continuous integration system recommended for driving tests in production environments"
+  },
+  {
+   "name": "GitHub Actions",
+   "type": "program",
+   "role": "continuous integration system recommended for driving tests in production environments"
+  },
+  {
+   "name": "AppVeyor",
+   "type": "program",
+   "role": "continuous integration system recommended for driving tests in production environments"
+  },
+  {
+   "name": "Kent Beck",
+   "type": "person",
+   "role": "author of the original paper on testing frameworks (Simple Smalltalk Testing: With Patterns) that unittest's pattern is shared with"
+  },
+  {
+   "name": "Tools/unittestgui/unittestgui.py",
+   "type": "program",
+   "role": "GUI tool in the Python source distribution for test discovery and execution, intended for those new to unit testing"
+  }
+ ],
+ "tags": [
+  "python",
+  "unit testing",
+  "unittest",
+  "test automation",
+  "python standard library"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12392,
+  "output_tokens": 1387
+ }
+}

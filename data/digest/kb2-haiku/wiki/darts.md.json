@@ -1,0 +1,35 @@
+{
+ "summary": "The note describes the layout of a standard dartboard: 20 numbered sections scored 1 to 20, divided by wires from the central circle to the outer wire, with circular wires creating single, double and triple areas. It also notes that the dartboard on the 1970s television show Indoor League had no triple section, which host Fred Trueman said was the traditional Yorkshire board.",
+ "one_line": "Explains the scoring layout of a standard dartboard and a non-standard Yorkshire board used on 1970s TV show Indoor League.",
+ "key_facts": [
+  "The standard dartboard is divided into 20 numbered sections scoring from 1 to 20 points.",
+  "Wires run from the small central circle to the outer circular wire, dividing the board into sections.",
+  "Circular wires within the outer wire subdivide each dartboard section into single, double and triple areas.",
+  "The dartboard featured on the Indoor League television show of the 1970s did not feature a triple section.",
+  "Fred Trueman, host of Indoor League, said during the first episode that the board without a triple section is the traditional Yorkshire board."
+ ],
+ "entities": [
+  {
+   "name": "Indoor League",
+   "type": "program",
+   "role": "1970s television show whose dartboard lacked a triple section"
+  },
+  {
+   "name": "Fred Trueman",
+   "type": "person",
+   "role": "host of Indoor League who called the board without triples the traditional Yorkshire board"
+  }
+ ],
+ "tags": [
+  "darts",
+  "sports",
+  "dartboard",
+  "games",
+  "yorkshire"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1122,
+  "output_tokens": 480
+ }
+}

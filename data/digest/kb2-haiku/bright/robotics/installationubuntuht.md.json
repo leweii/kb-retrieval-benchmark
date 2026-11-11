@@ -1,0 +1,85 @@
+{
+ "summary": "This clipped ROS 2 documentation page is the Ubuntu installation tutorial for the Webots simulator interface, part of the Simulators section of the Advanced tutorials. It explains that the webots_ros2 package connects ROS 2 with Webots, and gives the lookup order for locating Webots installations. It then covers installing webots_ros2 either from the distributed Debian package or from GitHub sources built with colcon, and launching the webots_ros2_universal_robot multirobot example. Navigation menus and page boilerplate were ignored.",
+ "one_line": "Tutorial for installing the webots_ros2 package on Ubuntu and running the universal robot simulation example in ROS 2.",
+ "key_facts": [
+  "The Installation (Ubuntu) tutorial's goal is to install the webots_ros2 package and run simulation examples on Ubuntu.",
+  "The tutorial is rated Advanced level and takes 10 minutes.",
+  "The webots_ros2 package provides an interface between ROS 2 and Webots.",
+  "The webots_ros2_driver sub-package allows users to start Webots and communicate with it.",
+  "If the ROS2_WEBOTS_HOME environment variable is set, ROS 2 uses the Webots in that folder regardless of version.",
+  "If WEBOTS_HOME is set and ROS2_WEBOTS_HOME is not, ROS 2 uses the Webots in that folder regardless of version.",
+  "Without these variables, webots_ros2 looks in /usr/local/webots and /snap/webots/current/usr/share/webots for a compatible version.",
+  "If Webots cannot be found, webots_ros2 offers a window for automatic installation of the latest compatible version.",
+  "The distributed package is installed with sudo apt-get install ros-rolling-webots-ros2.",
+  "Installing from sources involves creating ~/ros2_ws/src, cloning https://github.com/cyberbotics/webots_ros2.git with submodules, installing dependencies with rosdep, and running colcon build.",
+  "The example is launched with ros2 launch webots_ros2_universal_robot multirobot_launch.py.",
+  "The example launch uses export WEBOTS_HOME=/usr/local/webots to select a specific Webots installation.",
+  "The tutorial's prerequisites recommend the beginner tutorials Creating a workspace and Creating a package.",
+  "The page is copyright 2023, GrantLi, and was built with Sphinx."
+ ],
+ "entities": [
+  {
+   "name": "webots_ros2",
+   "type": "program",
+   "role": "package that provides the interface between ROS 2 and Webots; installed in this tutorial"
+  },
+  {
+   "name": "webots_ros2_driver",
+   "type": "program",
+   "role": "sub-package that allows starting Webots and communicating with it"
+  },
+  {
+   "name": "webots_ros2_universal_robot",
+   "type": "program",
+   "role": "example package launched in the tutorial's second task using multirobot_launch.py"
+  },
+  {
+   "name": "Webots",
+   "type": "program",
+   "role": "robot simulator that webots_ros2 interfaces with"
+  },
+  {
+   "name": "ROS 2",
+   "type": "program",
+   "role": "robotics middleware framework that the webots_ros2 package connects to Webots"
+  },
+  {
+   "name": "colcon",
+   "type": "program",
+   "role": "build tool used to build the webots_ros2 package from sources"
+  },
+  {
+   "name": "rosdep",
+   "type": "program",
+   "role": "tool used to install the package dependencies from the src directory"
+  },
+  {
+   "name": "GitHub",
+   "type": "organization",
+   "role": "host of the webots_ros2 source repository (cyberbotics/webots_ros2)"
+  },
+  {
+   "name": "Cyberbotics",
+   "type": "organization",
+   "role": "organization associated with the Webots GitHub repositories and installation documentation"
+  },
+  {
+   "name": "Sphinx",
+   "type": "program",
+   "role": "documentation tool used to build the page"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "webots",
+  "simulation",
+  "ubuntu",
+  "installation",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13404,
+  "output_tokens": 1267
+ }
+}

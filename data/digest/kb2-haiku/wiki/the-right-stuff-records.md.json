@@ -1,0 +1,44 @@
+{
+ "summary": "The Right Stuff Records is described as a reissue record label that was part of EMI. The note states that EMI is now owned by Universal Music Group and that the label is based in Santa Monica, California. The note is very brief and gives no further detail on the label's catalog or history.",
+ "one_line": "The Right Stuff Records is a Santa Monica, California reissue label once part of EMI, now under Universal Music Group.",
+ "key_facts": [
+  "The Right Stuff Records is a reissue record label.",
+  "The Right Stuff Records was part of EMI.",
+  "EMI is now owned by Universal Music Group.",
+  "The Right Stuff Records is based out of Santa Monica, California."
+ ],
+ "entities": [
+  {
+   "name": "The Right Stuff Records",
+   "type": "organization",
+   "role": "reissue record label that was part of EMI and is based in Santa Monica, California"
+  },
+  {
+   "name": "EMI",
+   "type": "organization",
+   "role": "former parent of The Right Stuff Records, now owned by Universal Music Group"
+  },
+  {
+   "name": "Universal Music Group",
+   "type": "organization",
+   "role": "current owner of EMI"
+  },
+  {
+   "name": "Santa Monica, California",
+   "type": "place",
+   "role": "base location of The Right Stuff Records"
+  }
+ ],
+ "tags": [
+  "record label",
+  "reissues",
+  "music industry",
+  "emi",
+  "universal music group"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1040,
+  "output_tokens": 420
+ }
+}

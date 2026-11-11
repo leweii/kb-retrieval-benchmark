@@ -1,0 +1,83 @@
+{
+ "summary": "This is a PubMed record for the 2018 Entropy (Basel) article \"Maximum-Entropy Tools for Economic Fitness and Complexity\" by Ruben Krantz, Valerio Gemmetto and Diego Garlaschelli. The paper proposes using the maximum-entropy principle to build an unbiased link-weight probability distribution that refines the revealed comparative advantage (RCA) filtering used in economic fitness and complexity calculations. The authors report that their statistically justified filtering yields results similar in nature to the original ones, with significant deviations in details, and that it enables spectral analysis of individual economies' export portfolios.",
+ "one_line": "PubMed record for a 2018 Entropy paper applying maximum-entropy methods to refine RCA-based trade link filtering in economic fitness and complexity.",
+ "key_facts": [
+  "The article \"Maximum-Entropy Tools for Economic Fitness and Complexity\" was published in Entropy (Basel) on 2018 Sep 28 with volume 20(10), article 743.",
+  "The article's DOI is 10.3390/e20100743 and its PMID is 33265832.",
+  "Authors are Ruben Krantz, Valerio Gemmetto and Diego Garlaschelli; the first two are affiliated with the Lorentz Institute for Theoretical Physics, Leiden University, and Garlaschelli also with IMT School for Advanced Studies, Lucca, Italy.",
+  "The paper proposes improving the current practice of filtering country-product pairs based on revealed comparative advantage (RCA) by applying the maximum-entropy principle.",
+  "The method constructs an unbiased link weight probability distribution that, unlike traditional thresholding, allows statistical assessment of empirical trade volumes.",
+  "The result is an adjusted geometric distribution for trade links that refines the revealed comparative advantage approach.",
+  "Using the statistically justified filtering, results are similar in nature to those found without it, though there are significant deviations in the details.",
+  "The statistical information on each trade link allows a spectral analysis of the export portfolio of individual economies.",
+  "Figure 2 reports that normalized GDP per capita and fitness in 1995 are correlated with a correlation coefficient of 0.64 in reproducing the RCA-filtered results, with a standard error of 0.052.",
+  "Figure 4 shows the correlation coefficient is 0.66 with standard error 0.034 for z ≥ 1 filtering, and 0.64 with standard error 0.028 for z ≥ 2 filtering.",
+  "Figure 5 compares commodity complexity spectra of the USA in 1995, which has many high complexity commodities with z ≥ 2, and China in 1995, whose most high complexity commodities lie just under z = 0.",
+  "Keywords listed are complex networks, economic complexity and entropy.",
+  "The authors declare no conflict of interest."
+ ],
+ "entities": [
+  {
+   "name": "Maximum-Entropy Tools for Economic Fitness and Complexity",
+   "type": "other",
+   "role": "title of the 2018 journal article described in the record"
+  },
+  {
+   "name": "Entropy (Basel)",
+   "type": "organization",
+   "role": "journal in which the article was published"
+  },
+  {
+   "name": "Ruben Krantz",
+   "type": "person",
+   "role": "first author, affiliated with Leiden University's Lorentz Institute"
+  },
+  {
+   "name": "Valerio Gemmetto",
+   "type": "person",
+   "role": "author, affiliated with Leiden University's Lorentz Institute"
+  },
+  {
+   "name": "Diego Garlaschelli",
+   "type": "person",
+   "role": "author, affiliated with Leiden University's Lorentz Institute and IMT School for Advanced Studies"
+  },
+  {
+   "name": "Lorentz Institute for Theoretical Physics, Leiden University",
+   "type": "organization",
+   "role": "affiliation of the first and second authors"
+  },
+  {
+   "name": "IMT School for Advanced Studies",
+   "type": "organization",
+   "role": "affiliation of Diego Garlaschelli in Lucca, Italy"
+  },
+  {
+   "name": "revealed comparative advantage (RCA)",
+   "type": "other",
+   "role": "existing filtering method the paper seeks to refine"
+  },
+  {
+   "name": "MDPI",
+   "type": "organization",
+   "role": "full text provider listed for the article"
+  },
+  {
+   "name": "PubMed Central",
+   "type": "organization",
+   "role": "source of free full text (PMC7848889)"
+  }
+ ],
+ "tags": [
+  "economic complexity",
+  "entropy",
+  "international trade",
+  "network analysis",
+  "revealed comparative advantage"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 10060,
+  "output_tokens": 1459
+ }
+}

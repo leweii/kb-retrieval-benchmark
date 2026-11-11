@@ -1,0 +1,96 @@
+{
+ "summary": "Cleveland Motley describes building a playground swing set that generates electricity: swingers turn a drive shaft via roller clutches, which drives a bicycle-hub-based axial flux generator adapted from Hugh Piggott's design. The project was a collaboration with Ryan Alpers. After a gear change to 112 teeth, the setup produced around 9 volts consistently at the Bay Area Makers Faire, powering 12 volt LEDs, 9 volt EL wire and a 9 volt keyboard, though the author hoped for 12 volts with an additional gear reduction.",
+ "one_line": "An Instructable detailing how to convert a donated playground swing set into a generator that produces electricity from swingers' motion.",
+ "key_facts": [
+  "Cleveland Motley built a swing set that generates electricity, published as a Workshop project in the Energy category.",
+  "The design adapted Hugh Piggott's axial flux permanent magnet generator, which the author had previously built and adapted to a stationary bicycle.",
+  "Roller clutches let the swingers turn the drive shaft only on their forward swing, while the roller clutches freewheel on the return trip.",
+  "The swing set was donated by a friend's parents and was made of 1/4 inch steel.",
+  "The magnet rotor plates weigh at least 45 pounds and act as a flywheel, smoothing the power output.",
+  "The generator's stator was mounted independently of the rotors so chain tension could be adjusted with dynamic drop outs.",
+  "At the Bay area Makers Faire on 5/21/11, replacing the 44 tooth driven gear with a 112 tooth gear allowed the swing set to produce around 9 volts consistently.",
+  "At 6 volts the swing set produced 0.3 Amps and 1.2 Watts.",
+  "The swing set ran 12 volt LEDs, 9 volt EL wire and a 9 volt electric keyboard at the same time at the Makers Faire.",
+  "Before the gear change, the author produced around 4.5 to 6 volts DC with two large adults swinging hard.",
+  "The generator's AC output is converted to DC by bridge rectifiers housed in a box of wires hanging out of the stator.",
+  "The author found that pretty short swinger chains gave the best power output.",
+  "The author stated the project needed an additional gear reduction to consistently produce 12 volts.",
+  "Materials included 4 pillow blocks, 4 roller clutches, 9ft of keyed drive shaft, around 20ft of angle iron, and motorcycle chain.",
+  "The author thanked Reid Johnston, Matt Gil, Baker, and the people at Bearing Agencies in SF for technical insight, and Cork Marcheschi for use of his studio and equipment."
+ ],
+ "entities": [
+  {
+   "name": "Cleveland Motley",
+   "type": "person",
+   "role": "author and builder of the swing set generator project"
+  },
+  {
+   "name": "Ryan Alpers",
+   "type": "person",
+   "role": "good friend who collaborated on the project"
+  },
+  {
+   "name": "Hugh Piggott",
+   "type": "person",
+   "role": "designer of the axial flux permanent magnet generator used in the project"
+  },
+  {
+   "name": "Reid Johnston",
+   "type": "person",
+   "role": "thanked for technical insight"
+  },
+  {
+   "name": "Matt Gil",
+   "type": "person",
+   "role": "thanked for technical insight"
+  },
+  {
+   "name": "Baker",
+   "type": "person",
+   "role": "thanked for technical insight"
+  },
+  {
+   "name": "Cork Marcheschi",
+   "type": "person",
+   "role": "provided use of his studio and equipment"
+  },
+  {
+   "name": "Bearing Agencies",
+   "type": "organization",
+   "role": "San Francisco company whose people gave technical insight"
+  },
+  {
+   "name": "McMaster Carr",
+   "type": "organization",
+   "role": "supplier of machinery used by the author"
+  },
+  {
+   "name": "Bay area Makers Faire",
+   "type": "event",
+   "role": "event where the swing set performed well in 2011"
+  },
+  {
+   "name": "Burning Man",
+   "type": "event",
+   "role": "event the author suggested as a project destination"
+  },
+  {
+   "name": "Instructables",
+   "type": "organization",
+   "role": "platform where the project was published"
+  }
+ ],
+ "tags": [
+  "renewable energy",
+  "swing set generator",
+  "diy electricity",
+  "pedal and swing power",
+  "axial flux generator",
+  "makers"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13628,
+  "output_tokens": 1356
+ }
+}

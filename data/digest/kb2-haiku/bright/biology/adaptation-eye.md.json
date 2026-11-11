@@ -1,0 +1,106 @@
+{
+ "summary": "This note explains how the human retina adapts to changing light levels, covering dark adaptation of rods and cones, the photopigment regeneration behind it, and the difference between night and day vision. It also covers age-related and clinical aspects, including night blindness and AMD, and reviews evidence on whether red light, vitamin A and anthocyanins speed dark adaptation, along with the evolutionary history of the photopigments.",
+ "one_line": "Explains how the human eye adapts to light and dark, the rod and cone mechanisms involved, and evidence on vitamin A, anthocyanins and red light for night vision.",
+ "key_facts": [
+  "The human eye can sense light across nine orders of magnitude, but at any given moment it can only sense a contrast ratio of 1,000.",
+  "The eye takes approximately 20–30 minutes to fully adapt from bright sunlight to complete darkness and becomes 10,000 to 1,000,000 times more sensitive than at full daylight.",
+  "Cone cells regain maximum retinal sensitivity in 9–10 minutes of darkness, whereas rods require 30–45 minutes to do so.",
+  "Rhodopsin, the rod photopigment, has a peak sensitivity at a wavelength of approximately 500 nanometers, which corresponds to blue-green light.",
+  "Cone photoreceptors number approximately 4.5 million, while rod photoreceptors number approximately 91 million.",
+  "Above a luminance of about 0.03 cd/m the cone mechanism mediates photopic vision, while below this level the rod mechanism provides scotopic vision.",
+  "Red lights and red lens glasses are a common practice for accelerating dark adaptation, and ideally should begin 30 minutes before entering a low luminescence setting.",
+  "In 1916, Wilhelm Trendelenburg invented the first pair of red adaptation goggles for radiologists viewing fluoroscopic screens.",
+  "Blackberries are the most anthocyanin-rich foods, containing 89-211 milligrams per 100 grams.",
+  "In a double-blind, placebo-controlled study by Nakaishi et al., a black currant anthocyanin concentrate significantly accelerated dark adaptation at one dose level compared to placebo.",
+  "Kalt et al. in 2014 found in two double-blind, placebo-controlled studies that blueberry anthocyanins had no effect on the length of dark adaptation.",
+  "The average adult male and female should consume 900 and 700 micrograms of vitamin A per day, respectively.",
+  "Consumption of vitamin A above 3000 micrograms per day can lead to acute or chronic hypervitaminosis A.",
+  "In a study by Cideciyan et al., dark adaptation was significantly accelerated after one day of vitamin A supplementation in a patient with systemic vitamin A deficiency, and further accelerated after 75 days.",
+  "Measuring dark adaptation can allow doctors to detect subclinical AMD at least three years earlier than it is clinically evident."
+ ],
+ "entities": [
+  {
+   "name": "Antoine Béclère",
+   "type": "person",
+   "role": "scientist whose early work in radiology is the basis of the concept of red lenses for dark adaptation"
+  },
+  {
+   "name": "Wilhelm Trendelenburg",
+   "type": "person",
+   "role": "scientist who invented the first pair of red adaptation goggles for radiologists in 1916"
+  },
+  {
+   "name": "George Wald",
+   "type": "person",
+   "role": "American scientist who first recognized that the visual system expends vitamin A and depends on diet for its replacement"
+  },
+  {
+   "name": "Cideciyan et al.",
+   "type": "person",
+   "role": "authors of a study measuring dark adaptation in a vitamin A deficient patient before and after supplementation"
+  },
+  {
+   "name": "Nakaishi et al.",
+   "type": "person",
+   "role": "authors of a double-blind placebo-controlled study on black currant anthocyanin concentrate and dark adaptation"
+  },
+  {
+   "name": "Kalt et al.",
+   "type": "person",
+   "role": "authors of a 2014 study finding blueberry anthocyanins had no effect on dark adaptation"
+  },
+  {
+   "name": "Age-related Macular Degeneration",
+   "type": "other",
+   "role": "chronic progressive disease causing the macula to deteriorate, which impairs dark adaptation; leading cause of vision loss among people age 50 and older"
+  },
+  {
+   "name": "Retinitis Pigmentosa",
+   "type": "other",
+   "role": "retinal disease in which dark adaptation function is dramatically impaired"
+  },
+  {
+   "name": "Rhodopsin",
+   "type": "other",
+   "role": "biological pigment in rod photoreceptors that photobleaches in response to light and must regenerate for dark adaptation"
+  },
+  {
+   "name": "Tapetum lucidum",
+   "type": "other",
+   "role": "reflective structure in many animals such as cats that mirrors light back through the retina to aid night vision"
+  },
+  {
+   "name": "Purkinje effect",
+   "type": "other",
+   "role": "change in the eye's perception of color during dark adaptation"
+  },
+  {
+   "name": "Sorby fundus dystrophy",
+   "type": "other",
+   "role": "condition in which later independent studies confirmed the effect of vitamin A on dark adaptation"
+  },
+  {
+   "name": "British Air Force aviators",
+   "type": "organization",
+   "role": "aviators during World Wars I and II who consumed bilberry jam for accelerated dark adaptation for night bombing missions"
+  },
+  {
+   "name": "Fovea centralis",
+   "type": "place",
+   "role": "depression in the center of the retina containing cones, which is blind to dim light"
+  }
+ ],
+ "tags": [
+  "vision",
+  "dark-adaptation",
+  "retina",
+  "vitamin-a",
+  "anthocyanins",
+  "night-vision"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 11295,
+  "output_tokens": 3116
+ }
+}

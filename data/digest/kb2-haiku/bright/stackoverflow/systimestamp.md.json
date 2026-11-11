@@ -1,0 +1,38 @@
+{
+ "summary": "This is a reference page for the SYSTIMESTAMP function, which returns the current system timestamp. It is called with empty parentheses and takes no arguments. The page notes that the returned value should not be used for precise time ordering between concurrent queries on the same virtual warehouse, because those queries may run on different compute resources. An example query shows the output format.",
+ "one_line": "Reference page for the SYSTIMESTAMP function, which returns the current system timestamp with usage notes and an example.",
+ "key_facts": [
+  "SYSTIMESTAMP() returns the current system timestamp for the system.",
+  "SYSTIMESTAMP must be called with parentheses and takes no arguments.",
+  "The function returns the current system time in the local time zone.",
+  "The data type of the return value is a timestamp type described in the datatypes-timestamp-variations section.",
+  "Usage note: do not use the returned value for precise time ordering between concurrent queries processed by the same virtual warehouse.",
+  "The reason given is that concurrent queries might be serviced by different compute resources within the warehouse.",
+  "Example: SELECT SYSTIMESTAMP(); returns 2024-01-08 12:47:10.197000000 in the example output.",
+  "The example output is displayed in a table with the column header SYSTIMESTAMP()."
+ ],
+ "entities": [
+  {
+   "name": "SYSTIMESTAMP",
+   "type": "product",
+   "role": "function that returns the current system timestamp, the subject of the reference page"
+  },
+  {
+   "name": "virtual warehouse",
+   "type": "other",
+   "role": "compute resource whose concurrent queries may be served by different compute resources, making the timestamp unsuitable for precise ordering"
+  }
+ ],
+ "tags": [
+  "sql",
+  "timestamp",
+  "reference",
+  "snowflake",
+  "date-time"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1466,
+  "output_tokens": 567
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "summary": "The note briefly describes the Ross procedure, a cardiac surgery technique named after Dr. Donald Ross, a UK pioneer in cardiac surgery. It states that Ross proposed the procedure in 1962 and first performed it in 1967. The note is very short and gives no further details about the technique itself.",
+ "one_line": "The Ross procedure, a cardiac surgery named after UK pioneer Dr. Donald Ross, who proposed it in 1962 and first performed it in 1967.",
+ "key_facts": [
+  "The Ross procedure is named after Dr. Donald Ross.",
+  "Dr. Donald Ross was a pioneer in cardiac surgery in the UK.",
+  "Dr. Donald Ross proposed the Ross procedure in 1962.",
+  "Dr. Donald Ross first performed the Ross procedure in 1967."
+ ],
+ "entities": [
+  {
+   "name": "Ross procedure",
+   "type": "event",
+   "role": "cardiac surgical procedure named after Dr. Donald Ross, proposed in 1962 and first performed in 1967"
+  },
+  {
+   "name": "Dr. Donald Ross",
+   "type": "person",
+   "role": "pioneer in cardiac surgery in the UK who proposed the Ross procedure in 1962 and first performed it in 1967"
+  }
+ ],
+ "tags": [
+  "cardiac surgery",
+  "surgical procedures",
+  "medical history",
+  "donald ross"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 1045,
+  "output_tokens": 470
+ }
+}

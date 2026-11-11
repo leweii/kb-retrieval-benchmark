@@ -1,0 +1,151 @@
+{
+ "summary": "This PX4 User Guide (v1.14) page explains how to run Gazebo (the newer 'Gazebo Ignition', now called Gazebo) SITL simulation with PX4. It covers installation on Ubuntu 22.04 and 20.04, the make commands and vehicle targets, headless mode, startup environment variables and examples, and how to add new worlds and models. Multi-vehicle simulation is noted as supported on Linux hosts.",
+ "one_line": "PX4 v1.14 guide to running, configuring, and extending the Gazebo SITL simulator with supported quadrotor, plane, and VTOL vehicles.",
+ "key_facts": [
+  "Gazebo was previously known as \"Gazebo Ignition\", while Gazebo Classic was previously known as Gazebo.",
+  "Gazebo is described as an open source robotics simulator that supersedes the older Gazebo Classic simulator.",
+  "Gazebo is the only supported version of Gazebo for Ubuntu 22.04 and onwards.",
+  "Supported vehicles for Gazebo simulation are Quadrotor, Plane, and VTOL.",
+  "Gazebo is installed by default on Ubuntu 22.04 as part of the development environment setup.",
+  "On Ubuntu 20.04, installing gz-garden will uninstall Gazebo-Classic.",
+  "Gazebo SITL simulation is run with the command 'make px4_sitl gz_x500' from the PX4-Autopilot directory.",
+  "All Gazebo make targets have the prefix 'gz_'.",
+  "Running HEADLESS=1 make px4_sitl gz_x500 runs the simulation without the Gazebo GUI.",
+  "The gz_x500 target uses PX4_SYS_AUTOSTART 4001, gz_x500_depth uses 4002, gz_x500_vision uses 4005, gz_standard_vtol uses 4004, and gz_rc_cessna uses 4003.",
+  "PX4_SYS_AUTOSTART is mandatory and sets the airframe autostart id of the PX4 airframe to start.",
+  "PX4_GZ_MODEL_POSE takes the syntax \"x,y,z,roll,pitch,yaw\" with positions in metres and angles in radians, and defaults to [0,0,0,0,0,0].",
+  "PX4_GZ_MODEL_NAME and PX4_GZ_MODEL are mutually exclusive; PX4_GZ_MODEL_POSE can only be used with PX4_GZ_MODEL.",
+  "If PX4_GZ_WORLD is not given, the default world is used, and it is ignored if a simulation is already running.",
+  "New worlds can be copied into the PX4 Gazebo world directory, and new models require an sdf file in the model directory plus an airframe configuration file."
+ ],
+ "entities": [
+  {
+   "name": "PX4 User Guide (v1.14)",
+   "type": "other",
+   "role": "documentation site hosting the Gazebo Simulation page"
+  },
+  {
+   "name": "Gazebo",
+   "type": "product",
+   "role": "open source robotics simulator superseding Gazebo Classic, the only supported Gazebo version for Ubuntu 22.04 and onwards"
+  },
+  {
+   "name": "Gazebo Classic",
+   "type": "product",
+   "role": "older Gazebo simulator superseded by Gazebo"
+  },
+  {
+   "name": "Ubuntu 22.04",
+   "type": "product",
+   "role": "Linux version where Gazebo is installed by default as part of dev environment setup"
+  },
+  {
+   "name": "Ubuntu 20.04",
+   "type": "product",
+   "role": "Linux version where Gazebo can be installed manually after normal setup"
+  },
+  {
+   "name": "gz-garden",
+   "type": "product",
+   "role": "package whose installation uninstalls Gazebo-Classic"
+  },
+  {
+   "name": "PX4-Autopilot",
+   "type": "program",
+   "role": "autopilot source code directory from which the make command is run"
+  },
+  {
+   "name": "PX4_SYS_AUTOSTART",
+   "type": "program",
+   "role": "mandatory environment variable setting the airframe autostart id"
+  },
+  {
+   "name": "PX4_GZ_MODEL_NAME",
+   "type": "program",
+   "role": "environment variable naming an existing Gazebo model to bind a new PX4 instance to"
+  },
+  {
+   "name": "PX4_GZ_MODEL",
+   "type": "program",
+   "role": "environment variable naming a new Gazebo model to spawn and bind to a PX4 instance"
+  },
+  {
+   "name": "PX4_GZ_MODEL_POSE",
+   "type": "program",
+   "role": "environment variable setting the spawn position and orientation of a model"
+  },
+  {
+   "name": "PX4_GZ_WORLD",
+   "type": "program",
+   "role": "environment variable setting the Gazebo world file for a new simulation"
+  },
+  {
+   "name": "PX4_SIMULATOR",
+   "type": "program",
+   "role": "environment variable setting the simulator, which must be gz for Gazebo"
+  },
+  {
+   "name": "PX4_SIM_MODEL",
+   "type": "program",
+   "role": "alias for PX4_GZ_MODEL used when neither PX4_GZ_MODEL_NAME nor PX4_GZ_MODEL is given"
+  },
+  {
+   "name": "HEADLESS",
+   "type": "program",
+   "role": "flag that runs the simulation without the Gazebo GUI"
+  },
+  {
+   "name": "Quadrotor (x500)",
+   "type": "product",
+   "role": "quadrotor vehicle launched with make px4_sitl gz_x500"
+  },
+  {
+   "name": "Quadrotor (x500) with Depth Camera",
+   "type": "product",
+   "role": "quadrotor variant launched with make px4_sitl gz_x500_depth"
+  },
+  {
+   "name": "Quadrotor (x500) with Vision Odometry",
+   "type": "product",
+   "role": "quadrotor variant launched with make px4_sitl gz_x500_vision"
+  },
+  {
+   "name": "Standard VTOL",
+   "type": "product",
+   "role": "VTOL vehicle launched with make px4_sitl gz_standard_vtol"
+  },
+  {
+   "name": "RC Cessna",
+   "type": "product",
+   "role": "plane vehicle launched with make px4_sitl gz_rc_cessna"
+  },
+  {
+   "name": "QGroundControl",
+   "type": "product",
+   "role": "ground control software that should automatically connect to the simulated vehicle"
+  },
+  {
+   "name": "Multi-Vehicle Simulation with Gazebo",
+   "type": "program",
+   "role": "linked guide for multi-vehicle simulation, supported on Linux hosts"
+  },
+  {
+   "name": "px4-simulation-ignition",
+   "type": "program",
+   "role": "further information repository linked from the page, hosted by Auterion"
+  }
+ ],
+ "tags": [
+  "px4",
+  "gazebo",
+  "simulation",
+  "sitl",
+  "robotics",
+  "drones"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8196,
+  "output_tokens": 2141
+ }
+}

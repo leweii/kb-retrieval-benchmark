@@ -1,0 +1,94 @@
+{
+ "summary": "This iRobot Create 3 documentation page explains how to install ROS 2 Humble with the Create 3 messages on a machine running Ubuntu 22.04, either natively or in a virtualized container. It follows Open Robotics' official Ubuntu installation guide and walks through twelve steps covering locale checks, the Universe repository, the ROS 2 apt repository, installing ROS 2 desktop or base packages, the irobot-create-msgs package, and RMW selection. The page notes that NavQPlus and Raspberry Pi 4 need board-specific instructions.",
+ "one_line": "Step-by-step guide to installing ROS 2 Humble with Create 3 messages on Ubuntu 22.04 for communicating with iRobot Create 3 robots.",
+ "key_facts": [
+  "The directions are meant for a machine natively running Ubuntu 22.04, as well as a virtualized container within another operating system.",
+  "The page says RMWs seem to like running in a bridged network configuration rather than a NATted one when virtualized.",
+  "The directions follow Open Robotics' official documentation on Installing ROS 2 on Ubuntu Linux.",
+  "Some single board computers have board-specific instructions, which are available for the NavQPlus and the Raspberry Pi 4.",
+  "Step 2 checks for a UTF-8 locale by running echo $LANG and confirming \"UTF-8\" is at the end of the output.",
+  "Step 3 checks that the Ubuntu Universe repository is enabled using apt-cache policy | grep universe.",
+  "Step 6 installs ROS 2 with sudo apt install -y ros-humble-desktop if a graphical environment is available, otherwise ros-humble-ros-base.",
+  "Step 7 installs the Create 3 messages with sudo apt install -y ros-humble-irobot-create-msgs.",
+  "Step 8 recommends installing build-essential, python3-colcon-common-extensions, python3-rosdep and ros-humble-rmw-cyclonedds-cpp.",
+  "The Create 3 robot supports rmw_cyclonedds_cpp and rmw_fastrtps_cpp, and the default for Humble is rmw_fastrtps_cpp.",
+  "The RMW set on the computer has to match the RMW on the robot, which can be found on its Application Configuration page.",
+  "Step 12 suggests testing with ros2 topic list once the computer and robot are on the same network.",
+  "The page is copyright © 2021-2024 iRobot Corporation."
+ ],
+ "entities": [
+  {
+   "name": "Create® 3",
+   "type": "product",
+   "role": "iRobot robot that the ROS 2 Create 3 messages and API support, whose RMW must match the computer's setting"
+  },
+  {
+   "name": "Ubuntu 22.04",
+   "type": "product",
+   "role": "operating system the installation directions target, named as Ubuntu® 22.04 64-bit in step 1"
+  },
+  {
+   "name": "ROS 2 Humble",
+   "type": "program",
+   "role": "ROS 2 release installed on the Ubuntu machine, with desktop or ros-base packages"
+  },
+  {
+   "name": "Open Robotics",
+   "type": "organization",
+   "role": "maintainer of the official ROS 2 installation documentation and the ROS 2 project, which the page follows"
+  },
+  {
+   "name": "irobot-create-msgs",
+   "type": "product",
+   "role": "ROS 2 Create 3 messages package installed in step 7 with ros-humble-irobot-create-msgs"
+  },
+  {
+   "name": "rmw_cyclonedds_cpp",
+   "type": "program",
+   "role": "ROS 2 middleware implementation supported by the Create 3 robot"
+  },
+  {
+   "name": "rmw_fastrtps_cpp",
+   "type": "program",
+   "role": "ROS 2 middleware implementation supported by the Create 3 robot and the default for Humble"
+  },
+  {
+   "name": "NavQPlus",
+   "type": "product",
+   "role": "single board computer with board-specific instructions referenced on this page"
+  },
+  {
+   "name": "Raspberry Pi® 4",
+   "type": "product",
+   "role": "single board computer with board-specific instructions referenced on this page"
+  },
+  {
+   "name": "Ubuntu Universe repository",
+   "type": "program",
+   "role": "Ubuntu package repository that step 3 checks and enables"
+  },
+  {
+   "name": "Material for MkDocs",
+   "type": "product",
+   "role": "documentation framework used to build the page"
+  },
+  {
+   "name": "iRobot Corporation",
+   "type": "organization",
+   "role": "publisher of the Create 3 documentation and copyright holder"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "ubuntu",
+  "irobot-create-3",
+  "installation",
+  "robotics",
+  "middleware"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5401,
+  "output_tokens": 1479
+ }
+}

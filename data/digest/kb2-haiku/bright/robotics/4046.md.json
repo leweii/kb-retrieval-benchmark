@@ -1,0 +1,95 @@
+{
+ "summary": "This is a closed GitHub issue (#4046) in the pypa/setuptools repository reporting that the setuptools 68.2.0 change \"Record normalized requirements in dist.metadata object\" breaks building ROS2 Python packages with colcon, because colcon feeds setup.py output into a compiler and the new repr-style output causes a SyntaxError. Reporter owend says reverting is the easiest fix; maintainer abravalheri asks whether 68.2.1 was tried, asasine confirms 68.2.1 mitigates the issue, and owend closes it as fixed with 68.2.1 on Sep 12, 2023.",
+ "one_line": "GitHub issue reporting that setuptools 68.2.0 broke colcon builds of ROS2 Python packages, fixed in 68.2.1.",
+ "key_facts": [
+  "GitHub issue #4046 in the pypa/setuptools repository was titled \"[BUG] Internal 68.2.0 change breaks all ROS2 python packages\".",
+  "The issue was opened by user owend on Sep 12, 2023.",
+  "The reported problem was caused by the setuptools 68.2.0 change described as \"Record normalized requirements in dist.metadata object\", commit a641c78.",
+  "The reporter stated the change probably breaks all downstream Python packages built for ROS2 using colcon.",
+  "The reported error output was a SyntaxError: invalid syntax caused by '_normalized_install_requires': {'setuptools': <Requirement('setuptools')>}.",
+  "The reporter said the root cause is that colcon feeds output from setup.py into a compiler and now receives a non-compilable string representation with extra <> characters.",
+  "The reporter noted that the colcon design flaw had been \"known\" since 2021, referencing colcon/colcon-core#454.",
+  "Builds using setuptools 68.1 worked, and the reporter suggested reverting the change as the easiest fix.",
+  "Maintainer abravalheri asked whether the reporter had tried setuptools 68.2.1.",
+  "User asasine confirmed that 68.2.1 mitigates the issue.",
+  "abravalheri argued that serialising arbitrary objects with repr and expecting them to parse as Python would be a very bold decision.",
+  "owend closed the issue as fixed with 68.2.1, and abravalheri closed it as completed on Sep 12, 2023.",
+  "The issue was labeled bug and Needs Triage, later also Waiting User Feedback.",
+  "The issue thread lists 3 participants: owend, abravalheri, and asasine."
+ ],
+ "entities": [
+  {
+   "name": "pypa/setuptools",
+   "type": "program",
+   "role": "Python packaging library repository where issue #4046 was filed"
+  },
+  {
+   "name": "owend",
+   "type": "person",
+   "role": "issue author who reported the bug and closed it as fixed with 68.2.1"
+  },
+  {
+   "name": "abravalheri",
+   "type": "person",
+   "role": "maintainer (Contributor) who asked about 68.2.1 and closed the issue"
+  },
+  {
+   "name": "asasine",
+   "type": "person",
+   "role": "commenter who confirmed 68.2.1 mitigates the issue"
+  },
+  {
+   "name": "colcon",
+   "type": "program",
+   "role": "build tool whose handling of setup.py output caused the failure for ROS2 packages"
+  },
+  {
+   "name": "colcon/colcon-python-setup-py",
+   "type": "program",
+   "role": "colcon plugin repository with related issue #56"
+  },
+  {
+   "name": "colcon/colcon-core",
+   "type": "program",
+   "role": "colcon core repository whose issue #454 documents the known design flaw since 2021"
+  },
+  {
+   "name": "ROS2",
+   "type": "program",
+   "role": "robotics software framework whose Python packages were broken by the change"
+  },
+  {
+   "name": "ArduPilot",
+   "type": "organization",
+   "role": "project with related issue #24862 showing cascading failures"
+  },
+  {
+   "name": "setuptools 68.2.0",
+   "type": "product",
+   "role": "version containing the change 'Record normalized requirements in dist.metadata object' that caused the bug"
+  },
+  {
+   "name": "setuptools 68.2.1",
+   "type": "product",
+   "role": "version that mitigated the issue and where owend confirmed the fix"
+  },
+  {
+   "name": "Ubuntu",
+   "type": "product",
+   "role": "operating system the reporter used"
+  }
+ ],
+ "tags": [
+  "setuptools",
+  "ros2",
+  "colcon",
+  "python packaging",
+  "bug report",
+  "build failure"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6816,
+  "output_tokens": 1404
+ }
+}

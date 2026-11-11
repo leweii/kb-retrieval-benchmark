@@ -1,0 +1,109 @@
+{
+ "summary": "A Stack Overflow question asks how to make json.loads turn an ISO-formatted datetime string inside a JSON object into a Python datetime.datetime object, rather than leaving it as a string. The page collects many answers: the main approach is passing an object_hook function (or a JSONDecoder subclass) that tries to parse string values, with variants using strptime, dateutil.parser, regex matching, and a schema-based library. Several answers note that JSON has no date type, so dates must be detected heuristically or via a schema, and that try/except and parsing every string can be slow or fragile.",
+ "one_line": "Stack Overflow thread on converting ISO datetime strings inside JSON into Python datetime objects during json.loads, using object_hook and related approaches.",
+ "key_facts": [
+  "The question's example string is '{\"debug\": false, \"created_at\": \"2020-08-09T11:24:20\"}' and the desired result is a datetime.datetime(2020, 08, 09, 11, 24, 20) value for created_at.",
+  "The question was asked 12 years, 3 months before the page snapshot and was viewed 58k times.",
+  "Commenters note that JSON knows only string, number, bool, array and map types, so dates must be transmitted as strings or numbers.",
+  "Nicola Iarocci's answer uses an object_hook named datetime_parser that converts values matching the format '%a, %d %b %Y %H:%M:%S UTC' and was used for MongoDB/PyMongo queries via a REST API.",
+  "galarant's answer defines date_hook that tries datetime.datetime.strptime with the format '%Y-%m-%dT%H:%M:%S' on each value and passes object_hook=date_hook to json.loads.",
+  "The json documentation says object_hook is an optional function called with the result of any object literal decoded (a dict), and its return value replaces the dict.",
+  "Uri Shalit's answer replaces strptime with dateutil.parser.parse and catches only (ValueError, AttributeError) instead of using a bare except.",
+  "Maciej's answer uses regular expressions to decide which string values to convert to datetime before calling strptime, and notes it is applied via object_hook.",
+  "Michael Dorner's answer recommends a JSONDecoder subclass with a custom object_hook, plus a custom JSONEncoder that serializes date, datetime and pd.Timestamp values with isoformat().",
+  "Roman Susi says there is no out-of-the-box solution and suggests using a JSON schema to decide which strings are really datetimes.",
+  "Dov Grobgeld notes that without an indicator in the data, a string is just a string, and recommends a schema where one is available.",
+  "Alberto Chiusole's Python 3 version uses str instead of basestring and a precompiled regex for the pattern '^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}$'.",
+  "Ritvik The God's answer recommends the dataclass-wizard library, whose CLI can generate a dataclass schema from sample JSON so that created_at decodes as datetime.",
+  "Yedidya03's answer proposes the pyjschema package, which parses JSON according to a schema with a 'date-time' format property."
+ ],
+ "entities": [
+  {
+   "name": "Nicola Iarocci",
+   "type": "person",
+   "role": "Answerer who wrote an object_hook datetime_parser for MongoDB/PyMongo queries received through a REST API"
+  },
+  {
+   "name": "galarant",
+   "type": "person",
+   "role": "Answerer who wrote date_hook using strptime with '%Y-%m-%dT%H:%M:%S' as an object_hook"
+  },
+  {
+   "name": "Michael Dorner",
+   "type": "person",
+   "role": "Answerer who recommended a JSONDecoder subclass and a custom JSONEncoder for datetime values"
+  },
+  {
+   "name": "Uri Shalit",
+   "type": "person",
+   "role": "Answerer who suggested using dateutil.parser instead of strptime and catching specific exceptions"
+  },
+  {
+   "name": "Dov Grobgeld",
+   "type": "person",
+   "role": "Answerer who explained that JSON strings lack type indicators and recommended a schema"
+  },
+  {
+   "name": "Roman Susi",
+   "type": "person",
+   "role": "Answerer who said no out-of-the-box solution exists and suggested using a JSON schema"
+  },
+  {
+   "name": "Maciej",
+   "type": "person",
+   "role": "Answerer who used regular expressions to choose which string values to convert to datetime"
+  },
+  {
+   "name": "Alberto Chiusole",
+   "type": "person",
+   "role": "Answerer who adapted the approach to Python 3 with a precompiled regex and no try/except"
+  },
+  {
+   "name": "Ritvik The God",
+   "type": "person",
+   "role": "Answerer who recommended the dataclass-wizard library and noted JSON's primitive types"
+  },
+  {
+   "name": "Ozgur Vatansever",
+   "type": "person",
+   "role": "Original asker of the question about converting JSON datetime strings"
+  },
+  {
+   "name": "json",
+   "type": "program",
+   "role": "Python standard library module whose loads function accepts an object_hook parameter"
+  },
+  {
+   "name": "dateutil.parser",
+   "type": "program",
+   "role": "Library parser suggested as a more general way to parse datetime strings, including timezones"
+  },
+  {
+   "name": "dataclass-wizard",
+   "type": "program",
+   "role": "Library recommended for converting JSON responses to dataclass schemas with datetime fields"
+  },
+  {
+   "name": "pyjschema",
+   "type": "program",
+   "role": "PyPI package that parses JSON according to a JSON schema into Pythonic types"
+  },
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "Q&A website hosting the question and answers"
+  }
+ ],
+ "tags": [
+  "python",
+  "json",
+  "datetime",
+  "deserialization",
+  "object-hook"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11881,
+  "output_tokens": 1850
+ }
+}

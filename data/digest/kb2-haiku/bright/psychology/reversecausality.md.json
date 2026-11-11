@@ -1,0 +1,69 @@
+{
+ "summary": "This Indeed Career Guide article defines reverse causality, also called reverse causation or the 'cart-before-the-horse bias', where variable Y influences variable X instead of the expected direction. It gives three examples (family history and heart attack risk, class size and student grades, coffee and anxiety), contrasts reverse causality with simultaneity using the Matthew effect, lists fields that use the concept, and presents the nine Bradford Hill criteria for judging causal relationships.",
+ "one_line": "Indeed career guide explaining reverse causality, its examples, its difference from simultaneity, and the nine Bradford Hill criteria for assessing causation.",
+ "key_facts": [
+  "Reverse causality, also called reverse causation, is a phenomenon where Y causes X instead of X causing Y, and some people call it the \"cart-before-the-horse bias\".",
+  "The article gives the example that researchers may assume high body mass index (BMI) leads to depression when they find depression leads to a high BMI.",
+  "In Example 1, Jenna's grandfather recently had a heart attack, and Jenna reduces her intake of foods high in cholesterol and saturated fats after learning of her family history risk.",
+  "In Example 2, Lysette observed that schools with classes under 15 kids had more \"A\" grades, but concluded that smarter students attend schools with smaller class sizes.",
+  "In Example 3, Stephen predicted coffee causes anxiety among law students but found that anxious students drink extra coffee as a coping mechanism.",
+  "Simultaneity occurs when variables on both sides of a model equation impact one another at the same time, while reverse causality flows only from Y to X.",
+  "The Matthew effect is given as a common example of simultaneity, where high-status intellects receive more credit and rewards for similar achievements.",
+  "Psychology is listed as a field where professionals may believe drug usage causes mental health problems when the drug use actually results from a mental health problem.",
+  "Epidemiologists may encounter reverse causality when an exposure causes the risk factor rather than the risk factor causing the exposure.",
+  "The Bradford Hill Criteria were created by statistician Bradford Hill in 1965 and include nine characteristics.",
+  "The nine Bradford Hill criteria are strength, consistency, specificity, temporal sequence, biological gradient, plausibility, coherence, experiment, and analogy.",
+  "Under temporal sequence, if the effect occurs before the cause, one can conclude it is reverse causality.",
+  "The article was updated August 8, 2022."
+ ],
+ "entities": [
+  {
+   "name": "Indeed",
+   "type": "organization",
+   "role": "publisher of the Career Guide article on reverse causality"
+  },
+  {
+   "name": "Bradford Hill",
+   "type": "person",
+   "role": "statistician who created the Bradford Hill Criteria in 1965 to provide evidence for correlation"
+  },
+  {
+   "name": "Bradford Hill Criteria",
+   "type": "program",
+   "role": "list of nine standards for determining whether two variables are causally related"
+  },
+  {
+   "name": "Jenna",
+   "type": "person",
+   "role": "example individual whose family history of heart attack leads her to a healthier lifestyle"
+  },
+  {
+   "name": "Lysette",
+   "type": "person",
+   "role": "example researcher who studied class size and student grades at multiple schools"
+  },
+  {
+   "name": "Stephen",
+   "type": "person",
+   "role": "example researcher who studied coffee drinking and anxiety among law students"
+  },
+  {
+   "name": "Matthew effect",
+   "type": "other",
+   "role": "common example of simultaneity where high-status intellects receive more rewards"
+  }
+ ],
+ "tags": [
+  "causality",
+  "statistics",
+  "research methods",
+  "correlation",
+  "epidemiology",
+  "psychology"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4582,
+  "output_tokens": 1173
+ }
+}

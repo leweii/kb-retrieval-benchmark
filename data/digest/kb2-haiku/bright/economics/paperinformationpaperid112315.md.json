@@ -1,0 +1,111 @@
+{
+ "summary": "This Applied Mathematics paper (2021) by researchers at Texas A & M University-Texarkana models the relationship among the US M2 money supply, the Dow Jones Industrial Average and the National Debt from 1969 to 2020, using fiscal-year-end data. The authors fit an exponential model to M2 over time, then model the Dow as proportional to M2 and the National Debt as proportional to the Dow, with strong correlations (r above 0.98) among the three indicators. They conclude that growth in all three is likely to continue, and they question whether this trend benefits all Americans and whether it is sustainable. The note is truncated partway through the National Debt equations.",
+ "one_line": "A 2021 mathematical study modeling how US M2 money supply, Dow Jones index and National Debt grew exponentially from 1969 to 2020 after the dollar left the gold standard.",
+ "key_facts": [
+  "The paper was published in Applied Mathematics, Vol.12 No.9, September 2021, with DOI 10.4236/am.2021.129056.",
+  "The authors are Robert B. Brad Crayne, Xavier Williams and Ram C. Neupane of the Department of Mathematics and Statistics, Texas A & M University-Texarkana.",
+  "The US dollar was tied to a finite standard dating back to 1792, and in 1971 the US government severed the dollar from the gold standard.",
+  "Under the post-World War II arrangement, the value of the dollar was fixed at thirty-five dollars per ounce of gold.",
+  "The data set covers M2 Money Stock, the Dow Jones Index and the National Debt as reported at the end of each federal fiscal year from 1969 to 2020.",
+  "The National Debt rose from approximately $398 billion in 1971 to roughly $26.945 trillion at the end of fiscal year 2020.",
+  "The Dow Jones Industrial Average increased from 887.2 points to 27,781.7 points, while M2 expanded from $692.5 billion to $18.6483 trillion.",
+  "The largest relative annual Dow increase was 46.9% between the end of fiscal year 1986 and fiscal year 1987; the largest decrease was 35.8% between fiscal years 1972 and 1973.",
+  "The correlation coefficient for ln(M2) versus time was approximately 0.9926, Dow versus M2 approximately 0.9832, and National Debt versus Dow approximately 0.9814.",
+  "The M2 model is M = 750.7792 e^(0.061427t), where t is years since 1969.",
+  "The Dow model D = 1.500623 M simplifies to D = 1126.637 e^(0.061427t).",
+  "The National Debt model is N(t) = 0.9203 D(t), with D(t) taken from the smooth Dow curve.",
+  "The ounce of gold that cost $35.00 in 1971 had risen to approximately $400.00 by 1995 and to about $1800.00 by 2020.",
+  "The authors assume the Dow Jones Index cycles roughly every eight years, beginning at a low point in 1970.",
+  "The authors conclude that growth in all three indicators and increasing market volatility are reasonable to expect for some time, but question whether this trend is good for all Americans and sustainable in perpetuity."
+ ],
+ "entities": [
+  {
+   "name": "Texas A & M University-Texarkana",
+   "type": "organization",
+   "role": "institution of the paper's authors, whose Department of Mathematics and Statistics they belong to"
+  },
+  {
+   "name": "Robert B. Brad Crayne",
+   "type": "person",
+   "role": "co-author of the paper"
+  },
+  {
+   "name": "Xavier Williams",
+   "type": "person",
+   "role": "co-author of the paper"
+  },
+  {
+   "name": "Ram C. Neupane",
+   "type": "person",
+   "role": "co-author of the paper"
+  },
+  {
+   "name": "Federal Reserve Bank",
+   "type": "organization",
+   "role": "assumed to control the M2 money supply and manage the economy through interest rates and money supply"
+  },
+  {
+   "name": "Dow Jones Industrial Average",
+   "type": "other",
+   "role": "stock market index modeled as a function of the M2 money supply"
+  },
+  {
+   "name": "Bretton Woods",
+   "type": "event",
+   "role": "international agreement under which most world currencies were pegged to the US dollar, which was fixed to gold"
+  },
+  {
+   "name": "Nixon-Connally plan",
+   "type": "program",
+   "role": "1971 US economic policy that took the dollar completely off the gold standard"
+  },
+  {
+   "name": "Adam Smith",
+   "type": "person",
+   "role": "author of An Inquiry into the Nature and Causes of the Wealth of Nations, cited on the value of solid currency"
+  },
+  {
+   "name": "Thomas Paine",
+   "type": "person",
+   "role": "writer who in 1786 argued against paper currency not backed by specie"
+  },
+  {
+   "name": "Jack Weatherford",
+   "type": "person",
+   "role": "author of The History of Money, who measured the dollar's decline against gold"
+  },
+  {
+   "name": "Aaron Kasteler",
+   "type": "person",
+   "role": "author of a 2017 thesis criticizing the Federal Reserve's management of the money supply"
+  },
+  {
+   "name": "Congress",
+   "type": "organization",
+   "role": "assumed to determine the National Debt through its Power of the Purse"
+  },
+  {
+   "name": "Nixon",
+   "type": "person",
+   "role": "US president whose administration severed the dollar from the gold standard in 1971"
+  },
+  {
+   "name": "M2 Money Supply",
+   "type": "other",
+   "role": "money stock measure modeled as an exponential function of time"
+  }
+ ],
+ "tags": [
+  "money supply",
+  "national debt",
+  "stock market",
+  "mathematical modeling",
+  "gold standard",
+  "monetary policy"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 12646,
+  "output_tokens": 2927
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short biographical entry on Roger Franklin, a professional basketball player. It gives his birth date and birthplace and states that he currently plays for Black Star Mersch in the Luxembourgian Total League.",
+ "one_line": "Roger Franklin is a professional basketball player born in Duncanville, Texas, who currently plays for Black Star Mersch in Luxembourg.",
+ "key_facts": [
+  "Roger Franklin was born on September 7, 1990.",
+  "Roger Franklin was born in Duncanville, Texas.",
+  "Roger Franklin is a professional basketball player.",
+  "Roger Franklin currently plays for Black Star Mersch.",
+  "Black Star Mersch competes in the Luxembourgian Total League."
+ ],
+ "entities": [
+  {
+   "name": "Roger Franklin",
+   "type": "person",
+   "role": "professional basketball player born September 7, 1990 in Duncanville, Texas"
+  },
+  {
+   "name": "Black Star Mersch",
+   "type": "organization",
+   "role": "basketball team Roger Franklin currently plays for"
+  },
+  {
+   "name": "Luxembourgian Total League",
+   "type": "program",
+   "role": "league in which Black Star Mersch competes"
+  },
+  {
+   "name": "Duncanville, Texas",
+   "type": "place",
+   "role": "birthplace of Roger Franklin"
+  }
+ ],
+ "tags": [
+  "basketball",
+  "sports biography",
+  "luxembourg",
+  "texas"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1051,
+  "output_tokens": 445
+ }
+}

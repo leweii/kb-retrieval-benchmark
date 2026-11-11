@@ -1,0 +1,88 @@
+{
+ "summary": "This is a tutorial from the SDFormat documentation (version 1.6 of the page) explaining the Gazebo extension to URDF, the <gazebo> tag, which lets URDF users add SDFormat-specific elements that are carried into the converted SDFormat output. It covers how <gazebo> tags without a reference apply to the robot model, how reference-based tags modify links and joints via special tags (e.g., mu1, kp, selfCollide, springStiffness, preserveFixedJoint), and how fixed joint lumping merges a fixed child link into its parent by default and how to disable it. The page is example-heavy, showing URDF inputs and resulting SDFormat outputs.",
+ "one_line": "Tutorial on the SDFormat <gazebo> extension to URDF, covering link and joint special tags and fixed joint lumping.",
+ "key_facts": [
+  "When URDF files are loaded by Gazebo, the URDF content is first converted to SDFormat before being processed by Gazebo.",
+  "The command gz sdf -p <path to urdf file> can be used to convert a URDF file to SDFormat for inspection.",
+  "A <gazebo> tag without a reference attribute applies to the SDFormat <model> generated from the <robot> URDF tag.",
+  "For links, the mu1 tag maps to collision/surface/friction/ode/mu in the SDFormat output.",
+  "The dampingFactor link tag multiplies the previous link velocity by (1-dampingFactor) and maps to velocity_decay/linear and velocity_decay/angular.",
+  "The selfCollide tag, when true, allows the link to collide with other links in the model and maps to self_collide.",
+  "The laserRetro tag sets the intensity value returned by a laser sensor and maps to collision/laser_retro.",
+  "For joints, springStiffness is in N/m and maps to axis/dynamics/spring_stiffness; springReference maps to axis/dynamics/spring_reference.",
+  "The fudgeFactor joint tag scales the excess for a joint motor at joint limits and should be between zero and one.",
+  "Fixed joint lumping is enabled by default and merges the child link's visual and collision elements into the parent link, discarding the fixed joint.",
+  "As of libsdformat 9.9.0, frame elements representing the discarded joint and child link are generated to preserve their pose information.",
+  "Setting preserveFixedJoint to true results in a joint with a fixed type, whereas disableFixedJointLumping to true results in a revolute joint with position limits set to 0.",
+  "If both preserveFixedJoint and disableFixedJointLumping are true, preserveFixedJoint takes precedence.",
+  "Fixed joint lumping can be disabled for all joints by setting ParserConfig::URDFPreserveFixedJoint to true.",
+  "Disabling joint lumping should only be done when both parent and child links have positive mass and corresponding <inertial> elements.",
+  "The <material> tag directly under <gazebo> accepts Gazebo-classic material script names such as Gazebo/SkyBlue or Gazebo/WoodFloor; it is only relevant for Gazebo-classic.",
+  "At the time of writing, a bug in the URDF to SDFormat converter (sdformat issue 333) behaves incorrectly when visual and collision tags in the URDF have names."
+ ],
+ "entities": [
+  {
+   "name": "SDFormat",
+   "type": "other",
+   "role": "the simulation description format to which URDF content is converted and whose elements the <gazebo> tag inserts"
+  },
+  {
+   "name": "URDF",
+   "type": "other",
+   "role": "the robot description format extended by the <gazebo> tag"
+  },
+  {
+   "name": "Gazebo",
+   "type": "product",
+   "role": "simulator that loads URDF files by first converting them to SDFormat"
+  },
+  {
+   "name": "Gazebo-classic",
+   "type": "product",
+   "role": "earlier version of Gazebo, referenced for material scripts and physics parameter tutorials"
+  },
+  {
+   "name": "Open Dynamics Engine (ODE)",
+   "type": "product",
+   "role": "physics engine whose friction, contact and constraint parameters are used by the link and joint tags"
+  },
+  {
+   "name": "libsdformat 9.9.0",
+   "type": "product",
+   "role": "library version from which frame elements preserve pose information for discarded joints and child links"
+  },
+  {
+   "name": "gz sdf -p",
+   "type": "program",
+   "role": "command that converts a URDF file to SDFormat for inspection"
+  },
+  {
+   "name": "Gazebo/SkyBlue",
+   "type": "product",
+   "role": "example Gazebo-classic material color name usable with the material tag"
+  },
+  {
+   "name": "Gazebo/WoodFloor",
+   "type": "product",
+   "role": "example Gazebo-classic material texture name usable with the material tag"
+  },
+  {
+   "name": "ParserConfig::URDFPreserveFixedJoint",
+   "type": "program",
+   "role": "parser configuration option that disables fixed joint lumping for all joints when true"
+  }
+ ],
+ "tags": [
+  "sdformat",
+  "urdf",
+  "gazebo",
+  "robotics simulation",
+  "fixed joint lumping",
+  "physics parameters"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13860,
+  "output_tokens": 1625
+ }
+}

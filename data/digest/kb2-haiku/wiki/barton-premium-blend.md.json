@@ -1,0 +1,48 @@
+{
+ "summary": "Barton Premium is a Kentucky Blended whiskey produced in Bardstown, Kentucky by the Sazerac Company at its Barton 1792 Distillery. The note states it is sold in several bottle sizes, including glass pint, 750ml, and 1-liter bottles and plastic 1.75L bottles.",
+ "one_line": "Barton Premium is a Kentucky blended whiskey made by the Sazerac Company at its Barton 1792 Distillery in Bardstown, Kentucky.",
+ "key_facts": [
+  "Barton Premium is a Kentucky Blended whiskey.",
+  "Barton Premium is produced in Bardstown, Kentucky.",
+  "Barton Premium is produced by the Sazerac Company.",
+  "Barton Premium is produced at the Barton 1792 Distillery.",
+  "Barton Premium is sold in glass 16 oz pint bottles.",
+  "Barton Premium is sold in glass 750ml bottles.",
+  "Barton Premium is sold in glass 1-liter bottles.",
+  "Barton Premium is sold in plastic 1.75L bottles."
+ ],
+ "entities": [
+  {
+   "name": "Barton Premium",
+   "type": "product",
+   "role": "Kentucky Blended whiskey produced in Bardstown, Kentucky"
+  },
+  {
+   "name": "Sazerac Company",
+   "type": "organization",
+   "role": "producer of Barton Premium"
+  },
+  {
+   "name": "Barton 1792 Distillery",
+   "type": "place",
+   "role": "distillery where Barton Premium is produced"
+  },
+  {
+   "name": "Bardstown, Kentucky",
+   "type": "place",
+   "role": "location where Barton Premium is produced"
+  }
+ ],
+ "tags": [
+  "whiskey",
+  "kentucky bourbon",
+  "distilleries",
+  "sazerac company",
+  "alcohol products"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1098,
+  "output_tokens": 573
+ }
+}

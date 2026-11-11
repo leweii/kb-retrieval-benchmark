@@ -1,0 +1,84 @@
+{
+ "summary": "This MDN Web Docs page documents the JavaScript method Object.prototype.valueOf(), which converts an object's this value to an object and is meant to be overridden for custom type conversion. It explains that the base implementation is deliberately useless for primitive conversion, that valueOf is called in priority by numeric and primitive conversion while toString is preferred for string conversion, and that @@toPrimitive takes precedence over both. The page includes examples such as a custom Box class and unary plus behavior on various objects. The rest of the clipped page is navigation, sidebars and footer boilerplate, including a long list of standard built-in objects and related links.",
+ "one_line": "MDN reference page on JavaScript's Object.prototype.valueOf() method, its role in type conversion, and overriding it for custom objects.",
+ "key_facts": [
+  "The valueOf() method of Object instances converts the this value to an object and is meant to be overridden by derived objects for custom type conversion logic.",
+  "valueOf() takes no parameters and its return value is the this value converted to an object.",
+  "For valueOf to be useful during type conversion, it must return a primitive value.",
+  "Calling aPrimitiveValue.valueOf() generally does not invoke Object.prototype.valueOf(), because all primitive types have their own valueOf() methods.",
+  "Numeric conversion and primitive conversion call valueOf() in priority, while string conversion calls toString() in priority.",
+  "The Object.prototype.valueOf() base implementation is deliberately useless because by returning an object, its return value will never be used by any primitive conversion algorithm.",
+  "The @@toPrimitive method allows more control over the conversion process and will always be preferred over valueOf or toString for any type conversion.",
+  "In the Box class example, new Box(123) gives box + 456 equal to 579 and box == 123 equal to true.",
+  "Unary plus on new Date() returns the current timestamp, the same as new Date().getTime().",
+  "Unary plus on {} returns NaN, on [] returns 0, on [1] returns 1, on [1, 2] returns NaN, and on new Set([1]) returns NaN.",
+  "Unary plus on { valueOf: () => 42 } returns 42.",
+  "The specification reference is ECMAScript Language Specification, section sec-object.prototype.valueof.",
+  "The page was last modified on Sep 25, 2023 and is copyrighted by individual mozilla.org contributors, with content available under a Creative Commons license."
+ ],
+ "entities": [
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "publisher of the reference page on Object.prototype.valueOf(), with navigation and footer boilerplate"
+  },
+  {
+   "name": "Object.prototype.valueOf()",
+   "type": "product",
+   "role": "subject of the page; converts the this value to an object and is meant to be overridden for custom type conversion"
+  },
+  {
+   "name": "Object",
+   "type": "product",
+   "role": "JavaScript built-in object whose instances the valueOf() method belongs to"
+  },
+  {
+   "name": "Box",
+   "type": "product",
+   "role": "example custom class with a private #value field and an overridden valueOf() method"
+  },
+  {
+   "name": "Object.prototype.toString()",
+   "type": "product",
+   "role": "method preferred by string conversion and related base implementation that always returns a string-like value"
+  },
+  {
+   "name": "Symbol.toPrimitive",
+   "type": "product",
+   "role": "@@toPrimitive method that gives more control over type conversion and is preferred over valueOf or toString"
+  },
+  {
+   "name": "parseInt()",
+   "type": "product",
+   "role": "listed in the See also section of the page"
+  },
+  {
+   "name": "ECMAScript Language Specification",
+   "type": "program",
+   "role": "specification that defines sec-object.prototype.valueof"
+  },
+  {
+   "name": "Mozilla Corporation",
+   "type": "organization",
+   "role": "not-for-profit parent of MDN, named in the footer"
+  },
+  {
+   "name": "Mozilla Foundation",
+   "type": "organization",
+   "role": "not-for-profit parent of Mozilla Corporation, linked in the footer"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "mdn",
+  "type coercion",
+  "valueof",
+  "object prototype",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16856,
+  "output_tokens": 1320
+ }
+}

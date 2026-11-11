@@ -1,0 +1,45 @@
+{
+ "summary": "WWPT, nicknamed \"Wrecker Radio,\" is a high school radio station broadcasting on 90.3 FM and licensed to serve Westport, Connecticut. The station is owned by Staples High School and licensed to the Westport Board of Education, and it airs a high school radio format. The note is a brief overview with no further detail.",
+ "one_line": "WWPT (90.3 FM, \"Wrecker Radio\") is a Westport, Connecticut high school radio station owned by Staples High School.",
+ "key_facts": [
+  "WWPT broadcasts at 90.3 FM and is nicknamed \"Wrecker Radio\".",
+  "WWPT is a high school radio station licensed to serve Westport, Connecticut.",
+  "WWPT is owned by Staples High School.",
+  "WWPT is licensed to the Westport Board of Education.",
+  "WWPT airs a high school radio format."
+ ],
+ "entities": [
+  {
+   "name": "WWPT",
+   "type": "product",
+   "role": "high school radio station (90.3 FM, \"Wrecker Radio\") licensed to serve Westport, Connecticut"
+  },
+  {
+   "name": "Staples High School",
+   "type": "organization",
+   "role": "owner of radio station WWPT"
+  },
+  {
+   "name": "Westport Board of Education",
+   "type": "organization",
+   "role": "licensee of radio station WWPT"
+  },
+  {
+   "name": "Westport, Connecticut",
+   "type": "place",
+   "role": "community the WWPT radio station is licensed to serve"
+  }
+ ],
+ "tags": [
+  "radio",
+  "high school media",
+  "westport connecticut",
+  "broadcasting",
+  "connecticut"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1060,
+  "output_tokens": 511
+ }
+}

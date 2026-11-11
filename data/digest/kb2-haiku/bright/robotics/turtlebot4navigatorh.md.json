@@ -1,0 +1,104 @@
+{
+ "summary": "This note is a section of the TurtleBot 4 user manual covering the TurtleBot 4 Navigator, a Python node that extends the Nav2 Simple Commander with TurtleBot 4 features such as docking, undocking and easy navigation methods. It presents tutorial examples (Navigate to Pose, Navigate Through Poses, Follow Waypoints, Create Path, Mail Delivery), each with code breakdowns, the simulation launch commands, and Rviz visualisation notes. The examples are mostly designed for the simulator, and the navigator requires Nav2 Simple Commander version 1.0.11 or later.",
+ "one_line": "Tutorial page for the TurtleBot 4 Navigator Python node, which wraps Nav2 Simple Commander with docking and pose/waypoint navigation examples.",
+ "key_facts": [
+  "The TurtleBot 4 Navigator is a Python node that adds on to the Nav2 Simple Commander and includes TurtleBot 4 specific features such as docking and undocking.",
+  "TurtleBot 4 Navigator requires at least version 1.0.11 of Nav2 Simple Commander.",
+  "The examples can be installed with sudo apt install ros-$ROS_DISTRO-turtlebot4-tutorials and are available at https://github.com/turtlebot/turtlebot4_tutorials.",
+  "For each example, the robot starts on a dock at the origin of the map.",
+  "All of the examples are designed to be run in the simulation environment.",
+  "The Navigate to Pose example is demonstrated in the depot world of the TurtleBot 4 simulation and sends the robot to the goal [13.0, 5.0] facing EAST in the galactic version and [-13.0, 9.0] facing EAST in the humble version.",
+  "TurtleBot4Directions maps cardinal directions to angles: NORTH = 0, NORTH_WEST = 45, WEST = 90, SOUTH_WEST = 135, SOUTH = 180, SOUTH_EAST = 225, EAST = 270, NORTH_EAST = 315.",
+  "The cardinal directions are relative to the map, not the actual magnetic north pole; driving north is equivalent to driving upwards on the map.",
+  "The Navigate Through Poses example uses the depot world in galactic and the warehouse world in humble, and the robot docks again after reaching the final pose.",
+  "The Follow Waypoints example differs from Navigate Through Poses because the robot plans to reach each waypoint individually rather than planning to the last pose through the others.",
+  "The Create Path example was run on a physical TurtleBot 4 and uses the 2D Pose Estimate tool so the user can create a path in Rviz at runtime.",
+  "Create Path clears all costmaps before setting the initial pose because Nav2 assumes the robot is at each 2D Pose Estimate click.",
+  "The Mail Delivery example is only available in Humble and lets the user select pre-defined locations (Home, Position 1 to Position 4, Exit) from the terminal.",
+  "Running the examples on a physical robot requires installing the tutorial package from source, modifying target destinations, launching SLAM, Nav2, Localization and RViz individually, and passing a map to localization; this is recommended only for intermediate users."
+ ],
+ "entities": [
+  {
+   "name": "TurtleBot 4 Navigator",
+   "type": "program",
+   "role": "Python node that adds TurtleBot 4 specific features such as docking and undocking, and easy navigation methods, on top of Nav2 Simple Commander"
+  },
+  {
+   "name": "Nav2 Simple Commander",
+   "type": "program",
+   "role": "Navigation2 component that the TurtleBot 4 Navigator adds on to; must be at least version 1.0.11"
+  },
+  {
+   "name": "TurtleBot 4 Simulator",
+   "type": "program",
+   "role": "Simulation environment in which the tutorial examples are designed to run, launched via Ignition Gazebo"
+  },
+  {
+   "name": "depot",
+   "type": "place",
+   "role": "Simulation world in which the Navigate to Pose, Navigate Through Poses and Follow Waypoints examples are demonstrated (galactic version for Navigate Through Poses)"
+  },
+  {
+   "name": "warehouse",
+   "type": "place",
+   "role": "Simulation world used for the humble version of the Navigate Through Poses example"
+  },
+  {
+   "name": "Navigate to Pose",
+   "type": "event",
+   "role": "Example in which Nav2 is given a pose on the map, calculates a path and the robot drives along it"
+  },
+  {
+   "name": "Navigate Through Poses",
+   "type": "event",
+   "role": "Example demonstrating the Navigate Through Poses behaviour tree, where the robot drives through a set of poses in order to the last one"
+  },
+  {
+   "name": "Follow Waypoints",
+   "type": "event",
+   "role": "Example where the robot plans to reach each waypoint individually in order"
+  },
+  {
+   "name": "Create Path",
+   "type": "event",
+   "role": "Example that lets the user create a navigation path in Rviz at runtime with the 2D Pose Estimate tool and then follows it; run on a physical TurtleBot 4"
+  },
+  {
+   "name": "Mail Delivery",
+   "type": "event",
+   "role": "Humble-only example that lets the user send the robot to pre-defined locations on demand through a terminal interface"
+  },
+  {
+   "name": "TurtleBot4Directions",
+   "type": "other",
+   "role": "IntEnum mapping cardinal directions to angles in degrees used to set robot orientation relative to the map"
+  },
+  {
+   "name": "Rviz",
+   "type": "program",
+   "role": "Visualisation tool used to watch navigation progress, launched via turtlebot4_viz view_robot.launch.py"
+  },
+  {
+   "name": "Nav2",
+   "type": "program",
+   "role": "Navigation stack that calculates paths and localizes the robot on the map; must be active before goals are sent"
+  },
+  {
+   "name": "Ignition Gazebo",
+   "type": "program",
+   "role": "Simulator launched to run the tutorial examples"
+  }
+ ],
+ "tags": [
+  "turtlebot4",
+  "ros2",
+  "nav2",
+  "navigation",
+  "robotics tutorial"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14145,
+  "output_tokens": 1953
+ }
+}

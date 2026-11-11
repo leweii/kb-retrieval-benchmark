@@ -1,0 +1,78 @@
+{
+ "summary": "This is Snowflake's reference page for the TO_TIMESTAMP family of functions (TO_TIMESTAMP, TO_TIMESTAMP_LTZ, TO_TIMESTAMP_NTZ, TO_TIMESTAMP_TZ), which convert numeric, date, timestamp, string, or VARIANT inputs into timestamp values. It covers syntax and arguments, the default NTZ return type controlled by the TIMESTAMP_TYPE_MAPPING parameter, and the rules for interpreting stringified integers as seconds, milliseconds, microseconds, or nanoseconds. It also explains time zone pitfalls when integers are stored in VARIANT and includes worked examples.",
+ "one_line": "Snowflake reference for TO_TIMESTAMP and its LTZ, NTZ and TZ variants, covering argument types, return types, and integer-to-timestamp unit rules.",
+ "key_facts": [
+  "TO_TIMESTAMP maps to one of TO_TIMESTAMP_LTZ, TO_TIMESTAMP_NTZ, or TO_TIMESTAMP_TZ based on a session parameter, and its default parameter value is TIMESTAMP_NTZ, so TO_TIMESTAMP maps to TO_TIMESTAMP_NTZ by default.",
+  "The optional scale argument is only valid for numeric_expr; scale = 0 means seconds, scale = 3 means milliseconds, and scale = 9 means nanoseconds.",
+  "Numeric input is a number of seconds (or fractions of a second) since the Unix epoch 1970-01-01 00:00:00 UTC, and UTC is always used to build the result.",
+  "For string_expr input, the optional format argument defaults to the current value of the TIMESTAMP_INPUT_FORMAT parameter, and if the string has no time component, midnight is used.",
+  "If a stringified integer is less than 31536000000, it is treated as seconds; values from 31536000000 up to 31536000000000 are treated as milliseconds.",
+  "Stringified integers from 31536000000000 up to 31536000000000000 are treated as microseconds, and values of 31536000000000000 or greater are treated as nanoseconds.",
+  "The use of quoted integers as inputs is deprecated, and Snowflake recommends calling TO_DATE, TO_TIME, or TO_TIMESTAMP with integer strings only when they are intended as seconds.",
+  "For NULL input the result is NULL, and if conversion is not possible an error is returned.",
+  "When an INTEGER is cast directly to TIMESTAMP_NTZ, the local time zone is not taken into account, but an integer stored inside a VARIANT is converted indirectly and is affected by the local time zone.",
+  "Although TO_TIMESTAMP accepts a DATE value, it does not accept a DATE inside a VARIANT.",
+  "The example SELECT TO_TIMESTAMP_NTZ(40 * 365.25 * 86400) returns 2010-01-01 00:00:00.000.",
+  "In the example, TO_TIMESTAMP_TZ('2013-04-05 01:02:03') in a session set to America/Los_Angeles returns 2013-04-05 01:02:03.000 -0700, while TO_TIMESTAMP_NTZ returns no time zone offset.",
+  "With format 'dd/mm/yyyy hh24:mi:ss', the input '04/05/2013 01:02:03' is parsed as 2013-05-04 01:02:03.000 -0700, showing how format affects parsing of ambiguous dates."
+ ],
+ "entities": [
+  {
+   "name": "TO_TIMESTAMP",
+   "type": "program",
+   "role": "function that converts an input expression into a timestamp, mapping to one of the other timestamp functions based on a session parameter"
+  },
+  {
+   "name": "TO_TIMESTAMP_LTZ",
+   "type": "program",
+   "role": "timestamp function returning a timestamp with local time zone"
+  },
+  {
+   "name": "TO_TIMESTAMP_NTZ",
+   "type": "program",
+   "role": "timestamp function returning a timestamp with no time zone, the default mapping of TO_TIMESTAMP"
+  },
+  {
+   "name": "TO_TIMESTAMP_TZ",
+   "type": "program",
+   "role": "timestamp function returning a timestamp with time zone"
+  },
+  {
+   "name": "TIMESTAMP_TYPE_MAPPING",
+   "type": "program",
+   "role": "session parameter that determines which timestamp type TO_TIMESTAMP maps to"
+  },
+  {
+   "name": "TIMESTAMP_INPUT_FORMAT",
+   "type": "program",
+   "role": "parameter whose current value is the default format for string_expr input"
+  },
+  {
+   "name": "TIMESTAMP_OUTPUT_FORMAT",
+   "type": "program",
+   "role": "session parameter set in examples to control how timestamps are displayed"
+  },
+  {
+   "name": "Unix epoch",
+   "type": "event",
+   "role": "reference point of 1970-01-01 00:00:00 UTC from which numeric timestamp inputs are counted"
+  },
+  {
+   "name": "VARIANT",
+   "type": "other",
+   "role": "data type that can hold strings, timestamps, or integers as input to the conversion functions"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "timestamp",
+  "date-time",
+  "data-conversion"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6775,
+  "output_tokens": 1739
+ }
+}

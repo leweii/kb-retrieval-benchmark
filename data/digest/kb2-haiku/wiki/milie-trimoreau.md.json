@@ -1,0 +1,44 @@
+{
+ "summary": "This short note is a brief biographical entry for Émilie Trimoreau, a French football defender. It states that she currently plays for FCF Juvisy in the French First Division and that she has also played in the Champions League.",
+ "one_line": "Émilie Trimoreau is a French football defender who plays for FCF Juvisy in the French First Division and has appeared in the Champions League.",
+ "key_facts": [
+  "Émilie Trimoreau is a French football defender.",
+  "Émilie Trimoreau is currently playing for FCF Juvisy.",
+  "FCF Juvisy competes in the French First Division.",
+  "Émilie Trimoreau has also played the Champions League."
+ ],
+ "entities": [
+  {
+   "name": "Émilie Trimoreau",
+   "type": "person",
+   "role": "French football defender currently playing for FCF Juvisy"
+  },
+  {
+   "name": "FCF Juvisy",
+   "type": "organization",
+   "role": "football club where Émilie Trimoreau currently plays"
+  },
+  {
+   "name": "French First Division",
+   "type": "event",
+   "role": "league in which FCF Juvisy plays"
+  },
+  {
+   "name": "Champions League",
+   "type": "event",
+   "role": "competition in which Émilie Trimoreau has played"
+  }
+ ],
+ "tags": [
+  "football",
+  "women's football",
+  "france",
+  "player biography",
+  "sports"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1037,
+  "output_tokens": 426
+ }
+}

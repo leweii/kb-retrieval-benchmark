@@ -1,0 +1,63 @@
+{
+ "summary": "This is Snowflake documentation for the ASSOCIATE_SEMANTIC_CATEGORY_TAGS stored procedure, which takes the output of the EXTRACT_SEMANTIC_CATEGORIES function run on a table or view and applies those results as tags on the supported columns. It requires Enterprise Edition or higher and should only be called after reviewing the classification results. The page covers syntax, arguments, usage notes for editing results or unsetting system tags, and three examples of applying classifications, including one that modifies the results first.",
+ "one_line": "Snowflake stored procedure that applies semantic and privacy category results from EXTRACT_SEMANTIC_CATEGORIES as tags on table or view columns.",
+ "key_facts": [
+  "ASSOCIATE_SEMANTIC_CATEGORY_TAGS takes the results of the EXTRACT_SEMANTIC_CATEGORIES function on a table or view and applies the results as tags on the supported columns.",
+  "This feature requires Snowflake Enterprise Edition or higher.",
+  "The procedure syntax is ASSOCIATE_SEMANTIC_CATEGORY_TAGS( '<object_name>' , <category_extraction_result> ).",
+  "The object_name argument is the name of a table, external table, view, or materialized view containing the columns to be classified.",
+  "If a database and schema are not in use in the current session, the object_name must be fully-qualified.",
+  "The object_name must be specified exactly as stored in the database; names with special characters, capitalization, or blank spaces must be enclosed first in double-quotes and then in single quotes.",
+  "Before calling the procedure, one should first execute EXTRACT_SEMANTIC_CATEGORIES on the table or view and determine whether satisfied with the generated classification results.",
+  "To unset a Classification system tag from a column, use an ALTER TABLE … MODIFY COLUMN … UNSET TAG statement.",
+  "The first example extracts semantic and privacy categories for the mydb.my_schema.hr_data table and applies them as tags, run with the data_engineer role.",
+  "The second example applies results stored in a classification_results table using a SELECT * FROM classification_results subquery.",
+  "The third example updates classification_results to set the LNAME column's semantic_category to NAME and privacy_category to IDENTIFIER before applying the tags.",
+  "Usage notes suggest storing classification results in a table to edit them before applying alternate values."
+ ],
+ "entities": [
+  {
+   "name": "ASSOCIATE_SEMANTIC_CATEGORY_TAGS",
+   "type": "program",
+   "role": "stored procedure that applies classification results as tags on columns of a table or view"
+  },
+  {
+   "name": "EXTRACT_SEMANTIC_CATEGORIES",
+   "type": "program",
+   "role": "function that generates semantic and privacy category classification results for a table or view"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact for inquiries about upgrading to Enterprise Edition"
+  },
+  {
+   "name": "mydb.my_schema.hr_data",
+   "type": "other",
+   "role": "example table whose columns are classified and tagged in the examples"
+  },
+  {
+   "name": "classification_results",
+   "type": "other",
+   "role": "table used to store and edit classification results before applying them"
+  },
+  {
+   "name": "data_engineer",
+   "type": "other",
+   "role": "role used to execute the example calls"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "data classification",
+  "semantic categories",
+  "stored procedures",
+  "column tagging",
+  "privacy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2280,
+  "output_tokens": 1130
+ }
+}

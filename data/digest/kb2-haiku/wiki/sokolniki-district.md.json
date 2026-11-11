@@ -1,0 +1,37 @@
+{
+ "summary": "The note is a very short stub about Sokolniki District, a district in the Eastern Administrative Okrug of the federal city of Moscow. It places the district in the north-east corner of the city. The population figure is cut off in the note, so no population value is given.",
+ "one_line": "Sokolniki District is a district of Moscow's Eastern Administrative Okrug, located in the city's north-east corner.",
+ "key_facts": [
+  "Sokolniki District is a district of the Eastern Administrative Okrug of the federal city of Moscow.",
+  "Sokolniki District is located in the north-east corner of Moscow.",
+  "The note gives a population heading for Sokolniki District but no population figure is included."
+ ],
+ "entities": [
+  {
+   "name": "Sokolniki District",
+   "type": "place",
+   "role": "district of the Eastern Administrative Okrug of Moscow, located in the north-east corner of the city"
+  },
+  {
+   "name": "Eastern Administrative Okrug",
+   "type": "place",
+   "role": "administrative okrug of the federal city of Moscow that contains Sokolniki District"
+  },
+  {
+   "name": "Moscow",
+   "type": "place",
+   "role": "federal city in which Sokolniki District is located"
+  }
+ ],
+ "tags": [
+  "moscow",
+  "geography",
+  "districts",
+  "russia"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1035,
+  "output_tokens": 401
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "summary": "An S&P Global Commodity Insights news article dated 20 Feb 2024 reports that French gas consumption fell further in the week to Feb. 18, 2024, to 9.2 TWh, despite a rebound in power-sector gas demand, based on weekly data published by grid operator GRTgaz. The article also covers the cumulative August 2023 to February 2024 decline versus the 2018-19 reference winter, broken down by sector, and notes that French prompt gas prices remain among Europe's cheapest. The rest of the page is site navigation and subscription boilerplate.",
+ "one_line": "French gas consumption fell to 9.2 TWh in the week to Feb. 18, 2024 despite a power-sector demand rebound, per GRTgaz data.",
+ "key_facts": [
+  "French gas consumption totaled 9.2 TWh in the week to Feb. 18, 2024, a seven-week low, down from 9.4 TWh the week prior.",
+  "The 9.2 TWh weekly consumption was the lowest level since the last week of 2023.",
+  "Consumption for public distribution dropped week on week by 9% to 6.4 TWh as temperatures remained relatively high for the time of year.",
+  "Consumption by industry connected to the gas grid was flat at 2.4 TWh in the week to Feb. 18, 2024.",
+  "Power sector gas demand was 0.4 TWh in the week to Feb. 18, up from 0.1 TWh in the week to Feb. 11.",
+  "GRTgaz resumed publication of weekly gas consumption data for the winter at the end of October to reflect French efforts to save gas.",
+  "Platts assessed the PEG day-ahead price at Eur22.63/MWh on Feb. 19, a discount of Eur0.70/MWh to the TTF equivalent assessment.",
+  "French gas consumption totaled 227.7 TWh over Aug. 1, 2023-Feb. 18, 2024, down 25% versus the same period in 2018-19.",
+  "GRTgaz used 2018-19 as the reference winter because it was the last winter before the pandemic, with temperatures within the seasonal average and no particular cold spells.",
+  "Corrected for weather, the reduction in gas consumption over Aug. 1, 2023-Feb. 18, 2024 was 20.1%.",
+  "Consumption for public distribution was down 22.3% at 147.3 TWh over Aug. 1, 2023-Feb. 18, 2024, due to more favorable weather and gas savings by consumers.",
+  "Weather-corrected public distribution consumption fell 14.6% over Aug. 1, 2023-Feb. 18, 2024.",
+  "Industry connected to the gas grid consumed 64.1 TWh over Aug. 1, 2023-Feb. 18, 2024, a fall of 24.8%.",
+  "Power-sector gas consumption was 43.3% lower at 16.3 TWh over Aug. 1, 2023-Feb. 18, 2024, due to greater nuclear availability, significant renewable generation and power savings efforts."
+ ],
+ "entities": [
+  {
+   "name": "S&P Global Commodity Insights",
+   "type": "organization",
+   "role": "publisher of the article, which is described as a Platts news report"
+  },
+  {
+   "name": "GRTgaz",
+   "type": "organization",
+   "role": "French grid operator that published the weekly gas consumption data on Feb. 20"
+  },
+  {
+   "name": "Stuart Elliott",
+   "type": "person",
+   "role": "author and editor of the article"
+  },
+  {
+   "name": "Platts",
+   "type": "organization",
+   "role": "part of S&P Global Commodity Insights that assessed the PEG day-ahead price"
+  },
+  {
+   "name": "PEG",
+   "type": "place",
+   "role": "French gas trading hub whose day-ahead price was assessed at Eur22.63/MWh on Feb. 19"
+  },
+  {
+   "name": "TTF",
+   "type": "place",
+   "role": "benchmark gas hub used as the comparison for the PEG price"
+  },
+  {
+   "name": "French gas consumption Aug. 1, 2023-Feb. 18, 2024",
+   "type": "event",
+   "role": "period over which cumulative consumption fell 25% versus 2018-19"
+  },
+  {
+   "name": "2018-19 winter",
+   "type": "event",
+   "role": "reference winter used by GRTgaz, the last before the pandemic with near-average temperatures"
+  },
+  {
+   "name": "Platts Dimensions Pro",
+   "type": "product",
+   "role": "subscription product promoted on the page for real-time updates and pricing"
+  }
+ ],
+ "tags": [
+  "natural gas",
+  "france",
+  "gas demand",
+  "grtgaz",
+  "europe gas markets",
+  "energy consumption"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 9982,
+  "output_tokens": 1485
+ }
+}

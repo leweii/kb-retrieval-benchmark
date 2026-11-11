@@ -1,0 +1,58 @@
+{
+ "summary": "Century Lotus Stadium is a multi-purpose stadium in Foshan, China, currently used mostly for football matches. It holds 36,686 people and was built in 2005. The note also says it hosted a 2010 FIFA World Cup qualifying first round match between China and Myanmar and that its design resembles the reconstructed Jawaharlal Nehru Stadium in Delhi, built by the same designers.",
+ "one_line": "Century Lotus Stadium is a 36,686-capacity multi-purpose football stadium in Foshan, China, built in 2005.",
+ "key_facts": [
+  "Century Lotus Stadium is a multi-purpose stadium in Foshan, China.",
+  "Century Lotus Stadium is currently used mostly for football matches.",
+  "Century Lotus Stadium holds 36,686 people.",
+  "Century Lotus Stadium was built in 2005.",
+  "Century Lotus Stadium hosted a first round match between China and Myanmar during 2010 FIFA World Cup qualifying.",
+  "The design of Century Lotus Stadium is similar to that of the reconstructed Jawaharlal Nehru Stadium, Delhi.",
+  "The Jawaharlal Nehru Stadium, Delhi was reconstructed and was built by the same designers as Century Lotus Stadium."
+ ],
+ "entities": [
+  {
+   "name": "Century Lotus Stadium",
+   "type": "place",
+   "role": "multi-purpose stadium in Foshan, China, used mostly for football matches, holding 36,686 people and built in 2005"
+  },
+  {
+   "name": "Foshan",
+   "type": "place",
+   "role": "city in China where Century Lotus Stadium is located"
+  },
+  {
+   "name": "China",
+   "type": "place",
+   "role": "country whose national team played Myanmar at Century Lotus Stadium in a 2010 FIFA World Cup qualifying first round match"
+  },
+  {
+   "name": "Myanmar",
+   "type": "organization",
+   "role": "opponent of China in a 2010 FIFA World Cup qualifying first round match hosted at Century Lotus Stadium"
+  },
+  {
+   "name": "2010 FIFA World Cup qualifying",
+   "type": "event",
+   "role": "tournament qualifying round during which China played Myanmar at Century Lotus Stadium"
+  },
+  {
+   "name": "Jawaharlal Nehru Stadium, Delhi",
+   "type": "place",
+   "role": "reconstructed stadium whose design is similar to Century Lotus Stadium and was built by the same designers"
+  }
+ ],
+ "tags": [
+  "stadium",
+  "china",
+  "football",
+  "foshan",
+  "sports venue",
+  "architecture"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1129,
+  "output_tokens": 822
+ }
+}

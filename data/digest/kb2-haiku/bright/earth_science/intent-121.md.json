@@ -1,0 +1,75 @@
+{
+ "summary": "This clipped NASA Vital Signs page explains atmospheric carbon dioxide (CO2) as a heat-trapping greenhouse gas, emitted by fossil fuel burning, wildfires and volcanoes. It reports that human activities raised atmospheric CO2 by 50% since 1750, to 150% of its 1750 value, and that the Mauna Loa record and ice-core records show this rise. It also describes the seasonal sawtooth cycle driven by Northern and Southern Hemisphere plant growth and decomposition, with the long-term upward trend caused mainly by fossil fuel emissions.",
+ "one_line": "NASA Vital Signs page on atmospheric carbon dioxide: its greenhouse warming, the human-driven 50% rise since 1750, and its seasonal cycle.",
+ "key_facts": [
+  "Carbon dioxide (CO2) is an important heat-trapping gas, also known as a greenhouse gas.",
+  "Latest measurement of atmospheric CO2 on the page is 425 ppm, for February 2024.",
+  "Human activities have raised the atmosphere's carbon dioxide content by 50% in less than 200 years.",
+  "Since the onset of industrial times in the 18th century, human activities have raised atmospheric CO2 by 50%, meaning CO2 is now 150% of its value in 1750.",
+  "The human-induced rise in CO2 is greater than the natural increase observed at the end of the last ice age 20,000 years ago.",
+  "The first graph shows atmospheric CO2 levels measured by NOAA at Mauna Loa Observatory, Hawaii, since 1958.",
+  "The second graph shows CO2 levels during Earth's last three glacial cycles, captured by air bubbles trapped in ice sheets and glaciers.",
+  "The animated map shows CO2 rising from 365 parts per million (ppm) in 2002 to over 420 ppm currently.",
+  "Parts per million refers to the number of carbon dioxide molecules per million molecules of dry air.",
+  "The mid-troposphere measurements are taken from the layer 8 to 12 kilometers (about 5 to 7 miles) above the ground.",
+  "The annual rise and fall of CO2 is caused by seasonal cycles in photosynthesis on a massive scale.",
+  "In Northern Hemisphere spring, plants draw in CO2 to fuel growth, and in northern autumn plant matter decomposes and releases CO2 back to the atmosphere.",
+  "Because there is much more land and vegetation in the Northern Hemisphere, the global seasonal cycle more closely aligns with the northern pattern.",
+  "The upward climb of the CO2 trend line over decades is caused by CO2 emissions, primarily from burning fossil fuels."
+ ],
+ "entities": [
+  {
+   "name": "NOAA",
+   "type": "organization",
+   "role": "source of the direct CO2 measurements and ice-core reconstruction credit"
+  },
+  {
+   "name": "Mauna Loa Observatory",
+   "type": "place",
+   "role": "Hawaii site where NOAA measured atmospheric CO2 directly since 1958"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "credit for the Atmospheric Infrared Sounder (AIRS) time series data"
+  },
+  {
+   "name": "Atmospheric Infrared Sounder (AIRS)",
+   "type": "program",
+   "role": "satellite instrument providing CO2 time series for 2002-2022"
+  },
+  {
+   "name": "Orbiting Carbon Observatory (OCO-2)",
+   "type": "program",
+   "role": "NASA mission listed as observing CO2"
+  },
+  {
+   "name": "Orbiting Carbon Observatory (OCO-3)",
+   "type": "program",
+   "role": "NASA mission listed as observing CO2"
+  },
+  {
+   "name": "NASA's Climate Kids: Why is Carbon Important?",
+   "type": "other",
+   "role": "learn-more resource linked from the page"
+  },
+  {
+   "name": "Watching Earth Breathe: The Seasonal Vegetation Cycle and Atmospheric Carbon Dioxide",
+   "type": "other",
+   "role": "visualization recommended for seeing the seasonal cycle"
+  }
+ ],
+ "tags": [
+  "carbon dioxide",
+  "climate change",
+  "greenhouse gases",
+  "atmosphere",
+  "seasonal cycle",
+  "fossil fuels"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2636,
+  "output_tokens": 1388
+ }
+}

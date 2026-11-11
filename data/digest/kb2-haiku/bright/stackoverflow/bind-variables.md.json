@@ -1,0 +1,74 @@
+{
+ "summary": "This Snowflake documentation page explains bind variables, which replace literal values in SQL statements with placeholders filled in by application code, helping prevent SQL injection. It covers placeholder syntax (?, :varname, %varname), use with drivers, Snowflake Scripting, and the SQL API, and describes array binds for batch inserts with their limitations. It also shows how to bind semi-structured data into VARIANT columns.",
+ "one_line": "Snowflake documentation on using bind variables in SQL statements, including placeholder syntax, array binds for batch inserts, and semi-structured data.",
+ "key_facts": [
+  "Bind variables let an application put placeholders in a SQL statement and supply the values separately, and they can prevent SQL injection attacks when user input is used.",
+  "Placeholder syntax is either ? , :<varname>, or %<varname>, depending on the programming language.",
+  "In Snowflake Scripting, a bind variable is prefixed with a colon, as in INSERT INTO t (c1) VALUES (:variable1).",
+  "The PHP driver does not support bind variables.",
+  "The PHP driver does not support array binds.",
+  "An array bind, also called a bulk insert or batch insert, can improve performance by inserting multiple rows in a single batch, avoiding network round trips and compilations.",
+  "In the Python array bind example, conn.cursor().executemany is called with the bind list [('milk', 2), ('apple', 3), ('egg', 2)] to insert three rows into the grocery table.",
+  "Only INSERT INTO … VALUES statements can contain array bind variables.",
+  "The VALUES clause for an array bind must be a single-row list of bind variables; VALUES (?,?), (?,?) is not allowed.",
+  "INSERT INTO t VALUES (?,?), (?,?) inserts exactly four values without using an array bind, using the bind list [1,'String1',2,'String2'].",
+  "To bind semi-structured data, the variable is bound as a string and parsed with PARSE_JSON in the INSERT statement.",
+  "Snowflake supports other data loading methods that are recommended instead of using array binds.",
+  "The statement INSERT INTO t SELECT ARRAY_CONSTRUCT(column1) FROM VALUES (?) inserts an array of semi-structured data into a VARIANT column with a bind variable."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "database platform whose SQL statements support bind variables, Snowflake Scripting, and the SQL API"
+  },
+  {
+   "name": "Snowflake Scripting",
+   "type": "program",
+   "role": "procedural SQL feature for code blocks and stored procedures, where bind variables are prefixed with a colon"
+  },
+  {
+   "name": "SQL API",
+   "type": "program",
+   "role": "Snowflake API for submitting SQL statements and managing deployments, which can use bind variables in requests"
+  },
+  {
+   "name": "PHP driver",
+   "type": "program",
+   "role": "Snowflake driver that does not support bind variables or array binds"
+  },
+  {
+   "name": "Python",
+   "type": "program",
+   "role": "programming language used in the array bind example with snowflake.connector and executemany"
+  },
+  {
+   "name": "grocery",
+   "type": "other",
+   "role": "example table receiving item and quantity rows in the Python array bind example"
+  },
+  {
+   "name": "PARSE_JSON",
+   "type": "program",
+   "role": "function called to insert semi-structured data into a VARIANT column via a bind variable"
+  },
+  {
+   "name": "ARRAY_CONSTRUCT",
+   "type": "program",
+   "role": "function used to insert an array of semi-structured data into a VARIANT column via a bind variable"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "bind-variables",
+  "prepared-statements",
+  "array-binds",
+  "semi-structured-data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3387,
+  "output_tokens": 1203
+ }
+}

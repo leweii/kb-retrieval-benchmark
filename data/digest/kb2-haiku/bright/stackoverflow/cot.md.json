@@ -1,0 +1,44 @@
+{
+ "summary": "This is a reference page for the COT function, which computes the cotangent of its argument, with the argument expected in radians. It gives the syntax COT( <real_expr> ) and one example query showing outputs for COT(0), COT(PI()/3), and COT(RADIANS(90)). The page is listed under the Arithmetic, Rounding and Truncation, Exponent and Root, Logarithmic, Trigonometric, and Other categories, and the rest of the page is navigation and boilerplate.",
+ "one_line": "Reference page for the COT function, which returns the cotangent of a radian argument, with syntax and examples.",
+ "key_facts": [
+  "COT computes the cotangent of its argument.",
+  "The argument of COT should be expressed in radians.",
+  "The syntax of COT is COT( <real_expr> ).",
+  "The example query is SELECT COT(0), COT(PI()/3), COT(RADIANS(90));",
+  "COT(0) returns inf in the example output.",
+  "COT(PI()/3) returns 0.5773502692 in the example output.",
+  "COT(RADIANS(90)) returns 6.123233996e-17 in the example output.",
+  "The COT page is listed under the categories Arithmetic, Rounding and Truncation, Exponent and Root, Logarithmic, Trigonometric, and Other.",
+  "The page is labeled as a numeric function with the category tag numeric."
+ ],
+ "entities": [
+  {
+   "name": "COT",
+   "type": "product",
+   "role": "function that computes the cotangent of its argument in radians"
+  },
+  {
+   "name": "PI()",
+   "type": "other",
+   "role": "function used in the example to supply pi, as in PI()/3"
+  },
+  {
+   "name": "RADIANS",
+   "type": "other",
+   "role": "function used in the example to convert 90 degrees to radians in RADIANS(90)"
+  }
+ ],
+ "tags": [
+  "cot",
+  "cotangent",
+  "trigonometric functions",
+  "numeric functions",
+  "sql reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1337,
+  "output_tokens": 613
+ }
+}

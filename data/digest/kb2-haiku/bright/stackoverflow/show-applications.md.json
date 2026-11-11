@@ -1,0 +1,69 @@
+{
+ "summary": "This is Snowflake's reference page for the SHOW APPLICATIONS command, which lists the application objects a user can access across an account in the Snowflake Native App Framework. It documents the syntax and the optional LIKE, STARTS WITH, and LIMIT ... FROM filters, including how the lexicographic ordering affects pagination. It also describes the output columns, the upgrade_status values, and gives a sample output.",
+ "one_line": "Reference for the Snowflake SHOW APPLICATIONS command, which lists accessible Native App application objects with filtering and pagination options.",
+ "key_facts": [
+  "SHOW APPLICATIONS lists the application objects for which the user has access privileges across the entire account in the Snowflake Native App Framework.",
+  "The command is not supported on Google Cloud Platform.",
+  "Output is ordered lexicographically by application object name.",
+  "The LIKE filter uses case-insensitive pattern matching with SQL wildcards % and _.",
+  "The STARTS WITH filter is case-sensitive, so 'B' and 'b' return different results.",
+  "The LIMIT clause can be combined with FROM '<name_string>' to paginate results, where FROM acts as a cursor.",
+  "If STARTS WITH 'A' is combined with FROM 'B', the command returns no results, because both conditions must be met.",
+  "The source_type column has valid values APPLICATION PACKAGE and LISTING.",
+  "The upgrade_status column can be INSTALLING, INSTALL_FAILED, COMPLETE, QUEUED, UPGRADING, FAILED, QUEUED_RETRY, or DISABLED.",
+  "The options column is always empty for an application object.",
+  "The owner column shows the role used to create the application object.",
+  "The label column shows the version label, which is visible to consumers when they install a Snowflake Native App.",
+  "The example output lists an application named hello_snowflake_app created from the package hello_snowflake_package with version v1.",
+  "The example output lists an application named PRODUCTION_APP created from the package hello_snowflake_package with version v2 and is_default set to Y."
+ ],
+ "entities": [
+  {
+   "name": "SHOW APPLICATIONS",
+   "type": "program",
+   "role": "Snowflake command that lists application objects the user can access across the account"
+  },
+  {
+   "name": "Snowflake Native App Framework",
+   "type": "program",
+   "role": "framework in which the listed application objects are managed"
+  },
+  {
+   "name": "Google Cloud Platform",
+   "type": "product",
+   "role": "platform on which this feature is not supported"
+  },
+  {
+   "name": "hello_snowflake_app",
+   "type": "product",
+   "role": "application object in the example output, created from hello_snowflake_package at version v1"
+  },
+  {
+   "name": "PRODUCTION_APP",
+   "type": "product",
+   "role": "application object in the example output, created from hello_snowflake_package at version v2 and set as default"
+  },
+  {
+   "name": "hello_snowflake_package",
+   "type": "product",
+   "role": "application package used as the source for the example application objects"
+  },
+  {
+   "name": "PROVIDER_ROLE",
+   "type": "other",
+   "role": "owner role shown in the example output"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "native-app",
+  "show-command",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3705,
+  "output_tokens": 1012
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "summary": "This page documents the REGR_AVGY SQL function, which returns the average of the dependent variable (y) over rows in a group where both y and the independent variable (x) are non-NULL. It covers aggregate and window function syntax, the arguments, usage restrictions such as no DISTINCT support and no ORDER BY or window frames in window use, and a small GROUP BY example.",
+ "one_line": "Reference page for the REGR_AVGY SQL aggregate and window function, which averages the dependent variable over non-null pairs.",
+ "key_facts": [
+  "REGR_AVGY returns the average of the dependent variable for non-null pairs in a group.",
+  "In REGR_AVGY(y, x), x is the independent variable and y is the dependent variable.",
+  "The argument order matters: the dependent variable y is the first argument.",
+  "The aggregate syntax is REGR_AVGY(y, x).",
+  "The window function syntax is REGR_AVGY(y, x) OVER ( [ PARTITION BY <expr3> ] ).",
+  "DISTINCT is not supported for REGR_AVGY.",
+  "A row is included in the average only when BOTH the x and y values are non-NULL.",
+  "When used as a window function, REGR_AVGY does not support an ORDER BY sub-clause in the OVER() clause.",
+  "When used as a window function, REGR_AVGY does not support window frames.",
+  "Both x and y must be expressions that evaluate to a numeric type.",
+  "The example creates table aggr(k int, v decimal(10,2), v2 decimal(10, 2)).",
+  "In the example, the group k=1 returns NULL for regr_avgy(v, v2) because its only pair has a NULL v2.",
+  "In the example, the group k=2 returns 20 because the valid pairs (10,11), (20,22) and (30,35) average 20 for v.",
+  "The page is listed under the Aggregation category alongside functions such as Bitwise, Hash, Linear Regression and Statistics and Probability."
+ ],
+ "entities": [
+  {
+   "name": "REGR_AVGY",
+   "type": "product",
+   "role": "SQL aggregate and window function documented on this page, returning the average of the dependent variable over non-null (x, y) pairs"
+  },
+  {
+   "name": "aggr",
+   "type": "other",
+   "role": "example table created with columns k (int), v and v2 (decimal(10,2)) to demonstrate REGR_AVGY"
+  }
+ ],
+ "tags": [
+  "sql",
+  "aggregate-function",
+  "window-function",
+  "regression",
+  "statistics",
+  "database"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1847,
+  "output_tokens": 1273
+ }
+}

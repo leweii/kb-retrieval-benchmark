@@ -1,0 +1,49 @@
+{
+ "summary": "This is a reference page for the SHOW OBJECTS command, which lists the tables and views the current role has access privileges to, scoped to an account, database, or schema. It documents the syntax and the TERSE, LIKE, IN, STARTS WITH, and LIMIT ... FROM parameters, including case sensitivity rules and pagination behavior. Usage notes cover the 10K record cap, the fact that no running warehouse is needed, and that materialized views are reported as VIEW.",
+ "one_line": "Reference for the SHOW OBJECTS command, which lists accessible tables and views with filtering, scoping, and pagination options.",
+ "key_facts": [
+  "SHOW OBJECTS lists the tables and views for which the user has access privileges.",
+  "The command syntax is SHOW [ TERSE ] OBJECTS [ LIKE '<pattern>' ] with optional IN, STARTS WITH, and LIMIT clauses.",
+  "The TERSE option returns only the columns created_on, name, kind, database_name, and schema_name.",
+  "The LIKE filter uses case-insensitive pattern matching with the SQL wildcards % and _.",
+  "The STARTS WITH filter is case-sensitive and matches characters at the beginning of the object name.",
+  "The LIMIT <rows> FROM '<name_string>' clause enables pagination, where the FROM string acts as a cursor and is case-sensitive.",
+  "Objects are returned in lexicographic order by name.",
+  "If a database is in use, the default scope is DATABASE; if no database is in use, the default scope is ACCOUNT.",
+  "The command returns a maximum of 10K records for the specified object type, and records above that limit are not returned even with a filter applied.",
+  "The command does not require a running warehouse to execute.",
+  "For materialized views, SHOW OBJECTS returns 'VIEW', not 'MATERIALIZED VIEW'.",
+  "Columns that start with the prefix is_ return either Y (yes) or N (no).",
+  "Example: SHOW OBJECTS LIKE 'line%' IN mydb.public; shows all tables and views whose names start with 'line' in the public schema of the mydb database.",
+  "If STARTS WITH 'A' is combined with LIMIT ... FROM 'B', the query returns no results because both conditions must be met."
+ ],
+ "entities": [
+  {
+   "name": "SHOW OBJECTS",
+   "type": "program",
+   "role": "SQL command documented on this page that lists tables and views accessible to the user"
+  },
+  {
+   "name": "mydb",
+   "type": "other",
+   "role": "example database used in the SHOW OBJECTS example query"
+  },
+  {
+   "name": "public",
+   "type": "other",
+   "role": "example schema within mydb used in the SHOW OBJECTS example query"
+  }
+ ],
+ "tags": [
+  "sql",
+  "show-objects",
+  "metadata",
+  "snowflake",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3212,
+  "output_tokens": 913
+ }
+}

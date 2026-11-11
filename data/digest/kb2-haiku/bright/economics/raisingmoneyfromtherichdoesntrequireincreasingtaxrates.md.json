@@ -1,0 +1,92 @@
+{
+ "summary": "Arun Advani and Andy Summers, writing in the LSE Business Review (June 15, 2020), use anonymised HMRC administrative data on UK taxpayers receiving over £100,000 to show that effective average tax rates (EATRs) at the top are regressive and highly unequal, so raising revenue from the rich need not mean raising headline tax rates. They estimate up to £20 billion could be raised by applying headline rates to total remuneration, and that a 35% alternative minimum tax could raise up to £11 billion. The note closes by arguing the debate should focus on effective rather than headline rates.",
+ "one_line": "Argues UK top earners' effective tax rates are regressive and unequal, so revenue can be raised via an alternative minimum tax without raising headline rates.",
+ "key_facts": [
+  "A progressive tax system takes a larger amount from those most able to pay, while a horizontally-neutral system takes the same amount from people with the same level of resources.",
+  "The authors use anonymised administrative data on all taxpayers receiving more than £100,000 in income and/or capital gains.",
+  "A consultant earning £150,000 through employment pays 47% on additional income (45% income tax plus 2% national insurance), but paid via a personal service company as dividends pays 38.1% on each additional pound.",
+  "Capital gains can be taxed at rates as low as 10%.",
+  "The mean EATR on income rises up to £500,000 and is then flat and even declines slightly at the top.",
+  "For someone receiving £2 million, the difference between headline and effective average tax rates is 7 percentage points, a tax saving of £140,000.",
+  "Including capital gains, average EATRs peak at just £250,000 before declining sharply.",
+  "Individuals with total remuneration of £10 million had an average EATR of just 21%.",
+  "One quarter of those with total remuneration below £2 million pay close to the headline average rate for earnings (around 45%).",
+  "Above £5 million, the proportion paying the headline rate reduces to one in ten, while more than half pay less than 28%.",
+  "One in ten people with total remuneration over £1 million paid a lower EATR than someone earning just £15,000 (less than 11%).",
+  "A static estimate implies up to an additional £20 billion could be raised by applying the headline average tax rate on earnings to total remunerations observed.",
+  "That £20 billion is approximately equivalent to raising the basic rate of income tax by 4 percentage points, or raising the higher and additional rates by 10 percentage points each.",
+  "An alternative minimum tax set at 35% on total remuneration could raise up to £11 billion, more than half the revenue from full equalisation.",
+  "The authors conclude that instead of asking 'can the rich pay more?', a better question is 'who amongst the rich is not paying enough?'",
+  "Arun Advani and Andy Summers were speaking at an LSE online public event on 15 June 2020 at 4 pm."
+ ],
+ "entities": [
+  {
+   "name": "Arun Advani",
+   "type": "person",
+   "role": "co-author; assistant professor of economics and impact director of the CAGE Research Centre at the University of Warwick"
+  },
+  {
+   "name": "Andy Summers",
+   "type": "person",
+   "role": "co-author; assistant professor of law at LSE and associate of the International Inequalities Institute"
+  },
+  {
+   "name": "LSE Business Review",
+   "type": "organization",
+   "role": "publisher of the blog post"
+  },
+  {
+   "name": "HMRC",
+   "type": "organization",
+   "role": "source of the administrative datasets used in the analysis"
+  },
+  {
+   "name": "CAGE Research Centre",
+   "type": "organization",
+   "role": "research centre at the University of Warwick where Advani is impact director"
+  },
+  {
+   "name": "Institute for Fiscal Studies",
+   "type": "organization",
+   "role": "institution where Advani is a research fellow"
+  },
+  {
+   "name": "International Inequalities Institute",
+   "type": "organization",
+   "role": "institution where both authors are fellows or associates"
+  },
+  {
+   "name": "Advani and Summers 2020",
+   "type": "program",
+   "role": "authors' paper cited for the argument that capital gains are repackaged income"
+  },
+  {
+   "name": "How much tax do the rich really pay? New evidence from tax microdata in the UK",
+   "type": "product",
+   "role": "CAGE Policy Briefing 27 on which the blog post is based"
+  },
+  {
+   "name": "How much tax to the really pay and could they pay more?",
+   "type": "event",
+   "role": "LSE online public event on 15 June 2020 featuring the authors"
+  },
+  {
+   "name": "Alternative minimum tax",
+   "type": "program",
+   "role": "proposed policy imposing a minimum average tax rate on high total remuneration, estimated to raise up to £11 billion at 35%"
+  }
+ ],
+ "tags": [
+  "tax policy",
+  "effective tax rate",
+  "inequality",
+  "alternative minimum tax",
+  "uk taxation",
+  "top incomes"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 7875,
+  "output_tokens": 1529
+ }
+}

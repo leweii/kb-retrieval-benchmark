@@ -1,0 +1,101 @@
+{
+ "summary": "This note describes rod cells, the photoreceptors in the retina that work better than cone cells in low light and drive night vision and peripheral vision. It covers their structure, the biochemical phototransduction cascade in which light hyperpolarizes the cell via rhodopsin, transducin and cGMP phosphodiesterase, the inhibitory mechanisms that reset the cell, and desensitization. It also explains their high sensitivity, slower response, and spectral peak near 498 nm, which underlies the Purkinje effect.",
+ "one_line": "Rod cells are retinal photoreceptors that enable night and peripheral vision through a light-amplifying rhodopsin signaling cascade.",
+ "key_facts": [
+  "Rod cells are photoreceptor cells in the retina that function in lower light better than cone cells.",
+  "Rods are usually concentrated at the outer edges of the retina and are used in peripheral vision.",
+  "The note gives two different estimates of rod counts: approximately 92 million rods versus about 6 million cones, and about 120 million rods versus 6 to 7 million cones.",
+  "A human rod cell is about 2 microns in diameter and 100 microns long.",
+  "The pigment rhodopsin comprises the protein opsin attached to retinal, a derivative of vitamin A.",
+  "Retinal exists in the 11-cis-retinal form in the dark and changes to all-trans-retinal when stimulated by light.",
+  "In the dark, cGMP opens ion channels, causing depolarization and release of the neurotransmitter glutamate.",
+  "Light activation of rhodopsin leads to activation of cGMP phosphodiesterase, which hydrolyzes cGMP into 5'-GMP, closing ion channels and hyperpolarizing the cell.",
+  "Activated rhodopsin can activate hundreds of transducin molecules, and each phosphodiesterase can break down over a thousand cGMP molecules per second.",
+  "A rod cell is sensitive enough to respond to a single photon of light and is about 100 times more sensitive to a single photon than cones.",
+  "Multiple rod cells converge on a single interneuron, which increases sensitivity but reduces visual acuity.",
+  "Rod cells respond to stimuli over roughly 100 milliseconds, making their temporal sensing less accurate than that of cones.",
+  "George Wald's experiments showed rods are most sensitive to wavelengths around 498 nm and insensitive to wavelengths longer than about 640 nm.",
+  "The Purkinje effect occurs as intensity dims at twilight, the rods take over, and peak sensitivity shifts toward blue-green.",
+  "Vitamin A deficiency reduces rhodopsin supply, causing night-blindness."
+ ],
+ "entities": [
+  {
+   "name": "Rod cell",
+   "type": "other",
+   "role": "photoreceptor cell in the retina that functions better than cone cells in lower light and is almost entirely responsible for night vision"
+  },
+  {
+   "name": "Cone cell",
+   "type": "other",
+   "role": "other type of visual photoreceptor that is less sensitive than rods and handles color vision"
+  },
+  {
+   "name": "Rhodopsin",
+   "type": "other",
+   "role": "light-sensitive pigment in rods, made of opsin with bound retinal"
+  },
+  {
+   "name": "Opsin",
+   "type": "other",
+   "role": "large protein in the plasma membrane that is part of rhodopsin"
+  },
+  {
+   "name": "Retinal",
+   "type": "other",
+   "role": "organic prosthetic group derived from vitamin A that changes shape when hit by light"
+  },
+  {
+   "name": "Transducin",
+   "type": "other",
+   "role": "G protein whose alpha subunit is activated by rhodopsin in phototransduction"
+  },
+  {
+   "name": "George Wald",
+   "type": "person",
+   "role": "researcher whose experiments showed rods are most sensitive to wavelengths around 498 nm"
+  },
+  {
+   "name": "Purkinje effect",
+   "type": "event",
+   "role": "shift in peak visual sensitivity toward blue-green as intensity dims at twilight and rods take over"
+  },
+  {
+   "name": "Visual phototransduction",
+   "type": "other",
+   "role": "the entire process by which light initiates a sensory response in photoreceptors"
+  },
+  {
+   "name": "Arrestin",
+   "type": "other",
+   "role": "inhibitory protein that binds phosphorylated rhodopsin to shut it off and aids desensitization"
+  },
+  {
+   "name": "Rhodopsin kinase",
+   "type": "other",
+   "role": "enzyme that phosphorylates activated rhodopsin to partially inhibit transducin activation"
+  },
+  {
+   "name": "Retinal pigment epithelium",
+   "type": "other",
+   "role": "tissue to which the opsin-containing disks at the end of the rod cell lie adjacent"
+  },
+  {
+   "name": "List of distinct cell types in the adult human body",
+   "type": "other",
+   "role": "see-also reference listed at the end of the note"
+  }
+ ],
+ "tags": [
+  "biology",
+  "vision",
+  "photoreceptors",
+  "retina",
+  "phototransduction",
+  "night vision"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4080,
+  "output_tokens": 1583
+ }
+}

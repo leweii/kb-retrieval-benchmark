@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short biographical entry on Ivo Werner, born 19 August 1960, a former professional tennis player from Czechoslovakia. He competed for Czechoslovakia and later for West Germany, and is now a tennis coach. He immigrated to West Germany in 1982 and obtained citizenship two years later.",
+ "one_line": "Ivo Werner is a former Czechoslovak-born professional tennis player who represented West Germany and now works as a tennis coach.",
+ "key_facts": [
+  "Ivo Werner was born on 19 August 1960.",
+  "Ivo Werner is a former professional tennis player.",
+  "Ivo Werner was originally from Czechoslovakia.",
+  "Ivo Werner competed for his native country, Czechoslovakia.",
+  "Ivo Werner also competed for West Germany.",
+  "Ivo Werner is now a tennis coach.",
+  "Ivo Werner immigrated to West Germany in 1982.",
+  "Ivo Werner received West German citizenship two years after immigrating, in 1984."
+ ],
+ "entities": [
+  {
+   "name": "Ivo Werner",
+   "type": "person",
+   "role": "former professional tennis player from Czechoslovakia who competed for Czechoslovakia and West Germany and is now a tennis coach"
+  },
+  {
+   "name": "Czechoslovakia",
+   "type": "place",
+   "role": "Werner's native country, for which he competed"
+  },
+  {
+   "name": "West Germany",
+   "type": "place",
+   "role": "country Werner immigrated to in 1982 and for which he also competed; granted him citizenship"
+  }
+ ],
+ "tags": [
+  "tennis",
+  "sports biography",
+  "czechoslovakia",
+  "west germany",
+  "immigration",
+  "tennis coaching"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1076,
+  "output_tokens": 535
+ }
+}

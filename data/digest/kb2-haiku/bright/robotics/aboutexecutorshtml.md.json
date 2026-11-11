@@ -1,0 +1,120 @@
+{
+ "summary": "This ROS 2 Foxy documentation page explains Executors, the mechanism by which ROS 2 uses operating system threads to invoke callbacks for subscriptions, timers, service servers and action servers. It covers basic use with rclcpp::spin, the three rclcpp executor types, callback groups, round-robin scheduling semantics, and the limitations of current executors for real-time use along with alternatives such as the rclcpp WaitSet and the rclc Executor. The page also lists further reading on the topic.",
+ "one_line": "Explains ROS 2 Executors, which manage callback execution across threads, their types, callback groups, scheduling semantics, and real-time limitations.",
+ "key_facts": [
+  "An Executor in ROS 2 uses one or more operating system threads to invoke callbacks of subscriptions, timers, service servers, action servers, etc. on incoming messages and events.",
+  "The explicit Executor class exists in rclcpp (executor.hpp), rclpy (executors.py), and rclc (executor.h).",
+  "The simplest case uses rclcpp::spin(node), which expands to an instantiation and invocation of the Single-Threaded Executor.",
+  "In ROS 2, an incoming message is not stored in a queue on the Client Library layer but kept in the middleware until taken for processing, which is a crucial difference to ROS 1.",
+  "rclcpp provides three Executor types derived from a shared parent class: SingleThreadedExecutor, MultiThreadedExecutor, and StaticSingleThreadedExecutor.",
+  "The Static Single-Threaded Executor scans the node structure only once when the node is added, while the other two executors regularly scan for changes, so it should be used only with nodes that create all subscriptions and timers during initialization.",
+  "Callback groups have two types: Mutually exclusive (callbacks must not run in parallel) and Reentrant (callbacks may run in parallel).",
+  "Callbacks that are created without a callback group are assigned to the default callback group.",
+  "Since Galactic, the rclcpp Executor base class has an add_callback_group(..) function that allows distributing callback groups to different Executors.",
+  "The Executor processes messages in a round-robin fashion, not in FIFO order, when processing times are long, based on the Casini et al. ECRTS 2019 paper.",
+  "Timer events were prioritized over all other messages in the earlier semantics, but this prioritization was removed in Eloquent.",
+  "The rclcpp WaitSet class allows waiting directly on subscriptions, timers, service servers and action servers instead of using an Executor.",
+  "The rclc Executor, developed for micro-ROS, gives fine-grained control over callback execution order and implements ideas of the Logical Execution Time (LET) semantics.",
+  "This page documents ROS 2 Foxy, which has reached end-of-life, and directs readers to the Iron documentation for up-to-date information."
+ ],
+ "entities": [
+  {
+   "name": "ROS 2",
+   "type": "program",
+   "role": "the robotics middleware framework whose Foxy release this documentation describes"
+  },
+  {
+   "name": "rclcpp",
+   "type": "program",
+   "role": "the C++ Client Library for ROS 2, the focus of this page"
+  },
+  {
+   "name": "rclpy",
+   "type": "program",
+   "role": "the Python Client Library in which the executors.py Executor class is found"
+  },
+  {
+   "name": "rclc",
+   "type": "program",
+   "role": "the C Client Library, which provides the rclc Executor developed for micro-ROS"
+  },
+  {
+   "name": "micro-ROS",
+   "type": "program",
+   "role": "the project for which the rclc Executor was developed"
+  },
+  {
+   "name": "SingleThreadedExecutor",
+   "type": "program",
+   "role": "the simplest rclcpp Executor, used by rclcpp::spin and by the container process for components"
+  },
+  {
+   "name": "MultiThreadedExecutor",
+   "type": "program",
+   "role": "rclcpp Executor that creates a configurable number of threads to process messages or events in parallel"
+  },
+  {
+   "name": "StaticSingleThreadedExecutor",
+   "type": "program",
+   "role": "rclcpp Executor that scans node structure only once on add_node, reducing runtime overhead, for nodes that create all entities during initialization"
+  },
+  {
+   "name": "WaitSet",
+   "type": "program",
+   "role": "rclcpp class that allows waiting directly on subscriptions, timers, service servers and action servers instead of using an Executor"
+  },
+  {
+   "name": "rclc Executor",
+   "type": "program",
+   "role": "Executor from the C Client Library rclc that gives fine-grained control over callback execution order and implements Logical Execution Time semantics"
+  },
+  {
+   "name": "Casini et al. ECRTS 2019 paper",
+   "type": "event",
+   "role": "paper that first described the round-robin scheduling semantics of ROS 2 executors, presented at ECRTS 2019"
+  },
+  {
+   "name": "ROS 1",
+   "type": "program",
+   "role": "the earlier ROS version whose spin mechanism the ROS 2 Executor API is similar to and which stored incoming messages in a queue"
+  },
+  {
+   "name": "Iron",
+   "type": "program",
+   "role": "the ROS 2 distribution recommended in the note as the up-to-date documentation"
+  },
+  {
+   "name": "Galactic",
+   "type": "program",
+   "role": "the ROS 2 distribution since which the add_callback_group(..) function has been available"
+  },
+  {
+   "name": "Eloquent",
+   "type": "program",
+   "role": "the ROS 2 distribution in which the timer event prioritization was removed"
+  },
+  {
+   "name": "examples_rclcpp_cbg_executor package",
+   "type": "program",
+   "role": "package providing a demo of distributing callback groups across Executors to prioritize callbacks"
+  },
+  {
+   "name": "examples_rclcpp_wait_set package",
+   "type": "program",
+   "role": "package providing examples of the user-level WaitSet mechanism"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "executors",
+  "callbacks",
+  "threading",
+  "real-time",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15245,
+  "output_tokens": 1883
+ }
+}

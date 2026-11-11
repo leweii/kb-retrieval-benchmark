@@ -1,0 +1,49 @@
+{
+ "summary": "This is a Snowflake reference page for the STRTOK string function, which tokenizes a string on a set of delimiter characters and returns the requested token by its 1-based number. It explains the syntax, arguments, VARCHAR return type, and usage notes such as NULL handling and never returning an empty token. Several examples show multiple delimiters, out-of-range indexes, empty strings, empty delimiters, and NULL parameters. Website navigation and category boilerplate were ignored.",
+ "one_line": "Snowflake reference for the STRTOK function, which splits a string on delimiter characters and returns a requested 1-based token.",
+ "key_facts": [
+  "STRTOK(<string> [,<delimiter>] [,<partNr>]) is the syntax of the Snowflake STRTOK function.",
+  "STRTOK tokenizes a given string and returns the requested part.",
+  "If the requested part does not exist, STRTOK returns NULL.",
+  "If any parameter to STRTOK is NULL, the function returns NULL.",
+  "The delimiter argument is a set of characters; each character in the delimiter string is a delimiter.",
+  "The default value of the STRTOK delimiter is a single space character.",
+  "The partNr argument is 1-based, so the first token is token number 1, and its default value is 1.",
+  "The data type of the value returned by STRTOK is VARCHAR.",
+  "If the delimiter is empty and the string is non-empty, STRTOK treats the whole string as one token.",
+  "If the delimiter is empty and the string is empty, STRTOK returns NULL.",
+  "STRTOK never returns an empty string as a token, similar to Linux strtok().",
+  "SELECT STRTOK('user@snowflake.com', '@.', 2) returns 'snowflake'.",
+  "SELECT STRTOK('user@snowflake.com.', '@.', 4) returns NULL because the token index is past the last token.",
+  "SELECT STRTOK('a.b', '', 1) returns 'a.b'."
+ ],
+ "entities": [
+  {
+   "name": "STRTOK",
+   "type": "program",
+   "role": "String function that tokenizes a string on delimiter characters and returns the requested part, documented on this page"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Vendor whose documentation this page appears to be, indicated by the footer and the SNOWFLAKE examples"
+  },
+  {
+   "name": "Linux strtok()",
+   "type": "program",
+   "role": "Linux function that STRTOK is said to be similar to in never returning an empty string as a token"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "string-functions",
+  "tokenization",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2939,
+  "output_tokens": 839
+ }
+}

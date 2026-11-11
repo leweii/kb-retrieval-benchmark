@@ -1,0 +1,35 @@
+{
+ "summary": "The note is a clipped page from the Copernicus Climate Data Store (CDS) titled 'reanalysis era5 complete tab overview'. Apart from the page title, it contains only website navigation, a notice that a new CDS will soon launch with possible disruptions, and footer links such as About C3S, Contact us, Cookies and Disclaimer/Privacy. It contains no substantive information about the ERA5 reanalysis dataset itself.",
+ "one_line": "Clipped Copernicus Climate Data Store page titled 'reanalysis era5 complete tab overview', containing only site navigation and a launch notice.",
+ "key_facts": [
+  "The page is titled 'reanalysis era5 complete tab overview' and is from the Copernicus Climate Data Store.",
+  "The page notes that a new CDS will soon be launched and that some disruptions should be expected.",
+  "The site navigation menu lists Home, Search, Datasets, Applications, Toolbox, Support, Live and Climate Atlas.",
+  "The footer menu links to About C3S, Contact us, Cookies and Disclaimer / Privacy.",
+  "The note contains no substantive description of the ERA5 reanalysis dataset beyond its title."
+ ],
+ "entities": [
+  {
+   "name": "Copernicus Climate Data Store",
+   "type": "program",
+   "role": "Website from which the clipped page was taken, described in the note as the source of the page"
+  },
+  {
+   "name": "C3S",
+   "type": "organization",
+   "role": "Copernicus Climate Change Service, linked in the footer as 'About C3S'"
+  }
+ ],
+ "tags": [
+  "era5",
+  "reanalysis",
+  "copernicus",
+  "climate data",
+  "web clipping"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1164,
+  "output_tokens": 539
+ }
+}

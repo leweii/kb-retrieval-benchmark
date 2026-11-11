@@ -1,0 +1,85 @@
+{
+ "summary": "This is a clipped collection of pages from iCalendar.org that mirror sections of RFC 5545 (iCalendar), covering registration templates for properties, values, and value data types, plus several component properties and registries. The pages include DTSTAMP, LAST-MODIFIED, the Relationship Types Registry (CHILD, PARENT, SIBLING), and the IANA Considerations section. Most of the text is site navigation and boilerplate promoting the site's iCalendar validator, which is maintained by Z Content.",
+ "one_line": "Clipped iCalendar.org pages mirroring RFC 5545 sections on IANA registration templates, DTSTAMP, LAST-MODIFIED, and relationship types.",
+ "key_facts": [
+  "The iCalendar.org page '8.2.3. Registration Template for Properties' says a property is defined by completing a template with a property name, purpose, value type, property parameters, conformance, description, format definition, and examples.",
+  "The '8.2.5. Registration Template for Value Data Types' page says a value data type template includes a value name, purpose, format definition, description, and examples.",
+  "The '8.2.6. Registration Template for Values' page includes a fictitious example registering the value TOP-SECRET, used with the CLASS property to specify access classification of top-secret calendar components.",
+  "The DTSTAMP property (RFC 5545, Section 3.8.7.2) has value type DATE-TIME and must be included in VEVENT, VTODO, VJOURNAL, or VFREEBUSY components.",
+  "The DTSTAMP description says its value MUST be specified in the UTC time format, and its example is DTSTAMP:19971210T080000Z.",
+  "For an iCalendar object without a METHOD property, DTSTAMP is equivalent to the LAST-MODIFIED property.",
+  "The LAST-MODIFIED property (RFC 5545, Section 3.8.7.3) specifies the date and time that the information associated with the calendar component was last revised in the calendar store.",
+  "The LAST-MODIFIED property may appear in VEVENT, VTODO, VJOURNAL, or VTIMEZONE components and its value MUST be in UTC time format.",
+  "The LAST-MODIFIED example is LAST-MODIFIED:19960817T133000Z.",
+  "The Relationship Types Registry table initializes three relationship types, CHILD, PARENT, and SIBLING, all with status Current and reference RFC 5545, Section 3.2.15.",
+  "The 8.2 New iCalendar Elements Registration section defines the process to register new or modified components, properties, parameters, value data types, and values with IANA.",
+  "The iCalendar Validator on the site tests feeds from a URL, file, or text snippet against the RFC 5545 specification.",
+  "The site is maintained by Z Content, described as a developer of PHP iCalendar tools for the Joomla Content Management System.",
+  "The pages state they were automatically converted to XHTML from the original RFC text at the Internet Engineering Task Force website at ietf.org, which should be referred to for discrepancies."
+ ],
+ "entities": [
+  {
+   "name": "iCalendar",
+   "type": "product",
+   "role": "calendar data format whose RFC 5545 specification the pages mirror"
+  },
+  {
+   "name": "iCalendar.org",
+   "type": "organization",
+   "role": "website hosting the clipped RFC 5545 section pages and validator"
+  },
+  {
+   "name": "RFC 5545",
+   "type": "program",
+   "role": "iCalendar specification whose sections are reproduced in the pages"
+  },
+  {
+   "name": "Internet Engineering Task Force",
+   "type": "organization",
+   "role": "original publisher of the RFC text the pages were converted from"
+  },
+  {
+   "name": "Z Content",
+   "type": "organization",
+   "role": "maintainer of the iCalendar.org site and developer of PHP iCalendar tools for Joomla"
+  },
+  {
+   "name": "iCalendar Validator",
+   "type": "product",
+   "role": "tool on the site for validating iCalendar feeds against RFC 5545"
+  },
+  {
+   "name": "DTSTAMP",
+   "type": "other",
+   "role": "iCalendar property recording when the calendar object was created or last revised"
+  },
+  {
+   "name": "LAST-MODIFIED",
+   "type": "other",
+   "role": "iCalendar property recording when calendar component information was last revised in the calendar store"
+  },
+  {
+   "name": "Joomla Content Management System",
+   "type": "product",
+   "role": "CMS for which Z Content develops PHP iCalendar tools"
+  },
+  {
+   "name": "CLASS",
+   "type": "other",
+   "role": "iCalendar property used with the example TOP-SECRET value"
+  }
+ ],
+ "tags": [
+  "icalendar",
+  "rfc 5545",
+  "calendar standards",
+  "ietf",
+  "registration templates",
+  "dtstamp"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14885,
+  "output_tokens": 1514
+ }
+}

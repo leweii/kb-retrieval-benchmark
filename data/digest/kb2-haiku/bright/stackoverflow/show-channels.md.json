@@ -1,0 +1,80 @@
+{
+ "summary": "This note is the Snowflake documentation page for the SHOW CHANNELS command, which lists Snowpipe Streaming channels the user has access privileges to view. It can be scoped to a table, database, schema, the current database or schema in the session, or the entire account, and supports an optional LIKE pattern filter. The page documents the syntax, parameters with their defaults, the output columns (created_on, name, database_name, schema_name, table_name, client_sequencer, row_sequencer, offset_token), and an example listing channels in the public schema of the mydb database.",
+ "one_line": "Snowflake SHOW CHANNELS command reference: syntax, scope options, LIKE filtering, and output columns for listing Snowpipe Streaming channels.",
+ "key_facts": [
+  "The SHOW CHANNELS command lists channels for which the user has access privileges.",
+  "SHOW CHANNELS can list channels for a specified table, database or schema, the current database or schema for the session, or the entire account.",
+  "The optional LIKE parameter filters output by object name using case-insensitive pattern matching with SQL wildcards % and _.",
+  "The IN scope options are ACCOUNT, DATABASE, DATABASE db_name, SCHEMA, SCHEMA schema_name, schema_name, TABLE, and TABLE table_name.",
+  "If no database is in use, the default scope for SHOW CHANNELS is ACCOUNT.",
+  "If a database is in use, the default scope for SHOW CHANNELS is DATABASE.",
+  "If DATABASE is specified without db_name and no database is in use, the keyword has no effect on the output.",
+  "The SCHEMA keyword is optional if a database is in use or if a fully qualified schema_name such as db.schema is given.",
+  "The output column created_on gives the date and time when the channel was created.",
+  "The output column table_name shows the table where the channel is mapped to.",
+  "The output columns client_sequencer and row_sequencer are for internal use.",
+  "The offset_token output column is a string used to track the ingestion process.",
+  "The example runs 'use database mydb;' followed by 'show channels;' to show channels the user can view in the public schema of mydb.",
+  "The example output includes a channel named CHANNEL8 in database TEST_DB1, schema STREAMING_INGEST, mapped to table STREAMING_INGEST_TABLE, with offset_token 0."
+ ],
+ "entities": [
+  {
+   "name": "SHOW CHANNELS",
+   "type": "program",
+   "role": "Snowflake SQL command documented on this page that lists Snowpipe Streaming channels"
+  },
+  {
+   "name": "Snowpipe Streaming",
+   "type": "product",
+   "role": "Snowflake ingestion feature whose channels the SHOW CHANNELS command lists"
+  },
+  {
+   "name": "SYSTEM$SNOWPIPE_STREAMING_UPDATE_CHANNEL_OFFSET_TOKEN",
+   "type": "program",
+   "role": "Related system function linked from the page"
+  },
+  {
+   "name": "mydb",
+   "type": "place",
+   "role": "Example database in which the show channels command is run"
+  },
+  {
+   "name": "public",
+   "type": "place",
+   "role": "Example schema in the mydb database whose channels are shown"
+  },
+  {
+   "name": "CHANNEL8",
+   "type": "product",
+   "role": "Example channel listed in the sample output, in table STREAMING_INGEST_TABLE"
+  },
+  {
+   "name": "TEST_DB1",
+   "type": "place",
+   "role": "Database shown in the sample output for CHANNEL8"
+  },
+  {
+   "name": "STREAMING_INGEST",
+   "type": "place",
+   "role": "Schema shown in the sample output for CHANNEL8"
+  },
+  {
+   "name": "STREAMING_INGEST_TABLE",
+   "type": "product",
+   "role": "Table to which the example CHANNEL8 channel is mapped"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "snowpipe-streaming",
+  "sql",
+  "show-command",
+  "data-ingestion",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2663,
+  "output_tokens": 1254
+ }
+}

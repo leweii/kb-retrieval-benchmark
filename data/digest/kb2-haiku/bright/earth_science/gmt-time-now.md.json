@@ -1,0 +1,88 @@
+{
+ "summary": "This clipped web page is a 'GMT Time Now' utility showing the current Greenwich Mean Time as 16:24:57 on 3 April 2024 (a Wednesday). It explains that GMT is the abbreviation for Greenwich Mean Time, that its offset is UTC, and lists cities that use GMT. It also provides the current time rendered in many standard date-time formats and Unix epoch time.",
+ "one_line": "A live-style page showing the current Greenwich Mean Time, its UTC equivalence, and the current time in many date formats.",
+ "key_facts": [
+  "The page states that GMT is the abbreviation of Greenwich Mean Time and that the time zone offset of GMT is UTC.",
+  "The page shows the GMT time as 16:24:57 on 3 April 2024, a Wednesday.",
+  "GMT shows the mean solar time at the Greenwich Meridian, which passes through the Greenwich Royal Observatory.",
+  "Greenwich Mean Time used to be the most popular time reference used widely before UTC.",
+  "Cities named as using GMT time include London, Edinburgh, Dublin, Lisbon, Nouakott (Mauritania), and El Aaiún (Western Sahara).",
+  "The page gives the ISO-8601 representation of the current GMT time as 2024-04-03T16:24:57+0000.",
+  "The RFC 2822 representation of the current GMT time is Wed, 03 Apr 2024 16:24:57 +0000.",
+  "The Unix Epoch timestamp for the current GMT time is 1712161497.",
+  "The UTC format representation of the current GMT time is 2024-04-03T16:24:57Z.",
+  "The page lists the YYYY-DD-MM HH:MM:SS format as 2024-03-04 16:24:57, which is a day-month swap relative to the actual date.",
+  "The page is copyright 2016-2024 by www.UtcTime.net.",
+  "The page offers navigation to a UTC Time Converter, UTC Time Offsets, Time Zone Abbreviations, and UTC Timestamp, and a Convert UTC to GMT link."
+ ],
+ "entities": [
+  {
+   "name": "Greenwich Mean Time",
+   "type": "other",
+   "role": "time reference whose abbreviation is GMT, shown as the page's current time"
+  },
+  {
+   "name": "UTC",
+   "type": "other",
+   "role": "time standard to which GMT's offset is equal"
+  },
+  {
+   "name": "Greenwich Royal Observatory",
+   "type": "place",
+   "role": "observatory through which the Greenwich Meridian passes"
+  },
+  {
+   "name": "Greenwich Meridian",
+   "type": "place",
+   "role": "meridian that GMT mean solar time refers to"
+  },
+  {
+   "name": "London",
+   "type": "place",
+   "role": "city listed as using GMT"
+  },
+  {
+   "name": "Edinburgh",
+   "type": "place",
+   "role": "city listed as using GMT"
+  },
+  {
+   "name": "Dublin",
+   "type": "place",
+   "role": "city listed as using GMT"
+  },
+  {
+   "name": "Lisbon",
+   "type": "place",
+   "role": "city listed as using GMT"
+  },
+  {
+   "name": "Nouakott (Mauritania)",
+   "type": "place",
+   "role": "city listed as using GMT"
+  },
+  {
+   "name": "El Aaiún (Western Sahara)",
+   "type": "place",
+   "role": "city listed as using GMT"
+  },
+  {
+   "name": "www.UtcTime.net",
+   "type": "organization",
+   "role": "website publishing the page and holding its copyright"
+  }
+ ],
+ "tags": [
+  "gmt",
+  "utc",
+  "time zones",
+  "timekeeping",
+  "date formats",
+  "greenwich mean time"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1940,
+  "output_tokens": 1131
+ }
+}

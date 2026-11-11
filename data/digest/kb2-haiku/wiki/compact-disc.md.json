@@ -1,0 +1,62 @@
+{
+ "summary": "This note covers two aspects of the compact disc: the video capacity and quality limits of SVCD (Super Video CD) format discs, and the global scale of CD sales. It notes that SVCD video length is constrained by bit rate, so very long videos degrade quality and some hardware players cannot handle low bit rates. It also reports that worldwide CD sales were about 30 billion discs in 2004 and 200 billion by 2007, and that CD sales have declined as digital distribution has grown.",
+ "one_line": "Covers SVCD video capacity and quality limits on CD-R discs, plus worldwide compact disc sales figures and their decline as digital music overtakes physical formats.",
+ "key_facts": [
+  "SVCD has two-thirds the resolution of DVD and over 2.7 times the resolution of VCD.",
+  "One CD-R disc can hold up to 60 minutes of standard quality SVCD-format video.",
+  "No specific limit on SVCD video length is mandated by the specification, but the video bit rate must be lowered to accommodate very long videos.",
+  "It is usually difficult to fit much more than 100 minutes of video onto one SVCD without incurring significant quality loss.",
+  "Many hardware players are unable to play video with an instantaneous bit rate lower than 300 to 600 kilobits per second.",
+  "In 2004, worldwide sales of audio CDs, CD-ROMs and CD-Rs reached about 30 billion discs.",
+  "By 2007, 200 billion CDs had been sold worldwide.",
+  "CDs are increasingly being replaced by other forms of digital storage and distribution.",
+  "Audio CD sales rates in the U.S. have dropped about 50% from their peak.",
+  "CDs remain one of the primary distribution methods for the music industry despite declining sales.",
+  "In 2014, revenues from digital music services matched those from physical format sales for the first time."
+ ],
+ "entities": [
+  {
+   "name": "SVCD",
+   "type": "product",
+   "role": "Video format on CD-R discs with two-thirds the resolution of DVD and over 2.7 times the resolution of VCD"
+  },
+  {
+   "name": "DVD",
+   "type": "product",
+   "role": "Disc format used as the resolution benchmark for SVCD"
+  },
+  {
+   "name": "VCD",
+   "type": "product",
+   "role": "Video format with lower resolution than SVCD, used as a comparison point"
+  },
+  {
+   "name": "CD-R",
+   "type": "product",
+   "role": "Recordable disc that can hold up to 60 minutes of standard quality SVCD video"
+  },
+  {
+   "name": "CD-ROM",
+   "type": "product",
+   "role": "Disc type included in the 2004 worldwide sales total"
+  },
+  {
+   "name": "U.S. audio CD market",
+   "type": "place",
+   "role": "Market where audio CD sales rates have dropped about 50% from their peak"
+  }
+ ],
+ "tags": [
+  "compact disc",
+  "svcd",
+  "video encoding",
+  "music industry",
+  "digital distribution",
+  "physical media sales"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1348,
+  "output_tokens": 932
+ }
+}

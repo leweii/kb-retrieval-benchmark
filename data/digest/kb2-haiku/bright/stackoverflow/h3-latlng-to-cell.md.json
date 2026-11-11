@@ -1,0 +1,46 @@
+{
+ "summary": "This note is the reference page for the H3_LATLNG_TO_CELL function, which returns the H3 cell ID for a given latitude, longitude, and resolution. It covers the syntax, the three arguments and their valid ranges, the INTEGER return value, and usage notes about NaN and Inf inputs. Two examples show the Brandenburg Gate at resolution 8 and out-of-range longitude wrapping, and a third shows the error raised for resolution 18.",
+ "one_line": "Reference for the H3_LATLNG_TO_CELL function, which converts latitude, longitude and resolution into an H3 cell ID.",
+ "key_facts": [
+  "H3_LATLNG_TO_CELL takes three arguments: latitude, longitude, and target_resolution.",
+  "The latitude argument is a FLOAT; values outside the standard latitude range are wrapped to [-90, 90].",
+  "The longitude argument is a FLOAT; values outside the standard longitude range are wrapped to [-180, 180].",
+  "The target_resolution argument is an INTEGER between 0 and 15 inclusive, specifying the H3 resolution of the returned cell.",
+  "Specifying any other target_resolution value results in an error.",
+  "The function returns an INTEGER value corresponding to the H3 cell ID for the given location and resolution.",
+  "Specifying NaN or Inf for any input argument results in an error.",
+  "The example SELECT H3_LATLNG_TO_CELL(52.516262, 13.377704, 8) returns the H3 cell ID 613036919424548863 for the Brandenburg Gate at resolution 8.",
+  "A longitude of 373.377704 is interpreted as 13.377704, computed as 373.377704 modulo 180.",
+  "Using longitude 373.377704 with resolution 8 returns the same cell ID, 613036919424548863.",
+  "Specifying resolution 18 produces the error 'Invalid H3 resolution value: 18. Resolution must be between 0 (coarsest) and 15 (finest).'"
+ ],
+ "entities": [
+  {
+   "name": "H3_LATLNG_TO_CELL",
+   "type": "program",
+   "role": "SQL function that returns the H3 cell ID for a given latitude, longitude, and resolution"
+  },
+  {
+   "name": "Brandenburg Gate",
+   "type": "place",
+   "role": "example location used at latitude 52.516262 and longitude 13.377704 with resolution 8"
+  },
+  {
+   "name": "H3",
+   "type": "program",
+   "role": "geospatial indexing system whose resolution and cell IDs the function uses"
+  }
+ ],
+ "tags": [
+  "h3",
+  "geospatial",
+  "sql functions",
+  "reference",
+  "coordinates"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2081,
+  "output_tokens": 858
+ }
+}

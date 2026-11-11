@@ -1,0 +1,45 @@
+{
+ "summary": "The note describes the Daihatsu Boon, a subcompact car produced by Japanese automaker Daihatsu since 2004. It notes the car is also sold under another name (left blank in the note), and that the Passo model is sold at Toyota Corolla Store dealerships in Japan. The note is very short and omits details such as the alternate model name.",
+ "one_line": "Overview of the Daihatsu Boon, a Japanese subcompact car produced since 2004, and its sales through Toyota Corolla Store dealers.",
+ "key_facts": [
+  "The Daihatsu Boon is a subcompact car produced by Japanese automaker Daihatsu.",
+  "The Daihatsu Boon has been produced since 2004.",
+  "The Daihatsu Boon is also sold under another model name, which is missing from the note.",
+  "The Passo is sold at \"Toyota Corolla Store\" Japanese dealerships.",
+  "The note names Daihatsu as a Japanese automaker."
+ ],
+ "entities": [
+  {
+   "name": "Daihatsu",
+   "type": "organization",
+   "role": "Japanese automaker that produces the Daihatsu Boon since 2004"
+  },
+  {
+   "name": "Daihatsu Boon",
+   "type": "product",
+   "role": "subcompact car produced by Daihatsu since 2004, also sold under another name"
+  },
+  {
+   "name": "Passo",
+   "type": "product",
+   "role": "alternate name under which the car is also sold, sold at Toyota Corolla Store dealerships in Japan"
+  },
+  {
+   "name": "Toyota Corolla Store",
+   "type": "organization",
+   "role": "Japanese dealership network where the Passo is sold"
+  }
+ ],
+ "tags": [
+  "automobiles",
+  "daihatsu",
+  "subcompact cars",
+  "japanese cars",
+  "toyota"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1054,
+  "output_tokens": 560
+ }
+}

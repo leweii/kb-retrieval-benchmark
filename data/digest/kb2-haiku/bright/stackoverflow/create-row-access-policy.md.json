@@ -1,0 +1,78 @@
+{
+ "summary": "This note is the Snowflake documentation page for the CREATE ROW ACCESS POLICY command, which requires Enterprise Edition or higher. It explains the syntax (CREATE [OR REPLACE] ROW ACCESS POLICY [IF NOT EXISTS] with an AS signature, RETURNS BOOLEAN body and optional COMMENT), the required and optional parameters, the schema-level CREATE ROW ACCESS POLICY privilege, and usage notes such as a column cannot appear in both a masking policy and a row access policy signature. Three examples show policies based on current_role() checks and a subquery against a salesmanagerregions mapping table.",
+ "one_line": "Snowflake reference for the CREATE ROW ACCESS POLICY command, covering syntax, parameters, privileges, usage notes and examples.",
+ "key_facts": [
+  "The CREATE ROW ACCESS POLICY feature requires Enterprise Edition (or higher) in Snowflake.",
+  "Creating a row access policy creates it in the current or specified schema, or replaces an existing row access policy.",
+  "After creating a row access policy, the policy must be added to a table using an ALTER command.",
+  "The syntax is CREATE [ OR REPLACE ] ROW ACCESS POLICY [ IF NOT EXISTS ] <name> AS ( <arg_name> <arg_type> [ , ... ] ) RETURNS BOOLEAN -> <body> [ COMMENT = '<string_literal>' ].",
+  "The name identifier must be unique for the schema, must start with an alphabetic character, and identifiers in double quotes are case-sensitive.",
+  "A row access policy must evaluate to true or false, and the body can be any boolean-valued SQL expression.",
+  "The optional COMMENT parameter has a default of no value.",
+  "The role executing the command must have the CREATE ROW ACCESS POLICY privilege on the schema, plus USAGE on the parent database and schema.",
+  "A given table or view column cannot be specified in both a masking policy signature and a row access policy signature at the same time.",
+  "CREATE OR REPLACE statements are atomic: the old object is deleted and the new object is created in a single transaction.",
+  "Example rap_it returns true only when current_role() is 'it_admin'.",
+  "Example rap_sales_manager_regions_1 allows the 'sales_executive_role' role, or a sales_manager role whose region appears in the salesmanagerregions mapping table.",
+  "Example rap_test2 has the signature (n number, v varchar) and returns true, granting access to all rows."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "provider of the database service whose CREATE ROW ACCESS POLICY command is documented"
+  },
+  {
+   "name": "CREATE ROW ACCESS POLICY",
+   "type": "program",
+   "role": "SQL command that creates a new row access policy or replaces an existing one"
+  },
+  {
+   "name": "rap_it",
+   "type": "program",
+   "role": "example row access policy allowing rows when current_role() is it_admin"
+  },
+  {
+   "name": "rap_sales_manager_regions_1",
+   "type": "program",
+   "role": "example row access policy allowing sales_executive_role or sales managers for mapped regions"
+  },
+  {
+   "name": "rap_test2",
+   "type": "program",
+   "role": "example row access policy with two signature attributes that returns true"
+  },
+  {
+   "name": "salesmanagerregions",
+   "type": "other",
+   "role": "mapping table linking sales_manager to region used in a subquery in the sales example policy"
+  },
+  {
+   "name": "it_admin",
+   "type": "other",
+   "role": "custom role allowed to see rows in the rap_it example"
+  },
+  {
+   "name": "sales_manager",
+   "type": "other",
+   "role": "custom role that can view rows for regions listed in the salesmanagerregions mapping table"
+  },
+  {
+   "name": "sales_executive_role",
+   "type": "other",
+   "role": "custom role allowed to view all data under the sales region policy"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "row-access-policy",
+  "access-control",
+  "sql-ddl",
+  "data-security"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3642,
+  "output_tokens": 1302
+ }
+}

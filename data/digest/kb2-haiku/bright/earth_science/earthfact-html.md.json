@@ -1,0 +1,71 @@
+{
+ "summary": "This note is NASA's Earth Fact Sheet, a reference table of Earth's physical and orbital parameters. It covers bulk parameters (mass, radii, density, gravity, albedo), orbital parameters and J2000 orbital elements, the north pole of rotation, the terrestrial magnetosphere and geomagnetic poles, and atmospheric pressure, composition and temperature. It also lists links to other planetary fact sheets and credits its author and curator, Dr. David R. Williams, last updated 11 January 2024.",
+ "one_line": "NASA's reference fact sheet listing Earth's bulk, orbital, magnetic and atmospheric parameters.",
+ "key_facts": [
+  "Earth's mass is 5.9722 x 10^24 kg according to the Earth Fact Sheet.",
+  "Earth's volumetric mean radius is 6371.000 km, with equatorial radius 6378.137 km and polar radius 6356.752 km.",
+  "Earth's mean density is 5513 kg/m3 and its surface gravity (mean) is 9.820 m/s2.",
+  "Earth's escape velocity is 11.186 km/s.",
+  "Earth's Bond albedo is 0.294 and its geometric albedo is 0.434.",
+  "Earth's solar irradiance is 1361.0 W/m2 and its black-body temperature is 254.0 K.",
+  "Earth's sidereal orbit period is 365.256 days and its tropical orbit period is 365.242 days.",
+  "Earth's mean orbital velocity is 29.78 km/s, with perihelion at 147.095 million km and aphelion at 152.100 million km.",
+  "Earth's sidereal rotation period is 23.9345 hours and its length of day is 24.0000 hours.",
+  "Earth's obliquity to its orbit is 23.44 degrees and its orbit eccentricity is 0.0167.",
+  "Earth has one natural satellite and no planetary ring system.",
+  "Earth's dipole field strength is 0.306 Gauss-Re3 and its dipole offset is 0.076 Re, where Re is defined as 6,378 km.",
+  "Under model WMM2020, the geocentric dipole is at 80.65 N, 72.68 W and the magnetic north pole is at 86.50 N, 164.04 E.",
+  "Earth's surface pressure is 1014 mb and its surface density is 1.217 kg/m3, with a scale height of 8.5 km.",
+  "Earth's average surface temperature is 288 K (15 C), and its mean molecular weight of dry air is 28.97."
+ ],
+ "entities": [
+  {
+   "name": "NASA Goddard Space Flight Center",
+   "type": "organization",
+   "role": "institution at which the fact sheet's author and NASA official are based (Greenbelt, MD)"
+  },
+  {
+   "name": "NSSDCA",
+   "type": "organization",
+   "role": "NASA office (Mail Code 690.1) that hosts the fact sheet's author/curator"
+  },
+  {
+   "name": "Dr. David R. Williams",
+   "type": "person",
+   "role": "author/curator of the Earth Fact Sheet and NASA Official"
+  },
+  {
+   "name": "GSFC-1283",
+   "type": "program",
+   "role": "magnetosphere model used for the terrestrial magnetosphere parameters"
+  },
+  {
+   "name": "WMM2020",
+   "type": "program",
+   "role": "World Magnetic Model used for the geomagnetic pole positions"
+  },
+  {
+   "name": "CODATA 2018",
+   "type": "other",
+   "role": "source defining the standard acceleration of gravity as 9.80665 m/s2 (exact)"
+  },
+  {
+   "name": "Moon Fact Sheet",
+   "type": "product",
+   "role": "linked companion fact sheet for information on the Moon"
+  }
+ ],
+ "tags": [
+  "earth science",
+  "planetary fact sheet",
+  "orbital parameters",
+  "geomagnetism",
+  "atmosphere",
+  "nasa reference data"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2804,
+  "output_tokens": 1243
+ }
+}

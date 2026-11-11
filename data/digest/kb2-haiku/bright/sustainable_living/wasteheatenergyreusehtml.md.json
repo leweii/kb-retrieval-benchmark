@@ -1,0 +1,71 @@
+{
+ "summary": "This NREL web page describes how the High-Performance Computing Data Center at the Energy Systems Integration Facility (ESIF) reuses waste heat from computing. Heat exchangers transfer heat from the energy recovery water loop to the facility's process hot water loop, which heats office, conference and high bay spaces, a courtyard snow melt loop, and the campus district heating loop. Surplus ESIF heat has helped heat other campus buildings during transition months, reducing boiler use.",
+ "one_line": "NREL's ESIF data center reuses computing waste heat via heat exchangers to warm its building and supply surplus heat to the campus heating loop.",
+ "key_facts": [
+  "At the Energy Systems Integration Facility (ESIF), heat exchangers in the High-Performance Computing Data Center enable the reuse of energy from computing waste heat.",
+  "Heat energy in the energy recovery water (ERW) loop becomes available to heat the facility's process hot water (PHW) loop through heat exchangers.",
+  "The heated PHW loop supplies active chilled beams that heat the office space.",
+  "The heated PHW loop supplies air handlers that heat the conference and high bay spaces.",
+  "The PHW loop supplies a snow melt loop in the courtyard of the ESIF's main entrance.",
+  "If additional heat is needed for the building, the PHW loop can draw heat from the campus heating loop.",
+  "If surplus heat is available, the PHW loop can provide heat to the campus heating loop.",
+  "During transition months (April and October), excess heat from the ESIF has been sufficient to provide heat for other buildings.",
+  "Excess ESIF heat during transition months has shortened the time boilers are needed to provide campus heat.",
+  "The page is part of the NREL Computational Science section, under High-Performance Computing Data Center."
+ ],
+ "entities": [
+  {
+   "name": "National Renewable Energy Laboratory",
+   "type": "organization",
+   "role": "national laboratory that operates the website and the described facilities"
+  },
+  {
+   "name": "Energy Systems Integration Facility (ESIF)",
+   "type": "place",
+   "role": "facility whose High-Performance Computing Data Center reuses waste heat"
+  },
+  {
+   "name": "High-Performance Computing Data Center",
+   "type": "place",
+   "role": "data center whose computing waste heat is recovered through heat exchangers"
+  },
+  {
+   "name": "Energy recovery water (ERW) loop",
+   "type": "product",
+   "role": "water loop carrying heat energy from computing to heat exchangers"
+  },
+  {
+   "name": "Process hot water (PHW) loop",
+   "type": "product",
+   "role": "facility loop heated by the ERW loop and supplying heating to the building and campus"
+  },
+  {
+   "name": "Campus heating loop",
+   "type": "product",
+   "role": "district heating loop that the PHW loop can draw from or supply heat to"
+  },
+  {
+   "name": "Alliance for Sustainable Energy, LLC",
+   "type": "organization",
+   "role": "operator of the National Renewable Energy Laboratory"
+  },
+  {
+   "name": "U.S. Department of Energy",
+   "type": "organization",
+   "role": "sponsor of the National Renewable Energy Laboratory"
+  }
+ ],
+ "tags": [
+  "waste heat reuse",
+  "data center",
+  "energy efficiency",
+  "district heating",
+  "nrel",
+  "heat exchangers"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3316,
+  "output_tokens": 1043
+ }
+}

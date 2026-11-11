@@ -1,0 +1,37 @@
+{
+ "summary": "The note is a very short biographical stub about Richard Stalder. It states that in 1971 he worked as a prison officer to earn money while attending Louisiana State University in Baton Rouge. No other details about his life or career are given.",
+ "one_line": "Richard Stalder worked as a prison officer in 1971 while studying at Louisiana State University in Baton Rouge.",
+ "key_facts": [
+  "In 1971, Richard Stalder began working as a prison officer.",
+  "Richard Stalder took the prison officer job to earn money.",
+  "Richard Stalder was attending Louisiana State University in Baton Rouge in 1971 when he began working as a prison officer."
+ ],
+ "entities": [
+  {
+   "name": "Richard Stalder",
+   "type": "person",
+   "role": "subject of the note; worked as a prison officer in 1971 while attending university"
+  },
+  {
+   "name": "Louisiana State University",
+   "type": "organization",
+   "role": "university in Baton Rouge that Richard Stalder attended while working as a prison officer"
+  },
+  {
+   "name": "Baton Rouge",
+   "type": "place",
+   "role": "city where Louisiana State University is located"
+  }
+ ],
+ "tags": [
+  "biography",
+  "prison officers",
+  "louisiana",
+  "higher education"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1030,
+  "output_tokens": 400
+ }
+}

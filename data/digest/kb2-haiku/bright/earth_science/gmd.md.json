@@ -1,0 +1,96 @@
+{
+ "summary": "Schumann (2012) describes the Contrail Cirrus Prediction Tool (CoCiP), a model that simulates the full life-cycle of a large ensemble of contrails from aircraft traffic and meteorology. Contrail segments form between aircraft waypoints where air is cold and humid, their advection and evolution are followed with a Lagrangian Gaussian plume model, and they disappear when ice sublimates or precipitates. The paper details the Gaussian concentration profile, NWP and flight-track inputs, the Schmidt-Appleman contrail formation criterion, and the wake vortex downwash parameterization, with comparisons to other models and observations.",
+ "one_line": "Describes CoCiP, a Lagrangian Gaussian-plume model that simulates the full life-cycle and climate impact of contrail ensembles from air traffic and weather data.",
+ "key_facts": [
+  "The Contrail Cirrus Prediction Tool (CoCiP) is a model that simulates and predicts the properties of a large ensemble of contrails as a function of air traffic and meteorology.",
+  "Contrails are followed with a Lagrangian Gaussian plume model, and they disappear when the bulk ice content is sublimating or precipitating.",
+  "Presently, more than 80 000 commercial flights per day are performed globally, according to Wilkerson et al. (2010).",
+  "The ECMWF model assumes ice forms in a fraction of a grid cell when supersaturation reaches the limit for homogeneous ice nucleation, typically of the order 150 %.",
+  "In the ECMWF model, the critical relative humidity RHic is 0.8 in the mid-troposphere and 1.0 in the stratosphere.",
+  "The Schmidt-Appleman criterion requires liquid saturation to occur locally in the plume of aircraft exhaust gases mixing with cold ambient air.",
+  "Kerosene-burning aircraft usually have a water vapor emission index EIH2O of 1.23 and combustion heat Qfuel of 43.2 MJ/kg.",
+  "For liquid hydrogen, the note gives EIH2O = 8.94 and Qfuel = 120 MJ/kg.",
+  "The wake vortex separation is defined as b0 = π sa/4, where sa is the aircraft wing span.",
+  "For the A380 case with Va = 250 m/s, Ma = 508 Mg and sa = 79.8 m, the model computes a maximum wake vortex sinking of 1zw = 290 m, close to the observed value of 270 m.",
+  "The initial sinking from stage 0 to stage 1 is set to Cz1 = 0.25 times the maximum sinking 1zw.",
+  "The initial contrail depth is set to D1 = 0.5 times 1zw (CD0 = 0.5).",
+  "The initial ice mass I0 is computed as emitted water mass plus ambient humidity above ice saturation, and is set to zero if it becomes negative in dry air.",
+  "Without aircraft emissions, a plume starting at p0 = 250 hPa and T0 = 220 K with RHi = 1.5 must descend about 400 m to reach saturation.",
+  "The model's contrail ice mass is computed from pure thermodynamics by assuming the plume vapor is at ice saturation and the contrail is in thermal equilibrium with ambient air after formation."
+ ],
+ "entities": [
+  {
+   "name": "Contrail Cirrus Prediction Tool (CoCiP)",
+   "type": "program",
+   "role": "model described in the paper that simulates the full contrail life-cycle"
+  },
+  {
+   "name": "U. Schumann",
+   "type": "person",
+   "role": "author of the paper, affiliated with the Deutsches Zentrum fur Luft- und Raumfahrt"
+  },
+  {
+   "name": "Deutsches Zentrum fur Luft- und Raumfahrt",
+   "type": "organization",
+   "role": "German aerospace research institution where the author works (Institut fur Physik der Atmosphare, Oberpfaffenhofen)"
+  },
+  {
+   "name": "ECMWF",
+   "type": "organization",
+   "role": "European Center for Medium Range Weather Forecasts, source of Integrated Forecast System analysis data used for global studies"
+  },
+  {
+   "name": "COSMO-DE model",
+   "type": "program",
+   "role": "NWP model of the German Weather Service used as regional input for CoCiP"
+  },
+  {
+   "name": "Konopka-model",
+   "type": "program",
+   "role": "Gaussian plume model giving the exact solution of advection-diffusion equations for constant shear and diffusivities"
+  },
+  {
+   "name": "Probabilistic Two-Phase Aircraft Wake-Vortex Model (P2P)",
+   "type": "program",
+   "role": "model whose results were fitted to derive the wake vortex sinking parameterization"
+  },
+  {
+   "name": "Official Airline Guide (OAG)",
+   "type": "organization",
+   "role": "commercial source of aircraft type, airport-connection and schedule information used for global waypoint tracks"
+  },
+  {
+   "name": "Deutsche Flugsicherung (DFS)",
+   "type": "organization",
+   "role": "provided waypoint data for German airspace case studies in October–November 2008"
+  },
+  {
+   "name": "EUROCONTROL",
+   "type": "organization",
+   "role": "provided waypoint data for European and North Atlantic airspace and BADA aircraft data set"
+  },
+  {
+   "name": "CONCERT A380",
+   "type": "event",
+   "role": "measurement campaign observing the A380 wake, used as comparison case in the wake vortex sinking analysis"
+  },
+  {
+   "name": "Schmidt-Appleman criterion (SAC)",
+   "type": "other",
+   "role": "thermodynamic criterion used to decide whether a contrail forms along a flight"
+  }
+ ],
+ "tags": [
+  "contrails",
+  "aviation climate impact",
+  "atmospheric modeling",
+  "cirrus clouds",
+  "plume modeling",
+  "wake vortex"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13877,
+  "output_tokens": 1879
+ }
+}

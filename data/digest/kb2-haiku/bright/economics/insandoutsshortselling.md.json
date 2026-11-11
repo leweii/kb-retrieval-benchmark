@@ -1,0 +1,75 @@
+{
+ "summary": "This Charles Schwab article explains short selling: borrowing shares you expect to fall, selling them, and buying them back later to return them and keep the difference. It covers account requirements, borrowing costs, the locate rule that prohibits naked shorting, research approaches, stop orders, and a hypothetical trade plan. It closes by warning of risks including potentially limitless losses, short squeezes, fee changes, dividend obligations, and margin calls.",
+ "one_line": "Schwab guide explaining how short selling works, how to plan trades with stop orders, and the major risks involved.",
+ "key_facts": [
+  "Short selling involves borrowing a security whose price you think will fall, selling it on the open market, then buying it back later to return to the broker.",
+  "In the article's example, borrowing 100 shares at $50 and repurchasing them at $25 nets $2,500.",
+  "Short sellers must first establish a margin account to hold eligible assets like bonds, cash, mutual funds, or stocks as collateral.",
+  "Interest on the least liquid shares could come with an annualized interest rate of more than 100% of the value of the position.",
+  "The locate rule requires a broker to have a reasonable belief a security can be borrowed and delivered on a specific date before a short sale, aimed at preventing naked shorting.",
+  "Trailing buy-stops specify a stop price that trails the lowest price of a stock by a set percentage or dollar amount.",
+  "In the XYZ example, the trader enters a short only if the stock falls below $80, sets a buy-stop at $84, and exits at or below $74.",
+  "Shorting 100 shares of XYZ at $80 that rise to $100 would cost $10,000 to replace, a loss of $2,000.",
+  "A short squeeze occurs when a heavily shorted stock unexpectedly rises, forcing more short-sellers to buy and driving prices higher.",
+  "In one example, a short position's interest rate could surge from 20% to 85% overnight.",
+  "Short sellers must pay the value of any dividends on borrowed shares, which are deducted from their account on the pay date.",
+  "Margin equity requirements are usually 30% to 35% of the value of the borrowed shares, depending on the firm and securities.",
+  "With XYZ at $100, a 30% requirement on $10,000 would need $3,000, requiring an immediate $600 infusion.",
+  "The article's disclaimer states that short selling is an advanced strategy involving potentially unlimited risks and must be done in a margin account."
+ ],
+ "entities": [
+  {
+   "name": "Charles Schwab",
+   "type": "organization",
+   "role": "Publisher of the article; provider of brokerage, banking and financial advisory services"
+  },
+  {
+   "name": "Charles Schwab & Co., Inc.",
+   "type": "organization",
+   "role": "Broker-dealer subsidiary (\"Schwab\") registered with the SEC and member SIPC"
+  },
+  {
+   "name": "Charles Schwab Bank, SSB",
+   "type": "organization",
+   "role": "Banking subsidiary providing deposit and lending services, member FDIC"
+  },
+  {
+   "name": "Securities and Exchange Commission",
+   "type": "organization",
+   "role": "Regulator with which Charles Schwab & Co., Inc. is registered"
+  },
+  {
+   "name": "Lee Bohl",
+   "type": "person",
+   "role": "Author of the article, dated March 11, 2024"
+  },
+  {
+   "name": "OPEC+",
+   "type": "organization",
+   "role": "Group that maintained production cuts, as mentioned in a futures market update"
+  },
+  {
+   "name": "Blockbuster Video",
+   "type": "organization",
+   "role": "Example of an outdated business model for thematic short-selling"
+  },
+  {
+   "name": "XYZ",
+   "type": "product",
+   "role": "Hypothetical stock used in the article's trade-plan and risk examples"
+  }
+ ],
+ "tags": [
+  "short selling",
+  "margin trading",
+  "risk management",
+  "stop orders",
+  "brokerage",
+  "investing"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 5569,
+  "output_tokens": 1233
+ }
+}

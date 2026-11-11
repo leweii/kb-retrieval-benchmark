@@ -1,0 +1,75 @@
+{
+ "summary": "This note describes a multi-pitch analysis project that estimates the fundamental frequencies (F0s) of polyphonic audio and organizes them by source. It defines three levels of the task per MIREX (multi-pitch estimation, note tracking, and multi-pitch estimation with streaming) and describes a two-stage system that reaches the hardest level. Stage 1 uses a maximum likelihood model with iterative greedy search and reports comparisons against Klapuri'ISMIR06 and Pertusa'ICASSP08 on the Bach10 dataset; Stage 2 frames streaming as constrained clustering using timbral features and a novel constrained clustering algorithm.",
+ "one_line": "A two-stage system for multi-pitch estimation and streaming of polyphonic audio, using maximum likelihood estimation and constrained clustering.",
+ "key_facts": [
+  "Multi-pitch analysis estimates the frequency and number of pitches at each time frame in polyphonic audio and organizes them by source.",
+  "MIREX, an annual evaluation campaign for Music Information Retrieval algorithms, describes multi-pitch analysis at three levels.",
+  "Level 1 (easiest) is Multi-pitch Estimation, which estimates pitch values of all concurrent sources at each time frame without determining their sources.",
+  "Level 3 (hardest) is Multi-pitch Estimation and Streaming, which is also called timbre tracking.",
+  "The Stage 1 likelihood model is defined on both spectral peaks and non-peak regions, where non-peak regions are frequencies further than a musical quarter tone from all observed peaks.",
+  "Stage 1 parameters are learned from thousands of randomly-mixed block chords with different polyphony.",
+  "The polyphony estimation histogram in Figure 4 uses 1000 musical chords of each polyphony generated from the Iowa instrument note sample data set.",
+  "Each box in the Figure 3 comparison represents 330 data points, with each point corresponding to 1 second of audio on the Bach10 dataset.",
+  "The Stage 2 streaming approach uses harmonic structure as the timbral feature for musical instruments, following the authors' earlier paper DuanEtal'08.",
+  "For speech talkers, the authors explore MFCC and Uniform Discrete Cepstrum (UDC) features, where UDC is newly proposed and needs no source separation.",
+  "The Stage 2 must-link constraint assigns pitches that are close in both time and frequency to the same cluster.",
+  "The Stage 2 cannot-link constraint prevents (nearly) simultaneous pitches from being assigned to the same cluster.",
+  "The proposed constrained clustering algorithm strictly decreases the timbral objective function while the set of satisfied constraints non-strictly expands.",
+  "The example piece \"Ach Gott und Herr\" is a four-part J.S. Bach chorale played by violin, clarinet, saxophone and bassoon."
+ ],
+ "entities": [
+  {
+   "name": "MIREX",
+   "type": "event",
+   "role": "annual evaluation campaign for Music Information Retrieval (MIR) algorithms that defines three levels of multi-pitch analysis"
+  },
+  {
+   "name": "Bach10 dataset",
+   "type": "other",
+   "role": "dataset used for comparison results and the Ach Gott und Herr example"
+  },
+  {
+   "name": "Ach Gott und Herr",
+   "type": "product",
+   "role": "four-part J.S. Bach chorale used as the example piece, played by violin, clarinet, saxophone and bassoon"
+  },
+  {
+   "name": "Klapuri'ISMIR06",
+   "type": "other",
+   "role": "state-of-the-art system compared against the proposed method on Bach10"
+  },
+  {
+   "name": "Pertusa'ICASSP08",
+   "type": "other",
+   "role": "state-of-the-art system compared against the proposed method on Bach10"
+  },
+  {
+   "name": "Iowa instrument note sample data set",
+   "type": "other",
+   "role": "source of monophonic notes mixed to generate the polyphony test chords"
+  },
+  {
+   "name": "DuanEtal'08",
+   "type": "other",
+   "role": "previous paper showing harmonic structure is an appropriate timbral feature for musical instruments"
+  },
+  {
+   "name": "Cocktail party effect",
+   "type": "event",
+   "role": "auditory phenomenon that multi-pitch analysis is a step towards approaching"
+  }
+ ],
+ "tags": [
+  "multi-pitch analysis",
+  "music information retrieval",
+  "polyphonic audio",
+  "constrained clustering",
+  "pitch estimation",
+  "audio signal processing"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5371,
+  "output_tokens": 1460
+ }
+}

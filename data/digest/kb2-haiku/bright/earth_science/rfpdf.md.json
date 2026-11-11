@@ -1,0 +1,140 @@
+{
+ "summary": "This is the CRAN documentation for the R package RockFab, version 1.2.1 by Jeffrey R. Webber, licensed GPL and published 2022-06-23. It provides functions for three-dimensional rock fabric and strain analysis using the Rf/Phi, Fry, and normalized Fry methods, plus plotting (Flinn, Nadai, stereonet) and interactive 3D ellipsoid visualization. The note lists the package's topic index and the documented functions, their arguments, values, and references, including workflows that read Ellipsoid 2003 files and extract object parameters from sectional images.",
+ "one_line": "Documentation for the RockFab R package, which performs Rf/Phi, Fry, and normalized Fry rock strain analyses with plotting and 3D visualization tools.",
+ "key_facts": [
+  "RockFab is an R package of type Package, version 1.2.1, with author Jeffrey R. Webber and license GPL.",
+  "The RockFab package was published on CRAN with date/publication 2022-06-23 07:18:46 UTC.",
+  "RockFab provides functions to complete three-dimensional rock fabric and strain analyses following the Rf Phi, Fry, and normalized Fry methods.",
+  "RockFab imports rgl and EBImage and depends on methods.",
+  "ElliIn reads output files generated from the program Ellipsoid 2003 to create stereonets, Nadai plots, and interactive 3D ellipsoid models.",
+  "ElliOut writes an ASCII file formatted for Ellipsoid 2003 for ellipsoid fitting to sectional data.",
+  "EllipAxes takes octahedral shear strain (values must be positive) and Lode parameter (values between -1 and 1) and returns normalized axial lengths X, Y, and Z.",
+  "ElliView deforms a unit sphere based on fabric or strain ellipsoid parameters and opens an rgl device; obj.res defaults to 3.",
+  "FlinnPlot produces a standardized linear Flinn diagram from octahedral shear strains and Lode parameters, with max.k defaulting to 5.",
+  "NadaiPlot creates a standardized Nadai plot; its references cite Nadai, A. (1963) Theory of fracture and flow of solids.",
+  "FryObjective fits an ellipse to the central void using a deterministic least squares method, with default n.pass = 15 iterations and pie.step = 12.",
+  "ParEx reads an image file accepted by EBImage's readImage and returns a data frame of object location, eccentricity, and orientation parameters.",
+  "RfPhi applies the Rf/Phi technique following a Chi squared test for the most uniform distribution of object orientations, with weight.vec defaulting to TRUE and unit.area defaulting to 'px'.",
+  "StereoWeb creates an equal-area net to an existing stereographic projection with 10 degree cells; the stereonet functions are modified from the RFOC package by Jonathan M. Lees."
+ ],
+ "entities": [
+  {
+   "name": "RockFab",
+   "type": "program",
+   "role": "R package providing rock fabric and strain analysis tools, version 1.2.1"
+  },
+  {
+   "name": "Jeffrey R. Webber",
+   "type": "person",
+   "role": "author and maintainer of the RockFab package"
+  },
+  {
+   "name": "Ellipsoid 2003",
+   "type": "program",
+   "role": "external program whose output files ElliIn reads and whose compatible files ElliOut writes"
+  },
+  {
+   "name": "EBImage",
+   "type": "program",
+   "role": "R package imported by RockFab; its readImage and image routines are used by ParEx"
+  },
+  {
+   "name": "rgl",
+   "type": "program",
+   "role": "R package imported by RockFab for interactive 3D visualization"
+  },
+  {
+   "name": "ElliIn",
+   "type": "program",
+   "role": "function that reads Ellipsoid 2003 output files"
+  },
+  {
+   "name": "ElliOut",
+   "type": "program",
+   "role": "function that writes results to Ellipsoid 2003 compatible files"
+  },
+  {
+   "name": "EllipAxes",
+   "type": "program",
+   "role": "function that calculates ellipsoid axial lengths from octahedral shear strain and Lode parameter"
+  },
+  {
+   "name": "ElliView",
+   "type": "program",
+   "role": "interactive 3D fabric and strain ellipsoid visualization tool"
+  },
+  {
+   "name": "FlinnPlot",
+   "type": "program",
+   "role": "function producing a linear Flinn diagram"
+  },
+  {
+   "name": "NadaiPlot",
+   "type": "program",
+   "role": "function producing a Nadai plot for fabric and strain data"
+  },
+  {
+   "name": "FryData",
+   "type": "program",
+   "role": "function that determines Fry points and scales them to the central void region"
+  },
+  {
+   "name": "FryNormData",
+   "type": "program",
+   "role": "function that determines normalized Fry points and scales them to the central void region"
+  },
+  {
+   "name": "FryObjective",
+   "type": "program",
+   "role": "function that fits an objective ellipse to the central void"
+  },
+  {
+   "name": "FrySelect",
+   "type": "program",
+   "role": "interactive central void selection tool for Fry and normalized Fry techniques"
+  },
+  {
+   "name": "ParEx",
+   "type": "program",
+   "role": "parameter extraction tool for location, eccentricity, and orientation of objects from sectional image traces"
+  },
+  {
+   "name": "RfPhi",
+   "type": "program",
+   "role": "function determining Rs and corresponding parameters following the Rf/Phi method"
+  },
+  {
+   "name": "RfPhiParRead",
+   "type": "program",
+   "role": "function reading manual data collected for the Rf/Phi method"
+  },
+  {
+   "name": "StereoWeb",
+   "type": "program",
+   "role": "equal area stereonet grid plotter"
+  },
+  {
+   "name": "Fry, N. (1979)",
+   "type": "event",
+   "role": "reference for random point distributions and strain measurement in rocks"
+  },
+  {
+   "name": "Launeau, P. and P. Robin (2005)",
+   "type": "event",
+   "role": "reference on determining fabric and strain ellipsoids from measured sectional ellipses, cited for ElliIn and ElliOut"
+  }
+ ],
+ "tags": [
+  "structural geology",
+  "strain analysis",
+  "rock fabric",
+  "r package",
+  "stereonet",
+  "ellipsoid fitting"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11477,
+  "output_tokens": 1953
+ }
+}

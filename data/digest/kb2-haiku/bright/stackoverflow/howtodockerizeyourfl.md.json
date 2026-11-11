@@ -1,0 +1,81 @@
+{
+ "summary": "A Medium tutorial by Dinesh Kumar K B, published in Geek Culture on Sep 12, 2022, showing how to dockerize a minimalistic Flask application. It walks through a simple my_flask.py app with a /hello endpoint, a requirements.txt pinning flask==2.2.2, a Dockerfile based on python:3.9-slim-buster, building and running the image as myflaskapp, and pushing it to Docker Hub.",
+ "one_line": "Tutorial on containerizing a minimal Flask app with a Dockerfile, building and running the image, and pushing it to Docker Hub.",
+ "key_facts": [
+  "The tutorial's objective is to dockerise a minimalistic Flask application.",
+  "The example Flask app has a single endpoint /hello and the module is named my_flask.py.",
+  "The /hello endpoint returns jsonify({\"msg\": \"Hello from Flask\"}).",
+  "The requirements.txt file for the example contains flask==2.2.2.",
+  "The Dockerfile uses FROM python:3.9-slim-buster as its base image.",
+  "The Dockerfile sets WORKDIR /app, exposes port 5000, and sets ENV FLASK_APP=my_flask.py.",
+  "The Dockerfile CMD is [\"flask\", \"run\", \"--host\", \"0.0.0.0\"] so the server accepts requests from all hosts.",
+  "The image is built with the command docker build -t myflaskapp . and the trailing period is required.",
+  "After building, the myflaskapp:latest image is listed at 133MB in docker images.",
+  "The image is run with docker run -p 5000:5000 myflaskapp.",
+  "The article quotes Docker's definition: a container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.",
+  "Docker Hub is described as a hosted repository service provided by Docker for finding and sharing container images with your team.",
+  "Images are pushed to Docker Hub with the docker push command in the form docker push <username>/<reponame>:tagname.",
+  "The article notes that most organisations use JFrog artifactory to host internal Docker images.",
+  "The author is Dinesh Kumar K B, a Python Back-End Developer and CKAD holder, and the post is tagged Python, Flask, Docker, Dockerfiles and Dockerize."
+ ],
+ "entities": [
+  {
+   "name": "Dinesh Kumar K B",
+   "type": "person",
+   "role": "author of the Medium post and Python Back-End Developer, CKAD"
+  },
+  {
+   "name": "Geek Culture",
+   "type": "organization",
+   "role": "Medium publication in which the post was published"
+  },
+  {
+   "name": "my_flask.py",
+   "type": "program",
+   "role": "example minimal Flask application module with a /hello endpoint"
+  },
+  {
+   "name": "Flask",
+   "type": "product",
+   "role": "Python web framework used for the example application, pinned as flask==2.2.2"
+  },
+  {
+   "name": "Docker",
+   "type": "product",
+   "role": "containerization platform used to package and run the Flask app"
+  },
+  {
+   "name": "Docker Hub",
+   "type": "product",
+   "role": "hosted repository service for finding and sharing container images, used to host the app"
+  },
+  {
+   "name": "JFrog artifactory",
+   "type": "product",
+   "role": "tool most organisations use to host internal Docker images"
+  },
+  {
+   "name": "python:3.9-slim-buster",
+   "type": "product",
+   "role": "base image pulled from Docker Hub in the Dockerfile"
+  },
+  {
+   "name": "myflaskapp",
+   "type": "product",
+   "role": "name of the Docker image built and run from the Dockerfile"
+  }
+ ],
+ "tags": [
+  "flask",
+  "docker",
+  "dockerfile",
+  "containerization",
+  "python",
+  "docker hub"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 7687,
+  "output_tokens": 1183
+ }
+}

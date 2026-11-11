@@ -1,0 +1,93 @@
+{
+ "summary": "This Snowflake documentation page describes the ALTER SECURITY INTEGRATION command for modifying an existing External OAuth security integration. It gives the SET, UNSET, and SET TAG/UNSET TAG syntax and explains each parameter, including the OAuth authorization server type, issuer, token user mapping claim, JWS keys URL, RSA public keys, allowed and blocked roles, audience list, any-role mode, and scope delimiter. It also notes the default blocked privileged roles and includes a short example that re-enables a suspended integration.",
+ "one_line": "Snowflake reference for the ALTER SECURITY INTEGRATION command that modifies External OAuth security integrations, with parameter details and an example.",
+ "key_facts": [
+  "ALTER SECURITY INTEGRATION (External OAuth) modifies the properties of an existing security integration created for External OAuth.",
+  "The EXTERNAL_OAUTH_TYPE parameter accepts OKTA, AZURE, PING_FEDERATE, or CUSTOM.",
+  "EXTERNAL_OAUTH_SNOWFLAKE_USER_MAPPING_ATTRIBUTE accepts 'LOGIN_NAME' or 'EMAIL_ADDRESS' to map the access token to a Snowflake user record.",
+  "EXTERNAL_OAUTH_JWS_KEYS_URL specifies the endpoint from which to download public keys or certificates to validate an External OAuth access token.",
+  "For EXTERNAL_OAUTH_TYPE = AZURE, the JWS keys URL can be a list of endpoints, with a maximum of 3 URLs.",
+  "EXTERNAL_OAUTH_RSA_PUBLIC_KEY is a Base64-encoded RSA public key without the BEGIN and END PUBLIC KEY headers.",
+  "EXTERNAL_OAUTH_RSA_PUBLIC_KEY_2 specifies a second RSA public key used for key rotation.",
+  "By default, the EXTERNAL_OAUTH_BLOCKED_ROLES_LIST includes the ACCOUNTADMIN, ORGADMIN, and SECURITYADMIN roles.",
+  "The ALTER ACCOUNT parameter EXTERNAL_OAUTH_ADD_PRIVILEGED_ROLES_TO_BLOCKED_LIST can be set to FALSE to remove the privileged roles from the blocked list.",
+  "EXTERNAL_OAUTH_ANY_ROLE_MODE accepts DISABLE (default), ENABLE, or ENABLE_FOR_PRIVILEGE.",
+  "With ENABLE_FOR_PRIVILEGE, switching roles is allowed only for users holding the USE_ANY_ROLE privilege on the integration.",
+  "EXTERNAL_OAUTH_SCOPE_DELIMITER can be any single character, such as a comma or space, and is only supported for CUSTOM External OAuth integrations.",
+  "Support must be contacted via a Snowflake support case to enable the EXTERNAL_OAUTH_SCOPE_DELIMITER property in an account.",
+  "EXTERNAL_OAUTH_AUDIENCE_LIST adds values for access token audience validation on top of the Snowflake account URL, and multiple audience URLs are allowed for Custom integrations.",
+  "The TAG tag_value is always a string with a maximum of 256 characters.",
+  "The UNSET clause can reset ENABLED, EXTERNAL_OAUTH_AUDIENCE_LIST, and tags to their defaults.",
+  "The example ALTER SECURITY INTEGRATION myint SET ENABLED = TRUE; initiates operation of a suspended integration."
+ ],
+ "entities": [
+  {
+   "name": "ALTER SECURITY INTEGRATION",
+   "type": "program",
+   "role": "SQL command documented on this page for modifying an existing External OAuth security integration"
+  },
+  {
+   "name": "Okta",
+   "type": "organization",
+   "role": "OAuth 2.0 authorization server option for EXTERNAL_OAUTH_TYPE"
+  },
+  {
+   "name": "Microsoft Azure AD",
+   "type": "organization",
+   "role": "OAuth 2.0 authorization server option (AZURE) for EXTERNAL_OAUTH_TYPE"
+  },
+  {
+   "name": "Ping Identity PingFederate",
+   "type": "organization",
+   "role": "OAuth 2.0 authorization server option (PING_FEDERATE) for EXTERNAL_OAUTH_TYPE"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "system role blocked by default in EXTERNAL_OAUTH_BLOCKED_ROLES_LIST and caution-listed in allowed roles"
+  },
+  {
+   "name": "ORGADMIN",
+   "type": "other",
+   "role": "system role blocked by default in EXTERNAL_OAUTH_BLOCKED_ROLES_LIST and caution-listed in allowed roles"
+  },
+  {
+   "name": "SECURITYADMIN",
+   "type": "other",
+   "role": "system role blocked by default in EXTERNAL_OAUTH_BLOCKED_ROLES_LIST and caution-listed in allowed roles"
+  },
+  {
+   "name": "ALTER ACCOUNT",
+   "type": "program",
+   "role": "command used with EXTERNAL_OAUTH_ADD_PRIVILEGED_ROLES_TO_BLOCKED_LIST parameter to remove privileged roles from the blocked list"
+  },
+  {
+   "name": "USE_ANY_ROLE",
+   "type": "other",
+   "role": "privilege required for a client or user to switch roles when EXTERNAL_OAUTH_ANY_ROLE_MODE is ENABLE_FOR_PRIVILEGE"
+  },
+  {
+   "name": "Power BI SSO",
+   "type": "program",
+   "role": "scenario for which the audience list property has specific details, referenced in the note"
+  },
+  {
+   "name": "myint",
+   "type": "other",
+   "role": "example security integration whose ENABLED property is set to TRUE"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "oauth",
+  "security integration",
+  "authentication",
+  "alter command"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5602,
+  "output_tokens": 2080
+ }
+}

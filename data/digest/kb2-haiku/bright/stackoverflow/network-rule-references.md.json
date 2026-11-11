@@ -1,0 +1,58 @@
+{
+ "summary": "This note is documentation for the NETWORK_RULE_REFERENCES table function, an information schema function that lists associations of a network rule. It can return each object a given network rule is associated with, or each network rule associated with a given container (an external access integration or network policy). The page covers syntax, arguments, output columns (container_name, container_type, network_rule_name, action_type, database_name, schema_name), a usage note about not mixing argument sets, and two SQL examples run as network_admin.",
+ "one_line": "Documents the NETWORK_RULE_REFERENCES function, which lists network rule associations with objects or with integrations and network policies.",
+ "key_facts": [
+  "NETWORK_RULE_REFERENCES returns a row for each object with which the specified network rule is associated, or a row for each network rule associated with the specified container.",
+  "The NETWORK_RULE_NAME argument takes a string, and the entire network rule name must be enclosed in single quotes.",
+  "If a network rule name is case-sensitive or includes special characters or spaces, double quotes are required inside the single quotes, such as '\"name\"'.",
+  "CONTAINER_NAME specifies the name of the external access integration or network policy to which the network rule is associated.",
+  "CONTAINER_TYPE accepts either 'INTEGRATION' or 'NETWORK_POLICY' and specifies the object type (domain) to which the network rule is associated.",
+  "The output column container_name is a VARCHAR giving the name of the container to which the network policy is associated.",
+  "The output column container_type is a VARCHAR that is either NETWORK_POLICY or INTEGRATION.",
+  "The output column action_type is a VARCHAR that is either ALLOW or BLOCK.",
+  "Output columns also include network_rule_name, database_name (the database containing the network rule), and schema_name (the schema containing the network rule).",
+  "Usage notes state: Use one syntax or the other. Do not mix arguments.",
+  "The first example runs USE ROLE network_admin, USE DATABASE securitydb, and queries securitydb.INFORMATION_SCHEMA.NETWORK_RULE_REFERENCES with NETWORK_RULE_NAME => 'securitydb.myrules.cloud_rule'.",
+  "The second example queries the same function with CONTAINER_NAME => 'my_network_policy' and CONTAINER_TYPE => 'NETWORK_POLICY'."
+ ],
+ "entities": [
+  {
+   "name": "NETWORK_RULE_REFERENCES",
+   "type": "program",
+   "role": "Information schema table function documented on this page that returns network rule associations"
+  },
+  {
+   "name": "network_admin",
+   "type": "other",
+   "role": "Role used with USE ROLE in both examples"
+  },
+  {
+   "name": "securitydb",
+   "type": "other",
+   "role": "Database used in both examples, containing the network rule"
+  },
+  {
+   "name": "cloud_rule",
+   "type": "product",
+   "role": "Network rule named in the first example, in the myrules schema"
+  },
+  {
+   "name": "my_network_policy",
+   "type": "product",
+   "role": "Network policy container named in the second example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "network rules",
+  "information schema",
+  "network policy",
+  "security",
+  "sql functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2655,
+  "output_tokens": 1019
+ }
+}

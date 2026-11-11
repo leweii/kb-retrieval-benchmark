@@ -1,0 +1,47 @@
+{
+ "summary": "CILB-FM is a Canadian radio station that broadcasts a classic hits format at 103.5 FM in Lac La Biche, Alberta. It is branded as boom 103.5. The station was owned by Newcap Broadcasting until Stingray Digital bought it.",
+ "one_line": "CILB-FM is a classic hits radio station broadcasting at 103.5 FM in Lac La Biche, Alberta, branded as boom 103.5.",
+ "key_facts": [
+  "CILB-FM is a Canadian radio station.",
+  "CILB-FM broadcasts a classic hits format.",
+  "CILB-FM broadcasts at 103.5 FM.",
+  "CILB-FM is located in Lac La Biche, Alberta.",
+  "CILB-FM is branded as boom 103.5.",
+  "CILB-FM was owned by Newcap Broadcasting.",
+  "Newcap Broadcasting owned CILB-FM until it was bought out by Stingray Digital."
+ ],
+ "entities": [
+  {
+   "name": "CILB-FM",
+   "type": "product",
+   "role": "Canadian classic hits radio station broadcasting at 103.5 FM in Lac La Biche, Alberta"
+  },
+  {
+   "name": "Lac La Biche, Alberta",
+   "type": "place",
+   "role": "city where CILB-FM is located and broadcasts"
+  },
+  {
+   "name": "Newcap Broadcasting",
+   "type": "organization",
+   "role": "former owner of CILB-FM"
+  },
+  {
+   "name": "Stingray Digital",
+   "type": "organization",
+   "role": "company that bought out Newcap Broadcasting's ownership of CILB-FM"
+  }
+ ],
+ "tags": [
+  "radio",
+  "canadian radio",
+  "alberta",
+  "classic hits",
+  "broadcasting"
+ ],
+ "category": "music",
+ "usage": {
+  "input_tokens": 1074,
+  "output_tokens": 549
+ }
+}

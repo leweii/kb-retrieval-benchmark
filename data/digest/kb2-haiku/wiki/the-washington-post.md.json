@@ -1,0 +1,51 @@
+{
+ "summary": "The Washington Post is an American daily newspaper founded on December 6, 1877. It is the largest newspaper published in Washington, D.C., with a particular emphasis on national politics. The note also gives its slogan, \"Democracy Dies in Darkness,\" and says daily broadsheet editions are printed for the District of Columbia, Maryland, and Virginia.",
+ "one_line": "The Washington Post is an American daily newspaper founded in 1877, the largest in Washington, D.C., with a focus on national politics.",
+ "key_facts": [
+  "The Washington Post is an American daily newspaper.",
+  "The Washington Post was founded on December 6, 1877.",
+  "The Washington Post is the largest newspaper published in Washington, D.C., the capital city of the United States.",
+  "The Washington Post has a particular emphasis on national politics.",
+  "The slogan of The Washington Post is \"Democracy Dies in Darkness.\"",
+  "Daily broadsheet editions of The Washington Post are printed for the District of Columbia, Maryland, and Virginia."
+ ],
+ "entities": [
+  {
+   "name": "The Washington Post",
+   "type": "organization",
+   "role": "American daily newspaper founded on December 6, 1877, the largest newspaper published in Washington, D.C., with an emphasis on national politics"
+  },
+  {
+   "name": "Washington, D.C.",
+   "type": "place",
+   "role": "capital city of the United States where The Washington Post is the largest published newspaper"
+  },
+  {
+   "name": "District of Columbia",
+   "type": "place",
+   "role": "area for which daily broadsheet editions of The Washington Post are printed"
+  },
+  {
+   "name": "Maryland",
+   "type": "place",
+   "role": "state for which daily broadsheet editions of The Washington Post are printed"
+  },
+  {
+   "name": "Virginia",
+   "type": "place",
+   "role": "state for which daily broadsheet editions of The Washington Post are printed"
+  }
+ ],
+ "tags": [
+  "newspaper",
+  "journalism",
+  "washington d.c.",
+  "national politics",
+  "american media"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1107,
+  "output_tokens": 633
+ }
+}

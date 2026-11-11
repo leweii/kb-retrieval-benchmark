@@ -1,0 +1,101 @@
+{
+ "summary": "This is a course page from the University of Helsinki's O1 (CS-A1110) Scala programming course, Chapter 9.2 'Pairs and Maps', which has already ended. It explains how functions can effectively return two values using pairs and tuples, including the minutes-and-seconds example, the difference between pairs, tuples and collections, and tuple member access with _1 and _2. It then introduces key-value maps, using a Finnish-to-English dictionary as the running example, and covers Map operations such as get, update, add, remove, contains, keys, values and map. The page also contains exercises (toMinsAndSecs, YoungAndOldApp, isAscending) and quiz questions, and is cut off before the end.",
+ "one_line": "University of Helsinki O1 Scala course chapter on pairs, tuples, and key-value maps, with examples and exercises.",
+ "key_facts": [
+  "The chapter 'Chapter 9.2: Pairs and Maps' is part of week 9 of course CS-A1110 and is marked as an ended course.",
+  "The chapter lists 'Points Available: B25' and a rough workload estimate of two hours.",
+  "A pair is formed with brackets and a comma, for example (\"good thing\", \"another thing\"), and its members can have different static types.",
+  "The example toMinsAndSecs(187) returns (3,7), and the assignment asks students to implement toMinsAndSecs so that toMinsAndSecs(200) gives min 3 and s 20.",
+  "The chapter states that a pair's size is known in advance, so nameAndShoeSize(2) produces a compile-time error rather than a runtime crash.",
+  "Collections method splitAt(3) on Vector(3, 6, -1, -5, 3, -1, 2) returns (Vector(3, 6, -1), Vector(-5, 3, -1, 2)).",
+  "The zipWithIndex method on Vector(\"llama\", \"alpaca\", \"vicuña\") returns Vector((llama,0), (alpaca,1), (vicuña,2)).",
+  "The zip method stops at the shorter collection, so heights.zip(moreSpecies) yields only three pairs.",
+  "The isAscending assignment asks for a single short line of code that checks whether a vector of integers is in ascending order without sorting it, and suggests the methods zip, tail and forall.",
+  "The chapter says a tuple has distinct static types per member, is always immutable in size and content, and lacks the usual collection methods.",
+  "The chapter describes the key-value notation: \"koira\" -> \"dog\" produces the same pair as (\"koira\", \"dog\").",
+  "A Map is introduced with import scala.collection.mutable.Map, and the Finnish-to-English map is created as Map(\"kissa\" -> \"cat\", \"laama\" -> \"llama\", \"tapiiri\" -> \"tapir\", \"koira\" -> \"puppy\").",
+  "Map.get(\"Mikki-Hiiri\") returns None, while Map.get(\"kissa\") returns Some(cat), since get returns an Option of the value type.",
+  "The chapter notes that map keys must be unique, so assigning finnishToEnglish(\"koira\") = \"dog\" replaces the earlier pair \"koira\" -> \"puppy\".",
+  "The contains method checks only keys, so finnishToEnglish.contains(\"tapir\") does not search values."
+ ],
+ "entities": [
+  {
+   "name": "CS-A1110",
+   "type": "program",
+   "role": "Course in which this chapter appears (O1 Scala course), marked as already ended"
+  },
+  {
+   "name": "Chapter 9.2: Pairs and Maps",
+   "type": "program",
+   "role": "The course chapter this page presents, covering pairs, tuples and maps"
+  },
+  {
+   "name": "Chapter 9.1: Robots and Conditional Looping",
+   "type": "program",
+   "role": "Previous chapter in Week 9 of the course"
+  },
+  {
+   "name": "Chapter 9.3: Interactive Fiction and Code Quality",
+   "type": "program",
+   "role": "Next chapter in Week 9 of the course"
+  },
+  {
+   "name": "A+",
+   "type": "program",
+   "role": "Platform used for course exercise submission forms and language switching"
+  },
+  {
+   "name": "Miscellaneous",
+   "type": "program",
+   "role": "Module containing the exercise files for this chapter"
+  },
+  {
+   "name": "YoungAndOldApp",
+   "type": "program",
+   "role": "Mini-assignment app object in package o1.people that students complete by dividing a collection"
+  },
+  {
+   "name": "Programming Studio 2",
+   "type": "program",
+   "role": "Spring course referenced for more on case classes"
+  },
+  {
+   "name": "Scala",
+   "type": "product",
+   "role": "Programming language taught and used in the examples"
+  },
+  {
+   "name": "Map",
+   "type": "product",
+   "role": "Scala collection class storing key-value pairs, with mutable and immutable variants"
+  },
+  {
+   "name": "Juha",
+   "type": "person",
+   "role": "Example name used in the pair and tuple examples with shoe size 43"
+  },
+  {
+   "name": "Susan Student",
+   "type": "person",
+   "role": "Example student name paired with student ID 233524 as a key-value pair"
+  },
+  {
+   "name": "Sergio Leone",
+   "type": "person",
+   "role": "Example name used as a key with the value 5 in a key-value pair"
+  }
+ ],
+ "tags": [
+  "scala",
+  "pairs",
+  "tuples",
+  "maps",
+  "key-value",
+  "programming course"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13059,
+  "output_tokens": 1720
+ }
+}

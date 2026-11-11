@@ -1,0 +1,94 @@
+{
+ "summary": "This note is a clipped collection of MDN Web Docs reference pages for three methods of the browser Console API: console.debug(), console.countReset(), and console.time(). Each page describes what the static method does, its syntax and parameters, return value, examples where given, specification links, and related See also resources. The surrounding navigation menus, login prompts, footers and feedback widgets are boilerplate and were ignored.",
+ "one_line": "MDN reference pages for the console.debug(), console.countReset() and console.time() methods of the Console API.",
+ "key_facts": [
+  "console.debug() is a static method that outputs a message to the console at the \"debug\" log level.",
+  "The message from console.debug() is only displayed to the user if the console is configured to display debug output.",
+  "console.debug() may correspond to the Debug or Verbose log level in the console UI.",
+  "console.countReset() resets the counter used with console.count().",
+  "If label is omitted, console.countReset() resets the default counter to 0.",
+  "In the countReset example, the default counter output sequence ends with \"default: 0\" after console.countReset() is called.",
+  "Resetting the counter \"bob\" with console.countReset(\"bob\") does not change the value of the counter \"alice\".",
+  "console.time() starts a timer used to track how long an operation takes.",
+  "A page may have up to 10,000 timers running at once, according to the console.time() page.",
+  "console.timeEnd() with the same timer name outputs the elapsed time in milliseconds since the timer started.",
+  "If label is omitted, console.time() uses the label \"default\".",
+  "The debug(), countReset() and time() methods are noted as available in Web Workers.",
+  "Each method's specification is the Console Standard (console.spec.whatwg.org), with anchors #debug, #countreset and #time.",
+  "The console.debug() page was last modified on Mar 6, 2024, the console.countReset() page on Apr 4, 2024, and the console.time() page on Mar 6, 2024."
+ ],
+ "entities": [
+  {
+   "name": "console.debug()",
+   "type": "program",
+   "role": "static method that outputs a message to the console at the debug log level"
+  },
+  {
+   "name": "console.countReset()",
+   "type": "program",
+   "role": "static method that resets the counter used with console.count()"
+  },
+  {
+   "name": "console.time()",
+   "type": "program",
+   "role": "static method that starts a timer to track how long an operation takes"
+  },
+  {
+   "name": "console.count()",
+   "type": "program",
+   "role": "method whose counter is reset by console.countReset()"
+  },
+  {
+   "name": "console.timeEnd()",
+   "type": "program",
+   "role": "method that outputs elapsed time for a timer started with console.time()"
+  },
+  {
+   "name": "Console Standard",
+   "type": "program",
+   "role": "specification listed for the debug, countreset and time methods"
+  },
+  {
+   "name": "Web Workers",
+   "type": "program",
+   "role": "API context where these console methods are noted as available"
+  },
+  {
+   "name": "MDN Web Docs",
+   "type": "organization",
+   "role": "publisher of the clipped reference pages"
+  },
+  {
+   "name": "Microsoft Edge",
+   "type": "organization",
+   "role": "publisher of a documentation page linked for console.debug(), countReset() and time()"
+  },
+  {
+   "name": "Node.JS",
+   "type": "program",
+   "role": "runtime whose console documentation is linked in the See also sections"
+  },
+  {
+   "name": "Google Chrome",
+   "type": "organization",
+   "role": "publisher of a devtools console API documentation page linked in See also"
+  },
+  {
+   "name": "Mozilla Foundation",
+   "type": "organization",
+   "role": "parent of Mozilla Corporation mentioned in the page footer"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "web-apis",
+  "console-api",
+  "debugging",
+  "mdn-reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16483,
+  "output_tokens": 1148
+ }
+}

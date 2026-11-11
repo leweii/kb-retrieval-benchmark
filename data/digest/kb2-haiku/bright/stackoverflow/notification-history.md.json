@@ -1,0 +1,64 @@
+{
+ "summary": "This Snowflake documentation page describes the NOTIFICATION_HISTORY table function, which returns the history of notifications sent through Snowflake. It covers the optional arguments (start and end time, integration name, result limit), the output columns, and access rules. Only processed notifications, either sent or failed, appear, and queued ones do not. Two examples show how to query the last 24 hours and the last hour for a specific integration.",
+ "one_line": "Snowflake's NOTIFICATION_HISTORY table function returns processed notification records, with filters for time range, integration name and result limit.",
+ "key_facts": [
+  "NOTIFICATION_HISTORY is a table function that queries the history of notifications sent through Snowflake.",
+  "The function returns only processed notifications, meaning those that were sent out or failed; notifications in the queue are not shown.",
+  "All arguments to NOTIFICATION_HISTORY are optional: START_TIME, END_TIME, INTEGRATION_NAME and RESULT_LIMIT.",
+  "If START_TIME is not specified, the range starts 24 hours prior to END_TIME.",
+  "The maximum time range for START_TIME and END_TIME is 14 days.",
+  "INTEGRATION_NAME takes the fully qualified name of the integration; if omitted, the function returns all notifications, and its default is an empty string.",
+  "RESULT_LIMIT accepts integers from 1 to 10000 and defaults to 100.",
+  "Output columns are CREATED, PROCESSED, MESSAGE_SOURCE, INTEGRATION_NAME, MESSAGE, STATUS and ERROR_MESSAGE.",
+  "PROCESSED is the timestamp of the last attempt to send the notification.",
+  "STATUS is either SUCCESS or FAILURE, and ERROR_MESSAGE gives details when a notification failed.",
+  "MESSAGE_SOURCE values include SNOWPIPE for notifications from Snowpipe and email notifications sent by calling the SYSTEM$SEND_EMAIL stored procedure.",
+  "Results are returned only to the ACCOUNTADMIN role, the integration owner (role with OWNERSHIP on the integration), or a role with USAGE privilege on the integration.",
+  "The first example, select * from table(information_schema.notification_history()), retrieves notifications created in the past 24 hours.",
+  "The second example retrieves notifications from the past hour sent through the integration named MY_INTEGRATION, with RESULT_LIMIT set to 100."
+ ],
+ "entities": [
+  {
+   "name": "NOTIFICATION_HISTORY",
+   "type": "program",
+   "role": "Table function that queries the history of notifications sent through Snowflake"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Company whose platform sends the notifications described in the page"
+  },
+  {
+   "name": "SNOWPIPE",
+   "type": "product",
+   "role": "Snowflake feature whose notifications appear as a MESSAGE_SOURCE value"
+  },
+  {
+   "name": "SYSTEM$SEND_EMAIL",
+   "type": "program",
+   "role": "Stored procedure whose calls generate email notifications listed in the history"
+  },
+  {
+   "name": "MY_INTEGRATION",
+   "type": "program",
+   "role": "Example notification integration used in the second query example"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "Role that can always view notification history results"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "notifications",
+  "table-function",
+  "access-control",
+  "sql"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2643,
+  "output_tokens": 2072
+ }
+}

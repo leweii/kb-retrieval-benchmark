@@ -1,0 +1,46 @@
+{
+ "summary": "This note documents the OBJECT_DELETE function, which returns a copy of a source object with one or more specified keys removed. It covers the syntax, arguments, and usage rules, including that key arguments must be constants and that deleting a key absent from a structured OBJECT type causes the call to fail. It also explains how the returned object's type changes to exclude deleted keys and gives examples of the output, including an empty OBJECT() result.",
+ "one_line": "Reference for the OBJECT_DELETE function, which returns an object with specified keys removed, including type behavior and error cases.",
+ "key_facts": [
+  "OBJECT_DELETE returns an object containing the contents of the input source object with one or more keys removed.",
+  "The syntax is OBJECT_DELETE( <object>, <key1> [, <key2>, ... ]).",
+  "For the arguments that are keys, you must specify constants.",
+  "If the specified key is not part of the OBJECT type definition, the call fails.",
+  "Calling OBJECT_DELETE on {'city':'San Mateo','state':'CA'}::OBJECT(city VARCHAR,state VARCHAR) with key 'zip_code' fails with error 093201 (23001): Function OBJECT_DELETE: expected structured object to contain field zip_code but it did not.",
+  "Deleting the key 'city' from {'city':'San Mateo','state':'CA'} returns an OBJECT of the type OBJECT(state VARCHAR(16777216))[LOB] that does not include the city key.",
+  "If the function removes all keys from the object, it returns an empty structured OBJECT of the type OBJECT().",
+  "Deleting the key 'state' from {'state':'CA'}::OBJECT(state VARCHAR) returns {} with type OBJECT()[LOB].",
+  "When a structured OBJECT type includes key-value pairs, their names and types appear in parentheses, such as OBJECT(city VARCHAR).",
+  "Example: OBJECT_DELETE(OBJECT_CONSTRUCT('a', 1, 'b', 2, 'c', 3), 'a', 'b') returns {\"c\": 3}.",
+  "The function is in the Array/Object (semistructured) category and is listed under Array/Object Creation and Manipulation."
+ ],
+ "entities": [
+  {
+   "name": "OBJECT_DELETE",
+   "type": "program",
+   "role": "function documented in the note that returns an object with specified keys removed"
+  },
+  {
+   "name": "OBJECT_CONSTRUCT",
+   "type": "program",
+   "role": "function used in the example to build the input object with keys 'a', 'b', and 'c'"
+  },
+  {
+   "name": "SYSTEM$TYPEOF",
+   "type": "program",
+   "role": "function used in examples to show the structured type of the returned object"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "semistructured data",
+  "json",
+  "object manipulation",
+  "sql functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2409,
+  "output_tokens": 925
+ }
+}

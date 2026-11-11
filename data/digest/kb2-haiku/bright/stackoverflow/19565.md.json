@@ -1,0 +1,62 @@
+{
+ "summary": "This is a GitHub issue page from the boto project (issue #1956, opened by coreyo on Dec 28, 2013) reporting that boto.dynamodb.types.Binary's __str__ method can return a non-string value, causing a TypeError when printing debug values. Maintainer danielgtaylor explained that Binary is meant to wrap binary data strings, and a pull request #1963 was merged on Jan 2, 2014 requiring a string value to instantiate the Binary type, closing the issue. The surrounding GitHub navigation, footer and sign-in boilerplate was ignored.",
+ "one_line": "GitHub issue in boto where DynamoDB Binary's __str__ returned non-strings, fixed by requiring string input via PR #1963.",
+ "key_facts": [
+  "GitHub issue #1956 in the boto project was titled \"Binary object's __str__ method returns non string\".",
+  "coreyo opened the issue on Dec 28, 2013.",
+  "The issue reported that boto.dynamodb.types.Binary's __str__() does not always return a valid string, making debug printing cumbersome.",
+  "Calling str(Binary(1)) raised TypeError: __str__ returned non-string (type int).",
+  "Binary(1).__str__() returned 1, whose type was <type 'int'>.",
+  "danielgtaylor was assigned the issue on Jan 2, 2014.",
+  "danielgtaylor committed bca6d77 with the message \"Require a string value to instantiate Binary DynamoDB type\", fixing boto#1956.",
+  "Pull request #1963 titled \"Require a string value to instantiate Binary DynamoDB type\" was opened and merged.",
+  "danielgtaylor stated that the Binary type is meant to be used with strings of binary data.",
+  "Example given by danielgtaylor: str(Binary(\"\\x01\")) returns '\\x01' and Binary(\"\\x01\").encode() returns 'MHgwMQ=='.",
+  "The issue was closed as completed by danielgtaylor in #1963 on Jan 2, 2014.",
+  "The issue is labeled accepted and dynamodb, and has 2 participants."
+ ],
+ "entities": [
+  {
+   "name": "boto",
+   "type": "product",
+   "role": "Python library project in which the issue was filed; repository listed as boto/boto with 2.3k forks and 6.5k stars"
+  },
+  {
+   "name": "boto.dynamodb.types.Binary",
+   "type": "product",
+   "role": "DynamoDB Binary type whose __str__ method returned non-string values"
+  },
+  {
+   "name": "coreyo",
+   "type": "person",
+   "role": "opened issue #1956 reporting the __str__ problem on Dec 28, 2013"
+  },
+  {
+   "name": "danielgtaylor",
+   "type": "person",
+   "role": "assignee and maintainer who explained Binary's intended use and closed the issue via PR #1963"
+  },
+  {
+   "name": "Binary object's __str__ method returns non string #1956",
+   "type": "event",
+   "role": "GitHub issue reporting the non-string __str__ return value"
+  },
+  {
+   "name": "Require a string value to instantiate Binary DynamoDB type #1963",
+   "type": "event",
+   "role": "pull request that made Binary require a string value and was merged to fix the issue"
+  }
+ ],
+ "tags": [
+  "boto",
+  "dynamodb",
+  "python",
+  "github-issue",
+  "bug-fix"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3134,
+  "output_tokens": 1070
+ }
+}

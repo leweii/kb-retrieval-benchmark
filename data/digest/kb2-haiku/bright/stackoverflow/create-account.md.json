@@ -1,0 +1,67 @@
+{
+ "summary": "This is Snowflake reference documentation for the CREATE ACCOUNT SQL command, which creates a new account in an organization. It lists the syntax, required parameters (account name, admin name, admin password or RSA key, email, edition), and optional parameters (first/last name, must-change-password, region group, region, comment). It also covers the ORGADMIN access requirement, usage notes such as the 25-account default limit and DNS propagation delay, and two example statements.",
+ "one_line": "Snowflake reference for the CREATE ACCOUNT command, which creates a new account within an organization and its parameters.",
+ "key_facts": [
+  "The CREATE ACCOUNT command creates a new account in your organization.",
+  "Only organization administrators (users with the ORGADMIN role) can execute the CREATE ACCOUNT command.",
+  "The account name must be unique within an organization, regardless of which Snowflake Region the account is in.",
+  "The account name must start with an alphabetic character and cannot contain spaces or special characters except underscores.",
+  "ADMIN_NAME specifies the login name of the initial administrative user, who is granted the ACCOUNTADMIN role in the new account.",
+  "ADMIN_PASSWORD or ADMIN_RSA_PUBLIC_KEY must be specified; the password is optional if ADMIN_RSA_PUBLIC_KEY is specified.",
+  "EMAIL specifies the email address of the initial administrative user and is used to send any notifications about the account.",
+  "EDITION accepts STANDARD, ENTERPRISE, or BUSINESS_CRITICAL.",
+  "MUST_CHANGE_PASSWORD defaults to FALSE and specifies whether the new administrative user must change their password upon first login.",
+  "REGION_GROUP defaults to the current region group; REGION defaults to the current Snowflake Region.",
+  "By default, the maximum number of accounts in an organization cannot exceed 25, and this limit can be raised by contacting Snowflake Support.",
+  "It takes about 30 seconds for DNS changes to propagate before a newly created account can be accessed."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "cloud data platform whose CREATE ACCOUNT command is documented"
+  },
+  {
+   "name": "CREATE ACCOUNT",
+   "type": "program",
+   "role": "SQL command that creates a new account in an organization"
+  },
+  {
+   "name": "ORGADMIN",
+   "type": "other",
+   "role": "role required to execute the CREATE ACCOUNT command"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "role granted to the initial administrative user of the new account"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contacted to raise the default 25-account limit"
+  },
+  {
+   "name": "aws_us_west_2",
+   "type": "place",
+   "role": "Snowflake Region on Amazon Web Services used in the first example"
+  },
+  {
+   "name": "Amazon Web Services (AWS)",
+   "type": "organization",
+   "role": "cloud provider hosting the aws_us_west_2 Snowflake Region in the example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "account management",
+  "organization administration",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3143,
+  "output_tokens": 1028
+ }
+}

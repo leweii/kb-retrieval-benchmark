@@ -1,0 +1,69 @@
+{
+ "summary": "This is a reference page for the SHOW INTEGRATIONS SQL command, which lists the integrations in an account along with their metadata and properties. It describes the optional type filter (API, CATALOG, EXTERNAL ACCESS, NOTIFICATION, SECURITY, STORAGE), the optional case-insensitive LIKE pattern filter, the required USAGE or OWNERSHIP privilege on integrations, and the output columns. Examples show listing notification integrations and integrations whose names start with 'line'.",
+ "one_line": "Reference for the SHOW INTEGRATIONS SQL command, which lists account integrations with optional type and name filters.",
+ "key_facts": [
+  "The SHOW INTEGRATIONS command lists the integrations in your account and returns integration metadata and properties.",
+  "The syntax is SHOW [ { API | CATALOG | EXTERNAL ACCESS | NOTIFICATION | SECURITY | STORAGE } ] INTEGRATIONS [ LIKE '<pattern>' ].",
+  "The optional LIKE parameter filters output by object name using case-insensitive pattern matching with the SQL wildcards % and _.",
+  "The LIKE filter default is no value, meaning no filtering is applied to the output.",
+  "The LIKE patterns '%testing%' and '%TESTING%' return the same results because matching is case-insensitive.",
+  "The role executing the command must have at a minimum the USAGE privilege or the OWNERSHIP privilege on the Integration object.",
+  "OWNERSHIP is automatically granted to the role that created the object and can be transferred using the GRANT OWNERSHIP command by the owning role or any role with the MANAGE GRANTS privilege.",
+  "Only the type parameter (API, CATALOG, EXTERNAL ACCESS, NOTIFICATION, SECURITY, STORAGE) is supported as a usage note limitation, per the page.",
+  "The command does not require a running warehouse to execute.",
+  "Output columns are name, type, category, enabled, comment, and created_on.",
+  "The enabled column shows TRUE when the integration is enabled and FALSE when it is disabled.",
+  "The created_on column gives the date and time when the integration was created.",
+  "Example: SHOW NOTIFICATION INTEGRATIONS; shows all notification integrations.",
+  "Example: SHOW INTEGRATIONS LIKE 'line%'; shows all integrations whose name starts with 'line' that the user has privileges to view."
+ ],
+ "entities": [
+  {
+   "name": "SHOW INTEGRATIONS",
+   "type": "program",
+   "role": "SQL command documented on this page that lists integrations in the account"
+  },
+  {
+   "name": "API integrations",
+   "type": "product",
+   "role": "integration type listed under See also and as a filter parameter"
+  },
+  {
+   "name": "Catalog integrations",
+   "type": "product",
+   "role": "integration type listed under See also and as a filter parameter"
+  },
+  {
+   "name": "External access integrations",
+   "type": "product",
+   "role": "integration type listed under See also and as a filter parameter"
+  },
+  {
+   "name": "Notification integrations",
+   "type": "product",
+   "role": "integration type listed under See also and as a filter parameter"
+  },
+  {
+   "name": "Security integrations",
+   "type": "product",
+   "role": "integration type listed under See also and as a filter parameter"
+  },
+  {
+   "name": "Storage integrations",
+   "type": "product",
+   "role": "integration type listed under See also and as a filter parameter"
+  }
+ ],
+ "tags": [
+  "sql",
+  "integrations",
+  "show-command",
+  "access-control",
+  "metadata"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2278,
+  "output_tokens": 1125
+ }
+}

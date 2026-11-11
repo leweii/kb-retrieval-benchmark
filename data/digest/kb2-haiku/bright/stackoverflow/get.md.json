@@ -1,0 +1,74 @@
+{
+ "summary": "This is Snowflake documentation for the GET command, which downloads files from a Snowflake internal stage (named stage, table stage, or user stage) to a local directory on a client machine. It covers the syntax, required parameters (internalStage and file:// local path with Linux/macOS and Windows formatting rules), optional PARALLEL and PATTERN parameters, usage notes such as lack of support for external stages and no preservation of directory structure, and examples.",
+ "one_line": "Snowflake reference for the GET command, which downloads files from internal stages to a client machine's local directory.",
+ "key_facts": [
+  "The GET command downloads files from Snowflake internal stages to a local directory or folder on a client machine.",
+  "Supported internal stage types for GET are a named internal stage, an internal stage for a specified table, and an internal stage for the current user.",
+  "GET can be used to download data files after unloading data from a table using the COPY INTO location command.",
+  "The PARALLEL parameter sets the number of threads used for downloading, with supported values from 1 to 99.",
+  "The default value of PARALLEL is 10.",
+  "The PATTERN parameter takes a regular expression to filter files; by default all files in the specified stage are downloaded.",
+  "GET does not support downloading files from external stages; users must use utilities provided by their cloud service for that.",
+  "GET does not preserve stage directory structure when transferring files to the client machine.",
+  "The GET command does not rename files.",
+  "On Linux/macOS the local path must include the initial forward slash, for example file:///tmp/load.",
+  "On Windows the path must include the drive and backslash, for example file://C:temp/load, and enclosed URIs use forward slashes such as 'file://C:/temp/load data'.",
+  "If a filename is specified as part of the local path, the JDBC or ODBC driver creates a subdirectory with that filename instead of saving a file.",
+  "Example: GET @%mytable file:///tmp/data/; downloads all files in the stage for the mytable table to /tmp/data."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "cloud data platform whose internal stages the GET command downloads files from"
+  },
+  {
+   "name": "GET",
+   "type": "program",
+   "role": "command that downloads files from an internal stage to a local directory on a client machine"
+  },
+  {
+   "name": "COPY INTO location",
+   "type": "program",
+   "role": "command whose unloaded data files can be downloaded using GET"
+  },
+  {
+   "name": "JDBC driver",
+   "type": "program",
+   "role": "driver that treats a filename in the local path as part of the directory path, creating a subdirectory"
+  },
+  {
+   "name": "ODBC driver",
+   "type": "program",
+   "role": "driver that treats a filename in the local path as part of the directory path, creating a subdirectory"
+  },
+  {
+   "name": "Amazon Web Services",
+   "type": "organization",
+   "role": "cloud service provider listed with a minimum ODBC Driver Version of 2.17.5 in the usage notes"
+  },
+  {
+   "name": "Google Cloud Platform",
+   "type": "organization",
+   "role": "cloud service provider listed with a minimum ODBC Driver Version of 2.21.5 in the usage notes"
+  },
+  {
+   "name": "Microsoft Azure",
+   "type": "organization",
+   "role": "cloud service provider listed with a minimum ODBC Driver Version of 2.20.2 in the usage notes"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql-command",
+  "data-loading",
+  "stages",
+  "file-transfer",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3046,
+  "output_tokens": 1099
+ }
+}

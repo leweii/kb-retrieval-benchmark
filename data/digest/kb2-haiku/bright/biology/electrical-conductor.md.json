@@ -1,0 +1,92 @@
+{
+ "summary": "This note is a Wikipedia-style article on electrical conductors, explaining how charge carriers (mainly electrons in metals, but also ions and holes) carry current via momentum transfer, and how resistance depends on material, length and cross-sectional area. It covers conductivity and resistivity values for silver, copper and aluminum, the trade-offs of aluminum and copper wiring, factors affecting ampacity and temperature, and why pure organic compounds and pure water are poor conductors. It also notes skin and proximity effects at AC frequencies and briefly defines isotropic and anisotropic conductors.",
+ "one_line": "Overview of electrical conductors: how charge flows, how resistance depends on material and geometry, and the copper versus aluminum wiring trade-offs.",
+ "key_facts": [
+  "A conductor is an object or material that allows the flow of charge (electric current) in one or more directions.",
+  "Materials made of metal are common electrical conductors.",
+  "Metals possess a delocalized sea of electrons, giving electrons enough mobility to collide and transfer momentum, which is why metal is an ideal conductor.",
+  "For a given material, resistance is inversely proportional to cross-sectional area and proportional to length.",
+  "Resistivity is the reciprocal of conductivity: ρ = 1/σ, with resistivity measured in ohm-metres (Ω·m) and conductivity in siemens per metre (S/m).",
+  "Silver has a resistivity of 1.59 × 10^-8 Ω·m and a conductivity of 6.30 × 10^7 S/m at 20°C.",
+  "Copper has a resistivity of 1.68 × 10^-8 Ω·m and a conductivity of 5.96 × 10^7 S/m at 20°C.",
+  "The International Annealed Copper Standard conductivity is 58 MS/m, and annealed copper is the international standard to which other conductors are compared.",
+  "During World War II, 14,700 short tons (13,300 t) of silver on loan from the United States Treasury were used in making calutron magnets due to copper shortages.",
+  "Aluminum has about 61% of the conductivity of copper by cross-sectional area but is twice as conductive by mass, and is roughly one-third the cost of copper by weight.",
+  "Aluminum wiring forms an insulating oxide that makes connections heat up, and its larger thermal expansion coefficient than brass connectors causes connections to loosen.",
+  "Household wiring insulated with PVC is typically rated to about 60 °C, so current must be limited to avoid heating the copper conductor above 60 °C and causing a fire risk.",
+  "Increasing temperature increases phonons, which scatter electrons and reduce the current transferred.",
+  "Skin effect and proximity effect increase AC resistance, and at commercial power frequency these effects are significant for large conductors carrying more than a few hundred amperes.",
+  "Pure water is not an electrical conductor, but a small amount of ionic impurities such as salt can rapidly transform it into a conductor.",
+  "Octane, with 8 carbon atoms and 18 hydrogen atoms, cannot conduct electricity because its bonds are covalent and it forms no ions."
+ ],
+ "entities": [
+  {
+   "name": "Silver, Ag",
+   "type": "other",
+   "role": "metal with the highest conductivity listed, about 6% more conductive than copper, used in specialized equipment such as satellites"
+  },
+  {
+   "name": "Copper, Cu",
+   "type": "other",
+   "role": "metal with high conductivity used as the standard for electrical conductors; the most common choice for light-gauge wires"
+  },
+  {
+   "name": "Aluminum, Al",
+   "type": "other",
+   "role": "metal that is the most common in electric power transmission and distribution, with economic advantages for large conductors"
+  },
+  {
+   "name": "International Annealed Copper Standard",
+   "type": "other",
+   "role": "standard conductivity of 58 MS/m to which all other electrical conductors are compared"
+  },
+  {
+   "name": "Electrolytic-tough pitch (ETP) copper",
+   "type": "product",
+   "role": "main grade of copper used for electrical applications such as building wire, motor windings, cables and busbars"
+  },
+  {
+   "name": "Oxygen-free high conductivity copper",
+   "type": "product",
+   "role": "copper grade used where copper must be welded or brazed or used in a reducing atmosphere"
+  },
+  {
+   "name": "Drude model of conduction",
+   "type": "other",
+   "role": "model that describes the momentum transfer process of conduction more rigorously"
+  },
+  {
+   "name": "United States Treasury",
+   "type": "organization",
+   "role": "lender of silver used in making calutron magnets during World War II"
+  },
+  {
+   "name": "Calutron magnets",
+   "type": "product",
+   "role": "magnets made using 14,700 short tons of borrowed silver during World War II due to copper shortages"
+  },
+  {
+   "name": "American wire gauge",
+   "type": "other",
+   "role": "system used in North America to measure smaller conductors"
+  },
+  {
+   "name": "Stephen Gray",
+   "type": "person",
+   "role": "listed as the first to identify electrical conductors and insulators (in See also)"
+  }
+ ],
+ "tags": [
+  "electrical engineering",
+  "conductivity",
+  "resistance",
+  "copper",
+  "aluminum",
+  "wiring"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4424,
+  "output_tokens": 1653
+ }
+}

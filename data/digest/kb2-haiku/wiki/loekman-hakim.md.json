@@ -1,0 +1,56 @@
+{
+ "summary": "A short biographical note on Loekman Hakim, an Indonesian born in Cianjur, West Java, on December 30, 1975. It covers his parents, his position among five siblings, his father's job as a teacher at SMP 5 Bandung, and his marriage to Rika Nurhayati with two children.",
+ "one_line": "Biographical note on Loekman Hakim, born 1975 in Cianjur, West Java, with family background and marriage details.",
+ "key_facts": [
+  "Loekman Hakim was born in Cianjur, West Java, Indonesia.",
+  "Loekman Hakim was born on December 30, 1975.",
+  "His parents were Eman Sulaeman and Iis Martini.",
+  "Loekman Hakim is the third child of five siblings.",
+  "His father was a teacher at SMP 5 Bandung.",
+  "Loekman Hakim married Rika Nurhayati.",
+  "The note states that Loekman Hakim and Rika Nurhayati have two child."
+ ],
+ "entities": [
+  {
+   "name": "Loekman Hakim",
+   "type": "person",
+   "role": "subject of the note; born in Cianjur, West Java, on December 30, 1975"
+  },
+  {
+   "name": "Eman Sulaeman",
+   "type": "person",
+   "role": "father of Loekman Hakim, a teacher at SMP 5 Bandung"
+  },
+  {
+   "name": "Iis Martini",
+   "type": "person",
+   "role": "mother of Loekman Hakim"
+  },
+  {
+   "name": "Rika Nurhayati",
+   "type": "person",
+   "role": "wife of Loekman Hakim"
+  },
+  {
+   "name": "SMP 5 Bandung",
+   "type": "organization",
+   "role": "school where Loekman Hakim's father taught"
+  },
+  {
+   "name": "Cianjur",
+   "type": "place",
+   "role": "birthplace of Loekman Hakim in West Java, Indonesia"
+  }
+ ],
+ "tags": [
+  "biography",
+  "indonesia",
+  "family",
+  "west java"
+ ],
+ "category": "people",
+ "usage": {
+  "input_tokens": 1093,
+  "output_tokens": 602
+ }
+}

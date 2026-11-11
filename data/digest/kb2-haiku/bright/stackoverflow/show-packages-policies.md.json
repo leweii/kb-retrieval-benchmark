@@ -1,0 +1,56 @@
+{
+ "summary": "This page is Snowflake's reference for the SHOW PACKAGES POLICIES command, which lists packages policy information. It covers the optional IN SCHEMA scope syntax, the output columns (created_on, name, database_name, schema_name, kind, owner, comment, owner_role_type), and the privileges required, which are OWNERSHIP or USAGE on the packages policy. Usage notes say the command needs no running warehouse and that LIMIT rows cannot exceed 10000.",
+ "one_line": "Snowflake reference for the SHOW PACKAGES POLICIES command, covering its scope syntax, output columns, privileges, and row limit.",
+ "key_facts": [
+  "The SHOW PACKAGES POLICIES command lists packages policy information.",
+  "The optional IN clause accepts SCHEMA, SCHEMA <schema_name>, or <schema_name> to set the command's scope.",
+  "If no database is in use, specifying SCHEMA has no effect on the output.",
+  "The output column created_on gives the date and time when the policy was created.",
+  "The output column owner_role_type is either ROLE or DATABASE_ROLE, and returns APPLICATION if a Snowflake Native App owns the object.",
+  "Snowflake returns NULL for owner_role_type if the object was deleted, because a deleted object does not have an owner role.",
+  "Running SHOW PACKAGES POLICIES requires OWNERSHIP or USAGE privilege on the packages policy.",
+  "OWNERSHIP is automatically granted to the role that created the object but can be transferred using the role with the MANAGE GRANTS privilege.",
+  "USAGE on a packages policy also grants the ability to execute a SHOW or DESCRIBE command on the packages policy.",
+  "Operating on any object in a schema also requires USAGE privilege on the parent database and schema.",
+  "The command does not require a running warehouse to execute.",
+  "The value for LIMIT rows cannot exceed 10000.",
+  "If LIMIT rows is omitted, the command results in an error when the result set is larger than 10K rows.",
+  "Results with more than 10K records can be viewed by including LIMIT rows or by querying the corresponding view in the Snowflake Information Schema.",
+  "The example statement is SHOW PACKAGES POLICIES;"
+ ],
+ "entities": [
+  {
+   "name": "SHOW PACKAGES POLICIES",
+   "type": "program",
+   "role": "Snowflake command that lists packages policy information"
+  },
+  {
+   "name": "Packages policy",
+   "type": "product",
+   "role": "policy object whose information the command lists and whose privileges are required"
+  },
+  {
+   "name": "Snowflake Information Schema",
+   "type": "product",
+   "role": "view source where results over 10K records can be queried"
+  },
+  {
+   "name": "Snowflake Native App",
+   "type": "product",
+   "role": "owner type that yields APPLICATION in owner_role_type"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "show-command",
+  "packages-policy",
+  "access-control",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2376,
+  "output_tokens": 952
+ }
+}

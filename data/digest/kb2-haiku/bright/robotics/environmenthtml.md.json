@@ -1,0 +1,114 @@
+{
+ "summary": "This page is the rospkg v0.2.0 documentation section on ROS environment variable access. It lists the ROS package-related environment variables (ROS_PACKAGE_PATH, ROS_ROOT, ROS_HOME, ROS_LOG_DIR, ROS_TEST_RESULTS_DIR) and describes the rospkg helper functions that read them, with fallback defaults when overrides are not set. Navigation and site boilerplate were ignored.",
+ "one_line": "Documentation for rospkg's functions and environment variables (ROS_ROOT, ROS_HOME, ROS_LOG_DIR and others) used to locate ROS package paths, logs and test results.",
+ "key_facts": [
+  "The rospkg environment APIs provide access to ROS package-related environment variables, including methods that supply default values when environment variable overrides are not active.",
+  "The documented environment variables are ROS_PACKAGE_PATH, ROS_ROOT, ROS_HOME, ROS_LOG_DIR and ROS_TEST_RESULTS_DIR.",
+  "get_ros_root(env=None) returns a str and gets the current ROS_ROOT.",
+  "get_ros_package_path(env=None) gets the current ROS_PACKAGE_PATH.",
+  "get_ros_home(env=None) returns a str giving the location of the .ros directory, also known as ROS_HOME.",
+  "For get_ros_home, the ROS_LOG_DIR environment variable has priority; if it is not set, ROS_HOME/log is used, and if ROS_HOME is not set, $HOME/.ros/log is used.",
+  "get_log_dir(env=None) returns a str giving the directory for writing log files, using the same priority order as get_ros_home: ROS_LOG_DIR, then ROS_HOME/log, then $HOME/.ros/log.",
+  "get_test_results_dir(env=None) returns a str giving the directory for writing test result files.",
+  "For get_test_results_dir, if ROS_TEST_RESULTS_DIR is set it is returned; otherwise ROS_HOME/test_results is used, and if ROS_HOME is not set, $HOME/.ros/test_results is used.",
+  "on_ros_path(p, env=None) returns a bool indicating whether a filesystem path is on the paths specified in the ROS environment (ROS_ROOT, ROS_PACKAGE_PATH).",
+  "Each function that takes an env parameter accepts an override environment dictionary.",
+  "The documentation is copyright 2011 by Willow Garage and was created using Sphinx 1.0.7.",
+  "The previous topic in this documentation is 'ROS stack access' and the next topic is 'OS detection'."
+ ],
+ "entities": [
+  {
+   "name": "rospkg",
+   "type": "program",
+   "role": "Python library whose environment APIs provide access to ROS package-related environment variables"
+  },
+  {
+   "name": "ROS_PACKAGE_PATH",
+   "type": "other",
+   "role": "ROS environment variable naming the package search path; read by get_ros_package_path and on_ros_path"
+  },
+  {
+   "name": "ROS_ROOT",
+   "type": "other",
+   "role": "ROS environment variable; returned by get_ros_root and checked by on_ros_path"
+  },
+  {
+   "name": "ROS_HOME",
+   "type": "other",
+   "role": "ROS environment variable giving the .ros directory location; falls back to $HOME/.ros"
+  },
+  {
+   "name": "ROS_LOG_DIR",
+   "type": "other",
+   "role": "ROS environment variable for the log file directory; takes priority in get_log_dir and get_ros_home"
+  },
+  {
+   "name": "ROS_TEST_RESULTS_DIR",
+   "type": "other",
+   "role": "ROS environment variable for the test result files directory; used by get_test_results_dir"
+  },
+  {
+   "name": "get_ros_root",
+   "type": "other",
+   "role": "Function that gets the current ROS_ROOT"
+  },
+  {
+   "name": "get_ros_package_path",
+   "type": "other",
+   "role": "Function that gets the current ROS_PACKAGE_PATH"
+  },
+  {
+   "name": "get_ros_home",
+   "type": "other",
+   "role": "Function that gets the directory location of the .ros directory (ROS_HOME)"
+  },
+  {
+   "name": "get_log_dir",
+   "type": "other",
+   "role": "Function that gets the directory for writing log files"
+  },
+  {
+   "name": "get_test_results_dir",
+   "type": "other",
+   "role": "Function that gets the directory for writing test result files"
+  },
+  {
+   "name": "on_ros_path",
+   "type": "other",
+   "role": "Function that checks whether a filesystem path is on the ROS paths (ROS_ROOT, ROS_PACKAGE_PATH)"
+  },
+  {
+   "name": "Willow Garage",
+   "type": "organization",
+   "role": "Copyright holder of the rospkg documentation (2011)"
+  },
+  {
+   "name": "Sphinx",
+   "type": "program",
+   "role": "Documentation tool used to build the page (version 1.0.7)"
+  },
+  {
+   "name": "ROS stack access",
+   "type": "other",
+   "role": "Previous topic in the documentation navigation"
+  },
+  {
+   "name": "OS detection",
+   "type": "other",
+   "role": "Next topic in the documentation navigation"
+  }
+ ],
+ "tags": [
+  "ros",
+  "rospkg",
+  "environment variables",
+  "python",
+  "documentation",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2854,
+  "output_tokens": 1674
+ }
+}

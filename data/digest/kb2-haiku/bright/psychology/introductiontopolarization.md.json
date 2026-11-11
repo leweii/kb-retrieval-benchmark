@@ -1,0 +1,80 @@
+{
+ "summary": "This Edmund Optics application note introduces polarization of light and its practical role in optical design. It explains unpolarized, linear, circular and elliptical polarization, p- and s-polarization, and how polarizers and waveplates manipulate polarization. It then surveys applications including glare and hot-spot reduction, contrast and color enhancement, stress evaluation in glass and plastic, chemical identification via stereoisomers, and polarization microscopy.",
+ "one_line": "Edmund Optics application note introducing light polarization types, polarizer and waveplate manipulation, and imaging, stress-analysis, chemical and microscopy applications.",
+ "key_facts": [
+  "Light is called unpolarized if the direction of its electric field fluctuates randomly in time.",
+  "The most common source of polarized light is a laser.",
+  "Circular polarization consists of two perpendicular linear components of equal amplitude with a phase difference of π/2.",
+  "P-polarized light has an electric field parallel to the plane of incidence, while s-polarized light is perpendicular to this plane.",
+  "Brewster's angle is a specific angle of incidence under which only s-polarized light is reflected.",
+  "An ideal linear polarizer reduces the initial unpolarized intensity I0 by half, giving I = I0/2.",
+  "Malus' law states that transmitted intensity through an ideal polarizer is I = I0 cos²θ, where θ is the angle between the incident linear polarization and the polarization axis.",
+  "Ideal waveplates modify existing polarizations without attenuating, deviating, or displacing the beam by retarding one polarization component relative to its orthogonal component.",
+  "In Figure 5, a linear polarizer in front of a machine vision camera lens removed glare so an electronic chip could be clearly seen.",
+  "Unstressed clear objects between crossed polarizers should yield a completely dark field, while internal material stress rotates polarization and produces transmission variations.",
+  "Stereoisomers are molecular compounds with the same type and number of atoms but different molecular arrangements, and they rotate polarized light in different directions.",
+  "The stereoisomer limonene is the chemical that gives oranges and lemons their characteristic scents.",
+  "In a simple polarization microscope, the analyzer is rotated until its polarization plane is 90° from the polarizer, giving minimum transmission.",
+  "A Michel-Levy interference color chart relates the color of a birefringent material to its birefringence and thickness."
+ ],
+ "entities": [
+  {
+   "name": "Edmund Optics",
+   "type": "organization",
+   "role": "publisher of the application note and provider of polarization optics such as polarizers, waveplates and polarizing beamsplitters"
+  },
+  {
+   "name": "Introduction to Polarization",
+   "type": "other",
+   "role": "title of the application note in the Edmund Optics Knowledge Center"
+  },
+  {
+   "name": "Malus' law",
+   "type": "other",
+   "role": "law describing intensity transmitted through an ideal polarizer as I = I0 cos²θ"
+  },
+  {
+   "name": "Brewster's angle",
+   "type": "other",
+   "role": "angle of incidence under which only s-polarized light is reflected"
+  },
+  {
+   "name": "Michel-Levy interference chart",
+   "type": "other",
+   "role": "chart relating color of a birefringent material to its birefringence and thickness"
+  },
+  {
+   "name": "Understanding Waveplates",
+   "type": "program",
+   "role": "linked resource to help choose the best waveplate for an application"
+  },
+  {
+   "name": "Polarizer Selection Guide",
+   "type": "program",
+   "role": "linked resource on which type of polarizer suits an application"
+  },
+  {
+   "name": "limonene",
+   "type": "product",
+   "role": "stereoisomer that gives oranges and lemons their characteristic scents"
+  },
+  {
+   "name": "Edmund Optics Headquarters",
+   "type": "place",
+   "role": "building photographed to show sky, grass and foliage color changes with a polarizer"
+  }
+ ],
+ "tags": [
+  "polarization",
+  "optics",
+  "waveplates",
+  "polarizers",
+  "microscopy",
+  "imaging"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8838,
+  "output_tokens": 1270
+ }
+}

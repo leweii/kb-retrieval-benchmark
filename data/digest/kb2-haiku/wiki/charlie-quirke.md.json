@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short stub about Charlie Quirke, identified as a British actor. It states his best-known role is Travis Stubbs in the ITV sitcom Birds of a Feather. No further biographical details are given.",
+ "one_line": "Charlie Quirke is a British actor best known for playing Travis Stubbs in the ITV sitcom Birds of a Feather.",
+ "key_facts": [
+  "Charlie Quirke is a British actor.",
+  "Charlie Quirke is best known for playing Travis Stubbs.",
+  "Travis Stubbs is a character in the ITV sitcom Birds of a Feather.",
+  "Birds of a Feather is an ITV sitcom."
+ ],
+ "entities": [
+  {
+   "name": "Charlie Quirke",
+   "type": "person",
+   "role": "British actor, best known for playing Travis Stubbs in Birds of a Feather"
+  },
+  {
+   "name": "Travis Stubbs",
+   "type": "other",
+   "role": "character played by Charlie Quirke in the ITV sitcom Birds of a Feather"
+  },
+  {
+   "name": "Birds of a Feather",
+   "type": "program",
+   "role": "ITV sitcom in which Charlie Quirke played Travis Stubbs"
+  },
+  {
+   "name": "ITV",
+   "type": "organization",
+   "role": "broadcaster of the sitcom Birds of a Feather"
+  }
+ ],
+ "tags": [
+  "actor",
+  "british television",
+  "sitcom",
+  "birds of a feather",
+  "itv"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 1032,
+  "output_tokens": 455
+ }
+}

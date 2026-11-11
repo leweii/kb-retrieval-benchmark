@@ -1,0 +1,50 @@
+{
+ "summary": "WIZE (1340 AM, branded WIZE AM 1340) is a commercial radio station in Springfield, Ohio, owned by iHeartMedia, Inc. as part of its Dayton cluster. The station broadcasts a classic country format aimed at Springfield listeners. Its transmitter and former studios are also located in Springfield.",
+ "one_line": "WIZE (1340 AM) is a classic country radio station in Springfield, Ohio, owned by iHeartMedia as part of its Dayton cluster.",
+ "key_facts": [
+  "WIZE is a commercial radio station broadcasting on 1340 AM.",
+  "The station is branded as WIZE AM 1340.",
+  "WIZE is located in Springfield, Ohio.",
+  "WIZE is owned by iHeartMedia, Inc.",
+  "WIZE is part of iHeartMedia's Dayton cluster.",
+  "The station's main format is classic country.",
+  "The station's format is targeted towards Springfield.",
+  "The WIZE transmitter is located in Springfield, Ohio.",
+  "WIZE's former studios are located in Springfield, Ohio."
+ ],
+ "entities": [
+  {
+   "name": "WIZE",
+   "type": "product",
+   "role": "commercial radio station (1340 AM), branded WIZE AM 1340, broadcasting classic country in Springfield, Ohio"
+  },
+  {
+   "name": "iHeartMedia, Inc.",
+   "type": "organization",
+   "role": "owner of WIZE as part of its Dayton cluster"
+  },
+  {
+   "name": "Springfield, Ohio",
+   "type": "place",
+   "role": "city where WIZE is licensed, where its transmitter and former studios are located, and which its format targets"
+  },
+  {
+   "name": "Dayton cluster",
+   "type": "other",
+   "role": "iHeartMedia radio station group to which WIZE belongs"
+  }
+ ],
+ "tags": [
+  "radio",
+  "am radio",
+  "classic country",
+  "springfield ohio",
+  "iheartmedia",
+  "broadcasting"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1089,
+  "output_tokens": 624
+ }
+}

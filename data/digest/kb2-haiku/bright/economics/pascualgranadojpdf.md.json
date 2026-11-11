@@ -1,0 +1,115 @@
+{
+ "summary": "This paper, from the Proceedings of the XI Scientific Meeting of the Spanish Astronomical Society (Teruel, 2014), introduces MIARMA, a gap-filling method for astronomical time series that uses local ARMA models with forward-backward prediction to preserve the frequency content of the signal. The authors argue that linear interpolation, commonly used on CoRoT data, biases power spectra with orbital aliases, while MIARMA removes these effects. They test the method on three CoRoT stars: the delta Scuti star HD 174966, the Be star HD 51193, and the solar-like star HD 49933. The method was accepted by the CoRoT Scientific Committee for implementation in the next data correction.",
+ "one_line": "MIARMA is an ARMA-based gap-filling method that preserves the frequency content of CoRoT stellar light curves better than linear interpolation.",
+ "key_facts": [
+  "MIARMA stands for Method of Interpolation by Autoregressive and Moving Average and was introduced by J. Pascual-Granado, R. Garrido, and J. C. Suárez.",
+  "The paper was presented at the XI Scientific Meeting of the Spanish Astronomical Society held September 8–12, 2014, in Teruel, Spain.",
+  "MIARMA selects the ARMA model order using the Akaike Information Criterion (AIC).",
+  "The method fits local ARMA models to the data segments before and after each gap and interpolates the gap with a weighted forward and backward prediction.",
+  "The abstract states that MIARMA can recover signal that no analytic interpolation method can.",
+  "The method was accepted by the CoRoT Scientific Committee for implementation in the next correction of the data.",
+  "Wold's theorem is cited as the basis for representing any stationary signal as a deterministic (AR) plus stochastic (MA) process.",
+  "For HD 174966, a delta Scuti star, the paper reports that linear interpolation leaves the power spectrum seriously affected by the CoRoT spectral window, while ARMA interpolation eliminates these effects.",
+  "For HD 51193, a Be star, the power spectrum from linearly interpolated data is clearly biased by the CoRoT orbital frequency of 13.97 cycles per day.",
+  "The solar-like star HD 49933 has gaps of most frequent length 9 minutes, with some gaps lasting up to 0.2 days, and very high noise.",
+  "For HD 49933, the paper finds non-negligible and non-systematic amplitude differences between ARMA and linear interpolation spectra.",
+  "The passing of the South Atlantic Anomaly (SAA) introduces most of the invalid data gaps in CoRoT observations.",
+  "The work was supported by project AYA2012-39346-C02-01 of the Plan Nacional de Investigación in Spain.",
+  "The authors are affiliated with the Instituto de Astrofísica de Andalucía (CSIC) and the University of Granada."
+ ],
+ "entities": [
+  {
+   "name": "MIARMA",
+   "type": "program",
+   "role": "gap-filling method using Autoregressive Moving Average models, introduced in this paper"
+  },
+  {
+   "name": "J. Pascual-Granado",
+   "type": "person",
+   "role": "author, affiliated with Instituto de Astrofísica de Andalucía (CSIC)"
+  },
+  {
+   "name": "R. Garrido",
+   "type": "person",
+   "role": "author, affiliated with Instituto de Astrofísica de Andalucía (CSIC)"
+  },
+  {
+   "name": "J. C. Suárez",
+   "type": "person",
+   "role": "author, affiliated with Instituto de Astrofísica de Andalucía (CSIC) and University of Granada"
+  },
+  {
+   "name": "Instituto de Astrofísica de Andalucía (CSIC)",
+   "type": "organization",
+   "role": "affiliation of the authors"
+  },
+  {
+   "name": "University of Granada (UGR)",
+   "type": "organization",
+   "role": "affiliation of J. C. Suárez, Dept. Theoretical Physics and Cosmology"
+  },
+  {
+   "name": "CoRoT",
+   "type": "program",
+   "role": "space mission whose seismofield data and light curves are analyzed"
+  },
+  {
+   "name": "Kepler",
+   "type": "program",
+   "role": "space mission that observed a large sample of stars for transit detection and asteroseismology"
+  },
+  {
+   "name": "Akaike Information Criterion (AIC)",
+   "type": "other",
+   "role": "statistical criterion used to select the ARMA model order"
+  },
+  {
+   "name": "HD 174966",
+   "type": "other",
+   "role": "δScuti star used as a paradigmatic case of pulsation frequencies close to the satellite orbital frequency"
+  },
+  {
+   "name": "HD 51193",
+   "type": "other",
+   "role": "Be star showing longer time variations, with power spectrum biased by the CoRoT orbital frequency"
+  },
+  {
+   "name": "HD 49933",
+   "type": "other",
+   "role": "solar-like star with rapid time variations and high noise, used to test MIARMA"
+  },
+  {
+   "name": "XI Scientific Meeting of the Spanish Astronomical Society",
+   "type": "event",
+   "role": "conference where the proceedings were presented, held in Teruel, Spain, 2014"
+  },
+  {
+   "name": "Wold's theorem",
+   "type": "other",
+   "role": "theorem stating any stationary signal can be represented as deterministic plus stochastic process"
+  },
+  {
+   "name": "South Atlantic Anomaly (SAA)",
+   "type": "place",
+   "role": "region whose passage introduces most invalid data gaps in CoRoT observations"
+  },
+  {
+   "name": "Plan Nacional de Investigación",
+   "type": "program",
+   "role": "Spanish national research plan funding project AYA2012-39346-C02-01"
+  }
+ ],
+ "tags": [
+  "gap-filling",
+  "time series analysis",
+  "asteroseismology",
+  "ARMA models",
+  "CoRoT",
+  "power spectrum aliasing"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5526,
+  "output_tokens": 1860
+ }
+}

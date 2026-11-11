@@ -1,0 +1,125 @@
+{
+ "summary": "This is a partial API reference page for the pyTelegramBotAPI (telebot) Python library, covering the TeleBot class constructor parameters and many of its methods. It documents the TeleBot constructor options, handler decorators (callback query, channel post, chat boost, chat join request, chat member, chosen inline), and bot methods such as add_sticker_to_set, answer_callback_query, answer_inline_query, ban_chat_member, copy_message and create_chat_invite_link, plus helper classes ExceptionHandler and Handler. The page is truncated before the end of the create_forum_topic entry.",
+ "one_line": "Partial API reference for the telebot (pyTelegramBotAPI) Python library's TeleBot class constructor, handler decorators and bot methods.",
+ "key_facts": [
+  "telebot.TeleBot's token parameter is a str that should be obtained from @BotFather.",
+  "TeleBot's threaded parameter defaults to True and num_threads defaults to 2.",
+  "TeleBot's skip_pending parameter defaults to False and skips pending updates.",
+  "TeleBot's colorful_logs parameter requires the coloredlogs module to be installed to use colorful_logs=True.",
+  "The telebot.REPLY_MARKUP_TYPES alias is a Union of InlineKeyboardMarkup, ReplyKeyboardMarkup, ReplyKeyboardRemove and ForceReply.",
+  "ExceptionHandler is a class for handling exceptions while Polling, with a handle(exception) method.",
+  "Handler is a class for (next step|reply) handlers and takes a callback plus *args and **kwargs.",
+  "add_sticker_to_set states that emoji sticker sets can have up to 200 stickers, animated and video sticker sets up to 50, and static sticker sets up to 120.",
+  "The png_sticker parameter of add_sticker_to_set must be up to 512 kilobytes in size with dimensions not exceeding 512px.",
+  "answer_callback_query's cache_time parameter is the maximum time in seconds the callback query result may be cached client-side and defaults to 0.",
+  "answer_inline_query allows no more than 50 results per query.",
+  "answer_pre_checkout_query requires the Bot API to receive an answer within 10 seconds after the pre-checkout query was sent.",
+  "ban_chat_member treats a user banned for more than 366 days or less than 30 seconds from the current time as banned forever.",
+  "approve_chat_join_request requires the bot to be an administrator with the can_invite_users right.",
+  "close() returns error 429 in the first 10 minutes after the bot is launched and requires the webhook to be deleted first."
+ ],
+ "entities": [
+  {
+   "name": "telebot",
+   "type": "program",
+   "role": "Python library whose TeleBot class and related classes are documented on this page"
+  },
+  {
+   "name": "TeleBot",
+   "type": "product",
+   "role": "main synchronous class for the Bot, used to add handlers and call bot methods"
+  },
+  {
+   "name": "ExceptionHandler",
+   "type": "product",
+   "role": "class for handling exceptions while Polling"
+  },
+  {
+   "name": "Handler",
+   "type": "product",
+   "role": "class for (next step|reply) handlers"
+  },
+  {
+   "name": "BotFather",
+   "type": "organization",
+   "role": "source of the bot token, referred to as @BotFather"
+  },
+  {
+   "name": "StateMemoryStorage",
+   "type": "product",
+   "role": "default state storage for TeleBot's state_storage parameter"
+  },
+  {
+   "name": "coloredlogs",
+   "type": "program",
+   "role": "module to install to enable colorful_logs=True"
+  },
+  {
+   "name": "InlineKeyboardMarkup",
+   "type": "product",
+   "role": "one of the types in the REPLY_MARKUP_TYPES alias"
+  },
+  {
+   "name": "ReplyKeyboardMarkup",
+   "type": "product",
+   "role": "one of the types in the REPLY_MARKUP_TYPES alias"
+  },
+  {
+   "name": "ReplyKeyboardRemove",
+   "type": "product",
+   "role": "one of the types in the REPLY_MARKUP_TYPES alias"
+  },
+  {
+   "name": "ForceReply",
+   "type": "product",
+   "role": "one of the types in the REPLY_MARKUP_TYPES alias"
+  },
+  {
+   "name": "add_sticker_to_set",
+   "type": "program",
+   "role": "bot method to add a new sticker to a set created by the bot"
+  },
+  {
+   "name": "answer_callback_query",
+   "type": "program",
+   "role": "bot method to send answers to callback queries from inline keyboards"
+  },
+  {
+   "name": "answer_inline_query",
+   "type": "program",
+   "role": "bot method to send answers to an inline query"
+  },
+  {
+   "name": "answer_pre_checkout_query",
+   "type": "program",
+   "role": "bot method to respond to pre-checkout queries"
+  },
+  {
+   "name": "ban_chat_member",
+   "type": "program",
+   "role": "bot method to ban a user in a group, supergroup or channel"
+  },
+  {
+   "name": "copy_message",
+   "type": "program",
+   "role": "bot method to copy messages of any kind"
+  },
+  {
+   "name": "create_chat_invite_link",
+   "type": "program",
+   "role": "bot method to create an additional invite link for a chat"
+  }
+ ],
+ "tags": [
+  "telebot",
+  "python",
+  "telegram-bot-api",
+  "api-reference",
+  "pyTelegramBotAPI"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14024,
+  "output_tokens": 1662
+ }
+}

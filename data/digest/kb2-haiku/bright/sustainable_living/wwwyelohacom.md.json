@@ -1,0 +1,102 @@
+{
+ "summary": "This clipped page is an FAQ-style listing from Yeloha's website explaining its digital solar subscription model, in which solar panels on suitable properties feed the utility grid and subscribers receive credits on their monthly utility bills. It covers how the service works, the name origin, eligibility for Sun Hosts and Sun Partners, supported New York utilities, the subscription guarantee, tax treatment, moving, and savings assessments. Navigation and footer boilerplate were ignored.",
+ "one_line": "Yeloha's FAQ explains its solar sharing subscription, where remote panels earn bill credits for subscribers.",
+ "key_facts": [
+  "Yeloha describes itself as building a digital solar subscription network on top of the existing utility grid.",
+  "Solar panels are installed on select suitable properties and send electricity into the grid, and credits for that production are allocated to subscribers' monthly utility bills.",
+  "Subscribers can track panel energy production and savings in near real-time with the Yeloha app.",
+  "The name Yeloha combines Aloha, the Hawaiian greeting derived from 'alo' meaning 'share', and Yellow, representing the sun and clean power.",
+  "Yeloha's stated mission is to open access to solar to everyone.",
+  "Only about 8% of US households qualify for a solar installation, according to the page.",
+  "Currently all NY utilities are supported except for municipal and Long Island.",
+  "The supported New York utilities listed are Con Edison, Central Hudson, National Grid, NYSEG, Orange & Rockland, and RG&E.",
+  "The six listed utilities cover about 80% of the state's households (or about 95% other than Long Island).",
+  "Each Yeloha panel provides a minimum solar energy production, for example 336 kWh per panel for a one-year subscription.",
+  "If actual energy production falls short of the minimum by subscription end, the subscription is automatically extended until the proper amount is generated.",
+  "Yeloha uses federal and in some cases state tax credits to reduce the cost of installing solar panels, and the page says this does not impact subscribers' taxes.",
+  "Signing up for a subscription can be done completely online, with no installation needed in the subscriber's apartment.",
+  "Sun Hosts with panels on their roof can transfer their Hosting agreement to a new property owner when they move.",
+  "Sun Partners who move can inform Yeloha of their new utility account to keep receiving credits or receive a prorated refund.",
+  "Yeloha provides maintenance and insurance for the system at no cost to Sun Hosts."
+ ],
+ "entities": [
+  {
+   "name": "Yeloha",
+   "type": "organization",
+   "role": "Solar sharing company offering a digital solar subscription network where subscribers receive credits for panel energy on utility bills"
+  },
+  {
+   "name": "Sun Host",
+   "type": "program",
+   "role": "Roof-owner role in which a property hosts Yeloha solar panels and receives free solar electricity and assessment of savings"
+  },
+  {
+   "name": "Sun Partner",
+   "type": "program",
+   "role": "Subscriber role in which a community member subscribes to solar panels on another community member's roof"
+  },
+  {
+   "name": "Yeloha app",
+   "type": "product",
+   "role": "App used to track panel solar energy production and savings in near real-time"
+  },
+  {
+   "name": "Sun Partner Subscription Agreement",
+   "type": "other",
+   "role": "Document detailing the terms of the subscription guarantee"
+  },
+  {
+   "name": "Con Edison",
+   "type": "organization",
+   "role": "New York utility supported by Yeloha"
+  },
+  {
+   "name": "Central Hudson",
+   "type": "organization",
+   "role": "New York utility supported by Yeloha"
+  },
+  {
+   "name": "National Grid",
+   "type": "organization",
+   "role": "New York utility supported by Yeloha"
+  },
+  {
+   "name": "NYSEG",
+   "type": "organization",
+   "role": "New York utility supported by Yeloha"
+  },
+  {
+   "name": "Orange & Rockland",
+   "type": "organization",
+   "role": "New York utility supported by Yeloha"
+  },
+  {
+   "name": "RG&E",
+   "type": "organization",
+   "role": "New York utility supported by Yeloha"
+  },
+  {
+   "name": "Long Island",
+   "type": "place",
+   "role": "Region whose utilities are not currently supported by Yeloha"
+  },
+  {
+   "name": "New York",
+   "type": "place",
+   "role": "State where Yeloha currently supports most utilities"
+  }
+ ],
+ "tags": [
+  "solar energy",
+  "solar sharing",
+  "renewable energy",
+  "utility bills",
+  "community solar",
+  "new york"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3945,
+  "output_tokens": 1405
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "summary": "This R documentation page describes the varTest function in the EnvStats package, which performs a one-sample chi-squared test on a population variance, assuming normality, and returns a confidence interval for the variance. It explains the arguments (alternative, conf.level, sigma.squared, data.name), notes that the chi-squared variance test is very sensitive to non-normality unlike the t-test for location, and gives an example testing whether the variance of 20 simulated normal observations equals 0.5. The example yields an estimated variance of 0.753708 and a p-value of 0.1436947, so the null is not rejected at the 5% or 10% level.",
+ "one_line": "Documentation for EnvStats' varTest function, a chi-squared test of a single population variance with a confidence interval, assuming normal data.",
+ "key_facts": [
+  "varTest is a function in the EnvStats package that performs a one-sample chi-squared test on variance.",
+  "The varTest function estimates the variance, tests the null hypothesis that the variance equals a user-specified value, and creates a confidence interval for the variance.",
+  "The default value of the sigma.squared argument in varTest is 1.",
+  "The alternative argument defaults to \"two.sided\" and may also be \"greater\" or \"less\".",
+  "The conf.level argument defaults to 0.95.",
+  "The R function var.test performs the F-test for comparing two variances.",
+  "The documentation states that the chi-squared test on the population variance is extremely sensitive to departures from normality.",
+  "The documentation states that if the underlying population is skewed, the actual Type I error rate of the variance test will be larger than assumed.",
+  "Student's t-test is described as fairly robust to departures from normality for a one-sample test of location when the sample size is reasonably large.",
+  "The documentation lists two methods for a one-sample test on variability: the chi-squared method assuming normality, and a bootstrap confidence interval method using, for example, the boot package.",
+  "The example generates 20 observations from a normal distribution with mean=2 and sd=1 using set.seed(23).",
+  "In the example, the null hypothesis is that the true variance equals 0.5, tested against the alternative that it does not.",
+  "The example output gives an estimated variance of 0.753708 and a Chi-Squared test statistic of 28.64090 with df = 19.",
+  "The example output gives a P-value of 0.1436947 and a 95% confidence interval of LCL = 0.4359037 and UCL = 1.6078623.",
+  "The author of the page is Steven P. Millard."
+ ],
+ "entities": [
+  {
+   "name": "varTest",
+   "type": "program",
+   "role": "R function in the EnvStats package that performs a one-sample chi-squared test on variance and returns a confidence interval"
+  },
+  {
+   "name": "EnvStats",
+   "type": "program",
+   "role": "R package containing the varTest function, documented here as version 2.8.1"
+  },
+  {
+   "name": "var.test",
+   "type": "program",
+   "role": "R stats function that performs the F-test for comparing two variances"
+  },
+  {
+   "name": "varGroupTest",
+   "type": "program",
+   "role": "related EnvStats function listed under See Also"
+  },
+  {
+   "name": "htest.object",
+   "type": "other",
+   "role": "help file describing the class of the value returned by varTest"
+  },
+  {
+   "name": "Steven P. Millard",
+   "type": "person",
+   "role": "author of the varTest documentation"
+  },
+  {
+   "name": "boot",
+   "type": "program",
+   "role": "R package suggested for bootstrap confidence intervals for measures of spread"
+  },
+  {
+   "name": "Biostatistics: A Methodology for the Health Sciences, 2nd Edition",
+   "type": "other",
+   "role": "reference book by van Belle, Fisher, Heagerty, and Lumley (2004)"
+  },
+  {
+   "name": "Environmental Statistics with S-PLUS",
+   "type": "other",
+   "role": "reference book by Millard and Neerchal (2001)"
+  },
+  {
+   "name": "Biostatistical Analysis",
+   "type": "other",
+   "role": "reference book by Zar (2010), Fifth Edition"
+  }
+ ],
+ "tags": [
+  "r-package",
+  "hypothesis-testing",
+  "chi-squared-test",
+  "variance",
+  "envstats",
+  "statistics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2918,
+  "output_tokens": 1302
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "summary": "This note is a documentation excerpt for the DATABASE_STORAGE_USAGE_HISTORY view in the ORGANIZATION_USAGE schema, which reports average daily storage usage in bytes for all databases in an organization over a specified date range. It covers what the results include (table and materialized view data plus Fail-safe history) and lists the view's columns with data types and descriptions. It also notes a latency of up to 24 hours and a 365-day retention period. Navigation and page boilerplate were ignored.",
+ "one_line": "Documents the DATABASE_STORAGE_USAGE_HISTORY view, which reports average daily database storage bytes per organization database.",
+ "key_facts": [
+  "The DATABASE_STORAGE_USAGE_HISTORY view is in the ORGANIZATION_USAGE schema.",
+  "The view reports the average daily storage usage, in bytes, for all databases in an organization within a specified date range.",
+  "Results include all data stored in tables and materialized views in the database(s).",
+  "Results include all historical data maintained in Fail-safe for the database(s).",
+  "The ORGANIZATION_NAME column is a VARCHAR naming the organization where the usage took place.",
+  "The USAGE_DATE column is a DATE giving the date, in the UTC time zone, of the storage usage record.",
+  "The AVERAGE_DATABASE_BYTES column is a FLOAT giving the number of bytes of database storage used, including data in Time Travel.",
+  "The AVERAGE_FAILSAFE_BYTES column is a FLOAT giving the number of bytes of Fail-safe storage used.",
+  "The AVERAGE_HYBRID_TABLE_STORAGE_BYTES column is a FLOAT giving the number of bytes of hybrid storage used.",
+  "The REGION column is a VARCHAR naming the region where the account is located.",
+  "The DATABASE_NAME column is a TEXT value giving the name of the database.",
+  "Latency for the view may be up to 24 hours (1 day).",
+  "The view's data is retained for 365 days (1 year)."
+ ],
+ "entities": [
+  {
+   "name": "DATABASE_STORAGE_USAGE_HISTORY",
+   "type": "product",
+   "role": "View in the ORGANIZATION_USAGE schema that reports average daily storage usage in bytes for all databases in an organization"
+  },
+  {
+   "name": "ORGANIZATION_USAGE",
+   "type": "product",
+   "role": "Schema containing the DATABASE_STORAGE_USAGE_HISTORY view"
+  },
+  {
+   "name": "Time Travel",
+   "type": "program",
+   "role": "Feature whose data is included in AVERAGE_DATABASE_BYTES"
+  },
+  {
+   "name": "Fail-safe",
+   "type": "program",
+   "role": "Storage area whose historical data is included in results and reported in AVERAGE_FAILSAFE_BYTES"
+  }
+ ],
+ "tags": [
+  "database storage",
+  "usage metrics",
+  "snowflake",
+  "account usage views",
+  "fail-safe",
+  "time travel"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1672,
+  "output_tokens": 966
+ }
+}

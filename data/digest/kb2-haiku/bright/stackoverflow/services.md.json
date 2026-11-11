@@ -1,0 +1,49 @@
+{
+ "summary": "This note documents the SERVICES view in the information schema, which lists existing Snowpark Container Services services in a database. It gives a table of 17 columns with their data types and descriptions, covering ownership, compute pool, DNS name, instance limits, auto-resume, warehouse and timestamps. It also includes a sample SELECT query that filters services by name pattern.",
+ "one_line": "Reference for the SERVICES information schema view listing Snowpark Container Services services, their columns, and an example query.",
+ "key_facts": [
+  "The SERVICES view shows existing Snowpark Container Services services in the database.",
+  "SERVICE_CATALOG (TEXT) is the database that the service belongs to.",
+  "SERVICE_OWNER (TEXT) is the name of the role that owns the service, or the app instance name if the service is in an app.",
+  "COMPUTE_POOL_NAME (TEXT) is the compute pool where the job was executed.",
+  "DNS_NAME (TEXT) is the DNS name associated with the service.",
+  "MIN_INSTANCES and MAX_INSTANCES (INT) give the minimum and maximum instances for the service.",
+  "AUTO_RESUME (BOOLEAN) is a flag that determines if the service can be auto resumed.",
+  "QUERY_WAREHOUSE (TEXT) is the name of the default query warehouse of the service.",
+  "CREATED (TIMESTAMP_LTZ) is the creation time of the service.",
+  "LAST_ALTERED (TIMESTAMP_LTZ) is the last altered time of the service.",
+  "LAST_RESUMED (TIMESTAMP_LTZ) is the last resumed time of the service.",
+  "COMMENT (TEXT) is the comment for this service.",
+  "The example queries my_database.information_schema.services with WHERE service_name LIKE '%myservice_%'.",
+  "SERVICE_OWNER_ROLE_TYPE (TEXT) is the type of the owner role."
+ ],
+ "entities": [
+  {
+   "name": "SERVICES view",
+   "type": "product",
+   "role": "information schema view that shows existing Snowpark Container Services services in the database"
+  },
+  {
+   "name": "Snowpark Container Services",
+   "type": "program",
+   "role": "service framework whose existing services the SERVICES view lists"
+  },
+  {
+   "name": "my_database.information_schema.services",
+   "type": "product",
+   "role": "fully qualified view referenced in the example query"
+  }
+ ],
+ "tags": [
+  "snowpark",
+  "snowflake",
+  "information schema",
+  "container services",
+  "sql reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1678,
+  "output_tokens": 805
+ }
+}

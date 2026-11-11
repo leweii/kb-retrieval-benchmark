@@ -1,0 +1,39 @@
+{
+ "summary": "Addicted to Beauty is an American reality television show that airs on the Oxygen US channel. It follows a plastic surgery and day spa business located in San Diego, California. The note is brief and gives no further details about the show's format, cast, or broadcast history.",
+ "one_line": "Addicted to Beauty is an American reality TV show on Oxygen about a San Diego plastic surgery and day spa.",
+ "key_facts": [
+  "Addicted to Beauty is an American reality television show.",
+  "The show airs on the Oxygen US television channel.",
+  "The show is about a plastic surgery and day spa.",
+  "The plastic surgery and day spa is located in San Diego, California."
+ ],
+ "entities": [
+  {
+   "name": "Addicted to Beauty",
+   "type": "program",
+   "role": "American reality television show on the Oxygen US channel about a plastic surgery and day spa in San Diego, California"
+  },
+  {
+   "name": "Oxygen US",
+   "type": "organization",
+   "role": "television channel that broadcasts Addicted to Beauty"
+  },
+  {
+   "name": "San Diego, California",
+   "type": "place",
+   "role": "location of the plastic surgery and day spa featured in the show"
+  }
+ ],
+ "tags": [
+  "reality television",
+  "oxygen",
+  "plastic surgery",
+  "san diego",
+  "television"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 1037,
+  "output_tokens": 399
+ }
+}

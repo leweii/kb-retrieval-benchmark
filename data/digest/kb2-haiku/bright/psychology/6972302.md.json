@@ -1,0 +1,106 @@
+{
+ "summary": "This Cerebral Cortex article (Petkoski, Ritter, Jirsa, 2023) analyzes diffusion MRI and fMRI from 50 adults aged 18 to 80 to show how age-related white-matter loss shapes brain connectivity. The authors find the largest tract loss in frontal regions and for long inter-hemispheric links, and they use a Kuramoto-oscillator whole-brain model to test whether compensation and demyelination-driven slowing of propagation velocity explain age-related functional changes. The note covers the introduction, methods, and first results, including lobe-specific tract count and length correlations with age.",
+ "one_line": "Study of how age-related white-matter degradation and dynamical compensation shape functional connectivity in adult human brains, tested with a whole-brain oscillator model.",
+ "key_facts": [
+  "The article was published in Cerebral Cortex, Volume 33, Issue 10, 15 May 2023, pages 6241–6256, with DOI 10.1093/cercor/bhac500.",
+  "The authors are Spase Petkoski, Petra Ritter, and Viktor K Jirsa.",
+  "The study analyzed anatomical and diffusion-weighted images of 50 subjects acquired at Berlin Center for Advanced Imaging, Charité University Medicine, Berlin, Germany.",
+  "The subjects ranged in age from 18 to 80 years, with a mean age of 41.26 and 30 females and 20 males.",
+  "The Desikan–Killiany atlas as implemented in FREESURFER yielded 68 cortical regions of interest.",
+  "The largest decrease of streamlines was found in frontal regions and for long inter-hemispheric links.",
+  "The model tested the hypotheses that demyelination has no impact on propagation velocity or decreases it by 30% and 50%.",
+  "The abstract states that age-related functional fingerprints are only supported if the model accounts for compensation for overall loss of structural connectivity and a decrease of propagation velocity due to loss of myelination.",
+  "Static FC features did not show significant differences with age, while dFC showed more stable dynamics and MC showed a wider range and variance.",
+  "The Kuramoto model in the study has 68 delay-coupled cortical regions, with the global coupling G and the age-dependent mean axonal propagation velocity as the only free hyper-parameters explored.",
+  "Dynamic functional connectivity was computed for four window sizes: 30, 15, 10, and 5 time points.",
+  "The frontal lobe was the most affected by the decrease of fiber counts, according to Table 1 (top).",
+  "Mean and median tract lengths decrease with aging, and the external and long links are mostly affected.",
+  "The Louvain algorithm from the Brain Connectivity Toolbox was used for community detection on weighted undirected links, with modularity computed for partitions of 2, 3, 4, and 5 communities.",
+  "Simulated neural activity was converted to BOLD signals using the Balloon–Windkessel model of The Virtual Brain."
+ ],
+ "entities": [
+  {
+   "name": "Cerebral Cortex",
+   "type": "organization",
+   "role": "journal in which the article was published, Volume 33, Issue 10"
+  },
+  {
+   "name": "Spase Petkoski",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Petra Ritter",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Viktor K Jirsa",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Berlin Center for Advanced Imaging, Charité University Medicine, Berlin, Germany",
+   "type": "organization",
+   "role": "site where the 50 subjects' images were acquired"
+  },
+  {
+   "name": "Desikan–Killiany atlas",
+   "type": "program",
+   "role": "brain parcellation atlas used to define 68 cortical regions of interest, as implemented in FREESURFER"
+  },
+  {
+   "name": "FREESURFER",
+   "type": "program",
+   "role": "software implementing the Desikan–Killiany atlas used in the study"
+  },
+  {
+   "name": "Kuramoto model",
+   "type": "program",
+   "role": "canonical oscillator model used for the brain network model with delay-coupled cortical regions"
+  },
+  {
+   "name": "Louvain function",
+   "type": "program",
+   "role": "community detection algorithm from the Brain Connectivity Toolbox used to compute modularity"
+  },
+  {
+   "name": "Brain Connectivity Toolbox",
+   "type": "program",
+   "role": "toolbox providing the Louvain function for weighted undirected links"
+  },
+  {
+   "name": "Balloon–Windkessel model",
+   "type": "program",
+   "role": "hemodynamic model of The Virtual Brain used to convert simulated neural activity into BOLD signals"
+  },
+  {
+   "name": "The Virtual Brain",
+   "type": "program",
+   "role": "simulation platform providing the Balloon–Windkessel model"
+  },
+  {
+   "name": "Battaglia et al. 2020",
+   "type": "other",
+   "role": "prior larger cohort study whose dFC data were also analyzed in this study"
+  },
+  {
+   "name": "Schirner et al. 2015",
+   "type": "other",
+   "role": "automated pipeline for constructing individualized virtual brains from multimodal neuroimaging data"
+  }
+ ],
+ "tags": [
+  "brain aging",
+  "white matter",
+  "functional connectivity",
+  "brain network model",
+  "connectome",
+  "neuroimaging"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 12247,
+  "output_tokens": 1701
+ }
+}

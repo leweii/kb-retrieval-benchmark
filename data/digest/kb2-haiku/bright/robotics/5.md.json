@@ -1,0 +1,89 @@
+{
+ "summary": "This is a forum thread on the NVIDIA Developer Forums in which user mr.lintse asks how to run Isaac ROS Visual SLAM (VIO/VSLAM) with an Intel RealSense D435 camera on a laptop with a GTX1060M GPU, Ubuntu 22.04 and ROS2 Humble. Moderator hemals points to a RealSense launch file and a Nvblox tutorial; the user finds that a USB 2.0 cable caused the failure, but the trajectory is still poor and the tracker reports being lost. Moderator suspects the camera is a D415 with rolling shutter and suggests a hotfix launch file, and a later question about the D457 is answered with the need to disable the IR emitter.",
+ "one_line": "Forum thread on running Isaac ROS Visual SLAM with an Intel RealSense D435, where a USB 2.0 cable caused failure and tracking remained poor.",
+ "key_facts": [
+  "The original poster, mr.lintse, installed Isaac ROS on a laptop with a GTX1060M GPU, CUDA 11.8, CUDNN 8.7, an Intel i7 7th Gen CPU, Ubuntu 22.04 LTS and ROS2 Humble.",
+  "The thread was created on Jan 04 2023 and last replied to on Mar 29 2023, with 6 replies and 1.5k views.",
+  "Moderator hemals replied on Jan 09 2023 that a launch file brings up RealSense and Isaac ROS Visual SLAM, and that a tutorial covers running Isaac ROS Visual SLAM with Isaac ROS Nvblox on a RealSense camera.",
+  "The launch file named in the thread is isaac_ros_visual_slam_realsense.launch.py, started with ros2 launch in the first terminal, with rviz2 run in a second terminal using default.cfg.rviz.",
+  "mr.lintse reported on Jan 10 2023 that the error was caused by a USB 2.0 cable and was fixed by switching to a USB 3.0 cable.",
+  "After the cable change, mr.lintse reported that the trajectory was not recognizable, and the tracker printed the error 'Tracker is lost' at startup, even with the camera held static.",
+  "RViz also logged 'Message Filter dropping message' for frame camera_infra1_frame because the queue was full.",
+  "On Jan 23 2023, hemals stated that the logs indicated a D415 with a rolling shutter, a configuration NVIDIA had not yet tested.",
+  "hemals suggested that the stereo image pair may not be time synchronized or may have significant motion blur, and asked for a small rosbag recording and a test with a D435.",
+  "hemals said hotfix changes were pushed to isaac_ros_visual_slam.realsense.launch.py to support the latest librealsense version.",
+  "On Mar 18 2023, user Andrey1984 asked whether Elbrus would work with the Intel RealSense D457 camera.",
+  "On Mar 29 2023, hemals replied that NVIDIA had not tried the RealSense D457, but saw no reason it would not work if the IR emitter is disabled first as listed in the Isaac ROS Visual SLAM docs.",
+  "The Elbrus-based package is described as a visual odometry package based on the hardware-accelerated NVIDIA Elbrus library."
+ ],
+ "entities": [
+  {
+   "name": "NVIDIA Developer Forums",
+   "type": "organization",
+   "role": "forum hosting the thread in the Isaac ROS category"
+  },
+  {
+   "name": "mr.lintse (Tse Lin)",
+   "type": "person",
+   "role": "original poster who asked how to run Isaac ROS VSLAM with a RealSense D435"
+  },
+  {
+   "name": "hemals",
+   "type": "person",
+   "role": "NVIDIA moderator who answered questions and suggested launch files and hotfixes"
+  },
+  {
+   "name": "Andrey1984",
+   "type": "person",
+   "role": "forum user who asked about Elbrus support for the RealSense D457"
+  },
+  {
+   "name": "Isaac ROS Visual SLAM",
+   "type": "program",
+   "role": "visual odometry package based on the hardware-accelerated NVIDIA Elbrus library"
+  },
+  {
+   "name": "Intel RealSense D435",
+   "type": "product",
+   "role": "camera the original poster tried to use with Isaac ROS VSLAM"
+  },
+  {
+   "name": "Intel RealSense D415",
+   "type": "product",
+   "role": "camera model hemals suspected the user was running, with a rolling shutter"
+  },
+  {
+   "name": "Intel RealSense D457",
+   "type": "product",
+   "role": "camera Andrey1984 asked about supporting"
+  },
+  {
+   "name": "Isaac ROS Nvblox",
+   "type": "program",
+   "role": "package used with Isaac ROS Visual SLAM in a tutorial on a RealSense camera"
+  },
+  {
+   "name": "RViz",
+   "type": "program",
+   "role": "visualization tool (rviz2) used to display the VSLAM output"
+  },
+  {
+   "name": "NVIDIA Elbrus library",
+   "type": "program",
+   "role": "hardware-accelerated library underlying the Isaac ROS visual odometry package"
+  }
+ ],
+ "tags": [
+  "isaac-ros",
+  "vslam",
+  "realsense",
+  "ros2",
+  "visual-odometry",
+  "nvidia-forums"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3468,
+  "output_tokens": 1703
+ }
+}

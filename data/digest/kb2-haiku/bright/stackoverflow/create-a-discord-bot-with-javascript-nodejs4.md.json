@@ -1,0 +1,96 @@
+{
+ "summary": "A freeCodeCamp tutorial by Beau Carnes showing how to build a JavaScript/Node.js Discord bot entirely in the cloud on Repl.it without installing anything or paying for hosting. It covers creating a Discord bot account, inviting it to a server, coding a ping/pong bot with discord.js, and adding features such as inspirational quotes from zenquotes.io, encouraging replies to sad words, a Repl.it key-value database for user-submitted messages, and a keep-alive web server with Uptime Robot so the bot runs continuously.",
+ "one_line": "Step-by-step tutorial for building and free cloud-hosting an \"Encourage Bot\" Discord bot in JavaScript with discord.js, Repl.it and Uptime Robot.",
+ "key_facts": [
+  "The tutorial is titled \"JavaScript Discord Bot Tutorial – Code a Discord Bot And Host it for Free\" and was published March 8, 2021 by Beau Carnes.",
+  "The tutorial uses the discord.js Node library, the Discord API, and the cloud computing platform Repl.it.",
+  "To create a Discord bot account, the user goes to the application page, clicks \"New Application\", goes to the \"Bot\" tab and clicks \"Add Bot\", then confirms with \"Yes, do it!\".",
+  "The bot token is described as the bot's password and should not be shared, since it could allow someone to log in to the bot.",
+  "Adding the bot to a server requires the account to have \"Manage Server\" permissions.",
+  "The basic bot replies \"pong\" when a message's content equals \"ping\", and the token is read from process.env.TOKEN stored in a .env file.",
+  "The inspirational quote feature gets quotes from the API at zenquotes.io, triggered by the message \"$inspire\".",
+  "The starter sad words list is [\"sad\", \"depressed\", \"unhappy\", \"angry\", \"miserable\"].",
+  "The bot's starter encouraging messages are \"Cheer up!\", \"Hang in there.\", and \"You are a great person / bot!\".",
+  "User-submitted encouraging messages are stored in the Repl.it database, a key-value store built into every repl.",
+  "The commands added for user management are \"$new\" to add an encouraging message, \"$del\" with an index to delete one, and \"$list\" to show all messages.",
+  "The \"$responding\" command takes \"true\" or \"false\" to turn the bot's responses to sad words on or off; anything other than \"true\" is treated as false.",
+  "Repl.it's cheapest paid plan is the Hacker Plan, which includes five always-on Repls.",
+  "Uptime Robot can be set up to ping the bot's web server every 5 minutes so the bot never enters the sleeping stage.",
+  "The keep-alive web server uses express and listens on port 3000, returning \"Bot is running!\" to visitors."
+ ],
+ "entities": [
+  {
+   "name": "Beau Carnes",
+   "type": "person",
+   "role": "author of the tutorial, described as a teacher and developer with freeCodeCamp.org who runs the freeCodeCamp.org YouTube channel"
+  },
+  {
+   "name": "Discord",
+   "type": "organization",
+   "role": "platform whose API the bot connects to and where the bot is created and invited to servers"
+  },
+  {
+   "name": "Repl.it",
+   "type": "product",
+   "role": "cloud IDE and hosting platform used to build, run and store data for the bot"
+  },
+  {
+   "name": "discord.js",
+   "type": "program",
+   "role": "Node.js API wrapper library used to write the bot code"
+  },
+  {
+   "name": "Node.js",
+   "type": "program",
+   "role": "JavaScript runtime in which the bot is written"
+  },
+  {
+   "name": "node-fetch",
+   "type": "program",
+   "role": "module imported to make HTTP requests to the quote API"
+  },
+  {
+   "name": "express",
+   "type": "program",
+   "role": "library used to start the keep-alive web server"
+  },
+  {
+   "name": "@replit/database",
+   "type": "program",
+   "role": "Repl.it built-in key-value database used to store user-submitted encouraging messages and the responding setting"
+  },
+  {
+   "name": "zenquotes.io",
+   "type": "product",
+   "role": "API that provides random inspirational quotes for the $inspire command"
+  },
+  {
+   "name": "Uptime Robot",
+   "type": "product",
+   "role": "free monitoring service set up to ping the bot's web server every five minutes to keep the bot running"
+  },
+  {
+   "name": "freeCodeCamp.org",
+   "type": "organization",
+   "role": "nonprofit publisher of the tutorial and its open source coding curriculum"
+  },
+  {
+   "name": "Hacker Plan",
+   "type": "product",
+   "role": "cheapest paid Repl.it plan, including five always-on Repls"
+  }
+ ],
+ "tags": [
+  "discord",
+  "javascript",
+  "node.js",
+  "discord.js",
+  "bot-development",
+  "repl.it"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10163,
+  "output_tokens": 1541
+ }
+}

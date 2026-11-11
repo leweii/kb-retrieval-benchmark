@@ -1,0 +1,44 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Easton Rangers, a football club based in Freetown, Sierra Leone. It states the club currently competes in the Sierra Leone National First Division, which the note describes as the second highest football league in the country.",
+ "one_line": "Easton Rangers is a Freetown, Sierra Leone football club currently playing in the Sierra Leone National First Division.",
+ "key_facts": [
+  "Easton Rangers is a Sierra Leonean football club.",
+  "Easton Rangers is based in Freetown, Sierra Leone.",
+  "Easton Rangers is currently a member of the Sierra Leone National First Division.",
+  "The Sierra Leone National First Division is the second highest football league in Sierra Leone."
+ ],
+ "entities": [
+  {
+   "name": "Easton Rangers",
+   "type": "organization",
+   "role": "Sierra Leonean football club based in Freetown, currently a member of the Sierra Leone National First Division"
+  },
+  {
+   "name": "Sierra Leone National First Division",
+   "type": "program",
+   "role": "second highest football league in Sierra Leone, in which Easton Rangers currently competes"
+  },
+  {
+   "name": "Freetown",
+   "type": "place",
+   "role": "city in Sierra Leone where Easton Rangers is based"
+  },
+  {
+   "name": "Sierra Leone",
+   "type": "place",
+   "role": "country where Easton Rangers is a football club"
+  }
+ ],
+ "tags": [
+  "football",
+  "sierra leone",
+  "freetown",
+  "sports club",
+  "football league"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1054,
+  "output_tokens": 491
+ }
+}

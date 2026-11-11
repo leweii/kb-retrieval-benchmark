@@ -1,0 +1,62 @@
+{
+ "summary": "Mearns Castle is a 15th-century tower house in Newton Mearns, East Renfrewshire, south of Glasgow, Scotland. It is a Category A listed building that has been restored and now forms part of the Maxwell Mearns Castle Church. The castle also lends its name to the nearby Mearns Castle High School.",
+ "one_line": "Mearns Castle is a 15th-century Category A listed tower house in Newton Mearns, near Glasgow, now part of Maxwell Mearns Castle Church.",
+ "key_facts": [
+  "Mearns Castle is a 15th-century tower house.",
+  "Mearns Castle is located in Newton Mearns, East Renfrewshire.",
+  "Newton Mearns is to the south of Glasgow, Scotland.",
+  "Mearns Castle is a Category A listed building.",
+  "Mearns Castle has been restored.",
+  "Mearns Castle is now part of the Maxwell Mearns Castle Church.",
+  "Mearns Castle gives its name to the nearby Mearns Castle High School."
+ ],
+ "entities": [
+  {
+   "name": "Mearns Castle",
+   "type": "place",
+   "role": "15th-century tower house in Newton Mearns, East Renfrewshire, now part of Maxwell Mearns Castle Church"
+  },
+  {
+   "name": "Newton Mearns",
+   "type": "place",
+   "role": "location of Mearns Castle, in East Renfrewshire, south of Glasgow"
+  },
+  {
+   "name": "East Renfrewshire",
+   "type": "place",
+   "role": "council area containing Newton Mearns and Mearns Castle"
+  },
+  {
+   "name": "Glasgow",
+   "type": "place",
+   "role": "city lying to the north of Newton Mearns"
+  },
+  {
+   "name": "Scotland",
+   "type": "place",
+   "role": "country in which Mearns Castle is located"
+  },
+  {
+   "name": "Maxwell Mearns Castle Church",
+   "type": "organization",
+   "role": "church of which Mearns Castle is now a part"
+  },
+  {
+   "name": "Mearns Castle High School",
+   "type": "organization",
+   "role": "nearby school named after Mearns Castle"
+  }
+ ],
+ "tags": [
+  "scotland",
+  "castles",
+  "listed buildings",
+  "east renfrewshire",
+  "architecture"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1093,
+  "output_tokens": 696
+ }
+}

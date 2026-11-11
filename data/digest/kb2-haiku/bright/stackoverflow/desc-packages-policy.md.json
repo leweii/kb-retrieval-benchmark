@@ -1,0 +1,40 @@
+{
+ "summary": "This is a Snowflake-style SQL reference page for the DESCRIBE PACKAGES POLICY command, which displays the details of a packages policy. It gives the syntax (DESC[RIBE] PACKAGES POLICY <name>), explains the name parameter and its quoting and case-sensitivity rules, and lists the access control requirements: OWNERSHIP on the packages policy, or USAGE to view it. The page ends with a single example, DESC PACKAGES POLICY packages_policy_prod_1;. Navigation and footer text were ignored.",
+ "one_line": "Reference page for the SQL command DESCRIBE PACKAGES POLICY, which shows details of a packages policy and its required privileges.",
+ "key_facts": [
+  "DESCRIBE can be abbreviated to DESC in the DESCRIBE PACKAGES POLICY command.",
+  "The syntax is DESC[RIBE] PACKAGES POLICY <name>.",
+  "The <name> parameter specifies the identifier for the packages policy to describe.",
+  "If a packages policy identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "The OWNERSHIP privilege on a packages policy is automatically granted to the role that created the object, but can be transferred.",
+  "The USAGE privilege on a packages policy enables viewing it in a SHOW or DESCRIBE command.",
+  "Operating on any object in a schema also requires the USAGE privilege on the parent database and schema.",
+  "The page's example command is DESC PACKAGES POLICY packages_policy_prod_1;.",
+  "The DESCRIBE PACKAGES POLICY command describes the details about a packages policy."
+ ],
+ "entities": [
+  {
+   "name": "DESCRIBE PACKAGES POLICY",
+   "type": "program",
+   "role": "SQL command described on the page, which describes the details about a packages policy"
+  },
+  {
+   "name": "packages_policy_prod_1",
+   "type": "product",
+   "role": "packages policy named in the example DESC PACKAGES POLICY packages_policy_prod_1;"
+  }
+ ],
+ "tags": [
+  "sql",
+  "packages-policy",
+  "describe-command",
+  "access-control",
+  "snowflake"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1786,
+  "output_tokens": 730
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "summary": "A freeCodeCamp forum thread in which Mei asks why an ES6 arrow-function version of a .map() call that returns an object literal works, while the ES5 function version gives a syntax error. Responders explain that the ES5 function body lacks a return statement and the object needs braces; Mei posts a working version with return and parentheses, and ilenia notes that arrow functions allow an implicit return when the body is a single expression.",
+ "one_line": "Forum thread explaining why an ES5 .map() callback returning an object literal fails while the ES6 arrow version works.",
+ "key_facts": [
+  "Mei is working through the JavaScript course on freeCodeCamp in the section 'Using .map() to extract data from an array'.",
+  "Mei's ES6 code was var rating = watchList.map(e => ({ title: e.Title, rating: e.imdbRating })), which works.",
+  "Mei's ES5 version used watchList.map(function(e){ title: e.Title, rating: e.imdbRating }) and produced a syntax error.",
+  "ArielLeslie replied on October 16, 2019 that the ES5 function doesn't return anything and is missing the braces around the object.",
+  "Mei's working ES5 solution was watchList.map(function(e){ return ({title: e.Title, rating: e.imdbRating}) }), posted October 16, 2019.",
+  "Onosgb advised using the return keyword before the object literal on October 16, 2019.",
+  "ilenia replied on October 17, 2019 that with arrow syntax, if the function body is just a return statement, an implicit return can be used.",
+  "ilenia gave the example that x => { return x/2 } is the same as x => x/2."
+ ],
+ "entities": [
+  {
+   "name": "Mei",
+   "type": "person",
+   "role": "forum user who asked the question about ES6 vs ES5 .map() syntax and posted the working ES5 solution"
+  },
+  {
+   "name": "ArielLeslie",
+   "type": "person",
+   "role": "forum user who explained that the ES5 function returns nothing and lacks braces around the object"
+  },
+  {
+   "name": "Onosgb",
+   "type": "person",
+   "role": "forum user who suggested using the return keyword"
+  },
+  {
+   "name": "ilenia",
+   "type": "person",
+   "role": "forum user who explained implicit return in arrow functions"
+  },
+  {
+   "name": "freeCodeCamp Forum",
+   "type": "organization",
+   "role": "the online forum hosting the thread"
+  },
+  {
+   "name": "Javascript course",
+   "type": "program",
+   "role": "the freeCodeCamp course Mei is going through, containing the .map() section"
+  },
+  {
+   "name": "Discourse",
+   "type": "product",
+   "role": "forum software powering the site"
+  }
+ ],
+ "tags": [
+  "javascript",
+  "es6",
+  "arrow-functions",
+  "array-map",
+  "syntax",
+  "freecodecamp"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1946,
+  "output_tokens": 876
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "summary": "This note is the documentation page for the REGR_R2 aggregate and window function, which returns the coefficient of determination for non-null pairs in a group. It defines the NULL, 1, and POWER(CORR(y,x),2) cases, gives aggregate and window syntax with y as the dependent variable and x as the independent variable, and lists usage restrictions. A small example table shows results per group, with group k=1 returning NULL and group k=2 returning 0.9976905312.",
+ "one_line": "Documentation for the REGR_R2 function, which computes the coefficient of determination for non-null pairs as an aggregate or window function.",
+ "key_facts": [
+  "REGR_R2 returns the coefficient of determination for non-null pairs in a group.",
+  "REGR_R2 returns NULL if VAR_POP(x) = 0.",
+  "REGR_R2 returns 1 if VAR_POP(y) = 0 and VAR_POP(x) <> 0.",
+  "Otherwise REGR_R2 returns POWER(CORR(y,x), 2).",
+  "The syntax is REGR_R2(y, x), where y is the dependent variable and x is the independent variable.",
+  "The first argument y is the dependent variable and must be an expression evaluable to a numeric type.",
+  "The second argument x is the independent variable and must be an expression evaluable to a numeric type.",
+  "The optional expr3 in the window form PARTITION BY <expr3> groups rows into partitions.",
+  "DISTINCT is not supported for REGR_R2.",
+  "When used as a window function, REGR_R2 does not support an ORDER BY sub-clause in the OVER() clause.",
+  "When used as a window function, REGR_R2 does not support window frames.",
+  "The documentation notes that the order of arguments matters because the dependent variable comes first.",
+  "In the example, group k=1 returns NULL for regr_r2(v, v2).",
+  "In the example, group k=2 returns 0.9976905312 for regr_r2(v, v2)."
+ ],
+ "entities": [
+  {
+   "name": "REGR_R2",
+   "type": "program",
+   "role": "aggregate and window function that returns the coefficient of determination for non-null pairs in a group"
+  }
+ ],
+ "tags": [
+  "sql",
+  "regression",
+  "aggregate-function",
+  "window-function",
+  "statistics",
+  "r-squared"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1903,
+  "output_tokens": 736
+ }
+}

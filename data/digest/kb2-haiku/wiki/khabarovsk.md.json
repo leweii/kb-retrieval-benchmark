@@ -1,0 +1,35 @@
+{
+ "summary": "A short wiki note about Khabarovsk, stating that it is served by Khabarovsk Novy Airport, which offers international flights to East Asia, Southeast Asia, European Russia, and Central Asia. The note is a single sentence with no further detail.",
+ "one_line": "Khabarovsk is served by Khabarovsk Novy Airport, with international flights to East Asia, Southeast Asia, European Russia and Central Asia.",
+ "key_facts": [
+  "Khabarovsk is served by the Khabarovsk Novy Airport.",
+  "Khabarovsk Novy Airport has international flights to East Asia.",
+  "Khabarovsk Novy Airport has international flights to Southeast Asia.",
+  "Khabarovsk Novy Airport has international flights to European Russia.",
+  "Khabarovsk Novy Airport has international flights to Central Asia."
+ ],
+ "entities": [
+  {
+   "name": "Khabarovsk",
+   "type": "place",
+   "role": "city served by Khabarovsk Novy Airport, subject of the note"
+  },
+  {
+   "name": "Khabarovsk Novy Airport",
+   "type": "place",
+   "role": "airport serving Khabarovsk with international flights to East Asia, Southeast Asia, European Russia, and Central Asia"
+  }
+ ],
+ "tags": [
+  "khabarovsk",
+  "aviation",
+  "airports",
+  "russia",
+  "transportation"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1039,
+  "output_tokens": 439
+ }
+}

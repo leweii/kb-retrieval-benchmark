@@ -1,0 +1,102 @@
+{
+ "summary": "The note is a short encyclopedia-style description of the Arabian Sea, a region of the northern Indian Ocean. It describes the sea's boundaries, its historical alternative names, its area and maximum depth, and the gulfs and straits that connect it to neighboring bodies of water.",
+ "one_line": "Overview of the Arabian Sea, a northern Indian Ocean region with its boundaries, area, depth, and connecting gulfs and straits.",
+ "key_facts": [
+  "The Arabian Sea is a region of the northern Indian Ocean.",
+  "The Arabian Sea is bounded on the northeast and east by the Indian Peninsula.",
+  "The Arabian Sea is bounded on the west by Somalia and the Arabian Peninsula.",
+  "The Arabian Sea is bounded on the north by Pakistan and Iran.",
+  "The Arabian Sea is bounded on the south by the Maldives.",
+  "Historically the Arabian Sea has been known by other names including the Erythraean Sea and the Persian Sea.",
+  "The total area of the Arabian Sea is 3,862,000 km (1,491,000 sq mi).",
+  "The maximum depth of the Arabian Sea is 4,652 metres (15,262 ft).",
+  "The Gulf of Aden lies in the southwest of the Arabian Sea.",
+  "The Gulf of Aden connects the Arabian Sea to the Red Sea through the strait of Bab - el - Mandeb.",
+  "The Gulf of Oman lies in the northwest of the Arabian Sea.",
+  "The Gulf of Oman connects the Arabian Sea to the Persian Gulf."
+ ],
+ "entities": [
+  {
+   "name": "Arabian Sea",
+   "type": "place",
+   "role": "region of the northern Indian Ocean described in the note"
+  },
+  {
+   "name": "Indian Peninsula",
+   "type": "place",
+   "role": "landmass bounding the Arabian Sea on the northeast and east"
+  },
+  {
+   "name": "Somalia",
+   "type": "place",
+   "role": "country bounding the Arabian Sea on the west"
+  },
+  {
+   "name": "Arabian Peninsula",
+   "type": "place",
+   "role": "landmass bounding the Arabian Sea on the west"
+  },
+  {
+   "name": "Pakistan",
+   "type": "place",
+   "role": "country bounding the Arabian Sea on the north"
+  },
+  {
+   "name": "Iran",
+   "type": "place",
+   "role": "country bounding the Arabian Sea on the north"
+  },
+  {
+   "name": "Maldives",
+   "type": "place",
+   "role": "country bounding the Arabian Sea on the south"
+  },
+  {
+   "name": "Erythraean Sea",
+   "type": "place",
+   "role": "historical name of the Arabian Sea"
+  },
+  {
+   "name": "Persian Sea",
+   "type": "place",
+   "role": "historical name of the Arabian Sea"
+  },
+  {
+   "name": "Gulf of Aden",
+   "type": "place",
+   "role": "gulf in the southwest connecting the Arabian Sea to the Red Sea"
+  },
+  {
+   "name": "Red Sea",
+   "type": "place",
+   "role": "sea connected to the Arabian Sea through the Bab-el-Mandeb strait"
+  },
+  {
+   "name": "Bab - el - Mandeb",
+   "type": "place",
+   "role": "strait connecting the Gulf of Aden to the Red Sea"
+  },
+  {
+   "name": "Gulf of Oman",
+   "type": "place",
+   "role": "gulf in the northwest connecting the Arabian Sea to the Persian Gulf"
+  },
+  {
+   "name": "Persian Gulf",
+   "type": "place",
+   "role": "body of water connected to the Arabian Sea via the Gulf of Oman"
+  }
+ ],
+ "tags": [
+  "oceanography",
+  "indian ocean",
+  "arabian sea",
+  "geography",
+  "maritime boundaries"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1232,
+  "output_tokens": 1161
+ }
+}

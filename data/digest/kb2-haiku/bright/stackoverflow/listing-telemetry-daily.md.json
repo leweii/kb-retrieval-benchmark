@@ -1,0 +1,54 @@
+{
+ "summary": "This note is the Snowflake documentation page for the LISTING_TELEMETRY_DAILY view in the DATA_SHARING_USAGE schema, which reports daily telemetry for data exchange listings by region. It describes the view's columns, including event types (GET, REQUEST, LISTING CLICK, LISTING VIEW, UNINSTALL) and actions (STARTED, COMPLETED, CLICK, VIEW), along with usage notes on latency and retention. It also includes two example SQL queries for computing click-through rates and splitting listing views by signed-in versus unknown users.",
+ "one_line": "Snowflake reference for the LISTING_TELEMETRY_DAILY view, which reports daily data exchange listing events by region.",
+ "key_facts": [
+  "The LISTING_TELEMETRY_DAILY view in the DATA_SHARING_USAGE schema displays daily telemetry data by data exchange and region.",
+  "The view returns a row for each data exchange in your organization and each region where that data exchange is available.",
+  "EVENT_TYPE GET means a consumer creates a database for a free, paid, or limited trial listing, or installs a Snowflake Native App, depending on the ACTION value.",
+  "EVENT_TYPE REQUEST means a consumer requests a limited trial listing or a free listing in a region where the data is not yet available.",
+  "EVENT_TYPE UNINSTALL means a consumer uninstalls a Snowflake Native App or drops an imported database.",
+  "ACTION STARTED means the consumer selected Get or Request for a listing on the listing details page.",
+  "ACTION COMPLETED, for an EVENT_TYPE of REQUEST, indicates that the provider received a listing request from the consumer.",
+  "If SNOWFLAKE_REGION or REGION_GROUP is NONE, the event occurred for a user that is not signed in to a Snowflake account.",
+  "CONSUMER_ACCOUNTS_DAILY is the count of distinct accounts that performed the given event action, while CONSUMER_ACCOUNTS_28D counts distinct consumer accounts in the past 28 days.",
+  "Latency for the view may be up to 2 days.",
+  "The data is retained for 365 days (1 year).",
+  "The view contains data for all data products, whether the data product is a Snowflake Native App or a share.",
+  "The first example computes click-through rate as get_request_completed divided by NULLIFZERO(listing_clicks)."
+ ],
+ "entities": [
+  {
+   "name": "LISTING_TELEMETRY_DAILY",
+   "type": "product",
+   "role": "View in the DATA_SHARING_USAGE schema that displays daily telemetry data by data exchange and region"
+  },
+  {
+   "name": "DATA_SHARING_USAGE",
+   "type": "program",
+   "role": "Schema containing the LISTING_TELEMETRY_DAILY view"
+  },
+  {
+   "name": "Snowflake Marketplace",
+   "type": "place",
+   "role": "Example of a data exchange named in the EXCHANGE_NAME column description"
+  },
+  {
+   "name": "Snowflake Native App",
+   "type": "product",
+   "role": "Type of listing product that consumers can install or uninstall, referenced in GET, UNINSTALL and COMPLETED event descriptions"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "data sharing",
+  "telemetry",
+  "marketplace",
+  "sql reference",
+  "analytics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3003,
+  "output_tokens": 1090
+ }
+}

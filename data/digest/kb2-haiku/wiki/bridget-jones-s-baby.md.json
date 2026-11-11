@@ -1,0 +1,53 @@
+{
+ "summary": "This note is a short plot summary of the film Bridget Jones's Baby, given twice in slightly different wording. A year later, Bridget prepares to be married. At the altar, Jack greets her while holding her son, and she then marries Mark Darcy. Afterward, Mark and Jack, now friends, go to the reception together while Bridget carries her and Mark's son, William.",
+ "one_line": "Plot passage from the film Bridget Jones's Baby describing Bridget's wedding to Mark Darcy and the friendship of Mark and Jack.",
+ "key_facts": [
+  "The note is a plot passage about the film Bridget Jones's Baby.",
+  "The passage appears twice in the note, with slightly different wording.",
+  "A year later, Bridget prepares to be married.",
+  "At the altar, Jack greets Bridget while holding her son.",
+  "After Jack's greeting, Bridget moves forward to marry Mark Darcy.",
+  "After the wedding, Mark Darcy and Jack, who are now friends, head to the reception together.",
+  "Bridget carries her and Mark Darcy's son, William, while going to the reception.",
+  "The passage says Mark and Jack are now friends, implying a change in their relationship."
+ ],
+ "entities": [
+  {
+   "name": "Bridget Jones's Baby",
+   "type": "product",
+   "role": "film whose plot is summarized in the note"
+  },
+  {
+   "name": "Bridget",
+   "type": "person",
+   "role": "main character who prepares to marry Mark Darcy"
+  },
+  {
+   "name": "Jack",
+   "type": "person",
+   "role": "character who greets Bridget at the altar holding her son and is now friends with Mark Darcy"
+  },
+  {
+   "name": "Mark Darcy",
+   "type": "person",
+   "role": "character Bridget marries; father of William"
+  },
+  {
+   "name": "William",
+   "type": "person",
+   "role": "son of Bridget and Mark Darcy, carried by Bridget after the wedding"
+  }
+ ],
+ "tags": [
+  "film plot",
+  "bridget jones's baby",
+  "wedding",
+  "fictional characters",
+  "romantic comedy"
+ ],
+ "category": "film & television",
+ "usage": {
+  "input_tokens": 1172,
+  "output_tokens": 1183
+ }
+}

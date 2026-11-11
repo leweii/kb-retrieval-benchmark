@@ -1,0 +1,51 @@
+{
+ "summary": "This is a reference page for the Snowflake system function SYSTEM$CLEANUP_DATABASE_ROLE_GRANTS, which revokes privileges on dropped objects from a share and grants the database role to that share. It documents the syntax, the two string arguments (database role name and share name), the MANAGE GRANTS global privilege required to call it, and a single example call. The usage notes section says None.",
+ "one_line": "Reference for the SYSTEM$CLEANUP_DATABASE_ROLE_GRANTS function, which revokes privileges on dropped objects from a share and regrants the database role.",
+ "key_facts": [
+  "SYSTEM$CLEANUP_DATABASE_ROLE_GRANTS revokes privileges on dropped objects from the share and grants the database role to the share.",
+  "The function syntax is SYSTEM$CLEANUP_DATABASE_ROLE_GRANTS( '<database_role_name>' , '<share_name>' ).",
+  "The first argument, database_role_name, is the name of the database role.",
+  "If the database role identifier is not fully qualified as db_name.database_role_name, the command uses the database role in the current database for the session.",
+  "The second argument, share_name, is the name of the share.",
+  "To call this function, the active role must have the global MANAGE GRANTS privilege.",
+  "The Usage notes section of the page states 'None.'",
+  "The example call is SELECT SYSTEM$CLEANUP_DATABASE_ROLE_GRANTS('mydb.dbr1' , 'myshare');",
+  "In the example, the database role is mydb.dbr1 and the share is myshare.",
+  "The page is listed under the Query Information section of the documentation navigation."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$CLEANUP_DATABASE_ROLE_GRANTS",
+   "type": "program",
+   "role": "system function that revokes privileges on dropped objects from a share and grants the database role to the share"
+  },
+  {
+   "name": "MANAGE GRANTS",
+   "type": "other",
+   "role": "global privilege required for the active role to call the function"
+  },
+  {
+   "name": "mydb.dbr1",
+   "type": "other",
+   "role": "example database role name used in the sample call"
+  },
+  {
+   "name": "myshare",
+   "type": "other",
+   "role": "example share name used in the sample call"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "system functions",
+  "database roles",
+  "shares",
+  "privileges",
+  "access control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1528,
+  "output_tokens": 769
+ }
+}

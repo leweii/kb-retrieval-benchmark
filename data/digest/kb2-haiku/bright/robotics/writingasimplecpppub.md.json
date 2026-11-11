@@ -1,0 +1,69 @@
+{
+ "summary": "This is a ROS 2 Humble tutorial page (scraped with site navigation boilerplate) titled 'Writing a simple publisher and subscriber (C++)'. It explains how to create a C++ package cpp_pubsub, write a publisher node that sends 'Hello, world!' string messages on the topic 'topic' twice a second, and then add dependencies and build configuration. The note is cut off partway through the CMakeLists.txt section, so the subscriber and build/run steps are not included.",
+ "one_line": "ROS 2 Humble beginner tutorial on creating a C++ package with a publisher node that sends string messages over a topic.",
+ "key_facts": [
+  "The tutorial's goal is to create and run a publisher and subscriber node using C++.",
+  "The tutorial is marked as Beginner level and takes about 20 minutes.",
+  "Nodes pass information in the form of string messages over a topic in a simple talker and listener system.",
+  "The package is created with the command: ros2 pkg create --build-type ament_cmake --license Apache-2.0 cpp_pubsub.",
+  "The package should be created in the ros2_ws/src directory, not the root of the workspace.",
+  "The publisher node class MinimalPublisher inherits from rclcpp::Node and names the node minimal_publisher.",
+  "The publisher is created with the String message type, the topic name 'topic', and a queue size of 10.",
+  "The timer is created with a 500ms period, so timer_callback runs twice a second.",
+  "timer_callback sets message.data to 'Hello, world! ' followed by count_ and publishes it.",
+  "RCLCPP_INFO prints every published message to the console.",
+  "main calls rclcpp::init, then rclcpp::spin on a MinimalPublisher, then rclcpp::shutdown.",
+  "The package.xml must add the dependencies rclcpp and std_msgs.",
+  "The package.xml license is Apache License 2.0.",
+  "The example code is available from the ros2/examples repository on the humble branch."
+ ],
+ "entities": [
+  {
+   "name": "ROS 2 Documentation: Humble",
+   "type": "program",
+   "role": "documentation site for the Humble release of ROS 2 that hosts this tutorial"
+  },
+  {
+   "name": "cpp_pubsub",
+   "type": "program",
+   "role": "C++ package created in ros2_ws/src for the publisher and subscriber example"
+  },
+  {
+   "name": "MinimalPublisher",
+   "type": "other",
+   "role": "node class that inherits from rclcpp::Node and publishes Hello world strings"
+  },
+  {
+   "name": "rclcpp",
+   "type": "program",
+   "role": "ROS 2 C++ client library, included via rclcpp/rclcpp.hpp and listed as a package dependency"
+  },
+  {
+   "name": "std_msgs",
+   "type": "program",
+   "role": "ROS 2 package providing the built-in String message type, added as a package dependency"
+  },
+  {
+   "name": "ros2_ws",
+   "type": "place",
+   "role": "workspace directory in which the cpp_pubsub package is created under src"
+  },
+  {
+   "name": "Iron Irwini",
+   "type": "program",
+   "role": "newer ROS 2 distribution pointed to for the latest version of the documentation"
+  }
+ ],
+ "tags": [
+  "ros2",
+  "cpp",
+  "publisher-subscriber",
+  "tutorial",
+  "rclcpp"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15611,
+  "output_tokens": 1040
+ }
+}

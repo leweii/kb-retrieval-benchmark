@@ -1,0 +1,79 @@
+{
+ "summary": "This clipped Microsoft Learn note contains API reference pages for the SharingPermissionInformation class in the Microsoft.SharePoint.Client namespace of the SharePoint client object model. It covers the class declaration and inheritance from ClientObject, its members (constructors, properties, methods), the constructor's parameters, and the InitOnePropertyFromJson override. Most of the text is navigation and cookie/browser boilerplate, which was ignored.",
+ "one_line": "Microsoft Learn API reference pages for the SharePoint client SharingPermissionInformation class, its members, constructor and JSON override.",
+ "key_facts": [
+  "SharingPermissionInformation is a class in the Microsoft.SharePoint.Client namespace, in the Microsoft.SharePoint.Client.dll assembly.",
+  "SharingPermissionInformation inherits from Microsoft.SharePoint.Client.ClientObject, which inherits from System.Object.",
+  "Any public static (Shared in Visual Basic) members of SharingPermissionInformation are thread safe; instance members are not guaranteed to be thread safe.",
+  "The SharingPermissionInformation constructor takes two parameters: context of type ClientRuntimeContext and objectPath of type ObjectPath.",
+  "SharingPermissionInformation properties include IsDefaultPermission, PermissionDescription, PermissionId, PermissionKind, PermissionName and PermissionRoleType.",
+  "Inherited properties from ClientObject include Context, ObjectData, ObjectVersion, Path, ServerObjectIsNull, Tag and TypedObject.",
+  "The ObjectVersion property is reserved for internal use and is not intended to be used directly from code.",
+  "The Path property tracks how a client object is created in the ClientRuntimeContext class so the object can be recreated on the server.",
+  "The InitOnePropertyFromJson method is protected and overrides ClientObject.InitOnePropertyFromJson(String, JsonReader).",
+  "InitOnePropertyFromJson takes a peekedName String and a JsonReader reader parameter and returns a Boolean.",
+  "Methods listed for SharingPermissionInformation include CheckUninitializedProperty, CustomFromJson, FromJson, InitNonPropertyFieldFromJson, IsObjectPropertyInstantiated, IsPropertyAvailable, LoadExpandoFields, RefreshLoad, RemoveFromParentCollection, Retrieve() and Retrieve([]), ToString and UpdateClientObjectPropertyType.",
+  "The pages are dated 03/05/2018 and the footer shows © Microsoft 2024.",
+  "The Microsoft.SharePoint.Client namespace reference is linked from the class pages."
+ ],
+ "entities": [
+  {
+   "name": "SharingPermissionInformation",
+   "type": "other",
+   "role": "class whose reference pages (class, members, methods, constructor, InitOnePropertyFromJson method) are documented in this note"
+  },
+  {
+   "name": "Microsoft.SharePoint.Client",
+   "type": "other",
+   "role": "namespace containing the SharingPermissionInformation class"
+  },
+  {
+   "name": "Microsoft.SharePoint.Client.dll",
+   "type": "product",
+   "role": "assembly that contains the SharingPermissionInformation class"
+  },
+  {
+   "name": "Microsoft.SharePoint.Client.ClientObject",
+   "type": "other",
+   "role": "base class from which SharingPermissionInformation inherits"
+  },
+  {
+   "name": "ClientRuntimeContext",
+   "type": "other",
+   "role": "class whose context is a parameter of the SharingPermissionInformation constructor and which tracks how client objects are created"
+  },
+  {
+   "name": "ObjectPath",
+   "type": "other",
+   "role": "type of the objectPath parameter of the SharingPermissionInformation constructor"
+  },
+  {
+   "name": "JsonReader",
+   "type": "other",
+   "role": "type of the reader parameter of the InitOnePropertyFromJson method"
+  },
+  {
+   "name": "System.Object",
+   "type": "other",
+   "role": "root base class in the inheritance hierarchy"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "publisher of the Microsoft Learn documentation and copyright holder (© Microsoft 2024)"
+  }
+ ],
+ "tags": [
+  "sharepoint",
+  "csharp",
+  "api-reference",
+  "client-object-model",
+  "permissions",
+  "microsoft-learn"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12175,
+  "output_tokens": 1417
+ }
+}

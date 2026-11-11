@@ -1,0 +1,40 @@
+{
+ "summary": "The note reports that Voyager 2 crossed the termination shock on August 30, 2007, and then entered the heliosheath. It states that this crossing occurred about 1 billion miles (1.6 billion km) closer to the Sun than where Voyager 1 made its crossing. The note attributes the difference to the interstellar magnetic field and says the southern hemisphere of the heliosphere is being pushed inward.",
+ "one_line": "Voyager 2 crossed the termination shock and entered the heliosheath on August 30, 2007, closer to the Sun than Voyager 1.",
+ "key_facts": [
+  "On August 30, 2007, Voyager 2 passed the termination shock.",
+  "After passing the termination shock, Voyager 2 entered the heliosheath.",
+  "Voyager 2 entered the heliosheath approximately 1 billion miles (1.6 billion km) closer to the Sun than Voyager 1 did.",
+  "The note attributes the difference in crossing distance to the interstellar magnetic field of deep space.",
+  "The southern hemisphere of the Solar System's heliosphere is being pushed in."
+ ],
+ "entities": [
+  {
+   "name": "Voyager 2",
+   "type": "product",
+   "role": "spacecraft that passed the termination shock on August 30, 2007 and entered the heliosheath"
+  },
+  {
+   "name": "Voyager 1",
+   "type": "product",
+   "role": "spacecraft that crossed into the heliosheath farther from the Sun than Voyager 2"
+  },
+  {
+   "name": "Solar System's heliosphere",
+   "type": "place",
+   "role": "region whose southern hemisphere is being pushed in"
+  }
+ ],
+ "tags": [
+  "voyager 2",
+  "heliosphere",
+  "termination shock",
+  "heliosheath",
+  "space exploration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1100,
+  "output_tokens": 561
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "summary": "This is a clipped Snowflake documentation page for the DROP PIPE command, which removes a specified pipe from the current or specified schema. It gives the syntax (DROP PIPE [ IF EXISTS ] <name>), explains the name parameter and its quoting and case-sensitivity rules, notes that dropped pipes cannot be recovered, and shows an example that drops a pipe named mypipe. Navigation and footer boilerplate were ignored.",
+ "one_line": "Snowflake reference for the DROP PIPE command, which permanently removes a named pipe from a schema.",
+ "key_facts": [
+  "DROP PIPE removes the specified pipe from the current or specified schema.",
+  "The syntax is DROP PIPE [ IF EXISTS ] <name>.",
+  "The name parameter specifies the identifier for the pipe to drop.",
+  "If a pipe identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "Dropped pipes cannot be recovered and must be recreated.",
+  "The example DROP PIPE mypipe; returns the status 'MYPIPE successfully dropped.'"
+ ],
+ "entities": [
+  {
+   "name": "DROP PIPE",
+   "type": "program",
+   "role": "Snowflake SQL command that removes the specified pipe from the current or specified schema"
+  },
+  {
+   "name": "mypipe",
+   "type": "product",
+   "role": "pipe name used in the example that is dropped by the DROP PIPE command"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "data-loading",
+  "snowpipe",
+  "ddl"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1440,
+  "output_tokens": 532
+ }
+}

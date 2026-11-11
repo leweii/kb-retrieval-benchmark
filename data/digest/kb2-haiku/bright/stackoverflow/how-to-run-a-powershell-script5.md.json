@@ -1,0 +1,96 @@
+{
+ "summary": "This Stack Overflow page captures the question 'How to run a PowerShell script' asked in 2010 by a user who could not get a .ps1 file to run via powershell.exe from a batch file, with the command returning only the file name. The page collects many answers, with the top-voted one explaining how to run a script from within an administrator PowerShell session after changing the execution policy, and another showing how to call powershell.exe with -File or with a call operator from cmd.exe. Other answers cover execution policy bypass switches, running scripts via Windows Task Scheduler, PowerShell ISE, and right-clicking a .ps1 file to run it with PowerShell.",
+ "one_line": "Stack Overflow Q&A collecting answers on running PowerShell .ps1 scripts from PowerShell, cmd, batch files, and Task Scheduler, including execution policy handling.",
+ "key_facts": [
+  "The question was asked on January 9, 2010 and had about 1022 votes and 3.0 million views when captured.",
+  "The asker had a script named myscript.ps1 and ran it with powershell.exe 'C:\\my_path\\yada_yada\\run_import_script.ps1', which returned only the file name with no error.",
+  "The top-voted answer says to launch Windows PowerShell as an Administrator, navigate to the script directory with cd, and execute it with .\\run_import_script.ps1.",
+  "The top-voted answer gives the cmd.exe form: powershell -noexit \"& \"\"C:\\my_path\\yada_yada\\run_import_script.ps1\"\"\", citing Kirk Munro's post on invoking a PowerShell script from cmd.exe.",
+  "The answer by Keith Hill states that on PowerShell 2.0, the -File parameter of PowerShell.exe can invoke a script from another environment such as cmd.exe.",
+  "Keith Hill advises adding -ExecutionPolicy Bypass if script execution is disabled on the system.",
+  "Chingiz Musayev's answer gives the form powershell [-noexit] -executionpolicy bypass -File <Filename> to run a script without modifying the default execution policy.",
+  "An answer by AndyM says that on PowerShell 1.0, piping the file works: powershell -command - < c:\\mypath\\myscript.ps1.",
+  "An answer by electronictonic says that right-clicking a .ps1 file in Windows and choosing Run with PowerShell runs the script.",
+  "An answer by JovanToroman recommends running set-executionpolicy unrestricted in administrator mode and then running set-ExecutionPolicy default afterward to avoid security risks.",
+  "An answer by Eugene describes creating a Windows Task Scheduler task with Program/Script set to Powershell.exe and Arguments set to -File \"C:\\xxx.ps1\".",
+  "An answer by rainabba says that on Windows 10 with PowerShell version 5.1, typing ./myscript.ps1 in a PowerShell window runs the script.",
+  "An answer by Roukmoute shows the command Microsoft uses for right-click Run with PowerShell, which sets the execution policy to Bypass for the Process scope before running the script with the call operator &.",
+  "Marc_s's answer notes that the powershell -noexit form was needed because of quoting, and the asker reported that three double quotes around the path worked.",
+  "The page is tagged windows, powershell, and scripting, and is licensed under CC BY-SA."
+ ],
+ "entities": [
+  {
+   "name": "PowerShell",
+   "type": "product",
+   "role": "Windows shell and scripting environment used to run .ps1 scripts"
+  },
+  {
+   "name": "powershell.exe",
+   "type": "program",
+   "role": "command-line executable used to launch PowerShell from cmd.exe or batch files"
+  },
+  {
+   "name": "cmd.exe",
+   "type": "program",
+   "role": "Command Prompt from which PowerShell scripts can be invoked"
+  },
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "Q&A website hosting the question and its answers"
+  },
+  {
+   "name": "Keith Hill",
+   "type": "person",
+   "role": "answerer who recommended the -File parameter of PowerShell.exe"
+  },
+  {
+   "name": "marc_s",
+   "type": "person",
+   "role": "answerer whose top-voted answer explained running the script from an administrator PowerShell session and cmd.exe"
+  },
+  {
+   "name": "Chingiz Musayev",
+   "type": "person",
+   "role": "answerer who gave the -executionpolicy bypass -File syntax"
+  },
+  {
+   "name": "Kirk Munro",
+   "type": "person",
+   "role": "author of the blog post on invoking a PowerShell script from cmd.exe cited in the top answer"
+  },
+  {
+   "name": "AndyM",
+   "type": "person",
+   "role": "answerer who described piping the script file to PowerShell 1.0"
+  },
+  {
+   "name": "Windows Task Scheduler",
+   "type": "program",
+   "role": "scheduler that can run a PowerShell script using Powershell.exe with -File arguments"
+  },
+  {
+   "name": "PowerShell ISE",
+   "type": "program",
+   "role": "graphical PowerShell editor where a script can be opened and run"
+  },
+  {
+   "name": "Set-ExecutionPolicy",
+   "type": "program",
+   "role": "PowerShell cmdlet used to change the script execution policy"
+  }
+ ],
+ "tags": [
+  "powershell",
+  "windows",
+  "scripting",
+  "execution-policy",
+  "cmd",
+  "task-scheduler"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9546,
+  "output_tokens": 1726
+ }
+}

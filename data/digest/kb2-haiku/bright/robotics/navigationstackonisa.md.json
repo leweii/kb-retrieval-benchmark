@@ -1,0 +1,101 @@
+{
+ "summary": "This NVIDIA Isaac AMR documentation page explains how to install and run the Navigation Stack container with the Nova Carter robot in Omniverse Isaac Sim. It covers writing a configuration file, starting the Navigation Stack and waiting for a TCP connection, connecting Isaac Sim via the GXF Bridge extension (manually or via a Python script), and visualizing in Isaac Sight. It also covers AWS deployment, using custom occupancy maps for new environments, and known limitations such as a memory leak in Isaac Sim.",
+ "one_line": "Guide to running NVIDIA's Isaac AMR Navigation Stack with the Nova Carter robot in Omniverse Isaac Sim, including setup, connection, and custom maps.",
+ "key_facts": [
+  "The Navigation Stack tutorial uses the Nova Carter platform in Omniverse Isaac Sim.",
+  "The tutorial's configuration uses lidar-based localization and wheel-inertial odometry, with robot as carter and physics_engine as isaac-sim.",
+  "The sample configuration sets linear_speed_limit to 1.111 and omap_cell_size to 0.05.",
+  "The Navigation Stack container is run with docker using the --gpus all, --rm and --network=host flags and the -c /tmp/config.yaml argument.",
+  "The Navigation Stack initially logs 'Failed to connect to TCP server 127.0.0.1:7000' until Isaac Sim connects.",
+  "Isaac Sight is opened in a web browser at http://<ip_address>:3000 and stays blank until the simulation is running.",
+  "In Isaac Sight the robot goal is visualized as a red circle, and it can be repositioned by clicking and dragging the marker.",
+  "Omniverse Isaac Sim currently supports Isaac AMR in a specific prebuilt Docker image, not its latest release image.",
+  "Isaac AMR has only been tested on AWS among cloud platforms, and AWS instances should be g4dn.2xlarge or better (T4) or g5.2xlarge or better (A10G) rather than p2.2xlarge.",
+  "Manually running Isaac Sim requires enabling the GXF Bridge extension via Window > Extension and then clicking Play after the Navigation Stack waits for TCP.",
+  "Pausing the Isaac Sim simulation also pauses the Navigation Stack, and Destroy Application resets the robot to its initial position.",
+  "Stopping the simulation with the Stop button leaves the server running, and clicking Play afterward causes the Navigation Stack to end fatally.",
+  "The run_scene.py script in tools/isaac_amr runs Isaac Sim via Python and must be started only after the Navigation Stack is waiting for a TCP connection.",
+  "A custom environment requires generating a new occupancy map and setting omap_path and omap_to_world_transform in the configuration file.",
+  "A known memory leak occurs in Isaac Sim when the Quick Search and Curve Editor extensions are enabled, with memory possibly growing by 50% over 24 hours."
+ ],
+ "entities": [
+  {
+   "name": "Navigation Stack",
+   "type": "program",
+   "role": "Isaac AMR navigation software run in a Docker container that drives the simulated robot"
+  },
+  {
+   "name": "Nova Carter",
+   "type": "product",
+   "role": "robot platform used in the Isaac Sim navigation demo"
+  },
+  {
+   "name": "Omniverse Isaac Sim",
+   "type": "product",
+   "role": "simulator in which the Nova Carter robot is driven by the Navigation Stack"
+  },
+  {
+   "name": "Isaac Sight",
+   "type": "product",
+   "role": "web-based visualization frontend for the Navigation Stack showing the occupancy map and robot goal"
+  },
+  {
+   "name": "GXF Bridge",
+   "type": "program",
+   "role": "Isaac Sim extension that connects the simulation to the Navigation Stack via a TCP server"
+  },
+  {
+   "name": "NVIDIA Container Registry",
+   "type": "organization",
+   "role": "source of the prebuilt Docker images for the Navigation Stack and Isaac Sim"
+  },
+  {
+   "name": "Isaac SDK",
+   "type": "product",
+   "role": "provides the prebuilt Docker image containing the entire Navigation Stack"
+  },
+  {
+   "name": "NVIDIA Hawk sensor",
+   "type": "product",
+   "role": "sensor included with the sample assets in the Isaac Sim container"
+  },
+  {
+   "name": "full_warehouse_carter_v2_4_gxf.usd",
+   "type": "place",
+   "role": "sample large warehouse scene with Nova Carter, forklift and shelves"
+  },
+  {
+   "name": "walled_room_carter_v2_4_gxf.usd",
+   "type": "place",
+   "role": "simpler sample scene with Nova Carter in the center of a walled room"
+  },
+  {
+   "name": "run_scene.py",
+   "type": "program",
+   "role": "bundled script that loads a robot into a scene at a specified initial pose via the Isaac Sim Python API"
+  },
+  {
+   "name": "Amazon Web Services (AWS)",
+   "type": "organization",
+   "role": "optional cloud platform on which Isaac Sim can be deployed"
+  },
+  {
+   "name": "NVIDIA Isaac AMR",
+   "type": "program",
+   "role": "documented Isaac product whose navigation stack and tutorials this page describes"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "isaac-sim",
+  "navigation-stack",
+  "simulation",
+  "docker",
+  "nova-carter"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14886,
+  "output_tokens": 1743
+ }
+}

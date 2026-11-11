@@ -1,0 +1,50 @@
+{
+ "summary": "This is a reference page for the Snowflake-style SQL function H3_COVERAGE_STRINGS, which returns an ARRAY of VARCHAR hexadecimal IDs for the minimal set of H3 cells that completely cover a GEOGRAPHY shape at a given resolution. It gives the syntax, arguments (a GEOGRAPHY expression and an INTEGER resolution from 0 to 15), return type, a usage note that a cell is included if its boundary intersects the shape, and an example covering a San Francisco polygon at resolution 8. The surrounding navigation and boilerplate were ignored.",
+ "one_line": "Reference for the H3_COVERAGE_STRINGS SQL function, which returns hexadecimal H3 cell IDs covering a geography shape at a chosen resolution.",
+ "key_facts": [
+  "H3_COVERAGE_STRINGS returns an ARRAY of hexadecimal IDs as VARCHAR values identifying H3 cells that completely cover a shape specified by a GEOGRAPHY object.",
+  "The syntax is H3_COVERAGE_STRINGS( <geography_expression> , <target_resolution> ).",
+  "The target_resolution argument is an INTEGER between 0 and 15 (inclusive) specifying the H3 resolution of the returned H3 cells.",
+  "Specifying any INTEGER value outside the range 0 to 15 results in an error.",
+  "The function returns the hexadecimal IDs of the minimal set of H3 cells that completely cover the specified input shape.",
+  "Usage note: a cell is included in the result set if its boundary intersects the input shape.",
+  "The documented example applies H3_COVERAGE_STRINGS to a Polygon with vertices at approximately -122.48 longitude and 37.83 latitude, using resolution 8.",
+  "The example polygon is specified with the WKT-style string 'POLYGON((-122.481889 37.826683,-122.479487 37.808548,-122.474150 37.808904,-122.476510 37.826935,-122.481889 37.826683))'.",
+  "The example output for resolution 8 is an array of six cell IDs, beginning with \"882830870bfffff\" and including \"8828308715fffff\".",
+  "The example converts the text to a geography value using TO_GEGGRAPHY, as written in the note."
+ ],
+ "entities": [
+  {
+   "name": "H3_COVERAGE_STRINGS",
+   "type": "program",
+   "role": "SQL function that returns the hexadecimal IDs of the minimal set of H3 cells completely covering a GEOGRAPHY shape"
+  },
+  {
+   "name": "H3",
+   "type": "program",
+   "role": "geospatial hexagonal grid system whose cells are identified by hexadecimal IDs and have resolutions"
+  },
+  {
+   "name": "GEOGRAPHY",
+   "type": "other",
+   "role": "data type for the input shape argument"
+  },
+  {
+   "name": "TO_GEGGRAPHY",
+   "type": "program",
+   "role": "function used in the example to convert a WKT string to a geography value (spelled as in the note)"
+  }
+ ],
+ "tags": [
+  "h3",
+  "geospatial",
+  "sql",
+  "reference",
+  "hexagonal-grid"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1909,
+  "output_tokens": 1027
+ }
+}

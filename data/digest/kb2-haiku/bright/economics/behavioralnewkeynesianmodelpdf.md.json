@@ -1,0 +1,107 @@
+{
+ "summary": "Gabaix's paper enriches the New Keynesian model with bounded rationality through a 'cognitive discounting' parameter m̄ in [0,1], under which agents shrink their simulations of future deviations from the steady state by a factor m̄^k at horizon k. The author argues this yields a discounted IS curve and Phillips curve with attention parameters M and Mf, and that compared with the rational model it removes the forward guidance puzzle, makes the Taylor principle easier to satisfy, reduces ZLB costs, changes optimal policy away from price-level targeting, makes fiscal transfers effective, and resolves neo-Fisherian paradoxes. The note is the paper's introduction plus the start of the model section, with the Euler-equation derivation of the discounted aggregate Euler equation.",
+ "one_line": "Gabaix's behavioral New Keynesian model adds cognitive discounting of distant future events, changing forward guidance, determinacy, ZLB costs, optimal policy and fiscal multipliers.",
+ "key_facts": [
+  "The paper introduces a 'cognitive discounting' parameter m̄ in [0,1] that measures agents' attention to the future; the rational model corresponds to m̄ = 1.",
+  "Under cognitive discounting, an innovation k periods ahead has its direct effect on expectations shrunk by a factor m̄^k relative to the rational response.",
+  "The behavioral model's IS curve is x_t = M E_t[x_{t+1}] − σ(i_t − E_tπ_{t+1} − r^n_t), with M in [0,1] the aggregate attention parameter of consumers.",
+  "The behavioral Phillips curve is π_t = β M^f E_t[π_{t+1}] + κ x_t, with M^f in [0,1] the aggregate attention parameter of firms.",
+  "Compared to the rational model, the paper claims there is no forward guidance puzzle because the agent's myopia mutes the impact of far-future interest rate movements.",
+  "With a constant nominal interest rate and enough myopia, the behavioral model has just one bounded equilibrium, whereas the rational model has a continuum of bounded equilibria.",
+  "The paper states that a permanent rise in the nominal interest rate lowers inflation in the short run (a Keynesian effect) and raises it in the long run, so long-run Fisher neutrality holds.",
+  "With rational firms, optimal commitment policy calls for price level targeting, which gives nominal GDP targeting when GDP is trend-stationary; the paper argues this is not optimal with behavioral firms.",
+  "In the traditional model, rational agents are Ricardian and do not react to tax cuts; in the behavioral model, agents consume more when they receive tax cuts or debt-financed transfers.",
+  "The paper says depressions due to the ZLB are unboundedly large in the rational model but moderate and bounded in the behavioral model.",
+  "The paper is described as a behavioral version of Chapters 2-5 of Galí (2015), itself partly a summary of Woodford (2003b).",
+  "The baseline model normalizes trend inflation to zero, and the paper's Section V examines non-zero trend inflation to analyze neo-Fisherian paradoxes.",
+  "The paper's JEL codes include D01, E70, E12, E52, E6, E62, E63, G40.",
+  "The paper is published in the American Economic Review, February 2020, and the author is Xavier Gabaix of Harvard University, NBER and CEPR.",
+  "In the model, the steady-state consumption, labor, wage and output are all normalized to 1 under the assumption of corrective production subsidies.",
+  "Lemma 1 states that for any variable z(X_t) with z(0)=0, the behavioral expectation satisfies E^BR_t[z(X_{t+k})] = m̄^k E_t[z(X_{t+k})]."
+ ],
+ "entities": [
+  {
+   "name": "Xavier Gabaix",
+   "type": "person",
+   "role": "author of the paper; affiliated with Harvard University, NBER and CEPR"
+  },
+  {
+   "name": "Harvard University",
+   "type": "organization",
+   "role": "author's affiliation (Littauer Center, Cambridge MA)"
+  },
+  {
+   "name": "American Economic Review",
+   "type": "organization",
+   "role": "journal in which the paper appears, February 2020 issue"
+  },
+  {
+   "name": "New Keynesian model",
+   "type": "product",
+   "role": "basic model of monetary policy that the paper enriches with behavioral factors"
+  },
+  {
+   "name": "Galí (2015)",
+   "type": "other",
+   "role": "textbook whose notation the paper largely follows and of which it is a behavioral version of Chapters 2-5"
+  },
+  {
+   "name": "Woodford (2003b)",
+   "type": "other",
+   "role": "source work distilled into the canonical two-equation New Keynesian model"
+  },
+  {
+   "name": "Del Negro, Giannoni and Patterson (2015)",
+   "type": "other",
+   "role": "cited as emphasizing that forward guidance works very powerfully with rational agents"
+  },
+  {
+   "name": "McKay, Nakamura and Steinsson (2016)",
+   "type": "other",
+   "role": "cited as emphasizing that forward guidance is likely too powerful in rational models; also provides microfoundation for M<1 with limited risk sharing"
+  },
+  {
+   "name": "Cochrane (2017)",
+   "type": "other",
+   "role": "cited for highlighting the neo-Fisherian property and for documenting ZLB persistence in Japan and Western economies"
+  },
+  {
+   "name": "Clarida, Gali and Gertler (1999)",
+   "type": "other",
+   "role": "cited for showing that rational firms gain strong benefits from commitment to being tough in the future"
+  },
+  {
+   "name": "Bilbiie (2018)",
+   "type": "other",
+   "role": "cited for finding that rational credit-constrained models generate a government spending multiplier below 1"
+  },
+  {
+   "name": "Blanchard and Kahn (1980)",
+   "type": "other",
+   "role": "source of the determinacy definition the paper uses"
+  },
+  {
+   "name": "Japan",
+   "type": "place",
+   "role": "economy that has been stuck at the zero lower bound since the late 1980s"
+  },
+  {
+   "name": "Gabaix (2016)",
+   "type": "other",
+   "role": "paper whose formalism for dynamic programming with limited attention is particularized in this model"
+  }
+ ],
+ "tags": [
+  "new keynesian model",
+  "bounded rationality",
+  "cognitive discounting",
+  "monetary policy",
+  "fiscal policy",
+  "forward guidance"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13741,
+  "output_tokens": 2066
+ }
+}

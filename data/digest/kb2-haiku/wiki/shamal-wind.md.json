@@ -1,0 +1,63 @@
+{
+ "summary": "The note describes the shamal, a northwesterly wind that blows over Iraq and the Persian Gulf states, including Saudi Arabia and Kuwait. It is often strong during the day and weaker at night, and it occurs from once to several times a year, mostly in summer but sometimes in winter. The wind typically produces large sandstorms affecting Iraq, with much of the sand picked up from Jordan and Syria.",
+ "one_line": "The shamal is a northwesterly wind over Iraq and the Persian Gulf states that often causes large sandstorms.",
+ "key_facts": [
+  "A shamal is a northwesterly wind blowing over Iraq and the Persian Gulf states.",
+  "The name 'shamal' is glossed in the note as meaning 'north'.",
+  "The Persian Gulf states named in the note include Saudi Arabia and Kuwait.",
+  "The shamal is often strong during the day but decreases at night.",
+  "The shamal occurs anywhere from once to several times a year.",
+  "The shamal occurs mostly in summer but sometimes in winter.",
+  "The resulting wind typically creates large sandstorms that impact Iraq.",
+  "Most of the sand in these shamal sandstorms has been picked up from Jordan and Syria."
+ ],
+ "entities": [
+  {
+   "name": "Iraq",
+   "type": "place",
+   "role": "country impacted by the shamal wind and its large sandstorms"
+  },
+  {
+   "name": "Persian Gulf states",
+   "type": "place",
+   "role": "region over which the shamal blows"
+  },
+  {
+   "name": "Saudi Arabia",
+   "type": "place",
+   "role": "Persian Gulf state included in the area where the shamal blows"
+  },
+  {
+   "name": "Kuwait",
+   "type": "place",
+   "role": "Persian Gulf state included in the area where the shamal blows"
+  },
+  {
+   "name": "Jordan",
+   "type": "place",
+   "role": "source of most sand picked up by shamal sandstorms"
+  },
+  {
+   "name": "Syria",
+   "type": "place",
+   "role": "source of most sand picked up by shamal sandstorms"
+  },
+  {
+   "name": "Shamal (wind)",
+   "type": "event",
+   "role": "northwesterly wind that blows over Iraq and the Persian Gulf states and creates large sandstorms"
+  }
+ ],
+ "tags": [
+  "meteorology",
+  "wind",
+  "sandstorms",
+  "middle east",
+  "weather"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1133,
+  "output_tokens": 731
+ }
+}

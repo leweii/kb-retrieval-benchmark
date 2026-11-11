@@ -1,0 +1,151 @@
+{
+ "summary": "This CEP Brexit Analysis briefing (No. 2, March 2016) by Swati Dhingra, Gianmarco Ottaviano, Thomas Sampson and John Van Reenen estimates how leaving the EU would affect UK trade and living standards. Using a quantitative global trade model, it finds static losses of 1.3% to 2.6% of income (£850 to £1,700 per household) after fiscal savings, and argues long-run productivity effects raise the cost to 6.3% to 9.5% of GDP. The note also covers effects on other countries, unilateral tariff removal, future trade deals, and regulation, concluding that trade losses would far outweigh EU budget savings.",
+ "one_line": "CEP analysis estimating that Brexit would reduce UK income by 1.3% to 2.6% statically, and 6.3% to 9.5% with long-run productivity effects.",
+ "key_facts": [
+  "The EU is the UK's largest trade partner, and around half of UK trade is with the EU.",
+  "In an optimistic scenario where the UK obtains full access to the EU single market like Norway, Brexit lowers average UK incomes by 1.3% (£850 per household).",
+  "In a pessimistic scenario with larger trade cost increases, Brexit lowers UK income by 2.6% (£1,700 per household).",
+  "The overall GDP fall in the UK is £26 billion to £55 billion, about twice the £12 billion to £28 billion income loss in the rest of the EU combined.",
+  "If the UK unilaterally removed all tariffs on imports after Brexit, UK incomes would fall by 1% in the optimistic case and 2.3% in the pessimistic case.",
+  "Including long-run productivity effects raises the cost of Brexit to a loss of 6.3% to 9.5% of GDP (about £4,200 to £6,400 per household).",
+  "The net fiscal contribution of the UK to the EU budget was estimated at around 0.53% of national income (HM Treasury, 2013).",
+  "Table 1 shows trade effects of -1.37% (optimistic) and -2.92% (pessimistic), and a fiscal benefit of 0.09% and 0.31% respectively.",
+  "The model uses WIOD data dividing the world into 35 sectors and 31 regions.",
+  "Ireland suffers the largest proportional losses from Brexit among EU members, alongside the Netherlands and Belgium.",
+  "Breinlich et al (2016) estimate that the US and Japanese trade agreements would lower prices by 0.4% and 0.2% respectively, benefits the UK would forgo outside the EU.",
+  "The UK's economy makes up only 18% of the EU's single market, reducing its bargaining power in trade negotiations.",
+  "Crafts (2016) concludes that EU membership raised UK GDP per capita by between 8.6% and 10.6%.",
+  "Booth et al (2015) identify 56 EU-derived regulations whose costs outweigh benefits, which Crafts (2016) calculates at 0.9% of UK GDP, with half the cost coming from the Renewable Energy Strategy and the Working Time Directive.",
+  "The authors state the UK already has one of the OECD's least regulated product and labour markets."
+ ],
+ "entities": [
+  {
+   "name": "Centre for Economic Performance",
+   "type": "organization",
+   "role": "politically independent research centre at the London School of Economics that authored the briefing"
+  },
+  {
+   "name": "London School of Economics and Political Science",
+   "type": "organization",
+   "role": "institution housing the Centre for Economic Performance"
+  },
+  {
+   "name": "Swati Dhingra",
+   "type": "person",
+   "role": "co-author of the briefing"
+  },
+  {
+   "name": "Gianmarco Ottaviano",
+   "type": "person",
+   "role": "co-author of the briefing"
+  },
+  {
+   "name": "Thomas Sampson",
+   "type": "person",
+   "role": "co-author of the briefing"
+  },
+  {
+   "name": "John Van Reenen",
+   "type": "person",
+   "role": "co-author of the briefing; CEP Director who joined in 2003"
+  },
+  {
+   "name": "UK Economic and Social Research Council",
+   "type": "organization",
+   "role": "funder of the CEP's Brexit work"
+  },
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "UK's largest trade partner whose membership is being analysed"
+  },
+  {
+   "name": "Norway",
+   "type": "place",
+   "role": "optimistic scenario benchmark via European Economic Area membership"
+  },
+  {
+   "name": "Switzerland",
+   "type": "place",
+   "role": "alternative optimistic scenario simulated with bilateral agreements with the EU"
+  },
+  {
+   "name": "World Trade Organisation",
+   "type": "organization",
+   "role": "sets MFN tariff rules governing UK-EU trade in the pessimistic scenario"
+  },
+  {
+   "name": "European Economic Area",
+   "type": "organization",
+   "role": "membership that gives Norway free trade with the EU"
+  },
+  {
+   "name": "Common Agricultural Policy",
+   "type": "program",
+   "role": "source of agricultural subsidies driving the EU fiscal transfer cost"
+  },
+  {
+   "name": "WIOD",
+   "type": "program",
+   "role": "database used by the quantitative trade model covering 35 sectors and 31 regions"
+  },
+  {
+   "name": "Renewable Energy Strategy",
+   "type": "program",
+   "role": "regulation whose abolition is among the largest claimed regulatory savings"
+  },
+  {
+   "name": "Working Time Directive",
+   "type": "program",
+   "role": "regulation granting 20 days paid annual leave, among the largest claimed regulatory savings"
+  },
+  {
+   "name": "Transatlantic Trade and Investment Partnership",
+   "type": "event",
+   "role": "EU-US free trade agreement under negotiation that the UK would not benefit from"
+  },
+  {
+   "name": "OECD",
+   "type": "organization",
+   "role": "source of rankings placing UK product and labour markets among least regulated"
+  },
+  {
+   "name": "Ireland",
+   "type": "place",
+   "role": "EU member suffering the largest proportional losses from Brexit"
+  },
+  {
+   "name": "Russia",
+   "type": "place",
+   "role": "non-EU country gaining as trade is diverted toward it"
+  },
+  {
+   "name": "Turkey",
+   "type": "place",
+   "role": "non-EU country gaining as trade is diverted toward it"
+  },
+  {
+   "name": "David Ricardo",
+   "type": "person",
+   "role": "economist whose work established the static effects of trade"
+  },
+  {
+   "name": "LSE Growth Commission",
+   "type": "organization",
+   "role": "source cited for inefficiency of the UK planning system"
+  }
+ ],
+ "tags": [
+  "brexit",
+  "international trade",
+  "eu membership",
+  "uk economy",
+  "trade policy",
+  "regulation"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 12436,
+  "output_tokens": 2077
+ }
+}

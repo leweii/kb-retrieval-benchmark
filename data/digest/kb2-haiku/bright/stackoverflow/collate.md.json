@@ -1,0 +1,72 @@
+{
+ "summary": "This is a reference page for the COLLATE string function, which returns a copy of a string with a different collation specification attached, leaving the string text unchanged. The copy is then used in later comparisons and sorts under the new collation. The page covers two call forms (function and infix operator), the constant-string requirement for infix use, and examples using Spanish ('sp', 'sp-upper') and German ('de') collations.",
+ "one_line": "Reference for the COLLATE function, which returns a copy of a string with a different collation specification for later comparisons and sorts.",
+ "key_facts": [
+  "COLLATE returns a copy of the original string with the specified collation_specification property instead of the original one.",
+  "The string itself is unchanged by COLLATE; only the collation specifier associated with the string is changed.",
+  "COLLATE can be called as a normal function: COLLATE(<string_expression>, '<collation_specification>').",
+  "COLLATE can be used as an infix operator: <string_expression> COLLATE '<collation_specification>'.",
+  "When COLLATE is used as an infix operator, the collation_specification must be a constant string, not a general expression.",
+  "Each VARCHAR contains a property holding the collation specifier used when comparing that VARCHAR to another VARCHAR.",
+  "The example creates a table with CREATE TABLE collation1 (v VARCHAR COLLATE 'sp') and inserts the value 'ñ', whose collation is 'sp' (Spanish).",
+  "Calling COLLATE(v, 'sp-upper') changes the returned value's collation from 'sp' to 'sp-upper' while the lowercase 'ñ' text stays the same.",
+  "Under the 'sp-upper' collation, COLLATE(v, 'sp-upper') = 'Ñ' returns True, while v = 'Ñ' without COLLATE returns False.",
+  "The page gives an example sorting results with ORDER BY COLLATE(col1, 'de') to use German (Deutsch) collation.",
+  "The queries ORDER BY COLLATE(spanish_phrase, 'utf8') and ORDER BY spanish_phrase COLLATE 'utf8' return the same result.",
+  "The page is a clipped reference page whose navigation and feedback boilerplate was ignored."
+ ],
+ "entities": [
+  {
+   "name": "COLLATE",
+   "type": "program",
+   "role": "string function that returns a copy of a string with a specified collation_specification"
+  },
+  {
+   "name": "VARCHAR",
+   "type": "other",
+   "role": "string data type that stores a collation specifier property used when comparing values"
+  },
+  {
+   "name": "collation1",
+   "type": "other",
+   "role": "example table created with a VARCHAR column v declared COLLATE 'sp'"
+  },
+  {
+   "name": "collation_demo",
+   "type": "other",
+   "role": "example table with a spanish_phrase column used in ORDER BY examples"
+  },
+  {
+   "name": "Spanish collation 'sp'",
+   "type": "other",
+   "role": "collation specification used for the initial value in the example table"
+  },
+  {
+   "name": "Spanish collation 'sp-upper'",
+   "type": "other",
+   "role": "collation specification applied by COLLATE(v, 'sp-upper') in the examples"
+  },
+  {
+   "name": "German (Deutsch) collation 'de'",
+   "type": "other",
+   "role": "collation used to sort results in ORDER BY COLLATE(col1, 'de')"
+  },
+  {
+   "name": "utf8 collation",
+   "type": "other",
+   "role": "collation specification used in the two equivalent ORDER BY examples"
+  }
+ ],
+ "tags": [
+  "sql",
+  "string-functions",
+  "collation",
+  "reference",
+  "database"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2967,
+  "output_tokens": 1132
+ }
+}

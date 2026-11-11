@@ -1,0 +1,117 @@
+{
+ "summary": "This note describes glucosinolates, sulfur- and nitrogen-containing plant compounds that break down into pungent isothiocyanates (mustard oils) when plant tissue is damaged. It covers their occurrence mainly in the order Brassicales, their chemistry and naming, their biosynthesis from amino acids, and their effects on mammals, insects and plant defence. The note also covers toxicity to livestock, the role in bitterness of vegetables, and research interest in cancer.",
+ "one_line": "Overview of glucosinolates, sulfur-containing plant compounds that yield pungent mustard oils and defend plants against pests.",
+ "key_facts": [
+  "Glucosinolates are natural components of pungent plants such as mustard, cabbage, and horseradish.",
+  "Glucosinolates occur as secondary metabolites of almost all plants of the order Brassicales.",
+  "Outside the Brassicales, the genera Drypetes and Putranjiva in the family Putranjivaceae are the only other known occurrence of glucosinolates.",
+  "Glucosinolates are water-soluble anions derived from glucose and an amino acid, containing sulfur and nitrogen.",
+  "Upon hydrolysis of the thioglucoside bond by the enzyme myrosinase, glucosinolates convert into an isothiocyanate, a 'mustard oil'.",
+  "Sinigrin was first of the glucosinolate class to be isolated, in 1839 as its potassium salt.",
+  "The X-ray crystallography result of 1963 settled that natural glucosinolates are of the Z form.",
+  "Glucoraphanin is the precursor of sulforaphane.",
+  "About 132 different glucosinolates are known to occur naturally in plants.",
+  "Glucobrassicin is derived from tryptophan, and sinalbin is derived from tyrosine.",
+  "Full biosynthetic steps were studied in the cress Arabidopsis thaliana, using a sequence of seven enzyme-catalysed steps.",
+  "Myrosinase and glucosinolates are stored in separate compartments or cells to prevent damage to the plant itself.",
+  "Some glucosinolates have toxic effects, mainly as goitrogens and anti-thyroid agents, in livestock at high doses.",
+  "Dietary amounts of glucosinolate are not toxic to humans given normal iodine intake.",
+  "The glucosinolate sinigrin was shown to be responsible for the bitterness of cooked cauliflower and Brussels sprouts.",
+  "The diamondback moth possesses glucosinolate sulfatase, which desulfates glucosinolates, making them unfit for degradation to toxic products by myrosinase."
+ ],
+ "entities": [
+  {
+   "name": "Glucosinolate",
+   "type": "other",
+   "role": "class of sulfur- and nitrogen-containing plant compounds that yield mustard oils when hydrolysed by myrosinase"
+  },
+  {
+   "name": "Brassicales",
+   "type": "other",
+   "role": "order of plants where glucosinolates occur as secondary metabolites"
+  },
+  {
+   "name": "Brassicaceae",
+   "type": "other",
+   "role": "economically important plant family within Brassicales containing glucosinolates"
+  },
+  {
+   "name": "Drypetes",
+   "type": "other",
+   "role": "genus outside Brassicales known to contain glucosinolates"
+  },
+  {
+   "name": "Putranjiva",
+   "type": "other",
+   "role": "genus in family Putranjivaceae outside Brassicales known to contain glucosinolates"
+  },
+  {
+   "name": "Sinigrin",
+   "type": "product",
+   "role": "allylglucosinolate, the first glucosinolate isolated (1839) and precursor of allyl isothiocyanate"
+  },
+  {
+   "name": "Glucoraphanin",
+   "type": "product",
+   "role": "glucosinolate that is the precursor of sulforaphane"
+  },
+  {
+   "name": "Sulforaphane",
+   "type": "product",
+   "role": "isothiocyanate produced from glucoraphanin"
+  },
+  {
+   "name": "Progoitrin",
+   "type": "product",
+   "role": "glucosinolate probably precursor of a compound that cyclizes to goitrin"
+  },
+  {
+   "name": "Goitrin",
+   "type": "product",
+   "role": "compound (S)-5-vinyloxazolidine-2-thione formed from an unstable isothiocyanate"
+  },
+  {
+   "name": "Myrosinase",
+   "type": "other",
+   "role": "enzyme that cleaves glucose from glucosinolates in the presence of water"
+  },
+  {
+   "name": "Arabidopsis thaliana",
+   "type": "other",
+   "role": "cress plant in which the full glucosinolate biosynthetic pathway was studied"
+  },
+  {
+   "name": "Diamondback moth",
+   "type": "other",
+   "role": "pest of cruciferous plants that uses glucosinolate sulfatase to desulfate glucosinolates"
+  },
+  {
+   "name": "Large white butterfly",
+   "type": "other",
+   "role": "insect that lays eggs on glucosinolate-containing plants and whose larvae tolerate high levels"
+  },
+  {
+   "name": "Glucobrassicin",
+   "type": "product",
+   "role": "indolic glucosinolate derived from tryptophan"
+  },
+  {
+   "name": "Sinalbin",
+   "type": "product",
+   "role": "aromatic glucosinolate derived from tyrosine"
+  }
+ ],
+ "tags": [
+  "biology",
+  "plant chemistry",
+  "glucosinolates",
+  "brassicaceae",
+  "plant defence",
+  "isothiocyanates"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4550,
+  "output_tokens": 1709
+ }
+}

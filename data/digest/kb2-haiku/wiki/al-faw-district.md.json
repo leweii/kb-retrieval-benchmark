@@ -1,0 +1,50 @@
+{
+ "summary": "The note is a short encyclopedic entry describing Al-Faw District, a district of Basra Governorate in Iraq. It states the district borders the Persian Gulf and Kuwait. It also notes that although there are no oil fields in the district, the Iraq strategic pipeline runs through the area.",
+ "one_line": "Al-Faw District is a district of Basra Governorate in southern Iraq, bordering the Persian Gulf and Kuwait.",
+ "key_facts": [
+  "Al-Faw District is a district of the Basra Governorate, Iraq.",
+  "Al-Faw District borders the Persian Gulf.",
+  "Al-Faw District borders the country of Kuwait.",
+  "There are no oil fields in the Faw district.",
+  "The Iraq strategic pipeline runs through the Faw district area."
+ ],
+ "entities": [
+  {
+   "name": "Al-Faw District",
+   "type": "place",
+   "role": "district of the Basra Governorate in Iraq that borders the Persian Gulf and Kuwait and has no oil fields"
+  },
+  {
+   "name": "Basra Governorate",
+   "type": "place",
+   "role": "governorate in Iraq of which Al-Faw District is a district"
+  },
+  {
+   "name": "Persian Gulf",
+   "type": "place",
+   "role": "body of water bordering Al-Faw District"
+  },
+  {
+   "name": "Kuwait",
+   "type": "place",
+   "role": "country bordering Al-Faw District"
+  },
+  {
+   "name": "Iraq strategic pipeline",
+   "type": "product",
+   "role": "pipeline that runs through the Faw district area"
+  }
+ ],
+ "tags": [
+  "iraq",
+  "basra governorate",
+  "geography",
+  "persian gulf",
+  "oil infrastructure"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1063,
+  "output_tokens": 525
+ }
+}

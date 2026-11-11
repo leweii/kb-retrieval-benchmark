@@ -1,0 +1,37 @@
+{
+ "summary": "The note is a short encyclopedia-style entry describing the Rabat Ajax Football Ground. It states that the ground is the training ground of the Maltese football club Rabat Ajax F.C. and that it is located in the town of Mtarfa.",
+ "one_line": "Training ground of Maltese football club Rabat Ajax F.C., located in the town of Mtarfa.",
+ "key_facts": [
+  "The Rabat Ajax Football Ground is the training ground of Maltese football team Rabat Ajax F.C.",
+  "The Rabat Ajax Football Ground is located in the town of Mtarfa."
+ ],
+ "entities": [
+  {
+   "name": "Rabat Ajax Football Ground",
+   "type": "place",
+   "role": "training ground of Maltese football team Rabat Ajax F.C., located in Mtarfa"
+  },
+  {
+   "name": "Rabat Ajax F.C.",
+   "type": "organization",
+   "role": "Maltese football team that uses the Rabat Ajax Football Ground as its training ground"
+  },
+  {
+   "name": "Mtarfa",
+   "type": "place",
+   "role": "town where the Rabat Ajax Football Ground is located"
+  }
+ ],
+ "tags": [
+  "football",
+  "malta",
+  "sports venue",
+  "training ground",
+  "rabat ajax"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1049,
+  "output_tokens": 399
+ }
+}

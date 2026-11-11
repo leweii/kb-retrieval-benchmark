@@ -1,0 +1,114 @@
+{
+ "summary": "This note is a clipped collection of WinSCP scripting documentation pages covering the script commands call, echo, cp, lpwd and mv, mostly with syntax, remarks, examples and notes on converting scripts to .NET assemblies. The call command runs arbitrary remote shell commands over SFTP and SCP or protocol commands over FTP, while cp and mv duplicate or move remote files using wildcards and operation masks. Navigation, donation widgets, language lists and other site boilerplate were ignored.",
+ "one_line": "WinSCP scripting reference for the call, echo, cp, lpwd and mv script commands, with examples and .NET conversion notes.",
+ "key_facts": [
+  "The call command executes an arbitrary remote shell command with SFTP and SCP protocols and a protocol command with FTP.",
+  "The call command is not supported with WebDAV and S3 protocols.",
+  "The call command has the alias '!'.",
+  "With the SFTP protocol, a separate shell session is opened automatically for the call command.",
+  "The call command fails if the command produces error output but no standard output; redirecting error output to null (2>/dev/null) or to standard output (2>&1) avoids this.",
+  "For long-running call commands, the session timeout can be increased with the -timeout switch of the open command.",
+  "The echo command prints a message onto script output; in .NET it maps to System.Console.WriteLine and in PowerShell also to Write-Host.",
+  "The cp command duplicates one or more remote files, and its destination directory must end with a slash.",
+  "The mv command moves or renames one or more remote files and has the alias 'rename'.",
+  "In .NET conversion, cp maps to Session.DuplicateFile and mv maps to Session.MoveFile, each called once per source file when multiple sources are given.",
+  "The lpwd command prints the current local working directory and has no equivalent in the .NET assembly, which has no concept of a current working directory.",
+  "The call command maps to Session.ExecuteCommand when converted to a .NET assembly.",
+  "The XML log element for call is 'call', for cp is 'cp', and for mv is 'mv'.",
+  "The note's pages show a last-modified date of 2020-05-29 and a copyright notice of 2000–2024, WinSCP.net."
+ ],
+ "entities": [
+  {
+   "name": "WinSCP",
+   "type": "product",
+   "role": "Free SFTP, SCP, S3 and FTP client for Windows whose scripting commands are documented in the note"
+  },
+  {
+   "name": "call",
+   "type": "program",
+   "role": "script command that executes a remote shell command (SFTP/SCP) or protocol command (FTP)"
+  },
+  {
+   "name": "echo",
+   "type": "program",
+   "role": "script command that prints a message onto script output"
+  },
+  {
+   "name": "cp",
+   "type": "program",
+   "role": "script command that duplicates one or more remote files"
+  },
+  {
+   "name": "lpwd",
+   "type": "program",
+   "role": "script command that prints the current local working directory"
+  },
+  {
+   "name": "mv",
+   "type": "program",
+   "role": "script command that moves or renames one or more remote files"
+  },
+  {
+   "name": "Session.ExecuteCommand",
+   "type": "program",
+   "role": ".NET library method that the call command maps to"
+  },
+  {
+   "name": "Session.DuplicateFile",
+   "type": "program",
+   "role": ".NET library method that the cp command maps to"
+  },
+  {
+   "name": "Session.MoveFile",
+   "type": "program",
+   "role": ".NET library method that the mv command maps to"
+  },
+  {
+   "name": "System.Console.WriteLine",
+   "type": "program",
+   "role": ".NET method that the echo command maps to"
+  },
+  {
+   "name": "PowerShell",
+   "type": "product",
+   "role": "runtime environment with Write-Host and Get-Location cmdlets referenced for script conversion"
+  },
+  {
+   "name": "SFTP",
+   "type": "program",
+   "role": "SSH File Transfer Protocol, which opens a separate shell session for the call command"
+  },
+  {
+   "name": "SCP",
+   "type": "program",
+   "role": "protocol with which the call command executes arbitrary remote shell commands"
+  },
+  {
+   "name": "FTP",
+   "type": "program",
+   "role": "File Transfer Protocol, where the call command executes a protocol command"
+  },
+  {
+   "name": "WebDAV",
+   "type": "program",
+   "role": "protocol with which the call command is not supported"
+  },
+  {
+   "name": "S3",
+   "type": "program",
+   "role": "Amazon S3 protocol with which the call command is not supported"
+  }
+ ],
+ "tags": [
+  "winscp",
+  "scripting",
+  "sftp",
+  "file-transfer",
+  "powershell"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17135,
+  "output_tokens": 1392
+ }
+}

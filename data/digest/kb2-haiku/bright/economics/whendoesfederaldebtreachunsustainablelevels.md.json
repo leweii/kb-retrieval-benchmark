@@ -1,0 +1,111 @@
+{
+ "summary": "A Penn Wharton Budget Model brief by Mariko Paulson (October 6, 2023), with analysis by Jagadeesh Gokhale and Kent Smetters, estimating how high U.S. federal debt can rise before financial markets and the economy become unsustainable. It argues markets cannot sustain more than about 20 years of projected deficits under current policy, that debt held by the public cannot exceed about 200 percent of GDP (a more plausible figure near 175 percent), and that debt projections have repeatedly risen above past forecasts. The brief also explains the overlapping-generations modeling approach and the role of assumed future 'closure rules' in stabilizing debt.",
+ "one_line": "PWBM brief estimating that U.S. debt held by the public could hit unsustainable levels of roughly 175-200 percent of GDP within about 20 years under current fiscal policy.",
+ "key_facts": [
+  "As of September 30, 2023, federal debt held by the public stood at $26.3 trillion, or about 98 percent of projected GDP.",
+  "The 'public debt outstanding' of $33.2 trillion often cited in media includes about $6.8 trillion that the federal government holds from its own accounting.",
+  "PWBM estimates that U.S. debt held by the public cannot exceed about 200 percent of GDP even under favorable market conditions.",
+  "PWBM says a more plausible maximum debt-GDP ratio is closer to 175 percent.",
+  "Under current policy, the United States has about 20 years for corrective action before default, whether explicit or implicit through debt monetization.",
+  "Table 1 shows the U.S. debt-GDP ratio reaching between 175 and 200 percent between 2040 and 2045 depending on assumed interest rates.",
+  "The PWBM Baseline projects a debt-GDP ratio of 188 percent in 2050, compared with 169 percent in CBO's June 2023 Long-Term Budget Outlook.",
+  "Table 1 projects a debt-GDP ratio of 144 percent in 2040 under the PWBM Baseline rate, versus 134 percent under CBO.",
+  "The brief states that Japan's larger debt ratios are not relevant to the United States because Japan's household saving rate is much larger.",
+  "Both PWBM and CBO typically have a broad-based closure rule kick in the year 2050 or later, potentially with gradual introduction.",
+  "The brief says that the exact form of a closure rule, such as a VAT, is not that important, but that a large broad-based fiscal correction must be anticipated by financial markets.",
+  "Financial markets demanding higher interest rates as debt supply rises can cause a 'snowball' effect, with borrowing costs pushing debt higher.",
+  "The PWBM Baseline uses real interest rates from the Social Security Administration's medium cost projection, starting near -1.0 percent and rising to 2.3 percent by the 10th year.",
+  "The brief notes that CBO's 10-year projections of debt held by the public have repeatedly been revised upward since 2007, showing a secular rise rather than a counter-cyclical pattern.",
+  "The PWBM 'moonshot' OLG model solves a state space 20,000 times larger than the PWBM standard OLG model."
+ ],
+ "entities": [
+  {
+   "name": "Penn Wharton Budget Model",
+   "type": "organization",
+   "role": "publisher of the brief and developer of the standard and moonshot OLG models"
+  },
+  {
+   "name": "Mariko Paulson",
+   "type": "person",
+   "role": "author who prepared the brief for the website"
+  },
+  {
+   "name": "Jagadeesh Gokhale",
+   "type": "person",
+   "role": "co-producer of the analysis"
+  },
+  {
+   "name": "Kent Smetters",
+   "type": "person",
+   "role": "co-producer of the analysis and PWBM faculty director"
+  },
+  {
+   "name": "Congressional Budget Office",
+   "type": "organization",
+   "role": "source of 10-year debt projections and Long-Term Budget Outlook (June 2023) used in Table 1"
+  },
+  {
+   "name": "Social Security Administration",
+   "type": "organization",
+   "role": "source of the medium cost projection interest rates used for the PWBM Baseline rate"
+  },
+  {
+   "name": "Joint Committee on Taxation",
+   "type": "organization",
+   "role": "agency with its own OLG model for assessing dynamics"
+  },
+  {
+   "name": "Japan",
+   "type": "place",
+   "role": "country with a higher debt-GDP ratio offset by a much larger household saving rate"
+  },
+  {
+   "name": "Tax Cuts and Jobs Act of 2017",
+   "type": "program",
+   "role": "policy change cited as a driver of increased federal debt"
+  },
+  {
+   "name": "Great Recession",
+   "type": "event",
+   "role": "2007-2010 downturn cited as a driver of debt increases"
+  },
+  {
+   "name": "Covid-19 stimulus",
+   "type": "program",
+   "role": "recent stimulus cited as a driver of debt increases"
+  },
+  {
+   "name": "PWBM moonshot OLG model",
+   "type": "product",
+   "role": "second OLG model that solves a much larger state space to analyze debt limits"
+  },
+  {
+   "name": "Diamond (1965)",
+   "type": "other",
+   "role": "seminal work on which the overlapping-generations model is based"
+  },
+  {
+   "name": "Auerbach and Kotlikoff (1987)",
+   "type": "other",
+   "role": "seminal work on which the overlapping-generations model is based"
+  },
+  {
+   "name": "Nishiyama and Smetters",
+   "type": "other",
+   "role": "authors whose papers (2005, 2007, 2014) form the basis of the PWBM and CBO OLG models"
+  }
+ ],
+ "tags": [
+  "federal debt",
+  "fiscal policy",
+  "debt sustainability",
+  "overlapping generations model",
+  "interest rates",
+  "budget projections"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 12182,
+  "output_tokens": 1812
+ }
+}

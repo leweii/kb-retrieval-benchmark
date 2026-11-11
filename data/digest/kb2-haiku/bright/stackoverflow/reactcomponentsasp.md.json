@@ -1,0 +1,58 @@
+{
+ "summary": "The note is a clipped W3Schools web page whose title is 'reactcomponentsasp' and whose source domain is stackoverflow. Almost all of the text is site navigation: menus of tutorials, exercises, certificates and services, plus login, sign-up and social links. The note contains no actual article text on React components or ASP, so its only substance is the catalog of W3Schools courses and references it lists.",
+ "one_line": "Clipped W3Schools navigation page listing its React and ASP tutorials, exercises, certificates and courses, with no article body on React components in ASP.",
+ "key_facts": [
+  "The note's title is 'reactcomponentsasp' and its source domain is listed as stackoverflow.",
+  "The clipped page is from W3Schools, which offers a 'Learn React' tutorial at /react/default.asp.",
+  "The W3Schools JavaScript section lists a React exercise set at /react/react_exercises.asp and a React quiz at /react/react_quiz.asp.",
+  "W3Schools offers a React.js Certification Exam and a 'Paid React.js Course' in its certificates listing.",
+  "The Backend section of the page lists a 'Learn ASP' tutorial at /asp/default.asp with an ASP reference at /asp/asp_ref_vbscript_functions.asp.",
+  "The page's Backend section also lists tutorials for Python, SQL, PHP, Java, Node.js, MongoDB and AWS Cloud.",
+  "The Data Analytics section lists tutorials for AI, Generative AI, Machine Learning, Data Science, NumPy, Pandas and Excel.",
+  "The Web Building section advertises 'Create a Website' with a 'HOT!' label and 'Create a Server' with a 'NEW' label.",
+  "The Certificates page lists a 'Full Access' program marked 'Best Value!' as a paid full access course.",
+  "The W3Schools navigation includes log-in, 'Sign Up', 'Get Certified', 'Spaces' and 'Plus' options.",
+  "The page links to W3Schools social accounts on YouTube, LinkedIn, Discord, Facebook and Instagram.",
+  "The note contains no article body explaining React components or ASP usage."
+ ],
+ "entities": [
+  {
+   "name": "W3Schools",
+   "type": "organization",
+   "role": "Website whose navigation, tutorials, exercises and certificate pages make up the clipped note"
+  },
+  {
+   "name": "React",
+   "type": "product",
+   "role": "JavaScript library with a tutorial, exercises, quiz and paid course listed on the page"
+  },
+  {
+   "name": "ASP",
+   "type": "product",
+   "role": "Server-side technology with a tutorial and VBScript functions reference listed under Backend"
+  },
+  {
+   "name": "React.js Certification Exam",
+   "type": "program",
+   "role": "W3Schools certification exam for React listed on the Certificates page"
+  },
+  {
+   "name": "Full Access Course",
+   "type": "program",
+   "role": "Paid W3Schools course bundle marked Best Value on the Certificates page"
+  }
+ ],
+ "tags": [
+  "web development",
+  "react",
+  "asp",
+  "w3schools",
+  "navigation boilerplate",
+  "online tutorials"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16319,
+  "output_tokens": 1381
+ }
+}

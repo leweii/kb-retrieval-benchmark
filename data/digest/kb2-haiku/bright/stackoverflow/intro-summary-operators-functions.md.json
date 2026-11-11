@@ -1,0 +1,52 @@
+{
+ "summary": "This Snowflake documentation page summarizes the categories of functions the platform supports. It says Snowflake supports most standard SQL:1999 functions and parts of the SQL:2003 analytic extensions. It briefly describes scalar, aggregate, window, table, system, user-defined (UDF) and external functions, with links to fuller lists.",
+ "one_line": "Snowflake documentation summarizing its function categories: scalar, aggregate, window, table, system, user-defined and external functions.",
+ "key_facts": [
+  "Snowflake supports most of the standard functions defined in SQL:1999.",
+  "Snowflake supports parts of the SQL:2003 analytic extensions.",
+  "A scalar function returns one value per invocation, which in most cases can be thought of as one value per row.",
+  "Aggregate functions in Snowflake operate on values across rows to perform calculations such as sum, average, counting, minimum/maximum values, standard deviation, and estimation.",
+  "Aggregate functions also support some non-mathematical operations.",
+  "Window functions operate on a subset of rows within the set of input rows.",
+  "Table functions provide information about Snowflake features and services.",
+  "A complete summary of table functions is available at List of System-Defined Table Functions.",
+  "System functions are provided by Snowflake as system-defined functions.",
+  "In addition to system-defined functions, users can create their own functions in Snowflake.",
+  "Snowflake supports user-defined functions (UDFs) as a type of user-created function.",
+  "External functions are functions which are stored and executed outside Snowflake.",
+  "The page lists seven sections: Scalar Functions, Aggregate Functions, Window Functions, Table Functions, System Functions, User-defined Functions (UDFs), and External Functions."
+ ],
+ "entities": [
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "platform whose supported function types are summarized on this page"
+  },
+  {
+   "name": "SQL:1999",
+   "type": "other",
+   "role": "standard whose functions Snowflake supports for the most part"
+  },
+  {
+   "name": "SQL:2003",
+   "type": "other",
+   "role": "standard whose analytic extensions Snowflake partly supports"
+  },
+  {
+   "name": "List of System-Defined Table Functions",
+   "type": "other",
+   "role": "linked reference giving a complete summary of table functions"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql functions",
+  "documentation",
+  "database"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1545,
+  "output_tokens": 755
+ }
+}

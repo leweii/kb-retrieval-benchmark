@@ -1,0 +1,43 @@
+{
+ "summary": "Sheffield Pharmaceuticals is a United States manufacturer of over-the-counter pharmaceutical products sold to retailers. It makes and sells goods under its own labels as well as privately for other companies, and it operates as an FDA-registered cGMP facility. The note also says the company was founded in 1880 as the Sheffield Dentifrice Company by Washington Sheffield, described as the inventor of modern toothpaste.",
+ "one_line": "Sheffield Pharmaceuticals is a US over-the-counter drug manufacturer, founded in 1880 as the Sheffield Dentifrice Company.",
+ "key_facts": [
+  "Sheffield Pharmaceuticals is a manufacturer of over the counter pharmaceutical products to retailers in the United States.",
+  "Sheffield Pharmaceuticals manufactures and sells products under its own labels.",
+  "Sheffield Pharmaceuticals manufactures and sells products privately for other companies.",
+  "Sheffield Pharmaceuticals is an FDA registered cGMP facility.",
+  "Sheffield Pharmaceuticals was founded in 1880.",
+  "Sheffield Pharmaceuticals was founded as the Sheffield Dentifrice Company.",
+  "The Sheffield Dentifrice Company was founded by Washington Sheffield.",
+  "Washington Sheffield is described in the note as the inventor of modern toothpaste."
+ ],
+ "entities": [
+  {
+   "name": "Sheffield Pharmaceuticals",
+   "type": "organization",
+   "role": "manufacturer of over-the-counter pharmaceutical products to retailers in the United States; FDA registered cGMP facility"
+  },
+  {
+   "name": "Sheffield Dentifrice Company",
+   "type": "organization",
+   "role": "original name of Sheffield Pharmaceuticals when founded in 1880"
+  },
+  {
+   "name": "Washington Sheffield",
+   "type": "person",
+   "role": "founder of the Sheffield Dentifrice Company and inventor of modern toothpaste"
+  }
+ ],
+ "tags": [
+  "pharmaceuticals",
+  "over-the-counter drugs",
+  "manufacturing",
+  "toothpaste",
+  "company history"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1128,
+  "output_tokens": 695
+ }
+}

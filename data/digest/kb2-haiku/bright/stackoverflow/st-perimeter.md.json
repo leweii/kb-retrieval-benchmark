@@ -1,0 +1,58 @@
+{
+ "summary": "This note is a reference page for the Snowflake-style SQL function ST_PERIMETER, which returns the length of the perimeter of polygons in a GEOGRAPHY or GEOMETRY expression. It gives the syntax, return units for each type (meters for geography, coordinate units for geometry), and usage rules such as returning 0 for non-polygon inputs and summing perimeters across GeometryCollections. It includes a geography example with a one-degree square on the equator and a geometry example with points, a linestring and a polygon. Navigation and boilerplate from the clipped page were ignored.",
+ "one_line": "Reference for the ST_PERIMETER SQL function, which returns polygon perimeter length for GEOGRAPHY (meters) or GEOMETRY (coordinate units).",
+ "key_facts": [
+  "ST_PERIMETER returns the length of the perimeter of the polygon(s) in a GEOGRAPHY or GEOMETRY expression.",
+  "The argument of ST_PERIMETER must be of type GEOGRAPHY or GEOMETRY.",
+  "ST_PERIMETER returns a REAL value.",
+  "For GEOGRAPHY objects, the length returned by ST_PERIMETER is in meters.",
+  "For GEOMETRY objects, the length is computed with the same unit used to define the coordinates.",
+  "If the expression is not a Polygon, MultiPolygon, or GeometryCollection containing Polygons, ST_PERIMETER returns 0.",
+  "If the expression is a GeometryCollection, ST_PERIMETER returns the sum of the perimeters of the Polygons in the collection.",
+  "The page says to use ST_PERIMETER rather than ST_LENGTH to get the perimeter of a Polygon.",
+  "The GEOGRAPHY example uses POLYGON((0 0, 1 0, 1 1, 0 1, 0 0)), a one-degree arc on each edge with one edge on the equator.",
+  "The GEOGRAPHY example returns 444763.468727621 for that polygon.",
+  "The GEOMETRY example computes ST_PERIMETER for POINT(1 1), LINESTRING(0 0, 1 1) and POLYGON((0 0, 0 1, 1 1, 1 0, 0 0)).",
+  "In the GEOMETRY example, the point and linestring return 0 and the polygon returns 4.",
+  "The syntax is ST_PERIMETER( <geography_or_geometry_expression> )."
+ ],
+ "entities": [
+  {
+   "name": "ST_PERIMETER",
+   "type": "product",
+   "role": "SQL function that returns the length of the perimeter of polygons in a GEOGRAPHY or GEOMETRY expression"
+  },
+  {
+   "name": "ST_LENGTH",
+   "type": "product",
+   "role": "alternative function that the note says should not be used to get the perimeter of a Polygon"
+  },
+  {
+   "name": "TO_GEOGRAPHY",
+   "type": "product",
+   "role": "function used in the GEOGRAPHY example to convert a WKT string into a geography object"
+  },
+  {
+   "name": "TO_GEOMETRY",
+   "type": "product",
+   "role": "function used in the GEOMETRY example to convert column values into geometry objects"
+  },
+  {
+   "name": "ST_ASWKT",
+   "type": "product",
+   "role": "function used in the GEOMETRY example to return the WKT text of a geometry"
+  }
+ ],
+ "tags": [
+  "sql",
+  "geospatial",
+  "st_perimeter",
+  "reference",
+  "gis functions"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2237,
+  "output_tokens": 1121
+ }
+}

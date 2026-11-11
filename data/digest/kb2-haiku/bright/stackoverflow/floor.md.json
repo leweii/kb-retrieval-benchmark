@@ -1,0 +1,50 @@
+{
+ "summary": "This is a reference page for the FLOOR numeric function, which rounds an input expression down to the nearest equal or smaller integer, or to a specified number of decimal places. It covers the syntax (FLOOR(input_expr [, scale_expr])), return data types, usage notes on negative scales and NULL handling, and examples showing rounding of negative and positive numbers at various scales.",
+ "one_line": "Reference for the FLOOR numeric function, which rounds values down to an integer or to a set number of decimal places.",
+ "key_facts": [
+  "FLOOR returns values from input_expr rounded to the nearest equal or smaller integer, or to the nearest equal or smaller value with the specified number of places after the decimal point.",
+  "Syntax is FLOOR( <input_expr> [, <scale_expr> ]).",
+  "The scale_expr expression should evaluate to an integer from -38 to +38.",
+  "The default scale_expr is zero, meaning the function removes all digits after the decimal point.",
+  "The data type of the returned value is NUMBER(precision, scale).",
+  "If the input scale was negative, the output scale is 0.",
+  "FLOOR(3.14, 1) returns NUMBER(4, 1).",
+  "FLOOR(33.33, -1) returns NUMBER(5, 0).",
+  "If scale_expr is negative, it specifies the number of places before the decimal point to which to adjust the number; for example, a scale of -2 gives a multiple of 100.",
+  "If scale_expr is larger than the input expression scale, the function does not have any effect.",
+  "If either input_expr or scale_expr is NULL, the result is NULL.",
+  "When negative numbers are rounded down, the value moves further from 0; FLOOR(-1.1) is -2, not -1.",
+  "SELECT FLOOR(135.135), FLOOR(-975.975) returns 135 and -976.",
+  "FLOOR(-975.975, -1) returns -980 and FLOOR(-975.975, 2) returns -975.98.",
+  "FLOOR(135.135, -2) returns 100 and FLOOR(135.135, 1) returns 135.1."
+ ],
+ "entities": [
+  {
+   "name": "FLOOR",
+   "type": "product",
+   "role": "numeric function documented on this page that rounds values down to an integer or to a set number of decimal places"
+  },
+  {
+   "name": "FLOAT",
+   "type": "other",
+   "role": "numeric data type given as an example of input data types"
+  },
+  {
+   "name": "NUMBER",
+   "type": "other",
+   "role": "numeric data type of the returned value, expressed as NUMBER(precision, scale)"
+  }
+ ],
+ "tags": [
+  "sql",
+  "numeric functions",
+  "rounding",
+  "reference",
+  "database"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2660,
+  "output_tokens": 852
+ }
+}

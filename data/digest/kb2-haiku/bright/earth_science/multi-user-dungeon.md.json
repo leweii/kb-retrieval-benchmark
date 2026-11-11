@@ -1,0 +1,172 @@
+{
+ "summary": "This Wikipedia article describes the multi-user dungeon (MUD), a multiplayer real-time virtual world that is usually text-based and mixes role-playing, hack and slash, player versus player, interactive fiction and chat. It covers the genre's origins at the University of Essex, the major codebases and variants such as AberMUD, TinyMUD, LPMud and DikuMUD, and the main play styles. It also traces MUDs' influence on MMORPGs, their use in education, and their community and psychological aspects. The text is cut off partway through the references.",
+ "one_line": "Wikipedia overview of the multi-user dungeon, a multiplayer text-based virtual world genre and its influence on MMORPGs.",
+ "key_facts": [
+  "A multi-user dungeon (MUD) is a multiplayer real-time virtual world, usually text-based or storyboarded.",
+  "Colossal Cave Adventure was created in 1975 by Will Crowther on a DEC PDP-10 computer and was significantly expanded in 1976 by Don Woods.",
+  "In 1978 Roy Trubshaw, a student at the University of Essex, started working on a multi-user adventure game in MACRO-10 assembly language for a DEC PDP-10.",
+  "Roy Trubshaw named his game MUD (Multi-User Dungeon) in tribute to the Dungeon variant of Zork.",
+  "Trubshaw handed development of MUD to Richard Bartle, a fellow student at the University of Essex, in 1980.",
+  "MUD became the first Internet multiplayer online role-playing game in 1980 when the University of Essex connected its internal network to ARPANet.",
+  "The original MUD game was closed down in late 1987, reportedly under pressure from CompuServe, to whom Richard Bartle had licensed the game.",
+  "AberMUD was written in 1987 by Alan Cox and named after the University of Wales, Aberystwyth; it was ported to C in late 1988 and released in 1989.",
+  "TinyMUD, written in C and released in late 1989, spawned descendants including TinyMUCK and TinyMUSH.",
+  "LPMud was developed in 1989 by Lars Pensjö, who had been an avid player of TinyMUD and AberMUD.",
+  "The release of DikuMUD in 1990, inspired by AberMUD, led to a virtual explosion of hack and slash MUDs based upon its code.",
+  "Genocide, released in 1992, was the first pure PK MUD devoted solely to player versus player conflict.",
+  "Simutronics was founded in 1987 by David Whatley with Tom and Susan Zelinski, and GemStone III was officially launched in February 1990.",
+  "In 1995, The Independent reported that over 60,000 people regularly played about 600 MUDs, up from 170 MUDs three years prior.",
+  "Richard Garriott coined the term MMORPG in 1997, replacing the term graphical MUD as online gaming moved to the mass market.",
+  "Seraphina Brennan of Massively wrote that the MUD community was 'in decline' as of 2009."
+ ],
+ "entities": [
+  {
+   "name": "Multi-user dungeon",
+   "type": "other",
+   "role": "multiplayer real-time virtual world genre that is the subject of the article"
+  },
+  {
+   "name": "Colossal Cave Adventure",
+   "type": "product",
+   "role": "adventure game created in 1975 by Will Crowther, widely played and expanded in 1976 by Don Woods"
+  },
+  {
+   "name": "Will Crowther",
+   "type": "person",
+   "role": "creator of Colossal Cave Adventure in 1975 on a DEC PDP-10"
+  },
+  {
+   "name": "Don Woods",
+   "type": "person",
+   "role": ">expanded Colossal Cave Adventure in 1976"
+  },
+  {
+   "name": "Roy Trubshaw",
+   "type": "person",
+   "role": "University of Essex student who started writing MUD in 1978 and converted it to BCPL"
+  },
+  {
+   "name": "Richard Bartle",
+   "type": "person",
+   "role": "fellow University of Essex student who took over MUD development in 1980 and had licensed the game to CompuServe"
+  },
+  {
+   "name": "University of Essex",
+   "type": "organization",
+   "role": "university where MUD was written and run, later hosting the MUD1 and MIST games"
+  },
+  {
+   "name": "CompuServe",
+   "type": "organization",
+   "role": "online service to which Richard Bartle had licensed the original MUD game"
+  },
+  {
+   "name": "Zork",
+   "type": "product",
+   "role": "game whose Dungeon variant inspired the name MUD"
+  },
+  {
+   "name": "AberMUD",
+   "type": "product",
+   "role": "first popular MUD codebase, written in 1987 by Alan Cox"
+  },
+  {
+   "name": "Alan Cox",
+   "type": "person",
+   "role": "author of AberMUD in 1987"
+  },
+  {
+   "name": "TinyMUD",
+   "type": "product",
+   "role": "MUD codebase written in C and released in late 1989 by James Aspnes, which spawned TinyMUCK and TinyMUSH"
+  },
+  {
+   "name": "LPMud",
+   "type": "product",
+   "role": "MUD codebase developed in 1989 by Lars Pensjö"
+  },
+  {
+   "name": "Lars Pensjö",
+   "type": "person",
+   "role": "developer of LPMud in 1989"
+  },
+  {
+   "name": "DikuMUD",
+   "type": "product",
+   "role": "MUD codebase released in 1990 that inspired many hack and slash MUDs"
+  },
+  {
+   "name": "Genocide",
+   "type": "product",
+   "role": "first pure player killing MUD, released in 1992"
+  },
+  {
+   "name": "Simutronics",
+   "type": "organization",
+   "role": "company founded in 1987 by David Whatley with Tom and Susan Zelinski"
+  },
+  {
+   "name": "David Whatley",
+   "type": "person",
+   "role": "founder of Simutronics in 1987"
+  },
+  {
+   "name": "GemStone III",
+   "type": "product",
+   "role": "Simutronics game officially launched in February 1990"
+  },
+  {
+   "name": "Sherry Turkle",
+   "type": "person",
+   "role": "researcher who developed a theory that MUD use allows users to develop different personalities"
+  },
+  {
+   "name": "The Independent",
+   "type": "organization",
+   "role": "newspaper that reported in 1995 on the number of MUD players"
+  },
+  {
+   "name": "Richard Garriott",
+   "type": "person",
+   "role": "coined the term MMORPG in 1997"
+  },
+  {
+   "name": "Seraphina Brennan",
+   "type": "person",
+   "role": "writer for Massively who said the MUD community was in decline as of 2009"
+  },
+  {
+   "name": "Massively",
+   "type": "organization",
+   "role": "publication in which Seraphina Brennan wrote about the MUD community"
+  },
+  {
+   "name": "The Mud Connector",
+   "type": "organization",
+   "role": "web portal serving as a central and curated repository for active MUDs in the late 1990s"
+  },
+  {
+   "name": "Habitat",
+   "type": "product",
+   "role": "prominent early graphical MUD written by Randy Farmer and Chip Morningstar for Lucasfilm in 1985"
+  },
+  {
+   "name": "Avalon: The Legend Lives",
+   "type": "product",
+   "role": "persistent game world published by Yehuda Simmons in 1989 without traditional hourly resets"
+  }
+ ],
+ "tags": [
+  "mud",
+  "multiplayer games",
+  "text-based games",
+  "mmorpg history",
+  "online role-playing",
+  "video game genres"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12548,
+  "output_tokens": 3492
+ }
+}

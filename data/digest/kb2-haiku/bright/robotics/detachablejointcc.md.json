@@ -1,0 +1,71 @@
+{
+ "summary": "This note is the source code of the DetachableJoint system plugin for Gazebo (gz-sim), copyright 2019 Open Source Robotics Foundation under the Apache License 2.0. The plugin attaches a child link of a child model to a parent link by creating a fixed joint entity when an attach request arrives, and removes that joint when a detach request arrives. It reads required SDF parameters parent_link, child_model and child_link, configures detach, attach and output topics, and publishes the state strings \"attached\" or \"detached\" on the output topic.",
+ "one_line": "Gazebo DetachableJoint plugin source that attaches and detaches a child model link to a parent link via topic-driven fixed joints.",
+ "key_facts": [
+  "The DetachableJoint plugin is copyright (C) 2019 Open Source Robotics Foundation and licensed under the Apache License, Version 2.0.",
+  "Configure requires the SDF element parent_link, which must name a link in the model; otherwise initialization fails with an error.",
+  "Configure requires the SDF elements child_model and child_link; missing either causes initialization to fail.",
+  "If no detach_topic is given, the default detach topic is /model/<model name>/detachable_joint/detach.",
+  "If no attach_topic is given, the default attach topic is /model/<model name>/detachable_joint/attach.",
+  "If no output_topic is given, the default output topic is /model/<child model name>/detachable_joint/state.",
+  "If both <topic> and <detach_topic> are present with different contents, an error is printed asking the user to verify the tags and use <detach_topic>.",
+  "The attach request callback ignores the request and logs \"Already attached\" when the joint is already attached; otherwise it sets attachRequested to true.",
+  "In PreUpdate, the child model is looked up by name, or uses the plugin's own model when child_model is \"__model__\".",
+  "When the child link is found, PreUpdate creates a new entity holding a components::DetachableJoint with the parent link, child link and joint type \"fixed\".",
+  "A child model that is not found produces a warning unless the suppress_child_warning parameter is set to true.",
+  "On detach, PreUpdate calls RequestRemoveEntity on the detachable joint entity, sets isAttached to false and publishes the state.",
+  "OnDetachRequest logs \"Already detached\" and returns when the joint is not attached; otherwise it sets detachRequested to true.",
+  "The state is published as a gz::msgs::StringMsg with data \"attached\" or \"detached\".",
+  "The plugin is registered with GZ_ADD_PLUGIN and aliased as gz::sim::systems::DetachableJoint and, as deprecated, ignition::gazebo::systems::DetachableJoint, to be removed in version 8."
+ ],
+ "entities": [
+  {
+   "name": "Open Source Robotics Foundation",
+   "type": "organization",
+   "role": "copyright holder of the DetachableJoint source code (2019)"
+  },
+  {
+   "name": "Apache License, Version 2.0",
+   "type": "other",
+   "role": "license under which the DetachableJoint source is licensed"
+  },
+  {
+   "name": "DetachableJoint",
+   "type": "program",
+   "role": "Gazebo system plugin that attaches and detaches a child link to a parent link via a fixed joint"
+  },
+  {
+   "name": "gz::sim::systems::DetachableJoint",
+   "type": "program",
+   "role": "primary plugin alias registered with GZ_ADD_PLUGIN_ALIAS"
+  },
+  {
+   "name": "ignition::gazebo::systems::DetachableJoint",
+   "type": "program",
+   "role": "deprecated plugin alias marked TODO(CH3) for removal in version 8"
+  },
+  {
+   "name": "gz::transport::Node",
+   "type": "program",
+   "role": "transport node used to subscribe to detach and attach topics and advertise the output topic"
+  },
+  {
+   "name": "components::DetachableJoint",
+   "type": "other",
+   "role": "component created on a new entity holding the parent link, child link and \"fixed\" joint type"
+  }
+ ],
+ "tags": [
+  "gazebo",
+  "robotics",
+  "plugin",
+  "joint",
+  "simulation",
+  "c++"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4910,
+  "output_tokens": 1316
+ }
+}

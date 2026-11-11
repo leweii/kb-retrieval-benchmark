@@ -1,0 +1,51 @@
+{
+ "summary": "This is a Snowflake SQL reference page for the DROP ROLE command, which removes a specified role from the system. It covers the syntax (DROP ROLE [IF EXISTS] <name>), identifier rules for double-quoted names, and usage notes on irrecoverability, future privileges requiring MANAGE GRANTS, automatic removal of grants, and revocation of role grants to users. It includes a query against snowflake.account_usage.grants_to_roles to find grants naming a role and a simple example.",
+ "one_line": "Snowflake reference for the DROP ROLE command, which permanently removes a role and its grants from the account.",
+ "key_facts": [
+  "DROP ROLE removes the specified role from the system.",
+  "The syntax is DROP ROLE [ IF EXISTS ] <name>.",
+  "If the role identifier contains spaces or special characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "Dropped roles cannot be recovered; they must be recreated.",
+  "If a role has a future privilege as a grantor or grantee, the role can only be dropped by a user with a role that has the MANAGE GRANTS privilege.",
+  "All current and future grants that name the role as either the grantor or the grantee are removed when the role is dropped.",
+  "To retrieve privilege grants naming a role as grantor or grantee, query snowflake.account_usage.grants_to_roles with WHERE grantee_name = upper('<role_name>') OR granted_by = upper('<role_name>').",
+  "If a role is a grantor of roles to users, dropping the role revokes these grants automatically.",
+  "The example DROP ROLE myrole; drops the role named myrole."
+ ],
+ "entities": [
+  {
+   "name": "DROP ROLE",
+   "type": "program",
+   "role": "SQL command that removes the specified role from the system"
+  },
+  {
+   "name": "MANAGE GRANTS",
+   "type": "other",
+   "role": "privilege required to drop a role that has a future privilege as grantor or grantee"
+  },
+  {
+   "name": "snowflake.account_usage.grants_to_roles",
+   "type": "other",
+   "role": "view used to retrieve privilege grants that name a specified role as grantor or grantee"
+  },
+  {
+   "name": "myrole",
+   "type": "other",
+   "role": "example role name used in the usage query and the DROP ROLE example"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "role management",
+  "access control",
+  "privileges",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1664,
+  "output_tokens": 786
+ }
+}

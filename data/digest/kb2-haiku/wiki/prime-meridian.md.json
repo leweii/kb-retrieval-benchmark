@@ -1,0 +1,37 @@
+{
+ "summary": "The note defines a prime meridian as the line of longitude where longitude is defined to be 0 degrees in a geographic coordinate system. It explains that the prime meridian and its antimeridian (the 180th meridian) form a great circle that divides the sphere, such as Earth, into two hemispheres. It also notes that these can be called the Eastern and Western Hemispheres when East and West are measured from the prime meridian. The note begins to list the IERS Reference Meridian as of 2016 but the list itself is cut off.",
+ "one_line": "Defines the prime meridian as the 0-degree line of longitude and how it and its antimeridian divide Earth into hemispheres.",
+ "key_facts": [
+  "A prime meridian is a meridian (a line of longitude) in a geographic coordinate system at which longitude is defined to be 0 °.",
+  "The prime meridian and its antimeridian (the 180th meridian in a 360 ° system) together form a great circle.",
+  "The great circle formed by a prime meridian and its antimeridian divides the sphere, e.g., Earth, into two hemispheres.",
+  "If directions of East and West are measured from a defined prime meridian, the two hemispheres can be called the Eastern Hemisphere and the Western Hemisphere.",
+  "The note refers to the IERS Reference Meridian as of 2016 as the prime meridian on Earth.",
+  "On Earth, the IERS Reference Meridian is described as running from the North Pole south to the South Pole.",
+  "The list of places the IERS Reference Meridian passes through is introduced but not included in the note."
+ ],
+ "entities": [
+  {
+   "name": "IERS Reference Meridian",
+   "type": "place",
+   "role": "Prime meridian on Earth as of 2016, described as running from the North Pole to the South Pole"
+  },
+  {
+   "name": "Earth",
+   "type": "place",
+   "role": "Example of a sphere divided into two hemispheres by a prime meridian and its antimeridian"
+  }
+ ],
+ "tags": [
+  "geography",
+  "longitude",
+  "prime meridian",
+  "coordinate systems",
+  "hemispheres"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1188,
+  "output_tokens": 665
+ }
+}

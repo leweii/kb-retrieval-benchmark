@@ -1,0 +1,73 @@
+{
+ "summary": "An Exxact blog post (February 2, 2023) explaining how vectorization speeds up Pandas code. It defines Pandas, builds a 10,000-row random dataset, and times three ways of applying the same reward rule: a row-by-row loop (3.66 s), DataFrame.apply (404 ms), and vectorized boolean indexing (10.4 ms). The vectorized version is reported as about 40x faster than apply and about 360x faster than looping, and the post gives tips on vectorizing Pandas code.",
+ "one_line": "Exxact blog post showing that vectorized Pandas boolean indexing runs over 300x faster than row-by-row loops on a 10,000-row synthetic dataset.",
+ "key_facts": [
+  "The blog post 'How to Speed Up Python Pandas by over 300x' was dated February 2, 2023 and had a 7 minute read time.",
+  "Pandas is described as an essential and popular open-source data manipulation and data analysis library for the Python programming language.",
+  "The example dataset names 10,000 people with age, time_at_work, percentage_productive, favorite_treat and bad_karma columns.",
+  "The reward rule gives a favorite treat if age is 65 or over, or if time_at_work is at least 2 and percentage_productive is at least 0.5; otherwise the person gets bad_karma.",
+  "The Looping/Iterating method using iterrows took 3.66 s ± 119 ms per loop.",
+  "The Apply method using df.apply(reward_calc, axis=1) took 404 ms ± 18.2 ms per loop, about 9x faster than the loop.",
+  "The Vectorization method using boolean indexing took 10.4 ms ± 76.2 µs per loop.",
+  "The post states the vectorized method is 40x faster than Apply and approximately 360x faster than Looping.",
+  "The post explains that vectorized operations are implemented in Cython and use CPU vector processing to perform multiple operations at once.",
+  "The post lists four tips: use built-in Pandas and NumPy functions such as sum(), mean() and max(); use vectorized boolean masks; use .values or .to_numpy() to work on the underlying NumPy array; use vectorized string operations such as .str.contains().",
+  "The post notes that not all operations can be vectorized and sometimes loops or apply functions are necessary.",
+  "Timing was done in a Jupyter Notebook using the %%timeit magic function, with 7 runs per measurement.",
+  "The random dataset is generated with NumPy, and the post's code uses a get_data(size=10_000) function."
+ ],
+ "entities": [
+  {
+   "name": "Exxact",
+   "type": "organization",
+   "role": "company that publishes the blog post and promotes its Multi-GPU workstations and servers"
+  },
+  {
+   "name": "Pandas",
+   "type": "product",
+   "role": "open-source Python data manipulation and analysis library that is the subject of the post"
+  },
+  {
+   "name": "NumPy",
+   "type": "product",
+   "role": "library used to generate random data and integrated with Pandas"
+  },
+  {
+   "name": "Jupyter Notebook",
+   "type": "product",
+   "role": "environment used to run and time the code with the %%timeit magic function"
+  },
+  {
+   "name": "Matplotlib",
+   "type": "product",
+   "role": "visualization library named as integrated with Pandas"
+  },
+  {
+   "name": "Cython",
+   "type": "product",
+   "role": "language in which vectorized operations are implemented, per the post"
+  },
+  {
+   "name": "get_data",
+   "type": "program",
+   "role": "function that builds the random 10,000-row dataset for the example"
+  },
+  {
+   "name": "reward_calc",
+   "type": "program",
+   "role": "row-level function that applies the reward rules and is used in the loop and apply tests"
+  }
+ ],
+ "tags": [
+  "python",
+  "pandas",
+  "vectorization",
+  "performance",
+  "data science"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11269,
+  "output_tokens": 1238
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "summary": "WADK is a radio station licensed to serve Newport, Rhode Island, and owned by 3G Broadcasting, Inc. The station broadcasts a News/Talk format. Jazz programming airs on weekends, and during the autumn it carries local high school football and Salve Regina University college football home games.",
+ "one_line": "WADK is a News/Talk AM radio station in Newport, Rhode Island, owned by 3G Broadcasting, Inc.",
+ "key_facts": [
+  "WADK is a radio station licensed to serve Newport, Rhode Island.",
+  "WADK broadcasts on 1540 AM.",
+  "The station is owned by 3G Broadcasting, Inc.",
+  "WADK airs a News/Talk format.",
+  "Jazz programming airs on WADK each weekend.",
+  "During the autumn, WADK carries local high school football home games.",
+  "During the autumn, WADK carries Salve Regina University college football home games."
+ ],
+ "entities": [
+  {
+   "name": "WADK",
+   "type": "product",
+   "role": "AM radio station (1540 AM) licensed to serve Newport, Rhode Island, with a News/Talk format"
+  },
+  {
+   "name": "Newport, Rhode Island",
+   "type": "place",
+   "role": "city the station is licensed to serve"
+  },
+  {
+   "name": "3G Broadcasting, Inc.",
+   "type": "organization",
+   "role": "owner of the station"
+  },
+  {
+   "name": "Salve Regina University",
+   "type": "organization",
+   "role": "college whose football home games the station airs in the autumn"
+  }
+ ],
+ "tags": [
+  "radio",
+  "newport rhode island",
+  "am radio",
+  "news talk",
+  "jazz",
+  "college football"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1074,
+  "output_tokens": 514
+ }
+}

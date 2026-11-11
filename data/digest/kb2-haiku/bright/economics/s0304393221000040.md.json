@@ -1,0 +1,110 @@
+{
+ "summary": "This note is the body of a Journal of Monetary Economics article by Cristiano Cantore and Lukas B. Freund (2021) on fiscal policy and household heterogeneity. It proposes a tractable two-agent New Keynesian model in which 'workers' face portfolio adjustment costs on bond holdings and 'capitalists' own all firms but do not supply labor. The authors argue this matches micro-data iMPCs and avoids implausible profit income effects on labor supply, yielding smaller fiscal multipliers than the traditional two-agent (TANK-UH) model. The excerpt ends mid-section on the worker household's interest-rate elasticity and forward guidance.",
+ "one_line": "A 2021 Journal of Monetary Economics paper proposing a tractable capitalist-worker two-agent New Keynesian model to study fiscal policy and household heterogeneity.",
+ "key_facts": [
+  "The article is 'Workers, capitalists, and the government: fiscal policy and income (re)distribution' by Cristiano Cantore and Lukas B. Freund, published in Journal of Monetary Economics, Volume 119, April 2021, pages 58-74.",
+  "The paper proposes a two-agent New Keynesian model in which workers can save in bonds subject to portfolio adjustment costs, while firm ownership is concentrated among capitalists who do not supply labor.",
+  "The model's capitalist-worker structure ensures that transmission of demand shocks under sticky prices does not rely on income effects on labor supply induced by countercyclical markups.",
+  "Relative to the traditional two-agent model, the paper finds fiscal multipliers are smaller and the sensitivity of the output path to public deficits is dampened.",
+  "The traditional two-agent model is called TANK-UH (unconstrained and hand-to-mouth households); the new model is called TANK-CW (capitalist and worker).",
+  "Fagereng et al. (2018) estimated household consumption responses to lottery winnings using Norwegian administrative data; the quarterly point estimate for the iMPC is approximately 0.2.",
+  "Cumulatively over the first four quarters after the shock, the average household in the Fagereng et al. (2018) estimates consumes around half of the windfall.",
+  "Auclert et al. (2018, p.17) diagnose: 'Due to the absence of intermediately constrained agents, [the traditional two-agent model] cannot generate elevated iMPCs in year one and later, which are a key characteristic of the data.'",
+  "Proposition 1 states that the worker household's impact consumption response to an unanticipated one-off income windfall is given by equation (6), and for hand-to-mouth limiting case the worker's response reduces to that of a hand-to-mouth household.",
+  "Portfolio adjustment costs are quadratic, scaled by steady-state income, and rebated to workers as a lump sum that workers do not take into account when making savings decisions.",
+  "The paper's log-linearization is around a steady state with zero inflation, no government spending or debt, and total output normalized to unity.",
+  "The traditional two-agent model is built on Galí et al. (2007) and Bilbiie (2008), with Rotemberg quadratic price adjustment costs and a Taylor rule for monetary policy.",
+  "The paper's JEL classification codes are E12, E21, E25, E32, and E62.",
+  "The authors state that two-agent models are tractable laboratories and not competitors to HANK models such as Kaplan et al. (2018) or Hagedorn et al. (2019b)."
+ ],
+ "entities": [
+  {
+   "name": "Cristiano Cantore",
+   "type": "person",
+   "role": "author (affiliation a b) of the paper"
+  },
+  {
+   "name": "Lukas B. Freund",
+   "type": "person",
+   "role": "author (affiliation c) of the paper"
+  },
+  {
+   "name": "Journal of Monetary Economics",
+   "type": "organization",
+   "role": "journal in which the paper was published, Volume 119, April 2021, pages 58-74"
+  },
+  {
+   "name": "Auclert et al. (2018)",
+   "type": "other",
+   "role": "cited work demonstrating the importance of intertemporal marginal propensities to consume in models with household heterogeneity and nominal rigidities"
+  },
+  {
+   "name": "Fagereng et al. (2018)",
+   "type": "other",
+   "role": "cited study estimating household consumption responses to lottery winnings using Norwegian administrative data"
+  },
+  {
+   "name": "Galí et al. (2007)",
+   "type": "other",
+   "role": "cited source introducing the prototypical two-agent New Keynesian (TANK) model, with a fiscal sector"
+  },
+  {
+   "name": "Bilbiie (2008)",
+   "type": "other",
+   "role": "cited source introducing the prototypical two-agent New Keynesian (TANK) model"
+  },
+  {
+   "name": "Hagedorn et al. (2019b)",
+   "type": "other",
+   "role": "cited work showing multi-asset HANK models can match empirical micro moments of iMPCs"
+  },
+  {
+   "name": "Broer et al. (2020a)",
+   "type": "other",
+   "role": "cited work arguing monetary policy transmission in the representative-agent New Keynesian model is driven by implausible profit income effects on labor supply"
+  },
+  {
+   "name": "Debortoli and Galí (2018)",
+   "type": "other",
+   "role": "cited work identifying channels of household heterogeneity in aggregate fluctuations"
+  },
+  {
+   "name": "Jappelli and Pistaferri (2014)",
+   "type": "other",
+   "role": "source of Fig. 1 replicated in the paper, using data from the 2010 Italian Survey of Household Income and Wealth (SHIW)"
+  },
+  {
+   "name": "Kaplan et al. (2018)",
+   "type": "other",
+   "role": "cited HANK model reference that TANK models are not meant to compete with"
+  },
+  {
+   "name": "TANK-UH",
+   "type": "program",
+   "role": "traditional two-agent New Keynesian model with unconstrained and hand-to-mouth households"
+  },
+  {
+   "name": "TANK-CW",
+   "type": "program",
+   "role": "proposed capitalist-worker two-agent New Keynesian model"
+  },
+  {
+   "name": "2010 Italian Survey of Household Income and Wealth (SHIW)",
+   "type": "event",
+   "role": "survey data source for the self-reported MPC distribution replicated in Fig. 1 (right panel)"
+  }
+ ],
+ "tags": [
+  "fiscal policy",
+  "household heterogeneity",
+  "two-agent New Keynesian model",
+  "iMPC",
+  "HANK",
+  "portfolio adjustment costs"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 11280,
+  "output_tokens": 2075
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "summary": "The note describes mycorrhizal networks, underground links formed by mycorrhizal fungal hyphae joining plant roots, which can connect plants in forests and plant communities. It covers the two main network types (arbuscular and ectomycorrhizal), and reviews evidence that networks carry infochemicals for allelopathy, defense signaling, and nutrient transfer, as well as carbon transfer and seedling establishment. It also notes that many popular claims about these networks, the 'Wood Wide Web', are criticised as weakly supported by evidence.",
+ "one_line": "Overview of mycorrhizal networks, underground fungal links between plant roots that may transfer chemical signals, defense cues, nutrients and carbon, and the debate over these claims.",
+ "key_facts": [
+  "A mycorrhizal network, also called a common mycorrhizal network or CMN, is an underground network created by the hyphae of mycorrhizal fungi joining with plant roots.",
+  "Mycorrhizal relationships are most commonly mutualistic but can be commensal or parasitic, and a single partnership may change between types at different times.",
+  "The network's nickname, the Wood Wide Web, refers to an analogous function served by the World Wide Web in human communities.",
+  "Many claims about common mycorrhizal networks, including that they are ubiquitous in forests, transfer resources between plants, and transfer warnings between trees, have been criticised as not strongly supported by evidence.",
+  "Arbuscular mycorrhizal associations are formed with 150–200 known fungal species, although true fungal diversity may be much higher.",
+  "Ectomycorrhizal fungi are a highly diverse and polyphyletic group of about 10,000 fungal species, and ectomycorrhizal associations predominate in temperate and boreal forests.",
+  "Buckhorn plantain, a common lawn and agricultural weed, benefits from mycorrhizal relationships in low soil fertility but is harmed in higher soil fertility.",
+  "Black walnut is one of the earliest studied examples of allelopathy and produces juglone, which inhibits growth and water uptake in neighboring plants.",
+  "Studies have reported concentrations of allelochemicals two to four times higher in plants connected by mycorrhizal networks.",
+  "In a study of tomato plants connected via an AM network, an uninfected plant upregulated genes for the SA and JA pathways when another plant in the network was infected.",
+  "In a study of budworm introduced to Douglas fir trees, uninfested ponderosa pines connected by an ECM network increased production of defensive enzymes.",
+  "Strontium and rubidium, analogs of calcium and potassium respectively, have been reported to move via an AM network between conspecific plants.",
+  "One study reported a threefold increase in photosynthesis in a paper birch transferring carbon to a Douglas fir.",
+  "In a network including sugar maple and trout lily, carbon moves to young sugar maple saplings in spring when leaves are unfurling and to trout lilies in fall when they develop their roots.",
+  "At the end of one experiment, the Douglas fir had a 2% to 3% net gain in carbon, and both plants showed a threefold increase in carbon received from the CMN compared to the soil pathway.",
+  "Spotted knapweed, an allelopathic invasive species, can alter which plant species a certain AM fungus prefers to connect to, so the invasive plant shares a network with its target."
+ ],
+ "entities": [
+  {
+   "name": "Mycorrhizal network",
+   "type": "other",
+   "role": "Subject of the note; underground network formed by mycorrhizal fungal hyphae joining plant roots"
+  },
+  {
+   "name": "Wood Wide Web",
+   "type": "other",
+   "role": "Colloquial nickname for mycorrhizal networks, referencing the World Wide Web"
+  },
+  {
+   "name": "World Wide Web",
+   "type": "product",
+   "role": "Analogy used to explain the nickname Wood Wide Web"
+  },
+  {
+   "name": "Buckhorn plantain",
+   "type": "other",
+   "role": "Plant species that benefits from mycorrhizal relationships in low soil fertility and is harmed in higher fertility"
+  },
+  {
+   "name": "Arbuscular mycorrhizal networks",
+   "type": "other",
+   "role": "One of two main network types, formed between plants associating with glomeromycetes"
+  },
+  {
+   "name": "Ectomycorrhizal networks",
+   "type": "other",
+   "role": "One of two main network types, formed between plants associating with ectomycorrhizal fungi"
+  },
+  {
+   "name": "Trifoliate orange",
+   "type": "other",
+   "role": "Plant species used in a study where mycorrhizal networks transferred infochemicals"
+  },
+  {
+   "name": "Juglone",
+   "type": "other",
+   "role": "Allelochemical produced by black walnut that inhibits growth and water uptake in neighboring plants"
+  },
+  {
+   "name": "Black walnut",
+   "type": "other",
+   "role": "Tree among the earliest studied examples of allelopathy, producing juglone"
+  },
+  {
+   "name": "Spotted knapweed",
+   "type": "other",
+   "role": "Allelopathic invasive species that can alter which plants an AM fungus connects to"
+  },
+  {
+   "name": "Douglas fir",
+   "type": "other",
+   "role": "Conifer used in multiple studies of carbon transfer, defense signaling and seedling establishment"
+  },
+  {
+   "name": "Paper birch",
+   "type": "other",
+   "role": "Tree species in studies of carbon transfer with Douglas fir and seedling establishment"
+  },
+  {
+   "name": "Ponderosa pine",
+   "type": "other",
+   "role": "Species whose uninfested trees increased defensive enzyme production via an ECM network connected to budworm-attacked Douglas fir"
+  },
+  {
+   "name": "Sugar maple",
+   "type": "other",
+   "role": "Tree (Acer saccharinum) receiving carbon in spring in a network with trout lily"
+  },
+  {
+   "name": "Trout lily",
+   "type": "other",
+   "role": "Plant (Erythronium americanum) receiving carbon in fall in a network with sugar maple"
+  },
+  {
+   "name": "Nara (2006)",
+   "type": "event",
+   "role": "Study that transplanted Salix reinii seedlings inoculated with different ectomycorrhizal species in primary succession"
+  },
+  {
+   "name": "Entangled Life (book)",
+   "type": "product",
+   "role": "Listed in the See also section as related reading"
+  }
+ ],
+ "tags": [
+  "mycorrhizal networks",
+  "plant communication",
+  "symbiosis",
+  "allelopathy",
+  "carbon transfer",
+  "forest ecology"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9572,
+  "output_tokens": 2061
+ }
+}

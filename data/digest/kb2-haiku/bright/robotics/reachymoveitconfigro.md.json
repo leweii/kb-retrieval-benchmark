@@ -1,0 +1,75 @@
+{
+ "summary": "This is the GitHub repository page for reachy_moveit_config_ros2, a MoveIt2 configuration package for the Reachy robot, published by the pollen-robotics organization under an Apache-2.0 license. The README explains installing ROS2 Foxy on Ubuntu 20.04, MoveIt2, and the reachy_description_ros2 package, then building with colcon. It describes launching the demo file, where users pick a planning group (right arm, left arm or head), move a blue ball at the end effector to a goal pose, and click Plan and Execute to run a trajectory with obstacle avoidance using fake trajectory controllers. The repository shows 1 star, 0 forks, 0 issues and 2 commits, and is 93.1% Python and 6.9% CMake.",
+ "one_line": "A MoveIt2 configuration package for the Reachy robot on ROS 2 Foxy, with a demo launch for planning arm and head trajectories.",
+ "key_facts": [
+  "reachy_moveit_config_ros2 is a MoveIt2 configuration package for Reachy, published by the pollen-robotics organization on GitHub.",
+  "The repository is licensed under Apache-2.0.",
+  "The README's integration of Reachy into MoveIt2 is described as being for ROS 2.",
+  "Installation requires ROS2 Foxy installed on top of Ubuntu 20.04.",
+  "The install steps clone reachy_moveit_config_ros2 and reachy_description_ros2 into ~/ros2_ws/src.",
+  "The workspace is built with colcon build --symlink-install from ~/ros2_ws.",
+  "The demo is started with the command ros2 launch reachy_moveit_config_ros2 demo.launch.py.",
+  "In the demo, the user picks a group in the Query Planning Group field of the Motion Planning panel: right arm, left arm or head.",
+  "The user moves the blue ball at the tip of the end effector to a goal pose, then clicks Plan and Execute.",
+  "The planned trajectory includes obstacle avoidance and is run with fake trajectory controllers.",
+  "The repository had 1 star, 0 forks, 0 open issues and 0 open pull requests at the time of capture.",
+  "The repository has 2 commits on the main branch and no published releases or packages.",
+  "The repository's languages are Python at 93.1% and CMake at 6.9%.",
+  "The repository watchers count is 4."
+ ],
+ "entities": [
+  {
+   "name": "reachy_moveit_config_ros2",
+   "type": "program",
+   "role": "MoveIt2 configuration package for Reachy, the repository described in the note"
+  },
+  {
+   "name": "pollen-robotics",
+   "type": "organization",
+   "role": "owner of the reachy_moveit_config_ros2 repository on GitHub"
+  },
+  {
+   "name": "Reachy",
+   "type": "product",
+   "role": "robot that the MoveIt2 configuration package integrates with"
+  },
+  {
+   "name": "ROS2 Foxy",
+   "type": "program",
+   "role": "ROS 2 distribution to install on Ubuntu 20.04 as the first installation step"
+  },
+  {
+   "name": "Ubuntu 20.04",
+   "type": "product",
+   "role": "operating system on which ROS2 Foxy is installed"
+  },
+  {
+   "name": "MoveIt2",
+   "type": "program",
+   "role": "motion planning framework that the package configures for Reachy"
+  },
+  {
+   "name": "reachy_description_ros2",
+   "type": "program",
+   "role": "repository cloned into the workspace alongside the MoveIt config package"
+  },
+  {
+   "name": "GitHub",
+   "type": "organization",
+   "role": "hosting platform of the repository page"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "moveit2",
+  "ros2",
+  "reachy",
+  "motion-planning",
+  "open-source"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 5994,
+  "output_tokens": 1183
+ }
+}

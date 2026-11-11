@@ -1,0 +1,56 @@
+{
+ "summary": "This WhatIs.com definition explains the term harmonic, a wave or signal whose frequency is an integer multiple of a reference (fundamental) frequency. It covers harmonic series and even/odd harmonics, notes that most signals contain harmonic energy, and describes interference from harmonics in wireless broadcasting. It also briefly defines related meanings: harmonic distortion, simple harmonic motion, automotive harmonic balancers, the harmonic series in mathematics, and harmonics in electrical systems caused by nonlinear loads.",
+ "one_line": "A definition of harmonics: waves whose frequencies are whole-number multiples of a fundamental frequency, plus related meanings in electronics, physics and engines.",
+ "key_facts": [
+  "A harmonic is a wave or signal whose frequency is an integral (whole number) multiple of the frequency of the same reference signal or wave.",
+  "The fundamental frequency or original wave is known as the first, or 1st, harmonic.",
+  "For a signal whose fundamental frequency is f, the second harmonic has a frequency of 2f and the third harmonic has a frequency of 3f.",
+  "The second harmonic has a wavelength of w/2, and the third harmonic has a wavelength of w/3, where w is the wavelength of the signal in a specified medium.",
+  "Signals at frequencies of 2f, 4f, 6f and more are called even harmonics; signals at 3f, 5f and 7f are called odd harmonics.",
+  "If a signal contains all its energy at the fundamental frequency, it is a perfect sine wave; square, sawtooth and triangular waves contain large amounts of energy at harmonic frequencies.",
+  "A broadcast signal at 90.5 megahertz (MHz) in the standard FM band would have a second harmonic at 181 MHz, a third harmonic at 271.5 MHz and a fourth harmonic at 362 MHz.",
+  "Signal output at harmonic frequencies can cause interference with other communications or broadcasting protocols.",
+  "In electrical distribution systems, harmonic distortion is a standard voltage and current variation resulting from frequency changes, such as a deviation from typical sinusoidal variations.",
+  "In physics, simple harmonic motion represents repetitive back-and-forth movement through a central or equilibrium position.",
+  "In simple harmonic motion, the force that creates the motion is always directed to the central equilibrium position and is directly proportional to the distance from it.",
+  "In automobiles, a harmonic balancer connects to the engine crankshaft and helps reduce engine vibration; it is also called a crankshaft damper, torsional damper or vibration damper.",
+  "In mathematics, a harmonic series describes the divergent infinite series of overtones or harmonics in music.",
+  "Examples of nonlinear loads that generate electrical harmonics include battery chargers, personal computers, laser printers, variable speed motors and drives, and switch-mode power supplies (SMPS).",
+  "The article was written by Andrew Zola and was last updated in November 2021."
+ ],
+ "entities": [
+  {
+   "name": "WhatIs",
+   "type": "organization",
+   "role": "publisher of the harmonic definition page, part of the TechTarget Network"
+  },
+  {
+   "name": "TechTarget",
+   "type": "organization",
+   "role": "network and copyright holder of the WhatIs site"
+  },
+  {
+   "name": "Andrew Zola",
+   "type": "person",
+   "role": "author of the harmonic definition"
+  },
+  {
+   "name": "FM band",
+   "type": "other",
+   "role": "radio band used in the example of a 90.5 MHz broadcast signal and its harmonics"
+  }
+ ],
+ "tags": [
+  "harmonics",
+  "waves",
+  "signal processing",
+  "electrical engineering",
+  "acoustics",
+  "frequency"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4542,
+  "output_tokens": 1200
+ }
+}

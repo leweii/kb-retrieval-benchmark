@@ -1,0 +1,47 @@
+{
+ "summary": "The note describes Darwin, the capital city of Australia's Northern Territory. It sits on the Timor Sea and is the largest city in the sparsely populated territory, with a population of 142,300. It is also the smallest and most northerly of the Australian capital cities and serves as the regional centre of the Top End.",
+ "one_line": "Darwin is the capital of Australia's Northern Territory, a Timor Sea port city and regional centre of the Top End.",
+ "key_facts": [
+  "Darwin is the capital city of the Northern Territory of Australia.",
+  "Darwin is situated on the Timor Sea.",
+  "Darwin is the largest city in the sparsely populated Northern Territory.",
+  "Darwin has a population of 142,300.",
+  "Darwin is the smallest of the Australian capital cities.",
+  "Darwin is the most northerly of the Australian capital cities.",
+  "Darwin acts as the regional centre of the Top End."
+ ],
+ "entities": [
+  {
+   "name": "Darwin",
+   "type": "place",
+   "role": "capital city of the Northern Territory of Australia, situated on the Timor Sea"
+  },
+  {
+   "name": "Northern Territory",
+   "type": "place",
+   "role": "sparsely populated Australian territory whose capital is Darwin"
+  },
+  {
+   "name": "Timor Sea",
+   "type": "place",
+   "role": "sea on which Darwin is situated"
+  },
+  {
+   "name": "Top End",
+   "type": "place",
+   "role": "region for which Darwin acts as regional centre"
+  }
+ ],
+ "tags": [
+  "darwin",
+  "northern territory",
+  "australia",
+  "cities",
+  "timor sea"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1121,
+  "output_tokens": 494
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "summary": "This is a Snowflake documentation page for the POLICY_CONTEXT function, which simulates the query result for table or view columns protected by masking policies or row access policies. It explains the syntax, the required context-function arguments (such as CURRENT_USER, CURRENT_ROLE, CURRENT_ACCOUNT and CURRENT_AVAILABLE_ROLES), the privileges needed, error conditions, data sharing restrictions, and a simple example simulating the PUBLIC role querying empl_info. The page is mostly reference text with navigation boilerplate removed.",
+ "one_line": "Snowflake's POLICY_CONTEXT function simulates how masking and row access policies affect query results for a given user, role, or account.",
+ "key_facts": [
+  "POLICY_CONTEXT simulates the query result for table or view columns protected by a masking policy, row access policy, or both.",
+  "The syntax is EXECUTE USING POLICY_CONTEXT( <arg_1> => '<string_literal>' [ , <arg_2> => '<string_literal>' , ... ] ) AS SELECT <query>.",
+  "At least one context function and its value must be specified, and the first argument is required.",
+  "To determine the string value format, one runs a query such as SELECT CURRENT_USER(), which returns JSMITH, so the string value would be 'JSMITH'.",
+  "When specifying CURRENT_AVAILABLE_ROLES with multiple roles such as ROLE1 and ROLE2, the list must be enclosed in square brackets as ['ROLE1', 'ROLE2'].",
+  "If a table is protected by a policy, the specified user or role must have OWNERSHIP on the table or view and the APPLY privilege for the policy.",
+  "The APPLY privilege can be granted at the account level as APPLY MASKING POLICY on ACCOUNT or APPLY ROW ACCESS POLICY on ACCOUNT, or on the specific policy.",
+  "Snowflake returns an error for unsupported context functions, improperly specified function string values, or a query that does not properly query a table or view.",
+  "A data sharing consumer cannot use POLICY_CONTEXT to simulate query results on tables or views made available by the data sharing provider.",
+  "A data sharing provider can simulate how a consumer account views shared tables by specifying current_account => '<consumer_account_name>'.",
+  "The result depends on the masking policy on a column, the row access policy on the table or view, the policy definitions, the query, role privileges, user role grants including role hierarchy, and the function arguments.",
+  "Users should consult the internal policy administrator (such as roles POLICY_ADMIN, MASKING_ADMIN, or RAP_ADMIN) if results are not as expected.",
+  "The documented example is: execute using policy_context(current_role => 'PUBLIC') as select * from empl_info; which simulates the PUBLIC system role querying the table empl_info."
+ ],
+ "entities": [
+  {
+   "name": "POLICY_CONTEXT",
+   "type": "program",
+   "role": "function that simulates query results for columns or tables protected by masking or row access policies"
+  },
+  {
+   "name": "CURRENT_USER",
+   "type": "program",
+   "role": "context function whose value is a string such as JSMITH"
+  },
+  {
+   "name": "CURRENT_ROLE",
+   "type": "program",
+   "role": "context function used in the example with the PUBLIC role"
+  },
+  {
+   "name": "CURRENT_ACCOUNT",
+   "type": "program",
+   "role": "context function used by data sharing providers to specify a consumer account name"
+  },
+  {
+   "name": "CURRENT_AVAILABLE_ROLES",
+   "type": "program",
+   "role": "context function that accepts a bracketed list of multiple roles"
+  },
+  {
+   "name": "PUBLIC",
+   "type": "other",
+   "role": "system role simulated in the example query"
+  },
+  {
+   "name": "empl_info",
+   "type": "other",
+   "role": "table queried in the example"
+  },
+  {
+   "name": "POLICY_ADMIN",
+   "type": "other",
+   "role": "custom role for internal policy administrators"
+  },
+  {
+   "name": "MASKING_ADMIN",
+   "type": "other",
+   "role": "custom role for internal policy administrators of masking policies"
+  },
+  {
+   "name": "RAP_ADMIN",
+   "type": "other",
+   "role": "custom role for internal policy administrators of row access policies"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "data-governance",
+  "masking-policy",
+  "row-access-policy",
+  "access-control"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2772,
+  "output_tokens": 1410
+ }
+}

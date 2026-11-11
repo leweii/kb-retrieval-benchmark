@@ -1,0 +1,110 @@
+{
+ "summary": "A Robotbox.net review by Richard Harrison comparing the iRobot Roomba J7 and Roomba J7+ robot vacuums, released in September 2021 and reviewed June 2023. The note concludes the two models are nearly identical in performance, with the main difference being that the J7+ includes the CleanBase self-emptying unit and dirt disposal bags. It covers design, cleaning performance, test results, battery and runtime, navigation, smart features, and includes reader comments and Amazon price listings.",
+ "one_line": "Robotbox review comparing the iRobot Roomba J7 and J7+ vacuums, which differ mainly in the included CleanBase self-emptying unit.",
+ "key_facts": [
+  "The Roomba J7 and Roomba J7+ were released in September 2021 as part of the Roomba J Series.",
+  "The Roomba J7+ includes the iRobot CleanBase unit and disposable bags, enabling automatic self-emptying, while the Roomba J7 does not include the CleanBase unit.",
+  "Both the Roomba J7 and J7+ have a 1700 Pa power suction rating and a 0.3L dustbin capacity in the comparison table.",
+  "The article states the Roomba J7 and J7+ both have a 13.3-inch diameter, stand 3.4 inches tall, and weigh 7.49 lbs.",
+  "Both models use a 2210 mAh Roomba i8 Denali battery that the article says offers a 90-minute runtime, though the comparison table lists 100 minutes.",
+  "AeroForce high-efficiency filters are said to capture 99.9% of allergens, dust, dust mite, and other particles.",
+  "Both models sync with the Braava M6 mop via Imprint Link technology for simultaneous vacuuming and mopping.",
+  "The J7 and J7+ use VSLAM navigation called iAdapt 3.0 with Imprint Smart Mapping and a front-facing camera.",
+  "The J7 has PrecisionVision Navigation that can identify common obstacles such as socks, shoes, power cords, and dog poop.",
+  "The J7 features Quiet Drive, which turns the motor off when moving from the dock to the target location, a feature the article says iRobot borrowed from Neato.",
+  "The article recommends the Roomba J7 for buyers on a budget who are willing to empty the bin manually, and the J7+ for those who want a self-emptying robot.",
+  "The Roomba J7 uses a 2.4GHz WiFi connection and is controlled through the iRobot Home app, and is powered by iRobot Genius 3.0.",
+  "The recharge time for the J series is listed as 2-3 hours in the review text and 3-4 hours in the comparison table.",
+  "In reader comments, Swartzcop Kennedy estimated the Roomba J7+ runs about 45 minutes to one and a half hours per charge and recharges in about an hour."
+ ],
+ "entities": [
+  {
+   "name": "Robotbox",
+   "type": "organization",
+   "role": "website publisher of the review, described as a blog helping customers choose home gadgets"
+  },
+  {
+   "name": "Richard Harrison",
+   "type": "person",
+   "role": "author of the review and blog owner, described as a tech enthusiast focused on home robotics"
+  },
+  {
+   "name": "iRobot",
+   "type": "organization",
+   "role": "manufacturer of the Roomba J7 and J7+ robot vacuums"
+  },
+  {
+   "name": "Roomba J7",
+   "type": "product",
+   "role": "base model in the Roomba J Series without the CleanBase unit, released September 2021"
+  },
+  {
+   "name": "Roomba J7+",
+   "type": "product",
+   "role": "ceiling model in the Roomba J Series that includes the CleanBase unit and disposable bags, released September 2021"
+  },
+  {
+   "name": "CleanBase",
+   "type": "product",
+   "role": "iRobot automatic dirt disposal unit included with the J7+ for self-emptying"
+  },
+  {
+   "name": "Braava M6",
+   "type": "product",
+   "role": "mop cleaner that the J7 and J7+ can sync with via Imprint Link technology"
+  },
+  {
+   "name": "Roomba S9/S9+",
+   "type": "product",
+   "role": "Roomba model with a D-shaped design that handles wall edges better than the J7 series, mentioned for comparison"
+  },
+  {
+   "name": "iRobot Genius 3.0",
+   "type": "program",
+   "role": "software powering the J7, which tailors cleaning to habits, home, and seasons"
+  },
+  {
+   "name": "iAdapt 3.0 with Imprint Smart Mapping",
+   "type": "program",
+   "role": "VSLAM navigation system used by the J7 and J7+"
+  },
+  {
+   "name": "PrecisionVision Navigation",
+   "type": "program",
+   "role": "J7 feature that identifies common obstacles such as socks, shoes, power cords, and dog poop"
+  },
+  {
+   "name": "Keep Out Zones",
+   "type": "program",
+   "role": "digital boundary feature created in the app, presented as better than physical Virtual Walls"
+  },
+  {
+   "name": "Clean While I’m Away",
+   "type": "program",
+   "role": "J7 smart feature that uses phone location to start cleaning when the owner leaves"
+  },
+  {
+   "name": "Quiet Drive",
+   "type": "program",
+   "role": "J7 feature that turns off the motor when moving from dock to target location"
+  },
+  {
+   "name": "Neato",
+   "type": "organization",
+   "role": "company from which iRobot borrowed the Quiet Drive idea, per the article"
+  }
+ ],
+ "tags": [
+  "robot vacuum",
+  "roomba",
+  "irobot",
+  "smart home",
+  "product comparison",
+  "home robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15029,
+  "output_tokens": 1766
+ }
+}

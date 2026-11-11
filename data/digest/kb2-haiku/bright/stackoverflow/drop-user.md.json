@@ -1,0 +1,42 @@
+{
+ "summary": "This is a reference page for the DROP USER command, which removes a specified user from the system. It gives the syntax with an optional IF EXISTS clause and explains that the name identifier must be double-quoted if it contains spaces, special or mixed-case characters, which makes it case-sensitive. The usage notes state that dropped users cannot be recovered and that worksheets and dashboards owned by the dropped user are also removed, with an alternative of setting DISABLED = TRUE mentioned. The only example is DROP USER user1;.",
+ "one_line": "Reference page for the DROP USER command, which permanently removes a user and their owned worksheets and dashboards.",
+ "key_facts": [
+  "The DROP USER command removes the specified user from the system.",
+  "The syntax is DROP USER [ IF EXISTS ] <name>.",
+  "The <name> parameter specifies the identifier for the user to drop.",
+  "If the identifier contains spaces, special characters, or mixed-case characters, the entire string must be enclosed in double quotes.",
+  "Identifiers enclosed in double quotes are case-sensitive.",
+  "Dropped users cannot be recovered; they must be recreated.",
+  "When a user is dropped, the worksheets and dashboards owned by that user are also removed.",
+  "The usage notes suggest an alternative to dropping a user, using DISABLED = TRUE instead.",
+  "The page gives two options for retaining access to worksheets owned by a user, though the option details are not included in the note.",
+  "The example in the note is DROP USER user1;.",
+  "The page is listed under User Management, Database Role Management, Account-level Role Management, and Privilege Management in its navigation breadcrumb.",
+  "The page language is English."
+ ],
+ "entities": [
+  {
+   "name": "DROP USER",
+   "type": "program",
+   "role": "SQL command documented on this page that removes the specified user from the system"
+  },
+  {
+   "name": "user1",
+   "type": "other",
+   "role": "example user name used in the DROP USER example"
+  }
+ ],
+ "tags": [
+  "sql",
+  "user management",
+  "access control",
+  "privileges",
+  "worksheets"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1420,
+  "output_tokens": 652
+ }
+}

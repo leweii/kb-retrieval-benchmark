@@ -1,0 +1,111 @@
+{
+ "summary": "The note is a Wikipedia article on pumped-storage hydroelectricity (PSH), an electric energy storage method that pumps water from a lower reservoir to a higher one when power is cheap and releases it through turbines during peak demand. It covers the basic principle, efficiency and economics, small-scale and historical development, and worldwide capacity figures, including the largest operational plants. The captured text is cut off partway through the table of the five largest plants.",
+ "one_line": "Wikipedia article describing pumped-storage hydroelectricity, a grid energy storage method using elevation-based water reservoirs, its efficiency, history, and global capacity.",
+ "key_facts": [
+  "Pumped-storage hydroelectricity (PSH), also called pumped hydroelectric energy storage (PHES), stores energy as gravitational potential energy of water pumped from a lower reservoir to a higher one.",
+  "Round-trip energy efficiency of PSH varies between 70%–80%, with some sources claiming up to 87%.",
+  "PSH accounts for around 95% of all active tracked storage installations worldwide, per the United States Department of Energy Global Energy Storage Database as of 2020.",
+  "Worldwide PSH total installed throughput capacity is over 181 GW, of which about 29 GW are in the United States.",
+  "The global greenfield pumped hydro atlas lists more than 600,000 potential sites worldwide, about 100 times more than needed to support 100% renewable electricity.",
+  "The Snowy 2.0 scheme in Australia, under construction, uses existing reservoirs (dubbed \"bluefield\") and has a 350 Gigawatt-hour storage capacity.",
+  "Water requirements for PSH are about 1 gigalitre of initial fill water per gigawatt-hour of storage, and land requirements are about 10 hectares per gigawatt-hour.",
+  "The first use of pumped storage was in 1907 in Switzerland, at the Engeweiher pumped storage facility near Schaffhausen.",
+  "The first use of pumped storage in the United States was in 1930 by the Connecticut Electric and Power Company, pumping water from the Housatonic River to a reservoir 70 metres (230 ft) above, near New Milford, Connecticut.",
+  "In 2009, world pumped storage generating capacity was 104 GW, while other sources claim 127 GW.",
+  "In 2010 the United States had 21.5 GW of pumped storage generating capacity, 20.6% of world capacity.",
+  "Nameplate pumped storage capacity in the United States had grown to 21.6 GW by 2014, comprising 97% of grid-scale energy storage in the United States.",
+  "Reversible turbine/generator assemblies act as combined pump and turbine generator units, usually Francis turbine designs.",
+  "The Ffestiniog Pumped Storage Scheme in North Wales has four water turbines generating 360 MW of electricity within 60 seconds of the need arising.",
+  "Pumped storage plants have a proven long service life of decades, in some cases over a century, which is three to five times longer than utility-scale batteries.",
+  "Closed loop (off-river) pumped hydro storage has the smallest carbon emissions per unit of storage of all candidates for large-scale energy storage."
+ ],
+ "entities": [
+  {
+   "name": "Pumped-storage hydroelectricity",
+   "type": "other",
+   "role": "electric energy storage system the article describes, also called PSH or PHES"
+  },
+  {
+   "name": "Engeweiher pumped storage facility",
+   "type": "product",
+   "role": "site of the first use of pumped storage, in 1907, near Schaffhausen, Switzerland"
+  },
+  {
+   "name": "Connecticut Electric and Power Company",
+   "type": "organization",
+   "role": "operator that first used pumped storage in the United States in 1930"
+  },
+  {
+   "name": "Snowy 2.0 scheme",
+   "type": "program",
+   "role": "Australian project under construction that uses existing reservoirs, with 350 Gigawatt-hour storage"
+  },
+  {
+   "name": "Kidston project",
+   "type": "program",
+   "role": "Australian brownfield pumped storage project under construction in a disused mine"
+  },
+  {
+   "name": "Ffestiniog Pumped Storage Scheme",
+   "type": "program",
+   "role": "North Wales scheme with an upper reservoir Llyn Stwlan and four turbines generating 360 MW"
+  },
+  {
+   "name": "Raccoon Mountain Pumped-Storage Plant",
+   "type": "product",
+   "role": "TVA pumped storage facility in Tennessee, United States, shown in a diagram"
+  },
+  {
+   "name": "Taum Sauk pumped storage plant",
+   "type": "product",
+   "role": "pumped storage plant in Missouri, United States, shown in a topo map"
+  },
+  {
+   "name": "Kruonis Pumped Storage Plant",
+   "type": "product",
+   "role": "pumped storage plant in Lithuania shown in a photo"
+  },
+  {
+   "name": "Fengning Pumped Storage Power Station",
+   "type": "product",
+   "role": "one of the five largest operational pumped-storage plants, in China, 3,600 MW"
+  },
+  {
+   "name": "Bath County Pumped Storage Station",
+   "type": "product",
+   "role": "one of the five largest operational pumped-storage plants, in the United States, 3,003 MW"
+  },
+  {
+   "name": "Guangdong Pumped Storage Power Station",
+   "type": "product",
+   "role": "one of the five largest operational pumped-storage plants, in China"
+  },
+  {
+   "name": "United States Department of Energy Global Energy Storage Database",
+   "type": "program",
+   "role": "source reporting that PSH accounts for around 95% of active tracked storage installations worldwide as of 2020"
+  },
+  {
+   "name": "Tennessee Valley Authority",
+   "type": "organization",
+   "role": "operator of the Raccoon Mountain pumped storage facility"
+  },
+  {
+   "name": "Shell Energy",
+   "type": "organization",
+   "role": "proposed a 5 MW small-scale pumped storage project in Washington State"
+  }
+ ],
+ "tags": [
+  "energy storage",
+  "hydroelectricity",
+  "grid storage",
+  "renewable energy",
+  "pumped storage"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 16127,
+  "output_tokens": 1939
+ }
+}

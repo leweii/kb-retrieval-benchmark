@@ -1,0 +1,43 @@
+{
+ "summary": "This is Snowflake documentation for the SYSTEM$GET_TAG function, which returns the value of a tag associated with a Snowflake object or column, or NULL if no tag is set. It describes the function syntax, the three arguments (tag name, object name, object domain), the list of allowed domain values, a usage note about required privileges, and three examples covering a NULL result, a table tag value, and a column tag value.",
+ "one_line": "Snowflake SYSTEM$GET_TAG function reference: syntax, arguments, allowed object domains, privileges and examples.",
+ "key_facts": [
+  "SYSTEM$GET_TAG returns the tag value associated with the specified Snowflake object or column.",
+  "SYSTEM$GET_TAG returns NULL if a tag is not set on the specified Snowflake object or column.",
+  "Syntax is SYSTEM$GET_TAG( '<tag_name>' , '<obj_name>' , '<obj_domain>' ).",
+  "The tag_name argument is the key in the key-value pair of the tag, for example 'cost_center' in cost_center = 'sales'.",
+  "To specify a column, the obj_name uses the format <table_name>.<column_name>, for example my_table.revenue.",
+  "For columns, the object domain is 'COLUMN' if the tag association is on a column.",
+  "Allowed object domain values include 'ACCOUNT', 'ALERT', 'COLUMN', 'DATABASE', 'DATABASE ROLE', 'FUNCTION', 'INTEGRATION', 'NETWORK POLICY', 'PROCEDURE', 'ROLE', 'SCHEMA', 'SHARE', 'STAGE', 'STREAM', 'TABLE', 'TASK', 'USER' and 'WAREHOUSE'.",
+  "The 'TABLE' domain is used for all table-like objects such as views, materialized views, and external tables.",
+  "Using this function requires USAGE on the database and schema in which the tag exists.",
+  "Example one: select system$get_tag('cost_center', 'my_table', 'table') returns NULL when no tag is associated with the table.",
+  "Example two: the same query returns the string 'sales' when the cost_center tag on my_table is set to 'sales'.",
+  "Example three: select system$get_tag('fiscal_quarter', 'my_table.revenue', 'column') returns 'Q1' for the revenue column.",
+  "The tag value is the string component of the key = 'value' pair in the tag."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$GET_TAG",
+   "type": "program",
+   "role": "Snowflake system function that returns the tag value associated with a specified object or column"
+  },
+  {
+   "name": "Snowflake",
+   "type": "product",
+   "role": "data platform whose object tagging feature this function belongs to"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql functions",
+  "object tagging",
+  "metadata",
+  "data governance"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2523,
+  "output_tokens": 944
+ }
+}

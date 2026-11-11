@@ -1,0 +1,80 @@
+{
+ "summary": "This note describes how the Major League Baseball season schedule is structured. Each of the 30 teams plays 162 regular-season games, 2,430 games in total, over about six months, followed by the postseason. It explains the season's start and end dates, the limit of 20 postseason games for a wild-card team that goes the distance, and how the regular season is built from series of three or four games, with mid-week and weekend series.",
+ "one_line": "Overview of the MLB season structure: 162 games per team, opening day timing, postseason limits, and how series are scheduled.",
+ "key_facts": [
+  "The MLB season schedule consists of 162 games for each of the 30 teams in the American League and National League.",
+  "The total number of regular-season MLB games is 2,430.",
+  "The regular season typically runs from early April to late September, followed by the postseason in October.",
+  "As of 2018, the MLB season runs 26 1/2 weeks through the last Sunday of September or first Sunday of October.",
+  "One or more International Opener games may be scheduled outside the United States before the official Opening Day.",
+  "A team can play a maximum of 20 postseason games in a year if it is a wild card and advances to each series going the distance.",
+  "A Division Series going the distance is 5 games; a League Championship Series or World Series going the distance is 7 games.",
+  "Pairs of teams are never scheduled to play single games against each other, except to make up a postponed game.",
+  "Most regular-season series are of three or four games, though two-game series are also scheduled.",
+  "Teams play one mid-week series and one weekend series per week.",
+  "Mid-week series games are usually scheduled between Monday and Thursday, while weekend games are scheduled between Thursday and Monday.",
+  "Beginning in 2018, teams start and end their season on a weekend for a total of 26 1/2 weeks.",
+  "Due to the mid-week all-star break in July, teams are scheduled to play 27 weekend series and 25 mid-week series, for a total of 52 series.",
+  "The 52 series comprise 24 divisional series, 20 inter-divisional series, and 8 inter-league series.",
+  "A team's road games are usually grouped into a multi-series road trip, and home series are grouped into homestands."
+ ],
+ "entities": [
+  {
+   "name": "Major League Baseball (MLB)",
+   "type": "organization",
+   "role": "professional baseball league whose season schedule is described, with 30 teams in the American League and National League"
+  },
+  {
+   "name": "American League (AL)",
+   "type": "organization",
+   "role": "one of the two MLB leagues whose teams play 162 games each"
+  },
+  {
+   "name": "National League (NL)",
+   "type": "organization",
+   "role": "one of the two MLB leagues whose teams play 162 games each"
+  },
+  {
+   "name": "Opening Day",
+   "type": "event",
+   "role": "official start of the MLB season, preceded by optional International Opener games"
+  },
+  {
+   "name": "International Opener",
+   "type": "event",
+   "role": "games that may be scheduled outside the United States before the official Opening Day"
+  },
+  {
+   "name": "Division Series",
+   "type": "event",
+   "role": "postseason series that is 5 games if it goes the distance"
+  },
+  {
+   "name": "League Championship Series",
+   "type": "event",
+   "role": "postseason series that is 7 games if it goes the distance"
+  },
+  {
+   "name": "World Series",
+   "type": "event",
+   "role": "postseason series that is 7 games if it goes the distance"
+  },
+  {
+   "name": "All-star break",
+   "type": "event",
+   "role": "mid-week break in July that affects the number of weekend and mid-week series scheduled"
+  }
+ ],
+ "tags": [
+  "baseball",
+  "mlb",
+  "sports schedule",
+  "regular season",
+  "postseason"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1857,
+  "output_tokens": 1121
+ }
+}

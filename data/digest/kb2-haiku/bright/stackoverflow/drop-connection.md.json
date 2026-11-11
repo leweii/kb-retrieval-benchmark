@@ -1,0 +1,63 @@
+{
+ "summary": "This note is a Snowflake SQL reference page for the DROP CONNECTION command, which removes a connection from an account. It requires Business Critical Edition or higher and only account administrators (ACCOUNTADMIN role) can run it. A primary connection cannot be dropped while it has secondary connections, so those must be promoted or dropped first. The page gives the syntax, the single name parameter, and examples including the IF EXISTS form.",
+ "one_line": "Snowflake SQL reference for the DROP CONNECTION command, which removes a connection from an account on Business Critical Edition or higher.",
+ "key_facts": [
+  "DROP CONNECTION removes a connection from the account.",
+  "DROP CONNECTION requires Business Critical Edition (or higher).",
+  "The syntax is DROP CONNECTION [ IF EXISTS ] <name>.",
+  "The <name> parameter specifies the identifier for the connection to drop.",
+  "Only account administrators (users with the ACCOUNTADMIN role) can execute DROP CONNECTION.",
+  "A primary connection cannot be dropped if it has one or more secondary connections.",
+  "To drop a primary connection with secondaries, first promote a secondary connection to primary, then drop the former primary connection.",
+  "Alternatively, drop all secondary connections first, and then drop the primary connection.",
+  "The example uses SHOW CONNECTIONS LIKE 't2%' before and after DROP CONNECTION t2 to verify removal.",
+  "DROP CONNECTION IF EXISTS t2 drops the connection again without raising an error if it does not exist.",
+  "The page is part of the Snowflake documentation section covering Replication, Failover/Failback, and Client Redirect.",
+  "The page lists sections for Syntax, Parameters, Usage Notes, and Examples."
+ ],
+ "entities": [
+  {
+   "name": "DROP CONNECTION",
+   "type": "program",
+   "role": "SQL command that removes a connection from the account, the subject of this page"
+  },
+  {
+   "name": "SHOW CONNECTIONS",
+   "type": "program",
+   "role": "SQL command used in the examples to list connections before and after dropping t2"
+  },
+  {
+   "name": "ACCOUNTADMIN",
+   "type": "other",
+   "role": "role whose users are the only ones permitted to execute DROP CONNECTION"
+  },
+  {
+   "name": "Business Critical Edition",
+   "type": "product",
+   "role": "Snowflake edition required to use DROP CONNECTION or higher"
+  },
+  {
+   "name": "Snowflake Support",
+   "type": "organization",
+   "role": "contact for inquiring about upgrading to Business Critical Edition"
+  },
+  {
+   "name": "t2",
+   "type": "other",
+   "role": "example connection name dropped in the examples"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "database-connections",
+  "replication",
+  "failover",
+  "account-administration"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1574,
+  "output_tokens": 894
+ }
+}

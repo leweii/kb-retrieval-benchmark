@@ -1,0 +1,55 @@
+{
+ "summary": "The note is a short biographical entry on Edward Fokczyński, one of the four directors of the AVA Radio Company, an electronics firm founded in Warsaw, Poland, in 1929. It explains that AVA manufactured radio equipment for the Polish General Staff's Cipher Bureau, which handled radio communications for the General Staff's Intelligence Section, known as Oddział II.",
+ "one_line": "Edward Fokczyński was a director of the Warsaw electronics firm AVA Radio Company, which supplied radio equipment to Poland's Cipher Bureau.",
+ "key_facts": [
+  "Edward Fokczyński was one of the four directors of the AVA Radio Company.",
+  "The AVA Radio Company was an electronics firm established in Warsaw, Poland, in 1929.",
+  "AVA Radio Company produced radio equipment for the Polish General Staff's Cipher Bureau.",
+  "The Cipher Bureau was responsible for the radio communications of the General Staff's Intelligence Section, known as \"Oddział II\"."
+ ],
+ "entities": [
+  {
+   "name": "Edward Fokczyński",
+   "type": "person",
+   "role": "one of the four directors of the AVA Radio Company"
+  },
+  {
+   "name": "AVA Radio Company",
+   "type": "organization",
+   "role": "electronics firm established in Warsaw, Poland, in 1929 that produced radio equipment for the Polish General Staff's Cipher Bureau"
+  },
+  {
+   "name": "Polish General Staff's Cipher Bureau",
+   "type": "organization",
+   "role": "Polish General Staff unit responsible for radio communications of the General Staff's Intelligence Section"
+  },
+  {
+   "name": "Oddział II",
+   "type": "organization",
+   "role": "Intelligence Section of the Polish General Staff whose radio communications were handled by the Cipher Bureau"
+  },
+  {
+   "name": "Warsaw",
+   "type": "place",
+   "role": "city where the AVA Radio Company was established in 1929"
+  },
+  {
+   "name": "Poland",
+   "type": "place",
+   "role": "country where the AVA Radio Company was established"
+  }
+ ],
+ "tags": [
+  "poland",
+  "electronics",
+  "cryptography",
+  "military history",
+  "interwar period",
+  "radio"
+ ],
+ "category": "business & economy",
+ "usage": {
+  "input_tokens": 1101,
+  "output_tokens": 698
+ }
+}

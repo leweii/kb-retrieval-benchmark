@@ -1,0 +1,95 @@
+{
+ "summary": "A UCLA Health news article dated March 8, 2023 reports that UCLA Jonsson Comprehensive Cancer Center researchers identified how T cells 'see' and respond to mutations in cancer cells, which may explain why some patients respond to immunotherapy and others do not. The study, published in Nature, followed 11 patients with metastatic melanoma receiving anti-PD-1 checkpoint inhibitor therapy. The researchers suggest immune receptors from tumor-reactive T cells could be used to engineer T cells that target tumors even in non-responding patients.",
+ "one_line": "UCLA researchers map how T cells recognize cancer mutations in melanoma patients on PD-1 immunotherapy, suggesting more personalized treatments.",
+ "key_facts": [
+  "UCLA Health news article dated March 8, 2023, written by David Sampson, reports on a study of how immune cells 'see' and respond to cancer cells.",
+  "The study was led by scientists at the UCLA Jonsson Comprehensive Cancer Center.",
+  "Cristina Puig-Saus, PhD, was the first author of the study published in Nature.",
+  "The study involved 11 patients with metastatic melanoma receiving anti-PD-1 'checkpoint inhibitor' immunotherapy.",
+  "Of the 11 patients, seven had a response to PD-1 blockade and four did not.",
+  "The number of mutations in the patients' tumors ranged between 3,507 and 31.",
+  "The number of mutations seen by tumor-reactive T cells ranged between 13 and one.",
+  "In patients with clinical benefit, the researchers isolated between 61 and seven different mutation-specific T cells in the blood and tumor.",
+  "In patients lacking a response, the researchers identified between 14 and two different T cells.",
+  "In responding patients, tumor-reactive T cells were detected in blood and tumors throughout treatment; in non-responders they were not recurrently detected.",
+  "Immune receptors from T cells of all patients, regardless of response, redirected immune cell specificity against the tumor, producing antitumor activity.",
+  "The new technique to isolate mutation-reactive T cells was built on technology developed with Antoni Ribas, James Heath, PhD, and David Baltimore, PhD.",
+  "The technology was further developed by PACT Pharma, using CRISPR gene editing to insert genes into immune cells.",
+  "The study's article is titled 'Neoantigen-targeted CD8+ T cell responses with PD-1 blockade therapy' with DOI 10.1038/s41586-023-05787-1."
+ ],
+ "entities": [
+  {
+   "name": "UCLA Jonsson Comprehensive Cancer Center",
+   "type": "organization",
+   "role": "Cancer center whose scientists led the research"
+  },
+  {
+   "name": "Cristina Puig-Saus, PhD",
+   "type": "person",
+   "role": "UCLA Jonsson Comprehensive Cancer Center researcher, adjunct assistant professor of medicine at UCLA, and first author of the Nature study"
+  },
+  {
+   "name": "Antoni Ribas, MD, PhD",
+   "type": "person",
+   "role": "UCLA Jonsson Comprehensive Cancer Center researcher, professor of medicine at UCLA, and co-senior author of the study"
+  },
+  {
+   "name": "James Heath, PhD",
+   "type": "person",
+   "role": "President of the Institute for Systems Biology in Seattle, collaborator on the earlier technology"
+  },
+  {
+   "name": "David Baltimore, PhD",
+   "type": "person",
+   "role": "Nobel laureate, emeritus professor at Caltech and member of the UCLA Jonsson Comprehensive Cancer Center, collaborator on the earlier technology"
+  },
+  {
+   "name": "David Sampson",
+   "type": "person",
+   "role": "Author of the news article and media contact"
+  },
+  {
+   "name": "Nature",
+   "type": "organization",
+   "role": "Journal in which the study was published"
+  },
+  {
+   "name": "PACT Pharma",
+   "type": "organization",
+   "role": "Company that further developed the technology using CRISPR gene editing"
+  },
+  {
+   "name": "Society for Immunotherapy of Cancer (SITC) 2022",
+   "type": "event",
+   "role": "Conference where the technology was presented last November"
+  },
+  {
+   "name": "Institute for Systems Biology",
+   "type": "organization",
+   "role": "Seattle institution whose president is James Heath, PhD"
+  },
+  {
+   "name": "Caltech",
+   "type": "organization",
+   "role": "Institution where David Baltimore, PhD is emeritus professor"
+  },
+  {
+   "name": "Neoantigen-targeted CD8+ T cell responses with PD-1 blockade therapy",
+   "type": "event",
+   "role": "Nature article reporting the study findings"
+  }
+ ],
+ "tags": [
+  "immunotherapy",
+  "t-cells",
+  "cancer mutations",
+  "melanoma",
+  "checkpoint inhibitors",
+  "cancer research"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 9470,
+  "output_tokens": 1551
+ }
+}

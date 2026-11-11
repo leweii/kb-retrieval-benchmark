@@ -1,0 +1,85 @@
+{
+ "summary": "This note is the Snowflake documentation page for the ALTER AUTHENTICATION POLICY SQL command, which modifies an existing authentication policy. It covers the syntax for renaming a policy and for setting or unsetting its CLIENT_TYPES, AUTHENTICATION_METHODS, SECURITY_INTEGRATIONS and COMMENT properties. It also lists the access control requirement (OWNERSHIP privilege, held by SECURITYADMIN by default) and gives one example that restricts allowed clients.",
+ "one_line": "Snowflake reference for the ALTER AUTHENTICATION POLICY command, which renames or changes allowed clients, login methods, security integrations and comments.",
+ "key_facts": [
+  "ALTER AUTHENTICATION POLICY <name> RENAME TO <new_name> renames an existing authentication policy.",
+  "CLIENT_TYPES accepts ALL, SNOWFLAKE_UI, DRIVERS and SNOWSQL, and its default is ALL.",
+  "If a client is not one of the valid CLIENT_TYPES, the login attempt fails.",
+  "If CLIENT_TYPES is unset, any client can connect.",
+  "Caution: if DRIVERS is not included in the CLIENT_TYPES list, automated ingestion may stop working.",
+  "AUTHENTICATION_METHODS accepts ALL, SAML, PASSWORD, OAUTH and KEYPAIR, and its default is ALL.",
+  "Including SAML in AUTHENTICATION_METHODS makes an SSO login option appear; without it, no SSO login option appears.",
+  "Caution: restricting by authentication method can have unintended consequences, such as blocking driver connections or third-party integrations.",
+  "SECURITY_INTEGRATIONS has no effect when SAML or OAUTH are not in the AUTHENTICATION_METHODS list.",
+  "All values in SECURITY_INTEGRATIONS must be compatible with the values in AUTHENTICATION_METHODS; for example, a SAML security integration combined with OAUTH in AUTHENTICATION_METHODS prevents creating the policy.",
+  "SECURITY_INTEGRATIONS defaults to ALL, which allows all security integrations.",
+  "The UNSET clause resets the specified properties to their defaults.",
+  "Operating on a policy requires the OWNERSHIP privilege on the authentication policy, which only SECURITYADMIN or a higher role has by default.",
+  "Operating on any object in a schema also requires the USAGE privilege on the parent database and schema.",
+  "The example ALTER AUTHENTICATION POLICY restrict_client_types_policy SET CLIENT_TYPES = ('SNOWFLAKE_UI', 'SNOWSQL') restricts allowed clients to those two types."
+ ],
+ "entities": [
+  {
+   "name": "ALTER AUTHENTICATION POLICY",
+   "type": "program",
+   "role": "SQL command documented on this page that modifies the properties of an authentication policy"
+  },
+  {
+   "name": "SECURITYADMIN",
+   "type": "program",
+   "role": "role that has OWNERSHIP of authentication policies by default, along with higher roles"
+  },
+  {
+   "name": "restrict_client_types_policy",
+   "type": "program",
+   "role": "example authentication policy whose allowed client list is changed in the example"
+  },
+  {
+   "name": "SNOWFLAKE_UI",
+   "type": "program",
+   "role": "client type value for CLIENT_TYPES, used for the Snowflake web interface"
+  },
+  {
+   "name": "DRIVERS",
+   "type": "program",
+   "role": "client type value for applications written in supported languages; needed for automated ingestion"
+  },
+  {
+   "name": "SNOWSQL",
+   "type": "program",
+   "role": "client type value for the Snowflake command-line client"
+  },
+  {
+   "name": "SAML",
+   "type": "program",
+   "role": "authentication method value that adds an SSO login option when present"
+  },
+  {
+   "name": "OAUTH",
+   "type": "program",
+   "role": "authentication method value that requires compatible security integrations"
+  },
+  {
+   "name": "PASSWORD",
+   "type": "program",
+   "role": "authentication method value that allows username and password login"
+  },
+  {
+   "name": "KEYPAIR",
+   "type": "program",
+   "role": "authentication method value listed among the AUTHENTICATION_METHODS options"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "authentication",
+  "access-control",
+  "reference"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3148,
+  "output_tokens": 1407
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "summary": "This OpenAI documentation note explains how to use OpenAI's text generation models through the Chat Completions and legacy Completions APIs, covering message formats, JSON mode, reproducible outputs, token management, and key parameters like penalties and logprobs. It also summarizes model selection guidance, function calling, and embeddings, including use cases, dimensions, and distance functions. The note begins a section on fine-tuning, describing supported models and when to prefer prompt engineering first.",
+ "one_line": "OpenAI developer guide covering text generation models, Chat and legacy Completions APIs, JSON mode, function calling, embeddings, and fine-tuning.",
+ "key_facts": [
+  "OpenAI's text generation models are often called generative pre-trained transformers or large language models, and their inputs are called prompts.",
+  "Our latest models, gpt-4 and gpt-3.5-turbo, are accessed through the chat completions API endpoint at https://api.openai.com/v1/chat/completions.",
+  "The legacy completions endpoint at https://api.openai.com/v1/completions supports gpt-3.5-turbo-instruct, babbage-002, and davinci-002, and received its final update in July 2023.",
+  "Chat messages must have a role of \"system\", \"user\", or \"assistant\" and content, and the models have no memory of past requests.",
+  "The string \"ChatGPT is great!\" is encoded into six tokens, and the gpt-3.5-turbo maximum limit was 4097 tokens.",
+  "When JSON mode is enabled with response_format set to { \"type\": \"json_object\" }, the API throws an error if the string \"JSON\" does not appear in the context.",
+  "Frequency and presence penalties reasonably range around 0.1 to 1, can go up to 2, and negative values increase repetition.",
+  "Temperature ranges from 0 to 2, with lower values such as 0.2 giving more consistent outputs and higher values such as 1.0 giving more diverse outputs.",
+  "gpt-4-turbo-preview has a context window of 128,000 tokens compared to 4,096 tokens for gpt-3.5-turbo.",
+  "The text-embedding-3-small model produces 1536-dimensional embeddings by default, while text-embedding-3-large produces 3072-dimensional embeddings.",
+  "OpenAI recommends cosine similarity as the distance function, since OpenAI embeddings are normalized to length 1.",
+  "The text-embedding-3-large and text-embedding-3-small models lack knowledge of events that occurred after September 2021.",
+  "As of March 1st, 2023, OpenAI retains API data for 30 days but no longer uses API data to improve its models.",
+  "Currently, gpt-3.5-turbo, babbage-002, and davinci-002 can be fine-tuned, and gpt-3.5-turbo is expected to be the right model for most users.",
+  "The function calling guide notes that the model may hallucinate parameters, and recommends user confirmation flows before actions that impact the world."
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Provider of the text generation models, Chat Completions API, embeddings, and fine-tuning documented in this note"
+  },
+  {
+   "name": "gpt-4-turbo-preview",
+   "type": "product",
+   "role": "Most capable chat model, recommended for carefully following complex instructions and having a 128,000 token context window"
+  },
+  {
+   "name": "gpt-3.5-turbo",
+   "type": "product",
+   "role": "Most cost-effective chat model with lower latency, recommended for most users, with a 4,096 token context window"
+  },
+  {
+   "name": "gpt-3.5-turbo-instruct",
+   "type": "product",
+   "role": "Model accessed through the legacy completions endpoint"
+  },
+  {
+   "name": "gpt-4-turbo",
+   "type": "product",
+   "role": "Model that adds the ability to process and understand image inputs"
+  },
+  {
+   "name": "text-embedding-3-small",
+   "type": "product",
+   "role": "Newer embedding model with 1536 default dimensions and 62.3% MTEB performance"
+  },
+  {
+   "name": "text-embedding-3-large",
+   "type": "product",
+   "role": "Newer embedding model with 3072 default dimensions and 64.6% MTEB performance"
+  },
+  {
+   "name": "tiktoken",
+   "type": "product",
+   "role": "OpenAI's Python tokenizer library used to count tokens in a text string"
+  },
+  {
+   "name": "Amazon fine-food reviews dataset",
+   "type": "other",
+   "role": "Dataset used for the embedding use case examples, containing 568,454 food reviews up to October 2012"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "OpenAI chat interface offering built-in features such as integrated browsing, code execution, and plugins"
+  }
+ ],
+ "tags": [
+  "openai",
+  "llm",
+  "api",
+  "embeddings",
+  "fine-tuning",
+  "prompt-engineering"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11463,
+  "output_tokens": 1563
+ }
+}

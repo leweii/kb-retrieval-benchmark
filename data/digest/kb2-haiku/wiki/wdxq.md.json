@@ -1,0 +1,52 @@
+{
+ "summary": "WDXQ (1440 AM) is a radio station licensed to Cochran, Georgia, United States. It is owned by John Timms through licensee Central Georgia Radio LLC. Its programming is also carried on FM translator W244CL at 96.7 MHz.",
+ "one_line": "WDXQ is a 1440 AM radio station licensed to Cochran, Georgia, owned by John Timms via Central Georgia Radio LLC.",
+ "key_facts": [
+  "WDXQ is a radio station licensed to Cochran, Georgia, United States.",
+  "WDXQ broadcasts on 1440 AM.",
+  "WDXQ is currently owned by John Timms.",
+  "The licensee of WDXQ is Central Georgia Radio LLC.",
+  "WDXQ's programming is duplicated by FM translator W244CL.",
+  "FM translator W244CL operates at 96.7 MHz.",
+  "The note describes WDXQ as a radio station and gives no information on its format or history."
+ ],
+ "entities": [
+  {
+   "name": "WDXQ",
+   "type": "product",
+   "role": "1440 AM radio station licensed to Cochran, Georgia, United States"
+  },
+  {
+   "name": "Cochran, Georgia",
+   "type": "place",
+   "role": "city where WDXQ is licensed"
+  },
+  {
+   "name": "John Timms",
+   "type": "person",
+   "role": "current owner of WDXQ"
+  },
+  {
+   "name": "Central Georgia Radio LLC",
+   "type": "organization",
+   "role": "licensee of WDXQ"
+  },
+  {
+   "name": "W244CL",
+   "type": "product",
+   "role": "FM translator duplicating WDXQ's programming at 96.7 MHz"
+  }
+ ],
+ "tags": [
+  "radio",
+  "georgia",
+  "am radio",
+  "broadcasting",
+  "fm translator"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1077,
+  "output_tokens": 556
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "summary": "This note is a general encyclopedia-style overview of osmosis, the net movement of solvent (usually water) across a selectively permeable membrane toward higher solute concentration. It covers the definition and colligative nature of osmotic pressure, the history from Nollet and Dutrochet to Traube, the discredited mechanisms of osmosis, and its role in plant turgor, animal cells and aquatic organisms. It also describes applications such as reverse osmosis, forward osmosis and possible future uses in power generation and drug delivery.",
+ "one_line": "Overview of osmosis, the movement of solvent across a semipermeable membrane, covering its definition, history, mechanisms, biological roles and applications like reverse osmosis.",
+ "key_facts": [
+  "Osmosis is the spontaneous net movement or diffusion of solvent molecules through a selectively-permeable membrane in the direction that tends to equalize solute concentrations on the two sides.",
+  "Osmotic pressure is defined as the external pressure required to be applied so that there is no net movement of solvent across the membrane.",
+  "Osmotic pressure is a colligative property, meaning it depends on the molar concentration of the solute but not on its identity.",
+  "Jean-Antoine Nollet first documented observation of osmosis in 1748.",
+  "The words 'endosmose' and 'exosmose' were coined by French physician René Joachim Henri Dutrochet (1776–1847) from Greek words meaning 'within', 'outer, external' and 'push, impulsion'.",
+  "In 1867, Moritz Traube invented highly selective precipitation membranes, advancing the measurement of osmotic flow.",
+  "Water molecules travel through plasma membranes, tonoplast membranes or organelle membranes via aquaporins, which are small transmembrane proteins.",
+  "Osmosis provides the primary means by which water is transported into and out of cells.",
+  "Osmosis can be demonstrated when potato slices are added to a high salt solution, causing the potato to shrink and lose its turgor pressure.",
+  "Both the diffusion model and the 'bound water' model of osmotic mechanism have been conclusively refuted, according to the note.",
+  "When a plant cell is placed in a hypertonic solution, water moves out, the cell shrinks and becomes flaccid; in extreme cases it becomes plasmolyzed.",
+  "When a plant cell is placed in a hypotonic solution, water moves into the cell and the cell swells to become turgid.",
+  "Freshwater and saltwater aquarium fish will quickly die if placed in water of a maladaptive salinity.",
+  "Reverse osmosis uses pressure in excess of the osmotic pressure to force a solvent through a semi-permeable membrane, and is known primarily for turning seawater into drinking water.",
+  "Forward osmosis uses a 'draw' solution of higher osmotic pressure than the feed solution to induce a net flow of water through a semi-permeable membrane."
+ ],
+ "entities": [
+  {
+   "name": "Jean-Antoine Nollet",
+   "type": "person",
+   "role": "first documented observation of osmosis in 1748"
+  },
+  {
+   "name": "René Joachim Henri Dutrochet",
+   "type": "person",
+   "role": "French physician who coined the words 'endosmose' and 'exosmose' and invented the 'endosmometer'"
+  },
+  {
+   "name": "Moritz Traube",
+   "type": "person",
+   "role": "invented highly selective precipitation membranes in 1867"
+  },
+  {
+   "name": "aquaporins",
+   "type": "other",
+   "role": "small transmembrane proteins through which water crosses membranes via facilitated diffusion"
+  },
+  {
+   "name": "Reverse osmosis",
+   "type": "program",
+   "role": "separation process using pressure to force solvent through a semi-permeable membrane, used primarily to turn seawater into drinking water"
+  },
+  {
+   "name": "Forward osmosis",
+   "type": "program",
+   "role": "process using a draw solution of higher osmotic pressure to separate water from unwanted solutes; area of ongoing research"
+  }
+ ],
+ "tags": [
+  "osmosis",
+  "biology",
+  "membranes",
+  "osmotic pressure",
+  "water transport"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4842,
+  "output_tokens": 1322
+ }
+}

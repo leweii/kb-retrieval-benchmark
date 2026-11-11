@@ -1,0 +1,111 @@
+{
+ "summary": "This clipped Microsoft Datacenters landing page presents the company's globally distributed datacenter infrastructure that powers the Microsoft Cloud, emphasizing proximity to users, data residency, compliance, resiliency, and sustainability. It lists headline figures such as 60+ Azure regions and 300+ datacenters worldwide, and links to featured news on AI investments and datacenter heat reuse, plus Cloud Cultures videos and an Azure global infrastructure tour. Navigation and footer boilerplate from the page were ignored.",
+ "one_line": "Microsoft's landing page describing its global datacenter infrastructure, Azure regions, sustainability initiatives, and related AI investment news.",
+ "key_facts": [
+  "Microsoft Datacenters make up a globally distributed infrastructure designed to power the Microsoft Cloud.",
+  "The infrastructure brings applications closer to users, preserves data residency, and offers comprehensive compliance and resiliency options for customers.",
+  "The page states Microsoft Datacenters deliver a secure, reliable and sustainable cloud you can trust.",
+  "The page cites 60+ Azure regions.",
+  "The page cites 300+ datacenters worldwide.",
+  "The page cites 280k+ kilometers of network.",
+  "The page cites 190+ network PoPs.",
+  "Microsoft quadruples its investment in AI and Cloud infrastructure in Spain to promote responsible and secure Artificial Intelligence in companies and public administration.",
+  "Surplus datacenter heat will be repurposed to heat homes in Denmark.",
+  "Microsoft is investing 3.2 billion euros to more than double AI infrastructure and cloud capacities in Germany and to train skilled workers.",
+  "Microsoft Cloud enables customers to keep all personal data within European Data Boundary.",
+  "The Cloud Cultures series includes episodes on Italy, Poland, Sweden and the UK.",
+  "Azure global infrastructure is presented through an interactive 3D experience.",
+  "With 60+ announced regions, Azure has more regions than any other cloud provider, according to the page.",
+  "AltaML's wildfire occurrence prediction system, powered by Microsoft Azure Machine Learning, helps respond to Canada's record wildfires."
+ ],
+ "entities": [
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "operator of the Microsoft Datacenters and the Microsoft Cloud described on the page"
+  },
+  {
+   "name": "Microsoft Azure",
+   "type": "product",
+   "role": "cloud platform whose global regions and infrastructure are featured"
+  },
+  {
+   "name": "Microsoft Datacenters",
+   "type": "program",
+   "role": "globally distributed infrastructure powering the Microsoft Cloud"
+  },
+  {
+   "name": "Cloud Cultures",
+   "type": "program",
+   "role": "video series highlighting innovation and culture in cloud regions"
+  },
+  {
+   "name": "ABN AMRO",
+   "type": "organization",
+   "role": "Dutch bank embracing digitalization with the Azure cloud"
+  },
+  {
+   "name": "AltaML",
+   "type": "organization",
+   "role": "developer of a wildfire occurrence prediction system powered by Azure Machine Learning"
+  },
+  {
+   "name": "Denmark",
+   "type": "place",
+   "role": "country where surplus datacenter heat will heat homes"
+  },
+  {
+   "name": "Spain",
+   "type": "place",
+   "role": "country where Microsoft quadruples AI and cloud infrastructure investment"
+  },
+  {
+   "name": "Germany",
+   "type": "place",
+   "role": "country where Microsoft invests 3.2 billion euros in AI infrastructure and skills training"
+  },
+  {
+   "name": "Canada",
+   "type": "place",
+   "role": "country affected by record wildfires addressed with AI"
+  },
+  {
+   "name": "Italy",
+   "type": "place",
+   "role": "subject of a Cloud Cultures episode on technology and everyday moments"
+  },
+  {
+   "name": "Poland",
+   "type": "place",
+   "role": "subject of a Cloud Cultures episode on bold innovation"
+  },
+  {
+   "name": "Sweden",
+   "type": "place",
+   "role": "subject of a Cloud Cultures episode on changemakers and holistic approaches"
+  },
+  {
+   "name": "UK",
+   "type": "place",
+   "role": "subject of a Cloud Cultures episode and of Microsoft's AI investment in the UK"
+  },
+  {
+   "name": "European Data Boundary",
+   "type": "program",
+   "role": "boundary within which Microsoft Cloud keeps customers' personal data"
+  }
+ ],
+ "tags": [
+  "cloud infrastructure",
+  "datacenters",
+  "azure regions",
+  "sustainability",
+  "ai investment",
+  "microsoft"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3181,
+  "output_tokens": 1454
+ }
+}

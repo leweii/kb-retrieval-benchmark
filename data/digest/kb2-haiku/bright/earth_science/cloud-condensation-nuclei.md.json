@@ -1,0 +1,100 @@
+{
+ "summary": "The note explains cloud condensation nuclei (CCNs), small atmospheric particles on which water vapour condenses to form cloud droplets, and how they affect cloud properties and climate. It covers their size and composition, their abundance and modeling, and applications such as cloud seeding and marine cloud brightening. It also describes the CLAW and anti-CLAW hypotheses linking phytoplankton, DMS-derived sulfate CCNs and climate, and how volcanic eruptions add CCNs and sulfate aerosols that can cool the troposphere.",
+ "one_line": "Explains cloud condensation nuclei, the tiny aerosol particles that seed cloud droplets and influence climate, cloud seeding and marine cloud brightening.",
+ "key_facts": [
+  "Cloud condensation nuclei (CCNs) are small particles typically 0.2 µm, or one hundredth the size of a cloud droplet.",
+  "When no CCNs are present, water vapour can be supercooled at about −13 °C (9 °F) for 5–6 hours before droplets spontaneously form.",
+  "The basis of the cloud chamber for detecting subatomic particles is this supercooling of water vapour without CCNs.",
+  "A typical raindrop is about 2 mm in diameter, while a typical cloud droplet is on the order of 0.02 mm.",
+  "The number of cloud condensation nuclei in the air can be measured at ranges between around 100 to 1000 per cm.",
+  "The total mass of CCNs injected into the atmosphere has been estimated at 2×10 kg over a year's time.",
+  "Sulfate and sea salt readily absorb water, whereas soot, organic carbon, and mineral particles do not.",
+  "Modeling research led by Marcia Baker revealed that sources and sinks are balanced by coagulation and coalescence, which leads to stable levels of CCNs in the atmosphere.",
+  "Cloud seeding in 2021 included electric charge emission using drones, according to the note.",
+  "Marine cloud brightening is a climate engineering technique that injects small particles into clouds to enhance their reflectivity, or albedo.",
+  "A 1987 article in Nature found that global climate may occur in a feedback loop due to CCNs, cloud temperature regulation and oceanic phytoplankton; this is the CLAW hypothesis.",
+  "The Revenge of Gaia, written by James Lovelock, proposes the anti-CLAW hypothesis, a positive-feedback scenario where ocean stratification inhibits phytoplankton growth.",
+  "Almost 9.2 Tg of sulfur dioxide (SO2) is emitted from volcanoes annually.",
+  "Sulphur dioxide from volcanoes transforms into sulfuric acid, which quickly condenses in the stratosphere to produce fine sulphate aerosols that can cool the troposphere."
+ ],
+ "entities": [
+  {
+   "name": "Marcia Baker",
+   "type": "person",
+   "role": "led modeling research showing that sources and sinks of CCNs are balanced by coagulation and coalescence"
+  },
+  {
+   "name": "James Lovelock",
+   "type": "person",
+   "role": "author of The Revenge of Gaia, which proposes the anti-CLAW hypothesis; author of the 1987 study"
+  },
+  {
+   "name": "Kulkarni et al 2023",
+   "type": "event",
+   "role": "CCN study describing the complexity in modeling CCN concentrations"
+  },
+  {
+   "name": "The Revenge of Gaia",
+   "type": "product",
+   "role": "book by James Lovelock proposing an alternative ocean temperature and phytoplankton relationship"
+  },
+  {
+   "name": "CLAW hypothesis",
+   "type": "other",
+   "role": "hypothesis of a feedback loop linking CCNs, cloud temperature regulation and oceanic phytoplankton, named after the 1987 study authors"
+  },
+  {
+   "name": "Marine cloud brightening",
+   "type": "program",
+   "role": "climate engineering technique injecting small particles into clouds to enhance albedo"
+  },
+  {
+   "name": "Cloud seeding",
+   "type": "program",
+   "role": "process of adding small particulates to the atmosphere to induce cloud formation and precipitation"
+  },
+  {
+   "name": "Nature",
+   "type": "product",
+   "role": "journal that published a 1987 article on CCNs and climate feedback"
+  },
+  {
+   "name": "SGP site",
+   "type": "place",
+   "role": "location where airborne measurements of mixed aerosols forming CCN were performed using a research aircraft"
+  },
+  {
+   "name": "South China Sea",
+   "type": "place",
+   "role": "area where large algal blooms have been observed to increase"
+  },
+  {
+   "name": "North Sea and the Skagerrak",
+   "type": "place",
+   "role": "location of a phytoplankton bloom shown in a NASA image"
+  },
+  {
+   "name": "Pavlof Volcano",
+   "type": "place",
+   "role": "Alaskan volcano whose volcanic ash and gas emissions are shown in a NASA image"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "source of phytoplankton bloom and volcanic emission images"
+  }
+ ],
+ "tags": [
+  "atmospheric science",
+  "aerosols",
+  "cloud physics",
+  "climate engineering",
+  "phytoplankton",
+  "volcanoes"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 3717,
+  "output_tokens": 1657
+ }
+}

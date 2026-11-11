@@ -1,0 +1,46 @@
+{
+ "summary": "The note traces the origins of Microsoft Windows, stating that Bill Gates announced it on November 10, 1983. It describes Windows as a graphical user interface built for MS-DOS, which had been introduced a couple of years earlier. It also notes that during the 1990s the product line grew from an operating environment into a complete modern operating system across two development lines with separate codebases.",
+ "one_line": "Overview of Microsoft Windows' origins, from its 1983 announcement as a GUI for MS-DOS to its 1990s evolution into a full operating system.",
+ "key_facts": [
+  "Microsoft Windows was announced by Bill Gates on November 10, 1983.",
+  "Microsoft introduced Windows as a graphical user interface for MS-DOS.",
+  "MS-DOS had been introduced a couple of years before Windows was announced.",
+  "In the 1990s, the Windows product line evolved from an operating environment into a fully complete, modern operating system.",
+  "The 1990s evolution took place over two lines of development.",
+  "Each of the two lines of Windows development had its own separate codebase."
+ ],
+ "entities": [
+  {
+   "name": "Bill Gates",
+   "type": "person",
+   "role": "announced Microsoft Windows on November 10, 1983"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "introduced Windows as a graphical user interface for MS-DOS"
+  },
+  {
+   "name": "Microsoft Windows",
+   "type": "product",
+   "role": "operating environment that evolved into a complete modern operating system in the 1990s"
+  },
+  {
+   "name": "MS-DOS",
+   "type": "product",
+   "role": "operating system for which Windows was introduced as a graphical user interface"
+  }
+ ],
+ "tags": [
+  "microsoft windows",
+  "operating systems",
+  "software history",
+  "ms-dos",
+  "graphical user interface"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1108,
+  "output_tokens": 572
+ }
+}

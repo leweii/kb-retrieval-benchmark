@@ -1,0 +1,57 @@
+{
+ "summary": "This note describes Duncan Lake, a man-made reservoir in British Columbia's Kootenay region, created by Duncan Dam. The lake is roughly 45 km long and is fed by the Duncan River. It sits between the Selkirk and Purcell Mountains, and the dam's outflow leads to the head of Kootenay Lake.",
+ "one_line": "Duncan Lake is a roughly 45 km man-made reservoir in the Kootenay region of British Columbia, formed by Duncan Dam.",
+ "key_facts": [
+  "Duncan Lake is a man-made reservoir lake in the Kootenay region of British Columbia, Canada.",
+  "Duncan Lake was formed by Duncan Dam.",
+  "Duncan Lake is about 45 km in length.",
+  "Duncan Lake is fed by the Duncan River.",
+  "The Duncan River forms part of the boundary between the Selkirk Mountains to the west and the Purcell Mountains to the east.",
+  "Below Duncan Dam is the head of Kootenay Lake."
+ ],
+ "entities": [
+  {
+   "name": "Duncan Lake",
+   "type": "place",
+   "role": "man-made reservoir lake in the Kootenay region of British Columbia, Canada, about 45 km long"
+  },
+  {
+   "name": "Duncan Dam",
+   "type": "product",
+   "role": "dam that formed Duncan Lake"
+  },
+  {
+   "name": "Duncan River",
+   "type": "place",
+   "role": "river that feeds Duncan Lake and forms part of the boundary between the Selkirk and Purcell Mountains"
+  },
+  {
+   "name": "Selkirk Mountains",
+   "type": "place",
+   "role": "mountain range to the west of the Duncan River"
+  },
+  {
+   "name": "Purcell Mountains",
+   "type": "place",
+   "role": "mountain range to the east of the Duncan River"
+  },
+  {
+   "name": "Kootenay Lake",
+   "type": "place",
+   "role": "lake at which the head is located below Duncan Dam"
+  }
+ ],
+ "tags": [
+  "british columbia",
+  "kootenay region",
+  "reservoirs",
+  "hydroelectric dams",
+  "lakes",
+  "canada"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1126,
+  "output_tokens": 663
+ }
+}

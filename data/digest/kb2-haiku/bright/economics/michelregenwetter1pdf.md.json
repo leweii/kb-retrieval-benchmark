@@ -1,0 +1,100 @@
+{
+ "summary": "This Psychological Review article by Regenwetter, Dana, and Davis-Stober argues that claimed empirical violations of transitivity of preference are not convincingly established. It contrasts weak stochastic transitivity and pattern-counting approaches with a mixture model in which mental states are transitive strict linear orders, showing that observed choice probabilities can be consistent with transitive preferences. The authors use the Jim and advisor example to show how variability and aggregation can make transitive choosers look intransitive, and they note problems with the two-alternative forced-choice paradigm.",
+ "one_line": "Argues that apparent intransitivity in choice data is largely an artifact of variability, aggregation and flawed testing, and that transitive mixture models fit many studies.",
+ "key_facts": [
+  "Regenwetter, Dana, and Davis-Stober's article was published in Psychological Review in 2011, Vol. 118, No. 1, pages 42–56.",
+  "The article counterpoints Tversky's (1969) seminal paper 'Intransitivity of Preferences' and reconsiders his data along with more than 20 other studies.",
+  "In the Jim example, the advisor chose the alumni center (A) over the business library (B) 20 of 30 times, B over the coffee shop (C) 20 of 30 times, and C over A 20 of 30 times.",
+  "The advisor's choices were consistent with minimizing distance from her current location, which always yields a transitive ordering at each instance.",
+  "Weak stochastic transitivity states that if P(x over y) is at least 1/2 and P(y over z) is at least 1/2, then P(x over z) must be at least 1/2.",
+  "Tversky (1969) used five gambles, presenting each of the 10 unordered pairs 20 times, separated by decoys, in a two-alternative forced-choice task.",
+  "The Condorcet paradox shows that majority aggregation of transitive individual preferences can produce cycles, such as the orders xyz, yzx, zxy.",
+  "The article states that for five choice alternatives, weak stochastic transitivity reduces aggregate preferences to 120 linear orders, while the number of transitive relations is three orders of magnitude larger.",
+  "The mixture model's triangle inequalities require P_xy + P_yz + P_zx ≤ 2 for every distinct triple of choice probabilities.",
+  "The authors conclude that violations of the triangle inequalities appear only within a Type I error rate of 5% in many analyzed human and animal datasets.",
+  "Figure 1 shows that an octagon relation with one pairwise reversal has one cycle, while a triangle relation with one reversal has 100 cycles.",
+  "The article notes that the 2AFC paradigm forces asymmetry and completeness, so transitivity cannot be studied in isolation at the level of observed choices.",
+  "The article was supported by Air Force Office of Scientific Research Award FA9550-05-1-0356 and NSF Award SES 08-20009.",
+  "Brandstätter, Gigerenzer, and Hertwig (2006) argued the priority heuristic outperformed other theories by predicting majority choices, which the authors critique as misuse of aggregated data."
+ ],
+ "entities": [
+  {
+   "name": "Michel Regenwetter",
+   "type": "person",
+   "role": "Author; Department of Psychology, University of Illinois at Urbana–Champaign"
+  },
+  {
+   "name": "Jason Dana",
+   "type": "person",
+   "role": "Author; Department of Psychology, University of Pennsylvania"
+  },
+  {
+   "name": "Clintin P. Davis-Stober",
+   "type": "person",
+   "role": "Author; Department of Psychological Sciences, University of Missouri—Columbia"
+  },
+  {
+   "name": "Tversky (1969)",
+   "type": "event",
+   "role": "Seminal paper 'Intransitivity of Preferences' whose data the authors reconsider"
+  },
+  {
+   "name": "Psychological Review",
+   "type": "other",
+   "role": "Journal in which the article was published in 2011"
+  },
+  {
+   "name": "Air Force Office of Scientific Research",
+   "type": "organization",
+   "role": "Funder under Award FA9550-05-1-0356"
+  },
+  {
+   "name": "National Science Foundation",
+   "type": "organization",
+   "role": "Funder under Award SES 08-20009 in the Decision, Risk and Management Science Program"
+  },
+  {
+   "name": "Max Planck Institute for Human Development",
+   "type": "organization",
+   "role": "Institution where the final version was written while Regenwetter was a fellow"
+  },
+  {
+   "name": "Condorcet paradox",
+   "type": "event",
+   "role": "Social choice phenomenon where majority aggregation of transitive preferences yields cycles"
+  },
+  {
+   "name": "Brandstätter, Gigerenzer, & Hertwig (2006)",
+   "type": "event",
+   "role": "Study arguing the priority heuristic predicted majority choices best"
+  },
+  {
+   "name": "Weak stochastic transitivity",
+   "type": "other",
+   "role": "Probabilistic transitivity condition criticized as inadequate bridge to transitivity"
+  },
+  {
+   "name": "Decision field theory",
+   "type": "program",
+   "role": "Model implying weak stochastic transitivity via probabilistic utilities (Busemeyer & Townsend, 1993)"
+  },
+  {
+   "name": "Regenwetter, Dana, & Davis-Stober (2010)",
+   "type": "event",
+   "role": "Companion study providing technical discussion of testing transitivity"
+  }
+ ],
+ "tags": [
+  "transitivity",
+  "preference",
+  "decision making",
+  "stochastic transitivity",
+  "mixture models",
+  "rational choice"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12043,
+  "output_tokens": 1760
+ }
+}

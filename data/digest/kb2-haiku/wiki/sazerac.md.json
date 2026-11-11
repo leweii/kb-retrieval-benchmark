@@ -1,0 +1,34 @@
+{
+ "summary": "The note introduces the Sazerac, a local New Orleans variation of a cognac or whiskey cocktail. It is named after the Sazerac de Forge et Fils cognac brand that was its original main ingredient. The note is truncated and does not describe the full recipe.",
+ "one_line": "The Sazerac is a New Orleans cognac or whiskey cocktail named after the Sazerac de Forge et Fils cognac brand.",
+ "key_facts": [
+  "The Sazerac is a local New Orleans variation of a cognac or whiskey cocktail.",
+  "The Sazerac is named for the \"Sazerac de Forge et Fils\" brand of cognac brandy.",
+  "The Sazerac de Forge et Fils cognac brandy served as the drink's original main ingredient.",
+  "The note describes the drink as most traditionally a combination of ingredients, but the list is cut off in the source."
+ ],
+ "entities": [
+  {
+   "name": "Sazerac",
+   "type": "product",
+   "role": "local New Orleans variation of a cognac or whiskey cocktail"
+  },
+  {
+   "name": "Sazerac de Forge et Fils",
+   "type": "product",
+   "role": "cognac brand that served as the Sazerac's original main ingredient and namesake"
+  }
+ ],
+ "tags": [
+  "cocktails",
+  "new orleans",
+  "cognac",
+  "whiskey",
+  "drinks"
+ ],
+ "category": "other",
+ "usage": {
+  "input_tokens": 1063,
+  "output_tokens": 431
+ }
+}

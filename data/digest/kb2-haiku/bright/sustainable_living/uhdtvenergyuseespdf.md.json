@@ -1,0 +1,111 @@
+{
+ "summary": "This NRDC report (November 2015, R-15-10-b) argues that the shift to ultra high-definition (UHD/4K) televisions could add about $1 billion in annual U.S. electricity bills. Testing 21 televisions (2014 and 2015 models, mostly 55-inch) found UHD sets use on average 30 percent more power than similar-sized HD sets, with large differences among models, and the study notes HDR content could raise energy use further. The report closes with recommendations for consumers, manufacturers, and policymakers.",
+ "one_line": "NRDC report warning that the shift to 4K/UHD televisions could add about $1 billion a year to U.S. electric bills, with efficiency recommendations.",
+ "key_facts": [
+  "An estimated 300 million televisions are installed in the United States, almost one per person.",
+  "UHD televisions use on average about 30 percent more energy than HD models of the same size.",
+  "Replacing HD TVs 36 inches and up with UHD TVs would cost U.S. consumers an extra $1 billion annually in utility bills.",
+  "The 8 billion kWh of additional yearly electricity use equals the output of 2.5 large (500 megawatt) power plants and is three times the electricity consumed by all homes in San Francisco each year.",
+  "The national impact includes 5 million extra metric tons of carbon dioxide pollution emitted annually.",
+  "The least efficient 4K model tested used almost three times more power in active operation than the most efficient models.",
+  "ENERGY STAR is reserved for the top 25 percent of televisions in energy efficiency.",
+  "Automatic Brightness Control caused TVs to use half as much power on average, with reductions ranging from 17 percent to 93 percent.",
+  "Samsung and LG models used less than one-half watt in standby while booting in less than 7 seconds; one television consumed 37 watts for six hours a day in standby with quick-start enabled.",
+  "Feeding a 4K TV higher-resolution content increased energy use by an average of 10 percent, while streaming versus disc playback made no significant difference.",
+  "On the Samsung UN55JS9000, the HDR version of a movie used 47 percent more energy on average than the non-HDR version.",
+  "The report warns average 4K TV energy use could more than double from today's HD models if HDR becomes widespread, though more testing is needed.",
+  "The EPA provided an almost 50 percent additional power allowance for 4K televisions under ENERGY STAR Version 7, effective October 30, 2015.",
+  "Improvements to 4K efficiency were only a 4 percent reduction in energy use from 2014 to 2015 similar-sized models, according to the study's modeling.",
+  "Study was conducted by the Natural Resources Defense Council (NRDC) and its consultant Ecos Research."
+ ],
+ "entities": [
+  {
+   "name": "Natural Resources Defense Council (NRDC)",
+   "type": "organization",
+   "role": "Conducted the study on UHD television energy use and published the report"
+  },
+  {
+   "name": "Ecos Research",
+   "type": "organization",
+   "role": "Consultant to NRDC on the study"
+  },
+  {
+   "name": "U.S. Environmental Protection Agency (EPA)",
+   "type": "organization",
+   "role": "Set ENERGY STAR Version 7 specification and provided the 4K power allowance"
+  },
+  {
+   "name": "U.S. Department of Energy",
+   "type": "organization",
+   "role": "Expected to keep updating television energy test methods"
+  },
+  {
+   "name": "ENERGY STAR",
+   "type": "program",
+   "role": "Government labeling program for efficient televisions; top 25 percent label often used for utility rebates"
+  },
+  {
+   "name": "EnergyGuide label",
+   "type": "program",
+   "role": "Yellow FTC label providing energy consumption information to consumers"
+  },
+  {
+   "name": "Samsung",
+   "type": "organization",
+   "role": "Manufacturer whose models used under one-half watt in standby and whose UN55JS9000 was tested for HDR energy use"
+  },
+  {
+   "name": "LG",
+   "type": "organization",
+   "role": "Manufacturer whose models used under one-half watt in standby while booting quickly"
+  },
+  {
+   "name": "Sharp",
+   "type": "organization",
+   "role": "Manufacturer whose models were slower to start up and could use more standby power with quick-start"
+  },
+  {
+   "name": "Sony",
+   "type": "organization",
+   "role": "Manufacturer whose models were slower to start up and could use more standby power with quick-start"
+  },
+  {
+   "name": "Netflix",
+   "type": "product",
+   "role": "Streaming service cited as an example of content consumers stream directly to smart TVs"
+  },
+  {
+   "name": "UN55JS9000",
+   "type": "product",
+   "role": "Samsung UHD TV model tested playing 4K and 4K HDR content"
+  },
+  {
+   "name": "Exodus—Gods and Kings",
+   "type": "product",
+   "role": "Movie used in HDR testing showing power spikes on bright scenes"
+  },
+  {
+   "name": "San Francisco",
+   "type": "place",
+   "role": "City used as a comparison for annual household electricity consumption"
+  },
+  {
+   "name": "California",
+   "type": "place",
+   "role": "State with mandatory standards that removed the least efficient TV models from the market"
+  }
+ ],
+ "tags": [
+  "ultra high-definition tv",
+  "energy efficiency",
+  "4k televisions",
+  "electricity consumption",
+  "hdr",
+  "energy star"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6729,
+  "output_tokens": 1669
+ }
+}

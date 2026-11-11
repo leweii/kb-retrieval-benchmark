@@ -1,0 +1,84 @@
+{
+ "summary": "This clipped Microsoft Learn note documents the SharePointOnlineCredentials class in the Microsoft.SharePoint.Client namespace, which provides credentials for accessing SharePoint Online resources. It covers the class declaration and thread safety, the constructor taking a username and SecureString password, and the members list: the UserName property, the GetAuthenticationCookie and GetCredential methods, and the ExecutingWebRequest event. Most of the text is repeated navigation, cookie banner and footer boilerplate.",
+ "one_line": "Microsoft Learn API reference for the SharePointOnlineCredentials class, its constructor, members, and authentication cookie methods.",
+ "key_facts": [
+  "SharePointOnlineCredentials represents an object that provides credentials to access SharePoint Online resources.",
+  "SharePointOnlineCredentials is in the Microsoft.SharePoint.Client namespace and the Microsoft.SharePoint.Client.Runtime assembly (Microsoft.SharePoint.Client.Runtime.dll).",
+  "The class is declared as Public NotInheritable Class in Visual Basic and as public sealed class in C#, and implements ICredentials.",
+  "Any public static (Shared in Visual Basic) members of SharePointOnlineCredentials are thread safe; instance members are not guaranteed to be thread safe.",
+  "The SharePointOnlineCredentials constructor takes a username parameter of type System.String and a password parameter of type System.Security.SecureString.",
+  "The UserName property gets the user name associated with the credentials passed in the SharePointOnlineCredentials constructor.",
+  "The GetAuthenticationCookie(Uri) method gets the authentication cookie.",
+  "The GetAuthenticationCookie(Uri, Boolean) overload is also listed in the method overload list.",
+  "The GetCredential method gets the network credentials with the specified URI and authentication type.",
+  "ToString is listed as a method inherited from System.Object.",
+  "The ExecutingWebRequest event is listed under the class's events.",
+  "The class's inheritance hierarchy is System.Object followed by Microsoft.SharePoint.Client.SharePointOnlineCredentials.",
+  "The pages are dated 03/05/2018, and the footer shows Â© Microsoft 2024."
+ ],
+ "entities": [
+  {
+   "name": "SharePointOnlineCredentials",
+   "type": "product",
+   "role": "Class that provides credentials to access SharePoint Online resources, documented in this note"
+  },
+  {
+   "name": "Microsoft.SharePoint.Client",
+   "type": "program",
+   "role": "Namespace containing the SharePointOnlineCredentials class"
+  },
+  {
+   "name": "Microsoft.SharePoint.Client.Runtime",
+   "type": "program",
+   "role": "Assembly containing the SharePointOnlineCredentials class"
+  },
+  {
+   "name": "SharePoint Online",
+   "type": "product",
+   "role": "Service whose resources the SharePointOnlineCredentials class provides access to"
+  },
+  {
+   "name": "ICredentials",
+   "type": "program",
+   "role": "Interface implemented by SharePointOnlineCredentials"
+  },
+  {
+   "name": "System.Object",
+   "type": "program",
+   "role": "Base type in the inheritance hierarchy of SharePointOnlineCredentials"
+  },
+  {
+   "name": "System.Security.SecureString",
+   "type": "program",
+   "role": "Type of the password parameter in the SharePointOnlineCredentials constructor"
+  },
+  {
+   "name": "GetAuthenticationCookie",
+   "type": "program",
+   "role": "Method that gets the authentication cookie, with Uri and Uri plus Boolean overloads"
+  },
+  {
+   "name": "GetCredential",
+   "type": "program",
+   "role": "Method that gets the network credentials for a specified URI and authentication type"
+  },
+  {
+   "name": "ExecutingWebRequest",
+   "type": "event",
+   "role": "Event of SharePointOnlineCredentials listed in the members page"
+  }
+ ],
+ "tags": [
+  "sharepoint-online",
+  "authentication",
+  "dotnet-api",
+  "csharp",
+  "visual-basic",
+  "reference-documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 8239,
+  "output_tokens": 1296
+ }
+}

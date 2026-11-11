@@ -1,0 +1,119 @@
+{
+ "summary": "The note is a encyclopedia-style article on the Richter scale, a logarithmic measure of earthquake strength developed by Charles Francis Richter with Beno Gutenberg and presented in his 1935 paper. It explains how local magnitude (ML) is computed from Wood-Anderson seismograph amplitudes, gives a table of typical effects and frequencies by magnitude range, and describes its development, its saturation limits, and its replacement by the moment magnitude scale (Mw) for most modern reporting. It also covers several empirical formulas and related magnitude and intensity scales.",
+ "one_line": "Overview of the Richter scale, the logarithmic earthquake magnitude measure developed by Charles Richter and Beno Gutenberg, and its successors.",
+ "key_facts": [
+  "The Richter scale was developed by Charles Francis Richter in collaboration with Beno Gutenberg and presented in Richter's 1935 paper, where he called it the \"magnitude scale\".",
+  "The scale was later revised and renamed the local magnitude scale, denoted ML.",
+  "Each whole number increase in Richter magnitude represents a tenfold increase in measured amplitude and about 31.6 times more energy released.",
+  "Each increase of 0.2 in magnitude corresponds to approximately a doubling of the energy released.",
+  "Events with magnitudes greater than 4.5 are strong enough to be recorded by a seismograph anywhere in the world, so long as its sensors are not located in the earthquake's shadow.",
+  "Magnitude 0 was defined as a shock producing a maximum amplitude of 1 micron (0.001 millimeters) on a Wood-Anderson seismogram at a distance of 100 km.",
+  "The original Richter magnitude is defined as the logarithm of the maximum trace amplitude, expressed in microns, measured on a Wood-Anderson seismograph.",
+  "The Richter scale was replaced in the 1970s by the moment magnitude scale (MMS, symbol Mw) for most seismological reporting.",
+  "The largest recorded earthquake was the Great Chilean earthquake of May 22, 1960, which had a magnitude of 9.5 on the moment magnitude scale.",
+  "Earthquakes of magnitude 8.0 or greater occur about once a year on average.",
+  "Seismologist Susan Hough has suggested that a magnitude 10 quake may represent a very approximate upper limit for what the Earth's tectonic zones are capable of.",
+  "The effective upper limit of measurement for ML is about 7, and about 8.5 for Ms, because these scales saturate for large earthquakes.",
+  "The Richter scale was defined in 1935 for Southern California and implicitly incorporates the attenuative properties of Southern California crust and mantle.",
+  "The Modified Mercalli intensity scale classifies earthquakes by their effects, whereas the Richter and MMS scales measure energy released."
+ ],
+ "entities": [
+  {
+   "name": "Richter scale",
+   "type": "other",
+   "role": "Logarithmic measure of earthquake strength, also called the Richter magnitude scale, the Gutenberg–Richter scale, and later the local magnitude scale (ML)"
+  },
+  {
+   "name": "Charles Francis Richter",
+   "type": "person",
+   "role": "Developed the Richter scale in collaboration with Beno Gutenberg and presented it in his 1935 paper"
+  },
+  {
+   "name": "Beno Gutenberg",
+   "type": "person",
+   "role": "Collaborated with Charles Francis Richter on the scale and supplied data used to produce magnitude curves"
+  },
+  {
+   "name": "Harry O. Wood",
+   "type": "person",
+   "role": "Co-developed the Wood–Anderson seismograph; suggested the name \"magnitude\" scale for Richter's 1935 presentation"
+  },
+  {
+   "name": "John A. Anderson",
+   "type": "person",
+   "role": "Co-developed the Wood–Anderson seismograph"
+  },
+  {
+   "name": "Kiyoo Wadati",
+   "type": "person",
+   "role": "Showed in 1931 how shaking amplitude plotted against distance gave curves correlated with earthquake magnitudes"
+  },
+  {
+   "name": "Perry Byerly",
+   "type": "person",
+   "role": "Told the press that the scale was Richter's and should be referred to as such, originating the term \"Richter magnitude\""
+  },
+  {
+   "name": "Susan Hough",
+   "type": "person",
+   "role": "Seismologist who suggested magnitude 10 may be a very approximate upper limit for tectonic zones"
+  },
+  {
+   "name": "John Milne",
+   "type": "person",
+   "role": "In 1883 surmised that large earthquake shaking might generate waves detectable around the globe"
+  },
+  {
+   "name": "Wood–Anderson seismograph",
+   "type": "product",
+   "role": "Standard instrument specified by Richter for producing seismograms in the magnitude scale"
+  },
+  {
+   "name": "California Institute of Technology",
+   "type": "organization",
+   "role": "Under whose auspices Wood built a seismograph network across Southern California"
+  },
+  {
+   "name": "Carnegie Institute",
+   "type": "organization",
+   "role": "Co-sponsored, with Caltech, the seismograph network built by Wood across Southern California"
+  },
+  {
+   "name": "Great Chilean earthquake of May 22, 1960",
+   "type": "event",
+   "role": "Largest recorded earthquake, with magnitude 9.5 on the moment magnitude scale"
+  },
+  {
+   "name": "Tohoku University",
+   "type": "organization",
+   "role": "Conducted research finding a magnitude 10 earthquake theoretically possible if about 3,000 km of faults ruptured together"
+  },
+  {
+   "name": "Moment magnitude scale",
+   "type": "other",
+   "role": "Scale (Mw) that replaced the Richter scale in the 1970s and is most common for large earthquakes"
+  },
+  {
+   "name": "Mercalli intensity scale",
+   "type": "other",
+   "role": "Scale classifying earthquakes by their effects, contrasted with energy-based Richter and MMS scales"
+  },
+  {
+   "name": "U.S. Geological Survey",
+   "type": "organization",
+   "role": "Source of the table of typical earthquake effects and estimated global frequencies by magnitude"
+  }
+ ],
+ "tags": [
+  "seismology",
+  "earthquakes",
+  "richter scale",
+  "magnitude scales",
+  "geophysics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11153,
+  "output_tokens": 1998
+ }
+}

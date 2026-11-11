@@ -1,0 +1,102 @@
+{
+ "summary": "This Wikipedia-derived note covers the incandescent light bulb, focusing on government bans driven by its lower energy efficiency, the chemistry of bulb darkening caused by water vapor and tungsten oxide, and the bulb's physical construction and manufacturing. It also explains the temperature-dependent filament resistance and the startup behavior that affects dimming and switching. The note concludes with specific figures on energy use and bulb production.",
+ "one_line": "Overview of the incandescent light bulb: energy-driven government bans, filament darkening chemistry, construction, manufacturing and electrical behavior.",
+ "key_facts": [
+  "Many governments have introduced measures to ban incandescent light bulbs because they use more energy than alternatives such as CFLs and LED lamps.",
+  "Bans on light bulbs have been implemented in the European Union, the United States, Russia, Brazil, Argentina, Canada and Australia, among others.",
+  "The EC has calculated that the European ban contributes 5 to 10 billion euros to the economy and saves 40 TWh of electricity every year.",
+  "The European ban translates into CO2 emission reductions of 15 million tonnes, according to the note.",
+  "Water vapor dissociates into hydrogen and oxygen at the hot filament, and the oxygen attacks the tungsten metal.",
+  "The equivalent of a drop of water distributed over 500,000 lamps will significantly increase lamp darkening.",
+  "Small amounts of zirconium are placed within the lamp as a getter to react with oxygen that may bake out of lamp components during operation.",
+  "An incandescent bulb consists of an air-tight glass enclosure (envelope or bulb) with a tungsten wire filament through which current passes.",
+  "The stem or glass mount anchored to the bulb's base lets electrical contacts run through the envelope without air or gas leaks.",
+  "A ribbon machine passes a continuous glass ribbon along a conveyor belt, heats it in a furnace, and blows it into molds.",
+  "A typical ribbon machine produces 50,000 bulbs per hour.",
+  "The air is pumped out of the bulb, and the evacuation tube in the stem press is sealed by a flame.",
+  "The cold resistance of a tungsten-filament lamp is about 1/15 of its hot-filament resistance when operating.",
+  "A 100-watt, 120-volt lamp has a resistance of 144 ohms when lit but about 9.5 ohms when cold.",
+  "Because incandescent lamps are resistive loads, simple phase-control TRIAC dimmers can control their brightness.",
+  "For a 100-watt, 120-volt general-service lamp, the lamp reaches 90% of full brightness after about 0.13 seconds."
+ ],
+ "entities": [
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "one of the jurisdictions that implemented a light bulb ban; the EC calculated the ban's economic and energy effects there"
+  },
+  {
+   "name": "EC",
+   "type": "organization",
+   "role": "calculated that the European ban contributes 5 to 10 billion euros to the economy and saves 40 TWh of electricity yearly"
+  },
+  {
+   "name": "United States",
+   "type": "place",
+   "role": "one of the places that implemented light bulb bans"
+  },
+  {
+   "name": "Russia",
+   "type": "place",
+   "role": "one of the places that implemented light bulb bans"
+  },
+  {
+   "name": "Brazil",
+   "type": "place",
+   "role": "one of the places that implemented light bulb bans"
+  },
+  {
+   "name": "Argentina",
+   "type": "place",
+   "role": "one of the places that implemented light bulb bans"
+  },
+  {
+   "name": "Canada",
+   "type": "place",
+   "role": "one of the places that implemented light bulb bans"
+  },
+  {
+   "name": "Australia",
+   "type": "place",
+   "role": "one of the places that implemented light bulb bans"
+  },
+  {
+   "name": "CFLs",
+   "type": "product",
+   "role": "more energy-efficient alternative to incandescent bulbs"
+  },
+  {
+   "name": "LED lamps",
+   "type": "product",
+   "role": "more energy-efficient alternative to incandescent bulbs"
+  },
+  {
+   "name": "zirconium",
+   "type": "other",
+   "role": "getter substance placed within the lamp to react with stray oxygen"
+  },
+  {
+   "name": "ribbon machine",
+   "type": "product",
+   "role": "manufacturing equipment that blows glass bulbs from a continuous glass ribbon, producing 50,000 bulbs per hour"
+  },
+  {
+   "name": "TRIAC dimmers",
+   "type": "product",
+   "role": "simple phase-control dimmers that can control incandescent lamp brightness"
+  }
+ ],
+ "tags": [
+  "lighting",
+  "energy policy",
+  "incandescent bulbs",
+  "tungsten filament",
+  "lamp manufacturing",
+  "electrical resistance"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2104,
+  "output_tokens": 1496
+ }
+}

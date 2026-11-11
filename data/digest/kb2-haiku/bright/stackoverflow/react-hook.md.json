@@ -1,0 +1,90 @@
+{
+ "summary": "This is a clipped React documentation page for the useEffect Hook, which lets a component synchronize with an external system. It covers the signature useEffect(setup, dependencies?), how setup and cleanup run on mount, re-render and unmount, caveats such as Strict Mode double execution and useLayoutEffect for visual effects, and usage examples including custom Hooks, controlling a non-React widget, and fetching data with race-condition protection. Navigation menus and sandbox boilerplate were ignored.",
+ "one_line": "React documentation for the useEffect Hook, covering its signature, cleanup behavior, caveats, and usage examples for syncing components with external systems.",
+ "key_facts": [
+  "useEffect is a React Hook that lets you synchronize a component with an external system.",
+  "The signature of useEffect is useEffect(setup, dependencies?).",
+  "useEffect returns undefined.",
+  "The setup function may optionally return a cleanup function.",
+  "When the component is added to the DOM, React runs the setup function.",
+  "After every re-render with changed dependencies, React first runs the cleanup function with the old values, then the setup function with the new values.",
+  "After the component is removed from the DOM, React runs the cleanup function.",
+  "The dependencies list is compared with Object.is, and it must have a constant number of items written inline like [dep1, dep2, dep3].",
+  "If the dependencies argument is omitted, the Effect re-runs after every re-render of the component.",
+  "When Strict Mode is on, React runs one extra development-only setup+cleanup cycle before the first real setup.",
+  "Effects only run on the client and do not run during server rendering.",
+  "If an Effect is doing something visual and the delay is noticeable, the page says to replace useEffect with useLayoutEffect.",
+  "The page states that useEffect is a Hook, so it can only be called at the top level of a component or custom Hook, not inside loops or conditions.",
+  "The page says that if you are not trying to synchronize with some external system, you probably don't need an Effect.",
+  "In the data fetching example, the ignore variable is initialized to false and set to true during cleanup to avoid race conditions."
+ ],
+ "entities": [
+  {
+   "name": "useEffect",
+   "type": "product",
+   "role": "React Hook that synchronizes a component with an external system, documented on this page"
+  },
+  {
+   "name": "React",
+   "type": "product",
+   "role": "JavaScript library whose version 18.2.0 reference this page belongs to"
+  },
+  {
+   "name": "useLayoutEffect",
+   "type": "product",
+   "role": "Hook recommended as a replacement for useEffect when visual Effects flicker or the browser must not repaint first"
+  },
+  {
+   "name": "Object.is",
+   "type": "product",
+   "role": "comparison method React uses to compare each dependency with its previous value"
+  },
+  {
+   "name": "Strict Mode",
+   "type": "program",
+   "role": "React mode that runs one extra development-only setup and cleanup cycle"
+  },
+  {
+   "name": "chat.js",
+   "type": "product",
+   "role": "external module defining createConnection used in the chat server example"
+  },
+  {
+   "name": "map-widget.js",
+   "type": "product",
+   "role": "non-React module defining the MapWidget class controlled by the Map component example"
+  },
+  {
+   "name": "fetchBio",
+   "type": "product",
+   "role": "API function used in the data fetching example to retrieve a person's biography"
+  },
+  {
+   "name": "React Query",
+   "type": "product",
+   "role": "open source client-side cache solution mentioned as an alternative for data fetching"
+  },
+  {
+   "name": "useSWR",
+   "type": "product",
+   "role": "open source client-side cache solution mentioned as an alternative for data fetching"
+  },
+  {
+   "name": "React Router 6.4+",
+   "type": "product",
+   "role": "routing library mentioned as a client-side data fetching option"
+  }
+ ],
+ "tags": [
+  "react",
+  "hooks",
+  "useeffect",
+  "javascript",
+  "frontend"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12934,
+  "output_tokens": 1190
+ }
+}

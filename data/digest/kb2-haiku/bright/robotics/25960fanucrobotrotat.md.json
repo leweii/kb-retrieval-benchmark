@@ -1,0 +1,101 @@
+{
+ "summary": "A Robot-Forum thread (started by SteveL on Feb 26, 2018, marked resolved) asks how Fanuc robots define tool/frame orientation as W, P, R and whether the rotations are intrinsic or extrinsic and in what order. Replies from Nation, robotero, HawkME and others say Fanuc applies translation first, then extrinsic rotations Rx(W), Ry(P), Rz(R), i.e. Rotz(R)·Roty(P)·Rotx(W), so W, P, R are not yaw, pitch and roll; they also warn about gimbal lock when setting WPR angles programmatically. The thread also contains a later 2019 question about Fanuc's convention and a sidebar of forum boilerplate.",
+ "one_line": "Forum thread clarifying that Fanuc's W, P, R orientation angles are extrinsic rotations applied in X, Y, Z order after translation, with a gimbal-lock warning.",
+ "key_facts": [
+  "SteveL's thread 'Fanuc robot rotations and positioning' was posted on Feb 26th 2018 and is marked as Resolved.",
+  "SteveL uses an LRMate200iC with an R-30 Mate controller and believes the convention is the same for all Fanuc robots.",
+  "Nation replied on Feb 26th 2018 that translation happens first, relative to the robot origin if UFRAME is 0 or relative to the UFRAME origin otherwise.",
+  "Nation stated that the rotations happen in the order Rx (W), Ry (P), then Rz (R), and that these rotations are extrinsic.",
+  "robotero quoted the B-83284EN_04 R-30iB/R-30iB Mate Controller Basic Operation manual as saying W, P, R are rotation angles around the X, Y, Z axes of the fixed frame (extrinsic).",
+  "According to robotero's reading of the manual, for a TOOL frame W, P, R rotate about the X, Y, Z axes of the 'mechanical interface' coordinate system, and for a USER frame they rotate about the World Coordinate System axes.",
+  "robotero gave the example that a user frame with X and Y axes reversed is 0,0,180.",
+  "robotero wrote that using this convention W, P, R are not Yaw, Pitch and Roll, which are intrinsic rotations about Z, Y' and X''.",
+  "robotero wrote the compound fixed-frame rotation as Rotz(R).Roty(P).Rotx(W), with the order reversed because the rotations are extrinsic.",
+  "HawkME, a Moderator, warned that directly setting WPR angles can hit gimbal lock, where angles become unstable and one rotation axis is lost.",
+  "HawkME said Fanuc avoids gimbal lock automatically when jogging by approaching the orientation from a different direction, but programmatically set WPR angles may not give the intended result.",
+  "Satja asked in October 2019 whether Fanuc uses Rotx(w)*Roty(r)*Rotz(t) or Rotz(w)*Roty(r)*Rotx(t) style conventions.",
+  "TitusLepic replied on Oct 30th 2019 that robotero's expression Rotz(R).Roty(P).Rotx(W) is correct.",
+  "Nation linked a position converter he wrote for converting between XYZWPR and joint representations, later released as open source on GitHub at SynapticRobotics/PositionConverter.",
+  "The original poster's second question asked for code to position a tool at x1,y1,z1 with angles alpha, beta, gamma relative to a local surface normal; Atinder Singh replied that jogging the robot is the simple approach."
+ ],
+ "entities": [
+  {
+   "name": "SteveL",
+   "type": "person",
+   "role": "Forum user who started the thread and asked about Fanuc WPR rotation conventions"
+  },
+  {
+   "name": "Nation",
+   "type": "person",
+   "role": "Forum member who explained translation-then-extrinsic Rx, Ry, Rz order and wrote a Fanuc position converter"
+  },
+  {
+   "name": "robotero",
+   "type": "person",
+   "role": "Forum member who quoted the Fanuc manual and gave the Rotz(R).Roty(P).Rotx(W) expression"
+  },
+  {
+   "name": "HawkME",
+   "type": "person",
+   "role": "Forum moderator who warned about gimbal lock when setting WPR angles"
+  },
+  {
+   "name": "Atinder Singh",
+   "type": "person",
+   "role": "Forum member who suggested jogging the robot to a point with DEADMAN and SHIFT"
+  },
+  {
+   "name": "Satja",
+   "type": "person",
+   "role": "Forum member who asked in 2019 which rotation order Fanuc uses"
+  },
+  {
+   "name": "TitusLepic",
+   "type": "person",
+   "role": "Forum member who confirmed robotero's expression is correct"
+  },
+  {
+   "name": "Robot-Forum",
+   "type": "organization",
+   "role": "Support and discussion community for industrial robots and cobots where the thread appears"
+  },
+  {
+   "name": "LRMate200iC",
+   "type": "product",
+   "role": "Fanuc robot used by SteveL in the question"
+  },
+  {
+   "name": "R-30 Mate controller",
+   "type": "product",
+   "role": "Fanuc controller paired with the LRMate200iC"
+  },
+  {
+   "name": "B-83284EN_04 R-30iB/R-30iB Mate Controller Basic Operation manual",
+   "type": "product",
+   "role": "Fanuc manual cited by robotero for the meaning of W, P, R"
+  },
+  {
+   "name": "Fanuc position converter",
+   "type": "program",
+   "role": "Converter by Nation for converting XYZWPR to joint representation and back, open source on GitHub"
+  },
+  {
+   "name": "Gimbal lock",
+   "type": "other",
+   "role": "Orientation singularity that HawkME warned can make WPR angles unreliable"
+  }
+ ],
+ "tags": [
+  "fanuc",
+  "robot kinematics",
+  "euler angles",
+  "coordinate frames",
+  "gimbal lock",
+  "industrial robots"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 17345,
+  "output_tokens": 1913
+ }
+}

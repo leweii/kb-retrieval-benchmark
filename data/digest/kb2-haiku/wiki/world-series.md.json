@@ -1,0 +1,95 @@
+{
+ "summary": "This note summarizes World Series championship records by Major League Baseball franchise, listing each team's series appearances and titles in the American and National Leagues. It also gives league-level totals, such as American League teams winning 65 of 113 series, and shares of titles held by the New York Yankees and St. Louis Cardinals. A header section lists the first and most recent years played, current champions and runners-up, and the most titles. The text is partly duplicated, and the Dodgers' appearance count differs between copies (19 and 18).",
+ "one_line": "Franchise-by-franchise records of World Series appearances and titles, with league totals and current champion details.",
+ "key_facts": [
+  "The New York Yankees played in 40 World Series in the American League and won 27.",
+  "The Philadelphia / Kansas City / Oakland Athletics played in 14 World Series and won 9.",
+  "The Boston Red Sox played in 12 World Series and won 8, including the first World Series.",
+  "The St. Louis Cardinals appeared in 19 World Series in the National League and won 11.",
+  "The New York / San Francisco Giants played in 20 World Series and won 8.",
+  "The Brooklyn / Los Angeles Dodgers appeared in 19 World Series and won 6 (one copy of the note says 18 appearances).",
+  "The Cincinnati Reds appeared in 9 World Series and won 5.",
+  "American League teams have won 65 of the 113 World Series played (57.5%).",
+  "The New York Yankees' 27 titles account for 23.9% of all series played and 41.5% of American League wins.",
+  "The St. Louis Cardinals' 11 titles account for 9.7% of all series played and 23% of the 48 National League victories.",
+  "The World Series was first played in 1903 and most recently played in 2017.",
+  "The Houston Astros are the current champions, winning the 2017 World Series for their first title.",
+  "The Los Angeles Dodgers are the current runners-up.",
+  "The New York Yankees hold the most World Series titles, with 27.",
+  "The Commissioner's Trophy is awarded to the team that wins the World Series."
+ ],
+ "entities": [
+  {
+   "name": "World Series",
+   "type": "event",
+   "role": "championship series whose records are catalogued in the note"
+  },
+  {
+   "name": "New York Yankees",
+   "type": "organization",
+   "role": "American League team with 40 appearances and 27 wins, the most titles"
+  },
+  {
+   "name": "Philadelphia / Kansas City / Oakland Athletics",
+   "type": "organization",
+   "role": "American League team with 14 appearances and 9 wins"
+  },
+  {
+   "name": "Boston Red Sox",
+   "type": "organization",
+   "role": "American League team with 12 appearances and 8 wins, including the first World Series"
+  },
+  {
+   "name": "St. Louis Cardinals",
+   "type": "organization",
+   "role": "National League team with 19 appearances and 11 wins"
+  },
+  {
+   "name": "New York / San Francisco Giants",
+   "type": "organization",
+   "role": "National League team with 20 appearances and 8 wins"
+  },
+  {
+   "name": "Brooklyn / Los Angeles Dodgers",
+   "type": "organization",
+   "role": "National League team with 19 appearances and 6 wins; current runners-up"
+  },
+  {
+   "name": "Cincinnati Reds",
+   "type": "organization",
+   "role": "National League team with 9 appearances and 5 wins"
+  },
+  {
+   "name": "Houston Astros",
+   "type": "organization",
+   "role": "current World Series champions (2017), winning their first title"
+  },
+  {
+   "name": "American League",
+   "type": "organization",
+   "role": "league whose teams have won 65 of 113 World Series"
+  },
+  {
+   "name": "National League",
+   "type": "organization",
+   "role": "league whose teams account for 48 World Series victories in the note's totals"
+  },
+  {
+   "name": "Commissioner's Trophy",
+   "type": "product",
+   "role": "trophy awarded to the team that wins the World Series"
+  }
+ ],
+ "tags": [
+  "baseball",
+  "world series",
+  "mlb",
+  "sports history",
+  "championships"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1582,
+  "output_tokens": 1873
+ }
+}

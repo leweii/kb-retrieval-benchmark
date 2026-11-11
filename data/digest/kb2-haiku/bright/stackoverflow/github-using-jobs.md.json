@@ -1,0 +1,60 @@
+{
+ "summary": "This GitHub Docs page explains how to use the concurrency keyword in GitHub Actions to limit how many workflow runs or jobs execute at the same time within a context. By default, jobs and runs execute concurrently, but concurrency groups let at most one running and one pending job or workflow share a group, with optional cancellation of in-progress runs. The page gives YAML examples for job-level and workflow-level groups, fallback values, per-workflow scoping, and branch-specific cancellation.",
+ "one_line": "GitHub Docs guide to the concurrency keyword in GitHub Actions for limiting jobs and workflow runs to one at a time per group.",
+ "key_facts": [
+  "By default, GitHub Actions allows multiple jobs within the same workflow, multiple workflow runs within the same repository, and multiple workflow runs across a repository owner's account to run concurrently.",
+  "The jobs.<job_id>.concurrency keyword ensures that only a single job or workflow using the same concurrency group will run at a time.",
+  "A concurrency group can be any string or expression.",
+  "Allowed expression contexts for concurrency groups are github, inputs, vars, needs, strategy, and matrix.",
+  "When a concurrent job or workflow is queued and another job or workflow in the same group is in progress, the queued one is pending.",
+  "There can be at most one running and one pending job in a concurrency group at any time.",
+  "Setting cancel-in-progress: true also cancels any currently running job or workflow in the same concurrency group.",
+  "Concurrency group names are case insensitive, so 'prod' and 'Prod' are treated as the same group.",
+  "Ordering is not guaranteed for jobs or workflow runs using concurrency groups; they are handled in an arbitrary order.",
+  "The group expression github.head_ref is only defined on pull_request events, so a fallback such as github.head_ref || github.run_id is needed to avoid a syntax error.",
+  "To cancel only in-progress runs of the same workflow, the group can be built with github.workflow, for example ${{ github.workflow }}-${{ github.ref }}.",
+  "Cancellation can be made conditional, for example cancel-in-progress: ${{ !contains(github.ref, 'release/')}} so pushes to release branches do not cancel runs.",
+  "To check constraints with concurrency or queuing, users can monitor how many jobs are being processed on GitHub-hosted runners in their organization or enterprise.",
+  "The page is copyright 2024 GitHub, Inc."
+ ],
+ "entities": [
+  {
+   "name": "GitHub Actions",
+   "type": "program",
+   "role": "GitHub's workflow automation feature whose concurrency controls are described in this page"
+  },
+  {
+   "name": "GitHub Docs",
+   "type": "organization",
+   "role": "source of the documentation page, navigated under the Using jobs section"
+  },
+  {
+   "name": "GitHub, Inc.",
+   "type": "organization",
+   "role": "copyright holder of the page, listed as ©2024 GitHub, Inc."
+  },
+  {
+   "name": "GitHub-hosted runners",
+   "type": "product",
+   "role": "runners whose current jobs can be monitored to identify concurrency or queuing constraints"
+  },
+  {
+   "name": "Monitoring your current jobs",
+   "type": "other",
+   "role": "related guide referenced for checking jobs being processed in an organization or enterprise"
+  }
+ ],
+ "tags": [
+  "github actions",
+  "concurrency",
+  "workflows",
+  "ci-cd",
+  "yaml",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13742,
+  "output_tokens": 1100
+ }
+}

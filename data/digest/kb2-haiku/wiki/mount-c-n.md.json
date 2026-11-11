@@ -1,0 +1,51 @@
+{
+ "summary": "The note is a short encyclopedic entry on Mount Cẩn (núi Cẩn), a mountain in Xuân Sơn National Park in Phú Thọ Province, northern Vietnam. It states the mountain is the park's third highest point at 1144 metres. It also notes that two other peaks, núi Voi and núi Ten, lie within the same park.",
+ "one_line": "Mount Cẩn is a 1144-metre mountain in Xuân Sơn National Park, Phú Thọ Province, northern Vietnam.",
+ "key_facts": [
+  "Mount Cẩn (núi Cẩn) is a mountain of the Xuân Sơn National Park.",
+  "Xuân Sơn National Park is located in Phú Thọ Province in northern Vietnam.",
+  "Mount Cẩn is the third highest point in Xuân Sơn National Park.",
+  "Mount Cẩn has an elevation of 1144 metres.",
+  "Xuân Sơn National Park also contains núi Voi.",
+  "Xuân Sơn National Park also contains núi Ten."
+ ],
+ "entities": [
+  {
+   "name": "Mount Cẩn",
+   "type": "place",
+   "role": "mountain of Xuân Sơn National Park, third highest point in the park at 1144 metres"
+  },
+  {
+   "name": "Xuân Sơn National Park",
+   "type": "place",
+   "role": "national park in Phú Thọ Province, northern Vietnam, containing Mount Cẩn, núi Voi and núi Ten"
+  },
+  {
+   "name": "Phú Thọ Province",
+   "type": "place",
+   "role": "province in northern Vietnam where Xuân Sơn National Park is located"
+  },
+  {
+   "name": "núi Voi",
+   "type": "place",
+   "role": "mountain contained in Xuân Sơn National Park"
+  },
+  {
+   "name": "núi Ten",
+   "type": "place",
+   "role": "mountain contained in Xuân Sơn National Park"
+  }
+ ],
+ "tags": [
+  "mountains",
+  "vietnam",
+  "national park",
+  "phú thọ province",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1067,
+  "output_tokens": 643
+ }
+}

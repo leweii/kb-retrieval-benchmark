@@ -1,0 +1,136 @@
+{
+ "summary": "This is the project status and documentation page of Moment.js, which declares Moment a legacy project in maintenance mode and discourages its use in new projects in favor of alternatives such as Luxon, Day.js, date-fns and js-Joda, while promoting the Temporal proposal. The page also covers reasons to keep using Moment, installation instructions for many environments (Node.js, browser, Require.js, Webpack, TypeScript and others), and the start of the parsing documentation including ISO 8601 string support.",
+ "one_line": "Moment.js documentation page declaring the library in maintenance mode, recommending alternatives, and covering installation and parsing basics.",
+ "key_facts": [
+  "As of September 2020, Moment gets over 12 million downloads per week.",
+  "Moment.js is described as a legacy project in maintenance mode: \"It is not dead, but it is indeed done.\"",
+  "Moment objects are mutable, and the Moment team chose to retain the mutable API rather than create an immutable version.",
+  "Moment will not add new features, will not change its API to be immutable, will not address tree shaking or bundle size, and will not make any major changes such as a version 3.",
+  "Moment will address critical security concerns as they arise and will release Moment-Timezone data updates following IANA time zone database releases.",
+  "Moment works well on Internet Explorer 8 and higher, while Luxon only works on IE 10 and higher and requires a polyfill to do so.",
+  "Day.js reports compatibility with IE8 and higher.",
+  "Luxon is authored by Isaac Cambron, a long-time contributor to Moment.",
+  "Temporal is a TC39 proposal that is currently at Stage 3 of the TC39 process and is available as a non-production polyfill.",
+  "As of version 2.13.0, Moment includes a TypeScript definition file.",
+  "In version 2.4.0, the globally exported moment object was deprecated and will be removed in the next major release.",
+  "From version 2.14.0, moment([]) and moment({}) also return the current date and time.",
+  "Moment's Node.js install command is npm install moment, and Moment.js is available on cdnjs.com and jsDelivr.",
+  "By default, webpack bundles all Moment.js locales, which in Moment.js 2.18.1 was 160 minified KBs.",
+  "The Moment.js project recommends Stack Overflow with the momentjs tag for general troubleshooting help, and notes that more than half of Stack Overflow issues can be answered by a specific blog post."
+ ],
+ "entities": [
+  {
+   "name": "Moment.js",
+   "type": "program",
+   "role": "JavaScript date and time library whose documentation this page presents; declared a legacy project in maintenance mode"
+  },
+  {
+   "name": "Luxon",
+   "type": "program",
+   "role": "recommended alternative to Moment.js, described as the evolution of Moment and authored by Isaac Cambron"
+  },
+  {
+   "name": "Day.js",
+   "type": "program",
+   "role": "recommended minimalist replacement for Moment.js with a similar API, not a drop-in replacement"
+  },
+  {
+   "name": "date-fns",
+   "type": "program",
+   "role": "recommended alternative offering a series of functions for manipulating JavaScript Date objects"
+  },
+  {
+   "name": "js-Joda",
+   "type": "program",
+   "role": "recommended alternative, a JavaScript port of Java's Three-Ten Backport"
+  },
+  {
+   "name": "Temporal",
+   "type": "program",
+   "role": "ECMA TC39 proposal to add better date and time APIs to the JavaScript language, at Stage 3"
+  },
+  {
+   "name": "Isaac Cambron",
+   "type": "person",
+   "role": "author of Luxon and a long-time contributor to Moment"
+  },
+  {
+   "name": "Moment-Timezone",
+   "type": "program",
+   "role": "Moment plugin for time zone support whose data is updated following IANA time zone database releases"
+  },
+  {
+   "name": "IANA time zone database",
+   "type": "other",
+   "role": "time zone database whose releases Moment-Timezone data updates follow"
+  },
+  {
+   "name": "CLDR",
+   "type": "other",
+   "role": "Unicode locale data repository where locale string changes must be submitted first if reflected there"
+  },
+  {
+   "name": "ECMA-402",
+   "type": "other",
+   "role": "specification defining the Intl object for internationalization and time zone support in modern browsers and Node.js"
+  },
+  {
+   "name": "Chrome Dev Tools",
+   "type": "product",
+   "role": "started showing recommendations for replacing Moment for size alone"
+  },
+  {
+   "name": "Stack Overflow",
+   "type": "organization",
+   "role": "preferred forum for general troubleshooting help, with the momentjs tag"
+  },
+  {
+   "name": "Gitter",
+   "type": "product",
+   "role": "chat where the Moment internal team is frequently available"
+  },
+  {
+   "name": "moment-locales-webpack-plugin",
+   "type": "program",
+   "role": "webpack plugin used to strip unnecessary Moment locales from the bundle"
+  },
+  {
+   "name": "Require.js",
+   "type": "program",
+   "role": "AMD module loader with a documented Moment configuration including noGlobal option"
+  },
+  {
+   "name": "System.js",
+   "type": "program",
+   "role": "module loader for which Moment loading and global configuration is documented"
+  },
+  {
+   "name": "Node.js",
+   "type": "product",
+   "role": "JavaScript runtime where Moment is installed via npm and requires ICU for internationalization support"
+  },
+  {
+   "name": "Demandware",
+   "type": "product",
+   "role": "platform for which separate Moment usage instructions are provided"
+  },
+  {
+   "name": "Java/Rhino",
+   "type": "product",
+   "role": "environment for which separate Moment usage instructions are provided"
+  }
+ ],
+ "tags": [
+  "moment.js",
+  "javascript",
+  "date-time",
+  "legacy-libraries",
+  "date-parsing",
+  "temporal"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 13296,
+  "output_tokens": 1786
+ }
+}

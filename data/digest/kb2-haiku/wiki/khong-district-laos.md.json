@@ -1,0 +1,55 @@
+{
+ "summary": "The note is a short encyclopedia-style entry on Khong District, a district (muang) of Champassack Province in southwestern Laos. It notes the district's border with Cambodia in the far south and its fame for the Khonephapheng Waterfalls and the Si Phan Don (4000 Islands) area.",
+ "one_line": "Khong District is a district of Champassack Province in southwestern Laos, bordering Cambodia and known for the Khonephapheng Waterfalls and Si Phan Don.",
+ "key_facts": [
+  "Khong is a district (muang) of Champassack Province in southwestern Laos.",
+  "Khong District borders Cambodia in the far south.",
+  "Khong District is famous for the Khonephapheng Waterfalls.",
+  "Khong District is famous for the Si Phan Don (4000 Islands) area."
+ ],
+ "entities": [
+  {
+   "name": "Khong District",
+   "type": "place",
+   "role": "district (muang) of Champassack Province in southwestern Laos, bordering Cambodia in the far south"
+  },
+  {
+   "name": "Champassack Province",
+   "type": "place",
+   "role": "province in southwestern Laos of which Khong District is a district"
+  },
+  {
+   "name": "Laos",
+   "type": "place",
+   "role": "country in which Khong District and Champassack Province are located"
+  },
+  {
+   "name": "Cambodia",
+   "type": "place",
+   "role": "country bordering Khong District in the far south"
+  },
+  {
+   "name": "Khonephapheng Waterfalls",
+   "type": "place",
+   "role": "waterfalls for which Khong District is famous"
+  },
+  {
+   "name": "Si Phan Don (4000 Islands)",
+   "type": "place",
+   "role": "area for which Khong District is famous"
+  }
+ ],
+ "tags": [
+  "laos",
+  "champassack province",
+  "khong district",
+  "geography",
+  "waterfalls",
+  "mekong"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1065,
+  "output_tokens": 563
+ }
+}

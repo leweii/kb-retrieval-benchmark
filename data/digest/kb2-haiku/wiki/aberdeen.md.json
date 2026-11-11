@@ -1,0 +1,104 @@
+{
+ "summary": "The note traces the history of Aberdeen from its early settlement to its medieval development. The city began as two separate burghs, Old Aberdeen and New Aberdeen, and received charters from William the Lion and Robert the Bruce that granted corporate rights and financial independence. It was damaged during the Wars of Scottish Independence, including the destruction of Aberdeen Castle in 1308 and a burning by Edward III in 1336, and was later fortified against neighbouring lords.",
+ "one_line": "A history of Aberdeen, from its early settlement and two original burghs through medieval charters, wars of independence, and fortifications.",
+ "key_facts": [
+  "The Aberdeen area has seen human settlement for at least 8,000 years.",
+  "The city began as two separate burghs: Old Aberdeen at the mouth of the river Don, and New Aberdeen, a fishing and trading settlement.",
+  "New Aberdeen was located where the Denburn waterway entered the river Dee estuary.",
+  "The earliest charter for Aberdeen was granted by William the Lion in 1179 and confirmed the corporate rights granted by David I.",
+  "In 1319, the Great Charter of Robert the Bruce transformed Aberdeen into a property-owning and financially independent community.",
+  "The Great Charter of 1319 granted the nearby Forest of Stocket, whose income formed the basis for the city's Common Good Fund.",
+  "The Common Good Fund still benefits Aberdonians, according to the note.",
+  "During the Wars of Scottish Independence, Aberdeen was under English rule.",
+  "Robert the Bruce laid siege to Aberdeen Castle before destroying it in 1308.",
+  "Robert the Bruce's forces massacred the English garrison after destroying Aberdeen Castle in 1308.",
+  "Edward III of England burned the city of Aberdeen in 1336, but it was rebuilt and extended.",
+  "Aberdeen was strongly fortified to prevent attacks by neighbouring lords.",
+  "The gates of Aberdeen were removed by 1770."
+ ],
+ "entities": [
+  {
+   "name": "Aberdeen",
+   "type": "place",
+   "role": "city whose history of settlement, charters, and fortifications is described"
+  },
+  {
+   "name": "Old Aberdeen",
+   "type": "place",
+   "role": "original burgh at the mouth of the river Don"
+  },
+  {
+   "name": "New Aberdeen",
+   "type": "place",
+   "role": "fishing and trading settlement, one of the city's two original burghs, where the Denburn entered the river Dee estuary"
+  },
+  {
+   "name": "river Don",
+   "type": "place",
+   "role": "river at whose mouth Old Aberdeen lay"
+  },
+  {
+   "name": "river Dee",
+   "type": "place",
+   "role": "river whose estuary New Aberdeen bordered"
+  },
+  {
+   "name": "Denburn",
+   "type": "place",
+   "role": "waterway that entered the river Dee estuary at New Aberdeen"
+  },
+  {
+   "name": "William the Lion",
+   "type": "person",
+   "role": "granted the earliest charter to Aberdeen in 1179"
+  },
+  {
+   "name": "David I",
+   "type": "person",
+   "role": "originally granted corporate rights to Aberdeen, which were confirmed by William the Lion's charter"
+  },
+  {
+   "name": "Robert the Bruce",
+   "type": "person",
+   "role": "granted the Great Charter of 1319, laid siege to and destroyed Aberdeen Castle in 1308"
+  },
+  {
+   "name": "Forest of Stocket",
+   "type": "place",
+   "role": "nearby forest granted with the 1319 charter, whose income funded the Common Good Fund"
+  },
+  {
+   "name": "Common Good Fund",
+   "type": "program",
+   "role": "city fund founded from the income of the Forest of Stocket that still benefits Aberdonians"
+  },
+  {
+   "name": "Aberdeen Castle",
+   "type": "place",
+   "role": "castle besieged and destroyed by Robert the Bruce in 1308"
+  },
+  {
+   "name": "Wars of Scottish Independence",
+   "type": "event",
+   "role": "period during which Aberdeen was under English rule"
+  },
+  {
+   "name": "Edward III of England",
+   "type": "person",
+   "role": "English king who burned the city in 1336"
+  }
+ ],
+ "tags": [
+  "aberdeen",
+  "scottish history",
+  "medieval charters",
+  "scottish independence",
+  "city history",
+  "fortifications"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1345,
+  "output_tokens": 1726
+ }
+}

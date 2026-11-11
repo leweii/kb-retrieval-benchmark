@@ -1,0 +1,43 @@
+{
+ "summary": "The note explains the Major League Baseball wild-card system, under which the two best non-division-winning teams in each league (American and National) qualify for the postseason. The wild card was introduced in 1994 with one team per league advancing to the Division Series. In 2012 the system was expanded to two wild-card teams per league, who meet in a single-game play-in, with the winner advancing to face the top-seeded team.",
+ "one_line": "Explains how Major League Baseball's wild-card teams qualify for the postseason despite not winning their division, and how the format changed over time.",
+ "key_facts": [
+  "In Major League Baseball, the wild-card teams are the two teams in each league (American and National) that qualify for the postseason without winning their division.",
+  "Wild-card teams are the two teams in each league with the best winning percentages after the three division winners.",
+  "The wild card was first instituted in Major League Baseball in 1994.",
+  "After its 1994 introduction, one wild-card team per league advanced to the Division Series to face a division winner.",
+  "In 2012, the system was modified to add a second wild-card team per league.",
+  "In the 2012 format, each league's two wild-card teams played each other in a play-in game called the MLB wild-card game.",
+  "The winner of the MLB wild-card game advances to the Division Series and plays the team with the best record in the league.",
+  "Under the 2012 system, the team with the second-best record in each league, after the three division winners and the top non-division-winning team, is guaranteed a postseason berth even without winning a division."
+ ],
+ "entities": [
+  {
+   "name": "Major League Baseball",
+   "type": "organization",
+   "role": "professional baseball league whose American and National leagues each have wild-card teams in the postseason"
+  },
+  {
+   "name": "MLB wild-card game",
+   "type": "event",
+   "role": "play-in game between each league's two wild-card teams, introduced in 2012, whose winner advances to the Division Series"
+  },
+  {
+   "name": "Division Series",
+   "type": "event",
+   "role": "postseason round that wild-card winners advance to, facing a division winner or the team with the best record"
+  }
+ ],
+ "tags": [
+  "baseball",
+  "mlb",
+  "postseason",
+  "wild card",
+  "sports rules"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1270,
+  "output_tokens": 680
+ }
+}

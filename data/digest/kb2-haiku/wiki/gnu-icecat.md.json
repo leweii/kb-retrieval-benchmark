@@ -1,0 +1,47 @@
+{
+ "summary": "The note describes GNU IceCat, a free software rebranded version of the Mozilla Firefox web browser distributed by the GNU Project. It was formerly known as GNU IceWeasel and is stated to be compatible with GNU/Linux, Windows, Android and macOS.",
+ "one_line": "GNU IceCat is a free software rebranding of Mozilla Firefox distributed by the GNU Project, formerly called GNU IceWeasel.",
+ "key_facts": [
+  "GNU IceCat is a free software rebranding of the Mozilla Firefox web browser.",
+  "GNU IceCat is distributed by the GNU Project.",
+  "GNU IceCat was formerly known as GNU IceWeasel.",
+  "GNU IceCat is compatible with GNU/Linux.",
+  "GNU IceCat is compatible with Windows.",
+  "GNU IceCat is compatible with Android.",
+  "GNU IceCat is compatible with macOS."
+ ],
+ "entities": [
+  {
+   "name": "GNU IceCat",
+   "type": "product",
+   "role": "Free software rebranding of the Mozilla Firefox web browser, formerly known as GNU IceWeasel"
+  },
+  {
+   "name": "GNU IceWeasel",
+   "type": "product",
+   "role": "Former name of GNU IceCat"
+  },
+  {
+   "name": "Mozilla Firefox",
+   "type": "product",
+   "role": "Web browser that GNU IceCat is a free software rebranding of"
+  },
+  {
+   "name": "GNU Project",
+   "type": "organization",
+   "role": "Distributor of GNU IceCat"
+  }
+ ],
+ "tags": [
+  "web browser",
+  "free software",
+  "gnu project",
+  "firefox",
+  "open source software"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1066,
+  "output_tokens": 524
+ }
+}

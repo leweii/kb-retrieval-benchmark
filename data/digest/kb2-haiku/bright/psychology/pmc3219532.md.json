@@ -1,0 +1,110 @@
+{
+ "summary": "This paper tests whether feedforward (FF) and feedback (FB) projection neurons in mouse visual cortex form distinct populations, using retrograde tracers injected into area 17 and area AL to label neurons in intermediate area LM. Despite densely intermingled singly labeled neurons without laminar segregation, very few neurons were double-labeled (about 4-5% of each population), indicating the two projection systems are largely distinct at the single-neuron level. The study also finds FF connections present from postnatal day 2 while FB connections were not detectable until P11 and reached adult levels by P18.",
+ "one_line": "Retrograde tracing in mouse visual cortex shows feedforward and feedback neurons in area LM are largely distinct populations, with FB connections developing later than FF.",
+ "key_facts": [
+  "The study was published in J Comp Neurol in 2011 Dec 15; 519(18): 3672–3683 by Vladimir K. Berezovskii, Jonathan J. Nassi, and Richard T. Born.",
+  "Retrograde tracers were injected into mouse area 17 and area AL, and double-labeled neurons were counted in intermediate area LM.",
+  "Across seven experiments, 994 FF neurons and 834 FB neurons were labeled, with 42 double-labeled neurons (corrected counts).",
+  "Double-labeled neurons comprised 4.0% of the FF population (95% CI 2.9–5.4%) and 4.8% of the FB population (95% CI 3.5–6.4%).",
+  "The largest single-experiment percentages were 5.6% of FF and 6.7% of FB.",
+  "Singly labeled FF and FB neurons were densely intermingled in LM and largely confined to supragranular layers, with no apparent laminar segregation.",
+  "FF neurons were on average very slightly more superficial than FB neurons, a difference of only about 10 μm in median depth that the authors judged of little biological significance.",
+  "Over 90% of labeled neurons were within 350 μm of the cortical surface, about 400 μm after correcting for a linear shrinkage factor of 0.88.",
+  "FF connections from area 17 were present at the earliest time point examined, postnatal day two (P2), based on anterograde label in every case.",
+  "FB neurons were not retrogradely labeled after injections at P9 or earlier, and were first observed in area LM following injections at P11.",
+  "Adult levels of FB labeling in area LM were not seen until P18.",
+  "A co-injection control with two tracers in area 17 produced only double-labeled neurons (111 of 111 corrected), giving a minimum labeling efficiency of 0.98.",
+  "Mice were C57BL/6, ages postnatal day 2 to P80, and injections were made in 7 of 16 attempts that met targeting criteria.",
+  "The authors state that in primates FF and FB projections are often distinguished by laminar origin, whereas rodent FF and FB neurons lack clear laminar segregation, making rodents a stronger test of distinct populations."
+ ],
+ "entities": [
+  {
+   "name": "Vladimir K. Berezovskii",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Jonathan J. Nassi",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Richard T. Born",
+   "type": "person",
+   "role": "author of the study"
+  },
+  {
+   "name": "Journal of Comparative Neurology",
+   "type": "organization",
+   "role": "journal in which the article was published (J Comp Neurol)"
+  },
+  {
+   "name": "area 17",
+   "type": "place",
+   "role": "mouse primary visual cortex; target of retrograde tracer injections"
+  },
+  {
+   "name": "area AL",
+   "type": "place",
+   "role": "higher hierarchical visual area; target of DA-594 injections"
+  },
+  {
+   "name": "area LM",
+   "type": "place",
+   "role": "intermediate visual area where FF and FB neurons were counted"
+  },
+  {
+   "name": "DA-594",
+   "type": "product",
+   "role": "dextran amine retrograde/anterograde tracer conjugated to Alexa-Fluor 594"
+  },
+  {
+   "name": "BDA",
+   "type": "product",
+   "role": "biotinylated dextran amine tracer used in injections"
+  },
+  {
+   "name": "bis-benzimide",
+   "type": "product",
+   "role": "tracer used to label callosally projecting neurons and reveal area borders"
+  },
+  {
+   "name": "Felleman & Van Essen 1991",
+   "type": "event",
+   "role": "study establishing the hierarchical organization of macaque visual areas"
+  },
+  {
+   "name": "Dong et al. 2004b",
+   "type": "event",
+   "role": "previous study showing FB connection development is delayed compared to FF"
+  },
+  {
+   "name": "Ivy & Killackey 1982",
+   "type": "event",
+   "role": "previous study estimating tracer efficiency with fast blue and diamidino yellow"
+  },
+  {
+   "name": "Harvard Medical Area Standing Committee on Animals",
+   "type": "organization",
+   "role": "approved the animal procedures"
+  },
+  {
+   "name": "National Institutes of Health",
+   "type": "organization",
+   "role": "established guidelines for care and use of laboratory animals"
+  }
+ ],
+ "tags": [
+  "visual cortex",
+  "feedforward feedback",
+  "mouse",
+  "neural connectivity",
+  "development",
+  "retrograde tracing"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12285,
+  "output_tokens": 1659
+ }
+}

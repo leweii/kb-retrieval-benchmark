@@ -1,0 +1,42 @@
+{
+ "summary": "This is a Snowflake SQL documentation page for the STRTOK_TO_ARRAY function, which tokenizes a string using a set of delimiters and returns the tokens as an ARRAY. It covers syntax, arguments (a required string and an optional delimiter set defaulting to a single space), NULL and empty-array behavior, and two examples splitting on '.' and on multiple delimiters '.@'. The page is listed under the Conversion/Casting category.",
+ "one_line": "Snowflake SQL function STRTOK_TO_ARRAY splits a string on a set of delimiters and returns the tokens as an array.",
+ "key_facts": [
+  "STRTOK_TO_ARRAY tokenizes the given string using the given set of delimiters and returns the tokens as an array.",
+  "The syntax is STRTOK_TO_ARRAY(<string> [,<delimiter>]).",
+  "The required argument is string, the text to be tokenized.",
+  "The optional delimiter argument is a set of delimiters, with a default value of a single space character.",
+  "The data type of the returned value is ARRAY.",
+  "If either parameter is NULL, STRTOK_TO_ARRAY returns NULL.",
+  "An empty array is returned if tokenization produces no tokens.",
+  "Example: SELECT STRTOK_TO_ARRAY('a.b.c', '.') returns the array [\"a\", \"b\", \"c\"].",
+  "Example: SELECT STRTOK_TO_ARRAY('user@snowflake.com', '.@') returns the array [\"user\", \"snowflake\", \"com\"].",
+  "The second example tokenizes on multiple delimiters, '.' and '@'.",
+  "The page is listed under the Conversion/Casting category of the function reference."
+ ],
+ "entities": [
+  {
+   "name": "STRTOK_TO_ARRAY",
+   "type": "product",
+   "role": "SQL function documented on this page that tokenizes a string into an array using delimiters"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "company whose documentation site hosts the page, shown by the copyright footer 'Inc. All Rights Reserved'"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "string functions",
+  "tokenization",
+  "arrays",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1958,
+  "output_tokens": 730
+ }
+}

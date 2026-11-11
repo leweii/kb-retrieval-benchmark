@@ -1,0 +1,125 @@
+{
+ "summary": "This note is a general overview of biological evolution, defined as change in heritable characteristics of populations over generations, driven by processes such as natural selection, genetic drift, mutation and gene flow. It covers the Darwin-Wallace theory of natural selection and its observable premises, the genetic basis of inheritance (DNA, genes, alleles, phenotype versus genotype), and the sources of new variation, including mutation, gene duplication, sexual recombination and horizontal gene transfer. It also discusses drift, neutral theory, mutation bias, linkage and genetic hitchhiking, sexual selection, micro- versus macroevolution, adaptation, vestigial structures and exaptation. The text ends abruptly mid-sentence while introducing exaptation.",
+ "one_line": "Overview of biological evolution covering natural selection, genetic drift, mutation, gene flow, inheritance, adaptation and speciation.",
+ "key_facts": [
+  "Evolution is defined as the change in the heritable characteristics of biological populations over successive generations.",
+  "The theory of evolution by natural selection was conceived independently by Charles Darwin and Alfred Russel Wallace in the mid-19th century.",
+  "The theory was first set out in detail in Darwin's book On the Origin of Species.",
+  "All life on Earth shares a last universal common ancestor (LUCA), which lived approximately 3.5-3.8 billion years ago.",
+  "Mutations are the ultimate source of genetic variation in all organisms.",
+  "About half of the mutations in the coding regions of protein-coding genes are deleterious, and the other half are neutral.",
+  "The two-fold cost of sex was first described by John Maynard Smith.",
+  "The rate of recombination is low, approximately two events per chromosome per generation.",
+  "Horizontal gene transfer is most common among bacteria and contributes to the spread of antibiotic resistance in medicine.",
+  "Genetic drift is the random fluctuation of allele frequencies within a population from one generation to the next.",
+  "Haldane and Fisher argued that mutation is a weak pressure easily overcome by selection, so mutation tendencies would be ineffectual except under neutral evolution or extraordinarily high mutation rates.",
+  "Eugene Odum, a founder of ecology, defined an ecosystem as any unit including all of the organisms in a given area interacting with the physical environment.",
+  "The bacterium Escherichia coli evolved the ability to use citric acid as a nutrient in a long-term laboratory experiment.",
+  "The overwhelming majority of species are microscopic prokaryotes, which form about half the world's biomass.",
+  "Macroevolution is the outcome of long periods of microevolution, so the distinction between them is simply the time involved."
+ ],
+ "entities": [
+  {
+   "name": "Charles Darwin",
+   "type": "person",
+   "role": "co-conceived the theory of evolution by natural selection in the mid-19th century"
+  },
+  {
+   "name": "Alfred Russel Wallace",
+   "type": "person",
+   "role": "co-conceived the theory of evolution by natural selection independently of Darwin"
+  },
+  {
+   "name": "On the Origin of Species",
+   "type": "product",
+   "role": "Darwin's book in which the theory of evolution by natural selection was first set out in detail"
+  },
+  {
+   "name": "John Maynard Smith",
+   "type": "person",
+   "role": "first described the two-fold cost of sex"
+  },
+  {
+   "name": "Eugene Odum",
+   "type": "person",
+   "role": "founder of ecology who defined an ecosystem"
+  },
+  {
+   "name": "Theodosius Dobzhansky",
+   "type": "person",
+   "role": "author of the definitions of adaptation cited in the note"
+  },
+  {
+   "name": "Noboru Sueoka",
+   "type": "person",
+   "role": "proposed with Ernst Freese that systematic mutation biases might explain differences in genomic GC composition"
+  },
+  {
+   "name": "Ernst Freese",
+   "type": "person",
+   "role": "proposed with Noboru Sueoka that systematic mutation biases might explain differences in genomic GC composition"
+  },
+  {
+   "name": "Haldane",
+   "type": "person",
+   "role": "argued with Fisher that mutation is too weak a pressure to be effective except under neutral evolution or very high mutation rates"
+  },
+  {
+   "name": "Fisher",
+   "type": "person",
+   "role": "argued with Haldane that mutation is too weak a pressure to be effective except under neutral evolution or very high mutation rates"
+  },
+  {
+   "name": "Lynch",
+   "type": "person",
+   "role": "proposed a hypothesis regarding genome size that relies on mutational biases toward increase or decrease in genome size"
+  },
+  {
+   "name": "Escherichia coli",
+   "type": "other",
+   "role": "bacterium that evolved the ability to use citric acid as a nutrient in a long-term laboratory experiment"
+  },
+  {
+   "name": "Saccharomyces cerevisiae",
+   "type": "other",
+   "role": "yeast in which horizontal transfer of genes from bacteria has occurred"
+  },
+  {
+   "name": "Callosobruchus chinensis",
+   "type": "other",
+   "role": "adzuki bean weevil in which horizontal transfer of genes from bacteria has occurred"
+  },
+  {
+   "name": "Flavobacterium",
+   "type": "other",
+   "role": "bacterium that evolved a novel enzyme allowing it to grow on by-products of nylon manufacturing"
+  },
+  {
+   "name": "Sphingobium",
+   "type": "other",
+   "role": "soil bacterium that evolved an entirely new metabolic pathway degrading the synthetic pesticide pentachlorophenol"
+  },
+  {
+   "name": "Red Queen hypothesis",
+   "type": "other",
+   "role": "hypothesis used to explain the significance of sexual reproduction for continual adaptation to coevolution"
+  },
+  {
+   "name": "last universal common ancestor (LUCA)",
+   "type": "other",
+   "role": "common ancestor shared by all life on Earth, living approximately 3.5-3.8 billion years ago"
+  }
+ ],
+ "tags": [
+  "evolution",
+  "natural selection",
+  "genetics",
+  "population genetics",
+  "biodiversity"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10302,
+  "output_tokens": 2408
+ }
+}

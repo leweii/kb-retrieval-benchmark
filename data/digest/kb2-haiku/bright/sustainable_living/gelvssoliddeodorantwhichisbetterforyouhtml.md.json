@@ -1,0 +1,68 @@
+{
+ "summary": "A Dove web article comparing gel, solid, spray, and powder deodorants to help readers choose. It explains that deodorants target odor-causing bacteria while antiperspirants block sweat, notes that gels are alcohol-based and can irritate and dry slowly, and recommends specific Dove products for different needs such as sprays, invisible formulas, aluminum-free options, and sensitive skin. The rest of the page is site navigation, related article teasers, and footer boilerplate.",
+ "one_line": "Dove's guide comparing gel, solid, spray and powder deodorants, with notes on drying time, white marks, irritation and product picks.",
+ "key_facts": [
+  "Sweat itself does not smell bad because it is a clear liquid with no odor; odor begins when natural bacteria on the skin break down the sweat.",
+  "Antiperspirants use an active ingredient that creates microscopic gel plugs that physically block sweat, while deodorants only target the bacteria that cause mal-odor.",
+  "Gels are known for taking longer to dry, and the article states that gels are alcohol-based and can cause irritation, especially after shaving.",
+  "Gel deodorants turn white when they dry, just like solid deodorants, and could leave marks on clothes if the wearer needs to dress in a hurry.",
+  "Solids like Dove Advanced Care Antiperspirant Deodorant are described as non-irritating, moisturizing, and drying instantly.",
+  "Dove Advanced Care Sheer Fresh Antiperspirant is described as proven to leave no white marks and is suggested for people in a rush.",
+  "Spray deodorants require no waiting time while they dry and are less likely to leave white marks on clothes.",
+  "Dove Advanced Care Invisible Dry Spray is suggested as an invisible spray option, and Dove 0% Aluminum Deodorant Spray is suggested for those who prefer alu-free products.",
+  "Powder deodorants soak up sweat but usually are not as long-lasting or effective as solids, gels or sprays.",
+  "The article states that powder deodorants contain baking soda, which can be quite aggressive on skin.",
+  "Dove Ultimate Antiperspirant Deodorant is described as a water-based formula enriched with Glycerin, suggested for people with skin sensitivity or irritation.",
+  "Dove Ultimate Antiperspirant Deodorant comes in scents including Jasmine and Vanilla, Coconut and Sandalwood, and Peony and Rose Water.",
+  "The page footer shows the copyright notice '© 2024 Unilever' and states the website is directed only to U.S. consumers."
+ ],
+ "entities": [
+  {
+   "name": "Dove",
+   "type": "product",
+   "role": "brand whose deodorant and antiperspirant products are recommended throughout the article"
+  },
+  {
+   "name": "Dove Advanced Care Antiperspirant Deodorant",
+   "type": "product",
+   "role": "solid deodorant described as non-irritating, moisturizing and instant-drying"
+  },
+  {
+   "name": "Dove Advanced Care Sheer Fresh Antiperspirant",
+   "type": "product",
+   "role": "invisible product described as proven to leave no white marks, suggested for people in a rush"
+  },
+  {
+   "name": "Dove Advanced Care Invisible Dry Spray",
+   "type": "product",
+   "role": "invisible spray deodorant suggested to avoid white marks on clothes"
+  },
+  {
+   "name": "Dove 0% Aluminum Deodorant Spray",
+   "type": "product",
+   "role": "spray suggested for people who prefer an alu-free option"
+  },
+  {
+   "name": "Dove Ultimate Antiperspirant Deodorant",
+   "type": "product",
+   "role": "water-based, Glycerin-enriched formula suggested for sensitive or irritated skin, available in nature-inspired scents"
+  },
+  {
+   "name": "Unilever",
+   "type": "organization",
+   "role": "parent company named in the copyright notice and in the mailing-list text as owner of Dove and other brands"
+  }
+ ],
+ "tags": [
+  "deodorant",
+  "antiperspirant",
+  "personal care",
+  "skin sensitivity",
+  "product comparison"
+ ],
+ "category": "health & psychology",
+ "usage": {
+  "input_tokens": 3125,
+  "output_tokens": 1314
+ }
+}

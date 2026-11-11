@@ -1,0 +1,56 @@
+{
+ "summary": "The note is a short encyclopedia-style entry describing Aegna, an island in Estonia. It states that Aegna lies in the Bay of Tallinn in the Baltic Sea and is administratively part of Tallinn, Estonia's capital. It also notes that the island is a sub-district of the Kesklinn (City center) district.",
+ "one_line": "Aegna is an Estonian island in the Bay of Tallinn, administratively part of Tallinn's Kesklinn district.",
+ "key_facts": [
+  "Aegna is an Estonian island.",
+  "Aegna is located in the Bay of Tallinn in the Baltic Sea.",
+  "Administratively, Aegna is part of the city of Tallinn.",
+  "Tallinn is the capital of Estonia.",
+  "Aegna is a sub district of the Kesklinn (City center) district.",
+  "Kesklinn is described in the note as the City center district."
+ ],
+ "entities": [
+  {
+   "name": "Aegna",
+   "type": "place",
+   "role": "Estonian island in the Bay of Tallinn in the Baltic Sea, administratively part of Tallinn"
+  },
+  {
+   "name": "Bay of Tallinn",
+   "type": "place",
+   "role": "bay in the Baltic Sea where Aegna is located"
+  },
+  {
+   "name": "Baltic Sea",
+   "type": "place",
+   "role": "sea in which the Bay of Tallinn lies"
+  },
+  {
+   "name": "Tallinn",
+   "type": "place",
+   "role": "city and capital of Estonia to which Aegna administratively belongs"
+  },
+  {
+   "name": "Estonia",
+   "type": "place",
+   "role": "country whose capital is Tallinn and where Aegna is an island"
+  },
+  {
+   "name": "Kesklinn",
+   "type": "place",
+   "role": "district (City center) of Tallinn of which Aegna is a sub district"
+  }
+ ],
+ "tags": [
+  "estonia",
+  "islands",
+  "tallinn",
+  "baltic sea",
+  "geography"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1056,
+  "output_tokens": 598
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "summary": "This note is a clipped sidebar table of contents from the Nav2 (Navigation2) documentation, a ROS 2 navigation stack. It lists the site's sections: getting started, development guides, navigation concepts, a first-time robot setup guide, general and plugin tutorials, and a configuration guide. The list is cut off partway through the Behavior Tree XML action nodes, so the note does not contain the body text of any page.",
+ "one_line": "Table-of-contents sidebar from the Nav2 ROS 2 navigation documentation, covering setup guides, tutorials, plugins and configuration.",
+ "key_facts": [
+  "The Nav2 documentation sidebar has top-level sections including Getting Started, Development Guides, Navigation Concepts, First-Time Robot Setup Guide, Robots Using, General Tutorials, Plugin Tutorials and Configuration Guide.",
+  "The Getting Started section has subsections titled Installation, Running the Example and Navigating.",
+  "The Development Guides section includes Build and Install, Dev Containers and Getting Involved, and Build and Install has subsections for Released Distribution Binaries, Rolling Development Source and Docker Container Images.",
+  "The Dev Containers guide has subsections Creating Dev Containers and Using Dev Containers, and the Getting Involved section covers Process, Licensing and the Developer Certification of Origin (DCO).",
+  "The Navigation Concepts section covers Behavior Trees, Navigation Servers, State Estimation, Environmental Representation and a Nav2 Academic Overview.",
+  "The Navigation Servers concept lists Planners, Controllers, Behaviors, Smoothers, Robot Footprints and Waypoint Following.",
+  "The First-Time Robot Setup Guide includes tutorials on Setting Up Transformations, Setting Up The URDF, Setting Up Odometry, Setting Up Sensors, Setting Up the Robot's Footprint and Setting Up Navigation Plugins.",
+  "The Setting Up Odometry guide includes a Robot Localization Demo and a Gazebo odometry simulation section.",
+  "The General Tutorials section includes Navigating with a Physical Turtlebot 3, SLAM navigation, STVL external costmap plugin, GPS localization, Groot behavior tree interaction, VIO odometry with a ZED X Camera, and Dynamic Object Following.",
+  "Other general tutorials cover Keepout Zones, Speed Limits, the Rotation Shim Controller, adding a smoother to a behavior tree, Collision Monitor, adding a new Nav2 task server, filtering noise-induced obstacles, camera calibration, backtraces, profiling and Docker for development.",
+  "The Plugin Tutorials section includes guides for writing a new Costmap2D plugin, Planner plugin, Controller plugin, Behavior Tree plugin, Behavior plugin and Navigator plugin.",
+  "The Costmap2D plugin tutorial builds a GradientLayer plugin, and the planner plugin tutorial runs a StraightLine plugin.",
+  "The controller plugin tutorial runs a Pure Pursuit Controller plugin.",
+  "The Configuration Guide covers the Behavior-Tree Navigator, Behavior Tree XML Nodes and a list of Behavior Tree action plugins such as Wait, Spin, BackUp, FollowPath and NavigateToPose.",
+  "The note is truncated during the Behavior Tree XML action plugin list, at the CancelSpin entry."
+ ],
+ "entities": [
+  {
+   "name": "Nav2",
+   "type": "program",
+   "role": "Navigation stack whose documentation sidebar is clipped in this note"
+  },
+  {
+   "name": "ROS 2",
+   "type": "program",
+   "role": "Robot framework that Nav2 is documented against, with a concept section and a task server tutorial"
+  },
+  {
+   "name": "Turtlebot 3",
+   "type": "product",
+   "role": "Robot used in the tutorial Navigating with a Physical Turtlebot 3"
+  },
+  {
+   "name": "ZED X Camera",
+   "type": "product",
+   "role": "Camera set up in the tutorial Using VIO to Augment Robot Odometry"
+  },
+  {
+   "name": "ZED ROS",
+   "type": "program",
+   "role": "Software package set up in the VIO odometry tutorial"
+  },
+  {
+   "name": "Gazebo",
+   "type": "program",
+   "role": "Simulator used for odometry and sensor simulation tutorials and a GPS tutorial world"
+  },
+  {
+   "name": "Groot",
+   "type": "program",
+   "role": "Tool for interacting with and visualizing behavior trees, covered in a general tutorial"
+  },
+  {
+   "name": "STVL",
+   "type": "program",
+   "role": "External costmap plugin covered in a general tutorial"
+  },
+  {
+   "name": "Robot Localization",
+   "type": "program",
+   "role": "Localization package used in the Robot Localization Demo under Setting Up Odometry"
+  },
+  {
+   "name": "Rotation Shim Controller",
+   "type": "program",
+   "role": "Controller wrapper covered in a general tutorial"
+  },
+  {
+   "name": "Collision Monitor",
+   "type": "program",
+   "role": "Nav2 component covered in a general tutorial on configuring it with VelocityPolygon"
+  },
+  {
+   "name": "Pure Pursuit Controller",
+   "type": "program",
+   "role": "Controller plugin run as the example in the controller plugin tutorial"
+  },
+  {
+   "name": "GradientLayer",
+   "type": "program",
+   "role": "Example Costmap2D plugin built in the costmap plugin tutorial"
+  },
+  {
+   "name": "StraightLine",
+   "type": "program",
+   "role": "Example planner plugin run in the planner plugin tutorial"
+  },
+  {
+   "name": "Docker",
+   "type": "program",
+   "role": "Container platform covered in the development container and Docker tutorials"
+  },
+  {
+   "name": "Developer Certification of Origin (DCO)",
+   "type": "other",
+   "role": "Contribution certification topic listed under Getting Involved"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "navigation",
+  "ros 2",
+  "nav2",
+  "documentation",
+  "robot localization"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15373,
+  "output_tokens": 2293
+ }
+}

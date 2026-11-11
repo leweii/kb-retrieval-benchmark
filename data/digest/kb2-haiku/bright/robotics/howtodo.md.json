@@ -1,0 +1,69 @@
+{
+ "summary": "This is a Gazebo Answers forum page (archived, read-only) for the question \"How to do quadcopter simulation with Gazebo?\" asked March 21, 2018 by user SimulationRookie. The asker has a mathematical quadcopter model and wants to simulate it in Gazebo, controlling individual rotor speeds and logging position and orientation to compare with their model. The accepted-style answer by josephcoombe points to resources (a YouTube video, the hector_quadrotor ROS wiki, and PX4 Gazebo simulation docs) and advises implementing aerodynamic models yourself in a plugin. The page notes the site is deprecated in favor of Robotics Stack Exchange.",
+ "one_line": "Archived Gazebo Answers thread where a user asks how to simulate and control quadcopter rotor speeds in Gazebo, with suggested resources.",
+ "key_facts": [
+  "The Gazebo Answers site (answers.gazebosim.org) was deprecated as of August 11, 2023, and users were directed to robotics.stackexchange.com.",
+  "The site remains online in read-only mode during the transition.",
+  "The question \"How to do quadcopter simulation with Gazebo?\" was asked on Mar 21, 2018.",
+  "The asker, SimulationRookie, is completely new to Gazebo and has developed a mathematical model for a quadcopter.",
+  "The asker wants to control the rotor speeds for the individual motors of a simulated quadcopter.",
+  "The asker wants to log x, y, z, and roll, pitch, yaw information from the simulation to compare with their own model.",
+  "The asker asks whether Gazebo has a ready-made quadcopter model and whether they should write their own plugin to control rotor speed.",
+  "The answer by josephcoombe was posted on Mar 23, 2018 and was updated the same day.",
+  "The answer recommends a YouTube video, the ROS wiki page for hector_quadrotor, and the PX4 Gazebo simulation documentation.",
+  "The answer advises that the user will probably have to implement the aerodynamic models themselves in a Plugin.",
+  "The question had been seen 12,817 times as of the page capture.",
+  "The asker thanked Joseph in a comment dated Mar 24, 2018.",
+  "The related questions list includes topics such as attaching cameras to quadcopter models, aerodynamics plugin parameters, and propeller rotation problems."
+ ],
+ "entities": [
+  {
+   "name": "Gazebo",
+   "type": "program",
+   "role": "robotics simulator in which the user wants to simulate a quadcopter; the site hosting the question is Gazebo Answers"
+  },
+  {
+   "name": "Robotics Stack Exchange",
+   "type": "organization",
+   "role": "site to which users are directed to ask new questions after Gazebo Answers was deprecated"
+  },
+  {
+   "name": "SimulationRookie",
+   "type": "person",
+   "role": "asker of the question, new to Gazebo, who has a mathematical quadcopter model"
+  },
+  {
+   "name": "josephcoombe",
+   "type": "person",
+   "role": "answerer who suggested resources and advised implementing aerodynamic models in a plugin"
+  },
+  {
+   "name": "hector_quadrotor",
+   "type": "program",
+   "role": "ROS quadrotor package recommended as a resource"
+  },
+  {
+   "name": "PX4",
+   "type": "program",
+   "role": "autopilot project whose Gazebo simulation documentation is recommended as a resource"
+  },
+  {
+   "name": "Askbot",
+   "type": "product",
+   "role": "forum software powering the site"
+  }
+ ],
+ "tags": [
+  "gazebo",
+  "quadcopter",
+  "simulation",
+  "plugin",
+  "rotor-control",
+  "robotics-q-and-a"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2097,
+  "output_tokens": 1166
+ }
+}

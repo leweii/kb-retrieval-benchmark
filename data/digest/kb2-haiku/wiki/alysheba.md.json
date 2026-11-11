@@ -1,0 +1,63 @@
+{
+ "summary": "This note is a short encyclopedia-style entry on Alysheba, a bay colt. It describes his parentage, with Alydar as sire and Bel Sheba as dam, and his breeding and sale history. He was bred by Preston Madden at Hamburg Place Farm in Lexington, Kentucky, and sold as a yearling to Dorothy and Pam Scharbauer for $500,000.",
+ "one_line": "Alysheba is a bay racehorse colt bred by Preston Madden in Kentucky and sold as a yearling to the Scharbauers.",
+ "key_facts": [
+  "Alysheba was a bay colt.",
+  "Alysheba was sired by Alydar.",
+  "Alysheba's dam was the mare Bel Sheba.",
+  "Bel Sheba was by Lt. Stevens.",
+  "Alysheba was bred by Preston Madden.",
+  "Alysheba was bred at Hamburg Place Farm in Lexington, Kentucky.",
+  "Alysheba was sold as a yearling to Dorothy and Pam Scharbauer.",
+  "The yearling sale price for Alysheba was $500,000."
+ ],
+ "entities": [
+  {
+   "name": "Alysheba",
+   "type": "product",
+   "role": "bay colt sired by Alydar, subject of the note"
+  },
+  {
+   "name": "Alydar",
+   "type": "other",
+   "role": "sire of Alysheba"
+  },
+  {
+   "name": "Bel Sheba",
+   "type": "other",
+   "role": "mare, dam of Alysheba"
+  },
+  {
+   "name": "Lt. Stevens",
+   "type": "other",
+   "role": "sire of Bel Sheba"
+  },
+  {
+   "name": "Preston Madden",
+   "type": "person",
+   "role": "breeder of Alysheba"
+  },
+  {
+   "name": "Hamburg Place Farm",
+   "type": "organization",
+   "role": "farm in Lexington, Kentucky where Alysheba was bred"
+  },
+  {
+   "name": "Dorothy and Pam Scharbauer",
+   "type": "person",
+   "role": "buyers who purchased Alysheba as a yearling for $500,000"
+  }
+ ],
+ "tags": [
+  "horse racing",
+  "thoroughbred",
+  "bloodlines",
+  "breeding",
+  "kentucky"
+ ],
+ "category": "sports",
+ "usage": {
+  "input_tokens": 1088,
+  "output_tokens": 680
+ }
+}

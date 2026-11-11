@@ -1,0 +1,40 @@
+{
+ "summary": "This note documents the RTRIMMED_LENGTH string function, which returns the length of a string after removing trailing whitespace while keeping leading whitespace. It gives the syntax, a usage note that it is equivalent to ODBC's LENGTH function via the {fn LENGTH(str)} escape, and one example where ' ABCD ' yields 5. The surrounding navigation menus and page chrome are ignored.",
+ "one_line": "Reference entry for the RTRIMMED_LENGTH string function, which measures string length excluding trailing but not leading whitespace.",
+ "key_facts": [
+  "RTRIMMED_LENGTH returns the length of its argument minus trailing whitespace.",
+  "RTRIMMED_LENGTH includes leading whitespace in the length it returns.",
+  "The syntax is RTRIMMED_LENGTH( <string_expr> ).",
+  "The usage note states that RTRIMMED_LENGTH is equivalent to {fn LENGTH(str)} in ODBC.",
+  "The example SELECT RTRIMMED_LENGTH(' ABCD ') returns 5.",
+  "The example input string is ' ABCD ' with one leading space and one trailing space and four letters.",
+  "The function appears under the string functions reference section.",
+  "The page is listed under the category General Manipulation among other categories such as Case Conversion and Collation.",
+  "The example output is displayed in a table with the column header RTRIMMED_LENGTH(' ABCD ').",
+  "The page includes a 'Was this page helpful?' feedback prompt, which is boilerplate."
+ ],
+ "entities": [
+  {
+   "name": "RTRIMMED_LENGTH",
+   "type": "program",
+   "role": "string function that returns the length of its argument minus trailing whitespace, including leading whitespace"
+  },
+  {
+   "name": "ODBC",
+   "type": "program",
+   "role": "database connectivity standard whose LENGTH function is equivalent to RTRIMMED_LENGTH per the usage notes"
+  }
+ ],
+ "tags": [
+  "sql",
+  "string-functions",
+  "whitespace",
+  "reference",
+  "odbc"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1458,
+  "output_tokens": 668
+ }
+}

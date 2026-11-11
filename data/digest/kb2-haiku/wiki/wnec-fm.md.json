@@ -1,0 +1,39 @@
+{
+ "summary": "WNEC-FM is a college radio station broadcasting at 91.7 FM and licensed to Henniker, New Hampshire. The note states that New England College owns the station and that it airs a college radio format. The note is brief and gives no further details on history, programming or coverage.",
+ "one_line": "WNEC-FM is a 91.7 FM college radio station in Henniker, New Hampshire, owned by New England College.",
+ "key_facts": [
+  "WNEC-FM broadcasts at 91.7 FM.",
+  "WNEC-FM is licensed to serve Henniker, New Hampshire.",
+  "The station is owned by New England College.",
+  "WNEC-FM airs a college radio format."
+ ],
+ "entities": [
+  {
+   "name": "WNEC-FM",
+   "type": "organization",
+   "role": "radio station licensed to serve Henniker, New Hampshire, broadcasting at 91.7 FM with a college radio format"
+  },
+  {
+   "name": "Henniker, New Hampshire",
+   "type": "place",
+   "role": "city the station is licensed to serve"
+  },
+  {
+   "name": "New England College",
+   "type": "organization",
+   "role": "owner of WNEC-FM"
+  }
+ ],
+ "tags": [
+  "radio",
+  "college radio",
+  "new hampshire",
+  "broadcasting",
+  "new england college"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1042,
+  "output_tokens": 399
+ }
+}

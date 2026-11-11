@@ -1,0 +1,58 @@
+{
+ "summary": "This Snowflake documentation page describes the SYSTEM$CLASSIFY_SCHEMA stored procedure, a preview feature requiring Enterprise Edition or higher. It stages the tables in a specified schema for Data Classification, optionally setting the number of rows to sample and assigning recommended classification system tags to columns. The page covers syntax, arguments (including sample_count, auto_tag, use_all_custom_classifiers and custom_classifiers), the JSON return format listing failed and succeeded tables, usage notes, and examples; classification must be finished afterward using SQL or Snowsight.",
+ "one_line": "Documents Snowflake's SYSTEM$CLASSIFY_SCHEMA procedure, which stages a schema's tables for Data Classification and optionally auto-tags columns.",
+ "key_facts": [
+  "SYSTEM$CLASSIFY_SCHEMA requires Snowflake Enterprise Edition or higher and is in preview for accounts on that edition.",
+  "The procedure stages the tables in the specified schema to be classified, with an option to specify the number of rows to sample in each table.",
+  "After the stored procedure completes, the user must finish classifying the tables using SQL or Snowsight.",
+  "The sample_count argument accepts any integer from 1 to 10000, inclusive.",
+  "The auto_tag argument set to true sets the recommended classification system tags on the columns when classification completes.",
+  "Using auto_tag requires calling the stored procedure with a role that has the OWNERSHIP privilege on the schema.",
+  "The use_all_custom_classifiers option evaluates all custom classification instances accessible to the calling role, using caller's rights.",
+  "The custom_classifiers option takes a list of custom classification instance names to evaluate as sources for the recommended tag.",
+  "Passing NULL or an empty list {} uses Snowflake's default configuration based on the number of rows, and sets no system tags on columns.",
+  "The procedure returns a JSON object with a 'failed' array (each with a message and table_name) and a 'succeeded' array (each with table_name).",
+  "A schema can contain up to 1000 table objects; if it contains more, Snowflake returns an error message.",
+  "To unset a classification system tag from a column, use ALTER TABLE ... MODIFY COLUMN ... UNSET TAG.",
+  "The object_name argument must be fully qualified if a database and schema are not in use, and must match the stored name exactly, using double quotes inside single quotes for special characters, capitalization, or spaces."
+ ],
+ "entities": [
+  {
+   "name": "SYSTEM$CLASSIFY_SCHEMA",
+   "type": "program",
+   "role": "Stored procedure that stages the tables in a schema for Data Classification and can assign recommended system tags to columns"
+  },
+  {
+   "name": "Snowflake",
+   "type": "organization",
+   "role": "Provider of the data platform whose documentation describes the SYSTEM$CLASSIFY_SCHEMA procedure"
+  },
+  {
+   "name": "Snowsight",
+   "type": "product",
+   "role": "Snowflake interface that can be used to finish classifying tables after the stored procedure completes"
+  },
+  {
+   "name": "Enterprise Edition",
+   "type": "product",
+   "role": "Snowflake edition required to use the SYSTEM$CLASSIFY_SCHEMA feature"
+  },
+  {
+   "name": "Data Classification",
+   "type": "program",
+   "role": "Snowflake feature that classifies tables, for which the procedure stages tables"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "data-classification",
+  "stored-procedures",
+  "data-governance",
+  "sql"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2904,
+  "output_tokens": 1187
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "summary": "This is GitHub issue #283 in the ros-planning/moveit2 repository, titled 'Use new ros2_control interfaces', opened by ShotaAk on Sep 17, 2020. The MoveIt 2 source build failed on Foxy because the fake_joint_driver included hardware_interface/joint_command_handle.hpp, a header removed from ros2_control by PR #134. The discussion covers pinning ros2_control commits as a workaround, the planned API stabilization for Foxy, and migration documentation, and the issue was closed as completed when PR #361 was merged on March 25, 2021.",
+ "one_line": "GitHub issue tracking MoveIt 2 source build failure caused by removed ros2_control joint handle headers, closed by PR #361.",
+ "key_facts": [
+  "GitHub issue #283 in the ros-planning/moveit2 repository was titled 'Use new ros2_control interfaces' and was opened by ShotaAk on Sep 17, 2020.",
+  "The colcon build of MoveIt 2 failed with 'hardware_interface/joint_command_handle.hpp: No such file or directory' in fake_joint_driver.h.",
+  "The reporter used ROS Distro Foxy on Ubuntu 20.04 with a source build.",
+  "The missing file joint_command_handle.hpp was removed by ros-controls/ros2_control PR #134.",
+  "henningkayser responded that ros2_control had recent breaking changes and recommended fixing the commit hash in the repos file until a stable API exists.",
+  "ShotaAk reported that the demo worked after checking out ros2_control at commit 2c3aad1cb8ad4d23925bceeb5c26e22d6cf859ef and ros2_controllers at commit d52902538a970e792ecc604416e22ef90a57f29e.",
+  "destogl said on Sep 20, 2020 that ros2_control was breaking a lot and new interfaces would be fixed in about a month.",
+  "henningkayser created PR #284 on Sep 21, 2020 to temporarily freeze ros2_control branches in the workspace.",
+  "ShotaAk replaced old joint handles of fake_joint_driver with new joint handles in a commit on Sep 25, 2020 and opened JafarAbdi/fake_joint PR #4 'Use new joint handles'.",
+  "bmagyar said on Sep 26, 2020 that upcoming ros2_control changes might break API/ABI multiple times, so a fixed version was recommended.",
+  "destogl announced on Dec 12, 2020 that the ros2_control API had been fixed for Foxy.",
+  "On Jan 5, 2021 destogl published short documentation in ros-controls/roadmap PR #36 including 'Differences to ros_control (ROS1)' and 'Migration Guide to ros2_control'.",
+  "The issue was closed as completed by henningkayser on Mar 25, 2021 after PR #361 'Use fake_components::GenericSystem from ros2_control' was merged.",
+  "The issue was assigned to JafarAbdi and labeled bug, with 245 open issues at the time the page was captured."
+ ],
+ "entities": [
+  {
+   "name": "ShotaAk",
+   "type": "person",
+   "role": "Opened issue #283 and reported the colcon build failure; contributor who worked on the CRANE+V2 robot project"
+  },
+  {
+   "name": "henningkayser",
+   "type": "person",
+   "role": "MoveIt member who responded to the issue, created PR #284 to freeze ros2_control commits, and closed the issue after PR #361"
+  },
+  {
+   "name": "destogl",
+   "type": "person",
+   "role": "ros2_control contributor who announced the Foxy API fix and wrote migration documentation"
+  },
+  {
+   "name": "bmagyar",
+   "type": "person",
+   "role": "MoveIt member who warned that upcoming ros2_control changes could break API/ABI"
+  },
+  {
+   "name": "JafarAbdi",
+   "type": "person",
+   "role": "Assignee of issue #283 who self-assigned it on Sep 22, 2020"
+  },
+  {
+   "name": "yongxf",
+   "type": "person",
+   "role": "Commenter who reported encountering the same joint_command_handle.hpp issue"
+  },
+  {
+   "name": "ros-planning/moveit2",
+   "type": "organization",
+   "role": "GitHub repository in which issue #283 was filed"
+  },
+  {
+   "name": "ros2_control",
+   "type": "program",
+   "role": "Robot control framework whose removal of joint_command_handle.hpp caused the build failure"
+  },
+  {
+   "name": "fake_joint_driver",
+   "type": "program",
+   "role": "Package in the fake_joint workspace whose header included the removed hardware_interface file and failed to compile"
+  },
+  {
+   "name": "ros-controls/ros2_control PR #134",
+   "type": "event",
+   "role": "Change that removed the file joint_command_handle.hpp and caused the build error"
+  },
+  {
+   "name": "PR #361",
+   "type": "event",
+   "role": "Pull request 'Use fake_components::GenericSystem from ros2_control' that was merged and closed issue #283 on Mar 25, 2021"
+  },
+  {
+   "name": "Foxy",
+   "type": "product",
+   "role": "ROS 2 distribution used by the reporter, for which the ros2_control API was fixed in December 2020"
+  },
+  {
+   "name": "CRANE+V2",
+   "type": "product",
+   "role": "Robot that ShotaAk was trying to migrate to the new ros2_control API"
+  }
+ ],
+ "tags": [
+  "ros2_control",
+  "moveit2",
+  "ros2",
+  "build-failure",
+  "api-migration",
+  "foxy"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 10560,
+  "output_tokens": 1761
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "summary": "This is a Snowflake documentation page for the GET_QUERY_OPERATOR_STATS table function, which returns per-operator statistics for a completed query executed in the past 14 days. It explains the function's syntax, usage requirements (OPERATE or MONITOR privilege on the warehouse), the list of operator types, and the output columns including OPERATOR_STATISTICS, EXECUTION_TIME_BREAKDOWN and OPERATOR_ATTRIBUTES. It is useful for finding costly operators such as joins with exploding row counts. The page ends with an example joining two small tables and showing the resulting operator rows.",
+ "one_line": "Snowflake reference for the GET_QUERY_OPERATOR_STATS function, which returns per-operator performance statistics for completed queries from the past 14 days.",
+ "key_facts": [
+  "GET_QUERY_OPERATOR_STATS returns statistics about individual query operators within a query that has completed.",
+  "The function can be run for any completed query that was executed in the past 14 days.",
+  "The function's syntax is GET_QUERY_OPERATOR_STATS( <query_id> ), where query_id is a string literal.",
+  "Only queries that have completed return statistics from this function.",
+  "The caller must have OPERATE or MONITOR privileges on the warehouse where the query ran.",
+  "The function makes the same information as the Query Profile tab in Snowsight available programmatically.",
+  "Possible operators include Aggregate, CartesianJoin, Filter, Join, Sort, SortWithLimit, TableScan, UnionAll, WindowFunction and WithClause, among others.",
+  "For a specific query execution (UUID), the function is deterministic and returns the same values each time.",
+  "Runtime statistics can differ across executions of the same query text, depending on data volume, cached data and virtual warehouse size.",
+  "Output columns are QUERY_ID, STEP_ID, OPERATOR_ID, PARENT_OPERATORS, OPERATOR_TYPE, OPERATOR_STATISTICS, EXECUTION_TIME_BREAKDOWN and OPERATOR_ATTRIBUTES.",
+  "The example usage is select * from table(get_query_operator_stats(last_query_id())).",
+  "In the example, the query joining tables X1 and X2 produced a Join operator with input_rows 128 and output_rows 64 and equality condition (X2.I = X1.I).",
+  "The EXECUTION_TIME_BREAKDOWN keys include overall_percentage, initialization, processing, synchronization, local_disk_io, remote_disk_io and network_communication.",
+  "Joins whose output rows exceed input rows can indicate an exploding join, such as an unintended Cartesian product."
+ ],
+ "entities": [
+  {
+   "name": "GET_QUERY_OPERATOR_STATS",
+   "type": "program",
+   "role": "Snowflake table function described on this page that returns per-operator statistics for a completed query"
+  },
+  {
+   "name": "Snowsight",
+   "type": "product",
+   "role": "Snowflake web interface whose Query Profile tab shows the same information as this function"
+  },
+  {
+   "name": "Query Profile",
+   "type": "product",
+   "role": "Snowsight tab that displays query operator information, which this function exposes programmatically"
+  },
+  {
+   "name": "OPERATE or MONITOR privileges",
+   "type": "other",
+   "role": "Privileges required on the warehouse where the query was run in order to use the function"
+  },
+  {
+   "name": "LAST_QUERY_ID",
+   "type": "program",
+   "role": "Function used in the usage example to retrieve the ID of the most recent query"
+  },
+  {
+   "name": "X1 and X2",
+   "type": "other",
+   "role": "Two small tables joined in the example query to demonstrate the function output"
+  },
+  {
+   "name": "MY_DB.MY_SCHEMA.X1 and MY_DB.MY_SCHEMA.X2",
+   "type": "other",
+   "role": "Fully qualified table names scanned by TableScan operators in the example output"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "query-performance",
+  "query-profile",
+  "sql-functions",
+  "database-monitoring"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 11765,
+  "output_tokens": 1315
+ }
+}

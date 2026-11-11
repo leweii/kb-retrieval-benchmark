@@ -1,0 +1,65 @@
+{
+ "summary": "This note is a Snowflake SQL reference page for the DROP ICEBERG TABLE command, which removes an Iceberg table from the current or specified schema. It covers the syntax, the name parameter, CASCADE and RESTRICT foreign key behavior, the required access privileges, usage notes about purging and recreating tables and views that depend on them, and two examples. Some text in the clipped page is garbled, so details such as the exact retention wording are partly lost.",
+ "one_line": "Snowflake reference for the DROP ICEBERG TABLE command, covering syntax, foreign key options, privileges, and usage notes.",
+ "key_facts": [
+  "DROP ICEBERG TABLE is available to all accounts.",
+  "The syntax is DROP [ ICEBERG ] TABLE [ IF EXISTS ] <name> [ CASCADE | RESTRICT ].",
+  "If the table identifier is not fully-qualified, the command looks for the table in the current schema for the session.",
+  "Identifiers containing spaces, special characters, or mixed-case characters must be enclosed in double quotes and are case-sensitive.",
+  "CASCADE drops the table even if primary/unique keys in it are referenced by foreign keys in other tables.",
+  "RESTRICT returns a warning about existing foreign key references and does not drop the table.",
+  "The default for the foreign key option is CASCADE.",
+  "Dropping an Iceberg table requires the OWNERSHIP privilege on the Iceberg table.",
+  "Using an Iceberg table that uses a catalog integration also requires the USAGE privilege on the integration (catalog).",
+  "Operating on any object in a schema requires the USAGE privilege on the parent database and schema.",
+  "After a dropped table has been purged, it cannot be recovered and must be recreated.",
+  "Creating a table with the same name as a dropped table creates a new version of the table.",
+  "Before dropping a table, one should verify that no views reference the table, because dropping it invalidates those views.",
+  "Running DROP ICEBERG TABLE IF EXISTS on a missing table does not raise an error and returns the message 'Drop statement executed successfully (T2 already dropped).'"
+ ],
+ "entities": [
+  {
+   "name": "DROP ICEBERG TABLE",
+   "type": "program",
+   "role": "SQL command documented on this page that drops an Iceberg table from a schema"
+  },
+  {
+   "name": "Iceberg table",
+   "type": "product",
+   "role": "table object type that the command drops; referred to as simply 'tables' in the topic"
+  },
+  {
+   "name": "OWNERSHIP",
+   "type": "other",
+   "role": "special privilege on an Iceberg table, automatically granted to the role that created it and transferable"
+  },
+  {
+   "name": "External volume",
+   "type": "product",
+   "role": "object on which USAGE privilege is required for dropping an Iceberg table"
+  },
+  {
+   "name": "Integration (catalog)",
+   "type": "product",
+   "role": "catalog integration whose USAGE privilege is required if the Iceberg table uses one"
+  },
+  {
+   "name": "MANAGE GRANTS",
+   "type": "other",
+   "role": "privilege held by a role that can transfer OWNERSHIP of an object"
+  }
+ ],
+ "tags": [
+  "snowflake",
+  "sql",
+  "iceberg",
+  "drop-table",
+  "access-control",
+  "foreign-keys"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2490,
+  "output_tokens": 1042
+ }
+}

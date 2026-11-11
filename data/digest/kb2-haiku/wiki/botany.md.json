@@ -1,0 +1,111 @@
+{
+ "summary": "This note, based on the Wikipedia article on botany, covers how plant science uses model organisms and how plant-derived materials are used commercially. It describes model plants and algae chosen for small genomes, short generation times, and chloroplast study, and lists commercially important plant materials and their secondary products. It also notes cellulose-based products and biofuel crops as alternatives to fossil fuels.",
+ "one_line": "Overview of botany's model organisms and the commercial materials, cellulose products, and biofuels derived from plants.",
+ "key_facts": [
+  "Arabidopsis thaliana is a model plant used for studying the molecular biology of plant cells and the chloroplast.",
+  "Ideal model organisms have small genomes that are well known or completely sequenced, small stature and short generation times.",
+  "Corn has been used to study mechanisms of photosynthesis and phloem loading of sugar in C4 plants.",
+  "The single celled green alga Chlamydomonas reinhardtii is not an embryophyte but contains a green-pigmented chloroplast related to that of land plants.",
+  "The red alga Cyanidioschyzon merolae has been used to study some basic chloroplast functions.",
+  "Spinach, peas, soybeans and the moss Physcomitrella patens are commonly used to study plant cell biology.",
+  "Sugar, starch, cotton, linen, hemp, some types of rope, wood and particle boards, papyrus and paper, vegetable oils, wax, and natural rubber are commercially important materials made from plant tissues or their secondary products.",
+  "Charcoal is a pure form of carbon made by pyrolysis of wood.",
+  "Charcoal has a long history as a metal-smelting fuel, as a filter material and adsorbent, and as an artist's material.",
+  "Charcoal is one of the three ingredients of gunpowder.",
+  "Cellulose is described as the world's most abundant organic polymer.",
+  "Cellulose can be converted into energy, fuels, materials and chemical feedstock.",
+  "Products made from cellulose include rayon and cellophane, wallpaper paste, biobutanol and gun cotton.",
+  "Sugarcane, rapeseed and soy are plants with a highly fermentable sugar or oil content used as sources of biofuels.",
+  "Biofuels such as biodiesel are described as important alternatives to fossil fuels."
+ ],
+ "entities": [
+  {
+   "name": "Arabidopsis thaliana",
+   "type": "other",
+   "role": "model plant used for studying the molecular biology of plant cells and the chloroplast"
+  },
+  {
+   "name": "Corn",
+   "type": "other",
+   "role": "plant used to study photosynthesis mechanisms and phloem loading of sugar in C4 plants"
+  },
+  {
+   "name": "Chlamydomonas reinhardtii",
+   "type": "other",
+   "role": "single celled green alga containing a green-pigmented chloroplast related to land plants"
+  },
+  {
+   "name": "Cyanidioschyzon merolae",
+   "type": "other",
+   "role": "red alga used to study some basic chloroplast functions"
+  },
+  {
+   "name": "Physcomitrella patens",
+   "type": "other",
+   "role": "moss commonly used to study plant cell biology"
+  },
+  {
+   "name": "Charcoal",
+   "type": "product",
+   "role": "pure form of carbon made by pyrolysis of wood, used as metal-smelting fuel, filter material, adsorbent, artist's material and gunpowder ingredient"
+  },
+  {
+   "name": "Cellulose",
+   "type": "product",
+   "role": "the world's most abundant organic polymer, convertible into energy, fuels, materials and chemical feedstock"
+  },
+  {
+   "name": "Rayon",
+   "type": "product",
+   "role": "product made from cellulose"
+  },
+  {
+   "name": "Cellophane",
+   "type": "product",
+   "role": "product made from cellulose"
+  },
+  {
+   "name": "Gun cotton",
+   "type": "product",
+   "role": "product made from cellulose"
+  },
+  {
+   "name": "Biobutanol",
+   "type": "product",
+   "role": "product made from cellulose"
+  },
+  {
+   "name": "Biodiesel",
+   "type": "product",
+   "role": "biofuel described as an important alternative to fossil fuels"
+  },
+  {
+   "name": "Sugarcane",
+   "type": "other",
+   "role": "plant with highly fermentable sugar content used as a biofuel source"
+  },
+  {
+   "name": "Rapeseed",
+   "type": "other",
+   "role": "plant with highly fermentable oil content used as a biofuel source"
+  },
+  {
+   "name": "Soy",
+   "type": "other",
+   "role": "plant with highly fermentable sugar or oil content used as a biofuel source"
+  }
+ ],
+ "tags": [
+  "botany",
+  "plant biology",
+  "model organisms",
+  "biofuels",
+  "cellulose",
+  "plant materials"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 1533,
+  "output_tokens": 1458
+ }
+}

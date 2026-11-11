@@ -1,0 +1,115 @@
+{
+ "summary": "This Nature article (2009) reports that microorganisms can anticipate environmental changes by adapting to the natural temporal order of stimuli, a behavior it calls asymmetric anticipatory regulation. Experiments in E. coli (lactose followed by maltose) and S. cerevisiae (heat shock and ethanol followed by oxidative stress, as in wine production and the diauxic shift) show that pre-exposure to the early stimulus improves fitness or survival under the later one, with directionality matching the natural order. The authors argue the trait is adaptive and may be widespread in biology.",
+ "one_line": "Nature study showing E. coli and yeast anticipate later environmental stresses by responding to the natural order of earlier stimuli, an adaptive asymmetric regulation strategy.",
+ "key_facts": [
+  "The study was published in Nature, Vol 460, 9 July 2009, doi:10.1038/nature08112.",
+  "Asymmetric anticipatory regulation means the stimulus that usually appears first activates both responses, while the later stimulus induces only its own response.",
+  "In E. coli, the natural intestinal order is exposure to lactose before maltose.",
+  "Wild-type E. coli showed a fitness advantage when growth on maltose was preceded by growth on lactose, but pre-exposure to maltose before lactose did not improve fitness.",
+  "Galactose and sucrose could not substitute for lactose as a preceding signal before maltose.",
+  "Three laboratory-evolved E. coli lineages grown for 500 generations on lactose without maltose lost the maltose operon response to lactose.",
+  "In the evolved E. coli strain, the fitness advantage from lactose pre-exposure was lost, showing extinction of the conditioned response.",
+  "In S. cerevisiae, heat shock and ethanol accumulation precede oxidative stress in the wine production ecology, so cross-protection was expected in that direction.",
+  "The heat shock followed by oxidative stress pair showed the strongest cross-protection phenotype among the stress pairs tested.",
+  "A cluster of 300 genes with the desired expression profile was found, showing significant overlap with genes essential in oxidative stress but not heat shock (P = 0.013).",
+  "Of 29 yeast deletion strains tested, 65% showed increased sensitivity to oxidative stress, while none showed significantly increased sensitivity to heat shock.",
+  "The authors' phenomenological equation is DF = p(B(Dt) - C(Dt)) - (1 - p)(C(tS1)), where DF is the fitness difference between anticipating and direct-regulation cells.",
+  "E. coli strain MG1655 was used for most experiments, and S. cerevisiae strain BY4741 was used in all yeast experiments.",
+  "The authors conclude that anticipation is an adaptive trait that was repeatedly selected for during evolution and may be ubiquitous in biology."
+ ],
+ "entities": [
+  {
+   "name": "Escherichia coli",
+   "type": "other",
+   "role": "prokaryotic model microorganism studied for anticipation of lactose followed by maltose"
+  },
+  {
+   "name": "Saccharomyces cerevisiae",
+   "type": "other",
+   "role": "eukaryotic model yeast studied for cross-protection between heat shock, ethanol and oxidative stress"
+  },
+  {
+   "name": "Weizmann Institute of Science",
+   "type": "organization",
+   "role": "affiliation of authors from the Department of Molecular Genetics and Department of Molecular Cell Biology"
+  },
+  {
+   "name": "Tel Aviv University",
+   "type": "organization",
+   "role": "affiliation of the Department of Molecular Microbiology and Biotechnology authors"
+  },
+  {
+   "name": "Harvard Medical School",
+   "type": "organization",
+   "role": "affiliation of the Department of Systems Biology, where Yitzhak Pilpel is also based"
+  },
+  {
+   "name": "Amir Mitchell",
+   "type": "person",
+   "role": "first author who raised the original idea and performed all the experiments"
+  },
+  {
+   "name": "Yitzhak Pilpel",
+   "type": "person",
+   "role": "corresponding author who designed experiments, supervised the project and wrote the manuscript"
+  },
+  {
+   "name": "Orna Dahan",
+   "type": "person",
+   "role": "corresponding author who designed experiments, supervised the project and wrote the manuscript"
+  },
+  {
+   "name": "Martin Kupiec",
+   "type": "person",
+   "role": "author who analysed the data"
+  },
+  {
+   "name": "Erez Dekel",
+   "type": "person",
+   "role": "author who evolved the E. coli strain"
+  },
+  {
+   "name": "Tagkopoulos, I., Liu, Y. C. & Tavazoie, S.",
+   "type": "other",
+   "role": "authors of the 2008 Science study that discovered anticipatory regulation in E. coli temperature and oxygen"
+  },
+  {
+   "name": "Pavlovian conditioning",
+   "type": "event",
+   "role": "classical conditioning paradigm used as the analogy for environmental change anticipation"
+  },
+  {
+   "name": "Diauxic shift",
+   "type": "event",
+   "role": "exhaustion of fermentable sugars and switch to oxidative respiration in yeast"
+  },
+  {
+   "name": "Saccharomyces Genome Deletion Project",
+   "type": "program",
+   "role": "source of the yeast deletion strains used in the study"
+  },
+  {
+   "name": "Gene Ontology",
+   "type": "program",
+   "role": "annotation resource used for functional enrichment analysis of the gene cluster"
+  },
+  {
+   "name": "Proteome database",
+   "type": "program",
+   "role": "literature annotation source identifying genes essential in oxidative stress but not heat shock"
+  }
+ ],
+ "tags": [
+  "microbiology",
+  "anticipatory regulation",
+  "conditioned response",
+  "e. coli",
+  "yeast stress response",
+  "evolution"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 12670,
+  "output_tokens": 1821
+ }
+}
