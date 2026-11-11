@@ -20,11 +20,18 @@ LINKS = {
 }
 
 
+STATS = ROOT / "report/corpus_stats.json"  # document counts per scale, kept so the report builds without corpora/
+
+
 def counts(memorized: set[str]) -> dict:
     docs = {}
-    for s in SCALES:
-        c = Counter(json.loads(l)["source"] for l in (ROOT / f"corpora/kb2/S{s}/docs.jsonl").read_text().splitlines())
-        docs[s] = c
+    if (ROOT / "corpora/kb2/S300/docs.jsonl").exists():
+        for s in SCALES:
+            docs[s] = Counter(json.loads(l)["source"]
+                              for l in (ROOT / f"corpora/kb2/S{s}/docs.jsonl").read_text().splitlines())
+        STATS.write_text(json.dumps({str(s): dict(c) for s, c in docs.items()}, indent=1))
+    else:
+        docs = {int(s): Counter(c) for s, c in json.loads(STATS.read_text()).items()}
     qs = [json.loads(l) for l in (ROOT / "questions_v2/questions.jsonl").read_text().splitlines()]
     live = [q for q in qs if not q["excluded"]]
     per = {cat: {s: sum(1 for q in live if q["category"] == cat and s in q.get("valid_scales", q["scales"])) for s in SCALES}
