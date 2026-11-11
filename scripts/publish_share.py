@@ -84,6 +84,9 @@ def build_posts(cfg: dict, fallback_count: int) -> list[dict]:
         n = (int(hashlib.md5(post["slug"].encode()).hexdigest(), 16) % fallback_count) + 1  # share-site's rule
         share_img = f"{cfg['site_url']}/assets/fallback/{n}-cover.jpg"
         page = (ROOT / post["src"]).read_text(encoding="utf-8")
+        # language-switch link: local file name -> the other post on the share site
+        for other in POSTS:
+            page = page.replace(f'href="{other["src"]}"', f'href="/{other["slug"]}/"')
         title_tag = page[page.index("<title>"): page.index("</title>") + len("</title>")]
         page = page.replace(title_tag, f"<title>{html.escape(post['title'])}</title>\n"
                             + head_tags(post, cfg, share_img, LIVE_FALLBACK_SIZE[n]), 1)
