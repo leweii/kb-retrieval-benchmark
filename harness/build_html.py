@@ -17,6 +17,9 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "harness"))
 sys.path.insert(0, str(ROOT))
 from build_report import CONFIGS, MODEL_LABEL, MODELS, SCALES, TOTAL_PER_SCALE, Data, recommend  # noqa: E402
+from report_appendix import appendix_html  # noqa: E402
+
+MEMORIZED: set[str] = set()  # filled by collect(); used by the appendix
 
 
 CONFIG_EN = {
@@ -91,12 +94,14 @@ def render_html(data: dict, lang: str) -> str:
     for k, v in S.items():
         if k != "js":
             html = html.replace("{{" + k + "}}", str(v))
+    html = html.replace("{{appendix}}", appendix_html(lang, MEMORIZED, data["judged"]))
     return (html.replace("__DATA__", json.dumps(localize(data, lang), ensure_ascii=False))
                 .replace("__T__", json.dumps(S["js"], ensure_ascii=False)))
 
 
 def collect() -> dict:
     d = Data()
+    MEMORIZED.update(d.memorized)
     cells = []
     for s in SCALES:
         for mode, cfg, label in CONFIGS:
@@ -154,15 +159,15 @@ svg text{fill:var(--text-secondary);font-size:11.5px}svg .ax{fill:var(--text-mut
 #tip{position:fixed;pointer-events:none;background:var(--surface-1);border:1px solid var(--grid);border-radius:6px;padding:7px 9px;font-size:12px;
  box-shadow:0 2px 10px rgba(0,0,0,.12);display:none;z-index:9;max-width:280px}#tip .t{font-weight:600;margin-bottom:3px}
 table{border-collapse:collapse;width:100%;font-size:12.5px}th,td{padding:5px 8px;border-bottom:1px solid var(--grid);text-align:right;white-space:nowrap}
-th{color:var(--text-secondary);font-weight:600;position:sticky;top:44px;background:var(--surface-1)}td:first-child,th:first-child,td:nth-child(2),th:nth-child(2){text-align:left}
+#tbl th{position:sticky;top:44px}th{color:var(--text-secondary);font-weight:600;background:var(--surface-1)}td:first-child,th:first-child,td:nth-child(2),th:nth-child(2){text-align:left}
 td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
 /* rows tinted by model; hover deepens; .hl = linked from a chart point */
-tbody tr{--rowc:var(--s1);cursor:default}
-tbody tr.m-haiku{--rowc:var(--s1)}tbody tr.m-sonnet{--rowc:var(--s2)}tbody tr.m-deepseek{--rowc:var(--s3)}
-tbody td{background:color-mix(in srgb,var(--rowc) 7%,transparent);transition:background-color .12s}
-tbody tr:hover td{background:color-mix(in srgb,var(--rowc) 17%,transparent)}
-tbody tr.hl td{background:color-mix(in srgb,var(--rowc) 28%,transparent)}
-tbody tr.hl td:first-child,tbody tr:hover td:first-child{box-shadow:inset 3px 0 0 var(--rowc)}
+#tbl tbody tr{--rowc:var(--s1);cursor:default}
+#tbl tbody tr.m-haiku{--rowc:var(--s1)}#tbl tbody tr.m-sonnet{--rowc:var(--s2)}#tbl tbody tr.m-deepseek{--rowc:var(--s3)}
+#tbl tbody td{background:color-mix(in srgb,var(--rowc) 7%,transparent);transition:background-color .12s}
+#tbl tbody tr:hover td{background:color-mix(in srgb,var(--rowc) 17%,transparent)}
+#tbl tbody tr.hl td{background:color-mix(in srgb,var(--rowc) 28%,transparent)}
+#tbl tbody tr.hl td:first-child,#tbl tbody tr:hover td:first-child{box-shadow:inset 3px 0 0 var(--rowc)}
 /* table model filter: toggle chips */
 .tfilter{display:flex;gap:8px;align-items:center;margin:0 0 10px;flex-wrap:wrap}
 .tfilter .lbl{color:var(--text-muted);font-size:12px;margin-right:2px}
@@ -175,6 +180,12 @@ tbody tr.hl td:first-child,tbody tr:hover td:first-child{box-shadow:inset 3px 0 
 /* chart points: linked highlight from table rows / other charts */
 .pt{cursor:pointer}.pt .mark{transition:r .12s,stroke .12s}
 .pt.hl .mark{r:8px;stroke:var(--text-primary);stroke-width:2px}
+/* appendix */
+.appx{margin-top:40px;border-top:1px solid var(--grid);padding-top:8px;font-size:13px;color:var(--text-secondary)}
+.appx h3{font-size:14px;color:var(--text-primary);margin:22px 0 8px}.appx h4{font-size:13px;color:var(--text-primary);margin:14px 0 6px}
+.appx table{font-size:12.5px;margin:4px 0 8px}.appx td,.appx th{white-space:normal;text-align:left;vertical-align:top}
+.appx td.num,.appx th.num{text-align:right;white-space:nowrap}.appx ul{margin:4px 0 8px;padding-left:20px}.appx li{margin:2px 0}
+.appx a{color:var(--s1)}.appx code{font-size:12px;background:var(--surface-2);padding:0 4px;border-radius:3px}
 @media (max-width:900px){.grid2,.recs{grid-template-columns:1fr}}
 </style></head>
 <body><div class="viz-root">
@@ -195,6 +206,7 @@ tbody tr.hl td:first-child,tbody tr:hover td:first-child{box-shadow:inset 3px 0 
  <div class="panel"><h3>{{lat_t}}</h3><div class="sub">{{lat_s}}</div><div id="p-lat"></div></div>
 </div>
 <h2>{{table_h}}</h2><div class="tfilter" id="tfilter"></div><div id="tbl"></div>
+{{appendix}}
 <div id="tip"></div>
 </div>
 <script>
