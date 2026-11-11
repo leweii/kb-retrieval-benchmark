@@ -1,0 +1,17 @@
+{
+ "musique_unans-869ffcacb0": {
+  "scales": "all",
+  "reason": "The knowledge base says Bansaan lies off the coast of Bohol Island (wiki/bansaan.md); 'Bohol Island' is a substantive, document-supported answer to 'located at which island?', so the question is not unanswerable. 91-100% of runs answered.",
+  "decided_by": "human review (empirical flag / review report)"
+ },
+ "musique_unans-c734960aca": {
+  "scales": "all",
+  "reason": "Removed hop: Wittenberg -> Saxony-Anhalt. Which German state a city is in is the kind of general-knowledge connection the answering rules allow, so the question stays answerable. 64-91% of runs answered.",
+  "decided_by": "human review (empirical flag / review report)"
+ },
+ "musique_unans-596c3e8981": {
+  "scales": "all",
+  "reason": "Removed hop: Osiris -> part of ancient Egyptian religion. The question already says 'in ancient Egypt', so the answer follows from the question plus wiki/green.md (Osiris as ruler of the underworld in Egyptian painting).",
+  "decided_by": "human review (empirical flag / review report)"
+ }
+}

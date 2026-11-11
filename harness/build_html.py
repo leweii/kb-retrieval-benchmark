@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "harness"))
 sys.path.insert(0, str(ROOT))
 from build_report import CONFIGS, MODEL_LABEL, MODELS, SCALES, TOTAL_PER_SCALE, Data, recommend  # noqa: E402
+from stats import significance, threshold_sensitivity  # noqa: E402
 from report_appendix import appendix_html  # noqa: E402
 
 MEMORIZED: set[str] = set()  # filled by collect(); used by the appendix
@@ -110,13 +111,34 @@ def localize(data: dict, lang: str) -> dict:
     return out
 
 
+def label(cell: tuple, lang: str) -> str:
+    """('deepseek', 'A1', 'R1_grep') -> 'DeepSeek V4.1 Flash · 智能体 · grep' in the target language."""
+    m, mode, cfg = cell
+    lab = next(l for mo, c, l in CONFIGS if (mo, c) == (mode, cfg))
+    return f"{MODEL_LABEL[m]} · {CONFIG_EN.get(lab, lab) if lang == 'en' else lab}"
+
+
+def robustness(d: Data) -> dict:
+    """Significance tests, refusal-threshold sensitivity and step-cap rates for the appendix."""
+    cap = {}
+    for m in MODELS:
+        runs = [r for (mm, mode, cfg, s), rs in d.g_raw.items() if mm == m and mode == "A1" for r in rs]
+        cap[MODEL_LABEL[m]] = sum(r["steps"] >= 13 for r in runs) / len(runs) if runs else 0.0
+    return {"sig": significance(d), "sens": threshold_sensitivity(d, recommend), "cap": cap}
+
+
 def render_html(data: dict, lang: str) -> str:
     S = STRINGS[lang]
     html = HTML
     for k, v in S.items():
         if k != "js":
             html = html.replace("{{" + k + "}}", str(v))
-    html = html.replace("{{appendix}}", appendix_html(lang, MEMORIZED, data["judged"]))
+    rob = dict(data["robustness"])
+    rob["sig"] = [{**r, "a_label": label(r["a"], lang), "b_label": label(r["b"], lang)} for r in rob["sig"]]
+    rob["sens"] = {s: {t: (x and (MODEL_LABEL[x[0]], CONFIG_EN.get(x[1], x[1]) if lang == "en" else x[1], x[2]))
+                       for t, x in v.items()} for s, v in rob["sens"].items()}
+    html = html.replace("{{appendix}}", appendix_html(lang, MEMORIZED, data["judged"], rob))
+    data = {k: v for k, v in data.items() if k != "robustness"}  # appendix only; keep it out of the page data
     return (html.replace("__DATA__", json.dumps(localize(data, lang), ensure_ascii=False))
                 .replace("__T__", json.dumps(S["js"], ensure_ascii=False)))
 
@@ -150,7 +172,7 @@ def collect() -> dict:
     method = {"R1_grep": "grep", "R2_bm25": "bm25", "R3_hybrid": "hybrid", "R4_enhanced": "enhanced", "R5_wiki_nav": "nav", "R6_wiki_hybrid": "hybrid"}
     meta = [{"label": label, "mode": mode, "method": method[cfg], "wiki": "wiki" if cfg.startswith(("R5", "R6")) else "raw"}
             for mode, cfg, label in CONFIGS]
-    return {"cells": cells, "recs": recs, "configs": [c[2] for c in CONFIGS], "config_meta": meta, "models": MODELS,
+    return {"robustness": robustness(d), "cells": cells, "recs": recs, "configs": [c[2] for c in CONFIGS], "config_meta": meta, "models": MODELS,
             "labels": MODEL_LABEL, "scales": SCALES, "judged": judged, "expected": expected,
             "generated": f"{datetime.now():%Y-%m-%d %H:%M}"}
 

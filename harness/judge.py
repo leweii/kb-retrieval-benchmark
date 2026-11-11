@@ -9,6 +9,7 @@ answerable + abstained = false refusal. BRIGHT answers are long-form and only gr
 
   uv run python -I harness/judge.py results/pilot_haiku.jsonl     -> results/pilot_haiku.judged.jsonl
 Cached per (record key) in the output file; rerun grades only new records.
+  --regrade QID,QID,...  re-grade those questions' records (after their reference/aliases changed)
 """
 
 from __future__ import annotations
@@ -144,9 +145,18 @@ def batch_grade(todo: list[dict], qs: dict, out: Path, write) -> float:
 if __name__ == "__main__":
     args = sys.argv[1:]
     use_batch = "--batch" in args
+    regrade = set()
+    if "--regrade" in args:  # comma-separated qids: drop their judged records first, then grade them again
+        i = args.index("--regrade")
+        regrade = set(args[i + 1].split(","))
+        args = args[:i] + args[i + 2:]
     src = Path([a for a in args if a != "--batch"][0])
     out = src.with_suffix(".judged.jsonl")
     qs = {q["qid"]: q for q in map(json.loads, QFILE.read_text().splitlines())}
+    if regrade and out.exists():
+        keep = [l for l in out.read_text().splitlines() if json.loads(l)["qid"] not in regrade]
+        print(f"regrade: dropped {len(out.read_text().splitlines()) - len(keep)} judged records")
+        out.write_text("".join(l + "\n" for l in keep))
     done = {key(r) for r in map(json.loads, out.read_text().splitlines())} if out.exists() else set()
     todo = [r for r in map(json.loads, src.read_text().splitlines()) if key(r) not in done and r["qid"] in qs]
     lock = threading.Lock()

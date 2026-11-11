@@ -1,14 +1,22 @@
 # KB Baseline 实验计划（v2）
 
-## 结果（2026-11-10，完整报告：`report.html`）
+## 结果（2026-11-11 题库审计后；完整报告：`report.html`）
 
-- **推荐（三档一致）：DeepSeek V4.1 Flash + 智能体 · grep**。S3000：MuSiQue 准确率 70%、说不知道 78%、$0.0044/题；
-  S300 时 LLM-wiki 导航与 grep 持平（78% / 77%）。
-- 关键对比（S3000，168 道干净题，配对 McNemar）：DeepSeek grep 70% vs Sonnet grep 62%（p=0.015）、vs Haiku grep 46%
-  （p<0.001）；智能体 grep 70% vs 单次混合 39%、两轮混合 60%、智能体混合 62%（均 p≤0.011）；grep vs LLM-wiki 导航无差别。
-- DeepSeek 领先的原因是搜得更彻底（找全多跳证据的比例比 Sonnet 高 15–20 个百分点），不是记忆：任一模型闭卷可答的 32 道题已剔除。
-- 规模：3 个模型 × 11 种配置 × 三档体量，31,713 条全部评分。花费：Claude 约 $791，DeepSeek API $61。千问未参与（OpenRouter 额度）。
-- 复现：带评分的结果归档在 `data/results/p2_judged.tar.gz`；`harness/build_html.py` 生成 `report.html`。
+- **推荐：DeepSeek V4.1 Flash + 智能体 · grep**（900 / 3000 篇首选；300 篇 LLM-wiki 导航 95% vs grep 89%，差 2 道题，不显著）。
+  S3000：MuSiQue 准确率 88%、说不知道 90%、$0.0043/题、p50 61s。
+- 关键对比（S3000，115 道干净题，配对精确 McNemar，21 个比较做 Holm 校正，见报告附录"显著性与稳健性"）：
+  - **DeepSeek grep 88% vs Sonnet grep 84%：不显著**（p=0.39，校正后 1.0；按题目簇自助的差值区间 [-3, +9] 个百分点）。审计前的
+    "70% vs 62%，p=0.015"主要来自金标有问题的题。
+  - DeepSeek vs Haiku grep（88% vs 67%）、DeepSeek 智能体 grep vs 单次增强混合（88% vs 72%）、Sonnet 智能体 grep vs Sonnet 智能体混合
+    （84% vs 72%）：校正后仍显著。智能体 grep vs 两轮混合（88% vs 83%）不再显著。300 篇只有 38 道配对题，所有比较都不显著。
+- "找全证据"包含 grep 命中行，随搜索次数机械增长，不能说明 DeepSeek "搜得更彻底"；只算打开阅读也不对（Sonnet grep 准确率 84%，
+  全部证据都打开过的只有 9%，多数直接用命中行作答）。DeepSeek 智能体 27% 的运行用满 12 步（Claude 1%），结果对步数上限敏感。
+- 题库审计（2026-11-11，见 `report/audit_impact.md`）：MuSiQue 金标盲审删 56 道、补别名 28 道；不可回答题第二轮泄漏检查（按最后一跳检索、
+  BRIGHT 不再截断文档、人工复核）按体量再排除一批。有效题 415 → 352，干净 MuSiQue 题 168 → 115。没有回答的运行改为按失败计。
+- 未修（不重跑）：300 / 900 篇里几乎没有同题易混淆文档（金标占全库 72% / 65% / 20%）；NoLiMa 扩展植入句与核心同模板，20 道中 15 道
+  有多个合法答案；DeepSeek / Haiku 的闭卷过滤是事后补测且 DeepSeek 有 24 条空预测；思考强度 Claude medium vs DeepSeek high。
+- 规模：3 个模型 × 11 种配置 × 三档体量，31,713 条全部评分。花费：Claude 约 $823（含审计 $32），DeepSeek API $61。千问未参与。
+- 复现：带评分的结果归档在 `data/results/p2_judged.tar.gz`；`harness/build_html.py` 生成 `report.html`；`uv run pytest` 跑计分测试。
 
 ## 0. 要回答的问题
 

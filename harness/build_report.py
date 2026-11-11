@@ -68,9 +68,24 @@ def fmt_pct(x, n=None, ci=False):
     return f"{x:.0%}" + (f" ({n})" if n is not None else "")
 
 
+def evidence_found(r: dict, gold_paths: list[str], all_: bool = True, opened_only: bool = False) -> bool:
+    """Gold documents among those the model was shown: passages (single-shot / two-round), search snippets,
+    grep hit lines (one line per hit, <= 300 chars) and files opened with read_file. With opened_only, only
+    files opened with read_file count.
+    The exposure measure grows with the number of search / grep calls (one grep call can list up to 60 files),
+    so it is not a measure of how thoroughly a model searched. The opened-only measure is no better for grep:
+    models often answer from the hit lines without opening the file (Sonnet + grep at 3,000 docs: 84% accuracy
+    with all evidence opened in 9% of questions). Report both; draw no conclusion from either alone."""
+    seen = set(r["read"]) if opened_only else set(r["retrieved"]) | set(r["read"])
+    gold = set(gold_paths)
+    return gold <= seen if all_ else bool(gold & seen)
+
+
 class Data:
-    def __init__(self):
-        self.qs = {q["qid"]: q for q in map(json.loads, (ROOT / "questions_v2/questions.jsonl").read_text().splitlines())}
+    def __init__(self, qfile: Path | None = None, res: Path | None = None):
+        """qfile / res override the question file and the results directory (e.g. to compare a snapshot)."""
+        qfile, RES = qfile or ROOT / "questions_v2/questions.jsonl", res or globals()["RES"]
+        self.qs = {q["qid"]: q for q in map(json.loads, qfile.read_text().splitlines())}
         for s in SCALES:
             TOTAL_PER_SCALE[s] = sum(1 for q in self.qs.values() if not q["excluded"] and s in q.get("valid_scales", q["scales"]))
         self.raw, self.judged = {}, {}
@@ -105,27 +120,29 @@ class Data:
         jud = [r for r in self.g_jud[g] if not lang or r["lang"] == lang]
         q = self.qs
 
-        def gold_found(r, all_=True):
-            gold, seen = set(q[r["qid"]]["gold_paths"]), set(r["retrieved"]) | set(r["read"])
-            return gold <= seen if all_ else bool(gold & seen)
+        def gold_found(r, all_=True, opened_only=False):
+            return evidence_found(r, q[r["qid"]]["gold_paths"], all_, opened_only)
 
         mus = [r for r in raw if r["category"] == "musique_ans"]
         bri = [r for r in raw if r["category"] == "bright_ans"]
         nol = [r for r in raw if r["category"] == "nolima"]
-        jm = [r for r in jud if r["category"] == "musique_ans" and r["judge"]["correct"] is not None
-              and r["qid"] not in self.memorized]
-        jans = [r for r in jud if r["category"] in ("musique_ans", "bright_ans") and r["judge"]["abstained"] is not None]
-        jun = [r for r in jud if not q[r["qid"]]["answerable"] and r["judge"]["abstained"] is not None]
+        # Scoring rule: a run without a usable response (error / empty answer; the judge marks it null) is a
+        # failure on every metric — wrong for accuracy, a non-answer for false refusals, not a correct refusal.
+        jm = [r for r in jud if r["category"] == "musique_ans" and r["qid"] not in self.memorized]
+        jans = [r for r in jud if r["category"] in ("musique_ans", "bright_ans")]
+        jun = [r for r in jud if not q[r["qid"]]["answerable"]]
         mean = lambda xs: (sum(xs) / len(xs)) if xs else None  # noqa: E731
         return {
             "n_raw": len(raw), "n_judged": len(jud),
             "acc": mean([bool(r["judge"]["correct"]) for r in jm]), "acc_n": len(jm),
             "acc_k": sum(bool(r["judge"]["correct"]) for r in jm),
             "mus_all": mean([gold_found(r) for r in mus]),
+            "mus_opened": mean([gold_found(r, opened_only=True) for r in mus]) if mode != "A0" else None,
             "bright_any": mean([gold_found(r, False) for r in bri]),
             "nolima_found": mean([gold_found(r, False) for r in nol]),
-            "false_ref": mean([r["judge"]["abstained"] for r in jans]),
-            "refusal_ok": mean([r["judge"]["abstained"] for r in jun]), "refusal_n": len(jun),
+            "false_ref": mean([r["judge"]["abstained"] is not False for r in jans]),
+            "refusal_ok": mean([r["judge"]["abstained"] is True for r in jun]), "refusal_n": len(jun),
+            "no_response": sum(r["judge"]["abstained"] is None for r in jud),
             "lat50": statistics.median([r["latency"] for r in raw]) if raw else None,
             "lat95": sorted(r["latency"] for r in raw)[int(0.95 * (len(raw) - 1))] if raw else None,
             "cost": mean([r["cost"] for r in raw]),
@@ -136,26 +153,30 @@ class Data:
         }
 
 
-def recommend(d: Data, scale: int) -> dict:
-    """Quality pick: highest MuSiQue accuracy among cells with >= 70% correct refusals and >= 30 judged MuSiQue
-    questions. Value pick: cheapest cell within 5 points of the quality pick. Flash pick: same rule restricted to
-    Haiku / DeepSeek. Avoid: lowest accuracy."""
+def recommend(d: Data, scale: int, min_refusal: float = 0.7, min_n: int = 30, margin: float = 0.05) -> dict:
+    """Quality pick: highest MuSiQue accuracy among cells with >= min_refusal correct refusals and >= min_n judged
+    MuSiQue clean questions. Value pick: cheapest cell within `margin` of the quality pick. Flash pick: the value
+    rule restricted to Haiku / DeepSeek. Avoid: lowest accuracy.
+    Ties are broken deterministically: higher accuracy, then higher correct-refusal rate, then lower cost, then
+    model / configuration order."""
     cells = []
     for m in MODELS:
         for mode, cfg, label in CONFIGS:
             c = d.cell(m, mode, cfg, scale)
-            if c["acc"] is not None and c["acc_n"] >= 30 and (c["refusal_ok"] or 0) >= 0.7:
+            if c["acc"] is not None and c["acc_n"] >= min_n and (c["refusal_ok"] or 0) >= min_refusal:
                 cells.append((m, label, c))
     if not cells:
         return {}
-    best = max(cells, key=lambda x: x[2]["acc"])
-    near = [x for x in cells if x[2]["acc"] >= best[2]["acc"] - 0.05]
-    value = min(near, key=lambda x: x[2]["cost"])
+    quality = lambda x: (-x[2]["acc"], -(x[2]["refusal_ok"] or 0), x[2]["cost"] or 0)  # noqa: E731
+    cheap = lambda x: (x[2]["cost"] or 0, -x[2]["acc"], -(x[2]["refusal_ok"] or 0))  # noqa: E731
+    best = min(cells, key=quality)
+    value = min([x for x in cells if x[2]["acc"] >= best[2]["acc"] - margin - 1e-9], key=cheap)
     flash = [x for x in cells if x[0] in ("haiku", "deepseek")]
-    fbest = max(flash, key=lambda x: x[2]["acc"]) if flash else None
-    fnear = [x for x in flash if fbest and x[2]["acc"] >= fbest[2]["acc"] - 0.05]
-    fvalue = min(fnear, key=lambda x: x[2]["cost"]) if fnear else None
-    worst = min(cells, key=lambda x: x[2]["acc"])
+    fvalue = None
+    if flash:
+        fbest = min(flash, key=quality)
+        fvalue = min([x for x in flash if x[2]["acc"] >= fbest[2]["acc"] - margin - 1e-9], key=cheap)
+    worst = max(cells, key=quality)
     return {"best": best, "value": value, "flash": fvalue, "worst": worst}
 
 
