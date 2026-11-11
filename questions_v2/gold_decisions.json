@@ -1,0 +1,703 @@
+{
+ "musique_ans-0325fd341e": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Cold Crush Records"
+  ],
+  "reason": "The documents put Anna Oxygen on two labels: All Your Faded Things was \"released by Anna Oxygen on July 22, 2003 under the Cold Crush Records label\", and This Is an Exercise was \"released in 2006 on Kill Rock Stars\". The question does not specify a time, so Cold Crush Records is also a valid answer alongside Kill Rock Stars.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-045de44d6e": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The police document credits the 'new' police to Robert Peel ('Robert Peel's \"new\" police'), and the question asks for his father. The reference instead gives his child: the Sidney Peel document says Arthur Peel was 'the youngest son of Prime Minister Sir Robert Peel'. The documents never name Robert Peel's father, so the question asks for a parent where the reference is a child.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-08680daa36": {
+  "action": "drop",
+  "defect": "wrong_answer_type",
+  "aliases": [],
+  "reason": "The documents tie the US Air Force (Man in Space Soonest) to Israel. The 6 million figure is only Israel's Jewish population: \"Jews account for 75.4% of the Israeli population, or 6 million people.\" That implies a total population of roughly 8 million, so the reference does not answer the question about the country's population.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-0ae45a1fe4": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The document places Lorenz Park in \"Columbia County, New York,\" so the state described is New York, not Oregon, and Portland, Oregon is the wrong referent. Even for Portland, Oregon, the document says the mountains seen on clear days are \"Mt. Hood and Mt. St. Helens ... Mt. Adams and Mt. Rainier.\" The Tualatin Mountains are instead described as foothills within the city.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-0b74f46c78": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Dan Daniel",
+   "Steve O'Brien",
+   "Dick Summers",
+   "Don Bleu",
+   "Tom Parker"
+  ],
+  "reason": "The chain holds: palitaw is from the Philippines, whose embassy is in Brunei, and The Biggest Loser Brunei is \"the Bruneian version of the NBC reality television series.\" The AC document names \"Walter Sabo and his team at NBC,\" but it also says NBC brought in \"major radio stars such as Dan Daniel, Steve O'Brien, Dick Summers, Don Bleu and Tom Parker,\" who equally fit \"a prominent figure\" at NBC's radio division.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-0cf7d75f35": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Blind Pig Records"
+  ],
+  "reason": "Delta Hardware is by Charlie Musselwhite, who \"recorded ... in London for Kicking Mule Records\", so the reference holds, and Real World Records is already an alias. The documents also say \"Blind Pig Records reissued the album on 180-gram vinyl\", which is another label that released his work.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-11f63c468f": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The documents say \"Wilt Chamberlain holds the all-time records for total points scored (4,029) ... in a season.\" Durant holds the highest point total only \"among active players\", so the description picks out Chamberlain rather than Durant, and the documents give no draft information for Chamberlain.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-15a909076b": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "Hop 3 has no valid basis. Thailand and Laos share a direct border, and the documents only say Myanmar is \"bordering China, India, Bangladesh, Thailand and Laos\". Nothing places Myanmar \"between\" Thailand and Laos, and the intended hop (\"natural boundary\" -> Myanmar) is not a natural boundary at all, so a careful reader cannot reach Myanmar and its teak.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-185f1caf9e": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Ko Phi Phi Leh"
+  ],
+  "reason": "The Manfredi document does not name his place of death, but it says he settled down permanently in Thailand by \"adopting a Thai identity... marrying a Thai woman and settling down permanently\", so a careful reader still reaches Thailand. The film article says it \"was filmed on the Thai island Koh Phi Phi\" and that the beach setting was \"Ko Phi Phi Leh\", which is a valid, more specific answer.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-1d6c7424b1": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "New York Yankees",
+   "New York Mets",
+   "New York City FC",
+   "New York Red Bulls",
+   "New York Cosmos",
+   "New York Islanders"
+  ],
+  "reason": "The Golden Gloves are 'held at Madison Square Garden each year', where the Knicks and Liberty play, while 'The Barclays Center in Brooklyn is home to the Brooklyn Nets', so the reference is valid. The question is open-ended, though, and the documents place other teams elsewhere: the Yankees and NYCFC at Yankee Stadium, the Mets at Citi Field, the Red Bulls at Red Bull Arena, the Cosmos at Shuart Stadium and the Islanders at Nassau Coliseum.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-1e88faf2db": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Season 6 (the season's 4th and 5th episodes)",
+   "the opener of Season 4",
+   "\"The Job\" (Season 3 finale)"
+  ],
+  "reason": "The document says \"In Season 6, Jim and Pam are married in the season's 4th and 5th episodes\" and \"Jim and Pam marry early in the season, at Niagara Falls, during the highly anticipated, hour long episode, 'Niagara'\", which supports the reference. Because \"end up together\" is loosely worded, the document also supports the Season 4 opener, where \"the two characters are revealed to be dating\", and the Season 3 finale \"The Job\", where Jim asks her out and \"she happily accepts\".",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-2a9e965b0f": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "Zhu Qinan was \"born November 15, 1984 in Wenzhou, Zhejiang\". The Sanjiang Church document only places a church \"in Yongjia County, near Wenzhou\", so Yongjia County is a unit within or near Wenzhou, not the county his birthplace lies in. Nothing in the documents puts his birth in Yongjia County; the hop reverses the containment relation.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-2ab2ff2722": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "22"
+  ],
+  "reason": "The documents say the Indians \"compete in Major League Baseball (MLB) as a member club of the American League (AL)\", so \"the league\" can mean MLB or the AL. For MLB, the record is the 1916 Giants' \"26\". For the AL, the documents give \"The record for the longest winning streak by an American League team is held by the 2017 Cleveland Indians at 22\", so 22 is also a valid answer.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-2ad27e07f9": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Trnava Region"
+  ],
+  "reason": "Gross was born in \"Szenicz, Hungarian Kingdom, now Senica, Slovakia\", and Senica is the seat of Senica District, so the reference is supported. The documents also state that \"Senica District ... is a district in the Trnava Region,\" so Trnava Region is another administrative territorial entity containing Senica.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-3025ca902e": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "Hop 3 cannot be reached from the documents. They place Saudi Arabia inside the region, not north of it: it is \"situated in Southwest Asia... bordering the Persian Gulf and the Red Sea, north of Yemen.\" Nothing says it lies north of the Middle East or the Persian Gulf; geographically, Iran lies north of the Gulf and Saudi Arabia lies to its south and west.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-30d04a8ae6": {
+  "action": "keep",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "Audit said wrong_referent (modern Yangzhou city vs the ancient Yangzhou region), but the knowledge base text itself says Nanjing 'had been the capital city of Yangzhou for about 400 years', so a careful reader of the documents reaches the reference; the rule keeps such questions. Audit reason: Yaxing Coach is \"based in Yangzhou, Jiangsu,\" which is a city. The Nanjing document's \"capital city of Yangzhou for about 400 years\" refers to the ancient \"Yangzhou region which was established as the nation's 13 supervisory and administrative regions\". The question conflates the modern city with the historical province of the same name, and Nanjing was never the capital of the city of Yangzhou.",
+  "decided_by": "human override"
+ },
+ "musique_ans-334fc38bb3": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The documents say only that Myanmar is \"bordering China, India, Bangladesh, Thailand and Laos\". Nothing makes Myanmar a natural boundary between Thailand and Laos; that boundary is the Mekong River, not a country. Hop 3 (\"Myanmar\") therefore cannot be reached, and the chain to Thein Sein breaks.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-37931d4a08": {
+  "action": "drop",
+  "defect": "wrong_answer_type",
+  "aliases": [],
+  "reason": "The document says \"A decade after the 1973 oil crisis, Honda, Toyota and Nissan, affected by the 1981 voluntary export restraints, opened US assembly plants.\" So 1981 is the year of the export restraints that prompted the move, not the year the plants opened, which the document puts about a decade after 1973.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-3a041cd62b": {
+  "action": "drop",
+  "defect": "wrong_answer_type",
+  "aliases": [],
+  "reason": "The document says \"A decade after the 1973 oil crisis, Honda, Toyota and Nissan, affected by the 1981 voluntary export restraints, opened US assembly plants.\" So 1981 is the year of the export restraints that prompted the move, not the year the plants opened. The documents date the openings to about a decade after 1973, i.e. around 1983.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-45baa6d09a": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "it was proportionally the all-time best-selling American title, read by virtually every rebel",
+   "without it, the sword of Washington would have been raised in vain (John Adams)"
+  ],
+  "reason": "The Age of Reason is by Thomas Paine, and his document says Common Sense \"crystallized the rebellious demand for independence from Great Britain.\" The question is open-ended, and the same document also gives other grounds for its importance: \"Virtually every rebel read\" it, it was \"proportionally the all-time best-selling American title,\" and Adams said \"Without the pen of the author of Common Sense, the sword of Washington would have been raised in vain.\"",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-4644a29723": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "1763"
+  ],
+  "reason": "London broil is \"North American, not British,\" and the war in North America \"officially ended with the signing of the Treaty of Paris on 10 February 1763.\" Because the question asks \"when,\" the year 1763 alone is also a complete answer.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-492389ea0d": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "Moonjean died \"at his Hollywood Hills residence,\" which is the Los Angeles neighborhood, but the rehabilitation center \"was a private nursing home located in Hollywood, Florida.\" The name match is coincidental, so the description points to a place where no such center exists. Also, the center \"was owned by Jack Michel\" but \"was acquired by Hollywood Property Investments in 2015,\" so the present-tense \"owns\" does not even match the reference.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-49df7e7808": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "Hop 2 assumes Myanmar forms the boundary between Thailand and Laos. The documents only say Myanmar is \"bordering China, India, Bangladesh, Thailand and Laos\"; nothing places it between those two countries. In fact Thailand and Laos share a direct border, largely along the Mekong, so a careful reader cannot identify Myanmar as \"country A\".",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-4b94fec6cf": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The painting is by \"Sir Edwin Henry Landseer\", but the Lutyens document states nothing about his parentage; it only gives his name \"Sir Edwin Landseer Lutyens\". A shared middle name does not establish a parent–child link, and the documents never name a child of Landseer, so the second hop is unsupported.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-4ee9efb627": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "1983"
+  ],
+  "reason": "Allen is a ghost town in Pima County, and Tucson is the county seat of Pima County. The Tucson document gives two wettest-year records. At the University of Arizona \"the wettest year was 1905,\" while at the airport \"the wettest year was 1983 with 21.86 in,\" so the question as worded admits 1983 as well.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-51ca88f010": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "the first week of April"
+  ],
+  "reason": "The MVP results are 'not announced until after the World Series', and the Yankees 'have played in 40 World Series', the most. They compete in MLB (American League). The Opening Day document says 'all 30 teams were scheduled to open the season on Thursday, March 29' for 2018, but it also gives the generic answer that the day 'typically falls during the first week of April', which answers the question as worded.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-55e5258190": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The scoring-leaders document says \"Wilt Chamberlain holds the all-time records for total points scored (4,029) ... in a season.\" Durant only has the highest total \"among active players\" (2,593), so the description points to Chamberlain rather than Durant, and the chain to Greg Oden breaks.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-5c5653db46": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The Barton document says only that it is made \"in Bardstown, Kentucky by the Sazerac Company.\" No document gives the company's headquarters; the Sazerac document only calls the cocktail \"a local New Orleans variation,\" which is a different entity, so the New Orleans hop cannot be reached from the documents.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-5c9db43c92": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The only document on Yaovabha Bongsanid gives her place of death, not her birthplace: \"died on 13 June 1934 at the Grand Palace.\" Nothing in the documents establishes where she was born, so the birthplace hop (Grand Palace, and therefore Thailand) cannot be reached from the documents.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-5d8affa2d8": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The documents never say Brannan went to California during the gold rush, and they place his work in San Francisco ('San Francisco newspaper publisher and merchant'), not Sacramento, which he only co-founded. The border hop is also unsupported: the documents say Rio Linda High School is 'located in Rio Linda, Sacramento, CA', which treats Rio Linda as part of Sacramento rather than a place bordering it.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-5e0a837dc1": {
+  "action": "drop",
+  "defect": "wrong_answer_type",
+  "aliases": [],
+  "reason": "The question asks when the song was written, but May 21, 1979 is its release date (\"Released May 21, 1979\"). The documents give no writing date, only that it was \"released on their 1979 album Million Mile Reflections.\"",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-5e6b6f546c": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The scoring-leaders document says \"Wilt Chamberlain holds the all-time records for total points scored (4,029) ... in a season.\" Durant holds the highest total only \"Among active players.\" So the question as worded points to Chamberlain, not Durant, and the Oden answer does not follow.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-5e9761cd7c": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Yongle Emperor"
+  ],
+  "reason": "The Yongle Emperor greeted the Karmapa at Nanjing, and the Nanjing document says of 1912 that \"Yuan demanded the capital be Beijing,\" which supports Yuan Shikai. The documents also say the Ming ruled China from Nanjing \"(1368-1421)\" and later place the Ming capital at Beijing. That earlier move from Nanjing to Beijing was the Yongle Emperor's, so he is also a valid answer.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-626814c29c": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The documents describe Eric Carmen as a \"Cleveland, Ohio singer-songwriter\", but the chain switches to Cleveland, North Carolina, \"a town in the Cleveland Township of Rowan County\". The intended county (Cuyahoga, Ohio) and its neighbours are not in the documents, so Cabarrus County comes from a conflated Cleveland.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-6408c8a446": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Raju Chacha",
+   "Blackmail"
+  ],
+  "reason": "Anil Devgan is the \"brother of actor Ajay Devgan\", and the Yeh Raaste Hain Pyaar Ke cast lists \"Ajay Devgn\", so the reference is correct. The question dropped the Madhuri Dixit/Preity Zinta constraint, though, and the Anil Devgan document says he \"has directed his brother in two of his films: Raju Chacha and Blackmail (2005 film)\", so those films also answer the question as worded.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-67db9aad9e": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "2015",
+   "January 3, 2015"
+  ],
+  "reason": "The USAF document says senior officials are appointed by the President \"with the advice and consent of the Senate\", and the 114th Congress document lists \"House Majority Republican\". The Senate elections document says \"The Republicans regained the majority of the Senate in the 114th Congress, which started in January 2015\", which supports the reference; the year 2015 alone also fully answers \"when\".",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-70513e1c08": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The Maria document identifies Jane Siberry as the performer, but no document gives her place of birth. The Gavin Bradley document only says Bradley is 'based in Toronto' and has 'worked with' Siberry, so a reader of the documents cannot establish Toronto and reach Casa Loma.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-71b1107ba8": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The I Can Only Imagine document says Bart Millard's \"father (Dennis Quaid)\", but no document says who Quaid's spouse is. Flesh and Bone only says the film \"stars Meg Ryan, Dennis Quaid and James Caan\", which does not establish a marriage, so a reader of the documents cannot reach Meg Ryan.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-71ebf77f90": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The singer Bobby Brown performed \"Don't Be Cruel\". The Wire document says only that \"Bobby Brown is a Western District uniformed officer\": that is a fictional character who shares his name, not a role the singer plays. The question conflates the real singer with this character, and nothing in the documents says the singer appears in The Wire.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-7531e9273c": {
+  "action": "drop",
+  "defect": "wrong_reference",
+  "aliases": [],
+  "reason": "The documents say the Soviet Union \"joined the Allies in June 1941\", but the United States only \"officially joined in December 1941 after the Japanese attack on Pearl Harbor\". The U.S. and the USSR therefore became allies in December 1941. June 1941 is only the date the USSR joined the Allies.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-788453c748": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "December 1642",
+   "1642"
+  ],
+  "reason": "Philadelphia doc: \"the first settlements founded by the Dutch\" in the Delaware Valley. The NZ history doc says \"The first European explorer to sight New Zealand was Dutch navigator Abel Tasman on 13 December 1642\" and that Tasman anchored in Golden Bay \"in December 1642\", so the chain holds and a month or year answer to \"when\" is also complete.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-7c05ac22f7": {
+  "action": "keep",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "Audit said wrong_referent (modern Yangzhou city vs the ancient Yangzhou region), but the knowledge base text itself says Nanjing 'had been the capital city of Yangzhou for about 400 years', so a careful reader of the documents reaches the reference; the rule keeps such questions. Audit reason: Yaxing Coach is based in \"Yangzhou, Jiangsu\", a city. The Nanjing document's \"capital city of Yangzhou for about 400 years\" refers to the ancient \"Yangzhou region which was established as the nation's 13 supervisory and administrative regions\" in the Han dynasty. The question conflates the modern city with that historical region, so Nanjing was never the capital of the entity the question describes.",
+  "decided_by": "human override"
+ },
+ "musique_ans-7d3a67bd4c": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "Head I was painted in 1948 by \"the Irish-born British figurative artist Francis Bacon,\" but the second document describes a different Francis Bacon, \"born on 22 January 1561\" in London, \"the son of Sir Nicholas Bacon.\" The chain conflates the Elizabethan figure with the 20th-century painter, so Nicholas Bacon is not the painter's father.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-7d4f16de55": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Duncanville, Texas",
+   "Texas"
+  ],
+  "reason": "Franklin \"was born in Duncanville, Texas\", and \"Duncanville is a city in southern Dallas County, Texas\", so Dallas County is supported. Because the question's wording is generic, the city of Duncanville and the state of Texas are also administrative territorial entities he was born in.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-7d8300010a": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The Charmant document says it \"is a subcompact sedan built by Daihatsu of Japan, based on the Toyota Corolla,\" so \"the company that made Daihatsu Charmant\" is Daihatsu, not Toyota. Toyota is only the source of the base model and engines, and the documents give no luxury division for Daihatsu. The final hop is also shaky: the RX passage describes a 2012 facelift (unveiled March 2012, \"Sales began worldwide in April 2012\"), not a body-style change.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-7f16e67d0f": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The Saudi Arabia geography document says only that the kingdom is \"bordering the Persian Gulf and the Red Sea, north of Yemen.\" Nothing places it north of the Middle East (where Israel is) or of the Persian Gulf; it lies within the Middle East and south of Israel. So the description \"region that lies to the north of\" those places cannot be resolved to Saudi Arabia from the documents, and the 1932 founding date is unreachable.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-83d8eafd14": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The documents never place Saudi Arabia north of the Persian Gulf or the Middle East. They say it is \"bordering the Persian Gulf and the Red Sea, north of Yemen\" and is \"situated in Southwest Asia\", so it lies within the Middle East and south-west of the Gulf. A careful reader therefore cannot get from \"directly north of\" the Middle East and Persian Gulf to Saudi Arabia.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-89052b6218": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The Chisholms document only says the show \"is akin to the unsuccessful 1977 NBC venture, 'The Oregon Trail'\"; it never says NBC broadcast The Chisholms, so the hop-1 answer NBC is unsupported. The series actually aired on CBS, which would make NBC the \"other\" broadcaster rather than CBS, the network that bought Oriole Records.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-898102b7a3": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The Dragon Dreams document identifies the performer as \"Canadian singer-songwriter Jane Siberry,\" but no document gives her place of birth. The only Toronto link is Gavin Bradley, who is \"based in Toronto\" and \"has worked with\" Siberry, so the Toronto hop cannot be reached from the documents.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-8d665332f7": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The question asks for the region lying to the north of the Middle East and the Persian Gulf. The documents describe Saudi Arabia as \"bordering the Persian Gulf and the Red Sea, north of Yemen,\" so it lies south of the Gulf and within the Middle East, not north of either. Read as worded, the description points to somewhere like Iran rather than the Kingdom of Saudi Arabia, so a careful reader cannot reach 1930.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-9511f6b131": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The documents say \"George Washington delivered the first regular annual message before a joint session of Congress on January 8, 1790.\" Woodrow Wilson only \"re-established the practice\" of delivering it in person, so \"the person who started the State of the Union address\" refers to Washington, not Wilson.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-98f12db966": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The documents place Saudi Arabia \"in Southwest Asia... bordering the Persian Gulf and the Red Sea, north of Yemen\". It is therefore inside the Middle East and south-west of the Persian Gulf, not north of either. The described country (north of the Persian Gulf would be, e.g., Iran) does not pick out Saudi Arabia, so the 1932 founding date is not reachable.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-9a0d658cb7": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The Saudi geography document places Saudi Arabia \"bordering the Persian Gulf and the Red Sea, north of Yemen\", so it is within the Middle East and south of the Gulf, not \"immediately north\" of either. The water document also does not name the Persian Gulf as the site of the most agricultural growth; it says only \"The most extensive use is in the Persian Gulf.\" So the description does not lead to the Kingdom of Saudi Arabia (founded 1932).",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-9c852870d0": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "1983"
+  ],
+  "reason": "Helvetia is in Pima County, whose county seat is Tucson. The Tucson document gives two wettest-year records: \"At the University of Arizona... The wettest year was 1905\" and \"At the airport... The wettest year was 1983,\" so 1983 is also supported.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-9cc378c84a": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "south",
+   "southward",
+   "flows generally south"
+  ],
+  "reason": "Write This Down is \"from Minneapolis, Minnesota\", and Minneapolis \"lies on both banks of the Mississippi River\", which \"rises in northern Minnesota and meanders slowly southwards\" (also \"flows generally south\"). The reference is correct, and the simpler direction \"south\" fully answers the question; the alias \"Minnesota\" names the source state, not a direction.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-9da54de24d": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Sharp Records"
+  ],
+  "reason": "The documents say \"The first 1952 recording of the song was by Joni James\" and that her debut album was \"released by MGM Records,\" which supports the reference. The same document also says the original recording \"was released in March on the local Sharp Records label\" before she signed to MGM, so Sharp Records is also a label for this singer.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-9df57f6864": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The album document names the singer: \"Don't Be Cruel is the second studio album by American singer Bobby Brown.\" The Wire document describes a fictional character who shares the name: \"Bobby Brown is a Western District uniformed officer.\" Nothing says the singer plays any role in The Wire, so the chain conflates a real performer with a same-named character.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-a245bd17a7": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The documents establish that Insecurity is a South Park episode and that \"Trey Parker voices... Stan Marsh\", but none of them gives Trey Parker's place of birth. The only birthplace stated is Dian Bachar's (\"born October 26, 1970 in Denver, Colorado\"), and he is a different person, so the final hop cannot be reached from the documents.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-a48e4ae61a": {
+  "action": "drop",
+  "defect": "wrong_reference",
+  "aliases": [],
+  "reason": "The question asks when Burma's name was changed to Myanmar. The documents say the government changed it \"from the 'Union of Burma' to the 'Union of Myanmar' in 1989\"; 1235 is only the date of the inscription recording \"the first use of the name 'Mranma'\", not a name change.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-b0d7cddb3c": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The 'Girlfriend' performer is the R&B singer Bobby Brown. The Wire document describes a fictional character named Bobby Brown ('Bobby Brown is a Western District uniformed officer'), not a role played by the singer. The question conflates the real person with a same-named fictional character, so the premise that the singer plays someone in The Wire is unsupported.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-b419b6b0a1": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "American Record Corporation (ARC)"
+  ],
+  "reason": "NBC aired the show, and the documents name \"ABC, CBS, and NBC\" as the networks headquartered in New York, so the company is CBS. \"CBS established its own UK distribution with the acquisition of Oriole Records\" supports the reference. The question drops the hop's \"in the UK\" restriction, so \"ARC was acquired in 1938 by the Columbia Broadcasting System\" also answers it.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-b5b03aed0f": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "No document places Saudi Arabia immediately north of the Middle East. The Saudi geography document says it is \"situated in Southwest Asia... bordering the Persian Gulf and the Red Sea, north of Yemen\", which puts it inside the region rather than north of it. A careful reader therefore cannot get from \"the area immediately north of the Middle East\" to Saudi Arabia and its 1932 founding.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-b899b6d9e7": {
+  "action": "drop",
+  "defect": "wrong_answer_type",
+  "aliases": [],
+  "reason": "The Voyager 2 document says only that on August 30, 2007 it \"passed the termination shock and then entered into the heliosheath\", which is still inside \"the Solar System's heliosphere\". The reference therefore dates the termination-shock crossing, not the spacecraft leaving the solar system. The documents give no date for actually leaving.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-b8d4f9685a": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The question asks about 'the natural boundary between Thailand and' Laos, which is the Mekong River, not a country. The documents only say Myanmar is a country 'bordering China, India, Bangladesh, Thailand and Laos'; nothing makes Myanmar a natural boundary between Thailand and Laos, so the description does not pick out Myanmar and the chain to 'defeated the Portuguese in 1613' fails.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-bc3e35a5a6": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Ko Phi Phi Leh"
+  ],
+  "reason": "The documents do not state Pao Sarasin's birthplace, but they make him clearly Thai (he died in Bangkok, had a royal rite, and his son is a 'Thai television host'), so the country is Thailand, and the hop holds. The film 'was filmed on the Thai island Koh Phi Phi', and the document also names the specific location as 'the natural beach setting of Ko Phi Phi Leh', so Ko Phi Phi Leh is a further valid answer.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-bdf6ab6e5a": {
+  "action": "keep",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "Audit said wrong_referent (modern Yangzhou city vs the ancient Yangzhou region), but the knowledge base text itself says Nanjing 'had been the capital city of Yangzhou for about 400 years', so a careful reader of the documents reaches the reference; the rule keeps such questions. Audit reason: Yaxing Coach is \"based in Yangzhou, Jiangsu\", which is the modern city. The Nanjing document's 400-year capital status refers to a different entity: the historical \"Yangzhou region which was established as the nation's 13 supervisory and administrative regions\" (\"capital city of Yangzhou for about 400 years from late Han to early Tang\"). Nanjing was never the capital of Yangzhou city, so the question conflates two homonymous places.",
+  "decided_by": "human override"
+ },
+ "musique_ans-bfd509843d": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The documents establish that Titian painted the Malchiostro Annunciation, but none states where he died. The only Venice link is that \"The Martyrdom of Saint Lawrence ... [is] now in the church of I Gesuiti in Venice,\" which locates a painting, not his death, so the hop to Venice and its \"22 times\" figure cannot be reached from the documents.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-bfd7de5a18": {
+  "action": "drop",
+  "defect": "false_premise",
+  "aliases": [],
+  "reason": "The question presupposes that Czechoslovakia (Country A) invaded Yugoslavia (Country B). The Tito document says the opposite: Tito acted \"in the aftermath of the invasion of Czechoslovakia due to the unpreparedness of the Yugoslav army to respond to a similar invasion of Yugoslavia.\" So Czechoslovakia was the country invaded, and it never invaded Yugoslavia.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-c4d5eca9d9": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The 1894–95 FA Cup document never names the winner. It only says the trophy was stolen from \"a display in the shop window of W. Shillcock... Birmingham\" and that a copy was made by \"the former Aston Villa player\" Howard Vaughton. Identifying Aston Villa as the winner therefore requires outside knowledge rather than a fact from the knowledge base.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-c7c5b3b32a": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The document says Serbian is \"one of the three official languages of Bosnia and Herzegovina\", which matches the question's wording \"as one of its official languages\" more directly than Kosovo, where Serbian is only \"co-official in the territory\". The documents give a different first-independent-team date for Bosnia and Herzegovina: \"Bosnia and Herzegovina at the 1992 Summer Games\". So the description does not uniquely pick out Kosovo, and the 2016 reference is not reliably reached.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-c7fc8ff1b9": {
+  "action": "drop",
+  "defect": "wrong_answer_type",
+  "aliases": [],
+  "reason": "The oil-crisis article says \"A decade after the 1973 oil crisis, Honda, Toyota and Nissan, affected by the 1981 voluntary export restraints, opened US assembly plants\". 1981 is the year of the export restraints that prompted the move, not the year the plants opened. (Also, the documents name Hino Motors, not Toyota, as the Dutro's manufacturer.)",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-c93627093c": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Aqqala County",
+   "Golestan Province",
+   "Iran",
+   "north-east Iran"
+  ],
+  "reason": "The Voshmgir District document says it \"is a district (bakhsh) in Aqqala County, Golestan Province, Iran\", and the Golestan Province document places the province \"in the north-east of the country south of the Caspian Sea\". The reference is therefore a correct answer to the open 'where' question, but the documents equally support the county, province and country as answers.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-cd7ac4b664": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The documents place Saudi Arabia \"bordering the Persian Gulf and the Red Sea, north of Yemen\", not north of Israel or the Middle East. Israel's document says only Lebanon lies \"to the north\" of Israel. A careful reader therefore cannot get from \"north of where Eyal Golan is located and the Persian Gulf\" to Saudi Arabia, and so cannot reach 1930.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-cf64f26bb4": {
+  "action": "drop",
+  "defect": "wrong_reference",
+  "aliases": [],
+  "reason": "Islam is the most common religion in the table (40.38%). However, the Tajikistan document says \"Later the Hephthalite Empire... moved into the region and Arabs brought Islam in the early eighth century,\" so it was the Arabs, not the Hephthalites, who brought Islam.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-d3291af810": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "2009"
+  ],
+  "reason": "The party was a political party \"in South Yemen\", and the insurgency there is \"ongoing since 27 April 2009\". The question asks for a year, so \"2009\" alone is a complete answer; the reference's full date still contains the correct year.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-d35560d9d4": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "Continuation War",
+   "Lapland War"
+  ],
+  "reason": "The R-class boats were on \"the Finnish Navy list\", and the Finnish Navy document describes its role \"When the Winter War broke out\", so the reference holds. The question admits the Finnish Navy's other well-known wars, the Continuation War and the Lapland War.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-d3de79b2c9": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The ALCS document says 2017 was the Yankees' ALCS appearance \"their second as a Wild Card,\" so the Yankees did not win the AL East in 2017; that title went to the Boston Red Sox. The question's description therefore picks out a different team than the Yankees, and the 1981 Yankees–Dodgers World Series answer does not follow.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-d94084d640": {
+  "action": "drop",
+  "defect": "wrong_answer_type",
+  "aliases": [],
+  "reason": "The question asks for a year, but the reference \"November 5\" is a day. The document says only that the 5th Division \"by November 5 had taken the city of Foshan\" and gives no year. The year, 1938 (the Canton Operation), comes from general knowledge, not the documents.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-d94451f59c": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "2011"
+  ],
+  "reason": "\"Watching Movies is a song by American hip hop recording artist Mac Miller,\" and Best Day Ever, \"the fifth mixtape by American rapper Mac Miller,\" \"was released online March 11, 2011.\" The open \"When\" admits the year 2011 as a complete answer.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-da542228c8": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The documents establish only that Radwanice \"is the seat of... Gmina Radwanice\" and that the Przemków Landscape Park covers Gmina Gaworzyce, Gmina Radwanice and others. Neither document says which units border Gmina Radwanice, so the reference cannot be reached from the documents. Even if adjacency were inferred from the park list, Chocianów and Przemków would be equally possible.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-dd16eecc2d": {
+  "action": "keep",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "Audit said wrong_referent (modern Yangzhou city vs the ancient Yangzhou region), but the knowledge base text itself says Nanjing 'had been the capital city of Yangzhou for about 400 years', so a careful reader of the documents reaches the reference; the rule keeps such questions. Audit reason: Guangling District is \"one of three districts of Yangzhou, Jiangsu province\", which is the modern prefecture-level city. Nanjing \"had been the capital city of Yangzhou for about 400 years\" refers to a different entity: the Han-era \"Yangzhou region which was established as the nation's 13 supervisory and administrative regions\". The question's description therefore picks out a different Yangzhou, one Nanjing never served as capital of.",
+  "decided_by": "human override"
+ },
+ "musique_ans-dfb192390e": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The body of water between East Africa and the Arabian Peninsula is the Red Sea, not the Persian Gulf. No document places any region 'north of' the Middle East and that sea. The documents only say Saudi Arabia is 'bordering the Persian Gulf and the Red Sea, north of Yemen', which puts Saudi Arabia within the Middle East, not north of it, so the final hop cannot be reached.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-e4e41336d9": {
+  "action": "drop",
+  "defect": "broken_chain",
+  "aliases": [],
+  "reason": "The question \"What is the capital of the country it is about?\" never says what \"it\" is, and hop 1 (\"What part of the country is it about?\") has the same dangling pronoun, so nothing anchors the chain to South Yemen. The documents only mention South Yemen incidentally (e.g. \"from Cairo, Egypt, to Aden, South Yemen\"), so a careful reader cannot determine the intended country from the question as worded.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-e7d8195c0d": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The question asks for the father of Anwer Ali's father (\"son of Emperor Muhammad Shah\"), i.e. Muhammad Shah's father. The reference, Ahmad Shah Bahadur, is Muhammad Shah's son (\"mother of emperor Ahmad Shah Bahadur\"), so the composition swapped parent for child, and the documents never name Muhammad Shah's father.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-ee9012ff2a": {
+  "action": "keep",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "Audit said wrong_referent (modern Yangzhou city vs the ancient Yangzhou region), but the knowledge base text itself says Nanjing 'had been the capital city of Yangzhou for about 400 years', so a careful reader of the documents reaches the reference; the rule keeps such questions. Audit reason: Guangling District is in modern Yangzhou city: it \"is one of three districts of Yangzhou, Jiangsu province\". The Nanjing document's \"capital city of Yangzhou for about 400 years\" refers to the ancient \"Yangzhou region which was established as the nation's 13 supervisory and administrative regions\", a different entity that shares the name. The documents never say Nanjing was the capital of the city where Guangling District lies.",
+  "decided_by": "human override"
+ },
+ "musique_ans-f0986c5476": {
+  "action": "drop",
+  "defect": "wrong_reference",
+  "aliases": [],
+  "reason": "Hop 1 misreads \"starting at the North Pole and heading south\" (which describes the meridian's route) as the meridian's location. The document defines the prime meridian as the meridian \"at which longitude is defined to be 0 °\", so it lies at longitude 0°, not at \"latitude 90 ° North\", which is the North Pole.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-f3900d7f73": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "sextuple"
+  ],
+  "reason": "David Villa is Spain's top scorer (59 goals) and a \"former Barcelona striker\", and Barcelona \"in 2009 ... became the first Spanish club to win the continental treble\". The same passage says it \"also became the first football club to win six out of six competitions in a single year, completing the sextuple\", so the sextuple is another valid 2009 series of wins.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-f5d82f60b7": {
+  "action": "drop",
+  "defect": "wrong_referent",
+  "aliases": [],
+  "reason": "The State of the Union document says \"George Washington delivered the first regular annual message before a joint session of Congress on January 8, 1790.\" It adds that Jefferson later \"discontinued the practice of delivering the address in person\" and Wilson only \"re-established the practice.\" So the first person to give it in person is Washington, not Wilson, and the question does not lead to Wilson's daughter.",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ },
+ "musique_ans-fdb3d63be0": {
+  "action": "add_aliases",
+  "defect": "none",
+  "aliases": [
+   "2010"
+  ],
+  "reason": "The Senate confirms Cabinet nominees (\"presented to the Senate for confirmation\"), and the documents give it \"51 Republicans, 47 Democrats\", so Republicans are the majority. In the 2010 House elections, \"Republicans regained control of the chamber they had lost in the 2006 midterm elections.\" The bare year 2010 also fully answers \"when\".",
+  "decided_by": "audit (Opus 5.5, KB-relative), reviewed"
+ }
+}
