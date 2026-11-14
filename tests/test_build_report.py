@@ -4,7 +4,7 @@ from collections import defaultdict
 
 import pytest
 
-from build_report import Data, evidence_found, recommend
+from build_report import Data, evidence_found, evidence_noise, recommend
 
 
 def rec(qid, cat, correct=None, abstained=False, retrieved=(), read=(), cost=0.01, steps=3):
@@ -62,6 +62,22 @@ def test_evidence_found_exposure_vs_opened():
     assert evidence_found(r, ["wiki/a.md", "wiki/b.md"])  # shown: grep line / snippet counts
     assert not evidence_found(r, ["wiki/a.md", "wiki/b.md"], opened_only=True)
     assert evidence_found(r, ["wiki/a.md", "wiki/b.md"], all_=False, opened_only=True)
+
+
+def test_evidence_noise_is_share_of_shown_docs_that_are_not_evidence():
+    gold = ["wiki/a.md", "wiki/b.md"]
+    r = rec("q", "musique_ans", retrieved=["wiki/a.md", "wiki/x.md", "wiki/y.md"], read=["wiki/b.md", "wiki/a.md"])
+    assert evidence_noise(r, gold) == 0.5  # 4 distinct shown, 2 of them evidence
+    assert evidence_noise(rec("q", "musique_ans", retrieved=gold), gold) == 0.0
+    assert evidence_noise(rec("q", "musique_ans"), gold) is None  # nothing shown: no noise to measure
+
+
+def test_noise_cell_skips_questions_with_nothing_shown():
+    qs = {"q": mq("q"), "r": mq("r")}
+    k = ("haiku", "A1", "R1_grep", 300)
+    rs = [rec("q", "musique_ans", True, retrieved=["wiki/a.md", "wiki/x.md"]), rec("r", "musique_ans", False)]
+    c = make_data(qs, {k: rs}).cell(*k)
+    assert c["noise"] == 0.5
 
 
 def test_mus_opened_is_none_for_single_shot():

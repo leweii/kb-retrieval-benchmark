@@ -1,6 +1,6 @@
 """report.html / report.en.html — core-metric comparison (no external libraries; data embedded).
 
-Metrics per model x configuration x scale: MuSiQue accuracy, full-evidence recall, false refusal, correct refusal on
+Metrics per model x configuration x scale: MuSiQue accuracy, full-evidence recall, retrieval noise, false refusal, correct refusal on
 unanswerable questions, p50 latency, cost per question. Reuses build_report.Data / recommend().
   uv run python -I harness/build_html.py   -> report.html (Chinese) and report.en.html (English)
 All page text comes from STRINGS[lang]: {{key}} placeholders in the HTML, the T object in the script.
@@ -38,6 +38,7 @@ STRINGS = {
         "lang": "zh", "other_href": "report.en.html", "other_lang": "en", "other_label": "English", "title": "知识库方案评测", "h1": "知识库方案评测 · 核心指标", "recs_h": "推荐", "core_h": "核心指标",
         "acc_t": "MuSiQue 准确率", "acc_s": "越高越好 · 多跳问答，短答案 · 已剔除任一模型不查库就能答对的题",
         "all_t": "找全证据", "all_s": "越高越好 · 多跳题的所有证据都被检索到或读到",
+        "noise_t": "检索噪声率", "noise_s": "越低越好 · 展示给模型的文档里，不是证据的比例（多跳题）· 和找全证据一起看",
         "fr_t": "误拒", "fr_s": "越低越好 · 库里有答案却说\"没有\"",
         "ro_t": "说\"不知道\"", "ro_s": "越高越好 · 库里没有答案时正确拒答",
         "value_h": "性价比", "cost_t": "准确率 vs 单题花费", "cost_s": "横轴对数刻度 · 左上角最好",
@@ -47,7 +48,7 @@ STRINGS = {
         "rounds_h": "轮询次数", "steps_t": "平均轮次（模型调用次数）",
         "steps_s": "越少越快越省 · 单次 = 1；两轮 ≤ 3；智能体 ≤ 12 轮（用满后再强制作答 1 次）",
         "tools_t": "平均工具调用次数", "tools_s": "搜索 / grep / 读文件等调用总数 · 智能体一轮可并行调用多个工具",
-        "js": {"docs": "篇", "acc": "准确率", "full": "找全证据", "fr": "误拒", "ro": "说不知道", "per_q": "/题",
+        "js": {"docs": "篇", "acc": "准确率", "full": "找全证据", "noise": "噪声率", "fr": "误拒", "ro": "说不知道", "per_q": "/题",
                "generated": "生成于", "judged": "已评分", "incomplete": "（数据未完整，空缺处不显示）",
                "rec_names": {"best": "质量首选", "value": "性价比", "flash": "Flash 级首选"},
                "rec_cost": "$/题", "rec_show": "在图表和数据表里看这个体量", "rec_shown": "图表显示中", "nodata": "数据不足", "no_graded": "暂无已评分数据",
@@ -58,7 +59,7 @@ STRINGS = {
                "fv": {"mode": {"A0": "单次", "A2": "两轮", "A1": "智能体"},
                       "method": {"grep": "grep", "bm25": "BM25", "hybrid": "混合", "enhanced": "增强混合", "nav": "wiki 导航"},
                       "wiki": {"raw": "原文", "wiki": "LLM-wiki"}},
-               "th": ["配置", "模型", "准确率", "找全证据", "误拒", "说不知道", "轮次", "工具调用", "p50", "$/题", "已评分"]},
+               "th": ["配置", "模型", "准确率", "找全证据", "噪声率", "误拒", "说不知道", "轮次", "工具调用", "p50", "$/题", "已评分"]},
     },
     "en": {
         "lang": "en", "other_href": "report.html", "other_lang": "zh", "other_label": "中文", "title": "Knowledge-base retrieval benchmark", "h1": "Knowledge-base retrieval benchmark · core metrics",
@@ -66,6 +67,7 @@ STRINGS = {
         "acc_t": "MuSiQue accuracy",
         "acc_s": "Higher is better · multi-hop QA, short answers · questions any model answers without the KB are excluded",
         "all_t": "Full evidence found", "all_s": "Higher is better · every evidence document of a multi-hop question was retrieved or read",
+        "noise_t": "Retrieval noise", "noise_s": "Lower is better · share of the documents shown to the model that are not evidence (multi-hop) · read with full evidence",
         "fr_t": "False refusal", "fr_s": "Lower is better · says \"not in the KB\" although the answer is there",
         "ro_t": "Says \"not in the KB\"", "ro_s": "Higher is better · correct refusal when the KB lacks the answer",
         "value_h": "Cost and speed", "cost_t": "Accuracy vs cost per question", "cost_s": "Log-scale x axis · top-left is best",
@@ -76,7 +78,7 @@ STRINGS = {
         "rounds_h": "Rounds", "steps_t": "Average rounds (model calls)",
         "steps_s": "Fewer is faster and cheaper · single-shot = 1; two-round ≤ 3; agent ≤ 12 rounds (+1 forced answer at the cap)",
         "tools_t": "Average tool calls", "tools_s": "Search / grep / read calls in total · an agent may call several tools per round",
-        "js": {"docs": "docs", "acc": "Accuracy", "full": "Full evidence", "fr": "False refusal", "ro": "Says not in KB",
+        "js": {"docs": "docs", "acc": "Accuracy", "full": "Full evidence", "noise": "Noise", "fr": "False refusal", "ro": "Says not in KB",
                "per_q": "/question", "generated": "Generated", "judged": "graded",
                "incomplete": " (incomplete — missing cells are hidden)",
                "rec_names": {"best": "Best quality", "value": "Best value", "flash": "Best Flash-tier"},
@@ -88,7 +90,7 @@ STRINGS = {
                "fv": {"mode": {"A0": "Single-shot", "A2": "Two-round", "A1": "Agent"},
                       "method": {"grep": "grep", "bm25": "BM25", "hybrid": "Hybrid", "enhanced": "Enhanced hybrid", "nav": "Wiki navigation"},
                       "wiki": {"raw": "Raw notes", "wiki": "LLM-wiki"}},
-               "th": ["Configuration", "Model", "Accuracy", "Full evidence", "False refusal", "Says not in KB", "Rounds",
+               "th": ["Configuration", "Model", "Accuracy", "Full evidence", "Noise", "False refusal", "Says not in KB", "Rounds",
                       "Tool calls", "p50", "$/question", "Graded"]},
     },
 }
@@ -159,10 +161,10 @@ def collect() -> dict:
                     continue
                 cov = c["n_raw"] / TOTAL_PER_SCALE[s]
                 vals = {k: (round(c[k], 4) if isinstance(c[k], float) else c[k])
-                        for k in ("acc", "acc_n", "mus_all", "false_ref", "refusal_ok", "lat50", "cost",
+                        for k in ("acc", "acc_n", "mus_all", "noise", "false_ref", "refusal_ok", "lat50", "cost",
                                   "n_raw", "n_judged", "steps", "tool_calls", "cap_hit")}
                 if cov < 0.9:  # still running: partial numbers would mislead
-                    vals.update({k: None for k in ("acc", "mus_all", "false_ref", "refusal_ok", "lat50", "cost", "steps", "tool_calls", "cap_hit")})
+                    vals.update({k: None for k in ("acc", "mus_all", "noise", "false_ref", "refusal_ok", "lat50", "cost", "steps", "tool_calls", "cap_hit")})
                 elif c["n_judged"] < 0.9 * c["n_raw"]:  # run done, grading not yet: hide grader-based metrics
                     vals.update({k: None for k in ("acc", "false_ref", "refusal_ok")})
                 cells.append({"scale": s, "config": label, "model": m, "coverage": round(cov, 3), **vals})
@@ -219,6 +221,7 @@ h1{font-size:20px;margin:0 0 4px}.head{display:flex;justify-content:space-betwee
 .stat .l{display:block;font-size:11px;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .rc .nodata{font-size:12.5px;color:var(--text-muted);padding-top:12px}
 .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 28px;margin-bottom:20px}
 .panel h3{font-size:13px;margin:0 0 2px}.panel .sub{font-size:12px;color:var(--text-muted);margin-bottom:4px}
 svg text{fill:var(--text-secondary);font-size:11.5px}svg .ax{fill:var(--text-muted);font-size:10.5px}svg .better{fill:var(--text-muted);font-size:10.5px}
 th .dir{color:var(--text-muted);font-weight:500}#tbl td.m{min-width:66px}#tbl td.best span{font-weight:650;color:var(--text-primary)}
@@ -274,7 +277,7 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 .appx td.num,.appx th.num{text-align:right;white-space:nowrap}.appx ul{margin:4px 0 8px;padding-left:20px}.appx li{margin:2px 0}
 #cache table{margin-top:4px}ul.notes{margin:8px 0 0;padding-left:18px;font-size:12.5px;color:var(--text-secondary)}ul.notes li{margin:3px 0}
 .sub{font-size:12px;color:var(--text-muted)}.appx .muted{color:var(--text-muted);font-size:11.5px}.appx a{color:var(--s1)}.appx code{font-size:12px;background:var(--surface-2);padding:0 4px;border-radius:3px}
-@media (max-width:900px){.grid2,.recs{grid-template-columns:1fr}}
+@media (max-width:900px){.grid2,.grid3,.recs{grid-template-columns:1fr}}
 </style></head>
 <body><div class="viz-root">
 <div class="head"><h1>{{h1}}</h1><nav class="links"><a href="{{other_href}}" hreflang="{{other_lang}}">{{other_label}}</a><span>·</span><a href="https://github.com/leweii/kb-retrieval-benchmark" target="_blank" rel="noopener">GitHub</a></nav></div>
@@ -282,9 +285,12 @@ td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right
 <div class="bar" id="filters"></div>
 <h2>{{recs_h}}</h2><div class="recs-sub">{{recs_s}}</div><div class="recs" id="recs"></div>
 <h2 id="h-core">{{core_h}}</h2>
-<div class="grid2">
+<div class="grid3">
  <div class="panel"><h3>{{acc_t}}</h3><div class="sub">{{acc_s}}</div><div id="p-acc"></div></div>
  <div class="panel"><h3>{{all_t}}</h3><div class="sub">{{all_s}}</div><div id="p-all"></div></div>
+ <div class="panel"><h3>{{noise_t}}</h3><div class="sub">{{noise_s}}</div><div id="p-noise"></div></div>
+</div>
+<div class="grid2">
  <div class="panel"><h3>{{fr_t}}</h3><div class="sub">{{fr_s}}</div><div id="p-fr"></div></div>
  <div class="panel"><h3>{{ro_t}}</h3><div class="sub">{{ro_s}}</div><div id="p-ro"></div></div>
 </div>
@@ -315,12 +321,12 @@ let scale = D.scales[D.scales.length-1];
 const tip = document.getElementById("tip");
 function showTip(e, html){tip.innerHTML=html;tip.style.display="block";const x=Math.min(e.clientX+14, innerWidth-300);tip.style.left=x+"px";tip.style.top=(e.clientY+14)+"px";}
 function hideTip(){tip.style.display="none";}
-function cell(c){return `<div class="t">${c.config}</div>${D.labels[c.model]} · ${c.scale} ${T.docs}<br>${T.acc} ${pct(c.acc)} (n=${c.acc_n}) · ${T.full} ${pct(c.mus_all)}<br>${T.fr} ${pct(c.false_ref)} · ${T.ro} ${pct(c.refusal_ok)}<br>${T.steps} ${num(c.steps)} · ${T.tools} ${num(c.tool_calls)}${c.cap_hit!=null?` · ${T.cap} ${pct(c.cap_hit)}`:""}<br>p50 ${sec(c.lat50)} · ${usd(c.cost)}${T.per_q}`;}
+function cell(c){return `<div class="t">${c.config}</div>${D.labels[c.model]} · ${c.scale} ${T.docs}<br>${T.acc} ${pct(c.acc)} (n=${c.acc_n}) · ${T.full} ${pct(c.mus_all)} · ${T.noise} ${pct(c.noise)}<br>${T.fr} ${pct(c.false_ref)} · ${T.ro} ${pct(c.refusal_ok)}<br>${T.steps} ${num(c.steps)} · ${T.tools} ${num(c.tool_calls)}${c.cap_hit!=null?` · ${T.cap} ${pct(c.cap_hit)}`:""}<br>p50 ${sec(c.lat50)} · ${usd(c.cost)}${T.per_q}`;}
 const NS="http://www.w3.org/2000/svg";
 function el(tag, attrs, parent){const n=document.createElementNS(NS,tag);for(const k in attrs)n.setAttribute(k,attrs[k]);if(parent)parent.appendChild(n);return n;}
 const keyOf = c => `${c.scale}|${c.config}|${c.model}`;
 // +1 = higher is better, -1 = lower is better
-const DIR = {acc:1, mus_all:1, refusal_ok:1, false_ref:-1, steps:-1, tool_calls:-1, lat50:-1, cost:-1};
+const DIR = {acc:1, mus_all:1, noise:-1, refusal_ok:1, false_ref:-1, steps:-1, tool_calls:-1, lat50:-1, cost:-1};
 let gid = 0;
 // neutral (ink, not status colour) band that darkens toward the better end of an axis; colour stays reserved for models
 function betterBand(svg, x0, x1, y0, y1, dir){
@@ -444,7 +450,7 @@ function table(){
   const rows=visCfg().flatMap(cfg=>D.models.map(m=>cs.find(c=>c.config===cfg&&c.model===m)).filter(Boolean));
   if(!rows.length){document.getElementById("tbl").innerHTML=`<div class="nomatch">${T.no_match}</div>`; return;}
   // goodness bar per metric cell: longer = better in every column (direction from DIR), relative to the visible rows
-  const COLS=[["acc",pct],["mus_all",pct],["false_ref",pct],["refusal_ok",pct],["steps",num],["tool_calls",num],["lat50",sec],["cost",usd]];
+  const COLS=[["acc",pct],["mus_all",pct],["noise",pct],["false_ref",pct],["refusal_ok",pct],["steps",num],["tool_calls",num],["lat50",sec],["cost",usd]];
   const rng={}; COLS.forEach(([k])=>{const v=rows.map(c=>c[k]).filter(x=>x!=null); rng[k]=[Math.min(...v),Math.max(...v)];});
   const mcell=(c,k,f)=>{const v=c[k]; if(v==null) return `<td class="m">–</td>`; const [lo,hi]=rng[k];
     const g=hi>lo?(DIR[k]>0?(v-lo)/(hi-lo):(hi-v)/(hi-lo)):1;
@@ -462,7 +468,7 @@ tbl.addEventListener("mouseout",e=>{const tr=e.target.closest("tr[data-key]");if
 function render(){
   scale=F.scale; filters();
   document.getElementById("h-core").textContent=`${T.core_h} · ${scale} ${T.docs}`;
-  const mx=k=>Math.ceil(Math.max(...D.cells.map(c=>c[k]||0))); recs(); dotplot("p-steps","steps",mx("steps")); dotplot("p-tools","tool_calls",mx("tool_calls")); dotplot("p-acc","acc"); dotplot("p-all","mus_all"); dotplot("p-fr","false_ref"); dotplot("p-ro","refusal_ok");
+  const mx=k=>Math.ceil(Math.max(...D.cells.map(c=>c[k]||0))); recs(); dotplot("p-steps","steps",mx("steps")); dotplot("p-tools","tool_calls",mx("tool_calls")); dotplot("p-acc","acc"); dotplot("p-all","mus_all"); dotplot("p-noise","noise"); dotplot("p-fr","false_ref"); dotplot("p-ro","refusal_ok");
   scatter("p-cost","cost",true,v=>"$"+(v<0.01?v.toFixed(3):v.toFixed(2))); scatter("p-lat","lat50",false,v=>v.toFixed(0)+"s"); table();
 }
 render(); addEventListener("resize", render);

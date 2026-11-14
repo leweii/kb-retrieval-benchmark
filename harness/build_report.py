@@ -81,6 +81,15 @@ def evidence_found(r: dict, gold_paths: list[str], all_: bool = True, opened_onl
     return gold <= seen if all_ else bool(gold & seen)
 
 
+def evidence_noise(r: dict, gold_paths: list[str]) -> float | None:
+    """Share of the documents shown to the model (same exposure set as evidence_found) that are not evidence —
+    1 - precision. Recall alone rewards showing more: 100 documents with 5 needed and 20 with the same 5 both
+    find all the evidence, at 95% and 75% noise. None when nothing was shown. Evidence is the minimal gold set, so
+    other documents that also hold the answer count as noise (an upper bound; use it to compare setups)."""
+    seen = set(r["retrieved"]) | set(r["read"])
+    return len(seen - set(gold_paths)) / len(seen) if seen else None
+
+
 class Data:
     def __init__(self, qfile: Path | None = None, res: Path | None = None):
         """qfile / res override the question file and the results directory (e.g. to compare a snapshot)."""
@@ -138,6 +147,7 @@ class Data:
             "acc_k": sum(bool(r["judge"]["correct"]) for r in jm),
             "mus_all": mean([gold_found(r) for r in mus]),
             "mus_opened": mean([gold_found(r, opened_only=True) for r in mus]) if mode != "A0" else None,
+            "noise": mean([x for x in (evidence_noise(r, q[r["qid"]]["gold_paths"]) for r in mus) if x is not None]),
             "bright_any": mean([gold_found(r, False) for r in bri]),
             "nolima_found": mean([gold_found(r, False) for r in nol]),
             "false_ref": mean([r["judge"]["abstained"] is not False for r in jans]),
