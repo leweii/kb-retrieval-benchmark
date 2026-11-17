@@ -51,13 +51,13 @@ The knowledge base mixes three public datasets (nested 300 ⊂ 900 ⊂ 3000 docu
 | [BRIGHT](https://huggingface.co/datasets/xlangai/BRIGHT) — Su et al., 2024 | 7 StackExchange domains: real questions and the long web pages they cite | CC BY 4.0 |
 | [NoLiMa](https://huggingface.co/datasets/amodaresi/NoLiMa) — Modarressi et al., ICML 2025 | Fiction chunks with inserted "needle" sentences (latent-association retrieval) | Adobe Research License |
 
-**What is in this repository:** derived question sets and graded results for MuSiQue and BRIGHT (`questions_v2/`, `data/results/p2_judged.tar.gz`), and the Haiku LLM-wiki digests of their documents (`data/digest/kb2-haiku/`). **NoLiMa-derived content is not redistributed** (20 questions, fiction chunks and their digests) — rebuild it from the original dataset with the scripts below. The reports contain aggregate metrics only.
+**What is in this repository:** derived question sets and graded results for MuSiQue, BRIGHT and NoLiMa (`questions_v2/`, `data/results/p2_judged.tar.gz`), and the LLM-wiki digests of the documents (`data/digest/`), plus the v1 question sets and digests (`questions/`, `data/digest/repliqa/`, `data/digest/multihop/`). **This includes NoLiMa-derived content** (20 questions, fiction-chunk digests); NoLiMa is distributed under the Adobe Research License, so check its terms before reusing that part. The raw source corpora are not included.
 
 ## Reproduce
 
 Requires [uv](https://docs.astral.sh/uv/), and API keys for the parts you rerun: `ANTHROPIC_API_KEY`, `DEEPSEEK_API_KEY`, `OPENROUTER_API_KEY` (embeddings).
 
-Rebuild the report from the published graded results (no API calls; NoLiMa rows will be empty):
+Rebuild the report from the published graded results (no API calls):
 
 ```bash
 mkdir -p results && tar -xzf data/results/p2_judged.tar.gz
