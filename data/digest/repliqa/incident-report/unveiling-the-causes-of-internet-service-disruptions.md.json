@@ -1,0 +1,103 @@
+{
+ "summary": "The note surveys the main causes of internet service disruptions since September 1, 2023, including physical damage, natural disasters, cyber attacks, ISP errors, wildlife, space weather and aging infrastructure. It cites dated incidents and expert commentary for each cause. It then outlines mitigation strategies: hardened and redundant networks, disaster recovery plans, and public awareness and community resilience.",
+ "one_line": "Overview of the causes of internet outages since September 2023, with dated incidents, expert views, and strategies to improve network resilience.",
+ "key_facts": [
+  "On September 15, 2023, a construction mishap in Atlanta, Georgia severed underground fiber-optic cables, causing widespread regional internet outages.",
+  "Hurricane Valentina struck the eastern coastline on October 4, 2023, leaving millions without internet for weeks by tearing down power lines and disrupting satellite signals.",
+  "An earthquake in Southeast Asia on November 11, 2023 severely damaged undersea cables connecting several countries to the global network.",
+  "Dr. Haruto Tanaka, a leading seismologist in Japan, said undersea cables are incredibly vulnerable during seismic events and repairs take considerable time and resources.",
+  "On September 22, 2023, a coordinated DDoS attack on a major DNS provider's servers knocked out internet service for tens of thousands of users across the United States.",
+  "On November 2, 2023, a configuration error during routine maintenance by TechNet Communications caused a nationwide outage lasting several hours.",
+  "On December 1, 2023, a beaver chewed through a fiber optic cable along the Platte River in Denver, Colorado, taking down internet for an entire neighborhood.",
+  "Astrophysicist Dr. Michael Richter's research, published December 10, 2023, explains that charged particles from solar flares can induce currents in long cables and potentially damage network infrastructure.",
+  "Tech analyst Ricardo Gomez noted on January 5, 2024 that aging infrastructure, much of it installed decades ago, causes more frequent disruptions.",
+  "After Hurricane Valentina, emergency communication services were maintained via satellite connections, showing the value of network redundancy.",
+  "Mitigation strategies include submarine cables that withstand seismic activity, satellite backup for cable systems, and disaster recovery plans with traffic rerouting and rapid deployment repair teams.",
+  "TechNet Communications and other ISPs have started conducting regular disaster simulations.",
+  "Community centers with emergency internet connectivity can serve as hubs during widespread disruptions."
+ ],
+ "entities": [
+  {
+   "name": "Amanda Liu",
+   "type": "person",
+   "role": "Industry expert from GlobalNet Solutions who cited factors behind internet disruptions"
+  },
+  {
+   "name": "GlobalNet Solutions",
+   "type": "organization",
+   "role": "Employer of Amanda Liu"
+  },
+  {
+   "name": "James Donovan",
+   "type": "person",
+   "role": "Industry expert from the Institute for Technology Assessment"
+  },
+  {
+   "name": "Institute for Technology Assessment",
+   "type": "organization",
+   "role": "Employer of James Donovan"
+  },
+  {
+   "name": "Hurricane Valentina",
+   "type": "event",
+   "role": "Hurricane that struck the eastern coastline on October 4, 2023 and caused weeks-long internet outages"
+  },
+  {
+   "name": "Dr. Haruto Tanaka",
+   "type": "person",
+   "role": "Leading seismologist in Japan who described the vulnerability of undersea cables"
+  },
+  {
+   "name": "Johnathan Wilkes",
+   "type": "person",
+   "role": "Cybersecurity analyst who explained how DDoS attacks overload servers"
+  },
+  {
+   "name": "TechNet Communications",
+   "type": "organization",
+   "role": "ISP whose maintenance configuration error caused a nationwide outage on November 2, 2023"
+  },
+  {
+   "name": "Sarah Goldberg",
+   "type": "person",
+   "role": "Environmental biologist who said wildlife-related outages will likely increase as urban areas expand"
+  },
+  {
+   "name": "Dr. Michael Richter",
+   "type": "person",
+   "role": "Astrophysicist who published research on solar flares and network infrastructure"
+  },
+  {
+   "name": "Ricardo Gomez",
+   "type": "person",
+   "role": "Tech analyst who noted the aging infrastructure problem"
+  },
+  {
+   "name": "Atlanta, Georgia",
+   "type": "place",
+   "role": "Site of the September 15, 2023 fiber-optic cable cut from a construction mishap"
+  },
+  {
+   "name": "Denver, Colorado",
+   "type": "place",
+   "role": "Site of the beaver-caused fiber cable outage on December 1, 2023"
+  },
+  {
+   "name": "Platte River",
+   "type": "place",
+   "role": "River along which the beaver chewed through a fiber optic cable"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "incident-report",
+  "infrastructure",
+  "cybersecurity",
+  "natural-disasters",
+  "resilience"
+ ],
+ "usage": {
+  "input_tokens": 3016,
+  "output_tokens": 1572
+ }
+}

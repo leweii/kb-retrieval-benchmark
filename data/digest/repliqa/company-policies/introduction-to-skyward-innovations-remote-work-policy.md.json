@@ -1,0 +1,58 @@
+{
+ "summary": "This note sets out Skyward Innovations' policy on data security and confidentiality for remote work, balancing flexible work arrangements with protection of company data. It covers personal device security, secure networks, encryption, access controls, document handling, incident reporting and the home workspace. It also states consequences for non-compliance, continuous review of the policy, and a requirement that all employees acknowledge it.",
+ "one_line": "Skyward Innovations' remote work policy defines data security and confidentiality rules for employees working outside the office, including devices, networks, documents and incident reporting.",
+ "key_facts": [
+  "Skyward Innovations' remote work policy applies to all employees who work remotely, including from home, co-working spaces or any other non-Skyward Innovations location.",
+  "Personal devices used for work must comply with company IT security requirements: updated OS and software with the latest security patches, reputable antivirus software, strong unique passwords changed regularly, firewall protections, and physical security.",
+  "Employees should connect to company systems only through secure and reliable internet connections.",
+  "The policy highly recommends a Virtual Private Network (VPN) for accessing work-related systems, to encrypt data in transit.",
+  "Wi-Fi networks should use strong encryption (WPA2 or WPA3), and public Wi-Fi should be avoided for company business whenever possible.",
+  "Confidential data stored on a local device must always be encrypted, and transmitted data must use Skyward Innovations-approved encryption tools and methods.",
+  "Employees may only access data necessary for their tasks; sharing credentials is strictly prohibited, as is leaving systems unattended and unlocked.",
+  "Sensitive documents should be stored on Skyward Innovations cloud services, not on personal devices unless expressly authorized and encrypted.",
+  "Documents may only be transmitted through approved company platforms, and physical copies must be securely stored and shredded when no longer needed.",
+  "Security incidents, including suspected data breaches or loss of company property, must be reported immediately to the IT department.",
+  "Employees must create a secure and private workspace to ensure confidentiality during phone calls, video conferences and work activities.",
+  "Non-compliance can lead to disciplinary action up to and including termination of employment; training and periodic audits will ensure adherence.",
+  "Skyward Innovations will review and update the policy as needed in response to technological advances and new security threats.",
+  "All employees must acknowledge receipt and understanding of the policy."
+ ],
+ "entities": [
+  {
+   "name": "Skyward Innovations",
+   "type": "organization",
+   "role": "Company that issues the remote work data security and confidentiality policy for its employees"
+  },
+  {
+   "name": "IT department",
+   "type": "organization",
+   "role": "Team to which security incidents, suspected data breaches and lost company property must be reported immediately"
+  },
+  {
+   "name": "Virtual Private Network (VPN)",
+   "type": "product",
+   "role": "Recommended tool to access work systems and encrypt data in transit"
+  },
+  {
+   "name": "WPA2",
+   "type": "product",
+   "role": "Strong Wi-Fi encryption standard recommended for networks used for work"
+  },
+  {
+   "name": "WPA3",
+   "type": "product",
+   "role": "Strong Wi-Fi encryption standard recommended for networks used for work"
+  }
+ ],
+ "tags": [
+  "remote-work",
+  "data-security",
+  "company-policy",
+  "confidentiality",
+  "it-security"
+ ],
+ "usage": {
+  "input_tokens": 2120,
+  "output_tokens": 1056
+ }
+}

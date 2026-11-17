@@ -1,0 +1,102 @@
+{
+ "summary": "The note surveys how e-governance platforms are being adopted by local governments to boost civic engagement, transparency and accountability. It walks through six steps of citizen use (access, registration, services, participation, messaging representatives, feedback) with examples from several towns launched in September–October 2023. It also covers benefits, the technology (AI chatbots, cybersecurity), and challenges like the digital divide and gaining public buy-in.",
+ "one_line": "Overview of how local e-governance platforms, with 2023 examples from several towns, increase citizen engagement and transparency, along with their challenges.",
+ "key_facts": [
+  "E-governance uses information and communication technology (ICT) to streamline government operations, ease access to services and open up previously hard-to-obtain information.",
+  "On September 4, 2023, Mayor Samantha Lopez of Vergara launched an integrated e-governance system where citizens can find city council meeting information, file complaints, request documents and pay municipal taxes online.",
+  "Vergara's platform uses the URL \"VergaraCitizenConnect.gov\", rolled out after city council approval on September 15, 2023.",
+  "As of September 30, 2023, residents of Eastwood must verify accounts using a mobile number or a secure identification system akin to national ID verification.",
+  "City administrator Jonathan Edwards said Eastwood saw a surge in digitized services such as reporting potholes, streetlight outages and browsing job postings since its October 1 launch.",
+  "On October 12, Riversdale Mayor Jessica Thorn announced a participatory budget platform letting constituents directly influence council decisions, unprecedented in the town's history.",
+  "Summerside constituents can directly message their councilors via the e-governance system, instituted on October 5.",
+  "New Lancaster's \"CivicVoice\" portal, launched September 25, lets residents suggest system improvements and rate government responses to inquiries or complaints.",
+  "Fairview's AI chatbot \"AskFairview\" has answered over 10,000 questions since its inception on September 20.",
+  "After an October 10 city council briefing in Brookhaven, it was reported the administration dedicated a substantial portion of its budget to cybersecurity.",
+  "Reported benefits include enhanced transparency, greater service efficiency, increased political participation and improved accountability.",
+  "Challenges include bridging the digital divide and, as IT director Michael Zhou said at a November town hall meeting, gaining buy-in from officials and the public and addressing skepticism about efficacy and security."
+ ],
+ "entities": [
+  {
+   "name": "Samantha Lopez",
+   "type": "person",
+   "role": "Mayor of Vergara who launched an integrated e-governance system on September 4, 2023"
+  },
+  {
+   "name": "Vergara",
+   "type": "place",
+   "role": "City that launched VergaraCitizenConnect.gov"
+  },
+  {
+   "name": "VergaraCitizenConnect.gov",
+   "type": "product",
+   "role": "Vergara's e-governance portal"
+  },
+  {
+   "name": "Eastwood",
+   "type": "place",
+   "role": "City requiring account verification and launching services October 1"
+  },
+  {
+   "name": "Jonathan Edwards",
+   "type": "person",
+   "role": "City administrator in Eastwood who noted a surge in digitized service use"
+  },
+  {
+   "name": "Riversdale",
+   "type": "place",
+   "role": "Town with a participatory budget platform"
+  },
+  {
+   "name": "Jessica Thorn",
+   "type": "person",
+   "role": "Mayor of Riversdale who announced the participatory budget platform"
+  },
+  {
+   "name": "Summerside",
+   "type": "place",
+   "role": "Locality where constituents can message councilors via the e-governance system"
+  },
+  {
+   "name": "New Lancaster",
+   "type": "place",
+   "role": "Place where the CivicVoice portal launched September 25"
+  },
+  {
+   "name": "CivicVoice",
+   "type": "product",
+   "role": "New Lancaster portal for feedback on system and government responses"
+  },
+  {
+   "name": "Fairview",
+   "type": "place",
+   "role": "Town using the AskFairview AI chatbot"
+  },
+  {
+   "name": "AskFairview",
+   "type": "product",
+   "role": "AI chatbot that has answered over 10,000 questions"
+  },
+  {
+   "name": "Brookhaven",
+   "type": "place",
+   "role": "City whose administration dedicated budget to cybersecurity"
+  },
+  {
+   "name": "Michael Zhou",
+   "type": "person",
+   "role": "IT director who stressed buy-in at a November town hall meeting"
+  }
+ ],
+ "tags": [
+  "e-governance",
+  "local-government",
+  "civic-engagement",
+  "transparency",
+  "digital-services",
+  "cybersecurity"
+ ],
+ "usage": {
+  "input_tokens": 2669,
+  "output_tokens": 1424
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "summary": "In this excerpt from a fiction novel, the narrator shows Arthur and Professor Halliday the crumpled pages recovered from Martinez's condo, revealing that Martinez burned Halliday's work and her own because she had proved P equals NP. The narrator explains the P versus NP problem to Arthur, describing P problems as quickly solvable and NP problems as quickly verifiable but not necessarily quickly solvable. Halliday then warns that the proof would threaten the economy and encryption, and would make logistics and protein folding easy.",
+ "one_line": "In a novel excerpt, the narrator reveals Martinez's proof that P equals NP and explains the problem's stakes to Arthur and Halliday.",
+ "key_facts": [
+  "The narrator pulled crumpled pages from Martinez's condo out of his pocket and handed them to Halliday.",
+  "Martinez burned Professor Halliday's work after she burned her own, because she was afraid and had found something.",
+  "The narrator states that Martinez proved P equals NP.",
+  "The P versus NP problem is a problem in mathematics concerning how difficult problems are computationally.",
+  "Problems in the set P can be solved quickly, meaning in polynomial time on a deterministic Turing machine.",
+  "Problems in NP can be verified quickly if a solution is available, but may not be quickly solvable.",
+  "The narrator uses a maze analogy: checking a maze solution is easy, but finding the solution is much harder.",
+  "Mathematics has never proven whether P equals NP, whether they are unequal, or whether the question is unprovable.",
+  "Most people figured P did not equal NP before the proof.",
+  "Halliday says the proof threatened the economy and could revolutionize logistics and protein folding.",
+  "Halliday says encryption works because once you have the code, you have access, so the proof could break it."
+ ],
+ "entities": [
+  {
+   "name": "Martinez",
+   "type": "person",
+   "role": "Woman whose condo the pages were retrieved from; she burned her own work and Halliday's work after finding a proof that P equals NP"
+  },
+  {
+   "name": "Russell",
+   "type": "person",
+   "role": "Narrator who explains the P versus NP problem and shows the pages to Halliday and Arthur"
+  },
+  {
+   "name": "Arthur",
+   "type": "person",
+   "role": "Companion who asks questions and admits to knowing nothing about complexity classes"
+  },
+  {
+   "name": "Halliday",
+   "type": "person",
+   "role": "Professor who reads the pages and reacts with shock; she is Martinez's former collaborator whose work Martinez burned"
+  },
+  {
+   "name": "P versus NP problem",
+   "type": "event",
+   "role": "Unsolved mathematical question of whether problems that can be verified quickly can also be solved quickly"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "mathematics",
+  "p versus np",
+  "computational complexity",
+  "cryptography"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 2031,
+  "output_tokens": 905
+ }
+}

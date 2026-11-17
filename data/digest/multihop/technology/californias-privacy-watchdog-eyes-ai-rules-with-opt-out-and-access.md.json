@@ -1,0 +1,104 @@
+{
+ "summary": "California's Privacy Protection Agency (CPPA) published draft regulations on automated decisionmaking technology (ADMT), meaning AI, giving state residents opt-out rights, pre-use notices and access rights. The draft draws on the EU's GDPR and AI Act but adds more specific provisions and fewer exemptions. Scope for behavioral advertising, profiling of children and training of ADMT is still open for consultation, and the rules likely won't take effect before 2025.",
+ "one_line": "California's privacy agency has drafted ADMT (AI) rules giving residents opt-out, pre-use notice and access rights, with consultation and formal rulemaking planned for 2024.",
+ "key_facts": [
+  "The CPPA published draft regulations on automated decisionmaking technology (ADMT), which it treats as AI, on 2023-11-27.",
+  "Ashkan Soltani, the CPPA's exec director, called the draft 'by far the most comprehensive and detailed set of rules in the \"AI space\"'.",
+  "The core of the regime is opt-out rights, pre-use notice requirements and access rights for state residents.",
+  "Opt-out exemptions are narrow: security, fraud prevention, safety, or a good or service requested by the consumer; behavioral advertising cannot use these exemptions.",
+  "To claim the 'requested good or service' exemption, a business must show it has no reasonable alternative method of processing, such as futility, less valid/reliable/fair results, or extreme hardship.",
+  "Access rights would let residents ask for details of ADMT use, its output about them, how decisions were made, the logic and 'key parameters', the range of possible outputs, and how to exercise other CCPA rights or complain.",
+  "Only three exemptions to access rights are proposed: security, fraud prevention and safety.",
+  "The draft's threshold covers decisions with legal or similarly significant effects, profiling employees, contractors, job applicants or students, and profiling in publicly accessible places.",
+  "Consultation will discuss extending the rules to behavioral advertising profiling, profiling consumers the business knows are under 16, and processing personal information to train ADMT.",
+  "The CPPA board will give feedback on the draft at its December 8, 2023 meeting, and formal rulemaking is expected to begin in 2024.",
+  "A finalized regulation could come in the second half of 2024, but a grace period means 2025 is the earliest the law could be running.",
+  "The CPPA's reach is tied to the California border, so the rules' impact is likely to remain local.",
+  "The CPPA is also considering draft risk assessment requirements intended to work alongside the ADMT rules.",
+  "The draft defines ADMT as any system, software or process that processes personal information and uses computation to make or execute a decision or facilitate human decisionmaking, and says it includes profiling."
+ ],
+ "entities": [
+  {
+   "name": "California Privacy Protection Agency (CPPA)",
+   "type": "organization",
+   "role": "California state privacy regulator that published the draft ADMT regulations"
+  },
+  {
+   "name": "Ashkan Soltani",
+   "type": "person",
+   "role": "CPPA executive director who described the draft as the most comprehensive AI rules"
+  },
+  {
+   "name": "Vinhcent Le",
+   "type": "person",
+   "role": "CPPA board member and member of the New Rules Subcommittee that drafted the regulations"
+  },
+  {
+   "name": "New Rules Subcommittee",
+   "type": "organization",
+   "role": "CPPA board subcommittee that drafted the proposed regulations"
+  },
+  {
+   "name": "General Data Protection Regulation (GDPR)",
+   "type": "program",
+   "role": "EU law that inspired the California approach, giving rights over automated decisions since May 2018"
+  },
+  {
+   "name": "EU AI Act",
+   "type": "program",
+   "role": "Draft EU risk-based AI framework, in co-legislation, echoed by the CPPA's risk-based approach"
+  },
+  {
+   "name": "California Consumer Privacy Act (CCPA)",
+   "type": "program",
+   "role": "California privacy law in effect since early 2020 that provides the opt-out and access rights"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "US adtech giant whose tracking and profiling ad business could be affected"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "AI company expected to push back; its ChatGPT is under open investigations"
+  },
+  {
+   "name": "Clearview AI",
+   "type": "organization",
+   "role": "Subject of regulatory action over scraped personal data"
+  },
+  {
+   "name": "Uber",
+   "type": "organization",
+   "role": "Subject of litigation in the Netherlands over drivers' access to fraud-flagging system details"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication that interviewed Soltani"
+  },
+  {
+   "name": "California",
+   "type": "place",
+   "role": "US state whose regulator is drafting the AI rules"
+  },
+  {
+   "name": "European Union",
+   "type": "place",
+   "role": "Source of the GDPR and AI Act models"
+  }
+ ],
+ "tags": [
+  "ai-regulation",
+  "privacy",
+  "california",
+  "automated-decisionmaking",
+  "gdpr",
+  "adtech"
+ ],
+ "usage": {
+  "input_tokens": 4768,
+  "output_tokens": 1610
+ }
+}

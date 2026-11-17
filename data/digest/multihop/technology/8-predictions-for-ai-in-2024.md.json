@@ -1,0 +1,104 @@
+{
+ "summary": "Devin Coldewey's TechCrunch piece offers eight predictions for AI in 2024, a year when the hype of 2023 meets reality. He expects OpenAI to become a product company, niche uses of agents and generative media to emerge, monolithic LLMs to show limits, and marketing claims to be punished by customer withdrawal. He also predicts Apple will enter AI, lawsuits and early regulatory compliance to play out slowly, and AI to worsen the already chaotic 2024 US election.",
+ "one_line": "TechCrunch's Devin Coldewey predicts 2024 brings AI hype colliding with reality: OpenAI productization, Apple's entry, legal and regulatory friction, and AI-fueled election disinformation.",
+ "key_facts": [
+  "Devin Coldewey predicts OpenAI will become a product company in 2024, with Sam Altman more fully in charge after the November 2023 leadership shake-up.",
+  "The GPT store, an \"app store for AI,\" was originally planned for launch in December but was delayed by the C-suite fracas; OpenAI is expected to push it hard.",
+  "Gemini/Bard is expected to \"horn in on a ton of Google products,\" but the product-company trend is expected to be more pronounced at OpenAI.",
+  "Agent-based models, generated video and generated music will move from \"quaint\" to experimental in 2024, with use cases such as submitting insurance claims and music for games.",
+  "The article expects diminishing returns on parameter counts: training a 500-billion-parameter model may give better results, but the compute could be deployed more effectively.",
+  "A mixture of experts, a collection of smaller, more specific and likely multimodal models, may prove almost as effective as a monolithic LLM while being easier to update piecemeal.",
+  "Marketing claims from 2023 will be reviewed and found wanting, leading to customer withdrawal from AI tools, lawsuits and regulatory action, plus a round of consolidation.",
+  "Apple is expected to enter AI with a practical assistant built on users' own data, with multimodal understanding but no media generation; it may keep the Siri brand since millions say \"hey Siri\" every 10 seconds.",
+  "Most AI lawsuits over copyright are still pending, and many will fall by the wayside in 2024 because companies stonewall on training data and methods, though discovery may push some to settle.",
+  "New 2024 lawsuits are expected over misuse of AI, such as wrongful termination and bias in hiring and lending.",
+  "The EU's AI Act and similar laws take effect slowly, so only early adopters will comply voluntarily; a newly flourishing AI compliance industry is expected.",
+  "Substantive federal AI regulation in the U.S. is not expected in 2024 because the government and electorate will be consumed by the 2024 election.",
+  "In the 2024 election, bots, fake blogs, generated video and audio and \"AI-powered\" analyses will be used to flood the zone and confuse the narrative.",
+  "The article says Meta and Google cannot take down such posts fast enough, and that X effectively monitoring and removing such content is implausible."
+ ],
+ "entities": [
+  {
+   "name": "Devin Coldewey",
+   "type": "person",
+   "role": "Author of the TechCrunch predictions article"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication that ran the article"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Expected to become a product company with a \"ship it\" mindset"
+  },
+  {
+   "name": "Sam Altman",
+   "type": "person",
+   "role": "OpenAI leader, more fully in charge after the November leadership shake-up"
+  },
+  {
+   "name": "GPT store",
+   "type": "product",
+   "role": "OpenAI's \"app store for AI,\" delayed from its planned December launch"
+  },
+  {
+   "name": "Hugging Face",
+   "type": "organization",
+   "role": "Open source model platform that OpenAI's store is expected to ignore"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Expected to integrate Gemini/Bard into many products; limited in taking down fake content"
+  },
+  {
+   "name": "Gemini/Bard",
+   "type": "product",
+   "role": "Google AI expected to spread across Google products"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Expected to enter AI with a polished, practical, data-integrated assistant"
+  },
+  {
+   "name": "Siri",
+   "type": "product",
+   "role": "Apple assistant that may be improved or rebranded as \"Apple AI\""
+  },
+  {
+   "name": "EU AI Act",
+   "type": "program",
+   "role": "Big regulation that will change the industry slowly"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Platform unable to take down fake election content fast enough"
+  },
+  {
+   "name": "X",
+   "type": "organization",
+   "role": "Platform whose ability to monitor and remove fake content is called implausible"
+  },
+  {
+   "name": "2024 US presidential election",
+   "type": "event",
+   "role": "Expected to be a \"trash fire\" worsened by AI-generated disinformation"
+  }
+ ],
+ "tags": [
+  "ai",
+  "predictions",
+  "openai",
+  "apple",
+  "regulation",
+  "elections"
+ ],
+ "usage": {
+  "input_tokens": 3940,
+  "output_tokens": 1631
+ }
+}

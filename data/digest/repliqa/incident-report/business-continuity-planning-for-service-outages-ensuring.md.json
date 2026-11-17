@@ -1,0 +1,95 @@
+{
+ "summary": "This note is a Q&A-style guide to Business Continuity Planning (BCP) for service outages, covering what a BCP is, who creates it, what it contains, how often to test it, and how to recover and communicate during an outage. It illustrates each point with dated 2023 examples from named companies, including the October 4, 2023 power outage in downtown Metropolis. It also covers insurance, technology, COVID-19's influence, supply chain partners, small businesses, leadership, and financial protections.",
+ "one_line": "A Q&A guide to business continuity planning for service outages, with 2023 company examples covering planning, testing, recovery, communication, technology, and finances.",
+ "key_facts": [
+  "Business Continuity Planning (BCP) is an organization's blueprint for maintaining essential functions and services during and after a disaster or service disruption.",
+  "On October 4, 2023, an unexpected power outage in downtown Metropolis disrupted local businesses.",
+  "Upper management such as CEOs and Board members are ultimately accountable for a BCP, but creation often falls to risk management teams or a business continuity manager.",
+  "Jane Doe, Risk Manager at Widget Corp, coordinated with IT, staff, and executives to manage the response in the October outage.",
+  "On November 11, 2023, Acme Inc.'s BCP was tested during a city-wide internet outage, and they switched to their off-site data backup and continued operations.",
+  "Best practice is to test and update a BCP at least annually or whenever significant changes in operational structure or technology occur; after the October incident, Metropolis Tech Solutions revised their BCP to add redundancy measures.",
+  "On September 21, 2023, John Smith, Operations Manager at Delivered Fast, led a quick-response training session that later ensured a seamless transition to backup generators during a power failure.",
+  "The five recovery steps are: assess the outage's extent and impact, implement immediate response measures from the BCP, communicate with internal and external parties, document actions and resources spent, and hold a debriefing after restoration.",
+  "On September 30, 2023, OnlineBank followed the recovery steps during a sudden outage, resulting in rapid restoration and minimal customer impact.",
+  "On October 12, 2023, BigDeal Retailers informed customers via their mobile app about cashier station outages and used manual checkout processes to keep lines moving.",
+  "Companies with comprehensive BCPs may be considered lower risk and may qualify for lower insurance premiums.",
+  "On December 5, 2023, Virtual Enterprise's cloud-based systems let employees work from home without interruption when power dipped.",
+  "Technologies for continuity include cloud computing, Uninterruptible Power Supply (UPS) systems, and softphone systems.",
+  "During the November 2023 city-wide outage, several small businesses without a BCP experienced extreme disruptions.",
+  "The COVID-19 pandemic emphasized flexibility in work locations and accelerated adoption of digital tools that support resilience."
+ ],
+ "entities": [
+  {
+   "name": "Metropolis",
+   "type": "place",
+   "role": "City whose downtown area suffered an unexpected power outage on October 4, 2023"
+  },
+  {
+   "name": "Jane Doe",
+   "type": "person",
+   "role": "Risk Manager at Widget Corp who coordinated the response to the October outage"
+  },
+  {
+   "name": "Widget Corp",
+   "type": "organization",
+   "role": "Company whose Risk Manager coordinated with IT, staff, and executives during the outage"
+  },
+  {
+   "name": "Acme Inc.",
+   "type": "organization",
+   "role": "Company whose BCP was tested in the November 11, 2023 city-wide internet outage; switched to off-site data backup"
+  },
+  {
+   "name": "Metropolis Tech Solutions",
+   "type": "organization",
+   "role": "Company that revised its BCP with new redundancy measures after the October incident"
+  },
+  {
+   "name": "John Smith",
+   "type": "person",
+   "role": "Operations Manager at Delivered Fast who led quick-response training on September 21, 2023"
+  },
+  {
+   "name": "Delivered Fast",
+   "type": "organization",
+   "role": "Company that transitioned seamlessly to backup generators during a power failure"
+  },
+  {
+   "name": "OnlineBank",
+   "type": "organization",
+   "role": "Organization that followed recovery steps during a sudden service outage on September 30, 2023"
+  },
+  {
+   "name": "BigDeal Retailers",
+   "type": "organization",
+   "role": "Retailer that handled cashier station outages on October 12, 2023 via mobile app notices and manual checkout"
+  },
+  {
+   "name": "Virtual Enterprise",
+   "type": "organization",
+   "role": "Company whose cloud-based systems let employees work from home during a December 5, 2023 power dip"
+  },
+  {
+   "name": "Business Continuity Planning (BCP)",
+   "type": "program",
+   "role": "Organizational blueprint for maintaining essential functions during and after disruptions"
+  },
+  {
+   "name": "COVID-19 pandemic",
+   "type": "event",
+   "role": "Event that accelerated flexibility in work locations and adoption of digital resilience tools"
+  }
+ ],
+ "tags": [
+  "business-continuity",
+  "service-outage",
+  "incident-response",
+  "disaster-recovery",
+  "risk-management",
+  "resilience"
+ ],
+ "usage": {
+  "input_tokens": 2979,
+  "output_tokens": 1640
+ }
+}

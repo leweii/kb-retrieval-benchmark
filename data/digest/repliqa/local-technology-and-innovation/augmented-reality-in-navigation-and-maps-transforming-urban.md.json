@@ -1,0 +1,68 @@
+{
+ "summary": "This October 18, 2023 feature by Jordan L. Michaels explains how augmented reality is transforming urban navigation and maps. It covers how AR navigation works, setup and usage tips, challenges in dense cities, accessibility, multiplayer navigation, privacy concerns, and emerging projects and government partnerships. It concludes that AR promises a more integrated and efficient way to explore cities.",
+ "one_line": "A 2023 feature on how augmented reality navigation apps are changing urban exploration, covering usage, challenges, accessibility, privacy, and emerging projects.",
+ "key_facts": [
+  "The feature was written by Jordan L. Michaels and dated October 18, 2023.",
+  "AR navigation systems superimpose digital information such as arrows and directions onto the real-world view through smartphones, tablets, and AR glasses.",
+  "As of September 2023, options like Google Maps Live View and Apple's ARKit enhance the mapping experience for users.",
+  "CityGuide AR lets users point a device at a building or monument to see its name, history, and other relevant information.",
+  "UrbanGo AR aims to provide detailed paths, including indoor navigation for malls and subway stations.",
+  "Developers use algorithms to compensate for GPS inaccuracies caused by high buildings and complex layouts in dense urban areas.",
+  "Accessibility features include audio cues and vibration feedback for users with visual impairments, and voice commands for those with mobility challenges.",
+  "Multiplayer AR lets friends share routes and locations in real time, with avatars representing their positions, adding a gamified element.",
+  "Safety tips include keeping the device at eye level while staying aware of surroundings, using earphones for audio cues, and not pointing the device at people's homes or private spaces.",
+  "On September 12, 2023, startup PathFinder AR announced a navigation system using machine learning to predict pedestrian traffic flow and reroute users through less crowded streets.",
+  "In a partnership announced on November 2, 2023, the city of New Metroville began working with AR developers to put municipal data into navigation apps.",
+  "The municipal data includes real-time information on road closures, events, and public transport schedules.",
+  "The article says AR could also streamline public transport use and provide context-aware advertisements, while raising privacy and data-collection concerns."
+ ],
+ "entities": [
+  {
+   "name": "Jordan L. Michaels",
+   "type": "person",
+   "role": "Author of the feature, dated October 18, 2023"
+  },
+  {
+   "name": "Google Maps Live View",
+   "type": "product",
+   "role": "Sophisticated AR navigation option enhancing the mapping experience"
+  },
+  {
+   "name": "Apple's ARKit",
+   "type": "product",
+   "role": "AR option cited as enhancing mapping for users"
+  },
+  {
+   "name": "CityGuide AR",
+   "type": "product",
+   "role": "App with landmark recognition showing building and monument information"
+  },
+  {
+   "name": "UrbanGo AR",
+   "type": "product",
+   "role": "App providing detailed paths including indoor navigation for malls and subway stations"
+  },
+  {
+   "name": "PathFinder AR",
+   "type": "organization",
+   "role": "Startup that announced an ML-based system predicting pedestrian traffic flow on September 12, 2023"
+  },
+  {
+   "name": "New Metroville",
+   "type": "place",
+   "role": "City partnering with AR developers to incorporate municipal data into navigation apps"
+  }
+ ],
+ "tags": [
+  "augmented-reality",
+  "navigation",
+  "urban-mobility",
+  "maps",
+  "privacy",
+  "smart-cities"
+ ],
+ "usage": {
+  "input_tokens": 2826,
+  "output_tokens": 1100
+ }
+}

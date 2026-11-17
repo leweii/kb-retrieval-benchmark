@@ -1,0 +1,108 @@
+{
+ "summary": "Paris-based startup Amo, co-founded by Zenly co-founder Antoine Martin and nine other former Zenly people, is launching ID, an iOS social app built around customizable, spatial profile canvases that friends can add to. Amo raised $20 million in 2023 without a product or revenue, and aims to counter passive, algorithmic social feeds and loneliness. The app deliberately limits time spent by closing itself after you view the last notification card.",
+ "one_line": "Zenly founder Antoine Martin's startup Amo, backed by $20 million, launches ID, an iOS social app of creative, editable friend profile canvases.",
+ "key_facts": [
+  "Amo is a small Paris-based team that spent most of 2023 building a new iOS social app called ID, launching on the day of the article.",
+  "Amo was co-founded by Antoine Martin, who co-founded Zenly with Alexis Bonillo; Martin is Amo's CEO.",
+  "Amo has 10 co-founders, all former Zenly people, including Corentin Kerisit, Michael Goldenstein, Claire Pluvinage, Charly Delaroche, Julien Martin, Quentin Perez, Nicolas Fallourd, Alexis Druon and Jean-Baptiste Dalido.",
+  "Snap spent more than $200 million to acquire Zenly; at its peak 18 million different users opened the app every day, before Snap shut it down as part of cost-cutting.",
+  "Amo closed a $20 million (€18 million) round in February or March at a valuation around €100 million, led by New Wave with Coatue and DST Global Partners, plus 80 angel investors.",
+  "The round was unusual because it happened during a 2023 VC funding downturn, for a mobile consumer startup with no revenue and no product out yet.",
+  "ID gives each user an empty whiteboard profile that can be filled with stickers, photos from the photo library, text or drawings; photos are automatically cut out using PhotoRoom's technology.",
+  "Friends can see each other's profiles and add things to them; users can also copy content from other profiles into their own sticker library, and you can see who originally created a sticker.",
+  "Every object on an ID profile can be moved, resized and rotated, making the profile a spatial canvas that can be zoomed.",
+  "When you reach the last notification card, ID shows a message saying \"get some fresh air\" and then the app closes itself.",
+  "Martin says Amo is prioritizing scale and now believes an indestructible company needs 100 million daily active users, not 18 million.",
+  "Martin cites the World Health Organization's \"loneliness epidemic\" as motivation, arguing existing social apps are passive and don't have users' best interests in mind.",
+  "Amo shipped ID eight or nine months after the company's launch, aiming to learn by building in public."
+ ],
+ "entities": [
+  {
+   "name": "Amo",
+   "type": "organization",
+   "role": "Paris-based startup building the social app ID, founded by ex-Zenly team members"
+  },
+  {
+   "name": "ID",
+   "type": "product",
+   "role": "Amo's iOS social app with customizable spatial profile canvases"
+  },
+  {
+   "name": "Zenly",
+   "type": "product",
+   "role": "Location-sharing social app co-founded by Antoine Martin, acquired by Snap and later shut down"
+  },
+  {
+   "name": "Antoine Martin",
+   "type": "person",
+   "role": "Amo CEO and co-founder; Zenly co-founder"
+  },
+  {
+   "name": "Alexis Bonillo",
+   "type": "person",
+   "role": "Zenly co-founder alongside Antoine Martin"
+  },
+  {
+   "name": "Snap",
+   "type": "organization",
+   "role": "Acquired Zenly for over $200 million, then shut it down in cost-cutting"
+  },
+  {
+   "name": "Evan Spiegel",
+   "type": "person",
+   "role": "Snap CEO, reportedly involved in discussions with French politicians over Zenly's shutdown"
+  },
+  {
+   "name": "New Wave",
+   "type": "organization",
+   "role": "Led Amo's $20 million funding round"
+  },
+  {
+   "name": "Coatue",
+   "type": "organization",
+   "role": "Participated in Amo's funding round"
+  },
+  {
+   "name": "DST Global Partners",
+   "type": "organization",
+   "role": "Participated in Amo's funding round"
+  },
+  {
+   "name": "PhotoRoom",
+   "type": "organization",
+   "role": "Provides the technology that cuts out subjects from photos in ID"
+  },
+  {
+   "name": "Jürgen Schweizer",
+   "type": "person",
+   "role": "Cultured Code writer who compared the iPad to an empty canvas in a 2010 blog post"
+  },
+  {
+   "name": "Cultured Code",
+   "type": "organization",
+   "role": "Company behind task management app Things"
+  },
+  {
+   "name": "Romain Dillet",
+   "type": "person",
+   "role": "TechCrunch author of the article"
+  },
+  {
+   "name": "World Health Organization",
+   "type": "organization",
+   "role": "Cited by Martin as calling loneliness an epidemic"
+  }
+ ],
+ "tags": [
+  "social-apps",
+  "startups",
+  "amo",
+  "zenly",
+  "venture-funding",
+  "product-design"
+ ],
+ "usage": {
+  "input_tokens": 4105,
+  "output_tokens": 1584
+ }
+}

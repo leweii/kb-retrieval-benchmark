@@ -1,0 +1,153 @@
+{
+ "summary": "The article traces how rivalries among tech billionaires and fears about AI's dangers drove the creation of DeepMind, OpenAI and Anthropic. It follows the Musk–Page falling-out, Thiel's funding of DeepMind, the 2012 auction of Geoffrey Hinton's team, Google's purchase of DeepMind, Musk's founding and exit from OpenAI, the Microsoft deal, and the Anthropic split. It highlights the paradox that those most worried about AI are among the most determined to build it.",
+ "one_line": "Rivalries, ego and fear of AI among tech billionaires led to DeepMind, OpenAI and Anthropic and a race to control the technology.",
+ "key_facts": [
+  "Demis Hassabis, a 34-year-old neuroscientist, won over Peter Thiel at a party in Thiel's San Francisco town house by discussing chess; Thiel's firm put £1.4 million into DeepMind as its first major investor.",
+  "DeepMind was named for deep learning, neuroscience and the Deep Thought supercomputer from The Hitchhiker's Guide to the Galaxy; its co-founders included Hassabis and Mustafa Suleyman.",
+  "Elon Musk invested in DeepMind after Hassabis warned him that superintelligent machines could follow humanity to Mars, a danger Musk had not considered.",
+  "In 2012 Geoffrey Hinton, then 64, and two graduate students ran an auction of themselves at Harrah's on Lake Tahoe; bidding by Google, Microsoft and Baidu stopped at $US44 million with Google winning.",
+  "Baidu had first offered Hinton and his students $US12 million; Hinton said they 'did not know how much we were worth'.",
+  "Google bought DeepMind for $US650 million; Mark Zuckerberg of Facebook offered more but refused DeepMind's conditions of no military use and an independent ethics board overseeing AGI.",
+  "DeepMind's ethics board met only once, on August 14, 2015, at SpaceX; Suleyman presented 'The Pitchforkers Are Coming', while Eric Schmidt and Larry Page dismissed the worries as overblown.",
+  "DeepMind's AlphaGo beat a top Go player in March 2016 in a match watched by 200 million people, a feat most researchers thought was about 10 years away.",
+  "OpenAI was founded in late 2015 after a dinner at the Rosewood hotel; Musk, Reid Hoffman, Thiel and others pledged $US1 billion, and Ilya Sutskever was poached from Google.",
+  "Musk quit OpenAI in February 2018 after failing to take control and calling a researcher a 'jackass'; Microsoft's deal with OpenAI closed in 2019, bringing $US1 billion in fresh capital.",
+  "Dario Amodei and about 15 others left OpenAI over its commercial direction and founded Anthropic in 2021; Amazon invested $US4 billion and Google $US2 billion.",
+  "OpenAI is valued at more than $US80 billion, and last month its board tried to force out Sam Altman, but backed down after five chaotic days under investor and employee pressure.",
+  "On August 24, 2022, OpenAI demonstrated GPT-4 to Bill Gates by having it answer an advanced biology test; Gates had doubted large language models could work."
+ ],
+ "entities": [
+  {
+   "name": "Elon Musk",
+   "type": "person",
+   "role": "Billionaire who fell out with Larry Page, invested in DeepMind, co-founded OpenAI and left in 2018"
+  },
+  {
+   "name": "Larry Page",
+   "type": "person",
+   "role": "Google co-founder with an optimistic view of AI; clashed with Musk"
+  },
+  {
+   "name": "Sam Altman",
+   "type": "person",
+   "role": "OpenAI chief who was nearly ousted by the board; co-founded OpenAI with Musk"
+  },
+  {
+   "name": "Demis Hassabis",
+   "type": "person",
+   "role": "Neuroscientist and DeepMind co-founder"
+  },
+  {
+   "name": "Mustafa Suleyman",
+   "type": "person",
+   "role": "DeepMind co-founder who presented 'The Pitchforkers Are Coming'"
+  },
+  {
+   "name": "Peter Thiel",
+   "type": "person",
+   "role": "Tech investor who was DeepMind's first major investor"
+  },
+  {
+   "name": "Eliezer Yudkowsky",
+   "type": "person",
+   "role": "Internet philosopher and AI researcher who led the Rationalist community and introduced Hassabis to Thiel"
+  },
+  {
+   "name": "Geoffrey Hinton",
+   "type": "person",
+   "role": "University of Toronto professor whose team was auctioned to Google"
+  },
+  {
+   "name": "Mark Zuckerberg",
+   "type": "person",
+   "role": "Meta/Facebook head who bid for DeepMind and built his own AI lab"
+  },
+  {
+   "name": "Yann LeCun",
+   "type": "person",
+   "role": "French computer scientist hired by Zuckerberg to run Facebook's AI lab"
+  },
+  {
+   "name": "Dario Amodei",
+   "type": "person",
+   "role": "OpenAI researcher who led large language model work and left to found Anthropic"
+  },
+  {
+   "name": "Satya Nadella",
+   "type": "person",
+   "role": "Microsoft CEO who backed the OpenAI tie-up"
+  },
+  {
+   "name": "Bill Gates",
+   "type": "person",
+   "role": "Microsoft founder who doubted large language models until the GPT-4 demo"
+  },
+  {
+   "name": "Greg Brockman",
+   "type": "person",
+   "role": "OpenAI executive who ran the GPT-4 biology test demo"
+  },
+  {
+   "name": "Chelsea Voss",
+   "type": "person",
+   "role": "OpenAI researcher and biology Olympiad medallist who graded the GPT-4 test"
+  },
+  {
+   "name": "Ilya Sutskever",
+   "type": "person",
+   "role": "Hinton graduate student poached from Google to OpenAI"
+  },
+  {
+   "name": "DeepMind",
+   "type": "organization",
+   "role": "London AI lab sold to Google for $US650 million"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "AI lab behind ChatGPT, founded in late 2015 and valued at over $US80 billion"
+  },
+  {
+   "name": "Anthropic",
+   "type": "organization",
+   "role": "AI lab founded in 2021 by ex-OpenAI researchers"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Bought DeepMind and Hinton's team"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "OpenAI partner and investor"
+  },
+  {
+   "name": "Baidu",
+   "type": "organization",
+   "role": "Chinese internet company that bid in Hinton's auction"
+  },
+  {
+   "name": "AlphaGo",
+   "type": "product",
+   "role": "DeepMind system that beat a top Go player in March 2016"
+  },
+  {
+   "name": "GPT-4",
+   "type": "product",
+   "role": "OpenAI model demonstrated to Gates on an advanced biology test"
+  }
+ ],
+ "tags": [
+  "artificial-intelligence",
+  "openai",
+  "deepmind",
+  "silicon-valley",
+  "tech-billionaires",
+  "ai-safety"
+ ],
+ "usage": {
+  "input_tokens": 8176,
+  "output_tokens": 2278
+ }
+}

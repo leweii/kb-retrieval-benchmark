@@ -1,0 +1,81 @@
+{
+ "summary": "A satirical news-style piece about rural telecommunications outages after September 1, 2023, centered on the fictional town of Big Sky, Little Connectivity, USA. It blames storms, rodents, and aging infrastructure, then recounts the knock-on effects on the farm economy, entertainment, and water supply. It closes by treating the outage as a sign of the digital divide and of dependence on fragile infrastructure.",
+ "one_line": "Humorous report on fall 2023 rural telecom outages blamed on storms, rodents and aging equipment, and what they reveal about the digital divide.",
+ "key_facts": [
+  "The piece says rural areas suffered a major telecommunication outage after September 1, 2023.",
+  "Big Sky, Little Connectivity, USA is a fictional remote town whose only link to the world is a single, unstable cell tower.",
+  "On September 5th, Farmer Joe could not video-call his third cousin twice removed in a neighboring town.",
+  "On September 9th, a storm and tumbleweeds reportedly brought down a telephone pole.",
+  "On September 17th, Mrs. Mildred claimed to have seen a squirrel with a taste for fiber optics; the piece jokes about 'Rodentia Infestus' gnawing cables.",
+  "On September 20th, technician Bob admitted the equipment was so old that its manual was written in Latin.",
+  "On September 27th, Harold was seen driving his tractor down the main road in search of a single bar of mobile reception.",
+  "On October 3rd, the outage reportedly knocked out the water pumps, sending residents to creek water and buckets.",
+  "On October 10th, Hacker Harry built makeshift antennas from coat hangers, which only picked up alien radio chatter and interference from the local nursing home's pacemakers.",
+  "Effects listed include farmers unable to check weather reports, Timmy unable to swipe right on his crush, and Grandma Edna unable to stream cat videos, with a possible rise in knitting and pie baking.",
+  "The piece argues the outages show the gap between 'the haves and the have-nots' and an unquestioning dependence on unstable digital infrastructure.",
+  "It ends with an unfinished sentence while watching a blinking 'reconnecting' icon."
+ ],
+ "entities": [
+  {
+   "name": "Big Sky, Little Connectivity, USA",
+   "type": "place",
+   "role": "fictional remote town served by a single unstable cell tower"
+  },
+  {
+   "name": "Farmer Joe",
+   "type": "person",
+   "role": "farmer who could not video-call his relative on September 5th"
+  },
+  {
+   "name": "Mrs. Mildred",
+   "type": "person",
+   "role": "citizen who reported seeing a squirrel chewing fiber optics on September 17th"
+  },
+  {
+   "name": "Bob",
+   "type": "person",
+   "role": "technician who admitted the equipment was ancient, with a manual in Latin"
+  },
+  {
+   "name": "Timmy",
+   "type": "person",
+   "role": "high school sweetheart unable to swipe right on his crush"
+  },
+  {
+   "name": "Grandma Edna",
+   "type": "person",
+   "role": "resident who cannot stream her daily cat videos"
+  },
+  {
+   "name": "Harold",
+   "type": "person",
+   "role": "man seen driving his tractor down the main road hunting for mobile reception on September 27th"
+  },
+  {
+   "name": "Hacker Harry",
+   "type": "person",
+   "role": "local techie who built makeshift coat-hanger antennas on October 10th"
+  },
+  {
+   "name": "Rodentia Infestus",
+   "type": "other",
+   "role": "jokey scientific name for cable-gnawing rodents blamed for outages"
+  },
+  {
+   "name": "Antiques Roadshow",
+   "type": "program",
+   "role": "TV show mentioned as a comparison for the old infrastructure's value"
+  }
+ ],
+ "tags": [
+  "satire",
+  "rural-connectivity",
+  "telecom-outage",
+  "digital-divide",
+  "infrastructure"
+ ],
+ "usage": {
+  "input_tokens": 2837,
+  "output_tokens": 1216
+ }
+}

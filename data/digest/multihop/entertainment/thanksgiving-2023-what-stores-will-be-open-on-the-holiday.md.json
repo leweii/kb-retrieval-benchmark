@@ -1,0 +1,116 @@
+{
+ "summary": "The Independent guide to which US stores are open or closed on Thanksgiving Day (Thursday 23 November 2023) and on Black Friday. Because Thanksgiving is a federal holiday, retailers such as Walmart, Target, Costco, Trader Joe's and Aldi close, while Whole Foods, Wegmans, Starbucks, Dollar General, CVS and Dunkin' Donuts open with limited or varying hours. Most stores reopen on Black Friday with hours depending on location.",
+ "one_line": "A guide to which US retailers, including Walmart, Target, Costco and Starbucks, are open or closed on Thanksgiving 2023 and Black Friday.",
+ "key_facts": [
+  "Thanksgiving 2023 falls on Thursday 23 November, and Thanksgiving Day is a federal holiday in the US.",
+  "Target and Walmart announced permanent Thanksgiving closures in 2020, a policy that has remained in place; the pandemic initially pushed them to close to limit crowding and spread out the shopping season.",
+  "Costco warehouses in the US are closed on Thanksgiving Day and reopen on Friday; some in-store Black Friday sales run from 24 November through 27 November.",
+  "Walmart is closed on Thanksgiving, and its usual hours are 6am to 11pm every day, though Black Friday opening times depend on store location.",
+  "Trader Joe's stores are closed on 23 November and reopen on Black Friday with location-dependent hours.",
+  "Wegmans is open on Thanksgiving with limited hours; one Brooklyn, New York store closes at 4pm instead of the usual 11pm, and most Wegmans reopen at 6am on Black Friday.",
+  "Starbucks stores are open on Thanksgiving with hours varying by location; usual hours are 6am to 9pm, and Black Friday is expected to be 6am to 9pm.",
+  "Aldi stores are closed on Thanksgiving Day, per its official website, and normally operate 8.30am to 9pm.",
+  "Dollar General is open 7am to 10pm on Thanksgiving, though times may vary by location, and it is expected to keep usual hours on Black Friday.",
+  "Most, but not all, CVS locations are open on Thanksgiving, and CVS is on regular hours on Black Friday.",
+  "Walgreens is closing most stores on 23 November for the first time on the holiday, per a 16 November press release, though some 24-hour stores will be open certain hours; stores reopen 24 November.",
+  "Whole Foods will be open on a limited schedule on Thanksgiving and open on Black Friday, with hours varying by location."
+ ],
+ "entities": [
+  {
+   "name": "Whole Foods",
+   "type": "organization",
+   "role": "Grocery chain open on limited hours on Thanksgiving and open on Black Friday"
+  },
+  {
+   "name": "Costco",
+   "type": "organization",
+   "role": "Retailer closed on Thanksgiving Day, reopening Friday"
+  },
+  {
+   "name": "Walmart",
+   "type": "organization",
+   "role": "Retail giant permanently closed on Thanksgiving since 2020"
+  },
+  {
+   "name": "Target",
+   "type": "organization",
+   "role": "Retailer permanently closed on Thanksgiving since 2020"
+  },
+  {
+   "name": "Trader Joe's",
+   "type": "organization",
+   "role": "Grocery chain closed on 23 November"
+  },
+  {
+   "name": "Wegmans",
+   "type": "organization",
+   "role": "Grocery chain open with limited Thanksgiving hours"
+  },
+  {
+   "name": "Starbucks",
+   "type": "organization",
+   "role": "Coffee chain open on Thanksgiving; spokesperson spoke to Country Living"
+  },
+  {
+   "name": "Aldi",
+   "type": "organization",
+   "role": "Grocery chain closed on Thanksgiving Day"
+  },
+  {
+   "name": "Dollar General",
+   "type": "organization",
+   "role": "Low-priced retailer open 7am to 10pm on Thanksgiving"
+  },
+  {
+   "name": "CVS",
+   "type": "organization",
+   "role": "Pharmacy chain mostly open on Thanksgiving; representative spoke to ThePioneerWoman.com"
+  },
+  {
+   "name": "Dunkin' Donuts",
+   "type": "organization",
+   "role": "Coffee chain open with limited hours on Thanksgiving"
+  },
+  {
+   "name": "Walgreens",
+   "type": "organization",
+   "role": "Pharmacy chain closing most stores on Thanksgiving for the first time"
+  },
+  {
+   "name": "Country Living",
+   "type": "organization",
+   "role": "Publication to which a Starbucks spokesperson gave information"
+  },
+  {
+   "name": "ThePioneerWoman.com",
+   "type": "organization",
+   "role": "Website to which a CVS representative gave information"
+  },
+  {
+   "name": "Black Friday",
+   "type": "event",
+   "role": "Day after Thanksgiving when most stores reopen for major sales"
+  },
+  {
+   "name": "Thanksgiving",
+   "type": "event",
+   "role": "US federal holiday on Thursday 23 November 2023"
+  },
+  {
+   "name": "Brooklyn, New York",
+   "type": "place",
+   "role": "Location of a Wegmans store closing at 4pm on Thanksgiving"
+  }
+ ],
+ "tags": [
+  "thanksgiving",
+  "store-hours",
+  "black-friday",
+  "retail",
+  "us-holidays"
+ ],
+ "usage": {
+  "input_tokens": 2859,
+  "output_tokens": 1663
+ }
+}

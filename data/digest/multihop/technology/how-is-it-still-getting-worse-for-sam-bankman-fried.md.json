@@ -1,0 +1,128 @@
+{
+ "summary": "Elizabeth Lopatto reports on the Sam Bankman-Fried fraud trial, arguing that defense lawyer Mark Cohen's disorganized cross-examination of Caroline Ellison bored jurors and failed to undermine her damning testimony. Prosecutor Danielle Sassoon's redirect opened the door for a recording of an Alameda all-hands meeting, where Ellison confessed to stealing customer funds with Bankman-Fried's approval, to be played for the jury. Lopatto concludes the prosecution has built a strong case while the defense has done almost nothing in response.",
+ "one_line": "Lopatto argues the defense botched its cross-examination of Caroline Ellison at the Sam Bankman-Fried trial, letting a damning all-hands recording reach the jury.",
+ "key_facts": [
+  "Sam Bankman-Fried, founder of failed crypto exchange FTX, is on trial for seven counts of wire fraud and conspiracy.",
+  "Defense lawyer Mark Cohen's cross-examination of Caroline Ellison was disorganized; at one point two different jurors appeared to be asleep.",
+  "Ellison's direct testimony tied Bankman-Fried to the conspiracy, including fake balance sheets, one sent to crypto lender Genesis, after which a Genesis representative texted Ellison that he had spoken to Bankman-Fried.",
+  "The defense tried to portray Ellison as unreliable because she had an incentive to flip on Bankman-Fried: the possibility of leniency in her sentencing.",
+  "Cohen's cross covered Bankman-Fried's larger appetite for risk, differing reactions to stress and media, and that Alameda had one accountant in 2021 and two junior accountants hired in 2022.",
+  "Cohen asked about Terra/Luna, but Ellison pointed out she had only spoken about Luna, leaving him fumbling to explain the relationship between the two tokens.",
+  "In opening statement, Cohen blamed Ellison for not hedging some of Alameda's risks, a hedge that meant selling Nasdaq futures against long crypto positions; Lopatto found the argument stupid.",
+  "Prosecutor Danielle Sassoon's redirect exploited Cohen's question about the all-hands meeting's topics, which opened the door to Ellison's confession that she stole billions of FTX customers' money at Bankman-Fried's direction.",
+  "The judge ruled that the jury could hear the recordings of the Alameda all-hands meeting.",
+  "Christian Drappi, a former Alameda software engineer, testified that after Changpeng Zhao announced on Twitter that Binance intended to acquire FTX, Ellison confessed the theft to him and a few other employees.",
+  "The all-hands meeting took place the day after the confession and was secretly recorded by an employee who had joined Alameda three days before; Drappi resigned less than 24 hours later and sent the recording to the government.",
+  "Zac Prince, founder and former CEO of BlockFi, briefly testified blaming FTX's bankruptcy for BlockFi's subsequent bankruptcy.",
+  "Bankman-Fried's mother, Barbara Fried, was seen in an animated conversation with defense lawyer Christian Everdell after Ellison left the stand."
+ ],
+ "entities": [
+  {
+   "name": "Sam Bankman-Fried",
+   "type": "person",
+   "role": "Founder and CEO of FTX, defendant on trial for wire fraud and conspiracy"
+  },
+  {
+   "name": "Caroline Ellison",
+   "type": "person",
+   "role": "Former Alameda executive and Bankman-Fried's ex-girlfriend, key prosecution witness who confessed to taking customer funds"
+  },
+  {
+   "name": "Barbara Fried",
+   "type": "person",
+   "role": "Bankman-Fried's mother, seen frustrated with the defense lawyers"
+  },
+  {
+   "name": "Christian Everdell",
+   "type": "person",
+   "role": "Defense lawyer for Bankman-Fried"
+  },
+  {
+   "name": "Mark Cohen",
+   "type": "person",
+   "role": "Defense lawyer who conducted the disorganized cross-examination of Ellison"
+  },
+  {
+   "name": "Danielle Sassoon",
+   "type": "person",
+   "role": "Prosecutor who ran Ellison's direct and redirect examinations"
+  },
+  {
+   "name": "Christian Drappi",
+   "type": "person",
+   "role": "Former Alameda software engineer who testified to set up the all-hands recording"
+  },
+  {
+   "name": "Zac Prince",
+   "type": "person",
+   "role": "Founder and former CEO of BlockFi, testified that FTX's bankruptcy led to BlockFi's"
+  },
+  {
+   "name": "Changpeng Zhao",
+   "type": "person",
+   "role": "CEO of Binance, announced on Twitter intent to acquire FTX"
+  },
+  {
+   "name": "Joseph Bankman",
+   "type": "person",
+   "role": "Defendant's father and senior advisor to FTX's philanthropic arm; not in the room for the recording"
+  },
+  {
+   "name": "Adam Yedidia",
+   "type": "person",
+   "role": "FTX employee who testified earlier and was fastidious about precision like Ellison"
+  },
+  {
+   "name": "FTX",
+   "type": "organization",
+   "role": "Failed cryptocurrency exchange led by Bankman-Fried"
+  },
+  {
+   "name": "Alameda",
+   "type": "organization",
+   "role": "Trading firm where Ellison worked, absorbed losses from FTX"
+  },
+  {
+   "name": "Genesis",
+   "type": "organization",
+   "role": "Crypto lender sent a fake balance sheet"
+  },
+  {
+   "name": "BlockFi",
+   "type": "organization",
+   "role": "Crypto lender whose bankruptcy followed FTX's"
+  },
+  {
+   "name": "Binance",
+   "type": "organization",
+   "role": "Crypto exchange whose CEO announced plans to acquire FTX"
+  },
+  {
+   "name": "Securities and Exchange Commission",
+   "type": "organization",
+   "role": "Alleges FTX was a fraud from the start"
+  },
+  {
+   "name": "Luna",
+   "type": "product",
+   "role": "Cryptocurrency token discussed in Ellison's testimony"
+  },
+  {
+   "name": "Terra",
+   "type": "product",
+   "role": "Paired algorithmic stablecoin sister token to Luna"
+  }
+ ],
+ "tags": [
+  "sam-bankman-fried",
+  "ftx",
+  "crypto-fraud-trial",
+  "caroline-ellison",
+  "courtroom",
+  "cross-examination"
+ ],
+ "usage": {
+  "input_tokens": 4088,
+  "output_tokens": 2040
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "summary": "A fiction excerpt in which Ray explains how he isolated a suspect's chemical signature from a rat sample near the Whiston suite and used the ship's surveillance net to track the suspect, Freddy, over four days. The footage shows a gap during the critical hours before and after the estimated time of death, while the suspect is otherwise often found at a high-class franchise near the main lift. Becker notes that the evidence is only circumstantial and not enough to bring in a powerful Whiston for questioning.",
+ "one_line": "Ray tracks a suspect named Freddy through shipboard surveillance, finding a gap around the time of death, but Becker says the circumstantial case is not enough.",
+ "key_facts": [
+  "Ray isolated Freddy's signature by obtaining a rat in the vicinity of the Whiston suite and analyzing it.",
+  "Ray used roundabout methods to get a rat near the Whiston suite in full analysis mode, since he did not want to ask for a sample directly.",
+  "Ray coded a search of the surveillance net into the regular drone routine after isolating Freddy's signature.",
+  "Ray redirected the surveillance net to track Freddy's movements for the last four days.",
+  "The footage shows fairly conclusive movements of Freddy before the estimated time of death and activities a few hours after.",
+  "The footage contains a big gaping hole in the middle, covering the critical hours.",
+  "Freddy is usually found at the franchise during almost any time of day, except during the nightly batch transmission.",
+  "The franchise is high class, high price, and exclusive, and it is located right off the main lift.",
+  "Ray cut footage of Freddy's less liquid adventures because it was not family friendly viewing.",
+  "Freddy has a reputation for being a man who pays handsomely for satisfaction and confidentiality.",
+  "Freddy's passenger pre-screen shows no psychological issues, no legal history, and no profile as an incident perpetrator.",
+  "Becker says there is no definitive proof, only evidence of absence during the critical hours.",
+  "Ray responds that he has pattern, which is the start of a decent circumstantial case.",
+  "Becker considers the circumstantial case insufficient to bring in a suspect as powerful as a Whiston for questioning.",
+  "Freddy's sister is a Whiston, and Becker grimaces when thinking about her."
+ ],
+ "entities": [
+  {
+   "name": "Ray",
+   "type": "person",
+   "role": "narrator-adjacent technician who analyzed the rat sample and tracked Freddy via surveillance footage"
+  },
+  {
+   "name": "Becker",
+   "type": "person",
+   "role": "listener who rumbles dismay and doubts the evidence is enough to question a Whiston"
+  },
+  {
+   "name": "Freddy",
+   "type": "person",
+   "role": "suspect whose signature was isolated and whose movements were tracked; a wealthy passenger with a taste for exclusive venues"
+  },
+  {
+   "name": "Miss Whiston",
+   "type": "person",
+   "role": "woman Ray has spent much time with recently; Freddy's sister"
+  },
+  {
+   "name": "Whiston suite",
+   "type": "place",
+   "role": "accommodation area near which the rat sample was obtained"
+  },
+  {
+   "name": "The franchise",
+   "type": "place",
+   "role": "high-class, high-price, exclusive venue near the main lift where Freddy is often found"
+  },
+  {
+   "name": "Main lift",
+   "type": "place",
+   "role": "ship transit point giving customers easy access to anywhere on the ship"
+  },
+  {
+   "name": "Surveillance net",
+   "type": "program",
+   "role": "shipboard tracking system with drones used to follow Freddy's movements"
+  },
+  {
+   "name": "Data repository",
+   "type": "program",
+   "role": "database into which the isolated evidence chain could be plugged to search for hits"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "science fiction",
+  "investigation",
+  "surveillance",
+  "circumstantial evidence",
+  "suspects"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1902,
+  "output_tokens": 1219
+ }
+}

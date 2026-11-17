@@ -1,0 +1,133 @@
+{
+ "summary": "TechCrunch's Week in Review newsletter for the week ending December 9, 2023, recapping major tech stories. Headlines include Google's faked Gemini demo and offensive notebooks, Anduril's Roadrunner, the expanded 23andMe breach, the viral Grand Theft Auto VI trailer, Spotify's layoffs and TuSimple leaving the U.S. It also covers podcasts and TechCrunch+ pieces on Bitcoin, EV battery swapping and fintech.",
+ "one_line": "TechCrunch's weekly recap covering Google's faked Gemini demo, GTA VI trailer records, 23andMe breach fallout, Spotify layoffs and other tech news.",
+ "key_facts": [
+  "Google unveiled Gemini but released only the 'lite' Gemini Pro, not the full Gemini Ultra; Gemini Pro is text-in, text-out and proved mistake-prone.",
+  "Google was caught faking a Gemini demo by tuning text prompts with still images off camera.",
+  "Attendees of Google's K&I Black Summit in August were given third-party notebooks printed with the insensitive phrase 'I was just cotton the moment, but I came back to take your notes'.",
+  "Anduril, co-founded by Oculus founder Palmer Luckey, developed Roadrunner, a modular, twin-jet-powered autonomous vertical take-off and landing air vehicle, one version of which can carry a warhead.",
+  "23andMe first said hackers accessed data of 0.1% of customers (about 14,000 people), but 6.9 million people had names, birth years, relationship labels, shared DNA percentages, ancestry reports and self-reported locations exposed.",
+  "The first Grand Theft Auto VI trailer got 85 million views in 22 hours, breaking a MrBeast video's record for most YouTube views in 24 hours.",
+  "Grand Theft Auto V remains the second-best-selling video game of all time, behind only Minecraft.",
+  "Thousands of exposed servers leak medical records of millions of patients due to weaknesses in DICOM; Germany-based consultancy Aplite discovered the issue.",
+  "Meta launched Imagine with Meta AI, a stand-alone web image generator powered by its Emu model, similar to DALL-E, Midjourney and Stable Diffusion.",
+  "Spotify is cutting about 1,500 jobs, roughly 17% of its workforce, in its third layoff round this year, per CEO Daniel Ek.",
+  "TuSimple is exiting the U.S. for Asia, laying off most of its U.S. workforce and selling assets after losing its partnership with Navistar.",
+  "ZestMoney, a Bengaluru-based buy now, pay later startup that raised more than $130 million, is shutting down after failing to find a buyer.",
+  "Bitcoin rose to $44,000 on roughly 25% gains in the last week, according to a TC+ piece by Jacquelyn."
+ ],
+ "entities": [
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Released Gemini, was caught faking a demo and gave out offensive notebooks at the K&I Black Summit"
+  },
+  {
+   "name": "Gemini",
+   "type": "product",
+   "role": "Google's new flagship AI model, released as Gemini Pro with Gemini Ultra held back"
+  },
+  {
+   "name": "Anduril",
+   "type": "organization",
+   "role": "Controversial defense company that developed the Roadrunner air vehicle"
+  },
+  {
+   "name": "Palmer Luckey",
+   "type": "person",
+   "role": "Oculus founder and Anduril co-founder"
+  },
+  {
+   "name": "Roadrunner",
+   "type": "product",
+   "role": "Anduril's modular autonomous twin-jet vertical take-off and landing air vehicle"
+  },
+  {
+   "name": "23andMe",
+   "type": "organization",
+   "role": "Genetic testing company whose breach exposed data of 6.9 million people"
+  },
+  {
+   "name": "Grand Theft Auto VI",
+   "type": "product",
+   "role": "Rockstar Games title whose trailer went viral on YouTube"
+  },
+  {
+   "name": "Rockstar Games",
+   "type": "organization",
+   "role": "Publisher of the Grand Theft Auto franchise"
+  },
+  {
+   "name": "MrBeast",
+   "type": "person",
+   "role": "YouTuber whose 24-hour view record was broken by the GTA VI trailer"
+  },
+  {
+   "name": "Aplite",
+   "type": "organization",
+   "role": "Germany-based cybersecurity consultancy that found DICOM data exposure"
+  },
+  {
+   "name": "Digital Imaging and Communications in Medicine (DICOM)",
+   "type": "other",
+   "role": "Decades-old medical imaging standard with security weaknesses"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Launched Imagine with Meta AI image generator"
+  },
+  {
+   "name": "Spotify",
+   "type": "organization",
+   "role": "Music streaming company cutting about 1,500 jobs"
+  },
+  {
+   "name": "Daniel Ek",
+   "type": "person",
+   "role": "Spotify founder and CEO who announced the layoffs"
+  },
+  {
+   "name": "TuSimple",
+   "type": "organization",
+   "role": "Self-driving truck developer exiting the U.S. for Asia"
+  },
+  {
+   "name": "Navistar",
+   "type": "organization",
+   "role": "Truck manufacturer whose partnership TuSimple lost"
+  },
+  {
+   "name": "ZestMoney",
+   "type": "organization",
+   "role": "Bengaluru buy now, pay later startup shutting down"
+  },
+  {
+   "name": "David Rogier",
+   "type": "person",
+   "role": "MasterClass CEO and founder interviewed on Found"
+  },
+  {
+   "name": "David Pakman",
+   "type": "person",
+   "role": "CoinFund managing partner interviewed on Chain Reaction; co-created Apple Music in 1991"
+  },
+  {
+   "name": "Serhii Bohoslovskyi",
+   "type": "person",
+   "role": "Founder of no-code app builder Trible, guest on Equity"
+  }
+ ],
+ "tags": [
+  "techcrunch",
+  "weekly-recap",
+  "artificial-intelligence",
+  "layoffs",
+  "cybersecurity",
+  "gaming"
+ ],
+ "usage": {
+  "input_tokens": 3759,
+  "output_tokens": 1933
+ }
+}

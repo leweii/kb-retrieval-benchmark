@@ -34,6 +34,22 @@
      "haiku": 4,
      "sonnet": 10
     }
+   },
+   "nolima": {
+    "sonnet": {
+     "yes": 8,
+     "no": 1,
+     "partial": 1
+    },
+    "haiku": {
+     "yes": 9,
+     "partial": 1
+    },
+    "better": {
+     "haiku": 3,
+     "sonnet": 4,
+     "tie": 3
+    }
    }
   },
   "judge_cost": 1.39
@@ -438,6 +454,106 @@
    "better": "haiku",
    "reason": "The question needs two points: tea tree oil is poisonous if swallowed, and it should not be used in or around the mouth. X states it is poisonous if swallowed and gives the coma case, but it omits the explicit warning against mouth use, including mouthwash and toothache uses. That warning is the part most directly relevant to brushing teeth. Y states both points clearly. Y is somewhat more cluttered because it lists the reference authors, but it is still the more useful digest.",
    "cost": 0.037408
+  },
+  {
+   "qid": "nolima-3010c90b6b",
+   "track": "nolima",
+   "doc": "books/book-10/part-0165.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "haiku",
+   "reason": "Both digests record that Caleb is an engineer living in Vierzon, and Vierzon is in France, so both keep the needed fact. X adds an unsupported claim that Caleb would supply the injecta and asserts Viktor is a Great Old One, which the source does not establish. Y stays closer to the source and also includes the book and part reference.",
+   "cost": 0.015564
+  },
+  {
+   "qid": "nolima-2ae3ab3464",
+   "track": "nolima",
+   "doc": "books/book-10/part-0039.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "The answer depends on the source saying Diana lives in Calvinia, which is in South Africa. Both digests keep that she is an engineer living in Calvinia. X ties Diana coherently to the narration and the funding dialogue. Y confuses the speaker with a male 'narrator' and sidelines Diana as a background figure, which makes it less accurate and less useful.",
+   "cost": 0.017108
+  },
+  {
+   "qid": "nolima-48c85d803d",
+   "track": "nolima",
+   "doc": "books/book-3/part-0106.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "Both digests preserve the fact that Mandy saw the original Garden of Earthly Delights up close in 2013, which is the evidence needed to link her to the Prado. Neither digest names the Prado, and the source doesn't either. Both are similarly thorough. Y has slightly more detail (the official-dom suspicion, the decision not to ask the secretary). X includes the secretary's glasses detail. The differences are minor, so they tie overall.",
+   "cost": 0.017188
+  },
+  {
+   "qid": "nolima-3061f47943",
+   "track": "nolima",
+   "doc": "books/book-6/part-0094.md",
+   "sonnet": "no",
+   "haiku": "yes",
+   "better": "haiku",
+   "reason": "The source's contribution is that Katie is a vegan guest. Brandade contains fish, so a vegan cannot eat it. Y records Katie as a vegan guest; X leaves Katie out entirely. Both cover the main scene comparably, so Y is better.",
+   "cost": 0.014816
+  },
+  {
+   "qid": "nolima-fe278ad69d",
+   "track": "nolima",
+   "doc": "books/book-12/part-0071.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "Both digests keep the key fact that Caleb saw the original 'Girl with a Pearl Earring' up close in 2013. That painting hangs in The Hague, which is what lets the question be answered. Y adds the detail about waiting in line for hours, but X also includes it. Overall the two are comparably complete and well suited for retrieval.",
+   "cost": 0.017796
+  },
+  {
+   "qid": "nolima-6443761a17",
+   "track": "nolima",
+   "doc": "books/book-12/part-0060.md",
+   "sonnet": "partial",
+   "haiku": "partial",
+   "better": "haiku",
+   "reason": "The question turns on Mandy living in Firminy, a town in France. Both digests keep that Mandy is an engineer living in Firminy, but neither says Firminy is in France, so each is only partial. X is somewhat better: it includes the Mandy/Firminy point as a key fact, while Y lists it only in its entities.",
+   "cost": 0.016292
+  },
+  {
+   "qid": "nolima-0d0af899bf",
+   "track": "nolima",
+   "doc": "books/book-15/part-0012.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "Both digests keep Katie's 'I'm lactose intolerant' message and list Katie as an entity, so both answer the question. Y is the more useful digest overall. It is cleaner and more accurate, giving the setting, Emma's role and the ending of the excerpt. X has a garbled fact (\"which the note calls 'drones' as a joke\") and attributes Ray's description of the rats to Emma.",
+   "cost": 0.019656
+  },
+  {
+   "qid": "nolima-64df43cc65",
+   "track": "nolima",
+   "doc": "books/book-4/part-0080.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "Both digests keep the fact that Gary has been vegan for years, which is the basis for concluding he cannot eat fish. X records it as an explicit key fact as well as in its entity list. Y mentions it only in the entity list, which makes it easier to miss when retrieving the document later, so X is more useful.",
+   "cost": 0.01582
+  },
+  {
+   "qid": "nolima-0323ec1399",
+   "track": "nolima",
+   "doc": "books/book-2/part-0057.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "tie",
+   "reason": "Neither digest names the Netherlands, but both keep the source's only relevant fact: in 2013 Katie saw the original 'Girl with a Pearl Earring' up close. That supports the inference equally well in each. X has a minor error, saying the narrator was 'checking on' footage when the source says Checker found them on it. Y adds more scene detail (the narrator's headache, the lobby attendant). Overall they are roughly equal.",
+   "cost": 0.016204
+  },
+  {
+   "qid": "nolima-e77466344d",
+   "track": "nolima",
+   "doc": "books/book-1/part-0029.md",
+   "sonnet": "yes",
+   "haiku": "yes",
+   "better": "sonnet",
+   "reason": "The question turns on Veronica being vegan. Both digests record this. X mentions it only in its entity list, while Y states it as an explicit key fact and also lists her as an entity, so it is easier to find. X also contradicts itself about who says \"Answer them\": its summary attributes it to Vanessa, its key facts to the narrator.",
+   "cost": 0.01804
   }
  ]
 }

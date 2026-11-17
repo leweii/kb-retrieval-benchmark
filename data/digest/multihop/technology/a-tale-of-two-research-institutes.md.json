@@ -1,0 +1,119 @@
+{
+ "summary": "Brian Heater profiles the long relationship between Marc Raibert and Gill Pratt, who go back to MIT's Leg Lab, and compares the two research institutes they now lead or founded: Toyota Research Institute (TRI) and the Boston Dynamics AI Institute. Both do automaker-backed pure research (Toyota and Hyundai) with no pressure to productize. TRI focuses on technology for aging populations, while the newer AI Institute is hiring, has named Kate Darling to lead ethics research, and is considering a name change.",
+ "one_line": "Marc Raibert and Gill Pratt, longtime colleagues from MIT's Leg Lab, now steer automaker-backed pure research institutes at Boston Dynamics AI Institute and Toyota Research Institute.",
+ "key_facts": [
+  "Marc Raibert founded the Leg Lab at Carnegie Mellon University in 1980 before moving it to MIT, focusing on robot locomotion research that paved the way for Boston Dynamics.",
+  "Raibert ran the Leg Lab for 15 years and built pogo stick robots, taking the opposite approach to the slow, crab-like legged robots of the time.",
+  "Leg Lab alumni include Joanna Bryson, Jerry Pratt, Peter Dilworth, Daniel Paluska, Russ Tedrake, Ken Goldberg, Rob Playter and Jonathan Hurst.",
+  "Raibert founded Boston Dynamics in 1992 and handed the Leg Lab to Gill Pratt three years later.",
+  "Pratt moved from MIT to Olin in 2001 and became a DARPA program manager nine years later.",
+  "Boston Dynamics designed the Atlas humanoid robot for DARPA; it debuted in 2013.",
+  "Pratt became TRI's CEO three years after Atlas debuted; Raibert remained Boston Dynamics CEO until 2019, when Rob Playter took over.",
+  "Raibert, still BD's chairman, founded the Boston Dynamics AI Institute last year; it is backed by Hyundai, while TRI is backed by Toyota.",
+  "Pratt says Toyota applies no pressure to productize TRI's research, noting the car industry is at a once-in-a-century transformation point.",
+  "Much of TRI's 'what's next' research targets technology helping older people live more independently.",
+  "Benjamin Burchfiel says large language models help robots follow high-level commands but don't solve tasks like plugging in a USB device or picking up a tissue.",
+  "The Boston Dynamics AI Institute announced MIT's Kate Darling will lead research on the ethics and societal impact of robotics and AI.",
+  "The AI Institute's three research pillars are intelligence, dexterity and mobility.",
+  "A name change for the Boston Dynamics AI Institute is apparently coming, to reduce confusion with Boston Dynamics the company, but nothing is decided."
+ ],
+ "entities": [
+  {
+   "name": "Gill Pratt",
+   "type": "person",
+   "role": "TRI CEO; former Leg Lab head and DARPA program manager"
+  },
+  {
+   "name": "Marc Raibert",
+   "type": "person",
+   "role": "Founder of the Leg Lab, Boston Dynamics and the Boston Dynamics AI Institute; BD chairman"
+  },
+  {
+   "name": "Leg Lab",
+   "type": "organization",
+   "role": "Robot locomotion lab founded by Raibert at CMU, later at MIT"
+  },
+  {
+   "name": "Toyota Research Institute",
+   "type": "organization",
+   "role": "Toyota-backed pure research institute led by Pratt, focused on aging populations"
+  },
+  {
+   "name": "Boston Dynamics AI Institute",
+   "type": "organization",
+   "role": "Hyundai-backed research institute founded by Raibert; may be renamed"
+  },
+  {
+   "name": "Boston Dynamics",
+   "type": "organization",
+   "role": "Robotics company founded by Raibert in 1992"
+  },
+  {
+   "name": "Rob Playter",
+   "type": "person",
+   "role": "Boston Dynamics CEO since 2019 and Leg Lab alumnus"
+  },
+  {
+   "name": "Kate Darling",
+   "type": "person",
+   "role": "MIT researcher leading ethics and societal impact research at the AI Institute"
+  },
+  {
+   "name": "Benjamin Burchfiel",
+   "type": "person",
+   "role": "TRI senior research scientist"
+  },
+  {
+   "name": "Rod Brooks",
+   "type": "person",
+   "role": "Quoted as saying modern cars are eldercare robots"
+  },
+  {
+   "name": "DARPA",
+   "type": "organization",
+   "role": "Agency where Pratt was program manager; commissioned Atlas"
+  },
+  {
+   "name": "Atlas",
+   "type": "product",
+   "role": "Humanoid robot designed by Boston Dynamics for DARPA, debuted 2013"
+  },
+  {
+   "name": "Hyundai",
+   "type": "organization",
+   "role": "Automaker backing the Boston Dynamics AI Institute"
+  },
+  {
+   "name": "Toyota",
+   "type": "organization",
+   "role": "Automaker backing TRI"
+  },
+  {
+   "name": "Carnegie Mellon University",
+   "type": "organization",
+   "role": "Where Raibert founded the Leg Lab in 1980"
+  },
+  {
+   "name": "MIT",
+   "type": "organization",
+   "role": "Home of the Leg Lab and Pratt's early academic career"
+  },
+  {
+   "name": "Olin",
+   "type": "organization",
+   "role": "Institution Pratt moved to in 2001"
+  }
+ ],
+ "tags": [
+  "robotics",
+  "research-institutes",
+  "boston-dynamics",
+  "toyota-research-institute",
+  "ai-ethics",
+  "automotive"
+ ],
+ "usage": {
+  "input_tokens": 3412,
+  "output_tokens": 1775
+ }
+}

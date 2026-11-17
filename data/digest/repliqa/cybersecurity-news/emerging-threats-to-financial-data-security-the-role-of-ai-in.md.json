@@ -1,0 +1,77 @@
+{
+ "summary": "The article describes rising cyber threats to financial institutions, including deepfakes, ransomware and APTs, and explains how AI-driven tools such as anomaly detection and user behavior analytics are being used to counter them. It notes that attackers also use AI, so human oversight, ethics and collaboration remain essential, and it looks to AI-blockchain combinations for future protection.",
+ "one_line": "Financial institutions face growing deepfake, ransomware and APT threats, and AI-driven detection, backed by human oversight, is becoming central to defending against cyber fraud.",
+ "key_facts": [
+  "CyberTech Financial, a cybersecurity firm, released a report on September 10, 2023 on new forms of cyberattacks facing banks and financial corporations.",
+  "Joan McAleer, CISO of Liberty Bank, said at the Financial Security Conference in London on November 19, 2023 that \"the last year alone has seen a 45% increase in cyberattacks on financial institutions.\"",
+  "On September 25, 2023, a mid-sized US bank reported a deepfake audio attempt to impersonate the CEO and request an urgent wire transfer; the attempt was thwarted.",
+  "On October 13, 2023, a ransomware attack on BroadStreet Bank cut off access to customer account data for two days.",
+  "Michael Chen, a cybersecurity analyst and keynote speaker, argues the financial sector must shift from a defensive to an anticipatory security posture to counter APTs.",
+  "APT groups often have nation-state backing and are characterized by stealth and persistence, exfiltrating data or preparing more destructive attacks.",
+  "On December 5, 2023, FinSecureAI launched a fraud detection platform that reported a 60% increase in detection of fraudulent transactions for clients in the first month.",
+  "FinSecureAI's platform uses predictive analytics to flag transactions that don't match a customer's typical behavior.",
+  "Cybercriminals also use AI, for example to generate hard-to-recognize phishing emails or quickly analyze stolen data, creating an arms race with defenders.",
+  "User Behavior Analytics (UBA) uses AI to detect anomalies in user behavior that could signal insider threats.",
+  "Dr. Linda S. Goodman said on January 7, 2024 that blockchain combined with AI could drastically reduce fraud and establish more robust trust protocols.",
+  "The article stresses that humans must oversee AI systems, ensure compliance, and uphold transparency, accountability and data privacy."
+ ],
+ "entities": [
+  {
+   "name": "CyberTech Financial",
+   "type": "organization",
+   "role": "Leading cybersecurity firm that released a report on September 10, 2023 on new cyberattacks against financial institutions"
+  },
+  {
+   "name": "Joan McAleer",
+   "type": "person",
+   "role": "Chief Information Security Officer of Liberty Bank who cited a 45% rise in attacks"
+  },
+  {
+   "name": "Liberty Bank",
+   "type": "organization",
+   "role": "Bank whose CISO is Joan McAleer"
+  },
+  {
+   "name": "Financial Security Conference",
+   "type": "event",
+   "role": "London conference on November 19, 2023 where McAleer spoke"
+  },
+  {
+   "name": "BroadStreet Bank",
+   "type": "organization",
+   "role": "Victim of an October 13, 2023 ransomware attack causing two days of lost data access"
+  },
+  {
+   "name": "Michael Chen",
+   "type": "person",
+   "role": "Cybersecurity analyst and keynote speaker advocating an anticipatory security posture"
+  },
+  {
+   "name": "FinSecureAI",
+   "type": "organization",
+   "role": "Launched an AI fraud detection platform on December 5, 2023"
+  },
+  {
+   "name": "Dr. Linda S. Goodman",
+   "type": "person",
+   "role": "Leading expert on blockchain security interviewed on January 7, 2024"
+  },
+  {
+   "name": "User Behavior Analytics (UBA)",
+   "type": "other",
+   "role": "AI-based approach to detecting insider threats through behavior anomalies"
+  }
+ ],
+ "tags": [
+  "cybersecurity",
+  "artificial-intelligence",
+  "financial-services",
+  "fraud-detection",
+  "ransomware",
+  "deepfakes"
+ ],
+ "usage": {
+  "input_tokens": 3274,
+  "output_tokens": 1328
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "summary": "This iRobot Create 3 documentation page gives network recommendations for communicating with the robot over Wi-Fi, Ethernet over USB, and from virtual machines. It lists supported Wi-Fi settings, troubleshooting steps for ROS 2 discovery traffic such as disabling multicasting, using a dedicated network, or a Fast DDS Discovery Server, and four VM connectivity options.",
+ "one_line": "Network setup guidance for the iRobot Create 3 robot covering Wi-Fi requirements, troubleshooting, Ethernet over USB, and virtual machine connections.",
+ "key_facts": [
+  "The Create 3 robot supports Wi-Fi authentication that is open (no password) or shared key (password only).",
+  "The supported Wi-Fi frequency for the Create 3 robot is 2.4 GHz.",
+  "Both supported RMWs (Fast and Cyclone) require multicasting enabled on the Wi-Fi network by default, but the creators of Fast DDS recommend disabling multicasting on Wi-Fi.",
+  "A dedicated network for the Create 3 robot can mitigate most issues on busy networks such as university or corporate networks.",
+  "The Fast DDS Discovery Server limits discovery traffic by routing discovery through a single server, avoiding known scaling and multicasting issues.",
+  "For Ethernet over USB, switch the USB/BLE toggle on the robot to USB; the blue adapter board light turns off while yellow and orange lights stay on.",
+  "Ethernet over USB needs a USB-C to ethernet adapter on the robot and an ethernet to USB adapter on the computer, joined by an ethernet cable.",
+  "For Ethernet over USB, set the computer's IPv4 method to manual with address 192.168.186.3 and netmask 255.255.0.0.",
+  "Browsing to 192.168.186.2 should load the iRobot Create 3 Webserver if the Ethernet over USB connection works.",
+  "If the yellow and orange adapter board lights turn off, the adapter board has disconnected and must be slid back into its slot.",
+  "For virtual machines, shared or NAT network connections will not let ROS 2 communicate with the Create 3; a bridged connection is recommended (Option 1).",
+  "Option 2 for VMs is a dedicated USB Wi-Fi network adapter assigned to the VM only, with the bridged connection disconnected to avoid intermittent issues.",
+  "Option 3 mirrors the computer's network adapter MAC address on the VM, which will likely cause loss of internet connection on the computer.",
+  "The VM should be restarted after any network configuration change before confirming connectivity."
+ ],
+ "entities": [
+  {
+   "name": "iRobot Create 3",
+   "type": "product",
+   "role": "educational robot whose network setup is documented"
+  },
+  {
+   "name": "iRobot Corporation",
+   "type": "organization",
+   "role": "maker of the Create 3 and copyright holder of the docs"
+  },
+  {
+   "name": "ROS 2",
+   "type": "product",
+   "role": "robotics middleware framework used to communicate with the robot"
+  },
+  {
+   "name": "Fast DDS",
+   "type": "product",
+   "role": "supported RMW whose creators recommend disabling multicasting on Wi-Fi"
+  },
+  {
+   "name": "Cyclone",
+   "type": "product",
+   "role": "supported RMW requiring multicasting by default"
+  },
+  {
+   "name": "Fast DDS Discovery Server",
+   "type": "product",
+   "role": "server that limits discovery traffic by centralizing discovery"
+  },
+  {
+   "name": "Create 3 Webserver",
+   "type": "product",
+   "role": "robot web interface reachable at 192.168.186.2 over Ethernet over USB"
+  },
+  {
+   "name": "Ubuntu",
+   "type": "product",
+   "role": "operating system (20.04 or 22.04) installed in virtual machines"
+  },
+  {
+   "name": "Material for MkDocs",
+   "type": "product",
+   "role": "tool used to build the documentation site"
+  }
+ ],
+ "tags": [
+  "irobot create 3",
+  "ros 2",
+  "networking",
+  "wi-fi",
+  "virtual machines",
+  "ethernet over usb"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 6396,
+  "output_tokens": 1303
+ }
+}

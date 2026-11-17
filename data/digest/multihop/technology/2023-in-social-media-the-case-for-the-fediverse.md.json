@@ -1,0 +1,162 @@
+{
+ "summary": "David Pierce argues that the fediverse, an interconnected set of apps that read and write the same content, gives social media a chance to be unbundled the way startups unbundled Craigslist. Built on protocols like ActivityPub, it would let many competing apps handle features such as moderation, feeds and algorithms, rather than one platform controlling everything. He says most fediverse apps are still just federated clones of popular platforms, but the real value is in better products, and he expects an early messy phase with room for new products.",
+ "one_line": "David Pierce argues the fediverse and ActivityPub can unbundle social networks into many better apps, as startups once unbundled Craigslist.",
+ "key_facts": [
+  "Venture capitalist Andrew Parker created a viral picture comparing a few dozen startups with subsections of Craigslist.",
+  "Airbnb, StubHub and Etsy are cited as startups that beat parts of Craigslist and became hugely successful.",
+  "The fediverse is described as an interconnected set of apps that can all read and write the same content, often compared to email.",
+  "Examples of fediverse interoperability include Adam Mosseri's Threads posts appearing on Mastodon and Flipboard comments appearing in Mastodon feeds viewed through the Mammoth app.",
+  "ActivityPub is a decade-old protocol overseen by the World Wide Web Consortium; other similar protocols include Bluesky's AT Protocol, Nostr and Farcaster.",
+  "In ActivityPub every post is made up of a sender, a message and a URL, and every user has an inbox and an outbox.",
+  "Pierce bets ActivityPub will become the default protocol over time, but says it matters less which protocol wins than that one does.",
+  "Jack Dorsey used to say Twitter was better as a protocol than a platform, started the project that became Bluesky, and helped get Nostr going.",
+  "Mark Zuckerberg told Alex Heath that letting people use an alternative app while still interacting with the network would make the product more valuable, supporting bringing Threads to the fediverse.",
+  "Mastodon, Firefish, Pleroma and GoToSocial resemble Twitter; Pixelfed resembles Instagram; Lemmy resembles Reddit; PeerTube resembles YouTube; Friendica resembles Facebook; BookWyrm resembles Goodreads.",
+  "Pierce says the fediverse is mostly in a 'popular app, but federated' phase, and that being federated is not itself the point; the product is what matters.",
+  "Pierce expects the early fediverse to be messy, with duplicate posts and cross-posting tools cluttering feeds, which he calls an opportunity for better products."
+ ],
+ "entities": [
+  {
+   "name": "David Pierce",
+   "type": "person",
+   "role": "Author of the article arguing for the fediverse"
+  },
+  {
+   "name": "Andrew Parker",
+   "type": "person",
+   "role": "Venture capitalist who created the picture comparing startups with Craigslist subsections"
+  },
+  {
+   "name": "Craigslist",
+   "type": "organization",
+   "role": "Classifieds site that startups unbundled, used as an analogy"
+  },
+  {
+   "name": "Airbnb",
+   "type": "organization",
+   "role": "Startup that succeeded by being more searchable, reliable and trustworthy than Craigslist listings"
+  },
+  {
+   "name": "StubHub",
+   "type": "organization",
+   "role": "Startup that sold secondhand tickets without the high risk of fakes"
+  },
+  {
+   "name": "Etsy",
+   "type": "organization",
+   "role": "Startup offering a more fun shopping and discovery experience than Craigslist"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Parent company of Facebook and Threads"
+  },
+  {
+   "name": "Adam Mosseri",
+   "type": "person",
+   "role": "Meta executive whose Threads posts can appear on Mastodon"
+  },
+  {
+   "name": "Mark Zuckerberg",
+   "type": "person",
+   "role": "Meta CEO who believes bringing Threads to the fediverse is a good idea"
+  },
+  {
+   "name": "Alex Heath",
+   "type": "person",
+   "role": "Colleague of the author who interviewed Zuckerberg"
+  },
+  {
+   "name": "Jack Dorsey",
+   "type": "person",
+   "role": "Said Twitter was better as a protocol; started the project that became Bluesky and helped start Nostr"
+  },
+  {
+   "name": "Threads",
+   "type": "product",
+   "role": "Meta app being brought into the fediverse"
+  },
+  {
+   "name": "Mastodon",
+   "type": "product",
+   "role": "Biggest fediverse platform so far, deliberately Twitter-like"
+  },
+  {
+   "name": "Mammoth",
+   "type": "product",
+   "role": "App for viewing Mastodon feeds, showing different user experiences"
+  },
+  {
+   "name": "Ivory",
+   "type": "product",
+   "role": "ActivityPub app showing different user experiences on the same data"
+  },
+  {
+   "name": "Pixelfed",
+   "type": "product",
+   "role": "Instagram-like fediverse app"
+  },
+  {
+   "name": "Flipboard",
+   "type": "product",
+   "role": "Platform whose comments can appear as replies in Mastodon"
+  },
+  {
+   "name": "Lemmy",
+   "type": "product",
+   "role": "Reddit-like fediverse platform"
+  },
+  {
+   "name": "PeerTube",
+   "type": "product",
+   "role": "YouTube-like fediverse competitor"
+  },
+  {
+   "name": "Friendica",
+   "type": "product",
+   "role": "Facebook-like fediverse competitor"
+  },
+  {
+   "name": "BookWyrm",
+   "type": "product",
+   "role": "Goodreads-like fediverse competitor"
+  },
+  {
+   "name": "ActivityPub",
+   "type": "other",
+   "role": "Decade-old protocol underlying most of the fediverse"
+  },
+  {
+   "name": "World Wide Web Consortium",
+   "type": "organization",
+   "role": "Group that oversees ActivityPub"
+  },
+  {
+   "name": "Bluesky",
+   "type": "organization",
+   "role": "Project with its own AT Protocol, started under Jack Dorsey"
+  },
+  {
+   "name": "Nostr",
+   "type": "other",
+   "role": "Alternative social protocol that Dorsey helped get going"
+  },
+  {
+   "name": "Farcaster",
+   "type": "other",
+   "role": "Alternative social protocol"
+  }
+ ],
+ "tags": [
+  "fediverse",
+  "social-media",
+  "activitypub",
+  "mastodon",
+  "decentralization",
+  "threads"
+ ],
+ "usage": {
+  "input_tokens": 4508,
+  "output_tokens": 1956
+ }
+}

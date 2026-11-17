@@ -1,0 +1,63 @@
+{
+ "summary": "An excerpt from the third part of a fiction story (Book 4) opens with an author's note about the author's freelance sysadmin background and the story's serial publication in Baen's Universe Magazine, then follows Felix, a systems administrator woken at 2 AM by an on-call phone alarm. His wife Kelly objects, and the monitor reports that the main routers and BGP are not responding. Felix plans to fix the network remotely through the cage's UPS in a separate netblock, while Kelly points out he can never fix things from home after 1 AM. The excerpt ends mid-sentence as he must drive out.",
+ "one_line": "Excerpt from a fiction serial in which sysadmin Felix is paged at 2 AM about downed routers while his wife objects.",
+ "key_facts": [
+  "The note is titled \"Book 4 — part 3\" and is categorized under the source \"books\" and domain \"fiction\".",
+  "The author describes working as a freelance systems administrator in the steam tunnels of the information age.",
+  "The author states that the story originally appeared in Baen's Universe Magazine, edited by Eric Flint.",
+  "The author says listeners to the author's podcast heard the story read aloud in serial chunks after each composing session.",
+  "Felix's special phone rang at two in the morning.",
+  "Felix's wife is named Kelly, and the couple has been married for five years.",
+  "The monitor reports \"Main routers not responding. BGP not responding.\"",
+  "Felix could log in to the UPS for the cage and reboot the routers from home.",
+  "The UPS was in a different netblock, with its own independent routers on their own uninterruptible power-supplies.",
+  "Kelly says Felix has never once been able to fix anything from home, but Felix privately fixes things from home all the time.",
+  "Felix's logs show that after 1AM, nothing could be fixed without driving out to the site.",
+  "The author claims the myth that the Internet was designed to withstand a nuclear war is pernicious and not a big part of the actual engineering and design.",
+  "The author names Rand and BBN as companies whose R&D the generals greenlighted."
+ ],
+ "entities": [
+  {
+   "name": "Felix",
+   "type": "person",
+   "role": "systems administrator and protagonist who is on call and answers the 2 AM page"
+  },
+  {
+   "name": "Kelly",
+   "type": "person",
+   "role": "Felix's wife who objects to him answering the phone"
+  },
+  {
+   "name": "Baen's Universe Magazine",
+   "type": "organization",
+   "role": "online magazine where the story originally appeared"
+  },
+  {
+   "name": "Eric Flint",
+   "type": "person",
+   "role": "editor of Baen's Universe Magazine, described as a talented writer and advocate for open and free culture"
+  },
+  {
+   "name": "Rand",
+   "type": "organization",
+   "role": "company whose R&D the generals greenlighted for the network"
+  },
+  {
+   "name": "BBN",
+   "type": "organization",
+   "role": "company whose R&D the generals greenlighted for the network"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "serial novel",
+  "systems administration",
+  "networking",
+  "sysadmin life"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1937,
+  "output_tokens": 966
+ }
+}

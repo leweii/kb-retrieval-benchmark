@@ -1,0 +1,118 @@
+{
+ "summary": "Brian Heater reviews Apple's 16-inch MacBook Pro with the M3 Max, calling it a big, heavy, powerful 'portable desktop' with excellent battery life and a bright display. He covers pricing, ports, the new Space Black finish, camera and speakers, and the 3nm M3 chip's new GPU features, along with benchmark results versus the M3, M2 Max and M2 Ultra. He concludes it is Apple's most powerful laptop ever, though the 15-inch Air remains the best pick for most users and travel.",
+ "one_line": "TechCrunch's review finds the 16-inch M3 Max MacBook Pro Apple's most powerful laptop ever, a pricey portable desktop with 26-plus hours of battery life.",
+ "key_facts": [
+  "The reviewed 16-inch MacBook Pro has the M3 Max with a 16-core CPU (12 performance, 4 efficiency) and 40-core GPU, 48GB of memory and 1TB of storage, and costs $4,000 as configured.",
+  "Maxing out memory and storage to 128GB and 8TB brings the price to $7,200; base 14- and 16-inch models start at $1,600 and $2,500.",
+  "The M3 line is the first of Apple's desktop chips built on the 3nm process, following the iPhone 15 Pro; Apple used 5nm since the 2020 M1.",
+  "The M3 GPU adds Dynamic Caching, hardware-accelerated ray tracing and mesh shading; even the baseline M3 can beat the M2 Ultra at ray tracing and mesh shading.",
+  "Heater looped Bill & Ted Face the Music in Apple TV at default brightness and volume, and the battery lasted 26 hours, 45 minutes.",
+  "On Geekbench 6 the M3 Max scored 3149 single-core and 21269 multi-core, versus 2819 and 21507 for the M2 Ultra in the Mac Studio.",
+  "On Geekbench 6 Metal the M3 Max averaged 153273, versus 131883 for the M2 Max and 208584 for the M2 Ultra; AMD's Radeon RX 6900XT scored 242924.",
+  "The 16-inch Pro has three Thunderbolt 4/USB-C ports to the Air's two, plus an HDMI port, and can power up to four external displays.",
+  "The 16-inch Pro weighs 4.7/4.8 pounds (M3 Pro and Max) and is 0.66 inches thick, versus 3.3 pounds and 0.45 inches for the 15-inch Air.",
+  "The 16-inch Liquid Retina XDR display is 3456 x 2234 pixels at 254 ppi, with 1000 nit sustained and 1600 nit peak HDR brightness; SDR brightness rose from 500 to 600 nits.",
+  "The new Space Black finish uses an anodization seal that greatly reduces fingerprints, though it is not fingerprint-proof.",
+  "The 14-inch Pro replaced the last Touch Bar Mac, the 13-inch Pro, and can use any of the three M3 chips, while the 16-inch is limited to the Pro and Max.",
+  "Heater still recommends the 15-inch Air as the best MacBook for most users and plans to leave the 16-inch Pro home on his flight; the M2 Ultra Mac Studio and Mac Pro remain the desktop power kings until an M3 Ultra arrives."
+ ],
+ "entities": [
+  {
+   "name": "Brian Heater",
+   "type": "person",
+   "role": "TechCrunch reviewer who tested the 16-inch MacBook Pro"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Maker of the MacBook Pro, M3 chips and iMac"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication running the review"
+  },
+  {
+   "name": "16-inch MacBook Pro",
+   "type": "product",
+   "role": "Reviewed laptop with M3 Max, billed as a portable desktop"
+  },
+  {
+   "name": "14-inch MacBook Pro",
+   "type": "product",
+   "role": "Smaller Pro configurable with M3, M3 Pro or M3 Max"
+  },
+  {
+   "name": "15-inch MacBook Air",
+   "type": "product",
+   "role": "Lighter laptop Heater recommends for most users and travel"
+  },
+  {
+   "name": "M3 Max",
+   "type": "product",
+   "role": "Top M3-family chip in the reviewed laptop"
+  },
+  {
+   "name": "M2 Ultra",
+   "type": "product",
+   "role": "Chip in Mac Studio and Mac Pro that still outperforms the M3 Max in multi-core and GPU tests"
+  },
+  {
+   "name": "Mac Studio",
+   "type": "product",
+   "role": "Desktop with M2 Ultra used as a benchmark comparison"
+  },
+  {
+   "name": "Mac Pro",
+   "type": "product",
+   "role": "Desktop with M2 Ultra, still king for pure power"
+  },
+  {
+   "name": "iMac",
+   "type": "product",
+   "role": "New M3-only iMac announced alongside the MacBook Pro"
+  },
+  {
+   "name": "Scary Fast event",
+   "type": "event",
+   "role": "Apple event last week announcing the M3 chips, MacBook Pro and iMac"
+  },
+  {
+   "name": "Lies of P",
+   "type": "product",
+   "role": "Soulslike game used to test gaming performance on macOS"
+  },
+  {
+   "name": "Continuity Camera",
+   "type": "product",
+   "role": "Feature letting an iPhone act as the Mac's webcam"
+  },
+  {
+   "name": "Belkin MagSafe camera mount",
+   "type": "product",
+   "role": "Mount Heater takes on every trip for Continuity Camera"
+  },
+  {
+   "name": "Radeon RX 6900XT",
+   "type": "product",
+   "role": "AMD GPU that outscored Apple chips on Geekbench 6 Metal"
+  },
+  {
+   "name": "Intel",
+   "type": "organization",
+   "role": "Former chip supplier Apple moved away from; less used as a comparison now"
+  }
+ ],
+ "tags": [
+  "macbook-pro",
+  "apple-silicon",
+  "m3-max",
+  "laptop-review",
+  "benchmarks",
+  "battery-life"
+ ],
+ "usage": {
+  "input_tokens": 6711,
+  "output_tokens": 1961
+ }
+}

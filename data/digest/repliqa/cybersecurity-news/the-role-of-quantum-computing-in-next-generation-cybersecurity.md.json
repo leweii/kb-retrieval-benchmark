@@ -1,0 +1,107 @@
+{
+ "summary": "The article examines how quantum computing threatens current encryption such as RSA and ECC while also enabling new defenses like post-quantum cryptography and quantum key distribution. It cites researchers, industry figures and bodies including NIST and CNSS, and stresses preparing now by moving to quantum-resistant algorithms. It frames the field as an arms race between computational advances and security.",
+ "one_line": "Quantum computing endangers RSA and ECC encryption but also enables post-quantum cryptography and QKD, so organizations must prepare for \"Q-Day\" now.",
+ "key_facts": [
+  "Quantum computers use qubits, which can represent a 0, a 1, or any quantum superposition of these states, unlike classical bits.",
+  "Dr. Sarah Langston of the University of New Arcadia said quantum computers could reach processing power \"orders of magnitude greater than the most powerful supercomputers of today\"; she was interviewed on October 10, 2023.",
+  "Present-day encryption algorithms like RSA and ECC rely on the difficulty of factoring large prime numbers or solving discrete logarithm problems, which quantum computers might render trivial.",
+  "Michael Anderson of FlexCyber Inc. warned at the Quantum-Safe Security Conference on September 5, 2023 that \"What would take a traditional computer millennia to crack could be done by a quantum computer in hours or even minutes.\"",
+  "\"Q-Day\" is the hypothetical point when quantum computers become powerful enough to break widely-used cryptographic algorithms.",
+  "Post-quantum cryptography aims to build algorithms that remain intractable for both classical and quantum computers.",
+  "Dr. Rajesh Singh and his team at the International Cybersecurity Center of Excellence work on lattice-based encryption; their paper dated November 17, 2023 proposes an approach hard for quantum computers to break.",
+  "NIST in the United States has been running a competition since 2024 to standardize post-quantum cryptographic algorithms.",
+  "Quantum key distribution (QKD) exploits the fact that observing a quantum system alters its state, so eavesdropping is immediately noticeable.",
+  "Quantum Secure Inc. has begun deploying QKD alongside existing infrastructure; CEO Elizabeth Mortensen said in a December 1, 2023 webinar that QKD could \"usher in an age of unbreakable encryption.\"",
+  "The Committee on National Security Systems (CNSS) advisory says classified information that must be protected for more than 10 years should be encrypted with quantum-resistant algorithms by 2025.",
+  "Laura Gibson, head of cyber-risk management at GlobalTech Enterprises, said the company is \"mindful of the potential backdoors that could be exposed\" as it adds quantum-computing applications.",
+  "Upgrading existing systems to quantum-resistant algorithms comes with its own challenges and costs."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Sarah Langston",
+   "type": "person",
+   "role": "Quantum computing researcher at the University of New Arcadia, interviewed October 10, 2023"
+  },
+  {
+   "name": "University of New Arcadia",
+   "type": "organization",
+   "role": "Institution of Dr. Sarah Langston"
+  },
+  {
+   "name": "Michael Anderson",
+   "type": "person",
+   "role": "Cybersecurity expert and consultant for FlexCyber Inc.; keynote speaker on encryption vulnerabilities"
+  },
+  {
+   "name": "FlexCyber Inc.",
+   "type": "organization",
+   "role": "Company Michael Anderson consults for"
+  },
+  {
+   "name": "Quantum-Safe Security Conference",
+   "type": "event",
+   "role": "Conference where Anderson gave a keynote on September 5, 2023"
+  },
+  {
+   "name": "Q-Day",
+   "type": "event",
+   "role": "Hypothetical point when quantum computers can break widely-used cryptography"
+  },
+  {
+   "name": "Dr. Rajesh Singh",
+   "type": "person",
+   "role": "Cryptographer working on lattice-based encryption"
+  },
+  {
+   "name": "International Cybersecurity Center of Excellence",
+   "type": "organization",
+   "role": "Research center of Dr. Singh's team"
+  },
+  {
+   "name": "National Institute of Standards and Technology (NIST)",
+   "type": "organization",
+   "role": "US body running a competition to standardize post-quantum cryptographic algorithms"
+  },
+  {
+   "name": "Quantum Secure Inc.",
+   "type": "organization",
+   "role": "Company deploying QKD with existing infrastructure"
+  },
+  {
+   "name": "Elizabeth Mortensen",
+   "type": "person",
+   "role": "CEO of Quantum Secure Inc."
+  },
+  {
+   "name": "Committee on National Security Systems (CNSS)",
+   "type": "organization",
+   "role": "Issuer of advisory requiring quantum-resistant encryption of long-lived classified information"
+  },
+  {
+   "name": "GlobalTech Enterprises",
+   "type": "organization",
+   "role": "Company incorporating quantum-computing applications into its services"
+  },
+  {
+   "name": "Laura Gibson",
+   "type": "person",
+   "role": "Head of cyber-risk management at GlobalTech Enterprises"
+  },
+  {
+   "name": "Quantum key distribution (QKD)",
+   "type": "product",
+   "role": "Quantum-mechanics-based method for secure communication channels"
+  }
+ ],
+ "tags": [
+  "quantum-computing",
+  "cybersecurity",
+  "post-quantum-cryptography",
+  "encryption",
+  "qkd"
+ ],
+ "usage": {
+  "input_tokens": 3130,
+  "output_tokens": 1731
+ }
+}

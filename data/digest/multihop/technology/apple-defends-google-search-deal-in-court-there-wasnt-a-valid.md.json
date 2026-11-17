@@ -1,0 +1,109 @@
+{
+ "summary": "Apple executive Eddy Cue testified in US v. Google, the DOJ antitrust trial over Google's search business, defending the Information Services Agreement that makes Google the default search engine on Apple devices. Cue said Apple chose Google because it was the best product and no valid alternative existed, while DOJ lawyer Meagan Bellshaw pressed on Apple's privacy stance and the money it receives. Google lawyer John Schmidtlein stressed Google's role in Safari's success. Much of the testimony on numbers was held in closed sessions.",
+ "one_line": "Apple's Eddy Cue testified in the DOJ's antitrust trial that Google was the best default search option and no valid alternative existed, despite privacy tensions.",
+ "key_facts": [
+  "Eddy Cue testified as a witness in US v. Google, the landmark antitrust trial over Google's search business, in a Washington, DC, courtroom before Judge Amit Mehta.",
+  "The Information Services Agreement (ISA) makes Google's search engine the default on Apple's products and has been in place since 2002.",
+  "Cue negotiated the current iteration of the ISA with Google CEO Sundar Pichai in 2016.",
+  "In the renegotiation Cue wanted Apple to get a higher percentage of Google's revenue from Apple users, while Pichai wanted to keep the deal as it was; they compromised on an undisclosed figure.",
+  "Cue told the court, 'Certainly there wasn't a valid alternative to Google at the time,' and said there still isn't one.",
+  "Cue said he never considered walking away from the deal, saying it was in both Google's and Apple's best interest to get a deal done.",
+  "Cue acknowledged the ISA didn't allow Apple to offer users a choice of search engines during setup, but said he wouldn't want to, since 'We try to get people up and running as fast as possible.'",
+  "DOJ lawyer Meagan Bellshaw showed three iPhone screens (Appearance, location-tracking prompt in Maps, App Tracking Transparency pop-up) to argue Apple offers users many choices, so search could be one.",
+  "Cue agreed that 'We've always thought we had better privacy than Google,' and said the ISA requires Google to allow searching without logging in.",
+  "The DOJ's implication was that Apple gives Google a central place on its platform because Google pays it so handsomely.",
+  "Google lawyer John Schmidtlein argued Google helped Safari succeed by being a great product, noting Google integration was nearly always mentioned in early Safari promotional materials.",
+  "Cue said that before 2003 users had to type google.com in the URL field, and Apple came up with the idea that anything typed in the URL field that isn't a URL goes to search.",
+  "DuckDuckGo's CEO testified the previous week that switching search engines takes 'too many steps.'",
+  "Most details of numbers and corporate secrets were kept under wraps in closed court sessions."
+ ],
+ "entities": [
+  {
+   "name": "Eddy Cue",
+   "type": "person",
+   "role": "Apple executive who testified and negotiated the 2016 ISA with Google"
+  },
+  {
+   "name": "Amit Mehta",
+   "type": "person",
+   "role": "Judge presiding over US v. Google"
+  },
+  {
+   "name": "Sundar Pichai",
+   "type": "person",
+   "role": "Google CEO who negotiated the 2016 deal with Cue"
+  },
+  {
+   "name": "Meagan Bellshaw",
+   "type": "person",
+   "role": "Justice Department lawyer who questioned Cue"
+  },
+  {
+   "name": "John Schmidtlein",
+   "type": "person",
+   "role": "Google lawyer who led Cue through the history of the Google/Apple partnership and Safari"
+  },
+  {
+   "name": "US v. Google",
+   "type": "event",
+   "role": "Landmark antitrust trial over Google's search business"
+  },
+  {
+   "name": "Information Services Agreement",
+   "type": "program",
+   "role": "Deal making Google the default search engine on Apple products, in place since 2002"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Company defending its Google Search deal"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Defendant; pays Apple billions a year to be default search engine"
+  },
+  {
+   "name": "US Department of Justice",
+   "type": "organization",
+   "role": "Plaintiff in the antitrust case against Google"
+  },
+  {
+   "name": "Safari",
+   "type": "product",
+   "role": "Apple browser whose combined URL/search bar integrated Google search"
+  },
+  {
+   "name": "DuckDuckGo",
+   "type": "organization",
+   "role": "Search company whose CEO testified it takes too many steps to switch search engines"
+  },
+  {
+   "name": "Samsung",
+   "type": "organization",
+   "role": "Another company with which Google makes default search deals"
+  },
+  {
+   "name": "Mozilla",
+   "type": "organization",
+   "role": "Another company with which Google makes default search deals"
+  },
+  {
+   "name": "Washington, DC",
+   "type": "place",
+   "role": "Location of the courtroom"
+  }
+ ],
+ "tags": [
+  "antitrust",
+  "google",
+  "apple",
+  "search",
+  "court-trial",
+  "privacy"
+ ],
+ "usage": {
+  "input_tokens": 3377,
+  "output_tokens": 1596
+ }
+}

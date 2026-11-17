@@ -1,0 +1,54 @@
+{
+ "summary": "This note sets out Secureway Solutions' remote work data security and confidentiality policy, which applies to all employees who can work outside the main office, including home offices, shared workspaces and mobile environments. It requires secure networks, company devices, strong passwords with multi-factor authentication, encryption and physical safeguards. It also covers secure communications, document disposal, immediate incident reporting, periodic training and disciplinary consequences, up to termination, for violations.",
+ "one_line": "Secureway Solutions' policy requiring remote employees to protect company and client data through secure networks, devices, encryption, reporting, and training.",
+ "key_facts": [
+  "Secureway Solutions' remote work policy applies to all staff, regardless of position or how often they work outside the office.",
+  "The policy covers home offices, shared workspaces, and any mobile work environments.",
+  "Employees are personally responsible for the security and confidentiality of data they access while working remotely.",
+  "Employees must use only secure, private Wi-Fi networks or wired connections; public Wi-Fi and other unsecured networks are strictly prohibited for work.",
+  "Work should be done on company-provided devices with up-to-date security software and encryption.",
+  "Personal devices must not be used to access sensitive Secureway Solutions data unless expressly permitted and secure according to company standards.",
+  "All devices and accounts need strong, unique passwords that are changed regularly, and multi-factor authentication is required for all company systems.",
+  "Confidential data must be encrypted both when stored on any device and during transmission, using company-approved encryption methods.",
+  "Physical security measures include locking devices when not in use and storing sensitive documents out of sight.",
+  "Sensitive communications must use company-approved secure, encrypted channels, and confidential matters should not be discussed in public places.",
+  "Sensitive documents must be handled per company guidelines, with shredding and secure disposal services used.",
+  "Suspected security incidents or breaches must be reported immediately to the IT department or designated security officer.",
+  "Secureway Solutions requires all employees to complete periodic training on data security and confidentiality.",
+  "Violations may result in disciplinary action, including termination of employment."
+ ],
+ "entities": [
+  {
+   "name": "Secureway Solutions",
+   "type": "organization",
+   "role": "Company that issues the remote work data security and confidentiality policy for its employees"
+  },
+  {
+   "name": "IT department",
+   "type": "organization",
+   "role": "Receives immediate reports of suspected security incidents or breaches"
+  },
+  {
+   "name": "designated security officer",
+   "type": "person",
+   "role": "Alternative recipient of security incident reports"
+  },
+  {
+   "name": "Remote Work Data Security and Confidentiality Policy",
+   "type": "program",
+   "role": "The policy document setting remote work data protection requirements"
+  }
+ ],
+ "tags": [
+  "remote-work",
+  "data-security",
+  "confidentiality",
+  "company-policy",
+  "compliance",
+  "encryption"
+ ],
+ "usage": {
+  "input_tokens": 2092,
+  "output_tokens": 902
+ }
+}

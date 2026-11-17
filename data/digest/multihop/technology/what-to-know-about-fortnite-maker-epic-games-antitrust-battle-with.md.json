@@ -1,0 +1,119 @@
+{
+ "summary": "Epic Games, maker of Fortnite, goes to jury trial against Google on November 6, 2023, alleging that Google's Play Store practices and commission structure are anticompetitive. Epic will focus on Google's agreements with device makers and developers rather than lack of sideloading, while Google will cite its User Choice Billing pilot, competing app stores, and its claim that the case is about money. Match and several state attorneys general already settled, leaving Epic to fight alone.",
+ "one_line": "Epic Games' antitrust jury trial against Google over Play Store commissions and OEM and developer agreements begins November 6, 2023, after Match and state AGs settled.",
+ "key_facts": [
+  "Epic Games' antitrust trial against Google began on November 6, 2023, after Match settled its own lawsuit with Google the prior week.",
+  "Unlike in its case against Apple, Epic cannot claim there is no other way to load apps on Android, because Android allows sideloading.",
+  "Epic's legal precedent is a Microsoft case in which courts found Microsoft held an operating system monopoly and made it hard to download alternative browsers like Netscape.",
+  "Epic plans claims under Sections 1 and 2 of the Sherman Act, California's Cartwright Act, and the Unfair Competition Law, in two markets: Android app distribution and payment processing for in-app content.",
+  "Google requires apps to use its first-party billing system and charges developers a 15% to 30% commission.",
+  "Google's User Choice Billing pilot, available in 35 markets including the U.S., cuts the commission by 4% for developers using their own payment processing; Epic has declined to use it.",
+  "Google says 99% of its developers qualify for a commission of 15% or less.",
+  "Epic notes that 90% of apps are still downloaded through Google Play and says Google bundles the Play Store with other apps that OEMs must accept.",
+  "Epic will cite 'Anti-Fragmentation Agreements' and a deal with OnePlus that was canceled over concerns it would bypass the Google Play Store.",
+  "Epic will cite Project Hug, part of the Google Games Velocity Program, and a three-year, roughly $360 million agreement with Activision Blizzard in January 2020 to keep it on Google Play.",
+  "Google says Project Hug incentivized developers to launch on Android at the same time as iOS.",
+  "Google says it provided thousands of chat logs and millions of documents, countering Epic's claim of hidden 'off the record' chats.",
+  "Google will argue Epic wants to reach the Play Store's 2.5 billion users without paying.",
+  "Testimony is expected from Sundar Pichai and Tim Sweeney; Epic lost its antitrust case against Apple and is asking the Supreme Court to weigh in."
+ ],
+ "entities": [
+  {
+   "name": "Epic Games",
+   "type": "organization",
+   "role": "Fortnite maker and plaintiff in the antitrust trial against Google"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Defendant; operator of Android and Google Play"
+  },
+  {
+   "name": "Match",
+   "type": "organization",
+   "role": "Original co-plaintiff that settled with Google and will use User Choice Billing"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Subject of Epic's earlier antitrust case, which Epic lost"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Defendant in precedent case over operating system monopoly"
+  },
+  {
+   "name": "Spotify",
+   "type": "organization",
+   "role": "Initial tester of User Choice Billing"
+  },
+  {
+   "name": "Bumble",
+   "type": "organization",
+   "role": "Initial tester of User Choice Billing"
+  },
+  {
+   "name": "OnePlus",
+   "type": "organization",
+   "role": "OEM that canceled a deal with Epic over Google Play concerns"
+  },
+  {
+   "name": "Samsung",
+   "type": "organization",
+   "role": "OEM with a Google deal Epic says limits the Galaxy Store"
+  },
+  {
+   "name": "Activision Blizzard",
+   "type": "organization",
+   "role": "Developer that signed a roughly $360 million agreement with Google in January 2020"
+  },
+  {
+   "name": "Wilson White",
+   "type": "person",
+   "role": "Google VP, Government Affairs & Public Policy, quoted in a blog post"
+  },
+  {
+   "name": "Sundar Pichai",
+   "type": "person",
+   "role": "Google CEO expected to testify"
+  },
+  {
+   "name": "Tim Sweeney",
+   "type": "person",
+   "role": "Epic Games CEO expected to testify"
+  },
+  {
+   "name": "Project Hug",
+   "type": "program",
+   "role": "Part of Google Games Velocity Program, cited by Epic as paying developers not to distribute outside Play"
+  },
+  {
+   "name": "User Choice Billing",
+   "type": "program",
+   "role": "Google pilot allowing third-party billing with a 4% commission reduction"
+  },
+  {
+   "name": "U.S. District Court in California's Northern District",
+   "type": "organization",
+   "role": "Court hosting the trial"
+  },
+  {
+   "name": "Department of Justice",
+   "type": "organization",
+   "role": "Pursuing a separate antitrust suit against Google over search"
+  }
+ ],
+ "tags": [
+  "antitrust",
+  "epic-games",
+  "google-play",
+  "android",
+  "app-stores",
+  "litigation"
+ ],
+ "usage": {
+  "input_tokens": 3267,
+  "output_tokens": 1650
+ }
+}

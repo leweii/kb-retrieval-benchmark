@@ -1,0 +1,86 @@
+{
+ "summary": "The State of the Union is the President's address to a joint session of Congress, fulfilling Article II, Section 3 of the U.S. Constitution. It reports on the nation's condition and lays out the President's legislative agenda and priorities. For much of the first century it was a written report; Woodrow Wilson revived in-person delivery in 1913, and radio and television now broadcast it live.",
+ "one_line": "The State of the Union is the President's constitutionally grounded address to Congress, reporting on the nation and outlining policy, delivered in person since Wilson in 1913.",
+ "key_facts": [
+  "The State of the Union address fulfills Article II, Section 3 of the U.S. Constitution, which requires the President to periodically inform Congress of the state of the union and recommend measures he judges necessary and expedient.",
+  "The address is presented by the President of the United States to a joint session of Congress, except in the first year of a new president's term.",
+  "The address lets the President outline his legislative agenda, for which he needs Congress's cooperation, and national priorities.",
+  "During most of the country's first century, the President primarily only submitted a written report to Congress.",
+  "George Washington delivered the first regular annual message before a joint session of Congress on January 8, 1790, in New York City, then the provisional U.S. capital.",
+  "In 1801, Thomas Jefferson discontinued delivering the address in person, regarding it as too monarchical, similar to the Speech from the Throne.",
+  "After Jefferson, the address was written and sent to Congress to be read by a clerk until 1913.",
+  "Woodrow Wilson, the 28th U.S. President, re-established the in-person address in 1913 despite some initial controversy, as a way to rally support for his agenda.",
+  "With the advent of radio and television, the address is now broadcast live across the country on many networks.",
+  "Some presidents in the latter half of the 20th century sent written State of the Union addresses.",
+  "The last President to send a written address was Jimmy Carter in 1981, after his defeat by Ronald Reagan and days before his term ended."
+ ],
+ "entities": [
+  {
+   "name": "State of the Union",
+   "type": "event",
+   "role": "annual presidential address to a joint session of Congress"
+  },
+  {
+   "name": "President of the United States",
+   "type": "person",
+   "role": "office that delivers the address"
+  },
+  {
+   "name": "United States Congress",
+   "type": "organization",
+   "role": "legislative body receiving the address"
+  },
+  {
+   "name": "U.S. Constitution",
+   "type": "other",
+   "role": "Article II, Section 3 requires the address"
+  },
+  {
+   "name": "Woodrow Wilson",
+   "type": "person",
+   "role": "28th U.S. President who revived in-person delivery in 1913"
+  },
+  {
+   "name": "George Washington",
+   "type": "person",
+   "role": "delivered first regular annual message on January 8, 1790"
+  },
+  {
+   "name": "Thomas Jefferson",
+   "type": "person",
+   "role": "discontinued in-person delivery in 1801"
+  },
+  {
+   "name": "Jimmy Carter",
+   "type": "person",
+   "role": "last President to send a written address, in 1981"
+  },
+  {
+   "name": "Ronald Reagan",
+   "type": "person",
+   "role": "defeated Carter in the election preceding the 1981 written address"
+  },
+  {
+   "name": "New York City",
+   "type": "place",
+   "role": "provisional U.S. capital where Washington gave the first address"
+  },
+  {
+   "name": "Speech from the Throne",
+   "type": "event",
+   "role": "monarchical practice to which Jefferson compared the in-person address"
+  }
+ ],
+ "tags": [
+  "state of the union",
+  "us presidency",
+  "congress",
+  "woodrow wilson",
+  "constitution"
+ ],
+ "category": "government & law",
+ "usage": {
+  "input_tokens": 1641,
+  "output_tokens": 1113
+ }
+}

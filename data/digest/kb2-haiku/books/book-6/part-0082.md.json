@@ -1,0 +1,63 @@
+{
+ "summary": "A fiction excerpt from 'Book 6 — part 82' in which the narrator reasons about a fanatical armchair mathematician who hacked emails, monitored the narrator's contacts, and likely bugged phones to track people working on a mathematical proof. The narrator notes the kidnapping and road-run attempts fit this pattern, as the villain wanted to reach the missing proof first. Halliday, who has been trying to recreate her lost notes, admits she may have lost the ability and feels hopeless, while the narrator flips through her pages and sees the proof's structure with blank steps between insights.",
+ "one_line": "In a fiction excerpt, the narrator deduces that a obsessive armchair mathematician is surveilling them to reach a missing mathematical proof first.",
+ "key_facts": [
+  "The narrator describes the target as the Holy Grail of mathematics, referring to a proof related to algorithmic complexity.",
+  "The narrator theorizes the antagonist is a computer expert and armchair mathematician with a fanatical obsession with algorithmic complexity.",
+  "The theorized antagonist likely hacked the email of everyone working on the problem and wrote a program scanning for whoever might be close to solving it.",
+  "Dr. Martinez's words are recalled: 'You could write a program that scans for keywords quite easily.'",
+  "The narrator believes the program pinged the antagonist when Halliday emailed the NSA and talked to her friend Zhang.",
+  "The narrator suspects the antagonist bugged Halliday's phone and heard her first conversation with Arthur, in which she said her work was stolen.",
+  "The narrator believes the men who ran them off the road were more concerned with stopping them from reaching the missing proof first than with what they knew.",
+  "The narrator is relieved the Lancer had not bugged Halliday's office, since it would have revealed she had only just met the narrator.",
+  "Halliday says she doesn't think she can recreate her work and that she may have lost it.",
+  "Halliday says she has been trying to recreate the notes slowly, because she knew Arthur would be coming.",
+  "Halliday says the man holding her knows enough to check her work, so she cannot stall too much.",
+  "The narrator considers the potential bodily harm and the economic threat to the world from whoever holds the proof to be worse than Halliday's inability to recreate her notes.",
+  "The narrator flips through the pages and finds the proof's structure scattered but apparent, with insights that should connect but steps left blank."
+ ],
+ "entities": [
+  {
+   "name": "Lancer",
+   "type": "organization",
+   "role": "the group or entity the narrator associates with the antagonist's surveillance and kidnapping operation"
+  },
+  {
+   "name": "Dr. Martinez",
+   "type": "person",
+   "role": "someone whose earlier words about keyword-scanning programs the narrator recalls"
+  },
+  {
+   "name": "Halliday",
+   "type": "person",
+   "role": "a woman whose mathematical proof notes were stolen and who is being held, struggling to recreate her work"
+  },
+  {
+   "name": "Arthur",
+   "type": "person",
+   "role": "a person to whom Halliday told her work was stolen in an earlier conversation, and who is coming to help"
+  },
+  {
+   "name": "NSA",
+   "type": "organization",
+   "role": "agency the narrator emailed, which triggered the antagonist's alert"
+  },
+  {
+   "name": "Zhang",
+   "type": "person",
+   "role": "the narrator's friend whom the narrator talked to, triggering the antagonist's program"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "mathematics",
+  "surveillance",
+  "kidnapping",
+  "mystery"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1902,
+  "output_tokens": 1136
+ }
+}

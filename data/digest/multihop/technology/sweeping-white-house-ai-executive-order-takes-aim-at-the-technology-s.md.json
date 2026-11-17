@@ -1,0 +1,164 @@
+{
+ "summary": "The Biden Administration unveiled a sweeping executive order on AI covering public safety, watermarking, civil rights, privacy, healthcare, education and worker protections. It uses the Defense Production Act to require developers of high-risk foundation models to report training and red-team test results before release, while rolling out measures over the next year. Senate Majority Leader Chuck Schumer argued that an executive order has limits and that the real answer is legislative.",
+ "one_line": "Biden's sweeping AI executive order mandates safety reporting for powerful models, watermarking, civil rights guidance and worker protections, though Schumer says legislation is still needed.",
+ "key_facts": [
+  "The Biden Administration unveiled its expansive AI executive order on Monday, and officials stressed that it has the force of law.",
+  "Smaller safety and security changes are expected in around 90 days, while more involved reporting and data transparency schemes need nine to 12 months to fully deploy.",
+  "An 'AI council' chaired by White House Deputy Chief of Staff Bruce Reed will meet with federal agency heads to ensure the actions are executed on schedule.",
+  "Using the Defense Production Act, companies developing foundation models that pose serious risks to national security, economic security, or public health and safety must notify the federal government during training and share all red-team safety test results before public release.",
+  "Enforcement of the reporting requirement starts at models of 10^26 petaflops, which is beyond existing models, so it won't affect current models or independent and small- to medium-size AI companies.",
+  "15 major American technology companies have begun voluntary commitments to make AI safe, secure and trustworthy, which the senior administration official said 'is not enough.'",
+  "The Department of Commerce will work with industry groups like the C2PA and its sister organization, the CAI, to develop a watermarking system so the public can validate whether federal content is AI-generated.",
+  "The order directs the Department of Justice to develop best practices for investigating and prosecuting AI-related civil rights violations, including in sentencing, parole, predictive policing and forensic analysis.",
+  "Guidance will be extended to landlords, federal benefits programs and federal contractors to prevent AI from exacerbating discrimination.",
+  "The Department of Health and Human Services will establish a safety program to track and remedy unsafe AI-based medical practices.",
+  "The Department of Labor and the Council of Economic Advisors will study AI's impact on the labor market and how to support workers facing labor disruption.",
+  "The administration launched AI.gov, a federal jobs portal with information on fellowship programs for people seeking AI work with the government, and plans to streamline visa criteria for AI talent.",
+  "Vice President Kamala Harris is scheduled to speak at the UK Summit on AI Safety, hosted by Prime Minister Rishi Sunak on Tuesday.",
+  "Senate Majority Leader Chuck Schumer (D-NY) said, 'There's probably a limit to what you can do by executive order,' and that 'the only real answer is legislative.'"
+ ],
+ "entities": [
+  {
+   "name": "Biden Administration",
+   "type": "organization",
+   "role": "Issued the sweeping executive order on AI regulation"
+  },
+  {
+   "name": "Bruce Reed",
+   "type": "person",
+   "role": "White House Deputy Chief of Staff who chairs the new AI council"
+  },
+  {
+   "name": "Defense Production Act",
+   "type": "other",
+   "role": "Law leveraged to require reporting from developers of high-risk foundation models"
+  },
+  {
+   "name": "Department of Commerce",
+   "type": "organization",
+   "role": "Leads development of a watermarking system for federal content"
+  },
+  {
+   "name": "C2PA",
+   "type": "organization",
+   "role": "Industry advocacy group the government will work with on content authentication standards"
+  },
+  {
+   "name": "CAI",
+   "type": "organization",
+   "role": "Sister organization of the C2PA also involved in watermarking work"
+  },
+  {
+   "name": "Department of Justice",
+   "type": "organization",
+   "role": "Directed to develop best practices for prosecuting AI-related civil rights violations"
+  },
+  {
+   "name": "Department of Health and Human Services",
+   "type": "organization",
+   "role": "Will establish a safety program tracking unsafe AI-based medical practices"
+  },
+  {
+   "name": "Department of Labor",
+   "type": "organization",
+   "role": "Directed to study AI's impact on the labor market"
+  },
+  {
+   "name": "Council of Economic Advisors",
+   "type": "organization",
+   "role": "Directed with Labor to study AI's labor market impact"
+  },
+  {
+   "name": "Department of Energy",
+   "type": "organization",
+   "role": "Encouraged to address AI threats to critical infrastructure and CBRN risks"
+  },
+  {
+   "name": "Department of Homeland Security",
+   "type": "organization",
+   "role": "Encouraged to address AI threats to critical infrastructure and cybersecurity risks"
+  },
+  {
+   "name": "National Science Foundation",
+   "type": "organization",
+   "role": "Assists with developing privacy-preserving cryptographic tools"
+  },
+  {
+   "name": "Research Coordination Network",
+   "type": "organization",
+   "role": "Assists with developing privacy-preserving techniques"
+  },
+  {
+   "name": "AI.gov",
+   "type": "product",
+   "role": "New federal jobs portal launched to attract AI talent"
+  },
+  {
+   "name": "AI Cyber Challenge",
+   "type": "program",
+   "role": "Existing administration program that the new cybersecurity program is loosely based on"
+  },
+  {
+   "name": "Blueprint for an AI Bill of Rights",
+   "type": "program",
+   "role": "White House document released last October directing agencies to combat algorithmic discrimination"
+  },
+  {
+   "name": "Gary Gensler",
+   "type": "person",
+   "role": "SEC head who raised concerns about misbehaving AI models"
+  },
+  {
+   "name": "Kamala Harris",
+   "type": "person",
+   "role": "Vice President scheduled to speak at the UK Summit on AI Safety"
+  },
+  {
+   "name": "Rishi Sunak",
+   "type": "person",
+   "role": "UK Prime Minister hosting the Summit on AI Safety"
+  },
+  {
+   "name": "UK Summit on AI Safety",
+   "type": "event",
+   "role": "Summit hosted Tuesday where Harris is set to speak"
+  },
+  {
+   "name": "Chuck Schumer",
+   "type": "person",
+   "role": "Senate Majority Leader who said the order does not go far enough"
+  },
+  {
+   "name": "AI Insight Forum",
+   "type": "event",
+   "role": "Senate event on AI held on Capitol Hill, second one last week"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Company working on next-generation AI systems that the reporting rules target"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Company working on next-generation AI systems that the reporting rules target"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Company working on next-generation AI systems that the reporting rules target"
+  }
+ ],
+ "tags": [
+  "ai-regulation",
+  "executive-order",
+  "biden-administration",
+  "ai-safety",
+  "technology-policy",
+  "watermarking"
+ ],
+ "usage": {
+  "input_tokens": 3967,
+  "output_tokens": 2174
+ }
+}

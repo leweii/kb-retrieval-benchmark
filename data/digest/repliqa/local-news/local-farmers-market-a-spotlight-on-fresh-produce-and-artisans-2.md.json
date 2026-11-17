@@ -1,0 +1,97 @@
+{
+ "summary": "A local news feature on the Saturday Local Farmers Market in downtown, which has operated since September 5th, 2023. It covers seasonal produce, the Artisans' Corner, live music, generational traditions, food sampling, and sustainability efforts. Quotes from shoppers, vendors and a chef portray the market as a community gathering place as much as a place to buy goods.",
+ "one_line": "Feature profiling the downtown Saturday Local Farmers Market, its produce, artisans, music, traditions and sustainability, through the voices of regulars and vendors.",
+ "key_facts": [
+  "The Local Farmers Market opens every Saturday in downtown and has operated since September 5th, 2023.",
+  "Autumn stalls offer apples, pumpkins, root vegetables, fresh basil and beets.",
+  "Martha Jennings, a regular since the market's inception this season, buys heirloom tomatoes from Ray's stall and sweet corn from Ella.",
+  "The Artisans' Corner features handcrafted jewelry, pottery and woodwork.",
+  "Jack Thompson has turned wood into bowls and carvings for over a decade and says, \"It's about the connection.\"",
+  "The Sprightly Trio, a family band, performed on a sunny day last October.",
+  "Eight-year-old Timmy got a honey stick from Mr. Becker's Bountiful Bee Farm and danced to the music.",
+  "Nora Sutton says she taught her children to shell peas as her mother did, calling the market \"our weekly ritual.\"",
+  "Chef Lila Ramirez runs a pop-up brunch at the market and draws menu inspiration from what she finds there.",
+  "Twelve-year-old environmental club member Sophia Lim hands out pamphlets on composting and makes reusable fabric bags.",
+  "The market promotes sustainability through up-cycled bags and minimal plastic use.",
+  "Retired teacher Mildred Harrington has come since the market opened this fall and says every week she takes \"a piece of that heart home.\""
+ ],
+ "entities": [
+  {
+   "name": "Local Farmers Market",
+   "type": "organization",
+   "role": "Saturday downtown market that is the subject of the article"
+  },
+  {
+   "name": "Martha Jennings",
+   "type": "person",
+   "role": "Regular shopper since the market's inception this season"
+  },
+  {
+   "name": "Ray",
+   "type": "person",
+   "role": "Vendor known for heirloom tomatoes"
+  },
+  {
+   "name": "Ella",
+   "type": "person",
+   "role": "Vendor known for sweet corn"
+  },
+  {
+   "name": "Jack Thompson",
+   "type": "person",
+   "role": "Woodworking artisan making bowls and carvings"
+  },
+  {
+   "name": "The Sprightly Trio",
+   "type": "organization",
+   "role": "Family band that played at the market last October"
+  },
+  {
+   "name": "Timmy",
+   "type": "person",
+   "role": "Eight-year-old visitor who got a honey stick and danced"
+  },
+  {
+   "name": "Mr. Becker's Bountiful Bee Farm",
+   "type": "organization",
+   "role": "Honey vendor at the market"
+  },
+  {
+   "name": "Nora Sutton",
+   "type": "person",
+   "role": "Shopper who describes the market as a family ritual"
+  },
+  {
+   "name": "Lila Ramirez",
+   "type": "person",
+   "role": "Chef with a pop-up brunch at the market"
+  },
+  {
+   "name": "Sophia Lim",
+   "type": "person",
+   "role": "Twelve-year-old environmental club member promoting composting and reusable bags"
+  },
+  {
+   "name": "Mildred Harrington",
+   "type": "person",
+   "role": "Retired teacher and regular shopper"
+  },
+  {
+   "name": "Artisans' Corner",
+   "type": "place",
+   "role": "Area of the market with handcrafted goods"
+  }
+ ],
+ "tags": [
+  "farmers-market",
+  "local-news",
+  "community",
+  "sustainability",
+  "artisans",
+  "food"
+ ],
+ "usage": {
+  "input_tokens": 2615,
+  "output_tokens": 1189
+ }
+}

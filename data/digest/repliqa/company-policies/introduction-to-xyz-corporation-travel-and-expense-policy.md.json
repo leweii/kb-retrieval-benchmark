@@ -1,0 +1,53 @@
+{
+ "summary": "This note introduces XYZ Corporation's travel and expense policy, which requires supervisor pre-approval and booking of all travel through the corporate travel portal with preferred vendors. It covers airlines, hotels, and car rental companies, and explains why compliance matters, including cost savings, transparency, and safety. Non-compliance can lead to personal liability or disciplinary action.",
+ "one_line": "XYZ Corporation's travel policy requires supervisor approval and booking through the corporate portal with preferred airlines, hotels, and car rental vendors.",
+ "key_facts": [
+  "All XYZ Corporation employees must obtain approval from their direct supervisor before making any travel arrangements.",
+  "Employees must submit a Travel Authorization Form outlining the purpose of the trip, estimated costs, and itinerary details.",
+  "All travel must be booked through XYZ Corporation's designated corporate travel portal, which offers streamlined booking and preferential rates.",
+  "The corporate travel portal is regularly updated to reflect the latest deals and travel options.",
+  "Employees must book all flights, accommodations, and car rentals through the preferred vendors listed on the travel portal.",
+  "Using preferred vendors lets XYZ Corporation maintain consistency and benefit from volume discounts.",
+  "Preferred airlines offer discounted fares, flexible ticketing options, and additional amenities.",
+  "Preferred hotels offer competitive rates, convenient locations, and amenities such as free Wi-Fi and meeting facilities, and must be booked through the corporate portal to get corporate rates.",
+  "Preferred car rental companies offer a range of vehicle types, special corporate rates, and insurance coverages.",
+  "Compliance with booking procedures is mandatory and provides transparency, accountability, personal safety with vetted providers, simpler expense reporting, and easier management of itineraries and travel risks.",
+  "Non-compliance may result in personal liability for expenses or disciplinary action.",
+  "Collective adherence strengthens XYZ Corporation's negotiating position with suppliers and supports the sustainability of its expense management practices.",
+  "Employees are encouraged to contact the Travel Management Department before making travel commitments."
+ ],
+ "entities": [
+  {
+   "name": "XYZ Corporation",
+   "type": "organization",
+   "role": "Company that issues the travel and expense policy and negotiates rates with preferred vendors"
+  },
+  {
+   "name": "Travel Management Department",
+   "type": "organization",
+   "role": "Department employees should contact with questions or for guidance before making travel commitments"
+  },
+  {
+   "name": "Travel Authorization Form",
+   "type": "other",
+   "role": "Form employees submit with trip purpose, estimated costs, and itinerary to get pre-travel approval"
+  },
+  {
+   "name": "Corporate Travel Portal",
+   "type": "product",
+   "role": "Designated system through which all travel must be booked, listing preferred vendors and rates"
+  }
+ ],
+ "tags": [
+  "travel-policy",
+  "expense-management",
+  "company-policies",
+  "corporate-travel",
+  "compliance",
+  "preferred-vendors"
+ ],
+ "usage": {
+  "input_tokens": 2046,
+  "output_tokens": 967
+ }
+}

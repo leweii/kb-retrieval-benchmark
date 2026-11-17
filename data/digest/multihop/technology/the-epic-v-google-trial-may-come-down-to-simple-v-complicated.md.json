@@ -1,0 +1,113 @@
+{
+ "summary": "Sean Hollister recaps day one of the Epic v. Google jury trial over whether Google Play makes Android an unlawful monopoly. He argues Epic's opening painted a simple good-versus-evil story, while Google spent its time explaining complicated business practices. Evidence on both sides, including Epic's Project Liberty and Google's auto-deleted chats, may shape the jury's view.",
+ "one_line": "On day one of Epic v. Google, Epic's simple bully-versus-underdog narrative seemed to land better with the jury than Google's complicated business explanations.",
+ "key_facts": [
+  "Epic sued Google in 2020 after a fight over in-app purchase fees, claiming Google Play makes Android an unlawful monopoly.",
+  "Epic lead attorney Gary Bornstein called Google a bully and a cheat that \"bribes\" or \"blocks\" attempts to compete with Google Play.",
+  "Epic says Google earns 70 percent profit margins on $12 billion in annual app revenue.",
+  "Bornstein cited an alleged $360 million payment to Activision to keep it from opening a competing app store; Activision told The Verge in 2022 it \"never entered into an agreement that Activision would not open its own app store.\"",
+  "Epic's attorney admitted Google \"was too clever\" to draw up contracts that specifically forced developers not to compete with the Play Store.",
+  "Google's opening statement lasted 45 minutes; lead attorney Glenn Pomerantz argued Google and Apple compete against each other because phone quality can't be separated from app store quality.",
+  "Pomerantz noted every Samsung phone comes with two app stores on the homescreen, so Play's dominance reflects user choice.",
+  "Pomerantz said over a billion people have gone through the process of getting apps outside the Play Store; Google clarified this means users who enabled the Android sideloading flow, not necessarily completed installs.",
+  "Google highlighted Epic's secret \"Project Liberty,\" a plan to update Fortnite to bypass app store fees, get kicked off Apple's and Google's stores, and sue, but Epic mentioned it first in its own opening.",
+  "Google employees, up to and including CEO Sundar Pichai, set sensitive chats to auto-delete, and the court has already decided Google should be sanctioned in some way.",
+  "Bornstein said of the destroyed chats: \"as bad as the documents are, is worse. Or at least it was worse, before they were destroyed.\"",
+  "The first two witnesses were Epic Games Store head Steve Allison and Yoga Buddhi CEO Benjamin Simon, who also appeared in the Epic v. Apple trial.",
+  "Epic hinted that Google's 70/30 revenue split may rest on an arbitrary decision Valve made two decades ago with Steam."
+ ],
+ "entities": [
+  {
+   "name": "Epic Games",
+   "type": "organization",
+   "role": "Fortnite publisher suing Google, alleging Google Play is an unlawful monopoly"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Defendant; operates Google Play and Android"
+  },
+  {
+   "name": "Gary Bornstein",
+   "type": "person",
+   "role": "Epic lead attorney who delivered the opening statement"
+  },
+  {
+   "name": "Glenn Pomerantz",
+   "type": "person",
+   "role": "Google lead attorney who delivered Google's opening statement"
+  },
+  {
+   "name": "Sundar Pichai",
+   "type": "person",
+   "role": "Google CEO, among employees who set chats to auto-delete"
+  },
+  {
+   "name": "Steve Allison",
+   "type": "person",
+   "role": "Epic Games Store head, first-day witness"
+  },
+  {
+   "name": "Benjamin Simon",
+   "type": "person",
+   "role": "Yoga Buddhi CEO, witness who also appeared in the Epic v. Apple trial"
+  },
+  {
+   "name": "Activision",
+   "type": "organization",
+   "role": "Alleged recipient of $360 million payment; denied agreeing not to open an app store"
+  },
+  {
+   "name": "Samsung",
+   "type": "organization",
+   "role": "Phone maker whose devices ship with Google Play and the Galaxy Store"
+  },
+  {
+   "name": "Galaxy Store",
+   "type": "product",
+   "role": "Samsung's preinstalled app store with a tiny share of Android installs"
+  },
+  {
+   "name": "Google Play",
+   "type": "product",
+   "role": "Android's app store at the center of the antitrust case"
+  },
+  {
+   "name": "Project Liberty",
+   "type": "program",
+   "role": "Epic's secret plan to bypass app store fees by updating Fortnite"
+  },
+  {
+   "name": "Fortnite",
+   "type": "product",
+   "role": "Epic's game at the center of the fee dispute"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "iOS maker; Epic earlier lost its monopoly case against it"
+  },
+  {
+   "name": "Valve",
+   "type": "organization",
+   "role": "Steam operator whose 70/30 split allegedly influenced Google's"
+  },
+  {
+   "name": "The Verge",
+   "type": "organization",
+   "role": "Publication reporting on the trial and contacted by Activision and Google"
+  }
+ ],
+ "tags": [
+  "epic-games",
+  "google",
+  "antitrust",
+  "app-stores",
+  "android",
+  "trial"
+ ],
+ "usage": {
+  "input_tokens": 3449,
+  "output_tokens": 1644
+ }
+}

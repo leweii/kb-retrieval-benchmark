@@ -1,0 +1,122 @@
+{
+ "summary": "After nearly three days of talks, EU lawmakers reached a political deal on 8 December 2023 on the AI Act, a risk-based framework for regulating AI first proposed in April 2021. It bans certain AI uses, sets obligations for high-risk and general purpose AI, and imposes fines up to €35 million or 7% of global turnover. Officials hailed it as a global first, while civil society groups and France (backing Mistral) voiced reservations; formal votes remain.",
+ "one_line": "EU lawmakers struck a political deal on the world-first AI Act, banning some AI uses and tiering rules for high-risk and general purpose AI.",
+ "key_facts": [
+  "The EU reached a political deal on the AI Act after almost three days of marathon talks; the file was originally proposed in April 2021.",
+  "Ursula von der Leyen called the AI Act \"a global first\" in a post on X on December 8, 2023.",
+  "Banned AI uses include biometric categorisation using sensitive characteristics, untargeted scraping of facial images for facial recognition databases, emotion recognition in workplaces and educational institutions, social scoring, behaviour manipulation, and exploiting vulnerabilities.",
+  "Remote biometric identification by law enforcement in public places is not fully banned; it requires prior judicial authorisation and is limited to strictly defined lists of crime, with real-time use limited in time and location.",
+  "The AI Act will not apply to systems used exclusively for military or defence purposes, or to AI used solely for research and innovation or for non-professional reasons.",
+  "EDRi said the deal contains \"some limited gains for human rights\" but looks like \"a shell of the AI law Europe really needs\".",
+  "General purpose AI models face a two-tier system; \"high-impact\" GPAIs with systemic risk are those trained with more than 10^25 floating point operations of compute and face stricter obligations like model evaluations and adversarial testing.",
+  "Fully open sourced models will have lighter regulatory requirements than closed source models, and R&D is not intended to be in scope.",
+  "Fines range from €35 million or 7% of global turnover down to €7.5 million or 1.5%; 7% applies to banned AI applications, 3% to other obligations, and 1.5% to supplying incorrect information.",
+  "Entry into force is phased: six months for prohibited use cases, 12 months for transparency and governance requirements, and 24 months for all other requirements, so full force may not be felt until 2026.",
+  "The final text still needs votes in the Parliament and the Council, and an AI Office will be set up within the Commission to coordinate enforcement and oversee advanced models.",
+  "France and French startup Mistral had lobbied for a total carve out for foundation models/GPAIs; Carme Artigas said Mistral, using about 10^23 compute, would likely fit the \"low tier\" once commercialized but is excluded while in R&D and pre-training."
+ ],
+ "entities": [
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "Bloc whose lawmakers reached the political deal on the AI Act"
+  },
+  {
+   "name": "European Parliament",
+   "type": "organization",
+   "role": "Co-legislator that negotiated the deal and issued a press release on its contents"
+  },
+  {
+   "name": "Council",
+   "type": "organization",
+   "role": "Co-legislator; its press release clarified the scope and penalties"
+  },
+  {
+   "name": "European Commission",
+   "type": "organization",
+   "role": "Co-legislator; will set up the AI Office and has worked on the AI Pact"
+  },
+  {
+   "name": "Ursula von der Leyen",
+   "type": "person",
+   "role": "EU president who called the AI Act a \"global first\""
+  },
+  {
+   "name": "Carme Artigas",
+   "type": "person",
+   "role": "Spain's secretary of state for digital and AI issues who led the Council's negotiations"
+  },
+  {
+   "name": "Dragoș Tudorache",
+   "type": "person",
+   "role": "European Parliament co-rapporteur"
+  },
+  {
+   "name": "Brando Benifei",
+   "type": "person",
+   "role": "European Parliament co-rapporteur who had earlier doubted a deal could be found"
+  },
+  {
+   "name": "Thierry Breton",
+   "type": "person",
+   "role": "EU internal market commissioner who called the deal \"historic\""
+  },
+  {
+   "name": "Jean-Noël Barrot",
+   "type": "person",
+   "role": "France's digital minister, to whom a statement on the compromise was attributed"
+  },
+  {
+   "name": "Mistral",
+   "type": "organization",
+   "role": "French AI startup that lobbied for a carve out for foundation models"
+  },
+  {
+   "name": "EDRi",
+   "type": "organization",
+   "role": "Digital rights group that pushed for a full ban on remote biometrics"
+  },
+  {
+   "name": "Ella Jakubowska",
+   "type": "person",
+   "role": "Critic who said the real-time facial recognition exceptions won't stop biometric mass surveillance"
+  },
+  {
+   "name": "AI Act",
+   "type": "program",
+   "role": "Risk-based EU framework for regulating artificial intelligence"
+  },
+  {
+   "name": "AI Pact",
+   "type": "program",
+   "role": "Stop-gap Commission initiative with industry until the AI Act takes effect"
+  },
+  {
+   "name": "AI Office",
+   "type": "organization",
+   "role": "Body to be set up within the Commission to coordinate enforcement and oversee advanced AI models"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "Example of generative AI application built on foundational models"
+  },
+  {
+   "name": "Spain",
+   "type": "place",
+   "role": "Holder of the rotating Council presidency since the summer"
+  }
+ ],
+ "tags": [
+  "eu-ai-act",
+  "ai-regulation",
+  "european-union",
+  "biometrics",
+  "foundation-models",
+  "tech-policy"
+ ],
+ "usage": {
+  "input_tokens": 5365,
+  "output_tokens": 1793
+ }
+}

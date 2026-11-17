@@ -1,0 +1,118 @@
+{
+ "summary": "The note explains how space weather (solar flares, geomagnetic storms, coronal mass ejections) threatens satellites, GPS and power grids, citing 2023 incidents and a Lloyds of London worst-case loss estimate. It covers prediction tools, grid hardening, recovery drills, industry standardization, continuous learning, and the growing overlap with cybersecurity. It concludes that energy companies must invest now in prediction, hardened assets and recovery protocols.",
+ "one_line": "Overview of space weather risks to power grids and the prediction, hardening, collaboration and cybersecurity measures energy companies are adopting.",
+ "key_facts": [
+  "Space weather includes solar flares, geomagnetic storms, and coronal mass ejections (CMEs), which can disrupt satellites, GPS systems and power grid infrastructure.",
+  "On August 5, 2023, a strong geomagnetic storm caused widespread internet outages across Europe.",
+  "On September 13, 2023, a sizable CME narrowly missed the Earth, prompting an international summit on resilient power infrastructure.",
+  "A Lloyds of London report suggests a worst-case geomagnetic storm could cause losses up to $2.6 trillion globally.",
+  "NOAA's DSCOVR (Deep Space Climate Observatory) satellite aids early detection of CMEs and solar flares, potentially giving hours of advance warning.",
+  "On October 11, 2023, HighVolt Energy unveiled \"storm-ready transformers\" designed to tolerate surges from solar storms and geomagnetically induced currents (GICs).",
+  "Pacific Power Corp conducted a training exercise on November 29, 2023 that simulated a widespread blackout.",
+  "NERC and the IEC are working to standardize responses to space weather scenarios.",
+  "Energy companies are encouraged to share information through platforms like the Electric Power Research Institute (EPRI).",
+  "The Global Space Weather Enterprise Forum convened on December 14, 2023, with Dr. Emily Wong of TerraGrid Solutions as keynote speaker.",
+  "The Cyber and Space Weather Action Team (CSWAT), established in January 2024, creates guidelines combining cyber and space weather infrastructure security.",
+  "Dr. Angela Richardson of the Space Weather Prediction Center (SWPC) said of a major solar event: \"It's not a matter of if, but when.\"",
+  "Ground-based magnetometers are increasingly sensitive and abundant, providing real-time data on geomagnetic conditions."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Angela Richardson",
+   "type": "person",
+   "role": "Astrophysicist with the Space Weather Prediction Center who stressed that a major solar event is inevitable"
+  },
+  {
+   "name": "Space Weather Prediction Center (SWPC)",
+   "type": "organization",
+   "role": "Employer of Dr. Angela Richardson"
+  },
+  {
+   "name": "John Murdock",
+   "type": "person",
+   "role": "CEO of Allied Grid Innovations; called the September 2023 near-miss a wake-up call"
+  },
+  {
+   "name": "Allied Grid Innovations",
+   "type": "organization",
+   "role": "Company led by John Murdock"
+  },
+  {
+   "name": "Lloyds of London",
+   "type": "organization",
+   "role": "Source of report estimating up to $2.6 trillion in worst-case losses"
+  },
+  {
+   "name": "NOAA",
+   "type": "organization",
+   "role": "Operator of the DSCOVR space-weather satellite"
+  },
+  {
+   "name": "DSCOVR (Deep Space Climate Observatory)",
+   "type": "product",
+   "role": "Satellite providing early detection of CMEs and solar flares"
+  },
+  {
+   "name": "HighVolt Energy",
+   "type": "organization",
+   "role": "Power company that unveiled storm-ready transformers on October 11, 2023"
+  },
+  {
+   "name": "Pacific Power Corp",
+   "type": "organization",
+   "role": "Utility that ran a blackout simulation exercise on November 29, 2023"
+  },
+  {
+   "name": "North American Electric Reliability Corporation (NERC)",
+   "type": "organization",
+   "role": "Works to standardize responses to space weather"
+  },
+  {
+   "name": "International Electrotechnical Commission (IEC)",
+   "type": "organization",
+   "role": "Works to standardize responses to space weather"
+  },
+  {
+   "name": "Electric Power Research Institute (EPRI)",
+   "type": "organization",
+   "role": "Platform for sharing information and strategies among energy companies"
+  },
+  {
+   "name": "Global Space Weather Enterprise Forum",
+   "type": "event",
+   "role": "Conference held December 14, 2023 to disseminate research and best practices"
+  },
+  {
+   "name": "Dr. Emily Wong",
+   "type": "person",
+   "role": "Chief Resilience Officer of TerraGrid Solutions and keynote speaker at the forum"
+  },
+  {
+   "name": "TerraGrid Solutions",
+   "type": "organization",
+   "role": "Company of Dr. Emily Wong"
+  },
+  {
+   "name": "Cyber and Space Weather Action Team (CSWAT)",
+   "type": "organization",
+   "role": "Group established January 2024 addressing intersecting cyber and space weather challenges"
+  },
+  {
+   "name": "Europe",
+   "type": "place",
+   "role": "Region hit by internet outages during the August 5, 2023 geomagnetic storm"
+  }
+ ],
+ "tags": [
+  "space-weather",
+  "power-grid",
+  "risk-mitigation",
+  "energy-sector",
+  "cybersecurity",
+  "resilience"
+ ],
+ "usage": {
+  "input_tokens": 3000,
+  "output_tokens": 1726
+ }
+}

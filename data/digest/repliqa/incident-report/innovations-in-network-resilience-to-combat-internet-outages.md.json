@@ -1,0 +1,114 @@
+{
+ "summary": "The note surveys innovations aimed at making internet networks resilient to outages, whose economic and social costs are rising as the internet becomes critical infrastructure. It covers AI outage prediction, renewable-powered infrastructure, mesh networks, satellite backups, regulation, digital literacy and industry collaboration. It concludes that combined technology, policy, education and cooperation can make internet services reliable and sustainable.",
+ "one_line": "Overview of AI, green energy, mesh networks, satellites, regulation, education and collaboration as strategies to make internet networks resilient against outages.",
+ "key_facts": [
+  "A six-hour internet downtime in a major city on September 15, 2023, collated by think tank CyberGuard, caused an estimated $300 million loss in productivity, emergency services disruption and compromised cybersecurity.",
+  "Freelance graphic designer Emma Johnson said of outages: \"It's my livelihood that's put on pause, and that's terrifying.\"",
+  "NetResolve uses AI to analyze terabytes of historical data to predict outages and proactively reroute traffic or deploy patches.",
+  "By October 2023, NetResolve's technology had reportedly reduced outage frequency by 25% for partnered ISPs; its CEO is James Parker.",
+  "GreenNet has used solar and wind power for its operations since November 2023; Chief Innovation Officer Sandra Lee says this keeps it self-sustaining during power outages and reduces its carbon footprint.",
+  "Mesh networks connect each node directly, dynamically and non-hierarchically to as many other nodes as possible, so data can re-route if one node fails.",
+  "The community-driven \"EveryNode\" mesh project began in December 2023 to let neighborhoods stay connected independently of traditional ISPs.",
+  "SpaceX and Amazon have invested billions in satellite internet constellations as a fail-safe against terrestrial outages.",
+  "A January 2024 outage occurred when a backhoe operator accidentally severed a critical fiber optic cable, after which satellite companies touted space-based backups.",
+  "Tom Bennett, an astronaut-turned-CEO, says LEO satellites can beam internet access almost instantly to any location with an outage.",
+  "The International Connectivity Standard (ICS) was formed after the Global Internet Resilience Summit in February 2024 and sets guidelines for ISP network redundancy and rapid recovery.",
+  "The US FCC has proposed frameworks requiring ISPs to provide \"service continuity\" to be eligible for federal funding.",
+  "NetWise Workshops, run by nonprofits, teach basic network troubleshooting and the value of backup connectivity such as personal hotspots; educator Roberta Katz says \"an informed user is a resilient user.\"",
+  "The Network Resilience Alliance, formed in March 2024, is a forum for sharing research, resources and best practices among telecoms, startups, NGOs and academic institutions."
+ ],
+ "entities": [
+  {
+   "name": "CyberGuard",
+   "type": "organization",
+   "role": "Digital resilience think tank that collated the September 15, 2023 outage incident"
+  },
+  {
+   "name": "Emma Johnson",
+   "type": "person",
+   "role": "Freelance graphic designer who described the panic of outages"
+  },
+  {
+   "name": "NetResolve",
+   "type": "organization",
+   "role": "Company using AI to predict and prevent outages"
+  },
+  {
+   "name": "James Parker",
+   "type": "person",
+   "role": "CEO of NetResolve"
+  },
+  {
+   "name": "GreenNet",
+   "type": "organization",
+   "role": "Pioneer in using solar and wind power for network operations"
+  },
+  {
+   "name": "Sandra Lee",
+   "type": "person",
+   "role": "Chief Innovation Officer of GreenNet"
+  },
+  {
+   "name": "EveryNode",
+   "type": "program",
+   "role": "Community-driven mesh network project started December 2023"
+  },
+  {
+   "name": "SpaceX",
+   "type": "organization",
+   "role": "Invested billions in satellite internet constellations"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Invested billions in satellite internet constellations"
+  },
+  {
+   "name": "Tom Bennett",
+   "type": "person",
+   "role": "Astronaut-turned-CEO promoting LEO satellite backup"
+  },
+  {
+   "name": "International Connectivity Standard (ICS)",
+   "type": "program",
+   "role": "Guidelines for ISP redundancy and rapid recovery formed after the Global Internet Resilience Summit"
+  },
+  {
+   "name": "Global Internet Resilience Summit",
+   "type": "event",
+   "role": "February 2024 summit after which the ICS was formed"
+  },
+  {
+   "name": "FCC",
+   "type": "organization",
+   "role": "US regulator proposing service continuity frameworks tied to federal funding"
+  },
+  {
+   "name": "NetWise Workshops",
+   "type": "program",
+   "role": "Nonprofit consumer education initiative on network resilience"
+  },
+  {
+   "name": "Roberta Katz",
+   "type": "person",
+   "role": "Educator at NetWise"
+  },
+  {
+   "name": "Network Resilience Alliance",
+   "type": "organization",
+   "role": "Collaborative forum formed in March 2024 for sharing research and best practices"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "network-resilience",
+  "mesh-networks",
+  "satellite-internet",
+  "renewable-energy",
+  "regulation"
+ ],
+ "usage": {
+  "input_tokens": 2812,
+  "output_tokens": 1673
+ }
+}

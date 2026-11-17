@@ -1,0 +1,116 @@
+{
+ "summary": "The note is a news-style account of the \"Ashen Plague,\" a global volcanic winter that began September 5th, 2023, when Mount Erebus and other volcanoes erupted and filled the stratosphere with ash and sulfur dioxide. It covers dimmed skies, crop failures, disrupted wildlife and coral, respiratory illness, psychological stress and economic strain. International bodies have convened emergency panels, and scientists say the haze may last months or years.",
+ "one_line": "A news report on the 2023 \"Ashen Plague\" volcanic winter, whose ash-darkened skies threaten crops, wildlife, health and economies worldwide.",
+ "key_facts": [
+  "The volcanic eruptions behind the \"Ashen Plague\" began September 5th, 2023, starting with Mount Erebus in Antarctica followed by three other historically dormant volcanoes.",
+  "Dr. Angela Richardson of the South Pole Research Facility said \"nothing in the recent record had suggested a reawakening of this magnitude.\"",
+  "Mount Vesuvius in Italy, Mount Fuji in Japan, and Mexico's Popocatépetl later discharged large ash clouds in rapid succession, pushing particulate matter into the stratosphere.",
+  "By October 12th, NASA satellite imagery showed a dark veil over large parts of the Earth, reminiscent of the 1816 \"year without a summer\" caused by Mount Tambora.",
+  "Dr. Michael Torres said on October 18th that the event is a synchronized global blanket of ash affecting solar radiation levels.",
+  "Professor Lily Chen of the International Institute of Agronomy warned on November 3rd of potential catastrophic crop failures.",
+  "By the start of Northern Hemisphere winter, wheat, maize and soybean harvests were reported failing in the breadbaskets of the United States, Europe and Asia.",
+  "Ornithologist Dr. Rebecca Munoz reported on December 1st that migratory birds were delayed because they could not navigate under a sunless sky.",
+  "Marine biologist James Fielding said on December 15th that algae feeding coral through photosynthesis are at risk from reduced light, threatening coral health.",
+  "Dr. Hannah Singh reported a spike in respiratory problems from airborne ash, especially among asthmatics and the elderly.",
+  "The aviation industry has been crippled by safety concerns, and tourism and hospitality sectors face new challenges as travelers stay home.",
+  "The United Nations and the World Meteorological Organization convened emergency panels, and scientists predict hazy conditions may persist for months, if not years."
+ ],
+ "entities": [
+  {
+   "name": "Mount Erebus",
+   "type": "place",
+   "role": "Antarctic volcano whose eruption set off the chain of events"
+  },
+  {
+   "name": "Mount Vesuvius",
+   "type": "place",
+   "role": "Italian volcano that discharged ash clouds in the following weeks"
+  },
+  {
+   "name": "Mount Fuji",
+   "type": "place",
+   "role": "Japanese volcano that discharged ash clouds"
+  },
+  {
+   "name": "Popocatépetl",
+   "type": "place",
+   "role": "Mexican volcano that discharged ash clouds"
+  },
+  {
+   "name": "Mount Tambora",
+   "type": "place",
+   "role": "Volcano whose eruption caused the 1816 \"year without a summer\""
+  },
+  {
+   "name": "Ashen Plague",
+   "type": "event",
+   "role": "Name given to the global volcanic winter beginning September 5th, 2023"
+  },
+  {
+   "name": "Dr. Angela Richardson",
+   "type": "person",
+   "role": "Scientist at the South Pole Research Facility who reported on the first eruption"
+  },
+  {
+   "name": "South Pole Research Facility",
+   "type": "organization",
+   "role": "Research facility where Dr. Richardson works"
+  },
+  {
+   "name": "NASA",
+   "type": "organization",
+   "role": "Provided satellite imagery of the ash veil on October 12th"
+  },
+  {
+   "name": "Dr. Michael Torres",
+   "type": "person",
+   "role": "Climate scientist who warned of a synchronized global blanket of ash"
+  },
+  {
+   "name": "Professor Lily Chen",
+   "type": "person",
+   "role": "Agronomy expert who warned of catastrophic crop failures"
+  },
+  {
+   "name": "International Institute of Agronomy",
+   "type": "organization",
+   "role": "Professor Chen's institution"
+  },
+  {
+   "name": "Dr. Rebecca Munoz",
+   "type": "person",
+   "role": "Ornithologist who detailed bird migration delays"
+  },
+  {
+   "name": "James Fielding",
+   "type": "person",
+   "role": "Marine biologist who warned about coral and algae"
+  },
+  {
+   "name": "Dr. Hannah Singh",
+   "type": "person",
+   "role": "Respiratory specialist describing the spike in ash-related respiratory problems"
+  },
+  {
+   "name": "United Nations",
+   "type": "organization",
+   "role": "Convened emergency panels on the crisis"
+  },
+  {
+   "name": "World Meteorological Organization",
+   "type": "organization",
+   "role": "Convened emergency panels on the crisis"
+  }
+ ],
+ "tags": [
+  "volcanic-winter",
+  "climate",
+  "natural-disaster",
+  "food-security",
+  "news"
+ ],
+ "usage": {
+  "input_tokens": 2813,
+  "output_tokens": 1629
+ }
+}

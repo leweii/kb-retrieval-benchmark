@@ -1,0 +1,98 @@
+{
+ "summary": "The Verge's deals roundup tracks discounts on Apple's M-series MacBook Air, MacBook Pro and Mac Mini models as of late October 2023, just as the new M3 generation launched. It advises against older Intel-based Macs and notes that Apple's refurbished store offers a one-year warranty and savings of 15 to 20 percent. Specific retailer prices and discount amounts are given for each model, from the $749.99 M1 Air to a $2,499 M1 Max Pro.",
+ "one_line": "A late-October 2023 roundup of current discounts on M1, M2 and new M3 MacBook Air, MacBook Pro and Mac Mini models.",
+ "key_facts": [
+  "Apple's MacBook lineup runs from the 13-inch MacBook Air from 2020 at $999 up to the latest 16-inch MacBook Pro starting at $2,499.",
+  "Current Mac models are often discounted by as much as $400, and Apple's refurbished store gives a one-year warranty and generally 15 to 20 percent off new prices.",
+  "The Verge does not recommend buying older Intel-based Macs, which it says are completely outclassed by newer models.",
+  "The base M1 MacBook Air (8GB RAM, 256GB storage) normally costs $999 but is $749.99 ($250 off) at Amazon and Best Buy, matching its lowest price.",
+  "Apple announced at WWDC that the 13-inch M2 MacBook Air now starts at $1,099 instead of $1,199; it sells for $899 ($200 off) at B&H Photo.",
+  "The 15-inch M2 MacBook Air starts at $1,299 and is $300 off at $999 at Amazon or Best Buy; the 512GB model is $300 off at $1,199 at Best Buy.",
+  "Apple unveiled M3 Macs at its 'Scary Fast' event the night before Halloween, including a 14-inch M3 MacBook Pro replacing the 13-inch M2 model, which ends Touch Bar Macs.",
+  "The 14-inch M3 MacBook Pro with 512GB is $1,399 ($200 off) at Amazon, Best Buy and B&H Photo; it starts with 8GB of RAM and lacks the third Thunderbolt port of the M3 Pro and M3 Max models.",
+  "The 14-inch and 16-inch M3 Pro/Max MacBook Pros start at $1,999 and $2,499 with 18GB of base RAM; the 16-inch review unit Apple sent cost $7,199.",
+  "The base 14-inch M3 Pro MacBook Pro is $1,749 ($250 off) at B&H Photo, and the base 16-inch M3 Pro is $2,249 ($250 off) at Amazon and B&H Photo.",
+  "The base 14-inch M2 Pro MacBook Pro (512GB, 16GB RAM) is $1,629 ($370 off) at Amazon, while the 1TB model is $1,999 ($500 off) at B&H Photo.",
+  "A 2021 16-inch M1 Max MacBook Pro with 64GB RAM and 2TB storage is $2,499 ($1,800 off) at B&H Photo; it once sold for $4,299.",
+  "The base M2 Mac Mini ($599 list) is a new all-time low of $479 ($120 off) at Amazon and B&H Photo, and the M2 Pro model ($1,299 list) is $1,149 ($150 off) at B&H Photo."
+ ],
+ "entities": [
+  {
+   "name": "The Verge",
+   "type": "organization",
+   "role": "publisher of the deals roundup"
+  },
+  {
+   "name": "Antonio G. Di Benedetto",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "maker of the MacBooks and Mac Mini; operates a refurbished store with a one-year warranty"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "retailer offering MacBook and Mac Mini discounts"
+  },
+  {
+   "name": "Best Buy",
+   "type": "organization",
+   "role": "retailer offering MacBook discounts"
+  },
+  {
+   "name": "B&H Photo",
+   "type": "organization",
+   "role": "retailer offering many of the listed discounts"
+  },
+  {
+   "name": "MacBook Air",
+   "type": "product",
+   "role": "Apple's entry-level laptop, available in M1 and M2 versions"
+  },
+  {
+   "name": "MacBook Pro",
+   "type": "product",
+   "role": "Apple's pro laptop line with M1 Pro/Max, M2 Pro and M3 models"
+  },
+  {
+   "name": "Mac Mini",
+   "type": "product",
+   "role": "Apple desktop in M2 and M2 Pro configurations"
+  },
+  {
+   "name": "Mac Studio",
+   "type": "product",
+   "role": "desktop compared to the M2 Pro Mac Mini as a 'baby Mac Studio'"
+  },
+  {
+   "name": "Parallels",
+   "type": "product",
+   "role": "software suggested as an alternative to Windows Boot Camp"
+  },
+  {
+   "name": "WWDC",
+   "type": "event",
+   "role": "event where Apple announced the 13-inch M2 Air price drop"
+  },
+  {
+   "name": "Scary Fast",
+   "type": "event",
+   "role": "Apple event where the M3 Macs were announced"
+  }
+ ],
+ "tags": [
+  "macbook",
+  "apple",
+  "deals",
+  "mac-mini",
+  "m3-chip",
+  "laptops"
+ ],
+ "usage": {
+  "input_tokens": 4865,
+  "output_tokens": 1729
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "summary": "The article reviews case studies since September 2023 of telecom network restoration after hurricanes, wildfires, earthquakes and floods in the US. It highlights how operators used mobile cell sites, satellite links, resilient designs, and cooperation with utilities and government. It concludes that AI, drones, and 5G, together with physical hardening and preemptive planning, are shaping more resilient networks.",
+ "one_line": "Case studies of US telecom restoration after disasters from 2023 to 2024 show how hardening, rapid response, partnerships and new technology improve network resilience.",
+ "key_facts": [
+  "Hurricane Eunice made landfall on the eastern coast of the United States on September 25, 2023, with winds in excess of 150 miles per hour.",
+  "OptiComm's response coordinator Mike Thompson said the first 48 hours were crucial, when mobile cell sites and portable generators were deployed to the hardest-hit areas.",
+  "SwiftLink built elevated platforms for its equipment, which saved vital infrastructure from the flooding that followed Hurricane Eunice.",
+  "Wildfires in Southern California on December 5, 2023 damaged telecom infrastructure, most extensively underground cabling, which took weeks to replace.",
+  "FireWire Telecom used satellite technology as an interim measure to give fire response teams and locals communication pathways.",
+  "Ashley Rodriguez, a FireWire Telecom network engineer, said: \"Our teams had to literally run fiery gauntlets to assess and repair optic fiber lines.\"",
+  "A 7.3 magnitude earthquake struck the Pacific Northwest on March 18, 2024, toppling communication towers despite network redundancy plans.",
+  "GeoComm, led by CEO Linda Yoon, worked with the National Guard to roll out temporary communication hubs equipped with satellite phones and internet, and invested in earthquake-resistant infrastructure.",
+  "In June 2024 floods in the Midwest, WaveTech had built water-tight facilities based on predictive flood mapping, under CTO Bob Jackson.",
+  "Bob Jackson also implemented temporary mobile networks called \"Cell-on-Wheels\" (COWs) to speed recovery.",
+  "After a seismic event in San Bernardino in September 2024, telecom provider NextSignal and utility GridForce combined resources and shared satellite imagery and ground sensor data to cut cost and time.",
+  "NextSignal CEO Anna White said communication with utility providers is as essential as with customers.",
+  "Companies are adopting AI to predict outages, drones to assess damage, crisis-management software, and 5G to support quicker data transfer and IoT devices."
+ ],
+ "entities": [
+  {
+   "name": "Hurricane Eunice",
+   "type": "event",
+   "role": "September 25, 2023 hurricane that hit the US eastern coast and severely disrupted telecommunications"
+  },
+  {
+   "name": "OptiComm",
+   "type": "organization",
+   "role": "network operator that deployed mobile cell sites and generators after Hurricane Eunice"
+  },
+  {
+   "name": "Mike Thompson",
+   "type": "person",
+   "role": "OptiComm response coordinator"
+  },
+  {
+   "name": "SwiftLink",
+   "type": "organization",
+   "role": "network operator that built elevated equipment platforms that survived flooding"
+  },
+  {
+   "name": "FireWire Telecom",
+   "type": "organization",
+   "role": "telecom firm that repaired fiber and used satellite links during Southern California wildfires"
+  },
+  {
+   "name": "Ashley Rodriguez",
+   "type": "person",
+   "role": "FireWire Telecom network engineer"
+  },
+  {
+   "name": "Southern California",
+   "type": "place",
+   "role": "region hit by wildfires on December 5, 2023"
+  },
+  {
+   "name": "GeoComm",
+   "type": "organization",
+   "role": "local provider that restored connectivity after the Pacific Northwest earthquake"
+  },
+  {
+   "name": "Linda Yoon",
+   "type": "person",
+   "role": "CEO of GeoComm"
+  },
+  {
+   "name": "National Guard",
+   "type": "organization",
+   "role": "worked with GeoComm on temporary communication hubs"
+  },
+  {
+   "name": "WaveTech",
+   "type": "organization",
+   "role": "Midwest service provider with water-tight facilities during June 2024 floods"
+  },
+  {
+   "name": "Bob Jackson",
+   "type": "person",
+   "role": "WaveTech CTO who implemented Cell-on-Wheels"
+  },
+  {
+   "name": "Julia Evans",
+   "type": "person",
+   "role": "resident who described the value of restored communication during the floods"
+  },
+  {
+   "name": "NextSignal",
+   "type": "organization",
+   "role": "telecom provider that coordinated restoration with GridForce in San Bernardino"
+  },
+  {
+   "name": "GridForce",
+   "type": "organization",
+   "role": "electric utility that partnered with NextSignal"
+  },
+  {
+   "name": "Anna White",
+   "type": "person",
+   "role": "CEO of NextSignal"
+  },
+  {
+   "name": "San Bernardino",
+   "type": "place",
+   "role": "city affected by a seismic event in September 2024"
+  },
+  {
+   "name": "Pacific Northwest",
+   "type": "place",
+   "role": "region struck by a 7.3 magnitude earthquake on March 18, 2024"
+  }
+ ],
+ "tags": [
+  "telecommunications",
+  "disaster-recovery",
+  "network-resilience",
+  "natural-disasters",
+  "infrastructure",
+  "incident-report"
+ ],
+ "usage": {
+  "input_tokens": 3186,
+  "output_tokens": 1679
+ }
+}

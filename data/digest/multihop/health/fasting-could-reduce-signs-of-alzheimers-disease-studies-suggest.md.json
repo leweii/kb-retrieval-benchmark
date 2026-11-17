@@ -1,0 +1,82 @@
+{
+ "summary": "A Fox News Health article reports on a Cell Metabolism study from UC San Diego in which mice limited to six-hour daily feeding windows showed better memory, better sleep and less amyloid buildup. It sets this beside earlier USC work on a fasting-mimicking diet and includes expert comments on mechanisms such as ketosis and autophagy. The researchers stress that the studies were in mice, that human trials are still needed, and that patients should consult their clinicians.",
+ "one_line": "Time-restricted eating in mice improved memory, sleep and reduced amyloid plaques, adding to evidence that fasting may help against Alzheimer's, though human trials are still needed.",
+ "key_facts": [
+  "A study published in Cell Metabolism suggests time-restricted (intermittent) fasting could reduce the risk of cognitive deterioration.",
+  "UC San Diego School of Medicine researchers restricted certain mice to eating within six-hour windows each day, which would be equivalent to 14 hours of fasting for humans.",
+  "Compared with control mice that ate on demand, the fasting mice showed improved memory, were less hyperactive in the evenings and had fewer sleep disruptions.",
+  "The fasting mice also had less buildup of amyloid proteins in the brain, a hallmark of Alzheimer's disease.",
+  "Senior author Paula Desplats said the team did not expect such profound effects in reducing plaques and inflammation and improving memory; the lower amyloid pathology was also measurable in blood using clinical markers.",
+  "The researchers aim to obtain funding to start a pilot study in patients next year.",
+  "Desplats noted time-restricted eating does not require calorie limitation or diet change, which may make it more sustainable and safer for older people.",
+  "A key limitation is that the mouse models do not present comorbidities common in elderly Alzheimer's patients, and conditions were strictly controlled and unlike real-world habits.",
+  "Last year a USC Leonard Davis School of Gerontology study led by Dr. Valter Longo found that mice on a fasting-mimicking diet (FMD) had lower levels of plaques and tangles, reduced brain inflammation and better cognitive test performance.",
+  "Longo recommends people talk to their neurologist about fasting-mimicking diets alongside standard-of-care drugs and therapies.",
+  "Dr. Joseph Antoun of L-Nutra said prolonged fasting can promote ketosis, improve leaky gut, help control blood sugar and trigger autophagy, the removal and recycling of damaged cellular components.",
+  "According to the Alzheimer's Association, more than six million Americans have Alzheimer's, and someone in America develops the disease every 67 seconds."
+ ],
+ "entities": [
+  {
+   "name": "Cell Metabolism",
+   "type": "other",
+   "role": "Journal that published the UC San Diego time-restricted feeding study"
+  },
+  {
+   "name": "University of California San Diego School of Medicine",
+   "type": "organization",
+   "role": "Institution whose researchers conducted the mouse time-restricted feeding study"
+  },
+  {
+   "name": "Paula Desplats",
+   "type": "person",
+   "role": "Senior and lead author of the UC San Diego study; professor in the Department of Neurosciences"
+  },
+  {
+   "name": "USC Leonard Davis School of Gerontology",
+   "type": "organization",
+   "role": "Led last year's fasting-mimicking diet study in mice"
+  },
+  {
+   "name": "Valter Longo",
+   "type": "person",
+   "role": "USC biogerontologist and lead author of the fasting-mimicking diet study"
+  },
+  {
+   "name": "Joseph Antoun",
+   "type": "person",
+   "role": "CEO and chairman of L-Nutra; involved in the USC study; commented on fasting benefits"
+  },
+  {
+   "name": "L-Nutra",
+   "type": "organization",
+   "role": "California nutritech company led by Antoun"
+  },
+  {
+   "name": "Alzheimer's Association",
+   "type": "organization",
+   "role": "Source of statistics on Alzheimer's prevalence in America"
+  },
+  {
+   "name": "Fox News Digital",
+   "type": "organization",
+   "role": "Outlet to which the experts gave statements"
+  },
+  {
+   "name": "Fasting-mimicking diet (FMD)",
+   "type": "program",
+   "role": "Cyclical diet tested in Alzheimer's mouse models in the USC study"
+  }
+ ],
+ "tags": [
+  "alzheimers",
+  "intermittent-fasting",
+  "circadian-rhythm",
+  "nutrition",
+  "neuroscience",
+  "mouse-study"
+ ],
+ "usage": {
+  "input_tokens": 3612,
+  "output_tokens": 1420
+ }
+}

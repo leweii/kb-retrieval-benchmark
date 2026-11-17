@@ -1,0 +1,108 @@
+{
+ "summary": "Amazon has launched \"Explore with Alexa,\" a generative-AI feature in the Amazon Kids+ subscription that lets children under 13 have conversational animal fact and trivia exchanges with Alexa on Echo devices. To keep it safe, an LLM generates content offline, which is reviewed by humans and AI before use, rather than running at runtime. Amazon also launched Echo Pop Kids speakers and says it wants to eventually bring runtime LLM experiences to kids more carefully than for adults.",
+ "one_line": "Amazon launches \"Explore with Alexa,\" a guardrailed generative-AI animal trivia and facts feature for kids using pre-reviewed, offline-generated content.",
+ "key_facts": [
+  "\"Explore with Alexa\" is an addition to the Amazon Kids+ content subscription, first announced in September 2023, and powered by generative AI.",
+  "Amazon is among the first to use generative AI to develop a conversational experience for kids under the age of 13.",
+  "The experience is limited to kid-friendly fun facts and trivia, with content initially coming from only two partners: the World Wildlife Fund and A-Z animals.",
+  "Amazon hopes to expand to other topics such as space, music, video games and sports.",
+  "The generative AI is not running in real time on the device; an LLM generates content at scale offline, then humans and AI review it before it enters the experience.",
+  "Because the AI can generate tens of thousands of potential responses, Amazon uses AI to help review materials, since humans cannot review every answer.",
+  "Kids can trigger the feature with phrases like \"Alexa, let's explore animals\" or \"Alexa, tell me an animal fact,\" or by asking organic questions like \"How fast can a cheetah run?\"",
+  "Alexa also asks kids trivia questions, such as \"What's the fastest animal on Earth?\", making the interaction two-way.",
+  "Amazon says it is not training its LLM on kids' answers, and the feature follows the same data handling policies as \"classic Alexa,\" with question history viewable in the Alexa app and deletable manually or automatically.",
+  "Echo Pop Kids speakers are now available starting at $49.99 in the U.S., in Marvel's Avengers and Disney Princess designs, each including six months of Amazon Kids+.",
+  "The feature works on any device in kids mode or any communal family device if parents have set up kids' voice ID, and is initially English only.",
+  "Amazon plans to launch an AI-powered \"Let's Chat\" Alexa experience for adults later in 2023.",
+  "Amazon gives no timeline for runtime LLM use for kids and is working with its Family Trust team and external research institutions to gain confidence in its approach."
+ ],
+ "entities": [
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Company launching Explore with Alexa and Echo Pop Kids"
+  },
+  {
+   "name": "Explore with Alexa",
+   "type": "product",
+   "role": "Generative-AI kids feature for animal facts and trivia within Amazon Kids+"
+  },
+  {
+   "name": "Amazon Kids+",
+   "type": "product",
+   "role": "Content subscription service that includes Explore with Alexa"
+  },
+  {
+   "name": "Alexa",
+   "type": "product",
+   "role": "Amazon voice assistant powering the conversational experience"
+  },
+  {
+   "name": "Echo Pop Kids",
+   "type": "product",
+   "role": "New kids speakers priced from $49.99, with Avengers and Disney Princess designs"
+  },
+  {
+   "name": "Arjun Venkataswamy",
+   "type": "person",
+   "role": "Senior product manager for Alexa Kids, interviewed by TechCrunch"
+  },
+  {
+   "name": "Sarah Perez",
+   "type": "person",
+   "role": "TechCrunch author of the article"
+  },
+  {
+   "name": "World Wildlife Fund",
+   "type": "organization",
+   "role": "One of two initial content partners"
+  },
+  {
+   "name": "A-Z animals",
+   "type": "organization",
+   "role": "One of two initial content partners"
+  },
+  {
+   "name": "Character.ai",
+   "type": "organization",
+   "role": "Provider of AI chatbots that cater to younger users"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Company with AI chatbots mentioned as existing AI experiences"
+  },
+  {
+   "name": "Alexa Kids science team",
+   "type": "organization",
+   "role": "Team that narrowed the experience to kid-friendly facts and trivia"
+  },
+  {
+   "name": "Family Trust team",
+   "type": "organization",
+   "role": "Amazon team working with research institutions on safety confidence"
+  },
+  {
+   "name": "Let's Chat",
+   "type": "product",
+   "role": "Upcoming AI-powered Alexa experience for adults"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication that interviewed Venkataswamy"
+  }
+ ],
+ "tags": [
+  "amazon",
+  "alexa",
+  "generative-ai",
+  "kids",
+  "child-safety",
+  "smart-speakers"
+ ],
+ "usage": {
+  "input_tokens": 3187,
+  "output_tokens": 1556
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "summary": "TechCrunch reports that people are using Snapchat's Snap Map to see firsthand, user-generated content from Gaza during the Israel-Hamas war, as journalists struggle to report and misinformation spreads on other platforms. Snap says it has seen a \"moderate\" increase in public Story submissions from Gaza and will keep the map live while monitoring for misinformation and incitement. The article places this in the context of Snap Map's past use in protests, other mapping services limiting features at the IDF's request, and declining youth trust in traditional news.",
+ "one_line": "Users are turning to Snapchat's Snap Map for real-time, firsthand footage from Gaza amid the Israel-Hamas war, distrust of news media, and misinformation on other platforms.",
+ "key_facts": [
+  "Israel's retaliation for Hamas' October 7 attack has claimed over 9,000 Palestinian lives, according to Gaza Health Ministry numbers reported by the Associated Press.",
+  "The Committee to Protect Journalists reports at least 30 journalists have been killed since Israel's bombardment and total blockade of Gaza began.",
+  "Snap Map's desktop version is publicly viewable without an account, and it has shown hot spots across northern Gaza since the Israeli airstrikes began.",
+  "Snap did not provide hard data but confirmed a \"moderate\" increase in public Story submissions from Gaza since October 7, and more viewers worldwide.",
+  "Snap Map launched in 2017 as a location-sharing feature; \"Our Story\" submissions from popular locations appear as hotspots on a heat map.",
+  "Students used Snap Map after the 2018 Parkland, Florida shooting to document the nationwide walkout, and users posted about police violence during the 2020 Black Lives Matter protests.",
+  "During the May 2021 Sheikh Jarrah evictions conflict, Snap Map showed Israeli users washing cars and celebrating birthdays while Gaza Stories showed a neighborhood reduced to rubble.",
+  "Google disabled live traffic in Israel and Gaza for Google Maps and Waze, and Apple Maps took similar action, at the IDF's request.",
+  "Last year Snap disabled its heat map in Ukraine as a \"safety precaution\" to prevent Russia from tracking civilian evacuations, showing a curated feed instead.",
+  "Snap says Snap Map will stay live in Gaza, and it is monitoring hot spots for misinformation or incitement to violence and will \"closely assess\" further action.",
+  "A 2022 Pew Research Center survey found American adults under 30 trust social media information nearly as much as national news outlets.",
+  "Content uploaded from a camera roll is not eligible for Our Story, making fake content harder to spread than on X or TikTok.",
+  "Users urge screen recording of Gaza Stories in case they are taken down, amid accusations of shadowbanning Palestinian content on Instagram and Facebook.",
+  "TikTok creator divergentredhed said she watched Gaza's Snapchat hotspot go dark during the communications blackout."
+ ],
+ "entities": [
+  {
+   "name": "Snap Map",
+   "type": "product",
+   "role": "Snapchat's location-sharing map and heat map used to view public Stories from Gaza"
+  },
+  {
+   "name": "Snapchat",
+   "type": "organization",
+   "role": "Social platform (Snap) hosting Our Story content and Snap Map"
+  },
+  {
+   "name": "Gaza",
+   "type": "place",
+   "role": "Palestinian territory under Israeli bombardment and blockade whose residents post Stories"
+  },
+  {
+   "name": "Israel Defence Forces (IDF)",
+   "type": "organization",
+   "role": "Israeli military that requested mapping sites limit features in the region"
+  },
+  {
+   "name": "Hamas",
+   "type": "organization",
+   "role": "Group whose October 7 attack preceded Israel's retaliation"
+  },
+  {
+   "name": "Committee to Protect Journalists",
+   "type": "organization",
+   "role": "Reported at least 30 journalists killed"
+  },
+  {
+   "name": "Associated Press",
+   "type": "organization",
+   "role": "Reported Gaza Health Ministry casualty numbers"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Disabled live traffic in Israel and Gaza on Google Maps and Waze"
+  },
+  {
+   "name": "Apple Maps",
+   "type": "product",
+   "role": "Took similar action in compliance with the IDF's request"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Owner of Instagram and Facebook, accused of shadowbanning Palestinian content"
+  },
+  {
+   "name": "Pew Research Center",
+   "type": "organization",
+   "role": "2022 survey on young adults' trust in social media"
+  },
+  {
+   "name": "Knight Foundation",
+   "type": "organization",
+   "role": "Report found rising perceptions of political bias in news"
+  },
+  {
+   "name": "Morgan Sung",
+   "type": "person",
+   "role": "Author of the TechCrunch article"
+  },
+  {
+   "name": "divergentredhed",
+   "type": "person",
+   "role": "TikTok creator who watched the Gaza blackout on Snapchat"
+  },
+  {
+   "name": "Sheikh Jarrah",
+   "type": "place",
+   "role": "Site of the May 2021 eviction ruling that prompted protests and fighting"
+  }
+ ],
+ "tags": [
+  "snapchat",
+  "gaza",
+  "israel-hamas-war",
+  "misinformation",
+  "social-media",
+  "citizen-journalism"
+ ],
+ "usage": {
+  "input_tokens": 3329,
+  "output_tokens": 1715
+ }
+}

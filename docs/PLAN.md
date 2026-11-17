@@ -37,7 +37,7 @@
 - digest 不再是独立维度，只作为 LLM-wiki 两种检索方式的前置步骤。
 - embedding 走 API（OpenRouter），不装向量数据库。
 - 提问 中英混合。
-- 先跑 Claude（Anthropic API），再跑 DeepSeek（官方 API）和千问（OpenRouter）。
+- 先跑 Claude（Anthropic API，enterprise 账号），再跑 DeepSeek（官方 API）和千问（OpenRouter）。
 
 ---
 
@@ -84,7 +84,7 @@
 - **语料级校验**：沿用 v1 的校验流程，重点查不可回答题是否被其他文档泄漏。
 
 ### 1.4 P4 真实 md 库验证（待定）
-候选：作者自己的团队 md 知识库（约 600 篇）+ 团队真实问过的问题，只用 Claude 跑。
+候选：团队 `team-cookbook-kb`（584 篇）+ 团队真实问过的问题，只用 Claude 跑。
 
 ### 1.5 v2 构建结果（2026-11-10）
 流水线：`kb2_closed_book.py` → `build_kb2.py` → `translate_questions.py questions_v2/questions.jsonl` → `kb2_validate.py` → `kb2_finalize.py`
@@ -184,7 +184,7 @@ R6 的索引只覆盖 wiki 页面（摘要页 + 实体页 + 主题页 + index）
 
 | 模型 | ID | 通道 | 价格（$/M tokens，输入未命中缓存 / 输出） | 环境变量 |
 |---|---|---|---|---|
-| Haiku 5.5 | `claude-haiku-5-5` | **Anthropic API** | 0.10 / 0.50 | `ANTHROPIC_API_KEY` |
+| Haiku 5.5 | `claude-haiku-5-5` | **Anthropic API**（enterprise 账号） | 0.10 / 0.50 | `ANTHROPIC_API_KEY` |
 | Sonnet 5.5 | `claude-sonnet-5-5` | Anthropic API | 2.00 / 10.00 | 同上 |
 | （裁判）Opus 5.5 | `claude-opus-5-5` | Anthropic API | 4.00 / 20.00，Batch 半价 | 同上 |
 | DeepSeek V4.1 Flash | `deepseek-flash` | **DeepSeek 官方 API** | 高峰 0.30 / 1.20，非高峰 0.15 / 0.60（缓存命中 0.006 / 0.003） | `DEEPSEEK_API_KEY` |
@@ -260,7 +260,7 @@ R6 的索引只覆盖 wiki 页面（摘要页 + 实体页 + 主题页 + index）
 | 悲观 | A0：6k 输入 + 2.5k 输出；A1：100k 输入（无缓存命中）+ 6k 输出 | ~$180（≈¥1,280） | ~$355（≈¥2,560） |
 
 （已含 30% 余量，用于试跑、重试、P3 重复；汇率按 7.2 估算。）同样的工作量换成 V4 Pro，典型情景约为 Flash 的 4 倍。
-试跑（540 次）约 $4。
+试跑（540 次）约 $4，当前余额 ¥111 够用。
 
 ---
 
@@ -302,8 +302,8 @@ kb-baseline/
 
 ## 10. 开跑前阻塞项
 
-- [x] Claude：`ANTHROPIC_API_KEY`，Haiku 5.5 / Sonnet 5.5 / Opus 5.5 均已调通（不再使用 Vertex）
-- [x] DeepSeek：`deepseek-flash` 调通，完整阶段花费见 §6.2
+- [x] Claude：enterprise 账号的 `ANTHROPIC_API_KEY`，Haiku 5.5 / Sonnet 5.5 / Opus 5.5 均已调通（不再使用 Vertex）
+- [x] DeepSeek：key 末四位 `e330`，`deepseek-flash` 调通，余额 ¥111.22（够试跑；完整阶段见 §6.2，典型 ¥360–720）
   - 注意：推理 token 计入 `max_tokens`，harness 要给足够大的 `max_tokens`，否则答案还没开始就被截断
 - [x] OpenRouter key 有效（每日限额 $300）
 - [x] 千问 `qwen/qwen3.8-flash` 调通；embedding `qwen3-embedding-8b`、`voyage-4` 均调通
@@ -349,7 +349,7 @@ kb-baseline/
 还是比不上真实 md 库的地方（报告要写明）：没有 `[[双链]]`、篇长很均匀（RepliQA 5.6k–9.8k 字符，真实库长尾到 24 万）、几乎没有表格和代码。
 
 #### [v1] 1.4 P4 真实 md 库验证（待定）
-候选：作者自己的团队 md 知识库（约 600 篇，frontmatter + 双链 + 表格 + 长尾篇长，正好落在 500–1000 篇区间）。最优几组配置加基线，用约 60 道 LLM 出题 + 人工抽查。
+候选：团队 `team-cookbook-kb`（584 篇，frontmatter + 双链 + 表格 + 长尾篇长，正好落在 500–1000 篇区间）。最优几组配置加基线，用约 60 道 LLM 出题 + 人工抽查。
 待定：是否做；如果做，只跑 Claude 还是四个模型都跑（内部文档发给 DeepSeek / 阿里云可能不合规）。
 
 ---

@@ -1,0 +1,124 @@
+{
+ "summary": "Sam Eggleston's Sporting News explainer describes totals (over/under) betting, where bettors wager on whether the combined score of a game will be over or under a bookmaker's line. It covers how odds work, why lines move, the three outcomes (win, loss, push), and worked examples across NFL, NBA, MLB, NHL, soccer, MMA, tennis and golf. A FAQ addresses overtime, line changes and reading odds like -110.",
+ "one_line": "A beginner's guide to over/under totals betting, covering how lines, odds, line movement and push outcomes work, with examples across eight sports.",
+ "key_facts": [
+  "A totals (over/under) bet is a wager on the combined score of both teams, not on the winner or margin.",
+  "Bookmakers set a predicted total; bettors choose whether the actual combined score will be over or under it.",
+  "With an NBA total of 210.5, the over wins at 211 or more and the under wins at 210 or less.",
+  "Totals odds typically range from -105 to -120, reflecting a roughly even chance either way.",
+  "Totals lines move due to betting activity, injury updates, weather conditions, and other news like strategy changes or recent performances.",
+  "A push occurs when the combined score equals the total exactly, and the wager is refunded.",
+  "Most sportsbooks use half-points, such as 200.5 instead of 200, to avoid pushes.",
+  "In the NFL example, Dallas Cowboys 28 and Philadelphia Eagles 24 totaled 52 against a line of 47.5, so the over won.",
+  "In the NHL example, the Toronto Maple Leafs and Montreal Canadiens combined for 5 goals against a 5.5 line, so the under won.",
+  "In MMA, over/under bets refer to fight duration in rounds, such as a 2.5-round line; a stoppage midway through round two counts as 1.5 rounds.",
+  "In tennis, totals are based on games or sets; set scores of 7-5, 6-7, 7-6 and 6-4 total 42 games, beating a 40.5 line.",
+  "In most sports and at most sportsbooks, overtime counts toward totals wagers, but bettors should check the specific rules.",
+  "Odds of -110 mean wagering $110 to win an additional $100.",
+  "Neither over nor under holds a universal advantage; success depends on evaluating the line and the teams."
+ ],
+ "entities": [
+  {
+   "name": "Sam Eggleston",
+   "type": "person",
+   "role": "Author of the article"
+  },
+  {
+   "name": "Sporting News",
+   "type": "organization",
+   "role": "Publisher of the article"
+  },
+  {
+   "name": "Los Angeles Lakers",
+   "type": "organization",
+   "role": "NBA team in the over example (115 points vs Celtics)"
+  },
+  {
+   "name": "Boston Celtics",
+   "type": "organization",
+   "role": "NBA team in the over example (110 points)"
+  },
+  {
+   "name": "New York Knicks",
+   "type": "organization",
+   "role": "NBA team in the totals loss example"
+  },
+  {
+   "name": "Chicago Bulls",
+   "type": "organization",
+   "role": "NBA team in the totals loss example"
+  },
+  {
+   "name": "Dallas Cowboys",
+   "type": "organization",
+   "role": "NFL team in the football over example"
+  },
+  {
+   "name": "Philadelphia Eagles",
+   "type": "organization",
+   "role": "NFL team in the football over example"
+  },
+  {
+   "name": "Charlotte Hornets",
+   "type": "organization",
+   "role": "NBA team in the basketball under example"
+  },
+  {
+   "name": "Houston Rockets",
+   "type": "organization",
+   "role": "NBA team in the basketball under example"
+  },
+  {
+   "name": "New York Yankees",
+   "type": "organization",
+   "role": "MLB team in the baseball over example"
+  },
+  {
+   "name": "Boston Red Sox",
+   "type": "organization",
+   "role": "MLB team in the baseball over example"
+  },
+  {
+   "name": "Toronto Maple Leafs",
+   "type": "organization",
+   "role": "NHL team in the hockey under example"
+  },
+  {
+   "name": "Montreal Canadiens",
+   "type": "organization",
+   "role": "NHL team in the hockey under example"
+  },
+  {
+   "name": "Manchester United",
+   "type": "organization",
+   "role": "Premier League team in the soccer over example"
+  },
+  {
+   "name": "Chelsea",
+   "type": "organization",
+   "role": "Premier League team in the soccer over example"
+  },
+  {
+   "name": "Rory McIlroy",
+   "type": "person",
+   "role": "Golfer used in the over/under round score example (69.5 strokes)"
+  },
+  {
+   "name": "UFC",
+   "type": "organization",
+   "role": "MMA promotion referenced in the fight duration example"
+  }
+ ],
+ "tags": [
+  "sports betting",
+  "over/under",
+  "totals betting",
+  "betting odds",
+  "line movement",
+  "beginner guide"
+ ],
+ "usage": {
+  "input_tokens": 4847,
+  "output_tokens": 1457
+ }
+}

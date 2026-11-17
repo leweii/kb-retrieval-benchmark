@@ -1,0 +1,103 @@
+{
+ "summary": "A news investigation into the causes of frequent wildfires in Los Angeles since September 1, 2023, covering the Lincoln Wildfire, Canyon Blaze and Griffith Park Fire. It draws on experts and residents to point to climate change, power line failures, a campfire, suspected criminal acts, policy gaps and community complacency. It closes with a call for resilience, better urban planning and public education.",
+ "one_line": "News investigation into the climate, infrastructure, policy and human causes of Los Angeles wildfires after September 2023, with expert and resident views.",
+ "key_facts": [
+  "Wildfires have become frequent in Los Angeles since September 1st 2023, according to the news team's investigation.",
+  "On September 15, 2023, San Fernando Valley residents woke to a hazy morning that preceded the Lincoln Wildfire, followed by Canyon Blaze and Griffith Park Fire.",
+  "The fires reportedly destroyed hundreds of homes and forced thousands of people to evacuate within one week; over 50 acres were scorched.",
+  "Cesar Ramirez, a 34-year-old firefighter from a nearby county, died while safeguarding his community.",
+  "The Lincoln Wildfire is traced to a fallen power line that ignited dry brush on an extremely hot and windy day.",
+  "Los Angeles Fire Department Chief Officer Martin L. Sullivan said Canyon Blaze started from an improperly extinguished campfire.",
+  "Griffith Park Fire is believed to have been caused by criminal acts.",
+  "Dr. Annabelle Rodriguez of the California Institute of Environmental Studies said climate change worsens dry conditions and high temperatures, and that power line maintenance and urban sprawl into wildland also play a role.",
+  "Santa Ana winds blow every autumn and make Los Angeles vegetation especially susceptible to fire during dry spells.",
+  "Michael Reed of the Los Angeles Bureau of Environmental Management said: \"There's an oversight gap when it comes to making sure new developments include adequate fire safety features or retrofitting older buildings accordingly.\"",
+  "Controlled burns and vegetation management have been used, but are not yet integrated with urban development and power infrastructure oversight.",
+  "The California Public Utilities Commission is under pressure to tighten regulations and increase inspections, but changes are slow due to bureaucratic hurdles.",
+  "Resident Laura Gonzalez, whose home was nearly destroyed in Canyon Blaze, said she did not think creating open space around her house was necessary because she thought firefighters could protect them."
+ ],
+ "entities": [
+  {
+   "name": "Los Angeles",
+   "type": "place",
+   "role": "City in Southern California affected by recurring wildfires"
+  },
+  {
+   "name": "San Fernando Valley",
+   "type": "place",
+   "role": "Area where residents woke to smoke on September 15, 2023"
+  },
+  {
+   "name": "Lincoln Wildfire",
+   "type": "event",
+   "role": "Wildfire traced to a fallen power line"
+  },
+  {
+   "name": "Canyon Blaze",
+   "type": "event",
+   "role": "Wildfire started by an improperly extinguished campfire"
+  },
+  {
+   "name": "Griffith Park Fire",
+   "type": "event",
+   "role": "Wildfire believed to be caused by criminal acts"
+  },
+  {
+   "name": "Los Angeles Fire Department",
+   "type": "organization",
+   "role": "Led search and rescue operations with volunteer help"
+  },
+  {
+   "name": "Cesar Ramirez",
+   "type": "person",
+   "role": "34-year-old volunteer firefighter who died protecting his community"
+  },
+  {
+   "name": "Dr. Annabelle Rodriguez",
+   "type": "person",
+   "role": "Expert at California Institute of Environmental Studies on wildfire causes and climate"
+  },
+  {
+   "name": "California Institute of Environmental Studies",
+   "type": "organization",
+   "role": "Institution of the expert consulted"
+  },
+  {
+   "name": "Martin L. Sullivan",
+   "type": "person",
+   "role": "Los Angeles Fire Department Chief Officer who explained Canyon Blaze's cause"
+  },
+  {
+   "name": "Michael Reed",
+   "type": "person",
+   "role": "Policy analyst at Los Angeles Bureau of Environmental Management"
+  },
+  {
+   "name": "Los Angeles Bureau of Environmental Management",
+   "type": "organization",
+   "role": "Agency whose analyst discussed urban policy gaps"
+  },
+  {
+   "name": "California Public Utilities Commission",
+   "type": "organization",
+   "role": "Regulator under pressure to tighten rules and inspections"
+  },
+  {
+   "name": "Laura Gonzalez",
+   "type": "person",
+   "role": "Resident whose home was nearly destroyed in Canyon Blaze"
+  }
+ ],
+ "tags": [
+  "wildfires",
+  "los-angeles",
+  "climate-change",
+  "emergency-management",
+  "news-investigation",
+  "urban-policy"
+ ],
+ "usage": {
+  "input_tokens": 2585,
+  "output_tokens": 1535
+ }
+}

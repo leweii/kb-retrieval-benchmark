@@ -1,0 +1,93 @@
+{
+ "summary": "Discord announced Teen Safety Assist, rolling out in the coming weeks, with automated safety alerts for DMs from unfamiliar users and default blurring of potentially sensitive images from teens' friends. It follows scrutiny over CSAM and predators on the platform, including a June NBC News investigation. Discord also introduced a warning system replacing permanent bans for most violations, plus new features such as Remix, an in-app shop for all users, a Midnight dark mode, and Premium App Subscriptions expansion.",
+ "one_line": "Discord launches Teen Safety Assist with DM safety alerts and image blurring, a warning system replacing most permanent bans, and several new app features.",
+ "key_facts": [
+  "Discord announced Teen Safety Assist on Thursday (Oct 19, 2023), with two features: automated alerts and content filters, rolling out in the coming weeks.",
+  "When a teen receives a DM from a user they haven't chatted with before, Discord shows a safety alert if its automated systems suspect the teen's safety could be at risk, pointing to the block feature and safety tips.",
+  "Discord now blurs potentially sensitive images from a teen's friends by default; teens can disable it in settings, and adults can enable the filters for themselves.",
+  "In June, NBC News identified 35 cases over six years where adults allegedly used Discord to kidnap, groom or sexually assault minors, and 165 cases of prosecutions for sharing CSAM or extorting young users on the platform.",
+  "After the NBC report, Discord banned teen dating servers, banned AI-generated CSAM, prohibited other content sexualizing children, and introduced Family Center, a dashboard for parents and guardians.",
+  "Discord is moving away from permanent bans except for the most 'extreme' violations, believing most users will be better online citizens given guidance.",
+  "The new warning system notifies users of violations and account restrictions, links to Terms of Service, Community Guidelines and appeals, and adds an 'Account Standing' tab in settings.",
+  "Discord's in-app shop, tested last month with Nitro subscribers, will become available to all users, with store discounts for Nitro members.",
+  "A feature called Remix, letting users edit images within Discord's mobile app and share them, begins a broad roll-out.",
+  "Upcoming features include a 'Midnight' dark mode said to reduce battery use on OLED screens, more functional notification tabs, and a settings search.",
+  "Premium App Subscriptions will roll out to eligible developers in the UK and Europe after launching in the US a few weeks earlier.",
+  "Discord is exploring making third-party apps and bots accessible across nearly every part of Discord, not restricted to select servers.",
+  "An Oct 20, 2023 update corrected that features roll out in coming weeks, and removed a claim that Discord would automatically delete sensitive content from strangers, which was not in the final release."
+ ],
+ "entities": [
+  {
+   "name": "Discord",
+   "type": "organization",
+   "role": "Chat platform introducing teen safety features and a new warning system"
+  },
+  {
+   "name": "Teen Safety Assist",
+   "type": "program",
+   "role": "New Discord safety suite with automated alerts and content filters for teens"
+  },
+  {
+   "name": "Savannah Badalich",
+   "type": "person",
+   "role": "Senior director of policy at Discord"
+  },
+  {
+   "name": "Cherry Park",
+   "type": "person",
+   "role": "Director of product marketing at Discord"
+  },
+  {
+   "name": "NBC News",
+   "type": "organization",
+   "role": "Outlet that in June identified cases of abuse and CSAM tied to Discord"
+  },
+  {
+   "name": "Engadget",
+   "type": "organization",
+   "role": "Publication that interviewed Discord executives"
+  },
+  {
+   "name": "Igor Bonifacic",
+   "type": "person",
+   "role": "Author of the Engadget article"
+  },
+  {
+   "name": "Family Center",
+   "type": "product",
+   "role": "Discord dashboard for parents and guardians to track teens' activity"
+  },
+  {
+   "name": "Nitro",
+   "type": "product",
+   "role": "Discord subscription that gets early feature testing and shop discounts"
+  },
+  {
+   "name": "Remix",
+   "type": "product",
+   "role": "Feature for editing images within Discord's mobile app"
+  },
+  {
+   "name": "Premium App Subscriptions",
+   "type": "product",
+   "role": "Developer monetization feature rolling out to the UK and Europe"
+  },
+  {
+   "name": "Account Standing",
+   "type": "product",
+   "role": "Settings tab showing current and past policy violations"
+  }
+ ],
+ "tags": [
+  "discord",
+  "teen-safety",
+  "content-moderation",
+  "csam",
+  "social-media",
+  "product-updates"
+ ],
+ "usage": {
+  "input_tokens": 2718,
+  "output_tokens": 1442
+ }
+}

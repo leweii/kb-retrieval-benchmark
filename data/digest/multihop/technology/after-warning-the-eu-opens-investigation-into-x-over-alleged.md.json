@@ -1,0 +1,104 @@
+{
+ "summary": "The European Commission sent X a formal request for information under the Digital Services Act after warning that illegal content and disinformation about the Israel-Hamas war was circulating on the platform. The request could precede a formal investigation, but officials confirmed none has been opened yet. DSA breaches can bring fines of up to 6% of annual turnover, and X has deadlines of October 18 and October 31 to respond.",
+ "one_line": "The EU sent X a formal DSA information request over Israel-Hamas war disinformation, a possible precursor to a formal investigation and fines up to 6% of turnover.",
+ "key_facts": [
+  "The European Commission sent X a formal request for information late Thursday (October 12, 2023) under the Digital Services Act (DSA), a day after a public warning.",
+  "EU officials confirmed to TechCrunch that a formal investigation has not been opened at this point.",
+  "If opened, it would be the first DSA investigation since the compliance deadline for very large online platforms (VLOPs) kicked in this summer.",
+  "DSA non-compliance can trigger fines of up to 6% of annual turnover and potential blocking of a service for repeated infringements.",
+  "Elon Musk last projected X revenues of about $3 billion for the year, which would imply a fine of up to $180 million.",
+  "Thierry Breton, the EU's internal market commissioner, sent an 'urgent' letter to Musk citing 'indications' from 'qualified sources' that X was being used to spread illegal content and disinformation after Saturday's attacks.",
+  "X has until October 18 to provide information on 'the activation and functioning of X's crisis response protocol' and until October 31 to respond to the other requests.",
+  "The DSA's Article 36 'crisis response' mechanism lets the Commission adopt rapid measures on larger platforms in situations of 'serious threat', such as war; formal proceedings would be opened under Article 66.",
+  "X CEO Linda Yaccarino said 'tens of thousands' of pieces of content were removed, along with 'thousands' of posts and 'hundreds' of accounts linked to terrorist groups, violence or extremism.",
+  "Yaccarino said X had received no requests from Europol at the time; the article corrected an earlier error that said Interpol.",
+  "X reported more than 50 million posts globally over two days referencing the attack, and relies on its Community Notes feature as its main response to disinformation.",
+  "Musk pulled X out of the EU's Code of Practice on online disinformation earlier in 2023; Breton warned 'You can run but you can't hide.'",
+  "A September study commissioned via the Code of Practice suggested X is the worst of the major platforms for spreading disinformation.",
+  "TikTok and Meta have also been warned by the EU over Israel-Hamas war disinformation."
+ ],
+ "entities": [
+  {
+   "name": "X",
+   "type": "organization",
+   "role": "Elon Musk-owned platform (formerly Twitter) targeted by the EU's DSA information request"
+  },
+  {
+   "name": "European Commission",
+   "type": "organization",
+   "role": "EU executive body that issued the warning and formal request for information"
+  },
+  {
+   "name": "Elon Musk",
+   "type": "person",
+   "role": "Owner of X; pulled X out of the EU disinformation Code of Practice"
+  },
+  {
+   "name": "Thierry Breton",
+   "type": "person",
+   "role": "EU internal market commissioner who sent the urgent letter to Musk"
+  },
+  {
+   "name": "Linda Yaccarino",
+   "type": "person",
+   "role": "X CEO who responded to the EU warning with a letter"
+  },
+  {
+   "name": "Digital Services Act",
+   "type": "program",
+   "role": "EU content moderation regulation (DSA) under which X is being scrutinized"
+  },
+  {
+   "name": "Europol",
+   "type": "organization",
+   "role": "European law enforcement agency from which X said it had received no requests"
+  },
+  {
+   "name": "TikTok",
+   "type": "organization",
+   "role": "Platform also warned by the EU over Israel-Hamas war disinformation"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Company also warned by the EU over Israel-Hamas war disinformation"
+  },
+  {
+   "name": "Hamas",
+   "type": "organization",
+   "role": "Group whose attack on Israel prompted the surge of content on X"
+  },
+  {
+   "name": "Israel-Hamas war",
+   "type": "event",
+   "role": "Conflict whose related illegal content and disinformation triggered the EU action"
+  },
+  {
+   "name": "Community Notes",
+   "type": "product",
+   "role": "X feature that crowdsources context for questionable tweets"
+  },
+  {
+   "name": "Code of Practice on online disinformation",
+   "type": "program",
+   "role": "Voluntary EU code that Musk withdrew X from"
+  },
+  {
+   "name": "Gaza Ministry of Health",
+   "type": "organization",
+   "role": "Source of the figure of at least 1,537 killed in Gaza by Israeli strikes"
+  }
+ ],
+ "tags": [
+  "eu",
+  "digital-services-act",
+  "disinformation",
+  "x-twitter",
+  "content-moderation",
+  "israel-hamas-war"
+ ],
+ "usage": {
+  "input_tokens": 3180,
+  "output_tokens": 1574
+ }
+}

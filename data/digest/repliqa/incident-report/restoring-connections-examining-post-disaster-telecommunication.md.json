@@ -1,0 +1,103 @@
+{
+ "summary": "This incident report reviews how telecommunication networks were restored after five natural disasters occurring between September 2023 and January 2024: a hurricane, floods in Sierra Leone, California wildfires, Midwestern tornadoes, and a Mumbai monsoon. It describes the technologies used, such as portable cell towers, drones, mesh networks, COWs/COLTs, satellite hybrids, and underwater repair, and quotes the leaders involved. It concludes that technology, planning, and collaboration between governments, companies, and communities are improving disaster response.",
+ "one_line": "Case studies of five disasters from September 2023 to January 2024 show the technologies and teamwork used to restore telecommunication networks.",
+ "key_facts": [
+  "Hurricane Helena made landfall on the southeastern coast of the United States on September 10, 2023, with winds up to 130 miles per hour.",
+  "Bob Jennings, a field operations director for ATN, said the immediate action after Hurricane Helena was deploying portable cell towers and satellite phones for emergency responders.",
+  "After Hurricane Helena, ATN and other providers used drones with high-definition cameras and sensor arrays to assess damage, and fiber optic cables were airlifted to bypass severed lines.",
+  "Torrential rains caused severe flooding in Sierra Leone on October 4, 2023, submerging telecommunication facilities.",
+  "Dr. Amira Kanu, a disaster recovery specialist, led a mesh network approach in Sierra Leone using existing Wi-Fi hotspots and solar-powered make-shift relay stations, which was cost-effective and sustainable.",
+  "The California wildfires of November 2023 destroyed cellular towers and fiber optic lines, isolating communities.",
+  "A joint task force including telecom veteran Paul Rodriguez used Cells on Wheels (COWs) and Cells on Light Trucks (COLTs) to provide immediate but limited cellular service in California.",
+  "Fire-retardant cabling materials, fire-resistant coatings for cell towers, and improved predictive analytics were introduced as preventive measures after the California wildfires.",
+  "On December 2, 2023, powerful tornadoes hit the midwestern United States (\"Tornado Alley\"), dislodging cell towers and disrupting service for hundreds of thousands.",
+  "Eric Brown of Temporal Networks led a recovery using an advanced remote command center and data analytics to redirect traffic, and integrated with first responders' communication channels.",
+  "Temporal Networks and other firms added satellite-based systems to reinforce terrestrial networks, creating a hybrid system.",
+  "Heavy monsoons caused flooding in Mumbai, India, on January 19, 2024, paralyzing the telecommunication grid.",
+  "Chief technician Aarav Mehta said divers repaired submerged conduits that automated machines could not reach, and inflatable pylons temporarily raised cables above the water.",
+  "Mehta credited Mumbai's rapid response to pre-monsoon planning, including extra cable length laid for rerouting and elevated flood-immune control rooms."
+ ],
+ "entities": [
+  {
+   "name": "Hurricane Helena",
+   "type": "event",
+   "role": "Hurricane that struck the southeastern US coast on September 10, 2023, knocking out communication infrastructure"
+  },
+  {
+   "name": "Bob Jennings",
+   "type": "person",
+   "role": "Field operations director for ATN who outlined the multiphase restoration strategy"
+  },
+  {
+   "name": "ATN",
+   "type": "organization",
+   "role": "Telecom provider that led restoration after Hurricane Helena, deploying portable towers and drones"
+  },
+  {
+   "name": "Sierra Leone",
+   "type": "place",
+   "role": "Country hit by severe flooding on October 4, 2023"
+  },
+  {
+   "name": "Dr. Amira Kanu",
+   "type": "person",
+   "role": "Disaster recovery specialist who championed a solar-powered mesh network in Sierra Leone"
+  },
+  {
+   "name": "California wildfires",
+   "type": "event",
+   "role": "November 2023 blaze that destroyed cell towers and fiber lines"
+  },
+  {
+   "name": "Paul Rodriguez",
+   "type": "person",
+   "role": "Telecom veteran leading the joint task force for California's temporary network"
+  },
+  {
+   "name": "Cells on Wheels (COWs)",
+   "type": "product",
+   "role": "Deployable mobile network kits providing temporary cellular service"
+  },
+  {
+   "name": "Cells on Light Trucks (COLTs)",
+   "type": "product",
+   "role": "Deployable mobile network units providing temporary cellular service"
+  },
+  {
+   "name": "Tornado Alley",
+   "type": "place",
+   "role": "Midwestern US region struck by tornadoes on December 2, 2023"
+  },
+  {
+   "name": "Eric Brown",
+   "type": "person",
+   "role": "Led the Temporal Networks recovery mission using a remote command center"
+  },
+  {
+   "name": "Temporal Networks",
+   "type": "organization",
+   "role": "Telecom company that used a command center and satellite systems after the tornadoes"
+  },
+  {
+   "name": "Mumbai",
+   "type": "place",
+   "role": "Indian city whose telecom grid was paralyzed by monsoon flooding on January 19, 2024"
+  },
+  {
+   "name": "Aarav Mehta",
+   "type": "person",
+   "role": "Chief technician who described diver repairs, inflatable pylons and pre-monsoon planning in Mumbai"
+  }
+ ],
+ "tags": [
+  "disaster-recovery",
+  "telecommunications",
+  "incident-report",
+  "natural-disasters",
+  "network-resilience"
+ ],
+ "usage": {
+  "input_tokens": 3090,
+  "output_tokens": 1761
+ }
+}

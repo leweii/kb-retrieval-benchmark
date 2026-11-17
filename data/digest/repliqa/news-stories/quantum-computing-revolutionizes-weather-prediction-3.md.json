@@ -1,0 +1,71 @@
+{
+ "summary": "A news story reports that a team led by Dr. Sunita Menon and Dr. James O'Hare used quantum computing to predict weather with unprecedented precision, via a system called Q-ClimatePredict. It extends reliable forecasts from about seven days to a full month, with claimed benefits for disaster preparedness, agriculture, energy, transport and climate policy. The team is also exploring earthquake early-warning and oceanography applications.",
+ "one_line": "Dr. Sunita Menon and Dr. James O'Hare's team uses quantum computing in Q-ClimatePredict to forecast weather up to a month ahead.",
+ "key_facts": [
+  "As of September 8, 2023, a team of meteorologists and quantum physicists led by Dr. Sunita Menon and Dr. James O'Hare used quantum computers to predict weather patterns with hitherto unattainable precision.",
+  "The team works at the Quantum Atmospheric Research Facility (QARF) in Boulder, Colorado.",
+  "The quantum weather system is named \"Q-ClimatePredict\" and runs on the QUBIT-One quantum computer.",
+  "Previously, meteorologists struggled to give accurate forecasts beyond a seven-day window; Dr. O'Hare says the system offers outlooks extending to a full month.",
+  "Quantum computers manipulate qubits that can exist in multiple states simultaneously, thanks to superposition and entanglement.",
+  "Q-ClimatePredict is said to address chaotic systems and the butterfly effect by tracking minor perturbations across the globe that lead to significant weather developments.",
+  "Longer forecasts could help agriculture with planting and harvesting decisions and help renewable energy sectors optimize wind and solar use.",
+  "Aviation and maritime industries could gain safer route planning and potentially save millions of dollars in fuel costs.",
+  "The system can gauge impacts of policy decisions on carbon emissions, deforestation, and urban development with greater accuracy.",
+  "Dr. Menon spoke about quantum forecasting at the Climate Adaptation Summit 2024 in Amsterdam, saying it is about \"envisioning and constructing a sustainable future.\"",
+  "QARF researchers are exploring earthquake early-warning systems as a possible expansion of their quantum algorithms.",
+  "Quantum-assisted oceanography could help conserve marine ecosystems and clarify effects of changing ocean temperatures and acidity."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Sunita Menon",
+   "type": "person",
+   "role": "Co-leader of the team that developed quantum weather prediction; spoke at the Climate Adaptation Summit 2024"
+  },
+  {
+   "name": "Dr. James O'Hare",
+   "type": "person",
+   "role": "Colleague of Menon and co-leader of the team; says forecasts can extend to a full month"
+  },
+  {
+   "name": "Quantum Atmospheric Research Facility (QARF)",
+   "type": "organization",
+   "role": "Boulder, Colorado facility where the team works and explores further applications"
+  },
+  {
+   "name": "Q-ClimatePredict",
+   "type": "product",
+   "role": "Quantum weather and climate prediction system"
+  },
+  {
+   "name": "QUBIT-One",
+   "type": "product",
+   "role": "Quantum computer on which Q-ClimatePredict runs"
+  },
+  {
+   "name": "Boulder, Colorado",
+   "type": "place",
+   "role": "Location of QARF"
+  },
+  {
+   "name": "Climate Adaptation Summit 2024",
+   "type": "event",
+   "role": "Amsterdam summit where Dr. Menon addressed world leaders and climate activists"
+  },
+  {
+   "name": "Amsterdam",
+   "type": "place",
+   "role": "Host city of the Climate Adaptation Summit 2024"
+  }
+ ],
+ "tags": [
+  "quantum-computing",
+  "weather-prediction",
+  "climate-change",
+  "meteorology",
+  "news"
+ ],
+ "usage": {
+  "input_tokens": 3099,
+  "output_tokens": 1232
+ }
+}

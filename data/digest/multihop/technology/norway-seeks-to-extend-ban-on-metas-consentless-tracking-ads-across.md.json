@@ -1,0 +1,86 @@
+{
+ "summary": "Norway's data protection authority, Datatilsynet, has asked the European Data Protection Board (EDPB) to make its emergency ban on Meta's consentless tracking and profiling for ad targeting permanent and EU-wide. The local ban, issued in July under GDPR urgency powers, carries a daily fine of up to one million NOK, which Meta has ignored while a court rejected its injunction bid. Meta says it will move to consent as its legal basis but has given no date, so the referral could force the change sooner.",
+ "one_line": "Norway's data protection authority asks the EDPB to extend its ban on Meta's consentless tracking ads across the EU single market.",
+ "key_facts": [
+  "Norway's data protection authority, Datatilsynet, asked the EDPB to take a binding decision on making its emergency ban on Meta's tracking and profiling for ads permanent and EU-wide.",
+  "Datatilsynet issued its local ban on Meta tracking and profiling users without consent in July, using GDPR powers that allow temporary measures lasting three months.",
+  "The Datatilsynet order includes a daily fine of up to one million NOK (~$100,000) per day for non-compliance, and Meta has continued to ignore it.",
+  "Meta sought a court injunction against the order, but an Oslo court rejected its arguments earlier in September 2023, affirming the DPA's right to act.",
+  "Meta's lead GDPR regulator is the Irish Data Protection Commission (DPC); the Norwegian emergency action circumvents the 'one-stop-shop' mechanism.",
+  "The EDPB Secretariat will assess completeness of the file; once done, the art. 66(4) GDPR deadline starts and the Board has two weeks to adopt its urgent binding decision.",
+  "The EDPB declined to say how long its completeness assessment will take.",
+  "Late in 2022 the EDPB settled a dispute between DPAs on Meta's legal basis for ads, leading in January to a DPC decision rejecting Meta's claim of contractual necessity.",
+  "In July the EU's top court ruled, in a case brought by Germany's competition authority, that Meta cannot claim legitimate interest to run 'personalized ads' without user consent.",
+  "At the start of August Meta announced an 'intention' to ask users for permission for its tracking ads, but has not done so or announced a date.",
+  "Meta spokesperson Matt Pollard said Meta was surprised by the NDPA's actions, is in discussions via the Irish DPC, and said 'We have not announced a date.'"
+ ],
+ "entities": [
+  {
+   "name": "Datatilsynet",
+   "type": "organization",
+   "role": "Norwegian data protection authority that issued the emergency ban on Meta and referred the matter to the EDPB"
+  },
+  {
+   "name": "European Data Protection Board (EDPB)",
+   "type": "organization",
+   "role": "EU regulator asked to take a binding decision on making the ban permanent and EU-wide"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Owner of Facebook and Instagram, subject of the ban for tracking and profiling users without consent"
+  },
+  {
+   "name": "Facebook",
+   "type": "product",
+   "role": "Meta platform whose user tracking and profiling for ads is sanctioned"
+  },
+  {
+   "name": "Instagram",
+   "type": "product",
+   "role": "Meta platform whose user tracking and profiling for ads is sanctioned"
+  },
+  {
+   "name": "Irish Data Protection Commission (DPC)",
+   "type": "organization",
+   "role": "Meta's lead GDPR regulator, which issued the January decision rejecting contractual necessity"
+  },
+  {
+   "name": "General Data Protection Regulation (GDPR)",
+   "type": "other",
+   "role": "EU law whose urgency provisions enabled Norway's temporary ban and whose art. 66(4) sets the EDPB deadline"
+  },
+  {
+   "name": "Matt Pollard",
+   "type": "person",
+   "role": "Meta spokesperson who gave the company's statement on the referral"
+  },
+  {
+   "name": "Oslo court",
+   "type": "organization",
+   "role": "Rejected Meta's bid for an injunction against the Datatilsynet order"
+  },
+  {
+   "name": "Germany's competition authority",
+   "type": "organization",
+   "role": "Brought the separate challenge that led to the EU top court's July ruling against Meta"
+  },
+  {
+   "name": "EU's top court",
+   "type": "organization",
+   "role": "Ruled in July that Meta cannot claim legitimate interest for personalized ads without consent"
+  }
+ ],
+ "tags": [
+  "meta",
+  "gdpr",
+  "data-protection",
+  "online-advertising",
+  "norway",
+  "eu-regulation"
+ ],
+ "usage": {
+  "input_tokens": 2633,
+  "output_tokens": 1460
+ }
+}

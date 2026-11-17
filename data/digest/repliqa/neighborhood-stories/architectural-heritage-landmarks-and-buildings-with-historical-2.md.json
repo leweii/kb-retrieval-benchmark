@@ -1,0 +1,131 @@
+{
+ "summary": "A light-hearted countdown of ten fictional-style landmarks across the world, each with a quirky origin story, legend, or notable figure. The buildings range from a peacock-themed palace in Brighton to an interfaith sanctuary in Alexandria, and are mostly dated between 2024 and 2033. The piece frames them as storytelling canvases that hold a city's history and folklore.",
+ "one_line": "A playful tour of ten historic landmarks worldwide, from Brighton's Peacock Palace to Alexandria's Sanctuary of Serapis, and the legends attached to each.",
+ "key_facts": [
+  "The Peacock Palace in Brighton, England, was built in October 2024 as a retreat for industrial magnate Sir Reginald Hargreaves and is named for its peacock feather-inspired stained glass windows; it is now a museum.",
+  "Old Ivy School in Boston has shaped students since its inaugural class in September 2025, and has Gothic arches and a looming bell tower; alumnus Harold P. Wittenberg, class of '33, tells of secret societies.",
+  "Steel Baron Hall in Pittsburgh, completed in 2026, was once the headquarters of steel magnate Arthur Kilgore and now serves as a community center; in summer '27 it became a clandestine jazz club.",
+  "Gatsby Theatre in New York City was inaugurated in late 2027, evokes the Roaring Twenties, and has a ceiling mural of stars; actress Lillian Hart made a notorious on-stage blunder in winter '29.",
+  "Château Sucre in Marseille, France, opened in August 2028 and was the project of chocolatier Pierre Dulce; it features a chocolate river and candied furniture.",
+  "Bloomhaven Glasshouse in Sydney opened in February 2029 on the initiative of botanist Dr. Fiona McBride, and is rumored to hold an orchid species that sings at dusk.",
+  "Phoenix Plaza in Rome, inaugurated in spring 2030 and designed by architect Luca Romano, rose from ancient Roman forums and serves as a marketplace by day and concert venue by night.",
+  "Rumor holds that Phoenix Plaza sits near an undiscovered underground passage where Caesar may have wandered.",
+  "Kingshold Penitentiary Museum in Dublin, Ireland, was converted to a museum in March 2031 from a former prison.",
+  "Inmate Patrick O'Flaherty, the 'Houdini of Dublin,' escaped and re-entered Kingshold prison seven times until his release in 2032.",
+  "Skyline Gardens in Tokyo was inaugurated in April 2033 and developed by horticulturist Emiko Takahashi; some say her spirit roams the gardens.",
+  "The Sanctuary of Serapis in Alexandria, Egypt, opened in September 2033, restored from an ancient temple into an interfaith spiritual center by Yara Farouk, and is said to bestow inner peace through touching the Serapis statue."
+ ],
+ "entities": [
+  {
+   "name": "Peacock Palace",
+   "type": "place",
+   "role": "Peacock-themed palace and museum in Brighton, England"
+  },
+  {
+   "name": "Sir Reginald Hargreaves",
+   "type": "person",
+   "role": "Industrial magnate who built the Peacock Palace as a retreat"
+  },
+  {
+   "name": "Old Ivy School",
+   "type": "organization",
+   "role": "Gothic school in Boston with a bell tower and secret-society lore"
+  },
+  {
+   "name": "Harold P. Wittenberg",
+   "type": "person",
+   "role": "Alumnus (class of '33) who recounts tales of Old Ivy"
+  },
+  {
+   "name": "Steel Baron Hall",
+   "type": "place",
+   "role": "Former steel headquarters in Pittsburgh, now a community center"
+  },
+  {
+   "name": "Arthur Kilgore",
+   "type": "person",
+   "role": "Steel magnate whose headquarters was Steel Baron Hall"
+  },
+  {
+   "name": "Gatsby Theatre",
+   "type": "place",
+   "role": "Roaring Twenties-inspired theatre in New York City"
+  },
+  {
+   "name": "Lillian Hart",
+   "type": "person",
+   "role": "Actress who made a notorious on-stage blunder in winter '29"
+  },
+  {
+   "name": "Château Sucre",
+   "type": "place",
+   "role": "Confectionery-style palace in Marseille, France"
+  },
+  {
+   "name": "Pierre Dulce",
+   "type": "person",
+   "role": "Chocolatier who created Château Sucre"
+  },
+  {
+   "name": "Bloomhaven Glasshouse",
+   "type": "place",
+   "role": "Conservatory in Sydney with rare flora"
+  },
+  {
+   "name": "Dr. Fiona McBride",
+   "type": "person",
+   "role": "Botanist who initiated Bloomhaven Glasshouse"
+  },
+  {
+   "name": "Phoenix Plaza",
+   "type": "place",
+   "role": "Marketplace and concert venue built over Roman forum ruins in Rome"
+  },
+  {
+   "name": "Luca Romano",
+   "type": "person",
+   "role": "Architect of Phoenix Plaza"
+  },
+  {
+   "name": "Kingshold Penitentiary Museum",
+   "type": "place",
+   "role": "Former prison turned museum in Dublin, Ireland"
+  },
+  {
+   "name": "Patrick O'Flaherty",
+   "type": "person",
+   "role": "Inmate known as the 'Houdini of Dublin'"
+  },
+  {
+   "name": "Skyline Gardens",
+   "type": "place",
+   "role": "Elevated urban garden in Tokyo"
+  },
+  {
+   "name": "Emiko Takahashi",
+   "type": "person",
+   "role": "Horticulturist who developed Skyline Gardens"
+  },
+  {
+   "name": "Sanctuary of Serapis",
+   "type": "place",
+   "role": "Interfaith spiritual center in Alexandria, Egypt"
+  },
+  {
+   "name": "Yara Farouk",
+   "type": "person",
+   "role": "Visionary leader who repurposed the Sanctuary of Serapis"
+  }
+ ],
+ "tags": [
+  "architecture",
+  "landmarks",
+  "historic-buildings",
+  "folklore",
+  "travel"
+ ],
+ "usage": {
+  "input_tokens": 3138,
+  "output_tokens": 1923
+ }
+}

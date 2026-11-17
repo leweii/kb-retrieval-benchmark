@@ -1,0 +1,56 @@
+{
+ "summary": "The note reviews trends in funding and financial transparency among local political parties since September 1, 2023. It reports more disclosure, growth in individual and small donations, a drop in direct corporate funding offset by rising indirect third-party funding, and growing use of technology such as blockchain. It also links full financial disclosure to higher voter trust and discusses public financing debates and grassroots campaigns.",
+ "one_line": "Local political parties are becoming more financially transparent, with more small donors, less direct corporate money, tech adoption, and higher voter trust.",
+ "key_facts": [
+  "According to the Local Government Association, 82% of local parties now publish quarterly financial reports, up from 58% in the preceding year.",
+  "As of January 2024, individual contributions to local parties have risen by 20%.",
+  "In the first quarter of 2024, donations under $200 form 40% of all contributions, up from 25% the previous year.",
+  "Direct corporate sponsorships to local political parties decreased by 15%, per digital ledger records.",
+  "Funding through third-party community organizations and non-profits has risen by 10%, suggesting businesses may contribute indirectly.",
+  "In February 2024 the Brooksville Community Party voluntarily itemized every transaction, even minor office supply purchases.",
+  "A blockchain pilot program in the city of Melmont resulted in a 30% increase in public trust scores on political-party funding.",
+  "In the November 2024 local elections, candidates had to submit a detailed record of campaign-related expenses within 30 days postelection.",
+  "The Citizens' Trust Index published in March 2024 reported an average 12% increase in trust toward local parties practicing full financial disclosure compared to those with opaque finances.",
+  "Policy proposals for a public financing system for local parties aim to reduce the influence of affluent donors, drawing mixed reactions including taxpayer-burden concerns.",
+  "Grassroots, community-backed candidates are revealing detailed micro-budgets that rely on many small donations."
+ ],
+ "entities": [
+  {
+   "name": "Local Government Association",
+   "type": "organization",
+   "role": "Source of the report that 82% of local parties publish quarterly financial reports"
+  },
+  {
+   "name": "Brooksville Community Party",
+   "type": "organization",
+   "role": "Local party that voluntarily itemized every transaction in February 2024"
+  },
+  {
+   "name": "Melmont",
+   "type": "place",
+   "role": "City where a blockchain pilot program for party funding data raised public trust scores by 30%"
+  },
+  {
+   "name": "Citizens' Trust Index",
+   "type": "product",
+   "role": "Index published in March 2024 showing a 12% trust increase for fully transparent local parties"
+  },
+  {
+   "name": "November 2024 local elections",
+   "type": "event",
+   "role": "Elections where candidates had to submit detailed expense records within 30 days"
+  }
+ ],
+ "tags": [
+  "political-finance",
+  "transparency",
+  "local-politics",
+  "campaign-donations",
+  "voter-trust",
+  "blockchain"
+ ],
+ "usage": {
+  "input_tokens": 2686,
+  "output_tokens": 924
+ }
+}

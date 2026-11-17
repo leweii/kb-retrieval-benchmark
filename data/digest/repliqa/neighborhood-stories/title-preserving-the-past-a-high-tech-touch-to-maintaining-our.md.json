@@ -1,0 +1,92 @@
+{
+ "summary": "A first-person neighborhood feature on how a collaborative heritage project, launched by local authorities in September 2023, uses drones, LiDAR, 3D printing, crowdsourced photos, VR and robotics to conserve a historic district's architecture. The author interviews experts and project leaders, who describe non-invasive methods that preserve both the physical structures and the authenticity of their history. The piece concludes that technology is giving shared heritage a new lease on life.",
+ "one_line": "A local feature on how drones, LiDAR, 3D printing, crowdsourcing, VR and robots are being used to preserve a historic district's architecture since 2023.",
+ "key_facts": [
+  "Local authorities started a collaborative project to conserve architectural treasures with cutting-edge technologies in September 2023.",
+  "Dr. Emily Farthington, a leader in architectural conservation tech, uses non-invasive techniques that let bricks and stones tell their own story without being touched by human hands.",
+  "The 'Drones for Dome' campaign debuted on October 12, 2023, deploying a swarm of drones to survey and map the oldest domes in the city.",
+  "Drone data is accurate to the millimeter and is used to create digital twins of structures as a foundation for restorations and future analyses.",
+  "In November, LiDAR technician Michael Richardson demonstrated Light Detection and Ranging (LiDAR) on the Town Hall façade, which is marred by pollution; he compared it to having X-ray vision.",
+  "On December 5, architect Julianne Moore unveiled a 3D-printed replica of a lost 17th-century fountain, recreated stone by stone from scans of similar period pieces and historical records.",
+  "The original 17th-century fountain was a victim of urbanization and survived only in etchings and memories.",
+  "On February 3, 2024, local historian Johnathan Castro announced the 'Photo Vault of Yesteryears' project, asking citizens for old photographs, memories and anecdotes of neighborhood landmarks.",
+  "In March, an immersive virtual reality experience launched, created by Jane Wilson, letting users explore historical buildings as they were centuries ago.",
+  "In April, robotics engineer Alexei Petrov demoed a robot performing delicate restoration work on the friezes of the city's old opera house.",
+  "Petrov said robots eliminate human error and fatigue and ensure longevity and sustainability, calling this the future of heritage conservation.",
+  "Drones with high-resolution cameras and 3D scanning were seen around the spire of the centuries-old St. Andrews Church, pinpointing repairs without physical scaffolding."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Emily Farthington",
+   "type": "person",
+   "role": "Leader in architectural conservation tech who uses non-invasive techniques and drones"
+  },
+  {
+   "name": "Michael Richardson",
+   "type": "person",
+   "role": "LiDAR technician who explained laser scanning of the Town Hall"
+  },
+  {
+   "name": "Julianne Moore",
+   "type": "person",
+   "role": "Architect specializing in historical reconstruction who unveiled the 3D-printed fountain replica"
+  },
+  {
+   "name": "Johnathan Castro",
+   "type": "person",
+   "role": "Local historian who announced the 'Photo Vault of Yesteryears' project"
+  },
+  {
+   "name": "Jane Wilson",
+   "type": "person",
+   "role": "Creative mind behind the VR time machine experience"
+  },
+  {
+   "name": "Alexei Petrov",
+   "type": "person",
+   "role": "Robotics engineer who demoed a restoration robot at the old opera house"
+  },
+  {
+   "name": "St. Andrews Church",
+   "type": "place",
+   "role": "Centuries-old church where drones were observed surveying the spire"
+  },
+  {
+   "name": "Town Hall",
+   "type": "place",
+   "role": "Pollution-marred building scanned with LiDAR"
+  },
+  {
+   "name": "Old opera house",
+   "type": "place",
+   "role": "Site where a robot restored friezes"
+  },
+  {
+   "name": "Drones for Dome",
+   "type": "program",
+   "role": "Campaign launched October 12, 2023 to survey and map the city's oldest domes with drones"
+  },
+  {
+   "name": "Photo Vault of Yesteryears",
+   "type": "program",
+   "role": "Crowdsourcing project collecting citizens' old photographs and memories of landmarks"
+  },
+  {
+   "name": "Light Detection and Ranging (LiDAR)",
+   "type": "product",
+   "role": "Laser scanning technique that reveals decay and past craftsmanship without touching surfaces"
+  }
+ ],
+ "tags": [
+  "heritage-preservation",
+  "conservation-technology",
+  "historic-district",
+  "drones-and-lidar",
+  "community-history",
+  "3d-printing"
+ ],
+ "usage": {
+  "input_tokens": 2708,
+  "output_tokens": 1476
+ }
+}

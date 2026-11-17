@@ -1,0 +1,134 @@
+{
+ "summary": "TechCrunch's running explainer and timeline of ChatGPT product updates, controversies and FAQs from its November 2022 launch through December 2023. It covers OpenAI's DevDay announcements, Sam Altman's firing and return, mobile app growth, enterprise and subscription tiers, regulatory and legal scrutiny, and security and misuse issues. A closing FAQ explains what ChatGPT is, its uses, limits, alternatives and data privacy.",
+ "one_line": "TechCrunch's continuously updated timeline and FAQ of ChatGPT's launch, product releases, OpenAI leadership turmoil, controversies and regulation from 2022 to December 2023.",
+ "key_facts": [
+  "ChatGPT was released for public use on November 30, 2022, alongside GPT-3.5; it is a fine-tuned version of GPT-3.5 and a general-purpose chatbot.",
+  "By its first anniversary ChatGPT had 100 million weekly active users, and Sam Altman said over two million developers use the platform, including more than 92% of Fortune 500 companies.",
+  "OpenAI held its first developer conference, OpenAI DevDay, on November 6, 2023, announcing GPT-4 Turbo, a multimodal API, the Assistants API and a GPT store for custom GPTs.",
+  "OpenAI's board fired CEO Sam Altman, with CTO Mira Murati as interim CEO; an agreement in principle then reinstated him and restructured the board to include former U.S. Treasury Secretary Larry Summers.",
+  "OpenAI launched ChatGPT Plus at $20 per month in February 2023, paused new Plus sign-ups in November 2023 due to a 'surge of usage', and re-enabled them on December 13, 2023.",
+  "GPT-4 was released March 14, 2023, available to ChatGPT Plus users and through a public API; ChatGPT API launched March 1, 2023 with Instacart, Snap and Quizlet as initial customers.",
+  "ChatGPT mobile apps launched on iOS in May and Android in July 2023, and topped 110 million combined installs and nearly $30 million in consumer spending per data.ai.",
+  "A Google DeepMind test asking ChatGPT to repeat the word 'poem' forever made it reveal training data including email addresses and phone numbers; OpenAI then flagged such requests as a terms-of-service violation.",
+  "Italy's data protection authority ordered OpenAI to stop processing locals' data in 2023 over suspected GDPR breaches, and Poland opened its own GDPR investigation in September 2023.",
+  "Microsoft's investment in OpenAI, closed in January 2023, is believed to be around $10 billion; in April 2023 VCs put in just over $300 million at a $27 billion to $29 billion valuation.",
+  "OpenAI launched ChatGPT Enterprise in August 2023 and acquired Global Illumination, its first public acquisition in seven years.",
+  "An open letter signed by over 1,100 people including Elon Musk and Steve Wozniak called for AI labs to pause for at least 6 months training systems more powerful than GPT-4.",
+  "SlashNext reported a 1,265% increase in malicious phishing emails since Q4 2022, attributed to tools like ChatGPT.",
+  "OpenAI's GPT-3.5 Turbo fine-tuning costs $0.008 per 1K tokens for training, $0.012 for usage input and $0.016 for usage output."
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Creator of ChatGPT, GPT-4 and DALL-E 3"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "AI text-generating chatbot that is the subject of the article"
+  },
+  {
+   "name": "Sam Altman",
+   "type": "person",
+   "role": "OpenAI CEO and co-founder, fired and then reinstated in November 2023"
+  },
+  {
+   "name": "Mira Murati",
+   "type": "person",
+   "role": "OpenAI chief technology officer who became interim CEO"
+  },
+  {
+   "name": "Larry Summers",
+   "type": "person",
+   "role": "Former U.S. Treasury Secretary added to OpenAI's restructured board"
+  },
+  {
+   "name": "Satya Nadella",
+   "type": "person",
+   "role": "Microsoft CEO who said Altman and Brockman would have a home at Microsoft"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Major OpenAI investor; launched new Bing with ChatGPT and Azure OpenAI Service"
+  },
+  {
+   "name": "GPT-4 Turbo",
+   "type": "product",
+   "role": "Upgraded GPT-4 versions unveiled at OpenAI DevDay"
+  },
+  {
+   "name": "OpenAI DevDay",
+   "type": "event",
+   "role": "OpenAI's first developer conference on November 6, 2023"
+  },
+  {
+   "name": "Google DeepMind",
+   "type": "organization",
+   "role": "Researchers extracted ChatGPT training data; developing Gemini"
+  },
+  {
+   "name": "Axel Springer",
+   "type": "organization",
+   "role": "Berlin-based publisher in a real-time news deal with OpenAI"
+  },
+  {
+   "name": "Lina Khan",
+   "type": "person",
+   "role": "FTC chair who warned AI could 'turbocharge' fraud"
+  },
+  {
+   "name": "FTC",
+   "type": "organization",
+   "role": "Reportedly investigating OpenAI over harmful statements by ChatGPT"
+  },
+  {
+   "name": "Global Illumination",
+   "type": "organization",
+   "role": "New York-based startup acquired by OpenAI"
+  },
+  {
+   "name": "Italy's data protection authority",
+   "type": "organization",
+   "role": "Ordered ChatGPT blocked over GDPR concerns"
+  },
+  {
+   "name": "DALL-E 3",
+   "type": "product",
+   "role": "OpenAI text-to-image model integrated into ChatGPT and offered via API"
+  },
+  {
+   "name": "Common Sense Media",
+   "type": "organization",
+   "role": "Nonprofit that gave ChatGPT a three-star rating on safety for kids"
+  },
+  {
+   "name": "Auto-GPT",
+   "type": "product",
+   "role": "Open-source autonomous app created by Toran Bruce Richards using GPT-3.5 and GPT-4"
+  },
+  {
+   "name": "Bard",
+   "type": "product",
+   "role": "Google's competing chatbot"
+  },
+  {
+   "name": "Claude",
+   "type": "product",
+   "role": "Anthropic's competing chatbot"
+  }
+ ],
+ "tags": [
+  "chatgpt",
+  "openai",
+  "generative-ai",
+  "ai-regulation",
+  "product-timeline",
+  "sam-altman"
+ ],
+ "usage": {
+  "input_tokens": 17290,
+  "output_tokens": 2108
+ }
+}

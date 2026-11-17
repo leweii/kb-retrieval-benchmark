@@ -1,0 +1,88 @@
+{
+ "summary": "Researchers led by Bon-Kyoung Koo at IMBA, with the Institute for Basic Science, identified Daam1 as a gene needed to activate formation of Paneth secretory cells in the intestine. Daam1 works with Rnf43 to degrade the Wnt receptor Frizzled and dampen Wnt signaling. Loss of Rnf43 causes tumors in mice through excess Paneth cells, whereas loss of Daam1 causes none because Paneth cells fail to form, showing how the cellular environment shapes tumor growth.",
+ "one_line": "Study finds Daam1 drives intestinal stem cells to become Paneth cells and partners with Rnf43 to regulate Wnt signaling, shaping tumor formation.",
+ "key_facts": [
+  "The research team was led by Bon-Kyoung Koo at IMBA, in collaboration with the Institute for Basic Science.",
+  "The study identified Daam1 as a gene critical for activating the formation of secretory cells in the intestines.",
+  "The findings were published in the November 24 issue of Science Advances.",
+  "Gabriele Colozza, a postdoctoral researcher with Koo at IMBA, carried out the work on intestinal stem cell mechanisms.",
+  "Rnf43 is a known regulator that tempers Wnt signaling by flagging the Wnt receptor Frizzled for destruction, a role first discovered by Koo.",
+  "Biochemical assays showed that Daam1 interacts with Rnf43; Rnf43 needs Daam1 to be active and to move Frizzled into endosomes, from which it goes to lysosomes for degradation.",
+  "In intestinal organoids, knocking out Rnf43 or Daam1 produced tumor-like structures that kept growing even without growth factors such as R-spondin.",
+  "In mouse models, missing Rnf43 led to intestinal tumors, but missing Daam1 led to no tumors.",
+  "Intestines without Rnf43 showed a proliferation of Paneth cells, while intestines deficient in Daam1 showed no increase.",
+  "Paneth cells are secretory cells that produce growth factors like Wnt, which prompt cell division.",
+  "When Daam1 is active, stem cells differentiate into Paneth cells; when it is inactive, they differentiate into another cell type.",
+  "The findings are described as the first genetic evidence that Daam1, linked to the non-canonical Wnt pathway, is critical in designating Paneth cell fate.",
+  "Uncontrolled stem cell proliferation may cause tumors, while excessive differentiation depletes stem cells and prevents self-renewal."
+ ],
+ "entities": [
+  {
+   "name": "Bon-Kyoung Koo",
+   "type": "person",
+   "role": "Led the research team at IMBA; discovered Rnf43's role in regulating Wnt signaling"
+  },
+  {
+   "name": "Gabriele Colozza",
+   "type": "person",
+   "role": "Postdoctoral researcher who studied the mechanisms directing intestinal stem cells"
+  },
+  {
+   "name": "IMBA",
+   "type": "organization",
+   "role": "Institute where Koo's team conducted the research"
+  },
+  {
+   "name": "Institute for Basic Science",
+   "type": "organization",
+   "role": "Collaborating institute in South Korea with a Center for Genome Engineering"
+  },
+  {
+   "name": "Science Advances",
+   "type": "other",
+   "role": "Journal that published the findings on November 24"
+  },
+  {
+   "name": "Daam1",
+   "type": "other",
+   "role": "Gene/protein required for Rnf43 activity and for Paneth cell formation"
+  },
+  {
+   "name": "Rnf43",
+   "type": "other",
+   "role": "Regulator that tempers Wnt signaling by targeting Frizzled for degradation"
+  },
+  {
+   "name": "Frizzled",
+   "type": "other",
+   "role": "Wnt receptor degraded via endosomes and lysosomes"
+  },
+  {
+   "name": "Wnt signaling pathway",
+   "type": "other",
+   "role": "Pathway governing cell proliferation; overstimulation can cause tumors"
+  },
+  {
+   "name": "Paneth cells",
+   "type": "other",
+   "role": "Secretory cells producing growth factors like Wnt that support stem cell division"
+  },
+  {
+   "name": "Revyuh Media",
+   "type": "organization",
+   "role": "Source publication of the article"
+  }
+ ],
+ "tags": [
+  "stem cells",
+  "intestine",
+  "cancer research",
+  "wnt signaling",
+  "paneth cells",
+  "genetics"
+ ],
+ "usage": {
+  "input_tokens": 3191,
+  "output_tokens": 1399
+ }
+}

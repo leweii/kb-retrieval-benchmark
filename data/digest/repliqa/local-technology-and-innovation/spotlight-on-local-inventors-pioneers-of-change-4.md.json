@@ -1,0 +1,116 @@
+{
+ "summary": "A local-news style feature on inventors in the city of Innovatopolis who launched sustainability and environmental projects in autumn 2023. It covers home plastic recycling, rainwater harvesting, community solar, kinetic energy from parks, vertical farming, educational software, automated waste sorting and air-purifying towers. The piece presents these grassroots inventors as pioneers of a more sustainable urban future.",
+ "one_line": "Profile of Innovatopolis inventors whose autumn 2023 projects tackle plastic waste, water, energy, food, education, recycling and air pollution.",
+ "key_facts": [
+  "Maria Gonzalez unveiled the \"Eco-Convertor\" in early September 2023, a home system that turns household plastic waste into 3D printing filament; it is slated for a state-wide environmental education program.",
+  "Jaden Smith, a self-taught engineer, launched \"AquaHarvest\" on October 8, 2023, a compact solar-powered device that collects and purifies rainwater for urban homes.",
+  "Harjit Singh's \"SunStead\" project began rolling out in late September 2023, installing solar panels on residential and commercial buildings at minimal cost, with excess energy fed back into the community grid.",
+  "Harjit Singh holds a degree in environmental science and has a passion for solar technology.",
+  "Leyla Abdi's \"Green Charge\" initiative began on November 1, 2023, and uses kinetic-energy-harvesting devices in park pathways to turn pedestrian movement into electricity for street lights and small community infrastructure.",
+  "Theodore \"Theo\" Kim launched \"SkyCrop Farms\" on September 15, 2023, using vertical farming and hydroponics on unused rooftops to grow produce year-round without pesticides and with minimal water.",
+  "SkyCrop Farms already supplies local restaurants and markets with hyper-local produce.",
+  "Dr. Ravi Patel, an environmental engineer, introduced the gamified software \"EcoMinds\" to local schools on October 21, 2023, teaching ecology, resource management and climate change impacts.",
+  "Helen Zhao's startup \"ZeroWaste Solutions\" launched an advanced waste sorting and processing facility on November 22, 2023, using machine learning and robotic automation to improve recovery rates.",
+  "Alex Rodriguez, a chemical engineer, set up the first prototype of his \"PureAir Towers\" on September 30, 2023; the plant-covered towers absorb contaminants and particulate matter in pollution hotspots.",
+  "The PureAir Towers are influenced by photosynthesis."
+ ],
+ "entities": [
+  {
+   "name": "Innovatopolis",
+   "type": "place",
+   "role": "City where the featured local inventors work and launch their projects"
+  },
+  {
+   "name": "Maria Gonzalez",
+   "type": "person",
+   "role": "Local inventor of the Eco-Convertor plastic-to-filament system"
+  },
+  {
+   "name": "Eco-Convertor",
+   "type": "product",
+   "role": "Home system converting household plastic waste into 3D printing filament"
+  },
+  {
+   "name": "Jaden Smith",
+   "type": "person",
+   "role": "Self-taught engineer who launched AquaHarvest"
+  },
+  {
+   "name": "AquaHarvest",
+   "type": "product",
+   "role": "Solar-powered urban rainwater collection and purification device"
+  },
+  {
+   "name": "Harjit Singh",
+   "type": "person",
+   "role": "Renewable energy enthusiast leading the SunStead project"
+  },
+  {
+   "name": "SunStead",
+   "type": "program",
+   "role": "Project installing low-cost solar panels on buildings, feeding excess energy to the community grid"
+  },
+  {
+   "name": "Leyla Abdi",
+   "type": "person",
+   "role": "Creator of the Green Charge initiative"
+  },
+  {
+   "name": "Green Charge",
+   "type": "program",
+   "role": "Initiative harvesting kinetic energy from pedestrians in public parks"
+  },
+  {
+   "name": "Theodore \"Theo\" Kim",
+   "type": "person",
+   "role": "Urban farmer who founded SkyCrop Farms"
+  },
+  {
+   "name": "SkyCrop Farms",
+   "type": "organization",
+   "role": "Rooftop vertical hydroponic farming business supplying local restaurants and markets"
+  },
+  {
+   "name": "Dr. Ravi Patel",
+   "type": "person",
+   "role": "Environmental engineer who developed EcoMinds"
+  },
+  {
+   "name": "EcoMinds",
+   "type": "product",
+   "role": "Gamified interactive software teaching students about ecology and climate change"
+  },
+  {
+   "name": "Helen Zhao",
+   "type": "person",
+   "role": "Inventor and founder of ZeroWaste Solutions"
+  },
+  {
+   "name": "ZeroWaste Solutions",
+   "type": "organization",
+   "role": "Startup running an automated waste sorting and processing facility"
+  },
+  {
+   "name": "Alex Rodriguez",
+   "type": "person",
+   "role": "Chemical engineer who developed the PureAir Towers"
+  },
+  {
+   "name": "PureAir Towers",
+   "type": "product",
+   "role": "Plant-covered air-purifying tower system placed in pollution hotspots"
+  }
+ ],
+ "tags": [
+  "sustainability",
+  "local-inventors",
+  "clean-energy",
+  "recycling",
+  "urban-farming",
+  "environmental-education"
+ ],
+ "usage": {
+  "input_tokens": 2715,
+  "output_tokens": 1663
+ }
+}

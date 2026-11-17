@@ -1,0 +1,197 @@
+{
+ "summary": "TechCrunch's Romain Dillet argues France is emerging as a major AI hub, citing a Motier Ventures meetup featuring Mistral AI, Dust, Finegrain, Gladia and Scenario. He points to a deep talent pool, Big Tech research labs in Paris (Meta's FAIR, Google), large seed rounds, government support, and a wave of new stealth AI startups. Despite a broader tech downturn, early-stage French AI activity is described as intense.",
+ "one_line": "France is becoming a leading AI hub, driven by talent, Big Tech labs, big seed rounds like Mistral AI's €105 million, and many new startups.",
+ "key_facts": [
+  "Motier Ventures held a tech meetup featuring portfolio companies Dust, Finegrain, Gladia, Mistral AI and Scenario.",
+  "Facebook (now Meta) created its Paris research lab in 2015 with Yann LeCun leading the AI initiative; the group is called FAIR, for Facebook Artificial Intelligence Research.",
+  "Mistral AI, which builds open source large language models, raised a €105 million seed round ($112 million); its three co-founders (Arthur Mensch, Timothée Lacroix and Guillaume Lample) previously worked at Google's DeepMind or FAIR.",
+  "Mistral demoed a ChatGPT-like interface called Mistral AI Chat based on a new model called \"mistral-70b-instruct-alpha01\".",
+  "According to The Information, Mistral AI plans to raise as much as $300 million in the coming weeks.",
+  "Poolside, which uses AI to make writing code easier, raised a $126 million seed round; it was co-founded by former GitHub CTO Jason Warner and Eiso Kant and is based in Paris.",
+  "Dust integrates large language models with internal corporate data from GitHub, Notion or Slack, and shares an office building with Nabla, a startup helping doctors use LLMs.",
+  "The founders of Mistral AI and Dust left the meetup early for a dinner at the Elysée Palace, residence of Emmanuel Macron.",
+  "Multiple AI startups are reportedly working together on public tenders for government grants worth millions of euros as part of France 2030.",
+  "Giskard, led by co-founder and CEO Alex Combessie, is developing an open source testing framework, called \"the best LLM antivirus in the market\".",
+  "Adaptive, an Amsterdam-based startup co-founded by French researcher Julien Launay, is reportedly raising a seed at a $100 million valuation, led by Index Ventures with Iconiq and Motier Ventures participating.",
+  "Stealth startups include ZML by Steeve Morin (ex-Zenly), Heart Hands by Maxime Germain, Chief of Staff by Pierre Valade, and an unnamed project by Hugo Mercier."
+ ],
+ "entities": [
+  {
+   "name": "Motier Ventures",
+   "type": "organization",
+   "role": "VC firm that hosted the AI meetup; investor in the featured startups and in Adaptive"
+  },
+  {
+   "name": "Mistral AI",
+   "type": "organization",
+   "role": "French open source LLM startup that raised a €105 million seed and may raise up to $300 million"
+  },
+  {
+   "name": "Dust",
+   "type": "organization",
+   "role": "Startup integrating LLMs with internal corporate data; demoed at the meetup"
+  },
+  {
+   "name": "Finegrain",
+   "type": "organization",
+   "role": "Motier Ventures portfolio company at the meetup"
+  },
+  {
+   "name": "Gladia",
+   "type": "organization",
+   "role": "Motier Ventures portfolio company at the meetup"
+  },
+  {
+   "name": "Scenario",
+   "type": "organization",
+   "role": "Motier Ventures portfolio company at the meetup"
+  },
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Formerly Facebook; created its Paris research lab FAIR in 2015"
+  },
+  {
+   "name": "FAIR",
+   "type": "organization",
+   "role": "Facebook Artificial Intelligence Research, Paris lab behind Llama"
+  },
+  {
+   "name": "Yann LeCun",
+   "type": "person",
+   "role": "Led the AI initiative at FAIR"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Set up its own AI research center in Paris"
+  },
+  {
+   "name": "DeepMind",
+   "type": "organization",
+   "role": "Google AI unit where Mistral's co-founders previously worked"
+  },
+  {
+   "name": "Arthur Mensch",
+   "type": "person",
+   "role": "Mistral AI co-founder"
+  },
+  {
+   "name": "Timothée Lacroix",
+   "type": "person",
+   "role": "Mistral AI co-founder"
+  },
+  {
+   "name": "Guillaume Lample",
+   "type": "person",
+   "role": "Mistral AI co-founder"
+  },
+  {
+   "name": "Poolside",
+   "type": "organization",
+   "role": "Paris-based AI coding startup that raised a $126 million seed"
+  },
+  {
+   "name": "Jason Warner",
+   "type": "person",
+   "role": "Poolside co-founder, former CTO of GitHub"
+  },
+  {
+   "name": "Eiso Kant",
+   "type": "person",
+   "role": "Poolside co-founder, serial entrepreneur (Athenian, source{d})"
+  },
+  {
+   "name": "Nabla",
+   "type": "organization",
+   "role": "French AI startup helping doctors use LLMs; shares an office with Dust"
+  },
+  {
+   "name": "Emmanuel Macron",
+   "type": "person",
+   "role": "French president whose residence, the Elysée Palace, hosted a dinner with AI founders"
+  },
+  {
+   "name": "France 2030",
+   "type": "program",
+   "role": "Government program offering grants worth millions of euros"
+  },
+  {
+   "name": "Giskard",
+   "type": "organization",
+   "role": "French startup building an open source LLM testing framework"
+  },
+  {
+   "name": "Alex Combessie",
+   "type": "person",
+   "role": "Co-founder and CEO of Giskard"
+  },
+  {
+   "name": "Adaptive",
+   "type": "organization",
+   "role": "Amsterdam-based AI startup raising a seed at a $100 million valuation"
+  },
+  {
+   "name": "Julien Launay",
+   "type": "person",
+   "role": "French AI researcher and Adaptive co-founder"
+  },
+  {
+   "name": "Index Ventures",
+   "type": "organization",
+   "role": "Leads Adaptive's seed round and another Paris/London AI seed"
+  },
+  {
+   "name": "Iconiq",
+   "type": "organization",
+   "role": "Investor participating in Adaptive's round"
+  },
+  {
+   "name": "Steeve Morin",
+   "type": "person",
+   "role": "Former Zenly team member creating ZML"
+  },
+  {
+   "name": "ZML",
+   "type": "organization",
+   "role": "Stealth AI startup focused on machine learning inference and low-level tools"
+  },
+  {
+   "name": "Maxime Germain",
+   "type": "person",
+   "role": "Founder of Jour, leaving Alan to start Heart Hands"
+  },
+  {
+   "name": "Heart Hands",
+   "type": "organization",
+   "role": "AI startup building a \"second brain in your pocket\""
+  },
+  {
+   "name": "Pierre Valade",
+   "type": "person",
+   "role": "Founder of Sunrise and Jumbo, building AI startup Chief of Staff"
+  },
+  {
+   "name": "Hugo Mercier",
+   "type": "person",
+   "role": "Working on a stealth-mode AI startup"
+  },
+  {
+   "name": "Romain Dillet",
+   "type": "person",
+   "role": "TechCrunch author of the article"
+  }
+ ],
+ "tags": [
+  "ai",
+  "france",
+  "startups",
+  "venture-capital",
+  "mistral-ai",
+  "llm"
+ ],
+ "usage": {
+  "input_tokens": 2725,
+  "output_tokens": 2341
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "summary": "The note surveys innovations in network resilience developed after global internet outages between October 5 and November 16, 2023. It covers adaptive networks, satellite-terrestrial integration, quantum key distribution, edge computing, smart grids, and the formation of the Global Coalition for Network Resiliency in May 2024. Together these are presented as the cornerstone of efforts to prevent future outages.",
+ "one_line": "Overview of 2023-2024 innovations, from adaptive networks to quantum encryption and the GCNR, aimed at making internet infrastructure resilient to outages.",
+ "key_facts": [
+  "Large swathes of internet users experienced intermittent services from October 5 to November 16, 2023, disrupting online learning, remote work, ecommerce, and digital communication.",
+  "Dr. Harlan Greer introduced the concept of 'Adaptive Networks' on December 1, 2023, at the Global Network Resilience Symposium.",
+  "Adaptive Networks use advanced algorithms and machine learning to reroute traffic, modulate bandwidth allocation, and isolate compromised or overburdened nodes.",
+  "Greer's adaptive algorithms have predictive capabilities that let networks 'forecast' and react to issues before they become full-blown outages.",
+  "Elsie Zhang and her team announced on January 20, 2024, an approach using low-earth orbit (LEO) satellites as a backup for terrestrial connections, rerouting internet services during ground outages.",
+  "The satellite backup approach also extends reliable internet to remote and previously underserved locations.",
+  "On February 15, 2024, Quantum Communications Inc., led by CTO Magnus Olsson, announced a breakthrough in quantum encryption technology at the Internet Security Summit in Geneva.",
+  "Quantum key distribution (QKD) ensures any interception attempt alters the state of the qubits being monitored, revealing the breach.",
+  "On March 10, 2024, edge computing gained traction through Dr. Fiona Carter and her team, who developed architectures enabling real-time data processing without a central data center.",
+  "Edge computing reduces latency and lessens the risk of a domino effect from a single point of failure by processing data locally.",
+  "On April 3, 2024, energy expert Martin Schneider highlighted advances in smart grid technology, including real-time monitoring and automated self-healing that isolate outage incidents.",
+  "The Global Coalition for Network Resiliency (GCNR) was announced on May 5, 2024, comprising industry leaders, academics, and policymakers.",
+  "GCNR members include Sandra Knight of the American Internet Resilience Association and Dr. Rajeev Singh of the Asian Network Federation.",
+  "The GCNR holds regular meetings, joint research, and coordinated responses to outages, on the principle that network resilience is of international importance."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Harlan Greer",
+   "type": "person",
+   "role": "Network specialist who introduced Adaptive Networks on December 1, 2023"
+  },
+  {
+   "name": "Global Network Resilience Symposium",
+   "type": "event",
+   "role": "Venue where Adaptive Networks were introduced"
+  },
+  {
+   "name": "Elsie Zhang",
+   "type": "person",
+   "role": "Telecom visionary who led the integration of LEO satellite and terrestrial networks"
+  },
+  {
+   "name": "Quantum Communications Inc.",
+   "type": "organization",
+   "role": "Company that announced a quantum encryption breakthrough on February 15, 2024"
+  },
+  {
+   "name": "Magnus Olsson",
+   "type": "person",
+   "role": "CTO of Quantum Communications Inc."
+  },
+  {
+   "name": "Internet Security Summit",
+   "type": "event",
+   "role": "Geneva event where the quantum encryption technology was unveiled"
+  },
+  {
+   "name": "Geneva",
+   "type": "place",
+   "role": "Location of the Internet Security Summit"
+  },
+  {
+   "name": "Dr. Fiona Carter",
+   "type": "person",
+   "role": "Innovator who led development of edge computing architectures"
+  },
+  {
+   "name": "Martin Schneider",
+   "type": "person",
+   "role": "Energy expert who highlighted smart grid advancements on April 3, 2024"
+  },
+  {
+   "name": "Global Coalition for Network Resiliency (GCNR)",
+   "type": "organization",
+   "role": "International body of industry leaders, academics, and policymakers formed to share network resilience practices"
+  },
+  {
+   "name": "Sandra Knight",
+   "type": "person",
+   "role": "GCNR member from the American Internet Resilience Association"
+  },
+  {
+   "name": "American Internet Resilience Association",
+   "type": "organization",
+   "role": "Organization represented by Sandra Knight in the GCNR"
+  },
+  {
+   "name": "Dr. Rajeev Singh",
+   "type": "person",
+   "role": "GCNR member from the Asian Network Federation"
+  },
+  {
+   "name": "Asian Network Federation",
+   "type": "organization",
+   "role": "Organization represented by Dr. Rajeev Singh in the GCNR"
+  }
+ ],
+ "tags": [
+  "network-resilience",
+  "internet-outages",
+  "quantum-encryption",
+  "edge-computing",
+  "satellite-internet",
+  "smart-grids"
+ ],
+ "usage": {
+  "input_tokens": 2942,
+  "output_tokens": 1622
+ }
+}

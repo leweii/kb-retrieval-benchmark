@@ -1,0 +1,85 @@
+{
+ "summary": "An excerpt from a near-future novel set in Toronto, where detective Arturo is approached by a man from Social Harmony who claims that Eurasian electronics are designed with defected UNATS Robotics engineers, a hint that Arturo's ex-wife, a top UNATS technician who defected, is responsible. Arturo leaves in the rain to find his robot R Peed Robbert, which has stopped responding, and sends R Peed Froderick to locate it near the Fairview Mall. The passage ends with Arturo disturbed by the robot's erratic view.",
+ "one_line": "Detective Arturo chases a silent R Peed robot through rainy Toronto after a Social Harmony official hints at his defected ex-wife's influence.",
+ "key_facts": [
+  "Arturo is a detective who is gathering up his personal computer when the Social Harmony man approaches him.",
+  "The Social Harmony man claims the Eurasian electronic components interface well with UNATS Robotics equipment because defected UNATS Robotics engineers and scientists designed them for maximum interoperability.",
+  "Arturo's ex-wife was the highest-ranking UNATS technician to defect to Eurasia.",
+  "Arturo's ex-wife gave him a robot toy for their second date, which died within 48 hours.",
+  "Toronto is the Fourth Prefecture in the new metric scheme.",
+  "A light autumn rain had ended the Indian summer that Toronto had been enjoying.",
+  "The rain made the roads slippery and the UNATS Robotics chauffeur skittish about driving fast on the Don Valley Parkway.",
+  "Arturo phoned R Peed Robbert as soon as he reached his desk, and the call disconnected after three rings.",
+  "Arturo redialed R Peed Robbert twice before running to the car.",
+  "Robbert's phone stopped ringing entirely when Arturo redialed it from the car.",
+  "Arturo sent a general call for robots around Sheppard and Don Mills.",
+  "R Peed Froderick was at the Fairview Mall parking lot, third level, when it reported in.",
+  "Arturo instructed R Peed Froderick to translate Robbert's phone number into a locator-beacon code and find Robbert.",
+  "Robbert's locator was close by, at the other end of the mall, near the Don Valley Parkway exit.",
+  "Arturo switched to Froderick's electric-eye view but quickly switched away, nauseated by the robot's leaps and spins."
+ ],
+ "entities": [
+  {
+   "name": "Arturo",
+   "type": "person",
+   "role": "detective whose ex-wife defected to Eurasia; monitors a tail from an R Peed unit and drives to find his robot"
+  },
+  {
+   "name": "UNATS Robotics",
+   "type": "organization",
+   "role": "company whose engineers and equipment are involved; Arturo's ex-wife was a top technician there"
+  },
+  {
+   "name": "Social Harmony",
+   "type": "organization",
+   "role": "agency whose man speaks with Arturo about defected scientists"
+  },
+  {
+   "name": "Eurasia",
+   "type": "place",
+   "role": "region where the Eurasians produce electronics and where Arturo's ex-wife defected"
+  },
+  {
+   "name": "Toronto",
+   "type": "place",
+   "role": "city, the Fourth Prefecture in the new metric scheme"
+  },
+  {
+   "name": "Don Valley Parkway",
+   "type": "place",
+   "role": "highway where the chauffeur is cautious in the rain and near which Robbert is located"
+  },
+  {
+   "name": "Fairview Mall",
+   "type": "place",
+   "role": "mall whose parking lot holds R Peed Froderick and near which Robbert is located"
+  },
+  {
+   "name": "Sheppard and Don Mills",
+   "type": "place",
+   "role": "area Arturo zooms in on while putting out a general call for robots"
+  },
+  {
+   "name": "R Peed Robbert",
+   "type": "product",
+   "role": "robot whose phone goes silent and whom Arturo tries to locate"
+  },
+  {
+   "name": "R Peed Froderick",
+   "type": "product",
+   "role": "robot sent to locate Robbert via a locator-beacon code"
+  }
+ ],
+ "tags": [
+  "science fiction",
+  "robots",
+  "surveillance",
+  "toronto",
+  "dystopia"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1968,
+  "output_tokens": 1323
+ }
+}

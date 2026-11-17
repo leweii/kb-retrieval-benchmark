@@ -1,0 +1,88 @@
+{
+ "summary": "The note describes local public health campaigns launched since September 2023 to fight sedentary lifestyles, led by the \"Awakening the Sedentary Society\" campaign. It covers barrier-busting workshops, the \"Move More\" app, school and workplace programs, community challenges, and inclusivity efforts. Experts stress that small, consistent increases in movement bring major health benefits.",
+ "one_line": "Local public health initiatives since late 2023 promote everyday movement through campaigns, an app, school programs, workplace changes, community events and accessible fitness.",
+ "key_facts": [
+  "The \"Awakening the Sedentary Society\" campaign kicked off on October 3, 2023, to bring inactivity to the forefront of the community's health dialogue.",
+  "Dr. Emily Torres, an epidemiologist and public health advocate, said \"a sedentary lifestyle is the new smoking.\"",
+  "Risks of inactivity named in the note include heart disease, diabetes, obesity, and mental health disorders.",
+  "A public health department survey released on November 15, 2023, found the top reasons for not exercising are lack of time, lack of motivation, and lack of access to facilities.",
+  "Fitness expert Lucas Bennett has run community workshops since the start of December 2023 offering time-management tips, motivational techniques, and exercises needing no special equipment.",
+  "The \"Move More\" smartphone app, built with the health department and app developers, reminds users to stand, stretch, or walk; it launched January 10, 2024, and has been downloaded over 100,000 times.",
+  "The \"Active Classrooms\" project started in February 2024, introducing mandatory movement breaks and physical activity in lesson plans.",
+  "Primary School Teacher Anna Johnson reported that \"Active Spellings\" (jumping jacks while spelling words) improved children's activity, concentration, and engagement.",
+  "The \"10,000 Steps Challenge\" took place on March 5, 2024, and participants collectively walked more than 50 million steps.",
+  "Workplaces are adopting standing desks, treadmill workstations, and lunch hour walking groups, linked to higher productivity and fewer sick days.",
+  "Corporate Wellness Consultant Michael Reed said \"Investing in your employees' health is investing in your company's success.\"",
+  "Adaptive fitness programs serve people of differing abilities and ages; wheelchair athlete Sandra Kim is a vocal supporter.",
+  "Lucas Bennett recommends a mix of cardiovascular exercise, strength training, and flexibility work, with the mantra \"Consistency over intensity.\""
+ ],
+ "entities": [
+  {
+   "name": "Dr. Emily Torres",
+   "type": "person",
+   "role": "Epidemiologist and public health advocate who says sedentary life is the new smoking"
+  },
+  {
+   "name": "Lucas Bennett",
+   "type": "person",
+   "role": "Local fitness expert running community workshops and recommending exercise types"
+  },
+  {
+   "name": "Anna Johnson",
+   "type": "person",
+   "role": "Primary School Teacher who uses 'Active Spellings' in class"
+  },
+  {
+   "name": "Michael Reed",
+   "type": "person",
+   "role": "Corporate Wellness Consultant on employee health and business success"
+  },
+  {
+   "name": "Sandra Kim",
+   "type": "person",
+   "role": "Wheelchair athlete and local hero supporting inclusive fitness"
+  },
+  {
+   "name": "Awakening the Sedentary Society",
+   "type": "program",
+   "role": "Public health campaign launched October 3, 2023"
+  },
+  {
+   "name": "Move More",
+   "type": "product",
+   "role": "Smartphone app reminding users to stand, stretch, or walk; launched January 10, 2024"
+  },
+  {
+   "name": "Active Classrooms",
+   "type": "program",
+   "role": "School project introducing mandatory movement breaks starting February 2024"
+  },
+  {
+   "name": "Active Spellings",
+   "type": "program",
+   "role": "Classroom activity combining jumping jacks with spelling"
+  },
+  {
+   "name": "10,000 Steps Challenge",
+   "type": "event",
+   "role": "Community event on March 5, 2024 with over 50 million steps walked"
+  },
+  {
+   "name": "Public health department",
+   "type": "organization",
+   "role": "Conducted the November 15, 2023 survey and collaborated on the Move More app"
+  }
+ ],
+ "tags": [
+  "public health",
+  "sedentary lifestyle",
+  "physical activity",
+  "community wellness",
+  "workplace wellness",
+  "school programs"
+ ],
+ "usage": {
+  "input_tokens": 2672,
+  "output_tokens": 1401
+ }
+}

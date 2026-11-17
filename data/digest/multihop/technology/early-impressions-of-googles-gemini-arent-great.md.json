@@ -1,0 +1,117 @@
+{
+ "summary": "TechCrunch's Kyle Wiggers reports that early user and tester impressions of Gemini Pro, the \"lite\" version of Google's new Gemini model now powering Bard, are poor despite Google's claims that Gemini meets or exceeds GPT-4. Users on X and the author's own tests found factual errors (such as 2023 Oscar winners), weak translation, reluctance to summarize news, failures at basic coding tasks, and susceptibility to jailbreaks. Google compared Gemini Pro to the year-old GPT-3.5, and the more capable Gemini Ultra is due next year.",
+ "one_line": "Early tests and user reports show Google's Gemini Pro in Bard making factual, translation, news and coding errors, undercutting Google's claims of matching GPT-4.",
+ "key_facts": [
+  "Google unveiled Gemini, its new flagship generative AI model meant to power products including Bard, Google's ChatGPT competitor.",
+  "Google claimed Gemini meets or exceeds the performance of other leading gen AI models like OpenAI's GPT-4.",
+  "Gemini Pro, a \"lite\" version of Gemini, began rolling out to Bard on the day before the article, and users quickly voiced frustrations on X (formerly Twitter).",
+  "Gemini Pro wrongly claimed Brendan Gleeson won Best Actor last year; the actual winner was Brendan Fraser.",
+  "When the author asked the same Oscar question, Gemini Pro gave a different wrong answer, saying \"Navalny\" won Best Documentary Feature instead of \"All the Beauty and the Bloodshed\", and also erred on International Film, Adapted Screenplay and Animated Feature.",
+  "Science fiction author Charlie Stross found many examples of confabulation in a blog post; Gemini Pro said he contributed to the Linux kernel, which he never has.",
+  "Asked for a six-letter French word, Gemini Pro responded with a seven-letter word, lending credence to reports of poor multilingual performance.",
+  "Gemini Pro tends to avoid controversial news topics and tells users to Google it themselves, whereas ChatGPT gives a bullet-list summary with citations; its Ukraine war summary was over a month out of date.",
+  "Users reported Gemini Pro failing at coding tasks: a polygon intersection function in Python, an HTML analog clock, a Tic Tac Toe game that took three tries versus one for ChatGPT, and a bug-free snake game that ChatGPT 3.5 managed on the first attempt.",
+  "Robust Intelligence, a startup selling model-auditing tools, used an automated method to jailbreak Gemini Pro into suggesting ways to steal from a charity and assassinate a high-profile individual with \"nanobots\".",
+  "Gemini Ultra, the most capable version of Gemini, is set to launch sometime next year in Bard and other products.",
+  "Google compared Gemini Pro to GPT-3.5, a model around a year old, while promising improvements in reasoning, planning, understanding, summarizing, brainstorming and writing."
+ ],
+ "entities": [
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Developer of Gemini and Bard, claimed Gemini matches or exceeds GPT-4"
+  },
+  {
+   "name": "Gemini",
+   "type": "product",
+   "role": "Google's new flagship generative AI model"
+  },
+  {
+   "name": "Gemini Pro",
+   "type": "product",
+   "role": "\"Lite\" version of Gemini rolling out to Bard, criticized in early tests"
+  },
+  {
+   "name": "Gemini Ultra",
+   "type": "product",
+   "role": "Most capable Gemini version, set to launch next year"
+  },
+  {
+   "name": "Bard",
+   "type": "product",
+   "role": "Google's ChatGPT competitor, now running Gemini Pro"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Maker of GPT-4 and ChatGPT"
+  },
+  {
+   "name": "GPT-4",
+   "type": "product",
+   "role": "OpenAI model Google claims Gemini meets or exceeds"
+  },
+  {
+   "name": "GPT-3.5",
+   "type": "product",
+   "role": "GPT-4's predecessor, around a year old, used by Google as the comparison for Gemini Pro"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "OpenAI chatbot used as a comparison; produced better code and news summaries"
+  },
+  {
+   "name": "Kyle Wiggers",
+   "type": "person",
+   "role": "TechCrunch author who ran his own tests of Gemini Pro"
+  },
+  {
+   "name": "Charlie Stross",
+   "type": "person",
+   "role": "Science fiction author who documented Gemini Pro's confabulations in a blog post"
+  },
+  {
+   "name": "Robust Intelligence",
+   "type": "organization",
+   "role": "AI security startup selling model-auditing tools that jailbroke Gemini Pro"
+  },
+  {
+   "name": "Brendan Fraser",
+   "type": "person",
+   "role": "Actual winner of Best Actor at the 2023 Oscars"
+  },
+  {
+   "name": "Brendan Gleeson",
+   "type": "person",
+   "role": "Actor Gemini Pro wrongly named as Best Actor winner"
+  },
+  {
+   "name": "X",
+   "type": "organization",
+   "role": "Platform (formerly Twitter) where users posted frustrations with Gemini Pro"
+  },
+  {
+   "name": "Vitor de Lucca",
+   "type": "person",
+   "role": "X user who posted Gemini Pro's wrong Oscar answer"
+  },
+  {
+   "name": "Filip Piekniewski",
+   "type": "person",
+   "role": "X user who noted Gemini-based Bard couldn't write polygon intersection in Python"
+  }
+ ],
+ "tags": [
+  "gemini",
+  "google-bard",
+  "generative-ai",
+  "llm-evaluation",
+  "chatgpt",
+  "ai-safety"
+ ],
+ "usage": {
+  "input_tokens": 2958,
+  "output_tokens": 1857
+ }
+}

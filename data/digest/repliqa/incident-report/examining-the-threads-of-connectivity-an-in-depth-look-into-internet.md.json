@@ -1,0 +1,81 @@
+{
+ "summary": "The note analyzes causes of internet service disruptions, comparing past and present: cable cuts, cyber attacks, natural disasters, equipment failure and human error. It cites dated 2023 incidents and expert comments, and notes that AI monitoring and faster response plans have improved recovery. It concludes that growing complexity demands constant innovation to maintain resilience.",
+ "one_line": "An overview of the main causes of internet outages, illustrated by 2023 incidents and expert quotes, and of improved monitoring and response.",
+ "key_facts": [
+  "In the early 2000s dial-up connections dominated and broadband was a luxury; a disrupted phone line could cut internet access.",
+  "As of October 14, 2023, the internet ecosystem consists of undersea cables, satellite links, and vast wireless networks, creating more points of failure.",
+  "On November 19, 2023, a construction crew accidentally cut a major fiber-optic cable in Atlanta, causing widespread outages affecting thousands.",
+  "On September 17, 2023, a DDoS attack targeted major service providers, causing sporadic outages across the East Coast.",
+  "Valerie Cruz says that with advanced mitigation protocols, recovery from attacks often takes only hours rather than prolonged blackouts.",
+  "The December 1, 2023 earthquake off the coast of California caused outages whose recovery took days due to the scale of damage.",
+  "Anthony Rivera's emergency response team uses mobile command centers and drones to restore services faster.",
+  "On September 29, 2023, a cooling system malfunction at Tim O'Neill's facility caused overheating and automatic shutdowns.",
+  "On October 9, 2023, a routine software update went awry and impacted service for several hours.",
+  "Modern monitoring systems use AI to detect irregularities in milliseconds, often before users notice.",
+  "John McDougal says cables have been reinforced with stronger materials and routed away from high-risk areas, but human error remains a risk.",
+  "Cable cuts have historically been one of the most common causes of internet disruptions."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Samantha Keynes",
+   "type": "person",
+   "role": "Telecommunications expert who notes more points of failure but also more redundancies"
+  },
+  {
+   "name": "John McDougal",
+   "type": "person",
+   "role": "Senior network engineer discussing reinforced cables and human error"
+  },
+  {
+   "name": "Valerie Cruz",
+   "type": "person",
+   "role": "Cybersecurity specialist on faster recovery from DDoS attacks"
+  },
+  {
+   "name": "Anthony Rivera",
+   "type": "person",
+   "role": "Leads an emergency response team using mobile command centers and drones"
+  },
+  {
+   "name": "Tim O'Neill",
+   "type": "person",
+   "role": "Data center operations manager who recalled the September 29, 2023 cooling failure"
+  },
+  {
+   "name": "Lizbeth Chen",
+   "type": "person",
+   "role": "Network administrator who commented on human error"
+  },
+  {
+   "name": "Atlanta",
+   "type": "place",
+   "role": "Location of the November 19, 2023 fiber-optic cable cut"
+  },
+  {
+   "name": "California",
+   "type": "place",
+   "role": "Coast where the December 1, 2023 earthquake occurred"
+  },
+  {
+   "name": "East Coast",
+   "type": "place",
+   "role": "Region hit by outages from the September 17, 2023 DDoS attack"
+  },
+  {
+   "name": "DDoS attack of September 17, 2023",
+   "type": "event",
+   "role": "Attack on major service providers causing sporadic outages"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "incident-report",
+  "network-resilience",
+  "cybersecurity",
+  "infrastructure"
+ ],
+ "usage": {
+  "input_tokens": 2742,
+  "output_tokens": 1142
+ }
+}

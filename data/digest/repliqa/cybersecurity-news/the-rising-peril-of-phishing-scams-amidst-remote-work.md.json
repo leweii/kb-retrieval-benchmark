@@ -1,0 +1,97 @@
+{
+ "summary": "The note describes the sharp rise in phishing scams since organizations moved to remote work, noting that remote employees are easier targets and often under-trained. It outlines phishing types (email, spear-phishing, whaling, vishing, smishing) and a set of defenses: secure email practices with MFA, VPNs and home network hardening, ongoing training, biometric authentication, software patching, data backups, secure workflows, and an incident response plan.",
+ "one_line": "Phishing scams have surged with remote work, and organizations can counter them through MFA, VPNs, training, patching, backups, and incident response plans.",
+ "key_facts": [
+  "The FBI's Internet Crime Complaint Center reported a 220% spike in phishing incidents since the widespread onset of remote work from February 2023.",
+  "The National Cybersecurity Alliance recorded a 30% increase in vishing attacks from May to September 2023.",
+  "Spear-phishing targets specific individuals or organizations, while whaling goes after high-profile company executives.",
+  "Multifactor authentication (MFA) for email access is described as a must, since it can thwart attackers even if they obtain login credentials.",
+  "CyberEdge Group reported a 47% increase in VPN deployment across organizations since March 2023.",
+  "TechSafe launched an interactive phishing-awareness training platform for remote workers on November 1, 2023; its CEO is Ted Johnson.",
+  "A DigitalGuardian study found a 40% uptick in biometric authentication adoption since the start of the second quarter of 2023.",
+  "A Shieldbyte report found around 65% of remote workers neglect regular system updates.",
+  "The Data Defense Council has recommended weekly data backups since September 2023, with daily backups for high-priority projects.",
+  "Dr. Lisa Chung said the rush to maintain operations has made cutting corners on cybersecurity training common.",
+  "Analyst Sarah Gilbert noted on December 3, 2023 that creating phishing incident response plans raised demand for cybersecurity experts.",
+  "An incident response plan should contain breaches, assess the scope of impact, eliminate the threat, and prevent future occurrences.",
+  "Home routers should have the latest firmware and changed default passwords, per the note's network security advice."
+ ],
+ "entities": [
+  {
+   "name": "FBI's Internet Crime Complaint Center",
+   "type": "organization",
+   "role": "Reported a 220% spike in phishing incidents since remote work began"
+  },
+  {
+   "name": "Dr. Lisa Chung",
+   "type": "person",
+   "role": "Cybersecurity expert who said cutting corners on cybersecurity training has become common"
+  },
+  {
+   "name": "National Cybersecurity Alliance",
+   "type": "organization",
+   "role": "Source of statistics showing a 30% rise in vishing attacks from May to September 2023"
+  },
+  {
+   "name": "Mark Rivera",
+   "type": "person",
+   "role": "Cybersecurity specialist who recommends email filters and verified antiphishing toolbars"
+  },
+  {
+   "name": "CyberEdge Group",
+   "type": "organization",
+   "role": "Reported a 47% increase in VPN deployment since March 2023"
+  },
+  {
+   "name": "Jennifer Yoo",
+   "type": "person",
+   "role": "Cybersecurity advocate who suggests strong unique passwords and a network firewall"
+  },
+  {
+   "name": "TechSafe",
+   "type": "organization",
+   "role": "Launched an interactive phishing training platform on November 1, 2023"
+  },
+  {
+   "name": "Ted Johnson",
+   "type": "person",
+   "role": "CEO of TechSafe"
+  },
+  {
+   "name": "DigitalGuardian",
+   "type": "organization",
+   "role": "Conducted a study showing a 40% uptick in biometric adoption"
+  },
+  {
+   "name": "Shieldbyte",
+   "type": "organization",
+   "role": "Cybersecurity firm reporting that about 65% of remote workers neglect updates"
+  },
+  {
+   "name": "Data Defense Council",
+   "type": "organization",
+   "role": "Recommends weekly data backups, daily for high-priority projects"
+  },
+  {
+   "name": "Victor Nguyen",
+   "type": "person",
+   "role": "Cybersecurity consultant who advises a 'fortress mentality' for project data"
+  },
+  {
+   "name": "Sarah Gilbert",
+   "type": "person",
+   "role": "Analyst who noted rising demand for cybersecurity experts on December 3, 2023"
+  }
+ ],
+ "tags": [
+  "phishing",
+  "remote-work",
+  "cybersecurity",
+  "authentication",
+  "incident-response"
+ ],
+ "usage": {
+  "input_tokens": 2963,
+  "output_tokens": 1400
+ }
+}

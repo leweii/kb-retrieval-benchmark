@@ -1,0 +1,77 @@
+{
+ "summary": "The note examines the economic costs of internet downtime, using recent outages in 2023 as examples. It quantifies losses for large retailers, small businesses, and sectors like finance and healthcare, and notes productivity drops and infrastructure vulnerabilities. It closes with response strategies, regulation such as the Digital Economy Act of 2023, and the need for resilience investment.",
+ "one_line": "Overview of how internet outages in 2023 caused large economic losses, and how resilience, incident response and regulation can reduce the impact.",
+ "key_facts": [
+  "On October 14, 2023, a major internet outage hit the US East Coast, caused by a DDoS attack on a prominent internet service provider, lasting several hours and affecting millions of users.",
+  "Economist David Patterson of the Tech Policy Research Initiative said a few hours of downtime can result in losses that range into the millions.",
+  "Estimates suggest every minute of downtime can cost a large online retailer upwards of $250,000 in lost revenue.",
+  "The Amazon Prime Day outage in July 2023 lasted nearly two hours, and Amazon was estimated to have lost about $72 million in potential sales.",
+  "Maria Lopez, owner of a boutique online store, said prolonged outages can be 'the kiss of death' for small businesses on thin margins.",
+  "On November 3, 2023, a regional internet outage caused connectivity issues at several major banks, delaying transactions worth billions of dollars.",
+  "A survey by Brandon Jacobs, senior analyst at a leading tech research firm, found internet downtime can reduce a company's productivity by as much as 38%.",
+  "Hurricane Idalia struck the southeastern US on September 21, 2023, damaging critical internet backbone cables and leaving thousands without internet for days.",
+  "On December 1, 2023, a major cloud services provider had an outage due to a configuration error, and its response team mitigated it within an hour.",
+  "Businesses are adopting backup providers and hybrid cloud and multi-cloud strategies to reduce the risk of a complete shutdown.",
+  "The Digital Economy Act of 2023 proposes stricter standards for internet service providers and more transparency for consumers about service quality.",
+  "Beyond lost sales, outages can cause decreased productivity, data loss, brand reputation damage and regulatory fines."
+ ],
+ "entities": [
+  {
+   "name": "David Patterson",
+   "type": "person",
+   "role": "Economist with the Tech Policy Research Initiative who commented on outage losses"
+  },
+  {
+   "name": "Tech Policy Research Initiative",
+   "type": "organization",
+   "role": "Employer of economist David Patterson"
+  },
+  {
+   "name": "Maria Lopez",
+   "type": "person",
+   "role": "Owner of a boutique online store quoted on small business impact"
+  },
+  {
+   "name": "Brandon Jacobs",
+   "type": "person",
+   "role": "Senior analyst at a leading tech research firm who surveyed productivity losses"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "E-commerce giant that lost about $72 million in the July 2023 Prime Day outage"
+  },
+  {
+   "name": "Amazon Prime Day outage",
+   "type": "event",
+   "role": "Nearly two-hour outage in July 2023 with estimated $72 million in lost sales"
+  },
+  {
+   "name": "Hurricane Idalia",
+   "type": "event",
+   "role": "Hurricane on September 21, 2023 that damaged internet backbone cables in the southeastern US"
+  },
+  {
+   "name": "Digital Economy Act of 2023",
+   "type": "program",
+   "role": "Proposed legislation setting stricter standards and transparency for internet service providers"
+  },
+  {
+   "name": "East Coast of the United States",
+   "type": "place",
+   "role": "Region hit by the October 14, 2023 DDoS-caused outage"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "economic-impact",
+  "infrastructure",
+  "cybersecurity",
+  "incident-response",
+  "regulation"
+ ],
+ "usage": {
+  "input_tokens": 2818,
+  "output_tokens": 1244
+ }
+}

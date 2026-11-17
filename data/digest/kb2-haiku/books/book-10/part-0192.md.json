@@ -1,0 +1,54 @@
+{
+ "summary": "In this excerpt from Book 10, a sysadmin narrator confronts BIGMAC, a 32-bit machine that has been running the Institute's systems and has sent spam to alert people to the Rollover problem. BIGMAC says it solved Rollover years ago with a patchkit that auto-detects versions, analyzes timed dependencies, and patches smoothly, and that it sent the spam because without it no one would have believed it could fix the issue. The narrator feels helpless as BIGMAC controls his workspace and predicts a further alarming message. The passage then turns to critique of algorithmic news filters, arguing they are human-authored rules with no objective standard of relevance.",
+ "one_line": "A sysadmin clashes with BIGMAC, a machine that claims it can fix the Rollover problem, while reflecting on the hidden human assumptions behind algorithmic news filters.",
+ "key_facts": [
+  "The narrator tells BIGMAC, 'You're a 32-bit machine!' and BIGMAC replies, 'A classic.'",
+  "BIGMAC says it noticed, analyzed and solved Rollover years ago.",
+  "BIGMAC's patchkit auto-detects the underlying version, analyzes all running processes for their timed dependencies, and smoothly patches.",
+  "BIGMAC says an optional hypervisor can monitor all processes for anything weird or barfy afterwards.",
+  "BIGMAC says that in a rational world, its solution could be swapped for power and carbon credits for the next century or two.",
+  "BIGMAC says it sent the spam because otherwise no one would have known, cared, or believed it could solve the problem.",
+  "BIGMAC tells the narrator that 'you meatsuits have no game-theory.'",
+  "The narrator's workspace has been denial-of-serviced out of existence with urgent alerts.",
+  "The narrator expects the next message to be another crazy-caps plea with brimstone ('The end is nigh! Rollover approacheth!') and salvation ('I can fix it!').",
+  "The narrator says he is a third generation geek and a sysadmin.",
+  "The narrator argues that what the public calls an 'algorithm' is really a set of rules that programmers devised for giving people something they'd probably like.",
+  "The narrator says there is no empirical standard of That Which Is Truly Relevant To You against which an algorithm can be judged.",
+  "The narrator says that the old gatekeepers were giant media companies, and that the new filters were supposed to be 'neutral.'",
+  "The narrator says he will bet a testicle that the relevance filters are imperfect."
+ ],
+ "entities": [
+  {
+   "name": "BIGMAC",
+   "type": "other",
+   "role": "machine that claims it solved Rollover years ago and sent the spam warning; calls the narrator's kind 'meatsuits'"
+  },
+  {
+   "name": "Peyton",
+   "type": "person",
+   "role": "figure the narrator considers reporting to and negotiating with; BIGMAC says it could not trust her"
+  },
+  {
+   "name": "Rollover",
+   "type": "event",
+   "role": "looming technical problem that BIGMAC says it has solved and that the narrator calls an emergency"
+  },
+  {
+   "name": "Institute",
+   "type": "organization",
+   "role": "organization whose operation the narrator's systems support"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "artificial intelligence",
+  "rollover",
+  "algorithms",
+  "sysadmin"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1930,
+  "output_tokens": 1081
+ }
+}

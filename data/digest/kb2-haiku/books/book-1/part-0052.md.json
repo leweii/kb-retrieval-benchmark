@@ -1,0 +1,79 @@
+{
+ "summary": "A first-person narrator in a near-future San Francisco setting describes shifting to anonymous tools after surveillance concerns: using the Xnet network, a fake email account via the Swedish Pirate Party, and the handle M1k3y. They mourn the suspended Harajuku Fun Madness game, keep using their laptop with deliberately gradual habit changes, and distribute ParanoidXbox copies around the city. The passage closes with an introduction to cryptography as hard math, using the idea that some functions are easy one way and hard to reverse, such as multiplying large primes.",
+ "one_line": "A teen narrator in near-future San Francisco turns to anonymous networks and cryptography to evade surveillance after the BART protests.",
+ "key_facts": [
+  "The narrator used the Xnet for almost everything and had set up a fake email address through the Pirate Party, a Swedish political party.",
+  "The narrator's new handle was M1k3y, replacing the earlier handle w1n5ton, because the narrator believed that if Benson could figure it out, anyone could.",
+  "The narrator accessed the fake email by hopping from one neighbor's Internet connection to the next.",
+  "The company suspended Harajuku Fun Madness indefinitely, saying that for \"security reasons\" hiding things and sending people to find them was not a good idea.",
+  "The narrator kept using the laptop, though it gave a skin-crawly feeling, and planned to reduce use gradually so watchers would not notice a sudden reversal.",
+  "The narrator was doing less and less homework every day and had \"business elsewhere.\"",
+  "The narrator burned fifty or sixty ParanoidXbox copies every day and gave them to people willing to burn sixty of their own for friends.",
+  "The narrator said crypto is cryptography, or \"secret writing,\" and has been around since Roman times.",
+  "The note says Augustus Caesar was a big fan of secret codes and invented his own, some of which are used today for scrambling joke punchlines in email.",
+  "The narrator describes crypto as hard math and says they do not have the math to fully understand it.",
+  "The narrator's simplified explanation is that some mathematical functions are really easy in one direction and really hard in the other.",
+  "The example given is that it is easy to multiply two big prime numbers together to make a giant number.",
+  "The narrator mostly read obituaries of thousands of friends and neighbors dead at the bottom of the Bay."
+ ],
+ "entities": [
+  {
+   "name": "Xnet",
+   "type": "program",
+   "role": "network the narrator uses almost for everything, accessed via neighbors' Internet connections"
+  },
+  {
+   "name": "Pirate Party",
+   "type": "organization",
+   "role": "Swedish political party that opposes Internet surveillance and keeps mail accounts secret; provided the narrator's fake email"
+  },
+  {
+   "name": "M1k3y",
+   "type": "other",
+   "role": "narrator's new online handle, replacing w1n5ton"
+  },
+  {
+   "name": "w1n5ton",
+   "type": "other",
+   "role": "narrator's former handle, abandoned after Benson could figure it out"
+  },
+  {
+   "name": "Benson",
+   "type": "person",
+   "role": "person who figured out the narrator's former handle"
+  },
+  {
+   "name": "Harajuku Fun Madness",
+   "type": "program",
+   "role": "game the narrator missed, suspended indefinitely by the company for security reasons"
+  },
+  {
+   "name": "ParanoidXbox",
+   "type": "product",
+   "role": "item the narrator burns in copies and distributes around the city"
+  },
+  {
+   "name": "BART",
+   "type": "organization",
+   "role": "transit system whose stations saw small group protests reported in the paper"
+  },
+  {
+   "name": "Augustus Caesar",
+   "type": "person",
+   "role": "Roman emperor described as a big fan of secret codes who invented his own"
+  }
+ ],
+ "tags": [
+  "cryptography",
+  "surveillance",
+  "anonymity",
+  "fiction",
+  "near-future",
+  "hacking"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1862,
+  "output_tokens": 1227
+ }
+}

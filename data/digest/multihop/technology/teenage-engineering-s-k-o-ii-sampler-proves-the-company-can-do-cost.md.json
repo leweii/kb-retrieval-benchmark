@@ -1,0 +1,92 @@
+{
+ "summary": "James Trew reviews Teenage Engineering's EP-133 K.O. II sampler, a $299 device that looks cool and is far cheaper than the company's Field-series gear. He praises its intuitive layout, pressure-sensitive keys, good built-in mic and performative punch-in effects. He criticizes the lack of resampling, a song mode and the 12-voice limit, and notes early \"fadergate\" fader defects. He sees it as great for beginners and live play, and hopes firmware updates add features.",
+ "one_line": "Engadget reviews Teenage Engineering's $299 EP-133 K.O. II sampler, praising its playful design and performance features while noting fader defects and missing resampling and song mode.",
+ "key_facts": [
+  "The EP-133 K.O. II 64MB Sampler Composer from Teenage Engineering costs $299 and was revealed after a colorful website countdown.",
+  "Units reached buyers barely 24 hours after the K.O. II was revealed.",
+  "Early buyers reported defective faders, dubbed \"fadergate\"; one creator who took a unit apart found the internal pins were bent and not making a connection.",
+  "The K.O. II ships with the rotary and fader caps loose in the box, and the fader cap is unusually tight, leading to speculation that pushing it on damages internals.",
+  "The K.O. II runs on AAA batteries or USB power, is about 12 inches diagonally, and has a retro desk calculator look nodding to the Pocket Operator series.",
+  "Its \"Super segment hybrid display\" uses fixed custom icons, for example a red umbrella means undo.",
+  "The keys are pressure sensitive, and the built-in mic is surprisingly good; the sample manager tool works in a desktop browser or on Android via Web MIDI.",
+  "64MB of memory equals about 11 minutes of samples at 46kHz/16bit, halved for stereo; max sample length is 20 seconds, and presets use about half the memory.",
+  "The K.O. II has a 12-voice limit and only one master effect, and lacks resampling, which Trew calls possibly the biggest user complaint after fadergate.",
+  "There are four sample groups, each holding up to 99 patterns of up to 99 bars; scenes can be saved but can't be chained automatically, so there is no song mode.",
+  "There are 12 punch-in effects triggered by holding FX plus a black pad, and FX+7 adds the Level effect (rhythmic gating).",
+  "Firmware v1.1.1, the second official update, was released as Trew wrote; Teenage Engineering previously added the OP-1 Field vocoder synth over six months after release and the 1.2.38 OP-Z update almost three years in.",
+  "Trew considers it great for beginners and performative players but not as in-depth as Roland's SP 404 or Native Instruments' Maschine."
+ ],
+ "entities": [
+  {
+   "name": "Teenage Engineering",
+   "type": "organization",
+   "role": "Swedish company that makes the K.O. II and other music gear"
+  },
+  {
+   "name": "EP-133 K.O. II",
+   "type": "product",
+   "role": "$299 64MB sampler composer being reviewed"
+  },
+  {
+   "name": "James Trew",
+   "type": "person",
+   "role": "Engadget author and reviewer"
+  },
+  {
+   "name": "Engadget",
+   "type": "organization",
+   "role": "Publication of the review"
+  },
+  {
+   "name": "Field range",
+   "type": "product",
+   "role": "Teenage Engineering's most exclusive and expensive music making gear"
+  },
+  {
+   "name": "PO-33 K.O.",
+   "type": "product",
+   "role": "Original Pocket Operator sampler that the K.O. II follows"
+  },
+  {
+   "name": "OP-1 Field",
+   "type": "product",
+   "role": "Teenage Engineering instrument with the same 20-second max sample length and later firmware additions"
+  },
+  {
+   "name": "OB-4",
+   "type": "product",
+   "role": "Teenage Engineering speaker whose loop mode inspired the K.O. II's looping feature"
+  },
+  {
+   "name": "OP-Z",
+   "type": "product",
+   "role": "Teenage Engineering synth that received the 1.2.38 update"
+  },
+  {
+   "name": "Roland SP 404",
+   "type": "product",
+   "role": "More in-depth sampler used for comparison"
+  },
+  {
+   "name": "Native Instruments Maschine",
+   "type": "product",
+   "role": "More in-depth music production tool used for comparison"
+  },
+  {
+   "name": "Fadergate",
+   "type": "event",
+   "role": "Name for widespread defective fader reports on the K.O. II"
+  }
+ ],
+ "tags": [
+  "music-gear",
+  "sampler",
+  "teenage-engineering",
+  "product-review",
+  "hardware"
+ ],
+ "usage": {
+  "input_tokens": 4686,
+  "output_tokens": 1454
+ }
+}

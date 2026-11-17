@@ -1,0 +1,173 @@
+{
+ "summary": "TechCrunch's Week in Review newsletter for the week of Nov. 11, 2023 recaps OpenAI's first developer conference, Apple hardware reviews, and Tim Cook's comments on generative AI. It also covers Ford shutting down VIIZR, WeWork's Chapter 11 filing, Bumble naming Slack CEO Lidiane Jones as its new CEO, and Arrival's struggles. The issue closes with podcast and TechCrunch+ highlights on Klarna, superconductors and the 'unicorn' term.",
+ "one_line": "TechCrunch's weekly roundup covering OpenAI's dev day, M3 Mac reviews, WeWork's bankruptcy, Bumble's new CEO Lidiane Jones, and more tech news.",
+ "key_facts": [
+  "OpenAI hosted its first-ever developer conference on Monday, announcing tools to create custom \"GPTs\", new text-to-speech models, a DALL-E 3 API, and GPT-4 Turbo.",
+  "Brian found the M3 iMac 24-inch lacking and not necessarily worth the upgrade from the 2021 model, apart from the M3 chip's \"impressive\" gains over the M1.",
+  "The 16-inch M3 Max MacBook Pro costs $2,500 (plus pricey add-ons) and splits the difference between the Mac Studio and MacBook Air, per Brian's review.",
+  "Mozilla senior director of content Carolyn O'Hara outlined Mozilla's fediverse strategy, built on decentralized apps like Mastodon that communicate over the ActivityPub protocol.",
+  "Ford shut down VIIZR, a majority Ford-owned SaaS company with Salesforce as a minority investor, announced in December 2021, which built an app for tradespeople to schedule appointments and send invoices.",
+  "Tim Cook pushed back on the idea that Apple is behind in AI on the Q4 earnings call; reports suggest Apple is on track to spend $1 billion per year on generative AI.",
+  "WeWork filed for Chapter 11 bankruptcy protection, listing over $18.6 billion of debt; it was co-founded by Adam Neumann and backed by SoftBank, BlackRock and Goldman Sachs.",
+  "Bumble is replacing founder CEO Whitney Wolfe Herd with Slack CEO Lidiane Jones, who became Slack CEO last year succeeding Stewart Butterfield.",
+  "EV startup Arrival, founded eight years ago to make EV production \"radically more efficient\", faces missed production targets, low cash reserves, layoffs and a pivot.",
+  "Equity covered fintech market signs starting with Klarna's Q3 results; Found featured Nasrat Khalid of Aseel, which began as an Afghan artisan e-commerce company and now delivers humanitarian aid in Afghanistan and Turkey.",
+  "A new supposedly room-temperature superconducting material is facing retraction of its Nature-published paper, per Tim's TechCrunch+ piece.",
+  "Klarna started a legal entity restructuring to set up a U.K. holding company as an early step toward an IPO.",
+  "Aileen Lee of Cowboy Ventures coined the term \"unicorns\" 10 years ago, and her venture firm is also a decade old."
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Microsoft-backed AI startup that held its first-ever developer conference"
+  },
+  {
+   "name": "GPT-4 Turbo",
+   "type": "product",
+   "role": "Improved version of OpenAI's flagship GPT-4 model announced at dev day"
+  },
+  {
+   "name": "DALL-E 3",
+   "type": "product",
+   "role": "OpenAI text-to-image model that received an API"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Maker of the M3 iMac and MacBook Pro; investing in generative AI"
+  },
+  {
+   "name": "Tim Cook",
+   "type": "person",
+   "role": "Apple CEO who defended Apple's AI progress on the Q4 earnings call"
+  },
+  {
+   "name": "Brian",
+   "type": "person",
+   "role": "TechCrunch writer who reviewed the M3 iMac and M3 Max MacBook Pro"
+  },
+  {
+   "name": "Mozilla",
+   "type": "organization",
+   "role": "Betting on the decentralized fediverse"
+  },
+  {
+   "name": "Carolyn O'Hara",
+   "type": "person",
+   "role": "Mozilla senior director of content who outlined its fediverse strategy"
+  },
+  {
+   "name": "Mastodon",
+   "type": "product",
+   "role": "Example of a decentralized social networking app in the fediverse"
+  },
+  {
+   "name": "Ford",
+   "type": "organization",
+   "role": "Shut down VIIZR, its majority-owned SaaS company"
+  },
+  {
+   "name": "VIIZR",
+   "type": "organization",
+   "role": "Ford-owned SaaS company building a field-work app for tradespeople"
+  },
+  {
+   "name": "Salesforce",
+   "type": "organization",
+   "role": "Minority investor in and partner on VIIZR"
+  },
+  {
+   "name": "WeWork",
+   "type": "organization",
+   "role": "Flexible office-space firm that filed for Chapter 11 bankruptcy"
+  },
+  {
+   "name": "Adam Neumann",
+   "type": "person",
+   "role": "Co-founder of WeWork"
+  },
+  {
+   "name": "Bumble",
+   "type": "organization",
+   "role": "Dating app appointing a new CEO"
+  },
+  {
+   "name": "Whitney Wolfe Herd",
+   "type": "person",
+   "role": "Bumble founder CEO being replaced"
+  },
+  {
+   "name": "Lidiane Jones",
+   "type": "person",
+   "role": "Slack CEO named Bumble's new CEO"
+  },
+  {
+   "name": "Stewart Butterfield",
+   "type": "person",
+   "role": "Slack founder CEO whom Jones succeeded"
+  },
+  {
+   "name": "Slack",
+   "type": "organization",
+   "role": "Workplace messaging company losing its CEO to Bumble"
+  },
+  {
+   "name": "Arrival",
+   "type": "organization",
+   "role": "EV startup whose microfactory plan has failed to deliver"
+  },
+  {
+   "name": "Klarna",
+   "type": "organization",
+   "role": "Swedish fintech moving toward an IPO"
+  },
+  {
+   "name": "Equity",
+   "type": "program",
+   "role": "TechCrunch podcast that discussed fintech market signs"
+  },
+  {
+   "name": "Found",
+   "type": "program",
+   "role": "TechCrunch podcast featuring Nasrat Khalid of Aseel"
+  },
+  {
+   "name": "Nasrat Khalid",
+   "type": "person",
+   "role": "Founder of Aseel featured on Found"
+  },
+  {
+   "name": "Aseel",
+   "type": "organization",
+   "role": "Afghan artisan e-commerce company turned humanitarian aid provider"
+  },
+  {
+   "name": "Aileen Lee",
+   "type": "person",
+   "role": "Cowboy Ventures founder who coined the term \"unicorns\""
+  },
+  {
+   "name": "Cowboy Ventures",
+   "type": "organization",
+   "role": "Venture firm founded by Aileen Lee, now a decade old"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publisher of the Week in Review newsletter"
+  }
+ ],
+ "tags": [
+  "tech-news",
+  "openai",
+  "apple",
+  "startups",
+  "weekly-roundup",
+  "fintech"
+ ],
+ "usage": {
+  "input_tokens": 3157,
+  "output_tokens": 2318
+ }
+}

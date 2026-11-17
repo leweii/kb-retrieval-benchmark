@@ -1,0 +1,83 @@
+{
+ "summary": "Valve announced the Steam Deck OLED, a mid-cycle refresh of the Steam Deck with a 7.4-inch 90Hz HDR OLED screen, a more efficient 6nm APU, and a 50Whr battery. Engadget reviewed it and measured a 62 percent playtime increase in Hades. Valve is also restructuring the lineup and prices, with the LCD model reduced to a 256GB entry version, and hinted at future handhelds and controller prototypes.",
+ "one_line": "Valve launches the Steam Deck OLED on November 16 with a better screen, a more efficient chip and a bigger battery, and reshuffles pricing.",
+ "key_facts": [
+  "The Steam Deck OLED has a 7.4-inch OLED screen versus the original's 7-inch 800p LCD, with the same resolution but a refresh rate of up to 90Hz instead of 60Hz.",
+  "The OLED display is HDR, covers 110 percent of the P3 color space and has a peak brightness of 1,000 nits, compared with around 400 nits on the old model.",
+  "The new APU is a die-shrunk 6nm version of the original 7nm chip; Valve chose efficiency over performance, and max CPU and GPU frequencies match the LCD model so developers have a single performance target.",
+  "The battery is 25 percent larger at 50Whr versus 40Whr; Valve claims a 30-50 percent longevity increase and a battery life of \"three to 12 hours\".",
+  "Engadget measured a 62 percent playtime increase when playing Hades on the OLED model versus its 18-month-old original Steam Deck.",
+  "Other upgrades include Wi-Fi 6E, Bluetooth 5.3, a slightly larger fan, thumbsticks 1mm taller, sharper touch pad haptics, and a power supply with a 2.5m cable that charges from 20 to 80 percent in \"as little as 45 minutes\".",
+  "The new lineup is 256GB LCD at $399, 512GB OLED at $549 and 1TB OLED at $649, plus a Limited Edition 1TB model with a translucent shell and custom carry case at $679.",
+  "The 64GB LCD model drops from $399 to $349 and the 512GB LCD drops from $649 to $499; both will be discontinued once inventory sells through, though Valve will keep supporting LCD models with software updates.",
+  "Anti-glare etched glass is available only on the premium 1TB OLED model, which also gets an improved carry case.",
+  "Valve's Greg Coomer called the OLED model \"the definitive version of the Steam Deck\".",
+  "Valve engineer Pierre-Loup Griffais said the company has \"plans for successive generations of handhelds\" as long as interest remains high.",
+  "Coomer said Valve is still working internally on \"a bunch of controllers and prototypes\", with no announcements on a Steam Machine or updated Steam Controller.",
+  "The Steam Deck OLED can be ordered on November 16th at 1PM ET, with shipping starting as orders come in."
+ ],
+ "entities": [
+  {
+   "name": "Valve",
+   "type": "organization",
+   "role": "Maker of the Steam Deck, announcing the OLED model and new lineup"
+  },
+  {
+   "name": "Steam Deck OLED",
+   "type": "product",
+   "role": "Refreshed handheld with OLED screen, efficient 6nm APU and larger battery"
+  },
+  {
+   "name": "Steam Deck LCD",
+   "type": "product",
+   "role": "Original model, now repriced and reduced to a 256GB entry model"
+  },
+  {
+   "name": "Greg Coomer",
+   "type": "person",
+   "role": "Valve product designer who called the OLED the definitive version"
+  },
+  {
+   "name": "Pierre-Loup Griffais",
+   "type": "person",
+   "role": "Valve engineer who discussed future handheld generations and SteamOS"
+  },
+  {
+   "name": "Engadget",
+   "type": "organization",
+   "role": "Publication that reviewed the device and measured battery gains"
+  },
+  {
+   "name": "Hades",
+   "type": "product",
+   "role": "Game used in Engadget's battery life test"
+  },
+  {
+   "name": "SteamOS",
+   "type": "product",
+   "role": "Operating system Valve says it keeps improving for other devices"
+  },
+  {
+   "name": "Steam Machine",
+   "type": "product",
+   "role": "Past Valve hardware whose possible return was asked about"
+  },
+  {
+   "name": "Steam Controller",
+   "type": "product",
+   "role": "Valve controller whose possible update was asked about"
+  }
+ ],
+ "tags": [
+  "steam-deck",
+  "valve",
+  "handheld-gaming",
+  "oled",
+  "hardware-launch",
+  "pricing"
+ ],
+ "usage": {
+  "input_tokens": 2887,
+  "output_tokens": 1468
+ }
+}

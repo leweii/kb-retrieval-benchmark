@@ -1,0 +1,50 @@
+{
+ "summary": "Guangling District is one of the three districts of Yangzhou in Jiangsu province, China. It covers the eastern half of Yangzhou's main urban area, including the historic center within the former city wall, plus the city's eastern suburbs. The other half of the main urban area lies in Hanjiang District.",
+ "one_line": "Guangling District is an eastern urban and suburban district of Yangzhou, Jiangsu, China, containing the city's historic center within the former city wall.",
+ "key_facts": [
+  "Guangling District is one of three districts of Yangzhou, Jiangsu province, China.",
+  "Guangling District includes the eastern half of Yangzhou's main urban area.",
+  "Guangling District includes Yangzhou's historic center within the former city wall.",
+  "Guangling District also includes the eastern suburbs of Yangzhou.",
+  "The other half of Yangzhou's main urban area is in Hanjiang District."
+ ],
+ "entities": [
+  {
+   "name": "Guangling District",
+   "type": "place",
+   "role": "Subject; one of three districts of Yangzhou"
+  },
+  {
+   "name": "Yangzhou",
+   "type": "place",
+   "role": "City containing Guangling District"
+  },
+  {
+   "name": "Jiangsu",
+   "type": "place",
+   "role": "Province in China where Yangzhou is located"
+  },
+  {
+   "name": "China",
+   "type": "place",
+   "role": "Country where the district is located"
+  },
+  {
+   "name": "Hanjiang District",
+   "type": "place",
+   "role": "District containing the other half of Yangzhou's main urban area"
+  }
+ ],
+ "tags": [
+  "guangling district",
+  "yangzhou",
+  "jiangsu",
+  "china",
+  "administrative divisions"
+ ],
+ "category": "places & geography",
+ "usage": {
+  "input_tokens": 1084,
+  "output_tokens": 513
+ }
+}

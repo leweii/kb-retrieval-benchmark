@@ -1,0 +1,107 @@
+{
+ "summary": "The European Commission confirmed that the political deal on the EU AI Act lets it adapt the rules for \"general purpose\" AI (GPAI) over time, including updating the initial 10^25 FLOPs threshold for high-impact models. The generic term was chosen to futureproof the law, and an AI Office plus a scientific panel will help set thresholds and spot new risks. High risk GPAIs face systemic-risk obligations, others face transparency and watermarking duties, and the full law likely won't apply until 2026.",
+ "one_line": "The Commission says the EU AI Act's general purpose AI rules, including the 10^25 FLOPs threshold, can be updated over time via an AI Office and delegated acts.",
+ "key_facts": [
+  "The EU Act uses the term \"general purpose\" AI models and systems rather than \"foundational\" or \"frontier\" to avoid being tied to a specific technology such as transformer based machine learning.",
+  "A Commission official said the general purpose AI model would be GPT-4 and the general purpose AI system would be ChatGPT, in which GPT-4 is integrated.",
+  "The agreed draft sets the bar for a GPAI to have \"high impact capabilities\" at 10^25 FLOPs of training compute.",
+  "The Commission said 10^25 FLOPs is only an \"initial threshold\" that it can update through implementing/delegating acts, and it could go up or down.",
+  "The FLOPs threshold is meant to be combined over time with \"other benchmarks\" developed by the AI Office, a new expert oversight body within the Commission.",
+  "Makers of GPAIs must self assess whether their models meet the FLOPs threshold and thus fall under rules for GPAIs \"with systemic risk\"; the Commission would not say whether GPT-4 or Gemini are captured.",
+  "High risk GPAIs must assess and mitigate systemic risks, proactively testing outputs for effects on public health, safety, public security, fundamental rights or society.",
+  "Low tier GPAIs face lighter transparency requirements, including watermarking generative AI outputs using state of the art technology; the Commission noted watermarking works better for video and audio than text.",
+  "GPAI makers must respect EU copyright rules including the machine readable text and data mining opt-out in the EU Copyright Directive, and the open source carve-out does not exempt them from copyright obligations.",
+  "The AI Office has no budget or headcount defined yet, and will work with a new scientific advisory panel that can flag risks from models not captured by the FLOP threshold.",
+  "The final text is likely to emerge in January or February, and the AI Act likely won't be in full force until some time in 2026.",
+  "High risk rules for GPAIs apply 24 months after entry into force, while prohibited uses such as social scoring and Clearview AI-style selfie scraping apply six months after, potentially in the second half of 2024.",
+  "Talks to agree the deal lasted 38 hours and ended Friday night; the EU will push GPAIs to follow codes of practice via the AI Pact in the meantime."
+ ],
+ "entities": [
+  {
+   "name": "European Commission",
+   "type": "organization",
+   "role": "EU executive that confirmed it can adapt the AI rulebook and update thresholds"
+  },
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "Bloc that reached a political deal on the AI Act"
+  },
+  {
+   "name": "EU AI Act",
+   "type": "program",
+   "role": "Comprehensive AI law billed as the world's first, with tiers for general purpose AI"
+  },
+  {
+   "name": "AI Office",
+   "type": "organization",
+   "role": "New expert oversight body within the Commission that will set risk classification thresholds for GPAIs"
+  },
+  {
+   "name": "Thierry Breton",
+   "type": "person",
+   "role": "EU internal market commissioner who said the EU will welcome \"a lot\" of new colleagues for the AI Office"
+  },
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "Maker of ChatGPT and GPT-4"
+  },
+  {
+   "name": "GPT-4",
+   "type": "product",
+   "role": "Example of a general purpose AI model"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "Example of a general purpose AI system"
+  },
+  {
+   "name": "Gemini",
+   "type": "product",
+   "role": "Google model mentioned as possibly near the FLOPs threshold"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Maker of Gemini"
+  },
+  {
+   "name": "EU Copyright Directive",
+   "type": "program",
+   "role": "Contains the machine readable opt-out from text and data mining that GPAI makers must respect"
+  },
+  {
+   "name": "AI Pact",
+   "type": "program",
+   "role": "Mechanism for pushing GPAIs to follow codes of practice before the full regulation applies"
+  },
+  {
+   "name": "Clearview AI",
+   "type": "organization",
+   "role": "Referenced as an example of selfie scraping for facial recognition databases, a banned use"
+  },
+  {
+   "name": "Council",
+   "type": "organization",
+   "role": "Co-legislator that must affirm the final text with a final vote"
+  },
+  {
+   "name": "Parliament",
+   "type": "organization",
+   "role": "Co-legislator that must affirm the final text with a final vote"
+  }
+ ],
+ "tags": [
+  "eu-ai-act",
+  "ai-regulation",
+  "general-purpose-ai",
+  "generative-ai",
+  "compliance"
+ ],
+ "usage": {
+  "input_tokens": 3838,
+  "output_tokens": 1689
+ }
+}

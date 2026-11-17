@@ -1,0 +1,158 @@
+{
+ "summary": "This Startups Weekly newsletter from TechCrunch's Haje Jan Kamps opens with his argument that a startup should tackle a problem that seems impossible at first, since hard problems create stronger competitive advantages. It then rounds up the week's news in cybersecurity (Gaza connectivity, Apple threat notifications in India, Atlassian flaw, Palo Alto's Dig Security deal), hardware (Apple M3 chips, Magic Leap CEO change, Shield AI funding) and startup finance (cloud multiples, WeWork, QI Tech, Web Summit CEO, X valuation).",
+ "one_line": "TechCrunch's Startups Weekly argues hard, seemingly impossible problems make better startups, then recaps the week's security, hardware and funding news.",
+ "key_facts": [
+  "Haje Jan Kamps argues that if a startup seems like an easy win, founders are likely overlooking something; if there isn't a very real chance of failure, you're doing it wrong.",
+  "Internet connectivity in Gaza took a severe hit during the Israel–Hamas conflict; Palestinian ISP NetStream reportedly collapsed due to a severe fuel shortage, and Paltel and Mada Al Arab also faced connectivity issues.",
+  "Apple notified several prominent Indian lawmakers and journalists, including opposition leader Rahul Gandhi and Congress figure Shashi Tharoor, of potential state-sponsored attacks on their iPhones, months ahead of India's general elections.",
+  "Atlassian warned of a critical security flaw that could cause significant data loss for customers and urged immediate patching; the product was recently targeted by Chinese state-sponsored hackers.",
+  "Palo Alto Networks is acquiring Israeli company Dig Security for an estimated $400 million to bolster its cloud security-focused Prisma business.",
+  "Apple's 'Scary Fast' October event announced the M3, M3 Pro and M3 Max chips; Apple claims the M3 renders 2.5 times faster than the M1 and has a CPU 30% faster, and the event videos were shot on iPhones.",
+  "Magic Leap replaced CEO Peggy Johnson, who joined in August 2020, with Ross Rosenberg, previously an executive at Belden and First Solar, completing its enterprise pivot.",
+  "Shield AI raised $200 million at a $2.7 billion valuation; Amazon's Eero launched the Eero Max 7 mesh Wi-Fi router.",
+  "WeWork's stock dropped over 47% after hours to $1.21, a market cap of about $121 million, versus the $47 billion valuation after its SoftBank-led Series H round in early 2019.",
+  "Brazilian banking-as-a-service startup QI Tech raised a $200 million Series B, the largest raise in Brazil this year across all sectors, bringing total capital raised to $262 million.",
+  "Former Wikimedia Foundation CEO Katherine Maher was appointed CEO of Web Summit after the controversial departure of Paddy Cosgrave.",
+  "X has marked its value at $19 billion per internal documents, a 56% decrease since Elon Musk's purchase last year.",
+  "Google is rolling out AI-enhanced Maps updates, available in France, Germany, Japan, the U.K. and the U.S."
+ ],
+ "entities": [
+  {
+   "name": "Haje Jan Kamps",
+   "type": "person",
+   "role": "Author of the newsletter and column arguing startups should tackle hard problems"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publisher of Startups Weekly"
+  },
+  {
+   "name": "NetStream",
+   "type": "organization",
+   "role": "Palestinian ISP that reportedly collapsed due to fuel shortage"
+  },
+  {
+   "name": "Paltel",
+   "type": "organization",
+   "role": "Gaza internet provider facing connectivity issues"
+  },
+  {
+   "name": "Mada Al Arab",
+   "type": "organization",
+   "role": "Gaza internet provider facing connectivity issues"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Sent threat notifications in India, fixed an iOS privacy vulnerability, and announced M3 chips"
+  },
+  {
+   "name": "Rahul Gandhi",
+   "type": "person",
+   "role": "Indian opposition leader notified of potential state-sponsored attacks"
+  },
+  {
+   "name": "Shashi Tharoor",
+   "type": "person",
+   "role": "Key Congress party figure notified of potential attacks"
+  },
+  {
+   "name": "Atlassian",
+   "type": "organization",
+   "role": "Warned of a critical security flaw risking data loss"
+  },
+  {
+   "name": "Palo Alto Networks",
+   "type": "organization",
+   "role": "Acquirer of Dig Security"
+  },
+  {
+   "name": "Dig Security",
+   "type": "organization",
+   "role": "Israeli tech company being acquired for about $400 million"
+  },
+  {
+   "name": "Magic Leap",
+   "type": "organization",
+   "role": "AR hardware company that changed CEOs"
+  },
+  {
+   "name": "Peggy Johnson",
+   "type": "person",
+   "role": "Outgoing Magic Leap CEO"
+  },
+  {
+   "name": "Ross Rosenberg",
+   "type": "person",
+   "role": "New Magic Leap CEO"
+  },
+  {
+   "name": "Shield AI",
+   "type": "organization",
+   "role": "Autonomous flying systems startup that raised $200 million"
+  },
+  {
+   "name": "Eero",
+   "type": "product",
+   "role": "Amazon mesh Wi-Fi brand that launched the Eero Max 7"
+  },
+  {
+   "name": "Soundboks",
+   "type": "organization",
+   "role": "Danish startup that released a fourth-generation Bluetooth speaker"
+  },
+  {
+   "name": "WeWork",
+   "type": "organization",
+   "role": "Company possibly heading for bankruptcy with stock at $1.21"
+  },
+  {
+   "name": "QI Tech",
+   "type": "organization",
+   "role": "Brazilian banking-as-a-service startup that raised a $200 million Series B"
+  },
+  {
+   "name": "Katherine Maher",
+   "type": "person",
+   "role": "Former Wikimedia Foundation CEO appointed Web Summit CEO"
+  },
+  {
+   "name": "Paddy Cosgrave",
+   "type": "person",
+   "role": "Previous Web Summit leader who departed controversially"
+  },
+  {
+   "name": "Web Summit",
+   "type": "organization",
+   "role": "Tech conference appointing a new CEO"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Rolling out AI-enhanced Maps updates"
+  },
+  {
+   "name": "X",
+   "type": "organization",
+   "role": "Social platform valued at $19 billion internally"
+  },
+  {
+   "name": "Elon Musk",
+   "type": "person",
+   "role": "Purchased X last year"
+  }
+ ],
+ "tags": [
+  "startups",
+  "cybersecurity",
+  "hardware",
+  "venture-funding",
+  "newsletter",
+  "techcrunch"
+ ],
+ "usage": {
+  "input_tokens": 3556,
+  "output_tokens": 2162
+ }
+}

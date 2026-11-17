@@ -1,0 +1,98 @@
+{
+ "summary": "Tim Biggs tests Google Search against DuckDuckGo and Bing in light of the US antitrust trial against Google, asking whether Google is simply better and whether its default status is unfair. He weighs Google's defence (voiced by Kent Walker) against allegations, now retracted from Wired, that Google manipulates queries for ad revenue. He also explains how Google Search works and why results may seem worse than a decade ago.",
+ "one_line": "Tim Biggs compares Google, DuckDuckGo and Bing while examining Google's antitrust trial, its default status, and claims about ad-driven manipulation of search results.",
+ "key_facts": [
+  "Biggs found Google personalised results to him more effectively than rivals because of its extensive data collection, though DuckDuckGo may appeal to those who dislike that collection.",
+  "In a search for \"kids BMX bike green\", Google did pretty well, DuckDuckGo ignored the green part, and Bing Chat suggested options that were too expensive; a follow-up \"any under $200?\" returned options all over $300.",
+  "Bing has overhauled its layout over the past year to be very graphic and augmented by generative AI explanations from its chatbot.",
+  "Kent Walker, Google's president of global affairs, said \"People don't use Google because they have to, they use it because they want to\" and that the lawsuit ignores how competitive the tech industry is.",
+  "When Mozilla made Yahoo! the default on Firefox, most users changed it to Google; \"Google\" was the number one search query on Bing in 2021.",
+  "The US must prove Google broke the law to achieve the status quo, which could make the case an uphill battle.",
+  "Wired published an opinion article by Megan Gray alleging Google revealed in the trial that it manipulates queries for ad revenue, e.g. swapping \"children's clothing\" for \"NIKOLAI-brand kidswear\"; Google called it misleading and inaccurate, and Wired removed it for not meeting its standards.",
+  "Megan Gray is a former vice-president at DuckDuckGo; she admits she may have misinterpreted the evidence but maintains that Google manipulates Search to maximise ad revenue.",
+  "Google search liaison Danny Sullivan said on X that ad keyword matching is separate from the process that matches organic results to a query.",
+  "In 2013 people created around 9 ZB of data per year, versus about 120 ZB in 2023, offering a simpler explanation than monetisation for complaints that Google was better 10 years ago.",
+  "Google's central index is more than 100 million gigabytes, and its machine learning ranks results prioritising high quality, easy-to-use sites.",
+  "Users can turn off personalisation using the \"Web & App Activity\" setting in their Google account; Google says it does not infer race or religion.",
+  "Google says it ran almost 900,000 quality tests in 2022 using independent \"search quality raters\"."
+ ],
+ "entities": [
+  {
+   "name": "Tim Biggs",
+   "type": "person",
+   "role": "Author who tested Google Search against competitors"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Search giant on trial and defending its default status"
+  },
+  {
+   "name": "DuckDuckGo",
+   "type": "organization",
+   "role": "Privacy-focused search rival tested by the author"
+  },
+  {
+   "name": "Bing",
+   "type": "product",
+   "role": "Microsoft search engine with generative AI chatbot features"
+  },
+  {
+   "name": "Bing Chat",
+   "type": "product",
+   "role": "Bing's AI chatbot offering comparisons and follow-up questions"
+  },
+  {
+   "name": "Kent Walker",
+   "type": "person",
+   "role": "Google president of global affairs who defended Google's position"
+  },
+  {
+   "name": "Megan Gray",
+   "type": "person",
+   "role": "Lawyer, privacy advocate and former DuckDuckGo vice-president who alleged Google manipulates queries"
+  },
+  {
+   "name": "Danny Sullivan",
+   "type": "person",
+   "role": "Google's official search liaison who denied ads affect organic results"
+  },
+  {
+   "name": "Wired",
+   "type": "organization",
+   "role": "Published and then removed Gray's opinion article"
+  },
+  {
+   "name": "Mozilla",
+   "type": "organization",
+   "role": "Made Yahoo! the default search on Firefox"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Sets Bing as default on Windows devices"
+  },
+  {
+   "name": "Yahoo!",
+   "type": "organization",
+   "role": "Search provider once made Firefox default"
+  },
+  {
+   "name": "Web & App Activity",
+   "type": "other",
+   "role": "Google account setting controlling use of personal data in search"
+  }
+ ],
+ "tags": [
+  "google",
+  "search-engines",
+  "antitrust",
+  "privacy",
+  "advertising",
+  "technology"
+ ],
+ "usage": {
+  "input_tokens": 3191,
+  "output_tokens": 1492
+ }
+}

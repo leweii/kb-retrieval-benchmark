@@ -1,0 +1,121 @@
+{
+ "summary": "TechCrunch reports that despite vendor hype, large-company CIOs are adopting generative AI cautiously, mostly in evaluation or proof-of-concept stages. They face pressure from employees and CEOs who have tried ChatGPT, while needing to weigh costs and prove ROI. CIOs at Liberty Mutual, Battelle, Principal Financial Group and Juniper Networks describe pilots and use-case development, and note that measuring productivity gains remains hard.",
+ "one_line": "Enterprise CIOs are moving cautiously on generative AI, running pilots and proofs of concept while struggling to measure ROI and productivity.",
+ "key_facts": [
+  "A July Morgan Stanley survey of large company CIOs found 56% said generative AI was affecting their investment priorities, but only 4% had launched significant projects.",
+  "Most surveyed CIOs were still in the evaluation or proof of concept phase of generative AI.",
+  "Jon Turow, a partner at Madrona Ventures, says CIOs are under pressure to deliver ChatGPT-level experiences because employees have tried ChatGPT and 'know what amazing looks like'.",
+  "Jim Rowan, principal at Deloitte, says the infrastructure companies need is mainly people, processes and governance rather than technology.",
+  "Monica Caldas, CIO of insurance company Liberty Mutual, started with a few-thousand-person proof of concept and wants to expand it across the company's 45,000 employees.",
+  "Mike Haney, CIO at Battelle, says the firm has pushed AI for six or nine months and is building specific use cases for each team and function, with good efficiency results so far.",
+  "Kathy Kay, executive VP and CIO at Principal Financial Group, formed a study group of about 100 volunteer engineers and business people.",
+  "Principal Financial Group's study group is curating about 25 use cases, and three will soon go into production.",
+  "Sharon Mandell, CIO at Juniper Networks, says the company is in an initial pilot with Microsoft of Copilot for Office 365, with feedback ranging from people who love it to those less impressed.",
+  "Mandell says measuring productivity is hard because there is no data on people's productivity, so teams rely on anecdotal information plus Microsoft dashboards showing adoption and usage.",
+  "Generative AI carries costs, either higher SaaS feature pricing or large language model API fees when building software internally.",
+  "Some companies are trying to cut or hold spending, with the main exception being technology that lets them do more with less."
+ ],
+ "entities": [
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publication that ran the article and interviewed Jon Turow"
+  },
+  {
+   "name": "Ron Miller",
+   "type": "person",
+   "role": "Author of the article"
+  },
+  {
+   "name": "Morgan Stanley",
+   "type": "organization",
+   "role": "Conducted a July survey of large company CIOs on generative AI"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "Tool employees have tried, setting expectations for enterprise AI experiences"
+  },
+  {
+   "name": "Jon Turow",
+   "type": "person",
+   "role": "Partner at Madrona Ventures who discussed pressure on CIOs"
+  },
+  {
+   "name": "Madrona Ventures",
+   "type": "organization",
+   "role": "Venture firm where Jon Turow is a partner"
+  },
+  {
+   "name": "Jim Rowan",
+   "type": "person",
+   "role": "Principal at Deloitte advising clients on building generative AI in an organized fashion"
+  },
+  {
+   "name": "Deloitte",
+   "type": "organization",
+   "role": "Consultancy helping clients set up generative AI infrastructure and governance"
+  },
+  {
+   "name": "Monica Caldas",
+   "type": "person",
+   "role": "CIO at Liberty Mutual"
+  },
+  {
+   "name": "Liberty Mutual",
+   "type": "organization",
+   "role": "Insurance company with 45,000 employees running a generative AI proof of concept"
+  },
+  {
+   "name": "Mike Haney",
+   "type": "person",
+   "role": "CIO at Battelle"
+  },
+  {
+   "name": "Battelle",
+   "type": "organization",
+   "role": "Science and technology firm building team-specific generative AI use cases"
+  },
+  {
+   "name": "Kathy Kay",
+   "type": "person",
+   "role": "Executive VP and CIO at Principal Financial Group"
+  },
+  {
+   "name": "Principal Financial Group",
+   "type": "organization",
+   "role": "Financial services company with a generative AI study group and about 25 use cases"
+  },
+  {
+   "name": "Sharon Mandell",
+   "type": "person",
+   "role": "CIO at Juniper Networks"
+  },
+  {
+   "name": "Juniper Networks",
+   "type": "organization",
+   "role": "Company piloting Copilot for Office 365 with Microsoft"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "Vendor running the Copilot for Office 365 pilot and providing usage dashboards"
+  },
+  {
+   "name": "Copilot for Office 365",
+   "type": "product",
+   "role": "Microsoft generative AI product being piloted at Juniper Networks"
+  }
+ ],
+ "tags": [
+  "generative-ai",
+  "enterprise-it",
+  "cio",
+  "adoption",
+  "roi"
+ ],
+ "usage": {
+  "input_tokens": 2541,
+  "output_tokens": 1619
+ }
+}

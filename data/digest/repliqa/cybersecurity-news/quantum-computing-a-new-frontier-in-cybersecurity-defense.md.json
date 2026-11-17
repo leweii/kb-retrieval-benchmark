@@ -1,0 +1,99 @@
+{
+ "summary": "The article traces how cybersecurity evolved from early internet threats to the arrival of quantum computing, which endangers current encryption such as RSA via Shor's algorithm while also enabling defenses like Quantum Key Distribution. It covers government and private-sector responses, NIST's post-quantum standardization, and the need for quantum-literate education and workforce. It closes with open questions about transitioning to a quantum-secure future.",
+ "one_line": "Quantum computing threatens current encryption through Shor's algorithm but also offers defenses like QKD, prompting government, industry and educational responses.",
+ "key_facts": [
+  "Robert Morris in the 1980s created the first notable worm, which inadvertently caused widespread disruption and helped lay the groundwork for cybersecurity as a discipline.",
+  "Whitfield Diffie and Martin Hellman are credited in the note with giving life to encryption, changing how information is protected.",
+  "Organizations responded to malware, ransomware and phishing with firewalls, intrusion detection systems, and encryption algorithms like RSA and AES.",
+  "By October 2024, Google, IBM and other tech giants reported the arrival of capable quantum computers.",
+  "Quantum computers use qubits, which can exist in multiple states simultaneously due to superposition and entanglement, unlike classical bits (0s and 1s).",
+  "Shor's algorithm, proposed by Peter Shor in the mid-1990s, can factorize large numbers exponentially faster than the best-known classical algorithms, threatening current encryption.",
+  "Integer factorization is described as the backbone of modern encryption methods.",
+  "Dr. Eleanor Rieffel said, \"Quantum computing isn't just a new chip, it's a completely new way of thinking about and processing information.\"",
+  "Quantum Key Distribution (QKD) exploits the fact that measuring a quantum system inevitably alters it, making eavesdropping detectable.",
+  "Dr. Natalie Smith, a physicist specializing in QKD, said in November 2025 that any eavesdropping attempt on the quantum channel is immediately detectable.",
+  "Governments began launching quantum initiatives as early as 2023 to explore defense uses and prepare for a post-quantum cryptographic landscape.",
+  "As of late 2026, NIST has been actively promoting development and standardization of post-quantum cryptography.",
+  "By early 2027, several tech companies and startups unveiled products leveraging quantum technologies to enhance security.",
+  "By early 2028, a new generation of quantum-literate cybersecurity professionals is expected to enter the field as universities add quantum computing and cryptography to curricula."
+ ],
+ "entities": [
+  {
+   "name": "Robert Morris",
+   "type": "person",
+   "role": "Created the first notable internet worm in the 1980s"
+  },
+  {
+   "name": "Whitfield Diffie",
+   "type": "person",
+   "role": "Cryptographer credited with advancing encryption"
+  },
+  {
+   "name": "Martin Hellman",
+   "type": "person",
+   "role": "Cryptographer credited with advancing encryption"
+  },
+  {
+   "name": "Dr. Eleanor Rieffel",
+   "type": "person",
+   "role": "Leading quantum computing researcher quoted on quantum computing as a new way of processing information"
+  },
+  {
+   "name": "Peter Shor",
+   "type": "person",
+   "role": "Mathematician who proposed Shor's algorithm in the mid-1990s"
+  },
+  {
+   "name": "Dr. Natalie Smith",
+   "type": "person",
+   "role": "Physicist specializing in QKD, quoted in November 2025"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "Tech giant reporting the arrival of capable quantum computers"
+  },
+  {
+   "name": "IBM",
+   "type": "organization",
+   "role": "Tech giant reporting the arrival of capable quantum computers"
+  },
+  {
+   "name": "National Institute of Standards and Technology (NIST)",
+   "type": "organization",
+   "role": "Agency promoting standardization of post-quantum cryptography"
+  },
+  {
+   "name": "Shor's algorithm",
+   "type": "product",
+   "role": "Quantum algorithm that factorizes large numbers exponentially faster, threatening current encryption"
+  },
+  {
+   "name": "Quantum Key Distribution (QKD)",
+   "type": "product",
+   "role": "Quantum cryptography technique enabling secure communication with detectable eavesdropping"
+  },
+  {
+   "name": "RSA",
+   "type": "product",
+   "role": "Encryption algorithm used in current defenses"
+  },
+  {
+   "name": "AES",
+   "type": "product",
+   "role": "Encryption algorithm used in current defenses"
+  }
+ ],
+ "tags": [
+  "quantum-computing",
+  "cybersecurity",
+  "cryptography",
+  "post-quantum",
+  "qkd",
+  "national-security"
+ ],
+ "usage": {
+  "input_tokens": 2887,
+  "output_tokens": 1483
+ }
+}

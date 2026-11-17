@@ -1,0 +1,149 @@
+{
+ "summary": "The Verge guide summarizes price-matching policies at major retailers ahead of Black Friday and Cyber Monday, including Target, Best Buy, Walmart, Apple, Costco, Dell, eBay, Google, HP, Lenovo, Microsoft and Newegg. Most policies carry many restrictions, such as exclusions for holiday sales, marketplace sellers and membership stores, so readers should check each policy. Amazon and Costco do not price-match, and customer service may still help.",
+ "one_line": "A Verge guide to the price-matching policies, deadlines, and exclusions at major US retailers ahead of Black Friday and Cyber Monday.",
+ "key_facts": [
+  "Amazon doesn't offer price matching, even for Prime customers, but its liberal return policy lets you return an item and repurchase it where it's cheapest.",
+  "Target will match prices on its own items that go on sale through December 24th (as of October 22nd), and will match Amazon, Best Buy and select competitors if asked at purchase or within 14 days.",
+  "Target's policy excludes doorbusters, competitors' lightning sales, items requiring login to see the price, and \"Marketplace\" third-party items.",
+  "Best Buy's Price Match Guarantee excludes items for sale the Friday before Thanksgiving Day through the Monday after Thanksgiving.",
+  "Best Buy will match a price lowered during the return and exchange period, which typically lasts up to 15 days.",
+  "Walmart doesn't match competitors; it only matches Walmart store prices on Walmart.com items in stock, and not for Alaska, Hawaii, or Puerto Rico residents.",
+  "Apple has no official price-match policy, but refunds the difference if it cuts its price on an Apple-branded product within 14 days of receipt, excluding Black Friday and Cyber Monday sales.",
+  "Costco does not price-match competitors, but issues a credit if the price drops, requested up to 30 days before the change in price.",
+  "eBay gives \"110 percent\" of the price difference as a coupon for eBay Deal items bought within 48 hours, and the coupon expires within 30 days.",
+  "Google matches Amazon, Best Buy, Walmart, B&H Photo and Target prices within the standard return period, but the product must be identical and in stock.",
+  "HP price matches must be requested by calling 1-800-888-0229 at the time of purchase, not by email or chat, and exclude membership stores like Costco and Sam's Club.",
+  "Microsoft will refund price drops on physical products bought from the Microsoft Store, now through January 31st.",
+  "Newegg offers price matching on items labeled \"Price Match Guarantee\", requires notice within 14 days, and issues a credit valid for 90 days.",
+  "Lowe's and The Home Depot match identical, in-stock products, but not during special sales like Black Friday."
+ ],
+ "entities": [
+  {
+   "name": "The Verge",
+   "type": "organization",
+   "role": "publication that ran the price-matching guide"
+  },
+  {
+   "name": "Barbara Krasnoff",
+   "type": "person",
+   "role": "author of the article"
+  },
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "retailer with no price matching but a liberal return policy"
+  },
+  {
+   "name": "Target",
+   "type": "organization",
+   "role": "retailer that matches its own sale prices and select competitors"
+  },
+  {
+   "name": "Best Buy",
+   "type": "organization",
+   "role": "retailer with a Price Match Guarantee"
+  },
+  {
+   "name": "Pacific Sales",
+   "type": "organization",
+   "role": "store where Best Buy price-match requests can be made"
+  },
+  {
+   "name": "Walmart",
+   "type": "organization",
+   "role": "retailer matching only Walmart store prices on Walmart.com"
+  },
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "company with no official price match but a 14-day price-drop refund"
+  },
+  {
+   "name": "B&H",
+   "type": "organization",
+   "role": "retailer that matches prices case by case"
+  },
+  {
+   "name": "Costco",
+   "type": "organization",
+   "role": "membership retailer that issues credits for price drops, not price matches"
+  },
+  {
+   "name": "Dell",
+   "type": "organization",
+   "role": "PC maker that matches identical products from many retailers"
+  },
+  {
+   "name": "eBay",
+   "type": "organization",
+   "role": "marketplace offering a \"Best Price Guarantee\" with 110 percent coupons"
+  },
+  {
+   "name": "GameStop",
+   "type": "organization",
+   "role": "retailer with no official policy but a tweet about matching Amazon"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "company matching select retailers' prices within the return period"
+  },
+  {
+   "name": "The Home Depot",
+   "type": "organization",
+   "role": "retailer matching identical in-stock products"
+  },
+  {
+   "name": "HP",
+   "type": "organization",
+   "role": "PC maker matching nationally recognized online retailers"
+  },
+  {
+   "name": "Lenovo",
+   "type": "organization",
+   "role": "PC maker matching comparable PCs and offering a 30-day price guarantee refund"
+  },
+  {
+   "name": "Lowe's",
+   "type": "organization",
+   "role": "retailer matching identical in-stock products"
+  },
+  {
+   "name": "Microsoft",
+   "type": "organization",
+   "role": "company refunding price drops on Microsoft Store physical products"
+  },
+  {
+   "name": "Newegg",
+   "type": "organization",
+   "role": "retailer with a Price Match Guarantee label on select items"
+  },
+  {
+   "name": "Black Friday",
+   "type": "event",
+   "role": "shopping event commonly excluded from price-match policies"
+  },
+  {
+   "name": "Cyber Monday",
+   "type": "event",
+   "role": "shopping event commonly excluded from price-match policies"
+  },
+  {
+   "name": "Sam's Club",
+   "type": "organization",
+   "role": "membership store excluded from HP's price matching"
+  }
+ ],
+ "tags": [
+  "price-matching",
+  "retail",
+  "shopping",
+  "black-friday",
+  "consumer-tips",
+  "technology"
+ ],
+ "usage": {
+  "input_tokens": 4879,
+  "output_tokens": 1835
+ }
+}

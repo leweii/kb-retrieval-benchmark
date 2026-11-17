@@ -1,0 +1,84 @@
+{
+ "summary": "Pull request #1240 in ros-controls/ros2_control, opened by mamueluth on Dec 20, 2023, moves creation, exportation and storage of Command-/StateInterface from user hardware code into the framework. Interfaces are built from an InterfaceDescription parsed from the URDF, store their values directly in the handle (with std::variant support), and hardware accesses them through set/get functions on the component interface. The note covers the design rationale, Codecov results, and review feedback from destogl and saikishor, which the author addressed in later commits.",
+ "one_line": "ros2_control PR #1240 lets the framework create and store Command-/StateInterface from URDF descriptions, with std::variant handles and reviewer feedback.",
+ "key_facts": [
+  "PR #1240 in ros-controls/ros2_control is titled \"[HW Interface] Change creation, exportation and storing of Command-/StateInterface + Support for variant\" and is authored by mamueluth.",
+  "The PR was opened Dec 20, 2023, has 22 commits, changes 25 files (+2,735 −216), and merges StoglRobotics-forks:change_interface_export_variant into master.",
+  "The concept is described as fully backward compatible, tested, and showcased by adapting example_1 in ros2_control_demos PR #396.",
+  "Command-/StateInterface creation moves from the HW (user) to the framework, which calls on_export_state_interface() and on_export_command_interface() instead of the component's export_state_interface()/export_command_interface().",
+  "Interfaces are created from an InterfaceDescription parsed from the URDF, encapsulating data_type, default_values, min and max.",
+  "Handles now store the value directly instead of a raw pointer to HW memory, and the value type is std::variant, enabling non-double types and possible checks of whether a handle was updated.",
+  "Components access values via set_state/get_state and set_command/get_command, e.g. set_state(\"joint1/position\", 1.0); interfaces are kept in a map inside Actuator-, Sensor- or SystemInterface.",
+  "export_command/state_interfaces_2() will be renamed to export_command/state_interfaces() once the deprecated version is removed, because return type polymorphism is not possible and a base function for exporting custom unlisted interfaces is wanted.",
+  "Codecov reported patch coverage of 55.21% with 146 lines missing, and project coverage of 48.20% (−27.31%) versus base 35bb5f7.",
+  "On Jan 22, 2024 destogl requested changes: abstract the deprecated approach at component level rather than in ResourceManager, and add a test for a component manually exporting custom interfaces not defined in the URDF.",
+  "saikishor suggested changes on Jan 23, 2024, such as using a StateInterfaceSharedPtr alias instead of std::shared_ptr<StateInterface>.",
+  "On Jan 23, 2024 mamueluth made on_export_* virtual and the state and command maps protected instead of private to allow overriding and adding custom interfaces.",
+  "The added test URDFs mimic the hardware in test_component_interfaces.cpp so the same tests cover old and new export versions without regressions."
+ ],
+ "entities": [
+  {
+   "name": "mamueluth",
+   "type": "person",
+   "role": "Author of PR #1240"
+  },
+  {
+   "name": "destogl",
+   "type": "person",
+   "role": "Reviewer who requested changes on component-level deprecation and custom interface tests"
+  },
+  {
+   "name": "saikishor",
+   "type": "person",
+   "role": "Reviewer who suggested code changes"
+  },
+  {
+   "name": "ros-controls/ros2_control",
+   "type": "organization",
+   "role": "Target repository of the pull request"
+  },
+  {
+   "name": "StoglRobotics-forks",
+   "type": "organization",
+   "role": "Source fork of the PR branch change_interface_export_variant"
+  },
+  {
+   "name": "ros2_control_demos",
+   "type": "program",
+   "role": "Demos repository where PR #396 adapts example_1 to showcase the changes"
+  },
+  {
+   "name": "Codecov",
+   "type": "product",
+   "role": "Bot reporting coverage for the PR"
+  },
+  {
+   "name": "InterfaceDescription",
+   "type": "other",
+   "role": "Structure encapsulating interface info parsed from the URDF"
+  },
+  {
+   "name": "ResourceManager",
+   "type": "other",
+   "role": "Component that receives shared_ptr to Command-/StateInterface"
+  },
+  {
+   "name": "GitHub",
+   "type": "organization",
+   "role": "Hosting platform of the pull request"
+  }
+ ],
+ "tags": [
+  "ros2_control",
+  "pull-request",
+  "hardware-interface",
+  "std-variant",
+  "code-review",
+  "robotics"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 15842,
+  "output_tokens": 1481
+ }
+}

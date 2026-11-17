@@ -1,0 +1,102 @@
+{
+ "summary": "The note surveys innovations, policies and practices since September 2023 aimed at making internet infrastructure more resilient to outages. It covers self-healing networks, AI/ML tools, satellite redundancy, edge computing, quantum-resistant encryption, policy collaboration, redundancy regulation, community networks and workforce education. It concludes optimistically that a near-unbreakable internet is within reach.",
+ "one_line": "Overview of technologies, regulations and community efforts since late 2023 that aim to reduce internet outages and build a resilient network.",
+ "key_facts": [
+  "On November 10, 2023, a major internet provider suffered widespread outages from a fiber cut during construction, leaving thousands of businesses offline for hours.",
+  "Self-healing networks automatically detect and isolate failures and reroute data in real time to maintain service continuity.",
+  "Dr. Iris Bennett of TechForward said at a December 5, 2023 conference that the systems are 'not only reactive to issues as they arise but are also predictive'.",
+  "Since NetStable Inc. rolled out AI-enhanced tools in early January 2024, downtime has fallen by 35% compared to the previous year.",
+  "OrionCom and SkyWeave launched low Earth orbit satellite constellations with reduced latency and higher bandwidth.",
+  "On February 22, 2024, during a massive grid failure, satellite networks took over the load and kept critical communication lines open.",
+  "During a DDoS attack on April 8, 2024, edge computing nodes maintained uninterrupted service despite the larger network being targeted.",
+  "CyberLock has begun integrating quantum-resistant algorithms into its systems, which have so far proven immune to sophisticated intrusion attempts.",
+  "The International Summit on Cyber Resilience in Brussels on September 15, 2023 established the Global Resilience Partnership of tech companies, governments and NGOs.",
+  "The Network Redundancy and Preparedness Act (NRPA) followed the October 2023 Outage on the Eastern Seaboard and mandates redundancy, regular stress tests and public resilience reporting.",
+  "Lakeside Connect, a community network established in Minnesota on March 3, 2024, and run by local residents, weathered regional service outages.",
+  "Global Tech Education has launched initiatives to train the next generation of network engineers in innovation and cross-disciplinary skills."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Iris Bennett",
+   "type": "person",
+   "role": "Network specialist leading research at TechForward who spoke on predictive self-healing networks"
+  },
+  {
+   "name": "TechForward",
+   "type": "organization",
+   "role": "Organization where Dr. Iris Bennett leads self-healing network research"
+  },
+  {
+   "name": "NetStable Inc.",
+   "type": "organization",
+   "role": "Company that rolled out AI-enhanced network tools in January 2024"
+  },
+  {
+   "name": "OrionCom",
+   "type": "organization",
+   "role": "Company that launched a low Earth orbit satellite constellation"
+  },
+  {
+   "name": "SkyWeave",
+   "type": "organization",
+   "role": "Company that launched a low Earth orbit satellite constellation"
+  },
+  {
+   "name": "CyberLock",
+   "type": "organization",
+   "role": "Security firm integrating quantum-resistant algorithms"
+  },
+  {
+   "name": "International Summit on Cyber Resilience",
+   "type": "event",
+   "role": "Brussels summit on September 15, 2023 that led to the Global Resilience Partnership"
+  },
+  {
+   "name": "Global Resilience Partnership",
+   "type": "organization",
+   "role": "Consortium of tech companies, governments and NGOs aligning standards and co-developing solutions"
+  },
+  {
+   "name": "Network Redundancy and Preparedness Act (NRPA)",
+   "type": "program",
+   "role": "Regulation mandating redundancy, stress tests and public reporting by providers"
+  },
+  {
+   "name": "October 2023 Outage",
+   "type": "event",
+   "role": "Major service interruption on the Eastern Seaboard that prompted the NRPA"
+  },
+  {
+   "name": "Lakeside Connect",
+   "type": "organization",
+   "role": "Community network in Minnesota that weathered regional outages"
+  },
+  {
+   "name": "Global Tech Education",
+   "type": "organization",
+   "role": "Organization training the next generation of network engineers"
+  },
+  {
+   "name": "Brussels",
+   "type": "place",
+   "role": "Host city of the International Summit on Cyber Resilience"
+  },
+  {
+   "name": "Minnesota",
+   "type": "place",
+   "role": "Location of the Lakeside Connect community network"
+  }
+ ],
+ "tags": [
+  "network-resilience",
+  "internet-outages",
+  "self-healing-networks",
+  "satellite-internet",
+  "cybersecurity",
+  "policy"
+ ],
+ "usage": {
+  "input_tokens": 2827,
+  "output_tokens": 1471
+ }
+}

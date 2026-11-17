@@ -1,0 +1,108 @@
+{
+ "summary": "Seismic intensity scales rate the severity of ground shaking at a specific location based on observed effects on people, structures and nature, unlike magnitude scales that measure an earthquake's overall strength. The note covers factors that control shaking (distance, depth, wave type, local geology), the use of isoseismal maps, the historical development from Pignataro to the Modified Mercalli scale, and the different scales used by country.",
+ "one_line": "Overview of seismic intensity scales, which rate observed ground-shaking effects at a location, their history, controlling factors, and regional use.",
+ "key_facts": [
+  "Seismic intensity scales categorize the severity of ground shaking at a given location and differ from magnitude scales, which measure an earthquake's overall strength.",
+  "Intensity scales are based on observed effects such as how alarmed people or animals were and the extent of damage to structures or natural features.",
+  "Shaking intensity depends on source size, seismic wave type and orientation, event depth, distance from the source, and site response due to local geology.",
+  "Unconsolidated sediments in a basin can amplify ground motions as much as ten times.",
+  "In the 1989 Loma Prieta earthquake, San Francisco's Marina district was among the most damaged areas though it was nearly 100 km from the epicenter, due to soft soil amplification.",
+  "Isoseismal maps show intensities felt in different areas and can estimate the location and magnitude of earthquakes not recorded on seismographs, such as historical ones; the 1968 Illinois earthquake is an example.",
+  "Domenico Pignataro devised the first simple classification of earthquake intensity in the 1780s, and P.N.G. Egen drew up the first recognisable modern intensity scale in 1828.",
+  "Robert Mallet, an Irish engineer, made the first modern mapping of earthquake intensity for the December 1857 Basilicata (Great Neapolitan) earthquake.",
+  "The Rossi–Forel scale, a 10-grade scale, was the first widely adopted intensity scale, introduced in the late 19th century.",
+  "Giuseppe Mercalli created the 12-grade Mercalli Scale in 1902.",
+  "In the 1950s Charles Francis Richter helped correlate intensity with peak ground acceleration and tied intensity to building types, leading to the Modified Mercalli intensity scale.",
+  "Richter's equation is log a = I/3 − 0.5, where a is PGA in cm/sec and I is intensity.",
+  "The United States, Hong Kong and Indonesia use the Modified Mercalli scale; India, Israel, Kazakhstan and Russia use MSK; Japan uses the JMA scale; China uses the Liedu scale; Europe uses EMS-98; the Philippines uses PEIS; Taiwan uses the Central Weather Bureau scale."
+ ],
+ "entities": [
+  {
+   "name": "Domenico Pignataro",
+   "type": "person",
+   "role": "devised the first simple classification of earthquake intensity in the 1780s"
+  },
+  {
+   "name": "P.N.G. Egen",
+   "type": "person",
+   "role": "drew up the first recognisable modern intensity scale in 1828"
+  },
+  {
+   "name": "Robert Mallet",
+   "type": "person",
+   "role": "Irish engineer who made the first modern mapping of earthquake intensity after the 1857 Basilicata earthquake"
+  },
+  {
+   "name": "Giuseppe Mercalli",
+   "type": "person",
+   "role": "Italian seismologist who created the 12-grade Mercalli Scale in 1902"
+  },
+  {
+   "name": "Charles Francis Richter",
+   "type": "person",
+   "role": "found the correlation between intensity and peak ground acceleration in the 1950s"
+  },
+  {
+   "name": "Imperial College, London",
+   "type": "organization",
+   "role": "sent Robert Mallet to research the 1857 Basilicata earthquake"
+  },
+  {
+   "name": "1857 Basilicata earthquake",
+   "type": "event",
+   "role": "Great Neapolitan Earthquake, studied by Mallet for first modern intensity mapping"
+  },
+  {
+   "name": "1989 Loma Prieta earthquake",
+   "type": "event",
+   "role": "example of soil amplification causing heavy damage in San Francisco's Marina district"
+  },
+  {
+   "name": "1968 Illinois earthquake",
+   "type": "event",
+   "role": "subject of an example isoseismal map"
+  },
+  {
+   "name": "Rossi–Forel scale",
+   "type": "product",
+   "role": "first widely adopted 10-grade intensity scale"
+  },
+  {
+   "name": "Modified Mercalli scale",
+   "type": "product",
+   "role": "intensity scale used in the US, Hong Kong and Indonesia"
+  },
+  {
+   "name": "European Macroseismic Scale (EMS-98)",
+   "type": "product",
+   "role": "intensity scale used in Europe"
+  },
+  {
+   "name": "Medvedev–Sponheuer–Karnik scale",
+   "type": "product",
+   "role": "MSK-64 scale used in India, Israel, Kazakhstan and Russia"
+  },
+  {
+   "name": "USGS ShakeMap",
+   "type": "product",
+   "role": "provides near-real-time maps of ground motion and shaking intensity"
+  },
+  {
+   "name": "Marina district",
+   "type": "place",
+   "role": "San Francisco area heavily damaged in 1989 despite being nearly 100 km from the epicenter"
+  }
+ ],
+ "tags": [
+  "seismology",
+  "earthquakes",
+  "intensity scales",
+  "modified mercalli",
+  "ground shaking"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4480,
+  "output_tokens": 1723
+ }
+}

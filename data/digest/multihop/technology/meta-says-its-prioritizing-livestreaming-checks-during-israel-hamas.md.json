@@ -1,0 +1,108 @@
+{
+ "summary": "After a content moderation warning from EU regulators, Meta published an overview of how it is handling risks on Facebook and Instagram from the Israel-Hamas war. It temporarily expanded its Violence and Incitement policy to protect kidnapped Israelis and is prioritizing livestream checks to stop Hamas broadcasting hostage footage. The article also explains the EU Digital Services Act obligations and penalties, and notes that X and TikTok have received EU warnings too.",
+ "one_line": "Meta details its Israel-Hamas war response, prioritizing livestream checks and hostage content removal, after an EU Digital Services Act warning.",
+ "key_facts": [
+  "Meta temporarily expanded its Violence and Incitement policy to prioritize the safety of Israelis kidnapped by Hamas.",
+  "Meta will remove content that \"clearly identifies hostages when we're made aware of it, even if it's being done to condemn or raise awareness of their situation\".",
+  "Meta allows content with blurred images of victims but, in line with Geneva Convention standards, prioritizes the safety and privacy of kidnapping victims when unsure.",
+  "Meta is prioritizing livestream reports related to the crisis on Facebook and Instagram, above its existing prioritization of Live videos, and restricts Live for people who previously violated certain policies.",
+  "An Israeli media report described a family learning of a grandmother's death after Hamas militants posted a video of her body to her own Facebook page, apparently using her phone.",
+  "In the three days after October 7, Meta removed or marked as disturbing more than 795,000 pieces of content in Hebrew and Arabic.",
+  "In those three days Meta removed seven times as many pieces of content daily under its Dangerous Organizations and Individuals policy in Hebrew and Arabic as in the prior two months.",
+  "Meta set up a special operations center staffed with experts, including Arabic and Hebrew speakers, and is applying hashtag blocking without specifying which hashtags.",
+  "For some violations Meta is temporarily removing content without strikes, so removals won't cause accounts to be disabled, because non-violating content may be removed \"in error\".",
+  "The EU Commission designated 19 very large online platforms (VLOPs) in April, including Facebook and Instagram, and DSA compliance kicked in for Meta in August.",
+  "DSA penalties can reach 6% of global annual turnover, which for Meta could run to multiple billions.",
+  "The DSA crisis response mechanism won't operate until February 17 because it needs the European Board for Digital Services, which depends on Member States setting up national Digital Services Coordinators.",
+  "Elon Musk's X received an \"urgent\" EU warning and a formal request for information, and TikTok also received an EU warning about DSA content risks."
+ ],
+ "entities": [
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Owner of Facebook and Instagram; published blog post on its response to the Israel-Hamas war"
+  },
+  {
+   "name": "Hamas",
+   "type": "organization",
+   "role": "Militant group whose hostage-taking and threats to broadcast hostage footage prompted Meta's measures"
+  },
+  {
+   "name": "European Union",
+   "type": "organization",
+   "role": "Regulator that issued a content moderation warning to Meta, X and TikTok"
+  },
+  {
+   "name": "European Commission",
+   "type": "organization",
+   "role": "Designated 19 VLOPs under the DSA and may adopt the crisis response mechanism"
+  },
+  {
+   "name": "Digital Services Act",
+   "type": "program",
+   "role": "EU regulation placing obligations on VLOPs, with penalties up to 6% of global annual turnover"
+  },
+  {
+   "name": "European Board for Digital Services",
+   "type": "organization",
+   "role": "Advisory body that must be operational before the DSA crisis response mechanism can start"
+  },
+  {
+   "name": "Facebook",
+   "type": "product",
+   "role": "Meta platform designated a VLOP; site of livestream and content risks"
+  },
+  {
+   "name": "Instagram",
+   "type": "product",
+   "role": "Meta platform designated a VLOP; livestream checks prioritized"
+  },
+  {
+   "name": "X",
+   "type": "product",
+   "role": "Elon Musk's platform singled out by the EU with an urgent warning and request for information"
+  },
+  {
+   "name": "Elon Musk",
+   "type": "person",
+   "role": "Owner of X"
+  },
+  {
+   "name": "TikTok",
+   "type": "product",
+   "role": "Platform that also received an EU warning about DSA content risks"
+  },
+  {
+   "name": "Geneva Convention",
+   "type": "other",
+   "role": "Source of standards Meta cites for protecting kidnapping victims' safety and privacy"
+  },
+  {
+   "name": "Christchurch attacks",
+   "type": "event",
+   "role": "2019 New Zealand attacks, with a livestreamed shooting on Facebook, that prompted earlier Live restrictions"
+  },
+  {
+   "name": "Natasha Lomas",
+   "type": "person",
+   "role": "Author of the TechCrunch article"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "Publisher of the article"
+  }
+ ],
+ "tags": [
+  "meta",
+  "content-moderation",
+  "israel-hamas-war",
+  "digital-services-act",
+  "livestreaming",
+  "eu-regulation"
+ ],
+ "usage": {
+  "input_tokens": 2778,
+  "output_tokens": 1641
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "summary": "An excerpt from a fiction book (Book 10, part 50) in which Greg, a Google employee, confronts a pudgy, pale, curly-haired man who claims to work for a DC firm employed by Google. Greg threatens to go to the press, but the man counters with offers of money, a team role, and political work, which Greg rejects as an attempt to smear candidates. The scene mixes tense confrontation with odd domestic details like rinsing coffee beans.",
+ "one_line": "Greg, a Google employee, refuses a mysterious DC operative's offer to join a team and smear political candidates, threatening to go to the press.",
+ "key_facts": [
+  "Greg is confronted by a man who says he works for a DC firm in Google's employ, described as the inventors of swiftboating.",
+  "The man tells Greg, \"You're a Googler. You're part of the family.\"",
+  "Greg says, \"I'll go to the press,\" and claims he has written everything up.",
+  "The man says the Chronicle would try to find a confirming source and \"They won't find it.\"",
+  "The man says his work is \"the win-win business\" and that he is \"very good at it.\"",
+  "The man tells Greg to rinse the beans first because it \"takes some of the bitterness out and brings up the oils.\"",
+  "The man hangs his jacket over a kitchen chair, rolls up his cuffs, and slips a cheap digital watch into his pocket.",
+  "The man is described as a little pudgy, very pale, and in need of a haircut with unruly curls at his neck.",
+  "The man says, \"We're drafting a team for Building 49,\" and Greg replies, \"There is no building 49.\"",
+  "The man says the team will own googlecleaner, noting that Maya's code \"clobbers the whole farm\" every time someone runs it.",
+  "The man offers Greg money, good work, smart colleagues, and \"A chance to participate in the political life of your country.\"",
+  "Greg responds with a bitter laugh and says, \"If you think I'm going to help you smear political candidates in exchange for favors, you're even crazier than I thought.\""
+ ],
+ "entities": [
+  {
+   "name": "Greg",
+   "type": "person",
+   "role": "Google employee who is confronted by the man and threatens to go to the press"
+  },
+  {
+   "name": "Google",
+   "type": "organization",
+   "role": "employer of Greg and the firm the man works for through a DC firm"
+  },
+  {
+   "name": "Chronicle",
+   "type": "organization",
+   "role": "newspaper Greg could walk into the office of to spill everything"
+  },
+  {
+   "name": "SFO",
+   "type": "place",
+   "role": "airport where Greg landed, the day his profile looked the same as it does now"
+  },
+  {
+   "name": "Building 49",
+   "type": "place",
+   "role": "non-existent building that the team is supposedly being drafted for"
+  },
+  {
+   "name": "googlecleaner",
+   "type": "product",
+   "role": "code tool the team will own, which Maya wrote and which is inefficient and buggy"
+  },
+  {
+   "name": "Maya",
+   "type": "person",
+   "role": "author of the googlecleaner code, described as inefficient and buggy"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "thriller",
+  "google",
+  "political intrigue",
+  "confrontation"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1899,
+  "output_tokens": 1002
+ }
+}

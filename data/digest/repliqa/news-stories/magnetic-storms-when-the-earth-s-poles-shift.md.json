@@ -1,0 +1,104 @@
+{
+ "summary": "A narrative news-style piece describing a magnetic storm beginning September 14th, 2023 that signaled a shift of Earth's magnetic poles. It covers auroras seen near the equator, compass and navigation anomalies, a October 17th blackout on the US Eastern Seaboard, and disrupted bird migrations. It then turns to human responses, including community cooperation, adaptation, and storytelling, with quotes from scientists, engineers, a survivor, and fishers.",
+ "one_line": "A narrative account of a 2023 magnetic storm and pole shift, its blackouts and ecological disruption, and how people adapted and told stories about it.",
+ "key_facts": [
+  "A magnetic storm on September 14th, 2023 heralded the shifting of the Earth's magnetic poles.",
+  "In late September 2023, auroras were seen as far south as the equatorial belts.",
+  "Dr. Aiden Carrington called the auroras \"unmistakable evidence of the unrest within the heart of our planet—the magnetic fields are in flux.\"",
+  "Pilots reported navigational anomalies, with compasses spinning erratically.",
+  "The Brunhes-Matuyama reversal, about 780,000 years ago, was cited as a historical comparison for pole shifts.",
+  "On October 17th, an electrical blackout hit the Eastern Seaboard of the United States, darkening traffic lights, forcing hospitals onto backup generators and disrupting the internet.",
+  "Electrical engineer Sofia Rodriguez described the blackout as \"a surge from the heart of the Earth, coursing through our veins of power\"; the magnetic field induced currents in power lines that overwhelmed transformers.",
+  "Migratory birds veered off course in October 2023, causing ecological ripples for predator and prey.",
+  "The term 'geomagnetic apocalypse' entered common use as stock markets fluttered in panic.",
+  "87-year-old Margot Lewis, a survivor of the 1989 Quebec blackout, said \"We've been here before.\"",
+  "Yusef Amadou headed a farmer collective in Nigeria that shared crop strategies for altered bird and insect migration patterns.",
+  "Norwegian engineer Lars Johansen led an initiative to use heightened auroras for solar energy capture and spoke at an international conference on December 1st.",
+  "Hina Patel wrote the book \"Compass Rose\", whose protagonist is a physicist named Rose.",
+  "Chilean fisher Diego Torres adjusted his boat equipment because sea creatures behaved bizarrely due to magnetic disturbances."
+ ],
+ "entities": [
+  {
+   "name": "Dr. Aiden Carrington",
+   "type": "person",
+   "role": "Scientist who called the auroras evidence the magnetic fields are in flux"
+  },
+  {
+   "name": "Sofia Rodriguez",
+   "type": "person",
+   "role": "Electrical engineer who described the October 17th blackout"
+  },
+  {
+   "name": "Margot Lewis",
+   "type": "person",
+   "role": "87-year-old survivor of the 1989 Quebec blackout who shared wisdom online"
+  },
+  {
+   "name": "Yusef Amadou",
+   "type": "person",
+   "role": "Head of a farmer collective in Nigeria sharing crop strategies"
+  },
+  {
+   "name": "Lars Johansen",
+   "type": "person",
+   "role": "Norwegian engineer leading an initiative to harness auroras for solar energy"
+  },
+  {
+   "name": "Hina Patel",
+   "type": "person",
+   "role": "Young writer, author of \"Compass Rose\""
+  },
+  {
+   "name": "Diego Torres",
+   "type": "person",
+   "role": "Chilean fisher who adapted his practices to the changing sea"
+  },
+  {
+   "name": "Compass Rose",
+   "type": "product",
+   "role": "Book by Hina Patel about a physicist named Rose and Earth's geomagnetism"
+  },
+  {
+   "name": "Brunhes-Matuyama reversal",
+   "type": "event",
+   "role": "Pole shift about 780,000 years ago used as historical comparison"
+  },
+  {
+   "name": "1989 Quebec blackout",
+   "type": "event",
+   "role": "Earlier blackout survived by Margot Lewis"
+  },
+  {
+   "name": "Eastern Seaboard of the United States",
+   "type": "place",
+   "role": "Region hit by the October 17th blackout"
+  },
+  {
+   "name": "Nigeria",
+   "type": "place",
+   "role": "Location of Yusef Amadou's farmer collective"
+  },
+  {
+   "name": "Norway",
+   "type": "place",
+   "role": "Location of Lars Johansen's aurora solar energy initiative"
+  },
+  {
+   "name": "Chile",
+   "type": "place",
+   "role": "Home of fisher Diego Torres"
+  }
+ ],
+ "tags": [
+  "magnetic-poles",
+  "geomagnetic-storm",
+  "blackout",
+  "auroras",
+  "adaptation",
+  "news-story"
+ ],
+ "usage": {
+  "input_tokens": 2789,
+  "output_tokens": 1511
+ }
+}

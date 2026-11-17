@@ -1,0 +1,68 @@
+{
+ "summary": "This incident report reviews telecom outages since September 1, 2023, including CommFast and DataStream Networks failures, a cyberattack, and Hurricane Selena damage, and argues that current reactive regulation is inadequate. It identifies aging infrastructure, cyber threats, weather and weak accountability as causes. It recommends a proactive regime with audits, transparent communication, contingency planning, and graded penalties and incentives for resilience.",
+ "one_line": "Report on 2023 telecom outages and the case for proactive regulation, better accountability, cybersecurity and resilience incentives.",
+ "key_facts": [
+  "On September 15th, 2023, CommFast suffered a network outage affecting over two million users across the northeast United States.",
+  "On September 23rd, DataStream Networks reported a widespread service disruption across several states in the Midwest, which it attributed to a complex software failure.",
+  "A later investigation found DataStream Networks' outage was worsened by outdated routing equipment that could not handle traffic from a distributed denial-of-service (DDoS) attack.",
+  "FCC regulations require providers to report significant outages to the Commission, but there are no stringent mandates to promptly inform customers or to offer compensation or credit.",
+  "In the CommFast incident on October 4th, 2023, customers waited hours before receiving any official communication from the company.",
+  "On November 8th, 2023, an unnamed regional provider was hit by a sophisticated cyberattack that crippled its services for nearly a full workday.",
+  "Hurricane Selena battered the Southern coastline on October 21st, 2023, leaving thousands without communication services for days.",
+  "John Hutchins of the TechnoLegal Institute says the current regulatory framework is 'predominantly reactive' and fails to preemptively mitigate outage risk.",
+  "Emily Torres, a consumer rights advocate, says telecommunications is a public utility and regulators should enforce standards through 'a mix of carrots and sticks'.",
+  "The report says the regulatory model gives companies minimal incentives to invest in robust cybersecurity.",
+  "Proposed policies include regular infrastructure audits, more transparent communication protocols during outages, and contingency planning for cyberattacks and natural disasters.",
+  "The report suggests a graded penalty and incentive system weighing outage severity and duration, provider responsiveness, and investment in preventive measures.",
+  "Subsidies, tax breaks, or grants for research and development in network resilience technologies are proposed to encourage innovation."
+ ],
+ "entities": [
+  {
+   "name": "CommFast",
+   "type": "organization",
+   "role": "Major telecom company whose September 15th, 2023 outage hit over two million users and whose October 4th incident left customers uninformed"
+  },
+  {
+   "name": "DataStream Networks",
+   "type": "organization",
+   "role": "Provider with a Midwest outage on September 23rd, worsened by outdated routing equipment during a DDoS attack"
+  },
+  {
+   "name": "Federal Communications Commission (FCC)",
+   "type": "organization",
+   "role": "Regulator requiring providers to report significant outages"
+  },
+  {
+   "name": "John Hutchins",
+   "type": "person",
+   "role": "Telecommunications policy expert at the TechnoLegal Institute who calls regulation reactive"
+  },
+  {
+   "name": "TechnoLegal Institute",
+   "type": "organization",
+   "role": "Institution where John Hutchins works"
+  },
+  {
+   "name": "Emily Torres",
+   "type": "person",
+   "role": "Consumer rights advocate calling for high standards of reliability and transparency"
+  },
+  {
+   "name": "Hurricane Selena",
+   "type": "event",
+   "role": "Storm that hit the Southern coastline on October 21st, 2023 and disrupted communications for days"
+  }
+ ],
+ "tags": [
+  "telecommunications",
+  "outages",
+  "regulation",
+  "cybersecurity",
+  "infrastructure",
+  "incident-report"
+ ],
+ "usage": {
+  "input_tokens": 2979,
+  "output_tokens": 1216
+ }
+}

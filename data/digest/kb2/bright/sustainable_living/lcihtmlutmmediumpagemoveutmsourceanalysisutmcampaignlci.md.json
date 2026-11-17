@@ -1,0 +1,78 @@
+{
+ "summary": "This NREL Energy Analysis page describes the U.S. Life Cycle Inventory (USLCI) Database, created by NREL and partners to help life cycle assessment practitioners evaluate environmental impact of materials, components and assemblies in the U.S. It lists the project's goals, explains the Federal LCA Commons interagency community, and points to resources such as tutorials, a GitHub wiki, a submission handbook, a citation format and contact information.",
+ "one_line": "NREL's U.S. Life Cycle Inventory Database offers freely accessible life cycle assessment data on U.S. materials and processes, linked to the Federal LCA Commons.",
+ "key_facts": [
+  "NREL and its partners created the U.S. Life Cycle Inventory (USLCI) Database to help life cycle assessment practitioners answer questions about environmental impact.",
+  "The USLCI database provides gate-to-gate, cradle-to-gate, and cradle-to-grave accounting of energy and material flows into and out of the environment for producing a material, component, or assembly in the U.S.",
+  "USLCI project goals include maintaining data quality and transparency, covering commonly used U.S. materials, products and processes, and keeping compatibility with international life cycle inventory databases.",
+  "Other USLCI goals are to support expanded use of life cycle assessment as an environmental decision-making tool, provide exceptional data accessibility, be fully and sustainably supported, and support U.S. industry competitiveness.",
+  "The Federal LCA Commons (FLCAC) is an interagency community of practice for life cycle assessment research methods that shares expertise and makes federal data sets freely available through a web-based repository.",
+  "The FLCAC has been formalized through a memorandum of understanding among the United States Department of Agriculture, Department of Energy, and Environmental Protection Agency.",
+  "FLCAC aims to improve consistency in LCA methods across agencies and enhance public and agency access to data in a standardized searchable format.",
+  "NREL offers a video tutorial series called the NREL U.S. Life Cycle Inventory Database Quick Help Series.",
+  "Supporting information is on GitHub, including the USLCI Data Submission Handbook, Database Archives, Release Change Log, and Update Press Release.",
+  "The recommended citation is: \"U.S. Life Cycle Inventory Database.\" (2012). National Renewable Energy Laboratory, 2012. Accessed November 19, 2012: https://www.lcacommons.gov/nrel/search",
+  "Questions about USLCI can be sent to lci@nrel.gov; the listed contact is Alberta Carpenter, Environmental Engineer, Life Cycle Analysis.",
+  "NREL is a national laboratory of the U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, operated by the Alliance for Sustainable Energy LLC."
+ ],
+ "entities": [
+  {
+   "name": "National Renewable Energy Laboratory",
+   "type": "organization",
+   "role": "DOE national laboratory that created and hosts the USLCI Database"
+  },
+  {
+   "name": "U.S. Life Cycle Inventory Database",
+   "type": "product",
+   "role": "Database of life cycle inventory data on energy and material flows for U.S. products and processes"
+  },
+  {
+   "name": "Federal Life Cycle Assessment Commons",
+   "type": "program",
+   "role": "Interagency community of practice sharing LCA methods and federal data in a common repository"
+  },
+  {
+   "name": "United States Department of Agriculture",
+   "type": "organization",
+   "role": "Party to the FLCAC memorandum of understanding"
+  },
+  {
+   "name": "Department of Energy",
+   "type": "organization",
+   "role": "Party to the FLCAC memorandum of understanding; parent of NREL"
+  },
+  {
+   "name": "Environmental Protection Agency",
+   "type": "organization",
+   "role": "Party to the FLCAC memorandum of understanding"
+  },
+  {
+   "name": "Alberta Carpenter",
+   "type": "person",
+   "role": "Environmental Engineer, Life Cycle Analysis; NREL contact for USLCI"
+  },
+  {
+   "name": "Alliance for Sustainable Energy LLC",
+   "type": "organization",
+   "role": "Operator of NREL"
+  },
+  {
+   "name": "Office of Energy Efficiency and Renewable Energy",
+   "type": "organization",
+   "role": "DOE office under which NREL operates"
+  }
+ ],
+ "tags": [
+  "life cycle assessment",
+  "nrel",
+  "environmental data",
+  "federal data",
+  "sustainability",
+  "databases"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 4622,
+  "output_tokens": 1442
+ }
+}

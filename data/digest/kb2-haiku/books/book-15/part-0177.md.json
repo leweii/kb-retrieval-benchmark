@@ -1,0 +1,61 @@
+{
+ "summary": "In this excerpt from a fiction work titled 'Book 15 — part 177', Ray and Kilgore watch on a monitor as three large shed (creatures) appear in a ship's sub-deck area where they should not be. Ray is unsettled by their size and the danger they pose, and the ship's security panels and alarms switch to red. Becker, apparently in charge, demands answers, and Ray reports that the engineers appear dead and the shed have infiltrated the reactor cores. He then patches security images to Becker's remote terminals on Omicron, but Becker responds only with silence.",
+ "one_line": "On a ship, Ray watches three huge shed infiltrate the reactor cores and sets off red alarms while reporting to Becker.",
+ "key_facts": [
+  "Ray sees three shed on the monitor, which he finds impossible given how big they are.",
+  "Kilgore says, \"You didn't tell us they were so big.\"",
+  "Ray responds, \"I don't remember them being so big. Big, yes. But not that big.\"",
+  "Kilgore estimates the shed at roughly thirty meters, a rough guess without something to scale against.",
+  "The panels around Ray turn from green or yellow to red, and Klaxons sound with a pause-buzz pattern.",
+  "Becker screams in Ray's ear, \"What is going on down there, Marlowe?\"",
+  "Becker says \"All of the engineers are on that deck.\"",
+  "Ray replies, \"Then all of the engineers appear to be dead. And the shed have infiltrated the reactor cores.\"",
+  "Ray tells Becker, \"I'm way out of my depth here, Chief.\"",
+  "Ray gets Becker's sub-network id and patches images from the security station to the remote terminals on Omicron.",
+  "Becker responds to the patched images with a barrage of silence."
+ ],
+ "entities": [
+  {
+   "name": "Ray",
+   "type": "person",
+   "role": "narrator-viewpoint character watching the monitor, reporting to Becker and patching security images"
+  },
+  {
+   "name": "Marlowe",
+   "type": "person",
+   "role": "surname Becker uses to address Ray"
+  },
+  {
+   "name": "Kilgore",
+   "type": "person",
+   "role": "crew member who remarks on the size of the shed and estimates them at about thirty meters"
+  },
+  {
+   "name": "Becker",
+   "type": "person",
+   "role": "superior on the ship who demands updates and receives the patched security images"
+  },
+  {
+   "name": "shed",
+   "type": "other",
+   "role": "large creatures that have appeared in the sub-deck area and infiltrated the reactor cores"
+  },
+  {
+   "name": "Omicron",
+   "type": "place",
+   "role": "location of the remote terminals that receive the patched security images"
+  }
+ ],
+ "tags": [
+  "science fiction",
+  "ship emergency",
+  "reactor malfunction",
+  "alarms",
+  "fiction excerpt"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1681,
+  "output_tokens": 892
+ }
+}

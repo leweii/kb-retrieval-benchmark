@@ -1,0 +1,102 @@
+{
+ "summary": "The note is a historical analysis of major blackouts from 2024 to 2031 across the Eastern US, California, Tokyo, Europe, India, South America and Africa. It explains the cause of each event and the reforms that followed, such as grid modernization, cybersecurity mandates, demand-side management, international cooperation and microgrids. It closes by pointing to AI, machine learning and blockchain as future tools for grid stability.",
+ "one_line": "Overview of major blackouts from 2024 to 2031 worldwide, their causes, and the grid reforms and lessons that followed each one.",
+ "key_facts": [
+  "A power grid is an interconnected network delivering electricity from producers to consumers, made up of generation stations, transmission lines, substations, and distribution lines.",
+  "The Eastern Seaboard Blackout began on June 15, 2024, affecting over 50 million people; it was caused by human error and an overburdened transmission line.",
+  "The Federal Electricity Regulatory Commission (FERC) investigation, spearheaded by Dr. Emily Thomson, found aging infrastructure and a lack of real-time monitoring systems.",
+  "Utilities deployed Phasor Measurement Units (PMUs) for real-time monitoring of grid health after the Eastern Seaboard blackout.",
+  "David Huang emphasized diversifying energy portfolios and distributed generation after the 2025 Midwest Ice Storm Outage.",
+  "On August 22, 2026, California suffered its worst blackout in history, caused by a coordinated cyber-attack; Angela Ruiz led the forensic analysis.",
+  "Legislation after the 2026 California blackout mandated cybersecurity assessments and upgrades for critical infrastructure.",
+  "Tokyo's \"Power Wobble\" of March 2027 involved rapid demand fluctuations; it was averted through demand response programs and voltage reduction, and was documented by Kenji Tanaka.",
+  "Europe's September 2028 blackout was triggered by a failed interconnector between France and Spain; the European Grid Stability Initiative (EGSI) was established afterward.",
+  "After the May 2029 heatwave blackout in India, the government launched the Indian Grid Resilience Initiative (IGRI), led by Aarav Kumar, and expanded battery storage use.",
+  "The 2030 Continental Blackout in South America began as a localized failure in the Argentinian grid; Venezuelan energy minister Luis Moreno cited the cooperative recovery as a model.",
+  "The November 2031 outage across North and Sub-Saharan Africa was triggered by natural factors; the African Union responded with regional initiatives and microgrids."
+ ],
+ "entities": [
+  {
+   "name": "Federal Electricity Regulatory Commission (FERC)",
+   "type": "organization",
+   "role": "Led investigations into the 2024 Eastern Seaboard Blackout"
+  },
+  {
+   "name": "Dr. Emily Thomson",
+   "type": "person",
+   "role": "Spearheaded the FERC investigation of the Eastern Seaboard Blackout"
+  },
+  {
+   "name": "David Huang",
+   "type": "person",
+   "role": "Analyst who emphasized distributed generation and diversified energy portfolios after the 2025 Midwest Ice Storm Outage"
+  },
+  {
+   "name": "Angela Ruiz",
+   "type": "person",
+   "role": "Cybersecurity expert who led forensic analysis of the 2026 California blackout"
+  },
+  {
+   "name": "Kenji Tanaka",
+   "type": "person",
+   "role": "Japanese energy strategist who documented Tokyo's Power Wobble"
+  },
+  {
+   "name": "Maria Schneider",
+   "type": "person",
+   "role": "Analyst who argued for stronger international cooperation after Europe's 2028 blackout"
+  },
+  {
+   "name": "European Grid Stability Initiative (EGSI)",
+   "type": "program",
+   "role": "Established after the 2028 blackout to enhance collaboration between European countries"
+  },
+  {
+   "name": "Indian Grid Resilience Initiative (IGRI)",
+   "type": "program",
+   "role": "Government initiative launched after the 2029 blackout focused on capacity building, climate adaptation and emergency preparedness"
+  },
+  {
+   "name": "Aarav Kumar",
+   "type": "person",
+   "role": "Grid expert who led the IGRI"
+  },
+  {
+   "name": "Luis Moreno",
+   "type": "person",
+   "role": "Venezuelan energy minister who cited the 2030 recovery as an example of geopolitical energy partnerships"
+  },
+  {
+   "name": "Nia Moyo",
+   "type": "person",
+   "role": "Analyst who said the 2031 African blackout exposed grid and cross-border trading inadequacies"
+  },
+  {
+   "name": "African Union",
+   "type": "organization",
+   "role": "Launched regional initiatives for energy independence and microgrids after the 2031 blackout"
+  },
+  {
+   "name": "Phasor Measurement Units (PMUs)",
+   "type": "product",
+   "role": "Technology deployed for real-time grid monitoring"
+  },
+  {
+   "name": "Eastern Seaboard Blackout of 2024",
+   "type": "event",
+   "role": "June 15, 2024 blackout affecting over 50 million people"
+  }
+ ],
+ "tags": [
+  "blackouts",
+  "power-grid",
+  "grid-resilience",
+  "cybersecurity",
+  "energy-policy",
+  "incident-analysis"
+ ],
+ "usage": {
+  "input_tokens": 3209,
+  "output_tokens": 1679
+ }
+}

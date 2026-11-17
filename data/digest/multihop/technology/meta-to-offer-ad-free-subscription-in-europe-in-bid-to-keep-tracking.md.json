@@ -1,0 +1,103 @@
+{
+ "summary": "Meta will launch an ad-free paid subscription for Facebook and Instagram in the EU, EEA and Switzerland from November 2023, framing it as a consent-based alternative to tracking after EU rulings removed its other legal bases for ad profiling. Privacy advocates like noyb argue the 'pay or be tracked' model is not freely given consent and the fees are not 'appropriate'. Irish DPC, Norway's DPA and the European Commission (via the DSA and DMA) may still intervene, as the model has not been signed off.",
+ "one_line": "Meta will offer a paid ad-free Facebook and Instagram subscription in Europe, drawing criticism that 'pay or be tracked' is not valid GDPR consent.",
+ "key_facts": [
+  "Meta will offer an ad-free subscription of Facebook and Instagram in the EU, EEA and Switzerland, available from the month after the October 30, 2023 announcement.",
+  "The fee is €9.99/month on web or €12.99/month on iOS or Android for linked Facebook and Instagram accounts in a user's Accounts Center.",
+  "After March 1, 2024, an additional fee of €6/month on web and €8/month on iOS or Android applies for each additional account in a user's Account Center.",
+  "A single-account user would pay almost €120 per year on web or just over €155 on mobile to avoid tracking.",
+  "Meta relies on a 2023 CJEU ruling that allowed an 'appropriate fee' for an equivalent alternative service 'if necessary'.",
+  "Max Schrems of noyb said 'I don't think €160 a year is what they had in mind' and called the CJEU wording a non-binding 'obiter dictum'.",
+  "The Irish DPC says Meta notified it on July 27 of its consent-based model and agreed, at the DPC's direction, to bring the date forward from February 2024 to November 2023.",
+  "The DPC's assessment of the consent model, done with other European supervisory authorities, had not concluded and no findings had been made.",
+  "The CJEU delivered judgment on July 4, 2023 on the legal bases for Meta's processing of user data for behavioural advertising.",
+  "Norway's DPA, which has a local ban on Meta's tracking ads, doubts the subscription would constitute valid consent.",
+  "The European Commission oversees DSA compliance for very large platforms and is the sole enforcer of the DMA, under which Meta is a designated gatekeeper.",
+  "The subscription is offered only to people aged 18 and up; Meta says it is still exploring ad experiences for teens.",
+  "noyb has challenged similar 'pay or okay' practices by news publishers since 2021 through complaints to data protection authorities."
+ ],
+ "entities": [
+  {
+   "name": "Meta",
+   "type": "organization",
+   "role": "Owner of Facebook and Instagram launching the ad-free subscription in Europe"
+  },
+  {
+   "name": "Facebook",
+   "type": "product",
+   "role": "Social network offered in an ad-free subscription version"
+  },
+  {
+   "name": "Instagram",
+   "type": "product",
+   "role": "Social network offered in an ad-free subscription version"
+  },
+  {
+   "name": "noyb",
+   "type": "organization",
+   "role": "European privacy rights group driving strategic litigation against Meta's tracking"
+  },
+  {
+   "name": "Max Schrems",
+   "type": "person",
+   "role": "noyb founder and honorary chairman who criticised the fee"
+  },
+  {
+   "name": "CJEU",
+   "type": "organization",
+   "role": "EU top court whose ruling Meta relies on for an 'appropriate fee'"
+  },
+  {
+   "name": "Data Protection Commission (DPC)",
+   "type": "organization",
+   "role": "Ireland's regulator, Meta's lead GDPR regulator, assessing the consent model"
+  },
+  {
+   "name": "Norway's DPA",
+   "type": "organization",
+   "role": "Data protection authority with a local ban on Meta's tracking ads, doubtful about the plan"
+  },
+  {
+   "name": "European Commission",
+   "type": "organization",
+   "role": "Oversees DSA compliance and sole enforcer of the DMA"
+  },
+  {
+   "name": "General Data Protection Regulation (GDPR)",
+   "type": "other",
+   "role": "EU data protection law requiring freely given consent"
+  },
+  {
+   "name": "Digital Services Act (DSA)",
+   "type": "other",
+   "role": "Pan-EU law setting conditions on tracking and profiling for ads by large platforms"
+  },
+  {
+   "name": "Digital Markets Act (DMA)",
+   "type": "other",
+   "role": "Regulation designating Meta a gatekeeper and limiting data use for ads"
+  },
+  {
+   "name": "WSJ",
+   "type": "organization",
+   "role": "Reported earlier in October on Meta's plans to charge users"
+  },
+  {
+   "name": "Natasha Lomas",
+   "type": "person",
+   "role": "TechCrunch author of the article"
+  }
+ ],
+ "tags": [
+  "meta",
+  "gdpr",
+  "privacy",
+  "advertising",
+  "eu-regulation",
+  "subscriptions"
+ ],
+ "usage": {
+  "input_tokens": 3300,
+  "output_tokens": 1555
+ }
+}

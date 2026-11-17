@@ -1,0 +1,107 @@
+{
+ "summary": "The note covers the first week of Sam Bankman-Fried's fraud trial in Manhattan, where former MIT friends and FTX insiders Gary Wang and Adam Yedidia testified against him, along with Paradigm's Matt Huang. Wang, who pleaded guilty and is cooperating, described code giving Alameda unlimited withdrawals and a $65 billion line of credit, while Yedidia described flagging $8 billion in missing customer money. Ellison is expected to testify next as the prosecution's star witness.",
+ "one_line": "Former FTX co-founder Gary Wang and engineer Adam Yedidia testified against Sam Bankman-Fried about code that let Alameda draw customer funds.",
+ "key_facts": [
+  "Gary Wang, FTX's lesser-known co-founder and technology chief, told the court he committed financial crimes including wire and commodities fraud with Sam Bankman-Fried, Nishad Singh and Caroline Ellison.",
+  "Bankman-Fried faces seven federal charges, including wire fraud, securities fraud and money laundering, and the trial is set to last six weeks; Ellison is expected to testify Tuesday.",
+  "Wang testified that code in FTX's software gave Alameda unlimited withdrawals, negative balances and a $65 billion line of credit, resulting in Alameda owing FTX $8 billion in customer deposits.",
+  "Wang said the 'bug' was written by Nishad Singh, FTX's director of engineering, and reviewed by Wang, with Bankman-Fried 'calling the shots'.",
+  "In late 2021 Wang discovered Alameda had withdrawn $3 billion from its $65 billion line of credit.",
+  "Wang said an emergency meeting on shutting down Alameda ended without action because it had no way to repay a roughly $14 billion hole in its books.",
+  "Wang pleaded guilty in December, faces up to 50 years in prison, and signed a six-page cooperation agreement with prosecutors.",
+  "Wang owned 10% of Alameda and roughly 17% of FTX, with a base salary of $200,000 per year plus stock.",
+  "Adam Yedidia testified that in June 2022 he gave Bankman-Fried a Signal report showing $8 billion in customer money missing, and that Bankman-Fried said 'we were bulletproof last year. We aren't bulletproof this year.'",
+  "Yedidia earned a base salary of $175,000 to $200,000 plus bonuses of more than $12 million in cash and equity, mostly reinvested in FTX, and now teaches high school math.",
+  "Yedidia said Bankman-Fried assumed 'it's just Alameda paying for it' regarding rent on the $35 million Bahamas penthouse, home to a Signal thread called 'People of the House'.",
+  "Matt Huang of Paradigm testified the firm invested over $275 million in FTX, now wiped out, after Bankman-Fried assured him funds would not go to Alameda and that Alameda had no preferential treatment."
+ ],
+ "entities": [
+  {
+   "name": "Sam Bankman-Fried",
+   "type": "person",
+   "role": "FTX founder and defendant on trial for fraud and money laundering"
+  },
+  {
+   "name": "Gary Wang",
+   "type": "person",
+   "role": "FTX co-founder and technology chief; cooperating witness who pleaded guilty"
+  },
+  {
+   "name": "Adam Yedidia",
+   "type": "person",
+   "role": "Former FTX engineer and MIT friend of Bankman-Fried; prosecution witness"
+  },
+  {
+   "name": "Matt Huang",
+   "type": "person",
+   "role": "Co-founder and managing partner of Paradigm; testified about due diligence on FTX"
+  },
+  {
+   "name": "Caroline Ellison",
+   "type": "person",
+   "role": "Former Alameda Research head and Bankman-Fried's ex-girlfriend; expected star witness who pleaded guilty"
+  },
+  {
+   "name": "Nishad Singh",
+   "type": "person",
+   "role": "FTX director of engineering who wrote the code bug"
+  },
+  {
+   "name": "Nicolas Roos",
+   "type": "person",
+   "role": "Assistant U.S. Attorney questioning witnesses"
+  },
+  {
+   "name": "Lewis Kaplan",
+   "type": "person",
+   "role": "U.S. District Judge presiding over the trial"
+  },
+  {
+   "name": "Christian Everdell",
+   "type": "person",
+   "role": "Bankman-Fried's attorney who cross-examined Yedidia"
+  },
+  {
+   "name": "FTX",
+   "type": "organization",
+   "role": "Bankrupt crypto exchange founded by Bankman-Fried"
+  },
+  {
+   "name": "Alameda Research",
+   "type": "organization",
+   "role": "Sister hedge fund with special privileges on FTX"
+  },
+  {
+   "name": "Paradigm",
+   "type": "organization",
+   "role": "Crypto venture capital firm that invested over $275 million in FTX"
+  },
+  {
+   "name": "Bahamas Securities Commission",
+   "type": "organization",
+   "role": "Regulator Bankman-Fried and Wang drove to meet on Nov. 12"
+  },
+  {
+   "name": "Massachusetts Institute of Technology",
+   "type": "organization",
+   "role": "School where Wang and Yedidia knew Bankman-Fried"
+  },
+  {
+   "name": "Nassau",
+   "type": "place",
+   "role": "Bahamas location of the resort pickleball court where Yedidia spoke with Bankman-Fried"
+  }
+ ],
+ "tags": [
+  "ftx",
+  "sam-bankman-fried",
+  "crypto-fraud",
+  "trial",
+  "alameda-research",
+  "bahamas"
+ ],
+ "usage": {
+  "input_tokens": 5275,
+  "output_tokens": 1765
+ }
+}

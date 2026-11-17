@@ -1,0 +1,108 @@
+{
+ "summary": "Antibiotic-resistant 'superbugs' kill millions and are growing, while few new antibiotics are in development and most remain vulnerable to resistance. Scientists are developing alternatives such as phage therapy, CRISPR-Cas, peptide nucleic acids and lysins that aim to kill bacteria without promoting resistance. Until these are ready, antibiotic stewardship in hospitals and elsewhere is needed to slow the spread of resistance.",
+ "one_line": "Superbugs are rising as antibiotics fail, and phages, CRISPR, designer molecules and lysins are emerging alternatives while stewardship slows resistance.",
+ "key_facts": [
+  "In 2019, antibiotic-resistant bacteria directly killed roughly 1.27 million people worldwide and contributed to an additional 3.68 million deaths.",
+  "In the U.S., drug-resistant bacteria and fungi cause an estimated 2.8 million infections and 35,000 deaths each year.",
+  "Seven of the 18 concerning bacteria tracked by the CDC are becoming more resistant to common antibiotics.",
+  "Fewer than 30 antibiotics in the development pipeline target WHO 'priority' bacteria, and most are still vulnerable to resistance.",
+  "A survivor of the 2016 Brussels Airport bombing was cleared of drug-resistant Klebsiella pneumoniae only by combining antibiotics with an experimental phage treatment.",
+  "Phage therapy uses bacteria-infecting viruses; Paul Turner of Yale says global use would not lead to the same widespread resistance as antibiotics, since phages can target a protein found in only one or a few strains.",
+  "The phage U136B enters E. coli via an efflux pump, so E. coli changing the pump to escape the phage reduces its ability to pump out antibiotics.",
+  "So far phage therapy has mostly been used under 'compassionate use' and in an observational study of 100 patients, but in clinical trials it generally hasn't outperformed standard antibiotics or a placebo.",
+  "Chase Beisel co-founded Locus Biosciences, which is testing a CRISPR-enhanced phage therapy in a midstage trial of roughly 800 people; Beisel expects such treatments in a five- to 10-year time frame.",
+  "Peptide nucleic acids (PNAs) block bacterial protein production by binding specific mRNA, but are still tested only in lab dishes and animals and not yet in humans.",
+  "Lysins are phage enzymes that slice open bacterial cell walls; some have entered mid- and late-stage trials with hundreds of participants as add-ons to antibiotics, with mixed results.",
+  "Bacteria acquire resistance through random DNA mutations or by swapping resistance genes through horizontal gene transfer.",
+  "Dr. Shruti Gohil of the INSPIRE-ASP Trials says stewardship, such as confirming bacterial infection, auditing prescriptions and restricting broad-spectrum drugs, lowers population-level risk."
+ ],
+ "entities": [
+  {
+   "name": "Chase Beisel",
+   "type": "person",
+   "role": "Leader of the RNA synthetic biology research group at the Helmholtz Institute for RNA-based Infection Research; Locus Biosciences co-founder"
+  },
+  {
+   "name": "Paul Turner",
+   "type": "person",
+   "role": "Director of the Center for Phage Biology and Therapy at Yale University; phage therapy expert"
+  },
+  {
+   "name": "Dr. Shruti Gohil",
+   "type": "person",
+   "role": "Lead investigator of four INSPIRE-ASP Trials on hospital antibiotic use"
+  },
+  {
+   "name": "Locus Biosciences",
+   "type": "organization",
+   "role": "Biotech company testing a CRISPR-enhanced phage therapy in a midstage trial"
+  },
+  {
+   "name": "Centers for Disease Control and Prevention",
+   "type": "organization",
+   "role": "Tracks 18 concerning bacteria and publishes resistance fact sheets"
+  },
+  {
+   "name": "World Health Organization",
+   "type": "organization",
+   "role": "Defines 'priority' bacteria for antibiotic development"
+  },
+  {
+   "name": "Helmholtz Institute for RNA-based Infection Research",
+   "type": "organization",
+   "role": "German institute where Beisel leads a research group"
+  },
+  {
+   "name": "Yale University",
+   "type": "organization",
+   "role": "Home of Paul Turner's Center for Phage Biology and Therapy"
+  },
+  {
+   "name": "INSPIRE-ASP Trials",
+   "type": "program",
+   "role": "Federally funded research to improve hospitals' antibiotic use"
+  },
+  {
+   "name": "Klebsiella pneumoniae",
+   "type": "other",
+   "role": "Drug-resistant bacterial strain that infected the Brussels bombing survivor"
+  },
+  {
+   "name": "Brussels Airport",
+   "type": "place",
+   "role": "Site of the 2016 bombing whose victim had a superbug infection"
+  },
+  {
+   "name": "U136B",
+   "type": "other",
+   "role": "Phage that infects E. coli through its efflux pump"
+  },
+  {
+   "name": "CRISPR-Cas",
+   "type": "other",
+   "role": "Bacterial immune system with Cas protein scissors, being adapted to destroy bacterial DNA"
+  },
+  {
+   "name": "Peptide nucleic acids (PNAs)",
+   "type": "other",
+   "role": "Lab-made molecules that block bacterial protein production"
+  },
+  {
+   "name": "Lysins",
+   "type": "other",
+   "role": "Phage enzymes that tear open bacterial cell walls"
+  }
+ ],
+ "tags": [
+  "antibiotic-resistance",
+  "superbugs",
+  "phage-therapy",
+  "crispr",
+  "infectious-disease",
+  "antibiotic-stewardship"
+ ],
+ "usage": {
+  "input_tokens": 5852,
+  "output_tokens": 1820
+ }
+}

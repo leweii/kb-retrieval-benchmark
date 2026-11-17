@@ -1,0 +1,139 @@
+{
+ "summary": "The ITC ruled that Apple infringed two Masimo pulse oximetry patents and set an import ban on the Apple Watch Series 9 and Ultra 2 from December 26th, with Apple pulling the watches from sale beforehand. Experts say a presidential veto is very unlikely, so Apple's realistic options are an appeal, a software or hardware workaround that disables or alters blood oxygen sensing, a licensing deal with Masimo, or US manufacturing. The article also compares this case to the AliveCor EKG dispute and notes the ban's limited near-term impact, since the SE is unaffected and resellers can still sell existing inventory.",
+ "one_line": "The ITC's Masimo patent ruling bans imports of the Apple Watch Series 9 and Ultra 2, and Apple's options to avoid it are limited and slow or costly.",
+ "key_facts": [
+  "The US International Trade Commission (ITC) ruled that Apple infringed two patents from medical device maker Masimo, and set an import ban on the Apple Watch Series 9 and Ultra 2 starting December 26th.",
+  "Apple pulled the watches from its online store starting December 21st at 3PM ET, and they will disappear from Apple Stores after the 24th.",
+  "The dispute began about 10 years ago when Apple approached Masimo about a blood oxygen partnership; Apple reportedly later poached several Masimo engineers and its chief medical officer.",
+  "The Apple Watch Series 6, released in fall 2020, was Apple's first watch with an SpO2 sensor.",
+  "In 2020 Masimo sued Apple in the US District Court in the Central District of California over trade secrets and 10 patents, then filed a separate ITC case in 2021; Apple sued Masimo back last year, claiming the Masimo W1 Medical Watch is an Apple Watch clone.",
+  "The ITC ruled in January 2023 that Apple Watches infringed Masimo patents and issued the import ban in October; a 60-day presidential review period lets President Joe Biden or the USTR veto it.",
+  "Andrei Iancu, a former USPTO director (2018-2021), says it is 'extraordinarily rare' for the President to overturn an ITC decision and unlikely here.",
+  "Barack Obama vetoed an iPhone import ban in 2013 in a Samsung dispute because of FRAND licensing concerns over standard essential patents; Apple has no such argument now.",
+  "The ban affects a $17 billion segment of Apple's business; Apple has said it is pursuing 'a range of legal and technical options', but an appeal can take around 18 months and a stay is unlikely.",
+  "The entry-level Apple Watch SE is unaffected because it has no blood oxygen sensing, and Bloomberg reports Apple engineers are altering blood oxygen algorithms to submit a workaround to US customs.",
+  "Iancu says a workaround must be significant enough to avoid the patent and not a 'colorable' difference; Masimo claims the patents are hardware related, so disabling the sensor in software may not suffice.",
+  "Masimo has reportedly spent $60 million on litigation, and CEO Joe Kiani said Apple 'had not engaged in licensing negotiations'.",
+  "In February the Biden administration declined to veto an ITC import ban over AliveCor's EKG claims, but it has had no effect because the Patent Trial and Appeal Board ruled AliveCor's EKG tech unpatentable.",
+  "Third-party resellers can still sell their existing Series 9 and Ultra 2 inventory during the ban."
+ ],
+ "entities": [
+  {
+   "name": "Apple",
+   "type": "organization",
+   "role": "Maker of the Apple Watch, found to infringe Masimo patents and facing the import ban"
+  },
+  {
+   "name": "Masimo",
+   "type": "organization",
+   "role": "Medical device maker known for pulse oximetry tech, whose patents Apple infringed"
+  },
+  {
+   "name": "US International Trade Commission (ITC)",
+   "type": "organization",
+   "role": "Ruled Apple infringed Masimo patents and issued the import ban"
+  },
+  {
+   "name": "Apple Watch Series 9",
+   "type": "product",
+   "role": "Model covered by the import ban"
+  },
+  {
+   "name": "Apple Watch Ultra 2",
+   "type": "product",
+   "role": "Model covered by the import ban"
+  },
+  {
+   "name": "Apple Watch SE",
+   "type": "product",
+   "role": "Entry-level model unaffected because it lacks blood oxygen sensing"
+  },
+  {
+   "name": "Apple Watch Series 6",
+   "type": "product",
+   "role": "First Apple Watch with an SpO2 sensor, released fall 2020"
+  },
+  {
+   "name": "Masimo W1 Medical Watch",
+   "type": "product",
+   "role": "Masimo watch Apple claimed was an Apple Watch clone"
+  },
+  {
+   "name": "Victoria Song",
+   "type": "person",
+   "role": "Author of the article and wearables reviewer"
+  },
+  {
+   "name": "Ben Levi",
+   "type": "person",
+   "role": "Partner at Levi Snotherly & Schaumberg, experienced in ITC disputes"
+  },
+  {
+   "name": "Andrei Iancu",
+   "type": "person",
+   "role": "Co-chair of C4IP, partner at Sullivan & Cromwell LLP, former USPTO director"
+  },
+  {
+   "name": "Smith Brittingham",
+   "type": "person",
+   "role": "Partner at Finnegan, Henderson, Farabow, Garrett & Dunner, LLP"
+  },
+  {
+   "name": "Joe Biden",
+   "type": "person",
+   "role": "US President who could veto the ban during the review period"
+  },
+  {
+   "name": "Barack Obama",
+   "type": "person",
+   "role": "Vetoed a 2013 iPhone import ban in the Samsung dispute"
+  },
+  {
+   "name": "Samsung",
+   "type": "organization",
+   "role": "Accused Apple of infringing cellular data patents in the 2013 case"
+  },
+  {
+   "name": "Nikki Rothberg",
+   "type": "person",
+   "role": "Apple spokesperson who gave a statement to The Verge"
+  },
+  {
+   "name": "Joe Kiani",
+   "type": "person",
+   "role": "Masimo CEO who said Apple had not engaged in licensing negotiations"
+  },
+  {
+   "name": "AliveCor",
+   "type": "organization",
+   "role": "Company in a separate ITC dispute with Apple over EKG features"
+  },
+  {
+   "name": "Patent Trial and Appeal Board",
+   "type": "organization",
+   "role": "Ruled AliveCor's EKG tech isn't patentable"
+  },
+  {
+   "name": "US Trade Representative (USTR)",
+   "type": "organization",
+   "role": "Can veto the ITC ban along with the President"
+  },
+  {
+   "name": "Bloomberg",
+   "type": "organization",
+   "role": "Reported Apple engineers are altering blood oxygen algorithms"
+  }
+ ],
+ "tags": [
+  "apple-watch",
+  "patents",
+  "import-ban",
+  "masimo",
+  "wearables",
+  "itc"
+ ],
+ "usage": {
+  "input_tokens": 4945,
+  "output_tokens": 2188
+ }
+}

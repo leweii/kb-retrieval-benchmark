@@ -1,0 +1,105 @@
+{
+ "summary": "A local news listicle describes ten infrastructure projects approved by the city council in autumn 2023, including bridge expansion, road revitalization, a public plaza, a library renovation and transit upgrades. Each entry gives approval dates, start or completion timelines and key features, with several championed by named council members. The article frames the projects as a forward-thinking investment in the city's growth and sustainability.",
+ "one_line": "The city council approved ten major infrastructure projects in fall 2023, from the Grand Bridge expansion to transit upgrades, with varied timelines.",
+ "key_facts": [
+  "The Grand Bridge Expansion Project is championed by Councilwoman Patricia Lee and set to begin late November 2023; it adds two lanes, a dedicated bicycle track and pedestrian walkways.",
+  "The Old Town Roads revitalization was approved at a council meeting on October 5, 2023, is set to start early 2024, and includes smart traffic systems.",
+  "Councilman Rajiv Singh's East-West Corridor enhancement proposal received unanimous support on September 15th 2023, with wider key points, better lighting and traffic management systems.",
+  "The Green Oasis Public Plaza, spearheaded by Councilwoman Emily Torres, is set for groundbreaking in January 2024 and features interactive water features, open-air performance spaces, solar panels and rainwater harvesting.",
+  "The Spruce Street Overpass repair was unanimously prioritized at the September 22 council session; reinforcement, seismic retrofitting and aesthetic upgrades are scheduled for completion by third quarter 2024.",
+  "The Downtown Skyline Project was approved on September 29, 2023, and involves high-rise commercial, residential and recreational structures inspired by local cultural traditions.",
+  "The Northside Recreation Center was approved at a special meeting on September 9, 2023, and will include an Olympic-sized swimming pool, indoor track, multiple sports courts and accessible design for people with disabilities.",
+  "The Maple Drive Connector passed narrowly, is scheduled for completion in late 2023, and is designed with minimal environmental impact to ease traffic between two busy neighborhoods.",
+  "The City Central Library Renovation was approved on October 12, 2023, to restore the historical facade, modernize interiors and enhance digital infrastructure.",
+  "The transit system upgrade was approved on September 30, 2023, and includes eco-friendly buses, expanded routes and smart ticketing services."
+ ],
+ "entities": [
+  {
+   "name": "City Council",
+   "type": "organization",
+   "role": "Body that approved the ten infrastructure projects"
+  },
+  {
+   "name": "Patricia Lee",
+   "type": "person",
+   "role": "Councilwoman championing the Grand Bridge Expansion Project"
+  },
+  {
+   "name": "Rajiv Singh",
+   "type": "person",
+   "role": "Councilman whose East-West Corridor enhancement proposal won unanimous support"
+  },
+  {
+   "name": "Emily Torres",
+   "type": "person",
+   "role": "Councilwoman spearheading the Green Oasis Public Plaza"
+  },
+  {
+   "name": "Grand Bridge",
+   "type": "place",
+   "role": "Essential link across the city's main river, to be expanded"
+  },
+  {
+   "name": "Old Town",
+   "type": "place",
+   "role": "Historic district whose roads will be upgraded"
+  },
+  {
+   "name": "East-West Corridor",
+   "type": "place",
+   "role": "Link for suburban commuters slated for an overhaul"
+  },
+  {
+   "name": "Green Oasis Public Plaza",
+   "type": "program",
+   "role": "Planned new social hub with sustainable features"
+  },
+  {
+   "name": "Spruce Street Overpass",
+   "type": "place",
+   "role": "Overpass used daily by travelers from northeast suburbs, to be repaired and retrofitted"
+  },
+  {
+   "name": "Downtown Skyline Project",
+   "type": "program",
+   "role": "High-rise development to transform the central business district"
+  },
+  {
+   "name": "Northside Recreation Center",
+   "type": "place",
+   "role": "Planned community wellness facility"
+  },
+  {
+   "name": "Maple Drive Connector",
+   "type": "program",
+   "role": "Minor artery project easing traffic between two busy neighborhoods"
+  },
+  {
+   "name": "City Central Library",
+   "type": "place",
+   "role": "Library to be renovated"
+  },
+  {
+   "name": "Seattle",
+   "type": "place",
+   "role": "Referenced as location of the northeast suburbs served by the Spruce Street Overpass"
+  },
+  {
+   "name": "Toronto",
+   "type": "place",
+   "role": "Referenced as location of neighborhoods linked by the Maple Drive Connector"
+  }
+ ],
+ "tags": [
+  "infrastructure",
+  "city-council",
+  "urban-planning",
+  "local-news",
+  "transportation",
+  "public-works"
+ ],
+ "usage": {
+  "input_tokens": 2461,
+  "output_tokens": 1482
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "summary": "Mashable's running roundup of 200+ Amazon Cyber Monday 2023 deals, updated Nov. 27, 2023, covering Echo, Fire TV, Kindle, Apple, TVs, laptops, headphones, gaming, kitchen, smart home and more. Amazon stretched its sale into 11 days, starting Black Friday deals Nov. 17 and switching to Cyber Monday language Nov. 25. The article highlights standout picks with explanations and uses icons to mark new, all-time-low, invite-only and sold-out deals.",
+ "one_line": "Mashable's continually updated list of 200+ Amazon Cyber Monday 2023 deals across devices, Apple, TVs, laptops, audio, gaming, and home products.",
+ "key_facts": [
+  "Amazon stretched its Black Friday and Cyber Monday sales into 11 days of deals in 2023.",
+  "Amazon began its Black Friday sale in the early morning of Friday, Nov. 17, a week ahead of schedule.",
+  "Amazon switched to Cyber Monday language in the wee hours of Saturday, Nov. 25, and Cyber Monday mode runs through Monday, Nov. 27.",
+  "Mashable marks new deals with a ✨, all-time-low prices with a 🔥, and Amazon's invite-only Prime member deals with a 📨; struck-out deals were sold out or expired.",
+  "The featured Echo Show is under $40, has a 5.5-inch screen, and offers better sound than its predecessor.",
+  "Audible Premium Plus is $5.95/month instead of $14.95/month for four months (save $9/month) for new customers only, with an additional $20 Audible credit.",
+  "All Fire TVs come with a free 6-month subscription to MGM+, a $35.94 value.",
+  "The 10th generation 64GB iPad is $349, with a 10.9-inch Liquid Retina display (vs 10.2 inches on the 9th gen), an A14 Bionic chip, and USB-C charging.",
+  "The 64GB 9th generation iPad has been going in and out of stock and might be found for $229.99.",
+  "The featured 65-inch Amazon Fire TV hit its lowest ever price this month, offers 4K QLED resolution and Alexa voice control, and has a 66 percent five-star review rating.",
+  "The Microsoft Surface Laptop Go 3 is $599.99 (25% off), matching the regular price of the older Surface Go 2, with a 12th gen Intel Core i5 processor versus the Go 2's 11th gen.",
+  "Bose QuietComfort 45 headphones are at a record-low $199, with top-of-the-line ANC and 20 hours of battery life, less than half the AirPods Max's sale price.",
+  "The Meta Quest 2 is $249 (down from $299.99) with a free $50 Amazon credit using code META50, at an all-time low."
+ ],
+ "entities": [
+  {
+   "name": "Amazon",
+   "type": "organization",
+   "role": "Retailer running the 11-day Black Friday and Cyber Monday sale"
+  },
+  {
+   "name": "Mashable",
+   "type": "organization",
+   "role": "Publisher curating the running list of deals"
+  },
+  {
+   "name": "Echo Show",
+   "type": "product",
+   "role": "Alexa smart screen with 5.5-inch display, under $40"
+  },
+  {
+   "name": "Alexa",
+   "type": "product",
+   "role": "Voice assistant used by Echo and Fire TV devices"
+  },
+  {
+   "name": "Audible Premium Plus",
+   "type": "product",
+   "role": "Amazon audiobook service on discount for new customers"
+  },
+  {
+   "name": "MGM+",
+   "type": "product",
+   "role": "Streaming service free for 6 months with Fire TVs"
+  },
+  {
+   "name": "iPad (10th generation)",
+   "type": "product",
+   "role": "Favorite Apple deal at $349"
+  },
+  {
+   "name": "iPad (9th generation)",
+   "type": "product",
+   "role": "64GB model going in and out of stock, possibly $229.99"
+  },
+  {
+   "name": "Amazon Fire TV 65-inch",
+   "type": "product",
+   "role": "4K QLED TV at its lowest ever price"
+  },
+  {
+   "name": "Microsoft Surface Laptop Go 3",
+   "type": "product",
+   "role": "Featured budget laptop at $599.99"
+  },
+  {
+   "name": "Microsoft Surface Go 2",
+   "type": "product",
+   "role": "Older budget laptop compared with the Go 3"
+  },
+  {
+   "name": "Bose QuietComfort 45",
+   "type": "product",
+   "role": "Featured over-ear ANC headphones at $199"
+  },
+  {
+   "name": "AirPods Max",
+   "type": "product",
+   "role": "Apple headphones used as price comparison"
+  },
+  {
+   "name": "Meta Quest 2",
+   "type": "product",
+   "role": "VR headset at $249 with $50 Amazon credit"
+  },
+  {
+   "name": "Cyber Monday",
+   "type": "event",
+   "role": "Shopping holiday on Nov. 27, 2023"
+  },
+  {
+   "name": "Black Friday",
+   "type": "event",
+   "role": "Sale that Amazon started Nov. 17 and rolled into Cyber Monday"
+  }
+ ],
+ "tags": [
+  "cyber-monday",
+  "amazon",
+  "deals",
+  "consumer-tech",
+  "black-friday",
+  "shopping"
+ ],
+ "usage": {
+  "input_tokens": 3096,
+  "output_tokens": 1657
+ }
+}

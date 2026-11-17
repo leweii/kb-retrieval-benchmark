@@ -1,0 +1,92 @@
+{
+ "summary": "TechCrunch reports on OpenAI's updated \"Preparedness Framework,\" which adds a cross-functional Safety Advisory Group above the technical teams and gives the board veto power over leadership's decisions on risky models. The framework rates models on four risk categories and blocks deployment of \"high\" risk models and further development of \"critical\" ones. The author questions whether the reshaped board, after November's shake-up, will actually use its veto, and notes transparency is addressed only by a promise of independent third-party audits.",
+ "one_line": "OpenAI updated its Preparedness Framework with a Safety Advisory Group and board veto power over risky AI, though the author doubts the board will use it.",
+ "key_facts": [
+  "OpenAI created a \"cross-functional Safety Advisory Group\" that sits above the technical teams, reviews their reports and makes recommendations to leadership and the board.",
+  "The board has been granted veto power and can reverse leadership's decisions on whether to ship a model.",
+  "OpenAI defines \"catastrophic risk\" as any risk that could result in hundreds of billions of dollars in economic damage or severe harm or death of many individuals, including existential risk.",
+  "In-production models are governed by a \"safety systems\" team, frontier models in development by the \"preparedness\" team, and theoretical \"superintelligent\" models by the \"superalignment\" team.",
+  "Models are rated on four risk categories: cybersecurity, \"persuasion\" (e.g., disinfo), model autonomy, and CBRN (chemical, biological, radiological, and nuclear threats).",
+  "After known mitigations, a model still rated \"high\" risk cannot be deployed, and a model with any \"critical\" risk will not be developed further.",
+  "In cybersecurity, a \"high\" risk model would identify and develop proofs-of-concept for high-value exploits against hardened targets without human intervention.",
+  "Recommendations from the Safety Advisory Group go simultaneously to the board and leadership, understood to mean CEO Sam Altman and CTO Mira Murati plus their lieutenants.",
+  "November's shake-up removed the board's two most \"decelerationist\" members: Ilya Sutskever (still at the company in a changed role) and Helen Toner (totally gone).",
+  "Bret Taylor and Larry Summers were appointed to the board; the author calls them sharp but not AI experts.",
+  "Transparency is not addressed beyond a promise that OpenAI will solicit audits from independent third parties.",
+  "The author asked OpenAI whether new risks like photorealistic fake video fall under \"persuasion\" or a new category, and said the post would be updated if OpenAI replied."
+ ],
+ "entities": [
+  {
+   "name": "OpenAI",
+   "type": "organization",
+   "role": "AI company expanding its internal safety processes and updating its Preparedness Framework"
+  },
+  {
+   "name": "Safety Advisory Group",
+   "type": "organization",
+   "role": "new cross-functional group sitting above technical teams, making risk recommendations"
+  },
+  {
+   "name": "Preparedness Framework",
+   "type": "program",
+   "role": "OpenAI's updated document for identifying, analyzing and deciding on catastrophic risks"
+  },
+  {
+   "name": "Ilya Sutskever",
+   "type": "person",
+   "role": "former \"decelerationist\" board member removed in November, still at the company in a changed role"
+  },
+  {
+   "name": "Helen Toner",
+   "type": "person",
+   "role": "former \"decelerationist\" board member, totally gone from OpenAI"
+  },
+  {
+   "name": "Sam Altman",
+   "type": "person",
+   "role": "OpenAI CEO who, with leadership, decides whether to ship a model"
+  },
+  {
+   "name": "Mira Murati",
+   "type": "person",
+   "role": "OpenAI CTO, part of the leadership receiving recommendations"
+  },
+  {
+   "name": "Bret Taylor",
+   "type": "person",
+   "role": "newly appointed board member described as money-minded, not an AI expert"
+  },
+  {
+   "name": "Larry Summers",
+   "type": "person",
+   "role": "newly appointed board member described as money-minded, not an AI expert"
+  },
+  {
+   "name": "ChatGPT",
+   "type": "product",
+   "role": "example of a deployed model whose systematic abuses the safety systems team mitigates"
+  },
+  {
+   "name": "TechCrunch",
+   "type": "organization",
+   "role": "publication that ran the article"
+  },
+  {
+   "name": "Devin Coldewey",
+   "type": "person",
+   "role": "author of the article"
+  }
+ ],
+ "tags": [
+  "openai",
+  "ai-safety",
+  "governance",
+  "preparedness-framework",
+  "board-oversight",
+  "risk-assessment"
+ ],
+ "usage": {
+  "input_tokens": 2703,
+  "output_tokens": 1447
+ }
+}

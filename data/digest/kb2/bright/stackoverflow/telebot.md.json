@@ -1,0 +1,81 @@
+{
+ "summary": "This is a clipped section of the pyTelegramBotAPI (telebot) reference documentation covering the synchronous TeleBot class. It lists the constructor parameters and a long series of methods and handler decorators wrapping the Telegram Bot API, such as sticker management, callback and inline query answers, payments, chat moderation, message copying, invite links and forum topics. The note is cut off in the middle of the create_forum_topic entry.",
+ "one_line": "Reference documentation for the synchronous TeleBot class in pyTelegramBotAPI, listing its constructor options, handlers and Telegram Bot API wrapper methods.",
+ "key_facts": [
+  "TeleBot is the main synchronous class for a Telegram bot in the telebot library; it lets you add handlers for different kinds of updates.",
+  "A TeleBot instance is created with `bot = TeleBot('token')`, where the token is obtained from @BotFather.",
+  "TeleBot constructor defaults: threaded=True, skip_pending=False, num_threads=2, last_update_id=0, suppress_middleware_excepions=False, use_class_middlewares=False, colorful_logs=False.",
+  "The state_storage parameter of TeleBot defaults to StateMemoryStorage(); colorful_logs=True requires installing the coloredlogs module.",
+  "add_sticker_to_set: emoji sticker sets can have up to 200 stickers, animated and video sets up to 50, and static sets up to 120; png_sticker must be up to 512 kilobytes with a side of exactly 512px.",
+  "answer_inline_query allows no more than 50 results per query, and switch_pm_parameter must be 1-64 characters using only A-Z, a-z, 0-9, _ and -.",
+  "answer_pre_checkout_query: the Bot API must receive an answer within 10 seconds after the pre-checkout query was sent.",
+  "answer_callback_query: the notification text is 0-200 characters; Telegram apps support client-side caching of the result starting in version 3.14.",
+  "ban_chat_member: if a user is banned for more than 366 days or less than 30 seconds from the current time, they are considered banned forever.",
+  "approve_chat_join_request requires the bot to be an administrator with the can_invite_users right.",
+  "The close() method returns error 429 during the first 10 minutes after the bot is launched, and the webhook must be deleted before calling it.",
+  "copy_message copies messages of any kind with a new caption of 0-1024 characters; copy_messages skips messages that can't be found or copied and cannot copy service, giveaway or invoice messages.",
+  "create_chat_invite_link accepts a name of 0-32 characters, and member_limit can't be specified if creates_join_request is True.",
+  "Handler decorators documented include callback_query_handler, channel_post_handler, chat_boost_handler, chat_join_request_handler, chat_member_handler and chosen_inline_handler.",
+  "close_forum_topic requires the can_manage_topics administrator right, unless the bot is the creator of the topic."
+ ],
+ "entities": [
+  {
+   "name": "TeleBot",
+   "type": "product",
+   "role": "main synchronous bot class of the telebot library, documented in this note"
+  },
+  {
+   "name": "telebot",
+   "type": "product",
+   "role": "Python library (pyTelegramBotAPI) that contains TeleBot and related classes"
+  },
+  {
+   "name": "@BotFather",
+   "type": "product",
+   "role": "Telegram bot from which a bot token is obtained"
+  },
+  {
+   "name": "Telegram",
+   "type": "organization",
+   "role": "messaging platform whose Bot API the library wraps"
+  },
+  {
+   "name": "ExceptionHandler",
+   "type": "product",
+   "role": "telebot class for handling exceptions while polling"
+  },
+  {
+   "name": "Handler",
+   "type": "product",
+   "role": "telebot class for next-step and reply handlers"
+  },
+  {
+   "name": "StateMemoryStorage",
+   "type": "product",
+   "role": "default state storage for TeleBot"
+  },
+  {
+   "name": "coloredlogs",
+   "type": "product",
+   "role": "module required for colorful_logs=True"
+  },
+  {
+   "name": "YouTube",
+   "type": "organization",
+   "role": "example service in the inline bot switch_pm_parameter description"
+  }
+ ],
+ "tags": [
+  "telegram",
+  "python",
+  "bot-api",
+  "telebot",
+  "api-reference",
+  "documentation"
+ ],
+ "category": "science & technology",
+ "usage": {
+  "input_tokens": 14028,
+  "output_tokens": 1374
+ }
+}

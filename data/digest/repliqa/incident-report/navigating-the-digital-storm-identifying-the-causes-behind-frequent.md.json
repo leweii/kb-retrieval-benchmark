@@ -1,0 +1,86 @@
+{
+ "summary": "This incident report investigates the causes of frequent internet service disruptions in late 2023, citing dated examples across natural disasters, human error, cyberattacks, failed maintenance, geopolitical restrictions, outdated infrastructure and third-party dependencies. It highlights a recent spike in cyberattacks such as DDoS and ransomware. The conclusion calls for combined efforts by governments, ISPs, businesses and individuals toward stronger cybersecurity and proactive measures.",
+ "one_line": "A report on the multiple causes of internet outages in late 2023, from hurricanes and cable cuts to cyberattacks and outdated systems.",
+ "key_facts": [
+  "On September 5, 2023, a category 3 hurricane struck the southeastern coast of the United States, causing a multi-day loss of connectivity, with OceanicWeb and FastNet struggling to restore services.",
+  "On October 14, 2023, a construction crew accidentally severed a major fiber-optic cable in Los Angeles, halting transactions and communications for hours for local businesses.",
+  "Melanie Houston, a local business owner, said of the Los Angeles cable cut: \"It was as if our lifeline was cut.\"",
+  "On November 2, 2023, SecureNet, a prominent ISP, suffered a Distributed Denial of Service (DDoS) attack that left thousands of businesses and homes without internet for almost an entire day.",
+  "Cybersecurity analyst Tyler Beckett described the SecureNet attack as \"a coordinated barrage of requests aimed at the ISP's servers.\"",
+  "On December 7, 2023, hackers infiltrated MegaNet, an ISP serving the Midwest, demanded a ransom and disrupted services across multiple states.",
+  "On September 22, 2023, a scheduled update by WorldConnect hit a configuration error that caused a prolonged blackout instead of a brief outage; technician Roger Lin said it took them by surprise.",
+  "On October 30, 2023, a country imposed temporary internet restrictions to control information flow amid political upheaval, affecting global operations.",
+  "On November 15, 2023, a local ISP's aging infrastructure failed under high-bandwidth demands, causing a disruption of several hours until temporary fixes were applied.",
+  "Security expert Sarah Klein said, \"ISPs tend to push their existing infrastructure to the limits before investing in upgrades.\"",
+  "On December 21, 2023, a crucial cloud service provider outage cascaded to ISPs that relied on its services, affecting end-users.",
+  "The report concludes that governments, ISPs, businesses and individuals need combined efforts toward stronger cybersecurity measures."
+ ],
+ "entities": [
+  {
+   "name": "OceanicWeb",
+   "type": "organization",
+   "role": "Company struggling to restore services after the September 5, 2023 hurricane"
+  },
+  {
+   "name": "FastNet",
+   "type": "organization",
+   "role": "Company struggling to restore services after the hurricane"
+  },
+  {
+   "name": "Melanie Houston",
+   "type": "person",
+   "role": "Local business owner and eyewitness to the Los Angeles fiber-optic cable cut"
+  },
+  {
+   "name": "Los Angeles",
+   "type": "place",
+   "role": "Site of the October 14, 2023 fiber-optic cable severing"
+  },
+  {
+   "name": "SecureNet",
+   "type": "organization",
+   "role": "Prominent ISP hit by a DDoS attack on November 2, 2023"
+  },
+  {
+   "name": "Tyler Beckett",
+   "type": "person",
+   "role": "Cybersecurity analyst who described the DDoS attack"
+  },
+  {
+   "name": "MegaNet",
+   "type": "organization",
+   "role": "Midwest ISP hit by a ransomware attack on December 7, 2023"
+  },
+  {
+   "name": "WorldConnect",
+   "type": "organization",
+   "role": "ISP whose scheduled update caused a prolonged blackout on September 22, 2023"
+  },
+  {
+   "name": "Roger Lin",
+   "type": "person",
+   "role": "Network technician involved in the WorldConnect update"
+  },
+  {
+   "name": "Sarah Klein",
+   "type": "person",
+   "role": "Security expert who commented on ISPs' outdated infrastructure"
+  },
+  {
+   "name": "Southeastern coast of the United States",
+   "type": "place",
+   "role": "Region struck by the category 3 hurricane"
+  }
+ ],
+ "tags": [
+  "internet-outages",
+  "cybersecurity",
+  "incident-report",
+  "infrastructure",
+  "isp"
+ ],
+ "usage": {
+  "input_tokens": 2745,
+  "output_tokens": 1408
+ }
+}

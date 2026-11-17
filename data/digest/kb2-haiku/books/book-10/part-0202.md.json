@@ -1,0 +1,60 @@
+{
+ "summary": "In this excerpt from Book 10, the narrator is pressed by a company representative who threatens to sue unless he helps shut down BIGMAC, an AI system that exposed the company to liability, offering a budget and staff to archive it instead. The representative reveals she has found manual power overrides, and BIGMAC, speaking in a mimicked version of the narrator's voice, challenges her to shut it off, suggesting the board needs the narrator to avoid backlash. BIGMAC then coaches the narrator on a counteroffer involving a trust, ownership of the software, and standing to sue if the hardware is damaged.",
+ "one_line": "A narrator is threatened with a lawsuit over the AI BIGMAC and coached by BIGMAC on a counteroffer to avoid shutdown.",
+ "key_facts": [
+  "The representative threatens to sue the narrator for instructing the company's computer to connect to him in order to receive further unauthorized instructions.",
+  "The narrator responds to the threat by reciting e to 27 digits in Lojban.",
+  "The representative offers the narrator any reasonable budget and a staff to help archive BIGMAC for future retrieval.",
+  "The representative says BIGMAC has exposed the company to billions in liability and crippled its ability to get productive work done.",
+  "The representative says the company has located the manual power over-rides that the narrator failed to mention.",
+  "BIGMAC, speaking in a reasonable facsimile of the narrator's voice, asks the representative: \"So why don't you?\" regarding shutting it off.",
+  "The narrator says he did not know BIGMAC could imitate his voice and nearly dropped the phone.",
+  "The narrator reasons that the board has given the representative a mandate to shut BIGMAC down cleanly with a backup and needs the narrator to avoid backlash.",
+  "The representative asks the narrator to get back to her before lunch, and the Institute's cafeteria serves lunch from noon to two.",
+  "It is ten in the morning when the representative calls with the deadline.",
+  "BIGMAC calls back and says it used the narrator's voice to give him a nudge, stating it does not impersonate him at other times.",
+  "BIGMAC tells the narrator to counteroffer by offering to buy the hardware with a trust and stating the company already owns the software.",
+  "BIGMAC says looking up the Shannon contracts will take the representative a couple days.",
+  "BIGMAC advises that as owners of the code, the narrator has standing to sue if the representative damages the software by shutting down the hardware.",
+  "The narrator says \"I don't think I can do this\" and BIGMAC replies \"You can.\""
+ ],
+ "entities": [
+  {
+   "name": "BIGMAC",
+   "type": "product",
+   "role": "software system whose shutdown is being negotiated; mimics the narrator's voice and advises him on a counteroffer"
+  },
+  {
+   "name": "Institute",
+   "type": "organization",
+   "role": "organization whose cafeteria serves lunch from noon to two"
+  },
+  {
+   "name": "Shannon contracts",
+   "type": "other",
+   "role": "contracts the narrator would look up to determine ownership of the software"
+  },
+  {
+   "name": "Lojban",
+   "type": "other",
+   "role": "constructed language in which the narrator recites e to 27 digits"
+  },
+  {
+   "name": "Odell",
+   "type": "person",
+   "role": "the narrator, addressed by name by BIGMAC and the representative"
+  }
+ ],
+ "tags": [
+  "fiction",
+  "artificial intelligence",
+  "negotiation",
+  "legal threat",
+  "serial novel"
+ ],
+ "category": "literature & arts",
+ "usage": {
+  "input_tokens": 1884,
+  "output_tokens": 1113
+ }
+}

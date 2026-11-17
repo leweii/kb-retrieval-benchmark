@@ -1,0 +1,132 @@
+{
+ "summary": "IoT Analytics' Digital Twin Market Report 2023–2027 projects the digital twin market to grow at about 30% CAGR from 2023 to 2027, backed by rising manufacturer adoption and job postings. The article defines digital twins with a 3D cuboid model and a software-only market scope, then examines four of eight trends: sustainability goals, virtual sensors, hyperscaler partnerships with OT and simulation firms, and interoperability initiatives. It closes with questions for vendors and adopters.",
+ "one_line": "IoT Analytics projects ~30% CAGR for the digital twin market through 2027 and details four trends: sustainability, virtual sensors, hyperscaler partnerships, and interoperability.",
+ "key_facts": [
+  "IoT Analytics' Digital Twin Market Report 2023–2027 projects a CAGR of approximately 30% for the global digital twin market between 2023 and 2027.",
+  "29% of global manufacturing companies have fully or partially implemented digital twin strategies, up from 20% in 2020.",
+  "The share of manufacturers not contemplating digital twins fell to 9% in 2023, down from 33.6% in 2020.",
+  "SimplyHired postings mentioning 'digital twin' rose 11% in October 2023 versus two years earlier, while most other tech topics declined; digital twin skills were among the fastest growing of 60 tracked tech skill sets.",
+  "IoT Analytics classifies digital twins in a cuboid model with life cycle phase (6), hierarchical level (5) and use/purpose (7), giving 210 potential combinations.",
+  "IoT Analytics' market model counts only software spending, split into a broad market (all software with digital twin capabilities) and a narrow market (digital twin-specific software); hardware and services are excluded.",
+  "Sustainability came up in about 21% of recent CEO earnings calls; per Capgemini Research Institute's 2022 report, 57% of organizations cited sustainability as a key driver of digital twin investment and 51% said twins would help achieve environmental goals.",
+  "Aden, a Chinese facility service provider, built a digital twin for a commercial center in Chengdu to help predict and optimize energy consumption, water usage and waste.",
+  "Siemens developed a prototype virtual sensor based on a digital twin to show the temperature inside large motors, viewable through AR headsets, avoiding unnecessary motor downtime.",
+  "In 2021 Siemens and AWS expanded their partnership to accelerate Siemens Xcelerator adoption using AWS IoT TwinMaker.",
+  "In 2023 Ansys and Microsoft, with Tata Consultancy Services, integrated Ansys Twin Builder simulation with Azure Digital Twin and IoT data.",
+  "Interoperability efforts include Plattform Industrie 4.0 with CESMII, the Digital Twin Consortium's Digital Twin System Interoperability Framework, and DTC liaison agreements with IDTA and the OPC Foundation."
+ ],
+ "entities": [
+  {
+   "name": "IoT Analytics",
+   "type": "organization",
+   "role": "Research firm that authored the Digital Twin Market Report 2023–2027 and the article"
+  },
+  {
+   "name": "Digital Twin Market Report 2023–2027",
+   "type": "product",
+   "role": "Report projecting ~30% CAGR and identifying eight digital twin trends"
+  },
+  {
+   "name": "SimplyHired",
+   "type": "organization",
+   "role": "Source of job posting data showing rising digital twin demand"
+  },
+  {
+   "name": "Capgemini Research Institute",
+   "type": "organization",
+   "role": "Published 2022 digital twins report on sustainability drivers"
+  },
+  {
+   "name": "Aden",
+   "type": "organization",
+   "role": "Chinese integrated facility service provider that built a digital twin in Chengdu"
+  },
+  {
+   "name": "Chengdu",
+   "type": "place",
+   "role": "Chinese city where Aden's digital twin commercial center is located"
+  },
+  {
+   "name": "Siemens",
+   "type": "organization",
+   "role": "Developed a virtual sensor prototype and partnered with AWS"
+  },
+  {
+   "name": "AWS",
+   "type": "organization",
+   "role": "Cloud hyperscaler offering AWS IoT TwinMaker, partnered with Siemens"
+  },
+  {
+   "name": "AWS IoT TwinMaker",
+   "type": "product",
+   "role": "AWS digital twin platform for combining multiple data sources"
+  },
+  {
+   "name": "Microsoft Azure",
+   "type": "organization",
+   "role": "Cloud hyperscaler offering Azure Digital Twins"
+  },
+  {
+   "name": "Azure Digital Twins",
+   "type": "product",
+   "role": "Microsoft digital twin platform integrated with Ansys Twin Builder"
+  },
+  {
+   "name": "Siemens Xcelerator",
+   "type": "product",
+   "role": "Siemens platform whose adoption the AWS partnership aimed to accelerate"
+  },
+  {
+   "name": "Ansys",
+   "type": "organization",
+   "role": "Simulation company partnered with Microsoft on large-scale digital twins"
+  },
+  {
+   "name": "Ansys Twin Builder",
+   "type": "product",
+   "role": "Physics-based simulation tool integrated with Azure Digital Twin"
+  },
+  {
+   "name": "Tata Consultancy Services",
+   "type": "organization",
+   "role": "Collaborated with Ansys and Microsoft on the integration"
+  },
+  {
+   "name": "Plattform Industrie 4.0",
+   "type": "organization",
+   "role": "German initiative partnered with CESMII on manufacturing standards"
+  },
+  {
+   "name": "Clean Energy Smart Manufacturing Innovation Institute (CESMII)",
+   "type": "organization",
+   "role": "US institute partnered with Plattform Industrie 4.0"
+  },
+  {
+   "name": "Digital Twin Consortium (DTC)",
+   "type": "organization",
+   "role": "Released the Digital Twin System Interoperability Framework and signed liaison agreements"
+  },
+  {
+   "name": "Industrial Digital Twin Association (IDTA)",
+   "type": "organization",
+   "role": "Signed a liaison agreement with DTC on standardization"
+  },
+  {
+   "name": "OPC Foundation",
+   "type": "organization",
+   "role": "Signed a liaison agreement with DTC to accelerate digital twin technologies"
+  }
+ ],
+ "tags": [
+  "digital-twins",
+  "market-research",
+  "iot",
+  "sustainability",
+  "interoperability",
+  "cloud-partnerships"
+ ],
+ "usage": {
+  "input_tokens": 5106,
+  "output_tokens": 2021
+ }
+}

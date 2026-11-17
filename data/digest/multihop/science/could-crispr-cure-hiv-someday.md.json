@@ -1,0 +1,102 @@
+{
+ "summary": "The article describes EBT-101, a one-dose CRISPR-Cas9 gene therapy for HIV now in the first human clinical trial of a gene-editing HIV treatment. Early results from three patients show no toxic effects or serious adverse events, but it is not yet known whether it cures HIV. Experts caution that off-target effects may take years to appear and that treatment interruption tests are needed to show whether latent HIV reservoirs are disabled.",
+ "one_line": "An early human trial of the CRISPR therapy EBT-101 shows initial safety for HIV, but whether it can cure the infection remains unknown.",
+ "key_facts": [
+  "EBT-101 is a CRISPR-Cas9 gene therapy for HIV; this is the first time a gene-editing treatment for HIV has been tried in humans.",
+  "CRISPR-Cas9 was developed in 2012, and the approach has been studied in animal models since then.",
+  "UNAIDS reports about 39 million people were living with HIV in 2022, with about 630,000 AIDS-related deaths that year.",
+  "Combination antiretroviral therapies (cARTs) extend lives to near-normal lengths but must be taken for a lifetime and are not a cure.",
+  "Latent HIV persists in CD4+ memory T cells, which can persist for decades, and dormant proviruses can reactivate if cART is interrupted.",
+  "EBT-101 uses multiple guides to target multiple genome sites and snip out large sections of latently integrated HIV DNA.",
+  "Kamel Khalili of Temple University, co-founder of Excision BioTherapeutics, has worked on developing EBT-101 for a decade.",
+  "Khalili's team published reports in 2020 and 2023 showing that EBT-100, a precursor, safely removed HIV DNA in infected primates.",
+  "Initial results from three treated patients showed no toxic effects or serious adverse events, and all patients' HIV is suppressed with cART.",
+  "Thomas Hope warns that genetic off-target mutations can take years to manifest as complications.",
+  "The trial will next test additional EBT-101 doses for safety, then check whether the virus stays suppressed when patients are taken off cART.",
+  "Participants will be enrolled in a 15-year long-term follow-up study after their initial dose.",
+  "A handful of people have been effectively cured of HIV through intensive stem-cell transplants."
+ ],
+ "entities": [
+  {
+   "name": "EBT-101",
+   "type": "product",
+   "role": "CRISPR-Cas9 gene therapy for HIV being tested in an early-stage human clinical trial"
+  },
+  {
+   "name": "EBT-100",
+   "type": "product",
+   "role": "precursor to EBT-101 that safely removed HIV DNA in infected primates"
+  },
+  {
+   "name": "CRISPR-Cas9",
+   "type": "product",
+   "role": "gene-editing tool used to target and cut HIV DNA"
+  },
+  {
+   "name": "Thomas Hope",
+   "type": "person",
+   "role": "Northwestern University professor of cell and developmental biology, not involved in the trial; commented on the results"
+  },
+  {
+   "name": "Elena Herrera-Carrillo",
+   "type": "person",
+   "role": "Associate professor of infectious disease at Amsterdam University Medical Centers; uses CRISPR to edit cells harboring HIV reservoirs"
+  },
+  {
+   "name": "Kamel Khalili",
+   "type": "person",
+   "role": "Temple University professor and co-founder of Excision BioTherapeutics who developed EBT-101"
+  },
+  {
+   "name": "Excision BioTherapeutics",
+   "type": "organization",
+   "role": "company developing EBT-101"
+  },
+  {
+   "name": "Temple University",
+   "type": "organization",
+   "role": "Khalili's institution"
+  },
+  {
+   "name": "Northwestern University",
+   "type": "organization",
+   "role": "Thomas Hope's institution"
+  },
+  {
+   "name": "Amsterdam University Medical Centers",
+   "type": "organization",
+   "role": "Herrera-Carrillo's institution"
+  },
+  {
+   "name": "UNAIDS",
+   "type": "organization",
+   "role": "source of global HIV and AIDS-related death statistics for 2022"
+  },
+  {
+   "name": "European Society for Gene and Cell Therapy",
+   "type": "organization",
+   "role": "held the annual meeting in Brussels where EBT-101 data were presented"
+  },
+  {
+   "name": "Brussels",
+   "type": "place",
+   "role": "location of the European Society for Gene and Cell Therapy annual meeting"
+  },
+  {
+   "name": "The Journal of Clinical Investigation",
+   "type": "organization",
+   "role": "published a 2020 review noting test-tube promise of CRISPR HIV therapy"
+  }
+ ],
+ "tags": [
+  "hiv",
+  "crispr",
+  "gene-therapy",
+  "clinical-trial",
+  "ebt-101"
+ ],
+ "usage": {
+  "input_tokens": 3144,
+  "output_tokens": 1488
+ }
+}

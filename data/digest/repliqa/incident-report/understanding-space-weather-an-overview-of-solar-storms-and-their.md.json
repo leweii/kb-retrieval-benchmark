@@ -1,0 +1,86 @@
+{
+ "summary": "The note surveys how solar storms and space weather affect modern infrastructure, using a series of 2023–2024 incidents and personal accounts. It covers power grid failures from geomagnetically induced currents, disruptions to GPS, internet, aviation and farming, and a community's response in Montague, Michigan. It closes by stressing efforts to build resilience through grid hardening, satellite shielding and better forecasting.",
+ "one_line": "Overview of 2023–2024 solar storm incidents disrupting power grids, communications, aviation and agriculture, and the growing push for infrastructure resilience.",
+ "key_facts": [
+  "On November 7, 2023, the sun expelled a Coronal Mass Ejection (CME) that headed toward Earth and triggered alerts from space weather forecasters and utility companies.",
+  "Auroras from the November 2023 CME were visible as far south as Texas.",
+  "On November 9, 2023, Duluth, Minnesota lost power around seven-thirty in the evening when the town's grid succumbed to a geomagnetic induced current (GIC); it was about twenty degrees outside.",
+  "Dr. Emily Rios of the National Renewable Energy Laboratory said GICs create extra currents that can overload transformers and other critical infrastructure, calling it 'a silent tsunami for the electrical world.'",
+  "On September 23, 2023, a moderate solar storm disrupted satellite communications, including GPS and internet connectivity, across parts of North America.",
+  "Julian Torres, a freelance web designer in Denver, Colorado, missed a crucial deadline during the September 23, 2023 storm because he could not reach his team or online resources.",
+  "Polar flight routes save time and fuel but are extremely vulnerable to space weather events.",
+  "On September 28, 2023, Captain Hardeep Singh's flight near the Arctic Circle lost reliable communications and had to reroute for safety, causing delays and added airline costs.",
+  "Montague, Michigan suffered back-to-back power outages from severe solar storms in early March 2024; local businesses provided warmth and food and emergency services implemented a solar storm response plan.",
+  "On October 14, 2023, a solar flare incident caused GPS accuracy drops that temporarily stalled precision farming operations, affecting farmers such as Sarah Phillips of Iowa.",
+  "Resilience priorities include hardening electrical grids, improving satellite shielding, and developing more accurate space weather forecasting models."
+ ],
+ "entities": [
+  {
+   "name": "Coronal Mass Ejection (CME)",
+   "type": "event",
+   "role": "Solar eruption of charged particles on November 7, 2023 that triggered auroras and power disruptions"
+  },
+  {
+   "name": "Martha Jensen",
+   "type": "person",
+   "role": "Duluth, Minnesota resident who recounted the November 9 blackout"
+  },
+  {
+   "name": "Duluth, Minnesota",
+   "type": "place",
+   "role": "Town that lost power on November 9, 2023 due to a GIC"
+  },
+  {
+   "name": "Dr. Emily Rios",
+   "type": "person",
+   "role": "Electrical engineer from the National Renewable Energy Laboratory who explained how GICs affect grids"
+  },
+  {
+   "name": "National Renewable Energy Laboratory",
+   "type": "organization",
+   "role": "Employer of Dr. Emily Rios"
+  },
+  {
+   "name": "Julian Torres",
+   "type": "person",
+   "role": "Freelance web designer in Denver whose work was disrupted by the September 23 storm"
+  },
+  {
+   "name": "Denver, Colorado",
+   "type": "place",
+   "role": "Location where Julian Torres experienced internet disruption"
+  },
+  {
+   "name": "Captain Hardeep Singh",
+   "type": "person",
+   "role": "Commercial airline pilot who rerouted a flight on September 28, 2023"
+  },
+  {
+   "name": "Montague, Michigan",
+   "type": "place",
+   "role": "Small town that endured outages in March 2024 and rallied community support"
+  },
+  {
+   "name": "Sarah Phillips",
+   "type": "person",
+   "role": "Iowa farmer whose operations were affected by GPS accuracy drops on October 14, 2023"
+  },
+  {
+   "name": "Texas",
+   "type": "place",
+   "role": "Southernmost point where auroras were seen during the November 2023 storm"
+  }
+ ],
+ "tags": [
+  "space-weather",
+  "solar-storms",
+  "power-grid",
+  "gps",
+  "infrastructure-resilience",
+  "aviation"
+ ],
+ "usage": {
+  "input_tokens": 2714,
+  "output_tokens": 1395
+ }
+}

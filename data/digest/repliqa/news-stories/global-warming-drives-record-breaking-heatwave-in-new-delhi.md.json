@@ -1,0 +1,99 @@
+{
+ "summary": "A news story on a record-breaking heatwave in New Delhi, where temperatures hit 47° Celsius and strained hospitals, the power grid, water supplies, schools, and farms. It quotes officials, doctors, workers, and residents on the effects and notes community solidarity efforts. It ends by calling for urgent coordinated action on climate change.",
+ "one_line": "New Delhi's record 47°C heatwave overwhelms hospitals, power, water, schools and agriculture, prompting calls for urgent climate action.",
+ "key_facts": [
+  "New Delhi temperatures rose to 47° Celsius (116.6° Fahrenheit) over the last week, breaking previous meteorological records.",
+  "Dr. Anaya Singh of the Terrestrial Climate Observation Center said the temperatures \"epitomize wider patterns of global warming; they can lead to serious health concerns or even mortality\".",
+  "The Municipal Corporation of Delhi set up cooling centers with air-conditioned shelters and free water stations across the city.",
+  "Hospital records show a sharp spike in heatstroke cases among elderly people and children.",
+  "Sanjeev Kumar, an emergency physician at AIIMS Hospital, reported an upsurge of patients with dehydration, heat exhaustion, or heatstroke.",
+  "The government encouraged citizens to stay indoors during peak hours; construction and agriculture slowed significantly.",
+  "Anita Roy, a construction manager, said teams cannot function efficiently and shorter working hours have hurt deadlines and the economy.",
+  "Schools across the city suspended classes or moved online, burdening families without sufficient home cooling; Asha Devi, mother of two primary school children, worries more about their health than education.",
+  "Rajesh Kumar, chief electrical engineer for the power distribution company, said energy demand exceeded forecasts and load shedding is being used to keep supply stable.",
+  "Frequent power outages occurred due to heavy use of air conditioners and cooling appliances.",
+  "Vijay Singh, a farmer on the outskirts of New Delhi, said crops have stunted growth from lack of water and cattle struggle to access it.",
+  "Reservoirs and rivers are drying up faster than anticipated, and rationing in several districts has created long lines at public taps.",
+  "Dr. Preethi Narang, a public health expert, warned that heatwaves increase respiratory issues, cardiovascular strain, and mental health impacts.",
+  "Raghav Mehta, an NGO worker in Pune, said community solidarity gives strength in facing the crisis."
+ ],
+ "entities": [
+  {
+   "name": "New Delhi",
+   "type": "place",
+   "role": "India's capital city hit by the record heatwave"
+  },
+  {
+   "name": "Dr. Anaya Singh",
+   "type": "person",
+   "role": "Climate scientist at the Terrestrial Climate Observation Center who linked the temperatures to global warming"
+  },
+  {
+   "name": "Terrestrial Climate Observation Center",
+   "type": "organization",
+   "role": "Climate research body employing Dr. Anaya Singh"
+  },
+  {
+   "name": "Municipal Corporation of Delhi",
+   "type": "organization",
+   "role": "Set up cooling centers and water stations"
+  },
+  {
+   "name": "Sanjeev Kumar",
+   "type": "person",
+   "role": "Emergency physician at AIIMS Hospital describing the surge in heat-related patients"
+  },
+  {
+   "name": "AIIMS Hospital",
+   "type": "organization",
+   "role": "Hospital whose emergency department is seeing heat-related cases"
+  },
+  {
+   "name": "Anita Roy",
+   "type": "person",
+   "role": "Construction manager describing reduced productivity"
+  },
+  {
+   "name": "Asha Devi",
+   "type": "person",
+   "role": "Mother of two primary school children worried about their health"
+  },
+  {
+   "name": "Rajesh Kumar",
+   "type": "person",
+   "role": "Chief electrical engineer for the power distribution company, discussing load shedding"
+  },
+  {
+   "name": "Vijay Singh",
+   "type": "person",
+   "role": "Farmer on the outskirts of New Delhi describing crop and cattle impacts"
+  },
+  {
+   "name": "Dr. Preethi Narang",
+   "type": "person",
+   "role": "Public health expert highlighting long-term health risks"
+  },
+  {
+   "name": "Raghav Mehta",
+   "type": "person",
+   "role": "NGO worker in Pune who spoke about community solidarity"
+  },
+  {
+   "name": "Pune",
+   "type": "place",
+   "role": "City where NGO worker Raghav Mehta is based"
+  }
+ ],
+ "tags": [
+  "heatwave",
+  "climate-change",
+  "new-delhi",
+  "public-health",
+  "infrastructure",
+  "agriculture"
+ ],
+ "usage": {
+  "input_tokens": 2754,
+  "output_tokens": 1461
+ }
+}
